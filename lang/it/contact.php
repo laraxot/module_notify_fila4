@@ -186,10 +186,15 @@ return [
             'title' => 'Errore Verifica',
             'message' => 'Impossibile verificare il contatto: :error',
 <<<<<<< HEAD
+<<<<<<< HEAD
         ],
     ],
 =======
         ]
     ]
 >>>>>>> b19cd40 (.)
+=======
+        ],
+    ],
+>>>>>>> 4e2ebfb (.)
 ];

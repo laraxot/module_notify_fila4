@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -67,6 +70,7 @@ final class NotificationLog extends BaseModel
 
     /**
      * Ottiene il notifiable associato a questo log.
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Carbon;
 use Modules\Predict\Models\Profile;
@@ -214,6 +218,8 @@ class NotificationLog extends Model
     /**
      * Get the notifiable entity.
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
      */
     public function notifiable(): MorphTo
     {
@@ -222,6 +228,9 @@ class NotificationLog extends Model
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -241,6 +250,7 @@ class NotificationLog extends Model
         Builder $query,
         NotificationLogStatusEnum $status,
     ): Builder {
+<<<<<<< HEAD
 =======
      * Get the notification template.
      *
@@ -260,11 +270,16 @@ class NotificationLog extends Model
     public function scopeWithStatus($query, string $status)
     {
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         return $query->where('status', $status);
     }
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -272,6 +287,7 @@ class NotificationLog extends Model
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
+<<<<<<< HEAD
 =======
      * Scope to filter by channel.
      *
@@ -376,5 +392,7 @@ class NotificationLog extends Model
     {
         return (string) __('notify::notification.fields.channel.options.'.$this->channel.'.label');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 }

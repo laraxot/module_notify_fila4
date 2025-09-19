@@ -5,10 +5,15 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
@@ -20,6 +25,9 @@ class ViewNotification extends XotBaseViewRecord
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
      * @return array<Component>
      */
     #[Override]
@@ -36,6 +44,7 @@ class ViewNotification extends XotBaseViewRecord
                 TextEntry::make('created_at')->dateTime(),
                 TextEntry::make('updated_at')->dateTime(),
             ]),
+<<<<<<< HEAD
 =======
      * @return array<\Filament\Schemas\Components\Component>
      */
@@ -57,6 +66,8 @@ class ViewNotification extends XotBaseViewRecord
                         ->dateTime(),
                 ])
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         ];
     }
 }

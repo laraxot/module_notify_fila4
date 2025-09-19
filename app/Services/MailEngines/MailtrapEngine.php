@@ -23,16 +23,23 @@ use Webmozart\Assert\Assert;
 class MailtrapEngine
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|string $from = null;
 =======
     public ?string $from = null;
 >>>>>>> b19cd40 (.)
+=======
+    public null|string $from = null;
+>>>>>>> 4e2ebfb (.)
 
     public string $to;
 
     public string $driver;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -40,6 +47,7 @@ class MailtrapEngine
     public static function getInstance(): self
     {
         if (!(self::$instance instanceof self)) {
+<<<<<<< HEAD
 =======
     public ?string $body = null;
 
@@ -49,6 +57,8 @@ class MailtrapEngine
     {
         if (! self::$instance instanceof self) {
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             self::$instance = new self();
         }
 
@@ -84,10 +94,14 @@ class MailtrapEngine
 
         // try {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
         Assert::string($this->body);
 >>>>>>> b19cd40 (.)
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 4e2ebfb (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
@@ -100,9 +114,13 @@ class MailtrapEngine
             $msg->to($to)->subject('Test Email');
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

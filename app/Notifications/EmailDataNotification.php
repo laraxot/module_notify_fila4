@@ -37,16 +37,22 @@ class EmailDataNotification extends Notification
      * Get the notification's delivery channels.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
      * @return array<string>
      */
     public function via(object $_notifiable): array
+<<<<<<< HEAD
 =======
      * @param object $notifiable The entity to be notified
      * @return array<string>
      */
     public function via(object $notifiable): array
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     {
         return ['mail'];
     }
@@ -60,6 +66,7 @@ class EmailDataNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
@@ -72,16 +79,27 @@ class EmailDataNotification extends Notification
 
         if (! empty($this->emailData->body_html)) {
 >>>>>>> b19cd40 (.)
+=======
+        $mailMessage = new MailMessage();
+        $mailMessage = $mailMessage->subject($this->emailData->subject);
+        $mailMessage = $mailMessage->line($this->emailData->body);
+
+        if (!empty($this->emailData->body_html)) {
+>>>>>>> 4e2ebfb (.)
             $mailMessage->view('notify::emails.template', [
                 'content' => $this->emailData->body_html,
             ]);
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
 =======
         if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
 >>>>>>> b19cd40 (.)
+=======
+        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+>>>>>>> 4e2ebfb (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
         }
 
