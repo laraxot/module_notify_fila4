@@ -4,48 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Override;
-=======
->>>>>>> b19cd40 (.)
-=======
-use Override;
->>>>>>> 4e2ebfb (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
-=======
-
-
-
-
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
-
-
-
-
->>>>>>> b19cd40 (.)
-=======
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-
->>>>>>> 4e2ebfb (.)
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -56,26 +27,6 @@ class ListNotifyThemes extends XotBaseListRecords
             'post_id' => TextColumn::make('post_id')->sortable(),
             'post_type' => TextColumn::make('post_type')->sortable(),
             'logo_src' => TextColumn::make('logo_src')->sortable(),
-<<<<<<< HEAD
-=======
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')
-                ->sortable(),
-            'lang' => TextColumn::make('lang')
-                ->sortable(),
-            'type' => TextColumn::make('type')
-                ->sortable(),
-            'post_id' => TextColumn::make('post_id')
-                ->sortable(),
-            'post_type' => TextColumn::make('post_type')
-                ->sortable(),
-            'logo_src' => TextColumn::make('logo_src')
-                ->sortable(),
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
@@ -87,10 +38,6 @@ class ListNotifyThemes extends XotBaseListRecords
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     #[Override]
     public function getTableFilters(): array
     {
@@ -106,27 +53,4 @@ class ListNotifyThemes extends XotBaseListRecords
             ),
         ];
     }
-<<<<<<< HEAD
-=======
-    public function getTableFilters(): array
-    {
-        return [
-            'lang' => SelectFilter::make('lang')
-                ->options(function (): array {
-                    return NotifyThemeResource::fieldOptions('lang');
-                }),
-            'post_type' => SelectFilter::make('post_type')
-                ->options(function (): array {
-                    return NotifyThemeResource::fieldOptions('post_type');
-                }),
-            'type' => SelectFilter::make('type')
-                ->options(function (): array {
-                    return NotifyThemeResource::fieldOptions('type');
-                })
-        ];
-    }
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 }

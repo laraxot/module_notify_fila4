@@ -13,15 +13,7 @@ use Modules\Notify\Datas\SmsData;
  * Class SmsNotification
  *
  * Notification class for sending SMS messages through various providers.
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> b19cd40 (.)
-=======
- *
->>>>>>> 4e2ebfb (.)
  * @package Modules\Notify\Notifications
  */
 class SmsNotification extends Notification implements ShouldQueue
@@ -55,15 +47,7 @@ class SmsNotification extends Notification implements ShouldQueue
         } else {
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             $this->smsData = new SmsData();
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
@@ -71,38 +55,17 @@ class SmsNotification extends Notification implements ShouldQueue
             /** @phpstan-ignore-next-line */
             $this->smsData->from = (string) $from;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         $this->config = $config;
     }
 
     /**
      * Get the notification's delivery channels.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
-<<<<<<< HEAD
-=======
-     * @param mixed $notifiable
-     * @return array<int, string>
-     */
-    public function via(mixed $notifiable): array
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     {
         // TODO: Implementare SmsChannel quando disponibile
         return ['sms'];
@@ -141,15 +104,7 @@ class SmsNotification extends Notification implements ShouldQueue
      *
      * @return string|null
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getProvider(): null|string
-=======
-    public function getProvider(): ?string
->>>>>>> b19cd40 (.)
-=======
-    public function getProvider(): null|string
->>>>>>> 4e2ebfb (.)
     {
         $provider = $this->config['provider'] ?? null;
         return is_string($provider) ? $provider : null;

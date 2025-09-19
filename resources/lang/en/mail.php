@@ -1,23 +1,11 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 
 return [
     'welcome' => [
         'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : ''),
-<<<<<<< HEAD
-=======
-return [
-    'welcome' => [
-        'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : 'SaluteOra'),
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         'greeting' => 'Hello :name,',
         'description' => 'Thank you for joining us. We\'re excited to have you on board!',
         'action' => 'Get Started',

@@ -9,25 +9,11 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 use Modules\Notify\Datas\TelegramData;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
 use function Safe\json_encode;
-<<<<<<< HEAD
-=======
-
-use Modules\Notify\Datas\TelegramData;
-use Spatie\QueueableAction\QueueableAction;
-use function Safe\json_encode;
-use function Safe\json_decode;
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
 final class SendOfficialTelegramAction
 {
@@ -38,15 +24,7 @@ final class SendOfficialTelegramAction
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $parseMode;
-=======
-    protected ?string $parseMode;
->>>>>>> b19cd40 (.)
-=======
-    protected null|string $parseMode;
->>>>>>> 4e2ebfb (.)
 
     /**
      * Create a new action instance.
@@ -67,17 +45,8 @@ final class SendOfficialTelegramAction
         $parseMode = config('telegram.parse_mode');
         $this->parseMode = $parseMode;
         $this->debug = (bool) config('telegram.debug', false);
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('telegram.timeout'), 30);
-=======
-        $this->timeout = app(SafeIntCastAction::class)->execute(config('telegram.timeout'), 30);
->>>>>>> b19cd40 (.)
-=======
-        $this->timeout = app(SafeIntCastAction::class)
-            ->execute(config('telegram.timeout'), 30);
->>>>>>> 4e2ebfb (.)
     }
 
     /**
@@ -97,28 +66,12 @@ final class SendOfficialTelegramAction
                 'type' => $telegramData->type,
             ]);
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'base_uri' => $this->apiUrl,
         ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
             'photo' => "/bot{$this->token}/sendPhoto",
@@ -128,24 +81,12 @@ final class SendOfficialTelegramAction
             'animation' => "/bot{$this->token}/sendAnimation",
             default => "/bot{$this->token}/sendMessage",
         };
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Prepara il payload in base al tipo di messaggio
         $payload = [
             'chat_id' => $telegramData->chatId,
             'disable_notification' => $telegramData->disableNotification,
         ];
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -155,105 +96,41 @@ final class SendOfficialTelegramAction
             $payload['reply_markup'] = json_encode($telegramData->replyMarkup);
         }
 
-<<<<<<< HEAD
-=======
-        
-        if ($telegramData->replyToMessageId !== null) {
-            $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
-        }
-        
-        if ($telegramData->replyMarkup !== null) {
-            $payload['reply_markup'] = json_encode($telegramData->replyMarkup);
-        }
-        
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         // Aggiungi parametri specifici per il tipo di messaggio
         if ($telegramData->type === 'text') {
             $payload['text'] = $telegramData->text;
             $payload['parse_mode'] = $telegramData->parseMode ?? $this->parseMode;
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
                 !empty($telegramData->media)
         ) {
-<<<<<<< HEAD
-=======
-        } elseif (in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation']) && !empty($telegramData->media)) {
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
             $payload['caption'] = $telegramData->text;
             $payload['parse_mode'] = $telegramData->parseMode ?? $this->parseMode;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
             ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
             $responseData = json_decode($responseContent, true);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             Log::info('Telegram inviato con successo', [
                 'chat_id' => $telegramData->chatId,
                 'response_code' => $statusCode,
             ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             return [
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
@@ -265,42 +142,18 @@ final class SendOfficialTelegramAction
             $statusCode = $response->getStatusCode();
             /** @var array $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             Log::warning('Errore invio Telegram', [
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
             return [
                 'success' => false,
                 'error' => $responseBody['description'] ?? 'Errore sconosciuto',
