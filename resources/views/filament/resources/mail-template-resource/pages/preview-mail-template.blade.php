@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <x-filament-panels::page>
     <div class="space-y-6">
         <div class="p-4 bg-white rounded-lg shadow">
@@ -36,13 +39,20 @@ declare(strict_types=1);
             </h3>
             <div class="mt-1">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     @foreach($this->record->variables as $key => $value)
                         <div class="col-span-1">
+=======
+                <x-filament::grid>
+                    @foreach($this->record->variables as $key => $value)
+                        <x-filament::grid.column>
+>>>>>>> b19cd40 (.)
                             <div class="p-2 bg-gray-50 rounded">
                                 <span class="font-medium">{{ $key }}:</span>
                                 <span class="text-gray-600">{{ $value }}</span>
                             </div>
+<<<<<<< HEAD
 =======
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     @foreach($this->record->variables as $key => $value)
@@ -57,3 +67,12 @@ declare(strict_types=1);
         </div>
     </div>
 </x-filament-panels::page>
+=======
+                        </x-filament::grid.column>
+                    @endforeach
+                </x-filament::grid>
+            </div>
+        </div>
+    </div>
+</x-filament-panels::page> 
+>>>>>>> b19cd40 (.)

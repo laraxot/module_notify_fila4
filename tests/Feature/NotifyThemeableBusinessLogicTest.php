@@ -3,8 +3,13 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+<<<<<<< HEAD
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
+=======
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+>>>>>>> b19cd40 (.)
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -125,8 +130,14 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $theme3->id,
         ]);
 
+<<<<<<< HEAD
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
             ->toHaveCount(3);
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')
+            ->where('model_id', 123)
+            ->get())->toHaveCount(3);
+>>>>>>> b19cd40 (.)
     });
 
     it('can handle theme switching', function () {
@@ -280,10 +291,18 @@ describe('Notify Themeable Business Logic', function () {
         $theme1Assignments = NotifyThemeable::where('notify_theme_id', $theme1->id)->get();
         expect($theme1Assignments)->toHaveCount(5);
 
+<<<<<<< HEAD
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
+=======
+        NotifyThemeable::where('notify_theme_id', $theme1->id)
+            ->update([
+                'notify_theme_id' => $theme2->id,
+                'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+            ]);
+>>>>>>> b19cd40 (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);

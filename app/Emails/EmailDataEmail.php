@@ -19,20 +19,34 @@ class EmailDataEmail extends Mailable
     use Queueable;
     use SerializesModels;
 
+<<<<<<< HEAD
     public function __construct(
         public EmailData $email_data,
     ) {}
+=======
+    public function __construct(public EmailData $email_data)
+    {
+    }
+>>>>>>> b19cd40 (.)
 
     /**
      * Get the message envelope.
      */
     public function envelope(): Envelope
     {
+<<<<<<< HEAD
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
+=======
+        if (null == $this->email_data->from) {
+            Assert::string($from = config('mail.from.name', 'Default Sender'));
+            $this->email_data->from = $from;
+        }
+        if (null == $this->email_data->from_email) {
+>>>>>>> b19cd40 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }

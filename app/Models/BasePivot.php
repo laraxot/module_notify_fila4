@@ -54,9 +54,17 @@ abstract class BasePivot extends Pivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+=======
+
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+
+>>>>>>> b19cd40 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

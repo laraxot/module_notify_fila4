@@ -5,16 +5,26 @@ declare(strict_types=1);
 namespace Modules\Notify\Notifications;
 
 use Illuminate\Bus\Queueable;
+<<<<<<< HEAD
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
 use Modules\Notify\Datas\WhatsAppData;
+=======
+use Modules\Notify\Datas\WhatsAppData;
+use Illuminate\Notifications\Notification;
+use Illuminate\Contracts\Queue\ShouldQueue;
+>>>>>>> b19cd40 (.)
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Class WhatsAppNotification
  *
  * Notification class for sending WhatsApp messages through various providers.
+<<<<<<< HEAD
  *
+=======
+ * 
+>>>>>>> b19cd40 (.)
  * @package Modules\Notify\Notifications
  */
 class WhatsAppNotification extends Notification implements ShouldQueue
@@ -48,25 +58,43 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         } else {
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? null;
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b19cd40 (.)
             /** @phpstan-ignore-next-line */
             $this->whatsappData = new WhatsAppData(
                 to: SafeStringCastAction::cast($to),
                 body: $content,
+<<<<<<< HEAD
                 from: $from !== null ? SafeStringCastAction::cast($from) : null,
             );
         }
 
+=======
+                from: $from !== null ? SafeStringCastAction::cast($from) : null
+            );
+        }
+        
+>>>>>>> b19cd40 (.)
         $this->config = $config;
     }
 
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
      * @param mixed $_notifiable L'entità da notificare
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
+=======
+     * @param mixed $notifiable
+     * @return array<int, string>
+     */
+    public function via(mixed $notifiable): array
+>>>>>>> b19cd40 (.)
     {
         // TODO: Implementare WhatsAppChannel quando disponibile
         return ['whatsapp'];
@@ -105,7 +133,11 @@ class WhatsAppNotification extends Notification implements ShouldQueue
      *
      * @return string|null
      */
+<<<<<<< HEAD
     public function getProvider(): null|string
+=======
+    public function getProvider(): ?string
+>>>>>>> b19cd40 (.)
     {
         $provider = $this->config['provider'] ?? null;
         return is_string($provider) ? $provider : null;
