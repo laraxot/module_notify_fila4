@@ -52,15 +52,9 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
-<<<<<<< HEAD
-        $mailMessage = new MailMessage();
-        $mailMessage = $mailMessage->subject($this->emailData->subject);
-        $mailMessage = $mailMessage->line($this->emailData->body);
-=======
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
->>>>>>> 518c702 (.)
 
         if (!empty($this->emailData->body_html)) {
             $mailMessage->view('notify::emails.template', [
