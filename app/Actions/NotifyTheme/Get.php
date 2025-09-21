@@ -20,10 +20,36 @@ class Get
     public function execute(string $name, string $type, array $view_params): NotifyThemeData
     {
         $xotData = XotData::make();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
         if (!isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (!isset($view_params['lang'])) {
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        if (! isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (! isset($view_params['lang'])) {
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        if (!isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (!isset($view_params['lang'])) {
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -34,15 +60,57 @@ class Get
                 'post_type' => $name,
                 'post_id' => $view_params['post_id'], // in questo caso il tipo come register type 3 in cui la pwd e' solo autogenerata
             ],
+<<<<<<< HEAD
             ['view_params' => []],
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            ['view_params' => []],
+=======
+            ['view_params' => []]
+>>>>>>> a12f125f4a (.)
+=======
+            ['view_params' => []],
+>>>>>>> b93ef594b4 (.)
+=======
+            ['view_params' => []]
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         );
 
         $module_name_low = Str::lower($xotData->main_module);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod.'.subject');
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+        $trad_mod = $module_name_low . '::' . $type . '.' . $name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod . '.subject');
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -51,8 +119,28 @@ class Get
         }
 
         if ($theme->body_html === null) {
+<<<<<<< HEAD
             $html = trans($trad_mod . '.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+=======
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+>>>>>>> a12f125f4a (.)
+=======
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+>>>>>>> b93ef594b4 (.)
+=======
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
                 $html = '##body_html##';
             }
 
@@ -97,9 +185,29 @@ class Get
                 }
             }
 
+<<<<<<< HEAD
             $view_params['logo'] =
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+=======
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+>>>>>>> a12f125f4a (.)
+=======
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+>>>>>>> b93ef594b4 (.)
+=======
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
 
@@ -107,8 +215,28 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
+<<<<<<< HEAD
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+=======
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+>>>>>>> a12f125f4a (.)
+=======
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+>>>>>>> b93ef594b4 (.)
+=======
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             }
         }
 
@@ -118,6 +246,14 @@ class Get
             $theme->update(['view_params' => $view_params]);
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
         return NotifyThemeData::from([
             'from_email' => $theme->from_email,
             'from' => $theme->from,
@@ -125,5 +261,27 @@ class Get
             'body_html' => $body_html,
             'view_params' => $view_params,
         ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+        return NotifyThemeData::from(
+            [
+                'from_email' => $theme->from_email,
+                'from' => $theme->from,
+                'subject' => $subject,
+                'body_html' => $body_html,
+                'view_params' => $view_params,
+            ]
+        );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 }
