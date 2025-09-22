@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 return [
     /*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
      * |--------------------------------------------------------------------------
      * | Company Configuration
      * |--------------------------------------------------------------------------
@@ -20,27 +12,6 @@ return [
      * | per project without modifying the module code.
      * |
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
-    |--------------------------------------------------------------------------
-    | Company Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Configuration for company-specific information that can be customized
-    | per project without modifying the module code.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     'company' => [
         'name' => env('COMPANY_NAME', 'Default Company'),
         'team' => env('COMPANY_TEAM', 'Default Team'),
@@ -48,12 +19,6 @@ return [
         'clinic_name' => env('CLINIC_NAME', 'Default Clinic'),
         'repository_url' => env('REPOSITORY_URL', 'https://github.com/example/repo'),
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Default Test Data
@@ -63,37 +28,6 @@ return [
      * | across different projects.
      * |
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-
-    /*
-    |--------------------------------------------------------------------------
-    | Default Test Data
-    |--------------------------------------------------------------------------
-    |
-    | Default values for test data that should be generic and reusable
-    | across different projects.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    /*
-     * |--------------------------------------------------------------------------
-     * | Default Test Data
-     * |--------------------------------------------------------------------------
-     * |
-     * | Default values for test data that should be generic and reusable
-     * | across different projects.
-     * |
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     'test_data' => [
         'default_subject' => 'Benvenuto su {{company_name}}',
         'default_content' => 'Grazie per esserti registrato al nostro servizio.',
@@ -105,12 +39,6 @@ return [
         'default_author' => '{{team_name}}',
         'default_repository' => '{{repository_url}}',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Webhook Configuration
@@ -119,46 +47,11 @@ return [
      * | Default webhook endpoints that can be customized per project.
      * |
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-
-    /*
-    |--------------------------------------------------------------------------
-    | Webhook Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Default webhook endpoints that can be customized per project.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    /*
-     * |--------------------------------------------------------------------------
-     * | Webhook Configuration
-     * |--------------------------------------------------------------------------
-     * |
-     * | Default webhook endpoints that can be customized per project.
-     * |
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     'webhooks' => [
         'notification_delivered' => '{{webhook_base}}/webhooks/notification-delivered',
         'notification_bounced' => '{{webhook_base}}/webhooks/notification-bounced',
         'notification_clicked' => '{{webhook_base}}/webhooks/notification-clicked',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Email Configuration
@@ -167,47 +60,12 @@ return [
      * | Default email settings that can be customized per project.
      * |
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-
-    /*
-    |--------------------------------------------------------------------------
-    | Email Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Default email settings that can be customized per project.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    /*
-     * |--------------------------------------------------------------------------
-     * | Email Configuration
-     * |--------------------------------------------------------------------------
-     * |
-     * | Default email settings that can be customized per project.
-     * |
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     'email' => [
         'default_from_address' => env('MAIL_FROM_ADDRESS', 'noreply@example.com'),
         'default_from_name' => env('MAIL_FROM_NAME', '{{company_name}}'),
         'default_admin_email' => env('ADMIN_EMAIL', 'admin@{{company_name}}.com'),
         'default_developer_email' => env('DEVELOPER_EMAIL', 'developer@{{company_name}}.com'),
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Path Configuration
@@ -216,45 +74,10 @@ return [
      * | Default paths that can be customized per project.
      * |
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-
-    /*
-    |--------------------------------------------------------------------------
-    | Path Configuration
-    |--------------------------------------------------------------------------
-    |
-    | Default paths that can be customized per project.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    /*
-     * |--------------------------------------------------------------------------
-     * | Path Configuration
-     * |--------------------------------------------------------------------------
-     * |
-     * | Default paths that can be customized per project.
-     * |
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     'paths' => [
         'default_avatar_path' => env('DEFAULT_AVATAR_PATH', '/images/avatars/default.svg'),
         'default_image_path' => env('DEFAULT_IMAGE_PATH', '/images/default.jpg'),
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Template Variables
@@ -263,35 +86,6 @@ return [
      * | Available template variables that can be used in notification templates.
      * |
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-
-    /*
-    |--------------------------------------------------------------------------
-    | Template Variables
-    |--------------------------------------------------------------------------
-    |
-    | Available template variables that can be used in notification templates.
-    |
-    */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    /*
-     * |--------------------------------------------------------------------------
-     * | Template Variables
-     * |--------------------------------------------------------------------------
-     * |
-     * | Available template variables that can be used in notification templates.
-     * |
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     'template_variables' => [
         'company_name' => '{{company_name}}',
         'team_name' => '{{team_name}}',
@@ -302,20 +96,4 @@ return [
         'appointment_date' => '{{appointment_date}}',
         'appointment_time' => '{{appointment_time}}',
     ],
-<<<<<<< HEAD
 ];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-];
-=======
-]; 
->>>>>>> a12f125f4a (.)
-=======
-];
->>>>>>> b93ef594b4 (.)
-=======
-]; 
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

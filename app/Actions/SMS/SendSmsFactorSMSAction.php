@@ -4,49 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
 use Override;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
-<<<<<<< HEAD
 use Modules\Notify\Datas\SMS\SmsFactorData;
 use Modules\Notify\Datas\SmsData;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Datas\SMS\SmsFactorData;
-use Modules\Notify\Datas\SmsData;
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\SmsFactorData;
->>>>>>> a12f125f4a (.)
-=======
-use Modules\Notify\Datas\SMS\SmsFactorData;
-use Modules\Notify\Datas\SmsData;
->>>>>>> b93ef594b4 (.)
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\SmsFactorData;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendSmsFactorSMSAction implements SmsActionContract
@@ -63,23 +29,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     protected bool $debug;
 
     /** @var string|null */
-<<<<<<< HEAD
     protected null|string $defaultSender = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected null|string $defaultSender = null;
-=======
-    protected ?string $defaultSender = null;
->>>>>>> a12f125f4a (.)
-=======
-    protected null|string $defaultSender = null;
->>>>>>> b93ef594b4 (.)
-=======
-    protected ?string $defaultSender = null;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     /**
      * Create a new action instance.
@@ -87,23 +37,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->smsFactorData = SmsFactorData::make();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         if (!$this->smsFactorData->token) {
             throw new Exception('Token SMSFactor non configurato in sms.php');
         }
@@ -121,21 +55,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
      * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();
@@ -163,23 +83,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
         $client = new Client([
             'timeout' => $this->smsFactorData->getTimeout(),
-<<<<<<< HEAD
             'headers' => $headers,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'headers' => $headers,
-=======
-            'headers' => $headers
->>>>>>> a12f125f4a (.)
-=======
-            'headers' => $headers,
->>>>>>> b93ef594b4 (.)
-=======
-            'headers' => $headers
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ]);
 
         try {
@@ -192,23 +96,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
             throw new Exception(
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
                 $clientException->getCode(),
-<<<<<<< HEAD
                 $clientException,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $clientException,
-=======
-                $clientException
->>>>>>> a12f125f4a (.)
-=======
-                $clientException,
->>>>>>> b93ef594b4 (.)
-=======
-                $clientException
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             );
         }
     }
