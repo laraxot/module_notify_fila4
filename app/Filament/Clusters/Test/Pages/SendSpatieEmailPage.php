@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\RichEditor;
@@ -58,11 +57,6 @@ class SendSpatieEmailPage extends XotBasePage
 
         // $this->editProfileForm->fill($data);
         $this->emailForm->fill();
-    }
-
-    public function emailForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
     public function getEmailFormSchema(): array

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+use Filament\Forms\Components\Group;
+use Filament\Forms\Components\View;
 use Override;
-use Filament\Schemas\Components\Group;
-use Filament\Schemas\Components\Utilities\Set;
+use Filament\Forms\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
-use Filament\Schemas\Components\View;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
@@ -42,7 +42,7 @@ class MailTemplateResource extends LangBaseResource
                         ->required()
                         //->live(debounce: 200)
                         //->reactive()
-                        ->afterStateUpdated(function (string $state, Set $set) {
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')

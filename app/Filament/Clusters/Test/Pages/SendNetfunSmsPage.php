@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 use Filament\Panel;
-use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Select;
@@ -65,11 +64,6 @@ class SendNetfunSmsPage extends XotBasePage
     protected function fillForms(): void
     {
         $this->smsForm->fill();
-    }
-
-    public function smsForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
     public function getSmsFormSchema(): array

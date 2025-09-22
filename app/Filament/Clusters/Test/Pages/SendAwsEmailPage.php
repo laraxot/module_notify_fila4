@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Filament\Forms\Form;
 use Filament\Panel;
-use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
@@ -28,7 +28,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * 
  */
 class SendAwsEmailPage extends XotBasePage
 {
@@ -65,11 +65,6 @@ class SendAwsEmailPage extends XotBasePage
     protected function fillForms(): void
     {
         $this->emailForm->fill();
-    }
-
-    public function emailForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
     public function getEmailFormSchema(): array

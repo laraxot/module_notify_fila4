@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
+use Filament\Forms\Form;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -27,7 +27,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * 
  */
 class TestSmtpPage extends XotBasePage implements HasForms
 {
@@ -46,51 +46,6 @@ class TestSmtpPage extends XotBasePage implements HasForms
     public function mount(): void
     {
         $this->fillForms();
-    }
-
-    public function emailForm(Schema $schema): Schema
-    {
-        Assert::isArray($mail_config = config('mail'));
-        $smtpConfig = Arr::get($mail_config, 'mailers.smtp');
-
-        $this->emailData['subject'] = 'test';
-        $defaultEmail = XotData::make()->super_admin;
-
-        return $schema->components([
-            Section::make('SMTP')
-                ->schema([
-                    TextInput::make('host'),
-                    // ->default($smtpConfig['host'])
-                    TextInput::make('port')->numeric(),
-                    // ->default($smtpConfig['port'])
-                    TextInput::make('username'),
-                    // ->default($smtpConfig['username'])
-                    TextInput::make('password'),
-                    // ->default($smtpConfig['password'])
-                    TextInput::make('encryption'),
-                    // ->default($smtpConfig['encryption'])
-                ])
-                ->columns(3),
-            Section::make('MAIL')
-                ->schema([
-                    TextInput::make('from_email')
-                        // ->default(config('mail.from.address', $defaultEmail))
-                        ->email()
-                        ->required(),
-                    TextInput::make('from'),
-                    // ->default(config('mail.from.name'))
-                    TextInput::make('to')
-                        // ->default($defaultEmail)
-                        ->email()
-                        ->required(),
-                    TextInput::make('subject')->default('test')->required(),
-                    RichEditor::make('body_html')
-                        ->default('test body')
-                        ->required()
-                        ->columnSpanFull(),
-                ])
-                ->columns(3),
-        ])->statePath('emailData');
     }
 
     public function sendEmail(): void

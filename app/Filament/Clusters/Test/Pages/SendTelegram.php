@@ -9,7 +9,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -32,7 +33,7 @@ use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * 
  */
 class SendTelegram extends Page implements HasForms
 {
@@ -51,28 +52,6 @@ class SendTelegram extends Page implements HasForms
     public function mount(): void
     {
         $this->fillForms();
-    }
-
-    public function emailForm(Schema $schema): Schema
-    {
-        /*
-         * dddx($response = Telegram::getMe());
-         * $response = $telegram->sendMessage([
-         * 'chat_id' => 'CHAT_ID',
-         * 'text' => 'Hello World',
-         * ]);
-         */
-        return $schema
-            ->components([
-                Section::make()
-                    // ->description('Update your account\'s profile information and email address.')
-                    ->schema([
-                        TextInput::make('to')->required(),
-                        RichEditor::make('body')->required(),
-                    ]),
-            ])
-            ->model($this->getUser())
-            ->statePath('emailData');
     }
 
     public function sendEmail(): void

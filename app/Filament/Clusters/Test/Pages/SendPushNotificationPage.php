@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Repeater;
@@ -33,7 +34,7 @@ use Webmozart\Assert\Assert;
 use function Safe\json_encode;
 
 /**
- * @property \Filament\Schemas\Schema $notificationForm
+ * 
  */
 class SendPushNotificationPage extends XotBasePage
 {
@@ -52,25 +53,6 @@ class SendPushNotificationPage extends XotBasePage
     {
         $this->fillForms();
     }
-
-    public function notificationForm(Schema $schema): Schema
-    {
-        $devices = DeviceUser::with(['profile', 'device'])
-            ->where('push_notifications_token', '!=', null)
-            ->where('push_notifications_token', '!=', 'unknown')
-            ->where('push_notifications_enabled', 1)
-            // ->whereHas('profile') //db separato percio' da errore cosi'
-            ->whereHas('device')
-            ->get();
-
-        /**
-         * Callback per mappare i dispositivi in opzioni per il select.
-         */
-        $callback = function ($item) {
-            /** @var mixed $item */
-            if (!is_object($item)) {
-                return [];
-            }
 
             // Relations & attributes (Laravel-safe)
             $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
@@ -111,8 +93,8 @@ class SendPushNotificationPage extends XotBasePage
 
         Assert::isArray($to);
 
-        return $schema
-            ->components([
+        return $form
+            ->schema([
                 Select::make('deviceToken')->options(fn() => $to),
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),

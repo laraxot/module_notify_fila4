@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
+use Filament\Forms\Form;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Select;
@@ -29,7 +29,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
- * @property \Filament\Schemas\Schema $pushForm
+ * 
  */
 class SendFirebasePushNotificationPage extends XotBasePage
 {
@@ -56,11 +56,6 @@ class SendFirebasePushNotificationPage extends XotBasePage
     protected function fillForms(): void
     {
         $this->pushForm->fill();
-    }
-
-    public function pushForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
     }
 
     public function getPushFormSchema(): array

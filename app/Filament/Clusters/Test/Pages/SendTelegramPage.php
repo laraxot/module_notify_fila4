@@ -9,7 +9,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
+use Filament\Forms\Form;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Toggle;
@@ -36,7 +36,7 @@ use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
 /**
- * @property \Filament\Schemas\Schema $telegramForm
+ * 
  */
 class SendTelegramPage extends XotBasePage implements HasForms
 {
@@ -55,11 +55,6 @@ class SendTelegramPage extends XotBasePage implements HasForms
     public function mount(): void
     {
         $this->fillForms();
-    }
-
-    public function telegramForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
     public function getTelegramFormSchema(): array

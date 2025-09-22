@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Filament\Forms\Form;
 use Filament\Panel;
-use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\KeyValue;
@@ -29,7 +29,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
- * @property \Filament\Schemas\Schema $whatsappForm
+ * 
  */
 class SendWhatsAppPage extends XotBasePage
 {
@@ -63,11 +63,6 @@ class SendWhatsAppPage extends XotBasePage
     protected function fillForms(): void
     {
         $this->whatsappForm->fill();
-    }
-
-    public function whatsappForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
     }
 
     public function getWhatsAppFormSchema(): array
