@@ -4,12 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Modules\Notify\Enums\NotificationLogStatusEnum;
 
 /**
  * Modello per il logging delle notifiche.
@@ -104,29 +98,4 @@ final class NotificationLog extends BaseModel
     ): Builder {
         return $query->where('template_id', $templateId);
     }
-<<<<<<< HEAD
-
-    /**
-     * Marca il log come aperto.
-     */
-    public function markAsOpened(): void
-    {
-        $this->update([
-            'status' => NotificationLogStatusEnum::OPENED,
-            'opened_at' => now(),
-        ]);
-    }
-
-    /**
-     * Marca il log come cliccato.
-     */
-    public function markAsClicked(): void
-    {
-        $this->update([
-            'status' => NotificationLogStatusEnum::CLICKED,
-            'clicked_at' => now(),
-        ]);
-    }
-=======
->>>>>>> e39a6f9 (.)
 }
