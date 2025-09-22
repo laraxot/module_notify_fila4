@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
+use function Safe\base64_decode;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
