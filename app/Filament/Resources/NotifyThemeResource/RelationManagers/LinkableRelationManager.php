@@ -6,11 +6,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 
 use Override;
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
 use Filament\Forms\Form;
->>>>>>> e39a6f9 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 class LinkableRelationManager extends XotBaseRelationManager
