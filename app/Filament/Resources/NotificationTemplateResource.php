@@ -12,7 +12,11 @@ use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 use Filament\Forms;
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 22f1446 (.)
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -31,45 +35,73 @@ class NotificationTemplateResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             TextInput::make('name')
+=======
+            'name' => TextInput::make('name')
+>>>>>>> 22f1446 (.)
                 ->required()
                 ->maxLength(255)
                 ->unique(ignoreRecord: true)
                 ->helperText(__('notify::template.form.name.helper'))
                 ->columnSpan(['lg' => 2]),
+<<<<<<< HEAD
             TextInput::make('subject')
+=======
+            'subject' => TextInput::make('subject')
+>>>>>>> 22f1446 (.)
                 ->required()
                 ->maxLength(255)
                 ->helperText(__('notify::template.form.subject.helper'))
                 ->columnSpan(['lg' => 2])
                 ->translateLabel(),
+<<<<<<< HEAD
             Select::make('type')
+=======
+            'type' => Select::make('type')
+>>>>>>> 22f1446 (.)
                 ->options(collect(NotificationTypeEnum::cases())
                     ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
                 ->required()
                 ->default(NotificationTypeEnum::EMAIL->value)
                 ->helperText(__('notify::template.form.type.helper'))
                 ->columnSpan(['lg' => 1]),
+<<<<<<< HEAD
             Textarea::make('body_text')
+=======
+            'body_text' => Textarea::make('body_text')
+>>>>>>> 22f1446 (.)
                 ->required()
                 ->maxLength(65535)
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.body_text.helper'))
                 ->rows(5)
                 ->translateLabel(),
+<<<<<<< HEAD
             Textarea::make('body_html')
+=======
+            'body_html' => Textarea::make('body_html')
+>>>>>>> 22f1446 (.)
                 ->required()
                 ->maxLength(65535)
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.body_html.helper'))
                 ->rows(10)
                 ->translateLabel(),
+<<<<<<< HEAD
             Textarea::make('preview_data')
+=======
+            'preview_data' => Textarea::make('preview_data')
+>>>>>>> 22f1446 (.)
                 ->json()
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.preview_data.helper'))
                 ->rows(5),
+<<<<<<< HEAD
             SpatieMediaLibraryFileUpload::make('attachments')
+=======
+            'attachments' => SpatieMediaLibraryFileUpload::make('attachments')
+>>>>>>> 22f1446 (.)
                 ->collection('attachments')
                 ->multiple()
                 ->maxFiles(5)

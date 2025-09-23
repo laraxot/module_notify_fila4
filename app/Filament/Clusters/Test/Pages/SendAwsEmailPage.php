@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 22f1446 (.)
 use Filament\Panel;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -64,7 +68,11 @@ class SendAwsEmailPage extends XotBasePage
 
     protected function fillForms(): void
     {
+<<<<<<< HEAD
         $this->emailForm->fill();
+=======
+        // Form data filled;
+>>>>>>> 22f1446 (.)
     }
 
     public function getEmailFormSchema(): array
@@ -105,7 +113,11 @@ class SendAwsEmailPage extends XotBasePage
 
     public function sendEmail(): void
     {
+<<<<<<< HEAD
         $data = $this->emailForm->getState();
+=======
+        $data = $this->data;
+>>>>>>> 22f1446 (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';

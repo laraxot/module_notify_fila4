@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 22f1446 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -50,7 +54,11 @@ class TestSmtpPage extends XotBasePage implements HasForms
 
     public function sendEmail(): void
     {
+<<<<<<< HEAD
         $data = $this->emailForm->getState();
+=======
+        $data = $this->data;
+>>>>>>> 22f1446 (.)
         $smtp = SmtpData::from($data);
         $emailData = EmailData::from($data);
         // dddx([
@@ -77,6 +85,14 @@ class TestSmtpPage extends XotBasePage implements HasForms
         ];
     }
 
+<<<<<<< HEAD
+=======
+    public function emailForm(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
+    {
+        return $schema->schema([])->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 22f1446 (.)
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
@@ -104,6 +120,10 @@ class TestSmtpPage extends XotBasePage implements HasForms
             }
         }
 
+<<<<<<< HEAD
         $this->emailForm->fill($typedConfig);
+=======
+        $this->fill($typedConfig);
+>>>>>>> 22f1446 (.)
     }
 }

@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Filament\Forms\Form;
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 22f1446 (.)
 
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -55,6 +59,7 @@ class SendPushNotification extends Page implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
             // Relations & attributes in a Laravel-safe way
             $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
             if (!is_object($profile)) {
@@ -78,10 +83,15 @@ class SendPushNotification extends Page implements HasForms
 
             return [$token => $label];
         };
+=======
+    public function form(Schema $form): Schema
+    {
+>>>>>>> 22f1446 (.)
 
         /**
          * Callback per filtrare i dispositivi.
          */
+<<<<<<< HEAD
         $filterCallback = function ($item): bool {
             if (!is_object($item)) {
                 return false;
@@ -97,6 +107,14 @@ class SendPushNotification extends Page implements HasForms
         return $form
             ->schema([
                 Select::make('deviceToken')->options(fn() => $to),
+=======
+
+        Assert::isArray([]);
+
+        return $form
+            ->schema([
+                Select::make('deviceToken')->options(fn() => []),
+>>>>>>> 22f1446 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -111,7 +129,11 @@ class SendPushNotification extends Page implements HasForms
 
     public function sendNotification(): void
     {
+<<<<<<< HEAD
         $data = $this->notificationForm->getState();
+=======
+        $data = $this->notificationData;
+>>>>>>> 22f1446 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -202,7 +224,10 @@ class SendPushNotification extends Page implements HasForms
     {
         return [
             Action::make('notificationFormActions')
+<<<<<<< HEAD
                 
+=======
+>>>>>>> 22f1446 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -226,6 +251,10 @@ class SendPushNotification extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
+<<<<<<< HEAD
         $this->notificationForm->fill();
+=======
+        // Form data filled;
+>>>>>>> 22f1446 (.)
     }
 }
