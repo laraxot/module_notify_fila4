@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-<<<<<<< HEAD
-=======
-use Override;
->>>>>>> 6bd5430 (.)
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
 use Override;
@@ -37,13 +33,7 @@ class MailTemplateResource extends LangBaseResource
     {
         return [
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
-<<<<<<< HEAD
             'name_group' => Group::make()
-=======
-            //'name' => Forms\Components\TextInput::make('name'),
-            //'slug' => Forms\Components\TextInput::make('slug'),
-            Group::make()
->>>>>>> 6bd5430 (.)
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
