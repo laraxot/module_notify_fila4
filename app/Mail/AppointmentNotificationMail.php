@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Mail;
 
+use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -16,6 +16,7 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
+    use Queueable, SerializesModels;
 
     /**
      * Dati della notifica dell'appuntamento.

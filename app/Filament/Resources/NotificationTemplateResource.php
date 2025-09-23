@@ -11,12 +11,8 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
-<<<<<<< HEAD
 use Filament\Forms;
 use Filament\Schemas\Schema;
-=======
-use Filament\Forms\Form;
->>>>>>> c454ecf (.)
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
