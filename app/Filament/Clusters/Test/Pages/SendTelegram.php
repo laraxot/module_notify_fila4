@@ -13,7 +13,10 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 use Filament\Forms\Form;
 =======
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
 >>>>>>> 22f1446 (.)
+=======
+>>>>>>> 5bed4d4 (.)
 
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -42,10 +45,15 @@ use Webmozart\Assert\Assert;
 class SendTelegram extends Page implements HasForms
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public array $data = [];
 
 >>>>>>> 22f1446 (.)
+=======
+    public array $data = [];
+
+>>>>>>> 5bed4d4 (.)
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
@@ -66,10 +74,14 @@ class SendTelegram extends Page implements HasForms
     public function sendEmail(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = $this->emailForm->getState();
 =======
         $data = $this->data;
 >>>>>>> 22f1446 (.)
+=======
+        $data = $this->data;
+>>>>>>> 5bed4d4 (.)
         Assert::string($token = config('services.telegram-bot-api.token'));
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
         Http::get($url);
@@ -112,9 +124,12 @@ class SendTelegram extends Page implements HasForms
         return [
             Action::make('emailFormActions')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 >>>>>>> 22f1446 (.)
+=======
+>>>>>>> 5bed4d4 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -138,9 +153,13 @@ class SendTelegram extends Page implements HasForms
 
         // $this->editProfileForm->fill($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->emailForm->fill();
 =======
         // Form data filled;
 >>>>>>> 22f1446 (.)
+=======
+        // Form data filled;
+>>>>>>> 5bed4d4 (.)
     }
 }

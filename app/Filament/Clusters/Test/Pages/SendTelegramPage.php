@@ -62,7 +62,10 @@ class SendTelegramPage extends XotBasePage implements HasForms
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5bed4d4 (.)
     public function telegramForm(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
     {
         return $schema
