@@ -4,11 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
 use Filament\Facades\Filament\Schemas\Schema;
-=======
-use Filament\Schemas\Schema;
->>>>>>> b8140d8 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\RichEditor;
@@ -35,11 +31,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
 /**
-<<<<<<< HEAD
  * @property Schema $emailForm
-=======
- * @property \Filament\Schemas\Schema $emailForm
->>>>>>> b8140d8 (.)
  */
 class SendSpatieEmailPage extends XotBasePage
 {
@@ -68,14 +60,6 @@ class SendSpatieEmailPage extends XotBasePage
         $this->emailForm->fill();
     }
 
-<<<<<<< HEAD
-=======
-    public function emailForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
-    }
-
->>>>>>> b8140d8 (.)
     public function getEmailFormSchema(): array
     {
         return [

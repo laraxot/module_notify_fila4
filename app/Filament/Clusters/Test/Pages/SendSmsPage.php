@@ -4,13 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
 use Filament\Facades\Filament\Schemas\Schema;
 use Filament\Panel;
-=======
-use Filament\Panel;
-use Filament\Schemas\Schema;
->>>>>>> b8140d8 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Exception;
@@ -34,11 +29,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
 /**
-<<<<<<< HEAD
  * @property Schema $smsForm
-=======
- * @property \Filament\Schemas\Schema $smsForm
->>>>>>> b8140d8 (.)
  */
 class SendSmsPage extends XotBasePage
 {
@@ -74,14 +65,6 @@ class SendSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
-<<<<<<< HEAD
-=======
-    public function smsForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
-    }
-
->>>>>>> b8140d8 (.)
     public function getSmsFormSchema(): array
     {
         return [

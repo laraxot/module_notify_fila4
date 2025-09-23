@@ -1,18 +1,11 @@
 <?php
-<<<<<<< HEAD
-=======
-
->>>>>>> b8140d8 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
-<<<<<<< HEAD
 use function Safe\base64_decode;
 
 use Illuminate\Http\RedirectResponse;
-=======
->>>>>>> b8140d8 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -48,15 +41,9 @@ class NotificationTrackingController extends Controller
      *
      * @param Request $request
      * @param string $id
-<<<<<<< HEAD
      * @return RedirectResponse
      */
     public function trackClick(Request $request, string $id): RedirectResponse
-=======
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
->>>>>>> b8140d8 (.)
     {
         $log = NotificationLog::find($id);
         $url = $request->get('url', '');
