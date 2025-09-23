@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
 use Filament\Schemas\Schema;
-<<<<<<< HEAD
->>>>>>> 22f1446 (.)
-=======
->>>>>>> 5bed4d4 (.)
 
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -37,16 +30,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
  */
 class SendEmail extends Page implements HasForms
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     public array $data = [];
 
->>>>>>> 22f1446 (.)
-=======
-    public array $data = [];
-
->>>>>>> 5bed4d4 (.)
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
@@ -66,15 +51,7 @@ class SendEmail extends Page implements HasForms
 
     public function sendEmail(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $data = $this->emailForm->getState();
-=======
         $data = $this->data;
->>>>>>> 22f1446 (.)
-=======
-        $data = $this->data;
->>>>>>> 5bed4d4 (.)
         $email_data = EmailData::from($data);
         // $from_address = config('mail.from.address');
 
@@ -119,14 +96,6 @@ class SendEmail extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->emailForm->fill();
-=======
         // Form data filled;
->>>>>>> 22f1446 (.)
-=======
-        // Form data filled;
->>>>>>> 5bed4d4 (.)
     }
 }

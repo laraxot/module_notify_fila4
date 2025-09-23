@@ -4,18 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Components\Group;
-use Filament\Forms\Components\View;
-=======
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
->>>>>>> 22f1446 (.)
-=======
-use Filament\Schemas\Components\Group;
-use Filament\Schemas\Components\View;
->>>>>>> 5bed4d4 (.)
 use Override;
 use Filament\Forms\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
@@ -43,29 +33,11 @@ class MailTemplateResource extends LangBaseResource
     {
         return [
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
-<<<<<<< HEAD
-<<<<<<< HEAD
-            //'name' => Forms\Components\TextInput::make('name'),
-            //'slug' => Forms\Components\TextInput::make('slug'),
-            Group::make()
-=======
             'name_group' => Group::make()
->>>>>>> 22f1446 (.)
-=======
-            'name_group' => Group::make()
->>>>>>> 5bed4d4 (.)
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        //->live(debounce: 200)
-                        //->reactive()
-=======
->>>>>>> 22f1446 (.)
-=======
->>>>>>> 5bed4d4 (.)
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
                             $set('slug', Str::slug($state));
                         }),
@@ -75,14 +47,6 @@ class MailTemplateResource extends LangBaseResource
                         ->unique(ignoreRecord: true),
                 ])
                 ->columns(2),
-<<<<<<< HEAD
-<<<<<<< HEAD
-            //->columnSpan('full'),
-
-=======
->>>>>>> 22f1446 (.)
-=======
->>>>>>> 5bed4d4 (.)
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')

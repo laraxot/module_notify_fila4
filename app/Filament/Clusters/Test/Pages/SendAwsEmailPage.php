@@ -4,19 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
-use Filament\Schemas\Schema;
->>>>>>> 22f1446 (.)
-use Filament\Panel;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\RichEditor;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\Toggle;
-=======
->>>>>>> 5bed4d4 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -35,17 +22,11 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 
-<<<<<<< HEAD
-/**
- * 
- */
-=======
->>>>>>> 5bed4d4 (.)
 class SendAwsEmailPage extends XotBasePage
 {
     public ?array $emailData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -75,16 +56,8 @@ class SendAwsEmailPage extends XotBasePage
 
     protected function fillForms(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->emailForm->fill();
-=======
-        // Form data filled;
->>>>>>> 22f1446 (.)
-=======
         // $this->emailForm->fill();
         // Form data filled;
->>>>>>> 5bed4d4 (.)
     }
 
     public function getEmailFormSchema(): array
@@ -125,16 +98,8 @@ class SendAwsEmailPage extends XotBasePage
 
     public function sendEmail(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $data = $this->emailForm->getState();
-=======
-        $data = $this->data;
->>>>>>> 22f1446 (.)
-=======
         // $data = $this->emailForm->getState();
         $data = $this->data;
->>>>>>> 5bed4d4 (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';

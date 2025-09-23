@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
 use Filament\Schemas\Schema;
-<<<<<<< HEAD
->>>>>>> 22f1446 (.)
-=======
->>>>>>> 5bed4d4 (.)
 
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -61,76 +54,18 @@ class SendPushNotificationPage extends XotBasePage
         $this->fillForms();
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // Relations & attributes (Laravel-safe)
-            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
-            if (!is_object($profile)) {
-                return [];
-            }
-            $fullName = (string) (data_get($profile, 'full_name') ?? 'Utente');
-
-            $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
-            $token = is_string($tokenAttr) ? $tokenAttr : '';
-            if ($token === '' || $token === 'unknown') {
-                return [];
-            }
-
-            $device = method_exists($item, 'getRelationValue') ? $item->getRelationValue('device') : null;
-            $robotVal = data_get($device, 'robot');
-            $robot = is_string($robotVal) ? $robotVal : null;
-
-            // Creiamo la label con gli ultimi 5 caratteri del token
-            $tokenSuffix = mb_substr($token, -5);
-            $label = $fullName . ' (' . ($robot ?? '') . ') ' . $tokenSuffix;
-
-            return [$token => $label];
-        };
-=======
-    public function form(Schema $form): Schema
+    public function form(Schema $schema): Schema
     {
->>>>>>> 22f1446 (.)
-=======
-    public function form(Schema $form): Schema
-    {
->>>>>>> 5bed4d4 (.)
 
         /**
          * Callback per filtrare i dispositivi.
          */
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $filterCallback = function ($item): bool {
-            if (!is_object($item)) {
-                return false;
-            }
-            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
-            return is_object($profile);
-        };
-=======
->>>>>>> 5bed4d4 (.)
 
         Assert::isArray([]);
 
-<<<<<<< HEAD
-        Assert::isArray($to);
-
-        return $form
-            ->schema([
-                Select::make('deviceToken')->options(fn() => $to),
-=======
-
-        Assert::isArray([]);
-
-        return $form
-            ->schema([
+        return $schema
+            ->components([
                 Select::make('deviceToken')->options(fn() => []),
->>>>>>> 22f1446 (.)
-=======
-        return $form
-            ->schema([
-                Select::make('deviceToken')->options(fn() => []),
->>>>>>> 5bed4d4 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -145,15 +80,7 @@ class SendPushNotificationPage extends XotBasePage
 
     public function sendNotification(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $data = $this->notificationForm->getState();
-=======
         $data = $this->data;
->>>>>>> 22f1446 (.)
-=======
-        $data = $this->data;
->>>>>>> 5bed4d4 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -244,13 +171,6 @@ class SendPushNotificationPage extends XotBasePage
     {
         return [
             Action::make('notificationFormActions')
-<<<<<<< HEAD
-<<<<<<< HEAD
-                
-=======
->>>>>>> 22f1446 (.)
-=======
->>>>>>> 5bed4d4 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -275,14 +195,6 @@ class SendPushNotificationPage extends XotBasePage
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->notificationForm->fill();
-=======
         // Form data filled;
->>>>>>> 22f1446 (.)
-=======
-        // Form data filled;
->>>>>>> 5bed4d4 (.)
     }
 }

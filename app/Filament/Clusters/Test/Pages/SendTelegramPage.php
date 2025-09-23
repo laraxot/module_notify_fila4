@@ -36,11 +36,7 @@ use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
 /**
-<<<<<<< HEAD
- * 
-=======
  * @property \Filament\Schemas\Schema $telegramForm
->>>>>>> 22f1446 (.)
  */
 class SendTelegramPage extends XotBasePage implements HasForms
 {
@@ -61,20 +57,14 @@ class SendTelegramPage extends XotBasePage implements HasForms
         $this->fillForms();
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5bed4d4 (.)
-    public function telegramForm(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
+    public function telegramForm(Schema $schema): Schema
     {
         return $schema
-            ->schema($this->getTelegramFormSchema())
+            ->components($this->getTelegramFormSchema())
             ->model($this->getUser())
             ->statePath('telegramData');
     }
 
->>>>>>> 22f1446 (.)
     public function getTelegramFormSchema(): array
     {
         return [

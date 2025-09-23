@@ -4,11 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
 use Filament\Schemas\Schema;
->>>>>>> 22f1446 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Select;
@@ -59,15 +55,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 
     protected function fillForms(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->pushForm->fill();
-=======
         // Form data filled;
->>>>>>> 22f1446 (.)
-=======
-        // Form data filled;
->>>>>>> 5bed4d4 (.)
     }
 
     public function getPushFormSchema(): array
@@ -113,15 +101,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 
     public function sendPushNotification(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $data = $this->pushForm->getState();
-=======
         $data = $this->data;
->>>>>>> 22f1446 (.)
-=======
-        $data = $this->data;
->>>>>>> 5bed4d4 (.)
 
         try {
             // Creare i dati della notifica Firebase
