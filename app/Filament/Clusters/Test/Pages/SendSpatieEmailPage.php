@@ -4,22 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
-use Filament\Facades\Filament\Schemas\Schema;
->>>>>>> c0c6523 (.)
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\RichEditor;
-use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
+use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification as FilamentNotification;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -31,7 +24,7 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Override;
 use Webmozart\Assert\Assert;
 
 /**
@@ -39,10 +32,13 @@ use Webmozart\Assert\Assert;
  */
 class SendSpatieEmailPage extends XotBasePage
 {
-    public null|array $emailData = [];
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    public ?array $emailData = [];
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+
     protected string $view = 'notify::filament.pages.send-email';
-    protected static null|string $cluster = Test::class;
+
+    protected static ?string $cluster = Test::class;
 
     public function mount(): void
     {
@@ -104,7 +100,7 @@ class SendSpatieEmailPage extends XotBasePage
                 'mime' => 'image/png',
             ],
         ];
-        //Mail::to($data['to'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
+        // Mail::to($data['to'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
         /*
          * // Create and send the email
          * $email = new SpatieEmail($user, 'uno');
@@ -114,12 +110,12 @@ class SendSpatieEmailPage extends XotBasePage
          * ->locale('it')
          * ->send($email);
          */
-        Assert::string($mail_template_slug = $data['mail_template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($mail_template_slug = $data['mail_template_slug'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
         $notify = new RecordNotification($user, $mail_template_slug);
         $notify->mergeData($data);
 
         Notification::route('mail', $data['to'])
-            //->locale('it')
+            // ->locale('it')
             ->notify($notify);
 
         FilamentNotification::make()
@@ -141,7 +137,7 @@ class SendSpatieEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
-        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
