@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
+=======
+use Filament\Facades\Filament\Schemas\Schema;
+>>>>>>> c0c6523 (.)
 use Filament\Panel;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
