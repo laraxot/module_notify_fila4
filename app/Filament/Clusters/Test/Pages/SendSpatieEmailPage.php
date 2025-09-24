@@ -4,17 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Filament\Facades\Filament\Schemas\Schema;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\RichEditor;
-use Override;
->>>>>>> 0df746b (.)
-=======
->>>>>>> be0da03 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
