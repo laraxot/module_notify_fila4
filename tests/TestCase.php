@@ -7,7 +7,7 @@ namespace Modules\Notify\Tests;
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
-use Tests\CreatesApplication;
+use Modules\Xot\Tests\CreatesApplication;
 
 /**
  * Base test case for Notify module tests.
