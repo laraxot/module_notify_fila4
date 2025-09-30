@@ -4,23 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
-use Override;
-use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
-use Filament\Forms;
-use Filament\Forms\Components\TextInput;
-use Filament\Resources\Pages\PageRegistration;
-use Modules\Notify\Filament\Resources\ContactResource\Pages;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
 
 class ContactResource extends XotBaseResource
 {
-    protected static null|string $model = Contact::class;
+    protected static ?string $model = Contact::class;
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
 
     /**
      * Get the form schema for the resource.

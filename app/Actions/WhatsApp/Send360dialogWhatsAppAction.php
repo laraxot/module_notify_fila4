@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\WhatsApp;
 
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Str;
 use Modules\Notify\Datas\WhatsAppData;
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -20,9 +19,13 @@ final class Send360dialogWhatsAppAction
     use QueueableAction;
 
     private string $apiKey;
+
     private string $baseUrl = 'https://waba.360dialog.io/v1';
+
     private array $vars = [];
+
     protected bool $debug;
+
     protected int $timeout;
 
     /**
@@ -31,7 +34,7 @@ final class Send360dialogWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.360dialog.api_key');
-        if (!is_string($apiKey)) {
+        if (! is_string($apiKey)) {
             throw new Exception(
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
             );
@@ -47,8 +50,9 @@ final class Send360dialogWhatsAppAction
     /**
      * Execute the action.
      *
-     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
+     *
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -70,7 +74,7 @@ final class Send360dialogWhatsAppAction
             ],
         ]);
 
-        $endpoint = $this->baseUrl . '/messages';
+        $endpoint = $this->baseUrl.'/messages';
 
         $payload = [
             'to' => $whatsAppData->to,
@@ -82,10 +86,10 @@ final class Send360dialogWhatsAppAction
             $payload['text'] = [
                 'body' => $whatsAppData->body,
             ];
-        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
-        } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+        } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
             $mediaUrl = $whatsAppData->media[0];
             $mediaType = $this->determineMediaType($mediaUrl);
 
@@ -151,7 +155,7 @@ final class Send360dialogWhatsAppAction
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
-     * @param string $url URL del media
+     * @param  string  $url  URL del media
      * @return string Tipo di media (image, video, audio, document)
      */
     private function determineMediaType(string $url): string

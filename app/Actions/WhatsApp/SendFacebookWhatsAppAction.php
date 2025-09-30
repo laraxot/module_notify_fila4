@@ -8,7 +8,6 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Str;
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -19,10 +18,15 @@ final class SendFacebookWhatsAppAction
     use QueueableAction;
 
     private string $accessToken;
+
     private string $phoneNumberId;
+
     private string $baseUrl = 'https://graph.facebook.com/v17.0';
+
     private array $vars = [];
+
     protected bool $debug;
+
     protected int $timeout;
 
     /**
@@ -31,7 +35,7 @@ final class SendFacebookWhatsAppAction
     public function __construct()
     {
         $accessToken = config('services.facebook.access_token');
-        if (!is_string($accessToken)) {
+        if (! is_string($accessToken)) {
             throw new Exception(
                 'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
             );
@@ -39,7 +43,7 @@ final class SendFacebookWhatsAppAction
         $this->accessToken = $accessToken;
 
         $phoneNumberId = config('services.facebook.phone_number_id');
-        if (!is_string($phoneNumberId)) {
+        if (! is_string($phoneNumberId)) {
             throw new Exception(
                 'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
             );
@@ -54,8 +58,9 @@ final class SendFacebookWhatsAppAction
     /**
      * Execute the action.
      *
-     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
+     *
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -72,12 +77,12 @@ final class SendFacebookWhatsAppAction
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
-                'Authorization' => 'Bearer ' . $this->accessToken,
+                'Authorization' => 'Bearer '.$this->accessToken,
                 'Content-Type' => 'application/json',
             ],
         ]);
 
-        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+        $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
 
         $payload = [
             'messaging_product' => 'whatsapp',
@@ -92,10 +97,10 @@ final class SendFacebookWhatsAppAction
                 'preview_url' => false,
                 'body' => $whatsAppData->body,
             ];
-        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
-        } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+        } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
                 'link' => $whatsAppData->media[0],

@@ -4,17 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
-use Filament\Schemas\Components\Section;
 use Filament\Forms;
-use Illuminate\Database\Eloquent\Model;
+use Filament\Schemas\Components\Section;
 use Modules\Notify\Enums\ContactTypeEnum;
-use Webmozart\Assert\Assert;
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
-    //protected string $view = 'filament-forms::components.group';
+    // protected string $view = 'filament-forms::components.group';
 
     protected bool $disableLiveUpdates = false;
 
@@ -28,6 +26,7 @@ class ContactSection extends Section
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
+
         return $res;
     }
 

@@ -23,13 +23,12 @@ class SendNotificationAction
     /**
      * Invia una notifica utilizzando un template.
      *
-     * @param Model $recipient Il destinatario della notifica
-     * @param string $templateCode Il codice del template da utilizzare
-     * @param array $data I dati per compilare il template
-     * @param array $channels I canali da utilizzare (opzionale, usa quelli del template se non specificati)
-     * @param array $options Opzioni aggiuntive per l'invio
+     * @param  Model  $recipient  Il destinatario della notifica
+     * @param  string  $templateCode  Il codice del template da utilizzare
+     * @param  array  $data  I dati per compilare il template
+     * @param  array  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
+     * @param  array  $options  Opzioni aggiuntive per l'invio
      *
-     * @return bool
      * @throws Exception Se il template non esiste o non è attivo
      */
     public function execute(
@@ -42,12 +41,12 @@ class SendNotificationAction
         // Recupera il template
         $template = NotificationTemplate::where('code', $templateCode)->where('is_active', true)->first();
 
-        if (!$template) {
+        if (! $template) {
             throw new Exception("Template {$templateCode} non trovato o non attivo");
         }
 
         // Verifica condizioni di invio
-        if (!$template->shouldSend($data)) {
+        if (! $template->shouldSend($data)) {
             return false;
         }
 
@@ -63,7 +62,8 @@ class SendNotificationAction
                 $this->sendViaChannel($recipient, $channel, $compiled, $options);
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
-                Log::error("Errore invio notifica via {$channel}: " . $e->getMessage());
+                Log::error("Errore invio notifica via {$channel}: ".$e->getMessage());
+
                 continue;
             }
         }
@@ -73,12 +73,6 @@ class SendNotificationAction
 
     /**
      * Invia la notifica attraverso un canale specifico.
-     *
-     * @param Model $recipient
-     * @param string $channel
-     * @param array $compiled
-     * @param array $options
-     * @return void
      */
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
     {
@@ -102,12 +96,12 @@ class SendNotificationAction
      */
     protected function sendMail(Model $recipient, array $compiled, array $options): void
     {
-        if (!method_exists($recipient, 'routeNotificationForMail')) {
+        if (! method_exists($recipient, 'routeNotificationForMail')) {
             throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
         $email = $recipient->routeNotificationForMail();
-        if (!$email) {
+        if (! $email) {
             throw new Exception('Email destinatario non disponibile');
         }
 
@@ -152,12 +146,12 @@ class SendNotificationAction
      */
     protected function sendSms(Model $recipient, array $compiled, array $options): void
     {
-        if (!method_exists($recipient, 'routeNotificationForSms')) {
+        if (! method_exists($recipient, 'routeNotificationForSms')) {
             throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
         $phone = $recipient->routeNotificationForSms();
-        if (!$phone) {
+        if (! $phone) {
             throw new Exception('Numero di telefono destinatario non disponibile');
         }
 
@@ -166,7 +160,7 @@ class SendNotificationAction
 
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($message) > 320) {
-            $message = mb_substr($message, 0, 317) . '...';
+            $message = mb_substr($message, 0, 317).'...';
         }
 
         Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));

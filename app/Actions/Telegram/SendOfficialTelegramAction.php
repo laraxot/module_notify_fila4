@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\TelegramData;
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -20,11 +20,16 @@ final class SendOfficialTelegramAction
     use QueueableAction;
 
     private string $token;
+
     private string $apiUrl;
+
     private array $vars = [];
+
     protected bool $debug;
+
     protected int $timeout;
-    protected null|string $parseMode;
+
+    protected ?string $parseMode;
 
     /**
      * Create a new action instance.
@@ -32,7 +37,7 @@ final class SendOfficialTelegramAction
     public function __construct()
     {
         $token = config('services.telegram.token');
-        if (!is_string($token)) {
+        if (! is_string($token)) {
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -52,8 +57,9 @@ final class SendOfficialTelegramAction
     /**
      * Execute the action.
      *
-     * @param TelegramData $telegramData I dati del messaggio Telegram
+     * @param  TelegramData  $telegramData  I dati del messaggio Telegram
      * @return array Risultato dell'operazione
+     *
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -103,7 +109,7 @@ final class SendOfficialTelegramAction
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
-                !empty($telegramData->media)
+                ! empty($telegramData->media)
         ) {
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];

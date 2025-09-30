@@ -2,15 +2,14 @@
 
 declare(strict_types=1);
 
-
 namespace Modules\Notify\Models;
 
-use Override;
-use Illuminate\Support\Carbon;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Models\BaseModel;
+use Override;
 
 /**
  * Notification model for the Notify module.
@@ -36,6 +35,7 @@ use Modules\Xot\Models\BaseModel;
  * @property Carbon|null $sent_at
  * @property-read Model|null $creator
  * @property-read Model|null $updater
+ *
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -52,6 +52,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */

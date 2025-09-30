@@ -8,7 +8,6 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Str;
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -19,12 +18,18 @@ final class SendVonageWhatsAppAction
     use QueueableAction;
 
     private string $apiKey;
+
     private string $apiSecret;
+
     private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+
     private array $vars = [];
+
     protected bool $debug;
+
     protected int $timeout;
-    protected null|string $defaultSender;
+
+    protected ?string $defaultSender;
 
     /**
      * Create a new action instance.
@@ -32,13 +37,13 @@ final class SendVonageWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.vonage.api_key');
-        if (!is_string($apiKey)) {
+        if (! is_string($apiKey)) {
             throw new Exception('put [VONAGE_KEY] variable to your .env and config [services.vonage.api_key]');
         }
         $this->apiKey = $apiKey;
 
         $apiSecret = config('services.vonage.api_secret');
-        if (!is_string($apiSecret)) {
+        if (! is_string($apiSecret)) {
             throw new Exception('put [VONAGE_SECRET] variable to your .env and config [services.vonage.api_secret]');
         }
         $this->apiSecret = $apiSecret;
@@ -54,8 +59,9 @@ final class SendVonageWhatsAppAction
     /**
      * Execute the action.
      *
-     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
+     *
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -97,7 +103,7 @@ final class SendVonageWhatsAppAction
         ];
 
         // Gestione diversi tipi di messaggi
-        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+        if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
             $mediaUrl = $whatsAppData->media[0];
             $mediaType = $this->determineMediaType($mediaUrl);
 
@@ -108,7 +114,7 @@ final class SendVonageWhatsAppAction
                     'caption' => $whatsAppData->body,
                 ],
             ];
-        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['message']['content'] = [
                 'type' => 'template',
                 'template' => $whatsAppData->template,
@@ -171,7 +177,7 @@ final class SendVonageWhatsAppAction
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
-     * @param string $url URL del media
+     * @param  string  $url  URL del media
      * @return string Tipo di media (image, video, audio, file)
      */
     private function determineMediaType(string $url): string
