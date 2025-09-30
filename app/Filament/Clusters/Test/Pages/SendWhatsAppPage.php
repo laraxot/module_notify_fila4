@@ -4,13 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
 use Filament\Schemas\Schema;
 use Filament\Panel;
-=======
-use Filament\Panel;
-use Filament\Schemas\Schema;
->>>>>>> b8140d8 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\KeyValue;
