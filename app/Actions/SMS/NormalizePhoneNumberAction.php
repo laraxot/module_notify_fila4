@@ -16,7 +16,6 @@ use function Safe\preg_replace;
  */
 class NormalizePhoneNumberAction
 {
-<<<<<<< HEAD
     public function execute(string|array $phoneNumber): string
     {
         // Convert array to string if needed
@@ -24,10 +23,6 @@ class NormalizePhoneNumberAction
             $phoneNumber = implode('', $phoneNumber);
         }
         
-=======
-    public function execute(string $phoneNumber): string
-    {
->>>>>>> e39a6f9 (.)
         // Rimuove parentesi e il loro contenuto
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 
@@ -35,11 +30,7 @@ class NormalizePhoneNumberAction
         $phoneNumber = preg_replace('/[^0-9]/', '', $phoneNumber);
 
         // Rimuove gli zeri iniziali
-<<<<<<< HEAD
-        $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
-=======
         $phoneNumber = ltrim($phoneNumber, '0');
->>>>>>> e39a6f9 (.)
 
         // Prefisso italiano
         $prefix = '39';
