@@ -1,8 +1,11 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
+=======
+>>>>>>> b19cd40 (.)
 namespace Modules\Notify\Database\Seeders;
 
 use Illuminate\Database\Seeder;

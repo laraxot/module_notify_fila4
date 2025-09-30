@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <x-filament::icon-button
     :badge="$unreadNotificationsCount"
     color="gray"
@@ -27,4 +30,8 @@ declare(strict_types=1);
     Notifications ({{ $unreadNotificationsCount }} unread)
 </button>
 
+<<<<<<< HEAD
 --}}
+=======
+--}}
+>>>>>>> b19cd40 (.)
