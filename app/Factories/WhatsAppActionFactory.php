@@ -4,7 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Factories;
 
+use Exception;
+use Illuminate\Support\Facades\Config;
+use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
+use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
+use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
+use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
+use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 
+use function Safe\preg_replace;
 
 /**
  * Factory per la creazione di azioni WhatsApp.
@@ -34,14 +42,11 @@ final class WhatsAppActionFactory
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
-<<<<<<< HEAD
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
         if (!is_string($normalizedDriver)) {
             $normalizedDriver = '';
         }
-=======
->>>>>>> c454ecf (.)
 
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
