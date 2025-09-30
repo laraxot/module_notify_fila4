@@ -269,9 +269,4 @@ class MailAnalytics
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
-<<<<<<< HEAD
 - [Laravel Mail](https://laravel.com/docs/mail)
-=======
-- [Laravel Mail](https://laravel.com/project_docs/mail)
-- [Spatie Packages](https://spatie.be/open-source) 
->>>>>>> bf479cc (.)

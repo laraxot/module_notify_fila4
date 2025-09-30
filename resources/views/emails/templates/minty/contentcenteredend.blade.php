@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
 </tbody>
-=======
-dy>
->>>>>>> bf479cc (.)
 </table>
 </td>
 </tr>
