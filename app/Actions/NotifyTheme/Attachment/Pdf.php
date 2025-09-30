@@ -24,12 +24,6 @@ class Pdf
         $notify_theme_data = app(Get::class)->execute($post_type, 'pdf', $view_params);
         $html = $notify_theme_data->body_html;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -49,53 +43,5 @@ class Pdf
             'as' => $file_name,
             'mime' => 'application/pdf',
         ]);
-<<<<<<< HEAD
-=======
-=======
-        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
-=======
-        $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
->>>>>>> b93ef594b4 (.)
-        if (isset($view_params[$file_name])) {
-            $file_name = $view_params[$file_name];
-        }
-        Assert::string($file_name, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-        $file_path = Storage::disk('cache')->path($file_name);
-
-        HtmlService::toPdf(
-            filename: $file_path,
-            html: $html,
-            out: 'file',
-            pdforientation: 'P',
-        );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-
-        return AttachmentData::from([
-            'path' => $file_path,
-            'as' => $file_name,
-            'mime' => 'application/pdf',
-        ]);
->>>>>>> b93ef594b4 (.)
-=======
-        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
-        if (isset($view_params[$file_name])) {
-            $file_name = $view_params[$file_name];
-        }
-        Assert::string($file_name);
-        $file_path = Storage::disk('cache')->path($file_name);
-
-        HtmlService::toPdf(filename: $file_path, html: $html, out: 'file', pdforientation: 'P');
-
-        return AttachmentData::from(
-            [
-                'path' => $file_path,
-                'as' => $file_name,
-                'mime' => 'application/pdf',
-            ]
-        );
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 }

@@ -8,23 +8,7 @@ use Spatie\LaravelData\Data;
 
 /**
  * Data Transfer Object per i messaggi WhatsApp.
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- *
-=======
- * 
->>>>>>> a12f125f4a (.)
-=======
- *
->>>>>>> b93ef594b4 (.)
-=======
- * 
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi WhatsApp
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -42,35 +26,10 @@ class WhatsAppData extends Data
     public function __construct(
         public string $to,
         public string $body,
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
         public null|string $from = null,
         public null|array $media = null,
         public null|array $buttons = null,
         public null|array $template = null,
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
-        public ?string $from = null,
-        public ?array $media = null,
-        public ?array $buttons = null,
-        public ?array $template = null,
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         public string $type = 'text',
     ) {}
 }

@@ -4,36 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-use Tests\TestCase;
-use Modules\Notify\Models\NotificationTemplate;
-use Modules\Notify\Enums\NotificationTypeEnum;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Notify\Enums\NotificationTypeEnum;
-use Modules\Notify\Models\NotificationTemplate;
-use Tests\TestCase;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
 class NotificationTemplateTest extends TestCase
 {
@@ -360,30 +334,10 @@ class NotificationTemplateTest extends TestCase
         $result = $template->compile($data);
 
         $this->assertEquals('Benvenuto Mario Rossi!', $result['subject']);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
         $this->assertEquals(
             '<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>',
             $result['body_html'],
         );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->assertEquals('Benvenuto Mario Rossi! La tua email è mario@example.com', $result['body_text']);
     }
 
@@ -469,30 +423,10 @@ class NotificationTemplateTest extends TestCase
         $resultWithAdditional = $template->preview($additionalData);
 
         $this->assertEquals('Benvenuto Preview User!', $resultWithAdditional['subject']);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
         $this->assertEquals(
             '<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>',
             $resultWithAdditional['body_html'],
         );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 
     /** @test */
@@ -569,23 +503,7 @@ class NotificationTemplateTest extends TestCase
         $smsTemplates = NotificationTemplate::forChannel('sms')->get();
 
         $this->assertCount(2, $mailTemplates); // mail_template + multi_channel_template
-<<<<<<< HEAD
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
-=======
-        $this->assertCount(2, $smsTemplates);  // sms_template + multi_channel_template
->>>>>>> a12f125f4a (.)
-=======
-        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
->>>>>>> b93ef594b4 (.)
-=======
-        $this->assertCount(2, $smsTemplates);  // sms_template + multi_channel_template
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 
     /** @test */
