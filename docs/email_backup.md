@@ -632,6 +632,12 @@ class MailBackupDebugger
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 - [Laravel Storage](https://laravel.com/docs/storage)
 - [Laravel Encryption](https://laravel.com/docs/encryption)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
+=======
+- [Laravel Storage](https://laravel.com/project_docs/storage)
+- [Laravel Encryption](https://laravel.com/project_docs/encryption)
+- [Laravel Commands](https://laravel.com/project_docs/artisan) 
+>>>>>>> d284d65 (.)
