@@ -46,7 +46,14 @@ final class NotificationLog extends BaseModel
         'clicked_at',
     ];
 
-    protected $casts = [
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
         'data' => 'array',
         'channels' => 'array',
         'sent_at' => 'datetime',
@@ -55,6 +62,7 @@ final class NotificationLog extends BaseModel
         'clicked_at' => 'datetime',
         'status' => NotificationLogStatusEnum::class,
     ];
+    }
 
     /**
      * Ottiene il template associato a questo log.
@@ -103,28 +111,6 @@ final class NotificationLog extends BaseModel
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
-    }
-
-    /**
-     * Marca il log come aperto.
-     */
-    public function markAsOpened(): void
-    {
-        $this->update([
-            'status' => NotificationLogStatusEnum::OPENED,
-            'opened_at' => now(),
-        ]);
-    }
-
-    /**
-     * Marca il log come cliccato.
-     */
-    public function markAsClicked(): void
-    {
-        $this->update([
-            'status' => NotificationLogStatusEnum::CLICKED,
-            'clicked_at' => now(),
-        ]);
     }
 
     /**

@@ -27,9 +27,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
  *
- * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
+/** */
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [

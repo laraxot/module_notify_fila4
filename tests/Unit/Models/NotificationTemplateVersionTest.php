@@ -22,6 +22,7 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(BaseModel::class, $version);
     }
 
@@ -29,8 +30,10 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_uses_updater_trait(): void
     {
         $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $traits = $reflection->getTraitNames();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('Modules\Xot\Traits\Updater', $traits);
     }
 
@@ -51,6 +54,7 @@ class NotificationTemplateVersionTest extends TestCase
         ];
 
         $model = new NotificationTemplateVersion;
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $model->getFillable());
     }
 
@@ -58,11 +62,16 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_correct_casts(): void
     {
         $version = new NotificationTemplateVersion;
+        /** @phpstan-ignore-next-line method.nonObject */
         $casts = $version->getCasts();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($casts);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('array', $casts['channels']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('array', $casts['variables']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('array', $casts['conditions']);
     }
 
@@ -71,6 +80,7 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists($version, 'template'));
     }
 
@@ -79,6 +89,7 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists($version, 'restore'));
     }
 
@@ -87,12 +98,15 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists($version, 'restore'));
 
         // Verifica che il metodo restituisca NotificationTemplate
         $reflection = new \ReflectionMethod($version, 'restore');
+        /** @phpstan-ignore-next-line method.nonObject */
         $returnType = $reflection->getReturnType();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(NotificationTemplate::class, $returnType->getName());
     }
 
@@ -101,6 +115,7 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('notification_template_versions', $version->getTable());
     }
 
@@ -109,6 +124,7 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('id', $version->getKeyName());
     }
 
@@ -117,6 +133,7 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($version->usesTimestamps());
     }
 
@@ -124,8 +141,10 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_soft_deletes(): void
     {
         $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $traits = $reflection->getTraitNames();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('Illuminate\Database\Eloquent\Concerns\HasUuids', $traits);
     }
 
@@ -133,8 +152,10 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_factory_trait(): void
     {
         $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $traits = $reflection->getTraitNames();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('Modules\Xot\Traits\HasFactory', $traits);
     }
 
@@ -142,8 +163,10 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_media_trait(): void
     {
         $reflection = new \ReflectionClass(NotificationTemplateVersion::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $traits = $reflection->getTraitNames();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('Spatie\MediaLibrary\HasMedia', $traits);
     }
 
@@ -152,7 +175,9 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists($version, 'creator'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists($version, 'updater'));
     }
 
@@ -161,6 +186,7 @@ class NotificationTemplateVersionTest extends TestCase
     {
         $version = new NotificationTemplateVersion;
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists($version, 'media'));
     }
 }

@@ -40,7 +40,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
  *
- * @mixin IdeHelperNotifyThemeable
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

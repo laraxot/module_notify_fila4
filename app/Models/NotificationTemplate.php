@@ -63,9 +63,9 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
  *
- * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
+/** */
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
@@ -227,6 +227,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $previewData = $this->preview_data ?? [];
         $mergedData = array_merge($previewData, $data);
 
+        /** @var array<string, mixed> $mergedData */
         return $this->compile($mergedData);
     }
 
@@ -269,7 +270,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
     public function getChannelsLabelAttribute(): string
     {
         return collect($this->channels)
-            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
+            ->map(function ($channel): string {
+                $channelStr = is_string($channel) ? $channel : (string) $channel;
+
+                return (string) __('notify::template.fields.channel.options.'.$channelStr.'.label');
+            })
             ->implode(', ');
     }
 
@@ -280,7 +285,20 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
-        return $this->grapesjs_data ?? [];
+        $data = $this->grapesjs_data ?? [];
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $result */
+        $result = [];
+        foreach ($data as $key => $value) {
+            if (is_string($key)) {
+                $result[$key] = $value;
+            }
+        }
+
+        return $result;
     }
 
     /**
@@ -295,6 +313,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
         return $this;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getPreviewData(): array
     {
         return $this->preview_data ?? [];

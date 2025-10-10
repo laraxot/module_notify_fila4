@@ -27,9 +27,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  *
- * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
+/** */
 class NotificationTemplateVersion extends BaseModel
 {
     use Updater;

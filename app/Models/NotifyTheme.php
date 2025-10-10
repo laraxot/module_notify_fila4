@@ -77,9 +77,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  *
- * @mixin IdeHelperNotifyTheme
  * @mixin Eloquent
  */
+/** */
 class NotifyTheme extends BaseModel
 {
     /** @var list<string> */
@@ -106,6 +106,9 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getLogoAttribute(?array $value): array
     {
         return [

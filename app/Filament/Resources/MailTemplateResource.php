@@ -4,21 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-use Filament\Schemas\Components\Group;
-use Filament\Schemas\Components\View;
-use Override;
-use Filament\Forms\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
-use Filament\Forms;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Group;
+use Filament\Schemas\Components\View;
 use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
+use Override;
 
 class MailTemplateResource extends LangBaseResource
 {
-    protected static null|string $model = MailTemplate::class;
+    protected static ?string $model = MailTemplate::class;
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -31,14 +29,14 @@ class MailTemplateResource extends LangBaseResource
     #[Override]
     public static function getFormSchema(): array
     {
-        return [
+        return array_values([
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
             'name_group' => Group::make()
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -50,11 +48,23 @@ class MailTemplateResource extends LangBaseResource
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')
-                ->viewData(fn($record) => ['params' => $record?->params])
+                ->viewData(function ($record): array {
+                    if (! is_object($record) || ! property_exists($record, 'params')) {
+                        return ['params' => []];
+                    }
+
+                    return ['params' => $record->params];
+                })
                 ->columnSpanFull()
-                ->visible(fn($record): bool => !empty($record->params)),
+                ->visible(function ($record): bool {
+                    if (! is_object($record) || ! property_exists($record, 'params')) {
+                        return false;
+                    }
+
+                    return ! empty($record->params);
+                }),
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
-        ];
+        ]);
     }
 }

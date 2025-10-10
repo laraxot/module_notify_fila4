@@ -90,7 +90,10 @@ final class Send360dialogWhatsAppAction
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
-            $mediaUrl = $whatsAppData->media[0];
+            $mediaUrl = $whatsAppData->media[0] ?? null;
+            if (! is_string($mediaUrl)) {
+                throw new \Exception('Invalid media URL');
+            }
             $mediaType = $this->determineMediaType($mediaUrl);
 
             $payload['type'] = $mediaType;
@@ -120,9 +123,14 @@ final class Send360dialogWhatsAppAction
                 'response_code' => $statusCode,
             ]);
 
+            $messageId = null;
+            if (is_array($responseData) && isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]) && is_array($responseData['messages'][0]) && isset($responseData['messages'][0]['id'])) {
+                $messageId = $responseData['messages'][0]['id'];
+            }
+
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
-                'message_id' => $responseData['messages'][0]['id'] ?? null,
+                'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -143,9 +151,14 @@ final class Send360dialogWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+            $errorMessage = 'Errore sconosciuto';
+            if (is_array($responseBody) && isset($responseBody['errors']) && is_array($responseBody['errors']) && isset($responseBody['errors'][0]) && is_array($responseBody['errors'][0]) && isset($responseBody['errors'][0]['message'])) {
+                $errorMessage = $responseBody['errors'][0]['message'];
+            }
+
             return [
                 'success' => false,
-                'error' => $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto',
+                'error' => $errorMessage,
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

@@ -116,9 +116,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
  *
- * @mixin IdeHelperContact
  * @mixin \Eloquent
  */
+/** */
 class Contact extends BaseModel
 {
     /** @var list<string> */

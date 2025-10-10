@@ -70,7 +70,6 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
  *
- * @mixin IdeHelperMailTemplate
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

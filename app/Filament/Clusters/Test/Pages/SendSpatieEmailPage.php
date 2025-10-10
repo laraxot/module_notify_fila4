@@ -60,6 +60,9 @@ class SendSpatieEmailPage extends XotBasePage
         $this->emailForm->fill();
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getEmailFormSchema(): array
     {
         return [

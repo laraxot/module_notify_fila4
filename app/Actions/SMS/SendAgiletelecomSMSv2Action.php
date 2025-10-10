@@ -18,6 +18,9 @@ use Override;
 class SendAgiletelecomSMSv2Action implements SmsActionContract
 {
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function execute(SmsData $data): array
     {
         $agile = AgiletelecomData::make();
