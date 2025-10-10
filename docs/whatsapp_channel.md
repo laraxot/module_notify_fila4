@@ -334,6 +334,9 @@ class WhatsAppTest extends TestCase
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
@@ -341,5 +344,8 @@ class WhatsAppTest extends TestCase
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)

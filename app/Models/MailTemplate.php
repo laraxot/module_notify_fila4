@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 //use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 use Exception;
 use Carbon\Carbon;
@@ -19,6 +22,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
+<<<<<<< HEAD
 =======
 use Exception;
 use Carbon\Carbon;
@@ -35,6 +39,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
 /**
  * @property int $id
@@ -96,10 +102,14 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 
     /** @var list<string> */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
 =======
     public array $translatable = ['subject', 'html_template', 'text_template','sms_template'];
 >>>>>>> b19cd40 (.)
+=======
+    public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
+>>>>>>> 4e2ebfb (.)
 
     /** @var list<string> */
     protected $fillable = [
@@ -133,6 +143,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
      * Get the options for generating the slug.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getSlugOptions(): SlugOptions
     {
         return SlugOptions::create()->generateSlugsFrom('name')->saveSlugsTo('slug');
@@ -143,11 +154,19 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
             ->generateSlugsFrom('name')
             ->saveSlugsTo('slug');
 >>>>>>> b19cd40 (.)
+=======
+    public function getSlugOptions(): SlugOptions
+    {
+        return SlugOptions::create()->generateSlugsFrom('name')->saveSlugsTo('slug');
+>>>>>>> 4e2ebfb (.)
     }
 
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         if (!method_exists($mailable, 'getSlug')) {
             throw new Exception('Il metodo getSlug() non è definito nella classe ' . $mailable::class);
         }
@@ -155,6 +174,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         return $query->where('mailable', get_class($mailable))->where('slug', $slug);
     }
 
+<<<<<<< HEAD
 =======
         if(!method_exists($mailable, 'getSlug')){
             throw new Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
@@ -167,11 +187,16 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * Versioni del template email.
      *
      * @return HasMany<MailTemplateVersion>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
      *
      * public function versions(): HasMany
      * {
@@ -184,6 +209,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
      * return $this->hasMany(MailTemplateLog::class, 'template_id');
      * }
      *
+<<<<<<< HEAD
 =======
 
     public function versions(): HasMany
@@ -198,12 +224,17 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     }
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
      * Create a new version of the template.
      *
      * @param string $createdBy The user who created the version
      * @param string|null $notes Optional notes about the changes
      * @return self
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
      * public function createNewVersion(string $createdBy, ?string $notes = null): self
      * {
      * $this->versions()->create([
@@ -220,6 +251,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
      * return $this;
      * }
      */
+<<<<<<< HEAD
 =======
     public function createNewVersion(string $createdBy, ?string $notes = null): self
     {
@@ -240,4 +272,6 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 }
