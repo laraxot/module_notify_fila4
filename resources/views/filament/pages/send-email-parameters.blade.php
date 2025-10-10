@@ -3,11 +3,7 @@
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
 <x-filament::page>
-=======
-<x-fi<x-filament::page>
->>>>>>> 22f1446 (.)
 
     <x-filament-schemas::form wire:submit="sendEmail()">
         {{ $this->emailForm }}
