@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Override;
-=======
->>>>>>> b19cd40 (.)
-=======
-use Override;
->>>>>>> 4e2ebfb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -20,14 +13,7 @@ use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
 use function Safe\preg_replace;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -50,15 +36,7 @@ final class SendNetfunSMSAction implements SmsActionContract
     protected int $timeout;
 
     /** @var string|null */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $defaultSender = null;
-=======
-    protected ?string $defaultSender = null;
->>>>>>> b19cd40 (.)
-=======
-    protected null|string $defaultSender = null;
->>>>>>> 4e2ebfb (.)
 
     /**
      * Create a new action instance.
@@ -79,15 +57,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('sms.debug', false);
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
-=======
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
->>>>>>> b19cd40 (.)
-=======
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
->>>>>>> 4e2ebfb (.)
     }
 
     /**
@@ -97,14 +67,7 @@ final class SendNetfunSMSAction implements SmsActionContract
      * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -141,15 +104,7 @@ final class SendNetfunSMSAction implements SmsActionContract
             throw new Exception(
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
                 $clientException->getCode(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                 $clientException,
-=======
-                $clientException
->>>>>>> b19cd40 (.)
-=======
-                $clientException,
->>>>>>> 4e2ebfb (.)
             );
         }
 
@@ -175,41 +130,17 @@ final class SendNetfunSMSAction implements SmsActionContract
     {
         // Rimuovi tutti i caratteri non numerici tranne il +
         $cleaned = preg_replace('/[^0-9+]/', '', $phoneNumber);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Se preg_replace restituisce null (non dovrebbe succedere con input string)
         if (!is_string($cleaned) || $cleaned === '') {
             $cleaned = '';
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Se il numero non inizia con '+'
         if (!Str::startsWith($cleaned, '+')) {
             $cleaned = '+39' . ltrim($cleaned, '0');
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         return $cleaned;
     }
 }

@@ -18,10 +18,6 @@ return [
         'Modules\\Notify\\Providers\\NotifyServiceProvider',
     ],
     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
      * |--------------------------------------------------------------------------
      * | Email Layout Configuration
      * |--------------------------------------------------------------------------
@@ -32,22 +28,6 @@ return [
 
     // Logo URL for email headers
     'logo_url' => env('MAIL_LOGO_URL', null),
-<<<<<<< HEAD
-=======
-    |--------------------------------------------------------------------------
-    | Email Layout Configuration
-    |--------------------------------------------------------------------------
-    |
-    | This file contains the configuration for email layouts and templates.
-    |
-    */
-
-    // Logo URL for email headers
-    'logo_url' => env('MAIL_LOGO_URL', null),
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     // Footer text for all emails
     //'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
 
@@ -58,10 +38,6 @@ return [
         'instagram' => env('MAIL_SOCIAL_INSTAGRAM', null),
         'linkedin' => env('MAIL_SOCIAL_LINKEDIN', null),
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     // Unsubscribe URL
     'unsubscribe_url' => env('MAIL_UNSUBSCRIBE_URL', null),
     /*
@@ -75,39 +51,11 @@ return [
 
     // Default layout to use
     'default_layout' => 'notify::mail-layouts.base.default',
-<<<<<<< HEAD
-=======
-
-    // Unsubscribe URL
-    'unsubscribe_url' => env('MAIL_UNSUBSCRIBE_URL', null),
-
-    /*
-    |--------------------------------------------------------------------------
-    | Mail Templates
-    |--------------------------------------------------------------------------
-    |
-    | Configuration for mail templates
-    |
-    */
-
-    // Default layout to use
-    'default_layout' => 'notify::mail-layouts.base.default',
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     // Available layouts
     'layouts' => [
         'default' => 'notify::mail-layouts.base.default',
         // Add more layouts here
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     // Available templates
     'templates' => [
         'welcome' => 'notify::mail-layouts.templates.welcome',

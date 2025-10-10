@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Override;
-=======
->>>>>>> b19cd40 (.)
-=======
-use Override;
->>>>>>> 4e2ebfb (.)
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
@@ -24,10 +17,6 @@ class ListNotifications extends XotBaseListRecords
 {
     protected static string $resource = NotificationResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -43,62 +32,14 @@ class ListNotifications extends XotBaseListRecords
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')
-                ->numeric()
-                ->sortable(),
-            'type' => TextColumn::make('type')
-                ->searchable()
-                ->sortable(),
-            'notifiable' => TextColumn::make('notifiable.name')
-                ->searchable()
-                ->sortable(),
-            'data' => TextColumn::make('data')
-                ->searchable(),
-            'read_at' => TextColumn::make('read_at')
-                ->dateTime()
-                ->sortable(),
-            'created_at' => TextColumn::make('created_at')
-                ->dateTime()
-                ->sortable(),
-            'updated_at' => TextColumn::make('updated_at')
-                ->dateTime()
-                ->sortable(),
-        ];
-    }
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     public function getTableFilters(): array
     {
         return [
             'read' => Filter::make('is_read')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
-<<<<<<< HEAD
-=======
-                ->query(function (Builder $query): Builder {
-                    return $query->where('read_at', '!=', null);
-                })
-                ->label('Read'),
-            'unread' => Filter::make('is_unread')
-                ->query(function (Builder $query): Builder {
-                    return $query->whereNull('read_at');
-                })
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

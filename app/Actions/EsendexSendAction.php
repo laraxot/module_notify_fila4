@@ -32,18 +32,8 @@ class EsendexSendAction
     {
         $auth = $this->login();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!is_array($auth)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-=======
-        if (! is_array($auth)) {
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> b19cd40 (.)
-=======
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> 4e2ebfb (.)
         }
 
         $data = [
@@ -56,26 +46,12 @@ class EsendexSendAction
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-<<<<<<< HEAD
-<<<<<<< HEAD
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
 
-=======
-        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
-        
->>>>>>> b19cd40 (.)
-=======
-        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
-
->>>>>>> 4e2ebfb (.)
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
         if (!is_string($auth[0])) {
             $auth[0] = '';
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 
         if (!is_string($auth[1])) {
             $auth[1] = '';
@@ -86,25 +62,6 @@ class EsendexSendAction
             'user_key: ' . $auth[0],
             'Session_key: ' . $auth[1],
         ]);
-<<<<<<< HEAD
-=======
-        
-        if (!is_string($auth[1])) {
-            $auth[1] = '';
-        }
-        
-        curl_setopt(
-            $ch,
-            CURLOPT_HTTPHEADER,
-            [
-                'Content-type: application/json',
-                'user_key: '.$auth[0],
-                'Session_key: '.$auth[1],
-            ]
-        );
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -117,25 +74,11 @@ class EsendexSendAction
             return [];
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
         if (!is_array($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-<<<<<<< HEAD
-=======
-        $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
-
-        dddx($res);
-        if (! is_array($res)) {
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         }
 
         return $res;
@@ -145,15 +88,7 @@ class EsendexSendAction
      * Authenticates the user given it's username and password.
      * Returns the pair user_key, Session_key.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function login(): null|array
-=======
-    public function login(): ?array
->>>>>>> b19cd40 (.)
-=======
-    public function login(): null|array
->>>>>>> 4e2ebfb (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -161,15 +96,7 @@ class EsendexSendAction
         Assert::string($username = config('esendex.username'));
         Assert::string($password = config('esendex.password'));
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
-=======
-        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
->>>>>>> b19cd40 (.)
-=======
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
->>>>>>> 4e2ebfb (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 
@@ -187,14 +114,6 @@ class EsendexSendAction
             return null;
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         return explode(';', is_string($response) ? $response : ((string) $response));
-=======
-        return explode(';', is_string($response) ? $response : (string) $response);
->>>>>>> b19cd40 (.)
-=======
-        return explode(';', is_string($response) ? $response : ((string) $response));
->>>>>>> 4e2ebfb (.)
     }
 }
