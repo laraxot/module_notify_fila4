@@ -18,7 +18,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_create_template_version_with_basic_information(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         $versionData = [
             'template_id' => $template->id,
@@ -57,9 +57,9 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_manage_template_version_relationships(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
         ]);
 
@@ -73,13 +73,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_restore_template_from_version(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create([
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create([
             'subject' => 'Versione Originale',
             'body_html' => '<p>Contenuto originale</p>',
         ]);
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'subject' => 'Versione Precedente',
             'body_html' => '<p>Contenuto versione precedente</p>',
@@ -118,7 +118,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_throws_exception_when_restoring_without_template(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => 99999, // Template inesistente
         ]);
 
@@ -135,10 +135,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_manage_version_metadata(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5',
             'change_notes' => 'Correzione bug nella formattazione email',
@@ -154,7 +154,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_complex_channel_configurations(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         $complexChannels = [
             'email' => [
@@ -174,7 +174,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'channels' => $complexChannels,
         ]);
@@ -191,7 +191,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_manage_conditional_logic(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         $conditions = [
             'user_type' => ['patient', 'doctor'],
@@ -202,7 +202,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'conditions' => $conditions,
         ]);
@@ -219,7 +219,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_template_variables_validation(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         $variables = [
             'required' => ['patient_name', 'appointment_date', 'doctor_name'],
@@ -233,7 +233,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'variables' => $variables,
         ]);
@@ -250,25 +250,25 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_manage_version_history(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         // Crea multiple versioni
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version1 = NotificationTemplateVersion::factory()->create([
+        $version1 = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'version' => '1.0',
             'change_notes' => 'Versione iniziale',
         ]);
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version2 = NotificationTemplateVersion::factory()->create([
+        $version2 = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'version' => '1.1',
             'change_notes' => 'Aggiunta variabile clinic_address',
         ]);
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version3 = NotificationTemplateVersion::factory()->create([
+        $version3 = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'version' => '2.0',
             'change_notes' => 'Rifattorizzazione completa del template',
@@ -288,13 +288,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_version_rollback_scenarios(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create([
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create([
             'subject' => 'Versione Corrente',
             'body_html' => '<p>Contenuto corrente</p>',
         ]);
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $stableVersion = NotificationTemplateVersion::factory()->create([
+        $stableVersion = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'version' => '1.0',
             'subject' => 'Versione Stabile',
@@ -334,10 +334,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_manage_version_metadata_and_tracking(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'version' => '1.2.3',
             'change_notes' => 'Hotfix per problema di formattazione SMS',
@@ -358,10 +358,10 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_empty_or_null_values_gracefully(): void
     {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $template = NotificationTemplate::factory()->create();
+        $template = NotificationTemplate/** @phpstan-ignore-line */ ::factory()->create();
 
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = NotificationTemplateVersion::factory()->create([
+        $version = NotificationTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
             'template_id' => $template->id,
             'subject' => null,
             'body_html' => null,

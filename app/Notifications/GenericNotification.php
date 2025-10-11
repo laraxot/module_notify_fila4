@@ -94,7 +94,7 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene la rappresentazione SMS della notifica.
      *
-     * @return array<string, mixed>
+     * @return array<int, string>
      */
     public function toTwilio(mixed $notifiable): array
     {
@@ -123,7 +123,7 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene la rappresentazione database della notifica.
      *
-     * @return array<string, mixed>
+     * @return array<int, string>
      */
     public function toDatabase(mixed $notifiable): array
     {
