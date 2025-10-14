@@ -57,6 +57,10 @@ class FormatSmsMessageAction
             }
         }
 
-        return [$formattedMessage, $characterCount, $smsCount];
+        return [
+            'message' => $formattedMessage,
+            'character_count' => $characterCount,
+            'sms_count' => $smsCount,
+        ];
     }
 }

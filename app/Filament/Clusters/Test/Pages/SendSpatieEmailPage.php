@@ -66,15 +66,15 @@ class SendSpatieEmailPage extends XotBasePage
     public function getEmailFormSchema(): array
     {
         return [
-            TextInput::make('to')->email()->required(),
+            'to' => TextInput::make('to')->email()->required(),
             /*
              * Forms\Components\TextInput::make('subject')
              * ->required(),
              */
-            Select::make('mail_template_slug')
+            'mail_template_slug' => Select::make('mail_template_slug')
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
-            RichEditor::make('body_html')->required(),
+            'body_html' => RichEditor::make('body_html')->required(),
         ];
     }
 
