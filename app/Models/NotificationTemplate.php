@@ -132,9 +132,16 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function compile(array $data = []): array
     {
-        $subject = $this->compileString($this->subject, $data);
-        $bodyHtml = $this->compileString($this->body_html, $data);
-        $bodyText = $this->compileString($this->body_text, $data);
+        /** @var string $subject */
+        $subject = $this->getAttribute('subject');
+        /** @var string|null $bodyHtml */
+        $bodyHtml = $this->getAttribute('body_html');
+        /** @var string|null $bodyText */
+        $bodyText = $this->getAttribute('body_text');
+        
+        $subject = $this->compileString($subject, $data);
+        $bodyHtml = $this->compileString($bodyHtml, $data);
+        $bodyText = $this->compileString($bodyText, $data);
 
         return [
             'subject' => $subject ?? '',
@@ -150,11 +157,16 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function shouldSend(array $data = []): bool
     {
-        if (! $this->conditions) {
+        /** @var array|null $conditions */
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
             return true;
         }
 
-        foreach ($this->conditions as $path => $value) {
+        foreach ($conditions as $path => $value) {
+            if (! is_string($path)) {
+                continue;
+            }
             $actual = data_get($data, $path);
             if ($actual !== $value) {
                 return false;
@@ -187,7 +199,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function preview(array $data = []): array
     {
-        $previewData = $this->preview_data ?? [];
+        /** @var array<string, mixed>|null $previewData */
+        $previewData = $this->getAttribute('preview_data');
+        if (! is_array($previewData)) {
+            $previewData = [];
+        }
         $mergedData = array_merge($previewData, $data);
 
         /** @var array<string, mixed> $mergedData */
@@ -232,7 +248,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getChannelsLabelAttribute(): string
     {
-        return collect($this->channels)
+        /** @var array $channels */
+        $channels = $this->getAttribute('channels');
+        if (! is_array($channels)) {
+            $channels = [];
+        }
+        return collect($channels)
             ->map(function ($channel): string {
                 $channelStr = is_string($channel) ? $channel : (string) $channel;
 
@@ -248,7 +269,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
-        $data = $this->grapesjs_data ?? [];
+        /** @var array<string, mixed>|null $data */
+        $data = $this->getAttribute('grapesjs_data');
         if (! is_array($data)) {
             return [];
         }
@@ -271,7 +293,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function setGrapesJSData(array $data): self
     {
-        $this->grapesjs_data = $data;
+        $this->setAttribute('grapesjs_data', $data);
 
         return $this;
     }
@@ -281,7 +303,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getPreviewData(): array
     {
-        return $this->preview_data ?? [];
+        /** @var array<string, mixed>|null $previewData */
+        $previewData = $this->getAttribute('preview_data');
+        if (! is_array($previewData)) {
+            return [];
+        }
+        return $previewData;
     }
 
     public function getPreviewSubject(): string
