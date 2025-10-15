@@ -4,14 +4,21 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Relations\MorphPivot;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Traits\Updater;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
- * Class BaseMorphPivot.
+ * Class BaseModel.
+ *
  */
-abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
+abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel implements HasMedia
 {
+    // use Searchable;
+    use \Modules\Xot\Models\Traits\HasXotFactory;
+    use InteractsWithMedia;
     use Updater;
 
     /**
@@ -45,20 +52,18 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
     protected $keyType = 'string';
 
     /** @var list<string> */
-    protected $fillable = [
-        'id',
-        'post_id',
-        'post_type',
-        'related_type',
-        'user_id',
-        'note',
+    protected $hidden = [
+        // 'password'
     ];
 
+    /** @return array<string, string> */
     protected function casts(): array
     {
         return [
             'id' => 'string',
             'uuid' => 'string',
+            'published_at' => 'datetime',
+            'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',

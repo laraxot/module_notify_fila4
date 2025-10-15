@@ -37,7 +37,6 @@ use Spatie\Translatable\HasTranslations;
  * @property string $slug
  * @property-read array $variables
  * @property-read mixed $translations
- *
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -59,17 +58,12 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereTextTemplate($value)
  * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
- *
  * @property string|null $params
- *
  * @method static Builder<static>|MailTemplate whereParams($value)
- *
  * @property array<array-key, mixed>|null $sms_template
  * @property int $counter
- *
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
- *
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

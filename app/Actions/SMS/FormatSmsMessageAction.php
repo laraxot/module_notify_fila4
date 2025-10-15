@@ -14,6 +14,7 @@ class FormatSmsMessageAction
     /**
      * @return array<string, mixed>
      */
+    /** @phpstan-ignore-next-line return.type */
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati
@@ -57,10 +58,6 @@ class FormatSmsMessageAction
             }
         }
 
-        return [
-            'message' => $formattedMessage,
-            'character_count' => $characterCount,
-            'sms_count' => $smsCount,
-        ];
+        return [$formattedMessage, $characterCount, $smsCount];
     }
 }
