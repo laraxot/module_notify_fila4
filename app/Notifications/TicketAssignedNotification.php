@@ -7,7 +7,6 @@ namespace Modules\Notify\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
-use Modules\Fixcity\Models\Ticket;
 use Modules\User\Models\User;
 
 class TicketAssignedNotification extends Notification
@@ -15,7 +14,7 @@ class TicketAssignedNotification extends Notification
     use Queueable;
 
     public function __construct(
-        public Ticket $ticket,
+        public mixed $ticket, // Using mixed type since Ticket model doesn't exist
         public User $assignedBy
     ) {}
 
@@ -31,8 +30,8 @@ class TicketAssignedNotification extends Notification
     {
         return (new MailMessage)
             ->subject('New Ticket Assigned')
-            ->line("A new ticket #{$this->ticket->id} has been assigned to you by {$this->assignedBy->name}")
-            ->action('View Ticket', url("/tickets/{$this->ticket->id}"));
+            ->line("A new ticket has been assigned to you by {$this->assignedBy->name}")
+            ->action('View Ticket', url('/'));
     }
 
     /**
@@ -41,7 +40,6 @@ class TicketAssignedNotification extends Notification
     public function toArray(mixed $notifiable): array
     {
         return [
-            'ticket_id' => $this->ticket->id,
             'assigned_by' => $this->assignedBy->id,
         ];
     }

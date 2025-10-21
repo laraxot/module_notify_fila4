@@ -7,14 +7,13 @@ namespace Modules\Notify\Notifications;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
-use Modules\Fixcity\Models\Ticket;
 
 class TicketStatusChangedNotification extends Notification
 {
     use Queueable;
 
     public function __construct(
-        public Ticket $ticket,
+        public mixed $ticket, // Using mixed type since Ticket model doesn't exist
         public string $oldStatus,
         public string $newStatus
     ) {}
@@ -28,8 +27,8 @@ class TicketStatusChangedNotification extends Notification
     {
         return (new MailMessage)
             ->subject('Ticket Status Changed')
-            ->line("Ticket #{$this->ticket->id} status has changed from {$this->oldStatus} to {$this->newStatus}")
-            ->action('View Ticket', url("/tickets/{$this->ticket->id}"));
+            ->line("Ticket status has changed from {$this->oldStatus} to {$this->newStatus}")
+            ->action('View Ticket', url('/'));
     }
 
     /**
@@ -38,7 +37,6 @@ class TicketStatusChangedNotification extends Notification
     public function toArray(mixed $notifiable): array
     {
         return [
-            'ticket_id' => $this->ticket->id,
             'old_status' => $this->oldStatus,
             'new_status' => $this->newStatus,
         ];
