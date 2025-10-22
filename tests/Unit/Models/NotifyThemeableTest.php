@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyThemeable;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b19cd40 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -104,7 +110,13 @@ class NotifyThemeableTest extends TestCase
             'notify_theme_id' => 456,
         ]);
 
+<<<<<<< HEAD
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')
+            ->where('model_id', 123)
+            ->first();
+>>>>>>> b19cd40 (.)
 
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($found);
@@ -432,3 +444,13 @@ class NotifyThemeableTest extends TestCase
         $this->assertEquals(2, $todayThemeables[0]->model_id);
     }
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+>>>>>>> b19cd40 (.)
