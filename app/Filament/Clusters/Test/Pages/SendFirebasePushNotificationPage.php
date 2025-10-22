@@ -25,11 +25,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 
 /**
-<<<<<<< HEAD
  * 
-=======
- * @property \Filament\Schemas\Schema $pushForm
->>>>>>> b8140d8 (.)
  */
 class SendFirebasePushNotificationPage extends XotBasePage
 {
@@ -55,16 +51,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 
     protected function fillForms(): void
     {
-<<<<<<< HEAD
         // Form data filled;
-=======
-        $this->pushForm->fill();
-    }
-
-    public function pushForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
->>>>>>> b8140d8 (.)
     }
 
     /**
@@ -114,11 +101,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 
     public function sendPushNotification(): void
     {
-<<<<<<< HEAD
         $data = $this->data;
-=======
-        $data = $this->pushForm->getState();
->>>>>>> b8140d8 (.)
 
         try {
             // Creare i dati della notifica Firebase

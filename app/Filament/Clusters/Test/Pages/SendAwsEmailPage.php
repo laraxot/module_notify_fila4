@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -14,22 +13,6 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Notifications\Notification as FilamentNotification;
 use Filament\Panel;
-=======
-use Filament\Panel;
-use Filament\Schemas\Schema;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\RichEditor;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\Toggle;
-use Exception;
-use Override;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Filament\Forms;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Notifications\Notification as FilamentNotification;
->>>>>>> b8140d8 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -37,32 +20,17 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
 use Override;
 
 class SendAwsEmailPage extends XotBasePage
 {
     public ?array $emailData = [];
-=======
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-
-/**
- * @property \Filament\Schemas\Schema $emailForm
- */
-class SendAwsEmailPage extends XotBasePage
-{
-    public null|array $emailData = [];
->>>>>>> b8140d8 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';
 
-<<<<<<< HEAD
     protected static ?string $cluster = Test::class;
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> b8140d8 (.)
 
     /**
      * Get the slug of the page
@@ -88,17 +56,8 @@ class SendAwsEmailPage extends XotBasePage
 
     protected function fillForms(): void
     {
-<<<<<<< HEAD
         // $this->emailForm->fill();
         // Form data filled;
-=======
-        $this->emailForm->fill();
-    }
-
-    public function emailForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
->>>>>>> b8140d8 (.)
     }
 
     /**
@@ -143,12 +102,8 @@ class SendAwsEmailPage extends XotBasePage
 
     public function sendEmail(): void
     {
-<<<<<<< HEAD
         // $data = $this->emailForm->getState();
         $data = $this->data;
-=======
-        $data = $this->emailForm->getState();
->>>>>>> b8140d8 (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';
@@ -189,11 +144,7 @@ class SendAwsEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
-<<<<<<< HEAD
         if (! ($user instanceof Model)) {
-=======
-        if (!($user instanceof Model)) {
->>>>>>> b8140d8 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

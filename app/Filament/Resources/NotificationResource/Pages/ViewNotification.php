@@ -4,15 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
-<<<<<<< HEAD
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Component;
 use Override;
-=======
-use Filament\Schemas\Components\Component;
-use Override;
-use Filament\Schemas\Components\Section;
->>>>>>> b8140d8 (.)
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
