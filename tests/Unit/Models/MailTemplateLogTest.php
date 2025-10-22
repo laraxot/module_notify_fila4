@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
@@ -13,6 +14,11 @@ use Tests\TestCase;
 use Modules\Notify\Models\MailTemplateLog;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplateLog;
+use Tests\TestCase;
+>>>>>>> 4e2ebfb (.)
 
 use function Safe\json_encode;
 
@@ -720,6 +726,7 @@ class MailTemplateLogTest extends TestCase
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -729,3 +736,5 @@ class MailTemplateLogTest extends TestCase
 
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)

@@ -46,7 +46,11 @@ return [
         'description' => 'Italian provider for telecommunications services and SMS',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 ]; 
 >>>>>>> b19cd40 (.)
+=======
+];
+>>>>>>> 4e2ebfb (.)

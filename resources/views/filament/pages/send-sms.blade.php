@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 <x-filament-panels::page>
     <form wire:submit.prevent="sendSMS">
         <x-filament::section>
@@ -26,10 +32,14 @@ declare(strict_types=1);
                     </div>
                     <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
 =======
                         <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
 >>>>>>> b19cd40 (.)
+=======
+                        <x-filament::actions :actions="$this->getSmsFormActions()" />
+>>>>>>> 4e2ebfb (.)
                     </div>
                 </div>
 
