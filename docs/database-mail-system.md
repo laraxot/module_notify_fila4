@@ -310,6 +310,10 @@ php artisan notify:mail-template:test
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
 =======
 >>>>>>> b19cd40 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4e2ebfb (.)

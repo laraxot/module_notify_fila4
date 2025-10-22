@@ -19,17 +19,22 @@ final class PushNotificationDebugData extends Data implements Arrayable
         private readonly MobilePushNotification $notification,
         private readonly MulticastSendReport $sendReport,
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
     ) {
     }
 >>>>>>> b19cd40 (.)
+=======
+    ) {}
+>>>>>>> 4e2ebfb (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
         MobilePushNotification $notification,
         MulticastSendReport $sendReport,
     ): self {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return new self($notifiable, $notification, $sendReport);
 =======
@@ -39,6 +44,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
             $sendReport,
         );
 >>>>>>> b19cd40 (.)
+=======
+        return new self($notifiable, $notification, $sendReport);
+>>>>>>> 4e2ebfb (.)
     }
 
     /**
@@ -56,6 +64,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'successes' => $this->sendReport->successes()->count(),
                 'failures' => $this->sendReport->failures()->count(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
                     ->map(static fn (SendReport $report): array => [
@@ -78,6 +89,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),
+<<<<<<< HEAD
 =======
                 'successes_tokens' => $this->sendReport->successes()
                     ->map(
@@ -109,6 +121,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
                         ]
                     ),
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             ],
         ];
     }
