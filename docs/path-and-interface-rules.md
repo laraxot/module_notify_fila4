@@ -16,13 +16,7 @@
 
 ### Directory Fisiche (path su disco)
 ```
-<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
-/var/www/html/<nome progetto>/laravel/Modules/Notify/
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
->>>>>>> bf479cc (.)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email

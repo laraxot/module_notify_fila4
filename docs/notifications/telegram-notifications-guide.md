@@ -1,11 +1,6 @@
 # Notifiche Telegram 
 
-<<<<<<< HEAD
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di SaluteOra.
-=======
-Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di .
-Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di <nome progetto>.
->>>>>>> bf479cc (.)
 
 ## Indice
 
@@ -20,12 +15,7 @@ Questa documentazione descrive come implementare notifiche Telegram nel modulo N
 
 ## Introduzione
 
-<<<<<<< HEAD
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
-=======
-Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot.  integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
-Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. <nome progetto> integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
->>>>>>> bf479cc (.)
 
 ## Setup del Bot Telegram
 
@@ -38,33 +28,17 @@ Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua AP
 
 ### Funzionalità del Bot
 
-<<<<<<< HEAD
 Il bot di SaluteOra deve avere:
 - Privacy Mode disattivata (per leggere messaggi nei gruppi)
 - Comandi personalizzati configurati
 - Immagine del profilo con logo SaluteOra
-=======
-Il bot di  deve avere:
-- Privacy Mode disattivata (per leggere messaggi nei gruppi)
-- Comandi personalizzati configurati
-- Immagine del profilo con logo 
-Il bot di <nome progetto> deve avere:
-- Privacy Mode disattivata (per leggere messaggi nei gruppi)
-- Comandi personalizzati configurati
-- Immagine del profilo con logo <nome progetto>
->>>>>>> bf479cc (.)
 
 ### Comandi Consigliati
 
 Configura i seguenti comandi per il tuo bot:
 ```
 start - Inizia l'interazione con il bot
-<<<<<<< HEAD
 register - Collega il tuo account Telegram a SaluteOra
-=======
-register - Collega il tuo account Telegram a 
-register - Collega il tuo account Telegram a <nome progetto>
->>>>>>> bf479cc (.)
 unregister - Scollega il tuo account Telegram
 settings - Gestisci le tue preferenze di notifica
 help - Ottieni assistenza
@@ -185,21 +159,10 @@ public function toTelegram($notifiable)
 
 ### Collegamento Account Telegram
 
-<<<<<<< HEAD
 Per collegare un account Telegram a un utente SaluteOra:
 
 1. Implementa un comando `/register` nel bot che generi un token univoco.
 2. L'utente inserisce questo token nel proprio profilo nell'app SaluteOra.
-=======
-Per collegare un account Telegram a un utente :
-
-1. Implementa un comando `/register` nel bot che generi un token univoco.
-2. L'utente inserisce questo token nel proprio profilo nell'app .
-Per collegare un account Telegram a un utente <nome progetto>:
-
-1. Implementa un comando `/register` nel bot che generi un token univoco.
-2. L'utente inserisce questo token nel proprio profilo nell'app <nome progetto>.
->>>>>>> bf479cc (.)
 3. Salva il `chat_id` Telegram dell'utente nel database.
 
 ```php
@@ -212,12 +175,7 @@ use Modules\Notify\Models\TelegramToken;
 class RegisterCommand extends Command
 {
     protected $name = 'register';
-<<<<<<< HEAD
     protected $description = 'Collega il tuo account Telegram a SaluteOra';
-=======
-    protected $description = 'Collega il tuo account Telegram a ';
-    protected $description = 'Collega il tuo account Telegram a <nome progetto>';
->>>>>>> bf479cc (.)
     
     public function handle()
     {
@@ -232,12 +190,7 @@ class RegisterCommand extends Command
         ]);
         
         $this->replyWithMessage([
-<<<<<<< HEAD
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
-=======
-            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo  per completare il collegamento."
-            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo <nome progetto> per completare il collegamento."
->>>>>>> bf479cc (.)
         ]);
     }
 }

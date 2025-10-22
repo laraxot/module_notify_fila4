@@ -119,18 +119,9 @@ if(!$this->hasColumn('subject')) {
 }
 ```
 
-<<<<<<< HEAD
 ## Applicazione a SaluteOra
 
 Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
-=======
-## Applicazione a 
-
-Nel contesto di , tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
-## Applicazione a <nome progetto>
-
-Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
->>>>>>> bf479cc (.)
 
 1. Le migrazioni per `mail_templates` e tabelle simili
 2. Campi multilingua che utilizzano il trait `HasTranslations`
@@ -141,13 +132,7 @@ Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversi
 È necessario esaminare tutte le migrazioni esistenti per identificare pattern simili di conversione diretta a JSON:
 
 ```bash
-<<<<<<< HEAD
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
-=======
-grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
-grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
-grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
->>>>>>> bf479cc (.)
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.
