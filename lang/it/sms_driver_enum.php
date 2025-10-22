@@ -45,12 +45,4 @@ return [
         'icon' => 'heroicon-o-truck',
         'description' => 'Provider italiano per servizi di telecomunicazioni e SMS',
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
 ];
-=======
-]; 
->>>>>>> b19cd40 (.)
-=======
-];
->>>>>>> 4e2ebfb (.)
