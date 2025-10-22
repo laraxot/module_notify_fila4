@@ -11,6 +11,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 
+use function Safe\json_encode;
+
 class NotifyThemeTest extends TestCase
 {
     use RefreshDatabase;
