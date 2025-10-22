@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
