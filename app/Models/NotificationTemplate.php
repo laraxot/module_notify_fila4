@@ -6,7 +6,6 @@ namespace Modules\Notify\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
@@ -73,6 +72,7 @@ use Spatie\Translatable\HasTranslations;
  * @property-read int|null $media_count
  * @property-read mixed $translations
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static Builder<static>|NotificationTemplate active()
  * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -84,6 +84,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+ *
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia
@@ -158,7 +159,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $bodyHtml = $this->getAttribute('body_html');
         /** @var string|null $bodyText */
         $bodyText = $this->getAttribute('body_text');
-        
+
         $subject = $this->compileString($subject, $data);
         $bodyHtml = $this->compileString($bodyHtml, $data);
         $bodyText = $this->compileString($bodyText, $data);
@@ -273,6 +274,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         if (! is_array($channels)) {
             $channels = [];
         }
+
         return collect($channels)
             ->map(function ($channel): string {
                 $channelStr = is_string($channel) ? $channel : (string) $channel;
@@ -328,6 +330,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         if (! is_array($previewData)) {
             return [];
         }
+
         return $previewData;
     }
 

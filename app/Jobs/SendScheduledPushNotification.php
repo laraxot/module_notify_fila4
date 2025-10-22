@@ -97,7 +97,3 @@ class SendScheduledPushNotification implements ShouldQueue
         Cache::forget("scheduled_push:{$this->jobId}");
     }
 }
-
-
-
-

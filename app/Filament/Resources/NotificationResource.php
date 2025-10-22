@@ -29,5 +29,6 @@ class NotificationResource extends XotBaseResource
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
-        ]);}
+        ]);
+    }
 }

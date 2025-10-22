@@ -4,45 +4,36 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Forms\Form;
-use Filament\Schemas\Schema;
-use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\RichEditor;
-use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
-use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Filament\Clusters\Test;
-use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Override;
 use Webmozart\Assert\Assert;
 
-/**
- * 
- */
 class TestSmtpPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
 
-    public null|array $emailData = [];
+    public ?array $emailData = [];
 
-    public null|string $error_message = null;
+    public ?string $error_message = null;
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
-    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
 
     public function mount(): void
     {
@@ -82,6 +73,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
     {
         /** @var Schema $result */
         $result = $schema->components([])->model($this->getUser())->statePath('emailData');
+
         return $result;
     }
 
@@ -90,7 +82,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
     {
         $user = Filament::auth()->user();
 
-        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.',
             );

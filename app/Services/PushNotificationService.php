@@ -529,7 +529,3 @@ class PushNotificationService
         ];
     }
 }
-
-
-
-
