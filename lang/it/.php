@@ -7,4 +7,10 @@ return [
         'label' => 'Menu Notifiche',
         'group' => 'Sistema',
     ],
+    'actions' => [
+        'logout' => [
+            'tooltip' => 'logout',
+            'icon' => 'logout',
+        ],
+    ],
 ];
