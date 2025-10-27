@@ -9,15 +9,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
-
-use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\RichEditor;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
-use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Page;
@@ -29,12 +23,8 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
-use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
-/**
- * 
- */
 class SendTelegram extends Page implements HasForms
 {
     public array $data = [];
@@ -43,13 +33,13 @@ class SendTelegram extends Page implements HasForms
 
     // use NavigationLabelTrait;
 
-    public null|array $emailData = [];
+    public ?array $emailData = [];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
-    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
 
     public function mount(): void
     {
@@ -60,7 +50,7 @@ class SendTelegram extends Page implements HasForms
     {
         $data = $this->data;
         Assert::string($token = config('services.telegram-bot-api.token'));
-        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
         Http::get($url);
         // dddx($response->json());
         /*
@@ -108,7 +98,7 @@ class SendTelegram extends Page implements HasForms
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
-        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

@@ -4,51 +4,43 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
-
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Repeater;
-use Kreait\Firebase\Messaging\MessageData;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
-use Filament\Forms;
+use Filament\Forms\Components\Repeater;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Stringable;
 use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Messaging\CloudMessage;
-use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
+use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
-use Modules\User\Models\DeviceUser;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
 
-/**
- * 
- */
 class SendPushNotification extends Page implements HasForms
 {
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
-    public null|array $notificationData = [];
+    public ?array $notificationData = [];
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-push-notification';
 
-    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
 
     public function mount(): void
     {
@@ -62,11 +54,11 @@ class SendPushNotification extends Page implements HasForms
          * Callback per filtrare i dispositivi.
          */
 
-        Assert::isArray([]);
+        // Assert::isArray([]);
 
         return $schema
             ->components([
-                Select::make('deviceToken')->options(fn() => []),
+                Select::make('deviceToken')->options(fn () => []),
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -91,6 +83,7 @@ class SendPushNotification extends Page implements HasForms
                 ->title('Errore')
                 ->body('Token del dispositivo non valido')
                 ->send();
+
             return;
         }
 
@@ -181,7 +174,7 @@ class SendPushNotification extends Page implements HasForms
     {
         $user = Filament::auth()->user();
 
-        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
