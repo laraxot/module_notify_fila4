@@ -1,3 +1,9 @@
+<?php
+
+declare(strict_types=1);
+
+?>
+<tr>
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>

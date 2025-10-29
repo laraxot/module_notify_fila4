@@ -372,3 +372,4 @@ Prima di usare `LangBase*`:
 **Priority**: P1 (blocca funzionalità)  
 **Next Step**: Decidere se MailTemplate deve essere traducibile
 
+

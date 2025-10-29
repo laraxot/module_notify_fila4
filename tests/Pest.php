@@ -30,15 +30,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * |
  */
 
-expect()->extend('toBe' + 'Notify' + '', function () {
-    /** @var \Pest\Expectation<mixed> $this */
-    return $this->toBeInstanceOf(...);
-});
+expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
 
-expect()->extend('toBe' + 'Notify' + '', function () {
-    /** @var \Pest\Expectation<mixed> $this */
-    return $this->toBeInstanceOf(...);
-});
+expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
 
 /*
  * |--------------------------------------------------------------------------

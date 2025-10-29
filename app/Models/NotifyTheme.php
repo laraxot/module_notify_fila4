@@ -77,63 +77,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  *
- * @mixin Eloquent
- */
-/**
- * @property string $id
- * @property string|null $lang
- * @property string|null $type
- * @property string|null $subject
- * @property string|null $body
- * @property string|null $from
- * @property string|null $post_type
- * @property int|null $post_id
- * @property string|null $body_html
- * @property string|null $theme
- * @property string|null $from_email
- * @property string|null $logo_src
- * @property int|null $logo_width
- * @property int|null $logo_height
- * @property array<array-key, mixed>|null $view_params
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read array<string, mixed> $logo
- * @property-read Model|\Eloquent|null $linkable
- * @property-read MediaCollection<int, Media> $media
- * @property-read int|null $media_count
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
- * @method static Builder<static>|NotifyTheme newModelQuery()
- * @method static Builder<static>|NotifyTheme newQuery()
- * @method static Builder<static>|NotifyTheme query()
- * @method static Builder<static>|NotifyTheme whereBody($value)
- * @method static Builder<static>|NotifyTheme whereBodyHtml($value)
- * @method static Builder<static>|NotifyTheme whereCreatedAt($value)
- * @method static Builder<static>|NotifyTheme whereCreatedBy($value)
- * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
- * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
- * @method static Builder<static>|NotifyTheme whereFrom($value)
- * @method static Builder<static>|NotifyTheme whereFromEmail($value)
- * @method static Builder<static>|NotifyTheme whereId($value)
- * @method static Builder<static>|NotifyTheme whereLang($value)
- * @method static Builder<static>|NotifyTheme whereLogoHeight($value)
- * @method static Builder<static>|NotifyTheme whereLogoSrc($value)
- * @method static Builder<static>|NotifyTheme whereLogoWidth($value)
- * @method static Builder<static>|NotifyTheme wherePostId($value)
- * @method static Builder<static>|NotifyTheme wherePostType($value)
- * @method static Builder<static>|NotifyTheme whereSubject($value)
- * @method static Builder<static>|NotifyTheme whereTheme($value)
- * @method static Builder<static>|NotifyTheme whereType($value)
- * @method static Builder<static>|NotifyTheme whereUpdatedAt($value)
- * @method static Builder<static>|NotifyTheme whereUpdatedBy($value)
- * @method static Builder<static>|NotifyTheme whereViewParams($value)
- *
+ * @mixin IdeHelperNotifyTheme
  * @mixin Eloquent
  */
 class NotifyTheme extends BaseModel
@@ -162,9 +106,6 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getLogoAttribute(?array $value): array
     {
         return [

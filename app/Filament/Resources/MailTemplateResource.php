@@ -29,14 +29,14 @@ class MailTemplateResource extends LangBaseResource
     #[Override]
     public static function getFormSchema(): array
     {
-        return array_values([
+        return [
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
             'name_group' => Group::make()
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -48,23 +48,11 @@ class MailTemplateResource extends LangBaseResource
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')
-                ->viewData(function ($record): array {
-                    if (! is_object($record) || ! property_exists($record, 'params')) {
-                        return ['params' => []];
-                    }
-
-                    return ['params' => $record->params];
-                })
+                ->viewData(fn ($record) => ['params' => $record?->params])
                 ->columnSpanFull()
-                ->visible(function ($record): bool {
-                    if (! is_object($record) || ! property_exists($record, 'params')) {
-                        return false;
-                    }
-
-                    return ! empty($record->params);
-                }),
+                ->visible(fn ($record): bool => ! empty($record->params)),
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
-        ]);
+        ];
     }
 }

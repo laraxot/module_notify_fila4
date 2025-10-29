@@ -49,12 +49,10 @@ class SendPushNotification extends Page implements HasForms
 
     public function form(Schema $schema): Schema
     {
-
         /**
          * Callback per filtrare i dispositivi.
          */
-
-        // Assert::isArray([]);
+        Assert::isArray([]);
 
         return $schema
             ->components([

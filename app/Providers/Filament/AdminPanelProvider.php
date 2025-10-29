@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Providers\Filament;
 
 use Filament\Notifications\Livewire\DatabaseNotifications;
-// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
@@ -24,10 +24,13 @@ class AdminPanelProvider extends XotBasePanelProvider
     #[Override]
     public function panel(Panel $panel): Panel
     {
-        // Temporaneamente commentato per compatibilità Filament 4.x
-        // $panel->plugins([
-        //     SpatieTranslatablePlugin::make(),
-        // ]);
+        // ✅ Registrazione plugin per supporto multilingua
+        // Richiesto da LangBaseListRecords che usa trait Translatable
+        $panel->plugins([
+            SpatieTranslatablePlugin::make()
+                ->defaultLocales(['it', 'en']),
+        ]);
+        
         if (! XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
             // DatabaseNotifications::databaseNotificationsPollingInterval('30s');

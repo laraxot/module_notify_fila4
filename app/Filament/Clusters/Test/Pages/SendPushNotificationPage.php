@@ -46,6 +46,11 @@ class SendPushNotificationPage extends XotBasePage
 
     public function form(Schema $schema): Schema
     {
+        /**
+         * Callback per filtrare i dispositivi.
+         */
+        Assert::isArray([]);
+
         return $schema
             ->components([
                 Select::make('deviceToken')->options(fn () => []),

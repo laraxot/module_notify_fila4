@@ -48,3 +48,4 @@ test('ListMailTemplates renders without plugin registration error', function () 
         ->assertCanSeeTableRecords(MailTemplate::all());
 });
 
+

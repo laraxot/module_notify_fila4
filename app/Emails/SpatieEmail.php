@@ -173,17 +173,10 @@ class SpatieEmail extends TemplateMailable
 
     public function getAttachmentFromPath(array $attachment): Attachment
     {
-        $path = $attachment['path'];
-        Assert::string($path, 'Attachment path must be string');
-
-        $res = Attachment::fromPath($path);
-        $info = pathinfo($path);
-
+        $res = Attachment::fromPath($attachment['path']);
+        $info = pathinfo($attachment['path']);
         $filename = $attachment['as'] ?? $info['basename'];
-        Assert::string($filename, 'Filename must be string');
-
-        $mime = $attachment['mime'] ?? File::mimeType($path);
-        Assert::string($mime, 'MIME type must be string');
+        $mime = $attachment['mime'] ?? File::mimeType($attachment['path']);
 
         $res = $res->as($filename)->withMime($mime);
 
@@ -194,10 +187,9 @@ class SpatieEmail extends TemplateMailable
     {
         $res = Attachment::fromData(fn () => $attachment['data']);
         $as = $attachment['as'];
-        Assert::string($as, 'Attachment "as" must be string');
 
         $mime = Arr::get($attachment, 'mime', null); // ?? File::mimeType($as);   file vuole un file esistente
-        $info = pathinfo($as);
+        $info = pathinfo($attachment['as']);
         if ($mime === null && isset($info['extension'])) {
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
         }
@@ -254,8 +246,6 @@ class SpatieEmail extends TemplateMailable
     {
         /**@phpstan-ignore method.notFound */
         $sms_template = $this->getMailTemplate()->getAttributeValue('sms_template');
-        Assert::string($sms_template, 'SMS template must be string');
-
         $mustache = app(Mustache_Engine::class);
         $sms = $mustache->render($sms_template, $this->data);
 

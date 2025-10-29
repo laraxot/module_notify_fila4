@@ -29,37 +29,6 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read NotificationTemplate|null $template
- * @property string $notifiable_type
- * @property int $notifiable_id
- * @property string $title
- * @property string|null $error
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
- * @property-read int|null $media_count
- * @property-read Model|\Eloquent $notifiable
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
- * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
- * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
- * @method static Builder<static>|NotificationLog newModelQuery()
- * @method static Builder<static>|NotificationLog newQuery()
- * @method static Builder<static>|NotificationLog query()
- * @method static Builder<static>|NotificationLog whereChannels($value)
- * @method static Builder<static>|NotificationLog whereContent($value)
- * @method static Builder<static>|NotificationLog whereCreatedAt($value)
- * @method static Builder<static>|NotificationLog whereData($value)
- * @method static Builder<static>|NotificationLog whereError($value)
- * @method static Builder<static>|NotificationLog whereId($value)
- * @method static Builder<static>|NotificationLog whereNotifiableId($value)
- * @method static Builder<static>|NotificationLog whereNotifiableType($value)
- * @method static Builder<static>|NotificationLog whereSentAt($value)
- * @method static Builder<static>|NotificationLog whereStatus($value)
- * @method static Builder<static>|NotificationLog whereTitle($value)
- * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
- * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
- *
- * @mixin \Eloquent
  */
 final class NotificationLog extends BaseModel
 {
@@ -77,23 +46,15 @@ final class NotificationLog extends BaseModel
         'clicked_at',
     ];
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return [
-            'data' => 'array',
-            'channels' => 'array',
-            'sent_at' => 'datetime',
-            'delivered_at' => 'datetime',
-            'opened_at' => 'datetime',
-            'clicked_at' => 'datetime',
-            'status' => NotificationLogStatusEnum::class,
-        ];
-    }
+    protected $casts = [
+        'data' => 'array',
+        'channels' => 'array',
+        'sent_at' => 'datetime',
+        'delivered_at' => 'datetime',
+        'opened_at' => 'datetime',
+        'clicked_at' => 'datetime',
+        'status' => NotificationLogStatusEnum::class,
+    ];
 
     /**
      * Ottiene il template associato a questo log.

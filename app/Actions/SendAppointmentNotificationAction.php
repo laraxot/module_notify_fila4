@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-// This file references <main module> models that do not exist in this project
+// This file references SaluteOra models that do not exist in this project
 
 namespace Modules\Notify\Actions;
 
 use Exception;
 use Illuminate\Support\Facades\Log;
-// use Modules\<main module>\Models\Appointment;
-// use Modules\<main module>\Models\Patient;
+// use Modules\SaluteOra\Models\Appointment;
+// use Modules\SaluteOra\Models\Patient;
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction
@@ -45,7 +45,6 @@ class SendAppointmentNotificationAction
             ]);
 
             return false;
-
         } catch (Exception $e) {
             Log::error('Errore nell\'invio della notifica di appuntamento', [
                 'type' => $type,

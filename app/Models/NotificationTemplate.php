@@ -6,6 +6,7 @@ namespace Modules\Notify\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
@@ -62,29 +63,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
  *
- * @mixin \Eloquent
- */
-/**
- * @property NotificationTypeEnum $type
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read string $channels_label
- * @property-read MediaCollection<int, Media> $media
- * @property-read int|null $media_count
- * @property-read mixed $translations
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static Builder<static>|NotificationTemplate active()
- * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
- * @method static Builder<static>|NotificationTemplate forCategory(string $category)
- * @method static Builder<static>|NotificationTemplate forChannel(string $channel)
- * @method static Builder<static>|NotificationTemplate newModelQuery()
- * @method static Builder<static>|NotificationTemplate newQuery()
- * @method static Builder<static>|NotificationTemplate query()
- * @method static Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
- * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
- * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
- * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
- *
+ * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia
@@ -145,6 +124,43 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $this->addMediaCollection('attachments')->singleFile();
     }
 
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
+    /*
+     * Create a new version of the template.
+     *
+     * @param string $createdBy The user who created the version
+     * @param string|null $notes Optional notes about the changes
+     * @return self
+     *
+     * public function createNewVersion(string $createdBy, ?string $notes = null): self
+     * {
+     * $this->versions()->create([
+     * 'subject' => $this->subject,
+     * 'body_html' => $this->body_html,
+     * 'body_text' => $this->body_text,
+     * 'channels' => $this->channels,
+     * 'variables' => $this->variables,
+     * 'conditions' => $this->conditions,
+     * 'version' => $this->version,
+     * 'created_by' => $createdBy,
+     * 'change_notes' => $notes,
+     * ]);
+     *
+     * $this->increment('version');
+     * return $this;
+     * }
+     */
     /**
      * Compile the template with the given data.
      *
@@ -153,16 +169,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function compile(array $data = []): array
     {
-        /** @var string $subject */
-        $subject = $this->getAttribute('subject');
-        /** @var string|null $bodyHtml */
-        $bodyHtml = $this->getAttribute('body_html');
-        /** @var string|null $bodyText */
-        $bodyText = $this->getAttribute('body_text');
-
-        $subject = $this->compileString($subject, $data);
-        $bodyHtml = $this->compileString($bodyHtml, $data);
-        $bodyText = $this->compileString($bodyText, $data);
+        $subject = $this->compileString($this->subject, $data);
+        $bodyHtml = $this->compileString($this->body_html, $data);
+        $bodyText = $this->compileString($this->body_text, $data);
 
         return [
             'subject' => $subject ?? '',
@@ -178,16 +187,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function shouldSend(array $data = []): bool
     {
-        /** @var array|null $conditions */
-        $conditions = $this->getAttribute('conditions');
-        if (! $conditions) {
+        if (! $this->conditions) {
             return true;
         }
 
-        foreach ($conditions as $path => $value) {
-            if (! is_string($path)) {
-                continue;
-            }
+        foreach ($this->conditions as $path => $value) {
             $actual = data_get($data, $path);
             if ($actual !== $value) {
                 return false;
@@ -220,14 +224,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function preview(array $data = []): array
     {
-        /** @var array<string, mixed>|null $previewData */
-        $previewData = $this->getAttribute('preview_data');
-        if (! is_array($previewData)) {
-            $previewData = [];
-        }
+        $previewData = $this->preview_data ?? [];
         $mergedData = array_merge($previewData, $data);
 
-        /** @var array<string, mixed> $mergedData */
         return $this->compile($mergedData);
     }
 
@@ -269,18 +268,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getChannelsLabelAttribute(): string
     {
-        /** @var array $channels */
-        $channels = $this->getAttribute('channels');
-        if (! is_array($channels)) {
-            $channels = [];
-        }
-
-        return collect($channels)
-            ->map(function ($channel): string {
-                $channelStr = is_string($channel) ? $channel : (string) $channel;
-
-                return (string) __('notify::template.fields.channel.options.'.$channelStr.'.label');
-            })
+        return collect($this->channels)
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
             ->implode(', ');
     }
 
@@ -291,21 +280,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
-        /** @var array<string, mixed>|null $data */
-        $data = $this->getAttribute('grapesjs_data');
-        if (! is_array($data)) {
-            return [];
-        }
-
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($data as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return $result;
+        return $this->grapesjs_data ?? [];
     }
 
     /**
@@ -315,23 +290,14 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function setGrapesJSData(array $data): self
     {
-        $this->setAttribute('grapesjs_data', $data);
+        $this->grapesjs_data = $data;
 
         return $this;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getPreviewData(): array
     {
-        /** @var array<string, mixed>|null $previewData */
-        $previewData = $this->getAttribute('preview_data');
-        if (! is_array($previewData)) {
-            return [];
-        }
-
-        return $previewData;
+        return $this->preview_data ?? [];
     }
 
     public function getPreviewSubject(): string
