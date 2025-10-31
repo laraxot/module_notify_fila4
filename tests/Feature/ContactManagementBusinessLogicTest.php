@@ -9,6 +9,8 @@ use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
 
+use function Safe\json_encode;
+
 class ContactManagementBusinessLogicTest extends TestCase
 {
     use RefreshDatabase;
