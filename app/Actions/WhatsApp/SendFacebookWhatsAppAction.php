@@ -127,9 +127,14 @@ final class SendFacebookWhatsAppAction
                 'response_code' => $statusCode,
             ]);
 
+            $messageId = null;
+            if (is_array($responseData) && isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]) && is_array($responseData['messages'][0]) && isset($responseData['messages'][0]['id'])) {
+                $messageId = $responseData['messages'][0]['id'];
+            }
+
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
-                'message_id' => $responseData['messages'][0]['id'] ?? null,
+                'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -150,9 +155,14 @@ final class SendFacebookWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+            $errorMessage = 'Errore sconosciuto';
+            if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
+                $errorMessage = $responseBody['error']['message'];
+            }
+
             return [
                 'success' => false,
-                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+                'error' => $errorMessage,
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

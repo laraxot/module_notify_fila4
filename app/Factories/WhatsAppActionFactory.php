@@ -7,6 +7,7 @@ namespace Modules\Notify\Factories;
 use Exception;
 use Illuminate\Support\Facades\Config;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
 
@@ -63,6 +64,9 @@ final class WhatsAppActionFactory
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
 
-        return app($className);
+        $instance = app($className);
+        Assert::isInstanceOf($instance, WhatsAppProviderActionInterface::class);
+
+        return $instance;
     }
 }

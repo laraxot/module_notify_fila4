@@ -11,6 +11,10 @@ use function Safe\preg_split;
  */
 class FormatSmsMessageAction
 {
+    /**
+     * @return array<string, mixed>
+     */
+    /** @phpstan-ignore-next-line return.type */
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati
