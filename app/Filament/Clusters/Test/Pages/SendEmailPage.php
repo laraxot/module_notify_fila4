@@ -42,9 +42,6 @@ class SendEmailPage extends XotBasePage
         $this->fillForms();
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getEmailFormSchema(): array
     {
         return [
