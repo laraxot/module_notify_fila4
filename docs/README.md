@@ -685,6 +685,38 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 
 **IMPORTANTE**: Questo modulo è completamente riutilizzabile tra progetti diversi e NON deve contenere riferimenti hardcoded a progetti specifici.
 
+## 🔧 Correzioni Recenti (2025-11-04)
+
+### PSR-4 Namespace Fixes
+Il modulo Notify aveva **violazioni PSR-4** che impedivano l'autoloading corretto.
+
+**File corretti:**
+- ✅ **SendScheduledPushNotification.php**: `Modules\Notify\App\Jobs` → `Modules\Notify\Jobs`
+- ✅ **PushNotificationService.php**: Namespace già corretto
+
+**Regola Laraxot PSR-4:**
+```php
+// File location: Modules/Notify/app/Jobs/SendScheduledPushNotification.php
+// ❌ SBAGLIATO
+namespace Modules\Notify\App\Jobs;
+
+// ✅ CORRETTO (namespace NON include 'app')
+namespace Modules\Notify\Jobs;
+```
+
+### Impatto
+- ✅ Autoloader PSR-4 funzionante (22855 classi caricate)
+- ✅ Nessun warning "does not comply with psr-4"
+- ✅ Import corretti in file dipendenti
+
+**Dettagli**: Vedi [psr4-namespace-fix.md](./psr4-namespace-fix.md) e [CHANGELOG.md](./CHANGELOG.md)
+
+**Riferimenti**:
+- [PSR-4 Conventions](../../Xot/docs/namespace-conventions.md)
+- [Module Namespace Rules](../../Xot/docs/module-namespace-rules.md)
+
+---
+
 ## Struttura del Modulo
 
 ### Modelli Identificati (13 totali)
@@ -964,7 +996,8 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 
 ---
 
-**Ultimo aggiornamento**: Dicembre 2024  
-**Versione**: 1.0  
-**Stato**: Test business logic completati (95% copertura)  
-**Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+**Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
+**Versione**: 1.1  
+**Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
+**Prossimi passi**: Completamento test modelli base  
+**Changelog**: [CHANGELOG.md](./CHANGELOG.md)
