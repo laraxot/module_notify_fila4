@@ -30,7 +30,10 @@ class MailTemplateResource extends LangBaseResource
     public static function getFormSchema(): array
     {
         return [
-            'mailable' => TextInput::make('mailable')->required()->maxLength(255),
+            'mailable' => TextInput::make('mailable')
+                ->default('Modules\Notify\Emails\SpatieEmail')
+                ->required()
+                ->maxLength(255),
             'name_group' => Group::make()
                 ->schema([
                     TextInput::make('name')

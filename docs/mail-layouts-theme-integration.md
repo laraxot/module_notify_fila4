@@ -34,11 +34,14 @@ Il sistema email di PTVX supporta **layout personalizzati per tema**, permettend
 │  │     └─ dark.html
 │  │
 │  └─ Themes/                                  ← Temi applicazione
-│     ├─ SbAdmin2Bs4/resources/mail-layouts/
-│     │  └─ base.html                        # Layout SbAdmin2Bs4
+│     ├─ Zero/resources/mail-layouts/
+│     │  └─ base.html                        # Layout tema Zero (Design Italiano)
 │     │
 │     ├─ One/resources/mail-layouts/
 │     │  └─ base.html                        # Layout tema One
+│     │
+│     ├─ SbAdmin2Bs4/resources/mail-layouts/
+│     │  └─ base.html                        # Layout SbAdmin2Bs4
 │     │
 │     └─ MetronicOne/resources/mail-layouts/
 │        └─ base.html                        # Layout Metronic
@@ -50,15 +53,29 @@ Il sistema email di PTVX supporta **layout personalizzati per tema**, permettend
 // config/{environment}/xra.php
 
 return [
-    'pub_theme' => 'SbAdmin2Bs4',  // ← Tema pubblico attivo
+    'pub_theme' => 'Zero',  // ← Tema pubblico attivo
     // Altri config...
 ];
 ```
 
 **Ambienti**:
-- `config/local/tv/prov/personale2022/xra.php` → `pub_theme = 'SbAdmin2Bs4'`
+- `config/local/tv/prov/personale2019/xra.php` → `pub_theme = 'Zero'`
+- `config/local/tv/prov/personale2022/xra.php` → `pub_theme = 'Zero'`
 - `config/localhost/xra.php` → `pub_theme = 'One'`
 - Production può avere tema diverso
+
+### Tema Zero
+
+Il tema **Zero** implementa un layout email basato sul **Design System Italiano** ([italia/design-comuni-pagine-statiche](https://github.com/italia/design-comuni-pagine-statiche)) con:
+
+- ✅ Colori istituzionali italiani (Blu Italia #0066CC, Verde #00AA66)
+- ✅ Accessibilità WCAG 2.1 Level AA
+- ✅ Responsive design ottimizzato
+- ✅ Dark mode support
+- ✅ TailwindCSS-inspired spacing e colori
+- ✅ Integrazione completa con spatie/laravel-database-mail-templates
+
+**Documentazione**: [Themes/Zero/docs/mail-layouts.md](../../../../Themes/Zero/docs/mail-layouts.md)
 
 ## Implementazione getHtmlLayout()
 
@@ -294,7 +311,7 @@ class EmailLayoutResource extends XotBaseResource
             'name' => TextInput::make('name'),
             'theme' => Select::make('theme')
                 ->options([
-                    'SbAdmin2Bs4' => 'SbAdmin2',
+                    'Zero' => 'SbAdmin2',
                     'One' => 'Tema One',
                     'MetronicOne' => 'Metronic',
                 ]),

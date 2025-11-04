@@ -83,10 +83,10 @@ class SpatieEmail extends TemplateMailable
         $this->setAdditionalData($this->data);
 
         $logoPath = MetatagData::make()->getBrandLogoPath();
-        $this->embedLogo($logoPath, 'logo_header');
+        $this->embedLogo($logoPath);
     }
 
-    public function embedLogo(string $path, string $cid = 'logo_header'): self
+    public function embedLogo(string $path): self
     {
         if (! file_exists($path)) {
             return $this;
@@ -173,10 +173,23 @@ class SpatieEmail extends TemplateMailable
 
     public function getAttachmentFromPath(array $attachment): Attachment
     {
-        $res = Attachment::fromPath($attachment['path']);
-        $info = pathinfo($attachment['path']);
-        $filename = $attachment['as'] ?? $info['basename'];
-        $mime = $attachment['mime'] ?? File::mimeType($attachment['path']);
+        // Valida e tipizza parametri
+        Assert::keyExists($attachment, 'path', 'Attachment must have path');
+        Assert::string($attachment['path'], 'Attachment path must be string');
+
+        $path = $attachment['path'];
+        $res = Attachment::fromPath($path);
+        $info = pathinfo($path);
+
+        // Determina filename
+        $filename = isset($attachment['as']) ? (string) $attachment['as'] : ($info['basename'] ?? 'attachment');
+
+        // Determina MIME type
+        $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : null;
+        if ($mime === null) {
+            $detectedMime = File::mimeType($path);
+            $mime = is_string($detectedMime) ? $detectedMime : 'application/octet-stream';
+        }
 
         $res = $res->as($filename)->withMime($mime);
 
@@ -185,20 +198,36 @@ class SpatieEmail extends TemplateMailable
 
     public function getAttachmentFromData(array $attachment): Attachment
     {
-        $res = Attachment::fromData(fn () => $attachment['data']);
-        $as = $attachment['as'];
+        // Valida parametri obbligatori
+        Assert::keyExists($attachment, 'data', 'Attachment must have data');
+        Assert::keyExists($attachment, 'as', 'Attachment must have filename (as)');
+        Assert::string($attachment['as'], 'Attachment filename must be string');
 
-        $mime = Arr::get($attachment, 'mime', null); // ?? File::mimeType($as);   file vuole un file esistente
-        $info = pathinfo($attachment['as']);
-        if ($mime === null && isset($info['extension'])) {
-            $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
+        $res = Attachment::fromData(fn () => $attachment['data']);
+        $filename = $attachment['as']; // Laravel convention: 'as' parameter name
+
+        // Determina MIME type
+        $mime = Arr::get($attachment, 'mime', null);
+
+        if ($mime === null) {
+            // Tenta di determinare MIME type da estensione filename
+            $info = pathinfo($filename);
+            if (isset($info['extension'])) {
+                $detectedMime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
+                $mime = is_string($detectedMime) ? $detectedMime : null;
+            }
         }
+
         if ($mime === null) {
             $mime = 'application/octet-stream';
         }
-        Assert::string($mime, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 
-        $res = $res->as($as)->withMime($mime);
+        // Cast a stringa per sicurezza
+        if (! is_string($mime)) {
+            $mime = 'application/octet-stream';
+        }
+
+        $res = $res->as($filename)->withMime($mime);
 
         return $res;
     }
@@ -244,11 +273,16 @@ class SpatieEmail extends TemplateMailable
 
     public function buildSms(): string
     {
-        /**@phpstan-ignore method.notFound */
-        $sms_template = $this->getMailTemplate()->getAttributeValue('sms_template');
-        $mustache = app(Mustache_Engine::class);
-        $sms = $mustache->render($sms_template, $this->data);
+        /* @phpstan-ignore method.notFound */
+        $smsTemplate = $this->getMailTemplate()->getAttributeValue('sms_template');
 
-        return $sms;
+        // Valida e cast template a stringa
+        if (! is_string($smsTemplate)) {
+            $smsTemplate = '';
+        }
+
+        $mustache = app(Mustache_Engine::class);
+
+        return $mustache->render($smsTemplate, $this->data);
     }
 }

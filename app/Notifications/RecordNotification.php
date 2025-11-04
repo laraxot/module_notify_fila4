@@ -17,8 +17,10 @@ class RecordNotification extends Notification
 
     protected string $slug;
 
+    /** @var array<string, mixed> */
     public array $data = [];
 
+    /** @var array<int, array<string, string>> */
     public array $attachments = [];
 
     public function __construct(Model $record, string $slug)
@@ -60,10 +62,12 @@ class RecordNotification extends Notification
         // Importante: garantisci che ci sia sempre un destinatario
         if (method_exists($notifiable, 'routeNotificationFor')) {
             // Ottieni l'email dal notifiable
-            $to = $notifiable->routeNotificationFor('mail');
-            $email->to($to);
-            if ($to) {
-                $email->setRecipient($to);
+            $recipient = $notifiable->routeNotificationFor('mail');
+
+            // Valida che sia una stringa valida
+            if (is_string($recipient) && ! empty($recipient)) {
+                $email->to($recipient);
+                $email->setRecipient($recipient);
             }
         }
 
@@ -82,27 +86,32 @@ class RecordNotification extends Notification
         // If the notifiable entity has a routeNotificationForSms method,
         // we'll use that to get the destination phone number
         // dddx($notifiable);//Illuminate\Notifications\AnonymousNotifiable
-        $to = null;
+        $recipient = null;
         if (method_exists($notifiable, 'routeNotificationFor')) {
-            $to = $notifiable->routeNotificationFor('sms');
+            $recipient = $notifiable->routeNotificationFor('sms');
         }
-        $fallback_to = config('sms.fallback_to');
-        if (is_string($fallback_to)) {
-            $to = $fallback_to;
+        $fallbackRecipient = config('sms.fallback_to');
+        if (is_string($fallbackRecipient)) {
+            $recipient = $fallbackRecipient;
         }
-        if ($to === null) {
+        if ($recipient === null) {
             return null;
         }
 
         $smsData = SmsData::from([
             'from' => 'Xot',
-            'to' => $to,
+            'to' => $recipient,
             'body' => $email->buildSms(),
         ]);
 
         return $smsData;
     }
 
+    /**
+     * Merge additional data for email template.
+     *
+     * @param  array<string, mixed>  $data
+     */
     public function mergeData(array $data): self
     {
         $this->data = array_merge($this->data, $data);
@@ -110,6 +119,11 @@ class RecordNotification extends Notification
         return $this;
     }
 
+    /**
+     * Add attachments to the notification.
+     *
+     * @param  array<int, array<string, string>>  $attachments
+     */
     public function addAttachments(array $attachments): self
     {
         $this->attachments = array_merge($this->attachments, $attachments);
