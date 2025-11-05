@@ -1,23 +1,14 @@
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -28,16 +19,7 @@ declare(strict_types=1);
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
-<<<<<<< HEAD
 </tr>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-</tr>
-=======
-</tr>
->>>>>>> a12f125f4a (.)
 =======
 </tr>
 >>>>>>> b93ef594b4 (.)
