@@ -79,11 +79,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $updated_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null $deleted_by
- * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\MailTemplate|null $template
- * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  * @method static \Modules\Notify\Database\Factories\MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
