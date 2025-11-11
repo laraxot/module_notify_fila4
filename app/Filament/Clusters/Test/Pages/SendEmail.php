@@ -54,6 +54,28 @@ class SendEmail extends Page implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema
+            ->components([
+                Section::make()
+                    // ->description('Update your account\'s profile information and email address.')
+                    ->schema([
+                        TextInput::make('to')
+                            // ->unique(ignoreRecord: true)
+                            ->email()
+                            ->required(),
+                        TextInput::make('subject')->required(),
+                        RichEditor::make('body_html')->required(),
+                    ]),
+            ])
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+
+>>>>>>> 6bd5430 (.)
     public function sendEmail(): void
     {
         $data = $this->data;
