@@ -13,7 +13,7 @@ use Filament\Forms\Components\Builder;
 
 class TemplateResource extends Resource
 {
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form->schema([
             Builder::make('content')
@@ -193,7 +193,7 @@ namespace Modules\Notify\Filament\Resources;
 
 class TemplateResource extends Resource
 {
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
