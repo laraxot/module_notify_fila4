@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bd22fd4 (.)
 =======
@@ -11,6 +12,8 @@
 >>>>>>> 467a2e4 (.)
 =======
 >>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
 # Notify Module Documentation
 
 ## Overview
@@ -82,6 +85,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -129,6 +133,10 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> 10b3b08 (.)
 =======
 >>>>>>> 3a87c62 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> e627c3b (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -150,12 +158,16 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 94c68e2 (.)
+=======
+>>>>>>> e627c3b (.)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
 - [Documentazione Generale PTV](../../../../docs/README.md)
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -168,6 +180,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -178,6 +192,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> bf479cc (.)
@@ -192,6 +207,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 467a2e4 (.)
 =======
 >>>>>>> 3a87c62 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> e627c3b (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -270,8 +290,11 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 94c68e2 (.)
+=======
+>>>>>>> e627c3b (.)
 =======
 
 >>>>>>> bf479cc (.)
@@ -368,8 +391,11 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 94c68e2 (.)
+=======
+>>>>>>> e627c3b (.)
 =======
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
@@ -465,6 +491,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -531,10 +558,15 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 94c68e2 (.)
 =======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> e627c3b (.)
+=======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fdda20 (.)
 =======
@@ -583,3 +615,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)

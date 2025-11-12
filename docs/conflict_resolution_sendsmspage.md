@@ -65,6 +65,10 @@ Verificare che:
 - [Notify Module Documentation](README.md)
 - [SMS Testing Guide](sms/testing.md)
 - [MailTemplate Integration](mail_templates_structure.md)
+<<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+=======
+- [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
+>>>>>>> bf479cc (.)
 
 *Ultimo aggiornamento: giugno 2025*
