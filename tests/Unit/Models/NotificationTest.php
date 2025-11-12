@@ -4,21 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
-=======
-use Tests\TestCase;
-use Modules\Notify\Models\Notification;
-use Illuminate\Foundation\Testing\RefreshDatabase;
->>>>>>> b19cd40 (.)
-=======
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Notify\Models\Notification;
-use Tests\TestCase;
->>>>>>> 4e2ebfb (.)
 
 class NotificationTest extends TestCase
 {
