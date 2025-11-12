@@ -33,6 +33,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
@@ -106,27 +107,27 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 9fe19a6 (.)
 use Override;
 use Filament\Forms\Components\TextInput;
+=======
+>>>>>>> 8e43c3e (.)
 use Filament\Forms\Components\Select;
-use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
-use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
-use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
-use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
-use Filament\Tables;
-use Filament\Tables\Table;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Enums\NotificationTypeEnum;
-use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
 
 class NotificationTemplateResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = NotificationTemplate::class;
 >>>>>>> 99ff506 (.)
+=======
+    protected static ?string $model = NotificationTemplate::class;
+>>>>>>> 8e43c3e (.)
 
     #[Override]
     public static function getFormSchema(): array
@@ -147,10 +148,14 @@ class NotificationTemplateResource extends XotBaseResource
             'type' => Select::make('type')
                 ->options(collect(NotificationTypeEnum::cases())
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
 =======
                     ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
 >>>>>>> 99ff506 (.)
+=======
+                    ->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+>>>>>>> 8e43c3e (.)
                 ->required()
                 ->default(NotificationTypeEnum::EMAIL->value)
                 ->helperText(__('notify::template.form.type.helper'))
@@ -182,7 +187,8 @@ class NotificationTemplateResource extends XotBaseResource
                 ->acceptedFileTypes(['application/pdf', 'image/*'])
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.attachments.helper')),
-        ]);}
+        ]);
+    }
 
     #[Override]
     public static function getPages(): array

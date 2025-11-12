@@ -5,8 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 
 use Modules\Notify\Filament\Resources\ContactResource;
-use Modules\Xot\Filament\Builders\ColumnBuilder;
-use Modules\Xot\Filament\Builders\FilterBuilder;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
 
@@ -20,30 +18,31 @@ class ListContacts extends XotBaseListRecords
     protected static string $resource = ContactResource::class;
 
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
-        return [
-            'id' => ColumnBuilder::id(),
-            'name' => ColumnBuilder::name(),
-            'email' => ColumnBuilder::email(),
-            'phone' => \Filament\Tables\Columns\TextColumn::make('phone')->searchable()->sortable(),
-            'message' => ColumnBuilder::description(limit: 100),
-            'is_read' => ColumnBuilder::booleanIcon('is_read'),
-            ...ColumnBuilder::timestamps(),
+        /** @var array<\Filament\Tables\Columns\Column|\Filament\Tables\Columns\Layout\Component> $columns */
+        $columns = [
+            \Filament\Tables\Columns\TextColumn::make('id')->sortable()->searchable(),
+            \Filament\Tables\Columns\TextColumn::make('name')->sortable()->searchable(),
+            \Filament\Tables\Columns\TextColumn::make('email')->sortable()->searchable(),
+            \Filament\Tables\Columns\TextColumn::make('phone')->searchable()->sortable(),
+            \Filament\Tables\Columns\TextColumn::make('message')->limit(100)->searchable(),
+            \Filament\Tables\Columns\IconColumn::make('is_read')->boolean(),
+            \Filament\Tables\Columns\TextColumn::make('created_at')->dateTime()->sortable(),
+            \Filament\Tables\Columns\TextColumn::make('updated_at')->dateTime()->sortable(),
         ];
+
+        return $columns;
     }
 
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableFilters(): array
     {
-        return [
-            'active' => FilterBuilder::activeToggle(),
+        /** @var array<int|string, \Filament\Tables\Filters\BaseFilter> $filters */
+        $filters = [
+            \Filament\Tables\Filters\TernaryFilter::make('active'),
         ];
+
+        return $filters;
     }
 }

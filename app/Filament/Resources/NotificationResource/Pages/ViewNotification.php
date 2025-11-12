@@ -13,6 +13,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
@@ -39,10 +40,18 @@ use Override;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+>>>>>>> 8e43c3e (.)
 use Filament\Infolists\Components\TextEntry;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Section;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+use Override;
+>>>>>>> 8e43c3e (.)
 
 class ViewNotification extends XotBaseViewRecord
 {
