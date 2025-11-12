@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -83,11 +84,15 @@
 >>>>>>> 10b3b08 (.)
 =======
 >>>>>>> bc11326 (.)
+=======
+>>>>>>> 954a7fa (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 </td>
 >>>>>>> 99ff506 (.)
 				</tr>
@@ -96,6 +101,7 @@ declare(strict_types=1);
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,3 +242,9 @@ declare(strict_types=1);
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> bc11326 (.)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> b19cd40 (.)
+>>>>>>> 954a7fa (.)
