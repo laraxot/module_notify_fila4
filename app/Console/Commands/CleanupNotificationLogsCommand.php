@@ -8,10 +8,14 @@ use Illuminate\Console\Command;
 <<<<<<< HEAD
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
+<<<<<<< HEAD
 =======
 use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 99ff506 (.)
+=======
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+>>>>>>> 12f2f7e (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
