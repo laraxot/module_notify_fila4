@@ -14,6 +14,9 @@ use Webmozart\Assert\Assert;
 class SmtpMailSendAction
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -53,6 +56,7 @@ class SmtpMailSendAction
          * throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
          * }
          */
+<<<<<<< HEAD
 =======
     public function execute(string $to, string $subject, string $body): void
     {
@@ -93,5 +97,7 @@ class SmtpMailSendAction
         }
         */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 }

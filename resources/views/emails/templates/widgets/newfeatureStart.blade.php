@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f813254 (.)
@@ -77,6 +78,10 @@
 >>>>>>> b852d6c (.)
 =======
 >>>>>>> 56b7aa1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0875292 (.)
 <?php
 
 declare(strict_types=1);
@@ -100,12 +105,16 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e67a2a (.)
+=======
+>>>>>>> 0875292 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e11621f (.)
@@ -169,6 +178,8 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 56b7aa1 (.)
+=======
+>>>>>>> 0875292 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 99ff506 (.)
 	<tr>
@@ -191,6 +202,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 99ff506 (.)
@@ -199,10 +211,13 @@ declare(strict_types=1);
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> 2e67a2a (.)
+=======
+>>>>>>> 0875292 (.)
 					<td bgcolor="#ffffff" class="contentblock">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -264,3 +279,8 @@ declare(strict_types=1);
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> b19cd40 (.)
 >>>>>>> 56b7aa1 (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0875292 (.)
