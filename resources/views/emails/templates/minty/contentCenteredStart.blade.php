@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -63,12 +64,15 @@
 =======
 >>>>>>> cde5a49 (.)
 =======
+>>>>>>> 4ac6c3c (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,11 +166,23 @@
 >>>>>>> 1b020c7 (.)
 =======
 >>>>>>> f12d73d (.)
+=======
+>>>>>>> 4ac6c3c (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 <div class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +253,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 								<tbody>
 >>>>>>> 99ff506 (.)
@@ -299,6 +316,9 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> cde5a49 (.)
 =======
+								<tbody>
+>>>>>>> 4ac6c3c (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +333,7 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,3 +482,5 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> f12d73d (.)
+=======
+>>>>>>> 4ac6c3c (.)
