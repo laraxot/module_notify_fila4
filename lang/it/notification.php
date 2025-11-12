@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -220,6 +223,7 @@ return [
         'error' => 'Si è verificato un errore durante l\'operazione',
     ],
 ];
+<<<<<<< HEAD
 =======
 return array (
   'resource' => 
@@ -464,3 +468,5 @@ return array (
   ),
 );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)

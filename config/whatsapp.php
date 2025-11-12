@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 return [
@@ -18,6 +21,7 @@ return [
      * | WhatsApp Drivers
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 =======
 return [
     /*
@@ -36,6 +40,8 @@ return [
     |--------------------------------------------------------------------------
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'drivers' => [
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
@@ -43,18 +49,24 @@ return [
             'from' => env('TWILIO_WHATSAPP_FROM'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         'vonage' => [
             'api_key' => env('VONAGE_KEY'),
             'api_secret' => env('VONAGE_SECRET'),
             'from' => env('VONAGE_WHATSAPP_FROM'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         'facebook' => [
             'app_id' => env('FACEBOOK_APP_ID'),
             'app_secret' => env('FACEBOOK_APP_SECRET'),
@@ -62,15 +74,21 @@ return [
             'phone_number_id' => env('FACEBOOK_PHONE_NUMBER_ID'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         '360dialog' => [
             'api_key' => env('360DIALOG_API_KEY'),
             'phone_number_id' => env('360DIALOG_PHONE_NUMBER_ID'),
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * |--------------------------------------------------------------------------
      * | Global Debug Mode
@@ -100,6 +118,7 @@ return [
      * | Retry Configuration
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -136,16 +155,22 @@ return [
     |--------------------------------------------------------------------------
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'retry' => [
         'attempts' => env('WHATSAPP_RETRY_ATTEMPTS', 3),
         'delay' => env('WHATSAPP_RETRY_DELAY', 60),
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * |--------------------------------------------------------------------------
      * | Rate Limiting
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -154,6 +179,8 @@ return [
     |--------------------------------------------------------------------------
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'rate_limit' => [
         'enabled' => env('WHATSAPP_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('WHATSAPP_RATE_LIMIT_MAX_ATTEMPTS', 60),
