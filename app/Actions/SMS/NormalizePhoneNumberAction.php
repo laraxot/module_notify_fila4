@@ -20,6 +20,7 @@ class NormalizePhoneNumberAction
             $phoneNumber = implode('', $phoneNumber);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
@@ -28,6 +29,9 @@ class NormalizePhoneNumberAction
     {
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+=======
+
+>>>>>>> 0c46ff7 (.)
         // Rimuove parentesi e il loro contenuto
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 

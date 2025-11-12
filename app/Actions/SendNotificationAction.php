@@ -25,9 +25,15 @@ class SendNotificationAction
      *
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+=======
+     * @param  array  $data  I dati per compilare il template
+     * @param  array  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
+     * @param  array  $options  Opzioni aggiuntive per l'invio
+>>>>>>> 0c46ff7 (.)
      *
      * @throws Exception Se il template non esiste o non è attivo
      */
@@ -103,7 +109,11 @@ class SendNotificationAction
                 $this->sendViaChannel($recipient, $stringChannel, $compiled, $options);
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
+<<<<<<< HEAD
                 Log::error("Errore invio notifica via {$stringChannel}: ".$e->getMessage());
+=======
+                Log::error("Errore invio notifica via {$channel}: ".$e->getMessage());
+>>>>>>> 0c46ff7 (.)
 
                 continue;
             }
@@ -114,9 +124,12 @@ class SendNotificationAction
 
     /**
      * Invia la notifica attraverso un canale specifico.
+<<<<<<< HEAD
      *
      * @param  array<string, mixed>  $compiled
      * @param  array<string, mixed>  $options
+=======
+>>>>>>> 0c46ff7 (.)
      */
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
     {
@@ -235,8 +248,13 @@ class SendNotificationAction
         $bodyText = $bodyTextRaw ?: strip_tags($bodyHtmlRaw);
 
         // Limita la lunghezza del messaggio SMS
+<<<<<<< HEAD
         if (mb_strlen($bodyText) > 320) {
             $bodyText = mb_substr($bodyText, 0, 317).'...';
+=======
+        if (mb_strlen($message) > 320) {
+            $message = mb_substr($message, 0, 317).'...';
+>>>>>>> 0c46ff7 (.)
         }
 
         $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');

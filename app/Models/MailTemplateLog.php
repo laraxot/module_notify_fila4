@@ -11,6 +11,10 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 0c46ff7 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**

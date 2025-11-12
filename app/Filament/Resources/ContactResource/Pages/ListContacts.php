@@ -10,6 +10,10 @@ use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 0c46ff7 (.)
 
 class ListContacts extends XotBaseListRecords
 {

@@ -90,7 +90,11 @@ final class Send360dialogWhatsAppAction
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+<<<<<<< HEAD
             $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+=======
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> 0c46ff7 (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 
             $payload['type'] = $mediaType;

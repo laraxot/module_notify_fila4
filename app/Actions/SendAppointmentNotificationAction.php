@@ -2,14 +2,23 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 // This file references <nome progetto> models that do not exist in this project
+=======
+// This file references <main module> models that do not exist in this project
+>>>>>>> 0c46ff7 (.)
 
 namespace Modules\Notify\Actions;
 
 use Exception;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 // use Modules\<nome progetto>\Models\Appointment;
 // use Modules\<nome progetto>\Models\Patient;
+=======
+// use Modules\<main module>\Models\Appointment;
+// use Modules\<main module>\Models\Patient;
+>>>>>>> 0c46ff7 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction
