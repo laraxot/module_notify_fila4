@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 @extends('notify::emails.templates.widgets')
 
 @section('content')
@@ -26,7 +32,11 @@ declare(strict_types=1);
 	@include('notify::emails.templates.widgets.newfeatureEnd')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @stop
 =======
 @stop
 >>>>>>> b19cd40 (.)
+=======
+@stop
+>>>>>>> 4e2ebfb (.)
