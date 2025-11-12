@@ -127,10 +127,16 @@ final class SendFacebookWhatsAppAction
                 'response_code' => $statusCode,
             ]);
 
+<<<<<<< HEAD
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]['id'])) {
                 $messageId = is_string($responseData['messages'][0]['id']) ? $responseData['messages'][0]['id'] : (string) ($responseData['messages'][0]['id'] ?? '');
+=======
+            $messageId = null;
+            if (is_array($responseData) && isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]) && is_array($responseData['messages'][0]) && isset($responseData['messages'][0]['id'])) {
+                $messageId = $responseData['messages'][0]['id'];
+>>>>>>> ec9288a (.)
             }
 
             return [
@@ -156,10 +162,16 @@ final class SendFacebookWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+<<<<<<< HEAD
             // Extract error message safely
             $errorMessage = 'Errore sconosciuto';
             if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
                 $errorMessage = is_string($responseBody['error']['message']) ? $responseBody['error']['message'] : 'Errore sconosciuto';
+=======
+            $errorMessage = 'Errore sconosciuto';
+            if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
+                $errorMessage = $responseBody['error']['message'];
+>>>>>>> ec9288a (.)
             }
 
             return [

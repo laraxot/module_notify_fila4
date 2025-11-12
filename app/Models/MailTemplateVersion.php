@@ -62,9 +62,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
  *
- * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
  */
+/** */
 class MailTemplateVersion extends BaseModel
 {
     use SoftDeletes, Updater;

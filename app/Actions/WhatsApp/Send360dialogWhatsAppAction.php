@@ -91,10 +91,17 @@ final class Send360dialogWhatsAppAction
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
 =======
             $mediaUrl = $whatsAppData->media[0];
 >>>>>>> 0c46ff7 (.)
+=======
+            $mediaUrl = $whatsAppData->media[0] ?? null;
+            if (! is_string($mediaUrl)) {
+                throw new \Exception('Invalid media URL');
+            }
+>>>>>>> ec9288a (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 
             $payload['type'] = $mediaType;
@@ -124,10 +131,16 @@ final class Send360dialogWhatsAppAction
                 'response_code' => $statusCode,
             ]);
 
+<<<<<<< HEAD
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]['id'])) {
                 $messageId = is_string($responseData['messages'][0]['id']) ? $responseData['messages'][0]['id'] : (string) ($responseData['messages'][0]['id'] ?? '');
+=======
+            $messageId = null;
+            if (is_array($responseData) && isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]) && is_array($responseData['messages'][0]) && isset($responseData['messages'][0]['id'])) {
+                $messageId = $responseData['messages'][0]['id'];
+>>>>>>> ec9288a (.)
             }
 
             return [
@@ -153,9 +166,16 @@ final class Send360dialogWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+<<<<<<< HEAD
             // Extract error message safely
             /** @phpstan-ignore-next-line - WhatsApp API response structure */
             $errorMessage = $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto';
+=======
+            $errorMessage = 'Errore sconosciuto';
+            if (is_array($responseBody) && isset($responseBody['errors']) && is_array($responseBody['errors']) && isset($responseBody['errors'][0]) && is_array($responseBody['errors'][0]) && isset($responseBody['errors'][0]['message'])) {
+                $errorMessage = $responseBody['errors'][0]['message'];
+            }
+>>>>>>> ec9288a (.)
 
             return [
                 'success' => false,

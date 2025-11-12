@@ -2,7 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Services;
+=======
+namespace Modules\Notify\App\Services;
+>>>>>>> ec9288a (.)
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
@@ -169,7 +173,11 @@ class PushNotificationService
         ], $scheduleTime);
 
         // Programma job Laravel
+<<<<<<< HEAD
         \Modules\Notify\Jobs\SendScheduledPushNotification::dispatch($jobId)
+=======
+        \Modules\Notify\App\Jobs\SendScheduledPushNotification::dispatch($jobId)
+>>>>>>> ec9288a (.)
             ->delay($scheduleTime);
 
         return $jobId;
@@ -529,3 +537,9 @@ class PushNotificationService
         ];
     }
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> ec9288a (.)

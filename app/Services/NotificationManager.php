@@ -82,7 +82,11 @@ class NotificationManager
         $logs = [];
 
         foreach ($recipients as $recipient) {
+<<<<<<< HEAD
             if ($recipient instanceof Model) {
+=======
+            if ($recipient instanceof \Illuminate\Database\Eloquent\Model) {
+>>>>>>> ec9288a (.)
                 $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
             }
         }

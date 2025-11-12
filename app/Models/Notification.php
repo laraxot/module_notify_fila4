@@ -53,9 +53,9 @@ use Override;
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  *
- * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
+/** */
 class Notification extends BaseModel
 {
     /** @var list<string> */

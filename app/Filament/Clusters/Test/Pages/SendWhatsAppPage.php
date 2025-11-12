@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Filament\Schemas\Schema;
@@ -17,6 +18,8 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\KeyValue;
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> ec9288a (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -34,6 +37,10 @@ use Modules\Notify\Enums\WhatsAppDriverEnum;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> ec9288a (.)
 
 /**
  * @property \Filament\Schemas\Schema $whatsappForm
@@ -83,6 +90,9 @@ class SendWhatsAppPage extends XotBasePage
         return $schema->components($components)->model($this->getUser())->statePath('whatsappData');
     }
 
+    /**
+     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
+     */
     public function getWhatsAppFormSchema(): array
     {
         return [

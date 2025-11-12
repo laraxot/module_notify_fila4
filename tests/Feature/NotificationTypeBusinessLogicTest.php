@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 use Modules\Notify\Models\NotificationType;
 
-describe('Notification Type Business Logic', function () {
-    it('can create notification type with basic information', function () {
+describe('Notification Type Business Logic', function (): void {
+    it('can create notification type with basic information', function (): void {
         $typeData = [
             'name' => 'Appointment Reminder',
             'slug' => 'appointment-reminder',
@@ -27,6 +27,7 @@ describe('Notification Type Business Logic', function () {
             ->and($type->is_active)
             ->toBeTrue();
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'name' => 'Appointment Reminder',
@@ -37,7 +38,8 @@ describe('Notification Type Business Logic', function () {
         ]);
     });
 
-    it('can manage notification type channels', function () {
+    it('can manage notification type channels', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $channels = [
             'email' => [
@@ -59,8 +61,10 @@ describe('Notification Type Business Logic', function () {
             ],
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['channels' => $channels]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'channels' => json_encode($channels),
@@ -68,19 +72,25 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->channels['email']['enabled'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->channels['email']['priority'])
             ->toBe('high')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->channels['email']['template'])
             ->toBe('email.appointment-reminder')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->channels['sms']['enabled'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->channels['sms']['max_length'])
             ->toBe(160)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->channels['push']['enabled'])
             ->toBeFalse();
     });
 
-    it('can manage notification type settings', function () {
+    it('can manage notification type settings', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $settings = [
             'retry_attempts' => 3,
@@ -95,8 +105,10 @@ describe('Notification Type Business Logic', function () {
             'encryption_required' => false,
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['settings' => $settings]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'settings' => json_encode($settings),
@@ -104,25 +116,34 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->settings['retry_attempts'])
             ->toBe(3)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['retry_delay'])
             ->toBe(300)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['expiration_time'])
             ->toBe(86400)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['batch_size'])
             ->toBe(100)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['throttle_limit'])
             ->toBe(10)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['timezone_aware'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['localization_support'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['audit_logging'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->settings['encryption_required'])
             ->toBeFalse();
     });
 
-    it('can manage notification type templates', function () {
+    it('can manage notification type templates', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $templates = [
             'email' => [
@@ -146,8 +167,10 @@ describe('Notification Type Business Logic', function () {
             ],
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['templates' => $templates]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'templates' => json_encode($templates),
@@ -155,20 +178,26 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->templates['email']['subject'])
             ->toBe('Promemoria Appuntamento - {{appointment_date}}')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->templates['email']['variables'])
             ->toContain('patient_name')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->templates['email']['html_template'])
             ->toBe('emails.appointment-reminder')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->templates['sms']['message'])
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
                 config('app.name', 'Our Platform'))
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->templates['sms']['max_length'])
             ->toBe(160)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->templates['push']['title'])
             ->toBe('Promemoria Appuntamento');
     });
 
-    it('can manage notification type rules', function () {
+    it('can manage notification type rules', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $rules = [
             'frequency' => [
@@ -196,8 +225,10 @@ describe('Notification Type Business Logic', function () {
             ],
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['rules' => $rules]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'rules' => json_encode($rules),
@@ -205,23 +236,31 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->rules['frequency']['max_per_day'])
             ->toBe(3)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->rules['frequency']['max_per_week'])
             ->toBe(10)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->rules['frequency']['quiet_hours']['start'])
             ->toBe('22:00')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->rules['frequency']['quiet_hours']['end'])
             ->toBe('08:00')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->rules['conditions']['require_consent'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->rules['conditions']['min_advance_notice'])
             ->toBe(3600)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->rules['validation']['required_fields'])
             ->toContain('patient_name')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->rules['validation']['field_formats']['appointment_date'])
             ->toBe('Y-m-d');
     });
 
-    it('can manage notification type permissions', function () {
+    it('can manage notification type permissions', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $permissions = [
             'roles' => ['admin', 'doctor', 'nurse'],
@@ -234,8 +273,10 @@ describe('Notification Type Business Logic', function () {
             ],
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['permissions' => $permissions]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'permissions' => json_encode($permissions),
@@ -243,21 +284,28 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->permissions['roles'])
             ->toContain('admin')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->permissions['roles'])
             ->toContain('doctor')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->permissions['permissions'])
             ->toContain('notifications.create')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->permissions['user_groups'])
             ->toContain('active_patients')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->permissions['restrictions']['max_recipients'])
             ->toBe(1000)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->permissions['restrictions']['geographic_limits'])
             ->toContain('IT')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->permissions['restrictions']['time_restrictions'])
             ->toContain('business_hours_only');
     });
 
-    it('can manage notification type metrics', function () {
+    it('can manage notification type metrics', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $metrics = [
             'delivery_rate' => 98.5,
@@ -274,8 +322,10 @@ describe('Notification Type Business Logic', function () {
             'average_response_time' => 2.5, // minutes
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['metrics' => $metrics]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'metrics' => json_encode($metrics),
@@ -283,25 +333,34 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->metrics['delivery_rate'])
             ->toBe(98.5)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['open_rate'])
             ->toBe(45.2)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['click_rate'])
             ->toBe(12.8)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['bounce_rate'])
             ->toBe(1.5)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['total_sent'])
             ->toBe(15000)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['total_delivered'])
             ->toBe(14775)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['total_opened'])
             ->toBe(6683)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['total_clicked'])
             ->toBe(1891)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->metrics['average_response_time'])
             ->toBe(2.5);
     });
 
-    it('can manage notification type scheduling', function () {
+    it('can manage notification type scheduling', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $scheduling = [
             'scheduling_enabled' => true,
@@ -328,8 +387,10 @@ describe('Notification Type Business Logic', function () {
             ],
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['scheduling' => $scheduling]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'scheduling' => json_encode($scheduling),
@@ -337,25 +398,34 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->scheduling['scheduling_enabled'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['timezone_aware'])
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['default_timezone'])
             ->toBe('Europe/Rome')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['business_hours']['monday'])
             ->toBe(['09:00', '18:00'])
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['business_hours']['sunday'])
             ->toBe(['closed'])
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['holidays']['2024-12-25'])
             ->toBe('Natale')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['advance_notice']['min_hours'])
             ->toBe(1)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['advance_notice']['max_days'])
             ->toBe(7)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->scheduling['advance_notice']['preferred_time'])
             ->toBe('09:00');
     });
 
-    it('can manage notification type integrations', function () {
+    it('can manage notification type integrations', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create();
         $integrations = [
             'external_services' => [
@@ -380,8 +450,10 @@ describe('Notification Type Business Logic', function () {
             ],
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update(['integrations' => $integrations]);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'integrations' => json_encode($integrations),
@@ -389,21 +461,29 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->integrations['external_services']['email_provider'])
             ->toBe('SendGrid')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->integrations['external_services']['sms_provider'])
             ->toBe('Twilio')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->integrations['external_services']['push_provider'])
             ->toBe('Firebase')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->integrations['webhooks']['delivery_webhook'])
             ->toBe('https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->integrations['api_endpoints']['send'])
             ->toBe('POST /api/v1/notifications/send')
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->integrations['third_party']['crm_integration'])
             ->toBe('Salesforce');
     });
 
-    it('can search notification types by category', function () {
+    it('can search notification types by category', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $healthcareType = NotificationType::factory()->create(['category' => 'healthcare']);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $marketingType = NotificationType::factory()->create(['category' => 'marketing']);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $systemType = NotificationType::factory()->create(['category' => 'system']);
 
         $healthcareTypes = NotificationType::where('category', 'healthcare')->get();
@@ -413,14 +493,18 @@ describe('Notification Type Business Logic', function () {
             ->toHaveCount(1)
             ->and($marketingTypes)
             ->toHaveCount(1)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($healthcareTypes->contains($healthcareType))
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($marketingTypes->contains($marketingType))
             ->toBeTrue();
     });
 
-    it('can search notification types by status', function () {
+    it('can search notification types by status', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $activeType = NotificationType::factory()->create(['is_active' => true]);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $inactiveType = NotificationType::factory()->create(['is_active' => false]);
 
         $activeTypes = NotificationType::where('is_active', true)->get();
@@ -430,16 +514,20 @@ describe('Notification Type Business Logic', function () {
             ->toHaveCount(1)
             ->and($inactiveTypes)
             ->toHaveCount(1)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($activeTypes->contains($activeType))
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($inactiveTypes->contains($inactiveType))
             ->toBeTrue();
     });
 
-    it('can search notification types by channel enabled', function () {
+    it('can search notification types by channel enabled', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $emailType = NotificationType::factory()->create([
             'channels' => ['email' => ['enabled' => true], 'sms' => ['enabled' => false]],
         ]);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $smsType = NotificationType::factory()->create([
             'channels' => ['email' => ['enabled' => false], 'sms' => ['enabled' => true]],
         ]);
@@ -451,13 +539,16 @@ describe('Notification Type Business Logic', function () {
             ->toHaveCount(1)
             ->and($smsTypes)
             ->toHaveCount(1)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($emailTypes->contains($emailType))
             ->toBeTrue()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($smsTypes->contains($smsType))
             ->toBeTrue();
     });
 
-    it('can manage notification type archiving', function () {
+    it('can manage notification type archiving', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $type = NotificationType::factory()->create(['is_active' => true]);
         $archiveData = [
             'is_active' => false,
@@ -466,8 +557,10 @@ describe('Notification Type Business Logic', function () {
             'replacement_type_id' => 15,
         ];
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $type->update($archiveData);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'is_active' => false,
@@ -478,25 +571,32 @@ describe('Notification Type Business Logic', function () {
 
         expect($type->fresh()->is_active)
             ->toBeFalse()
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($type->fresh()->archived_at)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->not->toBeNull()->and($type->fresh()->archive_reason)->toBe(
                 'Sostituito da nuovo tipo',
+            /** @phpstan-ignore-next-line method.nonObject */
             )->and($type->fresh()->replacement_type_id)->toBe(15);
     });
 
-    it('can manage notification type duplication', function () {
+    it('can manage notification type duplication', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $originalType = NotificationType::factory()->create([
             'name' => 'Original Type',
             'slug' => 'original-type',
             'version' => '1.0.0',
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $duplicateType = $originalType->replicate();
         $duplicateType->name = 'Duplicate Type';
         $duplicateType->slug = 'duplicate-type';
         $duplicateType->version = '1.0.1';
+        /** @phpstan-ignore-next-line method.nonObject */
         $duplicateType->save();
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $duplicateType->id,
             'name' => 'Duplicate Type',

@@ -65,6 +65,9 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> b8140d8 (.)
     }
 
+    /**
+     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
+     */
     public function getTelegramFormSchema(): array
     {
         return [

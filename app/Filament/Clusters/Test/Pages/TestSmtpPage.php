@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 =======
 use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -140,7 +141,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
-        return $schema->components([])->model($this->getUser())->statePath('emailData');
+        /** @var Schema $result */
+        $result = $schema->components([])->model($this->getUser())->statePath('emailData');
+        return $result;
     }
 
 <<<<<<< HEAD

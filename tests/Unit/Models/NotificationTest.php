@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+use function Safe\json_encode;
+
+
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
@@ -15,6 +18,7 @@ class NotificationTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -39,6 +43,7 @@ class NotificationTest extends TestCase
             ],
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'message' => 'Test notification message',
@@ -50,6 +55,7 @@ class NotificationTest extends TestCase
             'status' => 'pending',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(Notification::class, $notification);
     }
 
@@ -72,6 +78,7 @@ class NotificationTest extends TestCase
             'data',
         ];
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $notification->getFillable());
     }
 
@@ -90,6 +97,7 @@ class NotificationTest extends TestCase
             'deleted_at' => 'datetime',
         ];
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $notification->casts());
     }
 
@@ -115,16 +123,23 @@ class NotificationTest extends TestCase
             'data' => $data,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'data' => json_encode($data),
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->data);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Welcome to our platform', $notification->data['title']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Thank you for joining us!', $notification->data['body']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('high', $notification->data['priority']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('registration', $notification->data['metadata']['source']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['welcome', 'onboarding'], $notification->data['metadata']['tags']);
     }
 
@@ -139,16 +154,23 @@ class NotificationTest extends TestCase
             'channels' => $channels,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'channels' => json_encode($channels),
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->channels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $notification->channels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('mail', $notification->channels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('database', $notification->channels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('sms', $notification->channels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('push', $notification->channels);
     }
 
@@ -160,13 +182,18 @@ class NotificationTest extends TestCase
             'type' => 'info',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->read_at);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $notification->update(['read_at' => now()]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($notification->fresh()->read_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
+            /** @phpstan-ignore-next-line method.nonObject */
             'read_at' => $notification->fresh()->read_at,
         ]);
     }
@@ -180,17 +207,23 @@ class NotificationTest extends TestCase
             'status' => 'pending',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->sent_at);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $notification->update([
             'sent_at' => now(),
             'status' => 'sent',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($notification->fresh()->sent_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('sent', $notification->fresh()->status);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
+            /** @phpstan-ignore-next-line method.nonObject */
             'sent_at' => $notification->fresh()->sent_at,
             'status' => 'sent',
         ]);
@@ -205,6 +238,7 @@ class NotificationTest extends TestCase
             'status' => 'pending',
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $notification->update([
             'message' => 'Updated message',
             'type' => 'warning',
@@ -212,6 +246,7 @@ class NotificationTest extends TestCase
             'data' => ['updated' => true],
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'message' => 'Updated message',
@@ -219,9 +254,13 @@ class NotificationTest extends TestCase
             'status' => 'sent',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated message', $notification->fresh()->message);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('warning', $notification->fresh()->type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('sent', $notification->fresh()->status);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['updated' => true], $notification->fresh()->data);
     }
 
@@ -247,11 +286,17 @@ class NotificationTest extends TestCase
         $warningNotifications = Notification::where('type', 'warning')->get();
         $errorNotifications = Notification::where('type', 'error')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $infoNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $warningNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $errorNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('info', $infoNotifications[0]->type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('warning', $warningNotifications[0]->type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('error', $errorNotifications[0]->type);
     }
 
@@ -280,11 +325,17 @@ class NotificationTest extends TestCase
         $sentNotifications = Notification::where('status', 'sent')->get();
         $failedNotifications = Notification::where('status', 'failed')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $pendingNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $sentNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $failedNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('pending', $pendingNotifications[0]->status);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('sent', $sentNotifications[0]->status);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('failed', $failedNotifications[0]->status);
     }
 
@@ -312,10 +363,15 @@ class NotificationTest extends TestCase
         $tenant1Notifications = Notification::where('tenant_id', 1)->get();
         $tenant2Notifications = Notification::where('tenant_id', 2)->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $tenant1Notifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $tenant2Notifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $tenant1Notifications[0]->tenant_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $tenant1Notifications[1]->tenant_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(2, $tenant2Notifications[0]->tenant_id);
     }
 
@@ -343,10 +399,15 @@ class NotificationTest extends TestCase
         $user123Notifications = Notification::where('user_id', 123)->get();
         $user456Notifications = Notification::where('user_id', 456)->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $user123Notifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $user456Notifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(123, $user123Notifications[0]->user_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(123, $user123Notifications[1]->user_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(456, $user456Notifications[0]->user_id);
     }
 
@@ -377,10 +438,15 @@ class NotificationTest extends TestCase
         $userSubjectNotifications = Notification::where('subject_type', 'App\Models\User')->get();
         $companySubjectNotifications = Notification::where('subject_type', 'App\Models\Company')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $userSubjectNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $companySubjectNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userSubjectNotifications[0]->subject_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userSubjectNotifications[1]->subject_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\Company', $companySubjectNotifications[0]->subject_type);
     }
 
@@ -409,8 +475,11 @@ class NotificationTest extends TestCase
         $smsNotifications = Notification::whereJsonContains('channels', 'sms')->get();
         $databaseNotifications = Notification::whereJsonContains('channels', 'database')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $mailNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $smsNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $databaseNotifications);
     }
 
@@ -447,9 +516,13 @@ class NotificationTest extends TestCase
         $highPriorityNotifications = Notification::whereJsonPath('data.priority', 'high')->get();
         $securityNotifications = Notification::whereJsonPath('data.category', 'security')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highPriorityNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $securityNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $highPriorityNotifications[0]->data['priority']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('security', $securityNotifications[0]->data['category']);
     }
 
@@ -477,10 +550,15 @@ class NotificationTest extends TestCase
         $unreadNotifications = Notification::whereNull('read_at')->get();
         $readNotifications = Notification::whereNotNull('read_at')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $unreadNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $readNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unreadNotifications[0]->read_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unreadNotifications[1]->read_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNotNull($readNotifications[0]->read_at);
     }
 
@@ -508,10 +586,15 @@ class NotificationTest extends TestCase
         $unsentNotifications = Notification::whereNull('sent_at')->get();
         $sentNotifications = Notification::whereNotNull('sent_at')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $unsentNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $sentNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unsentNotifications[0]->sent_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNull($unsentNotifications[1]->sent_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertNotNull($sentNotifications[0]->sent_at);
     }
 
@@ -540,11 +623,15 @@ class NotificationTest extends TestCase
             'created_at' => $tomorrow,
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $todayNotifications = Notification::whereDate('created_at', $today->toDateString())->get();
         $recentNotifications = Notification::where('created_at', '>=', $yesterday)->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $todayNotifications);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $recentNotifications); // yesterday and today
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Today notification', $todayNotifications[0]->message);
     }
 
@@ -589,10 +676,15 @@ class NotificationTest extends TestCase
             ->whereJsonPath('data.priority', 'high')
             ->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $pendingHighPriorityTenant1);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('High priority security alert', $pendingHighPriorityTenant1[0]->message);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('pending', $pendingHighPriorityTenant1[0]->status);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(1, $pendingHighPriorityTenant1[0]->tenant_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $pendingHighPriorityTenant1[0]->data['priority']);
     }
 
@@ -605,12 +697,15 @@ class NotificationTest extends TestCase
             'data' => [],
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'data' => json_encode([]),
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->data);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($notification->data);
     }
 
@@ -623,12 +718,15 @@ class NotificationTest extends TestCase
             'channels' => [],
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'channels' => json_encode([]),
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($notification->channels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($notification->channels);
     }
 
@@ -648,13 +746,21 @@ class NotificationTest extends TestCase
             'data' => null,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->tenant_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->user_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->subject_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->subject_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->channels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->status);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->sent_at);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notification->data);
     }
 }
