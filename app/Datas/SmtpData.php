@@ -20,15 +20,23 @@ class SmtpData extends Data
     public string $transport = 'smtp';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $url = null;
 =======
     public null|string $url = null;
 >>>>>>> 99ff506 (.)
+=======
+    public null|string $url = null;
+=======
+    public ?string $url = null;
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 
     public string $host = '127.0.0.1';
 
     public int $port = 2525;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public ?string $encryption = null; // 'tls';
 
@@ -42,6 +50,8 @@ class SmtpData extends Data
 
     public ?string $local_domain = null;
 =======
+=======
+>>>>>>> 95531e1 (.)
     public null|string $encryption = null; // 'tls';
 
     public null|bool $tls = null;
@@ -53,23 +63,51 @@ class SmtpData extends Data
     public null|string $timeout = null;
 
     public null|string $local_domain = null;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+=======
+    public ?string $encryption = null; // 'tls';
+
+    public ?bool $tls = null;
+
+    public ?string $username = null;
+
+    public ?string $password = null;
+
+    public ?string $timeout = null;
+
+    public ?string $local_domain = null;
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 
     private static array $instance = [];
 
     public static function make(string $name = 'smtp'): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! isset(self::$instance[$name]) || ! (self::$instance[$name] instanceof self)) {
             // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.'.$name);
 =======
+=======
+>>>>>>> 95531e1 (.)
         if (!isset(self::$instance[$name]) || !(self::$instance[$name] instanceof self)) {
             // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.' . $name);
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+=======
+        if (!isset(self::$instance[$name]) || ! self::$instance[$name] instanceof self) {
+            // $data = TenantService::getConfig('mail');
+            Assert::isArray($data = config('mail'));
+            $data_name = Arr::get($data, 'mailers.'.$name);
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
             self::$instance[$name] = self::from($data_name);
         }
 
@@ -108,10 +146,17 @@ class SmtpData extends Data
             $transport->start();
         } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('Errore durante la connessione SMTP: '.$e->getMessage());
 =======
             throw new Exception('Errore durante la connessione SMTP: ' . $e->getMessage());
 >>>>>>> 99ff506 (.)
+=======
+            throw new Exception('Errore durante la connessione SMTP: ' . $e->getMessage());
+=======
+            throw new Exception('Errore durante la connessione SMTP: '.$e->getMessage());
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
         }
         $mailer = new Mailer($transport);
 
@@ -126,10 +171,17 @@ class SmtpData extends Data
             $mailer->send($mimeEmail);
         } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception("Errore durante l'invio dell'email: ".$e->getMessage());
 =======
             throw new Exception("Errore durante l'invio dell'email: " . $e->getMessage());
 >>>>>>> 99ff506 (.)
+=======
+            throw new Exception("Errore durante l'invio dell'email: " . $e->getMessage());
+=======
+            throw new Exception("Errore durante l'invio dell'email: ".$e->getMessage());
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
         }
     }
 }

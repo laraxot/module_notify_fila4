@@ -1,5 +1,14 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

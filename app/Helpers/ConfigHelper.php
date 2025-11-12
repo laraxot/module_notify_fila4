@@ -83,10 +83,17 @@ class ConfigHelper
     {
         foreach ($variables as $variable => $value) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
 =======
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 99ff506 (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

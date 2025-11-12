@@ -12,8 +12,14 @@ class Test extends Cluster
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-squares-2x2';
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
 
+=======
+>>>>>>> b19cd40 (.)
     // protected static ?string $navigationParentItem = 'Notifications';
     // protected static ?string $navigationGroup = 'Settings';
 }

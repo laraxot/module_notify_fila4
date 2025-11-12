@@ -25,12 +25,15 @@ class Pdf
         $html = $notify_theme_data->body_html;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
         }
         Assert::string($file_name, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
+=======
+>>>>>>> 95531e1 (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -51,5 +54,23 @@ class Pdf
             'as' => $file_name,
             'mime' => 'application/pdf',
         ]);
+=======
+        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
+        if (isset($view_params[$file_name])) {
+            $file_name = $view_params[$file_name];
+        }
+        Assert::string($file_name);
+        $file_path = Storage::disk('cache')->path($file_name);
+
+        HtmlService::toPdf(filename: $file_path, html: $html, out: 'file', pdforientation: 'P');
+
+        return AttachmentData::from(
+            [
+                'path' => $file_path,
+                'as' => $file_name,
+                'mime' => 'application/pdf',
+            ]
+        );
+>>>>>>> b19cd40 (.)
     }
 }

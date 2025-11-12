@@ -7,11 +7,19 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends Migration
 {
 =======
 return new class extends Migration {
 >>>>>>> 99ff506 (.)
+=======
+return new class extends Migration {
+=======
+return new class extends Migration
+{
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
     /**
      * Esegue la migrazione.
      */
@@ -29,7 +37,11 @@ return new class extends Migration {
             $table->string('status'); // sent, failed, pending
             $table->text('error')->nullable();
             $table->timestamps();
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> b19cd40 (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

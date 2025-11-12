@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
@@ -15,10 +16,17 @@ use Override;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
+=======
+>>>>>>> 95531e1 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+=======
+use RuntimeException;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+>>>>>>> b19cd40 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -70,7 +78,10 @@ class NotificationTemplateVersion extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> b19cd40 (.)
     protected function casts(): array
     {
         return [
@@ -88,6 +99,7 @@ class NotificationTemplateVersion extends BaseModel
     public function restore(): NotificationTemplate
     {
         $template = $this->template;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         if (! $template) {
@@ -98,6 +110,13 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 99ff506 (.)
         }
 
+=======
+        
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+        }
+        
+>>>>>>> b19cd40 (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -109,4 +128,8 @@ class NotificationTemplateVersion extends BaseModel
 
         return $template;
     }
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> b19cd40 (.)

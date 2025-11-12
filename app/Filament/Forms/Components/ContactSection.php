@@ -11,18 +11,34 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     // protected string $view = 'filament-forms::components.group';
 =======
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 99ff506 (.)
 
@@ -35,6 +51,7 @@ class ContactSection extends Section
         $this->columns(2);
     }
 
+<<<<<<< HEAD
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
@@ -65,4 +82,37 @@ class ContactSection extends Section
      * $record->touch();
      * }
      */
+=======
+
+
+    protected function getFormSchema(): array
+    {
+        $res=ContactTypeEnum::getFormSchema(); 
+        return $res;   
+    }
+
+
+
+    /*
+    public function saveRelationships(): void
+    {
+
+        $state = $this->getState();
+        $record = $this->getRecord();
+        $relationship = $record->{$this->getRelationship()}();
+
+        if (null === $relationship) {
+            return;
+        }
+        if ($address = $relationship->first()) {
+            $address->update($state);
+        } else {
+            $relationship->updateOrCreate($state);
+        }
+
+        $record->touch();
+    }
+    */
+    
+>>>>>>> b19cd40 (.)
 }

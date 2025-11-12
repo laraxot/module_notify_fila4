@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 use Carbon\Carbon;
 use Illuminate\Contracts\Mail\Mailable;
@@ -13,6 +14,8 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 =======
+=======
+>>>>>>> 95531e1 (.)
 //use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 use Exception;
 use Carbon\Carbon;
@@ -28,6 +31,22 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
+=======
+use Exception;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Support\Str;
+use Spatie\Sluggable\HasSlug;
+//use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
+use Spatie\Sluggable\SlugOptions;
+use Illuminate\Contracts\Mail\Mailable;
+use Spatie\Translatable\HasTranslations;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
+use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
+>>>>>>> b19cd40 (.)
 
 /**
 <<<<<<< HEAD
@@ -130,7 +149,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     protected $connection = 'notify';
 
     /** @var list<string> */
+<<<<<<< HEAD
     public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
+=======
+    public array $translatable = ['subject', 'html_template', 'text_template','sms_template'];
+>>>>>>> b19cd40 (.)
 
     /** @var list<string> */
     protected $fillable = [
@@ -174,13 +197,22 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     /**
      * Get the options for generating the slug.
      */
+<<<<<<< HEAD
     public function getSlugOptions(): SlugOptions
     {
         return SlugOptions::create()->generateSlugsFrom('name')->saveSlugsTo('slug');
+=======
+    public function getSlugOptions() : SlugOptions
+    {
+        return SlugOptions::create()
+            ->generateSlugsFrom('name')
+            ->saveSlugsTo('slug');
+>>>>>>> b19cd40 (.)
     }
 
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! method_exists($mailable, 'getSlug')) {
             throw new \Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
@@ -188,6 +220,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         $slug = $mailable->getSlug();
 
 =======
+=======
+>>>>>>> 95531e1 (.)
         if (!method_exists($mailable, 'getSlug')) {
             throw new Exception('Il metodo getSlug() non è definito nella classe ' . $mailable::class);
         }
@@ -196,10 +230,23 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         return $query->where('mailable', get_class($mailable))->where('slug', $slug);
     }
 
+=======
+        if(!method_exists($mailable, 'getSlug')){
+            throw new Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
+        }
+        $slug=$mailable->getSlug();
+        return $query
+            ->where('mailable', get_class($mailable))
+            ->where('slug', $slug);
+    }
+
+
+>>>>>>> b19cd40 (.)
     /*
      * Versioni del template email.
      *
      * @return HasMany<MailTemplateVersion>
+<<<<<<< HEAD
      *
      * public function versions(): HasMany
      * {
@@ -212,11 +259,26 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
      * return $this->hasMany(MailTemplateLog::class, 'template_id');
      * }
      *
+=======
+
+    public function versions(): HasMany
+    {
+        return $this->hasMany(MailTemplateVersion::class, 'template_id')
+            ->orderByDesc('version');
+    }
+
+    public function logs(): HasMany
+    {
+        return $this->hasMany(MailTemplateLog::class, 'template_id');
+    }
+
+>>>>>>> b19cd40 (.)
      * Create a new version of the template.
      *
      * @param string $createdBy The user who created the version
      * @param string|null $notes Optional notes about the changes
      * @return self
+<<<<<<< HEAD
      * public function createNewVersion(string $createdBy, ?string $notes = null): self
      * {
      * $this->versions()->create([
@@ -233,4 +295,24 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
      * return $this;
      * }
      */
+=======
+    public function createNewVersion(string $createdBy, ?string $notes = null): self
+    {
+        $this->versions()->create([
+            'mailable' => $this->mailable,
+            'subject' => $this->subject,
+            'html_template' => $this->html_template,
+            'text_template' => $this->text_template,
+            'version' => $this->version,
+            'created_by' => $createdBy,
+            'change_notes' => $notes,
+        ]);
+
+        $this->increment('version');
+        return $this;
+    }
+    */
+
+
+>>>>>>> b19cd40 (.)
 }

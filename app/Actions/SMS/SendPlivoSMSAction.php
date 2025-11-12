@@ -5,11 +5,16 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 =======
+=======
+>>>>>>> 95531e1 (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -17,12 +22,20 @@ use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+<<<<<<< HEAD
 use Modules\Notify\Datas\SMS\PlivoData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 99ff506 (.)
+=======
+=======
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendPlivoSMSAction implements SmsActionContract
@@ -47,8 +60,15 @@ final class SendPlivoSMSAction implements SmsActionContract
     protected bool $debug;
 
     /** @var string|null */
+<<<<<<< HEAD
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+=======
+    protected ?string $defaultSender = null;
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 
     /**
      * Create a new action instance.
@@ -56,7 +76,9 @@ final class SendPlivoSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->plivoData = PlivoData::make();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (! $this->plivoData->auth_id) {
             throw new Exception('Auth ID Plivo non configurato in sms.php');
@@ -64,6 +86,11 @@ final class SendPlivoSMSAction implements SmsActionContract
 
         if (! $this->plivoData->auth_token) {
 =======
+=======
+=======
+        
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
         if (!$this->plivoData->auth_id) {
             throw new Exception('Auth ID Plivo non configurato in sms.php');
         }
@@ -92,7 +119,10 @@ final class SendPlivoSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> b19cd40 (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
@@ -121,7 +151,11 @@ final class SendPlivoSMSAction implements SmsActionContract
             'auth' => [$this->plivoData->auth_id, $this->plivoData->auth_token],
             'headers' => [
                 'Content-Type' => 'application/json',
+<<<<<<< HEAD
             ],
+=======
+            ]
+>>>>>>> b19cd40 (.)
         ]);
 
 <<<<<<< HEAD
@@ -136,7 +170,11 @@ final class SendPlivoSMSAction implements SmsActionContract
                     'src' => $from,
                     'dst' => $to,
                     'text' => $smsData->body,
+<<<<<<< HEAD
                 ],
+=======
+                ]
+>>>>>>> b19cd40 (.)
             ]);
 
             $this->vars['status_code'] = $response->getStatusCode();
@@ -151,7 +189,11 @@ final class SendPlivoSMSAction implements SmsActionContract
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
                 $clientException->getCode(),
+<<<<<<< HEAD
                 $clientException,
+=======
+                $clientException
+>>>>>>> b19cd40 (.)
             );
         }
     }

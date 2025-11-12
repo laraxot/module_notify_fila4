@@ -27,8 +27,15 @@ interface MobilePushNotification
      * @return array<string, mixed>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function toArray(?object $notifiable): array;
 =======
     public function toArray(null|object $notifiable): array;
 >>>>>>> 99ff506 (.)
+=======
+    public function toArray(null|object $notifiable): array;
+=======
+    public function toArray(?object $notifiable): array;
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 }

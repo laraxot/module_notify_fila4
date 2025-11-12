@@ -5,9 +5,15 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 99ff506 (.)
+=======
+use Override;
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -30,6 +36,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class NotifyThemeResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> 99ff506 (.)
 
@@ -45,7 +52,30 @@ class NotifyThemeResource extends XotBaseResource
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+=======
+    protected static ?string $model = NotifyTheme::class;
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'lang' => Select::make('lang')
+                ->options(function (): array {
+                    return self::fieldOptions('lang');
+                }),
+            'type' => Select::make('type')
+                ->options(function (): array {
+                    return self::fieldOptions('type');
+                }),
+            'post_type' => Select::make('post_type')
+                ->options(function (): array {
+                    return self::fieldOptions('post_type');
+                }),
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -68,11 +98,23 @@ class NotifyThemeResource extends XotBaseResource
                     'widgets' => 'widgets',
                 ])
                 ->default('empty'),
+<<<<<<< HEAD
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
     }
 
+=======
+            'body' => Textarea::make('body')
+                ->columnSpanFull(),
+            'body_html' => RichEditor::make('body_html')
+                ->columnSpanFull(),
+        ];
+    }
+
+   
+
+>>>>>>> b19cd40 (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

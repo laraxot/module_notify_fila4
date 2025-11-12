@@ -10,11 +10,18 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  * Class CreateThemesTable.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 99ff506 (.)
+=======
+return new class() extends XotBaseMigration {
+=======
+return new class () extends XotBaseMigration {
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -22,6 +29,7 @@ return new class() extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('mailable');
@@ -37,5 +45,24 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+=======
+        $this->tableCreate(
+            function (Blueprint $table): void {
+                $table->increments('id');
+                $table->string('mailable');
+                $table->text('subject')->nullable();
+                $table->longText('html_template');
+                $table->longText('text_template')->nullable();
+                
+            }
+        );
+
+         // -- UPDATE --
+         $this->tableUpdate(
+            function (Blueprint $table): void {
+                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
+            }
+        );
+>>>>>>> b19cd40 (.)
     }
 };

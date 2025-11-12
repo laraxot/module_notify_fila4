@@ -2,6 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+namespace Modules\Notify\Tests\Unit;
+
+>>>>>>> b19cd40 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Notifications\GenericNotification;
 
@@ -12,11 +17,19 @@ describe('GenericNotification getRecipientName', function (): void {
         $notification = new GenericNotification('Title', 'Message');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notifiable = new class
         {
 =======
         $notifiable = new class {
 >>>>>>> 99ff506 (.)
+=======
+        $notifiable = new class {
+=======
+        $notifiable = new class
+        {
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
             public function getFullName(): string
             {
                 return 'John Doe';
@@ -34,11 +47,19 @@ describe('GenericNotification getRecipientName', function (): void {
         $notification = new GenericNotification('Title', 'Message');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $model = new class extends Model
         {
 =======
         $model = new class extends Model {
 >>>>>>> 99ff506 (.)
+=======
+        $model = new class extends Model {
+=======
+        $model = new class extends Model
+        {
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
             protected $attributes = [
                 'full_name' => 'Jane Roe',
             ];
@@ -56,6 +77,7 @@ describe('GenericNotification getRecipientName', function (): void {
 
         // first_name present
 <<<<<<< HEAD
+<<<<<<< HEAD
         $model1 = new class extends Model
         {
             protected $attributes = ['first_name' => 'Alice'];
@@ -69,6 +91,8 @@ describe('GenericNotification getRecipientName', function (): void {
         $model3 = new class extends Model
         {
 =======
+=======
+>>>>>>> 95531e1 (.)
         $model1 = new class extends Model {
             protected $attributes = ['first_name' => 'Alice'];
         };
@@ -78,7 +102,24 @@ describe('GenericNotification getRecipientName', function (): void {
         };
         // none present
         $model3 = new class extends Model {
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+=======
+        $model1 = new class extends Model
+        {
+            protected $attributes = ['first_name' => 'Alice'];
+        };
+        // name present
+        $model2 = new class extends Model
+        {
+            protected $attributes = ['name' => 'Bob'];
+        };
+        // none present
+        $model3 = new class extends Model
+        {
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
             protected $attributes = [];
         };
 

@@ -1,10 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 95531e1 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <tr>
 >>>>>>> 99ff506 (.)
 	<td class="w40" width="40"></td>
@@ -16,6 +21,13 @@ declare(strict_types=1);
 			<tr>
 				<td class="w560" width="560">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> 99ff506 (.)
+=======
+					<div class="article-content" align="left">
+=======
+					<div class="article-content" align="left">
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)

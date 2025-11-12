@@ -23,7 +23,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_extends_base_model(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertInstanceOf(BaseModel::class, $version);
     }
@@ -41,6 +45,7 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_correct_fillable_attributes(): void
     {
         $expectedFillable = [
+<<<<<<< HEAD
             'template_id',
             'subject',
             'body_html',
@@ -54,12 +59,23 @@ class NotificationTemplateVersionTest extends TestCase
         ];
 
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+=======
+            'template_id', 'subject', 'body_html', 'body_text', 'channels',
+            'variables', 'conditions', 'version', 'created_by', 'change_notes',
+        ];
+
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+>>>>>>> b19cd40 (.)
     }
 
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
         $casts = $version->getCasts();
 
         $this->assertIsArray($casts);
@@ -71,7 +87,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_has_template_relationship(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertTrue(method_exists($version, 'template'));
     }
@@ -79,7 +99,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_has_restore_method(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertTrue(method_exists($version, 'restore'));
     }
@@ -87,7 +111,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function restore_method_returns_notification_template(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertTrue(method_exists($version, 'restore'));
 
@@ -101,7 +129,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_has_table_name(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertEquals('notification_template_versions', $version->getTable());
     }
@@ -109,7 +141,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_has_primary_key(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertEquals('id', $version->getKeyName());
     }
@@ -117,7 +153,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_uses_timestamps(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertTrue($version->usesTimestamps());
     }
@@ -152,7 +192,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_has_creator_and_updater_relationships(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertTrue(method_exists($version, 'creator'));
         $this->assertTrue(method_exists($version, 'updater'));
@@ -161,7 +205,11 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_has_media_relationship(): void
     {
+<<<<<<< HEAD
         $version = new NotificationTemplateVersion();
+=======
+        $version = new NotificationTemplateVersion;
+>>>>>>> b19cd40 (.)
 
         $this->assertTrue(method_exists($version, 'media'));
     }

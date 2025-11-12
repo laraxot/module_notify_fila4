@@ -78,10 +78,17 @@ class MediaTypeEnumTest extends TestCase
     public function each_case_has_unique_value(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $values = array_map(fn ($case) => $case->value, MediaTypeEnum::cases());
 =======
         $values = array_map(fn($case) => $case->value, MediaTypeEnum::cases());
 >>>>>>> 99ff506 (.)
+=======
+        $values = array_map(fn($case) => $case->value, MediaTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, MediaTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

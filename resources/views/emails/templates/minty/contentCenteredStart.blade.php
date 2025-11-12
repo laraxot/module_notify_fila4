@@ -1,10 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 95531e1 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <div class="block">
 >>>>>>> 99ff506 (.)
 	<!-- start textbox-with-title -->
@@ -23,6 +28,13 @@ declare(strict_types=1);
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 								<tbody>
 >>>>>>> 99ff506 (.)
+=======
+								<tbody>
+=======
+								<tbody>
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)

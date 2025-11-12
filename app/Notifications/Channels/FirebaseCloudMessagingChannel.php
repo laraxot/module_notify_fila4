@@ -62,6 +62,7 @@ final class FirebaseCloudMessagingChannel
                     sendReport: $multicastSendReport,
                 )->toArray();
 
+<<<<<<< HEAD
                 self::$logger->debug(sprintf(
                     "FCM notification debug:\n%s",
                     json_encode($notificationDebugData, JSON_PRETTY_PRINT),
@@ -75,6 +76,27 @@ final class FirebaseCloudMessagingChannel
                 json_encode($notification->toArray(null), JSON_THROW_ON_ERROR),
                 json_encode($userNotificationTokens->toArray(), JSON_THROW_ON_ERROR),
             ));
+=======
+                self::$logger
+                    ->debug(
+                        sprintf(
+                            "FCM notification debug:\n%s",
+                            json_encode($notificationDebugData, JSON_PRETTY_PRINT),
+                        )
+                    );
+            }
+        } catch (Exception $exception) {
+            self::$logger
+                ->error(
+                    sprintf(
+                        "An exception has been thrown while trying to send FCM notifications.\n\tError message is: '%s' [%s]\n\tNotification data was: %s\n\tUser devices were: %s",
+                        $exception->getMessage(),
+                        $exception->getCode(),
+                        json_encode($notification->toArray(null), JSON_THROW_ON_ERROR),
+                        json_encode($userNotificationTokens->toArray(), JSON_THROW_ON_ERROR),
+                    )
+                );
+>>>>>>> b19cd40 (.)
             self::$logger->error(json_encode($exception->getTrace(), JSON_PRETTY_PRINT));
         }
     }
@@ -98,10 +120,18 @@ final class FirebaseCloudMessagingChannel
          */
         $registrationTokens = $userDeviceTokens->toArray();
 
+<<<<<<< HEAD
         return $this->firebaseCloudMessaging->sendMulticast(
             message: $notification->toCloudMessage(),
             registrationTokens: $registrationTokens,
         );
+=======
+        return $this->firebaseCloudMessaging
+            ->sendMulticast(
+                message: $notification->toCloudMessage(),
+                registrationTokens: $registrationTokens,
+            );
+>>>>>>> b19cd40 (.)
     }
 
     /**
