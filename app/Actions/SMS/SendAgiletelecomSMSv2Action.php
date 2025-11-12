@@ -18,7 +18,11 @@ use Modules\Notify\Datas\SmsData;
  */
 class SendAgiletelecomSMSv2Action implements SmsActionContract
 {
+<<<<<<< HEAD
     #[\Override]
+=======
+    #[Override]
+>>>>>>> 6ba141fc (.)
     public function execute(SmsData $data): array
     {
         $agile = AgiletelecomData::make();

@@ -44,7 +44,11 @@ final class SendSmsFactorSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
     #[\Override]
+=======
+    #[Override]
+>>>>>>> 6ba141fc (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();

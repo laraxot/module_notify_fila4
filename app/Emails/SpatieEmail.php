@@ -172,6 +172,7 @@ class SpatieEmail extends TemplateMailable
 
     public function getAttachmentFromData(array $attachment): Attachment
     {
+<<<<<<< HEAD
         // Valida e tipizza parametri
         Assert::keyExists($attachment, 'data', 'Attachment must have data');
         Assert::string($attachment['data'], 'Attachment data must be string');
@@ -184,6 +185,36 @@ class SpatieEmail extends TemplateMailable
 
         // Determina MIME type
         $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
+=======
+        // Valida parametri obbligatori
+        Assert::keyExists($attachment, 'data', 'Attachment must have data');
+        Assert::keyExists($attachment, 'as', 'Attachment must have filename (as)');
+        Assert::string($attachment['as'], 'Attachment filename must be string');
+
+        $res = Attachment::fromData(fn () => $attachment['data']);
+        $filename = $attachment['as']; // Laravel convention: 'as' parameter name
+
+        // Determina MIME type
+        $mime = Arr::get($attachment, 'mime', null);
+
+        if ($mime === null) {
+            // Tenta di determinare MIME type da estensione filename
+            $info = pathinfo($filename);
+            if (isset($info['extension'])) {
+                $detectedMime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
+                $mime = is_string($detectedMime) ? $detectedMime : null;
+            }
+        }
+
+        if ($mime === null) {
+            $mime = 'application/octet-stream';
+        }
+
+        // Cast a stringa per sicurezza
+        if (! is_string($mime)) {
+            $mime = 'application/octet-stream';
+        }
+>>>>>>> 6ba141fc (.)
 
         $res = $res->as($filename)->withMime($mime);
 

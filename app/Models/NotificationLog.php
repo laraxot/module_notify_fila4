@@ -22,6 +22,36 @@ use Modules\Xot\Models\BaseModel;
  * @property Carbon|null $sent_at
  * @property string $status
  * @property string|null $error
+<<<<<<< HEAD
+=======
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Spatie\MediaLibrary\MediaCollections\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read Model|\Eloquent $notifiable
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
+ *
+ * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
+ * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
+ * @method static Builder<static>|NotificationLog newModelQuery()
+ * @method static Builder<static>|NotificationLog newQuery()
+ * @method static Builder<static>|NotificationLog query()
+ * @method static Builder<static>|NotificationLog whereChannels($value)
+ * @method static Builder<static>|NotificationLog whereContent($value)
+ * @method static Builder<static>|NotificationLog whereCreatedAt($value)
+ * @method static Builder<static>|NotificationLog whereData($value)
+ * @method static Builder<static>|NotificationLog whereError($value)
+ * @method static Builder<static>|NotificationLog whereId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableType($value)
+ * @method static Builder<static>|NotificationLog whereSentAt($value)
+ * @method static Builder<static>|NotificationLog whereStatus($value)
+ * @method static Builder<static>|NotificationLog whereTitle($value)
+ * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
+ * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
+ *
+ * @mixin \Eloquent
+>>>>>>> 6ba141fc (.)
  */
 class NotificationLog extends BaseModel
 {
@@ -40,6 +70,7 @@ class NotificationLog extends BaseModel
         'error',
     ];
 
+<<<<<<< HEAD
     /**
      * @return array<string, string>
      */
@@ -53,6 +84,17 @@ class NotificationLog extends BaseModel
             'updated_at' => 'datetime',
         ];
     }
+=======
+    protected $casts = [
+        'data' => 'array',
+        'channels' => 'array',
+        'sent_at' => 'datetime',
+        'delivered_at' => 'datetime',
+        'opened_at' => 'datetime',
+        'clicked_at' => 'datetime',
+        'status' => NotificationLogStatusEnum::class,
+    ];
+>>>>>>> 6ba141fc (.)
 
     public function notifiable(): MorphTo
     {

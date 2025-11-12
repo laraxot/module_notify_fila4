@@ -50,6 +50,7 @@ class NotificationTrackingController extends Controller
                 $metadata = [];
             }
 
+<<<<<<< HEAD
             $clickedLinks = Arr::get($metadata, 'clicked_links', []);
             if (! is_array($clickedLinks)) {
                 $clickedLinks = [];
@@ -60,6 +61,16 @@ class NotificationTrackingController extends Controller
             $metadata['clicked_links'] = array_merge($clickedLinks, [$urlStr => now()->toIso8601String()]);
 
             $log->update(['data' => $metadata]);
+=======
+            $clickedLinks = isset($metadata['clicked_links']) && is_array($metadata['clicked_links']) ? $metadata['clicked_links'] : [];
+            $urlStr = is_string($url) ? $url : (string) $url;
+
+            /** @var array<string, mixed> $safeMetadata */
+            $safeMetadata = $metadata;
+            $safeMetadata['clicked_links'] = array_merge($clickedLinks, [$urlStr => now()->toIso8601String()]);
+
+            $log->update(['data' => $safeMetadata]);
+>>>>>>> 6ba141fc (.)
         }
 
         // Redirect all'URL originale

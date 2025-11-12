@@ -38,7 +38,11 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
+<<<<<<< HEAD
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+=======
+                        ->afterStateUpdated(static function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+>>>>>>> 6ba141fc (.)
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -49,10 +53,17 @@ class MailTemplateResource extends LangBaseResource
                 ->columns(2),
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
+            // PHPStan Level 10: isset() invece of property_exists() per Eloquent magic properties
             'params_display' => View::make('notify::filament.components.params-badges')
+<<<<<<< HEAD
                 ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+=======
+                ->viewData(static fn ($record) => ['params' => (\is_object($record) && isset($record->params) ? $record->params : [])])
+                ->columnSpanFull()
+                ->visible(static fn ($record): bool => \is_object($record) && isset($record->params) && ! empty($record->params)),
+>>>>>>> 6ba141fc (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
         ];

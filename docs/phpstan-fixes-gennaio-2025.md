@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 
 **Data**: 27 Gennaio 2025  
@@ -249,3 +250,9 @@ public function toMail(object $notifiable): MailMessage
 
 
 
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 9f953c6 (.)
+>>>>>>> 6ba141fc (.)

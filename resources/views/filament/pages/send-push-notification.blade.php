@@ -19,8 +19,11 @@ declare(strict_types=1);
                 </div>
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+<<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+=======
+>>>>>>> 6ba141fc (.)
                 </div>
             </div>
         </div>

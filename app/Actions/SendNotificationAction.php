@@ -54,6 +54,7 @@ class SendNotificationAction
         $compiled = $template->compile($data);
 
         // Determina i canali da utilizzare
+<<<<<<< HEAD
         $templateChannels = $template->getAttribute('channels') ?? [];
         $effectiveChannels = $channels ?: $templateChannels;
 
@@ -67,10 +68,24 @@ class SendNotificationAction
             }
         }
         $effectiveChannels = $filteredChannels;
+=======
+        $effectiveChannels = $channels ?: $template->channels;
+>>>>>>> 6ba141fc (.)
+
+        // Assicurati che i canali siano stringhe valide
+        /** @var array<int, string> $effectiveChannels */
+        $effectiveChannels = array_filter(
+            array_map(fn ($channel) => is_string($channel) ? $channel : null, $effectiveChannels),
+            fn ($channel) => $channel !== null
+        );
 
         // Processa ogni canale
         foreach ($effectiveChannels as $channel) {
+<<<<<<< HEAD
             $stringChannel = $channel;
+=======
+            $stringChannel = is_string($channel) ? $channel : (string) $channel;
+>>>>>>> 6ba141fc (.)
             try {
                 $this->sendViaChannel($recipient, $stringChannel, $compiled, $options);
             } catch (Exception $e) {

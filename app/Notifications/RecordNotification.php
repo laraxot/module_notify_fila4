@@ -18,6 +18,7 @@ class RecordNotification extends Notification
 
     protected string $slug;
 
+<<<<<<< HEAD
     /**
      * @var array<string, mixed>
      */
@@ -27,6 +28,13 @@ class RecordNotification extends Notification
      * @var array<int, array<string, string>>
      */
     protected array $attachments = [];
+=======
+    /** @var array<string, mixed> */
+    public array $data = [];
+
+    /** @var array<int, array<string, string>> */
+    public array $attachments = [];
+>>>>>>> 6ba141fc (.)
 
     public function __construct(Model $record, string $slug)
     {
@@ -71,6 +79,10 @@ class RecordNotification extends Notification
             // Valida che sia una stringa valida
             if (is_string($recipient) && ! empty($recipient)) {
                 $email->to($recipient);
+<<<<<<< HEAD
+=======
+                $email->setRecipient($recipient);
+>>>>>>> 6ba141fc (.)
             }
         }
 

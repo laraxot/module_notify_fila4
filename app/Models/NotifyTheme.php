@@ -69,16 +69,27 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  *
  * @mixin \Eloquent
  *
+=======
+>>>>>>> 6ba141fc (.)
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
  */
 class NotifyTheme extends BaseModel implements HasMedia
+=======
+ *
+ * @mixin IdeHelperNotifyTheme
+ * @mixin Eloquent
+ */
+class NotifyTheme extends BaseModel
+>>>>>>> 6ba141fc (.)
 {
     use InteractsWithMedia;
     use \Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -101,10 +112,19 @@ class NotifyTheme extends BaseModel implements HasMedia
         'view_params',
     ];
 
+<<<<<<< HEAD
     /**
      * @return array{path: string, width: int, height: int}
      */
     public function getLogoAttribute(): array
+=======
+    /** @var list<string> */
+    protected $appends = [
+        'logo',
+    ];
+
+    public function getLogoAttribute(?array $value): array
+>>>>>>> 6ba141fc (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),

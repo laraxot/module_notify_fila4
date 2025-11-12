@@ -18,6 +18,7 @@ use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
 
 /**
+<<<<<<< HEAD
  * @property int                                  $id
  * @property string                               $mailable
  * @property string|null                          $subject
@@ -36,6 +37,26 @@ use Spatie\Translatable\HasTranslations;
  * @property string                               $slug
  * @property array                                $variables
  * @property mixed                                $translations
+=======
+ * @property int $id
+ * @property string $mailable
+ * @property string|null $subject
+ * @property string $html_template
+ * @property string|null $text_template
+ * @property int $version
+ * @property Carbon $created_at
+ * @property Carbon $updated_at
+ * @property Carbon|null $deleted_at
+ * @property Collection<int, MailTemplateVersion> $versions
+ * @property Collection<int, MailTemplateLog> $logs
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property string|null $deleted_by
+ * @property string $name
+ * @property string $slug
+ * @property array $variables
+ * @property mixed $translations
+>>>>>>> 6ba141fc (.)
  *
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
