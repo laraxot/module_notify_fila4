@@ -13,7 +13,6 @@ use Modules\Notify\Actions\Telegram\SendNutgramTelegramAction;
 use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
 >>>>>>> 99ff506 (.)
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
-use Webmozart\Assert\Assert;
 
 /**
  * Factory per la creazione di azioni Telegram.
@@ -88,9 +87,6 @@ final class TelegramActionFactory
             throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
         }
 
-        $instance = app($className);
-        Assert::isInstanceOf($instance, TelegramProviderActionInterface::class);
-
-        return $instance;
+        return app($className);
     }
 }

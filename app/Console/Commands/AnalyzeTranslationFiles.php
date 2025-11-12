@@ -39,9 +39,8 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
-            $langDirStr = is_string($langDir) ? $langDir : '';
-            $lang = basename($langDirStr);
-            $files = File::files($langDirStr);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -126,8 +125,7 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allFiles as $file => $keys) {
             $topLevelKeys = [];
 
-            $keysArray = is_array($keys) ? $keys : [];
-            foreach (array_keys($keysArray) as $key) {
+            foreach (array_keys($keys) as $key) {
                 $parts = explode('.', (string) $key);
                 $topLevelKeys[$parts[0]] = true;
             }
@@ -172,19 +170,10 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
-            if (! is_string($key) && ! is_int($key)) {
-                continue;
-            }
-
             $row = [$key];
 
             foreach (array_keys($allFiles) as $file) {
-                $fileData = $allFiles[$file] ?? null;
-                if (is_array($fileData)) {
-                    $row[] = isset($fileData[$key]) ? '✓' : '✗';
-                } else {
-                    $row[] = '✗';
-                }
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
             }
 
             $table->addRow($row);
@@ -254,8 +243,7 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allFiles as $file => $keys) {
             $navigationKeys = [];
 
-            $keysArray = is_array($keys) ? $keys : [];
-            foreach (array_keys($keysArray) as $key) {
+            foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                 }

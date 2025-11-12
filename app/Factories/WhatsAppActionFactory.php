@@ -26,7 +26,6 @@ use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
 >>>>>>> 99ff506 (.)
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
-use Webmozart\Assert\Assert;
 
 use function Safe\preg_replace;
 <<<<<<< HEAD
@@ -164,9 +163,6 @@ final class WhatsAppActionFactory
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
 
-        $instance = app($className);
-        Assert::isInstanceOf($instance, WhatsAppProviderActionInterface::class);
-
-        return $instance;
+        return app($className);
     }
 }

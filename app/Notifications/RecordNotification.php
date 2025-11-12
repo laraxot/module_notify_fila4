@@ -210,9 +210,7 @@ class RecordNotification extends Notification
         $email = new SpatieEmail($this->record, $this->slug);
         $email = $email->mergeData($this->data);
 
-        /** @var array<int, array<string, string>> $attachments */
-        $attachments = array_values($this->attachments);
-        $email = $email->addAttachments($attachments);
+        $email = $email->addAttachments($this->attachments);
 
         // Importante: garantisci che ci sia sempre un destinatario
         if (method_exists($notifiable, 'routeNotificationFor')) {
@@ -226,8 +224,8 @@ class RecordNotification extends Notification
                 $email->setRecipient($recipient);
 =======
             $to = $notifiable->routeNotificationFor('mail');
-            if (is_string($to)) {
-                $email->to($to);
+            $email->to($to);
+            if ($to) {
                 $email->setRecipient($to);
 >>>>>>> 99ff506 (.)
             }

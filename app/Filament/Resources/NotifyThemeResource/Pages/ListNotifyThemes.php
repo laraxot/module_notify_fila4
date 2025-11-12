@@ -41,9 +41,6 @@ class ListNotifyThemes extends XotBaseListRecords
     protected static string $resource = NotifyThemeResource::class;
 
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
         return [
@@ -65,9 +62,6 @@ class ListNotifyThemes extends XotBaseListRecords
     }
 
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableFilters(): array
     {
         return [
