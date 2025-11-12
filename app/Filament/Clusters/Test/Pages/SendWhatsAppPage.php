@@ -96,23 +96,23 @@ class SendWhatsAppPage extends XotBasePage
     public function getWhatsAppFormSchema(): array
     {
         return [
-            TextInput::make('to')
+            'to' => TextInput::make('to')
                 ->tel()
                 ->required()
                 ->helperText('Inserisci il numero di telefono con prefisso internazionale (es. +39)'),
-            TextInput::make('message')
+            'message' => TextInput::make('message')
                 ->required()
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
-            Select::make('driver')
+            'driver' => Select::make('driver')
                 ->options(WhatsAppDriverEnum::options())
                 ->default(WhatsAppDriverEnum::getDefault()->value)
                 ->required()
                 ->helperText(__('notify::whatsapp.fields.driver.helper_text')),
-            TextInput::make('template')->helperText('Nome del template (opzionale)'),
-            KeyValue::make('parameters')->helperText('Parametri per il template (opzionale)'),
-            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
-            Select::make('media_type')
+            'template' => TextInput::make('template')->helperText('Nome del template (opzionale)'),
+            'parameters' => KeyValue::make('parameters')->helperText('Parametri per il template (opzionale)'),
+            'media_url' => TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            'media_type' => Select::make('media_type')
                 ->options([
                     'image' => 'Immagine',
                     'video' => 'Video',
