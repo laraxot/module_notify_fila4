@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 >
+=======
+<?php
+
+declare(strict_types=1);
+
+?>
+</div>
+>>>>>>> 518c702 (.)
 					</td>
 				</tr>
 			</tbody>
@@ -8,4 +17,8 @@
 </tr>
 <tr>
 	<td colspan="3" height="30"></td>
+<<<<<<< HEAD
 </tr>
+=======
+</tr>
+>>>>>>> 518c702 (.)
