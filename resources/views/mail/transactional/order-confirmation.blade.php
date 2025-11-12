@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 @extends('notify::mail-layouts.base.default')
 
 @section('content')

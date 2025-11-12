@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -23,11 +24,15 @@
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> d5c4b93 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <div class="block">
 >>>>>>> 99ff506 (.)
 	<!-- start textbox-with-title -->
@@ -45,6 +50,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,3 +98,9 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> f5f1cb1 (.)
+=======
+								<tbody>
+=======
+								<tbody>
+>>>>>>> b19cd40 (.)
+>>>>>>> d5c4b93 (.)

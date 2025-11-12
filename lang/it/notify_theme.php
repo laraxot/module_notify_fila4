@@ -1,7 +1,13 @@
 <?php
+<<<<<<< HEAD
 
 declare(strict_types=1);
 
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b19cd40 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
