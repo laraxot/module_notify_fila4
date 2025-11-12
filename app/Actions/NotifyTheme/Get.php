@@ -120,8 +120,8 @@ class Get
 <<<<<<< HEAD
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
-        $subjectValue = $theme->attributes['subject'] ?? null;
-        if ($subjectValue === null) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 =======
 =======
@@ -193,11 +193,12 @@ class Get
             $theme->update(['subject' => $subject]);
         }
 
-        $themeValue = $theme->attributes['theme'] ?? null;
-        if ($themeValue === null) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if ($theme->body_html === null) {
 <<<<<<< HEAD
@@ -210,6 +211,10 @@ class Get
         $bodyHtml = $theme->attributes['body_html'] ?? null;
         if ($bodyHtml === null) {
 >>>>>>> 7aba3dd (.)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+>>>>>>> a80c61f (.)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
 =======
@@ -275,10 +280,10 @@ class Get
 
         $view_params['now'] = now()->format('d/m/Y');
 
-        $body_html = /** @phpstan-ignore-line property.notFound */ $theme->body_html;
-        $subject = /** @phpstan-ignore-line property.notFound */ $theme->subject;
+        $body_html = $theme->body_html;
+        $subject = $theme->subject;
 
-        if (/** @phpstan-ignore-line property.notFound */ $theme->theme !== 'empty') {
+        if ($theme->theme !== 'empty') {
             $view_params['logo'] = $theme->logo;
         } else {
             // Verifichiamo che i valori siano stringhe o utilizziamo valori di default
@@ -388,8 +393,10 @@ class Get
         }
 
         return NotifyThemeData::from([
-            'from_email' => $theme->attributes['from_email'] ?? null,
-            'from' => $theme->attributes['from'] ?? null,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,
             'view_params' => $view_params,

@@ -27,6 +27,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -37,6 +38,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> a80c61f (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -49,13 +52,17 @@ use Illuminate\Support\Carbon;
  * @method static Builder|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder|NotifyThemeable whereUpdatedBy($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> a80c61f (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -97,6 +104,10 @@ use Illuminate\Support\Carbon;
  * @mixin IdeHelperNotifyThemeable
 =======
 >>>>>>> 05bc3ad (.)
+=======
+ * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
+ * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+>>>>>>> a80c61f (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

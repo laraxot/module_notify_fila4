@@ -147,7 +147,27 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
-/** */
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read string $channels_label
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read mixed $translations
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static Builder<static>|NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationTemplate forCategory(string $category)
+ * @method static Builder<static>|NotificationTemplate forChannel(string $channel)
+ * @method static Builder<static>|NotificationTemplate newModelQuery()
+ * @method static Builder<static>|NotificationTemplate newQuery()
+ * @method static Builder<static>|NotificationTemplate query()
+ * @method static Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+ * @mixin \Eloquent
+ */
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;

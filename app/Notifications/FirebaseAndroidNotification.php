@@ -186,6 +186,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * Get the array representation of the notification.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  object|null  $notifiable  The entity to be notified
      * @return array<string, mixed>
      */
@@ -237,6 +238,16 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+     * @param  mixed  $notifiable  The entity to be notified
+     * @return array<string, mixed>
+     */
+    #[Override]
+    /**
+     * @return array<string, mixed>
+     */
+    public function toArray(mixed $notifiable): array
+>>>>>>> a80c61f (.)
     {
         // return $this->data->toArray();
         return [];

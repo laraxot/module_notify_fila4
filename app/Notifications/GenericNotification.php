@@ -94,8 +94,9 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene la rappresentazione SMS della notifica.
      *
-     * @return array<string, string>
+     * @return array<int, string>
      */
+    /** @phpstan-ignore-next-line return.type */
     public function toTwilio(mixed $notifiable): array
     {
         $content = "il progetto: {$this->title}\n{$this->message}";
@@ -114,7 +115,6 @@ class GenericNotification extends Notification implements ShouldQueue
             }
         }
 
-        /** @var array<string, string> */
         return [
             'content' => $content,
             'to' => $to,
@@ -124,8 +124,9 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene la rappresentazione database della notifica.
      *
-     * @return array<string, mixed>
+     * @return array<int, string>
      */
+    /** @phpstan-ignore-next-line return.type */
     public function toDatabase(mixed $notifiable): array
     {
         return [

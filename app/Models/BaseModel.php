@@ -8,6 +8,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -27,69 +28,40 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 05bc3ad (.)
 use Modules\Xot\Traits\Updater;
+=======
+use Modules\Xot\Models\XotBaseModel;
+>>>>>>> a80c61f (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
- * Class BaseModel.
+ * Base Model for Notify module.
  *
+ * Extends XotBaseModel and adds:
+ * - Spatie Media Library support (HasMedia, InteractsWithMedia)
+ *
+ * @see \Modules\Xot\Models\XotBaseModel
  */
-abstract class BaseModel extends Model implements HasMedia
+abstract class BaseModel extends XotBaseModel implements HasMedia
 {
-    // use Searchable;
-    use \Modules\Xot\Models\Traits\HasXotFactory;
     use InteractsWithMedia;
-    use Updater;
 
     /**
-     * Indicates whether attributes are snake cased on arrays.
+     * The connection name for the model.
      *
-     * @see https://laravel-news.com/6-eloquent-secrets
-     *
-     * @var bool
+     * @var string
      */
-    public static $snakeAttributes = true;
-
-    /** @var bool */
-    public $incrementing = true;
-
-    /** @var bool */
-    public $timestamps = true;
-
-    /** @var int */
-    protected $perPage = 30;
-
-    /** @var string */
     protected $connection = 'notify';
 
-    /** @var list<string> */
-    protected $appends = [];
-
-    /** @var string */
-    protected $primaryKey = 'id';
-
-    /** @var string */
-    protected $keyType = 'string';
-
-    /** @var list<string> */
-    protected $hidden = [
-        // 'password'
-    ];
-
-    /** @return array<string, string> */
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
     protected function casts(): array
     {
-        return [
-            'id' => 'string',
-            'uuid' => 'string',
-            'published_at' => 'datetime',
-            'verified_at' => 'datetime',
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
-        ];
+        return array_merge(parent::casts(), [
+            'verified_at' => 'datetime', // ✅ Notify-specific cast
+        ]);
     }
 }
