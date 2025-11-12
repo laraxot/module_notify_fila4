@@ -14,6 +14,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
@@ -54,6 +55,9 @@ return new class () extends XotBaseMigration {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> f5f1cb1 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -61,14 +65,6 @@ return new class () extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('mailable');
@@ -76,10 +72,6 @@ return new class () extends XotBaseMigration {
             $table->longText('html_template');
             $table->longText('text_template')->nullable();
         });
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -88,42 +80,5 @@ return new class () extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        $this->tableCreate(
-            function (Blueprint $table): void {
-                $table->increments('id');
-                $table->string('mailable');
-                $table->text('subject')->nullable();
-                $table->longText('html_template');
-                $table->longText('text_template')->nullable();
-                
-            }
-        );
-
-         // -- UPDATE --
-         $this->tableUpdate(
-            function (Blueprint $table): void {
-                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
-            }
-        );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-
-        // -- UPDATE --
-        $this->tableUpdate(function (Blueprint $table): void {
-            $this->updateTimestamps(
-                table: $table,
-                hasSoftDeletes: true,
-            );
-        });
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 };

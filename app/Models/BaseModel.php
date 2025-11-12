@@ -6,6 +6,7 @@ namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -13,13 +14,9 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 =======
 =======
 >>>>>>> f813254 (.)
-use Modules\Xot\Actions\Factory\GetFactoryAction;
 =======
-<<<<<<< HEAD
+>>>>>>> f5f1cb1 (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -76,25 +73,11 @@ abstract class BaseModel extends Model implements HasMedia
     /**
      * Create a new factory instance for the model.
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
-<<<<<<< HEAD
-=======
-=======
-     * @return \Illuminate\Database\Eloquent\Factories\Factory<static>
-     */
-    protected static function newFactory()
-    {
-        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 
     /** @return array<string, string> */
@@ -104,38 +87,10 @@ abstract class BaseModel extends Model implements HasMedia
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

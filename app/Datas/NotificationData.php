@@ -21,6 +21,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $from_email = null;
 
     public string $to;
@@ -44,6 +45,8 @@ class NotificationData extends Data
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
     public null|string $from_email = null;
 
     public string $to;
@@ -51,6 +54,7 @@ class NotificationData extends Data
     public null|string $subject = null;
 
     public null|string $body_html = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +104,8 @@ class NotificationData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
 
     public string $body;
 
@@ -108,6 +114,7 @@ class NotificationData extends Data
     /**
      * @var DataCollection<AttachmentData>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,26 +130,11 @@ class NotificationData extends Data
 >>>>>>> e11621f (.)
 =======
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
     public null|DataCollection $attachments = null;
 >>>>>>> 99ff506 (.)
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|DataCollection $attachments = null;
-
-=======
-    public ?DataCollection $attachments = null;
->>>>>>> a12f125f4a (.)
-=======
-    public null|DataCollection $attachments = null;
-
->>>>>>> b93ef594b4 (.)
-=======
-    public ?DataCollection $attachments = null;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     // public ?array $attachment_paths = [];
 
     /**
@@ -161,38 +153,10 @@ class NotificationData extends Data
 
     public function getSmsData(): SmsData
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
         return SmsData::from([
             'from' => $this->from,
             'to' => $this->to,
             'body' => $this->body,
         ]);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
-        return SmsData::from(
-            [
-                'from' => $this->from,
-                'to' => $this->to,
-                'body' => $this->body,
-            ]
-        );
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 }

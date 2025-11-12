@@ -1,26 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 <x-filament::icon-button
     :badge="$unreadNotificationsCount"
     color="gray"
@@ -45,20 +27,4 @@ declare(strict_types=1);
     Notifications ({{ $unreadNotificationsCount }} unread)
 </button>
 
-<<<<<<< HEAD
 --}}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---}}
-=======
---}}
->>>>>>> a12f125f4a (.)
-=======
---}}
->>>>>>> b93ef594b4 (.)
-=======
---}}
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

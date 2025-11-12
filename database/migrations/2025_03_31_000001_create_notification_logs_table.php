@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends Migration
 {
 =======
@@ -53,6 +54,9 @@ return new class extends Migration
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+return new class extends Migration {
+>>>>>>> f5f1cb1 (.)
     /**
      * Esegue la migrazione.
      */
@@ -70,23 +74,7 @@ return new class extends Migration
             $table->string('status'); // sent, failed, pending
             $table->text('error')->nullable();
             $table->timestamps();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-            
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

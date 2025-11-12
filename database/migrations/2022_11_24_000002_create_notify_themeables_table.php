@@ -10,6 +10,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
@@ -50,28 +51,19 @@ return new class () extends XotBaseMigration {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> f5f1cb1 (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
         // -- CREATE --
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->nullableMorphs('model');
         });
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
 <<<<<<< HEAD
@@ -86,46 +78,5 @@ return new class () extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        $this->tableCreate(
-            function (Blueprint $table): void {
-                $table->increments('id');
-                $table->nullableMorphs('model');
-            }
-        );
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
-        // -- UPDATE --
-        $this->tableUpdate(function (Blueprint $table): void {
-            if (!$this->hasColumn('notify_theme_id')) {
-                $table->integer('notify_theme_id')->nullable();
-            }
-<<<<<<< HEAD
-        );
->>>>>>> a12f125f4a (.)
-=======
-            $this->updateTimestamps(
-                table: $table,
-                hasSoftDeletes: true,
-            );
-        });
->>>>>>> b93ef594b4 (.)
-=======
-        // -- UPDATE --
-        $this->tableUpdate(
-            function (Blueprint $table): void {
-                if (! $this->hasColumn('notify_theme_id')) {
-                    $table->integer('notify_theme_id')->nullable();
-                }
-                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
-            }
-        );
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 };

@@ -8,6 +8,7 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
@@ -56,12 +57,17 @@ use Illuminate\Support\Facades\DB;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+>>>>>>> f5f1cb1 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateMailTemplatesTable.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +113,9 @@ return new class () extends XotBaseMigration {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> f5f1cb1 (.)
     /**
      * Run the migrations.
      */
@@ -122,24 +131,11 @@ return new class () extends XotBaseMigration {
             $table->json('html_template')->nullable();
             $table->json('text_template')->nullable();
             $table->string('version')->default('1.0.0');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,11 +180,15 @@ return new class () extends XotBaseMigration {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+            if (!$this->hasColumn('name')) {
+>>>>>>> f5f1cb1 (.)
                 $table->string('name');
             }
             if ($this->hasColumn('name')) {
                 $table->string('name')->nullable()->change();
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +211,8 @@ return new class () extends XotBaseMigration {
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
             if (!$this->hasColumn('slug')) {
 >>>>>>> 99ff506 (.)
                 $table->string('slug')->unique();
@@ -222,36 +224,4 @@ return new class () extends XotBaseMigration {
             );
         });
     }
-<<<<<<< HEAD
-=======
-=======
-            if (! $this->hasColumn('slug')) {
-=======
-            if (!$this->hasColumn('slug')) {
->>>>>>> b93ef594b4 (.)
-                $table->string('slug')->unique();
-            }
-
-            $this->updateTimestamps(
-                table: $table,
-                hasSoftDeletes: true,
-            );
-        });
-    }
-<<<<<<< HEAD
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-            if (! $this->hasColumn('slug')) {
-                $table->string('slug')->unique();
-            }
-
-            $this->updateTimestamps(table: $table, hasSoftDeletes: true);
-        });
-    }
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 };

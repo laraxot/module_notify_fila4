@@ -9,6 +9,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95531e1 (.)
@@ -18,20 +19,9 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 >>>>>>> e11621f (.)
 =======
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
 use Override;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Tables;
 >>>>>>> 99ff506 (.)
 use Filament\Tables\Columns\TextColumn;
@@ -49,12 +39,6 @@ class ListNotifications extends XotBaseListRecords
 {
     protected static string $resource = NotificationResource::class;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -70,63 +54,11 @@ class ListNotifications extends XotBaseListRecords
     }
 
     #[Override]
-<<<<<<< HEAD
-=======
-=======
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')->numeric()->sortable(),
-            'type' => TextColumn::make('type')->searchable()->sortable(),
-            'notifiable' => TextColumn::make('notifiable.name')->searchable()->sortable(),
-            'data' => TextColumn::make('data')->searchable(),
-            'read_at' => TextColumn::make('read_at')->dateTime()->sortable(),
-            'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
-            'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
-        ];
-    }
-
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')
-                ->numeric()
-                ->sortable(),
-            'type' => TextColumn::make('type')
-                ->searchable()
-                ->sortable(),
-            'notifiable' => TextColumn::make('notifiable.name')
-                ->searchable()
-                ->sortable(),
-            'data' => TextColumn::make('data')
-                ->searchable(),
-            'read_at' => TextColumn::make('read_at')
-                ->dateTime()
-                ->sortable(),
-            'created_at' => TextColumn::make('created_at')
-                ->dateTime()
-                ->sortable(),
-            'updated_at' => TextColumn::make('updated_at')
-                ->dateTime()
-                ->sortable(),
-        ];
-    }
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     public function getTableFilters(): array
     {
         return [
             'read' => Filter::make('is_read')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,10 +84,13 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,6 +137,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

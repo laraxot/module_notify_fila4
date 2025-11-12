@@ -81,11 +81,7 @@ Grapesjs::make('body_html')
 
 ## Link utili
 - [Plugin GitHub](https://github.com/dotswan/filament-grapesjs-v3)
-<<<<<<< HEAD
 - [GrapesJS Docs](https://grapesjs.com/docs/)
-=======
-- [GrapesJS Docs](https://grapesjs.com/project_docs/)
->>>>>>> d284d65 (.)
 - [Filament Plugins](https://filamentphp.com/plugins)
 
 ---
