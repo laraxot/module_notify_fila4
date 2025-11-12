@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f813254 (.)
@@ -344,6 +345,8 @@ declare(strict_types=1);
 >>>>>>> 954a7fa (.)
 =======
 >>>>>>> 0b399d7 (.)
+=======
+>>>>>>> 535f451 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 99ff506 (.)
 	<tr>
@@ -354,6 +357,7 @@ declare(strict_types=1);
 
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,3 +514,6 @@ declare(strict_types=1);
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0b399d7 (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 535f451 (.)
