@@ -44,6 +44,7 @@ use Filament\Forms\Form;
 use Override;
 >>>>>>> b93ef594b4 (.)
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Form;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Override;
 
@@ -89,10 +90,10 @@ class LinkableRelationManager extends XotBaseRelationManager
     protected static null|string $recordTitleAttribute = 'id';
 >>>>>>> 99ff506 (.)
 
-    #[Override]
     public function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             TextInput::make('id')->required()->maxLength(255),
 <<<<<<< HEAD
 =======
@@ -130,6 +131,11 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
             TextInput::make('id')->required()->maxLength(255),
 >>>>>>> ab15d0e (.)
+=======
+            TextInput::make('id')
+                ->required()
+                ->maxLength(255),
+>>>>>>> e6ac118 (.)
         ];
     }
 }

@@ -152,6 +152,9 @@ final class SendNetfunSMSAction implements SmsActionContract
      * @throws Exception In caso di errore durante l'invio
      */
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function execute(SmsData $smsData): array
     {
         $headers = [

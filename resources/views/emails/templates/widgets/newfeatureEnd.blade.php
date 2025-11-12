@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -119,12 +120,15 @@ declare(strict_types=1);
 >>>>>>> d2c515f (.)
 =======
 >>>>>>> ab15d0e (.)
+=======
+>>>>>>> e6ac118 (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,3 +307,5 @@ declare(strict_types=1);
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> ab15d0e (.)
+=======
+>>>>>>> e6ac118 (.)

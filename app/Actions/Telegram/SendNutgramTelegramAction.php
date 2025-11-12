@@ -215,9 +215,15 @@ final class SendNutgramTelegramAction
                 'response_code' => $statusCode,
             ]);
 
+            $success = is_array($responseData) && isset($responseData['ok']) ? (bool) $responseData['ok'] : false;
+            $messageId = null;
+            if (is_array($responseData) && isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
+                $messageId = $responseData['result']['message_id'];
+            }
+
             return [
-                'success' => $responseData['ok'] ?? false,
-                'message_id' => $responseData['result']['message_id'] ?? null,
+                'success' => $success,
+                'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
