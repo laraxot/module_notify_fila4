@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 
 <<<<<<< HEAD
@@ -389,6 +390,8 @@ declare(strict_types=1);
 >>>>>>> daa931f (.)
 =======
 >>>>>>> 4ac6c3c (.)
+=======
+>>>>>>> 145c039 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

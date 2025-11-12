@@ -12,6 +12,8 @@ use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
 
+use function Safe\json_encode;
+
 class NotificationTemplateTest extends TestCase
 {
     use RefreshDatabase;

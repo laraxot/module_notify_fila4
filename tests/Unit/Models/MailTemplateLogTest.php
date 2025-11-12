@@ -11,6 +11,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 
+use function Safe\json_encode;
+
 class MailTemplateLogTest extends TestCase
 {
     use RefreshDatabase;
