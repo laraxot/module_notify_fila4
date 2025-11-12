@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -22,11 +23,14 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8d14144 (.)
+=======
+>>>>>>> 53dd2f8 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +45,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8d14144 (.)
+=======
+>>>>>>> 53dd2f8 (.)
 <tr>
 =======
 <<<<<<< HEAD
@@ -71,6 +77,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
 <<<<<<< HEAD
@@ -111,3 +118,6 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8d14144 (.)
+=======
+					<div class="article-content" align="left">
+>>>>>>> 53dd2f8 (.)

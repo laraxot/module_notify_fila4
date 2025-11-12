@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 <x-filament::icon-button
     :badge="$unreadNotificationsCount"
     color="gray"
@@ -36,12 +27,4 @@ declare(strict_types=1);
     Notifications ({{ $unreadNotificationsCount }} unread)
 </button>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 --}}
-=======
---}}
->>>>>>> b19cd40 (.)
-=======
---}}
->>>>>>> 4e2ebfb (.)
