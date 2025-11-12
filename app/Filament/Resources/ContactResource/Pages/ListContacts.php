@@ -4,37 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use Override;
-use Filament\Tables;
->>>>>>> 99ff506 (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-<<<<<<< HEAD
 use Override;
-=======
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
->>>>>>> 99ff506 (.)
 
 class ListContacts extends XotBaseListRecords
 {
@@ -59,15 +35,9 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
-<<<<<<< HEAD
             'active' => Filter::make('active')->query(fn (Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
                 fn (Builder $query): Builder => $query->where('active', false),
-=======
-            'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
-            'inactive' => Filter::make('inactive')->query(
-                fn(Builder $query): Builder => $query->where('active', false),
->>>>>>> 99ff506 (.)
             ),
         ];
     }

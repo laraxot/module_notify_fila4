@@ -4,12 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
@@ -24,60 +18,6 @@ class ContactResource extends XotBaseResource
     protected static ?string $model = Contact::class;
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use Filament\Schemas\Components\Component;
-use Override;
-use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
-use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
-use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
-use Filament\Forms;
-use Filament\Forms\Components\TextInput;
-use Filament\Resources\Pages\PageRegistration;
-use Modules\Notify\Filament\Resources\ContactResource\Pages;
-use Modules\Notify\Models\Contact;
-use Modules\Xot\Filament\Resources\XotBaseResource;
-
-class ContactResource extends XotBaseResource
-{
-    protected static null|string $model = Contact::class;
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static null|string $model = Contact::class;
-=======
-    protected static ?string $model = Contact::class;
->>>>>>> a12f125f4a (.)
-=======
-    protected static null|string $model = Contact::class;
->>>>>>> b93ef594b4 (.)
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
-=======
-    protected static ?string $model = Contact::class;
-
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
 
     /**
      * Get the form schema for the resource.
