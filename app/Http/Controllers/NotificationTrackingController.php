@@ -8,6 +8,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Arr;
 use Modules\Notify\Models\NotificationLog;
 
 use function Safe\base64_decode;
@@ -19,9 +20,9 @@ class NotificationTrackingController extends Controller
      */
     public function trackOpen(Request $request, string $id): Response
     {
-        $log = NotificationLog::find($id);
+        $log = NotificationLog::query()->find($id);
 
-        if ($log) {
+        if ($log instanceof NotificationLog) {
             $log->markAsOpened();
         }
 
@@ -38,26 +39,27 @@ class NotificationTrackingController extends Controller
      */
     public function trackClick(Request $request, string $id): RedirectResponse
     {
-        $log = NotificationLog::find($id);
+        $log = NotificationLog::query()->find($id);
         $url = $request->get('url', '');
 
-        if ($log) {
+        if ($log instanceof NotificationLog) {
             $log->markAsClicked();
 
-            // Aggiorna i metadati con il link cliccato
             $metadata = $log->data ?? [];
             if (! is_array($metadata)) {
                 $metadata = [];
             }
 
-            $clickedLinks = isset($metadata['clicked_links']) && is_array($metadata['clicked_links']) ? $metadata['clicked_links'] : [];
+            $clickedLinks = Arr::get($metadata, 'clicked_links', []);
+            if (! is_array($clickedLinks)) {
+                $clickedLinks = [];
+            }
+
             $urlStr = is_string($url) ? $url : (string) $url;
 
-            /** @var array<string, mixed> $safeMetadata */
-            $safeMetadata = $metadata;
-            $safeMetadata['clicked_links'] = array_merge($clickedLinks, [$urlStr => now()->toIso8601String()]);
+            $metadata['clicked_links'] = array_merge($clickedLinks, [$urlStr => now()->toIso8601String()]);
 
-            $log->update(['data' => $safeMetadata]);
+            $log->update(['data' => $metadata]);
         }
 
         // Redirect all'URL originale
