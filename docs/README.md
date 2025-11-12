@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -406,6 +407,8 @@ Log::channel('email')->info('Email sent', [
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
 =======
+=======
+>>>>>>> bd22fd4 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -697,4 +700,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
+=======
+>>>>>>> bd22fd4 (.)
