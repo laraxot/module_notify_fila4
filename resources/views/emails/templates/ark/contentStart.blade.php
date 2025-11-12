@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -119,16 +120,13 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e807778 (.)
+=======
+>>>>>>> 9cab737 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +146,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,3 +348,6 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e807778 (.)
+=======
+					<div class="article-content" align="left">
+>>>>>>> 9cab737 (.)
