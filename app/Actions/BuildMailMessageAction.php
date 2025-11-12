@@ -51,13 +51,19 @@ class BuildMailMessageAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $email = (new MailMessage())
 =======
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
         $email = new MailMessage()
 >>>>>>> 6ba141fc (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);
+>>>>>>> 518c702 (.)
+>>>>>>> 7bac387 (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {

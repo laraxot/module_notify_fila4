@@ -56,7 +56,15 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         // Credenziali e parametri di connessione
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', '<main module>'),
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -113,7 +121,15 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
     'netfun' => [
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+<<<<<<< HEAD
+        'sender' => env('NETFUN_SENDER', '<main module>'),
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun

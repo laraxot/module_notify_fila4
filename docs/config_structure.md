@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
+=======
+<<<<<<< HEAD
+# Struttura di Configurazione nei Moduli <main module>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 
 ## Principi di Configurazione
 

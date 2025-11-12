@@ -7,16 +7,39 @@
    - I namespace possono essere in PascalCase ma devono mappare correttamente alle directory lowercase
 
 2. **Struttura Directory Principale**
+<<<<<<< HEAD
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/` (ERRATO)
+=======
+<<<<<<< HEAD
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/app/` (CORRETTO)
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/App/` (ERRATO)
+>>>>>>> 9ed014c (.)
 
 3. **Struttura Directory Actions**
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/` (CORRETTO)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/` (ERRATO)
 
 4. **Struttura Directory Datas**
+<<<<<<< HEAD
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Datas/` (ERRATO)
+=======
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/` (CORRETTO)
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Datas/` (ERRATO)
+=======
+   - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
+   - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
+
+3. **Struttura Directory Actions**
+   - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/` (CORRETTO)
+   - `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/` (ERRATO)
+
+4. **Struttura Directory Datas**
+   - `/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/` (CORRETTO)
+   - `/var/www/html/saluteora/laravel/Modules/Notify/App/Datas/` (ERRATO)
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 
 ## Namespace vs Directory
 
@@ -30,8 +53,18 @@
 ## Errori Comuni da Evitare
 
 1. **Mai utilizzare la "A" maiuscola nel percorso fisico della directory app**
+<<<<<<< HEAD
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
+=======
+<<<<<<< HEAD
+   - ✅ CORRETTO: `/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Actions/`
+=======
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`

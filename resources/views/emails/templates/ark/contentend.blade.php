@@ -1,9 +1,12 @@
+>>>>>>> 7bac387 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 </div>
+>>>>>>> 518c702 (.)
+>>>>>>> 7bac387 (.)
 					</td>
 				</tr>
 			</tbody>
@@ -14,3 +17,5 @@ declare(strict_types=1);
 <tr>
 	<td colspan="3" height="30"></td>
 </tr>
+>>>>>>> 518c702 (.)
+>>>>>>> 7bac387 (.)

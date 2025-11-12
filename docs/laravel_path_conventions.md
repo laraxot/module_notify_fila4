@@ -1,8 +1,24 @@
+<<<<<<< HEAD
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+=======
+<<<<<<< HEAD
+# Convenzioni dei Path in Laravel e <main module>
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e <main module>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+=======
+# Convenzioni dei Path in Laravel e SaluteOra
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -24,13 +40,29 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 Le viste in Laravel devono essere collocate nella cartella `resources/views` (lowercase):
 
 ```
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 ```
 
 **NON** in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/Resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 ```
 
 ## Perché è Importante
@@ -49,7 +81,15 @@ Quando si fa riferimento a viste nei file PHP:
 protected static string $view = 'notify::filament.pages.send-sms';
 
 // Il path fisico corrispondente sarà:
+<<<<<<< HEAD
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+<<<<<<< HEAD
+// /var/www/html/<directory progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 ```
 
 ## Verifica e Correzione

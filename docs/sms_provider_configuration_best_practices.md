@@ -73,7 +73,15 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+<<<<<<< HEAD
+'sender' => env('NETFUN_SENDER', '<main module>'),
+=======
+'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),

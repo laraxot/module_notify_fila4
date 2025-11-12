@@ -20,7 +20,15 @@ Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza m
 ### 2. Posizione delle Azioni
 
 Le azioni specifiche dei provider SMS si trovano nella directory:
+<<<<<<< HEAD
 - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
+=======
+<<<<<<< HEAD
+- `/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS/`
+=======
+- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 
 ### 3. Convenzioni di Nomenclatura
 

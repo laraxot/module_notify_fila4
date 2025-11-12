@@ -12,7 +12,15 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 
 ### 2. Problemi con le Traduzioni
 
+<<<<<<< HEAD
 - **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di <nome progetto>
+=======
+<<<<<<< HEAD
+- **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di <main module>
+=======
+- **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 - **Causa**: Il modulo Notify utilizza convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali
 - **Dettagli**: I file utilizzano la chiave `navigation` e un pattern di naming con prefisso `send_` in snake_case
 
@@ -61,6 +69,14 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 
 ## Note Aggiuntive
 
+<<<<<<< HEAD
 - È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di <nome progetto>
+=======
+<<<<<<< HEAD
+- È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di <main module>
+=======
+- È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 - La documentazione è stata aggiornata per riflettere queste eccezioni e prevenire confusioni future
 - Le soluzioni implementate mantengono la compatibilità con il codice esistente, garantendo al contempo chiarezza per gli sviluppatori futuri

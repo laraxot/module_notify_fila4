@@ -1,0 +1,15 @@
+<?php
+
+declare(strict_types=1);
+
+?>
+</td>
+>>>>>>> 518c702 (.)
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+</table>
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 518c702 (.)

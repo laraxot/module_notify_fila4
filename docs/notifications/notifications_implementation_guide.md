@@ -45,7 +45,15 @@ class RecordNotification extends Notification implements ShouldQueue
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
+<<<<<<< HEAD
             ->subject('Notifica da <nome progetto>')
+=======
+<<<<<<< HEAD
+            ->subject('Notifica da <main module>')
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))

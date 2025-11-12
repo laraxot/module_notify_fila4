@@ -2,7 +2,15 @@
 
 ## Regola Fondamentale
 
+<<<<<<< HEAD
 Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+=======
+<<<<<<< HEAD
+Nel sistema <main module>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+=======
+Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`
