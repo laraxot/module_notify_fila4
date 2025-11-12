@@ -4,36 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-use Modules\Notify\Models\Contact;
-use Modules\Notify\Models\ContactGroup;
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Notify\Models\Contact;
-use Modules\Notify\Models\ContactGroup;
-use Tests\TestCase;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -202,14 +176,6 @@ class ContactManagementBusinessLogicTest extends TestCase
 
         $this->assertCount(2, $contact->fresh()->communication_history);
         $this->assertEquals('email', $contact->fresh()->communication_history[0]['type']);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
         $this->assertEquals(
 <<<<<<< HEAD
             'Benvenuto su '.config('app.name', 'Our Platform'),
@@ -225,18 +191,6 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ab15d0e (.)
             $contact->fresh()->communication_history[0]['subject'],
         );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
@@ -419,12 +373,6 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         $emailContact = Contact::factory()->create([
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         $smsContact = Contact::factory()->create([
@@ -432,34 +380,6 @@ class ContactManagementBusinessLogicTest extends TestCase
         ]);
         $bothContact = Contact::factory()->create([
             'preferences' => ['email' => true, 'sms' => true],
-<<<<<<< HEAD
-=======
-=======
-            'preferences' => ['email' => true, 'sms' => false]
-=======
-            'preferences' => ['email' => true, 'sms' => false],
->>>>>>> b93ef594b4 (.)
-        ]);
-        $smsContact = Contact::factory()->create([
-            'preferences' => ['email' => false, 'sms' => true],
-        ]);
-        $bothContact = Contact::factory()->create([
-<<<<<<< HEAD
-            'preferences' => ['email' => true, 'sms' => true]
->>>>>>> a12f125f4a (.)
-=======
-            'preferences' => ['email' => true, 'sms' => true],
->>>>>>> b93ef594b4 (.)
-=======
-            'preferences' => ['email' => true, 'sms' => false]
-        ]);
-        $smsContact = Contact::factory()->create([
-            'preferences' => ['email' => false, 'sms' => true]
-        ]);
-        $bothContact = Contact::factory()->create([
-            'preferences' => ['email' => true, 'sms' => true]
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ]);
 
         // Act
@@ -483,36 +403,10 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         $vipContact = Contact::factory()->create([
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-            'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium']
-        ]);
-        $newContact = Contact::factory()->create([
-            'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo']
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-            'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
-        ]);
-        $newContact = Contact::factory()->create([
-            'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ]);
 
         // Act
