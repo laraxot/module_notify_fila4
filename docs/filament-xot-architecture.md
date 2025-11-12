@@ -55,6 +55,10 @@ abstract class XotBasePage extends Page implements HasForms
     }
 
     // Form standardizzato
+<<<<<<< HEAD
+=======
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 7b1ccd1 (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -106,6 +110,10 @@ public static function getNavigationLabel(): string
 Prima (❌):
 ```php
 // In ogni classe Page
+<<<<<<< HEAD
+=======
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 7b1ccd1 (.)
 {
     return $form
         ->schema([
