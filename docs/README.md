@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -419,6 +420,8 @@ Log::channel('email')->info('Email sent', [
 >>>>>>> 467a2e4 (.)
 =======
 >>>>>>> 3a87c62 (.)
+=======
+>>>>>>> da89aab (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -714,6 +717,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 =======
 >>>>>>> bd22fd4 (.)
@@ -725,3 +729,5 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 >>>>>>> 3a87c62 (.)
 =======
 >>>>>>> 4760417 (.)
+=======
+>>>>>>> da89aab (.)

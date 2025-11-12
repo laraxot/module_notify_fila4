@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 99ff506 (.)
@@ -12,6 +13,11 @@
 >>>>>>> 1c89777 (.)
 =======
 >>>>>>> 1b51780 (.)
+=======
+=======
+
+>>>>>>> b8140d8 (.)
+>>>>>>> da89aab (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
@@ -19,7 +25,10 @@ namespace Modules\Notify\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> da89aab (.)
 use function Safe\base64_decode;
 
 >>>>>>> 99ff506 (.)
@@ -34,6 +43,8 @@ use function Safe\base64_decode;
 
 >>>>>>> 1b51780 (.)
 use Illuminate\Http\RedirectResponse;
+=======
+>>>>>>> b8140d8 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -79,10 +90,16 @@ class NotificationTrackingController extends Controller
      *
      * @param Request $request
      * @param string $id
+<<<<<<< HEAD
      * @return RedirectResponse
 >>>>>>> 99ff506 (.)
      */
     public function trackClick(Request $request, string $id): RedirectResponse
+=======
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
+>>>>>>> b8140d8 (.)
     {
         $log = NotificationLog::find($id);
         $url = $request->get('url', '');
