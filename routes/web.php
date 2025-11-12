@@ -2,9 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-// Filament gestisce le route di questo modulo.
-=======
 /*
  * |--------------------------------------------------------------------------
  * | Web Routes
@@ -17,4 +14,3 @@ declare(strict_types=1);
  */
 
 // Filament will handle all routes for this module
->>>>>>> 954a7fa (.)

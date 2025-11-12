@@ -8,32 +8,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services\MailEngines;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use InvalidArgumentException;
->>>>>>> 99ff506 (.)
-=======
-use InvalidArgumentException;
-=======
-<<<<<<< HEAD
-use InvalidArgumentException;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-use InvalidArgumentException;
->>>>>>> f5f1cb1 (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
-<<<<<<< HEAD
 use InvalidArgumentException;
-=======
->>>>>>> 99ff506 (.)
 use Webmozart\Assert\Assert;
 
 // ---------CSS------------
@@ -43,65 +22,12 @@ use Webmozart\Assert\Assert;
  */
 class MailtrapEngine
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?string $from = null;
-=======
-    public null|string $from = null;
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-    public null|string $from = null;
-=======
-    public ?string $from = null;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-    public null|string $from = null;
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-    public null|string $from = null;
->>>>>>> e11621f (.)
-=======
-    public null|string $from = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|string $from = null;
-=======
-    public ?string $from = null;
->>>>>>> a12f125f4a (.)
-=======
-    public null|string $from = null;
->>>>>>> b93ef594b4 (.)
-=======
-    public ?string $from = null;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-    public null|string $from = null;
->>>>>>> f5f1cb1 (.)
 
     public string $to;
 
     public string $driver;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?string $body = null;
 
     private static ?self $instance = null;
@@ -110,33 +36,6 @@ class MailtrapEngine
     {
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-    public null|string $body = null;
-
-    private static null|self $instance = null;
-
-    public static function getInstance(): self
-    {
-        if (!(self::$instance instanceof self)) {
-            self::$instance = new self();
->>>>>>> 99ff506 (.)
         }
 
         return self::$instance;
@@ -170,71 +69,13 @@ class MailtrapEngine
         // Mail::raw('Hello World!', function($msg) {$msg->to('vair81@gmail.com')->subject('Test Email'); });
 
         // try {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
-=======
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-        Assert::string($this->body);
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> e11621f (.)
-=======
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-        Assert::string($this->body);
->>>>>>> a12f125f4a (.)
-=======
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> b93ef594b4 (.)
-=======
-        Assert::string($this->body);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> f5f1cb1 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
 
             // Utilizziamo una condizione più appropriata
-<<<<<<< HEAD
             if (! $to) {
-=======
-            if (!$to) {
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-<<<<<<< HEAD
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
             }
 

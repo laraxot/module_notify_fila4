@@ -2,22 +2,8 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use Tests\TestCase;
-use Illuminate\Support\Facades\File;
->>>>>>> 99ff506 (.)
 
 uses(TestCase::class);
 
@@ -35,11 +21,7 @@ test('components json is valid and contains expected components', function (): v
     $json = json_decode($content, true);
 
     // Verifico che il JSON è valido
-<<<<<<< HEAD
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
-=======
-    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
->>>>>>> 99ff506 (.)
 
     // Verifico che ci sono 2 componenti
     expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');

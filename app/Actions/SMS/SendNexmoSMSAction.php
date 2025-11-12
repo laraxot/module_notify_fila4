@@ -4,159 +4,24 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Exception;
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use Override;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
->>>>>>> 99ff506 (.)
-=======
-use Illuminate\Support\Facades\Log;
->>>>>>> 6a92a74 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> 99ff506 (.)
-=======
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\NexmoData;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\NexmoData;
->>>>>>> a12f125f4a (.)
-=======
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
->>>>>>> b93ef594b4 (.)
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\NexmoData;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-=======
->>>>>>> 6a92a74 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
-<<<<<<< HEAD
-    use QueueableAction;
-
-<<<<<<< HEAD
-=======
-    /** @var NexmoData */
->>>>>>> 99ff506 (.)
-=======
->>>>>>> 6a92a74 (.)
     private NexmoData $nexmoData;
     private ?string $defaultSender = null;
     
     /** @var array<string, mixed> */
     private array $vars = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected bool $debug;
-
-    protected ?string $defaultSender = null;
-=======
-    /** @var bool */
-    protected bool $debug;
-
-    /** @var string|null */
-    protected null|string $defaultSender = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
-    protected ?string $defaultSender = null;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-    protected null|string $defaultSender = null;
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected null|string $defaultSender = null;
-=======
-    protected ?string $defaultSender = null;
->>>>>>> a12f125f4a (.)
-=======
-    protected null|string $defaultSender = null;
->>>>>>> b93ef594b4 (.)
-=======
-    protected ?string $defaultSender = null;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-
-=======
->>>>>>> 6a92a74 (.)
     /**
      * Create a new action instance.
      */
@@ -164,55 +29,11 @@ final class SendNexmoSMSAction implements SmsActionContract
     {
         $this->nexmoData = NexmoData::make();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! $this->nexmoData->key) {
             throw new Exception('Key Nexmo non configurata in sms.php');
         }
 
         if (! $this->nexmoData->secret) {
-=======
-=======
-=======
-        
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-        if (!$this->nexmoData->key) {
-            throw new Exception('Key Nexmo non configurata in sms.php');
-        }
-
-        if (!$this->nexmoData->secret) {
->>>>>>> 99ff506 (.)
             throw new Exception('Secret Nexmo non configurato in sms.php');
         }
 
@@ -224,14 +45,9 @@ final class SendNexmoSMSAction implements SmsActionContract
     /**
      * Execute the action.
      *
-<<<<<<< HEAD
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
      *
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
-     * @return array Risultato dell'operazione
->>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     #[\Override]
@@ -244,19 +60,11 @@ final class SendNexmoSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
-<<<<<<< HEAD
             $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
         }
 
         if (! Str::startsWith($to, '+')) {
             $to = '+39'.$to;
-=======
-            $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
-        }
-
-        if (!Str::startsWith($to, '+')) {
-            $to = '+39' . $to;
->>>>>>> 99ff506 (.)
         }
 
         $from = $smsData->from ?? $this->defaultSender;
@@ -267,11 +75,7 @@ final class SendNexmoSMSAction implements SmsActionContract
         ]);
 
         try {
-<<<<<<< HEAD
             $response = $client->post($this->nexmoData->getBaseUrl().'/sms/json', [
-=======
-            $response = $client->post($this->nexmoData->getBaseUrl() . '/sms/json', [
->>>>>>> 99ff506 (.)
                 'form_params' => [
                     'api_key' => $this->nexmoData->key,
                     'api_secret' => $this->nexmoData->secret,
@@ -288,11 +92,7 @@ final class SendNexmoSMSAction implements SmsActionContract
             return $this->vars;
         } catch (ClientException $clientException) {
             throw new Exception(
-<<<<<<< HEAD
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
-=======
-                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 99ff506 (.)
                 $clientException->getCode(),
                 $clientException,
             );

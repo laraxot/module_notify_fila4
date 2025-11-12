@@ -10,28 +10,8 @@ describe('Contact Business Logic', function () {
         expect(Contact::class)->toBeSubclassOf(BaseModel::class);
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact can store polymorphic model relationships', function () {
-<<<<<<< HEAD
-=======
-    test('contact can store polymorphic model relationships', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact can store polymorphic model relationships', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact can store polymorphic model relationships', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact can store polymorphic model relationships', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->model_type = 'App\\Models\\User';
         $contact->model_id = '1';
 
@@ -39,28 +19,8 @@ describe('Contact Business Logic', function () {
         expect($contact->model_id)->toBe('1');
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact can store contact information with type', function () {
-<<<<<<< HEAD
-=======
-    test('contact can store contact information with type', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact can store contact information with type', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact can store contact information with type', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact can store contact information with type', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->contact_type = 'email';
         $contact->value = 'test@example.com';
 
@@ -68,28 +28,8 @@ describe('Contact Business Logic', function () {
         expect($contact->value)->toBe('test@example.com');
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact can track sms communication', function () {
-<<<<<<< HEAD
-=======
-    test('contact can track sms communication', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact can track sms communication', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact can track sms communication', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact can track sms communication', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->sms_count = 5;
         $contact->sms_status_code = '200';
         $contact->sms_status_txt = 'Success';
@@ -99,28 +39,8 @@ describe('Contact Business Logic', function () {
         expect($contact->sms_status_txt)->toBe('Success');
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact can track email communication', function () {
-<<<<<<< HEAD
-=======
-    test('contact can track email communication', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact can track email communication', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact can track email communication', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact can track email communication', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->mail_count = 3;
         $contact->mail_sent_at = '2023-01-01 10:00:00';
 
@@ -128,28 +48,8 @@ describe('Contact Business Logic', function () {
         expect($contact->mail_sent_at)->toBe('2023-01-01 10:00:00');
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact can store personal information', function () {
-<<<<<<< HEAD
-=======
-    test('contact can store personal information', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact can store personal information', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact can store personal information', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact can store personal information', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->first_name = 'Mario';
         $contact->last_name = 'Rossi';
 
@@ -157,28 +57,8 @@ describe('Contact Business Logic', function () {
         expect($contact->last_name)->toBe('Rossi');
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact has verification tracking', function () {
-<<<<<<< HEAD
-=======
-    test('contact has verification tracking', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact has verification tracking', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact has verification tracking', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact has verification tracking', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->token = 'abc123';
         $contact->verified_at = '2023-01-01 12:00:00';
 
@@ -186,28 +66,8 @@ describe('Contact Business Logic', function () {
         expect($contact->verified_at)->toBe('2023-01-01 12:00:00');
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact has flexible attribute storage', function () {
-<<<<<<< HEAD
-=======
-    test('contact has flexible attribute storage', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact has flexible attribute storage', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact has flexible attribute storage', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact has flexible attribute storage', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->attribute_1 = 'value1';
         $contact->attribute_2 = 'value2';
 
@@ -215,55 +75,15 @@ describe('Contact Business Logic', function () {
         expect($contact->attribute_2)->toBe('value2');
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact can track duplicate count', function () {
-<<<<<<< HEAD
-=======
-    test('contact can track duplicate count', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact can track duplicate count', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact can track duplicate count', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact can track duplicate count', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->duplicate_count = 2;
 
         expect($contact->duplicate_count)->toBe(2);
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     test('contact has order column for sorting', function () {
-<<<<<<< HEAD
-=======
-    test('contact has order column for sorting', function (): void {
->>>>>>> 05bc3ad (.)
-=======
-    test('contact has order column for sorting', function () {
->>>>>>> ab15d0e (.)
-=======
-    test('contact has order column for sorting', function (): void {
->>>>>>> c42c734 (.)
-=======
-    test('contact has order column for sorting', function () {
->>>>>>> 625ad07 (.)
         $contact = new Contact;
-=======
-        $contact = new Contact();
->>>>>>> 99ff506 (.)
         $contact->order_column = 1;
 
         expect($contact->order_column)->toBe(1);

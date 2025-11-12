@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -23,60 +21,14 @@ use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-<<<<<<< HEAD
-use Override;
-=======
-use Filament\Schemas\Schema;
-
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Repeater;
-use Kreait\Firebase\Messaging\MessageData;
-=======
->>>>>>> 8e43c3e (.)
-use Exception;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Filament\Forms\Components\Repeater;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\TextInput;
-use Filament\Notifications\Notification;
-use Filament\Schemas\Schema;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Stringable;
-use Kreait\Firebase\Contract\Messaging;
-use Kreait\Firebase\Messaging\CloudMessage;
-use Kreait\Firebase\Messaging\MessageData;
-use Modules\Notify\Filament\Clusters\Test;
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-use Override;
->>>>>>> 8e43c3e (.)
-=======
->>>>>>> 6a92a74 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/**
- * 
- */
->>>>>>> 99ff506 (.)
-=======
->>>>>>> 8e43c3e (.)
 class SendPushNotificationPage extends XotBasePage
 {
     // use NavigationLabelTrait;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?array $notificationData = [];
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
@@ -85,23 +37,6 @@ class SendPushNotificationPage extends XotBasePage
     protected string $view = 'notify::filament.pages.send-push-notification';
 
     protected static ?string $cluster = Test::class;
-=======
-    public null|array $notificationData = [];
-=======
-    public ?array $notificationData = [];
->>>>>>> 8e43c3e (.)
-
-    // protected static ?string $navigationIcon = 'heroicon-o-envelope';
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
-
-    protected string $view = 'notify::filament.pages.send-push-notification';
-
-<<<<<<< HEAD
-    protected static null|string $cluster = Test::class;
->>>>>>> 99ff506 (.)
-=======
-    protected static ?string $cluster = Test::class;
->>>>>>> 8e43c3e (.)
 
     public function mount(): void
     {
@@ -110,169 +45,13 @@ class SendPushNotificationPage extends XotBasePage
 
     public function form(Schema $schema): Schema
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        /**
-         * Callback per filtrare i dispositivi.
-         */
-=======
-=======
-=======
-=======
-=======
-    public function notificationForm(Schema $schema): Schema
-    {
->>>>>>> da89aab (.)
-=======
-=======
->>>>>>> 0e521e1 (.)
-=======
-=======
-    public function notificationForm(Schema $schema): Schema
-    {
->>>>>>> 9bd3cd0 (.)
-        $devices = DeviceUser::with(['profile', 'device'])
-            ->where('push_notifications_token', '!=', null)
-            ->where('push_notifications_token', '!=', 'unknown')
-            ->where('push_notifications_enabled', 1)
-            // ->whereHas('profile') //db separato percio' da errore cosi'
-            ->whereHas('device')
-            ->get();
-
-        /**
-         * Callback per mappare i dispositivi in opzioni per il select.
-         */
-        $callback = function ($item) {
-            /** @var mixed $item */
-            if (!is_object($item)) {
-                return [];
-            }
-
-            // Relations & attributes (Laravel-safe)
-            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
-            if (!is_object($profile)) {
-                return [];
-            }
-            $fullName = (string) (data_get($profile, 'full_name') ?? 'Utente');
-
-            $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
-            $token = is_string($tokenAttr) ? $tokenAttr : '';
-            if ($token === '' || $token === 'unknown') {
-                return [];
-            }
-
-            $device = method_exists($item, 'getRelationValue') ? $item->getRelationValue('device') : null;
-            $robotVal = data_get($device, 'robot');
-            $robot = is_string($robotVal) ? $robotVal : null;
-
-            // Creiamo la label con gli ultimi 5 caratteri del token
-            $tokenSuffix = mb_substr($token, -5);
-            $label = $fullName . ' (' . ($robot ?? '') . ') ' . $tokenSuffix;
-
-            return [$token => $label];
-        };
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6bd5430 (.)
->>>>>>> 9c8f04e (.)
-=======
->>>>>>> 220b97c (.)
-=======
->>>>>>> b8140d8 (.)
->>>>>>> da89aab (.)
-=======
->>>>>>> 61cfa35 (.)
-=======
->>>>>>> 6bd5430 (.)
->>>>>>> 0e521e1 (.)
-=======
->>>>>>> 41dc34b (.)
-=======
->>>>>>> b8140d8 (.)
->>>>>>> 9bd3cd0 (.)
-=======
->>>>>>> 895d6b1 (.)
-
         /**
          * Callback per filtrare i dispositivi.
          */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 9c8f04e (.)
-=======
->>>>>>> 220b97c (.)
-=======
->>>>>>> 0e521e1 (.)
-=======
->>>>>>> 41dc34b (.)
-        Assert::isArray([]);
-
-        return $schema
-            ->components([
-<<<<<<< HEAD
-                Select::make('deviceToken')->options(fn () => []),
-=======
-                Select::make('deviceToken')->options(fn() => []),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 9bd3cd0 (.)
-=======
-        $filterCallback = function ($item): bool {
-            if (!is_object($item)) {
-                return false;
-            }
-            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
-            return is_object($profile);
-        };
-
-        $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
-
-        Assert::isArray($to);
-
-        return $schema
-            ->components([
-                Select::make('deviceToken')->options(fn() => $to),
->>>>>>> b8140d8 (.)
-<<<<<<< HEAD
->>>>>>> da89aab (.)
-=======
->>>>>>> 61cfa35 (.)
-=======
->>>>>>> 9bd3cd0 (.)
-=======
->>>>>>> 895d6b1 (.)
-=======
-=======
-        /**
-         * Callback per filtrare i dispositivi.
-         */
-
->>>>>>> ab15d0e (.)
         return $schema
             ->components([
                 Select::make('deviceToken')->options(fn () => []),
->>>>>>> 8e43c3e (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -297,14 +76,7 @@ class SendPushNotificationPage extends XotBasePage
                 ->title('Errore')
                 ->body('Token del dispositivo non valido')
                 ->send();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 99ff506 (.)
-=======
-
->>>>>>> 8e43c3e (.)
             return;
         }
 
@@ -396,15 +168,7 @@ class SendPushNotificationPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! ($user instanceof Model)) {
-=======
-        if (!($user instanceof Model)) {
->>>>>>> 99ff506 (.)
-=======
-        if (! ($user instanceof Model)) {
->>>>>>> 8e43c3e (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

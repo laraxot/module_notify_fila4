@@ -4,23 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Attachment;
-=======
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use Illuminate\Mail\Mailables\Attachment;
-use Illuminate\Bus\Queueable;
-use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Address;
->>>>>>> 99ff506 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -41,87 +28,11 @@ class EmailDataEmail extends Mailable
      */
     public function envelope(): Envelope
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if ($this->email_data->from_email === null) {
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-        if (null === $this->email_data->from) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-            $this->email_data->from = $from;
-        }
-        if (null === $this->email_data->from_email) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-=======
-=======
-=======
-=======
->>>>>>> origin/develop
->>>>>>> f813254 (.)
-        if (null == $this->email_data->from) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-            $this->email_data->from = $from;
-        }
-        if (null == $this->email_data->from_email) {
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        if (null === $this->email_data->from) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-            $this->email_data->from = $from;
-        }
-        if (null === $this->email_data->from_email) {
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }

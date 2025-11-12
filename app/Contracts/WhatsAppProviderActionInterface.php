@@ -17,11 +17,7 @@ interface WhatsAppProviderActionInterface
     /**
      * Esegue l'invio del messaggio WhatsApp.
      *
-<<<<<<< HEAD
      * @param  WhatsAppData  $whatsappData  I dati del messaggio WhatsApp
-=======
-     * @param WhatsAppData $whatsappData I dati del messaggio WhatsApp
->>>>>>> 99ff506 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;

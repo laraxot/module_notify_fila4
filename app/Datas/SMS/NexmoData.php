@@ -8,7 +8,6 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
-<<<<<<< HEAD
 
 class NexmoData extends Data
 {
@@ -27,23 +26,6 @@ class NexmoData extends Data
     public static function make(): self
     {
         if (! (self::$instance instanceof NexmoData)) {
-=======
-use Webmozart\Assert\Assert;
-
-class NexmoData extends Data
-{
-    public null|string $key;
-    public null|string $secret;
-    public null|string $base_url;
-    public string $auth_type = 'api_key';
-    public int $timeout = 30;
-
-    private static null|self $instance = null;
-
-    public static function make(): self
-    {
-        if (!(self::$instance instanceof NexmoData)) {
->>>>>>> 99ff506 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.nexmo', []);
@@ -61,28 +43,7 @@ class NexmoData extends Data
             case 'api_key':
             default:
                 return [
-<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
-=======
-                    'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

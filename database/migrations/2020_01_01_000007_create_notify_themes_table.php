@@ -9,55 +9,8 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 /*
  * Class CreateThemesTable.
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
-=======
-return new class() extends XotBaseMigration {
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-return new class() extends XotBaseMigration {
-=======
-return new class () extends XotBaseMigration {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-return new class() extends XotBaseMigration {
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> e11621f (.)
-=======
-return new class() extends XotBaseMigration {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-return new class() extends XotBaseMigration {
-=======
-return new class () extends XotBaseMigration {
->>>>>>> a12f125f4a (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> b93ef594b4 (.)
-=======
-return new class () extends XotBaseMigration {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> f5f1cb1 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -75,7 +28,6 @@ return new class() extends XotBaseMigration {
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
-<<<<<<< HEAD
             if (! $this->hasColumn('from')) {
                 $table->string('from')->nullable();
             }
@@ -109,41 +61,6 @@ return new class() extends XotBaseMigration {
             }
 
             if (! $this->hasColumn('view_params')) {
-=======
-            if (!$this->hasColumn('from')) {
-                $table->string('from')->nullable();
-            }
-
-            if (!$this->hasColumn('post_type')) {
-                $table->nullableMorphs('post');
-            }
-
-            if (!$this->hasColumn('body_html')) {
-                $table->text('body_html')->nullable();
-            }
-
-            if (!$this->hasColumn('theme')) {
-                $table->string('theme')->nullable();
-            }
-
-            if (!$this->hasColumn('from_email')) {
-                $table->string('from_email')->nullable();
-            }
-
-            if (!$this->hasColumn('logo_src')) {
-                $table->string('logo_src')->nullable();
-            }
-
-            if (!$this->hasColumn('logo_width')) {
-                $table->integer('logo_width')->nullable();
-            }
-
-            if (!$this->hasColumn('logo_height')) {
-                $table->integer('logo_height')->nullable();
-            }
-
-            if (!$this->hasColumn('view_params')) {
->>>>>>> 99ff506 (.)
                 $table->json('view_params')->nullable();
             }
             $this->updateTimestamps(

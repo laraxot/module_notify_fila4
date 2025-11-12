@@ -4,23 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
 use RuntimeException;
-=======
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use RuntimeException;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Notify\Models\MailTemplate;
-use Modules\Notify\Models\MailTemplateVersion;
->>>>>>> 99ff506 (.)
 use Tests\TestCase;
 
 class MailTemplateVersionBusinessLogicTest extends TestCase
@@ -39,11 +26,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'html_template' => '<!DOCTYPE html><html><body><h1>Conferma Appuntamento</h1><p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.</p></body></html>',
             'text_template' => 'Conferma Appuntamento\n\nGentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.',
             'version' => '2.0',
-<<<<<<< HEAD
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
-=======
-            'created_by' => 'admin@' . config('app.domain', 'example.com'),
->>>>>>> 99ff506 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
 
@@ -55,11 +38,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'mailable' => 'AppointmentConfirmation',
             'subject' => 'Conferma Appuntamento - Versione 2.0',
             'version' => '2.0',
-<<<<<<< HEAD
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
-=======
-            'created_by' => 'admin@' . config('app.domain', 'example.com'),
->>>>>>> 99ff506 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
 
@@ -133,66 +112,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5.2',
-<<<<<<< HEAD
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
-=======
-            'created_by' => 'developer@' . config('app.domain', 'example.com'),
->>>>>>> 99ff506 (.)
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
-=======
-        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-=======
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
-        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
->>>>>>> 05bc3ad (.)
-=======
-        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
->>>>>>> ab15d0e (.)
-=======
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
-        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
->>>>>>> c42c734 (.)
-=======
-        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
->>>>>>> 625ad07 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
@@ -363,7 +288,6 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             $version = MailTemplateVersion::factory()->create([
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
-<<<<<<< HEAD
                 'version' => '1.'.$index,
                 'subject' => 'Template per '.$mailableClass,
                 'html_template' => '<p>Template per '.$mailableClass.'</p>',
@@ -371,15 +295,6 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
             $this->assertEquals($mailableClass, $version->mailable);
             $this->assertEquals('Template per '.$mailableClass, $version->subject);
-=======
-                'version' => '1.' . $index,
-                'subject' => 'Template per ' . $mailableClass,
-                'html_template' => '<p>Template per ' . $mailableClass . '</p>',
-            ]);
-
-            $this->assertEquals($mailableClass, $version->mailable);
-            $this->assertEquals('Template per ' . $mailableClass, $version->subject);
->>>>>>> 99ff506 (.)
         }
     }
 
@@ -484,24 +399,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     private function extractVariables(string $template): array
     {
         preg_match_all('/\{\{([^}]+)\}\}/', $template, $matches);
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 99ff506 (.)
-=======
-        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> 05bc3ad (.)
-=======
->>>>>>> ab15d0e (.)
-=======
-        /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> c42c734 (.)
-=======
->>>>>>> 625ad07 (.)
         return array_unique($matches[1] ?? []);
     }
 }

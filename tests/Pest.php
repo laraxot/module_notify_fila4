@@ -2,35 +2,8 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use Modules\Notify\Models\Notification;
-use Modules\Notify\Models\MailTemplate;
->>>>>>> 99ff506 (.)
 use Modules\Notify\Tests\TestCase;
 
 /*
@@ -57,50 +30,9 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * |
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
-=======
-expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification::class));
-
-expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
->>>>>>> 99ff506 (.)
-=======
-=======
-expect()->extend('toBe' + 'Notify' + '', function () {
-    /** @var \Pest\Expectation<mixed> $this */
-    return $this->toBeInstanceOf(...);
-});
-
->>>>>>> 1f80445 (.)
-expect()->extend('toBe' + 'Notify' + '', function () {
-    /** @var \Pest\Expectation<mixed> $this */
-    return $this->toBeInstanceOf(...);
-});
-<<<<<<< HEAD
-
-expect()->extend('toBe' + 'Notify' + '', function () {
-    /** @var \Pest\Expectation<mixed> $this */
-    return $this->toBeInstanceOf(...);
-});
->>>>>>> 6fb15fa (.)
-=======
-expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
-
-expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
->>>>>>> ab15d0e (.)
-=======
->>>>>>> 1f80445 (.)
-=======
-expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
-
-expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
->>>>>>> 625ad07 (.)
 
 /*
  * |--------------------------------------------------------------------------

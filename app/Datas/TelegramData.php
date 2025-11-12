@@ -15,7 +15,6 @@ use Spatie\LaravelData\Data;
 class TelegramData extends Data
 {
     /**
-<<<<<<< HEAD
      * @param  string  $chatId  ID della chat o username del destinatario (es. 123456789 o @username)
      * @param  string  $text  Contenuto testuale del messaggio
      * @param  string|null  $parseMode  Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
@@ -25,106 +24,16 @@ class TelegramData extends Data
      * @param  array|null  $replyMarkup  Markup per tastiere inline, tastiere personalizzate, ecc.
      * @param  array|null  $media  Array di media da allegare al messaggio (immagini, video, documenti)
      * @param  string  $type  Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
-=======
-     * @param string $chatId ID della chat o username del destinatario (es. 123456789 o @username)
-     * @param string $text Contenuto testuale del messaggio
-     * @param string|null $parseMode Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
-     * @param bool $disableWebPagePreview Se disabilitare l'anteprima dei link nel messaggio
-     * @param bool $disableNotification Se inviare il messaggio silenziosamente
-     * @param int|null $replyToMessageId ID del messaggio a cui rispondere
-     * @param array|null $replyMarkup Markup per tastiere inline, tastiere personalizzate, ecc.
-     * @param array|null $media Array di media da allegare al messaggio (immagini, video, documenti)
-     * @param string $type Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
->>>>>>> 99ff506 (.)
      */
     public function __construct(
         public string $chatId,
         public string $text,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public ?int $replyToMessageId = null,
         public ?array $replyMarkup = null,
         public ?array $media = null,
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-        public null|string $parseMode = null,
-        public bool $disableWebPagePreview = false,
-        public bool $disableNotification = false,
-        public null|int $replyToMessageId = null,
-        public null|array $replyMarkup = null,
-        public null|array $media = null,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-=======
-=======
-=======
-=======
->>>>>>> origin/develop
->>>>>>> f813254 (.)
-        public ?string $parseMode = null,
-        public bool $disableWebPagePreview = false,
-        public bool $disableNotification = false,
-        public ?int $replyToMessageId = null,
-        public ?array $replyMarkup = null,
-        public ?array $media = null,
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        public null|string $parseMode = null,
-        public bool $disableWebPagePreview = false,
-        public bool $disableNotification = false,
-        public null|int $replyToMessageId = null,
-        public null|array $replyMarkup = null,
-        public null|array $media = null,
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
         public string $type = 'text',
     ) {}
 }

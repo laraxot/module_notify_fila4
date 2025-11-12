@@ -15,12 +15,7 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template nei dati di configurazione.
      *
-<<<<<<< HEAD
      * @param  array<string, mixed>  $data
-=======
-     * @param array<string, mixed> $data
-     *
->>>>>>> 99ff506 (.)
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -42,14 +37,8 @@ class ConfigHelper
     /**
      * Sostituisce ricorsivamente le variabili template in un array.
      *
-<<<<<<< HEAD
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $variables
-=======
-     * @param array<string, mixed> $data
-     * @param array<string, mixed> $variables
-     *
->>>>>>> 99ff506 (.)
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -73,63 +62,12 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template in una stringa.
      *
-<<<<<<< HEAD
      * @param  array<string, mixed>  $variables
-=======
-     * @param array<string, mixed> $variables
->>>>>>> 99ff506 (.)
      */
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
-=======
-            $placeholder = '{{' . $variable . '}}';
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-            $placeholder = '{{' . $variable . '}}';
-=======
-            $placeholder = '{{'.$variable.'}}';
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-            $placeholder = '{{' . $variable . '}}';
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-            $placeholder = '{{' . $variable . '}}';
->>>>>>> e11621f (.)
-=======
-            $placeholder = '{{' . $variable . '}}';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $placeholder = '{{' . $variable . '}}';
-=======
-            $placeholder = '{{'.$variable.'}}';
->>>>>>> a12f125f4a (.)
-=======
-            $placeholder = '{{' . $variable . '}}';
->>>>>>> b93ef594b4 (.)
-=======
-            $placeholder = '{{'.$variable.'}}';
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-            $placeholder = '{{' . $variable . '}}';
->>>>>>> f5f1cb1 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

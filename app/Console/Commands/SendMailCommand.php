@@ -54,59 +54,7 @@ class SendMailCommand extends Command
          */
         // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
 
-<<<<<<< HEAD
         $this->info('Email sent successfully to '.$emailData->to);
-=======
-        $this->info('Email sent successfully to ' . $emailData->to);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-=======
-=======
-=======
-=======
->>>>>>> origin/develop
->>>>>>> f813254 (.)
-        Notification::route('mail', $emailData->to)
-            ->notify(new EmailDataNotification($emailData));
-        */
-        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
-
-        $this->info('Email sent successfully to '.$emailData->to);
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-         * Notification::route('mail', $emailData->to)
-         * ->notify(new EmailDataNotification($emailData));
-         */
-        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
-
-        $this->info('Email sent successfully to ' . $emailData->to);
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
 
         return Command::SUCCESS;
     }

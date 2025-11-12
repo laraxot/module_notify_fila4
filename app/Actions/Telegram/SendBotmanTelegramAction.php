@@ -4,33 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
->>>>>>> 99ff506 (.)
-=======
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
-=======
-<<<<<<< HEAD
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
->>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\TelegramData;
-<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-=======
->>>>>>> 99ff506 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -41,7 +20,6 @@ final class SendBotmanTelegramAction
     use QueueableAction;
 
     private string $token;
-<<<<<<< HEAD
 
     private string $apiUrl;
 
@@ -52,49 +30,6 @@ final class SendBotmanTelegramAction
     protected int $timeout;
 
     protected ?string $parseMode;
-=======
-    private string $apiUrl;
-    private array $vars = [];
-    protected bool $debug;
-    protected int $timeout;
-    protected null|string $parseMode;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
-    protected ?string $parseMode;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-    protected null|string $parseMode;
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected null|string $parseMode;
-=======
-    protected ?string $parseMode;
->>>>>>> a12f125f4a (.)
-=======
-    protected null|string $parseMode;
->>>>>>> b93ef594b4 (.)
-=======
-    protected ?string $parseMode;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
 
     /**
      * Create a new action instance.
@@ -102,11 +37,7 @@ final class SendBotmanTelegramAction
     public function __construct()
     {
         $token = config('services.telegram.token');
-<<<<<<< HEAD
         if (! is_string($token)) {
-=======
-        if (!is_string($token)) {
->>>>>>> 99ff506 (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -126,14 +57,9 @@ final class SendBotmanTelegramAction
     /**
      * Execute the action.
      *
-<<<<<<< HEAD
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
      * @return array Risultato dell'operazione
      *
-=======
-     * @param TelegramData $telegramData I dati del messaggio Telegram
-     * @return array Risultato dell'operazione
->>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -183,11 +109,7 @@ final class SendBotmanTelegramAction
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
-<<<<<<< HEAD
                 ! empty($telegramData->media)
-=======
-                !empty($telegramData->media)
->>>>>>> 99ff506 (.)
         ) {
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];

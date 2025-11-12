@@ -33,83 +33,21 @@ class WhatsAppChannel
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
-<<<<<<< HEAD
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
-=======
-     * @param mixed $notifiable Entità che riceve la notifica
-     * @param Notification $notification Notifica da inviare
-     * @return array|null Risultato dell'operazione o null in caso di errore
->>>>>>> 99ff506 (.)
      * @throws Exception Se la notifica non ha il metodo toWhatsApp o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! method_exists($notification, 'toWhatsApp')) {
-=======
-        if (!method_exists($notification, 'toWhatsApp')) {
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-        if (!method_exists($notification, 'toWhatsApp')) {
-=======
-        if (! method_exists($notification, 'toWhatsApp')) {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-        if (!method_exists($notification, 'toWhatsApp')) {
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-        if (!method_exists($notification, 'toWhatsApp')) {
->>>>>>> e11621f (.)
-=======
-        if (!method_exists($notification, 'toWhatsApp')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!method_exists($notification, 'toWhatsApp')) {
-=======
-        if (! method_exists($notification, 'toWhatsApp')) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!method_exists($notification, 'toWhatsApp')) {
->>>>>>> b93ef594b4 (.)
-=======
-     * @param \Illuminate\Notifications\Notification $notification Notifica da inviare
-     * @return array|null Risultato dell'operazione o null in caso di errore
-     * @throws \Exception Se la notifica non ha il metodo toWhatsApp o il driver non è supportato
-     */
-    public function send($notifiable, Notification $notification)
-    {
-        if (! method_exists($notification, 'toWhatsApp')) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-        if (!method_exists($notification, 'toWhatsApp')) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
         $whatsAppData = $notification->toWhatsApp($notifiable);
 
-<<<<<<< HEAD
         if (! ($whatsAppData instanceof WhatsAppData)) {
-=======
-        if (!($whatsAppData instanceof WhatsAppData)) {
->>>>>>> 99ff506 (.)
             throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
         }
 

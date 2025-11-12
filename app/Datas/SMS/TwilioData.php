@@ -8,7 +8,6 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
-<<<<<<< HEAD
 
 class TwilioData extends Data
 {
@@ -27,23 +26,6 @@ class TwilioData extends Data
     public static function make(): self
     {
         if (! (self::$instance instanceof TwilioData)) {
-=======
-use Webmozart\Assert\Assert;
-
-class TwilioData extends Data
-{
-    public null|string $account_sid;
-    public null|string $auth_token;
-    public null|string $base_url;
-    public string $auth_type = 'basic';
-    public int $timeout = 30;
-
-    private static null|self $instance = null;
-
-    public static function make(): self
-    {
-        if (!(self::$instance instanceof TwilioData)) {
->>>>>>> 99ff506 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.twilio', []);
@@ -61,28 +43,7 @@ class TwilioData extends Data
             case 'basic':
             default:
                 return [
-<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
-=======
-                    'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
                 ];
         }

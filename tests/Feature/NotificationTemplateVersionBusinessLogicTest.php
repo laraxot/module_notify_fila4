@@ -4,23 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
 use RuntimeException;
-=======
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-use RuntimeException;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Notify\Models\NotificationTemplate;
-use Modules\Notify\Models\NotificationTemplateVersion;
->>>>>>> 99ff506 (.)
 use Tests\TestCase;
 
 class NotificationTemplateVersionBusinessLogicTest extends TestCase
@@ -115,38 +102,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         ]);
 
         $this->expectException(RuntimeException::class);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
->>>>>>> 05bc3ad (.)
-=======
->>>>>>> ab15d0e (.)
-=======
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
->>>>>>> c42c734 (.)
-=======
->>>>>>> 625ad07 (.)
         $this->expectExceptionMessage('Template not found for version '.$version->id);
-=======
-=======
-=======
-<<<<<<< HEAD
-        $this->expectException(RuntimeException::class);
-=======
-        $this->expectException(\RuntimeException::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-        $this->expectExceptionMessage('Template not found for version ' . $version->id);
->>>>>>> 99ff506 (.)
 
         $version->restore();
     }

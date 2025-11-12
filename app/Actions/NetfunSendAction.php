@@ -28,54 +28,7 @@ class NetfunSendAction
     {
         // Prepare the action for execution, leveraging constructor injection.
         $token = config('services.netfun.token');
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! is_string($token)) {
-=======
-        if (!is_string($token)) {
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-        if (!is_string($token)) {
-=======
-        if (! is_string($token)) {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-        if (!is_string($token)) {
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-        if (!is_string($token)) {
->>>>>>> e11621f (.)
-=======
-        if (!is_string($token)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!is_string($token)) {
-=======
-        if (! is_string($token)) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!is_string($token)) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! is_string($token)) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-        if (!is_string($token)) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -96,19 +49,11 @@ class NetfunSendAction
 
         $smsData->to .= '';
         if (Str::startsWith($smsData->to, '00')) {
-<<<<<<< HEAD
             $smsData->to = '+39'.mb_substr($smsData->to, 2);
         }
 
         if (! Str::startsWith($smsData->to, '+')) {
             $smsData->to = '+39'.$smsData->to;
-=======
-            $smsData->to = '+39' . mb_substr($smsData->to, 2);
-        }
-
-        if (!Str::startsWith($smsData->to, '+')) {
-            $smsData->to = '+39' . $smsData->to;
->>>>>>> 99ff506 (.)
         }
 
         $body = [
@@ -146,11 +91,7 @@ class NetfunSendAction
             $response = $client->post($endpoint, ['json' => $body]);
         } catch (ClientException $clientException) {
             throw new Exception(
-<<<<<<< HEAD
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
-=======
-                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 99ff506 (.)
                 $clientException->getCode(),
                 $clientException,
             );

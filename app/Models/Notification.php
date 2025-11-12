@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
@@ -10,28 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Models\BaseModel;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
-
-namespace Modules\Notify\Models;
-
-use Override;
-use Illuminate\Support\Carbon;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Notify\Database\Factories\NotificationFactory;
-use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Models\BaseModel;
->>>>>>> 99ff506 (.)
-=======
->>>>>>> 6a92a74 (.)
-=======
-use Override;
->>>>>>> ea313f3 (.)
-=======
->>>>>>> 625ad07 (.)
 
 /**
  * Notification model for the Notify module.
@@ -57,10 +34,7 @@ use Override;
  * @property Carbon|null $sent_at
  * @property-read Model|null $creator
  * @property-read Model|null $updater
-<<<<<<< HEAD
  *
-=======
->>>>>>> 99ff506 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -77,124 +51,8 @@ use Override;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 99ff506 (.)
-=======
-=======
-=======
- * @property \Illuminate\Support\Carbon|null $sent_at
- * @property-read \Illuminate\Database\Eloquent\Model|null $creator
- * @property-read \Illuminate\Database\Eloquent\Model|null $updater
- * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification query()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereCreatedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereData($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereDeletedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereDeletedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereNotifiableId($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereNotifiableType($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereReadAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereType($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereUpdatedBy($value)
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotification
-=======
->>>>>>> 05bc3ad (.)
- * @mixin \Eloquent
- */
-/**
- * @property string $id
- * @property string $type
- * @property string $notifiable_type
- * @property int $notifiable_id
- * @property array<array-key, mixed> $data
- * @property Carbon|null $read_at
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
- * @method static Builder<static>|Notification newModelQuery()
- * @method static Builder<static>|Notification newQuery()
- * @method static Builder<static>|Notification query()
- * @method static Builder<static>|Notification whereCreatedAt($value)
- * @method static Builder<static>|Notification whereCreatedBy($value)
- * @method static Builder<static>|Notification whereData($value)
- * @method static Builder<static>|Notification whereDeletedAt($value)
- * @method static Builder<static>|Notification whereDeletedBy($value)
- * @method static Builder<static>|Notification whereId($value)
- * @method static Builder<static>|Notification whereNotifiableId($value)
- * @method static Builder<static>|Notification whereNotifiableType($value)
- * @method static Builder<static>|Notification whereReadAt($value)
- * @method static Builder<static>|Notification whereType($value)
- * @method static Builder<static>|Notification whereUpdatedAt($value)
- * @method static Builder<static>|Notification whereUpdatedBy($value)
- *
-=======
- * @mixin IdeHelperNotification
->>>>>>> ab15d0e (.)
-=======
->>>>>>> c42c734 (.)
- * @mixin \Eloquent
- */
-/**
- * @property string $id
- * @property string $type
- * @property string $notifiable_type
- * @property int $notifiable_id
- * @property array<array-key, mixed> $data
- * @property Carbon|null $read_at
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
- * @method static Builder<static>|Notification newModelQuery()
- * @method static Builder<static>|Notification newQuery()
- * @method static Builder<static>|Notification query()
- * @method static Builder<static>|Notification whereCreatedAt($value)
- * @method static Builder<static>|Notification whereCreatedBy($value)
- * @method static Builder<static>|Notification whereData($value)
- * @method static Builder<static>|Notification whereDeletedAt($value)
- * @method static Builder<static>|Notification whereDeletedBy($value)
- * @method static Builder<static>|Notification whereId($value)
- * @method static Builder<static>|Notification whereNotifiableId($value)
- * @method static Builder<static>|Notification whereNotifiableType($value)
- * @method static Builder<static>|Notification whereReadAt($value)
- * @method static Builder<static>|Notification whereType($value)
- * @method static Builder<static>|Notification whereUpdatedAt($value)
- * @method static Builder<static>|Notification whereUpdatedBy($value)
- *
-=======
- * @mixin IdeHelperNotification
->>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class Notification extends BaseModel

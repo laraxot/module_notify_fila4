@@ -3,119 +3,14 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Schema\Blueprint;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
-=======
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\DB;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
->>>>>>> e11621f (.)
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
-=======
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\DB;
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
->>>>>>> b93ef594b4 (.)
-=======
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\DB;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
->>>>>>> f5f1cb1 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateMailTemplatesTable.
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
-=======
-return new class() extends XotBaseMigration {
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-return new class() extends XotBaseMigration {
-=======
-return new class () extends XotBaseMigration {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-return new class() extends XotBaseMigration {
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> e11621f (.)
-=======
-return new class() extends XotBaseMigration {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-return new class() extends XotBaseMigration {
-=======
-return new class () extends XotBaseMigration {
->>>>>>> a12f125f4a (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> b93ef594b4 (.)
-=======
-return new class () extends XotBaseMigration {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> f5f1cb1 (.)
     /**
      * Run the migrations.
      */
@@ -135,12 +30,6 @@ return new class() extends XotBaseMigration {
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -151,35 +40,6 @@ return new class() extends XotBaseMigration {
                 $table->text('params')->nullable();
             }
             if (! $this->hasColumn('sms_template')) {
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-            if (!$this->hasColumn('name')) {
-                $table->string('name');
-            }
-            if (!$this->hasColumn('slug')) {
-                $table->string('slug')->unique();
-            }
-            if (!$this->hasColumn('params')) {
-                $table->text('params')->nullable();
-            }
-            if (!$this->hasColumn('sms_template')) {
->>>>>>> 99ff506 (.)
                 $table->json('sms_template')->nullable();
             }
 

@@ -32,64 +32,8 @@ class EsendexSendAction
     {
         $auth = $this->login();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
-=======
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f813254 (.)
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-=======
-        if (! is_array($auth)) {
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> e11621f (.)
-=======
->>>>>>> a12f125f4a (.)
-=======
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> b93ef594b4 (.)
-=======
-        if (! is_array($auth)) {
-            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-        if (!is_array($auth)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> f5f1cb1 (.)
         }
 
         $data = [
@@ -102,12 +46,6 @@ class EsendexSendAction
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
 
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
@@ -116,38 +54,13 @@ class EsendexSendAction
         }
 
         if (! is_string($auth[1])) {
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
-
-        // Verifichiamo che i valori dell'array di autenticazione siano stringhe
-        if (!is_string($auth[0])) {
-            $auth[0] = '';
-        }
-
-        if (!is_string($auth[1])) {
->>>>>>> 99ff506 (.)
             $auth[1] = '';
         }
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
             'Content-type: application/json',
-<<<<<<< HEAD
             'user_key: '.$auth[0],
             'Session_key: '.$auth[1],
-=======
-            'user_key: ' . $auth[0],
-            'Session_key: ' . $auth[1],
->>>>>>> 99ff506 (.)
         ]);
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -164,61 +77,8 @@ class EsendexSendAction
         $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
-<<<<<<< HEAD
         if (! is_array($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
-=======
-        if (!is_array($res)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-=======
-=======
-=======
-=======
->>>>>>> origin/develop
->>>>>>> f813254 (.)
-        $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
-
-        dddx($res);
-        if (! is_array($res)) {
-<<<<<<< HEAD
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-<<<<<<< HEAD
-            throw new Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> a12f125f4a (.)
-=======
-        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
-
-        dddx($res);
-        if (!is_array($res)) {
-            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
->>>>>>> b93ef594b4 (.)
-=======
-            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
         }
 
         return $res;
@@ -228,54 +88,7 @@ class EsendexSendAction
      * Authenticates the user given it's username and password.
      * Returns the pair user_key, Session_key.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function login(): ?array
-=======
-    public function login(): null|array
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-    public function login(): null|array
-=======
-    public function login(): ?array
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-    public function login(): null|array
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-    public function login(): null|array
->>>>>>> e11621f (.)
-=======
-    public function login(): null|array
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function login(): null|array
-=======
-    public function login(): ?array
->>>>>>> a12f125f4a (.)
-=======
-    public function login(): null|array
->>>>>>> b93ef594b4 (.)
-=======
-    public function login(): ?array
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-    public function login(): null|array
->>>>>>> f5f1cb1 (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -283,54 +96,7 @@ class EsendexSendAction
         Assert::string($username = config('esendex.username'));
         Assert::string($password = config('esendex.password'));
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
-=======
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
-=======
-        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
->>>>>>> e11621f (.)
-=======
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
-=======
-        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
->>>>>>> a12f125f4a (.)
-=======
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
->>>>>>> b93ef594b4 (.)
-=======
-        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
->>>>>>> f5f1cb1 (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 

@@ -6,65 +6,9 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
-=======
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f813254 (.)
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
-=======
-return new class () extends XotBaseMigration {
-    protected ?string $model_class = Contact::class;
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
->>>>>>> e11621f (.)
-=======
->>>>>>> a12f125f4a (.)
-=======
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
->>>>>>> b93ef594b4 (.)
-=======
-return new class () extends XotBaseMigration {
-    protected ?string $model_class = Contact::class;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
->>>>>>> f5f1cb1 (.)
 
     /**
      * Run the migrations.
@@ -81,11 +25,7 @@ return new class() extends XotBaseMigration {
             $table->timestamp('verified_at')->nullable();
         });
         $this->tableUpdate(function (Blueprint $table): void {
-<<<<<<< HEAD
             if (! $this->hasColumn('token')) {
-=======
-            if (!$this->hasColumn('token')) {
->>>>>>> 99ff506 (.)
                 $table->string('token')->nullable();
             }
             $this->updateTimestamps(

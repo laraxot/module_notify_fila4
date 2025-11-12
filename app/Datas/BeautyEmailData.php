@@ -14,54 +14,7 @@ class BeautyEmailData extends Data
 
     // css must not be accessed before its inizialization.
     // sulla config beautymail di localhost manca, quindi va gestito se è vuoto
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?array $css = [];
-=======
-    public null|array $css = [];
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-    public null|array $css = [];
-=======
-    public ?array $css = [];
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-    public null|array $css = [];
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-    public null|array $css = [];
->>>>>>> e11621f (.)
-=======
-    public null|array $css = [];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|array $css = [];
-=======
-    public ?array $css = [];
->>>>>>> a12f125f4a (.)
-=======
-    public null|array $css = [];
->>>>>>> b93ef594b4 (.)
-=======
-    public ?array $css = [];
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-    public null|array $css = [];
->>>>>>> f5f1cb1 (.)
 
     public array $colors;
 }

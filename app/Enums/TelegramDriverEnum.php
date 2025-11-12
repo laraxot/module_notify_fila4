@@ -46,12 +46,6 @@ enum TelegramDriverEnum: string
 
     /**
      * Verifica se un driver è supportato
-<<<<<<< HEAD
-=======
-     *
-     * @param string $driver
-     * @return bool
->>>>>>> 99ff506 (.)
      */
     public static function isSupported(string $driver): bool
     {
@@ -60,11 +54,6 @@ enum TelegramDriverEnum: string
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
-<<<<<<< HEAD
-=======
-     *
-     * @return self
->>>>>>> 99ff506 (.)
      */
     public static function getDefault(): self
     {

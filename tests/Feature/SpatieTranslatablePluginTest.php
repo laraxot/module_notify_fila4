@@ -48,11 +48,4 @@ test('ListMailTemplates renders without plugin registration error', function () 
         ->assertCanSeeTableRecords(MailTemplate::all());
 });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> a7355f9 (.)
-=======
-
->>>>>>> ab15d0e (.)

@@ -33,128 +33,21 @@ class SmsChannel
     /**
      * Invia la notifica attraverso il canale SMS.
      *
-<<<<<<< HEAD
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
-=======
-     * @param mixed $notifiable Entità che riceve la notifica
-     * @param Notification $notification Notifica da inviare
-     * @return array|null Risultato dell'operazione o null in caso di errore
->>>>>>> 99ff506 (.)
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! method_exists($notification, 'toSms')) {
-=======
-        if (!method_exists($notification, 'toSms')) {
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-        if (!method_exists($notification, 'toSms')) {
-=======
-        if (! method_exists($notification, 'toSms')) {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-        if (!method_exists($notification, 'toSms')) {
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-        if (!method_exists($notification, 'toSms')) {
->>>>>>> e11621f (.)
-=======
-        if (!method_exists($notification, 'toSms')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!method_exists($notification, 'toSms')) {
-=======
-        if (! method_exists($notification, 'toSms')) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!method_exists($notification, 'toSms')) {
->>>>>>> b93ef594b4 (.)
-=======
-     * @param \Illuminate\Notifications\Notification $notification Notifica da inviare
-     * @return array|null Risultato dell'operazione o null in caso di errore
-     * @throws \Exception Se la notifica non ha il metodo toSms o il driver non è supportato
-     */
-    public function send($notifiable, Notification $notification)
-    {
-        if (! method_exists($notification, 'toSms')) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-        if (!method_exists($notification, 'toSms')) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Notification does not have toSms method');
         }
 
         $smsData = $notification->toSms($notifiable);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! ($smsData instanceof SmsData)) {
-=======
-        if (!($smsData instanceof SmsData)) {
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-        if (!($smsData instanceof SmsData)) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f813254 (.)
-        if (!($smsData instanceof SmsData)) {
-=======
-
-        if (! $smsData instanceof SmsData) {
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-        if (!($smsData instanceof SmsData)) {
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-        if (!($smsData instanceof SmsData)) {
->>>>>>> e11621f (.)
-=======
->>>>>>> a12f125f4a (.)
-=======
-        if (!($smsData instanceof SmsData)) {
->>>>>>> b93ef594b4 (.)
-=======
-
-        if (! $smsData instanceof SmsData) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-        if (!($smsData instanceof SmsData)) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 

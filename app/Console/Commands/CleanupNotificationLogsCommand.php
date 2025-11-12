@@ -5,27 +5,8 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
-<<<<<<< HEAD
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Modules\Notify\Models\NotificationLog;
-use Modules\Notify\Enums\NotificationLogStatusEnum;
->>>>>>> 99ff506 (.)
-=======
-use Modules\Notify\Enums\NotificationLogStatusEnum;
->>>>>>> 12f2f7e (.)
-=======
->>>>>>> 0dd51a0 (.)
-=======
-use Modules\Notify\Enums\NotificationLogStatusEnum;
->>>>>>> 1c9a755 (.)
-=======
->>>>>>> 2a17243 (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -68,48 +49,8 @@ class CleanupNotificationLogsCommand extends Command
         }
 
         $totalDeleted = 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $count = $logs->count(); /** @phpstan-ignore method.nonObject */
-=======
-=======
->>>>>>> c42c734 (.)
-        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted): void {
-            $count = $logs->count(); /* @phpstan-ignore method.nonObject */
->>>>>>> 05bc3ad (.)
-=======
-        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
-<<<<<<< HEAD
-            $count = $logs->count(); /** @phpstan-ignore method.nonObject */
->>>>>>> ab15d0e (.)
-=======
-        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted): void {
-            $count = $logs->count(); /* @phpstan-ignore method.nonObject */
->>>>>>> e6ac118 (.)
-=======
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
->>>>>>> e6c7fb3 (.)
-=======
-            $count = $logs->count();
->>>>>>> 0dd51a0 (.)
-=======
-            $count = $logs->count(); /** @phpstan-ignore method.nonObject */
->>>>>>> 2a17243 (.)
-=======
-            $count = $logs->count(); /* @phpstan-ignore method.nonObject */
->>>>>>> ea313f3 (.)
-=======
-        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
-            $count = $logs->count(); /** @phpstan-ignore method.nonObject */
->>>>>>> 625ad07 (.)
             $logs->each->delete();
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");

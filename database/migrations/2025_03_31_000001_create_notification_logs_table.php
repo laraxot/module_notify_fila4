@@ -6,57 +6,8 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 return new class extends Migration
 {
-=======
-return new class extends Migration {
->>>>>>> 99ff506 (.)
-=======
-=======
->>>>>>> 0f07e6d (.)
-=======
-return new class extends Migration {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f813254 (.)
-return new class extends Migration {
-=======
-return new class extends Migration
-{
-<<<<<<< HEAD
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 95531e1 (.)
-=======
-=======
-return new class extends Migration {
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
-return new class extends Migration {
->>>>>>> e11621f (.)
-=======
->>>>>>> a12f125f4a (.)
-=======
-return new class extends Migration {
->>>>>>> b93ef594b4 (.)
-=======
-return new class extends Migration
-{
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
-return new class extends Migration {
->>>>>>> f5f1cb1 (.)
     /**
      * Esegue la migrazione.
      */

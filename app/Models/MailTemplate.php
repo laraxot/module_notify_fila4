@@ -4,12 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 use Carbon\Carbon;
 use Illuminate\Contracts\Mail\Mailable;
@@ -17,34 +11,6 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-//use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
-use Exception;
-use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Contracts\Mail\Mailable;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\Support\Str;
->>>>>>> 99ff506 (.)
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 use Spatie\Sluggable\HasSlug;
@@ -52,10 +18,6 @@ use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
 
 /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab15d0e (.)
  * @property int                                  $id
  * @property string                               $mailable
  * @property string|null                          $subject
@@ -74,44 +36,7 @@ use Spatie\Translatable\HasTranslations;
  * @property string                               $slug
  * @property array                                $variables
  * @property mixed                                $translations
-<<<<<<< HEAD
  *
-=======
- * @property int $id
- * @property string $mailable
- * @property string|null $subject
- * @property string $html_template
- * @property string|null $text_template
- * @property int $version
- * @property Carbon $created_at
- * @property Carbon $updated_at
- * @property Carbon|null $deleted_at
- * @property-read Collection<int, MailTemplateVersion> $versions
- * @property-read Collection<int, MailTemplateLog> $logs
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property string|null $deleted_by
- * @property string $name
- * @property string $slug
- * @property-read array $variables
- * @property-read mixed $translations
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
-<<<<<<< HEAD
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-=======
->>>>>>> a80c61f (.)
-=======
-=======
->>>>>>> ab15d0e (.)
- *
->>>>>>> d2c515f (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -133,26 +58,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereTextTemplate($value)
  * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
->>>>>>> a80c61f (.)
- * @property string|null $params
- * @method static Builder<static>|MailTemplate whereParams($value)
- * @property array<array-key, mixed>|null $sms_template
-<<<<<<< HEAD
- * @property int                          $counter
- *
- * @method static Builder<static>|MailTemplate whereCounter($value)
- * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
- *
-<<<<<<< HEAD
-=======
-=======
- *
->>>>>>> d2c515f (.)
  * @property string|null $params
  *
  * @method static Builder<static>|MailTemplate whereParams($value)
@@ -162,44 +68,15 @@ use Spatie\Translatable\HasTranslations;
  *
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
- * @mixin IdeHelperMailTemplate
-=======
->>>>>>> 05bc3ad (.)
-=======
- * @property int $counter
- * @method static Builder<static>|MailTemplate whereCounter($value)
- * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
->>>>>>> a80c61f (.)
-=======
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d2c515f (.)
-=======
  * @mixin IdeHelperMailTemplate
->>>>>>> ab15d0e (.)
-=======
- *
->>>>>>> c42c734 (.)
-=======
- * @mixin IdeHelperMailTemplate
->>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 {
-<<<<<<< HEAD
     use HasSlug;
     // use SoftDeletes;
     use HasTranslations;
-=======
-    //use SoftDeletes;
-    use HasTranslations;
-    use HasSlug;
->>>>>>> 99ff506 (.)
 
     /** @var string */
     protected $connection = 'notify';
@@ -216,28 +93,15 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         'html_template',
         'text_template',
         'sms_template',
-<<<<<<< HEAD
         // 'version',  //under development
-=======
-        //'version',  //under development
->>>>>>> 99ff506 (.)
         'params',
         'counter',
     ];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab15d0e (.)
     protected $attributes = [
         'mailable' => 'Modules\Notify\Emails\SpatieEmail',
     ];
 
-<<<<<<< HEAD
-=======
->>>>>>> 99ff506 (.)
-=======
->>>>>>> ab15d0e (.)
     /**
      * Define attribute casts.
      *
@@ -262,40 +126,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! method_exists($mailable, 'getSlug')) {
             throw new \Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
         }
         $slug = $mailable->getSlug();
 
-=======
-=======
->>>>>>> 95531e1 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 0f07e6d (.)
-=======
->>>>>>> e11621f (.)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-        if (!method_exists($mailable, 'getSlug')) {
-            throw new Exception('Il metodo getSlug() non è definito nella classe ' . $mailable::class);
-        }
-        $slug = $mailable->getSlug();
->>>>>>> 99ff506 (.)
         return $query->where('mailable', get_class($mailable))->where('slug', $slug);
     }
 

@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 99ff506 (.)
 return [
     'resource' => [
         'name' => 'Notifica',
@@ -194,18 +190,9 @@ return [
             'error_message' => 'Errore nell\'eliminazione della notifica',
             'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.',
         ],
-<<<<<<< HEAD
-<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
         ],
-=======
->>>>>>> 99ff506 (.)
-=======
-        'logout' => [
-            'tooltip' => 'logout',
-        ],
->>>>>>> a7355f9 (.)
     ],
     'messages' => [
         'no_notifications' => 'Non hai notifiche',

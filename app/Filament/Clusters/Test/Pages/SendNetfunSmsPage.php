@@ -29,55 +29,7 @@ class SendNetfunSmsPage extends XotBasePage
 {
     public ?array $smsData = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> 99ff506 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> d2d07aa (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> b586b08 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> 65a883d (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> 944ccc8 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> 75c16f6 (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> 5d44317 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> d60d83a (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> e9f2f09 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> ea313f3 (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> 6ded0f9 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
->>>>>>> ccb1541 (.)
 
     protected string $view = 'notify::filament.pages.send-sms';
 

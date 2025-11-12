@@ -19,13 +19,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
  * - Accessibilità WCAG 2.1 AA compliant
  *
  * @author Laraxot Team
-<<<<<<< HEAD
  *
  * @version 2.0 - REFACTOR COMPLETO
  *
-=======
- * @version 2.0 - REFACTOR COMPLETO
->>>>>>> 99ff506 (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn
