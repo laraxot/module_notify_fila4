@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,11 +16,14 @@
 >>>>>>> 31bdf6b (.)
 =======
 >>>>>>> 5e14ac3 (.)
+=======
+>>>>>>> 7cf73d1 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +36,10 @@ declare(strict_types=1);
 >>>>>>> 31bdf6b (.)
 =======
 >>>>>>> 5e14ac3 (.)
+=======
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> 7cf73d1 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 518c702 (.)

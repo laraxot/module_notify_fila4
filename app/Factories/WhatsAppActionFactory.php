@@ -42,6 +42,7 @@ final class WhatsAppActionFactory
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 =======
@@ -60,6 +61,20 @@ final class WhatsAppActionFactory
 >>>>>>> 31bdf6b (.)
 =======
 >>>>>>> 5e14ac3 (.)
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
+
+<<<<<<< HEAD
+=======
+        if (!is_string($normalizedDriver)) {
+            $normalizedDriver = '';
+        }
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+>>>>>>> 0db165c (.)
+
+>>>>>>> 4ad63a5 (.)
+>>>>>>> 7cf73d1 (.)
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 
