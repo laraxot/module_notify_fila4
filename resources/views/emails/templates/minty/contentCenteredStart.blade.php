@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -34,11 +35,14 @@
 >>>>>>> f331fd1 (.)
 =======
 >>>>>>> 4a221df (.)
+=======
+>>>>>>> 5d16a4d (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +73,10 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f331fd1 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 5d16a4d (.)
 <div class="block">
 =======
 <<<<<<< HEAD
@@ -111,6 +119,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<tbody>
 =======
 <<<<<<< HEAD
@@ -165,3 +174,9 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> 4a221df (.)
+=======
+								<tbody>
+=======
+								<tbody>
+>>>>>>> b19cd40 (.)
+>>>>>>> 5d16a4d (.)

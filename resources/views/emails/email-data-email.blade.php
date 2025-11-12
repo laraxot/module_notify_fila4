@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 {{--
 <x-mail::message>
 # Introduction
@@ -17,4 +20,8 @@ Thanks,<br>
 {{ config('app.name') }}
 </x-mail::message>
 --}}
+<<<<<<< HEAD
 {!! body_html !!}
+=======
+{!! body_html !!}
+>>>>>>> b19cd40 (.)
