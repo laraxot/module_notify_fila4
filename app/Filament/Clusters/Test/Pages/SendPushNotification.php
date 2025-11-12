@@ -13,7 +13,10 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 =======
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8140d8 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Repeater;
@@ -55,7 +58,11 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 =======
 /**
+<<<<<<< HEAD
  * 
+=======
+ * @property \Filament\Schemas\Schema $notificationForm
+>>>>>>> b8140d8 (.)
  */
 >>>>>>> 99ff506 (.)
 class SendPushNotification extends Page implements HasForms
@@ -89,8 +96,10 @@ class SendPushNotification extends Page implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +121,11 @@ class SendPushNotification extends Page implements HasForms
 =======
 =======
 >>>>>>> 0e521e1 (.)
+=======
+=======
+    public function notificationForm(Schema $schema): Schema
+    {
+>>>>>>> 9bd3cd0 (.)
         $devices = DeviceUser::with(['profile', 'device'])
             ->where('push_notifications_token', '!=', null)
             ->where('push_notifications_token', '!=', 'unknown')
@@ -154,6 +168,7 @@ class SendPushNotification extends Page implements HasForms
         };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6bd5430 (.)
 >>>>>>> 9c8f04e (.)
 =======
@@ -168,10 +183,14 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 0e521e1 (.)
 =======
 >>>>>>> 41dc34b (.)
+=======
+>>>>>>> b8140d8 (.)
+>>>>>>> 9bd3cd0 (.)
 
         /**
          * Callback per filtrare i dispositivi.
          */
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,8 +216,11 @@ class SendPushNotification extends Page implements HasForms
                 Select::make('deviceToken')->options(fn() => []),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
+=======
+>>>>>>> 9bd3cd0 (.)
 =======
         $filterCallback = function ($item): bool {
             if (!is_object($item)) {
@@ -216,9 +238,12 @@ class SendPushNotification extends Page implements HasForms
             ->components([
                 Select::make('deviceToken')->options(fn() => $to),
 >>>>>>> b8140d8 (.)
+<<<<<<< HEAD
 >>>>>>> da89aab (.)
 =======
 >>>>>>> 61cfa35 (.)
+=======
+>>>>>>> 9bd3cd0 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -233,7 +258,11 @@ class SendPushNotification extends Page implements HasForms
 
     public function sendNotification(): void
     {
+<<<<<<< HEAD
         $data = $this->notificationData;
+=======
+        $data = $this->notificationForm->getState();
+>>>>>>> b8140d8 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -328,6 +357,10 @@ class SendPushNotification extends Page implements HasForms
     {
         return [
             Action::make('notificationFormActions')
+<<<<<<< HEAD
+=======
+                
+>>>>>>> b8140d8 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -355,6 +388,10 @@ class SendPushNotification extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
+<<<<<<< HEAD
         // Form data filled;
+=======
+        $this->notificationForm->fill();
+>>>>>>> b8140d8 (.)
     }
 }

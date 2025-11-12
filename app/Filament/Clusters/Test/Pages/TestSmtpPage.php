@@ -47,7 +47,11 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
+<<<<<<< HEAD
  * 
+=======
+ * @property \Filament\Schemas\Schema $emailForm
+>>>>>>> b8140d8 (.)
  */
 >>>>>>> 99ff506 (.)
 class TestSmtpPage extends XotBasePage implements HasForms
@@ -81,9 +85,60 @@ class TestSmtpPage extends XotBasePage implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
     public function sendEmail(): void
     {
         $data = $this->data;
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+        Assert::isArray($mail_config = config('mail'));
+        $smtpConfig = Arr::get($mail_config, 'mailers.smtp');
+
+        $this->emailData['subject'] = 'test';
+        $defaultEmail = XotData::make()->super_admin;
+
+        return $schema->components([
+            Section::make('SMTP')
+                ->schema([
+                    TextInput::make('host'),
+                    // ->default($smtpConfig['host'])
+                    TextInput::make('port')->numeric(),
+                    // ->default($smtpConfig['port'])
+                    TextInput::make('username'),
+                    // ->default($smtpConfig['username'])
+                    TextInput::make('password'),
+                    // ->default($smtpConfig['password'])
+                    TextInput::make('encryption'),
+                    // ->default($smtpConfig['encryption'])
+                ])
+                ->columns(3),
+            Section::make('MAIL')
+                ->schema([
+                    TextInput::make('from_email')
+                        // ->default(config('mail.from.address', $defaultEmail))
+                        ->email()
+                        ->required(),
+                    TextInput::make('from'),
+                    // ->default(config('mail.from.name'))
+                    TextInput::make('to')
+                        // ->default($defaultEmail)
+                        ->email()
+                        ->required(),
+                    TextInput::make('subject')->default('test')->required(),
+                    RichEditor::make('body_html')
+                        ->default('test body')
+                        ->required()
+                        ->columnSpanFull(),
+                ])
+                ->columns(3),
+        ])->statePath('emailData');
+    }
+
+    public function sendEmail(): void
+    {
+        $data = $this->emailForm->getState();
+>>>>>>> b8140d8 (.)
         $smtp = SmtpData::from($data);
         $emailData = EmailData::from($data);
         // dddx([
@@ -110,6 +165,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
         ];
     }
 
+<<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
         /** @var Schema $result */
@@ -117,6 +173,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
         return $result;
     }
 
+=======
+>>>>>>> b8140d8 (.)
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
@@ -148,6 +206,10 @@ class TestSmtpPage extends XotBasePage implements HasForms
             }
         }
 
+<<<<<<< HEAD
         $this->fill($typedConfig);
+=======
+        $this->emailForm->fill($typedConfig);
+>>>>>>> b8140d8 (.)
     }
 }
