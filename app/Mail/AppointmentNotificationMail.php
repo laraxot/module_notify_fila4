@@ -104,6 +104,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     use Queueable, SerializesModels;
 =======
 <<<<<<< HEAD
@@ -124,6 +125,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
     use Queueable, SerializesModels;
 >>>>>>> 2b494dc (.)
+=======
+>>>>>>> b1c46e7 (.)
 
     /**
      * Dati della notifica dell'appuntamento.
