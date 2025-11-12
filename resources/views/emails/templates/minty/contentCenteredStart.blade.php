@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -111,11 +112,15 @@
 >>>>>>> ab15d0e (.)
 =======
 >>>>>>> 6a92a74 (.)
+=======
+>>>>>>> d1f15e5 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <div class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +148,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,3 +334,9 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> 6a92a74 (.)
+=======
+								<tbody>
+=======
+								<tbody>
+>>>>>>> b19cd40 (.)
+>>>>>>> d1f15e5 (.)
