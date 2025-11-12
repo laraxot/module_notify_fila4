@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Models\BaseModel;
-use Override;
 
 /**
  * Notification model for the Notify module.
@@ -33,8 +32,8 @@ use Override;
  * @property array<string>|string|null $channels
  * @property string|null $status
  * @property Carbon|null $sent_at
- * @property-read Model|null $creator
- * @property-read Model|null $updater
+ * @property Model|null $creator
+ * @property Model|null $updater
  *
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
@@ -70,6 +69,7 @@ use Override;
  * @property string|null $deleted_by
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -86,6 +86,7 @@ use Override;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
  * @mixin \Eloquent
  */
 class Notification extends BaseModel

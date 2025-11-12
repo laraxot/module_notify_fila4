@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static Builder<static>|NotificationType newModelQuery()
@@ -13,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|NotificationType query()
  * @mixin \Eloquent
  */
-class NotificationType extends Model
+class NotificationType extends BaseModel
 {
     protected $fillable = [
         'name',

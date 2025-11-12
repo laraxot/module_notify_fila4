@@ -66,7 +66,7 @@ describe('Notify Themeable Business Logic', function (): void {
 
         foreach ($modelTypes as $index => $modelType) {
             /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+            $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
                 'model_type' => $modelType,
                 'model_id' => $index + 1,
                 'notify_theme_id' => $theme->id,
@@ -204,7 +204,7 @@ describe('Notify Themeable Business Logic', function (): void {
 
         foreach ($validModelTypes as $modelType) {
             /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+            $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
                 'model_type' => $modelType,
                 'model_id' => rand(1, 1000),
                 'notify_theme_id' => $theme->id,

@@ -6,7 +6,6 @@ namespace Modules\Notify\Tests\Feature;
 
 use function Safe\json_encode;
 
-
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
