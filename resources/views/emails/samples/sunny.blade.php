@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 @extends('beautymail::templates.sunny')
 
 @section('content')
@@ -27,7 +33,11 @@ declare(strict_types=1);
     ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @stop
 =======
 @stop
 >>>>>>> b19cd40 (.)
+=======
+@stop
+>>>>>>> 4e2ebfb (.)
