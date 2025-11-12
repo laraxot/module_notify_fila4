@@ -24,6 +24,7 @@ class NotificationManager
 <<<<<<< HEAD
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
+<<<<<<< HEAD
      * @param  array  $data  I dati per compilare il template
      * @param  array  $channels  I canali da utilizzare (opzionale)
      * @param  array  $options  Opzioni aggiuntive per l'invio
@@ -36,6 +37,11 @@ class NotificationManager
      *
      * @return array
 >>>>>>> 99ff506 (.)
+=======
+     * @param  array<string, mixed>  $data  I dati per compilare il template
+     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
+     * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+>>>>>>> 6a92a74 (.)
      */
     public function send(
         Model $recipient,
@@ -61,8 +67,15 @@ class NotificationManager
             throw new Exception("Template not found: {$templateCode}");
         }
 
+        /** @var array<string, mixed> $safeData */
+        $safeData = $data;
+        /** @var array<int, string> $safeChannels */
+        $safeChannels = array_values($channels);
+        /** @var array<string, mixed> $safeOptions */
+        $safeOptions = $options;
+
         $action = app(SendNotificationAction::class);
-        $action->execute($recipient, $templateCode, $data, $channels, $options);
+        $action->execute($recipient, $templateCode, $safeData, $safeChannels, $safeOptions);
 
         return [];
     }
@@ -70,6 +83,7 @@ class NotificationManager
     /**
      * Invia una notifica a più destinatari.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  array  $recipients  I destinatari delle notifiche
      * @param  string  $templateCode  Il codice del template da utilizzare
@@ -120,6 +134,13 @@ class NotificationManager
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+     * @param  array<Model>  $recipients  I destinatari delle notifiche
+     * @param  string  $templateCode  Il codice del template da utilizzare
+     * @param  array<string, mixed>  $data  I dati per compilare il template
+     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
+     * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+>>>>>>> 6a92a74 (.)
      * @return array<array>
      */
     public function sendMultiple(
@@ -132,7 +153,9 @@ class NotificationManager
         $logs = [];
 
         foreach ($recipients as $recipient) {
-            $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
+            if ($recipient instanceof Model) {
+                $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
+            }
         }
 
         return $logs;

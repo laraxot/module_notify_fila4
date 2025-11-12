@@ -39,6 +39,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 99ff506 (.)
@@ -90,11 +91,18 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
     /** @var TwilioData */
 >>>>>>> 99ff506 (.)
-    private TwilioData $twilioData;
+=======
 
+final class SendTwilioSMSAction implements SmsActionContract
+{
+>>>>>>> 6a92a74 (.)
+    private TwilioData $twilioData;
+    private ?string $defaultSender = null;
+    
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected bool $debug;
 
@@ -143,6 +151,8 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
 >>>>>>> f5f1cb1 (.)
 
+=======
+>>>>>>> 6a92a74 (.)
     /**
      * Create a new action instance.
      */
@@ -205,7 +215,6 @@ final class SendTwilioSMSAction implements SmsActionContract
         // Parametri a livello di root
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
-        $this->debug = (bool) config('sms.debug', false);
     }
 
     /**
@@ -213,7 +222,7 @@ final class SendTwilioSMSAction implements SmsActionContract
      *
 <<<<<<< HEAD
      * @param  SmsData  $smsData  I dati del messaggio SMS
-     * @return array Risultato dell'operazione
+     * @return array<string, mixed> Risultato dell'operazione
      *
 =======
      * @param SmsData $smsData I dati del messaggio SMS
@@ -221,7 +230,7 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-    #[Override]
+    #[\Override]
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

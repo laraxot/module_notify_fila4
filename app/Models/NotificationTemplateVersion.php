@@ -16,7 +16,6 @@ use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Modules\User\Models\Profile;
 use Modules\Xot\Traits\Updater;
-use Override;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
@@ -132,7 +131,7 @@ class NotificationTemplateVersion extends BaseModel
      *
      * @return array<string, string>
      */
-    #[Override]
+    #[\Override]
     protected function casts(): array
     {
         return [

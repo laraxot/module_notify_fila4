@@ -43,6 +43,7 @@ class NetfunChannel
      *
 <<<<<<< HEAD
      * @param  mixed  $notifiable
+<<<<<<< HEAD
 =======
      * @param mixed $notifiable
      * @param Notification $notification
@@ -64,6 +65,9 @@ class NetfunChannel
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+     * @param  mixed  $notifiable
+>>>>>>> 6a92a74 (.)
      * @return array|null
      */
     public function send($notifiable, Notification $notification)

@@ -19,6 +19,8 @@ declare(strict_types=1);
                 </div>
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
                 </div>
             </div>
         </div>

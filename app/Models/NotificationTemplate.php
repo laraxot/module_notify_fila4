@@ -17,8 +17,6 @@ use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Enums\NotificationTypeEnum;
-use Modules\User\Models\Profile;
-use Override;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
@@ -58,6 +56,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\Translatable\HasTranslations;
 
 /**
+<<<<<<< HEAD
  * Class NotificationTemplate.
  *
  * @property int $id
@@ -143,6 +142,8 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 6a92a74 (.)
  * @mixin IdeHelperNotificationTemplate
 =======
 >>>>>>> 05bc3ad (.)
@@ -204,7 +205,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      *
      * @return array<string, string>
      */
-    #[Override]
+    #[\Override]
     protected function casts(): array
     {
         return [
@@ -281,14 +282,23 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function compile(array $data = []): array
     {
-        $subject = $this->compileString($this->subject, $data);
-        $bodyHtml = $this->compileString($this->body_html, $data);
-        $bodyText = $this->compileString($this->body_text, $data);
+        $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
+        $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
+        
+        $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
+        $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
+        
+        $bodyTextTranslation = $this->getTranslation('body_text', app()->getLocale());
+        $bodyText = is_string($bodyTextTranslation) ? $bodyTextTranslation : null;
+
+        $subjectResult = $this->compileString($subject, $data);
+        $bodyHtmlResult = $this->compileString($bodyHtml, $data);
+        $bodyTextResult = $this->compileString($bodyText, $data);
 
         return [
-            'subject' => $subject ?? '',
-            'body_html' => $bodyHtml,
-            'body_text' => $bodyText,
+            'subject' => $subjectResult ?? '',
+            'body_html' => $bodyHtmlResult,
+            'body_text' => $bodyTextResult,
         ];
     }
 
@@ -300,6 +310,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function shouldSend(array $data = []): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! $this->conditions) {
@@ -319,10 +330,18 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
         if (! $this->conditions) {
 >>>>>>> ab15d0e (.)
+=======
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+>>>>>>> 6a92a74 (.)
             return true;
         }
 
-        foreach ($this->conditions as $path => $value) {
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
             $actual = data_get($data, $path);
             if ($actual !== $value) {
                 return false;
@@ -370,7 +389,14 @@ class NotificationTemplate extends BaseModel implements HasMedia
     public function preview(array $data = []): array
     {
         $previewData = $this->preview_data ?? [];
-        $mergedData = array_merge($previewData, $data);
+        if (! is_array($previewData)) {
+            $previewData = [];
+        }
+
+        /** @var array<string, mixed> $safePreviewData */
+        $safePreviewData = $previewData;
+        /** @var array<string, mixed> $mergedData */
+        $mergedData = array_merge($safePreviewData, $data);
 
         return $this->compile($mergedData);
     }
@@ -452,6 +478,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return collect($this->channels)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,12 +489,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
 =======
         /** @var array $channels */
+=======
+>>>>>>> 6a92a74 (.)
         $channels = $this->getAttribute('channels');
         if (! is_array($channels)) {
             $channels = [];
         }
 
         return collect($channels)
+<<<<<<< HEAD
 >>>>>>> ffb0ad3 (.)
             ->map(function ($channel): string {
                 $channelStr = is_string($channel) ? $channel : (string) $channel;
@@ -479,6 +509,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
         return collect($this->channels)
             ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
 >>>>>>> ab15d0e (.)
+=======
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.(is_string($channel) ? $channel : (string) $channel).'.label'))
+>>>>>>> 6a92a74 (.)
             ->implode(', ');
     }
 
@@ -489,7 +522,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
-        return $this->grapesjs_data ?? [];
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $safeData */
+        $safeData = $data;
+
+        return $safeData;
     }
 
     /**
@@ -506,6 +547,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->grapesjs_data = $data;
 <<<<<<< HEAD
 =======
@@ -514,6 +556,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
         $this->grapesjs_data = $data;
 >>>>>>> ab15d0e (.)
+=======
+        $this->setAttribute('grapesjs_data', $data);
+>>>>>>> 6a92a74 (.)
 
 =======
 >>>>>>> 99ff506 (.)
@@ -522,7 +567,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     public function getPreviewData(): array
     {
-        return $this->preview_data ?? [];
+        $previewData = $this->getAttribute('preview_data') ?? [];
+        if (! is_array($previewData)) {
+            return [];
+        }
+
+        return $previewData;
     }
 
     public function getPreviewSubject(): string

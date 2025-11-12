@@ -16,6 +16,7 @@ use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 use Override;
 =======
 =======
@@ -37,6 +38,8 @@ use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\preg_replace;
@@ -151,7 +154,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-    #[Override]
+    #[\Override]
     public function execute(SmsData $smsData): array
     {
         $headers = [

@@ -24,7 +24,6 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 use Webmozart\Assert\Assert;
 
 /**
@@ -140,7 +139,7 @@ class SendSpatieEmailPage extends XotBasePage
         ];
     }
 
-    #[Override]
+    #[\Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

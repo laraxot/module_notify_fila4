@@ -20,7 +20,6 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 
 class SendAwsEmailPage extends XotBasePage
 {
@@ -143,7 +142,7 @@ class SendAwsEmailPage extends XotBasePage
         ];
     }
 
-    #[Override]
+    #[\Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

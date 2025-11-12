@@ -121,13 +121,21 @@ class NetfunSmsResponseData extends Data
 >>>>>>> f5f1cb1 (.)
     ) {}
 
+    /**
+     * @param  array<string, mixed>  $data
+     */
     public static function fromArray(array $data): self
     {
+        $status = is_string($data['status'] ?? null) ? $data['status'] : '';
+        $batchId = isset($data['batchId']) && is_string($data['batchId']) ? $data['batchId'] : null;
+        $messages = isset($data['messages']) && is_array($data['messages']) ? $data['messages'] : null;
+        $error = isset($data['error']) && is_string($data['error']) ? $data['error'] : null;
+
         return new self(
-            status: $data['status'],
-            batchId: $data['batchId'] ?? null,
-            messages: $data['messages'] ?? null,
-            error: $data['error'] ?? null,
+            status: $status,
+            batchId: $batchId,
+            messages: $messages,
+            error: $error,
         );
     }
 }

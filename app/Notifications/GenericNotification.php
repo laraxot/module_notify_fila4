@@ -63,7 +63,10 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function via(mixed $_notifiable): array
     {
-        return $this->channels;
+        /** @var array<int, string> $channels */
+        $channels = array_values($this->channels);
+        
+        return $channels;
     }
 
     /**
@@ -74,7 +77,7 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function toMail($notifiable): MailMessage
     {
-        $mail = new MailMessage()
+        $mail = (new MailMessage())
             ->subject($this->title)
             ->greeting('Gentile ' . $this->getRecipientName($notifiable))
             ->line($this->message);
@@ -149,7 +152,8 @@ class GenericNotification extends Notification implements ShouldQueue
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
-            return $notifiable->getFullName();
+            $name = $notifiable->getFullName();
+            return is_string($name) ? $name : (string) $name;
         }
 
         if (is_object($notifiable) && $notifiable instanceof Model) {

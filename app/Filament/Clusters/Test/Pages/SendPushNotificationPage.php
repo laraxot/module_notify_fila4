@@ -23,6 +23,7 @@ use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 use Override;
 =======
 use Filament\Schemas\Schema;
@@ -55,6 +56,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
 use Override;
 >>>>>>> 8e43c3e (.)
+=======
+>>>>>>> 6a92a74 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -264,7 +267,6 @@ class SendPushNotificationPage extends XotBasePage
         /**
          * Callback per filtrare i dispositivi.
          */
-        Assert::isArray([]);
 
 >>>>>>> ab15d0e (.)
         return $schema
@@ -389,7 +391,7 @@ class SendPushNotificationPage extends XotBasePage
         ];
     }
 
-    #[Override]
+    #[\Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

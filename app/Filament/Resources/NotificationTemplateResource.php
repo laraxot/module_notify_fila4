@@ -43,7 +43,6 @@ use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class NotificationTemplateResource extends XotBaseResource
 {
@@ -129,7 +128,7 @@ class NotificationTemplateResource extends XotBaseResource
     protected static ?string $model = NotificationTemplate::class;
 >>>>>>> 8e43c3e (.)
 
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
@@ -190,7 +189,7 @@ class NotificationTemplateResource extends XotBaseResource
         ];
     }
 
-    #[Override]
+    #[\Override]
     public static function getPages(): array
     {
         return [

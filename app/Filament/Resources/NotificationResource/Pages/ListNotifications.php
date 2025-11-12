@@ -31,15 +31,18 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
 
 class ListNotifications extends XotBaseListRecords
 {
     protected static string $resource = NotificationResource::class;
 
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
@@ -53,7 +56,7 @@ class ListNotifications extends XotBaseListRecords
         ];
     }
 
-    #[Override]
+    #[\Override]
     public function getTableFilters(): array
     {
         return [

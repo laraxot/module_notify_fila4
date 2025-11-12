@@ -10,7 +10,6 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class NotificationResource extends XotBaseResource
 {
@@ -34,7 +33,7 @@ class NotificationResource extends XotBaseResource
     protected static null|string $model = Notification::class;
 >>>>>>> 99ff506 (.)
 
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [

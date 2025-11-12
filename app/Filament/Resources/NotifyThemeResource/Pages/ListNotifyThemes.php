@@ -14,6 +14,7 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 use Override;
 =======
 =======
@@ -35,12 +36,14 @@ use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
 
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
@@ -61,7 +64,7 @@ class ListNotifyThemes extends XotBaseListRecords
         ];
     }
 
-    #[Override]
+    #[\Override]
     public function getTableFilters(): array
     {
         return [

@@ -152,6 +152,7 @@ final class Send360dialogWhatsAppAction
         } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
             $payload['type'] = 'template';
@@ -168,6 +169,9 @@ final class Send360dialogWhatsAppAction
 =======
             $mediaUrl = $whatsAppData->media[0];
 >>>>>>> ab15d0e (.)
+=======
+            $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+>>>>>>> 6a92a74 (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 
             $payload['type'] = $mediaType;
@@ -184,7 +188,7 @@ final class Send360dialogWhatsAppAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-            /** @var array $responseData */
+            /** @var array{messages?: array<int, array{id?: string}>, errors?: array<int, array{message?: string}>} $responseData */
             $responseData = json_decode($responseContent, true);
 
             // Salva i dati della risposta nelle variabili dell'azione
@@ -197,9 +201,15 @@ final class Send360dialogWhatsAppAction
                 'response_code' => $statusCode,
             ]);
 
+            // Extract message_id safely
+            $messageId = null;
+            if (isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]['id'])) {
+                $messageId = is_string($responseData['messages'][0]['id']) ? $responseData['messages'][0]['id'] : (string) ($responseData['messages'][0]['id'] ?? '');
+            }
+
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
-                'message_id' => $responseData['messages'][0]['id'] ?? null,
+                'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -220,9 +230,13 @@ final class Send360dialogWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+            // Extract error message safely
+            /** @phpstan-ignore-next-line - WhatsApp API response structure */
+            $errorMessage = $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto';
+
             return [
                 'success' => false,
-                'error' => $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto',
+                'error' => $errorMessage,
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

@@ -14,7 +14,6 @@ use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
-use Override;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -51,7 +50,7 @@ use Modules\Notify\Datas\SmsData;
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
-    #[Override]
+    #[\Override]
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';

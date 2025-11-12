@@ -61,6 +61,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
+<<<<<<< HEAD
      * @param  array  $data  I dati per compilare il template
      * @param  array  $channels  I canali da utilizzare
      * @param  array  $options  Opzioni aggiuntive per l'invio
@@ -71,6 +72,11 @@ class SendNotificationJob implements ShouldQueue
      * @param array $channels I canali da utilizzare
      * @param array $options Opzioni aggiuntive per l'invio
 >>>>>>> 99ff506 (.)
+=======
+     * @param  array<string, mixed>  $data  I dati per compilare il template
+     * @param  array<int, string>  $channels  I canali da utilizzare
+     * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+>>>>>>> 6a92a74 (.)
      */
     public function __construct(
         protected Model $recipient,
@@ -94,7 +100,14 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
-        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+        /** @var array<string, mixed> $data */
+        $data = $this->data;
+        /** @var array<int, string> $channels */
+        $channels = array_values($this->channels);
+        /** @var array<string, mixed> $options */
+        $options = $this->options;
+
+        $action->execute($this->recipient, $this->templateCode, $data, $channels, $options);
     }
 
     /**

@@ -11,6 +11,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Exception;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95531e1 (.)
@@ -26,14 +27,20 @@ use Override;
 use Exception;
 use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
+=======
+use Illuminate\Support\Facades\Log;
+>>>>>>> 6a92a74 (.)
 use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 
@@ -180,7 +187,7 @@ final class SendGammuSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-    #[Override]
+    #[\Override]
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

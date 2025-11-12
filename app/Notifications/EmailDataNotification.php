@@ -52,7 +52,7 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
-        $mailMessage = new MailMessage()
+        $mailMessage = (new MailMessage())
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
 

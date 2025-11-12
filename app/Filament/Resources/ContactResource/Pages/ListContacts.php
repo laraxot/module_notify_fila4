@@ -10,13 +10,12 @@ use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-use Override;
 
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [
@@ -31,7 +30,7 @@ class ListContacts extends XotBaseListRecords
         ];
     }
 
-    #[Override]
+    #[\Override]
     public function getTableFilters(): array
     {
         return [

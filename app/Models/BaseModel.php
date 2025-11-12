@@ -47,7 +47,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
-    use HasFactory;
+    use \Modules\Xot\Models\Traits\HasXotFactory;
     use InteractsWithMedia;
     use Updater;
 
@@ -86,15 +86,7 @@ abstract class BaseModel extends Model implements HasMedia
         // 'password'
     ];
 
-    /**
-     * Create a new factory instance for the model.
-     *
-     * @return Factory<static>
-     */
-    protected static function newFactory()
-    {
-        return app(GetFactoryAction::class)->execute(static::class);
-    }
+   
 
     /** @return array<string, string> */
     protected function casts(): array

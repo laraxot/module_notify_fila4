@@ -193,7 +193,7 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 99ff506 (.)
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
-                'link' => $whatsAppData->media[0],
+                'link' => is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '',
             ];
         }
 
@@ -204,7 +204,7 @@ final class SendFacebookWhatsAppAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-            /** @var array $responseData */
+            /** @var array{messages?: array<int, array{id?: string}>, errors?: array<int, array{message?: string}>} $responseData */
             $responseData = json_decode($responseContent, true);
 
             // Salva i dati della risposta nelle variabili dell'azione
@@ -217,9 +217,15 @@ final class SendFacebookWhatsAppAction
                 'response_code' => $statusCode,
             ]);
 
+            // Extract message_id safely
+            $messageId = null;
+            if (isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]['id'])) {
+                $messageId = is_string($responseData['messages'][0]['id']) ? $responseData['messages'][0]['id'] : (string) ($responseData['messages'][0]['id'] ?? '');
+            }
+
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
-                'message_id' => $responseData['messages'][0]['id'] ?? null,
+                'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -240,9 +246,15 @@ final class SendFacebookWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+            // Extract error message safely
+            $errorMessage = 'Errore sconosciuto';
+            if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
+                $errorMessage = is_string($responseBody['error']['message']) ? $responseBody['error']['message'] : 'Errore sconosciuto';
+            }
+
             return [
                 'success' => false,
-                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+                'error' => $errorMessage,
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

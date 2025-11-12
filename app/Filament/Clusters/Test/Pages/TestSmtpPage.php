@@ -45,7 +45,6 @@ use Modules\Notify\Filament\Clusters\Test;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 use Webmozart\Assert\Assert;
 
 =======
@@ -136,7 +135,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
         return $schema->components([])->model($this->getUser())->statePath('emailData');
     }
 
-    #[Override]
+    #[\Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

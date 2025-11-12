@@ -10,6 +10,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\ContactFactory;
@@ -43,6 +44,9 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 6a92a74 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -90,6 +94,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -242,6 +247,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 6a92a74 (.)
  * @mixin IdeHelperContact
 =======
 >>>>>>> 05bc3ad (.)
@@ -309,7 +316,7 @@ class Contact extends BaseModel
     ];
 
     /** @return array<string, string> */
-    #[Override]
+    #[\Override]
     protected function casts(): array
     {
         return [

@@ -67,9 +67,12 @@ use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
 
 /**
  * Class for sending notifications via Firebase Cloud Messaging to Android devices.
@@ -191,7 +194,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @param  object|null  $notifiable  The entity to be notified
      * @return array<string, mixed>
      */
-    #[Override]
+    #[\Override]
     public function toArray(?object $notifiable): array
 =======
      * @param object|null $notifiable The entity to be notified
@@ -269,7 +272,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @return Message
 >>>>>>> 99ff506 (.)
      */
-    #[Override]
+    #[\Override]
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;

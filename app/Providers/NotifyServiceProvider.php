@@ -8,7 +8,6 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
-use Override;
 use Webmozart\Assert\Assert;
 
 class NotifyServiceProvider extends XotBaseServiceProvider
@@ -19,7 +18,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
-    #[Override]
+    #[\Override]
     public function boot(): void
     {
         parent::boot();

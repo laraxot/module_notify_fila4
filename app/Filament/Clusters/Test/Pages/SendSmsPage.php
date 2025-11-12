@@ -22,7 +22,6 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-use Override;
 use Webmozart\Assert\Assert;
 
 /**
@@ -147,7 +146,7 @@ class SendSmsPage extends XotBasePage
         ];
     }
 
-    #[Override]
+    #[\Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

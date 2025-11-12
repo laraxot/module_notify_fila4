@@ -130,6 +130,7 @@ class SendPushNotification extends Page implements HasForms
         /**
          * Callback per filtrare i dispositivi.
          */
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -229,6 +230,8 @@ class SendPushNotification extends Page implements HasForms
 =======
 >>>>>>> 41dc34b (.)
         Assert::isArray([]);
+=======
+>>>>>>> 6a92a74 (.)
 
         return $schema
             ->components([

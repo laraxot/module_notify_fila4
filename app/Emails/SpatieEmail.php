@@ -19,7 +19,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailables\Address;
 >>>>>>> 99ff506 (.)
 use Illuminate\Mail\Mailables\Attachment;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -293,6 +292,7 @@ class SpatieEmail extends TemplateMailable
         return $this;
     }
 
+<<<<<<< HEAD
     /**
      * Set the email recipient.
 <<<<<<< HEAD
@@ -361,6 +361,8 @@ class SpatieEmail extends TemplateMailable
         return $envelope;
     }
 
+=======
+>>>>>>> 6a92a74 (.)
     public function getHtmlLayout(): string
     {
 <<<<<<< HEAD
@@ -516,6 +518,7 @@ class SpatieEmail extends TemplateMailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a187384 (.)
         // Valida parametri obbligatori
@@ -523,30 +526,20 @@ class SpatieEmail extends TemplateMailable
         Assert::keyExists($attachment, 'as', 'Attachment must have filename (as)');
         Assert::string($attachment['as'], 'Attachment filename must be string');
 <<<<<<< HEAD
+=======
+        // Valida e tipizza parametri
+        Assert::keyExists($attachment, 'data', 'Attachment must have data');
+        Assert::string($attachment['data'], 'Attachment data must be string');
+>>>>>>> 6a92a74 (.)
 
-        $res = Attachment::fromData(fn () => $attachment['data']);
-        $filename = $attachment['as']; // Laravel convention: 'as' parameter name
+        $data = $attachment['data'];
+        $res = Attachment::fromData(fn () => $data);
+
+        // Determina filename
+        $filename = isset($attachment['as']) ? (string) $attachment['as'] : 'attachment';
 
         // Determina MIME type
-        $mime = Arr::get($attachment, 'mime', null);
-
-        if ($mime === null) {
-            // Tenta di determinare MIME type da estensione filename
-            $info = pathinfo($filename);
-            if (isset($info['extension'])) {
-                $detectedMime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
-                $mime = is_string($detectedMime) ? $detectedMime : null;
-            }
-        }
-
-        if ($mime === null) {
-            $mime = 'application/octet-stream';
-        }
-
-        // Cast a stringa per sicurezza
-        if (! is_string($mime)) {
-            $mime = 'application/octet-stream';
-        }
+        $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
 
         $res = $res->as($filename)->withMime($mime);
 

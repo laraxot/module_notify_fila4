@@ -177,7 +177,7 @@ class PushNotificationService
         ], $scheduleTime);
 
         // Programma job Laravel
-        \Modules\Notify\App\Jobs\SendScheduledPushNotification::dispatch($jobId)
+        \Modules\Notify\Jobs\SendScheduledPushNotification::dispatch($jobId)
             ->delay($scheduleTime);
 
         return $jobId;

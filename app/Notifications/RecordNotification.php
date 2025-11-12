@@ -15,6 +15,7 @@ use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Emails\SpatieEmail;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
@@ -75,6 +76,9 @@ use Illuminate\Notifications\Notification;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 6a92a74 (.)
 
 class RecordNotification extends Notification
 {
@@ -83,9 +87,12 @@ class RecordNotification extends Notification
 
     protected string $slug;
 
-    /** @var array<string, mixed> */
-    public array $data = [];
+    /**
+     * @var array<string, mixed>
+     */
+    protected array $data = [];
 
+<<<<<<< HEAD
     /** @var array<int, array<string, string>> */
 <<<<<<< HEAD
 =======
@@ -95,14 +102,21 @@ class RecordNotification extends Notification
 =======
 >>>>>>> a187384 (.)
     public array $attachments = [];
+=======
+    /**
+     * @var array<int, array<string, string>>
+     */
+    protected array $attachments = [];
+>>>>>>> 6a92a74 (.)
 
     public function __construct(Model $record, string $slug)
     {
         $this->record = $record;
-        $this->slug = Str::slug($slug);
+        $this->slug = $slug;
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,9 +170,11 @@ class RecordNotification extends Notification
 >>>>>>> f5f1cb1 (.)
      * @param object $notifiable
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
      * @return array<string|class-string>
      */
-    public function via($notifiable): array
+    public function via(object $notifiable): array
     {
         $channels = [];
 <<<<<<< HEAD
@@ -227,6 +243,7 @@ class RecordNotification extends Notification
             // Valida che sia una stringa valida
             if (is_string($recipient) && ! empty($recipient)) {
                 $email->to($recipient);
+<<<<<<< HEAD
                 $email->setRecipient($recipient);
 <<<<<<< HEAD
 =======
@@ -237,6 +254,8 @@ class RecordNotification extends Notification
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> a187384 (.)
+=======
+>>>>>>> 6a92a74 (.)
             }
         }
 

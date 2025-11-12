@@ -13,6 +13,7 @@ namespace Modules\Notify\Actions\SMS;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95531e1 (.)
@@ -30,10 +31,14 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
+=======
+use Illuminate\Support\Facades\Log;
+>>>>>>> 6a92a74 (.)
 use Illuminate\Support\Str;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,21 +85,28 @@ use Modules\Notify\Datas\SMS\NexmoData;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 6a92a74 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
+<<<<<<< HEAD
     use QueueableAction;
 
 <<<<<<< HEAD
 =======
     /** @var NexmoData */
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
     private NexmoData $nexmoData;
-
+    private ?string $defaultSender = null;
+    
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected bool $debug;
 
@@ -143,6 +155,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 >>>>>>> f5f1cb1 (.)
 
+=======
+>>>>>>> 6a92a74 (.)
     /**
      * Create a new action instance.
      */
@@ -205,7 +219,6 @@ final class SendNexmoSMSAction implements SmsActionContract
         // Parametri a livello di root
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
-        $this->debug = (bool) config('sms.debug', false);
     }
 
     /**
@@ -221,7 +234,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-    #[Override]
+    #[\Override]
     public function execute(SmsData $smsData): array
     {
         $headers = [

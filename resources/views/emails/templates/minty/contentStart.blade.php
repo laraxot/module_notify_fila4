@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -108,12 +109,15 @@
 >>>>>>> 5f6e153 (.)
 =======
 >>>>>>> ab15d0e (.)
+=======
+>>>>>>> 6a92a74 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 <div class="block">
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -122,6 +126,8 @@ declare(strict_types=1);
 >>>>>>> ab15d0e (.)
 =======
 >>>>>>> e6ac118 (.)
+=======
+>>>>>>> 6a92a74 (.)
 	<!-- Full + text -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fullimage">
 		<tbody>
@@ -135,6 +141,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,3 +323,6 @@ declare(strict_types=1);
 >>>>>>> ab15d0e (.)
 =======
 >>>>>>> e6ac118 (.)
+=======
+								<tbody>
+>>>>>>> 6a92a74 (.)

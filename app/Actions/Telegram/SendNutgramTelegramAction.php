@@ -202,7 +202,7 @@ final class SendNutgramTelegramAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-            /** @var array $responseData */
+            /** @var array{ok?: bool, result?: array{message_id?: int}} $responseData */
             $responseData = json_decode($responseContent, true);
 
             // Salva i dati della risposta nelle variabili dell'azione
@@ -215,9 +215,15 @@ final class SendNutgramTelegramAction
                 'response_code' => $statusCode,
             ]);
 
+            // Extract message_id safely
+            $messageId = null;
+            if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
+                $messageId = is_int($responseData['result']['message_id']) ? $responseData['result']['message_id'] : (int) $responseData['result']['message_id'];
+            }
+
             return [
                 'success' => $responseData['ok'] ?? false,
-                'message_id' => $responseData['result']['message_id'] ?? null,
+                'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

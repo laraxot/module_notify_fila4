@@ -39,8 +39,8 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
-            $lang = basename($langDir);
-            $files = File::files($langDir);
+            $lang = basename((string) $langDir);
+            $files = File::files((string) $langDir);
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -71,7 +71,8 @@ class AnalyzeTranslationFiles extends Command
                 $allFiles["{$lang}/{$filename}"] = $this->flattenArray($translations);
 
                 // Collect all unique keys
-                foreach (array_keys($this->flattenArray($translations)) as $key) {
+                $flattenedKeys = $this->flattenArray($translations);
+                foreach (array_keys($flattenedKeys) as $key) {
                     $allKeys[$key] = true;
                 }
             }
@@ -125,9 +126,11 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allFiles as $file => $keys) {
             $topLevelKeys = [];
 
-            foreach (array_keys($keys) as $key) {
-                $parts = explode('.', (string) $key);
-                $topLevelKeys[$parts[0]] = true;
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    $parts = explode('.', (string) $key);
+                    $topLevelKeys[$parts[0]] = true;
+                }
             }
 
             $pattern = implode(',', array_keys($topLevelKeys));
@@ -172,8 +175,20 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allKeys as $key) {
             $row = [$key];
 
+            // Type narrowing: assicura che $key sia string|int
+            if (! is_string($key) && ! is_int($key)) {
+                continue;
+            }
+
             foreach (array_keys($allFiles) as $file) {
-                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+                // array_keys() restituisce sempre array di string|int
+                $fileData = $allFiles[$file] ?? [];
+                if (! is_array($fileData)) {
+                    $row[] = '✗';
+
+                    continue;
+                }
+                $row[] = isset($fileData[$key]) ? '✓' : '✗';
             }
 
             $table->addRow($row);
@@ -243,9 +258,11 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allFiles as $file => $keys) {
             $navigationKeys = [];
 
-            foreach (array_keys($keys) as $key) {
-                if (str_starts_with((string) $key, 'navigation.')) {
-                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    if (str_starts_with((string) $key, 'navigation.')) {
+                        $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+                    }
                 }
             }
 

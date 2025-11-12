@@ -10,6 +10,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Override;
@@ -83,13 +84,20 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+use Exception;
+use GuzzleHttp\Client;
+use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 6a92a74 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
 class SendAgiletelecomSMSAction implements SmsActionContract
 {
-    #[Override]
+    #[\Override]
     public function execute(SmsData $data): array
     {
         $res = app(SendAgiletelecomSMSv2Action::class)->execute($data);

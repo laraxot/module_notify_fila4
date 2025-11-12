@@ -11,7 +11,6 @@ use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class ContactResource extends XotBaseResource
 {
@@ -24,7 +23,7 @@ class ContactResource extends XotBaseResource
      *
      * @return array<string, Component>
      */
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
@@ -44,13 +43,13 @@ class ContactResource extends XotBaseResource
         ];
     }
 
-    #[Override]
+    #[\Override]
     public static function getRelations(): array
     {
         return [];
     }
 
-    #[Override]
+    #[\Override]
     public static function getPages(): array
     {
         return [

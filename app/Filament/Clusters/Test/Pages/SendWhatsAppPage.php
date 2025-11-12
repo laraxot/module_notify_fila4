@@ -59,6 +59,7 @@ use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
@@ -150,6 +151,8 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 use Override;
 >>>>>>> 05bc3ad (.)
+=======
+>>>>>>> 6a92a74 (.)
 
 /**
  * @property \Filament\Schemas\Schema $whatsappForm
@@ -253,7 +256,10 @@ class SendWhatsAppPage extends XotBasePage
 
     public function whatsappForm(Schema $schema): Schema
     {
-        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
+        $components = array_values($this->getWhatsAppFormSchema());
+
+        return $schema->components($components)->model($this->getUser())->statePath('whatsappData');
     }
 
     public function getWhatsAppFormSchema(): array
@@ -334,7 +340,7 @@ class SendWhatsAppPage extends XotBasePage
         ];
     }
 
-    #[Override]
+    #[\Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

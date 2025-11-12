@@ -18,7 +18,6 @@ use Filament\Schemas\Components\View;
 use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
-use Override;
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -68,7 +67,7 @@ class MailTemplateResource extends LangBaseResource
      * - Le etichette, i placeholder e i testi di aiuto sono gestiti tramite LangServiceProvider
      * - File di traduzione: Modules/Notify/resources/lang/{locale}/mail_template.php
      */
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
 <<<<<<< HEAD
@@ -127,6 +126,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(fn ($record) => ['params' => $record?->params])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => ! empty($record->params)),
@@ -157,6 +157,11 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => ! empty($record->params)),
 >>>>>>> ab15d0e (.)
+=======
+                ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
+                ->columnSpanFull()
+                ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+>>>>>>> 6a92a74 (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
         ];

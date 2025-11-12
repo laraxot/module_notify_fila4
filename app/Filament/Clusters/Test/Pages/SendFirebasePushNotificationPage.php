@@ -41,7 +41,10 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
+=======
+>>>>>>> 6a92a74 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192,7 +195,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
         ];
     }
 
-    #[Override]
+    #[\Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

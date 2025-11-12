@@ -19,6 +19,7 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+<<<<<<< HEAD
 use Override;
 =======
 =======
@@ -52,6 +53,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 =======
 use Override;
 >>>>>>> 8e43c3e (.)
+=======
+>>>>>>> 6a92a74 (.)
 
 class ViewNotification extends XotBaseViewRecord
 {
@@ -60,7 +63,7 @@ class ViewNotification extends XotBaseViewRecord
     /**
      * @return array<Component>
      */
-    #[Override]
+    #[\Override]
     protected function getInfolistSchema(): array
     {
         return [

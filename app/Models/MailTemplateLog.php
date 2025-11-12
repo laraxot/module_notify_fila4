@@ -17,7 +17,6 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Modules\User\Models\Profile;
-use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 =======
@@ -134,7 +133,7 @@ class MailTemplateLog extends BaseModel
      *
      * @return array<string, string>
      */
-    #[Override]
+    #[\Override]
     protected function casts(): array
     {
         return [

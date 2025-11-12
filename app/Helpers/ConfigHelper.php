@@ -147,13 +147,17 @@ class ConfigHelper
             $companyConfig = Config::get('notify.company', []);
             $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
-            /* @var array<string, mixed> $companyConfig */
-            return self::replaceStringVariables($value, $companyConfig);
+            /** @var array<string, mixed> $safeCompanyConfig */
+            $safeCompanyConfig = $companyConfig;
+
+            return self::replaceStringVariables($value, $safeCompanyConfig);
         }
 
         if (is_array($value)) {
-            /** @var array<string, mixed> $value */
-            return self::replaceTemplateVariables($value);
+            /** @var array<string, mixed> $safeValue */
+            $safeValue = $value;
+
+            return self::replaceTemplateVariables($safeValue);
         }
 
         return $value;
@@ -169,8 +173,10 @@ class ConfigHelper
         $testData = Config::get('notify.test_data', []);
         $testData = is_array($testData) ? $testData : [];
 
-        /* @var array<string, mixed> $testData */
-        return self::replaceTemplateVariables($testData);
+        /** @var array<string, mixed> $safeTestData */
+        $safeTestData = $testData;
+
+        return self::replaceTemplateVariables($safeTestData);
     }
 
     /**
@@ -183,8 +189,10 @@ class ConfigHelper
         $companyConfig = Config::get('notify.company', []);
         $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
-        /* @var array<string, mixed> $companyConfig */
-        return self::replaceTemplateVariables($companyConfig);
+        /** @var array<string, mixed> $safeCompanyConfig */
+        $safeCompanyConfig = $companyConfig;
+
+        return self::replaceTemplateVariables($safeCompanyConfig);
     }
 
     /**
@@ -197,8 +205,10 @@ class ConfigHelper
         $webhookConfig = Config::get('notify.webhooks', []);
         $webhookConfig = is_array($webhookConfig) ? $webhookConfig : [];
 
-        /* @var array<string, mixed> $webhookConfig */
-        return self::replaceTemplateVariables($webhookConfig);
+        /** @var array<string, mixed> $safeWebhookConfig */
+        $safeWebhookConfig = $webhookConfig;
+
+        return self::replaceTemplateVariables($safeWebhookConfig);
     }
 
     /**
@@ -211,8 +221,10 @@ class ConfigHelper
         $emailConfig = Config::get('notify.email', []);
         $emailConfig = is_array($emailConfig) ? $emailConfig : [];
 
-        /* @var array<string, mixed> $emailConfig */
-        return self::replaceTemplateVariables($emailConfig);
+        /** @var array<string, mixed> $safeEmailConfig */
+        $safeEmailConfig = $emailConfig;
+
+        return self::replaceTemplateVariables($safeEmailConfig);
     }
 
     /**
@@ -225,7 +237,9 @@ class ConfigHelper
         $pathConfig = Config::get('notify.paths', []);
         $pathConfig = is_array($pathConfig) ? $pathConfig : [];
 
-        /* @var array<string, mixed> $pathConfig */
-        return self::replaceTemplateVariables($pathConfig);
+        /** @var array<string, mixed> $safePathConfig */
+        $safePathConfig = $pathConfig;
+
+        return self::replaceTemplateVariables($safePathConfig);
     }
 }

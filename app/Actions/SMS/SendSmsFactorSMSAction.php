@@ -39,6 +39,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 99ff506 (.)
@@ -90,11 +91,18 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
     /** @var SmsFactorData */
 >>>>>>> 99ff506 (.)
-    private SmsFactorData $smsFactorData;
+=======
 
+final class SendSmsFactorSMSAction implements SmsActionContract
+{
+>>>>>>> 6a92a74 (.)
+    private SmsFactorData $smsFactorData;
+    private ?string $defaultSender = null;
+    
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected bool $debug;
 
@@ -143,6 +151,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
 >>>>>>> f5f1cb1 (.)
 
+=======
+>>>>>>> 6a92a74 (.)
     /**
      * Create a new action instance.
      */
@@ -197,7 +207,6 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         // Parametri a livello di root
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
-        $this->debug = (bool) config('sms.debug', false);
     }
 
     /**
@@ -213,7 +222,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-    #[Override]
+    #[\Override]
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();

@@ -127,7 +127,9 @@ class ContactSection extends Forms\Components\Section
     protected function setUp(): void
     {
         parent::setUp();
-        $this->schema($this->getFormSchema());
+        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schema */
+        $schema = array_values($this->getFormSchema());
+        $this->schema($schema);
         $this->columns(2);
     }
 

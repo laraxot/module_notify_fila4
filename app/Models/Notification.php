@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Models\BaseModel;
+<<<<<<< HEAD
 use Override;
 =======
 
@@ -22,6 +23,8 @@ use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Models\BaseModel;
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 6a92a74 (.)
 
 /**
  * Notification model for the Notify module.
@@ -167,7 +170,7 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
-    #[Override]
+    #[\Override]
     protected function casts(): array
     {
         return [

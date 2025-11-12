@@ -10,7 +10,10 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Eloquent;
+=======
+>>>>>>> 6a92a74 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -18,6 +21,7 @@ use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 use Override;
 =======
 =======
@@ -40,6 +44,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
+=======
+use Modules\Xot\Models\BaseModel;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+>>>>>>> 6a92a74 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
@@ -65,7 +74,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property int|null $logo_height
  * @property array $view_params
  * @property array $logo
- * @property Model|Eloquent $linkable
+ * @property Model $linkable
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
 <<<<<<< HEAD
@@ -100,13 +109,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @mixin Eloquent
+ * @mixin \Eloquent
  *
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,28 +237,33 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @mixin IdeHelperNotifyTheme
 >>>>>>> ab15d0e (.)
  * @mixin Eloquent
+=======
+>>>>>>> 6a92a74 (.)
  */
-class NotifyTheme extends BaseModel
+class NotifyTheme extends BaseModel implements HasMedia
 {
-    /** @var list<string> */
+    use InteractsWithMedia;
+    use \Illuminate\Database\Eloquent\Factories\HasFactory;
+
     protected $fillable = [
         'id',
         'lang',
         'type',
         'subject',
         'body',
-        'body_html',
         'from',
-        'from_email',
         'post_type',
         'post_id',
+        'body_html',
         'theme',
+        'from_email',
         'logo_src',
         'logo_width',
         'logo_height',
         'view_params',
     ];
 
+<<<<<<< HEAD
     /** @var list<string> */
     protected $appends = [
         'logo',
@@ -311,6 +326,12 @@ class NotifyTheme extends BaseModel
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> f5f1cb1 (.)
+=======
+    /**
+     * @return array{path: string, width: int, height: int}
+     */
+    public function getLogoAttribute(): array
+>>>>>>> 6a92a74 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -329,7 +350,6 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
-    #[Override]
     protected function casts(): array
     {
         return [
@@ -341,7 +361,6 @@ class NotifyTheme extends BaseModel
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
-            // 'published_at' => 'datetime:Y-m-d', // da verificare
             'view_params' => 'array',
         ];
     }

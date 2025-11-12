@@ -13,6 +13,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
+<<<<<<< HEAD
 use Override;
 =======
 =======
@@ -89,12 +90,14 @@ use Filament\Tables\Table;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 6a92a74 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
     protected static string $resource = MailTemplateResource::class;
 
-    #[Override]
+    #[\Override]
     public function getTableColumns(): array
     {
         return [

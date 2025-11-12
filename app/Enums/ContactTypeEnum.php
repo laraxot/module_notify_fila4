@@ -222,6 +222,9 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 99ff506 (.)
     }
 
+    /**
+     * @return array<string>
+     */
     public static function getSearchable(): array
     {
 <<<<<<< HEAD
@@ -249,6 +252,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             fn ($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
         );
 
@@ -271,8 +275,14 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 05bc3ad (.)
 =======
             fn ($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
+=======
+            function (ContactTypeEnum $item) {
+                return TextInput::make($item->value)->prefixIcon($item->getIcon());
+            },
+>>>>>>> 6a92a74 (.)
         );
 
+        /** @var array $res */
         return $res;
 >>>>>>> ab15d0e (.)
     }

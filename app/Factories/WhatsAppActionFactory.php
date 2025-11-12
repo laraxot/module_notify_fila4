@@ -93,6 +93,7 @@ final class WhatsAppActionFactory
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($normalizedDriver)) {
 =======
         if (!is_string($normalizedDriver)) {
@@ -135,6 +136,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> d2c515f (.)
 
+=======
+>>>>>>> 6a92a74 (.)
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 
@@ -163,6 +166,13 @@ final class WhatsAppActionFactory
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
 
-        return app($className);
+        $instance = app($className);
+
+        if (! $instance instanceof WhatsAppProviderActionInterface) {
+            throw new Exception("Failed to create instance of {$className}.");
+        }
+
+        /** @var WhatsAppProviderActionInterface $instance */
+        return $instance;
     }
 }
