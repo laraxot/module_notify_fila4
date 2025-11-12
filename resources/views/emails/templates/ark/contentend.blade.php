@@ -1,9 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-?>
-</div>
 					</td>
 				</tr>
 			</tbody>
@@ -13,4 +7,3 @@ declare(strict_types=1);
 </tr>
 <tr>
 	<td colspan="3" height="30"></td>
-</tr>
