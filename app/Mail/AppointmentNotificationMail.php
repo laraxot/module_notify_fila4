@@ -7,20 +7,30 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2fdda20 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 2fdda20 (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -32,7 +42,14 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
+<<<<<<< HEAD
     use Queueable, SerializesModels;
+=======
+<<<<<<< HEAD
+=======
+    use Queueable, SerializesModels;
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
 
     /**
      * Dati della notifica dell'appuntamento.
@@ -45,10 +62,17 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * Crea una nuova istanza del messaggio.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $notificationData
 =======
      * @param array<string, mixed> $notificationData
 >>>>>>> e39a6f9 (.)
+=======
+     * @param array<string, mixed> $notificationData
+=======
+     * @param  array<string, mixed>  $notificationData
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -78,13 +102,20 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+<<<<<<< HEAD
             $subject .= ' #'.$appointment->id;
         }
 
 =======
         
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+=======
+<<<<<<< HEAD
+>>>>>>> 2fdda20 (.)
             $subject .= ' #' . $appointment->id;
+=======
+            $subject .= ' #'.$appointment->id;
+>>>>>>> bf479cc (.)
         }
         
 >>>>>>> e39a6f9 (.)
