@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -51,16 +52,13 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0875292 (.)
+=======
+>>>>>>> 7392166 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 <tr>
 >>>>>>> 99ff506 (.)
 	<td class="w50" width="50"></td>
@@ -70,6 +68,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,3 +163,6 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0875292 (.)
+=======
+					<div class="article-content" align="left">
+>>>>>>> 7392166 (.)
