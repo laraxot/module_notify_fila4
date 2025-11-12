@@ -1,12 +1,11 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -21,6 +20,8 @@ declare(strict_types=1);
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -41,12 +42,4 @@ class NotificationTypeFactory extends Factory
             'updated_at' => $this->faker->dateTimeBetween('-1 year'),
         ];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b19cd40 (.)
-=======
-}
->>>>>>> 4e2ebfb (.)

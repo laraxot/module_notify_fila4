@@ -20,9 +20,8 @@ class SlackNotification extends Page
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -36,4 +35,6 @@ class SlackNotification extends Page
     protected static null|string $cluster = Test::class;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 }

@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -19,12 +20,9 @@ use Override;
 >>>>>>> 95531e1 (.)
 =======
 >>>>>>> 0f07e6d (.)
-use Override;
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> e11621f (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -34,14 +32,7 @@ use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 >>>>>>> 99ff506 (.)
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
 use function Safe\preg_replace;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -76,9 +67,8 @@ final class SendNetfunSMSAction implements SmsActionContract
     protected int $timeout;
 
     /** @var string|null */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -92,6 +82,8 @@ final class SendNetfunSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 
     /**
      * Create a new action instance.
@@ -116,15 +108,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('sms.debug', false);
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
-=======
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
->>>>>>> b19cd40 (.)
-=======
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
->>>>>>> 4e2ebfb (.)
     }
 
     /**
@@ -140,14 +124,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -195,15 +172,7 @@ final class SendNetfunSMSAction implements SmsActionContract
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
                 $clientException->getCode(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                 $clientException,
-=======
-                $clientException
->>>>>>> b19cd40 (.)
-=======
-                $clientException,
->>>>>>> 4e2ebfb (.)
             );
         }
 
@@ -237,15 +206,7 @@ final class SendNetfunSMSAction implements SmsActionContract
     {
         // Rimuovi tutti i caratteri non numerici tranne il +
         $cleaned = preg_replace('/[^0-9+]/', '', $phoneNumber);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Se preg_replace restituisce null (non dovrebbe succedere con input string)
 <<<<<<< HEAD
         if (! is_string($cleaned) || $cleaned === '') {
@@ -254,9 +215,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
             $cleaned = '';
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
@@ -279,19 +239,13 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> e11621f (.)
         // Se il numero non inizia con '+'
         if (!Str::startsWith($cleaned, '+')) {
             $cleaned = '+39' . ltrim($cleaned, '0');
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         return $cleaned;
     }
 }

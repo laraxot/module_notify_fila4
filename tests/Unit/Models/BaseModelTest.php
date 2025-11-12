@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
 use Tests\TestCase;
@@ -21,6 +17,7 @@ beforeEach(function () {
     {
 =======
     $this->baseModel = new class extends BaseModel {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -40,6 +37,8 @@ beforeEach(function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
         protected $table = 'test_notify_table';
     };
 });

@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -15,12 +16,9 @@ use GuzzleHttp\Exception\ClientException;
 >>>>>>> 95531e1 (.)
 =======
 >>>>>>> 0f07e6d (.)
-use Override;
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> e11621f (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -28,10 +26,9 @@ use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Notify\Datas\SMS\TwilioData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
@@ -50,6 +47,8 @@ use Modules\Notify\Datas\SMS\TwilioData;
 use Modules\Notify\Datas\SmsData;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendTwilioSMSAction implements SmsActionContract
@@ -74,9 +73,8 @@ final class SendTwilioSMSAction implements SmsActionContract
     protected bool $debug;
 
     /** @var string|null */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -90,6 +88,8 @@ final class SendTwilioSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 
     /**
      * Create a new action instance.
@@ -97,9 +97,8 @@ final class SendTwilioSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->twilioData = TwilioData::make();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! $this->twilioData->account_sid) {
@@ -119,6 +118,8 @@ final class SendTwilioSMSAction implements SmsActionContract
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
         if (!$this->twilioData->account_sid) {
             throw new Exception('Account SID Twilio non configurato in sms.php');
         }
@@ -147,14 +148,7 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
@@ -180,10 +174,6 @@ final class SendTwilioSMSAction implements SmsActionContract
         // Twilio richiede l'autenticazione Basic
         $client = new Client([
             'timeout' => $this->twilioData->getTimeout(),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
             'auth' => [$this->twilioData->account_sid, $this->twilioData->auth_token],
         ]);
 
@@ -198,15 +188,6 @@ final class SendTwilioSMSAction implements SmsActionContract
             $this->twilioData->account_sid .
 >>>>>>> 99ff506 (.)
             '/Messages.json';
-<<<<<<< HEAD
-=======
-            'auth' => [$this->twilioData->account_sid, $this->twilioData->auth_token]
-        ]);
-
-        $endpoint = $this->twilioData->getBaseUrl() . '/2010-04-01/Accounts/' . $this->twilioData->account_sid . '/Messages.json';
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
         try {
             $response = $client->post($endpoint, [
@@ -214,15 +195,7 @@ final class SendTwilioSMSAction implements SmsActionContract
                     'To' => $to,
                     'From' => $from,
                     'Body' => $smsData->body,
-<<<<<<< HEAD
-<<<<<<< HEAD
                 ],
-=======
-                ]
->>>>>>> b19cd40 (.)
-=======
-                ],
->>>>>>> 4e2ebfb (.)
             ]);
 
             $this->vars['status_code'] = $response->getStatusCode();
@@ -237,15 +210,7 @@ final class SendTwilioSMSAction implements SmsActionContract
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
                 $clientException->getCode(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                 $clientException,
-=======
-                $clientException
->>>>>>> b19cd40 (.)
-=======
-                $clientException,
->>>>>>> 4e2ebfb (.)
             );
         }
     }

@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -20,13 +16,6 @@ use Override;
 namespace Modules\Notify\Models;
 
 use Override;
-<<<<<<< HEAD
-=======
-namespace Modules\Notify\Models;
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
@@ -107,14 +96,7 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     protected function casts(): array
     {
         return [

@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -21,6 +17,7 @@ use Modules\Notify\Emails\SpatieEmail;
 <<<<<<< HEAD
 =======
 use Modules\Notify\Models\MailTemplate;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -44,6 +41,8 @@ use Illuminate\Notifications\Notification;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 
 class RecordNotification extends Notification
 {
@@ -58,29 +57,18 @@ class RecordNotification extends Notification
     /** @var array<int, array<string, string>> */
 =======
     protected string $slug;
-<<<<<<< HEAD
-<<<<<<< HEAD
     public array $data = [];
 >>>>>>> 99ff506 (.)
     public array $attachments = [];
-=======
-    public array $data=[];
-    public array $attachments=[];
->>>>>>> b19cd40 (.)
-=======
-    public array $data = [];
-    public array $attachments = [];
->>>>>>> 4e2ebfb (.)
 
     public function __construct(Model $record, string $slug)
     {
         $this->record = $record;
         $this->slug = Str::slug($slug);
-<<<<<<< HEAD
-<<<<<<< HEAD
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  object  $notifiable
@@ -101,6 +89,8 @@ class RecordNotification extends Notification
     /**
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
      * @param object $notifiable
 >>>>>>> 99ff506 (.)
      * @return array<string|class-string>
@@ -108,6 +98,7 @@ class RecordNotification extends Notification
     public function via($notifiable): array
     {
         $channels = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,6 +110,8 @@ class RecordNotification extends Notification
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
         if (!method_exists($notifiable, 'routeNotificationFor')) {
 >>>>>>> 99ff506 (.)
             return $channels;
@@ -127,18 +120,6 @@ class RecordNotification extends Notification
             $channels[] = 'mail';
         }
         if ($notifiable->routeNotificationFor('sms')) {
-<<<<<<< HEAD
-=======
-        if (!method_exists($notifiable, 'routeNotificationFor')){
-            return $channels;
-        }
-        if($notifiable->routeNotificationFor('mail')) {
-            $channels[] = 'mail';
-        }
-        if($notifiable->routeNotificationFor('sms')) {
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             $channels[] = SmsChannel::class;
         }
 
@@ -155,10 +136,6 @@ class RecordNotification extends Notification
      */
     public function toMail($notifiable): SpatieEmail
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         $email = new SpatieEmail($this->record, $this->slug);
         $email = $email->mergeData($this->data);
 
@@ -176,36 +153,13 @@ class RecordNotification extends Notification
                 $email->setRecipient($recipient);
 =======
             $to = $notifiable->routeNotificationFor('mail');
-<<<<<<< HEAD
-=======
-        
-        $email = new SpatieEmail($this->record, $this->slug);
-        $email=$email->mergeData($this->data);
-        
-        $email=$email->addAttachments($this->attachments);
-        
-        // Importante: garantisci che ci sia sempre un destinatario
-        if (method_exists($notifiable, 'routeNotificationFor')) {
-            // Ottieni l'email dal notifiable
-            $to=$notifiable->routeNotificationFor('mail');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             $email->to($to);
             if ($to) {
                 $email->setRecipient($to);
 >>>>>>> 99ff506 (.)
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         return $email;
     }
 
@@ -219,10 +173,6 @@ class RecordNotification extends Notification
      * @param object $notifiable
      * @return SmsData
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     public function toSms(object $notifiable): null|SmsData
 >>>>>>> 99ff506 (.)
     {
@@ -256,6 +206,7 @@ class RecordNotification extends Notification
         if ($to === null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -286,14 +237,12 @@ class RecordNotification extends Notification
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
             return null;
         }
 
         $smsData = SmsData::from([
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
             'from' => 'Xot',
 <<<<<<< HEAD
             'to' => $recipient,
@@ -303,17 +252,6 @@ class RecordNotification extends Notification
             'body' => $email->buildSms(),
         ]);
 
-<<<<<<< HEAD
-=======
-            'from'=>'Xot',
-            'to'=>$to,
-            'body'=>$email->buildSms(),
-        ]);
-
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         return $smsData;
     }
 
@@ -342,23 +280,14 @@ class RecordNotification extends Notification
 =======
     public function mergeData(array $data): self
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->data = array_merge($this->data, $data);
-=======
-        $this->data=array_merge($this->data,$data);
->>>>>>> b19cd40 (.)
-=======
-        $this->data = array_merge($this->data, $data);
->>>>>>> 4e2ebfb (.)
         return $this;
     }
 
     public function addAttachments(array $attachments): self
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->attachments = array_merge($this->attachments, $attachments);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -372,6 +301,8 @@ class RecordNotification extends Notification
         $this->attachments = array_merge($this->attachments, $attachments);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
         return $this;
     }
 }

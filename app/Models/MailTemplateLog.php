@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -23,18 +24,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-=======
-use Modules\User\Models\Profile;
-use Illuminate\Database\Eloquent\Model;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -86,14 +81,7 @@ class MailTemplateLog extends BaseModel
      *
      * @return array<string, string>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     protected function casts(): array
     {
         return [

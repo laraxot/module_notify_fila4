@@ -247,8 +247,13 @@ public function toMail(object $notifiable): MailMessage
 **🚀 Performance**: 92/100 score  
 **✨ Test Coverage**: 95% ✅
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 =======
 >>>>>>> 0f07e6d (.)
+=======
+
+
+>>>>>>> e11621f (.)

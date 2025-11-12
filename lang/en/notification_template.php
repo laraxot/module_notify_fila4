@@ -1,12 +1,11 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -21,6 +20,8 @@ declare(strict_types=1);
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 return [
     'navigation' => [
         'icon' => 'heroicon-o-document-text',

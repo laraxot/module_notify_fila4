@@ -9,6 +9,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
@@ -28,16 +29,15 @@ return new class () extends XotBaseMigration {
 return new class() extends XotBaseMigration {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> e11621f (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
         // -- CREATE --
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->uuid('id')->primary();
             $table->string('type');
@@ -52,25 +52,5 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
-<<<<<<< HEAD
-=======
-        $this->tableCreate(
-            function (Blueprint $table): void {
-                $table->uuid('id')->primary();
-                $table->string('type');
-                $table->morphs('notifiable');
-                $table->text('data');
-                $table->timestamp('read_at')->nullable();
-            }
-        );
-        // -- UPDATE --
-        $this->tableUpdate(
-            function (Blueprint $table): void {
-                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
-            }
-        );
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     }
 };

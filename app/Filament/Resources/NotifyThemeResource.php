@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 99ff506 (.)
@@ -23,6 +24,9 @@ use Override;
 use Override;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+use Override;
+>>>>>>> e11621f (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -45,10 +49,6 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class NotifyThemeResource extends XotBaseResource
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> 99ff506 (.)
 
@@ -64,6 +64,7 @@ class NotifyThemeResource extends XotBaseResource
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -96,6 +97,8 @@ class NotifyThemeResource extends XotBaseResource
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -118,29 +121,11 @@ class NotifyThemeResource extends XotBaseResource
                     'widgets' => 'widgets',
                 ])
                 ->default('empty'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
     }
 
-<<<<<<< HEAD
-=======
-            'body' => Textarea::make('body')
-                ->columnSpanFull(),
-            'body_html' => RichEditor::make('body_html')
-                ->columnSpanFull(),
-        ];
-    }
-
-   
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

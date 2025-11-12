@@ -16,18 +16,15 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95531e1 (.)
 =======
 >>>>>>> 0f07e6d (.)
- *
 =======
- * 
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> e11621f (.)
  *
->>>>>>> 4e2ebfb (.)
  * @package Modules\Notify\Notifications
 >>>>>>> 99ff506 (.)
  */
@@ -70,9 +67,8 @@ class SmsNotification extends Notification implements ShouldQueue
         } else {
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $this->smsData = new SmsData;
@@ -88,6 +84,8 @@ class SmsNotification extends Notification implements ShouldQueue
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
             $this->smsData = new SmsData();
 >>>>>>> 99ff506 (.)
             $this->smsData->body = $content;
@@ -96,21 +94,14 @@ class SmsNotification extends Notification implements ShouldQueue
             /** @phpstan-ignore-next-line */
             $this->smsData->from = (string) $from;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         $this->config = $config;
     }
 
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,20 +113,13 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
 >>>>>>> 99ff506 (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
-<<<<<<< HEAD
-=======
-     * @param mixed $notifiable
-     * @return array<int, string>
-     */
-    public function via(mixed $notifiable): array
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     {
         // TODO: Implementare SmsChannel quando disponibile
         return ['sms'];
@@ -184,15 +168,7 @@ class SmsNotification extends Notification implements ShouldQueue
      *
      * @return string|null
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getProvider(): null|string
-=======
-    public function getProvider(): ?string
->>>>>>> b19cd40 (.)
-=======
-    public function getProvider(): null|string
->>>>>>> 4e2ebfb (.)
     {
         $provider = $this->config['provider'] ?? null;
 >>>>>>> 99ff506 (.)

@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Eloquent;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -21,12 +22,9 @@ use Override;
 >>>>>>> 95531e1 (.)
 =======
 >>>>>>> 0f07e6d (.)
-use Override;
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> e11621f (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -145,6 +143,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getLogoAttribute(?array $value): array
 =======
     public function getLogoAttribute(null|array $value): array
@@ -163,6 +162,9 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> e11621f (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -181,14 +183,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     protected function casts(): array
     {
         return [
@@ -197,23 +192,9 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
-<<<<<<< HEAD
-<<<<<<< HEAD
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
-=======
-
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
-
->>>>>>> b19cd40 (.)
-=======
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
->>>>>>> 4e2ebfb (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
             'view_params' => 'array',
         ];

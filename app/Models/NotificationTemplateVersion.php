@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
@@ -23,18 +24,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
-<<<<<<< HEAD
-=======
-use RuntimeException;
-use Modules\User\Models\Profile;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -86,14 +81,7 @@ class NotificationTemplateVersion extends BaseModel
      *
      * @return array<string, string>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     protected function casts(): array
     {
         return [
@@ -111,10 +99,6 @@ class NotificationTemplateVersion extends BaseModel
     public function restore(): NotificationTemplate
     {
         $template = $this->template;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 
 <<<<<<< HEAD
         if (! $template) {
@@ -125,16 +109,6 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 99ff506 (.)
         }
 
-<<<<<<< HEAD
-=======
-        
-        if (!$template) {
-            throw new RuntimeException('Template not found for version ' . $this->id);
-        }
-        
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -146,12 +120,4 @@ class NotificationTemplateVersion extends BaseModel
 
         return $template;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-} 
->>>>>>> b19cd40 (.)
-=======
-}
->>>>>>> 4e2ebfb (.)

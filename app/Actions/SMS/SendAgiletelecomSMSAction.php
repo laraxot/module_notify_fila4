@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Override;
@@ -17,11 +18,14 @@ use Override;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -41,16 +45,14 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
 class SendAgiletelecomSMSAction implements SmsActionContract
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     #[Override]
     public function execute(SmsData $data): array
     {
@@ -58,16 +60,4 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 
         return $res;
     }
-<<<<<<< HEAD
-=======
-    public function execute(SmsData $data): array{
-        
-        $res= app(SendAgiletelecomSMSv2Action::class)->execute($data);
-        
-        return $res;
-    }
-   
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 }

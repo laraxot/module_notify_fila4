@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
@@ -36,29 +37,19 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+use Override;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+>>>>>>> e11621f (.)
 
 class ListNotificationTemplates extends XotBaseListRecords
 {
     protected static string $resource = NotificationTemplateResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     public function getTableColumns(): array
     {
         return [];
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-} 
->>>>>>> b19cd40 (.)
-=======
-}
->>>>>>> 4e2ebfb (.)

@@ -11,15 +11,7 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 
 /**
  * Canale di notifica per l'invio di messaggi WhatsApp.
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> b19cd40 (.)
-=======
- *
->>>>>>> 4e2ebfb (.)
  * Questo canale utilizza il driver WhatsApp configurato in config/whatsapp.php
  * per inviare messaggi WhatsApp attraverso il provider selezionato.
  */
@@ -29,15 +21,7 @@ class WhatsAppChannel
      * Factory per la creazione di azioni WhatsApp.
      */
     private WhatsAppActionFactory $factory;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -45,15 +29,7 @@ class WhatsAppChannel
     {
         $this->factory = $factory;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
@@ -71,6 +47,7 @@ class WhatsAppChannel
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,14 +69,13 @@ class WhatsAppChannel
         if (!method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> e11621f (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
         $whatsAppData = $notification->toWhatsApp($notifiable);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 
 <<<<<<< HEAD
         if (! ($whatsAppData instanceof WhatsAppData)) {
@@ -111,18 +87,6 @@ class WhatsAppChannel
 
         $action = $this->factory->create();
 
-<<<<<<< HEAD
-=======
-        
-        if (! $whatsAppData instanceof WhatsAppData) {
-            throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
-        }
-        
-        $action = $this->factory->create();
-        
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         return $action->execute($whatsAppData);
     }
 }

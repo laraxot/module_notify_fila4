@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -15,12 +16,9 @@ use GuzzleHttp\Exception\ClientException;
 >>>>>>> 95531e1 (.)
 =======
 >>>>>>> 0f07e6d (.)
-use Override;
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> e11621f (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -28,10 +26,9 @@ use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Notify\Datas\SMS\SmsFactorData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
@@ -50,6 +47,8 @@ use Modules\Notify\Datas\SMS\SmsFactorData;
 use Modules\Notify\Datas\SmsData;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendSmsFactorSMSAction implements SmsActionContract
@@ -74,9 +73,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     protected bool $debug;
 
     /** @var string|null */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
@@ -90,6 +88,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 
     /**
      * Create a new action instance.
@@ -97,9 +97,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->smsFactorData = SmsFactorData::make();
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! $this->smsFactorData->token) {
@@ -115,6 +114,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
         if (!$this->smsFactorData->token) {
 >>>>>>> 99ff506 (.)
             throw new Exception('Token SMSFactor non configurato in sms.php');
@@ -139,14 +140,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[Override]
-=======
->>>>>>> b19cd40 (.)
-=======
-    #[Override]
->>>>>>> 4e2ebfb (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();
@@ -182,15 +176,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
         $client = new Client([
             'timeout' => $this->smsFactorData->getTimeout(),
-<<<<<<< HEAD
-<<<<<<< HEAD
             'headers' => $headers,
-=======
-            'headers' => $headers
->>>>>>> b19cd40 (.)
-=======
-            'headers' => $headers,
->>>>>>> 4e2ebfb (.)
         ]);
 
         try {
@@ -211,15 +197,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
                 $clientException->getCode(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                 $clientException,
-=======
-                $clientException
->>>>>>> b19cd40 (.)
-=======
-                $clientException,
->>>>>>> 4e2ebfb (.)
             );
         }
     }

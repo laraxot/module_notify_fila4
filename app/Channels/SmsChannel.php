@@ -50,6 +50,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! method_exists($notification, 'toSms')) {
 =======
         if (!method_exists($notification, 'toSms')) {
@@ -68,11 +69,15 @@ class SmsChannel
         if (!method_exists($notification, 'toSms')) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+        if (!method_exists($notification, 'toSms')) {
+>>>>>>> e11621f (.)
             throw new Exception('Notification does not have toSms method');
         }
 
         $smsData = $notification->toSms($notifiable);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,18 +100,13 @@ class SmsChannel
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+        if (!($smsData instanceof SmsData)) {
+>>>>>>> e11621f (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
         $action = $this->factory->create();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
         return $action->execute($smsData);
     }

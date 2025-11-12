@@ -7,6 +7,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class NotificationTypePolicy extends NotifyBasePolicy {}
 =======
 class NotificationTypePolicy extends NotifyBasePolicy
@@ -31,3 +32,8 @@ class NotificationTypePolicy extends NotifyBasePolicy
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+class NotificationTypePolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> e11621f (.)

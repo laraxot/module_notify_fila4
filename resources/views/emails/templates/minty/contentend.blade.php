@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7,11 +8,14 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -25,6 +29,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 </tbody>
 </table>
 </td>
@@ -35,12 +41,4 @@ declare(strict_types=1);
 </tr>
 </tbody>
 </table>
-<<<<<<< HEAD
-<<<<<<< HEAD
 </div>
-=======
-</div>
->>>>>>> b19cd40 (.)
-=======
-</div>
->>>>>>> 4e2ebfb (.)

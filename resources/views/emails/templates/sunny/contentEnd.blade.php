@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -25,6 +26,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 </div>
 					</td>
 				</tr>
@@ -35,12 +38,4 @@ declare(strict_types=1);
 </tr>
 <tr>
 	<td colspan="3" height="30"></td>
-<<<<<<< HEAD
-<<<<<<< HEAD
 </tr>
-=======
-</tr>
->>>>>>> b19cd40 (.)
-=======
-</tr>
->>>>>>> 4e2ebfb (.)

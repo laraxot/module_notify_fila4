@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -7,16 +8,13 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 <div class="block">
 >>>>>>> 99ff506 (.)
 	<!-- Full + text -->
@@ -35,6 +33,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 								<tbody>
 >>>>>>> 99ff506 (.)
@@ -52,3 +51,6 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+								<tbody>
+>>>>>>> e11621f (.)

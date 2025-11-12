@@ -11,15 +11,7 @@ use Modules\Notify\Factories\TelegramActionFactory;
 
 /**
  * Canale di notifica per l'invio di messaggi Telegram.
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> b19cd40 (.)
-=======
- *
->>>>>>> 4e2ebfb (.)
  * Questo canale utilizza il driver Telegram configurato in config/telegram.php
  * per inviare messaggi Telegram attraverso il provider selezionato.
  */
@@ -29,15 +21,7 @@ class TelegramChannel
      * Factory per la creazione di azioni Telegram.
      */
     private TelegramActionFactory $factory;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -45,15 +29,7 @@ class TelegramChannel
     {
         $this->factory = $factory;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
     /**
      * Invia la notifica attraverso il canale Telegram.
      *
@@ -71,6 +47,7 @@ class TelegramChannel
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,14 +69,13 @@ class TelegramChannel
         if (!method_exists($notification, 'toTelegram')) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+>>>>>>> e11621f (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
         $telegramData = $notification->toTelegram($notifiable);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 
 <<<<<<< HEAD
         if (! ($telegramData instanceof TelegramData)) {
@@ -111,18 +87,6 @@ class TelegramChannel
 
         $action = $this->factory->create();
 
-<<<<<<< HEAD
-=======
-        
-        if (! $telegramData instanceof TelegramData) {
-            throw new Exception('toTelegram method must return an instance of TelegramData');
-        }
-        
-        $action = $this->factory->create();
-        
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         return $action->execute($telegramData);
     }
 }
