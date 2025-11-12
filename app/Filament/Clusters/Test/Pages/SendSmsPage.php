@@ -72,14 +72,6 @@ class SendSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
-<<<<<<< HEAD
-=======
-    public function smsForm(Schema $schema): Schema
-    {
-        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
-    }
-
->>>>>>> 6bd5430 (.)
     public function getSmsFormSchema(): array
     {
         return [
