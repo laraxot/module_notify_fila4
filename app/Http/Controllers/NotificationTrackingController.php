@@ -135,7 +135,7 @@ class NotificationTrackingController extends Controller
 
             $metadata['clicked_links'] = array_merge(
                 $clickedLinks,
-                [$url => now()->toIso8601String()]
+                [(string) $url => now()->toIso8601String()]
             );
             $log->update(['data' => $metadata]);
         }
