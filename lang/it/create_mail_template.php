@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -51,44 +47,3 @@ return [
         ],
     ],
 ];
-<<<<<<< HEAD
-=======
-return array (
-  'fields' => 
-  array (
-    'mailable' => 
-    array (
-      'label' => 'mailable',
-    ),
-    'subject' => 
-    array (
-      'label' => 'subject',
-    ),
-    'html_template' => 
-    array (
-      'label' => 'html_template',
-    ),
-    'text_template' => 
-    array (
-      'label' => 'text_template',
-    ),
-  ),
-  'actions' => 
-  array (
-    'create' => 
-    array (
-      'label' => 'create',
-    ),
-    'createAnother' => 
-    array (
-      'label' => 'createAnother',
-    ),
-    'cancel' => 
-    array (
-      'label' => 'cancel',
-    ),
-  ),
-);
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
