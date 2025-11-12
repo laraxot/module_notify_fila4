@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15,12 +16,15 @@
 =======
 >>>>>>> f331fd1 (.)
 =======
+>>>>>>> 0dd5e35 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82c6772 (.)
 =======
@@ -45,11 +49,14 @@
 >>>>>>> a7fea39 (.)
 =======
 >>>>>>> 0cea4dc (.)
+=======
+>>>>>>> 0dd5e35 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +81,8 @@ declare(strict_types=1);
 >>>>>>> 53dd2f8 (.)
 =======
 =======
+>>>>>>> 0dd5e35 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
@@ -82,6 +91,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f331fd1 (.)
 =======
 =======
@@ -95,6 +105,8 @@ declare(strict_types=1);
 >>>>>>> a7fea39 (.)
 =======
 >>>>>>> 0cea4dc (.)
+=======
+>>>>>>> 0dd5e35 (.)
 </td>
 =======
 <<<<<<< HEAD
@@ -131,6 +143,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 =======
 <<<<<<< HEAD
@@ -144,6 +157,11 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> f331fd1 (.)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+=======
+<<<<<<< HEAD
+>>>>>>> 0dd5e35 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
@@ -157,6 +175,7 @@ declare(strict_types=1);
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
@@ -202,3 +221,5 @@ declare(strict_types=1);
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> 0cea4dc (.)
+=======
+>>>>>>> 0dd5e35 (.)
