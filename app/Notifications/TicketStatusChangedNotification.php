@@ -51,7 +51,7 @@ class TicketStatusChangedNotification extends Notification
     }
 
     /**
-     * @return array<int, string>
+     * @return array<string, mixed>
      */
     public function toArray(mixed $notifiable): array
     {
