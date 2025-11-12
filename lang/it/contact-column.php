@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 /**
  * Traduzioni per ContactColumn - Colonna Filament per contatti
+<<<<<<< HEAD
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+=======
+ * 
+ * File di traduzione per la colonna riutilizzabile ContactColumn
+ * che utilizza ContactTypeEnum per il rendering centralizzato.
+ * 
+>>>>>>> b19cd40 (.)
  * @author Laraxot Team
 <<<<<<< HEAD
  *
