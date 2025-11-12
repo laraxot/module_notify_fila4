@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -412,6 +413,8 @@ Log::channel('email')->info('Email sent', [
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> a612126 (.)
+=======
+>>>>>>> 467a2e4 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -705,8 +708,11 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 =======
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> a612126 (.)
+=======
+>>>>>>> 467a2e4 (.)
