@@ -372,7 +372,10 @@ NETFUN_TOKEN=your_token_here
 NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Global SMS configuration
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> d284d65 (.)
 SMS_FROM_NAME=SaluteOra
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
@@ -674,14 +677,20 @@ Log::info('SMS inviato', [
 - [API Netfun](https://v2.smsviainternet.it/api/rest/v1/)
 - [Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
+<<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
+=======
+>>>>>>> d284d65 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
+=======
+>>>>>>> d284d65 (.)
