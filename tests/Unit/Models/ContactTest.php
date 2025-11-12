@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\Contact;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b19cd40 (.)
 
 class ContactTest extends TestCase
 {
@@ -282,7 +288,13 @@ class ContactTest extends TestCase
             'value' => 'test@example.com',
         ]);
 
+<<<<<<< HEAD
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')
+            ->where('model_id', '123')
+            ->first();
+>>>>>>> b19cd40 (.)
 
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
@@ -737,3 +749,13 @@ class ContactTest extends TestCase
         $this->assertEquals(3, $orderedContacts[2]->order_column);
     }
 }
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+>>>>>>> b19cd40 (.)

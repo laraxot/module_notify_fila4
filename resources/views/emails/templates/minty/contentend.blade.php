@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -154,11 +155,14 @@
 >>>>>>> cde5a49 (.)
 =======
 >>>>>>> daf5ed9 (.)
+=======
+>>>>>>> 6e70c13 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +351,10 @@ declare(strict_types=1);
 >>>>>>> cde5a49 (.)
 =======
 >>>>>>> daf5ed9 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6e70c13 (.)
 </tbody>
 </table>
 </td>
@@ -357,4 +365,8 @@ declare(strict_types=1);
 </tr>
 </tbody>
 </table>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> b19cd40 (.)
