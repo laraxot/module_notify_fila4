@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -57,6 +58,11 @@ declare(strict_types=1);
 
 >>>>>>> c434001 (.)
 =======
+declare(strict_types=1);
+
+
+>>>>>>> 10b3b08 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,15 +73,19 @@ declare(strict_types=1);
 >>>>>>> a12f125f4a (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 4e643df (.)
 =======
 >>>>>>> c434001 (.)
 =======
+>>>>>>> 10b3b08 (.)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,10 +111,13 @@ declare(strict_types=1);
 >>>>>>> 4e643df (.)
 =======
 >>>>>>> c434001 (.)
+=======
+>>>>>>> 10b3b08 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
@@ -254,6 +267,8 @@ declare(strict_types=1);
 >>>>>>> 467a2e4 (.)
 =======
 >>>>>>> 038df52 (.)
+=======
+>>>>>>> 10b3b08 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

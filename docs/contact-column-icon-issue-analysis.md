@@ -9,7 +9,11 @@
 ## 🔍 ANALISI TECNICA
 
 ### **Causa Radice**
+<<<<<<< HEAD
 La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il sistema di icone di Filament 4.x.
+=======
+La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il sistema di icone di Filament 3.x.
+>>>>>>> d284d65 (.)
 
 ### **Sintassi Attuale (ERRATA)**
 ```blade
@@ -17,7 +21,11 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 @svg($icon, 'w-4 h-4 flex-shrink-0 ' . $color)
 ```
 
+<<<<<<< HEAD
 ### **Sintassi Corretta per Filament 4.x**
+=======
+### **Sintassi Corretta per Filament 3.x**
+>>>>>>> d284d65 (.)
 ```blade
 {{-- ✅ CORRETTO: Sintassi Filament per icone Heroicons --}}
 <x-filament::icon 
@@ -76,7 +84,11 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 ## 🎯 RACCOMANDAZIONE
 
 **USARE OPZIONE 1**: `<x-filament::icon>` perché:
+<<<<<<< HEAD
 - ✅ Nativo Filament 4.x
+=======
+- ✅ Nativo Filament 3.x
+>>>>>>> d284d65 (.)
 - ✅ Supporto completo Heroicons
 - ✅ Gestione automatica dei path
 - ✅ Caching integrato
@@ -131,7 +143,11 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 | **Icone Visibili** | ❌ No | ✅ Sì |
 | **Performance** | N/A | ✅ Ottimizzata (Filament caching) |
 | **Manutenibilità** | ❌ Sintassi obsoleta | ✅ Sintassi standard |
+<<<<<<< HEAD
 | **Compatibilità** | ❌ Non garantita | ✅ Filament 4.x native |
+=======
+| **Compatibilità** | ❌ Non garantita | ✅ Filament 3.x native |
+>>>>>>> d284d65 (.)
 
 ---
 

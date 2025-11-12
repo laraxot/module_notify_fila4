@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -31,12 +32,15 @@
 =======
 >>>>>>> c434001 (.)
 =======
+>>>>>>> 10b3b08 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
@@ -74,11 +78,23 @@
 >>>>>>> 806a0e3 (.)
 =======
 >>>>>>> 1f13f40 (.)
+=======
+>>>>>>> 10b3b08 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 <tr>
 >>>>>>> 99ff506 (.)
 	<td class="w40" width="40"></td>
@@ -108,6 +124,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> 99ff506 (.)
@@ -146,6 +163,9 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> c434001 (.)
 =======
+					<div class="article-content" align="left">
+>>>>>>> 10b3b08 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +180,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
@@ -218,3 +239,5 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 1f13f40 (.)
+=======
+>>>>>>> 10b3b08 (.)

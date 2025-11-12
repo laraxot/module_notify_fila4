@@ -4,9 +4,33 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyThemeable;
+use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyThemeable;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyThemeable;
+use Tests\TestCase;
+>>>>>>> b93ef594b4 (.)
+=======
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyThemeable;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -94,7 +118,27 @@ class NotifyThemeableTest extends TestCase
             'notify_theme_id' => 456,
         ]);
 
+<<<<<<< HEAD
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')
+            ->where('model_id', 123)
+            ->first();
+>>>>>>> a12f125f4a (.)
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+>>>>>>> b93ef594b4 (.)
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')
+            ->where('model_id', 123)
+            ->first();
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
         $this->assertNotNull($found);
         $this->assertEquals($themeable->id, $found->id);
@@ -377,3 +421,25 @@ class NotifyThemeableTest extends TestCase
         $this->assertEquals(2, $todayThemeables[0]->model_id);
     }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+
+
+
+
+
+
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
