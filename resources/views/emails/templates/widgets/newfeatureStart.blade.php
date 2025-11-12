@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f813254 (.)
@@ -139,11 +140,14 @@
 >>>>>>> bc11326 (.)
 =======
 >>>>>>> e627c3b (.)
+=======
+>>>>>>> e091c3c (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +309,8 @@ declare(strict_types=1);
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> e627c3b (.)
+=======
+>>>>>>> e091c3c (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 99ff506 (.)
 	<tr>
