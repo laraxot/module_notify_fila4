@@ -432,13 +432,6 @@ return [
 
 ## Vedi Anche
 
-<<<<<<< HEAD
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
-=======
-- [Laravel Exceptions](https://laravel.com/project_docs/errors)
-- [Filament Forms](https://filamentphp.com/project_docs/forms)
-- [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
-- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
->>>>>>> bf479cc (.)
