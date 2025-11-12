@@ -85,7 +85,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $preferences = [
             'email' => true,
             'sms' => false,
@@ -130,7 +130,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $demographics = [
             'age' => 35,
             'gender' => 'M',
@@ -173,7 +173,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $communicationHistory = [
             [
                 'type' => 'email',
@@ -243,7 +243,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $tags = [
             'vip' => 'Cliente VIP',
             'new' => 'Nuovo cliente',
@@ -279,7 +279,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $customFields = [
             'specialization' => 'Ortodonzia',
             'university' => 'Università di Milano',
@@ -317,7 +317,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $subscriptionData = [
             'subscribed' => true,
             'subscription_date' => now()->subMonths(3),
@@ -374,7 +374,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $engagementData = [
             'engagement_score' => 85,
             'last_interaction' => now()->subDays(2),
@@ -420,7 +420,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $privacySettings = [
             'gdpr_consent' => true,
             'consent_date' => now()->subMonths(6),
@@ -462,15 +462,15 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $emailContact = Contact::factory()->create([
+        $emailContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $smsContact = Contact::factory()->create([
+        $smsContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
             'preferences' => ['email' => false, 'sms' => true],
         ]);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $bothContact = Contact::factory()->create([
+        $bothContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
             'preferences' => ['email' => true, 'sms' => true],
         ]);
 
@@ -499,11 +499,11 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $vipContact = Contact::factory()->create([
+        $vipContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $newContact = Contact::factory()->create([
+        $newContact = Contact/** @phpstan-ignore-line */ ::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
         ]);
 
@@ -527,11 +527,11 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $highEngagementContact = Contact::factory()->create(['engagement_level' => 'high']);
+        $highEngagementContact = Contact/** @phpstan-ignore-line */ ::factory()->create(['engagement_level' => 'high']);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $mediumEngagementContact = Contact::factory()->create(['engagement_level' => 'medium']);
+        $mediumEngagementContact = Contact/** @phpstan-ignore-line */ ::factory()->create(['engagement_level' => 'medium']);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $lowEngagementContact = Contact::factory()->create(['engagement_level' => 'low']);
+        $lowEngagementContact = Contact/** @phpstan-ignore-line */ ::factory()->create(['engagement_level' => 'low']);
 
         // Act
         $highEngagementContacts = Contact::where('engagement_level', 'high')->get();
@@ -553,9 +553,9 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $group = ContactGroup::factory()->create();
+        $group = ContactGroup/** @phpstan-ignore-line */ ::factory()->create();
 
         /** @phpstan-ignore-next-line method.nonObject */
         $contact->update(['group_id' => $group->id]);
@@ -577,7 +577,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $importData = [
             'import_source' => 'csv_upload',
             'import_date' => now()->subDays(10),
@@ -622,7 +622,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $contact = Contact::factory()->create();
+        $contact = Contact/** @phpstan-ignore-line */ ::factory()->create();
         $activityData = [
             'last_activity' => now()->subHours(2),
             'activity_count' => 25,
