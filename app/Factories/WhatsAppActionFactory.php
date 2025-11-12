@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Factories;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13,6 +14,8 @@ namespace Modules\Notify\Factories;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
+=======
+>>>>>>> 8d298d6 (.)
 use Exception;
 use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
@@ -26,12 +29,15 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 
 use function Safe\preg_replace;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
+=======
+>>>>>>> 8d298d6 (.)
 
 /**
  * Factory per la creazione di azioni WhatsApp.
@@ -78,6 +84,7 @@ final class WhatsAppActionFactory
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 <<<<<<< HEAD
@@ -99,6 +106,13 @@ final class WhatsAppActionFactory
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
+
+        if (!is_string($normalizedDriver)) {
+            $normalizedDriver = '';
+        }
+>>>>>>> 8d298d6 (.)
 
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
