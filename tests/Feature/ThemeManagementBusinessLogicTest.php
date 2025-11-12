@@ -584,12 +584,4 @@ describe('Theme Management Business Logic', function () {
             'replacement_theme_id' => 25,
         ]);
     });
-<<<<<<< HEAD
-<<<<<<< HEAD
 });
-=======
-}
->>>>>>> b19cd40 (.)
-=======
-});
->>>>>>> 4e2ebfb (.)
