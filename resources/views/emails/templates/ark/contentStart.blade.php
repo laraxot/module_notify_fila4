@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14,6 +15,8 @@
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 3962ad4 (.)
 <?php
 
 declare(strict_types=1);
@@ -21,6 +24,11 @@ declare(strict_types=1);
 ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3962ad4 (.)
 <tr>
 =======
 <<<<<<< HEAD
@@ -48,6 +56,7 @@ declare(strict_types=1);
 				<td class="w560" width="560">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
 <<<<<<< HEAD
@@ -74,3 +83,9 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> b94a5f6 (.)
+=======
+					<div class="article-content" align="left">
+=======
+					<div class="article-content" align="left">
+>>>>>>> b19cd40 (.)
+>>>>>>> 3962ad4 (.)

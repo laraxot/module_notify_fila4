@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,11 +22,14 @@
 >>>>>>> 7cf73d1 (.)
 =======
 >>>>>>> 4b81568 (.)
+=======
+>>>>>>> 3962ad4 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +50,10 @@ declare(strict_types=1);
 >>>>>>> 7cf73d1 (.)
 =======
 >>>>>>> 4b81568 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3962ad4 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 518c702 (.)
@@ -78,6 +86,7 @@ declare(strict_types=1);
 				<tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
 =======
 <<<<<<< HEAD
@@ -104,3 +113,9 @@ declare(strict_types=1);
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> b94a5f6 (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> b19cd40 (.)
+>>>>>>> 3962ad4 (.)
