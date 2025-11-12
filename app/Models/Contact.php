@@ -212,6 +212,48 @@ use Illuminate\Support\Carbon;
 >>>>>>> 92ecc28 (.)
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
+=======
+/**
+ * @property string $id
+ * @property string $model_type
+ * @property string $model_id
+ * @property string|null $contact_type
+ * @property string|null $value
+ * @property string|null $user_id
+ * @property string|null $verified_at
+ * @property string|null $token
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\ContactFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Contact newModelQuery()
+ * @method static Builder<static>|Contact newQuery()
+ * @method static Builder<static>|Contact query()
+ * @method static Builder<static>|Contact whereContactType($value)
+ * @method static Builder<static>|Contact whereCreatedAt($value)
+ * @method static Builder<static>|Contact whereCreatedBy($value)
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ * @method static Builder<static>|Contact whereId($value)
+ * @method static Builder<static>|Contact whereModelId($value)
+ * @method static Builder<static>|Contact whereModelType($value)
+ * @method static Builder<static>|Contact whereToken($value)
+ * @method static Builder<static>|Contact whereUpdatedAt($value)
+ * @method static Builder<static>|Contact whereUpdatedBy($value)
+ * @method static Builder<static>|Contact whereUserId($value)
+ * @method static Builder<static>|Contact whereValue($value)
+ * @method static Builder<static>|Contact whereVerifiedAt($value)
+ * @mixin \Eloquent
+ */
+>>>>>>> 6e550ff (.)
 class Contact extends BaseModel
 {
     /** @var list<string> */
