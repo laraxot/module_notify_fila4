@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Pagine Filament del Modulo Notify
@@ -103,3 +104,5 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

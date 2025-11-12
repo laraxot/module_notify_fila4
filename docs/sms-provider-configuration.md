@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Configurazione Corretta dei Provider SMS 
@@ -139,3 +140,5 @@ TWILIO_AUTH_TOKEN=your_auth_token_here
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

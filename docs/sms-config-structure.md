@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Struttura della Configurazione SMS 
@@ -172,3 +173,5 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

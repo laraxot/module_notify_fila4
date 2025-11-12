@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Email Layouts Best Practices 
 
 =======
@@ -222,3 +223,5 @@ Il supporto per la Dark Mode migliora l'esperienza utente e riduce l'affaticamen
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

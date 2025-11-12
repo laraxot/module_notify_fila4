@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern Architetturali per le Notifiche
 
 =======
@@ -147,3 +148,5 @@ Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola i
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

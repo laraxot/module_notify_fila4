@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f6b0523 (.)
 =======
@@ -131,3 +132,5 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 >>>>>>> f6b0523 (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

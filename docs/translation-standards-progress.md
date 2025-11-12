@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Progresso Standardizzazione Traduzioni
@@ -146,3 +147,5 @@
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/create_mail_template.php
 ```
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

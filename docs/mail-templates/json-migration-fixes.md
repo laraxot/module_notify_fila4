@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Correzioni per le Migrazioni JSON in Laravel
@@ -163,3 +164,5 @@ I problemi più comuni si verificano in migrazioni che coinvolgono campi con tra
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

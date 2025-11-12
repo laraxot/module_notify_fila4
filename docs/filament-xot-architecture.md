@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Architettura Filament : Pattern XotBase
@@ -185,3 +186,5 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

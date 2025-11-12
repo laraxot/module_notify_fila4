@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
@@ -248,3 +249,5 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

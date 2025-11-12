@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Guida Completa ai Provider di Notifiche 
 
 =======
@@ -146,3 +147,5 @@ Per implementazioni specifiche, vedere i documenti:
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

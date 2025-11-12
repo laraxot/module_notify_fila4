@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Integrazione GrapesJS Editor (Dotswan)
@@ -146,3 +147,5 @@ class PublishPageTemplateAction {
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

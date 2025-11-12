@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Errori Comuni da Evitare nelle Implementazioni di Moduli 
 # Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
@@ -99,3 +100,5 @@
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

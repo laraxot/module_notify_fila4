@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
@@ -115,3 +116,5 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Modelli, Factory e Seeder - Modulo Notify
 
 ## Panoramica
@@ -281,3 +282,5 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 *Ultimo aggiornamento: Gennaio 2025*
 *Analisi completa di 10 modelli attivi, 4 file backup da rimuovere*
 *Sistema notifiche multi-canale completo*
+=======
+>>>>>>> aedd9af (.)

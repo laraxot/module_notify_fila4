@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Guida ai Layout Email nel Modulo Notify
@@ -150,3 +151,5 @@ I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templa
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

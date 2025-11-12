@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
@@ -172,3 +173,5 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

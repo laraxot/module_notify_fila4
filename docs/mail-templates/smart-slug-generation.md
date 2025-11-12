@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Generazione Intelligente di Slug in Filament
@@ -207,3 +208,5 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

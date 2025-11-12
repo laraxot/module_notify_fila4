@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Implementazione Pratica del Modulo Notify
@@ -796,3 +797,5 @@ class TemplateControllerTest extends TestCase
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

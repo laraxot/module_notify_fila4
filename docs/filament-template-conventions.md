@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Convenzioni per Template Blade di Filament 
@@ -92,3 +93,5 @@ grep -L "name=\"footer\"" /var/www/html/_bases/base_techplanner_fila3_mono/larav
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

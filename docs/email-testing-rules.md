@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Regole per il Testing delle Email
@@ -183,3 +184,5 @@ public function sendEmail(): void
 =======
 - Seguire il principio "meno è più" 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Esempi Aggiuntivi di Contenuto per Template Email
@@ -206,3 +207,5 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

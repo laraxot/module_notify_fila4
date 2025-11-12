@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Stato Attuale del Lavoro - 12 Maggio 2025
@@ -80,3 +81,5 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 - La documentazione è stata aggiornata per riflettere queste eccezioni e prevenire confusioni future
 - Le soluzioni implementate mantengono la compatibilità con il codice esistente, garantendo al contempo chiarezza per gli sviluppatori futuri
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

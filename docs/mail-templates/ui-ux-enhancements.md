@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # UI/UX Enhancements per i Campi `name` e `slug` in MailTemplateResource
@@ -257,3 +258,5 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

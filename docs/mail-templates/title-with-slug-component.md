@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Analisi del Componente TitleWithSlugInput per Filament
@@ -272,3 +273,5 @@ L'implementazione dovrebbe seguire le convenzioni del progetto, con particolare 
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

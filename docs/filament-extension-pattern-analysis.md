@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Analisi del Pattern di Estensione per Componenti Filament
@@ -111,3 +112,5 @@ L'adozione coerente del pattern di estensione XotBase offre vantaggi significati
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
@@ -141,3 +142,5 @@ Per garantire la coerenza futura, si raccomanda di:
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

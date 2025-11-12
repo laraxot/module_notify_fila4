@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Convenzione di Naming per le Interfacce 
@@ -80,3 +81,5 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 - [SaluteOra Code Quality Guidelines](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

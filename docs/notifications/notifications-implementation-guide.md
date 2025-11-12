@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Guida all'Implementazione delle Notifiche 
@@ -174,3 +175,5 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

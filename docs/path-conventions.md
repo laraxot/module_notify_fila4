@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Convenzioni sui Percorsi 
@@ -87,3 +88,5 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

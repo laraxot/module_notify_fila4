@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Convenzioni di Naming per Pagine Filament
@@ -74,3 +75,5 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/F
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Utilizzo Corretto degli Allegati nelle Email Spatie
@@ -131,3 +132,5 @@ Ogni allegato deve contenere i seguenti parametri:
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Regole di Estensione delle Classi Filament
@@ -75,3 +76,5 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/F
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

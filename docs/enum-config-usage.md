@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utilizzo di Enum e Config 
 
 =======
@@ -160,3 +161,5 @@ Per standardizzare l'approccio , si raccomanda di:
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema  garantirà un codice più robusto e facile da mantenere.
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

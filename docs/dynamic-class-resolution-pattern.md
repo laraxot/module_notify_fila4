@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
 =======
@@ -196,3 +197,5 @@ Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza 
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

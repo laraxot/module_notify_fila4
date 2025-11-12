@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Analisi del Pattern Factory per la Selezione dei Provider SMS
@@ -134,3 +135,5 @@ Questa scelta architetturale è coerente con i principi SOLID e con l'architettu
 
 Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre vantaggi che superano del 30-40% i suoi svantaggi, mentre spostare la logica nel DTO comporterebbe svantaggi che superano del 60-70% i potenziali vantaggi.
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

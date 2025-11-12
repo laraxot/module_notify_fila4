@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Traduzioni SmsDriverEnum - Modulo Notify
@@ -202,3 +203,5 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 ---
 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

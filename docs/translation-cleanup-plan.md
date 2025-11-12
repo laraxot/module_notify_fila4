@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 =======
@@ -113,3 +114,5 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

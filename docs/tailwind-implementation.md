@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Implementazione Tailwind CSS nel Modulo Notify
@@ -342,3 +343,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 =======
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

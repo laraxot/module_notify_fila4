@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Guida alla Compatibilità HTML per Email
@@ -145,3 +146,5 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

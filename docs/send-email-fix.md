@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Guida alla Correzione di SendEmail.php
@@ -249,3 +250,5 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

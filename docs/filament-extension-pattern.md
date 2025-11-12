@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern di Estensione per Componenti Filament 
 
 =======
@@ -159,3 +160,5 @@ Il pattern di estensione XotBase è fondamentale per la manutenibilità e la coe
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

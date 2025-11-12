@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f6b0523 (.)
 =======
@@ -404,3 +405,5 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> f6b0523 (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

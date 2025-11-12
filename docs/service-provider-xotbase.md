@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # XotBaseServiceProvider: Analisi, Regole e Best Practice
@@ -105,3 +106,5 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

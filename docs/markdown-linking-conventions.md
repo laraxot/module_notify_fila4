@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Convenzioni per i Collegamenti nei File Markdown
@@ -77,3 +78,5 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

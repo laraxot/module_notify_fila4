@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Guida alla Migrazione di MailTemplate
@@ -153,3 +154,5 @@ Seguire il pattern di migrazione `XotBaseMigration` è essenziale per mantenere 
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

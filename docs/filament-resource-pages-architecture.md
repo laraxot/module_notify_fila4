@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Architettura delle Pagine di Risorse Filament 
@@ -131,3 +132,5 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Guida alle Traduzioni nel Modulo Notify
@@ -191,3 +192,5 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

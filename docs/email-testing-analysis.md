@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Analisi delle Pagine di Test Email
@@ -198,3 +199,5 @@ public function sendEmail(): void
 =======
 - [ ] Implementare caching 
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Convenzioni per le Traduzioni del Modulo Notify
@@ -246,3 +247,5 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

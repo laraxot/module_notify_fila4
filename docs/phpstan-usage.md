@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Utilizzo di PHPStan nel Progetto <nome progetto>
@@ -137,3 +138,5 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)

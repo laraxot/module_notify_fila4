@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c417ace (.)
 # Convenzioni per i Form Schema 
@@ -116,3 +117,5 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)
