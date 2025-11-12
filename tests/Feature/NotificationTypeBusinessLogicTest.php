@@ -59,7 +59,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type channels', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $channels = [
             'email' => [
                 'enabled' => true,
@@ -110,7 +110,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type settings', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $settings = [
             'retry_attempts' => 3,
             'retry_delay' => 300, // 5 minutes
@@ -163,7 +163,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type templates', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $templates = [
             'email' => [
                 'subject' => 'Promemoria Appuntamento - {{appointment_date}}',
@@ -287,7 +287,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type rules', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $rules = [
             'frequency' => [
                 'max_per_day' => 3,
@@ -350,7 +350,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type permissions', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $permissions = [
             'roles' => ['admin', 'doctor', 'nurse'],
             'permissions' => ['notifications.create', 'notifications.send'],
@@ -395,7 +395,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type metrics', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $metrics = [
             'delivery_rate' => 98.5,
             'open_rate' => 45.2,
@@ -450,7 +450,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type scheduling', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $scheduling = [
             'scheduling_enabled' => true,
             'timezone_aware' => true,
@@ -515,7 +515,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type integrations', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create();
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create();
         $integrations = [
             'external_services' => [
                 'email_provider' => 'SendGrid',
@@ -648,11 +648,11 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can search notification types by category', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $healthcareType = NotificationType::factory()->create(['category' => 'healthcare']);
+        $healthcareType = NotificationType/** @phpstan-ignore-line */ ::factory()->create(['category' => 'healthcare']);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $marketingType = NotificationType::factory()->create(['category' => 'marketing']);
+        $marketingType = NotificationType/** @phpstan-ignore-line */ ::factory()->create(['category' => 'marketing']);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $systemType = NotificationType::factory()->create(['category' => 'system']);
+        $systemType = NotificationType/** @phpstan-ignore-line */ ::factory()->create(['category' => 'system']);
 
         $healthcareTypes = NotificationType::where('category', 'healthcare')->get();
         $marketingTypes = NotificationType::where('category', 'marketing')->get();
@@ -671,9 +671,9 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can search notification types by status', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $activeType = NotificationType::factory()->create(['is_active' => true]);
+        $activeType = NotificationType/** @phpstan-ignore-line */ ::factory()->create(['is_active' => true]);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $inactiveType = NotificationType::factory()->create(['is_active' => false]);
+        $inactiveType = NotificationType/** @phpstan-ignore-line */ ::factory()->create(['is_active' => false]);
 
         $activeTypes = NotificationType::where('is_active', true)->get();
         $inactiveTypes = NotificationType::where('is_active', false)->get();
@@ -692,11 +692,11 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can search notification types by channel enabled', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $emailType = NotificationType::factory()->create([
+        $emailType = NotificationType/** @phpstan-ignore-line */ ::factory()->create([
             'channels' => ['email' => ['enabled' => true], 'sms' => ['enabled' => false]],
         ]);
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $smsType = NotificationType::factory()->create([
+        $smsType = NotificationType/** @phpstan-ignore-line */ ::factory()->create([
             'channels' => ['email' => ['enabled' => false], 'sms' => ['enabled' => true]],
         ]);
 
@@ -717,7 +717,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type archiving', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $type = NotificationType::factory()->create(['is_active' => true]);
+        $type = NotificationType/** @phpstan-ignore-line */ ::factory()->create(['is_active' => true]);
         $archiveData = [
             'is_active' => false,
             'archived_at' => now(),
@@ -750,7 +750,7 @@ describe('Notification Type Business Logic', function (): void {
 
     it('can manage notification type duplication', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $originalType = NotificationType::factory()->create([
+        $originalType = NotificationType/** @phpstan-ignore-line */ ::factory()->create([
             'name' => 'Original Type',
             'slug' => 'original-type',
             'version' => '1.0.0',

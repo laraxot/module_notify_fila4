@@ -146,7 +146,7 @@ class TelegramNotification extends Notification implements ShouldQueue
      *
 <<<<<<< HEAD
      * @param  object|null  $notifiable  The entity to be notified
-     * @return array<string, mixed>
+     * @return array<int, string>
      */
     public function toArray(?object $notifiable): array
 =======

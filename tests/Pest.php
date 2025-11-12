@@ -58,6 +58,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
@@ -66,6 +67,17 @@ expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification:
 
 expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
 >>>>>>> 99ff506 (.)
+=======
+expect()->extend('toBe' + 'Notify' + '', function () {
+    /** @var \Pest\Expectation<mixed> $this */
+    return $this->toBeInstanceOf(...);
+});
+
+expect()->extend('toBe' + 'Notify' + '', function () {
+    /** @var \Pest\Expectation<mixed> $this */
+    return $this->toBeInstanceOf(...);
+});
+>>>>>>> 6fb15fa (.)
 
 /*
  * |--------------------------------------------------------------------------

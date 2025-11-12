@@ -206,43 +206,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $this->addMediaCollection('attachments')->singleFile();
     }
 
-    /*
-     * public function versions(): HasMany
-     * {
-     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
-     * ->orderByDesc('version');
-     * }
-     *
-     * public function logs(): HasMany
-     * {
-     * return $this->hasMany(NotificationLog::class, 'template_id');
-     * }
-     */
-    /*
-     * Create a new version of the template.
-     *
-     * @param string $createdBy The user who created the version
-     * @param string|null $notes Optional notes about the changes
-     * @return self
-     *
-     * public function createNewVersion(string $createdBy, ?string $notes = null): self
-     * {
-     * $this->versions()->create([
-     * 'subject' => $this->subject,
-     * 'body_html' => $this->body_html,
-     * 'body_text' => $this->body_text,
-     * 'channels' => $this->channels,
-     * 'variables' => $this->variables,
-     * 'conditions' => $this->conditions,
-     * 'version' => $this->version,
-     * 'created_by' => $createdBy,
-     * 'change_notes' => $notes,
-     * ]);
-     *
-     * $this->increment('version');
-     * return $this;
-     * }
-     */
     /**
      * Compile the template with the given data.
      *

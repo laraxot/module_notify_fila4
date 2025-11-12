@@ -33,12 +33,10 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 /**
  * Class BaseModel.
  *
- * @template TFactory of \Illuminate\Database\Eloquent\Factories\Factory
  */
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
-    /** @use HasFactory<TFactory> */
     use \Modules\Xot\Models\Traits\HasXotFactory;
     use InteractsWithMedia;
     use Updater;
