@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-dy>
-=======
 <?php
 
 declare(strict_types=1);
 
 ?>
 </tbody>
->>>>>>> 518c702 (.)
 </table>
 </td>
 </tr>
