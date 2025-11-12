@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,11 +13,14 @@
 =======
 =======
 >>>>>>> 7bac387 (.)
+=======
+>>>>>>> 177d64d (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -28,6 +32,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> 7bac387 (.)
+=======
+>>>>>>> 177d64d (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 99ff506 (.)
 	<tr>
