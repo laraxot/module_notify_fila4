@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 e width="100%" cellpadding="0" cellspacing="0" border="0">
+=======
+<?php
+
+declare(strict_types=1);
+
+?>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 518c702 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -7,4 +16,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
+<<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 518c702 (.)
