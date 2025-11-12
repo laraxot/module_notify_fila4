@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 <tr>
     <td class="w50" width="50"></td>
     <td class="w560" width="560">
@@ -24,7 +30,11 @@ declare(strict_types=1);
     </td>
     <td class="w50" width="50"></td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </tr>
 =======
 </tr>
 >>>>>>> b19cd40 (.)
+=======
+</tr>
+>>>>>>> 4e2ebfb (.)
