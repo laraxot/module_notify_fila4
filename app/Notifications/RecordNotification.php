@@ -87,10 +87,13 @@ class RecordNotification extends Notification
     public array $data = [];
 
     /** @var array<int, array<string, string>> */
+<<<<<<< HEAD
 =======
     protected string $slug;
     public array $data = [];
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> a187384 (.)
     public array $attachments = [];
 
     public function __construct(Model $record, string $slug)
@@ -216,18 +219,24 @@ class RecordNotification extends Notification
         if (method_exists($notifiable, 'routeNotificationFor')) {
             // Ottieni l'email dal notifiable
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a187384 (.)
             $recipient = $notifiable->routeNotificationFor('mail');
 
             // Valida che sia una stringa valida
             if (is_string($recipient) && ! empty($recipient)) {
                 $email->to($recipient);
                 $email->setRecipient($recipient);
+<<<<<<< HEAD
 =======
             $to = $notifiable->routeNotificationFor('mail');
             $email->to($to);
             if ($to) {
                 $email->setRecipient($to);
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> a187384 (.)
             }
         }
 
@@ -256,6 +265,7 @@ class RecordNotification extends Notification
 <<<<<<< HEAD
         // dddx($notifiable);//Illuminate\Notifications\AnonymousNotifiable
         $recipient = null;
+<<<<<<< HEAD
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $recipient = $notifiable->routeNotificationFor('sms');
         }
@@ -267,13 +277,16 @@ class RecordNotification extends Notification
 =======
         //dddx($notifiable);//Illuminate\Notifications\AnonymousNotifiable
         $to = null;
+=======
+>>>>>>> a187384 (.)
         if (method_exists($notifiable, 'routeNotificationFor')) {
-            $to = $notifiable->routeNotificationFor('sms');
+            $recipient = $notifiable->routeNotificationFor('sms');
         }
-        $fallback_to = config('sms.fallback_to');
-        if (is_string($fallback_to)) {
-            $to = $fallback_to;
+        $fallbackRecipient = config('sms.fallback_to');
+        if (is_string($fallbackRecipient)) {
+            $recipient = $fallbackRecipient;
         }
+<<<<<<< HEAD
         if ($to === null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,16 +362,23 @@ class RecordNotification extends Notification
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+        if ($recipient === null) {
+>>>>>>> a187384 (.)
             return null;
         }
 
         $smsData = SmsData::from([
             'from' => 'Xot',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'to' => $recipient,
 =======
             'to' => $to,
 >>>>>>> 99ff506 (.)
+=======
+            'to' => $recipient,
+>>>>>>> a187384 (.)
             'body' => $email->buildSms(),
         ]);
 
@@ -366,6 +386,9 @@ class RecordNotification extends Notification
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a187384 (.)
     /**
      * Merge additional data for email template.
      *

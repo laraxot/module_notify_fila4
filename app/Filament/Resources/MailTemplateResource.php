@@ -75,10 +75,14 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a187384 (.)
             'mailable' => TextInput::make('mailable')
                 ->default('Modules\Notify\Emails\SpatieEmail')
                 ->required()
                 ->maxLength(255),
+<<<<<<< HEAD
 =======
 =======
         return array_values([
@@ -101,6 +105,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> da89aab (.)
 =======
 >>>>>>> 61cfa35 (.)
+=======
+>>>>>>> a187384 (.)
             'name_group' => Group::make()
                 ->schema([
                     TextInput::make('name')
