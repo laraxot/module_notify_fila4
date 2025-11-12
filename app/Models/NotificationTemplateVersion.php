@@ -10,10 +10,6 @@ use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Modules\User\Models\Profile;
 use Modules\Xot\Traits\Updater;
-<<<<<<< HEAD
-=======
-use Override;
->>>>>>> 0c46ff7 (.)
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
@@ -30,18 +26,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  *
- * @mixin \Eloquent
- */
-/**
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read MediaCollection<int, Media> $media
- * @property-read int|null $media_count
- * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
- * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
- * @method static Builder<static>|NotificationTemplateVersion newQuery()
- * @method static Builder<static>|NotificationTemplateVersion query()
+ * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
 class NotificationTemplateVersion extends BaseModel
@@ -124,7 +109,6 @@ class NotificationTemplateVersion extends BaseModel
             'conditions' => $this->conditions ?? null,
         ]);
 
-        /** @var NotificationTemplate */
         return $template;
     }
 }

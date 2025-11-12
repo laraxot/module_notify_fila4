@@ -4,14 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
-
-use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\RichEditor;
->>>>>>> f6b0523 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -27,12 +19,6 @@ use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
-<<<<<<< HEAD
-=======
-/**
- * 
- */
->>>>>>> f6b0523 (.)
 class SendEmail extends Page implements HasForms
 {
     public array $data = [];

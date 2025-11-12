@@ -7,7 +7,6 @@ namespace Modules\Notify\Factories;
 use Exception;
 use Illuminate\Support\Facades\Config;
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
-use Webmozart\Assert\Assert;
 
 /**
  * Factory per la creazione di azioni Telegram.
@@ -59,17 +58,12 @@ final class TelegramActionFactory
         }
 
         $instance = app($className);
-<<<<<<< HEAD
 
         if (! $instance instanceof TelegramProviderActionInterface) {
             throw new Exception("Failed to create instance of {$className}.");
         }
 
         /** @var TelegramProviderActionInterface $instance */
-=======
-        Assert::isInstanceOf($instance, TelegramProviderActionInterface::class);
-
->>>>>>> ec9288a (.)
         return $instance;
     }
 }

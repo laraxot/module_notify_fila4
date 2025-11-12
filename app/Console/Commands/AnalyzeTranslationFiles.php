@@ -39,14 +39,8 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
-<<<<<<< HEAD
             $lang = basename((string) $langDir);
             $files = File::files((string) $langDir);
-=======
-            $langDirStr = is_string($langDir) ? $langDir : '';
-            $lang = basename($langDirStr);
-            $files = File::files($langDirStr);
->>>>>>> ec9288a (.)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -123,18 +117,11 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allFiles as $file => $keys) {
             $topLevelKeys = [];
 
-<<<<<<< HEAD
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
                     $parts = explode('.', (string) $key);
                     $topLevelKeys[$parts[0]] = true;
                 }
-=======
-            $keysArray = is_array($keys) ? $keys : [];
-            foreach (array_keys($keysArray) as $key) {
-                $parts = explode('.', (string) $key);
-                $topLevelKeys[$parts[0]] = true;
->>>>>>> ec9288a (.)
             }
 
             $pattern = implode(',', array_keys($topLevelKeys));
@@ -173,10 +160,6 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
-            if (! is_string($key) && ! is_int($key)) {
-                continue;
-            }
-
             $row = [$key];
 
             // Type narrowing: assicura che $key sia string|int
@@ -185,7 +168,6 @@ class AnalyzeTranslationFiles extends Command
             }
 
             foreach (array_keys($allFiles) as $file) {
-<<<<<<< HEAD
                 // array_keys() restituisce sempre array di string|int
                 $fileData = $allFiles[$file] ?? [];
                 if (! is_array($fileData)) {
@@ -194,14 +176,6 @@ class AnalyzeTranslationFiles extends Command
                     continue;
                 }
                 $row[] = isset($fileData[$key]) ? '✓' : '✗';
-=======
-                $fileData = $allFiles[$file] ?? null;
-                if (is_array($fileData)) {
-                    $row[] = isset($fileData[$key]) ? '✓' : '✗';
-                } else {
-                    $row[] = '✗';
-                }
->>>>>>> ec9288a (.)
             }
 
             $table->addRow($row);
@@ -263,18 +237,11 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allFiles as $file => $keys) {
             $navigationKeys = [];
 
-<<<<<<< HEAD
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
                     if (str_starts_with((string) $key, 'navigation.')) {
                         $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                     }
-=======
-            $keysArray = is_array($keys) ? $keys : [];
-            foreach (array_keys($keysArray) as $key) {
-                if (str_starts_with((string) $key, 'navigation.')) {
-                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
->>>>>>> ec9288a (.)
                 }
             }
 

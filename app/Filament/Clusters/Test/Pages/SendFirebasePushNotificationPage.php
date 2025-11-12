@@ -13,7 +13,6 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Notifications\Notification as FilamentNotification;
-use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
@@ -22,17 +21,7 @@ use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
-=======
-use Override;
->>>>>>> 0c46ff7 (.)
 
-<<<<<<< HEAD
-=======
-/**
- * 
- */
->>>>>>> f6b0523 (.)
 class SendFirebasePushNotificationPage extends XotBasePage
 {
     public ?array $pushData = [];
@@ -60,10 +49,6 @@ class SendFirebasePushNotificationPage extends XotBasePage
         // Form data filled;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
-    /** @phpstan-ignore-next-line return.type */
     public function getPushFormSchema(): array
     {
         return [

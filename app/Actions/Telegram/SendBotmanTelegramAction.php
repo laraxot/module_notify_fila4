@@ -137,7 +137,6 @@ final class SendBotmanTelegramAction
                 'response_code' => $statusCode,
             ]);
 
-<<<<<<< HEAD
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
@@ -146,16 +145,6 @@ final class SendBotmanTelegramAction
 
             return [
                 'success' => $responseData['ok'] ?? false,
-=======
-            $success = is_array($responseData) && isset($responseData['ok']) ? (bool) $responseData['ok'] : false;
-            $messageId = null;
-            if (is_array($responseData) && isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
-                $messageId = $responseData['result']['message_id'];
-            }
-            
-            return [
-                'success' => $success,
->>>>>>> ec9288a (.)
                 'message_id' => $messageId,
                 'response' => $responseData,
                 'vars' => $this->vars,

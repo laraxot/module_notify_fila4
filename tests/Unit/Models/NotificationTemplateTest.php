@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
-use function Safe\json_encode;
-
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
@@ -18,7 +16,6 @@ class NotificationTemplateTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -43,7 +40,6 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'name' => 'Welcome Email',
@@ -55,7 +51,6 @@ class NotificationTemplateTest extends TestCase
             'version' => 1,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(NotificationTemplate::class, $template);
     }
 
@@ -84,7 +79,6 @@ class NotificationTemplateTest extends TestCase
             'type',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $template->getFillable());
     }
 
@@ -109,7 +103,6 @@ class NotificationTemplateTest extends TestCase
             'deleted_at' => 'datetime',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $template->casts());
     }
 
@@ -124,7 +117,6 @@ class NotificationTemplateTest extends TestCase
             'body_html',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedTranslatable, $template->translatable);
     }
 
@@ -144,21 +136,15 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'channels' => json_encode($channels),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $template->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('mail', $template->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('database', $template->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('sms', $template->channels);
     }
 
@@ -178,23 +164,16 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'variables' => json_encode($variables),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->variables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $template->variables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('name', $template->variables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('email', $template->variables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('company', $template->variables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('role', $template->variables);
     }
 
@@ -219,19 +198,14 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'conditions' => json_encode($conditions),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->conditions);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('premium', $template->conditions['user_type']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('active', $template->conditions['subscription_status']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('IT', $template->conditions['country']);
     }
 
@@ -257,21 +231,15 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'preview_data' => json_encode($previewData),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->preview_data);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('John Doe', $template->preview_data['name']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('john@example.com', $template->preview_data['email']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Acme Corp', $template->preview_data['company']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Manager', $template->preview_data['role']);
     }
 
@@ -297,19 +265,14 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'metadata' => json_encode($metadata),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->metadata);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('high', $template->metadata['priority']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['welcome', 'onboarding'], $template->metadata['tags']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('system', $template->metadata['author']);
     }
 
@@ -335,21 +298,15 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'grapesjs_data' => json_encode($grapesjsData),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->grapesjs_data);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('<div>Custom HTML</div>', $template->grapesjs_data['html']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('.custom { color: red; }', $template->grapesjs_data['css']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['header', 'content', 'footer'], $template->grapesjs_data['components']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['theme' => 'modern'], $template->grapesjs_data['styles']);
     }
 
@@ -374,18 +331,13 @@ class NotificationTemplateTest extends TestCase
             'email' => 'mario@example.com',
         ];
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $result = $template->compile($data);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Benvenuto Mario Rossi!', $result['subject']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(
             '<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>',
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             $result['body_html'],
         );
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Benvenuto Mario Rossi! La tua email è mario@example.com', $result['body_text']);
     }
 
@@ -414,7 +366,6 @@ class NotificationTemplateTest extends TestCase
             'name' => 'Test User',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($template->shouldSend($validData));
 
         // Dati che NON soddisfano le condizioni
@@ -424,7 +375,6 @@ class NotificationTemplateTest extends TestCase
             'name' => 'Test User',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($template->shouldSend($invalidData));
 
         // Template senza condizioni
@@ -439,7 +389,6 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($templateNoConditions->shouldSend($validData));
     }
 
@@ -463,27 +412,19 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $result = $template->preview();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Benvenuto Preview User!', $result['subject']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $result['body_html']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Benvenuto Preview User! Email: preview@example.com', $result['body_text']);
 
         // Preview con dati aggiuntivi
         $additionalData = ['company' => 'Acme Corp'];
-        /** @phpstan-ignore-next-line method.nonObject */
         $resultWithAdditional = $template->preview($additionalData);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Benvenuto Preview User!', $resultWithAdditional['subject']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(
             '<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>',
-            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             $resultWithAdditional['body_html'],
         );
     }
@@ -516,13 +457,9 @@ class NotificationTemplateTest extends TestCase
         $activeTemplates = NotificationTemplate::active()->get();
         $allTemplates = NotificationTemplate::all();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $activeTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $allTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Active Template', $activeTemplates[0]->name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertTrue($activeTemplates[0]->is_active);
     }
 
@@ -565,9 +502,7 @@ class NotificationTemplateTest extends TestCase
         $mailTemplates = NotificationTemplate::forChannel('mail')->get();
         $smsTemplates = NotificationTemplate::forChannel('sms')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $mailTemplates); // mail_template + multi_channel_template
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
     }
 
@@ -613,15 +548,10 @@ class NotificationTemplateTest extends TestCase
         $welcomeTemplates = NotificationTemplate::forCategory('welcome')->get();
         $reminderTemplates = NotificationTemplate::forCategory('reminder')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $welcomeTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $reminderTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('welcome', $welcomeTemplates[0]->category);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('welcome', $welcomeTemplates[1]->category);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('reminder', $reminderTemplates[0]->category);
     }
 
@@ -641,9 +571,7 @@ class NotificationTemplateTest extends TestCase
 
         $channelsLabel = $template->channels_label;
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsString($channelsLabel);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotEmpty($channelsLabel);
     }
 
@@ -661,11 +589,8 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $initialData = $template->getGrapesJSData();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($initialData);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($initialData);
 
         $newData = [
@@ -673,14 +598,10 @@ class NotificationTemplateTest extends TestCase
             'css' => '.new { color: blue; }',
         ];
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->setGrapesJSData($newData);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($newData, $template->getGrapesJSData());
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('<div>New HTML</div>', $template->grapesjs_data['html']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('.new { color: blue; }', $template->grapesjs_data['css']);
     }
 
@@ -700,11 +621,8 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Test Subject', $template->getPreviewSubject());
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Test HTML', $template->getPreviewBodyHtml());
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Test Text', $template->getPreviewBodyText());
     }
 
@@ -722,7 +640,6 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->update([
             'name' => 'Updated Template Name',
             'subject' => 'Updated Subject',
@@ -730,7 +647,6 @@ class NotificationTemplateTest extends TestCase
             'version' => 2,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'name' => 'Updated Template Name',
@@ -758,30 +674,18 @@ class NotificationTemplateTest extends TestCase
             'type' => NotificationTypeEnum::EMAIL,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->variables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->conditions);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->preview_data);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->metadata);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->grapesjs_data);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->channels);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->variables);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->conditions);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->preview_data);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->metadata);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->grapesjs_data);
     }
 }

@@ -9,14 +9,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Schema;
-
-use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\RichEditor;
->>>>>>> f6b0523 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -33,12 +25,6 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
 use Webmozart\Assert\Assert;
 
-<<<<<<< HEAD
-=======
-/**
- * 
- */
->>>>>>> f6b0523 (.)
 class SendTelegram extends Page implements HasForms
 {
     public array $data = [];

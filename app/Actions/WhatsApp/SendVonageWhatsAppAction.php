@@ -104,18 +104,7 @@ final class SendVonageWhatsAppAction
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
-=======
-            $mediaUrl = $whatsAppData->media[0];
->>>>>>> 0c46ff7 (.)
-=======
-            $mediaUrl = $whatsAppData->media[0] ?? null;
-            if (! is_string($mediaUrl)) {
-                throw new \Exception('Invalid media URL');
-            }
->>>>>>> ec9288a (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 
             $payload['message']['content'] = [

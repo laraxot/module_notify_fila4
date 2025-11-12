@@ -18,15 +18,9 @@ class NotificationManager
      *
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
-<<<<<<< HEAD
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
-=======
-     * @param  array  $data  I dati per compilare il template
-     * @param  array  $channels  I canali da utilizzare (opzionale)
-     * @param  array  $options  Opzioni aggiuntive per l'invio
->>>>>>> 0c46ff7 (.)
      */
     public function send(
         Model $recipient,
@@ -57,19 +51,11 @@ class NotificationManager
     /**
      * Invia una notifica a più destinatari.
      *
-<<<<<<< HEAD
      * @param  array<Model>  $recipients  I destinatari delle notifiche
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
-=======
-     * @param  array  $recipients  I destinatari delle notifiche
-     * @param  string  $templateCode  Il codice del template da utilizzare
-     * @param  array  $data  I dati per compilare il template
-     * @param  array  $channels  I canali da utilizzare (opzionale)
-     * @param  array  $options  Opzioni aggiuntive per l'invio
->>>>>>> 0c46ff7 (.)
      * @return array<array>
      */
     public function sendMultiple(
@@ -82,11 +68,7 @@ class NotificationManager
         $logs = [];
 
         foreach ($recipients as $recipient) {
-<<<<<<< HEAD
             if ($recipient instanceof Model) {
-=======
-            if ($recipient instanceof \Illuminate\Database\Eloquent\Model) {
->>>>>>> ec9288a (.)
                 $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
             }
         }

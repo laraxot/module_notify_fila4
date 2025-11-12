@@ -25,12 +25,8 @@ class ContactSection extends Section
         $this->columns(2);
     }
 
-    /**
-     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
-     */
     protected function getFormSchema(): array
     {
-        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $res */
         $res = ContactTypeEnum::getFormSchema();
 
         return $res;
