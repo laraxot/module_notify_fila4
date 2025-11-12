@@ -2,7 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Services;
+=======
+namespace Modules\Notify\App\Services;
+>>>>>>> 05bc3ad (.)
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
@@ -529,3 +533,9 @@ class PushNotificationService
         ];
     }
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 05bc3ad (.)

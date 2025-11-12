@@ -67,6 +67,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -88,8 +89,11 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperMailTemplateLog
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
+/** */
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [

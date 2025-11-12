@@ -9,6 +9,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -38,18 +39,26 @@ use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
 use Override;
 use Filament\Forms\Components\Utilities\Set;
+=======
+>>>>>>> 05bc3ad (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
-use Filament\Forms;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Group;
+use Filament\Schemas\Components\View;
 use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
+use Override;
 
 class MailTemplateResource extends LangBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = MailTemplate::class;
 >>>>>>> 99ff506 (.)
+=======
+    protected static ?string $model = MailTemplate::class;
+>>>>>>> 05bc3ad (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -62,6 +71,7 @@ class MailTemplateResource extends LangBaseResource
     #[Override]
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         return [
 <<<<<<< HEAD
             'mailable' => TextInput::make('mailable')
@@ -69,6 +79,9 @@ class MailTemplateResource extends LangBaseResource
                 ->required()
                 ->maxLength(255),
 =======
+=======
+        return array_values([
+>>>>>>> 05bc3ad (.)
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,7 +102,7 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -102,6 +115,7 @@ class MailTemplateResource extends LangBaseResource
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(fn ($record) => ['params' => $record?->params])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => ! empty($record->params)),
@@ -110,8 +124,25 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull()
                 ->visible(fn($record): bool => !empty($record->params)),
 >>>>>>> 99ff506 (.)
+=======
+                ->viewData(function ($record): array {
+                    if (! is_object($record) || ! property_exists($record, 'params')) {
+                        return ['params' => []];
+                    }
+
+                    return ['params' => $record->params];
+                })
+                ->columnSpanFull()
+                ->visible(function ($record): bool {
+                    if (! is_object($record) || ! property_exists($record, 'params')) {
+                        return false;
+                    }
+
+                    return ! empty($record->params);
+                }),
+>>>>>>> 05bc3ad (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
-        ];
+        ]);
     }
 }

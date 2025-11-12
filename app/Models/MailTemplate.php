@@ -132,6 +132,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
  *
+<<<<<<< HEAD
 =======
  * @property string|null $params
  * @method static Builder<static>|MailTemplate whereParams($value)
@@ -141,6 +142,8 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
 >>>>>>> 99ff506 (.)
  * @mixin IdeHelperMailTemplate
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

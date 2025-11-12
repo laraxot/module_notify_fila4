@@ -71,6 +71,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -101,8 +102,11 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotification
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
+/** */
 class Notification extends BaseModel
 {
     /** @var list<string> */

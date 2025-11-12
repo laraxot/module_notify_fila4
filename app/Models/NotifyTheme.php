@@ -108,6 +108,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  *
+<<<<<<< HEAD
 =======
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
@@ -162,8 +163,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotifyTheme
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin Eloquent
  */
+/** */
 class NotifyTheme extends BaseModel
 {
     /** @var list<string> */
@@ -196,6 +200,12 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /**
+     * @return array<string, mixed>
+     */
+>>>>>>> 05bc3ad (.)
     public function getLogoAttribute(?array $value): array
 =======
     public function getLogoAttribute(null|array $value): array

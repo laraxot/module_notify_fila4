@@ -69,6 +69,9 @@ class SendSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getSmsFormSchema(): array
     {
         return [

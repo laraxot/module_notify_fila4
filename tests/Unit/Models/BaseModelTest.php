@@ -11,8 +11,12 @@ use Tests\TestCase;
 
 uses(TestCase::class, RefreshDatabase::class);
 
+<<<<<<< HEAD
 beforeEach(function () {
 <<<<<<< HEAD
+=======
+beforeEach(function (): void {
+>>>>>>> 05bc3ad (.)
     $this->baseModel = new class extends BaseModel
     {
 =======
@@ -71,23 +75,29 @@ beforeEach(function () {
     };
 });
 
-test('base model extends eloquent model', function () {
+test('base model extends eloquent model', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel)->toBeInstanceOf(Model::class);
 });
 
-test('base model has correct table name', function () {
+test('base model has correct table name', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel->getTable())->toBe('test_notify_table');
 });
 
-test('base model can be instantiated', function () {
+test('base model can be instantiated', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel)->toBeInstanceOf(BaseModel::class);
 });
 
-test('base model has proper inheritance chain', function () {
+test('base model has proper inheritance chain', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel)->toBeInstanceOf(BaseModel::class);
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel)->toBeInstanceOf(Model::class);
 });
 
-test('base model has timestamps enabled', function () {
+test('base model has timestamps enabled', function (): void {
+    /** @phpstan-ignore-next-line property.notFound */
     expect($this->baseModel->usesTimestamps())->toBeTrue();
 });

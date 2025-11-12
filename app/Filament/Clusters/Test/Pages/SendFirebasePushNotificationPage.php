@@ -89,6 +89,9 @@ class SendFirebasePushNotificationPage extends XotBasePage
         // Form data filled;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getPushFormSchema(): array
     {
         return [

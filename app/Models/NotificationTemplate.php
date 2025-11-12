@@ -108,6 +108,7 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -142,8 +143,11 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotificationTemplate
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
+/** */
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
@@ -332,6 +336,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $previewData = $this->preview_data ?? [];
         $mergedData = array_merge($previewData, $data);
 
+        /** @var array<string, mixed> $mergedData */
         return $this->compile($mergedData);
     }
 
@@ -412,10 +417,18 @@ class NotificationTemplate extends BaseModel implements HasMedia
     {
         return collect($this->channels)
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
 =======
             ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
 >>>>>>> 99ff506 (.)
+=======
+            ->map(function ($channel): string {
+                $channelStr = is_string($channel) ? $channel : (string) $channel;
+
+                return (string) __('notify::template.fields.channel.options.'.$channelStr.'.label');
+            })
+>>>>>>> 05bc3ad (.)
             ->implode(', ');
     }
 
@@ -426,7 +439,20 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
-        return $this->grapesjs_data ?? [];
+        $data = $this->grapesjs_data ?? [];
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $result */
+        $result = [];
+        foreach ($data as $key => $value) {
+            if (is_string($key)) {
+                $result[$key] = $value;
+            }
+        }
+
+        return $result;
     }
 
     /**
@@ -449,6 +475,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
         return $this;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getPreviewData(): array
     {
         return $this->preview_data ?? [];

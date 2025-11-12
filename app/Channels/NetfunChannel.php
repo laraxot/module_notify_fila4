@@ -71,18 +71,24 @@ class NetfunChannel
         // Ottieni il numero di telefono dal Notifiable
 <<<<<<< HEAD
         if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForNetfun')) {
+<<<<<<< HEAD
 =======
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 05bc3ad (.)
             return null;
         }
 
         $to = $notifiable->routeNotificationForNetfun($notification);
 <<<<<<< HEAD
         if (! $to) {
+<<<<<<< HEAD
 =======
         if (!$to) {
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> 05bc3ad (.)
             return null;
         }
 

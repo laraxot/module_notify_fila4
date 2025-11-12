@@ -106,10 +106,14 @@ return new class extends Migration {
     {
 <<<<<<< HEAD
         if (! Schema::hasTable('notification_logs')) {
+<<<<<<< HEAD
 =======
         if (!Schema::hasTable('notification_logs')) {
 >>>>>>> 99ff506 (.)
             Schema::create('notification_logs', function (Blueprint $table) {
+=======
+            Schema::create('notification_logs', function (Blueprint $table): void {
+>>>>>>> 05bc3ad (.)
                 $table->id();
                 $table->string('notifiable_type');
                 $table->unsignedBigInteger('notifiable_id');

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -13,6 +14,9 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Schema;
 =======
+=======
+use Filament\Forms\Form;
+>>>>>>> 05bc3ad (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -108,7 +112,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
 
     public function emailForm(Schema $schema): Schema
     {
-        return $schema->components([])->model($this->getUser())->statePath('emailData');
+        /** @var Schema $result */
+        $result = $schema->components([])->model($this->getUser())->statePath('emailData');
+        return $result;
     }
 
     #[Override]

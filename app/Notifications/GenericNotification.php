@@ -63,13 +63,13 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function via(mixed $_notifiable): array
     {
-        return $this->channels;
+        return array_values($this->channels);
     }
 
     /**
      * Ottiene la rappresentazione mail della notifica.
      */
-    public function toMail($notifiable): MailMessage
+    public function toMail(mixed $notifiable): MailMessage
     {
         $mail = new MailMessage;
         $mail = $mail->subject($this->title);
@@ -78,7 +78,6 @@ class GenericNotification extends Notification implements ShouldQueue
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text'], $this->data['action_url'])) {
-            /* @phpstan-ignore-next-line */
             $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
         }
 
@@ -97,7 +96,7 @@ class GenericNotification extends Notification implements ShouldQueue
      *
      * @return array<string, mixed>
      */
-    public function toTwilio($notifiable): array
+    public function toTwilio(mixed $notifiable): array
     {
         $content = "il progetto: {$this->title}\n{$this->message}";
 
@@ -108,9 +107,11 @@ class GenericNotification extends Notification implements ShouldQueue
 
         // TODO: Implementare TwilioSmsMessage quando disponibile
         $to = '';
-        if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForTwilio')) {
-            $routeResult = $notifiable->routeNotificationForTwilio($this);
-            $to = (string) ($routeResult ?? '');
+        if (is_object($notifiable)) {
+            if (method_exists($notifiable, 'routeNotificationForTwilio')) {
+                $routeResult = $notifiable->routeNotificationForTwilio($this);
+                $to = (string) ($routeResult ?? '');
+            }
         }
 
         return [
@@ -124,7 +125,7 @@ class GenericNotification extends Notification implements ShouldQueue
      *
      * @return array<string, mixed>
      */
-    public function toDatabase($notifiable): array
+    public function toDatabase(mixed $notifiable): array
     {
         return [
             'title' => $this->title,
@@ -137,14 +138,18 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene il nome del destinatario per il saluto personalizzato.
      */
-    protected function getRecipientName($notifiable): string
+    protected function getRecipientName(mixed $notifiable): string
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
-        if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
-            return $notifiable->getFullName();
+        if (is_object($notifiable)) {
+            if (method_exists($notifiable, 'getFullName')) {
+                $fullName = $notifiable->getFullName();
+
+                return is_string($fullName) ? $fullName : 'Utente';
+            }
         }
 
-        if (is_object($notifiable) && $notifiable instanceof Model) {
+        if ($notifiable instanceof Model) {
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'full_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'full_name', 'Utente');
             }

@@ -51,6 +51,9 @@ use function Safe\preg_split;
  */
 class FormatSmsMessageAction
 {
+    /**
+     * @return array<string, mixed>
+     */
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati

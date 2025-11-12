@@ -67,6 +67,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -87,8 +88,11 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotificationTemplateVersion
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
+/** */
 class NotificationTemplateVersion extends BaseModel
 {
     use Updater;

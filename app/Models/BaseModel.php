@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -21,17 +22,24 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 99ff506 (.)
+=======
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 05bc3ad (.)
 use Modules\Xot\Traits\Updater;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
  * Class BaseModel.
+ *
+ * @template TFactory of \Illuminate\Database\Eloquent\Factories\Factory
  */
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
-    use HasFactory;
+    /** @use HasFactory<TFactory> */
+    use \Modules\Xot\Models\Traits\HasXotFactory;
     use InteractsWithMedia;
     use Updater;
 
@@ -69,16 +77,6 @@ abstract class BaseModel extends Model implements HasMedia
     protected $hidden = [
         // 'password'
     ];
-
-    /**
-     * Create a new factory instance for the model.
-     *
-     * @return Factory<static>
-     */
-    protected static function newFactory()
-    {
-        return app(GetFactoryAction::class)->execute(static::class);
-    }
 
     /** @return array<string, string> */
     protected function casts(): array

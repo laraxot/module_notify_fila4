@@ -132,7 +132,9 @@ class NotificationManager
         $logs = [];
 
         foreach ($recipients as $recipient) {
-            $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
+            if ($recipient instanceof \Illuminate\Database\Eloquent\Model) {
+                $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
+            }
         }
 
         return $logs;

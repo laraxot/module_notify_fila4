@@ -101,6 +101,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -143,8 +144,11 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperMailTemplateVersion
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
+/** */
 class MailTemplateVersion extends BaseModel
 {
     use SoftDeletes, Updater;
