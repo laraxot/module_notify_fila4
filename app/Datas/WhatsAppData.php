@@ -26,10 +26,17 @@ class WhatsAppData extends Data
     public function __construct(
         public string $to,
         public string $body,
+<<<<<<< HEAD
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
         public ?array $template = null,
+=======
+        public null|string $from = null,
+        public null|array $media = null,
+        public null|array $buttons = null,
+        public null|array $template = null,
+>>>>>>> f5f1cb1 (.)
         public string $type = 'text',
     ) {}
 }

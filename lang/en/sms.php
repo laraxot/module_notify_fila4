@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f5f1cb1 (.)
 return [
     'resource' => [
         'name' => 'SMS',

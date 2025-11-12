@@ -6,6 +6,7 @@ namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Carbon\Carbon;
@@ -21,6 +22,12 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
 use Carbon\Carbon;
 >>>>>>> 92ecc28 (.)
+=======
+use Carbon\Carbon;
+=======
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Arr;
@@ -254,6 +261,31 @@ final class NotificationLog extends BaseModel
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
+<<<<<<< HEAD
+=======
+    }
+
+    /**
+     * Marca il log come aperto.
+     */
+    public function markAsOpened(): void
+    {
+        $this->update([
+            'status' => NotificationLogStatusEnum::OPENED,
+            'opened_at' => now(),
+        ]);
+    }
+
+    /**
+     * Marca il log come cliccato.
+     */
+    public function markAsClicked(): void
+    {
+        $this->update([
+            'status' => NotificationLogStatusEnum::CLICKED,
+            'clicked_at' => now(),
+        ]);
+>>>>>>> f5f1cb1 (.)
     }
 
     /**

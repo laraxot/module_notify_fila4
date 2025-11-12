@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
 use RuntimeException;
+=======
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+>>>>>>> f5f1cb1 (.)
 use Tests\TestCase;
 
 class MailTemplateVersionBusinessLogicTest extends TestCase
@@ -117,7 +124,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
+<<<<<<< HEAD
         $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+>>>>>>> f5f1cb1 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,

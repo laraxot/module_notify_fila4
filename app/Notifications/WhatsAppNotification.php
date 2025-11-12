@@ -14,6 +14,11 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
  * Class WhatsAppNotification
  *
  * Notification class for sending WhatsApp messages through various providers.
+<<<<<<< HEAD
+=======
+ *
+ * @package Modules\Notify\Notifications
+>>>>>>> f5f1cb1 (.)
  */
 class WhatsAppNotification extends Notification implements ShouldQueue
 {
@@ -59,7 +64,11 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
      * @param  mixed  $_notifiable  L'entità da notificare
+=======
+     * @param mixed $_notifiable L'entità da notificare
+>>>>>>> f5f1cb1 (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -96,7 +105,11 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     /**
      * Get the provider to use for sending the WhatsApp message.
      */
+<<<<<<< HEAD
     public function getProvider(): ?string
+=======
+    public function getProvider(): null|string
+>>>>>>> f5f1cb1 (.)
     {
         $provider = $this->config['provider'] ?? null;
 

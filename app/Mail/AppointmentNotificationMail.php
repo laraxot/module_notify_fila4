@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Mail;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Mail\Mailables\Attachment;
+>>>>>>> f5f1cb1 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;

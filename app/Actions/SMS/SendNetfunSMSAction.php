@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -29,7 +33,12 @@ final class SendNetfunSMSAction implements SmsActionContract
 
     protected int $timeout;
 
+<<<<<<< HEAD
     protected ?string $defaultSender = null;
+=======
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+>>>>>>> f5f1cb1 (.)
 
     /**
      * Create a new action instance.

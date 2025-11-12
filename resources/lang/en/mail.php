@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 return [
     'welcome' => [
+<<<<<<< HEAD
         'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : ''),
+=======
+        'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : ''),
+>>>>>>> f5f1cb1 (.)
         'greeting' => 'Hello :name,',
         'description' => 'Thank you for joining us. We\'re excited to have you on board!',
         'action' => 'Get Started',

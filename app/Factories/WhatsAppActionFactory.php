@@ -35,7 +35,11 @@ final class WhatsAppActionFactory
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
+<<<<<<< HEAD
     public function create(?string $driver = null): WhatsAppProviderActionInterface
+=======
+    public function create(null|string $driver = null): WhatsAppProviderActionInterface
+>>>>>>> f5f1cb1 (.)
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
@@ -59,6 +63,7 @@ final class WhatsAppActionFactory
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
 
+<<<<<<< HEAD
         $instance = app($className);
 
         if (! $instance instanceof WhatsAppProviderActionInterface) {
@@ -67,5 +72,8 @@ final class WhatsAppActionFactory
 
         /** @var WhatsAppProviderActionInterface $instance */
         return $instance;
+=======
+        return app($className);
+>>>>>>> f5f1cb1 (.)
     }
 }

@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -13,11 +17,16 @@ use Modules\Notify\Datas\SMS\PlivoData;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> b94a5f6 (.)
 use Override;
+=======
+>>>>>>> f5f1cb1 (.)
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 82c6772 (.)
 
@@ -33,7 +42,12 @@ final class SendPlivoSMSAction implements SmsActionContract
 =======
     protected bool $debug;
 
+<<<<<<< HEAD
     protected ?string $defaultSender = null;
+=======
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+>>>>>>> f5f1cb1 (.)
 
 >>>>>>> 82c6772 (.)
     /**
@@ -43,7 +57,11 @@ final class SendPlivoSMSAction implements SmsActionContract
     {
         $this->plivoData = PlivoData::make();
 
+<<<<<<< HEAD
         if (! $this->plivoData->auth_id) {
+=======
+        if (!$this->plivoData->auth_id) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception('Auth ID Plivo non configurato in sms.php');
         }
 

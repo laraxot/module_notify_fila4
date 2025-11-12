@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
+<<<<<<< HEAD
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -28,8 +32,12 @@ final class SendNutgramTelegramAction
     protected bool $debug;
 
     protected int $timeout;
+<<<<<<< HEAD
 
     protected ?string $parseMode;
+=======
+    protected null|string $parseMode;
+>>>>>>> f5f1cb1 (.)
 
     /**
      * Create a new action instance.
@@ -137,12 +145,15 @@ final class SendNutgramTelegramAction
                 'response_code' => $statusCode,
             ]);
 
+<<<<<<< HEAD
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
                 $messageId = is_int($responseData['result']['message_id']) ? $responseData['result']['message_id'] : (int) $responseData['result']['message_id'];
             }
 
+=======
+>>>>>>> f5f1cb1 (.)
             return [
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $messageId,

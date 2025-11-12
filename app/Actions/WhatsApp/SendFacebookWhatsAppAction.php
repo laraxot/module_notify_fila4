@@ -8,6 +8,10 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+>>>>>>> f5f1cb1 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -35,7 +39,11 @@ final class SendFacebookWhatsAppAction
     public function __construct()
     {
         $accessToken = config('services.facebook.access_token');
+<<<<<<< HEAD
         if (! is_string($accessToken)) {
+=======
+        if (!is_string($accessToken)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
             );
@@ -43,7 +51,11 @@ final class SendFacebookWhatsAppAction
         $this->accessToken = $accessToken;
 
         $phoneNumberId = config('services.facebook.phone_number_id');
+<<<<<<< HEAD
         if (! is_string($phoneNumberId)) {
+=======
+        if (!is_string($phoneNumberId)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
             );
@@ -126,6 +138,7 @@ final class SendFacebookWhatsAppAction
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
 
             // Extract message_id safely
             $messageId = null;
@@ -136,6 +149,12 @@ final class SendFacebookWhatsAppAction
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $messageId,
+=======
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+>>>>>>> f5f1cb1 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -156,12 +175,15 @@ final class SendFacebookWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+<<<<<<< HEAD
             // Extract error message safely
             $errorMessage = 'Errore sconosciuto';
             if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
                 $errorMessage = is_string($responseBody['error']['message']) ? $responseBody['error']['message'] : 'Errore sconosciuto';
             }
 
+=======
+>>>>>>> f5f1cb1 (.)
             return [
                 'success' => false,
                 'error' => $errorMessage,

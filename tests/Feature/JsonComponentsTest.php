@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+use Tests\TestCase;
+>>>>>>> f5f1cb1 (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 

@@ -28,7 +28,11 @@ class NetfunSendAction
     {
         // Prepare the action for execution, leveraging constructor injection.
         $token = config('services.netfun.token');
+<<<<<<< HEAD
         if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -52,8 +56,13 @@ class NetfunSendAction
             $smsData->to = '+39'.mb_substr($smsData->to, 2);
         }
 
+<<<<<<< HEAD
         if (! Str::startsWith($smsData->to, '+')) {
             $smsData->to = '+39'.$smsData->to;
+=======
+        if (!Str::startsWith($smsData->to, '+')) {
+            $smsData->to = '+39' . $smsData->to;
+>>>>>>> f5f1cb1 (.)
         }
 
         $body = [

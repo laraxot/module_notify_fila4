@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f5f1cb1 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -22,8 +26,13 @@ class NetfunSmsRequestData extends Data
         $messages = is_array($data['messages'] ?? null) ? $data['messages'] : [];
 
         return new self(
+<<<<<<< HEAD
             token: $token,
             messages: $messages,
+=======
+            token: $data['token'],
+            messages: $data['messages'],
+>>>>>>> f5f1cb1 (.)
         );
     }
 }

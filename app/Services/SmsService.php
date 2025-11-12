@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
+<<<<<<< HEAD
+=======
+use RuntimeException;
+use ReflectionClass;
+use ReflectionException;
+>>>>>>> f5f1cb1 (.)
 use Illuminate\Support\Str;
 use ReflectionClass;
 use ReflectionException;
@@ -15,12 +21,20 @@ use RuntimeException;
 class SmsService
 {
     // ---------CSS------------
+<<<<<<< HEAD
     public ?string $to = null;
 
     public ?string $from = null;
 
     public ?string $body = null;
 
+=======
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public null|string $body = null;
+>>>>>>> f5f1cb1 (.)
     /**
      * Variabili per il template SMS.
      *
@@ -33,7 +47,11 @@ class SmsService
      */
     public string $driver = 'netfun';
 
+<<<<<<< HEAD
     private static ?self $instance = null;
+=======
+    private static null|self $instance = null;
+>>>>>>> f5f1cb1 (.)
 
     /**
      * Ottiene un'istanza singleton della classe.
@@ -58,7 +76,11 @@ class SmsService
     /**
      * Sets local variables and merges them with the vars array.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $vars
+=======
+     * @param array<string, mixed> $vars
+>>>>>>> f5f1cb1 (.)
      */
     public function setLocalVars(array $vars): self
     {
@@ -87,7 +109,11 @@ class SmsService
      */
     public function send(): self
     {
+<<<<<<< HEAD
         $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
+=======
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
+>>>>>>> f5f1cb1 (.)
 
         // Verifichiamo che la classe esista
         if (! class_exists($engineClassName)) {
@@ -146,7 +172,11 @@ class SmsService
 
             $this->mergeVars($typedResult);
         } catch (ReflectionException $e) {
+<<<<<<< HEAD
             throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+=======
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+>>>>>>> f5f1cb1 (.)
         }
 
         return $this;

@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+use Modules\Xot\Models\BaseModel;
+>>>>>>> f5f1cb1 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Models\BaseModel;
 

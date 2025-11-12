@@ -4,10 +4,16 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 92ecc28 (.)
+=======
+=======
+use Tests\TestCase;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 use Illuminate\Support\Facades\File;
 >>>>>>> 82c6772 (.)
 use Tests\TestCase;

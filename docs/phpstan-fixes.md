@@ -1,12 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Fixes - Notify
 =======
 =======
 >>>>>>> 9ed014c (.)
 =======
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> b94a5f6 (.)
 <<<<<<< HEAD
 # PHPStan Fixes - Modulo Notify
 >>>>>>> 6ba141fc (.)
@@ -216,6 +219,8 @@ Il codice commentato rimosso riguardava funzionalità di versioning dei template
 =======
 =======
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -316,6 +321,7 @@ private function castNotificationData(mixed $data): string
 ---
 *Ultimo aggiornamento: Gennaio 2025*
 *Stato: 🔄 In Corso - ~6 errori PHPStan rimanenti*
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 <<<<<<< HEAD
@@ -497,4 +503,9 @@ private static function processArray(array $data): array
 
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> 82c6772 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)

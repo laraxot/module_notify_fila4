@@ -28,8 +28,12 @@ final class SendVonageWhatsAppAction
     protected bool $debug;
 
     protected int $timeout;
+<<<<<<< HEAD
 
     protected ?string $defaultSender;
+=======
+    protected null|string $defaultSender;
+>>>>>>> f5f1cb1 (.)
 
     /**
      * Create a new action instance.

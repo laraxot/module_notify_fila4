@@ -4,10 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationFactory;
+=======
+use Override;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Database\Factories\NotificationFactory;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> f5f1cb1 (.)
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -51,7 +59,10 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
  *
+=======
+>>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */

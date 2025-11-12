@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
+<<<<<<< HEAD
+=======
+use Override;
+use Filament\Tables;
+>>>>>>> f5f1cb1 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
@@ -112,10 +117,17 @@ class ListNotifications extends XotBaseListRecords
     {
         return [
             'read' => Filter::make('is_read')
+<<<<<<< HEAD
                 ->query(fn (Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn (Builder $query): Builder => $query->whereNull('read_at'))
+=======
+                ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
+                ->label('Read'),
+            'unread' => Filter::make('is_unread')
+                ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+>>>>>>> f5f1cb1 (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

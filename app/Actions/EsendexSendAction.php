@@ -32,8 +32,13 @@ class EsendexSendAction
     {
         $auth = $this->login();
 
+<<<<<<< HEAD
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> f5f1cb1 (.)
         }
 
         $data = [
@@ -46,7 +51,11 @@ class EsendexSendAction
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+<<<<<<< HEAD
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+=======
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+>>>>>>> f5f1cb1 (.)
 
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
         if (! is_string($auth[0])) {
@@ -77,8 +86,13 @@ class EsendexSendAction
         $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
+<<<<<<< HEAD
         if (! is_array($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> f5f1cb1 (.)
         }
 
         return $res;
@@ -88,7 +102,11 @@ class EsendexSendAction
      * Authenticates the user given it's username and password.
      * Returns the pair user_key, Session_key.
      */
+<<<<<<< HEAD
     public function login(): ?array
+=======
+    public function login(): null|array
+>>>>>>> f5f1cb1 (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -96,7 +114,11 @@ class EsendexSendAction
         Assert::string($username = config('esendex.username'));
         Assert::string($password = config('esendex.password'));
 
+<<<<<<< HEAD
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+=======
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+>>>>>>> f5f1cb1 (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 

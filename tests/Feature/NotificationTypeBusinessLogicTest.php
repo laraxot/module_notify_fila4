@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+use Modules\Notify\Helpers\ConfigHelper;
+>>>>>>> f5f1cb1 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('Notification Type Business Logic', function () {
@@ -133,8 +137,16 @@ describe('Notification Type Business Logic', function () {
                 'text_template' => 'emails.appointment-reminder-text',
             ],
             'sms' => [
+<<<<<<< HEAD
                 'message' => 'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
                         config('app.name', 'Our Platform'),
+=======
+                'message' =>
+
+                        'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
+                        config('app.name', 'Our Platform')
+                    ,
+>>>>>>> f5f1cb1 (.)
                 'variables' => ['appointment_date', 'appointment_time'],
                 'max_length' => 160,
             ],
@@ -364,9 +376,18 @@ describe('Notification Type Business Logic', function () {
                 'push_provider' => 'Firebase',
             ],
             'webhooks' => [
+<<<<<<< HEAD
                 'delivery_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered',
                 'bounce_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-bounced',
                 'click_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-clicked',
+=======
+                'delivery_webhook' =>
+                    'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered',
+                'bounce_webhook' =>
+                    'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-bounced',
+                'click_webhook' =>
+                    'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-clicked',
+>>>>>>> f5f1cb1 (.)
             ],
             'api_endpoints' => [
                 'send' => 'POST /api/v1/notifications/send',

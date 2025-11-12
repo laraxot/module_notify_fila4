@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\WhatsApp;
 
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -30,8 +34,12 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     protected bool $debug;
 
     protected int $timeout;
+<<<<<<< HEAD
 
     protected ?string $defaultSender = null;
+=======
+    protected null|string $defaultSender = null;
+>>>>>>> f5f1cb1 (.)
 
     /**
      * Create a new action instance.
@@ -39,7 +47,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     public function __construct()
     {
         $accountSid = config('services.twilio.account_sid');
+<<<<<<< HEAD
         if (! is_string($accountSid)) {
+=======
+        if (!is_string($accountSid)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [TWILIO_ACCOUNT_SID] variable to your .env and config [services.twilio.account_sid]',
             );
@@ -47,7 +59,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
         $this->accountSid = $accountSid;
 
         $authToken = config('services.twilio.auth_token');
+<<<<<<< HEAD
         if (! is_string($authToken)) {
+=======
+        if (!is_string($authToken)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [TWILIO_AUTH_TOKEN] variable to your .env and config [services.twilio.auth_token]',
             );
@@ -97,8 +113,13 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 92ecc28 (.)
     public function execute(WhatsAppData $whatsAppData): array
     {
+<<<<<<< HEAD
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);
         $to = 'whatsapp:'.$whatsAppData->to;
+=======
+        $from = 'whatsapp:' . ($whatsAppData->from ?? $this->defaultSender);
+        $to = 'whatsapp:' . $whatsAppData->to;
+>>>>>>> f5f1cb1 (.)
 
         // Log di debug se abilitato
         if ($this->debug) {

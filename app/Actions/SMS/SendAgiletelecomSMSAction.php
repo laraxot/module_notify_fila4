@@ -6,6 +6,7 @@ namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SmsActionContract;
@@ -13,21 +14,27 @@ use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> b94a5f6 (.)
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Override;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> b94a5f6 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -58,6 +65,9 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Override;
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.

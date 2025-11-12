@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Database\Factories;
 
+<<<<<<< HEAD
+=======
+use Modules\Notify\Models\MailTemplateLog;
+>>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\MailTemplateLog;
 

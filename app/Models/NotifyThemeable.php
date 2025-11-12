@@ -11,6 +11,12 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> f5f1cb1 (.)
+use Illuminate\Support\Carbon;
+>>>>>>> b94a5f6 (.)
 use Modules\Xot\Contracts\ProfileContract;
 =======
 <<<<<<< HEAD
@@ -37,7 +43,9 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +60,10 @@ use Illuminate\Support\Carbon;
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -71,7 +83,9 @@ use Illuminate\Support\Carbon;
  *
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
@@ -103,6 +117,10 @@ use Illuminate\Support\Carbon;
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
  * @mixin IdeHelperNotifyThemeable
  * @mixin \Eloquent
  */
