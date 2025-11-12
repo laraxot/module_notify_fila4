@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<?php
+
+declare(strict_types=1);
+
+?>
+>>>>>>> 08fd62d (.)
 </div>
 					</td>
 				</tr>
