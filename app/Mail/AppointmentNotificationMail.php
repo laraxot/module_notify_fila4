@@ -12,6 +12,7 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fdda20 (.)
 use Illuminate\Bus\Queueable;
@@ -58,6 +59,12 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 65a883d (.)
+=======
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+>>>>>>> 2b494dc (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -69,6 +76,7 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +99,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 1b51780 (.)
 =======
 >>>>>>> 242f019 (.)
+=======
+    use Queueable, SerializesModels;
+>>>>>>> 2b494dc (.)
 
     /**
      * Dati della notifica dell'appuntamento.
