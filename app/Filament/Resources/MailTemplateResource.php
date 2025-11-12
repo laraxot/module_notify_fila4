@@ -8,6 +8,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -31,18 +32,13 @@ use Override;
 >>>>>>> 220b97c (.)
 =======
 >>>>>>> da89aab (.)
+=======
+>>>>>>> 61cfa35 (.)
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
 use Override;
 use Filament\Forms\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
-=======
-use Override;
-use Filament\Schemas\Components\Group;
-use Filament\Schemas\Components\Utilities\Set;
-use Filament\Forms\Components\RichEditor;
-use Filament\Schemas\Components\View;
->>>>>>> b8140d8 (.)
 use Filament\Forms\Components\Textarea;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
@@ -77,6 +73,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 <<<<<<< HEAD
@@ -85,23 +82,14 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 220b97c (.)
 =======
 >>>>>>> da89aab (.)
-            'name_group' => Group::make()
 =======
-            //'name' => Forms\Components\TextInput::make('name'),
-            //'slug' => Forms\Components\TextInput::make('slug'),
-            Group::make()
->>>>>>> b8140d8 (.)
+>>>>>>> 61cfa35 (.)
+            'name_group' => Group::make()
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-<<<<<<< HEAD
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
-=======
-                        //->live(debounce: 200)
-                        //->reactive()
-                        ->afterStateUpdated(function (string $state, Set $set) {
->>>>>>> b8140d8 (.)
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -110,11 +98,6 @@ class MailTemplateResource extends LangBaseResource
                         ->unique(ignoreRecord: true),
                 ])
                 ->columns(2),
-<<<<<<< HEAD
-=======
-            //->columnSpan('full'),
-
->>>>>>> b8140d8 (.)
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')
