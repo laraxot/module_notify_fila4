@@ -85,13 +85,8 @@ grep -L "name=\"footer\"" /var/www/html/_bases/base_techplanner_fila3_mono/larav
 
 ## Riferimenti
 
-<<<<<<< HEAD
 - [Filament UI Components](https://filamentphp.com/docs/panels/components)
 - [Laravel Blade Templates](https://laravel.com/docs/blade)
-=======
-- [Filament UI Components](https://filamentphp.com/project_docs/panels/components)
-- [Laravel Blade Templates](https://laravel.com/project_docs/blade)
->>>>>>> d284d65 (.)
 - [Accessibilità Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 <<<<<<< HEAD
 =======

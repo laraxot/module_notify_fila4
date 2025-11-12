@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -51,11 +52,14 @@
 >>>>>>> 0cea4dc (.)
 =======
 >>>>>>> 0dd5e35 (.)
+=======
+>>>>>>> f053e7c (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +125,8 @@ declare(strict_types=1);
 >>>>>>> d284d65 (.)
 =======
 >>>>>>> 4a221df (.)
+=======
+>>>>>>> f053e7c (.)
 <tr>
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
@@ -146,6 +152,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
 <<<<<<< HEAD
@@ -225,3 +232,6 @@ declare(strict_types=1);
 >>>>>>> 0cea4dc (.)
 =======
 >>>>>>> 0dd5e35 (.)
+=======
+					<div class="article-content" align="left">
+>>>>>>> f053e7c (.)

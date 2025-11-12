@@ -13,12 +13,6 @@ use Webmozart\Assert\Assert;
 
 class SmtpMailSendAction
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -58,98 +52,5 @@ class SmtpMailSendAction
          * throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
          * }
          */
-<<<<<<< HEAD
-=======
-=======
-    public function execute(string $to, string $subject, string $body): void
-=======
-    public function execute(string $_to, string $_subject, string $_body): void
->>>>>>> b93ef594b4 (.)
-    {
-        dddx('WIP');
-
-        /*
-<<<<<<< HEAD
-=======
-    public function execute(string $to, string $subject, string $body): void
-    {
-        dddx('WIP');
-        /*
->>>>>>> origin/develop
-        $smtpData = SmtpData::make();
-        $transport = $smtpData->getTransport();
-
-        // Start the SMTP transport
-        try {
-            $transport->start();
-        } catch (\Exception $e) {
-            throw new \Exception('Errore durante la connessione SMTP: '.$e->getMessage());
-        }
-
-        $emailData = EmailData::from($data);
-
-        // Verifica i dati di input e crea l'oggetto Email
-        Assert::string($email_from_address = $data['email_from_address'] ?? '');
-        Assert::string($email_from_name = $data['email_from_name'] ?? '');
-        Assert::string($email_to = $data['email_to'] ?? '');
-
-        $from = new Address($email_from_address, $email_from_name);
-        $mailer = new Mailer($transport);
-
-        $email = (new Email())
-            ->from($from)
-            ->to($email_to)
-            ->subject($emailData->subject)
-            ->text(strip_tags($emailData->body))
-            ->html($emailData->body);
-
-        // Invio dell'email
-        try {
-            $mailer->send($email);
-        } catch (\Exception $e) {
-            throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
-        }
-        */
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-         * $smtpData = SmtpData::make();
-         * $transport = $smtpData->getTransport();
-         *
-         * // Start the SMTP transport
-         * try {
-         * $transport->start();
-         * } catch (\Exception $e) {
-         * throw new \Exception('Errore durante la connessione SMTP: '.$e->getMessage());
-         * }
-         *
-         * $emailData = EmailData::from($data);
-         *
-         * // Verifica i dati di input e crea l'oggetto Email
-         * Assert::string($email_from_address = $data['email_from_address'] ?? '');
-         * Assert::string($email_from_name = $data['email_from_name'] ?? '');
-         * Assert::string($email_to = $data['email_to'] ?? '');
-         *
-         * $from = new Address($email_from_address, $email_from_name);
-         * $mailer = new Mailer($transport);
-         *
-         * $email = (new Email())
-         * ->from($from)
-         * ->to($email_to)
-         * ->subject($emailData->subject)
-         * ->text(strip_tags($emailData->body))
-         * ->html($emailData->body);
-         *
-         * // Invio dell'email
-         * try {
-         * $mailer->send($email);
-         * } catch (\Exception $e) {
-         * throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
-         * }
-         */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 }
