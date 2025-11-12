@@ -117,6 +117,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * Callback per filtrare i dispositivi.
          */
@@ -259,6 +260,13 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> 895d6b1 (.)
 =======
+=======
+        /**
+         * Callback per filtrare i dispositivi.
+         */
+        Assert::isArray([]);
+
+>>>>>>> ab15d0e (.)
         return $schema
             ->components([
                 Select::make('deviceToken')->options(fn () => []),

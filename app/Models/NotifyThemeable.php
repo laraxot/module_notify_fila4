@@ -122,7 +122,11 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
  *
+<<<<<<< HEAD
 >>>>>>> d2c515f (.)
+=======
+ * @mixin IdeHelperNotifyThemeable
+>>>>>>> ab15d0e (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

@@ -12,6 +12,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Blade;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
@@ -108,6 +109,7 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -167,6 +169,9 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
  *
+=======
+ * @mixin IdeHelperNotificationTemplate
+>>>>>>> ab15d0e (.)
  * @mixin \Eloquent
  */
 class NotificationTemplate extends BaseModel implements HasMedia
@@ -227,6 +232,43 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $this->addMediaCollection('attachments')->singleFile();
     }
 
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
+    /*
+     * Create a new version of the template.
+     *
+     * @param string $createdBy The user who created the version
+     * @param string|null $notes Optional notes about the changes
+     * @return self
+     *
+     * public function createNewVersion(string $createdBy, ?string $notes = null): self
+     * {
+     * $this->versions()->create([
+     * 'subject' => $this->subject,
+     * 'body_html' => $this->body_html,
+     * 'body_text' => $this->body_text,
+     * 'channels' => $this->channels,
+     * 'variables' => $this->variables,
+     * 'conditions' => $this->conditions,
+     * 'version' => $this->version,
+     * 'created_by' => $createdBy,
+     * 'change_notes' => $notes,
+     * ]);
+     *
+     * $this->increment('version');
+     * return $this;
+     * }
+     */
     /**
      * Compile the template with the given data.
      *
@@ -239,16 +281,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function compile(array $data = []): array
     {
-        /** @var string $subject */
-        $subject = $this->getAttribute('subject');
-        /** @var string|null $bodyHtml */
-        $bodyHtml = $this->getAttribute('body_html');
-        /** @var string|null $bodyText */
-        $bodyText = $this->getAttribute('body_text');
-
-        $subject = $this->compileString($subject, $data);
-        $bodyHtml = $this->compileString($bodyHtml, $data);
-        $bodyText = $this->compileString($bodyText, $data);
+        $subject = $this->compileString($this->subject, $data);
+        $bodyHtml = $this->compileString($this->body_html, $data);
+        $bodyText = $this->compileString($this->body_text, $data);
 
         return [
             'subject' => $subject ?? '',
@@ -266,6 +301,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     public function shouldSend(array $data = []): bool
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $this->conditions) {
 =======
      * @param array<string, mixed> $data The data to check conditions against
@@ -280,13 +316,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $conditions = $this->getAttribute('conditions');
         if (! $conditions) {
 >>>>>>> ffb0ad3 (.)
+=======
+        if (! $this->conditions) {
+>>>>>>> ab15d0e (.)
             return true;
         }
 
-        foreach ($conditions as $path => $value) {
-            if (! is_string($path)) {
-                continue;
-            }
+        foreach ($this->conditions as $path => $value) {
             $actual = data_get($data, $path);
             if ($actual !== $value) {
                 return false;
@@ -333,14 +369,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function preview(array $data = []): array
     {
-        /** @var array<string, mixed>|null $previewData */
-        $previewData = $this->getAttribute('preview_data');
-        if (! is_array($previewData)) {
-            $previewData = [];
-        }
+        $previewData = $this->preview_data ?? [];
         $mergedData = array_merge($previewData, $data);
 
-        /** @var array<string, mixed> $mergedData */
         return $this->compile($mergedData);
     }
 
@@ -420,6 +451,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     public function getChannelsLabelAttribute(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return collect($this->channels)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,6 +475,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
                 return (string) __('notify::template.fields.channel.options.'.$channelStr.'.label');
             })
 >>>>>>> 05bc3ad (.)
+=======
+        return collect($this->channels)
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
+>>>>>>> ab15d0e (.)
             ->implode(', ');
     }
 
@@ -453,21 +489,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
-        /** @var array<string, mixed>|null $data */
-        $data = $this->getAttribute('grapesjs_data');
-        if (! is_array($data)) {
-            return [];
-        }
-
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($data as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return $result;
+        return $this->grapesjs_data ?? [];
     }
 
     /**
@@ -483,29 +505,24 @@ class NotificationTemplate extends BaseModel implements HasMedia
     public function setGrapesJSData(array $data): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->grapesjs_data = $data;
 <<<<<<< HEAD
 =======
         $this->setAttribute('grapesjs_data', $data);
 >>>>>>> ffb0ad3 (.)
+=======
+        $this->grapesjs_data = $data;
+>>>>>>> ab15d0e (.)
 
 =======
 >>>>>>> 99ff506 (.)
         return $this;
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getPreviewData(): array
     {
-        /** @var array<string, mixed>|null $previewData */
-        $previewData = $this->getAttribute('preview_data');
-        if (! is_array($previewData)) {
-            return [];
-        }
-
-        return $previewData;
+        return $this->preview_data ?? [];
     }
 
     public function getPreviewSubject(): string

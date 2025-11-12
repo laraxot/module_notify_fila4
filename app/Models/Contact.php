@@ -173,6 +173,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
@@ -285,6 +286,9 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Contact whereValue($value)
  * @method static Builder<static>|Contact whereVerifiedAt($value)
  *
+=======
+ * @mixin IdeHelperContact
+>>>>>>> ab15d0e (.)
  * @mixin \Eloquent
  */
 class Contact extends BaseModel

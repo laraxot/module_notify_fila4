@@ -77,8 +77,11 @@ use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 >>>>>>> e39a6f9 (.)
+=======
+>>>>>>> ab15d0e (.)
 // use Modules\SaluteOra\Models\Appointment;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
@@ -165,6 +168,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +177,10 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         if (is_object($appointment) && property_exists($appointment, 'id') && is_scalar($appointment->id)) {
             $subject .= ' #'.(string) $appointment->id;
 >>>>>>> 05bc3ad (.)
+=======
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+>>>>>>> ab15d0e (.)
         }
 
 =======

@@ -125,17 +125,9 @@ class NotificationTrackingController extends Controller
 
             // Aggiorna i metadati con il link cliccato
             $metadata = $log->data ?? [];
-            if (! is_array($metadata)) {
-                $metadata = [];
-            }
-
-            $clickedLinks = isset($metadata['clicked_links']) && is_array($metadata['clicked_links'])
-                ? $metadata['clicked_links']
-                : [];
-
             $metadata['clicked_links'] = array_merge(
-                $clickedLinks,
-                [(string) $url => now()->toIso8601String()]
+                $metadata['clicked_links'] ?? [],
+                [$url => now()->toIso8601String()]
             );
             $log->update(['data' => $metadata]);
         }

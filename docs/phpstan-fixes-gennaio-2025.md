@@ -251,9 +251,12 @@ public function toMail(object $notifiable): MailMessage
 
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> 0f07e6d (.)
 =======
 
 
 >>>>>>> e11621f (.)
+=======
+>>>>>>> ab15d0e (.)

@@ -49,6 +49,10 @@ test('ListMailTemplates renders without plugin registration error', function () 
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> a7355f9 (.)
+=======
+
+>>>>>>> ab15d0e (.)

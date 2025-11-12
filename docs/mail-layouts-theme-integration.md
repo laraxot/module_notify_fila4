@@ -34,15 +34,23 @@ Il sistema email di PTVX supporta **layout personalizzati per tema**, permettend
 │  │     └─ dark.html
 │  │
 │  └─ Themes/                                  ← Temi applicazione
+<<<<<<< HEAD
 │     ├─ Zero/resources/mail-layouts/
 │     │  └─ base.html                        # Layout tema Zero (Design Italiano)
+=======
+│     ├─ SbAdmin2Bs4/resources/mail-layouts/
+│     │  └─ base.html                        # Layout SbAdmin2Bs4
+>>>>>>> ab15d0e (.)
 │     │
 │     ├─ One/resources/mail-layouts/
 │     │  └─ base.html                        # Layout tema One
 │     │
+<<<<<<< HEAD
 │     ├─ SbAdmin2Bs4/resources/mail-layouts/
 │     │  └─ base.html                        # Layout SbAdmin2Bs4
 │     │
+=======
+>>>>>>> ab15d0e (.)
 │     └─ MetronicOne/resources/mail-layouts/
 │        └─ base.html                        # Layout Metronic
 ```
@@ -53,12 +61,17 @@ Il sistema email di PTVX supporta **layout personalizzati per tema**, permettend
 // config/{environment}/xra.php
 
 return [
+<<<<<<< HEAD
     'pub_theme' => 'Zero',  // ← Tema pubblico attivo
+=======
+    'pub_theme' => 'SbAdmin2Bs4',  // ← Tema pubblico attivo
+>>>>>>> ab15d0e (.)
     // Altri config...
 ];
 ```
 
 **Ambienti**:
+<<<<<<< HEAD
 - `config/local/tv/prov/personale2019/xra.php` → `pub_theme = 'Zero'`
 - `config/local/tv/prov/personale2022/xra.php` → `pub_theme = 'Zero'`
 - `config/localhost/xra.php` → `pub_theme = 'One'`
@@ -77,6 +90,12 @@ Il tema **Zero** implementa un layout email basato sul **Design System Italiano*
 
 **Documentazione**: [Themes/Zero/docs/mail-layouts.md](../../../../Themes/Zero/docs/mail-layouts.md)
 
+=======
+- `config/local/tv/prov/personale2022/xra.php` → `pub_theme = 'SbAdmin2Bs4'`
+- `config/localhost/xra.php` → `pub_theme = 'One'`
+- Production può avere tema diverso
+
+>>>>>>> ab15d0e (.)
 ## Implementazione getHtmlLayout()
 
 ### Codice Corrente
@@ -311,7 +330,11 @@ class EmailLayoutResource extends XotBaseResource
             'name' => TextInput::make('name'),
             'theme' => Select::make('theme')
                 ->options([
+<<<<<<< HEAD
                     'Zero' => 'SbAdmin2',
+=======
+                    'SbAdmin2Bs4' => 'SbAdmin2',
+>>>>>>> ab15d0e (.)
                     'One' => 'Tema One',
                     'MetronicOne' => 'Metronic',
                 ]),

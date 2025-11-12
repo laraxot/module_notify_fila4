@@ -62,6 +62,7 @@ class SendNotificationAction
         // Verifica condizioni di invio
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $template->shouldSend($data)) {
 =======
         if (!$template->shouldSend($data)) {
@@ -71,22 +72,20 @@ class SendNotificationAction
         $typedData = $data;
         if (! $template->shouldSend($typedData)) {
 >>>>>>> 05bc3ad (.)
+=======
+        if (! $template->shouldSend($data)) {
+>>>>>>> ab15d0e (.)
             return false;
         }
 
         // Compila il template
-        $compiled = $template->compile($typedData);
+        $compiled = $template->compile($data);
 
         // Determina i canali da utilizzare
-        /* @phpstan-ignore-next-line property.notFound */
         $effectiveChannels = $channels ?: $template->channels;
 
         // Processa ogni canale
-        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($effectiveChannels as $channel) {
-            if (! is_string($channel)) {
-                continue;
-            }
             try {
                 $this->sendViaChannel($recipient, $channel, $compiled, $options);
             } catch (Exception $e) {
@@ -170,30 +169,24 @@ class SendNotificationAction
         }
 
         // Usa il sistema di notifiche di Laravel
-        $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : 'Notifica';
-        $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-        $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-        $message = $bodyHtml ?: $bodyText;
-
-        /** @var array<string, mixed> $notifyOptions */
-        $notifyOptions = array_merge($options, [
-            'text_view' => $bodyText,
-        ]);
-
         if (method_exists($recipient, 'notify')) {
             $recipient->notify(new GenericNotification(
-                $subject,
-                $message,
+                $compiled['subject'],
+                $compiled['body_html'] ?? $compiled['body_text'],
                 ['mail'],
-                $notifyOptions,
+                array_merge($options, [
+                    'text_view' => $compiled['body_text'],
+                ]),
             ));
         } else {
             // Fallback per modelli che non implementano Notifiable
             Notification::send($recipient, new GenericNotification(
-                $subject,
-                $message,
+                $compiled['subject'],
+                $compiled['body_html'] ?? $compiled['body_text'],
                 ['mail'],
-                $notifyOptions,
+                array_merge($options, [
+                    'text_view' => $compiled['body_text'],
+                ]),
             ));
         }
     }
@@ -203,19 +196,11 @@ class SendNotificationAction
      */
     protected function sendDatabase(Model $recipient, array $compiled, array $options): void
     {
-        $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : 'Notifica';
-        $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-        $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-        $message = $bodyText ?: strip_tags($bodyHtml);
-
-        /** @var array<string, mixed> $typedOptions */
-        $typedOptions = $options;
-
         Notification::send($recipient, new GenericNotification(
-            $subject,
-            $message,
+            $compiled['subject'],
+            $compiled['body_text'] ?? strip_tags($compiled['body_html']),
             ['database'],
-            $typedOptions,
+            $options,
         ));
     }
 
@@ -256,16 +241,7 @@ class SendNotificationAction
         }
 
         // Usa il testo plain o una versione senza HTML
-        $bodyText = $compiled['body_text'] ?? null;
-        $bodyHtml = $compiled['body_html'] ?? null;
-
-        if (is_string($bodyText)) {
-            $message = $bodyText;
-        } elseif (is_string($bodyHtml)) {
-            $message = strip_tags($bodyHtml);
-        } else {
-            $message = '';
-        }
+        $message = $compiled['body_text'] ?? strip_tags($compiled['body_html']);
 
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($message) > 320) {
@@ -276,12 +252,6 @@ class SendNotificationAction
 >>>>>>> 99ff506 (.)
         }
 
-        $subject = $compiled['subject'] ?? '';
-        $subjectStr = is_string($subject) ? $subject : '';
-
-        /** @var array<string, mixed> $optionsArray */
-        $optionsArray = $options;
-
-        Notification::send($recipient, new GenericNotification($subjectStr, $message, ['sms'], $optionsArray));
+        Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
     }
 }

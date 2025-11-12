@@ -53,6 +53,9 @@ use Spatie\Translatable\HasTranslations;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab15d0e (.)
  * @property int                                  $id
  * @property string                               $mailable
  * @property string|null                          $subject
@@ -71,6 +74,7 @@ use Spatie\Translatable\HasTranslations;
  * @property string                               $slug
  * @property array                                $variables
  * @property mixed                                $translations
+<<<<<<< HEAD
  *
 =======
  * @property int $id
@@ -104,6 +108,8 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> a80c61f (.)
 =======
+=======
+>>>>>>> ab15d0e (.)
  *
 >>>>>>> d2c515f (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
@@ -152,7 +158,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereParams($value)
  *
  * @property array<array-key, mixed>|null $sms_template
- * @property int $counter
+ * @property int                          $counter
  *
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
@@ -168,14 +174,17 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> a80c61f (.)
 =======
  *
+<<<<<<< HEAD
 >>>>>>> d2c515f (.)
+=======
+ * @mixin IdeHelperMailTemplate
+>>>>>>> ab15d0e (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 {
 <<<<<<< HEAD
     use HasSlug;
-
     // use SoftDeletes;
     use HasTranslations;
 =======
@@ -209,12 +218,18 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab15d0e (.)
     protected $attributes = [
         'mailable' => 'Modules\Notify\Emails\SpatieEmail',
     ];
 
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> ab15d0e (.)
     /**
      * Define attribute casts.
      *

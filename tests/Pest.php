@@ -59,6 +59,7 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
@@ -78,6 +79,11 @@ expect()->extend('toBe' + 'Notify' + '', function () {
     return $this->toBeInstanceOf(...);
 });
 >>>>>>> 6fb15fa (.)
+=======
+expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
+
+expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
+>>>>>>> ab15d0e (.)
 
 /*
  * |--------------------------------------------------------------------------

@@ -120,7 +120,6 @@ class Get
 <<<<<<< HEAD
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
-        /* @phpstan-ignore-next-line property.notFound */
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 =======
@@ -193,11 +192,11 @@ class Get
             $theme->update(['subject' => $subject]);
         }
 
-        /* @phpstan-ignore-next-line property.notFound */
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if ($theme->body_html === null) {
@@ -213,6 +212,8 @@ class Get
 >>>>>>> 7aba3dd (.)
 =======
         /* @phpstan-ignore-next-line property.notFound */
+=======
+>>>>>>> ab15d0e (.)
         if ($theme->body_html === null) {
 >>>>>>> a80c61f (.)
             $html = trans($trad_mod.'.body_html');
@@ -393,9 +394,7 @@ class Get
         }
 
         return NotifyThemeData::from([
-            /* @phpstan-ignore-next-line property.notFound */
             'from_email' => $theme->from_email,
-            /* @phpstan-ignore-next-line property.notFound */
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,

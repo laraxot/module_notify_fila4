@@ -6,10 +6,9 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
 
-describe('Notify Themeable Business Logic', function (): void {
-    it('can create notify themeable with basic information', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+describe('Notify Themeable Business Logic', function () {
+    it('can create notify themeable with basic information', function () {
+        $theme = NotifyTheme::factory()->create();
 
         $themeableData = [
             'model_type' => 'App\Models\NotificationTemplate',
@@ -45,12 +44,10 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($themeable->notify_theme_id)->toBe($theme->id);
     });
 
-    it('can manage polymorphic relationships', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+    it('can manage polymorphic relationships', function () {
+        $theme = NotifyTheme::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\EmailTemplate',
             'model_id' => 456,
             'notify_theme_id' => $theme->id,
@@ -62,9 +59,8 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($themeable->morphTo())->toBeInstanceOf(MorphTo::class);
     });
 
-    it('can handle different model types', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle different model types', function () {
+        $theme = NotifyTheme::factory()->create();
 
         $modelTypes = [
             'App\Models\NotificationTemplate',
@@ -75,8 +71,7 @@ describe('Notify Themeable Business Logic', function (): void {
         ];
 
         foreach ($modelTypes as $index => $modelType) {
-            /** @var \Illuminate\Database\Eloquent\Collection */
-            $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+            $themeable = NotifyThemeable::factory()->create([
                 'model_type' => $modelType,
                 'model_id' => $index + 1,
                 'notify_theme_id' => $theme->id,
@@ -87,6 +82,7 @@ describe('Notify Themeable Business Logic', function (): void {
         }
     });
 
+<<<<<<< HEAD
     it('can manage theme relationships', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
 <<<<<<< HEAD
@@ -95,6 +91,10 @@ describe('Notify Themeable Business Logic', function (): void {
 =======
         $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create([
 >>>>>>> 6fb15fa (.)
+=======
+    it('can manage theme relationships', function () {
+        $theme = NotifyTheme::factory()->create([
+>>>>>>> ab15d0e (.)
             'name' => config('app.name', 'Platform').' Professional',
             'description' => 'Tema professionale per '.config('app.name', 'Platform'),
 =======
@@ -103,8 +103,7 @@ describe('Notify Themeable Business Logic', function (): void {
 >>>>>>> 99ff506 (.)
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
         ]);
 
@@ -117,12 +116,10 @@ describe('Notify Themeable Business Logic', function (): void {
 >>>>>>> 99ff506 (.)
     });
 
-    it('can handle user tracking', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle user tracking', function () {
+        $theme = NotifyTheme::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
@@ -143,30 +140,24 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($themeable->updated_at)->not->toBeNull();
     });
 
-    it('can manage multiple theme assignments', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme1 = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema 1']);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme2 = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema 2']);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme3 = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema 3']);
+    it('can manage multiple theme assignments', function () {
+        $theme1 = NotifyTheme::factory()->create(['name' => 'Tema 1']);
+        $theme2 = NotifyTheme::factory()->create(['name' => 'Tema 2']);
+        $theme3 = NotifyTheme::factory()->create(['name' => 'Tema 3']);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable1 = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable1 = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme1->id,
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable2 = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable2 = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme2->id,
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable3 = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable3 = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme3->id,
@@ -176,21 +167,17 @@ describe('Notify Themeable Business Logic', function (): void {
             ->toHaveCount(3);
     });
 
-    it('can handle theme switching', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $oldTheme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema Vecchio']);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $newTheme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema Nuovo']);
+    it('can handle theme switching', function () {
+        $oldTheme = NotifyTheme::factory()->create(['name' => 'Tema Vecchio']);
+        $newTheme = NotifyTheme::factory()->create(['name' => 'Tema Nuovo']);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $oldTheme->id,
         ]);
 
         expect($themeable->notify_theme_id)->toBe($oldTheme->id);
         expect($themeable->theme->name)->toBe('Tema Vecchio');
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $themeable->update([
             'notify_theme_id' => $newTheme->id,
 <<<<<<< HEAD
@@ -209,12 +196,10 @@ describe('Notify Themeable Business Logic', function (): void {
 >>>>>>> 99ff506 (.)
     });
 
-    it('can handle empty or null values gracefully', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle empty or null values gracefully', function () {
+        $theme = NotifyTheme::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
             'model_type' => null,
             'model_id' => null,
@@ -229,9 +214,8 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($themeable->notify_theme_id)->not->toBeNull();
     });
 
-    it('can validate model type consistency', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+    it('can validate model type consistency', function () {
+        $theme = NotifyTheme::factory()->create();
 
         $validModelTypes = [
             'App\Models\NotificationTemplate',
@@ -243,8 +227,7 @@ describe('Notify Themeable Business Logic', function (): void {
         ];
 
         foreach ($validModelTypes as $modelType) {
-            /** @var \Illuminate\Database\Eloquent\Collection */
-            $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+            $themeable = NotifyThemeable::factory()->create([
                 'model_type' => $modelType,
                 'model_id' => rand(1, 1000),
                 'notify_theme_id' => $theme->id,
@@ -255,28 +238,24 @@ describe('Notify Themeable Business Logic', function (): void {
         }
     });
 
-    it('can manage theme inheritance', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $parentTheme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create([
+    it('can manage theme inheritance', function () {
+        $parentTheme = NotifyTheme::factory()->create([
             'name' => 'Tema Base',
             'description' => 'Tema base per tutte le notifiche',
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $childTheme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create([
+        $childTheme = NotifyTheme::factory()->create([
             'name' => 'Tema Specializzato',
             'description' => 'Tema specializzato per appuntamenti',
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $baseThemeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $baseThemeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $parentTheme->id,
         ]);
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $specializedThemeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $specializedThemeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $childTheme->id,
@@ -289,19 +268,16 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($baseThemeable->model_id)->toBe($specializedThemeable->model_id);
     });
 
-    it('can handle theme removal', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+    it('can handle theme removal', function () {
+        $theme = NotifyTheme::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
         ]);
 
         expect($themeable->notify_theme_id)->not->toBeNull();
         expect($themeable->notify_theme_id)->toBe($theme->id);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $themeable->update([
             'notify_theme_id' => null,
 <<<<<<< HEAD
@@ -319,12 +295,10 @@ describe('Notify Themeable Business Logic', function (): void {
 >>>>>>> 99ff506 (.)
     });
 
-    it('can manage audit trail', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create();
+    it('can manage audit trail', function () {
+        $theme = NotifyTheme::factory()->create();
 
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $themeable = NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+        $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
@@ -333,7 +307,6 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($themeable->created_by)->toBe('developer@'.config('app.domain', 'example.com'));
         expect($themeable->created_at)->not->toBeNull();
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $themeable->update([
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
         ]);
@@ -357,18 +330,15 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($themeable->created_at->lte($themeable->updated_at))->toBeTrue();
     });
 
-    it('can handle bulk theme operations', function (): void {
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme1 = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema 1']);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme2 = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema 2']);
-        /** @var \Illuminate\Database\Eloquent\Collection */
-        $theme3 = NotifyTheme/** @phpstan-ignore-line */ ::factory()->create(['name' => 'Tema 3']);
+    it('can handle bulk theme operations', function () {
+        $theme1 = NotifyTheme::factory()->create(['name' => 'Tema 1']);
+        $theme2 = NotifyTheme::factory()->create(['name' => 'Tema 2']);
+        $theme3 = NotifyTheme::factory()->create(['name' => 'Tema 3']);
 
         $modelIds = [101, 102, 103, 104, 105];
 
         foreach ($modelIds as $modelId) {
-            NotifyThemeable/** @phpstan-ignore-line */ ::factory()->create([
+            NotifyThemeable::factory()->create([
                 'model_type' => 'App\Models\NotificationTemplate',
                 'model_id' => $modelId,
                 'notify_theme_id' => $theme1->id,

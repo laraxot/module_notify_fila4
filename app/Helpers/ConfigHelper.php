@@ -145,19 +145,10 @@ class ConfigHelper
 
         if (is_string($value)) {
             $companyConfig = Config::get('notify.company', []);
-            if (! is_array($companyConfig)) {
-                $companyConfig = [];
-            }
+            $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
-            /** @var array<string, mixed> $result */
-            $result = [];
-            foreach ($companyConfig as $key => $val) {
-                if (is_string($key)) {
-                    $result[$key] = $val;
-                }
-            }
-
-            return self::replaceStringVariables($value, $result);
+            /* @var array<string, mixed> $companyConfig */
+            return self::replaceStringVariables($value, $companyConfig);
         }
 
         if (is_array($value)) {
@@ -176,19 +167,10 @@ class ConfigHelper
     public static function getTestData(): array
     {
         $testData = Config::get('notify.test_data', []);
-        if (! is_array($testData)) {
-            return [];
-        }
+        $testData = is_array($testData) ? $testData : [];
 
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($testData as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
+        /* @var array<string, mixed> $testData */
+        return self::replaceTemplateVariables($testData);
     }
 
     /**
@@ -199,19 +181,10 @@ class ConfigHelper
     public static function getCompanyConfig(): array
     {
         $companyConfig = Config::get('notify.company', []);
-        if (! is_array($companyConfig)) {
-            return [];
-        }
+        $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($companyConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
+        /* @var array<string, mixed> $companyConfig */
+        return self::replaceTemplateVariables($companyConfig);
     }
 
     /**
@@ -222,19 +195,10 @@ class ConfigHelper
     public static function getWebhookConfig(): array
     {
         $webhookConfig = Config::get('notify.webhooks', []);
-        if (! is_array($webhookConfig)) {
-            return [];
-        }
+        $webhookConfig = is_array($webhookConfig) ? $webhookConfig : [];
 
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($webhookConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
+        /* @var array<string, mixed> $webhookConfig */
+        return self::replaceTemplateVariables($webhookConfig);
     }
 
     /**
@@ -245,19 +209,10 @@ class ConfigHelper
     public static function getEmailConfig(): array
     {
         $emailConfig = Config::get('notify.email', []);
-        if (! is_array($emailConfig)) {
-            return [];
-        }
+        $emailConfig = is_array($emailConfig) ? $emailConfig : [];
 
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($emailConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
+        /* @var array<string, mixed> $emailConfig */
+        return self::replaceTemplateVariables($emailConfig);
     }
 
     /**
@@ -268,18 +223,9 @@ class ConfigHelper
     public static function getPathConfig(): array
     {
         $pathConfig = Config::get('notify.paths', []);
-        if (! is_array($pathConfig)) {
-            return [];
-        }
+        $pathConfig = is_array($pathConfig) ? $pathConfig : [];
 
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($pathConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
+        /* @var array<string, mixed> $pathConfig */
+        return self::replaceTemplateVariables($pathConfig);
     }
 }

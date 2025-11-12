@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -104,21 +105,27 @@
 >>>>>>> 5dacc15 (.)
 =======
 >>>>>>> 5f6e153 (.)
+=======
+>>>>>>> ab15d0e (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 </td>
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> d2c515f (.)
+=======
+>>>>>>> ab15d0e (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,3 +300,6 @@ declare(strict_types=1);
 >>>>>>> 5f6e153 (.)
 =======
 >>>>>>> d2c515f (.)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> ab15d0e (.)

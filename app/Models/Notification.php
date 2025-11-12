@@ -72,6 +72,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -139,6 +140,9 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  *
+=======
+ * @mixin IdeHelperNotification
+>>>>>>> ab15d0e (.)
  * @mixin \Eloquent
  */
 class Notification extends BaseModel

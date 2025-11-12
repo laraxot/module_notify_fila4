@@ -181,9 +181,6 @@ final class SendGammuSMSAction implements SmsActionContract
      * @throws Exception In caso di errore durante l'invio
      */
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

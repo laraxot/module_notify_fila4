@@ -72,6 +72,7 @@ class MailTemplateResource extends LangBaseResource
     public static function getFormSchema(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [
 <<<<<<< HEAD
             'mailable' => TextInput::make('mailable')
@@ -82,6 +83,9 @@ class MailTemplateResource extends LangBaseResource
 =======
         return array_values([
 >>>>>>> 05bc3ad (.)
+=======
+        return [
+>>>>>>> ab15d0e (.)
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,7 +106,7 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -114,6 +118,7 @@ class MailTemplateResource extends LangBaseResource
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 ->viewData(fn ($record) => ['params' => $record?->params])
@@ -141,8 +146,13 @@ class MailTemplateResource extends LangBaseResource
                     return ! empty($record->params);
                 }),
 >>>>>>> 05bc3ad (.)
+=======
+                ->viewData(fn ($record) => ['params' => $record?->params])
+                ->columnSpanFull()
+                ->visible(fn ($record): bool => ! empty($record->params)),
+>>>>>>> ab15d0e (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
-        ]);
+        ];
     }
 }

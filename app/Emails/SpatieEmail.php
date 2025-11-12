@@ -412,6 +412,7 @@ class SpatieEmail extends TemplateMailable
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Valida e tipizza parametri
         Assert::keyExists($attachment, 'path', 'Attachment must have path');
         Assert::string($attachment['path'], 'Attachment path must be string');
@@ -443,11 +444,12 @@ class SpatieEmail extends TemplateMailable
         $info = pathinfo($path);
 
 >>>>>>> 05bc3ad (.)
+=======
+        $res = Attachment::fromPath($attachment['path']);
+        $info = pathinfo($attachment['path']);
+>>>>>>> ab15d0e (.)
         $filename = $attachment['as'] ?? $info['basename'];
-        Assert::string($filename, 'Filename must be string');
-
-        $mime = $attachment['mime'] ?? File::mimeType($path);
-        Assert::string($mime, 'MIME type must be string');
+        $mime = $attachment['mime'] ?? File::mimeType($attachment['path']);
 
         $res = $res->as($filename)->withMime($mime);
 <<<<<<< HEAD
@@ -554,15 +556,18 @@ class SpatieEmail extends TemplateMailable
 >>>>>>> f5f1cb1 (.)
         $res = Attachment::fromData(fn() => $attachment['data']);
         $as = $attachment['as'];
-        Assert::string($as, 'Attachment "as" must be string');
 
 <<<<<<< HEAD
         $mime = Arr::get($attachment, 'mime', null); //?? File::mimeType($as);   file vuole un file esistente
         $info = pathinfo($attachment['as']);
 =======
         $mime = Arr::get($attachment, 'mime', null); // ?? File::mimeType($as);   file vuole un file esistente
+<<<<<<< HEAD
         $info = pathinfo($as);
 >>>>>>> 05bc3ad (.)
+=======
+        $info = pathinfo($attachment['as']);
+>>>>>>> ab15d0e (.)
         if ($mime === null && isset($info['extension'])) {
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
         }
@@ -711,8 +716,6 @@ class SpatieEmail extends TemplateMailable
 =======
         /**@phpstan-ignore method.notFound */
         $sms_template = $this->getMailTemplate()->getAttributeValue('sms_template');
-        Assert::string($sms_template, 'SMS template must be string');
-
         $mustache = app(Mustache_Engine::class);
         $sms = $mustache->render($sms_template, $this->data);
 
