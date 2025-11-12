@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions;
 
+<<<<<<< HEAD
 use Exception;
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -36,6 +43,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
@@ -45,11 +53,20 @@ class EsendexSendAction
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
         if (!is_array($auth)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 =======
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -63,6 +80,18 @@ class EsendexSendAction
         if (!is_array($auth)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> e11621f (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! is_array($auth)) {
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
         }
 
         $data = [
@@ -75,6 +104,7 @@ class EsendexSendAction
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,12 +124,39 @@ class EsendexSendAction
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+>>>>>>> f813254 (.)
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+=======
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+        
+>>>>>>> a12f125f4a (.)
+=======
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+>>>>>>> b93ef594b4 (.)
+=======
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
         if (!is_string($auth[0])) {
             $auth[0] = '';
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
         if (!is_string($auth[1])) {
 >>>>>>> 99ff506 (.)
@@ -116,6 +173,42 @@ class EsendexSendAction
             'Session_key: ' . $auth[1],
 >>>>>>> 99ff506 (.)
         ]);
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+        
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+        
+        curl_setopt(
+            $ch,
+            CURLOPT_HTTPHEADER,
+            [
+                'Content-type: application/json',
+                'user_key: '.$auth[0],
+                'Session_key: '.$auth[1],
+            ]
+        );
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-type: application/json',
+            'user_key: ' . $auth[0],
+            'Session_key: ' . $auth[1],
+        ]);
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -128,6 +221,12 @@ class EsendexSendAction
             return [];
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
         $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
@@ -140,15 +239,23 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 =======
 >>>>>>> 0f07e6d (.)
 =======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> f813254 (.)
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
         if (! is_array($res)) {
+<<<<<<< HEAD
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -159,6 +266,22 @@ class EsendexSendAction
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+<<<<<<< HEAD
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> a12f125f4a (.)
+=======
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> b93ef594b4 (.)
+=======
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
         }
 
         return $res;
@@ -172,6 +295,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function login(): ?array
 =======
     public function login(): null|array
@@ -193,6 +317,24 @@ class EsendexSendAction
 =======
     public function login(): null|array
 >>>>>>> e11621f (.)
+=======
+    public function login(): null|array
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function login(): null|array
+=======
+    public function login(): ?array
+>>>>>>> a12f125f4a (.)
+=======
+    public function login(): null|array
+>>>>>>> b93ef594b4 (.)
+=======
+    public function login(): ?array
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -204,6 +346,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
 =======
         $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
@@ -225,6 +368,24 @@ class EsendexSendAction
 =======
         $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
 >>>>>>> e11621f (.)
+=======
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+=======
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+>>>>>>> a12f125f4a (.)
+=======
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+>>>>>>> b93ef594b4 (.)
+=======
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 
@@ -242,6 +403,22 @@ class EsendexSendAction
             return null;
         }
 
+<<<<<<< HEAD
         return explode(';', is_string($response) ? $response : ((string) $response));
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return explode(';', is_string($response) ? $response : ((string) $response));
+=======
+        return explode(';', is_string($response) ? $response : (string) $response);
+>>>>>>> a12f125f4a (.)
+=======
+        return explode(';', is_string($response) ? $response : ((string) $response));
+>>>>>>> b93ef594b4 (.)
+=======
+        return explode(';', is_string($response) ? $response : (string) $response);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 }

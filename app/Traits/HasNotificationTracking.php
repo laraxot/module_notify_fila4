@@ -68,6 +68,12 @@ trait HasNotificationTracking
             '/<a\s+(?:[^>]*?\s+)?href=(["\'])(.*?)\1/i',
             function ($matches) use ($trackingId) {
                 $url = $matches[2];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
@@ -79,16 +85,24 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 =======
 >>>>>>> 0f07e6d (.)
 =======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> f813254 (.)
                 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
                     || !Str::startsWith($url, ['http://', 'https://'])
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -98,6 +112,20 @@ trait HasNotificationTracking
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
+                        !Str::startsWith($url, ['http://', 'https://'])
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
                 ) {
                     return $matches[0];
                 }
@@ -109,7 +137,23 @@ trait HasNotificationTracking
 
                 return str_replace($url, $trackingUrl, $matches[0]);
             },
+<<<<<<< HEAD
             $html,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $html,
+=======
+            $html
+>>>>>>> a12f125f4a (.)
+=======
+            $html,
+>>>>>>> b93ef594b4 (.)
+=======
+            $html
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         );
     }
 
@@ -187,4 +231,20 @@ trait HasNotificationTracking
     {
         return $this->isTrackingEnabled() && config('notify.tracking.links.enabled', false);
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> a12f125f4a (.)
+=======
+}
+>>>>>>> b93ef594b4 (.)
+=======
+} 
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)

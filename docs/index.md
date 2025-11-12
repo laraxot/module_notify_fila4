@@ -55,6 +55,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -66,6 +67,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> e11621f (.)
 =======
 >>>>>>> 7bac387 (.)
+=======
+>>>>>>> f813254 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -167,6 +170,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -179,6 +183,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> e11621f (.)
 =======
 >>>>>>> 7bac387 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 
 ## Sottocartelle
 
@@ -196,6 +204,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -214,6 +223,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> e11621f (.)
 =======
 >>>>>>> 7bac387 (.)
+=======
+>>>>>>> f813254 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -229,12 +240,16 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f813254 (.)
 =======
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
@@ -248,3 +263,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> e11621f (.)
 =======
 >>>>>>> 7bac387 (.)
+=======
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)

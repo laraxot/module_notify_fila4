@@ -6,8 +6,28 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Filament\Actions\Action;
 use Filament\Resources\Pages\Page;
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+=======
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+>>>>>>> a12f125f4a (.)
+=======
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
 /**
  * @property MailTemplate $record
@@ -16,7 +36,15 @@ class PreviewMailTemplate extends Page
 {
     protected static string $resource = MailTemplateResource::class;
 
+<<<<<<< HEAD
     protected string $view = 'notify::filament.resources.mail-template-resource.pages.preview-mail-template';
+=======
+<<<<<<< HEAD
+    protected string $view = 'notify::filament.resources.mail-template-resource.pages.preview-mail-template';
+=======
+    protected static string $view = 'notify::filament.resources.mail-template-resource.pages.preview-mail-template';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     public function getTitle(): string
     {
@@ -34,6 +62,7 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
 =======
 =======
@@ -44,8 +73,35 @@ class PreviewMailTemplate extends Page
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
 >>>>>>> 99ff506 (.)
         ];
     }
 }
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+} 
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+}
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)

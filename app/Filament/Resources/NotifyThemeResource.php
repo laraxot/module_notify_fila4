@@ -8,6 +8,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 99ff506 (.)
@@ -27,6 +28,22 @@ use Override;
 =======
 use Override;
 >>>>>>> e11621f (.)
+=======
+use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -49,6 +66,12 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class NotifyThemeResource extends XotBaseResource
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> 99ff506 (.)
 
@@ -67,10 +90,26 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+=======
+=======
+    protected static ?string $model = NotifyTheme::class;
+
+=======
+    protected static null|string $model = NotifyTheme::class;
+>>>>>>> b93ef594b4 (.)
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
 =======
     protected static ?string $model = NotifyTheme::class;
 
@@ -78,6 +117,10 @@ class NotifyThemeResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> f813254 (.)
             'lang' => Select::make('lang')
                 ->options(function (): array {
                     return self::fieldOptions('lang');
@@ -90,6 +133,7 @@ class NotifyThemeResource extends XotBaseResource
                 ->options(function (): array {
                     return self::fieldOptions('post_type');
                 }),
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -99,6 +143,18 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -121,11 +177,43 @@ class NotifyThemeResource extends XotBaseResource
                     'widgets' => 'widgets',
                 ])
                 ->default('empty'),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
     }
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+            'body' => Textarea::make('body')
+                ->columnSpanFull(),
+            'body_html' => RichEditor::make('body_html')
+                ->columnSpanFull(),
+        ];
+    }
+
+   
+
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            'body' => Textarea::make('body')->columnSpanFull(),
+            'body_html' => RichEditor::make('body_html')->columnSpanFull(),
+        ];
+    }
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

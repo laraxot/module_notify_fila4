@@ -10,12 +10,26 @@ use Modules\Xot\Filament\Widgets\EnvWidget;
 class SettingPage extends XotBasePage
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
 =======
+=======
+>>>>>>> f813254 (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 >>>>>>> 99ff506 (.)
 
     protected string $view = 'notify::filament.pages.setting';
+=======
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+
+    protected string $view = 'notify::filament.pages.setting';
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-document-text';
+
+    protected static string $view = 'notify::filament.pages.setting';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     public function getHeaderWidgets(): array
     {

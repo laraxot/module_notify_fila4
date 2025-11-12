@@ -4,12 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 use Modules\Xot\Contracts\ProfileContract;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
 
@@ -25,9 +33,15 @@ use Illuminate\Support\Carbon;
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -51,11 +65,36 @@ use Illuminate\Support\Carbon;
  *
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+<<<<<<< HEAD
  *
 =======
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
 >>>>>>> 99ff506 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable query()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereModelId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereModelType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereNotifyThemeId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyThemeable whereUpdatedBy($value)
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyThemeable whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyThemeable whereDeletedBy($value)
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
  * @mixin IdeHelperNotifyThemeable
  * @mixin \Eloquent
  */
