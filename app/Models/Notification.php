@@ -11,6 +11,7 @@ use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 
@@ -25,6 +26,9 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> 6a92a74 (.)
+=======
+use Override;
+>>>>>>> ea313f3 (.)
 
 /**
  * Notification model for the Notify module.
