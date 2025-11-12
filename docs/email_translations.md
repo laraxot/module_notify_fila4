@@ -379,5 +379,9 @@ class TranslationValidator
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 - [Laravel Localization](https://laravel.com/docs/localization)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+>>>>>>> d284d65 (.)
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
