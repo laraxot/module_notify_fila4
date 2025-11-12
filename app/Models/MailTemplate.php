@@ -94,6 +94,7 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 <<<<<<< HEAD
@@ -102,6 +103,9 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> a80c61f (.)
+=======
+ *
+>>>>>>> d2c515f (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -125,6 +129,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> a80c61f (.)
@@ -139,12 +144,19 @@ use Spatie\Translatable\HasTranslations;
  *
 <<<<<<< HEAD
 =======
+=======
+ *
+>>>>>>> d2c515f (.)
  * @property string|null $params
+ *
  * @method static Builder<static>|MailTemplate whereParams($value)
+ *
  * @property array<array-key, mixed>|null $sms_template
  * @property int $counter
+ *
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
  * @mixin IdeHelperMailTemplate
 =======
@@ -154,12 +166,16 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
 >>>>>>> a80c61f (.)
+=======
+ *
+>>>>>>> d2c515f (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 {
 <<<<<<< HEAD
     use HasSlug;
+
     // use SoftDeletes;
     use HasTranslations;
 =======

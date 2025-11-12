@@ -1,11 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 use function Safe\class_uses;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> d2c515f (.)
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -27,6 +30,8 @@ use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
+
+use function Safe\class_uses;
 
 describe('MailTemplate Business Logic', function (): void {
     test('mail template extends spatie mail template', function (): void {

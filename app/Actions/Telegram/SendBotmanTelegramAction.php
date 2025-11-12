@@ -220,7 +220,7 @@ final class SendBotmanTelegramAction
             if (is_array($responseData) && isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
                 $messageId = $responseData['result']['message_id'];
             }
-            
+
             return [
                 'success' => $success,
                 'message_id' => $messageId,

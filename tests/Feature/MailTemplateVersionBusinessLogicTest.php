@@ -401,7 +401,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         foreach ($mailableClasses as $index => $mailableClass) {
             /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+            $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
 <<<<<<< HEAD
@@ -535,7 +535,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         foreach ($versionSchemes as $versionNumber => $description) {
             /** @var \Illuminate\Database\Eloquent\Collection */
-        $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+            $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
                 'template_id' => $template->id,
                 'version' => $versionNumber,
                 'change_notes' => $description,

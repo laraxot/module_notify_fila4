@@ -744,7 +744,7 @@ describe('Notification Type Business Logic', function (): void {
             /** @phpstan-ignore-next-line method.nonObject */
             ->not->toBeNull()->and($type->fresh()->archive_reason)->toBe(
                 'Sostituito da nuovo tipo',
-            /** @phpstan-ignore-next-line method.nonObject */
+                /** @phpstan-ignore-next-line method.nonObject */
             )->and($type->fresh()->replacement_type_id)->toBe(15);
     });
 
