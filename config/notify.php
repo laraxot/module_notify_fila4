@@ -5,6 +5,9 @@ declare(strict_types=1);
 return [
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
      * |--------------------------------------------------------------------------
      * | Company Configuration
      * |--------------------------------------------------------------------------
@@ -13,6 +16,7 @@ return [
      * | per project without modifying the module code.
      * |
      */
+<<<<<<< HEAD
 =======
     |--------------------------------------------------------------------------
     | Company Configuration
@@ -23,6 +27,8 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'company' => [
         'name' => env('COMPANY_NAME', 'Default Company'),
         'team' => env('COMPANY_TEAM', 'Default Team'),
@@ -31,6 +37,9 @@ return [
         'repository_url' => env('REPOSITORY_URL', 'https://github.com/example/repo'),
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * |--------------------------------------------------------------------------
      * | Default Test Data
@@ -40,6 +49,7 @@ return [
      * | across different projects.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -52,6 +62,8 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'test_data' => [
         'default_subject' => 'Benvenuto su {{company_name}}',
         'default_content' => 'Grazie per esserti registrato al nostro servizio.',
@@ -64,6 +76,9 @@ return [
         'default_repository' => '{{repository_url}}',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * |--------------------------------------------------------------------------
      * | Webhook Configuration
@@ -72,6 +87,7 @@ return [
      * | Default webhook endpoints that can be customized per project.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -83,12 +99,17 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'webhooks' => [
         'notification_delivered' => '{{webhook_base}}/webhooks/notification-delivered',
         'notification_bounced' => '{{webhook_base}}/webhooks/notification-bounced',
         'notification_clicked' => '{{webhook_base}}/webhooks/notification-clicked',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * |--------------------------------------------------------------------------
      * | Email Configuration
@@ -97,6 +118,7 @@ return [
      * | Default email settings that can be customized per project.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -108,6 +130,8 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'email' => [
         'default_from_address' => env('MAIL_FROM_ADDRESS', 'noreply@example.com'),
         'default_from_name' => env('MAIL_FROM_NAME', '{{company_name}}'),
@@ -115,6 +139,9 @@ return [
         'default_developer_email' => env('DEVELOPER_EMAIL', 'developer@{{company_name}}.com'),
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * |--------------------------------------------------------------------------
      * | Path Configuration
@@ -123,6 +150,7 @@ return [
      * | Default paths that can be customized per project.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -134,11 +162,16 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'paths' => [
         'default_avatar_path' => env('DEFAULT_AVATAR_PATH', '/images/avatars/default.svg'),
         'default_image_path' => env('DEFAULT_IMAGE_PATH', '/images/default.jpg'),
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     /*
      * |--------------------------------------------------------------------------
      * | Template Variables
@@ -147,6 +180,7 @@ return [
      * | Available template variables that can be used in notification templates.
      * |
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -158,6 +192,8 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     'template_variables' => [
         'company_name' => '{{company_name}}',
         'team_name' => '{{team_name}}',
@@ -169,7 +205,11 @@ return [
         'appointment_time' => '{{appointment_time}}',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 ]; 
 >>>>>>> b19cd40 (.)
+=======
+];
+>>>>>>> 4e2ebfb (.)

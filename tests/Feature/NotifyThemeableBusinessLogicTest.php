@@ -4,12 +4,17 @@ declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
 =======
 use Modules\Notify\Models\NotifyThemeable;
 use Modules\Notify\Models\NotifyTheme;
 >>>>>>> b19cd40 (.)
+=======
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+>>>>>>> 4e2ebfb (.)
 
 describe('Notify Themeable Business Logic', function (): void {
     it('can create notify themeable with basic information', function (): void {
@@ -178,6 +183,7 @@ describe('Notify Themeable Business Logic', function (): void {
         ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
             ->toHaveCount(3);
 =======
@@ -185,6 +191,10 @@ describe('Notify Themeable Business Logic', function (): void {
             ->where('model_id', 123)
             ->get())->toHaveCount(3);
 >>>>>>> b19cd40 (.)
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+>>>>>>> 4e2ebfb (.)
     });
 
     it('can handle theme switching', function (): void {
@@ -390,6 +400,9 @@ describe('Notify Themeable Business Logic', function (): void {
         expect($theme1Assignments)->toHaveCount(5);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
 <<<<<<< HEAD
@@ -398,6 +411,7 @@ describe('Notify Themeable Business Logic', function (): void {
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 99ff506 (.)
         ]);
+<<<<<<< HEAD
 =======
         NotifyThemeable::where('notify_theme_id', $theme1->id)
             ->update([
@@ -405,6 +419,8 @@ describe('Notify Themeable Business Logic', function (): void {
                 'updated_by' => 'admin@' . config('app.domain', 'example.com'),
             ]);
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);
