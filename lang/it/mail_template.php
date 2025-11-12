@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 return [
@@ -226,6 +229,7 @@ return [
     ],
     'label' => 'mail template',
 ];
+<<<<<<< HEAD
 =======
 return array (
   'resource' => 
@@ -467,3 +471,5 @@ return array (
   ),
 );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)

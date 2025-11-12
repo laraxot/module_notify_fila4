@@ -6,6 +6,9 @@ namespace Modules\Notify\Datas\SMS;
 
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -29,6 +32,7 @@ class SmsFactorData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+<<<<<<< HEAD
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -52,6 +56,8 @@ class SmsFactorData extends Data
             $data = Arr::get($data, 'drivers.smsfactor', []);
             */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -68,10 +74,14 @@ class SmsFactorData extends Data
                     'Authorization' => 'Bearer '.$this->token,
                     'Content-Type' => 'application/json',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Cache-Control' => 'no-cache',
 =======
                     'Cache-Control' => 'no-cache'
 >>>>>>> b19cd40 (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 4e2ebfb (.)
                 ];
         }
     }

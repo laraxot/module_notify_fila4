@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
@@ -14,6 +17,7 @@ declare(strict_types=1);
         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
 
     </x-filament-schemas::form>
+<<<<<<< HEAD
 =======
 <x-filament::page>
 
@@ -26,4 +30,6 @@ declare(strict_types=1);
 
     </x-filament-panels::form>
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 </x-filament::page>

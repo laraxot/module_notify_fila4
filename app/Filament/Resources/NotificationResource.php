@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
@@ -32,6 +35,7 @@ class NotificationResource extends XotBaseResource
         return [
             'type' => TextInput::make('type')->required()->label('Notification Type'),
             'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
+<<<<<<< HEAD
 =======
 namespace Modules\Notify\Filament\Resources;
 
@@ -61,17 +65,23 @@ class NotificationResource extends XotBaseResource
                 ->label('Notifiable Type'),
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             'notifiable_id' => TextInput::make('notifiable_id')
                 ->required()
                 ->numeric()
                 ->label('Notifiable ID'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
         ];
     }
+<<<<<<< HEAD
 =======
             'data' => Textarea::make('data')
                 ->label('Notification Data')
@@ -93,4 +103,6 @@ class NotificationResource extends XotBaseResource
 
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 }
