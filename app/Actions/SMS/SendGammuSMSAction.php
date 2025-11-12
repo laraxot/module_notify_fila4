@@ -12,6 +12,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95531e1 (.)
@@ -33,10 +34,14 @@ use Illuminate\Support\Facades\Log;
 >>>>>>> 6a92a74 (.)
 =======
 >>>>>>> ea313f3 (.)
+=======
+use Illuminate\Support\Facades\Log;
+>>>>>>> 625ad07 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +53,8 @@ use Override;
 =======
 use Override;
 >>>>>>> ea313f3 (.)
+=======
+>>>>>>> 625ad07 (.)
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 

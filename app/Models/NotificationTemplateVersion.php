@@ -69,6 +69,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -124,6 +125,9 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  *
+=======
+ * @mixin IdeHelperNotificationTemplateVersion
+>>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class NotificationTemplateVersion extends BaseModel
@@ -185,7 +189,6 @@ class NotificationTemplateVersion extends BaseModel
             'conditions' => $this->conditions ?? null,
         ]);
 
-        /** @var NotificationTemplate */
         return $template;
     }
 }

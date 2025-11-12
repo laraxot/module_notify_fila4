@@ -33,6 +33,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 99ff506 (.)
@@ -41,6 +42,8 @@ use Override;
 =======
 use Override;
 >>>>>>> ea313f3 (.)
+=======
+>>>>>>> 625ad07 (.)
 
 class ListNotifications extends XotBaseListRecords
 {

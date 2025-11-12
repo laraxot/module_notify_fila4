@@ -64,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 95531e1 (.)
@@ -89,6 +90,8 @@
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> cde5a49 (.)
+=======
+>>>>>>> 625ad07 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      fill="none"
@@ -274,6 +277,7 @@
     <circle cx="12" cy="12" r="8" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 6" />
     <circle cx="12" cy="12" r="12" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 8" />
   </g>
+<<<<<<< HEAD
 >>>>>>> 2a17243 (.)
 </svg>
 <<<<<<< HEAD
@@ -966,3 +970,6 @@
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> cde5a49 (.)
+=======
+</svg>
+>>>>>>> 625ad07 (.)

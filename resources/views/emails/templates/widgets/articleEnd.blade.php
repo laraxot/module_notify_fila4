@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -172,12 +173,15 @@
 >>>>>>> 4ac6c3c (.)
 =======
 >>>>>>> 504d3d9 (.)
+=======
+>>>>>>> 625ad07 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 </td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -191,12 +195,15 @@ declare(strict_types=1);
 >>>>>>> 6a92a74 (.)
 =======
 >>>>>>> 13b8416 (.)
+=======
+>>>>>>> 625ad07 (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -478,3 +485,6 @@ declare(strict_types=1);
 >>>>>>> 504d3d9 (.)
 =======
 >>>>>>> 13b8416 (.)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 625ad07 (.)

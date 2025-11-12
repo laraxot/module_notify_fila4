@@ -103,6 +103,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -242,6 +243,9 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|MailTemplateVersion withTrashed(bool $withTrashed = true)
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
  *
+=======
+ * @mixin IdeHelperMailTemplateVersion
+>>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class MailTemplateVersion extends BaseModel
@@ -293,15 +297,11 @@ class MailTemplateVersion extends BaseModel
         }
 
         $template->update([
-            /* @phpstan-ignore-next-line property.notFound */
             'subject' => $this->subject,
-            /* @phpstan-ignore-next-line property.notFound */
             'html_template' => $this->html_template,
-            /* @phpstan-ignore-next-line property.notFound */
             'text_template' => $this->text_template,
         ]);
 
-        /** @var MailTemplate */
         return $template;
     }
 }

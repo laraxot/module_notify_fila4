@@ -14,6 +14,7 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 use Override;
@@ -85,6 +86,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 use Override;
 >>>>>>> ea313f3 (.)
+=======
+>>>>>>> 625ad07 (.)
 
 class ListNotificationTemplates extends XotBaseListRecords
 {

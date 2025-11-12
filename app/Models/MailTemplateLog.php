@@ -69,6 +69,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -127,6 +128,9 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
  *
+=======
+ * @mixin IdeHelperMailTemplateLog
+>>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class MailTemplateLog extends BaseModel

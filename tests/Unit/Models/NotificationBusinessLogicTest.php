@@ -16,11 +16,12 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Notify\Models\Notification;
 >>>>>>> 99ff506 (.)
 
-describe('Notification Business Logic', function (): void {
-    test('notification extends xot base model', function (): void {
+describe('Notification Business Logic', function () {
+    test('notification extends xot base model', function () {
         expect(Notification::class)->toBeSubclassOf(BaseModel::class);
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,6 +36,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification can store polymorphic notifiable relationships', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification can store polymorphic notifiable relationships', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -49,6 +53,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('notification has notification type', function () {
 <<<<<<< HEAD
 =======
@@ -60,6 +65,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification has notification type', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification has notification type', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -72,6 +80,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('notification can store data payload', function () {
 <<<<<<< HEAD
 =======
@@ -83,6 +92,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification can store data payload', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification can store data payload', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -96,6 +108,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('notification can track read status', function () {
 <<<<<<< HEAD
 =======
@@ -107,6 +120,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification can track read status', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification can track read status', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -119,6 +135,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('notification can track tenant and user', function () {
 <<<<<<< HEAD
 =======
@@ -130,6 +147,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification can track tenant and user', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification can track tenant and user', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -144,6 +164,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('notification can store polymorphic subject relationships', function () {
 <<<<<<< HEAD
 =======
@@ -155,6 +176,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification can store polymorphic subject relationships', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification can store polymorphic subject relationships', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -169,6 +193,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('notification can track multiple channels', function () {
 <<<<<<< HEAD
 =======
@@ -180,6 +205,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification can track multiple channels', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification can track multiple channels', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -194,6 +222,7 @@ describe('Notification Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('notification can track status and sent time', function () {
 <<<<<<< HEAD
 =======
@@ -205,6 +234,9 @@ describe('Notification Business Logic', function (): void {
 =======
     test('notification can track status and sent time', function (): void {
 >>>>>>> c42c734 (.)
+=======
+    test('notification can track status and sent time', function () {
+>>>>>>> 625ad07 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -216,7 +248,7 @@ describe('Notification Business Logic', function (): void {
         expect($notification->sent_at)->toBe('2023-01-01 14:00:00');
     });
 
-    test('notification has factory for testing', function (): void {
+    test('notification has factory for testing', function () {
         expect(method_exists(Notification::class, 'factory'))->toBeTrue();
     });
 });

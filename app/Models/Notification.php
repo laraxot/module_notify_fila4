@@ -12,6 +12,7 @@ use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 
@@ -29,6 +30,8 @@ use Modules\Xot\Models\BaseModel;
 =======
 use Override;
 >>>>>>> ea313f3 (.)
+=======
+>>>>>>> 625ad07 (.)
 
 /**
  * Notification model for the Notify module.
@@ -78,6 +81,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +192,9 @@ use Override;
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  *
+=======
+ * @mixin IdeHelperNotification
+>>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class Notification extends BaseModel

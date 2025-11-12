@@ -20,7 +20,6 @@ use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Override;
 
 /**
  * @property Schema $emailForm
@@ -90,9 +89,6 @@ class SendEmailPage extends XotBasePage
         $this->fillForms();
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function getEmailFormSchema(): array
     {
         return [

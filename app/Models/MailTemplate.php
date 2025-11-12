@@ -176,6 +176,7 @@ use Spatie\Translatable\HasTranslations;
 =======
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d2c515f (.)
 =======
  * @mixin IdeHelperMailTemplate
@@ -183,6 +184,9 @@ use Spatie\Translatable\HasTranslations;
 =======
  *
 >>>>>>> c42c734 (.)
+=======
+ * @mixin IdeHelperMailTemplate
+>>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
