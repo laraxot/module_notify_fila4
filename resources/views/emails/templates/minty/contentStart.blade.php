@@ -1,15 +1,22 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 <div class="block">
 >>>>>>> 99ff506 (.)
 	<!-- Full + text -->
@@ -27,12 +34,21 @@ declare(strict_types=1);
 							<table width="540" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 								<tbody>
 >>>>>>> 99ff506 (.)
 =======
+=======
+>>>>>>> 0f07e6d (.)
 								<tbody>
 =======
 								<tbody>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+								<tbody>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)

@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -11,7 +12,15 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -28,10 +37,14 @@ class NetfunSmsRequestData extends Data
         return new self(
             token: $data['token'],
 <<<<<<< HEAD
+<<<<<<< HEAD
             messages: $data['messages'],
 =======
             messages: $data['messages']
 >>>>>>> b19cd40 (.)
+=======
+            messages: $data['messages'],
+>>>>>>> 4e2ebfb (.)
         );
     }
 }

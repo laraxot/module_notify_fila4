@@ -20,16 +20,25 @@ class NotificationManagerTest extends TestCase
         parent::setUp();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->notificationManager = new NotificationManager;
 =======
         $this->notificationManager = new NotificationManager();
 >>>>>>> 99ff506 (.)
 =======
+=======
+>>>>>>> 0f07e6d (.)
         $this->notificationManager = new NotificationManager();
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+        $this->notificationManager = new NotificationManager();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
     }
 
     protected function tearDown(): void
@@ -52,12 +61,16 @@ class NotificationManagerTest extends TestCase
 
         $action = Mockery::mock(SendNotificationAction::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 =======
         $action->shouldReceive('execute')
             ->with($recipient, $templateCode, $data, $channels, $options)
             ->once();
 >>>>>>> b19cd40 (.)
+=======
+        $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
+>>>>>>> 4e2ebfb (.)
 
         app()->instance(SendNotificationAction::class, $action);
 

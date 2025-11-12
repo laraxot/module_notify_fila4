@@ -12,6 +12,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
@@ -24,12 +25,21 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+use Webmozart\Assert\Assert;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     // protected string $view = 'filament-forms::components.group';
@@ -39,6 +49,13 @@ class ContactSection extends Section
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 95531e1 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 99ff506 (.)
 
@@ -52,6 +69,9 @@ class ContactSection extends Section
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
@@ -82,6 +102,7 @@ class ContactSection extends Section
      * $record->touch();
      * }
      */
+<<<<<<< HEAD
 =======
 
 
@@ -115,4 +136,6 @@ class ContactSection extends Section
     */
     
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 }

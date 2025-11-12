@@ -6,19 +6,28 @@ namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 =======
 =======
 >>>>>>> 95531e1 (.)
+=======
+>>>>>>> 0f07e6d (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Exception;
 use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
@@ -30,6 +39,7 @@ use Symfony\Component\Process\Process;
 
 use function Safe\file_put_contents;
 use function Safe\tempnam;
+<<<<<<< HEAD
 =======
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Datas\SMS\GammuData;
@@ -38,6 +48,8 @@ use Symfony\Component\Process\Process;
 use function Safe\tempnam;
 use function Safe\file_put_contents;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 use function Safe\unlink;
 
 final class SendGammuSMSAction implements SmsActionContract
@@ -63,6 +75,7 @@ final class SendGammuSMSAction implements SmsActionContract
 
     /** @var string|null */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected null|string $defaultSender = null;
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -70,7 +83,13 @@ final class SendGammuSMSAction implements SmsActionContract
 =======
     protected ?string $defaultSender = null;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+    protected null|string $defaultSender = null;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
 
     /**
      * Create a new action instance.
@@ -78,6 +97,7 @@ final class SendGammuSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->gammuData = GammuData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -92,7 +112,13 @@ final class SendGammuSMSAction implements SmsActionContract
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
         if (!$this->gammuData->path) {
             throw new Exception('Path Gammu non configurato in sms.php');
         }
@@ -122,9 +148,13 @@ final class SendGammuSMSAction implements SmsActionContract
      * @throws Exception In caso di errore durante l'invio
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
@@ -153,20 +183,29 @@ final class SendGammuSMSAction implements SmsActionContract
         $process = new Process([
             $this->gammuData->getPath(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             '-c',
             $this->gammuData->getConfig(),
 =======
             '-c', $this->gammuData->getConfig(),
 >>>>>>> b19cd40 (.)
+=======
+            '-c',
+            $this->gammuData->getConfig(),
+>>>>>>> 4e2ebfb (.)
             'sendsms',
             'TEXT',
             $to,
             '-text',
 <<<<<<< HEAD
+<<<<<<< HEAD
             $tempFile,
 =======
             $tempFile
 >>>>>>> b19cd40 (.)
+=======
+            $tempFile,
+>>>>>>> 4e2ebfb (.)
         ]);
 
         $process->setTimeout($this->gammuData->getTimeout());
@@ -202,10 +241,14 @@ final class SendGammuSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
                 $exception->getCode(),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $exception,
 =======
                 $exception
 >>>>>>> b19cd40 (.)
+=======
+                $exception,
+>>>>>>> 4e2ebfb (.)
             );
         }
     }

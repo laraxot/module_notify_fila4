@@ -47,10 +47,14 @@ class SendNotificationAction
         array $data = [],
         array $channels = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         array $options = [],
     ): bool {
         // Recupera il template
         $template = NotificationTemplate::where('code', $templateCode)->where('is_active', true)->first();
+<<<<<<< HEAD
 =======
         array $options = []
     ): bool {
@@ -59,6 +63,8 @@ class SendNotificationAction
             ->where('is_active', true)
             ->first();
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
 <<<<<<< HEAD
         if (! $template) {
@@ -115,6 +121,7 @@ class SendNotificationAction
 >>>>>>> 99ff506 (.)
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
     {
 =======
@@ -125,6 +132,10 @@ class SendNotificationAction
         array $options
     ): void {
 >>>>>>> b19cd40 (.)
+=======
+    protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
+    {
+>>>>>>> 4e2ebfb (.)
         switch ($channel) {
             case 'mail':
                 $this->sendMail($recipient, $compiled, $options);
@@ -171,10 +182,14 @@ class SendNotificationAction
                 array_merge($options, [
                     'text_view' => $compiled['body_text'],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]),
 =======
                 ])
 >>>>>>> b19cd40 (.)
+=======
+                ]),
+>>>>>>> 4e2ebfb (.)
             ));
         } else {
             // Fallback per modelli che non implementano Notifiable
@@ -185,10 +200,14 @@ class SendNotificationAction
                 array_merge($options, [
                     'text_view' => $compiled['body_text'],
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]),
 =======
                 ])
 >>>>>>> b19cd40 (.)
+=======
+                ]),
+>>>>>>> 4e2ebfb (.)
             ));
         }
     }
@@ -203,10 +222,14 @@ class SendNotificationAction
             $compiled['body_text'] ?? strip_tags($compiled['body_html']),
             ['database'],
 <<<<<<< HEAD
+<<<<<<< HEAD
             $options,
 =======
             $options
 >>>>>>> b19cd40 (.)
+=======
+            $options,
+>>>>>>> 4e2ebfb (.)
         ));
     }
 
@@ -245,6 +268,7 @@ class SendNotificationAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
 =======
         Notification::send($recipient, new GenericNotification(
@@ -254,5 +278,8 @@ class SendNotificationAction
             $options
         ));
 >>>>>>> b19cd40 (.)
+=======
+        Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
+>>>>>>> 4e2ebfb (.)
     }
 }

@@ -27,6 +27,7 @@ class EmailDataEmail extends Mailable
     use SerializesModels;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(
         public EmailData $email_data,
     ) {}
@@ -35,12 +36,18 @@ class EmailDataEmail extends Mailable
     {
     }
 >>>>>>> b19cd40 (.)
+=======
+    public function __construct(
+        public EmailData $email_data,
+    ) {}
+>>>>>>> 4e2ebfb (.)
 
     /**
      * Get the message envelope.
      */
     public function envelope(): Envelope
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if ($this->email_data->from === null) {
@@ -51,14 +58,21 @@ class EmailDataEmail extends Mailable
 =======
 =======
 >>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
+=======
+>>>>>>> 0f07e6d (.)
 =======
         if (null == $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
@@ -66,7 +80,12 @@ class EmailDataEmail extends Mailable
         }
         if (null == $this->email_data->from_email) {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }

@@ -50,6 +50,9 @@ class SendMailCommand extends Command
 
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
          * Notification::route('mail', $emailData->to)
          * ->notify(new EmailDataNotification($emailData));
          */
@@ -60,8 +63,11 @@ class SendMailCommand extends Command
 =======
         $this->info('Email sent successfully to ' . $emailData->to);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
+=======
+>>>>>>> 0f07e6d (.)
 =======
         Notification::route('mail', $emailData->to)
             ->notify(new EmailDataNotification($emailData));
@@ -70,7 +76,12 @@ class SendMailCommand extends Command
 
         $this->info('Email sent successfully to '.$emailData->to);
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
 
         return Command::SUCCESS;
     }
