@@ -197,6 +197,26 @@ return [
         'verification_failed' => [
             'title' => 'Errore Verifica',
             'message' => 'Impossibile verificare il contatto: :error',
+<<<<<<< HEAD
         ],
     ],
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        ],
+    ],
+=======
+        ]
+    ]
+>>>>>>> a12f125f4a (.)
+=======
+        ],
+    ],
+>>>>>>> b93ef594b4 (.)
+=======
+        ]
+    ]
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 ];

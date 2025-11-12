@@ -1,8 +1,26 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 {{-- Visualizzazione parametri come badge --}}
 @if(!empty($params))
     <div class="space-y-2">
@@ -32,4 +50,20 @@ declare(strict_types=1);
             {{ __('notify::mail_template.fields.variables.helper_text') }}
         </div>
     </div>
+<<<<<<< HEAD
 @endif
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+@endif
+=======
+@endif 
+>>>>>>> a12f125f4a (.)
+=======
+@endif
+>>>>>>> b93ef594b4 (.)
+=======
+@endif 
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
