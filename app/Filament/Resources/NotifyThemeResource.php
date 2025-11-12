@@ -195,7 +195,8 @@ class NotifyThemeResource extends XotBaseResource
                 ->default('empty'),
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
-        ]);}
+        ]);
+    }
 
     public static function fieldOptions(string $field): array
     {

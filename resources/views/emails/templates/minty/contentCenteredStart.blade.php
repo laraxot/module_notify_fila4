@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -188,6 +189,8 @@ declare(strict_types=1);
 >>>>>>> e6ac118 (.)
 =======
 >>>>>>> 6a92a74 (.)
+=======
+>>>>>>> 13b8416 (.)
 	<!-- start textbox-with-title -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fulltext">
 		<tbody>
@@ -203,6 +206,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,3 +485,5 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> 504d3d9 (.)
+=======
+>>>>>>> 13b8416 (.)
