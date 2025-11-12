@@ -89,6 +89,7 @@ class BuildMailMessageAction
             $subject = 'Notifica';
         }
 
+<<<<<<< HEAD
         $email = new MailMessage()
 <<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
@@ -98,6 +99,9 @@ class BuildMailMessageAction
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+        $email = (new MailMessage())
+>>>>>>> 5e14ac3 (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);

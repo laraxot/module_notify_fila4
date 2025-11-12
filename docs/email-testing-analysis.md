@@ -169,8 +169,6 @@ public function sendEmail(): void
 ## 🔗 Collegamenti
 
 - [Documentazione Filament](https://filamentphp.com/docs)
-- [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
-- [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 
@@ -185,4 +183,3 @@ public function sendEmail(): void
 - [ ] Aggiungere logging
 - [ ] Migliorare la documentazione
 - [ ] Aggiungere test unitari
-- [ ] Implementare caching 

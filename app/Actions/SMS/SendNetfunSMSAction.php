@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-=======
-use Override;
->>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -32,7 +29,6 @@ final class SendNetfunSMSAction implements SmsActionContract
 
     protected int $timeout;
 
-<<<<<<< HEAD
     protected ?string $defaultSender = null;
 
     /**
@@ -68,6 +64,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -91,6 +88,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [

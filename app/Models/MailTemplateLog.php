@@ -25,10 +25,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
-<<<<<<< HEAD
  *
-=======
->>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
@@ -56,6 +53,7 @@ class MailTemplateLog extends BaseModel
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -77,6 +75,9 @@ class MailTemplateLog extends BaseModel
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     protected function casts(): array
     {
         return [

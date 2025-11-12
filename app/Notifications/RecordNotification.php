@@ -14,6 +14,7 @@ use Modules\Notify\Emails\SpatieEmail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\MailTemplate;
 =======
 <<<<<<< HEAD
@@ -64,15 +65,20 @@ use Illuminate\Notifications\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 5e14ac3 (.)
 
 class RecordNotification extends Notification
 {
     protected Model $record;
 
     protected string $slug;
-<<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
     /**
      * @var array<string, mixed>
      */
@@ -82,6 +88,7 @@ class RecordNotification extends Notification
      * @var array<int, array<string, string>>
      */
     protected array $attachments = [];
+<<<<<<< HEAD
 =======
     /** @var array<string, mixed> */
 <<<<<<< HEAD
@@ -117,15 +124,21 @@ class RecordNotification extends Notification
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> 5e14ac3 (.)
 
     public function __construct(Model $record, string $slug)
     {
         $this->record = $record;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
         $this->slug = $slug;
     }
 
     /**
+<<<<<<< HEAD
 =======
         $this->slug = Str::slug($slug);
     }
@@ -172,6 +185,8 @@ class RecordNotification extends Notification
 >>>>>>> b94a5f6 (.)
 =======
 >>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
      * @return array<string|class-string>
      */
     public function via(object $notifiable): array
@@ -208,6 +223,7 @@ class RecordNotification extends Notification
             // Valida che sia una stringa valida
             if (is_string($recipient) && ! empty($recipient)) {
                 $email->to($recipient);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 $email->setRecipient($recipient);
@@ -269,6 +285,8 @@ class RecordNotification extends Notification
 >>>>>>> b94a5f6 (.)
 =======
 >>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
             }
         }
 
@@ -316,6 +334,18 @@ class RecordNotification extends Notification
     public function mergeData(array $data): self
     {
         $this->data = array_merge($this->data, $data);
+
+        return $this;
+    }
+
+    /**
+     * Add attachments to the notification.
+     *
+     * @param  array<int, array<string, string>>  $attachments
+     */
+    public function addAttachments(array $attachments): self
+    {
+        $this->attachments = array_merge($this->attachments, $attachments);
 
         return $this;
     }

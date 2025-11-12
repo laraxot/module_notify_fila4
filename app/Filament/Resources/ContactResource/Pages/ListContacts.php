@@ -4,11 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 
-<<<<<<< HEAD
-=======
-use Override;
-use Filament\Tables;
->>>>>>> f5f1cb1 (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
@@ -20,6 +15,7 @@ class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,6 +32,9 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 92ecc28 (.)
     #[Override]
 >>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function getTableColumns(): array
     {
         return [
@@ -51,10 +50,14 @@ class ListContacts extends XotBaseListRecords
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
 >>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function getTableFilters(): array
     {
         return [

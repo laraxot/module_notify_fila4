@@ -4,15 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use RuntimeException;
-use Modules\User\Models\Profile;
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
@@ -34,10 +25,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
-<<<<<<< HEAD
  *
-=======
->>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
@@ -65,6 +53,7 @@ class NotificationTemplateVersion extends BaseModel
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -86,6 +75,9 @@ class NotificationTemplateVersion extends BaseModel
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     protected function casts(): array
     {
         return [

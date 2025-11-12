@@ -4,14 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\WhatsApp;
 
-=======
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
->>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
-<<<<<<< HEAD
 use Modules\Notify\Datas\WhatsAppData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Spatie\QueueableAction\QueueableAction;
@@ -153,13 +149,10 @@ final class Send360dialogWhatsAppAction
                 'response' => $responseBody,
             ]);
 
-<<<<<<< HEAD
             // Extract error message safely
             /** @phpstan-ignore-next-line - WhatsApp API response structure */
             $errorMessage = $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto';
 
-=======
->>>>>>> f5f1cb1 (.)
             return [
                 'success' => false,
                 'error' => $errorMessage,

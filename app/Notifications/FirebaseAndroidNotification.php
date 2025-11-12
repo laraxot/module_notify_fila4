@@ -8,9 +8,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Notifications;
 
-=======
-use Override;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Stringable;
@@ -42,7 +39,6 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     /**
      * Get the notification's delivery channels.
      *
-<<<<<<< HEAD
      * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
      * @return array<int, class-string>
      */
@@ -104,6 +100,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -122,6 +119,9 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> b94a5f6 (.)
 =======
 >>>>>>> 23161eb (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function toArray(?object $notifiable): array
     {
         // return $this->data->toArray();
@@ -131,6 +131,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     /**
      * Convert to a Firebase Cloud message (Converti in un messaggio Cloud Firebase).
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[\Override]
@@ -145,6 +146,9 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 92ecc28 (.)
     #[Override]
 >>>>>>> 82c6772 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;

@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Pages;
 
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
-<<<<<<< HEAD
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> f5f1cb1 (.)
 
 class Dashboard extends XotBaseDashboard
 {

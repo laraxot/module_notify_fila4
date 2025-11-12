@@ -8,6 +8,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -48,6 +49,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> b94a5f6 (.)
 use Eloquent;
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> 5e14ac3 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -85,6 +88,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array $logo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Model $linkable
 =======
 <<<<<<< HEAD
@@ -95,6 +99,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 92ecc28 (.)
  * @property Model|Eloquent $linkable
 >>>>>>> 82c6772 (.)
+=======
+ * @property Model $linkable
+>>>>>>> 5e14ac3 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  *
@@ -133,7 +140,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 6ba141fc (.)
 =======
  *
- * @mixin Eloquent
+ * @mixin \Eloquent
  *
 >>>>>>> 92ecc28 (.)
  * @property Carbon|null $deleted_at
@@ -141,6 +148,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  *
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,6 +171,10 @@ class NotifyTheme extends BaseModel implements HasMedia
  */
 class NotifyTheme extends BaseModel
 >>>>>>> 6ba141fc (.)
+=======
+ */
+class NotifyTheme extends BaseModel implements HasMedia
+>>>>>>> 5e14ac3 (.)
 {
     use InteractsWithMedia;
     use \Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -186,10 +198,14 @@ class NotifyTheme extends BaseModel
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
     /**
      * @return array{path: string, width: int, height: int}
      */
     public function getLogoAttribute(): array
+<<<<<<< HEAD
 =======
     /** @var list<string> */
     protected $appends = [
@@ -232,6 +248,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> b94a5f6 (.)
 =======
 >>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -250,6 +268,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -272,6 +291,8 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> 5e14ac3 (.)
     protected function casts(): array
     {
         return [
@@ -283,6 +304,7 @@ class NotifyTheme extends BaseModel
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -315,6 +337,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 92ecc28 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> 5e14ac3 (.)
             'view_params' => 'array',
         ];
     }

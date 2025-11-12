@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Jobs;
 
-=======
-use Throwable;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -80,7 +77,6 @@ class SendNotificationJob implements ShouldQueue
 
     /**
      * Gestisce un fallimento del job.
-<<<<<<< HEAD
      */
     public function failed(Throwable $exception): void
     {

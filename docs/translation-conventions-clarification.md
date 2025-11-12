@@ -44,12 +44,6 @@ Dopo un'analisi approfondita, è stato determinato che:
    - L'uso della chiave `navigation` è intenzionale e necessario per il funzionamento del modulo Notify
 
 2. **Eccezioni alle convenzioni generali**
-<<<<<<< HEAD
-   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
-=======
-   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
-   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
->>>>>>> bf479cc (.)
    - Questa eccezione è documentata e intenzionale
 
 ## Convenzioni Corrette per il Modulo Notify
@@ -86,12 +80,6 @@ return [
 
 ## Conclusione
 
-<<<<<<< HEAD
-Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
-=======
-Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
-Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
->>>>>>> bf479cc (.)
 
 ## Riferimenti
 

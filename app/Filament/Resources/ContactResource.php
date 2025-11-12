@@ -24,6 +24,7 @@ class ContactResource extends XotBaseResource
      * @return array<string, Component>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -52,6 +53,9 @@ class ContactResource extends XotBaseResource
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -71,6 +75,7 @@ class ContactResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[\Override]
@@ -94,11 +99,15 @@ class ContactResource extends XotBaseResource
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public static function getRelations(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[\Override]
@@ -120,6 +129,9 @@ class ContactResource extends XotBaseResource
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public static function getPages(): array
     {
         return [

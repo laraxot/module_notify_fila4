@@ -210,9 +210,6 @@ class SmtpData extends Data
 
 ## 🔗 Collegamenti Utili
 
-- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
-- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
-- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -232,4 +229,3 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
-   - Verificare configurazione SMTP 

@@ -4,11 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
-=======
-use RuntimeException;
-use ReflectionClass;
-use ReflectionException;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Support\Str;
 use ReflectionClass;
 use ReflectionException;
@@ -20,7 +15,6 @@ use RuntimeException;
 class SmsService
 {
     // ---------CSS------------
-<<<<<<< HEAD
     public ?string $to = null;
 
     public ?string $from = null;

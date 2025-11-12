@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
->>>>>>> f5f1cb1 (.)
+ *
  * @mixin IdeHelperNotificationType
  * @mixin \Eloquent
  */

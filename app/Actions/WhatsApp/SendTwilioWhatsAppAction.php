@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\WhatsApp;
 
-=======
-use Override;
->>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -33,7 +30,6 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     protected bool $debug;
 
     protected int $timeout;
-<<<<<<< HEAD
 
     protected ?string $defaultSender = null;
 
@@ -76,6 +72,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -99,6 +96,9 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function execute(WhatsAppData $whatsAppData): array
     {
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);

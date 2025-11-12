@@ -112,6 +112,7 @@ class SpatieEmail extends TemplateMailable
         MailTemplate::where(['slug' => $this->slug, 'mailable' => SpatieEmail::class])->update(['params' => $params]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
         return $this;
@@ -148,6 +149,9 @@ class SpatieEmail extends TemplateMailable
         }
 
         return $envelope;
+=======
+        return $this;
+>>>>>>> 5e14ac3 (.)
     }
 
 >>>>>>> 82c6772 (.)
@@ -205,6 +209,7 @@ class SpatieEmail extends TemplateMailable
         $res = $res->as($filename)->withMime($mime);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
         return $res;
@@ -245,11 +250,25 @@ class SpatieEmail extends TemplateMailable
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> 23161eb (.)
+=======
+        return $res;
+    }
+>>>>>>> 5e14ac3 (.)
 
-        $res = Attachment::fromData(fn () => $attachment['data']);
-        $filename = $attachment['as']; // Laravel convention: 'as' parameter name
+    public function getAttachmentFromData(array $attachment): Attachment
+    {
+        // Valida e tipizza parametri
+        Assert::keyExists($attachment, 'data', 'Attachment must have data');
+        Assert::string($attachment['data'], 'Attachment data must be string');
+
+        $data = $attachment['data'];
+        $res = Attachment::fromData(fn () => $data);
+
+        // Determina filename
+        $filename = isset($attachment['as']) ? (string) $attachment['as'] : 'attachment';
 
         // Determina MIME type
+<<<<<<< HEAD
         $mime = Arr::get($attachment, 'mime', null);
 
         if ($mime === null) {
@@ -270,6 +289,9 @@ class SpatieEmail extends TemplateMailable
             $mime = 'application/octet-stream';
         }
 >>>>>>> 6ba141fc (.)
+=======
+        $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
+>>>>>>> 5e14ac3 (.)
 
         $res = $res->as($filename)->withMime($mime);
 

@@ -13,10 +13,6 @@ use Modules\Notify\Datas\SmsData;
  * Class SmsNotification
  *
  * Notification class for sending SMS messages through various providers.
-=======
- *
- * @package Modules\Notify\Notifications
->>>>>>> f5f1cb1 (.)
  */
 class SmsNotification extends Notification implements ShouldQueue
 {
@@ -48,7 +44,6 @@ class SmsNotification extends Notification implements ShouldQueue
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
 
-<<<<<<< HEAD
             $this->smsData = new SmsData;
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */

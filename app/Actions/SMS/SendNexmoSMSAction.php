@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-=======
-use Override;
->>>>>>> f5f1cb1 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\NexmoData;
@@ -54,6 +52,20 @@ use Modules\Notify\Datas\SMS\NexmoData;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Datas\SMS\NexmoData;
+use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+
+final class SendNexmoSMSAction implements SmsActionContract
+{
+    private NexmoData $nexmoData;
+    private ?string $defaultSender = null;
+    
+    /** @var array<string, mixed> */
+    private array $vars = [];
+>>>>>>> 5e14ac3 (.)
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
@@ -108,6 +120,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -131,6 +144,9 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [

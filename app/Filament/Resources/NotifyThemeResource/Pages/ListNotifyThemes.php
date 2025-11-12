@@ -9,6 +9,7 @@ use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 <<<<<<< HEAD
@@ -57,11 +58,14 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> b94a5f6 (.)
 =======
 >>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
 
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +82,9 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 92ecc28 (.)
     #[Override]
 >>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function getTableColumns(): array
     {
         return [
@@ -101,6 +108,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 =======
@@ -114,6 +122,9 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 92ecc28 (.)
     #[Override]
 >>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function getTableFilters(): array
     {
         return [

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notify Module Documentation Index
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ Questo indice raccoglie tutti i riferimenti utili per il modulo **Notify**.
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31bdf6b (.)
+=======
+>>>>>>> 5e14ac3 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -64,20 +67,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
 
 ## Collegamenti Correlati
-<<<<<<< HEAD
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
-<<<<<<< HEAD
-=======
-
->>>>>>> bf479cc (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -151,10 +145,6 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - **Fallimenti di Consegna**: Assicurarsi della corretta configurazione di chiavi API e endpoint per ogni canale di notifica
 - **Errori Template**: Verificare sintassi template e placeholder per evitare problemi di rendering
 - **Colli di Bottiglia Performance**: Utilizzare il queueing per l'invio di notifiche per prevenire ritardi nell'esperienza utente
-<<<<<<< HEAD
-=======
-
->>>>>>> bf479cc (.)
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
@@ -180,16 +170,6 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ### Notifications
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
-<<<<<<< HEAD
-=======
-## Collegamenti alla Documentazione Correlata
-- [Panoramica Architettura](./ARCHITECTURE.md)
-- [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
-- [Template Email](./EMAIL_TEMPLATES.md)
-- [Implementazione SMS](./SMS_IMPLEMENTATION.md)
-- [Troubleshooting](./TROUBLESHOOTING.md)
-
->>>>>>> bf479cc (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -221,6 +201,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -248,3 +229,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bf479cc (.)
 >>>>>>> 31bdf6b (.)
+=======
+>>>>>>> 5e14ac3 (.)

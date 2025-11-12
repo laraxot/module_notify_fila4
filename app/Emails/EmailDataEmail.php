@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
-=======
-use Illuminate\Mail\Mailables\Attachment;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
@@ -31,7 +28,6 @@ class EmailDataEmail extends Mailable
      */
     public function envelope(): Envelope
     {
-<<<<<<< HEAD
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;

@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-=======
-use Override;
->>>>>>> f5f1cb1 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -17,7 +14,6 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class NotifyThemeResource extends XotBaseResource
 {
-<<<<<<< HEAD
     protected static ?string $model = NotifyTheme::class;
 
     #[\Override]

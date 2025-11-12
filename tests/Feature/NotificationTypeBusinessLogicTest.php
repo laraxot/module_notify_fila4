@@ -2,9 +2,6 @@
 
 declare(strict_types=1);
 
-=======
-use Modules\Notify\Helpers\ConfigHelper;
->>>>>>> f5f1cb1 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('Notification Type Business Logic', function () {
@@ -136,7 +133,6 @@ describe('Notification Type Business Logic', function () {
                 'text_template' => 'emails.appointment-reminder-text',
             ],
             'sms' => [
-<<<<<<< HEAD
                 'message' => 'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
                         config('app.name', 'Our Platform'),
                 'variables' => ['appointment_date', 'appointment_time'],

@@ -8,9 +8,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services\MailEngines;
 
-=======
-use InvalidArgumentException;
->>>>>>> f5f1cb1 (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
@@ -25,7 +22,6 @@ use Webmozart\Assert\Assert;
  */
 class MailtrapEngine
 {
-<<<<<<< HEAD
     public ?string $from = null;
 
     public string $to;

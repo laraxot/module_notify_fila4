@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas;
 
 use Exception;
-<<<<<<< HEAD
-=======
-use Illuminate\Database\Eloquent\Model;
->>>>>>> f5f1cb1 (.)
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;

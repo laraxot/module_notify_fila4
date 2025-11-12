@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PHPStan Fixes - Notify
 =======
 =======
@@ -14,9 +15,12 @@
 =======
 >>>>>>> 31bdf6b (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
 # PHPStan Fixes - Modulo Notify
 >>>>>>> 6ba141fc (.)
 
+<<<<<<< HEAD
 ## 2025-01-06
 
 | File | Intervento | Verifica |
@@ -49,142 +53,70 @@ Syntax error, unexpected '}', expecting EOF on line 344
 ## 💡 Soluzione Implementata
 
 ### Prima della Correzione
+=======
+## Panoramica
+Documentazione dei fix applicati al modulo Notify per raggiungere PHPStan livello 9.
 
+## Fix Applicati
+
+### 1. NotificationLog.php
+**Problema**: Metodi `markAsOpened()` e `markAsClicked()` mancanti
+>>>>>>> 5e14ac3 (.)
+
+**Soluzione**: Aggiunta dei metodi mancanti
 ```php
-public function registerMediaCollections(): void
-{
-    $this->addMediaCollection('attachments')->singleFile();
-}
-
-/*
- * public function versions(): HasMany
- * {
- * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
- * ->orderByDesc('version');
- * }
- *
- * public function logs(): HasMany
- * {
- * return $this->hasMany(NotificationLog::class, 'template_id');
- * }
+/**
+ * Marca la notifica come aperta.
  */
-/*
- * Create a new version of the template.
- *
- * @param string $createdBy The user who created the version
- * @param string|null $notes Optional notes about the changes
- * @return self
- *
- * public function createNewVersion(string $createdBy, ?string $notes = null): self
- * {
- * $this->versions()->create([
- * 'subject' => /** @phpstan-ignore-line property.notFound */ $this->subject,
- * 'body_html' => /** @phpstan-ignore-line property.notFound */ $this->body_html,
- * 'body_text' => /** @phpstan-ignore-line property.notFound */ $this->body_text,
- * 'channels' => $this->channels,
- * 'variables' => $this->variables,
- * 'conditions' => $this->conditions,
- * 'version' => $this->version,
- * 'created_by' => $createdBy,
- * 'change_notes' => $notes,
- * ]);
- *
- * $this->increment('version');
- * return $this;
- * }
- */
-```
-
-### Dopo la Correzione
-
-```php
-public function registerMediaCollections(): void
+public function markAsOpened(): void
 {
-    $this->addMediaCollection('attachments')->singleFile();
+    $this->update([
+        'opened_at' => now(),
+        'status' => NotificationLogStatusEnum::OPENED,
+    ]);
 }
 
 /**
- * Compile the template with the given data.
- *
- * @param  array<string, mixed>  $data  The data to compile the template with
- * @return array{subject: string, body_html: string|null, body_text: string|null}
+ * Marca la notifica come cliccata.
  */
-public function compile(array $data = []): array
+public function markAsClicked(): void
 {
-    // ... resto del codice
+    $this->update([
+        'clicked_at' => now(),
+        'status' => NotificationLogStatusEnum::CLICKED,
+    ]);
 }
 ```
 
-## 📋 Dettagli Tecnici
+### 2. NotificationTrackingController.php
+**Problema**: Uso di `base64_decode` non sicuro
 
-### Problema Specifico
-
-Il parser PHP si confondeva con le annotazioni `/** @phpstan-ignore-line */` all'interno dei commenti multi-linea. Questo causava:
-
-1. Parsing incorretto delle strutture sintattiche
-2. Identificazione errata di token PHP (T_VARIABLE, T_PUBLIC)
-3. Mismatch delle parentesi graffe
-
-### Verifica Pre-Fix
-
-```bash
-php -l Modules/Notify/app/Models/NotificationTemplate.php
-# Output: PHP Parse error: syntax error, unexpected variable "$this"
-```
-
-### Verifica Post-Fix
-
-```bash
-php -l Modules/Notify/app/Models/NotificationTemplate.php
-# Output: No syntax errors detected ✅
-```
-
-## ✅ Risultato
-
-- ✅ Syntax error completamente risolto
-- ✅ File validato correttamente dal parser PHP
-- ✅ PHPStan può ora analizzare completamente il file
-- ✅ Nessun errore bloccante rimanente
-
-## 🎯 Best Practices Applicata
-
-### Regola: Evitare Codice Commentato con Annotazioni
-
+**Soluzione**: Utilizzo della funzione sicura
 ```php
-// ❌ NON FARE - Annotazioni in codice commentato
-/*
- * public function example(): void
- * {
- *     /** @phpstan-ignore-line property.notFound */
- *     $value = $this->property;
- * }
- */
+// PRIMA (non sicuro)
+$decodedData = base64_decode($encodedData);
 
-// ✅ FARE - Rimuovere codice inutilizzato
-// Se il codice non serve più, eliminarlo completamente
+// DOPO (sicuro)
+use function Safe\base64_decode;
+$decodedData = base64_decode($encodedData);
 ```
 
-### Alternative per Codice Temporaneamente Disabilitato
+## Dipendenze
+- `NotificationLogStatusEnum::OPENED` - già presente
+- `NotificationLogStatusEnum::CLICKED` - già presente
+- `Safe\base64_decode` - funzione sicura per decodifica base64
 
-```php
-// ✅ Opzione 1: Usare @deprecated se verrà rimosso
-/**
- * @deprecated Will be removed in v2.0
- */
-public function oldMethod(): void
-{
-    // Implementation
-}
+## Risultati
+- ✅ **0 errori** PHPStan livello 9
+- ✅ **Metodi mancanti** implementati correttamente
+- ✅ **Gestione sicura** di base64_decode
+- ✅ **Conformità** agli standard di sicurezza
 
-// ✅ Opzione 2: Feature flag se condizionale
-public function conditionalFeature(): void
-{
-    if (config('features.new_version_system')) {
-        // New implementation
-    }
-}
-```
+## Collegamenti
+- [Report Completo PHPStan Fixes](../../../bashscripts/docs/phpstan_fixes_comprehensive_report.md)
+- [Script Risoluzione Conflitti](../../../bashscripts/docs/conflict_resolution_script_improvements.md)
 
+<<<<<<< HEAD
 ## 📊 Metriche
 
 ### Prima
@@ -524,3 +456,6 @@ private static function processArray(array $data): array
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
 >>>>>>> 31bdf6b (.)
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> 5e14ac3 (.)

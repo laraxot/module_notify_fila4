@@ -2,14 +2,10 @@
 
 declare(strict_types=1);
 
-=======
-
->>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-<<<<<<< HEAD
 return new class extends Migration
 {
     /**

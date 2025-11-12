@@ -81,7 +81,6 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 - **Responsive-first**: sempre usare breakpoint e utility mobile-first.
 - **Accessibilità**: seguire pattern Webcrunch per aria-label, focus, keyboard navigation.
 - **Effetti avanzati**: usare solo dove necessari e se coerenti con UX/accessibilità.
-- **Documentazione**: mantenere esempi e snippet aggiornati in `/docs` e in `/Themes/One/project_docs/`.
 - **Documentazione**: mantenere esempi e snippet aggiornati in `/docs` e in `/Themes/One/docs/`.
 
 ---

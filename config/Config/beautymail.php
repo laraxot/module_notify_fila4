@@ -15,9 +15,7 @@ return [
         'highlight' => '#004ca3',
         'button' => '#004cad',
     ],
-=======
 
->>>>>>> bf479cc (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -28,7 +26,6 @@ return [
             'width' => '',
             'height' => '',
         ],
-<<<<<<< HEAD
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,

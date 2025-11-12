@@ -9,7 +9,6 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
-use Override;
 
 class ViewNotification extends XotBaseViewRecord
 {

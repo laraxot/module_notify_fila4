@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-=======
-use Override;
->>>>>>> f5f1cb1 (.)
 use Exception;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
 =======
@@ -24,6 +22,9 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+use Modules\Notify\Contracts\SmsActionContract;
+>>>>>>> 5e14ac3 (.)
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
@@ -44,7 +45,6 @@ final class SendGammuSMSAction implements SmsActionContract
 
     protected bool $debug;
 
-<<<<<<< HEAD
     protected ?string $defaultSender = null;
 
     /**
@@ -79,6 +79,7 @@ final class SendGammuSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -102,6 +103,9 @@ final class SendGammuSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

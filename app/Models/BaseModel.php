@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
-=======
-use Modules\Xot\Actions\Factory\GetFactoryAction;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -23,10 +19,14 @@ abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
 <<<<<<< HEAD
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
 =======
     use HasFactory;
 >>>>>>> 6ba141fc (.)
+=======
+    use \Modules\Xot\Models\Traits\HasXotFactory;
+>>>>>>> 5e14ac3 (.)
     use InteractsWithMedia;
     use Updater;
 
@@ -66,6 +66,7 @@ abstract class BaseModel extends Model implements HasMedia
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    
 =======
     /**
@@ -78,6 +79,9 @@ abstract class BaseModel extends Model implements HasMedia
         return app(GetFactoryAction::class)->execute(static::class);
     }
 >>>>>>> 6ba141fc (.)
+=======
+   
+>>>>>>> 5e14ac3 (.)
 
     /** @return array<string, string> */
     protected function casts(): array

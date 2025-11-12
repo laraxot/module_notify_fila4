@@ -55,6 +55,7 @@ class SendNotificationAction
 
         // Determina i canali da utilizzare
 <<<<<<< HEAD
+<<<<<<< HEAD
         $templateChannels = $template->getAttribute('channels') ?? [];
         $effectiveChannels = $channels ?: $templateChannels;
 
@@ -71,21 +72,33 @@ class SendNotificationAction
 =======
         $effectiveChannels = $channels ?: $template->channels;
 >>>>>>> 6ba141fc (.)
+=======
+        $templateChannels = $template->getAttribute('channels') ?? [];
+        $effectiveChannels = $channels ?: $templateChannels;
+>>>>>>> 5e14ac3 (.)
 
         // Assicurati che i canali siano stringhe valide
-        /** @var array<int, string> $effectiveChannels */
-        $effectiveChannels = array_filter(
-            array_map(fn ($channel) => is_string($channel) ? $channel : null, $effectiveChannels),
-            fn ($channel) => $channel !== null
-        );
+        $filteredChannels = [];
+        if (is_array($effectiveChannels)) {
+            foreach ($effectiveChannels as $channel) {
+                if (is_string($channel)) {
+                    $filteredChannels[] = $channel;
+                }
+            }
+        }
+        $effectiveChannels = $filteredChannels;
 
         // Processa ogni canale
         foreach ($effectiveChannels as $channel) {
+<<<<<<< HEAD
 <<<<<<< HEAD
             $stringChannel = $channel;
 =======
             $stringChannel = is_string($channel) ? $channel : (string) $channel;
 >>>>>>> 6ba141fc (.)
+=======
+            $stringChannel = $channel;
+>>>>>>> 5e14ac3 (.)
             try {
                 $this->sendViaChannel($recipient, $stringChannel, $compiled, $options);
             } catch (Exception $e) {

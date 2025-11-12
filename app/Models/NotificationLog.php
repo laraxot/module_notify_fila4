@@ -265,31 +265,6 @@ final class NotificationLog extends BaseModel
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
-<<<<<<< HEAD
-=======
-    }
-
-    /**
-     * Marca il log come aperto.
-     */
-    public function markAsOpened(): void
-    {
-        $this->update([
-            'status' => NotificationLogStatusEnum::OPENED,
-            'opened_at' => now(),
-        ]);
-    }
-
-    /**
-     * Marca il log come cliccato.
-     */
-    public function markAsClicked(): void
-    {
-        $this->update([
-            'status' => NotificationLogStatusEnum::CLICKED,
-            'clicked_at' => now(),
-        ]);
->>>>>>> f5f1cb1 (.)
     }
 
     /**

@@ -8,6 +8,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
@@ -63,6 +64,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 5e14ac3 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -227,6 +231,7 @@ class Contact extends BaseModel
 
     /** @return array<string, string> */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
@@ -256,6 +261,9 @@ class Contact extends BaseModel
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     protected function casts(): array
     {
         return [

@@ -4,6 +4,7 @@
 - [Indice Documentazione Notify](../INDEX.md)
 - [README Modulo Notify](../README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 <<<<<<< HEAD
@@ -12,6 +13,8 @@
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+>>>>>>> 5e14ac3 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
@@ -41,6 +44,7 @@
 
 ## Note Importanti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 =======
 <<<<<<< HEAD
@@ -49,6 +53,8 @@
 - SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+>>>>>>> 5e14ac3 (.)
 - Il sistema si basa su Queueable Actions (spatie/laravel-queueable-action) e non su Service Pattern
 - Le azioni specifiche per provider devono implementare l'interfaccia comune corrispondente
 - I DTO standardizzati vengono utilizzati come ponte tra il sistema e i provider specifici

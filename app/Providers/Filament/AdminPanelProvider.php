@@ -8,6 +8,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -129,6 +130,20 @@ class AdminPanelProvider extends XotBasePanelProvider
         }
 >>>>>>> 6ba141fc (.)
 
+=======
+use Filament\Panel;
+use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+
+class AdminPanelProvider extends XotBasePanelProvider
+{
+    protected string $module = 'Notify';
+
+    #[\Override]
+    public function panel(Panel $panel): Panel
+    {
+        $panel = parent::panel($panel);
+
+>>>>>>> 5e14ac3 (.)
         return $panel;
     }
 }

@@ -21,7 +21,6 @@ use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Override;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;

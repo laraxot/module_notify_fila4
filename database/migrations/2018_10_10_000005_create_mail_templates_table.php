@@ -3,17 +3,12 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Schema\Blueprint;
-=======
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Schema;
->>>>>>> f5f1cb1 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateMailTemplatesTable.
  */
-<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
     /**

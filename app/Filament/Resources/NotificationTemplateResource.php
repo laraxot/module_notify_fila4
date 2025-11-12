@@ -4,27 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-=======
-use Override;
-use Filament\Forms\Components\TextInput;
->>>>>>> f5f1cb1 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-=======
-use Filament\Forms;
->>>>>>> 372da3e (.)
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
-use Filament\Tables;
-use Filament\Tables\Table;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +30,8 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 >>>>>>> 23161eb (.)
 use Override;
 >>>>>>> 6ba141fc (.)
+=======
+>>>>>>> 5e14ac3 (.)
 
 class NotificationTemplateResource extends XotBaseResource
 {
@@ -99,6 +90,7 @@ class NotificationTemplateResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[\Override]
 =======
@@ -243,6 +235,9 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public static function getPages(): array
     {
         return [

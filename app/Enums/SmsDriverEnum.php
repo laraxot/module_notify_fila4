@@ -49,11 +49,6 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
-<<<<<<< HEAD
-=======
-     *
-     * @return self
->>>>>>> f5f1cb1 (.)
      */
     public static function getDefault(): self
     {

@@ -51,10 +51,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
-<<<<<<< HEAD
  *
-=======
->>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -82,6 +79,7 @@ class Notification extends BaseModel
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -103,6 +101,9 @@ class Notification extends BaseModel
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     protected function casts(): array
     {
         return [

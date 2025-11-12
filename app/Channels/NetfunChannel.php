@@ -21,7 +21,6 @@ class NetfunChannel
     /**
      * Invia la notifica tramite Netfun SMS
      *
-<<<<<<< HEAD
      * @param  mixed  $notifiable
      * @param  mixed  $notifiable
 <<<<<<< HEAD
