@@ -2,27 +2,12 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 use Modules\Notify\Models\BaseModel;
-=======
-<<<<<<< HEAD
-use Modules\Notify\Models\BaseModel;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Modules\Notify\Models\Contact;
 
 describe('Contact Business Logic', function () {
     test('contact extends base model', function () {
-<<<<<<< HEAD
         expect(Contact::class)->toBeSubclassOf(BaseModel::class);
-=======
-<<<<<<< HEAD
-        expect(Contact::class)->toBeSubclassOf(BaseModel::class);
-=======
-        expect(Contact::class)->toBeSubclassOf(\Modules\Notify\Models\BaseModel::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     });
 
 <<<<<<< HEAD
@@ -41,15 +26,7 @@ describe('Contact Business Logic', function () {
 >>>>>>> 99ff506 (.)
         $contact->model_type = 'App\\Models\\User';
         $contact->model_id = '1';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->model_type)->toBe('App\\Models\\User');
         expect($contact->model_id)->toBe('1');
     });
@@ -70,15 +47,7 @@ describe('Contact Business Logic', function () {
 >>>>>>> 99ff506 (.)
         $contact->contact_type = 'email';
         $contact->value = 'test@example.com';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->contact_type)->toBe('email');
         expect($contact->value)->toBe('test@example.com');
     });
@@ -100,15 +69,7 @@ describe('Contact Business Logic', function () {
         $contact->sms_count = 5;
         $contact->sms_status_code = '200';
         $contact->sms_status_txt = 'Success';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->sms_count)->toBe(5);
         expect($contact->sms_status_code)->toBe('200');
         expect($contact->sms_status_txt)->toBe('Success');
@@ -130,15 +91,7 @@ describe('Contact Business Logic', function () {
 >>>>>>> 99ff506 (.)
         $contact->mail_count = 3;
         $contact->mail_sent_at = '2023-01-01 10:00:00';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->mail_count)->toBe(3);
         expect($contact->mail_sent_at)->toBe('2023-01-01 10:00:00');
     });
@@ -159,15 +112,7 @@ describe('Contact Business Logic', function () {
 >>>>>>> 99ff506 (.)
         $contact->first_name = 'Mario';
         $contact->last_name = 'Rossi';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->first_name)->toBe('Mario');
         expect($contact->last_name)->toBe('Rossi');
     });
@@ -188,15 +133,7 @@ describe('Contact Business Logic', function () {
 >>>>>>> 99ff506 (.)
         $contact->token = 'abc123';
         $contact->verified_at = '2023-01-01 12:00:00';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->token)->toBe('abc123');
         expect($contact->verified_at)->toBe('2023-01-01 12:00:00');
     });
@@ -217,15 +154,7 @@ describe('Contact Business Logic', function () {
 >>>>>>> 99ff506 (.)
         $contact->attribute_1 = 'value1';
         $contact->attribute_2 = 'value2';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->attribute_1)->toBe('value1');
         expect($contact->attribute_2)->toBe('value2');
     });
@@ -245,15 +174,7 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
         $contact->duplicate_count = 2;
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         expect($contact->duplicate_count)->toBe(2);
     });
 
@@ -272,20 +193,7 @@ describe('Contact Business Logic', function () {
         $contact = new Contact();
 >>>>>>> 99ff506 (.)
         $contact->order_column = 1;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 
         expect($contact->order_column)->toBe(1);
     });
 });
-<<<<<<< HEAD
-=======
-=======
-        
-        expect($contact->order_column)->toBe(1);
-    });
-});
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
