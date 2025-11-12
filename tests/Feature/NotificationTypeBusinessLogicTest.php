@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+use Modules\Notify\Helpers\ConfigHelper;
+>>>>>>> 99ff506 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('Notification Type Business Logic', function () {
@@ -133,8 +137,16 @@ describe('Notification Type Business Logic', function () {
                 'text_template' => 'emails.appointment-reminder-text',
             ],
             'sms' => [
+<<<<<<< HEAD
                 'message' => 'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
                         config('app.name', 'Our Platform'),
+=======
+                'message' =>
+
+                        'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
+                        config('app.name', 'Our Platform')
+                    ,
+>>>>>>> 99ff506 (.)
                 'variables' => ['appointment_date', 'appointment_time'],
                 'max_length' => 160,
             ],
@@ -160,7 +172,11 @@ describe('Notification Type Business Logic', function () {
             ->and($type->fresh()->templates['email']['html_template'])
             ->toBe('emails.appointment-reminder')
             ->and($type->fresh()->templates['sms']['message'])
+<<<<<<< HEAD
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
+=======
+            ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
+>>>>>>> 99ff506 (.)
                 config('app.name', 'Our Platform'))
             ->and($type->fresh()->templates['sms']['max_length'])
             ->toBe(160)
@@ -364,9 +380,18 @@ describe('Notification Type Business Logic', function () {
                 'push_provider' => 'Firebase',
             ],
             'webhooks' => [
+<<<<<<< HEAD
                 'delivery_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered',
                 'bounce_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-bounced',
                 'click_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-clicked',
+=======
+                'delivery_webhook' =>
+                    'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered',
+                'bounce_webhook' =>
+                    'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-bounced',
+                'click_webhook' =>
+                    'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-clicked',
+>>>>>>> 99ff506 (.)
             ],
             'api_endpoints' => [
                 'send' => 'POST /api/v1/notifications/send',
@@ -394,7 +419,11 @@ describe('Notification Type Business Logic', function () {
             ->and($type->fresh()->integrations['external_services']['push_provider'])
             ->toBe('Firebase')
             ->and($type->fresh()->integrations['webhooks']['delivery_webhook'])
+<<<<<<< HEAD
             ->toBe('https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered')
+=======
+            ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
+>>>>>>> 99ff506 (.)
             ->and($type->fresh()->integrations['api_endpoints']['send'])
             ->toBe('POST /api/v1/notifications/send')
             ->and($type->fresh()->integrations['third_party']['crm_integration'])

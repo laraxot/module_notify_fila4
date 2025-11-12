@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99ff506 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;

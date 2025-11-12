@@ -12,8 +12,12 @@ use Tests\TestCase;
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel
     {
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 99ff506 (.)
         protected $table = 'test_notify_table';
     };
 });

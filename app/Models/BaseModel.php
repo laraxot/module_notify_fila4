@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Factory\GetFactoryAction;
+=======
+use Modules\Xot\Actions\Factory\GetFactoryAction;
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 99ff506 (.)
 use Modules\Xot\Traits\Updater;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;

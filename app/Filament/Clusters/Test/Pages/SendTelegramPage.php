@@ -9,6 +9,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
@@ -20,10 +21,36 @@ use Filament\Notifications\Notification as FilamentNotification;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
+=======
+use Filament\Schemas\Schema;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Toggle;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification as FilamentNotification;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Notification;
+use Modules\Notify\Datas\TelegramData;
+use Modules\Notify\Datas\TelegramMessageData;
+>>>>>>> 99ff506 (.)
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
+=======
+use NotificationChannels\Telegram\TelegramMessage;
+use Telegram\Bot\Laravel\Facades\Telegram;
+use Webmozart\Assert\Assert;
+>>>>>>> 99ff506 (.)
 
 /**
  * @property \Filament\Schemas\Schema $telegramForm
@@ -34,6 +61,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
     public ?array $telegramData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -41,6 +69,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
     protected string $view = 'notify::filament.pages.send-telegram';
 
     protected static ?string $cluster = Test::class;
+=======
+    public null|array $telegramData = [];
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-telegram';
+
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
 
     public function mount(): void
     {
@@ -121,7 +158,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->title('Messaggio Telegram inviato con successo')
                 ->send();
         } catch (Exception $e) {
+<<<<<<< HEAD
             Log::error('Errore nell\'invio Telegram: '.$e->getMessage());
+=======
+            Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
+>>>>>>> 99ff506 (.)
 
             FilamentNotification::make()
                 ->danger()

@@ -4,11 +4,22 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 
+<<<<<<< HEAD
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Override;
+=======
+use Override;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
+use Filament\Tables\Columns;
+use Filament\Tables\Filters;
+use Modules\Notify\Filament\Resources\NotifyThemeResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
 
 class ListNotifyThemes extends XotBaseListRecords
 {
@@ -40,6 +51,7 @@ class ListNotifyThemes extends XotBaseListRecords
     {
         return [
             'lang' => SelectFilter::make('lang')->options(
+<<<<<<< HEAD
                 fn (): array => NotifyThemeResource::fieldOptions('lang'),
             ),
             'post_type' => SelectFilter::make('post_type')->options(
@@ -47,6 +59,15 @@ class ListNotifyThemes extends XotBaseListRecords
             ),
             'type' => SelectFilter::make('type')->options(
                 fn (): array => NotifyThemeResource::fieldOptions('type'),
+=======
+                fn(): array => NotifyThemeResource::fieldOptions('lang'),
+            ),
+            'post_type' => SelectFilter::make('post_type')->options(
+                fn(): array => NotifyThemeResource::fieldOptions('post_type'),
+            ),
+            'type' => SelectFilter::make('type')->options(
+                fn(): array => NotifyThemeResource::fieldOptions('type'),
+>>>>>>> 99ff506 (.)
             ),
         ];
     }

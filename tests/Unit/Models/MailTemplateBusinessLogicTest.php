@@ -2,12 +2,21 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Notify\Models\MailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
+=======
+use Spatie\Sluggable\HasSlug;
+use Spatie\Translatable\HasTranslations;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Contracts\Mail\Mailable;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 99ff506 (.)
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
@@ -33,7 +42,11 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template can store template content', function () {
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
         $mailTemplate->name = 'Welcome Email';
         $mailTemplate->subject = 'Welcome to our platform';
         $mailTemplate->html_template = '<h1>Welcome!</h1>';
@@ -44,21 +57,33 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template can link to mailable class', function () {
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
         $mailTemplate->mailable = 'App\\Mail\\WelcomeMail';
 
         expect($mailTemplate->mailable)->toBe('App\\Mail\\WelcomeMail');
     });
 
     test('mail template has version tracking', function () {
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
         $mailTemplate->version = 2;
 
         expect($mailTemplate->version)->toBe(2);
     });
 
     test('mail template can store optional text template', function () {
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
         $mailTemplate->text_template = 'Welcome! This is plain text.';
 
         expect($mailTemplate->text_template)->toBe('Welcome! This is plain text.');
@@ -72,7 +97,11 @@ describe('MailTemplate Business Logic', function () {
     });
 
     test('mail template has creator and updater tracking', function () {
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
         $mailTemplate->created_by = 'user-1';
         $mailTemplate->updated_by = 'user-2';
 

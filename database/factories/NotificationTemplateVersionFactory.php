@@ -2,10 +2,18 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\NotificationTemplateVersion;
+=======
+
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplateVersion;
+use Illuminate\Database\Eloquent\Factories\Factory;
+>>>>>>> 99ff506 (.)
 
 class NotificationTemplateVersionFactory extends Factory
 {

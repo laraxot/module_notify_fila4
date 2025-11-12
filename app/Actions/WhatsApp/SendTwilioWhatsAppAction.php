@@ -4,13 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\WhatsApp;
 
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 99ff506 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Datas\WhatsAppData;
 use Override;
+=======
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+use Modules\Notify\Datas\WhatsAppData;
+>>>>>>> 99ff506 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -20,6 +30,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     use QueueableAction;
 
     private string $accountSid;
+<<<<<<< HEAD
 
     private string $authToken;
 
@@ -33,6 +44,15 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     protected int $timeout;
 
     protected ?string $defaultSender = null;
+=======
+    private string $authToken;
+    private string $baseUrl = 'https://api.twilio.com/2010-04-01';
+    /** @var array<string, mixed> */
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+    protected null|string $defaultSender = null;
+>>>>>>> 99ff506 (.)
 
     /**
      * Create a new action instance.
@@ -40,7 +60,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     public function __construct()
     {
         $accountSid = config('services.twilio.account_sid');
+<<<<<<< HEAD
         if (! is_string($accountSid)) {
+=======
+        if (!is_string($accountSid)) {
+>>>>>>> 99ff506 (.)
             throw new Exception(
                 'put [TWILIO_ACCOUNT_SID] variable to your .env and config [services.twilio.account_sid]',
             );
@@ -48,7 +72,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
         $this->accountSid = $accountSid;
 
         $authToken = config('services.twilio.auth_token');
+<<<<<<< HEAD
         if (! is_string($authToken)) {
+=======
+        if (!is_string($authToken)) {
+>>>>>>> 99ff506 (.)
             throw new Exception(
                 'put [TWILIO_AUTH_TOKEN] variable to your .env and config [services.twilio.auth_token]',
             );
@@ -65,16 +93,26 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
      *
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+>>>>>>> 99ff506 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     #[Override]
     public function execute(WhatsAppData $whatsAppData): array
     {
+<<<<<<< HEAD
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);
         $to = 'whatsapp:'.$whatsAppData->to;
+=======
+        $from = 'whatsapp:' . ($whatsAppData->from ?? $this->defaultSender);
+        $to = 'whatsapp:' . $whatsAppData->to;
+>>>>>>> 99ff506 (.)
 
         // Log di debug se abilitato
         if ($this->debug) {
@@ -90,7 +128,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
             'auth' => [$this->accountSid, $this->authToken],
         ]);
 
+<<<<<<< HEAD
         $endpoint = $this->baseUrl.'/Accounts/'.$this->accountSid.'/Messages.json';
+=======
+        $endpoint = $this->baseUrl . '/Accounts/' . $this->accountSid . '/Messages.json';
+>>>>>>> 99ff506 (.)
 
         $payload = [
             'To' => $to,
@@ -99,7 +141,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
         ];
 
         // Aggiungi media se presente
+<<<<<<< HEAD
         if (! empty($whatsAppData->media)) {
+=======
+        if (!empty($whatsAppData->media)) {
+>>>>>>> 99ff506 (.)
             $payload['MediaUrl'] = $whatsAppData->media[0];
         }
 

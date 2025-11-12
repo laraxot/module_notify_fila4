@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+=======
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+>>>>>>> 99ff506 (.)
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 
 /**

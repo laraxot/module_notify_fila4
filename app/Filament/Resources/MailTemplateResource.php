@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -17,6 +18,23 @@ use Override;
 class MailTemplateResource extends LangBaseResource
 {
     protected static ?string $model = MailTemplate::class;
+=======
+use Filament\Schemas\Components\Group;
+use Filament\Schemas\Components\View;
+use Override;
+use Filament\Forms\Components\Utilities\Set;
+use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms;
+use Filament\Forms\Components\TextInput;
+use Illuminate\Support\Str;
+use Modules\Lang\Filament\Resources\LangBaseResource;
+use Modules\Notify\Models\MailTemplate;
+
+class MailTemplateResource extends LangBaseResource
+{
+    protected static null|string $model = MailTemplate::class;
+>>>>>>> 99ff506 (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -30,10 +48,14 @@ class MailTemplateResource extends LangBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             'mailable' => TextInput::make('mailable')
                 ->default('Modules\Notify\Emails\SpatieEmail')
                 ->required()
                 ->maxLength(255),
+=======
+            'mailable' => TextInput::make('mailable')->required()->maxLength(255),
+>>>>>>> 99ff506 (.)
             'name_group' => Group::make()
                 ->schema([
                     TextInput::make('name')
@@ -51,9 +73,15 @@ class MailTemplateResource extends LangBaseResource
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')
+<<<<<<< HEAD
                 ->viewData(fn ($record) => ['params' => $record?->params])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => ! empty($record->params)),
+=======
+                ->viewData(fn($record) => ['params' => $record?->params])
+                ->columnSpanFull()
+                ->visible(fn($record): bool => !empty($record->params)),
+>>>>>>> 99ff506 (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
         ];

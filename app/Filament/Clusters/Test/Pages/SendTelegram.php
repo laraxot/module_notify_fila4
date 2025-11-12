@@ -9,9 +9,21 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
+=======
+use Filament\Schemas\Schema;
+
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+>>>>>>> 99ff506 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Page;
@@ -23,8 +35,17 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
+=======
+use Telegram\Bot\Laravel\Facades\Telegram;
+use Webmozart\Assert\Assert;
+
+/**
+ * 
+ */
+>>>>>>> 99ff506 (.)
 class SendTelegram extends Page implements HasForms
 {
     public array $data = [];
@@ -33,6 +54,7 @@ class SendTelegram extends Page implements HasForms
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
     public ?array $emailData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -40,6 +62,15 @@ class SendTelegram extends Page implements HasForms
     protected string $view = 'notify::filament.pages.send-email';
 
     protected static ?string $cluster = Test::class;
+=======
+    public null|array $emailData = [];
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
 
     public function mount(): void
     {
@@ -50,7 +81,11 @@ class SendTelegram extends Page implements HasForms
     {
         $data = $this->data;
         Assert::string($token = config('services.telegram-bot-api.token'));
+<<<<<<< HEAD
         $url = 'https://api.telegram.org/bot'.$token.'/getMe';
+=======
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> 99ff506 (.)
         Http::get($url);
         // dddx($response->json());
         /*
@@ -98,7 +133,11 @@ class SendTelegram extends Page implements HasForms
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
+<<<<<<< HEAD
         if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 99ff506 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

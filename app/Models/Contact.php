@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\ContactFactory;
@@ -11,6 +12,15 @@ use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Carbon;
+>>>>>>> 99ff506 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -54,7 +64,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -81,12 +94,18 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static Builder|Contact whereUserId($value)
  * @method static Builder|Contact whereValue($value)
  * @method static Builder|Contact whereVerifiedAt($value)
+<<<<<<< HEAD
  *
  * @mixin Eloquent
  *
  * @property string|null $email
  * @property string|null $mobile_phone
  *
+=======
+ * @mixin Eloquent
+ * @property string|null $email
+ * @property string|null $mobile_phone
+>>>>>>> 99ff506 (.)
  * @method static Builder|Contact whereAttribute1($value)
  * @method static Builder|Contact whereAttribute10($value)
  * @method static Builder|Contact whereAttribute11($value)
@@ -105,17 +124,25 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @method static Builder|Contact whereEmail($value)
  * @method static Builder|Contact whereFirstName($value)
  * @method static Builder|Contact whereUsesleft($value)
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
  *
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
  *
+=======
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+>>>>>>> 99ff506 (.)
  * @mixin IdeHelperContact
  * @mixin \Eloquent
  */

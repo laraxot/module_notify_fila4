@@ -28,7 +28,11 @@ class NetfunSendAction
     {
         // Prepare the action for execution, leveraging constructor injection.
         $token = config('services.netfun.token');
+<<<<<<< HEAD
         if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 99ff506 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -49,11 +53,19 @@ class NetfunSendAction
 
         $smsData->to .= '';
         if (Str::startsWith($smsData->to, '00')) {
+<<<<<<< HEAD
             $smsData->to = '+39'.mb_substr($smsData->to, 2);
         }
 
         if (! Str::startsWith($smsData->to, '+')) {
             $smsData->to = '+39'.$smsData->to;
+=======
+            $smsData->to = '+39' . mb_substr($smsData->to, 2);
+        }
+
+        if (!Str::startsWith($smsData->to, '+')) {
+            $smsData->to = '+39' . $smsData->to;
+>>>>>>> 99ff506 (.)
         }
 
         $body = [
@@ -91,7 +103,11 @@ class NetfunSendAction
             $response = $client->post($endpoint, ['json' => $body]);
         } catch (ClientException $clientException) {
             throw new Exception(
+<<<<<<< HEAD
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 99ff506 (.)
                 $clientException->getCode(),
                 $clientException,
             );

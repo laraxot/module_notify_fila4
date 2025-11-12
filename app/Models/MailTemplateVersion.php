@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -15,6 +16,19 @@ use Modules\Xot\Traits\Updater;
 use Override;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Modules\Xot\Traits\Updater;
+>>>>>>> 99ff506 (.)
 
 /**
  * @property int $id
@@ -36,7 +50,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @method static MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -58,7 +75,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
  */

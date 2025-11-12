@@ -4,8 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Database\Seeders;
 
+<<<<<<< HEAD
 use Illuminate\Database\Seeder;
 use Modules\Notify\Emails\SpatieEmail;
+=======
+use Modules\Notify\Emails\SpatieEmail;
+use Illuminate\Database\Seeder;
+>>>>>>> 99ff506 (.)
 use Modules\Notify\Models\MailTemplate;
 
 class MailTemplateSeeder extends Seeder

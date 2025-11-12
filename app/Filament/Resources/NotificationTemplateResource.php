@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
@@ -18,6 +19,30 @@ use Override;
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static ?string $model = NotificationTemplate::class;
+=======
+use Override;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+>>>>>>> 99ff506 (.)
 
     #[Override]
     public static function getFormSchema(): array
@@ -37,7 +62,11 @@ class NotificationTemplateResource extends XotBaseResource
                 ->translateLabel(),
             'type' => Select::make('type')
                 ->options(collect(NotificationTypeEnum::cases())
+<<<<<<< HEAD
                     ->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+=======
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+>>>>>>> 99ff506 (.)
                 ->required()
                 ->default(NotificationTypeEnum::EMAIL->value)
                 ->helperText(__('notify::template.form.type.helper'))

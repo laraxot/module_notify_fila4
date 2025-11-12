@@ -15,7 +15,12 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template nei dati di configurazione.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+     *
+>>>>>>> 99ff506 (.)
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -37,8 +42,14 @@ class ConfigHelper
     /**
      * Sostituisce ricorsivamente le variabili template in un array.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $variables
+=======
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $variables
+     *
+>>>>>>> 99ff506 (.)
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -62,12 +73,20 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template in una stringa.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $variables
+=======
+     * @param array<string, mixed> $variables
+>>>>>>> 99ff506 (.)
      */
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 99ff506 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

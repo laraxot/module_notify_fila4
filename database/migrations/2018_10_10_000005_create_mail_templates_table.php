@@ -3,14 +3,23 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Schema\Blueprint;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+>>>>>>> 99ff506 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateMailTemplatesTable.
  */
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 99ff506 (.)
     /**
      * Run the migrations.
      */
@@ -30,6 +39,7 @@ return new class extends XotBaseMigration
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -40,6 +50,18 @@ return new class extends XotBaseMigration
                 $table->text('params')->nullable();
             }
             if (! $this->hasColumn('sms_template')) {
+=======
+            if (!$this->hasColumn('name')) {
+                $table->string('name');
+            }
+            if (!$this->hasColumn('slug')) {
+                $table->string('slug')->unique();
+            }
+            if (!$this->hasColumn('params')) {
+                $table->text('params')->nullable();
+            }
+            if (!$this->hasColumn('sms_template')) {
+>>>>>>> 99ff506 (.)
                 $table->json('sms_template')->nullable();
             }
 

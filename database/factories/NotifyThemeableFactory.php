@@ -32,14 +32,22 @@ class NotifyThemeableFactory extends Factory
 
     public function forUser(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 99ff506 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
 
     public function forPatient(): static
     {
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 99ff506 (.)
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }

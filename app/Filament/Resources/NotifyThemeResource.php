@@ -4,11 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 99ff506 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Override;
@@ -16,14 +21,31 @@ use Override;
 class NotifyThemeResource extends XotBaseResource
 {
     protected static ?string $model = NotifyTheme::class;
+=======
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+
+class NotifyThemeResource extends XotBaseResource
+{
+    protected static null|string $model = NotifyTheme::class;
+>>>>>>> 99ff506 (.)
 
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+=======
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+>>>>>>> 99ff506 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),

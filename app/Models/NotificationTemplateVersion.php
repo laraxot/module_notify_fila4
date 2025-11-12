@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
@@ -13,6 +14,17 @@ use Modules\Xot\Traits\Updater;
 use Override;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Xot\Traits\Updater;
+>>>>>>> 99ff506 (.)
 
 // BaseModel in same namespace provides common behaviors
 /**
@@ -21,12 +33,18 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read int|null $media_count
  * @property-read NotificationTemplate|null $template
  * @property-read Profile|null $updater
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @method static NotificationTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
@@ -71,8 +89,13 @@ class NotificationTemplateVersion extends BaseModel
     {
         $template = $this->template;
 
+<<<<<<< HEAD
         if (! $template) {
             throw new RuntimeException('Template not found for version '.$this->id);
+=======
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+>>>>>>> 99ff506 (.)
         }
 
         $template->update([

@@ -17,7 +17,11 @@ use Modules\Xot\Filament\Traits\TransTrait;
  * Questo enum centralizza la gestione dei driver SMS disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
+<<<<<<< HEAD
 enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
+=======
+enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
+>>>>>>> 99ff506 (.)
 {
     use TransTrait;
 
@@ -30,36 +34,61 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
 
     public function getLabel(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
+=======
+        return $this->transClass(self::class, $this->value . '.label');
+>>>>>>> 99ff506 (.)
     }
 
     public function getColor(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.color');
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 99ff506 (.)
     }
 
     public function getIcon(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.icon');
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 99ff506 (.)
     }
 
     public function getDescription(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.description');
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> 99ff506 (.)
     }
 
     public static function getSearchable(): array
     {
+<<<<<<< HEAD
         return array_map(fn ($item) => $item->value, ContactTypeEnum::cases());
+=======
+        return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
+>>>>>>> 99ff506 (.)
     }
 
     public static function getFormSchema(): array
     {
         $res = Arr::map(
             ContactTypeEnum::cases(),
+<<<<<<< HEAD
             fn ($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
         );
 
+=======
+            fn($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
+        );
+>>>>>>> 99ff506 (.)
         return $res;
     }
 }

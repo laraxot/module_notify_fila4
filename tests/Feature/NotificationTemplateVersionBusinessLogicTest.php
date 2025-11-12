@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
 use RuntimeException;
+=======
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Notify\Models\NotificationTemplateVersion;
+>>>>>>> 99ff506 (.)
 use Tests\TestCase;
 
 class NotificationTemplateVersionBusinessLogicTest extends TestCase
@@ -102,7 +109,11 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         ]);
 
         $this->expectException(RuntimeException::class);
+<<<<<<< HEAD
         $this->expectExceptionMessage('Template not found for version '.$version->id);
+=======
+        $this->expectExceptionMessage('Template not found for version ' . $version->id);
+>>>>>>> 99ff506 (.)
 
         $version->restore();
     }

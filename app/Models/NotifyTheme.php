@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Eloquent;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -13,6 +14,17 @@ use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
+=======
+use Override;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotifyThemeFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Eloquent;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Carbon;
+>>>>>>> 99ff506 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
@@ -41,7 +53,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Model|Eloquent $linkable
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @method static NotifyThemeFactory factory($count = null, $state = [])
  * @method static Builder|NotifyTheme newModelQuery()
  * @method static Builder|NotifyTheme newQuery()
@@ -65,6 +80,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder|NotifyTheme whereUpdatedAt($value)
  * @method static Builder|NotifyTheme whereUpdatedBy($value)
  * @method static Builder|NotifyTheme whereViewParams($value)
+<<<<<<< HEAD
  *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
@@ -77,6 +93,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  *
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @mixin Eloquent
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+>>>>>>> 99ff506 (.)
  * @mixin IdeHelperNotifyTheme
  * @mixin Eloquent
  */
@@ -106,7 +131,11 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 
+<<<<<<< HEAD
     public function getLogoAttribute(?array $value): array
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 99ff506 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),

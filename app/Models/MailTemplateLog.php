@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -13,6 +14,17 @@ use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Modules\User\Models\Profile;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Modules\User\Models\Profile;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateLogFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+>>>>>>> 99ff506 (.)
 
 /**
  * @property-read Profile|null $creator
@@ -21,12 +33,18 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @method static MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 99ff506 (.)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */

@@ -2,8 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
+=======
+use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 99ff506 (.)
 use Modules\Notify\Tests\TestCase;
 
 /*
@@ -30,9 +35,15 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
  * |
  */
 
+<<<<<<< HEAD
 expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
+=======
+expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification::class));
+
+expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
+>>>>>>> 99ff506 (.)
 
 /*
  * |--------------------------------------------------------------------------

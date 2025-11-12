@@ -4,6 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SmsData;
+
+>>>>>>> 99ff506 (.)
 use function Safe\preg_match;
 use function Safe\preg_replace;
 
@@ -18,7 +25,11 @@ class NormalizePhoneNumberAction
         if (is_array($phoneNumber)) {
             $phoneNumber = implode('', $phoneNumber);
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 99ff506 (.)
         // Rimuove parentesi e il loro contenuto
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 
@@ -32,8 +43,13 @@ class NormalizePhoneNumberAction
         $prefix = '39';
 
         // Verifica se il numero non inizia già con il prefisso corretto
+<<<<<<< HEAD
         if (! preg_match('/^'.$prefix.'/', $phoneNumber)) {
             $phoneNumber = $prefix.$phoneNumber;
+=======
+        if (!preg_match('/^' . $prefix . '/', $phoneNumber)) {
+            $phoneNumber = $prefix . $phoneNumber;
+>>>>>>> 99ff506 (.)
         }
 
         return "+{$phoneNumber}";

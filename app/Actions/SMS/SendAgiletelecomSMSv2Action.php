@@ -4,15 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
+=======
+use Override;
+use GuzzleHttp\Client;
+>>>>>>> 99ff506 (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 use Override;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  *
+=======
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+>>>>>>> 99ff506 (.)
  * @see https://agiletelecom.com/docs/protocollo-http-post-e-get/
  */
 class SendAgiletelecomSMSv2Action implements SmsActionContract
@@ -26,6 +37,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
         $phone = app(NormalizePhoneNumberAction::class)->execute($data->to);
 
         $payload = [
+<<<<<<< HEAD
             // 'globalId' => $data->reference ?? uniqid('sms_', true),
             // 'maxIdLen' => 64,
             // 'enableConcatenated' => true,
@@ -40,6 +52,22 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
                     'sender' => $agile->sender,
                     'body' => $data->body,
                     // 'hexBody' => false,
+=======
+            //'globalId' => $data->reference ?? uniqid('sms_', true),
+            //'maxIdLen' => 64,
+            //'enableConcatenated' => true,
+            //'enableUnicode' => true,
+            //'enableDelivery' => $config['enable_delivery'] ?? true,
+            //'simulation' => app()->environment('local', 'testing'),
+            'messages' => [
+                [
+                    'destinations' => [$phone],
+                    //'ids' => [$data->reference ?? uniqid('msg_', true)],
+                    //'sender' => $config['sender'],
+                    'sender' => $agile->sender,
+                    'body' => $data->body,
+                    //'hexBody' => false,
+>>>>>>> 99ff506 (.)
                 ],
             ],
         ];
@@ -48,7 +76,11 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 
         $response = Http::withHeaders($agile->getAuthHeaders())->timeout($agile->timeout)->post($url, $payload);
 
+<<<<<<< HEAD
         // dddx($response->body());
+=======
+        //dddx($response->body());
+>>>>>>> 99ff506 (.)
 
         return [];
     }

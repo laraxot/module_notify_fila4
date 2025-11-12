@@ -24,11 +24,19 @@ class Pdf
         $notify_theme_data = app(Get::class)->execute($post_type, 'pdf', $view_params);
         $html = $notify_theme_data->body_html;
 
+<<<<<<< HEAD
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
         }
         Assert::string($file_name, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+        $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
+        if (isset($view_params[$file_name])) {
+            $file_name = $view_params[$file_name];
+        }
+        Assert::string($file_name, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 99ff506 (.)
         $file_path = Storage::disk('cache')->path($file_name);
 
         HtmlService::toPdf(
