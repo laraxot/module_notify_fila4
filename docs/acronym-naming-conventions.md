@@ -98,7 +98,11 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 ## Riferimenti
 
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
+<<<<<<< HEAD
 - [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)
+=======
+- [Laravel Documentation - Coding Style](https://laravel.com/project_docs/10.x/contributions#coding-style)
+>>>>>>> d284d65 (.)
 - [PHP-FIG Naming Conventions](https://www.php-fig.org/bylaws/psr-naming-conventions/)
 <<<<<<< HEAD
 =======

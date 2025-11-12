@@ -3,10 +3,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f331fd1 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,6 +17,7 @@
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> b94a5f6 (.)
@@ -25,11 +29,14 @@
 >>>>>>> 8d14144 (.)
 =======
 >>>>>>> 53dd2f8 (.)
+=======
+>>>>>>> f331fd1 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +54,17 @@ declare(strict_types=1);
 >>>>>>> 8d14144 (.)
 =======
 >>>>>>> 53dd2f8 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f331fd1 (.)
 <tr>
 =======
 <<<<<<< HEAD
@@ -77,14 +95,20 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-					<div class="article-content" align="left">
-=======
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+					<div class="article-content" align="left">
+=======
+<<<<<<< HEAD
+=======
+					<div class="article-content" align="left">
+=======
+<<<<<<< HEAD
+>>>>>>> f331fd1 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 					<div class="article-content" align="left">
@@ -98,6 +122,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
 =======
@@ -120,3 +145,5 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 53dd2f8 (.)
+=======
+>>>>>>> f331fd1 (.)
