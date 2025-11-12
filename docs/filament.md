@@ -99,7 +99,7 @@ final class TemplateResource extends XotBaseResource
     protected static ?string $model = Template::class;
     protected static ?string $navigationGroup = 'Notifiche';
 
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
             ->schema([
@@ -183,7 +183,7 @@ final class VersionsRelationManager extends RelationManager
     protected static string $relationship = 'versions';
     protected static ?string $recordTitleAttribute = 'version';
 
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
             ->schema([
