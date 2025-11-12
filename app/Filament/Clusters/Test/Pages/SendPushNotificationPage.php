@@ -25,10 +25,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Override;
 =======
 use Filament\Schemas\Schema;
-<<<<<<< HEAD
 
-=======
->>>>>>> b8140d8 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Repeater;
@@ -60,11 +57,7 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 =======
 /**
-<<<<<<< HEAD
  * 
-=======
- * @property \Filament\Schemas\Schema $notificationForm
->>>>>>> b8140d8 (.)
  */
 >>>>>>> 99ff506 (.)
 class SendPushNotificationPage extends XotBasePage
@@ -96,9 +89,9 @@ class SendPushNotificationPage extends XotBasePage
         $this->fillForms();
     }
 
-<<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,11 +179,12 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> b8140d8 (.)
 >>>>>>> 9bd3cd0 (.)
+=======
+>>>>>>> 895d6b1 (.)
 
         /**
          * Callback per filtrare i dispositivi.
          */
-<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +208,7 @@ class SendPushNotificationPage extends XotBasePage
                 Select::make('deviceToken')->options(fn () => []),
 =======
                 Select::make('deviceToken')->options(fn() => []),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +239,8 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 61cfa35 (.)
 =======
 >>>>>>> 9bd3cd0 (.)
+=======
+>>>>>>> 895d6b1 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -258,11 +255,7 @@ class SendPushNotificationPage extends XotBasePage
 
     public function sendNotification(): void
     {
-<<<<<<< HEAD
         $data = $this->data;
-=======
-        $data = $this->notificationForm->getState();
->>>>>>> b8140d8 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -357,10 +350,6 @@ class SendPushNotificationPage extends XotBasePage
     {
         return [
             Action::make('notificationFormActions')
-<<<<<<< HEAD
-=======
-                
->>>>>>> b8140d8 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -389,10 +378,6 @@ class SendPushNotificationPage extends XotBasePage
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
-<<<<<<< HEAD
         // Form data filled;
-=======
-        $this->notificationForm->fill();
->>>>>>> b8140d8 (.)
     }
 }

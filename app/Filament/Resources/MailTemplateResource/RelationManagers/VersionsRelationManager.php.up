@@ -16,11 +16,7 @@ class VersionsRelationManager extends RelationManager
 
     protected static ?string $recordTitleAttribute = 'version';
 
-<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> b8140d8 (.)
     {
         return $form
             ->schema([
