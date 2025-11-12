@@ -217,13 +217,8 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 - [Notify Module](../README.md)
 - [SMS Configuration](../sms-configuration.md)
-<<<<<<< HEAD
 - [Translation Standards](../../Lang/docs/translation-standards.md)
 - [Filament Integration](../../Xot/docs/filament-translations.md)
-=======
-- [Translation Standards](../../Lang/project_docs/translation-standards.md)
-- [Filament Integration](../../Xot/project_docs/filament-translations.md)
->>>>>>> d284d65 (.)
 
 ## Note per Sviluppatori Futuri
 
@@ -238,4 +233,3 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - **Modulo**: Notify
 - **File**: `app/Enums/SmsDriverEnum.php`
 - **Tipo Conflitto**: Implementazione interfacce e trait
-- **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
