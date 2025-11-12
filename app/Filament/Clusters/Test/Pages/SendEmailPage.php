@@ -39,6 +39,7 @@ class SendEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -61,6 +62,9 @@ class SendEmailPage extends XotBasePage
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> 5d44317 (.)
+=======
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> d60d83a (.)
 
     protected string $view = 'notify::filament.pages.send-email';
 
