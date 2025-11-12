@@ -80,6 +80,7 @@ use Override;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -150,8 +151,11 @@ use Override;
 =======
  * @mixin IdeHelperNotification
 >>>>>>> ab15d0e (.)
+=======
+>>>>>>> c42c734 (.)
  * @mixin \Eloquent
  */
+/** */
 class Notification extends BaseModel
 {
     /** @var list<string> */

@@ -75,6 +75,9 @@ class SendAwsEmailPage extends XotBasePage
         // Form data filled;
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getEmailFormSchema(): array
     {
         return [

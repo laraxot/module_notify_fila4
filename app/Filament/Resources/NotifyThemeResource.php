@@ -114,6 +114,7 @@ class NotifyThemeResource extends XotBaseResource
     #[\Override]
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         return [
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
@@ -164,6 +165,12 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+        return array_values([
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+>>>>>>> c42c734 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -188,8 +195,7 @@ class NotifyThemeResource extends XotBaseResource
                 ->default('empty'),
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
-        ];
-    }
+        ]);}
 
     public static function fieldOptions(string $field): array
     {

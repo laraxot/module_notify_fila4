@@ -163,6 +163,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
  * @mixin IdeHelperMailTemplate
 =======
@@ -179,6 +180,9 @@ use Spatie\Translatable\HasTranslations;
 =======
  * @mixin IdeHelperMailTemplate
 >>>>>>> ab15d0e (.)
+=======
+ *
+>>>>>>> c42c734 (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

@@ -60,9 +60,9 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
- * Campo slug in getListTableColumns()
+ * Campo slug in getTableColumns()
  */
-public static function getListTableColumns(): array
+public static function getTableColumns(): array
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')
