@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -349,9 +352,13 @@ class MailTemplateSecurityTest extends TestCase
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f6b0523 (.)
+=======
+
+>>>>>>> c417ace (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -390,7 +397,10 @@ php artisan test --coverage --filter=MailTemplate
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
 - [Pest PHP](https://pestphp.com/docs) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)

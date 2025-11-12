@@ -1,6 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Notifiche Telegram 
 
+=======
+# Notifiche Telegram 
+
+Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di .
+Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di SaluteOra.
+>>>>>>> c417ace (.)
 
 ## Indice
 
@@ -15,6 +22,11 @@
 
 ## Introduzione
 
+<<<<<<< HEAD
+=======
+Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot.  integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
+Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
+>>>>>>> c417ace (.)
 
 ## Setup del Bot Telegram
 
@@ -27,12 +39,28 @@
 
 ### Funzionalità del Bot
 
+<<<<<<< HEAD
+=======
+Il bot di  deve avere:
+- Privacy Mode disattivata (per leggere messaggi nei gruppi)
+- Comandi personalizzati configurati
+- Immagine del profilo con logo 
+Il bot di SaluteOra deve avere:
+- Privacy Mode disattivata (per leggere messaggi nei gruppi)
+- Comandi personalizzati configurati
+- Immagine del profilo con logo SaluteOra
+>>>>>>> c417ace (.)
 
 ### Comandi Consigliati
 
 Configura i seguenti comandi per il tuo bot:
 ```
 start - Inizia l'interazione con il bot
+<<<<<<< HEAD
+=======
+register - Collega il tuo account Telegram a 
+register - Collega il tuo account Telegram a SaluteOra
+>>>>>>> c417ace (.)
 unregister - Scollega il tuo account Telegram
 settings - Gestisci le tue preferenze di notifica
 help - Ottieni assistenza
@@ -153,6 +181,17 @@ public function toTelegram($notifiable)
 
 ### Collegamento Account Telegram
 
+<<<<<<< HEAD
+=======
+Per collegare un account Telegram a un utente :
+
+1. Implementa un comando `/register` nel bot che generi un token univoco.
+2. L'utente inserisce questo token nel proprio profilo nell'app .
+Per collegare un account Telegram a un utente SaluteOra:
+
+1. Implementa un comando `/register` nel bot che generi un token univoco.
+2. L'utente inserisce questo token nel proprio profilo nell'app SaluteOra.
+>>>>>>> c417ace (.)
 3. Salva il `chat_id` Telegram dell'utente nel database.
 
 ```php
@@ -165,6 +204,11 @@ use Modules\Notify\Models\TelegramToken;
 class RegisterCommand extends Command
 {
     protected $name = 'register';
+<<<<<<< HEAD
+=======
+    protected $description = 'Collega il tuo account Telegram a ';
+    protected $description = 'Collega il tuo account Telegram a SaluteOra';
+>>>>>>> c417ace (.)
     
     public function handle()
     {
@@ -179,6 +223,11 @@ class RegisterCommand extends Command
         ]);
         
         $this->replyWithMessage([
+<<<<<<< HEAD
+=======
+            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo  per completare il collegamento."
+            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
+>>>>>>> c417ace (.)
         ]);
     }
 }
@@ -289,5 +338,8 @@ class TelegramNotificationTest extends TestCase
 - [MULTI_CHANNEL_NOTIFICATIONS.md](./MULTI_CHANNEL_NOTIFICATIONS.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

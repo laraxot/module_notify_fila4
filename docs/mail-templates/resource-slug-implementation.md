@@ -1,8 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Implementazione del Campo `slug` in MailTemplateResource
 
 ## Panoramica
 
+<<<<<<< HEAD
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> c417ace (.)
 
 ## Implementazione nel Form Schema
 
@@ -42,6 +50,11 @@ public static function getFormSchema(): array
 3. **Validazione Unicità**: L'opzione `unique(ignoreRecord: true)` garantisce unicità, escludendo il record corrente durante l'aggiornamento.
 4. **Generazione Automatica**: La callback `afterStateUpdated()` genera automaticamente lo slug dal nome quando si crea un nuovo record.
 
+<<<<<<< HEAD
+=======
+## Conformità con gli Standard 
+## Conformità con gli Standard SaluteOra
+>>>>>>> c417ace (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -59,6 +72,12 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
+<<<<<<< HEAD
+=======
+ * Campo slug in getListTableColumns()
+ */
+public static function getListTableColumns(): array
+>>>>>>> c417ace (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')
@@ -164,5 +183,8 @@ return [
 - [Guida alla Migrazione](../MAIL_TEMPLATE_MIGRATION_GUIDE.md)
 - [Convenzioni Filament](../../../../docs/FILAMENT_CONVENTIONS.md)
 - [Regole per Filament](../../../../docs/FILAMENT_RULES.md)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

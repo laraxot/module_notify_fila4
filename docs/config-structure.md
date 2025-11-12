@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Struttura di Configurazione nei Moduli 
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> c417ace (.)
 
 ## Principi di Configurazione
 
@@ -75,5 +80,8 @@
 4. **Centralizza Logiche Comuni**
    - Rate limit, retry e circuit breaking dovrebbero essere configurati una volta sola
    - L'implementazione dovrebbe utilizzare queste configurazioni generiche
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

@@ -1,8 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica
 
+<<<<<<< HEAD
+=======
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
+>>>>>>> c417ace (.)
 
 ## Convenzioni Attuali nel Modulo Notify
 
@@ -43,6 +51,11 @@ return [
 
 ## Discrepanza con le Convenzioni Generali
 
+<<<<<<< HEAD
+=======
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
+>>>>>>> c417ace (.)
 
 1. **Convenzioni Generali (Modules/Lang/docs/TRANSLATION_KEYS_RULES.md)**:
    - Struttura gerarchica espansa senza chiavi come `.navigation`
@@ -123,5 +136,8 @@ Per garantire la coerenza futura, si raccomanda di:
 - [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

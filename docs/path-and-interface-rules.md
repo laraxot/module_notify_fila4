@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali
@@ -17,6 +20,12 @@
 
 ### Directory Fisiche (path su disco)
 ```
+<<<<<<< HEAD
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
+/var/www/html/saluteora/laravel/Modules/Notify/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
+>>>>>>> c417ace (.)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email
@@ -90,5 +99,8 @@ Questa struttura garantisce:
 3. **Coerenza**: Pattern coerenti in tutto il modulo
 4. **Manutenibilità**: Facile trovare e comprendere il codice
 5. **Estendibilità**: Aggiungere nuovi provider senza modificare l'architettura
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Approfondimento Completo: Tailwind CSS su Webcrunch
 
 Fonte: [Webcrunch Tailwind CSS Collection](https://webcrunch.com/collections/tailwind-css)
@@ -82,6 +85,10 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 - **Responsive-first**: sempre usare breakpoint e utility mobile-first.
 - **Accessibilità**: seguire pattern Webcrunch per aria-label, focus, keyboard navigation.
 - **Effetti avanzati**: usare solo dove necessari e se coerenti con UX/accessibilità.
+<<<<<<< HEAD
+=======
+- **Documentazione**: mantenere esempi e snippet aggiornati in `/docs` e in `/Themes/One/project_docs/`.
+>>>>>>> c417ace (.)
 - **Documentazione**: mantenere esempi e snippet aggiornati in `/docs` e in `/Themes/One/docs/`.
 
 ---
@@ -102,5 +109,8 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 - Usare plugin custom e componenti Blade per evitare duplicazione classi.
 - Documentare pattern e plugin condivisi.
 - Favorire accessibilità e coerenza tra moduli e temi.
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

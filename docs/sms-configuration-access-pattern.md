@@ -1,10 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato
 
 È stato identificato un errore comune nell'implementazione delle azioni SMS: l'utilizzo di `config('services.*.token')` invece di `config('sms.drivers.*.token')`.
 
+<<<<<<< HEAD
+=======
+Questo errore viola i principi di modularità e coerenza dell'architettura di , dove ogni modulo gestisce le proprie configurazioni in file dedicati.
+Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
+>>>>>>> c417ace (.)
 
 ## Pattern Corretto
 
@@ -56,5 +64,8 @@ Per ogni azione SMS, verificare che:
 - [Struttura della Configurazione SMS](./SMS_CONFIG_STRUCTURE.md)
 - [Requisiti di Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
 - [Pattern Factory per SMS](./SMS_ACTION_FACTORY_ANALYSIS.md)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali
@@ -18,6 +21,12 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Corretta Organizzazione delle Interfacce
 
 ```
+<<<<<<< HEAD
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
+/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
+>>>>>>> c417ace (.)
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -26,6 +35,12 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Errori da Evitare
 
 ```
+<<<<<<< HEAD
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
+>>>>>>> c417ace (.)
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```
@@ -76,5 +91,8 @@ final class SendNetfunSMSAction implements SmsActionInterface
 3. **Consistenza**:
    - Tutte le interfacce dello stesso tipo devono essere nello stesso namespace
    - Il pattern di organizzazione deve essere coerente in tutto il modulo
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

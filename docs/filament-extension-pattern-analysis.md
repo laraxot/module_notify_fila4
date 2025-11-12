@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore
@@ -17,6 +20,11 @@ L'errore si manifesta in due forme principali:
 
 ### 1. Architettura a Strati
 
+<<<<<<< HEAD
+=======
+Il progetto  utilizza un'architettura a strati per i componenti Filament:
+Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> c417ace (.)
 
 ```
 Filament Core Classes (vendor)
@@ -30,6 +38,11 @@ Saltare il livello intermedio (XotBase) rompe questa architettura e crea inconsi
 
 ### 2. Personalizzazioni Centralizzate
 
+<<<<<<< HEAD
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto :
+Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
+>>>>>>> c417ace (.)
 - Gestione multilingua
 - Integrazione con il sistema di permessi
 - Logging e auditing
@@ -91,5 +104,10 @@ L'adozione coerente del pattern di estensione XotBase offre vantaggi significati
 
 ## Conclusione
 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> c417ace (.)

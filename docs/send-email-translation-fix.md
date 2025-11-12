@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -128,11 +131,18 @@ Ogni campo ora ha la struttura espansa completa:
 
 - [Documentazione Root](../docs/translation_standards_links.md)
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
+<<<<<<< HEAD
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 - [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Regole Helper Text](../project_docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
+=======
+- [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
+- [Regole Helper Text](../project_docs/translation-helper-text-standards.md)
+- [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
+- [Best Practices Filament](../docs/filament_translation_best_practices.md)
+>>>>>>> c417ace (.)
 
 ## Note Importanti
 
@@ -155,6 +165,10 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 >>>>>>> c13e9db (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c417ace (.)

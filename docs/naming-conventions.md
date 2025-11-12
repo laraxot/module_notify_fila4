@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Convenzioni di Naming
 
 ## Regole Generali
@@ -57,6 +60,11 @@ public function handleHTTPRequest(): void
 
 # Convenzioni di Naming per le Azioni di Notifica
 
+<<<<<<< HEAD
+=======
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema , supportando la risoluzione dinamica delle classi implementata nei factory.
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
+>>>>>>> c417ace (.)
 
 ## Pattern di Naming
 
@@ -179,5 +187,8 @@ $normalizedDriver = str_replace(' ', '', ucwords(str_replace('_', ' ', $driver))
 ```
 
 Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

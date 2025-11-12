@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Analisi Dettagliata del Modulo Notify
 
 ## 1. Analisi delle Soluzioni di Template Email
@@ -382,7 +385,11 @@ namespace Modules\Notify\Filament\Resources;
 
 class TemplateResource extends Resource
 {
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> c417ace (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -605,11 +612,18 @@ class TemplatePreview extends Component
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> c417ace (.)
 - [Stripo Documentation](https://stripo.email/templates/)
 - [Beefree Documentation](https://beefree.io/templates)
 - [Unlayer Documentation](https://unlayer.com/)
 - [Mailersend Documentation](https://www.mailersend.com/)
 - [Mailjet Documentation](https://www.mailjet.com/) 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

@@ -1,8 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione
 
+<<<<<<< HEAD
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> c417ace (.)
 
 ## Principi Fondamentali
 
@@ -74,6 +82,11 @@ Migliore esperienza su client moderni:
 </div>
 ```
 
+<<<<<<< HEAD
+=======
+Per , si raccomanda un **approccio ibrido**:
+Per SaluteOra, si raccomanda un **approccio ibrido**:
+>>>>>>> c417ace (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
@@ -186,5 +199,8 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [MailPace Integration](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

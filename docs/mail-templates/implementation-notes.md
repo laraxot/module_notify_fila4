@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -30,10 +33,22 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    $attachments = [
        [
+<<<<<<< HEAD
+=======
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+>>>>>>> c417ace (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
+<<<<<<< HEAD
+=======
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+>>>>>>> c417ace (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -180,5 +195,8 @@ L'implementazione corretta dimostra che:
 Input: "name, email, company, date"
 Output: [name] [email] [company] [date] (come badge blu)
 ``` 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

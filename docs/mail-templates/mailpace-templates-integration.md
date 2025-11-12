@@ -1,8 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Integrazione MailPace Templates
 
 ## Panoramica
 
+<<<<<<< HEAD
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di . Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> c417ace (.)
 
 ## Template Disponibili
 
@@ -28,6 +36,12 @@ MailPace offre i seguenti template transazionali:
 ### Struttura della Directory
 
 ```
+<<<<<<< HEAD
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> c417ace (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -88,6 +102,11 @@ $mailTemplate->send($user->email, [
 1. **Mantieni la Struttura Base** - Non modificare la struttura HTML base per garantire compatibilità
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
+<<<<<<< HEAD
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per 
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> c417ace (.)
 
 ## Riferimenti
 
@@ -95,5 +114,8 @@ $mailTemplate->send($user->email, [
 - [Repository MailPace Templates](https://github.com/mailpace/templates)
 - [Guida Spatie Email](../SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Implementazione Slug Field](./SLUG_FIELD_IMPLEMENTATION.md)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

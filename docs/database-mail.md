@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -187,10 +190,14 @@ class EmailTemplateResource extends Resource
     protected static ?string $model = EmailTemplate::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
 >>>>>>> f6b0523 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c417ace (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -386,9 +393,13 @@ class ProcessDoctorModerationAction
 ```html
 <x-mail::message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f6b0523 (.)
+=======
+
+>>>>>>> c417ace (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -448,7 +459,10 @@ Cordiali saluti,<br>
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)

@@ -1,8 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Implementazione del Campo `slug` nel Modello MailTemplate
 
 ## Panoramica delle Modifiche
 
+<<<<<<< HEAD
+=======
+Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
+Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
+Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
+>>>>>>> c417ace (.)
 
 ## Modifiche Effettuate
 
@@ -175,5 +184,8 @@ echo $uniqueSlug;
 - [Implementazione Campo Slug nella Migrazione](./SLUG_FIELD_IMPLEMENTATION.md)
 - [Guida alla Migrazione MailTemplate](../MAIL_TEMPLATE_MIGRATION_GUIDE.md)
 - [Documentazione Spatie Sluggable](https://github.com/spatie/laravel-sluggable)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

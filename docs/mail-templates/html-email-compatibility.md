@@ -1,8 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Guida alla Compatibilità HTML per Email
 
 ## Introduzione
 
+<<<<<<< HEAD
+=======
+Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di  con i diversi client email.
+Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di SaluteOra con i diversi client email.
+>>>>>>> c417ace (.)
 
 ## Compatibilità Client Email
 
@@ -132,5 +140,8 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 - [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
 - [Campaign Monitor Guide](https://www.campaignmonitor.com/css/)
 - [Email Client Market Share](https://emailclientmarketshare.com/)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

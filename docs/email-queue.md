@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Sistema Code Email - il progetto
 
 ## Panoramica
@@ -220,7 +223,11 @@ namespace Modules\Notify\Filament\Resources;
 
 class MailQueueResource extends XotBaseResource
 {
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> c417ace (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -401,8 +408,17 @@ class MailQueueManager
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
 =======
 >>>>>>> c13e9db (.)
+=======
+- [Laravel Queue](https://laravel.com/project_docs/queues)
+- [Laravel Horizon](https://laravel.com/project_docs/horizon)
+- [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
+>>>>>>> c417ace (.)

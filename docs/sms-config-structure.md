@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -57,6 +60,11 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         // Credenziali e parametri di connessione
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> c417ace (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -113,6 +121,11 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
     'netfun' => [
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
+<<<<<<< HEAD
+=======
+        'sender' => env('NETFUN_SENDER', ''),
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> c417ace (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun
@@ -154,5 +167,8 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -164,11 +167,18 @@ Log::debug('SMS Debug', [
 ### 2. Risorse Utili
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
+<<<<<<< HEAD
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
+=======
+- [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
+- [Laravel Queue](https://laravel.com/project_docs/queues)
+- [Laravel Logging](https://laravel.com/project_docs/logging)
+- [Laravel Logging](https://laravel.com/docs/logging)
+>>>>>>> c417ace (.)
 
 ## Supporto
 
@@ -198,5 +208,8 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

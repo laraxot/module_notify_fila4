@@ -1,8 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Convenzioni di Naming per i Contracts 
 
 ## Regola Fondamentale
 
+<<<<<<< HEAD
+=======
+Nel sistema , tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> c417ace (.)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`
@@ -61,5 +69,8 @@ interface SmsProviderContract
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
 - [PHP-FIG Interface Naming Conventions](https://www.php-fig.org/psr/psr-1/)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

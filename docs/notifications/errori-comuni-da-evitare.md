@@ -1,8 +1,22 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Errori Comuni da Evitare nelle Implementazioni di Moduli 
+# Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
+>>>>>>> c417ace (.)
 
 ## Errori di Struttura Directory e Namespace
 
 1. **Errore di Case nelle Directory**
+<<<<<<< HEAD
+=======
+   - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
+   - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
+   - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
+>>>>>>> c417ace (.)
    
    > Le directory standard di Laravel sono sempre in lowercase (`app`, `config`, `resources`, ecc.)
 
@@ -80,5 +94,8 @@
    - Non duplicare configurazioni generiche
    - Riutilizzare componenti e logiche esistenti
    - Centralizzare comportamenti comuni
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

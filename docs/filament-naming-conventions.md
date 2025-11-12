@@ -1,6 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming per Filament 
 
+=======
+# Convenzioni di Naming per Filament 
+
+Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema , con particolare attenzione alle pagine e alle risorse.
+Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
+>>>>>>> c417ace (.)
 
 ## Convenzioni di Naming per Pagine Filament
 
@@ -144,5 +151,8 @@ Prima di ogni commit, verificare che:
 2. Tutte le classi nella cartella `app/Filament/Resources` terminino con "Resource"
 3. Tutte le classi nella cartella `app/Filament/Widgets` terminino con "Widget"
 4. Tutte le viste Blade seguano la convenzione di naming
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

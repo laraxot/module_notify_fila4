@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -35,6 +38,11 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
+=======
+            sender: '<nome progetto>'
+            sender: 'SALUTEORA'
+>>>>>>> c417ace (.)
         );
     }
 
@@ -200,6 +208,11 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: $message,
+<<<<<<< HEAD
+=======
+            sender: '<nome progetto>'
+            sender: 'SALUTEORA'
+>>>>>>> c417ace (.)
         );
     }
 
@@ -440,6 +453,11 @@ public function sendBulkSms(Request $request)
         $results = SendBulkSmsAction::make(
             users: $users,
             message: $request->message,
+<<<<<<< HEAD
+=======
+            sender: '<nome progetto>',
+            sender: 'SALUTEORA',
+>>>>>>> c417ace (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -922,5 +940,8 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

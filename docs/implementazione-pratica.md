@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -393,7 +396,11 @@ class TemplateResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
 
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> c417ace (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -776,9 +783,16 @@ class TemplateControllerTest extends TestCase
 
 ## 8. Collegamenti Utili
 
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
 =======
 >>>>>>> c13e9db (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+- [MJML Documentation](https://mjml.io/documentation/)
+- [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
+- [Filament Documentation](https://filamentphp.com/docs) 
+>>>>>>> c417ace (.)

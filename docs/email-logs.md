@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Sistema Log Email 
 
 ## Panoramica
@@ -509,8 +512,17 @@ class MailLogDebugger
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
 =======
 >>>>>>> c13e9db (.)
+=======
+- [Laravel Logging](https://laravel.com/project_docs/logging)
+- [Laravel Events](https://laravel.com/project_docs/events)
+- [Laravel Observers](https://laravel.com/project_docs/eloquent#observers) 
+- [Laravel Logging](https://laravel.com/docs/logging)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
+>>>>>>> c417ace (.)

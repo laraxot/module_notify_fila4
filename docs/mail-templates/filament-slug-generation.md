@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Generazione di Slug in Filament
 
 ## Panoramica
@@ -116,9 +119,13 @@ TextInput::make('name')
 ### 1. Form Resource
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 7b1ccd1 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c417ace (.)
 {
     return $form
         ->schema([
@@ -241,5 +248,8 @@ TextInput::make('name')
 - [Laravel News Article](https://laravel-news.com/generating-slugs-from-a-title-in-filament)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Laravel Str Helper](https://laravel.com/docs/helpers#method-str-slug) 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

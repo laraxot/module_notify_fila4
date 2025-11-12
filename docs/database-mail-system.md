@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica
@@ -133,10 +136,14 @@ class MailTemplateResource extends XotBaseResource
     protected static ?string $model = MailTemplate::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
 >>>>>>> f6b0523 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c417ace (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -261,9 +268,13 @@ class TreatmentComplete extends Mailable
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> f6b0523 (.)
+=======
+
+>>>>>>> c417ace (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -322,7 +333,10 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
 =======
 >>>>>>> f6b0523 (.)
+=======
+>>>>>>> c417ace (.)

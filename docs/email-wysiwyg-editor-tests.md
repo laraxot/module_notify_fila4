@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari
@@ -340,7 +343,15 @@ class FileUploadSecurityTest extends TestCase
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
 =======
 >>>>>>> c13e9db (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
+- [Dusk Documentation](https://laravel.com/project_docs/dusk)
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
+>>>>>>> c417ace (.)

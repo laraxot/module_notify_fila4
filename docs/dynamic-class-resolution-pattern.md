@@ -1,6 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
+=======
+# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
+
+Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
+Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
+>>>>>>> c417ace (.)
 
 ## Implementazione Attuale con Match
 
@@ -184,5 +191,8 @@ La risoluzione dinamica delle classi offre vantaggi significativi in termini di 
 5. Considerare l'implementazione di un meccanismo di cache per migliorare le performance
 
 Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza e il controllo offerti dall'approccio match, offrendo il miglior compromesso tra flessibilità e robustezza.
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

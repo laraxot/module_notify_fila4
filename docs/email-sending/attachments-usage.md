@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Utilizzo Corretto degli Allegati nelle Email Spatie
 
 Questa documentazione descrive come utilizzare correttamente il metodo `addAttachments()` nella classe `SpatieEmail` del modulo Notify.
@@ -13,11 +16,23 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 // Formato corretto - un array di array di allegati
 $attachments = [
     [
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+>>>>>>> c417ace (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
+<<<<<<< HEAD
+=======
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+        'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
+>>>>>>> c417ace (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
@@ -111,5 +126,8 @@ Ogni allegato deve contenere i seguenti parametri:
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
 - [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

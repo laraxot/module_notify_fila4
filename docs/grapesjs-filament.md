@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # GrapesJS per Filament: Analisi e Best Practice
 
 ## Regola sulle rotte
@@ -82,11 +85,18 @@ Grapesjs::make('body_html')
 
 ## Link utili
 - [Plugin GitHub](https://github.com/dotswan/filament-grapesjs-v3)
+<<<<<<< HEAD
+=======
+- [GrapesJS Docs](https://grapesjs.com/project_docs/)
+>>>>>>> c417ace (.)
 - [GrapesJS Docs](https://grapesjs.com/docs/)
 - [Filament Plugins](https://filamentphp.com/plugins)
 
 ---
 
 **GrapesJS integrato in Filament rappresenta la soluzione ideale per un editor visuale avanzato di template email e landing page, facilmente estendibile e personalizzabile secondo le esigenze del progetto.**
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

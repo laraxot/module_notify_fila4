@@ -1,6 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utilizzo di Enum e Config 
 
+=======
+# Utilizzo di Enum e Config 
+
+Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema , con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema SaluteOra, con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+>>>>>>> c417ace (.)
 
 ## Problema: Hardcoding delle Opzioni
 
@@ -146,5 +153,10 @@ Per standardizzare l'approccio , si raccomanda di:
 
 ## Conclusione
 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema  garantirà un codice più robusto e facile da mantenere.
+L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
+>>>>>>> c417ace (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Sistema Backup Email 
 
 ## Panoramica
@@ -635,6 +638,10 @@ class MailBackupDebugger
 ## Vedi Anche
 - [Laravel Storage](https://laravel.com/docs/storage)
 - [Laravel Encryption](https://laravel.com/docs/encryption)
+<<<<<<< HEAD
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 =======
 >>>>>>> c13e9db (.)
+=======
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> c417ace (.)

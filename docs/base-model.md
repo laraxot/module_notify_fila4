@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # BaseModel del Modulo Notify
 
 ## Panoramica
@@ -63,6 +66,14 @@ class NotificationTemplate extends BaseModel
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
+=======
+- [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
+- [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
+
+### Collegamenti ai Moduli
+- [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
+>>>>>>> c417ace (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -77,5 +88,8 @@ class NotificationTemplate extends BaseModel
 3. Il namespace non include il segmento `app`
 4. Le funzionalità comuni vanno implementate qui
 5. La documentazione va mantenuta aggiornata 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

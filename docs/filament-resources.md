@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Risorse Filament del Modulo Notify
 
 ### Versione HEAD
@@ -242,6 +245,14 @@ public static function getTableActions(): array
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
+=======
+- [Architettura Filament](../../../../project_docs/architecture/filament.md)
+- [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
+
+### Collegamenti ai Moduli
+- [XotBaseResource](../../Xot/project_docs/XotBaseResource.md)
+>>>>>>> c417ace (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -265,6 +276,15 @@ public static function getTableActions(): array
 6. I campi JSON sono validati correttamente
 7. Le traduzioni seguono la struttura corretta 
 ## Collegamenti tra versioni di filament-resources.md
+<<<<<<< HEAD
+=======
+* [filament-resources.md](../../../../project_docs/tecnico/filament/filament-resources.md)
+* [filament-resources.md](../../../../project_docs/regole/filament-resources.md)
+* [filament-resources.md](../../Gdpr/project_docs/filament-resources.md)
+* [filament-resources.md](../../Xot/project_docs/filament-resources.md)
+* [filament-resources.md](../../Patient/project_docs/filament-resources.md)
+* [filament-resources.md](../../Cms/project_docs/filament-resources.md)
+>>>>>>> c417ace (.)
 * [filament-resources.md](../../../../docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/docs/filament-resources.md)
@@ -275,5 +295,8 @@ public static function getTableActions(): array
 
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)

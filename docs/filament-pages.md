@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -69,6 +72,16 @@ class EditNotificationTemplate extends XotBaseEditRecord
 ## Collegamenti Bidirezionali
 
 ### Collegamenti nella Root
+<<<<<<< HEAD
+=======
+- [Architettura Filament](../../../../project_docs/architecture/filament.md)
+- [Gestione Pagine](../../../../project_docs/architecture/pages.md)
+
+### Collegamenti ai Moduli
+- [XotBaseListRecords](../../Xot/project_docs/filament-pages.md#XotBaseListRecords)
+- [XotBaseCreateRecord](../../Xot/project_docs/filament-pages.md#XotBaseCreateRecord)
+- [XotBaseEditRecord](../../Xot/project_docs/filament-pages.md#XotBaseEditRecord)
+>>>>>>> c417ace (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -84,5 +97,9 @@ class EditNotificationTemplate extends XotBaseEditRecord
 2. Non si sovrascrivono metodi se non necessario
 3. Si mantiene la coerenza con il resto del sistema
 4. La documentazione va mantenuta aggiornata
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> c417ace (.)
