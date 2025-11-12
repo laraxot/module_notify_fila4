@@ -12,11 +12,17 @@ return [
         'group' => 'Notifiche',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a7355f9 (.)
     'actions' => [
         'logout' => [
             'tooltip' => 'logout',
         ],
     ],
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> a7355f9 (.)
 ];
