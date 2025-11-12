@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -38,12 +39,15 @@
 =======
 >>>>>>> 10b3b08 (.)
 =======
+>>>>>>> 5dacc15 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,11 +98,23 @@
 >>>>>>> 0b399d7 (.)
 =======
 >>>>>>> 535f451 (.)
+=======
+>>>>>>> 5dacc15 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 <div class="block">
 >>>>>>> 99ff506 (.)
 	<!-- start textbox-with-title -->
@@ -140,6 +156,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 								<tbody>
 >>>>>>> 99ff506 (.)
@@ -184,6 +201,9 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> 10b3b08 (.)
 =======
+								<tbody>
+>>>>>>> 5dacc15 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +218,7 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,3 +297,5 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> 535f451 (.)
+=======
+>>>>>>> 5dacc15 (.)
