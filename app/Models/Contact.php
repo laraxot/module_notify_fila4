@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
@@ -14,15 +15,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> 92ecc28 (.)
 =======
 >>>>>>> b94a5f6 (.)
-use Illuminate\Database\Eloquent\Builder;
 =======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
-use Override;
-use Modules\Notify\Database\Factories\ContactFactory;
+>>>>>>> 23161eb (.)
 use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Contracts\ProfileContract;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Xot\Contracts\ProfileContract;
@@ -111,8 +106,8 @@ use Illuminate\Support\Carbon;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
-<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +192,8 @@ use Illuminate\Support\Carbon;
  *
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 23161eb (.)
  * @mixin IdeHelperContact
 <<<<<<< HEAD
  *

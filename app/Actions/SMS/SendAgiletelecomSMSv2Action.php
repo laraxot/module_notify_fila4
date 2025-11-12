@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use GuzzleHttp\Client;
 =======
 <<<<<<< HEAD
@@ -25,6 +26,8 @@ use GuzzleHttp\Client;
 >>>>>>> 92ecc28 (.)
 =======
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -35,6 +38,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 <<<<<<< HEAD
 use Override;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +80,8 @@ use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -121,11 +127,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
                     // 'sender' => $config['sender'],
                     'sender' => $agile->sender,
                     'body' => $data->body,
-<<<<<<< HEAD
                     // 'hexBody' => false,
-=======
-                    //'hexBody' => false,
->>>>>>> f5f1cb1 (.)
                 ],
             ],
         ];
@@ -134,11 +136,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 
         $response = Http::withHeaders($agile->getAuthHeaders())->timeout($agile->timeout)->post($url, $payload);
 
-<<<<<<< HEAD
         // dddx($response->body());
-=======
-        //dddx($response->body());
->>>>>>> f5f1cb1 (.)
 
         return [];
     }

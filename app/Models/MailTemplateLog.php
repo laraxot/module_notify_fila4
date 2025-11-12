@@ -4,18 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use Modules\User\Models\Profile;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateLogFactory;
-use Illuminate\Database\Eloquent\Builder;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Media\Models\Media;

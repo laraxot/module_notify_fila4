@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
-<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> f5f1cb1 (.)
@@ -35,9 +34,6 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 
     protected ?string $parseMode;
-=======
-    protected null|string $parseMode;
->>>>>>> f5f1cb1 (.)
 
     /**
      * Create a new action instance.

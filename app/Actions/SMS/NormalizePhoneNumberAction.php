@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -19,29 +18,13 @@ use function Safe\preg_replace;
  */
 class NormalizePhoneNumberAction
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2fdda20 (.)
     public function execute(string|array $phoneNumber): string
     {
         // Convert array to string if needed
         if (is_array($phoneNumber)) {
             $phoneNumber = implode('', $phoneNumber);
         }
-<<<<<<< HEAD
 
-=======
-        
-=======
-    public function execute(string $phoneNumber): string
-    {
->>>>>>> 62b0c9c (.)
-=======
-    public function execute(string $phoneNumber): string
-    {
->>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
         // Rimuove parentesi e il loro contenuto
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);

@@ -8,7 +8,6 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
-<<<<<<< HEAD
 
 class PlivoData extends Data
 {
@@ -27,23 +26,6 @@ class PlivoData extends Data
     public static function make(): self
     {
         if (! (self::$instance instanceof PlivoData)) {
-=======
-use Webmozart\Assert\Assert;
-
-class PlivoData extends Data
-{
-    public null|string $auth_id;
-    public null|string $auth_token;
-    public null|string $base_url;
-    public string $auth_type = 'basic';
-    public int $timeout = 30;
-
-    private static null|self $instance = null;
-
-    public static function make(): self
-    {
-        if (!(self::$instance instanceof PlivoData)) {
->>>>>>> f5f1cb1 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
@@ -61,11 +43,7 @@ class PlivoData extends Data
             case 'basic':
             default:
                 return [
-<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->auth_id.':'.$this->auth_token),
-=======
-                    'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
->>>>>>> f5f1cb1 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
-<<<<<<< HEAD
 =======
 use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> f5f1cb1 (.)
@@ -38,13 +37,6 @@ class EmailDataEmail extends Mailable
             $this->email_data->from = $from;
         }
         if ($this->email_data->from_email === null) {
-=======
-        if (null === $this->email_data->from) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-            $this->email_data->from = $from;
-        }
-        if (null === $this->email_data->from_email) {
->>>>>>> f5f1cb1 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }

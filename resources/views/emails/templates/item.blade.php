@@ -8,6 +8,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.content-end')
 =======
 @include('notify::emails.templates.'.$theme.'.contentEnd')
@@ -37,3 +38,6 @@ declare(strict_types=1);
 @include('notify::emails.templates.'.$theme.'.contentEnd')
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+@include('notify::emails.templates.'.$theme.'.content-end')
+>>>>>>> 23161eb (.)

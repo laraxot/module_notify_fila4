@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 =======
 
 >>>>>>> f5f1cb1 (.)
@@ -19,9 +18,5 @@ class NetfunSmsData extends Data
 <<<<<<< HEAD
         public ?string $reference = null,
         public ?string $scheduledDate = null,
-=======
-        public null|string $reference = null,
-        public null|string $scheduledDate = null,
->>>>>>> f5f1cb1 (.)
     ) {}
 }

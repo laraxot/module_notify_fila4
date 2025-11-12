@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Jobs;
 
-<<<<<<< HEAD
 =======
 use Throwable;
 >>>>>>> f5f1cb1 (.)
@@ -69,7 +68,6 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
-<<<<<<< HEAD
         /** @var array<string, mixed> $data */
         $data = $this->data;
         /** @var array<int, string> $channels */
@@ -78,19 +76,11 @@ class SendNotificationJob implements ShouldQueue
         $options = $this->options;
 
         $action->execute($this->recipient, $this->templateCode, $data, $channels, $options);
-=======
-        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
->>>>>>> f5f1cb1 (.)
     }
 
     /**
      * Gestisce un fallimento del job.
 <<<<<<< HEAD
-=======
-     *
-     * @param Throwable $exception
-     * @return void
->>>>>>> f5f1cb1 (.)
      */
     public function failed(Throwable $exception): void
     {

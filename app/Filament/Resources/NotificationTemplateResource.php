@@ -4,28 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-<<<<<<< HEAD
 =======
 use Override;
 use Filament\Forms\Components\TextInput;
 >>>>>>> f5f1cb1 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
-<<<<<<< HEAD
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-=======
-use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
-use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Filament\Forms;
->>>>>>> 62b0c9c (.)
-=======
-use Filament\Forms;
->>>>>>> bf479cc (.)
 =======
 use Filament\Forms;
 >>>>>>> 372da3e (.)
@@ -43,6 +29,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82c6772 (.)
@@ -50,19 +37,14 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 >>>>>>> 92ecc28 (.)
 =======
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
 use Override;
 >>>>>>> 6ba141fc (.)
 
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static ?string $model = NotificationTemplate::class;
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
-
-class NotificationTemplateResource extends XotBaseResource
-{
-    protected static null|string $model = NotificationTemplate::class;
->>>>>>> f5f1cb1 (.)
 
     #[\Override]
     public static function getFormSchema(): array

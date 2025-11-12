@@ -4,16 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
-<<<<<<< HEAD
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
-=======
-use Filament\Support\Contracts\HasLabel;
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasColor;
-use ReflectionClass;
->>>>>>> f5f1cb1 (.)
 use Modules\Notify\Enums\SmsDriverEnum;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
@@ -73,11 +66,7 @@ class SmsDriverEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
-<<<<<<< HEAD
         $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
-=======
-        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
->>>>>>> f5f1cb1 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

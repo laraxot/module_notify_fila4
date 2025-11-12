@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
-<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> f5f1cb1 (.)
@@ -20,23 +19,14 @@ class NotifyThemeResource extends XotBaseResource
 {
 <<<<<<< HEAD
     protected static ?string $model = NotifyTheme::class;
-=======
-    protected static null|string $model = NotifyTheme::class;
->>>>>>> f5f1cb1 (.)
 
     #[\Override]
     public static function getFormSchema(): array
     {
         return [
-<<<<<<< HEAD
             'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
-=======
-            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
-            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
-            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
->>>>>>> f5f1cb1 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),

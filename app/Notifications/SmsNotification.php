@@ -13,7 +13,6 @@ use Modules\Notify\Datas\SmsData;
  * Class SmsNotification
  *
  * Notification class for sending SMS messages through various providers.
-<<<<<<< HEAD
 =======
  *
  * @package Modules\Notify\Notifications
@@ -51,9 +50,6 @@ class SmsNotification extends Notification implements ShouldQueue
 
 <<<<<<< HEAD
             $this->smsData = new SmsData;
-=======
-            $this->smsData = new SmsData();
->>>>>>> f5f1cb1 (.)
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
             $this->smsData->to = (string) $to;
@@ -67,11 +63,7 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
-<<<<<<< HEAD
      * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
-=======
-     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
->>>>>>> f5f1cb1 (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -108,11 +100,7 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the provider to use for sending the SMS.
      */
-<<<<<<< HEAD
     public function getProvider(): ?string
-=======
-    public function getProvider(): null|string
->>>>>>> f5f1cb1 (.)
     {
         $provider = $this->config['provider'] ?? null;
 

@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 =======
 
 >>>>>>> f5f1cb1 (.)
@@ -18,11 +17,6 @@ class NetfunSmsResponseData extends Data
         public ?string $batchId = null,
         public ?array $messages = null,
         public ?string $error = null,
-=======
-        public null|string $batchId = null,
-        public null|array $messages = null,
-        public null|string $error = null,
->>>>>>> f5f1cb1 (.)
     ) {}
 
     /**
@@ -36,17 +30,10 @@ class NetfunSmsResponseData extends Data
         $error = isset($data['error']) && is_string($data['error']) ? $data['error'] : null;
 
         return new self(
-<<<<<<< HEAD
             status: $status,
             batchId: $batchId,
             messages: $messages,
             error: $error,
-=======
-            status: $data['status'],
-            batchId: $data['batchId'] ?? null,
-            messages: $data['messages'] ?? null,
-            error: $data['error'] ?? null,
->>>>>>> f5f1cb1 (.)
         );
     }
 }

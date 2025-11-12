@@ -7,6 +7,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19,6 +20,8 @@ use Override;
 use Override;
 =======
 >>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 23161eb (.)
 =======
 use Override;
 >>>>>>> b93ef594b4 (.)
@@ -152,6 +155,7 @@ class NotifyTheme extends BaseModel implements HasMedia
 =======
 >>>>>>> b94a5f6 (.)
  *
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotifyTheme
@@ -226,6 +230,8 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),

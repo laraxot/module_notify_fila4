@@ -6,14 +6,9 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
-=======
-return new class() extends XotBaseMigration {
-    protected null|string $model_class = Contact::class;
->>>>>>> f5f1cb1 (.)
 
     /**
      * Run the migrations.

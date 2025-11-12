@@ -20,17 +20,10 @@ class Get
     public function execute(string $name, string $type, array $view_params): NotifyThemeData
     {
         $xotData = XotData::make();
-<<<<<<< HEAD
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
-=======
-        if (!isset($view_params['post_id'])) {
-            $view_params['post_id'] = 0;
-        }
-        if (!isset($view_params['lang'])) {
->>>>>>> f5f1cb1 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -46,17 +39,10 @@ class Get
 
         $module_name_low = Str::lower($xotData->main_module);
 
-<<<<<<< HEAD
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
-=======
-        $trad_mod = $module_name_low . '::' . $type . '.' . $name;
-
-        if ($theme->subject === null) {
-            $subject = trans($trad_mod . '.subject');
->>>>>>> f5f1cb1 (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -65,13 +51,8 @@ class Get
         }
 
         if ($theme->body_html === null) {
-<<<<<<< HEAD
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
-=======
-            $html = trans($trad_mod . '.body_html');
-            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
->>>>>>> f5f1cb1 (.)
                 $html = '##body_html##';
             }
 
@@ -126,13 +107,8 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
-<<<<<<< HEAD
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
-=======
-                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
-                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
->>>>>>> f5f1cb1 (.)
             }
         }
 

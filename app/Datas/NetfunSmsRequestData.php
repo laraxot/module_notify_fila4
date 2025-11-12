@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 =======
 
 >>>>>>> f5f1cb1 (.)
@@ -29,10 +28,6 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
             token: $token,
             messages: $messages,
-=======
-            token: $data['token'],
-            messages: $data['messages'],
->>>>>>> f5f1cb1 (.)
         );
     }
 }

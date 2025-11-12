@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
-<<<<<<< HEAD
 =======
 use Override;
 use Filament\Tables;
@@ -122,12 +121,6 @@ class ListNotifications extends XotBaseListRecords
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn (Builder $query): Builder => $query->whereNull('read_at'))
-=======
-                ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
-                ->label('Read'),
-            'unread' => Filter::make('is_unread')
-                ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
->>>>>>> f5f1cb1 (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

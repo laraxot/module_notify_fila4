@@ -28,21 +28,12 @@ class TelegramData extends Data
     public function __construct(
         public string $chatId,
         public string $text,
-<<<<<<< HEAD
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public ?int $replyToMessageId = null,
         public ?array $replyMarkup = null,
         public ?array $media = null,
-=======
-        public null|string $parseMode = null,
-        public bool $disableWebPagePreview = false,
-        public bool $disableNotification = false,
-        public null|int $replyToMessageId = null,
-        public null|array $replyMarkup = null,
-        public null|array $media = null,
->>>>>>> f5f1cb1 (.)
         public string $type = 'text',
     ) {}
 }

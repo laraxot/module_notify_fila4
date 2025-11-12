@@ -4,26 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Mail;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Illuminate\Mail\Mailables\Attachment;
->>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> 2fdda20 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
-=======
-use Illuminate\Mail\Mailables\Attachment;
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Mail\Mailable;
->>>>>>> bf479cc (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +49,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
     use Queueable, SerializesModels;
 >>>>>>> bf479cc (.)
+=======
+
+>>>>>>> 23161eb (.)
 >>>>>>> 2fdda20 (.)
 
     /**
@@ -72,19 +65,14 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * Crea una nuova istanza del messaggio.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $notificationData
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 23161eb (.)
      * @param  array<string, mixed>  $notificationData
-=======
-     * @param array<string, mixed> $notificationData
->>>>>>> e39a6f9 (.)
-=======
-     * @param array<string, mixed> $notificationData
-=======
-     * @param  array<string, mixed>  $notificationData
->>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
 >>>>>>> 31bdf6b (.)
      */
@@ -111,6 +99,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -122,12 +111,15 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> 23161eb (.)
 
         if (is_object($appointment) && property_exists($appointment, 'id') && $appointment->id) {
             $appointmentId = is_int($appointment->id) || is_string($appointment->id) ? $appointment->id : (string) $appointment->id;
             $subject .= ' #'.$appointmentId;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -140,6 +132,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
             $subject .= ' #'.$appointment->id;
 >>>>>>> bf479cc (.)
+=======
+>>>>>>> 23161eb (.)
         }
         
 <<<<<<< HEAD

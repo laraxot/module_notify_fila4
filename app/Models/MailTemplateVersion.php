@@ -4,17 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
 use Carbon\Carbon;
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use RuntimeException;
-use Carbon\Carbon;
-use Modules\User\Models\Profile;
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;

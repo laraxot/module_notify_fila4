@@ -7,6 +7,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -34,6 +35,8 @@ use Override;
 =======
 >>>>>>> 92ecc28 (.)
 =======
+=======
+>>>>>>> 23161eb (.)
 =======
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
@@ -65,6 +68,7 @@ use Override;
 >>>>>>> 92ecc28 (.)
 =======
 use Override;
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
@@ -118,6 +122,8 @@ class AdminPanelProvider extends XotBasePanelProvider
             DatabaseNotifications::pollingInterval('60s');
             FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 23161eb (.)
                 '@livewire(\'database-notifications\')',
             ));
         }

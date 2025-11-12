@@ -52,21 +52,12 @@ final class PushNotificationDebugData extends Data implements Arrayable
                         'value' => $report->target()->value(),
                     ]),
                 'unknown_tokens' => $this->sendReport
-<<<<<<< HEAD
                     ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
                     ->map(static fn (SendReport $report): array => [
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
                 'results' => $this->sendReport->map(static fn (SendReport $report): array => [
-=======
-                    ->filter(static fn(SendReport $report): bool => $report->messageWasSentToUnknownToken())
-                    ->map(static fn(SendReport $report): array => [
-                        'type' => $report->target()->type(),
-                        'value' => $report->target()->value(),
-                    ]),
-                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
->>>>>>> f5f1cb1 (.)
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),

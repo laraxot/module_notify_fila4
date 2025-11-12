@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
-<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> f5f1cb1 (.)
@@ -50,10 +49,13 @@ use Override;
 >>>>>>> 92ecc28 (.)
 =======
 use Override;
+<<<<<<< HEAD
 =======
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {

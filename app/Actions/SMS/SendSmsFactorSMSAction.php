@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> f5f1cb1 (.)
@@ -25,6 +24,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> b94a5f6 (.)
 use Override;
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
 use Spatie\QueueableAction\QueueableAction;
@@ -48,6 +48,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     /** @var string|null */
     protected null|string $defaultSender = null;
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 23161eb (.)
 
 >>>>>>> 82c6772 (.)
     /**
@@ -57,11 +59,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     {
         $this->smsFactorData = SmsFactorData::make();
 
-<<<<<<< HEAD
         if (! $this->smsFactorData->token) {
-=======
-        if (!$this->smsFactorData->token) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Token SMSFactor non configurato in sms.php');
         }
 

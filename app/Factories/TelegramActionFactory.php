@@ -33,11 +33,7 @@ final class TelegramActionFactory
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
-<<<<<<< HEAD
     public function create(?string $driver = null): TelegramProviderActionInterface
-=======
-    public function create(null|string $driver = null): TelegramProviderActionInterface
->>>>>>> f5f1cb1 (.)
     {
         $driver ??= Config::get('telegram.default', 'official');
 
@@ -61,7 +57,6 @@ final class TelegramActionFactory
             throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
         }
 
-<<<<<<< HEAD
         $instance = app($className);
 
         if (! $instance instanceof TelegramProviderActionInterface) {
@@ -70,8 +65,5 @@ final class TelegramActionFactory
 
         /** @var TelegramProviderActionInterface $instance */
         return $instance;
-=======
-        return app($className);
->>>>>>> f5f1cb1 (.)
     }
 }

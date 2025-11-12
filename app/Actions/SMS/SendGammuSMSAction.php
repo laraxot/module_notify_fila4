@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> f5f1cb1 (.)
@@ -47,10 +46,6 @@ final class SendGammuSMSAction implements SmsActionContract
 
 <<<<<<< HEAD
     protected ?string $defaultSender = null;
-=======
-    /** @var string|null */
-    protected null|string $defaultSender = null;
->>>>>>> f5f1cb1 (.)
 
     /**
      * Create a new action instance.
@@ -59,11 +54,7 @@ final class SendGammuSMSAction implements SmsActionContract
     {
         $this->gammuData = GammuData::make();
 
-<<<<<<< HEAD
         if (! $this->gammuData->path) {
-=======
-        if (!$this->gammuData->path) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Path Gammu non configurato in sms.php');
         }
 

@@ -8,7 +8,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Notifications;
 
-<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> f5f1cb1 (.)
@@ -45,9 +44,6 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      *
 <<<<<<< HEAD
      * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
-=======
-     * @param object $_notifiable The entity to be notified (l'entità da notificare)
->>>>>>> f5f1cb1 (.)
      * @return array<int, class-string>
      */
     public function via(object $_notifiable): array
@@ -112,6 +108,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
     #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 =======
     #[Override]
@@ -123,10 +120,9 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 <<<<<<< HEAD
 >>>>>>> b94a5f6 (.)
-    public function toArray(?object $notifiable): array
 =======
-    public function toArray(null|object $notifiable): array
->>>>>>> f5f1cb1 (.)
+>>>>>>> 23161eb (.)
+    public function toArray(?object $notifiable): array
     {
         // return $this->data->toArray();
         return [];

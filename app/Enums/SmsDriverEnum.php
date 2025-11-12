@@ -29,38 +29,22 @@ enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 
     public function getLabel(): string
     {
-<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
-=======
-        return $this->transClass(self::class, $this->value . '.label');
->>>>>>> f5f1cb1 (.)
     }
 
     public function getColor(): string
     {
-<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.color');
-=======
-        return $this->transClass(self::class, $this->value . '.color');
->>>>>>> f5f1cb1 (.)
     }
 
     public function getIcon(): string
     {
-<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.icon');
-=======
-        return $this->transClass(self::class, $this->value . '.icon');
->>>>>>> f5f1cb1 (.)
     }
 
     public function getDescription(): string
     {
-<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.description');
-=======
-        return $this->transClass(self::class, $this->value . '.description');
->>>>>>> f5f1cb1 (.)
     }
 
     /**

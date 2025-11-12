@@ -23,19 +23,11 @@ class SendNotificationAction
     /**
      * Invia una notifica utilizzando un template.
      *
-<<<<<<< HEAD
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
-=======
-     * @param Model $recipient Il destinatario della notifica
-     * @param string $templateCode Il codice del template da utilizzare
-     * @param array $data I dati per compilare il template
-     * @param array $channels I canali da utilizzare (opzionale, usa quelli del template se non specificati)
-     * @param array $options Opzioni aggiuntive per l'invio
->>>>>>> f5f1cb1 (.)
      *
      * @throws Exception Se il template non esiste o non è attivo
      */
@@ -95,11 +87,7 @@ class SendNotificationAction
             $stringChannel = is_string($channel) ? $channel : (string) $channel;
 >>>>>>> 6ba141fc (.)
             try {
-<<<<<<< HEAD
                 $this->sendViaChannel($recipient, $stringChannel, $compiled, $options);
-=======
-                $this->sendViaChannel($recipient, $channel, $compiled, $options);
->>>>>>> f5f1cb1 (.)
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
                 Log::error("Errore invio notifica via {$stringChannel}: ".$e->getMessage());
@@ -142,20 +130,12 @@ class SendNotificationAction
      */
     protected function sendMail(Model $recipient, array $compiled, array $options): void
     {
-<<<<<<< HEAD
         if (! method_exists($recipient, 'routeNotificationForMail')) {
-=======
-        if (!method_exists($recipient, 'routeNotificationForMail')) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
         $email = $recipient->routeNotificationForMail();
-<<<<<<< HEAD
         if (! $email) {
-=======
-        if (!$email) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Email destinatario non disponibile');
         }
 
@@ -175,13 +155,7 @@ class SendNotificationAction
                 $subject,
                 $body,
                 ['mail'],
-<<<<<<< HEAD
                 $mergedOptions,
-=======
-                array_merge($options, [
-                    'text_view' => $compiled['body_text'],
-                ]),
->>>>>>> f5f1cb1 (.)
             ));
         } else {
             // Fallback per modelli che non implementano Notifiable
@@ -199,13 +173,7 @@ class SendNotificationAction
                 $subject,
                 $body,
                 ['mail'],
-<<<<<<< HEAD
                 $mergedOptions,
-=======
-                array_merge($options, [
-                    'text_view' => $compiled['body_text'],
-                ]),
->>>>>>> f5f1cb1 (.)
             ));
         }
     }
@@ -239,20 +207,12 @@ class SendNotificationAction
      */
     protected function sendSms(Model $recipient, array $compiled, array $options): void
     {
-<<<<<<< HEAD
         if (! method_exists($recipient, 'routeNotificationForSms')) {
-=======
-        if (!method_exists($recipient, 'routeNotificationForSms')) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
         $phone = $recipient->routeNotificationForSms();
-<<<<<<< HEAD
         if (! $phone) {
-=======
-        if (!$phone) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Numero di telefono destinatario non disponibile');
         }
 
@@ -266,7 +226,6 @@ class SendNotificationAction
             $bodyText = mb_substr($bodyText, 0, 317).'...';
         }
 
-<<<<<<< HEAD
         $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
 
         Notification::send($recipient, new GenericNotification(
@@ -275,8 +234,5 @@ class SendNotificationAction
             ['sms'],
             $options
         ));
-=======
-        Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
->>>>>>> f5f1cb1 (.)
     }
 }

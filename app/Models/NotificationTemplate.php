@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
 =======
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
@@ -16,6 +15,7 @@ use Illuminate\Support\Facades\Blade;
 <<<<<<< HEAD
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
 use Modules\Notify\Enums\NotificationTypeEnum;
@@ -114,6 +114,8 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
  * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
@@ -308,11 +310,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param  string|null  $template  The template to compile
      * @param  array<string, mixed>  $data  The data to compile with
      */
-<<<<<<< HEAD
     protected function compileString(?string $template, array $data): ?string
-=======
-    protected function compileString(null|string $template, array $data): null|string
->>>>>>> f5f1cb1 (.)
     {
         if (! $template) {
             return null;
@@ -345,11 +343,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include active templates.
      *
-<<<<<<< HEAD
      * @param  Builder  $query
-=======
-     * @param Builder $query
->>>>>>> f5f1cb1 (.)
      * @return Builder
      */
     public function scopeActive($query)
@@ -360,12 +354,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include templates for a specific channel.
      *
-<<<<<<< HEAD
      * @param  Builder  $query
-=======
-     * @param Builder $query
-     * @param string $channel
->>>>>>> f5f1cb1 (.)
      * @return Builder
      */
     public function scopeForChannel($query, string $channel)
@@ -376,12 +365,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include templates for a specific category.
      *
-<<<<<<< HEAD
      * @param  Builder  $query
-=======
-     * @param Builder $query
-     * @param string $category
->>>>>>> f5f1cb1 (.)
      * @return Builder
      */
     public function scopeForCategory($query, string $category)

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> f5f1cb1 (.)
@@ -23,6 +22,7 @@ use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -73,6 +73,8 @@ final class SendNexmoSMSAction implements SmsActionContract
     /** @var string|null */
     protected null|string $defaultSender = null;
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 23161eb (.)
 
 >>>>>>> 82c6772 (.)
     /**
@@ -82,11 +84,7 @@ final class SendNexmoSMSAction implements SmsActionContract
     {
         $this->nexmoData = NexmoData::make();
 
-<<<<<<< HEAD
         if (! $this->nexmoData->key) {
-=======
-        if (!$this->nexmoData->key) {
->>>>>>> f5f1cb1 (.)
             throw new Exception('Key Nexmo non configurata in sms.php');
         }
 

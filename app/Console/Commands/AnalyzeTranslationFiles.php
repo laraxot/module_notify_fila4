@@ -237,17 +237,11 @@ class AnalyzeTranslationFiles extends Command
         foreach ($allFiles as $file => $keys) {
             $navigationKeys = [];
 
-<<<<<<< HEAD
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
                     if (str_starts_with((string) $key, 'navigation.')) {
                         $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                     }
-=======
-            foreach (array_keys($keys) as $key) {
-                if (str_starts_with((string) $key, 'navigation.')) {
-                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
->>>>>>> f5f1cb1 (.)
                 }
             }
 

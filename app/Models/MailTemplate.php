@@ -4,12 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
-=======
-//use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
-use Exception;
->>>>>>> f5f1cb1 (.)
 use Carbon\Carbon;
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
@@ -26,10 +21,13 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 92ecc28 (.)
 =======
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
  * @property int                                  $id
  * @property string                               $mailable
  * @property string|null                          $subject
@@ -101,26 +99,6 @@ use Spatie\Translatable\HasTranslations;
  * @property mixed                                $translations
 >>>>>>> 92ecc28 (.)
  *
-=======
- * @property int $id
- * @property string $mailable
- * @property string|null $subject
- * @property string $html_template
- * @property string|null $text_template
- * @property int $version
- * @property Carbon $created_at
- * @property Carbon $updated_at
- * @property Carbon|null $deleted_at
- * @property-read Collection<int, MailTemplateVersion> $versions
- * @property-read Collection<int, MailTemplateLog> $logs
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property string|null $deleted_by
- * @property string $name
- * @property string $slug
- * @property-read array $variables
- * @property-read mixed $translations
->>>>>>> f5f1cb1 (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -210,18 +188,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder
     {
-<<<<<<< HEAD
         if (! method_exists($mailable, 'getSlug')) {
             throw new \Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
         }
         $slug = $mailable->getSlug();
 
-=======
-        if (!method_exists($mailable, 'getSlug')) {
-            throw new Exception('Il metodo getSlug() non è definito nella classe ' . $mailable::class);
-        }
-        $slug = $mailable->getSlug();
->>>>>>> f5f1cb1 (.)
         return $query->where('mailable', get_class($mailable))->where('slug', $slug);
     }
 

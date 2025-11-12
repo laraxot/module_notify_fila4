@@ -39,27 +39,17 @@ trait HasTenantNotifications
     /**
      * Scope per filtrare le notifiche per tenant.
      */
-<<<<<<< HEAD
     public function scopeForTenant(Builder $query, ?string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
 
-=======
-    public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
-    {
-        $tenantId ??= $this->getTenantId();
->>>>>>> f5f1cb1 (.)
         return $query->where('tenant_id', $tenantId);
     }
 
     /**
      * Ottiene l'ID del tenant corrente.
      */
-<<<<<<< HEAD
     protected function getTenantId(): ?string
-=======
-    protected function getTenantId(): null|string
->>>>>>> f5f1cb1 (.)
     {
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);

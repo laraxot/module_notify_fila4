@@ -49,7 +49,6 @@ enum MediaTypeEnum: string
 
     /**
      * Verifica se un tipo di media è supportato
-<<<<<<< HEAD
 =======
      *
 >>>>>>> f5f1cb1 (.)
@@ -62,9 +61,6 @@ enum MediaTypeEnum: string
     /**
      * Restituisce il tipo di media predefinito
 <<<<<<< HEAD
-=======
-     *
->>>>>>> f5f1cb1 (.)
      */
     public static function getDefault(): self
     {
