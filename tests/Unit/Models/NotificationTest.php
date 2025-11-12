@@ -11,6 +11,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 
+use function Safe\json_encode;
+
 class NotificationTest extends TestCase
 {
     use RefreshDatabase;

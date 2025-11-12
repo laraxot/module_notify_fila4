@@ -13,6 +13,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
+<<<<<<< HEAD
 =======
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -28,6 +29,8 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> c64cc83 (.)
 use Filament\Notifications\Notification as FilamentNotification;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -41,11 +44,14 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Override;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
  * 
  */
 >>>>>>> da89aab (.)
+=======
+>>>>>>> c64cc83 (.)
 class SendFirebasePushNotificationPage extends XotBasePage
 {
     public ?array $pushData = [];
