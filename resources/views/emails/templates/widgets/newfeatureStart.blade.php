@@ -4,9 +4,12 @@ declare(strict_types=1);
 
 ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 518c702 (.)
+=======
+>>>>>>> 3b617e5 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)

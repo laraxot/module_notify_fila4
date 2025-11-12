@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 ?>
->>>>>>> 518c702 (.)
 </div>
 					</td>
 				</tr>
