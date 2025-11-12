@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34,11 +35,14 @@
 =======
 =======
 >>>>>>> f47ea0f (.)
+=======
+>>>>>>> 7f7061a (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +81,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> f47ea0f (.)
+=======
+>>>>>>> 7f7061a (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 518c702 (.)
