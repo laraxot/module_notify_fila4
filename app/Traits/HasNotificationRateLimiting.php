@@ -127,20 +127,4 @@ trait HasNotificationRateLimiting
     {
         return "notify:{$type}:{$identifier}";
     }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-} 
->>>>>>> a12f125f4a (.)
-=======
-}
->>>>>>> b93ef594b4 (.)
-=======
-} 
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
