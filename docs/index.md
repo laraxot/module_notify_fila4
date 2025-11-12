@@ -36,7 +36,10 @@ Questo indice raccoglie tutti i riferimenti utili per il modulo **Notify**.
 - [Testing Strategy](./testing/README.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f813254 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -135,7 +138,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 
 ## ✅ Convenzioni Laraxot
 - [Module Conventions](../../Xot/docs/conventions.md)
@@ -156,6 +164,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -169,6 +178,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 6ba141fc (.)
 =======
 =======
+=======
+>>>>>>> f813254 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -181,5 +192,20 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
+<<<<<<< HEAD
 >>>>>>> 9ed014c (.)
+=======
+=======
+=======
+Ultimo aggiornamento: 14 Maggio 2025
+
+## Risoluzione conflitti e standard
+- Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
+- Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)

@@ -1,7 +1,29 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 return [
     'fields' => [
         'type' => [
@@ -67,4 +89,12 @@ return [
             'color' => 'danger',
         ],
     ],
+<<<<<<< HEAD
 ];
+=======
+<<<<<<< HEAD
+];
+=======
+]; 
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)

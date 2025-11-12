@@ -42,11 +42,43 @@ trait HasNotificationTracking
             '/<a\s+(?:[^>]*?\s+)?href=(["\'])(.*?)\1/i',
             function ($matches) use ($trackingId) {
                 $url = $matches[2];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
+<<<<<<< HEAD
                         ! Str::startsWith($url, ['http://', 'https://'])
+=======
+                        !Str::startsWith($url, ['http://', 'https://'])
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
+                        !Str::startsWith($url, ['http://', 'https://'])
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
                 ) {
                     return $matches[0];
                 }
@@ -58,7 +90,23 @@ trait HasNotificationTracking
 
                 return str_replace($url, $trackingUrl, $matches[0]);
             },
+<<<<<<< HEAD
             $html,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $html,
+=======
+            $html
+>>>>>>> a12f125f4a (.)
+=======
+            $html,
+>>>>>>> b93ef594b4 (.)
+=======
+            $html
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         );
     }
 
@@ -107,4 +155,20 @@ trait HasNotificationTracking
     {
         return $this->isTrackingEnabled() && config('notify.tracking.links.enabled', false);
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+} 
+>>>>>>> a12f125f4a (.)
+=======
+}
+>>>>>>> b93ef594b4 (.)
+=======
+} 
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)

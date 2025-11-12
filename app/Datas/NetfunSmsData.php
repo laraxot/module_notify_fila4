@@ -1,7 +1,29 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -12,7 +34,32 @@ class NetfunSmsData extends Data
         public string $recipient,
         public string $message,
         public string $sender,
+<<<<<<< HEAD
         public ?string $reference = null,
         public ?string $scheduledDate = null,
+=======
+<<<<<<< HEAD
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+=======
+        public ?string $reference = null,
+        public ?string $scheduledDate = null,
+>>>>>>> a12f125f4a (.)
+=======
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> b93ef594b4 (.)
+=======
+        public ?string $reference = null,
+        public ?string $scheduledDate = null,
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
     ) {}
 }

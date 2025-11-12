@@ -1,9 +1,30 @@
+<<<<<<< HEAD
 class="block">
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 <div class="block">
 >>>>>>> 518c702 (.)
 	<!-- start textbox-with-title -->
@@ -21,5 +42,24 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 								<tbody>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+								<tbody>
+=======
+								<tbody>
+>>>>>>> a12f125f4a (.)
+=======
+								<tbody>
+>>>>>>> b93ef594b4 (.)
+=======
+								<tbody>
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
