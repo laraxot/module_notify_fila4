@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -131,11 +132,15 @@
 >>>>>>> 2ceb139 (.)
 =======
 >>>>>>> 1c9a755 (.)
+=======
+>>>>>>> fa2f466 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +160,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,3 +377,9 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 1c9a755 (.)
+=======
+					<div class="article-content" align="left">
+=======
+					<div class="article-content" align="left">
+>>>>>>> b19cd40 (.)
+>>>>>>> fa2f466 (.)
