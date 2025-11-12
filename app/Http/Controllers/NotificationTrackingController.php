@@ -1,10 +1,25 @@
 <?php
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> b8140d8 (.)
+>>>>>>> f6b0523 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use function Safe\base64_decode;
+
+>>>>>>> f6b0523 (.)
 use Illuminate\Http\RedirectResponse;
+=======
+>>>>>>> b8140d8 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -36,8 +51,21 @@ class NotificationTrackingController extends Controller
 
     /**
      * Traccia il click su un link in una notifica.
+<<<<<<< HEAD
+=======
+     *
+     * @param Request $request
+     * @param string $id
+<<<<<<< HEAD
+     * @return RedirectResponse
+>>>>>>> f6b0523 (.)
      */
     public function trackClick(Request $request, string $id): RedirectResponse
+=======
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
+>>>>>>> b8140d8 (.)
     {
         $log = NotificationLog::query()->find($id);
         $url = $request->get('url', '');

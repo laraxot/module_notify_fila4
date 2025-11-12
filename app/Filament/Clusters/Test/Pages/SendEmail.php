@@ -4,6 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Schema;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b8140d8 (.)
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+>>>>>>> f6b0523 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -19,10 +30,23 @@ use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
+<<<<<<< HEAD
+=======
+/**
+<<<<<<< HEAD
+ * 
+ */
+>>>>>>> f6b0523 (.)
 class SendEmail extends Page implements HasForms
 {
     public array $data = [];
 
+=======
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendEmail extends Page implements HasForms
+{
+>>>>>>> b8140d8 (.)
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
@@ -40,9 +64,34 @@ class SendEmail extends Page implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
     public function sendEmail(): void
     {
         $data = $this->data;
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema
+            ->components([
+                Section::make()
+                    // ->description('Update your account\'s profile information and email address.')
+                    ->schema([
+                        TextInput::make('to')
+                            // ->unique(ignoreRecord: true)
+                            ->email()
+                            ->required(),
+                        TextInput::make('subject')->required(),
+                        RichEditor::make('body_html')->required(),
+                    ]),
+            ])
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+
+    public function sendEmail(): void
+    {
+        $data = $this->emailForm->getState();
+>>>>>>> b8140d8 (.)
         $email_data = EmailData::from($data);
         // $from_address = config('mail.from.address');
 
@@ -87,6 +136,10 @@ class SendEmail extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
+<<<<<<< HEAD
         // Form data filled;
+=======
+        $this->emailForm->fill();
+>>>>>>> b8140d8 (.)
     }
 }

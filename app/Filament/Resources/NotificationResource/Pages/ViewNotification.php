@@ -4,6 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+use Filament\Schemas\Components\Section;
+>>>>>>> b8140d8 (.)
+>>>>>>> f6b0523 (.)
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;

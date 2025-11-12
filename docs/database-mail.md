@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6b0523 (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -183,7 +186,11 @@ class EmailTemplateResource extends Resource
 {
     protected static ?string $model = EmailTemplate::class;
 
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> f6b0523 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -378,6 +385,10 @@ class ProcessDoctorModerationAction
 
 ```html
 <x-mail::message>
+<<<<<<< HEAD
+=======
+
+>>>>>>> f6b0523 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -436,5 +447,8 @@ Cordiali saluti,<br>
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> f6b0523 (.)

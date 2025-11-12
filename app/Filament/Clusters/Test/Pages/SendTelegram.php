@@ -9,6 +9,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Schema;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b8140d8 (.)
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+>>>>>>> f6b0523 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -25,10 +36,23 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
+=======
+/**
+<<<<<<< HEAD
+ * 
+ */
+>>>>>>> f6b0523 (.)
 class SendTelegram extends Page implements HasForms
 {
     public array $data = [];
 
+=======
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendTelegram extends Page implements HasForms
+{
+>>>>>>> b8140d8 (.)
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
@@ -46,9 +70,37 @@ class SendTelegram extends Page implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
     public function sendEmail(): void
     {
         $data = $this->data;
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+        /*
+         * dddx($response = Telegram::getMe());
+         * $response = $telegram->sendMessage([
+         * 'chat_id' => 'CHAT_ID',
+         * 'text' => 'Hello World',
+         * ]);
+         */
+        return $schema
+            ->components([
+                Section::make()
+                    // ->description('Update your account\'s profile information and email address.')
+                    ->schema([
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+                    ]),
+            ])
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+
+    public function sendEmail(): void
+    {
+        $data = $this->emailForm->getState();
+>>>>>>> b8140d8 (.)
         Assert::string($token = config('services.telegram-bot-api.token'));
         $url = 'https://api.telegram.org/bot'.$token.'/getMe';
         Http::get($url);
@@ -90,6 +142,10 @@ class SendTelegram extends Page implements HasForms
     {
         return [
             Action::make('emailFormActions')
+<<<<<<< HEAD
+=======
+                
+>>>>>>> b8140d8 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -112,6 +168,10 @@ class SendTelegram extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
+<<<<<<< HEAD
         // Form data filled;
+=======
+        $this->emailForm->fill();
+>>>>>>> b8140d8 (.)
     }
 }
