@@ -118,14 +118,11 @@ class NotificationLog extends BaseModel
 
     public function template(): BelongsTo
     {
-        // Prova prima con MailTemplate
+        // Prima cerca il MailTemplate, altrimenti NotificationTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
-        if ($mailTemplate) {
-            return $this->belongsTo(MailTemplate::class, 'template_id');
-        }
-
-        // Se non trova MailTemplate, prova con NotificationTemplate
-        return $this->belongsTo(NotificationTemplate::class, 'template_id');
+        return $mailTemplate
+            ? $this->belongsTo(MailTemplate::class, 'template_id')
+            : $this->belongsTo(NotificationTemplate::class, 'template_id');
     }
 
     public function scopeWithStatus($query, string $status)
