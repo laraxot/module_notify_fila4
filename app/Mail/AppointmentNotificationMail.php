@@ -5,13 +5,22 @@ declare(strict_types=1);
 namespace Modules\Notify\Mail;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 2fdda20 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
+=======
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+>>>>>>> bf479cc (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -43,7 +52,14 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
+<<<<<<< HEAD
     use Queueable, SerializesModels;
+=======
+<<<<<<< HEAD
+=======
+    use Queueable, SerializesModels;
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
 
     /**
      * Dati della notifica dell'appuntamento.
@@ -55,7 +71,22 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $notificationData
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $notificationData
+=======
+     * @param array<string, mixed> $notificationData
+>>>>>>> e39a6f9 (.)
+=======
+     * @param array<string, mixed> $notificationData
+=======
+     * @param  array<string, mixed>  $notificationData
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
+>>>>>>> 31bdf6b (.)
      */
     public function __construct(array $notificationData)
     {
@@ -104,7 +135,11 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         
 >>>>>>> 9ed014c (.)
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+<<<<<<< HEAD
             $subject .= ' #' . $appointment->id;
+=======
+            $subject .= ' #'.$appointment->id;
+>>>>>>> bf479cc (.)
         }
         
 <<<<<<< HEAD

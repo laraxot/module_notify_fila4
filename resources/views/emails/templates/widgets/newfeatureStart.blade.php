@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9,6 +10,8 @@
 >>>>>>> d284d65 (.)
 =======
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 31bdf6b (.)
 <?php
 
 declare(strict_types=1);
@@ -18,6 +21,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31bdf6b (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 518c702 (.)
