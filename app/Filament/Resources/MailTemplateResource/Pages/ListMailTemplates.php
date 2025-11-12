@@ -4,19 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
-use Override;
->>>>>>> f813254 (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -49,11 +40,15 @@ use Filament\Tables\Table;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+=======
+use Override;
+>>>>>>> 92ecc28 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
     protected static string $resource = MailTemplateResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[\Override]
@@ -65,6 +60,8 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> 92ecc28 (.)
     #[Override]
 >>>>>>> 6ba141fc (.)
     public function getTableColumns(): array
@@ -76,57 +73,4 @@ class ListMailTemplates extends LangBaseListRecords
             TextColumn::make('counter')->searchable()->sortable(),
         ];
     }
-<<<<<<< HEAD
-=======
-=======
-    
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-    public function getTableColumns(): array
-    {
-        return [
-            TextColumn::make('slug')->searchable()->sortable(),
-            TextColumn::make('mailable')->searchable()->sortable(),
-            TextColumn::make('subject')->searchable()->sortable(),
-            TextColumn::make('counter')->searchable()->sortable(),
-        ];
-    }
-<<<<<<< HEAD
-
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-    
-    public function getTableColumns(): array
-    {
-        return [
-            Tables\Columns\TextColumn::make('slug')
-                ->searchable()
-                ->sortable()
-                ,
-
-            Tables\Columns\TextColumn::make('mailable')
-                ->searchable()
-                ->sortable()
-                ,
-
-            Tables\Columns\TextColumn::make('subject')
-                ->searchable()
-                ->sortable()
-                ,
-
-            Tables\Columns\TextColumn::make('counter')
-                ->searchable()
-                ->sortable()
-                ,
-            
-        ];
-    }
-
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 }

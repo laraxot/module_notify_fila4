@@ -13,55 +13,15 @@ class EmailData extends Data
 {
     public string $to;
 
-<<<<<<< HEAD
     public null|string $from = null;
 
     public null|string $from_email = null;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public null|string $from = null;
-
-    public null|string $from_email = null;
-=======
-    public ?string $from = null;
-
-    public ?string $from_email = null;
->>>>>>> a12f125f4a (.)
-=======
-    public null|string $from = null;
-
-    public null|string $from_email = null;
->>>>>>> b93ef594b4 (.)
-=======
-    public ?string $from = null;
-
-    public ?string $from_email = null;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     public string $subject;
 
     public string $body_html;
 
-<<<<<<< HEAD
     public string $body = '';
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public string $body = '';
-=======
-    public string $body='';
->>>>>>> a12f125f4a (.)
-=======
-    public string $body = '';
->>>>>>> b93ef594b4 (.)
-=======
-    public string $body='';
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     public array $attachments = [];
 
@@ -70,12 +30,6 @@ class EmailData extends Data
         string $subject,
         string $body_html,
         array $attachments = [],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
         null|string $from = null,
         null|string $from_email = null,
         null|string $body = null,
@@ -87,77 +41,15 @@ class EmailData extends Data
         }
         $this->from = $from;
         if (!is_string($from_email)) {
-<<<<<<< HEAD
-=======
-=======
-        ?string $from = null,
-        ?string $from_email = null,
-        ?string $body = null
-=======
-        null|string $from = null,
-        null|string $from_email = null,
-        null|string $body = null,
->>>>>>> b93ef594b4 (.)
-    ) {
-        Assert::email($to, 'Invalid "to" email format');
-        $this->to = $to;
-        if (!is_string($from)) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-        }
-        $this->from = $from;
-<<<<<<< HEAD
-        if (! is_string($from_email)) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!is_string($from_email)) {
->>>>>>> b93ef594b4 (.)
-=======
-        ?string $from = null,
-        ?string $from_email = null,
-        ?string $body = null
-    ) {
-        Assert::email($to, 'Invalid "to" email format');
-        $this->to = $to;
-        if (! is_string($from)) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-        }
-        $this->from = $from;
-        if (! is_string($from_email)) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
         }
         $this->from_email = $from_email;
 
         Assert::email($this->from_email, 'Invalid "from" email format');
 
-<<<<<<< HEAD
         $this->subject = strip_tags($subject); // Sanitize the subject
         $this->body_html = $body_html;
         $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->subject = strip_tags($subject); // Sanitize the subject
-        $this->body_html = $body_html;
-        $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
-=======
-        $this->subject = strip_tags($subject);  // Sanitize the subject
-        $this->body_html = $body_html;
-        $this->body = $body ?? strip_tags($body_html);  // Default to plain-text version of HTML body
->>>>>>> a12f125f4a (.)
-=======
-        $this->subject = strip_tags($subject); // Sanitize the subject
-        $this->body_html = $body_html;
-        $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
->>>>>>> b93ef594b4 (.)
-=======
-        $this->subject = strip_tags($subject);  // Sanitize the subject
-        $this->body_html = $body_html;
-        $this->body = $body ?? strip_tags($body_html);  // Default to plain-text version of HTML body
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->attachments = $attachments;
     }
 
@@ -177,6 +69,7 @@ class EmailData extends Data
 
     public function getMimeEmail(): MimeEmail
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -211,42 +104,29 @@ class EmailData extends Data
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
+=======
+>>>>>>> 92ecc28 (.)
         if ($this->body === '') {
             $this->body = strip_tags($this->body_html);
         }
 
         $email = new MimeEmail()
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> 92ecc28 (.)
             ->from($this->getFrom())
             ->to($this->to)
             ->subject(strip_tags($this->subject))
->>>>>>> 518c702 (.)
->>>>>>> 7bac387 (.)
             ->html($this->body_html)
             ->text($this->body);
 
         foreach ($this->attachments as $attachment) {
-<<<<<<< HEAD
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
-=======
-            Assert::string($attachment);
->>>>>>> a12f125f4a (.)
-=======
-            Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> b93ef594b4 (.)
-=======
-            Assert::string($attachment);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             $email->attachFromPath($attachment); // string $path, ?string $name = null, ?string $contentType = null
         }
 

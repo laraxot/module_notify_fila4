@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Providers\Filament;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -29,11 +30,14 @@ use Override;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> 92ecc28 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> 6ba141fc (.)
 use Filament\Panel;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -48,11 +52,15 @@ use Filament\SpatieLaravelTranslatablePlugin;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+=======
+use Override;
+>>>>>>> 92ecc28 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[\Override]
 =======
@@ -62,6 +70,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> 92ecc28 (.)
     #[Override]
 >>>>>>> 82c6772 (.)
     public function panel(Panel $panel): Panel
@@ -89,56 +99,3 @@ class AdminPanelProvider extends XotBasePanelProvider
         return $panel;
     }
 }
-<<<<<<< HEAD
-=======
-=======
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-    public function panel(Panel $panel): Panel
-    {
-        // Temporaneamente commentato per compatibilità Filament 4.x
-        // $panel->plugins([
-        //     SpatieTranslatablePlugin::make(),
-        // ]);
-        if (!XotData::make()->disable_database_notifications) {
-            DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
-            // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
-            DatabaseNotifications::pollingInterval('60s');
-            FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
-                '@livewire(\'database-notifications\')',
-            ));
-        }
-
-        return parent::panel($panel);
-    }
-}
-<<<<<<< HEAD
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-    public function panel(Panel $panel): Panel
-    { 
-        $panel->plugins([
-            SpatieLaravelTranslatablePlugin::make(),
-        ]);
-        if (! XotData::make()->disable_database_notifications) {
-            DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
-            // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
-            DatabaseNotifications::pollingInterval('60s');
-            FilamentView::registerRenderHook(
-                'panels::user-menu.before',
-                static fn (): string => Blade::render('@livewire(\'database-notifications\')'),
-            );
-        }
-
-       
-
-        return parent::panel($panel);
-    }
-}
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

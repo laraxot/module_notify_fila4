@@ -1,17 +1,8 @@
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 @extends('notify::emails.templates.ark')
 
 @section('content')
@@ -30,10 +21,3 @@ declare(strict_types=1);
 
 
 @stop
-=======
-@stop
->>>>>>> b93ef594b4 (.)
-=======
-@stop
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

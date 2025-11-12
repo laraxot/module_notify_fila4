@@ -4,43 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use Modules\User\Models\Profile;
-use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateLogFactory;
-use Illuminate\Database\Eloquent\Builder;
-=======
-=======
-use Modules\User\Models\Profile;
-use Illuminate\Database\Eloquent\Model;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
->>>>>>> a12f125f4a (.)
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use Modules\User\Models\Profile;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> b93ef594b4 (.)
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateLogFactory;
-use Illuminate\Database\Eloquent\Builder;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Media\Models\Media;
@@ -49,10 +14,6 @@ use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property-read Profile|null $creator
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
@@ -64,25 +25,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
-<<<<<<< HEAD
  *
-=======
-<<<<<<< HEAD
-=======
-=======
- * @property-read \Modules\User\Models\Profile|null $creator
- * @property-read \Illuminate\Database\Eloquent\Model|\Eloquent $mailable
- * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
- * @property-read int|null $media_count
- * @property-read \Modules\Notify\Models\MailTemplate|null $template
- * @property-read \Modules\User\Models\Profile|null $updater
- * @method static \Modules\Notify\Database\Factories\MailTemplateLogFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateLog newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateLog newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateLog query()
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
@@ -109,6 +52,7 @@ class MailTemplateLog extends BaseModel
      * @return array<string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -127,6 +71,9 @@ class MailTemplateLog extends BaseModel
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
     protected function casts(): array
     {
         return [

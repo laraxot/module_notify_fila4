@@ -1,17 +1,8 @@
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 <tr>
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
@@ -30,10 +21,3 @@ declare(strict_types=1);
 	</td>
 	<td class="w30" width="30"></td>
 </tr>
-=======
-</tr>
->>>>>>> b93ef594b4 (.)
-=======
-</tr>
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

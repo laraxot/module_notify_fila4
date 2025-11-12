@@ -1,17 +1,8 @@
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 <!DOCTYPE html>
 <html lang="en">
     <head>

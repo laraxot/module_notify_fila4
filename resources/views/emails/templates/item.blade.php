@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 <?php
 
 declare(strict_types=1);
@@ -13,6 +5,7 @@ declare(strict_types=1);
 ?>
 @include('notify::emails.templates.'.$theme.'.content-start')
 {!! $html !!}
+<<<<<<< HEAD
 <<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.content-end')
 =======
@@ -34,3 +27,6 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
+=======
+@include('notify::emails.templates.'.$theme.'.content-end')
+>>>>>>> 92ecc28 (.)

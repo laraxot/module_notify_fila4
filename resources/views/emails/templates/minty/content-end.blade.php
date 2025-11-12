@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,6 +22,8 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> 92ecc28 (.)
 </div>
 					</td>
 				</tr>
@@ -31,6 +34,7 @@ declare(strict_types=1);
 </tr>
 <tr>
 	<td colspan="3" height="30"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 </tr>
 =======
@@ -48,3 +52,6 @@ declare(strict_types=1);
 </tr>
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+=======
+</tr>
+>>>>>>> 92ecc28 (.)

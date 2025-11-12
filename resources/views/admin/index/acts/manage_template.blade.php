@@ -1,17 +1,8 @@
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
-=======
-<<<<<<< HEAD
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
     <a class="btn btn-primary">+</a>
@@ -24,10 +15,3 @@ declare(strict_types=1);
     @endforeach
     </table>
 @endsection
-=======
-@endsection
->>>>>>> b93ef594b4 (.)
-=======
-@endsection
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
