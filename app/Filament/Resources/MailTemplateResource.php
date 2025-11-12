@@ -6,6 +6,7 @@ namespace Modules\Notify\Filament\Resources;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -25,6 +26,8 @@ class MailTemplateResource extends LangBaseResource
 use Override;
 >>>>>>> 6bd5430 (.)
 >>>>>>> 9c8f04e (.)
+=======
+>>>>>>> 220b97c (.)
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\View;
 use Override;
@@ -62,16 +65,14 @@ class MailTemplateResource extends LangBaseResource
 =======
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 9c8f04e (.)
-            'name_group' => Group::make()
 =======
-            //'name' => Forms\Components\TextInput::make('name'),
-            //'slug' => Forms\Components\TextInput::make('slug'),
-            Group::make()
->>>>>>> 6bd5430 (.)
+>>>>>>> 220b97c (.)
+            'name_group' => Group::make()
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')

@@ -93,6 +93,7 @@ class SendPushNotificationPage extends XotBasePage
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * Callback per filtrare i dispositivi.
          */
@@ -141,22 +142,22 @@ class SendPushNotificationPage extends XotBasePage
         };
 >>>>>>> 6bd5430 (.)
 >>>>>>> 9c8f04e (.)
+=======
+>>>>>>> 220b97c (.)
 
         /**
          * Callback per filtrare i dispositivi.
          */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 9c8f04e (.)
-        Assert::isArray([]);
 =======
-        $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
-
-        Assert::isArray($to);
->>>>>>> 6bd5430 (.)
+>>>>>>> 220b97c (.)
+        Assert::isArray([]);
 
         return $schema
             ->components([
@@ -274,10 +275,6 @@ class SendPushNotificationPage extends XotBasePage
     {
         return [
             Action::make('notificationFormActions')
-<<<<<<< HEAD
-=======
-                
->>>>>>> 6bd5430 (.)
 
                 ->submit('notificationFormActions'),
         ];

@@ -6,6 +6,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
@@ -15,14 +16,11 @@ use Override;
 =======
 =======
 >>>>>>> 9c8f04e (.)
-use Filament\Schemas\Components\Section;
-use Filament\Schemas\Components\Component;
-use Override;
 =======
+>>>>>>> 220b97c (.)
+use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Component;
 use Override;
-use Filament\Schemas\Components\Section;
->>>>>>> 6bd5430 (.)
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
