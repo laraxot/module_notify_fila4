@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
     <a class="btn btn-primary">+</a>
@@ -14,4 +17,8 @@ declare(strict_types=1);
         </tr>
     @endforeach
     </table>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> b19cd40 (.)

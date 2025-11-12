@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 {{-- Visualizzazione parametri come badge --}}
 @if(!empty($params))
     <div class="space-y-2">
@@ -28,4 +31,8 @@ declare(strict_types=1);
             {{ __('notify::mail_template.fields.variables.helper_text') }}
         </div>
     </div>
+<<<<<<< HEAD
 @endif
+=======
+@endif 
+>>>>>>> b19cd40 (.)
