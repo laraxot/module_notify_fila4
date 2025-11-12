@@ -1,6 +1,7 @@
 <?php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 99ff506 (.)
@@ -9,12 +10,15 @@
 
 >>>>>>> c454ecf (.)
 >>>>>>> 1c89777 (.)
+=======
+>>>>>>> 1b51780 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use function Safe\base64_decode;
 
@@ -25,6 +29,10 @@ use function Safe\base64_decode;
 =======
 >>>>>>> c454ecf (.)
 >>>>>>> 1c89777 (.)
+=======
+use function Safe\base64_decode;
+
+>>>>>>> 1b51780 (.)
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
