@@ -77,6 +77,31 @@ class SendTelegram extends Page implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+        /*
+         * dddx($response = Telegram::getMe());
+         * $response = $telegram->sendMessage([
+         * 'chat_id' => 'CHAT_ID',
+         * 'text' => 'Hello World',
+         * ]);
+         */
+        return $schema
+            ->components([
+                Section::make()
+                    // ->description('Update your account\'s profile information and email address.')
+                    ->schema([
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+                    ]),
+            ])
+            ->model($this->getUser())
+            ->statePath('emailData');
+    }
+
+>>>>>>> 6bd5430 (.)
     public function sendEmail(): void
     {
         $data = $this->data;
@@ -125,6 +150,10 @@ class SendTelegram extends Page implements HasForms
     {
         return [
             Action::make('emailFormActions')
+<<<<<<< HEAD
+=======
+                
+>>>>>>> 6bd5430 (.)
 
                 ->submit('emailFormActions'),
         ];

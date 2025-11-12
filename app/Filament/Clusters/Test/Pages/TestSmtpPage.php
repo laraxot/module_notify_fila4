@@ -81,6 +81,54 @@ class TestSmtpPage extends XotBasePage implements HasForms
         $this->fillForms();
     }
 
+<<<<<<< HEAD
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+        Assert::isArray($mail_config = config('mail'));
+        $smtpConfig = Arr::get($mail_config, 'mailers.smtp');
+
+        $this->emailData['subject'] = 'test';
+        $defaultEmail = XotData::make()->super_admin;
+
+        return $schema->components([
+            Section::make('SMTP')
+                ->schema([
+                    TextInput::make('host'),
+                    // ->default($smtpConfig['host'])
+                    TextInput::make('port')->numeric(),
+                    // ->default($smtpConfig['port'])
+                    TextInput::make('username'),
+                    // ->default($smtpConfig['username'])
+                    TextInput::make('password'),
+                    // ->default($smtpConfig['password'])
+                    TextInput::make('encryption'),
+                    // ->default($smtpConfig['encryption'])
+                ])
+                ->columns(3),
+            Section::make('MAIL')
+                ->schema([
+                    TextInput::make('from_email')
+                        // ->default(config('mail.from.address', $defaultEmail))
+                        ->email()
+                        ->required(),
+                    TextInput::make('from'),
+                    // ->default(config('mail.from.name'))
+                    TextInput::make('to')
+                        // ->default($defaultEmail)
+                        ->email()
+                        ->required(),
+                    TextInput::make('subject')->default('test')->required(),
+                    RichEditor::make('body_html')
+                        ->default('test body')
+                        ->required()
+                        ->columnSpanFull(),
+                ])
+                ->columns(3),
+        ])->statePath('emailData');
+    }
+
+>>>>>>> 6bd5430 (.)
     public function sendEmail(): void
     {
         $data = $this->data;
@@ -110,6 +158,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
         ];
     }
 
+<<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
         /** @var Schema $result */
@@ -117,6 +166,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
         return $result;
     }
 
+=======
+>>>>>>> 6bd5430 (.)
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
@@ -148,6 +199,10 @@ class TestSmtpPage extends XotBasePage implements HasForms
             }
         }
 
+<<<<<<< HEAD
         $this->fill($typedConfig);
+=======
+        $this->emailForm->fill($typedConfig);
+>>>>>>> 6bd5430 (.)
     }
 }
