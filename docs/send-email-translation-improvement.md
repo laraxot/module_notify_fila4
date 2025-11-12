@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Miglioramento File Traduzione send_email.php
 
 ## 🔍 Analisi del Problema
@@ -310,3 +311,5 @@ php -l Modules/Notify/lang/it/send_email.php
 
 **Ultimo aggiornamento**: Gennaio 2025  
 **Autore**: Sistema di miglioramento automatico  
+=======
+>>>>>>> c13e9db (.)

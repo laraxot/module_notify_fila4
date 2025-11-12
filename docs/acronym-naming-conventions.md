@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per Acronimi 
 
 ## Regola Fondamentale
@@ -89,3 +90,5 @@ Per identificare i file che non rispettano questa convenzione, è possibile util
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
 - [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)
 - [PHP-FIG Naming Conventions](https://www.php-fig.org/bylaws/psr-naming-conventions/)
+=======
+>>>>>>> c13e9db (.)

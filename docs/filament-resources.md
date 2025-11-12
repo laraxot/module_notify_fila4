@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risorse Filament del Modulo Notify
 
 ### Versione HEAD
@@ -274,3 +275,5 @@ public static function getTableActions(): array
 
 ---
 
+=======
+>>>>>>> c13e9db (.)

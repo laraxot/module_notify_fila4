@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XotBaseMigration: Best Practices
 
 ## Introduzione
@@ -113,3 +114,5 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 
 ## Riferimenti
 
+=======
+>>>>>>> c13e9db (.)

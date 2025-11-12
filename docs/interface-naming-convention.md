@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzione di Naming per le Interfacce 
 
 ## Regola Fondamentale
@@ -56,3 +57,5 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 - [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/app/Contracts/)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
+=======
+>>>>>>> c13e9db (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Service Provider del Modulo Notify
 
 Il `NotifyServiceProvider` estende `XotBaseServiceProvider` e gestisce il bootstrap dei componenti del modulo e la registrazione dei binding.
@@ -42,3 +43,5 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 ```
 
 Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xotbaseserviceprovider.md`.
+=======
+>>>>>>> c13e9db (.)

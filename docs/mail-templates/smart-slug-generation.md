@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generazione Intelligente di Slug in Filament
 
 ## Introduzione
@@ -188,3 +189,5 @@ L'implementazione di una generazione intelligente di slug per i template email m
 - [Implementazione Modello con Slug](./MODEL_SLUG_IMPLEMENTATION.md)
 - [Componente TitleWithSlug](./TITLE_WITH_SLUG_COMPONENT.md)
 - [Miglioramenti UI/UX per Slug](./UI_UX_ENHANCEMENTS.md)
+=======
+>>>>>>> c13e9db (.)

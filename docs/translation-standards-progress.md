@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025
@@ -41,3 +42,5 @@
 
 ```
 ```
+=======
+>>>>>>> c13e9db (.)

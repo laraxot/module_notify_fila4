@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 
@@ -91,3 +92,5 @@ return [
 ## Implementazione
 
 L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify seguano gli standard definiti, migliorando la manutenibilità e la coerenza del codice.
+=======
+>>>>>>> c13e9db (.)

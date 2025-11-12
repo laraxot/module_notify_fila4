@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -58,3 +59,5 @@ Per verificare che tutti i path siano corretti:
 - [Struttura delle Cartelle in Laravel](https://laravel.com/docs/structure)
 - [Laravel Blade Templates](https://laravel.com/docs/blade)
 - [Laravel Modules](https://docs.laravelmodules.com/)
+=======
+>>>>>>> c13e9db (.)

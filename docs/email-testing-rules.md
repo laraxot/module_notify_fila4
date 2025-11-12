@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo
@@ -168,3 +169,5 @@ public function sendEmail(): void
 ### Zen
 - Semplificare dove possibile
 - Mantenere l'equilibrio tra funzionalità e complessità
+=======
+>>>>>>> c13e9db (.)

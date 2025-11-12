@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Principi Architetturali Fondamentali
 
@@ -541,3 +542,5 @@ Per sviluppo e test:
 2. Implementare mock per test unitari
 3. Utilizzare numeri di test autorizzati durante lo sviluppo
 4. Implementare logging dettagliato in ambiente di sviluppo
+=======
+>>>>>>> c13e9db (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Utilizzo di Enum e Config 
 
 
@@ -145,3 +146,5 @@ Per standardizzare l'approccio , si raccomanda di:
 
 ## Conclusione
 
+=======
+>>>>>>> c13e9db (.)

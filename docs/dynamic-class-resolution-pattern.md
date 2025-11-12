@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
 
@@ -183,3 +184,5 @@ La risoluzione dinamica delle classi offre vantaggi significativi in termini di 
 5. Considerare l'implementazione di un meccanismo di cache per migliorare le performance
 
 Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza e il controllo offerti dall'approccio match, offrendo il miglior compromesso tra flessibilità e robustezza.
+=======
+>>>>>>> c13e9db (.)

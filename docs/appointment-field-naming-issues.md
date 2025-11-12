@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Appointment Field Naming Issues
 
 ## Overview
@@ -31,3 +32,5 @@ The Appointment model currently exposes both field naming conventions:
 2. Canonical fields: `starts_at`, `ends_at`
 
 While both are present in the $fillable array, the canonical fields (`starts_at`, `ends_at`) should be preferred for all new code and when refactoring existing code.
+=======
+>>>>>>> c13e9db (.)

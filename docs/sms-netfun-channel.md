@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione Netfun SMS Channel in Laravel
 
 ## Introduzione
@@ -528,3 +529,5 @@ class NetfunSMSTest extends TestCase
 ```
 
 --- 
+=======
+>>>>>>> c13e9db (.)

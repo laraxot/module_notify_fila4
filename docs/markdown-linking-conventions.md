@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per i Collegamenti nei File Markdown
 
 ## Regola Fondamentale
@@ -51,3 +52,5 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 
 - [Convenzioni di Documentazione](../../../docs/documentation-conventions.md)
 - [Markdown Best Practices](../../../docs/markdown-best-practices.md)
+=======
+>>>>>>> c13e9db (.)

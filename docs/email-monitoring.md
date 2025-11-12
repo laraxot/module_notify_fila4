@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Monitoraggio Email 
 
 ## Panoramica
@@ -819,3 +820,5 @@ class MailMonitoringDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 - [Laravel Events](https://laravel.com/docs/events) 
+=======
+>>>>>>> c13e9db (.)

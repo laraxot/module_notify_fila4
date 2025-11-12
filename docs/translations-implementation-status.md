@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stato dell'Implementazione delle Traduzioni nel Modulo Notify
 
 ## Panoramica
@@ -122,3 +123,5 @@ Per garantire la coerenza futura, si raccomanda di:
 - [Chiarimento sulle Convenzioni di Traduzione](./TRANSLATION_CONVENTIONS_CLARIFICATION.md)
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
+>>>>>>> c13e9db (.)

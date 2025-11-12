@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione
@@ -157,3 +158,5 @@ Per verificare che tutte le classi seguano questa regola:
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.
+=======
+>>>>>>> c13e9db (.)

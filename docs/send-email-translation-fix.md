@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -155,3 +156,5 @@ Ogni campo ora ha la struttura espansa completa:
 ```
 
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> c13e9db (.)

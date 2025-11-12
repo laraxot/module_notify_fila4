@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Dettagliata del Modulo Notify
 
 ## 1. Analisi delle Soluzioni di Template Email
@@ -610,3 +611,5 @@ class TemplatePreview extends Component
 - [Unlayer Documentation](https://unlayer.com/)
 - [Mailersend Documentation](https://www.mailersend.com/)
 - [Mailjet Documentation](https://www.mailjet.com/) 
+=======
+>>>>>>> c13e9db (.)

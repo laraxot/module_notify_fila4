@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Dinamica delle Classi nei Factory Pattern
 
 Questo documento analizza l'approccio di risoluzione dinamica delle classi nei factory pattern, confrontandolo con l'approccio basato su match esplicito.
@@ -149,3 +150,5 @@ Per massimizzare i vantaggi della risoluzione dinamica:
 
 La risoluzione dinamica delle classi offre vantaggi significativi in termini di estensibilità, manutenibilità e coerenza del codice, con svantaggi minimi in termini di complessità e performance. È particolarmente adatta per sistemi che evolvono frequentemente con l'aggiunta di nuovi driver o implementazioni.
 
+=======
+>>>>>>> c13e9db (.)

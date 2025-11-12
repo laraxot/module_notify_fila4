@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Azioni SMS
 
 ## Interfaccia
@@ -70,3 +71,5 @@ $result = $action->execute($smsData);
    - Validare l'input degli utenti
    - Sanitizzare i messaggi
    - Proteggere le chiavi API
+=======
+>>>>>>> c13e9db (.)

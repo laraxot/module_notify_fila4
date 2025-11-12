@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UI/UX Enhancements per i Campi `name` e `slug` in MailTemplateResource
 
 ## Introduzione
@@ -233,3 +234,5 @@ I miglioramenti UI/UX proposti per i campi `name` e `slug` si concentrano su:
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms/fields/text-input)
 - [Implementazione Modello con Slug](./MODEL_SLUG_IMPLEMENTATION.md)
 - [Implementazione Risorsa con Slug](./RESOURCE_SLUG_IMPLEMENTATION.md)
+=======
+>>>>>>> c13e9db (.)

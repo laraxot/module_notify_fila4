@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -381,3 +382,5 @@ php artisan test --coverage --filter=MailTemplate
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
 - [Pest PHP](https://pestphp.com/docs) 
+=======
+>>>>>>> c13e9db (.)

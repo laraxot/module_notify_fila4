@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore
@@ -90,3 +91,5 @@ L'adozione coerente del pattern di estensione XotBase offre vantaggi significati
 
 ## Conclusione
 
+=======
+>>>>>>> c13e9db (.)

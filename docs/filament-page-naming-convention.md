@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale
@@ -59,3 +60,5 @@ Eseguire il seguente comando per trovare pagine non conformi:
 
 - [Filament Documentation](https://filamentphp.com/docs/3.x/panels/pages/getting-started)
 - [PSR-4 Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
+=======
+>>>>>>> c13e9db (.)

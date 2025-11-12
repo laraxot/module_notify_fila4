@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -197,3 +198,5 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+=======
+>>>>>>> c13e9db (.)

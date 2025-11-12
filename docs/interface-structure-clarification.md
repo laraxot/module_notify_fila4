@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chiarimento sulla Struttura delle Interfacce 
 
 ## Struttura Corretta per le Interfacce SMS
@@ -53,3 +54,5 @@ if (!($instance instanceof SmsActionContract)) {
     throw new Exception("Class {$className} does not implement SmsActionContract.");
 }
 ```
+=======
+>>>>>>> c13e9db (.)

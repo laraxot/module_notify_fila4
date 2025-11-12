@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Approfondita: Email Templates in Laravel per <nome progetto>
 
 ## 1. Panoramica Soluzioni Analizzate
@@ -185,3 +186,5 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 - Monitorare le performance
 - Implementare logging appropriato 
 >>>>>>> 7b1ccd1 (.)
+=======
+>>>>>>> c13e9db (.)

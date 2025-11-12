@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Canale WhatsApp
 
 ## 1. Struttura Base
@@ -340,3 +341,5 @@ class WhatsAppTest extends TestCase
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
 - [Laravel Cache](https://laravel.com/docs/cache) 
+=======
+>>>>>>> c13e9db (.)

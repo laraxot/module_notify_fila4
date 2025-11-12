@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura delle Pagine di Risorse Filament 
 
 ## Regola Fondamentale
@@ -113,3 +114,5 @@ Per verificare che tutte le pagine di risorse seguano questo pattern:
 
 - [Filament Resources Documentation](https://filamentphp.com/docs/3.x/panels/resources/getting-started)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
+=======
+>>>>>>> c13e9db (.)

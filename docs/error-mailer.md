@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Error Mailer System
 
 ## Panoramica
@@ -435,3 +436,5 @@ return [
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+=======
+>>>>>>> c13e9db (.)

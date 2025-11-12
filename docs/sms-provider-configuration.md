@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Configurazione Corretta dei Provider SMS 
 
 ## Regola Fondamentale
@@ -110,3 +111,5 @@ NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 TWILIO_ACCOUNT_SID=your_account_sid_here
 TWILIO_AUTH_TOKEN=your_auth_token_here
 ```
+=======
+>>>>>>> c13e9db (.)

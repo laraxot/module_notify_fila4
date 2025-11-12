@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica
@@ -270,3 +271,5 @@ class MailAnalytics
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Laravel Mail](https://laravel.com/docs/mail)
+=======
+>>>>>>> c13e9db (.)

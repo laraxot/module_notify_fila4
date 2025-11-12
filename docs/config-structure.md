@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Principi di Configurazione
 
@@ -74,3 +75,5 @@
 4. **Centralizza Logiche Comuni**
    - Rate limit, retry e circuit breaking dovrebbero essere configurati una volta sola
    - L'implementazione dovrebbe utilizzare queste configurazioni generiche
+=======
+>>>>>>> c13e9db (.)

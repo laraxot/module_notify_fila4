@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Database Mail System
 
 ## Regola sulle rotte
@@ -435,3 +436,5 @@ Cordiali saluti,<br>
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+=======
+>>>>>>> c13e9db (.)

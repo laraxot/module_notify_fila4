@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
@@ -183,3 +184,5 @@ public function sendEmail(): void
 - [ ] Aggiungere logging
 - [ ] Migliorare la documentazione
 - [ ] Aggiungere test unitari
+=======
+>>>>>>> c13e9db (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Errori di Struttura Directory e Namespace
 
@@ -79,3 +80,5 @@
    - Non duplicare configurazioni generiche
    - Riutilizzare componenti e logiche esistenti
    - Centralizzare comportamenti comuni
+=======
+>>>>>>> c13e9db (.)

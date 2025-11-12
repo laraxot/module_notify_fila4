@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica
@@ -309,3 +310,5 @@ php artisan notify:mail-template:test
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> c13e9db (.)

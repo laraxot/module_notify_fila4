@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Code per Email - il progetto
 
 ## Panoramica
@@ -407,3 +408,5 @@ php artisan queue:restart
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Horizon Documentation](https://laravel.com/docs/horizon)
 - [Redis Documentation](https://redis.io/documentation)
+=======
+>>>>>>> c13e9db (.)

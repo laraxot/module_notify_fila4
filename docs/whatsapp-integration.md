@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione WhatsApp 
 
 ## Panoramica
@@ -534,3 +535,5 @@ L'integrazione WhatsApp  segue gli stessi pattern e standard utilizzati per l'in
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
+=======
+>>>>>>> c13e9db (.)

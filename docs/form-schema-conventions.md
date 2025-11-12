@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per i Form Schema 
 
 ## Regola Fondamentale per Array di Schema
@@ -101,3 +102,5 @@ Per verificare che tutti i metodi schema rispettino questa convenzione:
 
 - [Filament Form Schemas](https://filamentphp.com/docs/forms/defining-a-form)
 - [PHP Array Types](https://www.php.net/manual/en/language.types.array.php)
+=======
+>>>>>>> c13e9db (.)

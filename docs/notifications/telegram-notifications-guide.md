@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Notifiche Telegram 
 
 
@@ -288,3 +289,5 @@ class TelegramNotificationTest extends TestCase
 - [MULTI_CHANNEL_NOTIFICATIONS.md](./MULTI_CHANNEL_NOTIFICATIONS.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
+=======
+>>>>>>> c13e9db (.)

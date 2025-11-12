@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Organizzazione del Codice
@@ -311,3 +312,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md). 
+=======
+>>>>>>> c13e9db (.)

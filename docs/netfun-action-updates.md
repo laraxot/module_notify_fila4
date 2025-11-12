@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aggiornamenti a SendNetfunSMSAction
 
 ## Panoramica delle Modifiche
@@ -316,3 +317,5 @@ Questi miglioramenti garantiscono:
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
+=======
+>>>>>>> c13e9db (.)

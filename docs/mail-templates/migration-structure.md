@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura della Migrazione MailTemplate
 
 ## Informazioni Generali
@@ -214,3 +215,5 @@ public function tableUpdate(\Closure $next, ?string $table = null): void
 - [Documentazione XotBaseMigration](../Xot/docs/XotBaseMigration.md)
 - [Best Practices Migrazioni](./MIGRATION_BEST_PRACTICES.md)
 - [Gestione Errori](./ERROR_HANDLING.md)
+=======
+>>>>>>> c13e9db (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale
@@ -60,3 +61,5 @@ Per verificare che tutte le classi seguano questa regola:
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
+=======
+>>>>>>> c13e9db (.)

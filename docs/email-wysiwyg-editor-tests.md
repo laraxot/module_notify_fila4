@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari
@@ -341,3 +342,5 @@ class FileUploadSecurityTest extends TestCase
 ## Vedi Anche
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
+=======
+>>>>>>> c13e9db (.)
