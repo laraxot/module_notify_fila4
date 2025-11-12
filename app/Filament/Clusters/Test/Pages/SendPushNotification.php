@@ -92,17 +92,71 @@ class SendPushNotification extends Page implements HasForms
     public function form(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * Callback per filtrare i dispositivi.
          */
 =======
+=======
+=======
+        $devices = DeviceUser::with(['profile', 'device'])
+            ->where('push_notifications_token', '!=', null)
+            ->where('push_notifications_token', '!=', 'unknown')
+            ->where('push_notifications_enabled', 1)
+            // ->whereHas('profile') //db separato percio' da errore cosi'
+            ->whereHas('device')
+            ->get();
+
+        /**
+         * Callback per mappare i dispositivi in opzioni per il select.
+         */
+        $callback = function ($item) {
+            /** @var mixed $item */
+            if (!is_object($item)) {
+                return [];
+            }
+
+            // Relations & attributes in a Laravel-safe way
+            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
+            if (!is_object($profile)) {
+                return [];
+            }
+            $fullName = (string) (data_get($profile, 'full_name') ?? 'Utente');
+
+            $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
+            $token = is_string($tokenAttr) ? $tokenAttr : '';
+            if ($token === '' || $token === 'unknown') {
+                return [];
+            }
+
+            $device = method_exists($item, 'getRelationValue') ? $item->getRelationValue('device') : null;
+            $robotVal = data_get($device, 'robot');
+            $robot = is_string($robotVal) ? $robotVal : null;
+
+            // Creiamo la label con gli ultimi 5 caratteri del token
+            $tokenSuffix = mb_substr($token, -5);
+            $label = $fullName . ' (' . ($robot ?? '') . ') ' . $tokenSuffix;
+
+            return [$token => $label];
+        };
+>>>>>>> 6bd5430 (.)
+>>>>>>> 9c8f04e (.)
 
         /**
          * Callback per filtrare i dispositivi.
          */
 
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 9c8f04e (.)
         Assert::isArray([]);
+=======
+        $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
+
+        Assert::isArray($to);
+>>>>>>> 6bd5430 (.)
 
         return $schema
             ->components([
@@ -220,6 +274,10 @@ class SendPushNotification extends Page implements HasForms
     {
         return [
             Action::make('notificationFormActions')
+<<<<<<< HEAD
+=======
+                
+>>>>>>> 6bd5430 (.)
 
                 ->submit('notificationFormActions'),
         ];
