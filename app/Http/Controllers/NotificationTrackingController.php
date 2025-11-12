@@ -36,6 +36,7 @@ namespace Modules\Notify\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> da89aab (.)
@@ -59,6 +60,8 @@ use function Safe\base64_decode;
 =======
 use function Safe\base64_decode;
 >>>>>>> ebb5027 (.)
+=======
+>>>>>>> 2a17243 (.)
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

@@ -133,7 +133,6 @@ final class NotificationLog extends BaseModel
     ): Builder {
         return $query->where('template_id', $templateId);
     }
-<<<<<<< HEAD
 
     /**
      * Marca il log come aperto.
@@ -156,6 +155,4 @@ final class NotificationLog extends BaseModel
             'clicked_at' => now(),
         ]);
     }
-=======
->>>>>>> e39a6f9 (.)
 }
