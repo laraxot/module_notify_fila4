@@ -53,12 +53,7 @@ class NotificationTemplateVersionTest extends TestCase
             'change_notes',
         ];
 
-<<<<<<< HEAD
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
-=======
-        $model = new NotificationTemplateVersion();
-        $this->assertEquals($expectedFillable, $model->getFillable());
->>>>>>> 0db165c (.)
     }
 
     /** @test */
