@@ -110,11 +110,7 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 
 ## Riferimenti
 
-<<<<<<< HEAD
 - [Filament Form Schemas](https://filamentphp.com/docs/forms/defining-a-form)
-=======
-- [Filament Form Schemas](https://filamentphp.com/project_docs/forms/defining-a-form)
->>>>>>> d284d65 (.)
 - [PHP Array Types](https://www.php.net/manual/en/language.types.array.php)
 <<<<<<< HEAD
 =======

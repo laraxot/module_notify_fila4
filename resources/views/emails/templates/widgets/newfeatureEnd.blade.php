@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -31,11 +32,14 @@
 >>>>>>> 53dd2f8 (.)
 =======
 >>>>>>> f331fd1 (.)
+=======
+>>>>>>> 4a221df (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +81,8 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> 4a221df (.)
 </td>
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
@@ -95,6 +101,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 =======
 <<<<<<< HEAD
@@ -146,3 +153,6 @@ declare(strict_types=1);
 >>>>>>> 53dd2f8 (.)
 =======
 >>>>>>> f331fd1 (.)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 4a221df (.)

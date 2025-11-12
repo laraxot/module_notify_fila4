@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f331fd1 (.)
 =======
@@ -43,11 +44,14 @@
 >>>>>>> 7f7061a (.)
 =======
 >>>>>>> f331fd1 (.)
+=======
+>>>>>>> 4a221df (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,6 +105,8 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f331fd1 (.)
+=======
+>>>>>>> 4a221df (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 518c702 (.)
@@ -131,6 +137,7 @@ declare(strict_types=1);
 
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,3 +195,6 @@ declare(strict_types=1);
 >>>>>>> 53dd2f8 (.)
 =======
 >>>>>>> f331fd1 (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 4a221df (.)

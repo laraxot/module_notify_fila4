@@ -8,6 +8,7 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
+use Modules\Notify\Enums\NotificationLogStatusEnum;
 
 class CleanupNotificationLogsCommand extends Command
 {

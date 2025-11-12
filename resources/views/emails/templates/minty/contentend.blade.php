@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -31,11 +32,14 @@
 >>>>>>> 53dd2f8 (.)
 =======
 >>>>>>> f331fd1 (.)
+=======
+>>>>>>> 4a221df (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +78,8 @@ declare(strict_types=1);
 >>>>>>> 53dd2f8 (.)
 =======
 >>>>>>> f331fd1 (.)
+=======
+>>>>>>> 4a221df (.)
 </tbody>
 </table>
 </td>
@@ -84,6 +90,7 @@ declare(strict_types=1);
 </tr>
 </tbody>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,3 +138,6 @@ declare(strict_types=1);
 >>>>>>> 53dd2f8 (.)
 =======
 >>>>>>> f331fd1 (.)
+=======
+</div>
+>>>>>>> 4a221df (.)
