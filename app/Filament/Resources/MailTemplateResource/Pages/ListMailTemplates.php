@@ -7,80 +7,11 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 use Filament\Tables\Columns\TextColumn;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Override;
-=======
-use Modules\Notify\Models\MailTemplate;
-<<<<<<< HEAD
-=======
-=======
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables;
-use Filament\Tables\Table;
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
-use Modules\Notify\Filament\Resources\MailTemplateResource;
-use Modules\Notify\Models\MailTemplate;
->>>>>>> b93ef594b4 (.)
-=======
-use Modules\Notify\Filament\Resources\MailTemplateResource;
-use Modules\Notify\Models\MailTemplate;
-use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
-use Filament\Tables;
-use Filament\Tables\Table;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
->>>>>>> 82c6772 (.)
-=======
-use Override;
->>>>>>> 92ecc28 (.)
-=======
-use Override;
-<<<<<<< HEAD
-=======
-use Modules\Notify\Models\MailTemplate;
->>>>>>> f5f1cb1 (.)
->>>>>>> b94a5f6 (.)
-=======
->>>>>>> 23161eb (.)
-=======
->>>>>>> 5e14ac3 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
     protected static string $resource = MailTemplateResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-    #[Override]
->>>>>>> 6ba141fc (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public function getTableColumns(): array
     {
         return [

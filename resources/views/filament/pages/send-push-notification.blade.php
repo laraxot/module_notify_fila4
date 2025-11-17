@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
@@ -21,31 +17,8 @@ declare(strict_types=1);
                 <div class="mt-6">
                     {{ $this->notificationForm }}
                 </div>
-<<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <div>
-                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
-=======
-<<<<<<< HEAD
->>>>>>> 6ba141fc (.)
-=======
-<<<<<<< HEAD
-                <div>
-                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
-=======
-=======
->>>>>>> bf479cc (.)
-=======
-                <div>
-                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
-=======
-=======
->>>>>>> 7cf73d1 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -62,57 +35,10 @@ declare(strict_types=1);
                             {{ $action }}
                         @endforeach
                     </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 11ae5222 (.)
->>>>>>> 62b0c9c (.)
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31bdf6b (.)
-=======
-<<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
->>>>>>> 62b0c9c (.)
->>>>>>> 23161eb (.)
-=======
-                <div>
-                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
->>>>>>> 5e14ac3 (.)
-=======
->>>>>>> 0db165c (.)
->>>>>>> 4ad63a5 (.)
->>>>>>> 7cf73d1 (.)
                 </div>
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-=======
-<x-filament-panels::page>
-    <x-filament::section>
-        <x-slot name="heading">
-            Test Invio Notifiche Push
-        </x-slot>
-
-        <x-slot name="description">
-            Utilizza questo form per testare l'invio di notifiche push ai dispositivi mobili tramite diversi servizi.
-        </x-slot>
-
-        {{ $this->notificationForm }}
-
-        <x-slot name="footer">
-            <div class="flex items-center justify-between gap-x-3">
-                <div>
-                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification()" />
-                </div>
-                <div>
-                    <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
-                </div>
-            </div>
-        </x-slot>
-    </x-filament::section>
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 </x-filament-panels::page>

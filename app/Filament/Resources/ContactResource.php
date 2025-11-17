@@ -23,39 +23,6 @@ class ContactResource extends XotBaseResource
      *
      * @return array<string, Component>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-    #[Override]
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @return array<string, Component>
-     */
-    #[Override]
-=======
-     * @return array<string, \Filament\Schemas\Components\Component>
-     */
->>>>>>> a12f125f4a (.)
-=======
-     * @return array<string, Component>
-     */
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
-     * @return array<string, Component>
-     */
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -75,63 +42,11 @@ class ContactResource extends XotBaseResource
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-<<<<<<< HEAD
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
-    #[Override]
->>>>>>> 92ecc28 (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public static function getRelations(): array
     {
         return [];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-<<<<<<< HEAD
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
-    #[Override]
->>>>>>> 92ecc28 (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public static function getPages(): array
     {
         return [

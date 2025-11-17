@@ -7,88 +7,20 @@ namespace Modules\Notify\Actions\SMS;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
-=======
-use Modules\Notify\Contracts\SMS\SmsActionContract;
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
-<<<<<<< HEAD
-use Override;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\NexmoData;
->>>>>>> a12f125f4a (.)
-=======
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
->>>>>>> b93ef594b4 (.)
-=======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\NexmoData;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-=======
-=======
->>>>>>> f5f1cb1 (.)
->>>>>>> b94a5f6 (.)
-use Spatie\QueueableAction\QueueableAction;
-=======
-use Modules\Notify\Contracts\SmsActionContract;
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
-use Spatie\QueueableAction\QueueableAction;
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
     private NexmoData $nexmoData;
-    private ?string $defaultSender = null;
-    
-    /** @var array<string, mixed> */
-    private array $vars = [];
->>>>>>> 5e14ac3 (.)
 
-final class SendNexmoSMSAction implements SmsActionContract
-{
-    private NexmoData $nexmoData;
     private ?string $defaultSender = null;
-    
+
     /** @var array<string, mixed> */
     private array $vars = [];
 
-<<<<<<< HEAD
-=======
-    protected bool $debug;
-
-<<<<<<< HEAD
-    protected ?string $defaultSender = null;
-=======
-    /** @var string|null */
-    protected null|string $defaultSender = null;
->>>>>>> f5f1cb1 (.)
-=======
->>>>>>> 23161eb (.)
-
->>>>>>> 82c6772 (.)
     /**
      * Create a new action instance.
      */
@@ -117,36 +49,6 @@ final class SendNexmoSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-    #[Override]
->>>>>>> 6ba141fc (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
-    #[Override]
->>>>>>> 92ecc28 (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [

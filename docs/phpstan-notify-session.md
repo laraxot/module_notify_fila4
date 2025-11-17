@@ -13,3 +13,5 @@
 - completare la migrazione dei mailer a `EmailData` + `SmtpData` con tipizzazione di ritorno/errore documentata
 
 
+
+

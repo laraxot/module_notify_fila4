@@ -50,15 +50,11 @@ class CleanupNotificationLogsCommand extends Command
         }
 
         $totalDeleted = 0;
-<<<<<<< HEAD
         $query->chunkById($batchSize, function (Collection $logs) use (&$totalDeleted): void {
             $count = $logs->count();
-            $logs->each(static fn (NotificationLog $log): bool => (bool) $log->delete());
-=======
-        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
-            $count = $logs->count(); /* @phpstan-ignore method.nonObject */
-            $logs->each->delete();
->>>>>>> 6ba141fc (.)
+            foreach ($logs as $log) {
+                $log->delete();
+            }
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");
         });

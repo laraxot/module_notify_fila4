@@ -6,7 +6,7 @@ namespace Modules\Notify\Emails;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailables\Attachment;
-use Illuminate\Support\Arr;
+use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Notify\Models\MailTemplate;
@@ -16,7 +16,6 @@ use Modules\Xot\Datas\XotData;
 use Mustache_Engine;
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\TemplateMailable;
-use Symfony\Component\Mime\MimeTypes;
 use Webmozart\Assert\Assert;
 
 use function Safe\file_get_contents;
@@ -111,22 +110,6 @@ class SpatieEmail extends TemplateMailable
         $params = implode(',', array_keys($this->data));
         MailTemplate::where(['slug' => $this->slug, 'mailable' => SpatieEmail::class])->update(['params' => $params]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f5f1cb1 (.)
-        return $this;
-    }
-
-<<<<<<< HEAD
-=======
-    /**
-     * Set the email recipient.
-     */
-    public function setRecipient(string $email): self
-    {
-        $this->recipient = $email;
-
         return $this;
     }
 
@@ -135,26 +118,14 @@ class SpatieEmail extends TemplateMailable
      */
     public function envelope(): Envelope
     {
-<<<<<<< HEAD
-        $envelope = new Envelope;
-=======
-        $envelope = new Envelope();
->>>>>>> f5f1cb1 (.)
-=======
->>>>>>> 23161eb (.)
+        $subject = $this->subject !== '' ? $this->subject : 'No Subject';
 
-        // Set the recipient if available
-        if ($this->recipient) {
-            $envelope->to($this->recipient);
-        }
-
-        return $envelope;
-=======
-        return $this;
->>>>>>> 5e14ac3 (.)
+        return new Envelope(
+            subject: $subject,
+            to: is_string($this->recipient) && $this->recipient !== '' ? [$this->recipient] : []
+        );
     }
 
->>>>>>> 82c6772 (.)
     public function getHtmlLayout(): string
     {
         // $pathToLayout = storage_path('mail-layouts/main.html');
@@ -208,53 +179,12 @@ class SpatieEmail extends TemplateMailable
 
         $res = $res->as($filename)->withMime($mime);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f5f1cb1 (.)
         return $res;
     }
 
-    public function getAttachmentFromData(array $attachment): Attachment
-    {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        // Valida e tipizza parametri
-        Assert::keyExists($attachment, 'data', 'Attachment must have data');
-        Assert::string($attachment['data'], 'Attachment data must be string');
-
-        $data = $attachment['data'];
-        $res = Attachment::fromData(fn () => $data);
-
-        // Determina filename
-        $filename = isset($attachment['as']) ? (string) $attachment['as'] : 'attachment';
-
-        // Determina MIME type
-        $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
-=======
-=======
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-=======
->>>>>>> b94a5f6 (.)
-        // Valida parametri obbligatori
-        Assert::keyExists($attachment, 'data', 'Attachment must have data');
-        Assert::keyExists($attachment, 'as', 'Attachment must have filename (as)');
-        Assert::string($attachment['as'], 'Attachment filename must be string');
-=======
-        $res = Attachment::fromData(fn() => $attachment['data']);
-        $as = $attachment['as'];
->>>>>>> f5f1cb1 (.)
-=======
->>>>>>> 23161eb (.)
-=======
-        return $res;
-    }
->>>>>>> 5e14ac3 (.)
-
+    /**
+     * @param  array<string, string>  $attachment
+     */
     public function getAttachmentFromData(array $attachment): Attachment
     {
         // Valida e tipizza parametri
@@ -268,30 +198,7 @@ class SpatieEmail extends TemplateMailable
         $filename = isset($attachment['as']) ? (string) $attachment['as'] : 'attachment';
 
         // Determina MIME type
-<<<<<<< HEAD
-        $mime = Arr::get($attachment, 'mime', null);
-
-        if ($mime === null) {
-            // Tenta di determinare MIME type da estensione filename
-            $info = pathinfo($filename);
-            if (isset($info['extension'])) {
-                $detectedMime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
-                $mime = is_string($detectedMime) ? $detectedMime : null;
-            }
-        }
-
-        if ($mime === null) {
-            $mime = 'application/octet-stream';
-        }
-
-        // Cast a stringa per sicurezza
-        if (! is_string($mime)) {
-            $mime = 'application/octet-stream';
-        }
->>>>>>> 6ba141fc (.)
-=======
         $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
->>>>>>> 5e14ac3 (.)
 
         $res = $res->as($filename)->withMime($mime);
 

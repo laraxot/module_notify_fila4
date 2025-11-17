@@ -23,28 +23,6 @@ class NetfunChannel
      *
      * @param  mixed  $notifiable
      * @param  mixed  $notifiable
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  mixed  $notifiable
-=======
-=======
-     * @param mixed $notifiable
-     * @param Notification $notification
-<<<<<<< HEAD
-=======
-=======
-    
-    /**
-     * Invia la notifica tramite Netfun SMS
-     * 
-     * @param mixed $notifiable
-     * @param \Illuminate\Notifications\Notification $notification
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
      * @return array|null
      */
     public function send($notifiable, Notification $notification)

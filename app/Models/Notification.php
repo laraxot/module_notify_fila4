@@ -4,10 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
-use Modules\Notify\Database\Factories\NotificationFactory;
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -35,23 +33,6 @@ use Modules\Xot\Models\BaseModel;
  * @property-read Model|null $creator
  * @property-read Model|null $updater
  *
- * @method static NotificationFactory factory($count = null, $state = [])
- * @method static Builder<static>|Notification newModelQuery()
- * @method static Builder<static>|Notification newQuery()
- * @method static Builder<static>|Notification query()
- * @method static Builder<static>|Notification whereCreatedAt($value)
- * @method static Builder<static>|Notification whereCreatedBy($value)
- * @method static Builder<static>|Notification whereData($value)
- * @method static Builder<static>|Notification whereDeletedAt($value)
- * @method static Builder<static>|Notification whereDeletedBy($value)
- * @method static Builder<static>|Notification whereId($value)
- * @method static Builder<static>|Notification whereNotifiableId($value)
- * @method static Builder<static>|Notification whereNotifiableType($value)
- * @method static Builder<static>|Notification whereReadAt($value)
- * @method static Builder<static>|Notification whereType($value)
- * @method static Builder<static>|Notification whereUpdatedAt($value)
- * @method static Builder<static>|Notification whereUpdatedBy($value)
- *
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -77,33 +58,6 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-<<<<<<< HEAD
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
-    #[Override]
->>>>>>> 92ecc28 (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     protected function casts(): array
     {
         return [

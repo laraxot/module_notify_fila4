@@ -1,29 +1,13 @@
 <?php
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> b8140d8 (.)
->>>>>>> f6b0523 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use function Safe\base64_decode;
-
->>>>>>> f6b0523 (.)
 use Illuminate\Http\RedirectResponse;
-=======
->>>>>>> b8140d8 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Illuminate\Support\Arr;
 use Modules\Notify\Models\NotificationLog;
 
 use function Safe\base64_decode;
@@ -50,22 +34,9 @@ class NotificationTrackingController extends Controller
     }
 
     /**
-     * Traccia il click su un link in una notifica.
-<<<<<<< HEAD
-=======
-     *
-     * @param Request $request
-     * @param string $id
-<<<<<<< HEAD
-     * @return RedirectResponse
->>>>>>> f6b0523 (.)
+     * Traccia il click su un link in una notifica e reindirizza all'URL originale.
      */
     public function trackClick(Request $request, string $id): RedirectResponse
-=======
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
->>>>>>> b8140d8 (.)
     {
         $log = NotificationLog::query()->find($id);
         $url = $request->get('url', '');
@@ -77,31 +48,13 @@ class NotificationTrackingController extends Controller
             if (! is_array($metadata)) {
                 $metadata = [];
             }
-
-<<<<<<< HEAD
-            $clickedLinks = Arr::get($metadata, 'clicked_links', []);
-            if (! is_array($clickedLinks)) {
-                $clickedLinks = [];
-            }
-
-            $urlStr = is_string($url) ? $url : (string) $url;
-
-            $metadata['clicked_links'] = array_merge($clickedLinks, [$urlStr => now()->toIso8601String()]);
-
-            $log->update(['data' => $metadata]);
-=======
-            $clickedLinks = isset($metadata['clicked_links']) && is_array($metadata['clicked_links']) ? $metadata['clicked_links'] : [];
-            $urlStr = is_string($url) ? $url : (string) $url;
-
-            /** @var array<string, mixed> $safeMetadata */
-            $safeMetadata = $metadata;
-            $safeMetadata['clicked_links'] = array_merge($clickedLinks, [$urlStr => now()->toIso8601String()]);
-
-            $log->update(['data' => $safeMetadata]);
->>>>>>> 6ba141fc (.)
+            $metadata['last_clicked_url'] = $url;
+            $log->forceFill(['data' => $metadata])->save();
         }
 
         // Redirect all'URL originale
-        return redirect()->away((string) $url);
+        $safeUrl = is_string($url) && $url !== '' ? $url : url('/');
+
+        return redirect()->away($safeUrl);
     }
 }

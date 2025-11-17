@@ -1,159 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f331fd1 (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
-=======
->>>>>>> b94a5f6 (.)
-=======
->>>>>>> 31bdf6b (.)
-=======
->>>>>>> 5e14ac3 (.)
-=======
->>>>>>> 7cf73d1 (.)
-=======
->>>>>>> 4b81568 (.)
-=======
->>>>>>> 3962ad4 (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8d14144 (.)
-=======
-=======
->>>>>>> f47ea0f (.)
-=======
->>>>>>> 7f7061a (.)
-=======
->>>>>>> f331fd1 (.)
-=======
->>>>>>> 4a221df (.)
-=======
->>>>>>> 5331e8a (.)
-=======
->>>>>>> 217fc69 (.)
-=======
-=======
->>>>>>> 4cb1607 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> bf479cc (.)
->>>>>>> 31bdf6b (.)
-=======
->>>>>>> 5e14ac3 (.)
-=======
-=======
->>>>>>> 0db165c (.)
->>>>>>> 7cf73d1 (.)
-=======
->>>>>>> 4b81568 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 3962ad4 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 8d14144 (.)
-=======
->>>>>>> 53dd2f8 (.)
-=======
->>>>>>> 518c702 (.)
->>>>>>> f47ea0f (.)
-=======
->>>>>>> 7f7061a (.)
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f331fd1 (.)
-=======
->>>>>>> 4a221df (.)
-=======
-=======
->>>>>>> bf479cc (.)
->>>>>>> 5331e8a (.)
-=======
->>>>>>> 217fc69 (.)
-=======
->>>>>>> 15d84ee (.)
-=======
->>>>>>> 08fd62d (.)
->>>>>>> 4cb1607 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
-=======
->>>>>>> 518c702 (.)
-=======
->>>>>>> 3b617e5 (.)
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
->>>>>>> b94a5f6 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -162,64 +14,11 @@ declare(strict_types=1);
 
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
-=======
-<<<<<<< HEAD
-=======
 					<td bgcolor="#ffffff" class="contentblock">
-=======
-<<<<<<< HEAD
->>>>>>> f331fd1 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
-=======
 					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> a12f125f4a (.)
-=======
 					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> b93ef594b4 (.)
-=======
 					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
->>>>>>> f813254 (.)
->>>>>>> 82c6772 (.)
-=======
 					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> b94a5f6 (.)
-=======
-=======
->>>>>>> 8d14144 (.)
-					<td bgcolor="#ffffff" class="contentblock">
-=======
-					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 3962ad4 (.)
-=======
-=======
-					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> 4e2ebfb (.)
->>>>>>> 8d14144 (.)
-=======
-					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> 53dd2f8 (.)
-=======
->>>>>>> f331fd1 (.)
-=======
-					<td bgcolor="#ffffff" class="contentblock">
->>>>>>> 4a221df (.)

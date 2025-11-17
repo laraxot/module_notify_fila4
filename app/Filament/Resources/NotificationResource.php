@@ -9,26 +9,14 @@ use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Override;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b94a5f6 (.)
-=======
->>>>>>> 23161eb (.)
-=======
->>>>>>> 5e14ac3 (.)
 
 class NotificationResource extends XotBaseResource
 {
     protected static ?string $model = Notification::class;
 
-    #[\Override]
     public static function getFormSchema(): array
     {
-        return array_values([
+        return [
             'type' => TextInput::make('type')->required()->label('Notification Type'),
             'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
             'notifiable_id' => TextInput::make('notifiable_id')
@@ -39,5 +27,6 @@ class NotificationResource extends XotBaseResource
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
-        ]);}
+        ];
+    }
 }

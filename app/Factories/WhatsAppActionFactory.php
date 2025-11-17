@@ -22,16 +22,6 @@ final class WhatsAppActionFactory
      * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
      *
      * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
-     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
-     *
-     * @throws Exception Se il driver specificato non è supportato
-     */
-    /**
-     * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
-     * Utilizza una formula per calcolare il nome della classe dell'azione.
-     *
-     * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
-     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
@@ -40,45 +30,12 @@ final class WhatsAppActionFactory
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 23161eb (.)
-        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
-
-<<<<<<< HEAD
-        if (! is_string($normalizedDriver)) {
-            $normalizedDriver = '';
-        }
->>>>>>> 2fdda20 (.)
-
->>>>>>> 31bdf6b (.)
-=======
->>>>>>> 5e14ac3 (.)
-=======
-=======
->>>>>>> 4b81568 (.)
-        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        if (!is_string($normalizedDriver)) {
-=======
-        if (! is_string($normalizedDriver)) {
->>>>>>> 0c46ff7 (.)
-            $normalizedDriver = '';
+        if ($normalizedDriver === '') {
+            $normalizedDriver = 'Twilio';
         }
 
->>>>>>> 4ad63a5 (.)
->>>>>>> 7cf73d1 (.)
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 

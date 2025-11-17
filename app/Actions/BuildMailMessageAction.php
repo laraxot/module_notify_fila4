@@ -23,7 +23,7 @@ class BuildMailMessageAction
         string $name,
         Model $model,
         array $view_params = [],
-        null|DataCollection $dataCollection = null,
+        ?DataCollection $dataCollection = null,
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -32,93 +32,23 @@ class BuildMailMessageAction
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
-        $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
-        $fromName = $theme->view_params['from'] ?? $theme->from;
-        $subject = $view_params['subject'] ?? $theme->subject;
+        $params = [
+            'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
+            'from_name' => $theme->view_params['from'] ?? $theme->from,
+            'subject' => $view_params['subject'] ?? $theme->subject,
+        ];
 
-        // Utilizziamo asserzioni per verificare che i valori siano stringhe
-        if (!is_string($fromAddress)) {
-            $fromAddress = '';
-        }
+        Assert::keyExists($params, 'from_address');
+        Assert::keyExists($params, 'from_name');
+        Assert::keyExists($params, 'subject');
+        Assert::string($params['from_address'], 'from_address must be string');
+        Assert::nullOrString($params['from_name'], 'from_name must be string or null');
+        Assert::string($params['subject'], 'subject must be string');
 
-        // Il nome del mittente può essere null
-        if ($fromName !== null && !is_string($fromName)) {
-            $fromName = '';
-        }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
-
-        if (!is_string($subject)) {
-            $subject = 'Notifica';
-        }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $email = (new MailMessage())
-=======
-=======
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-        $email = new MailMessage()
-<<<<<<< HEAD
->>>>>>> 6ba141fc (.)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        
-        if (!is_string($subject)) {
-            $subject = 'Notifica';
-        }
-        
-        $email = (new MailMessage())
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-=======
->>>>>>> 92ecc28 (.)
-
-        if (!is_string($subject)) {
-            $subject = 'Notifica';
-        }
-
-<<<<<<< HEAD
-        $email = new MailMessage()
-<<<<<<< HEAD
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-=======
-        $email = (new MailMessage())
->>>>>>> 5e14ac3 (.)
-=======
-        $email = (new MailMessage())
-=======
-<<<<<<< HEAD
-        $email = new MailMessage()
->>>>>>> 4ad63a5 (.)
->>>>>>> 7cf73d1 (.)
-            ->from($fromAddress, $fromName)
-            ->subject($subject)
+        $email = (new MailMessage)
+            ->from($params['from_address'], $params['from_name'])
+            ->subject($params['subject'])
             ->view($view_html, $theme->view_params);
-=======
-        $email = new MailMessage();
-        $email = $email->from($fromAddress, $fromName);
-        $email = $email->subject($subject);
-        $email = $email->view($view_html, $theme->view_params);
->>>>>>> 0db165c (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {

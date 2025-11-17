@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Traits\Updater;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -17,17 +14,10 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  */
 abstract class BaseModel extends Model implements HasMedia
 {
-    // use Searchable;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    use \Modules\Xot\Models\Traits\HasXotFactory;
-=======
-    use HasFactory;
->>>>>>> 6ba141fc (.)
-=======
-    use \Modules\Xot\Models\Traits\HasXotFactory;
->>>>>>> 5e14ac3 (.)
     use InteractsWithMedia;
+
+    // use Searchable;
+    use \Modules\Xot\Models\Traits\HasXotFactory;
     use Updater;
 
     /**
@@ -64,24 +54,6 @@ abstract class BaseModel extends Model implements HasMedia
     protected $hidden = [
         // 'password'
     ];
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-   
-=======
-    /**
-     * Create a new factory instance for the model.
-     *
-     * @return Factory<static>
-     */
-    protected static function newFactory()
-    {
-        return app(GetFactoryAction::class)->execute(static::class);
-    }
->>>>>>> 6ba141fc (.)
-=======
-   
->>>>>>> 5e14ac3 (.)
 
     /** @return array<string, string> */
     protected function casts(): array

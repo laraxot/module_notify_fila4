@@ -8,83 +8,11 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Override;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Override;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Filters\SelectFilter;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Filters\SelectFilter;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
-=======
-=======
-use Override;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Filters\SelectFilter;
->>>>>>> b94a5f6 (.)
-use Filament\Tables\Columns;
-use Filament\Tables\Filters;
-use Modules\Notify\Filament\Resources\NotifyThemeResource;
-use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
->>>>>>> f813254 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-=======
-use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
->>>>>>> f5f1cb1 (.)
->>>>>>> b94a5f6 (.)
-=======
->>>>>>> 23161eb (.)
-=======
->>>>>>> 5e14ac3 (.)
 
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-    #[Override]
->>>>>>> 6ba141fc (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public function getTableColumns(): array
     {
         return [
@@ -105,26 +33,6 @@ class ListNotifyThemes extends XotBaseListRecords
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-    #[Override]
->>>>>>> 6ba141fc (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public function getTableFilters(): array
     {
         return [

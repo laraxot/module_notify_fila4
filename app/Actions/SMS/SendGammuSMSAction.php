@@ -6,27 +6,9 @@ namespace Modules\Notify\Actions\SMS;
 
 use Exception;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
-=======
-use Modules\Notify\Contracts\SMS\SmsActionContract;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
->>>>>>> 92ecc28 (.)
-=======
-use Modules\Notify\Contracts\SmsActionContract;
->>>>>>> 5e14ac3 (.)
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
-use Override;
 use Spatie\QueueableAction\QueueableAction;
 use Symfony\Component\Process\Process;
 
@@ -76,36 +58,6 @@ final class SendGammuSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-    #[Override]
->>>>>>> 6ba141fc (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
-    #[Override]
->>>>>>> 92ecc28 (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

@@ -25,15 +25,9 @@ class SendNotificationAction
      *
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
-<<<<<<< HEAD
      * @param  array<string, mixed>  $data  I dati per compilare il template
-     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
-     * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
-=======
-     * @param  array  $data  I dati per compilare il template
-     * @param  array  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
-     * @param  array  $options  Opzioni aggiuntive per l'invio
->>>>>>> 0c46ff7 (.)
+     * @param  array<int, string>  $channels  I canali da utilizzare
+     * @param  array<string, mixed>  $options  Opzioni aggiuntive
      *
      * @throws Exception Se il template non esiste o non è attivo
      */
@@ -60,28 +54,8 @@ class SendNotificationAction
         $compiled = $template->compile($data);
 
         // Determina i canali da utilizzare
-<<<<<<< HEAD
-<<<<<<< HEAD
         $templateChannels = $template->getAttribute('channels') ?? [];
         $effectiveChannels = $channels ?: $templateChannels;
-
-        // Assicurati che i canali siano stringhe valide
-        $filteredChannels = [];
-        if (is_array($effectiveChannels)) {
-            foreach ($effectiveChannels as $channel) {
-                if (is_string($channel)) {
-                    $filteredChannels[] = $channel;
-                }
-            }
-        }
-        $effectiveChannels = $filteredChannels;
-=======
-        $effectiveChannels = $channels ?: $template->channels;
->>>>>>> 6ba141fc (.)
-=======
-        $templateChannels = $template->getAttribute('channels') ?? [];
-        $effectiveChannels = $channels ?: $templateChannels;
->>>>>>> 5e14ac3 (.)
 
         // Assicurati che i canali siano stringhe valide
         $filteredChannels = [];
@@ -96,24 +70,11 @@ class SendNotificationAction
 
         // Processa ogni canale
         foreach ($effectiveChannels as $channel) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $stringChannel = $channel;
-=======
-            $stringChannel = is_string($channel) ? $channel : (string) $channel;
->>>>>>> 6ba141fc (.)
-=======
-            $stringChannel = $channel;
->>>>>>> 5e14ac3 (.)
             try {
                 $this->sendViaChannel($recipient, $stringChannel, $compiled, $options);
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
-<<<<<<< HEAD
-                Log::error("Errore invio notifica via {$stringChannel}: ".$e->getMessage());
-=======
-                Log::error("Errore invio notifica via {$channel}: ".$e->getMessage());
->>>>>>> 0c46ff7 (.)
 
                 continue;
             }
@@ -124,12 +85,9 @@ class SendNotificationAction
 
     /**
      * Invia la notifica attraverso un canale specifico.
-<<<<<<< HEAD
      *
      * @param  array<string, mixed>  $compiled
      * @param  array<string, mixed>  $options
-=======
->>>>>>> 0c46ff7 (.)
      */
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
     {
@@ -247,14 +205,10 @@ class SendNotificationAction
         $bodyHtmlRaw = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
         $bodyText = $bodyTextRaw ?: strip_tags($bodyHtmlRaw);
 
-        // Limita la lunghezza del messaggio SMS
-<<<<<<< HEAD
-        if (mb_strlen($bodyText) > 320) {
-            $bodyText = mb_substr($bodyText, 0, 317).'...';
-=======
-        if (mb_strlen($message) > 320) {
-            $message = mb_substr($message, 0, 317).'...';
->>>>>>> 0c46ff7 (.)
+        // Limita la lunghezza del messaggio SMS (tipicamente 160 caratteri)
+        $maxLength = 160;
+        if (mb_strlen($bodyText) > $maxLength) {
+            $bodyText = mb_substr($bodyText, 0, $maxLength - 3).'...';
         }
 
         $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
