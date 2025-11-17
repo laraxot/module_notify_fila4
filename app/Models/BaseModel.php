@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -12,12 +13,13 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 /**
  * Class BaseModel.
  */
-abstract class BaseModel extends Model implements HasMedia
+abstract class BaseModel extends XotBaseModel implements HasMedia
 {
     use InteractsWithMedia;
-
     // use Searchable;
     use \Modules\Xot\Models\Traits\HasXotFactory;
+
+    use SoftDeletes;
     use Updater;
 
     /**

@@ -55,7 +55,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Compile the template with the given data.
      *
      * @param  array<string, mixed>  $data  The data to compile the template with
-     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function compile(array $data = []): array
@@ -110,7 +109,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Preview the template with the given data.
      *
      * @param  array<string, mixed>  $data  Additional data to merge with preview data
-     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
@@ -179,7 +177,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
             return [];
         }
 
-        /** @var array<string, mixed> $safeData */
+        /** @var array<string, mixed> $data */
         return $data;
     }
 

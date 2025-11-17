@@ -8,8 +8,9 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-use function Safe\json_encode;
 use Webmozart\Assert\Assert;
+
+use function Safe\json_encode;
 
 /**
  * Servizio per notifiche push avanzate
@@ -432,6 +433,7 @@ class PushNotificationService
         if (strlen($token) > 100 && str_contains($token, ':')) {
             return 'fcm';
         }
+
         return 'webpush';
     }
 

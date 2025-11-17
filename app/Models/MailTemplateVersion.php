@@ -10,37 +10,36 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Media\Models\Media;
 use Modules\User\Models\Profile;
 use Modules\Xot\Traits\Updater;
-use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 /**
- * @property int $id
- * @property int $mail_template_id
- * @property int $version
- * @property string|null $subject
- * @property string $html_template
- * @property string|null $text_template
- * @property array|null $metadata
- * @property string|null $created_by
- * @property string|null $change_notes
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property Carbon|null $deleted_at
- * @property string|null $updated_by
- * @property string|null $deleted_by
- *
- * @property-read Profile|null $creator
- * @property-read MediaCollection<int, Media> $media
- * @property-read int|null $media_count
- * @property-read MailTemplate|null $template
- * @property-read Profile|null $updater
+ * @property int                         $id
+ * @property int                         $mail_template_id
+ * @property int                         $version
+ * @property string|null                 $subject
+ * @property string                      $html_template
+ * @property string|null                 $text_template
+ * @property array|null                  $metadata
+ * @property string|null                 $created_by
+ * @property string|null                 $change_notes
+ * @property Carbon|null                 $created_at
+ * @property Carbon|null                 $updated_at
+ * @property Carbon|null                 $deleted_at
+ * @property string|null                 $updated_by
+ * @property string|null                 $deleted_by
+ * @property Profile|null                $creator
+ * @property MediaCollection<int, Media> $media
+ * @property int|null                    $media_count
+ * @property MailTemplate|null           $template
+ * @property Profile|null                $updater
  *
  * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
  */
 class MailTemplateVersion extends BaseModel
 {
-    use SoftDeletes, Updater;
+    use SoftDeletes;
+    use Updater;
 
     /** @var string */
     protected $connection = 'notify';
@@ -62,21 +61,20 @@ class MailTemplateVersion extends BaseModel
         return $this->belongsTo(MailTemplate::class, 'template_id');
     }
 
-    public function restore(): MailTemplate
+    public function restore(): bool
     {
         $template = $this->template;
 
-        if ($template === null) {
-            throw new RuntimeException('Template non trovato per questa versione');
+        if (null === $template) {
+            throw new \RuntimeException('Template non trovato per questa versione');
         }
 
-        $template->update([
-            'subject' => $this->subject,
-            'html_template' => $this->html_template,
-            'text_template' => $this->text_template,
-        ]);
+        $template->subject = $this->subject;
+        $template->html_template = $this->html_template;
+        $template->text_template = $this->text_template;
+        $template->save();
 
-        return $template;
+        return parent::restore();
     }
 
     /**

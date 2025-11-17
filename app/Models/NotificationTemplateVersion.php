@@ -8,16 +8,15 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
 use Modules\User\Models\Profile;
 use Modules\Xot\Traits\Updater;
-use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
 // BaseModel in same namespace provides common behaviors
 /**
- * @property-read Profile|null $creator
- * @property-read MediaCollection<int, Media> $media
- * @property-read int|null $media_count
- * @property-read NotificationTemplate|null $template
- * @property-read Profile|null $updater
+ * @property Profile|null                $creator
+ * @property MediaCollection<int, Media> $media
+ * @property int|null                    $media_count
+ * @property NotificationTemplate|null   $template
+ * @property Profile|null                $updater
  *
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
@@ -44,12 +43,12 @@ class NotificationTemplateVersion extends BaseModel
         return $this->belongsTo(NotificationTemplate::class, 'template_id');
     }
 
-    public function restore(): NotificationTemplate
+    public function restore(): bool
     {
         $template = $this->template;
 
         if (! $template) {
-            throw new RuntimeException('Template not found for version '.$this->id);
+            throw new \RuntimeException('Template not found for version '.$this->id);
         }
 
         $template->update([
@@ -61,7 +60,7 @@ class NotificationTemplateVersion extends BaseModel
             'conditions' => $this->conditions ?? null,
         ]);
 
-        return $template;
+        return parent::restore();
     }
 
     /**

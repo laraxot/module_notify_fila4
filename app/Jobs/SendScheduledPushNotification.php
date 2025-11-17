@@ -26,8 +26,7 @@ class SendScheduledPushNotification implements ShouldQueue
 
     public function __construct(
         private string $jobId
-    ) {
-    }
+    ) {}
 
     /**
      * Execute the job.

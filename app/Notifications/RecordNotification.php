@@ -24,8 +24,7 @@ class RecordNotification extends Notification
         protected readonly string $slug,
         protected array $data = [],
         protected array $attachments = [],
-    ) {
-    }
+    ) {}
 
     /**
      * @return array<int, string|class-string>

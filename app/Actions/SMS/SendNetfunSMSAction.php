@@ -10,8 +10,9 @@ use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
-use function Safe\preg_replace;
 use Spatie\QueueableAction\QueueableAction;
+
+use function Safe\preg_replace;
 
 final class SendNetfunSMSAction implements SmsActionContract
 {
@@ -56,7 +57,6 @@ final class SendNetfunSMSAction implements SmsActionContract
      * Execute the action.
      *
      * @param  SmsData  $smsData  I dati del messaggio SMS
-     *
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
@@ -111,14 +111,12 @@ final class SendNetfunSMSAction implements SmsActionContract
      * Normalizza il numero di telefono nel formato E.164
      *
      * @param  string  $phoneNumber  Numero di telefono da normalizzare
-     *
      * @return string Numero di telefono normalizzato in formato E.164
      */
     /**
      * Normalizza il numero di telefono nel formato E.164
      *
      * @param  string  $phoneNumber  Numero di telefono da normalizzare
-     *
      * @return string Numero di telefono normalizzato in formato E.164
      */
     protected function normalizePhoneNumber(string $phoneNumber): string

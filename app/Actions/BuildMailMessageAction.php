@@ -45,7 +45,7 @@ class BuildMailMessageAction
         Assert::nullOrString($params['from_name'], 'from_name must be string or null');
         Assert::string($params['subject'], 'subject must be string');
 
-        $email = (new MailMessage())
+        $email = (new MailMessage)
             ->from($params['from_address'], $params['from_name'])
             ->subject($params['subject'])
             ->view($view_html, $theme->view_params);

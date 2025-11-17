@@ -42,10 +42,10 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Crea una nuova istanza della notifica.
      *
-     * @param  string  $title  Il titolo della notifica
-     * @param  string  $message  Il contenuto della notifica
-     * @param  array<string>  $channels  I canali da utilizzare ('mail', 'sms', 'database')
-     * @param  array<string, mixed>  $data  Dati aggiuntivi per la notifica
+     * @param string               $title    Il titolo della notifica
+     * @param string               $message  Il contenuto della notifica
+     * @param array<string>        $channels I canali da utilizzare ('mail', 'sms', 'database')
+     * @param array<string, mixed> $data     Dati aggiuntivi per la notifica
      */
     public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
     {
@@ -58,14 +58,16 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene i canali di consegna della notifica.
      *
-     * @param  mixed  $_notifiable  L'entità da notificare (oggetto che riceverà la notifica)
+     * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
      *
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
     {
         /** @var array<int, string> $channels */
-        return array_values($this->channels);
+        $channels = array_values($this->channels);
+
+        return $channels;
     }
 
     /**
@@ -85,7 +87,7 @@ class GenericNotification extends Notification implements ShouldQueue
         }
 
         // Aggiungi eventuali linee aggiuntive
-        if (isset($this->data['additional_lines']) && is_array($this->data['additional_lines'])) {
+        if (isset($this->data['additional_lines']) && \is_array($this->data['additional_lines'])) {
             foreach ($this->data['additional_lines'] as $line) {
                 $mail->line($line);
             }
@@ -110,7 +112,7 @@ class GenericNotification extends Notification implements ShouldQueue
 
         // TODO: Implementare TwilioSmsMessage quando disponibile
         $to = '';
-        if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForTwilio')) {
+        if (\is_object($notifiable) && method_exists($notifiable, 'routeNotificationForTwilio')) {
             $routeResult = $notifiable->routeNotificationForTwilio($this);
             $to = (string) ($routeResult ?? '');
         }
@@ -142,13 +144,13 @@ class GenericNotification extends Notification implements ShouldQueue
     protected function getRecipientName(mixed $notifiable): string
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
-        if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
+        if (\is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
             $name = $notifiable->getFullName();
 
-            return is_string($name) ? $name : (string) $name;
+            return \is_string($name) ? $name : (string) $name;
         }
 
-        if (is_object($notifiable) && $notifiable instanceof Model) {
+        if (\is_object($notifiable) && $notifiable instanceof Model) {
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'full_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'full_name', 'Utente');
             }

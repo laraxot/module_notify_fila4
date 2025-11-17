@@ -9,11 +9,12 @@ use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\Process\Process;
+
 use function Safe\file_put_contents;
 use function Safe\tempnam;
 use function Safe\unlink;
-use Spatie\QueueableAction\QueueableAction;
-use Symfony\Component\Process\Process;
 
 final class SendGammuSMSAction implements SmsActionContract
 {
@@ -53,7 +54,6 @@ final class SendGammuSMSAction implements SmsActionContract
      * Execute the action.
      *
      * @param  SmsData  $smsData  I dati del messaggio SMS
-     *
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
