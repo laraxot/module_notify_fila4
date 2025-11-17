@@ -21,11 +21,9 @@ class NetfunChannel
     /**
      * Invia la notifica tramite Netfun SMS
      *
-     * @param  mixed  $notifiable
-     * @param  mixed  $notifiable
      * @return array|null
      */
-    public function send($notifiable, Notification $notification)
+    public function send(mixed $notifiable, Notification $notification): ?array
     {
         // Ottieni il numero di telefono dal Notifiable
         if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForNetfun')) {

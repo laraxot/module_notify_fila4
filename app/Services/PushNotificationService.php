@@ -8,9 +8,8 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-use Webmozart\Assert\Assert;
-
 use function Safe\json_encode;
+use Webmozart\Assert\Assert;
 
 /**
  * Servizio per notifiche push avanzate
@@ -429,11 +428,11 @@ class PushNotificationService
         // Logica di rilevamento piattaforma basata sul formato del token
         if (strlen($token) === 64 && ctype_xdigit($token)) {
             return 'apns';
-        } elseif (strlen($token) > 100 && str_contains($token, ':')) {
-            return 'fcm';
-        } else {
-            return 'webpush';
         }
+        if (strlen($token) > 100 && str_contains($token, ':')) {
+            return 'fcm';
+        }
+        return 'webpush';
     }
 
     /**

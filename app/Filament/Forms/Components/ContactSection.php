@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
-use Filament\Forms;
 use Filament\Schemas\Components\Section;
 use Modules\Notify\Enums\ContactTypeEnum;
 
@@ -27,9 +26,7 @@ class ContactSection extends Section
 
     protected function getFormSchema(): array
     {
-        $res = ContactTypeEnum::getFormSchema();
-
-        return $res;
+        return ContactTypeEnum::getFormSchema();
     }
 
     /*

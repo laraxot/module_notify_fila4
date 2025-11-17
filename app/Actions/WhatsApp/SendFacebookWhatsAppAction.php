@@ -9,13 +9,16 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\WhatsAppData;
-use Spatie\QueueableAction\QueueableAction;
-
 use function Safe\json_decode;
+use Spatie\QueueableAction\QueueableAction;
 
 final class SendFacebookWhatsAppAction
 {
     use QueueableAction;
+
+    protected bool $debug;
+
+    protected int $timeout;
 
     private string $accessToken;
 
@@ -24,10 +27,6 @@ final class SendFacebookWhatsAppAction
     private string $baseUrl = 'https://graph.facebook.com/v17.0';
 
     private array $vars = [];
-
-    protected bool $debug;
-
-    protected int $timeout;
 
     /**
      * Create a new action instance.
@@ -52,13 +51,14 @@ final class SendFacebookWhatsAppAction
 
         // Parametri a livello di root
         $this->debug = (bool) config('whatsapp.debug', false);
-        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
     }
 
     /**
      * Execute the action.
      *
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
+     *
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio

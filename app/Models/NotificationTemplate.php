@@ -20,6 +20,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
     use HasTranslations;
     use InteractsWithMedia;
 
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
+
     protected $fillable = [
         'name',
         'code',
@@ -40,33 +46,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
         'type',
     ];
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return [
-            'type' => NotificationTypeEnum::class,
-            'preview_data' => 'array',
-            'body_html' => 'string',
-            'body_text' => 'string',
-            'channels' => 'array',
-            'variables' => 'array',
-            'conditions' => 'array',
-            'metadata' => 'array',
-            'is_active' => 'boolean',
-            'grapesjs_data' => 'array',
-        ];
-    }
-
-    public array $translatable = [
-        'subject',
-        'body_text',
-        'body_html',
-    ];
-
     public function registerMediaCollections(): void
     {
         $this->addMediaCollection('attachments')->singleFile();
@@ -76,6 +55,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Compile the template with the given data.
      *
      * @param  array<string, mixed>  $data  The data to compile the template with
+     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function compile(array $data = []): array
@@ -127,24 +107,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
     }
 
     /**
-     * Compile a string template with the given data.
-     *
-     * @param  string|null  $template  The template to compile
-     * @param  array<string, mixed>  $data  The data to compile with
-     */
-    protected function compileString(?string $template, array $data): ?string
-    {
-        if (! $template) {
-            return null;
-        }
-
-        return Blade::render($template, $data);
-    }
-
-    /**
      * Preview the template with the given data.
      *
      * @param  array<string, mixed>  $data  Additional data to merge with preview data
+     *
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
@@ -164,33 +130,24 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     /**
      * Scope a query to only include active templates.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeActive($query)
+    public function scopeActive(Builder $query): Builder
     {
         return $query->where('is_active', true);
     }
 
     /**
      * Scope a query to only include templates for a specific channel.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeForChannel($query, string $channel)
+    public function scopeForChannel(Builder $query, string $channel): Builder
     {
         return $query->whereJsonContains('channels', $channel);
     }
 
     /**
      * Scope a query to only include templates for a specific category.
-     *
-     * @param  Builder  $query
-     * @return Builder
      */
-    public function scopeForCategory($query, string $category)
+    public function scopeForCategory(Builder $query, string $category): Builder
     {
         return $query->where('category', $category);
     }
@@ -223,9 +180,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         }
 
         /** @var array<string, mixed> $safeData */
-        $safeData = $data;
-
-        return $safeData;
+        return $data;
     }
 
     /**
@@ -269,5 +224,41 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $result = $this->getTranslation('body_html', app()->getLocale());
 
         return is_string($result) ? $result : '';
+    }
+
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'type' => NotificationTypeEnum::class,
+            'preview_data' => 'array',
+            'body_html' => 'string',
+            'body_text' => 'string',
+            'channels' => 'array',
+            'variables' => 'array',
+            'conditions' => 'array',
+            'metadata' => 'array',
+            'is_active' => 'boolean',
+            'grapesjs_data' => 'array',
+        ];
+    }
+
+    /**
+     * Compile a string template with the given data.
+     *
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+     */
+    protected function compileString(?string $template, array $data): ?string
+    {
+        if (! $template) {
+            return null;
+        }
+
+        return Blade::render($template, $data);
     }
 }

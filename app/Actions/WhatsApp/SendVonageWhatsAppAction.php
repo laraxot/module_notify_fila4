@@ -9,13 +9,18 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\WhatsAppData;
-use Spatie\QueueableAction\QueueableAction;
-
 use function Safe\json_decode;
+use Spatie\QueueableAction\QueueableAction;
 
 final class SendVonageWhatsAppAction
 {
     use QueueableAction;
+
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $defaultSender;
 
     private string $apiKey;
 
@@ -24,12 +29,6 @@ final class SendVonageWhatsAppAction
     private string $baseUrl = 'https://api.nexmo.com/v1/messages';
 
     private array $vars = [];
-
-    protected bool $debug;
-
-    protected int $timeout;
-
-    protected ?string $defaultSender;
 
     /**
      * Create a new action instance.
@@ -53,13 +52,14 @@ final class SendVonageWhatsAppAction
         $defaultSender = config('whatsapp.from');
         $this->defaultSender = $defaultSender;
         $this->debug = (bool) config('whatsapp.debug', false);
-        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
     }
 
     /**
      * Execute the action.
      *
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
+     *
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
@@ -178,6 +178,7 @@ final class SendVonageWhatsAppAction
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
      * @param  string  $url  URL del media
+     *
      * @return string Tipo di media (image, video, audio, file)
      */
     private function determineMediaType(string $url): string

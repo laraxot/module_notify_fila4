@@ -10,23 +10,22 @@ use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\WhatsAppData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-use Spatie\QueueableAction\QueueableAction;
-
 use function Safe\json_decode;
+use Spatie\QueueableAction\QueueableAction;
 
 final class Send360dialogWhatsAppAction
 {
     use QueueableAction;
+
+    protected bool $debug;
+
+    protected int $timeout;
 
     private string $apiKey;
 
     private string $baseUrl = 'https://waba.360dialog.io/v1';
 
     private array $vars = [];
-
-    protected bool $debug;
-
-    protected int $timeout;
 
     /**
      * Create a new action instance.
@@ -51,6 +50,7 @@ final class Send360dialogWhatsAppAction
      * Execute the action.
      *
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
+     *
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
@@ -166,6 +166,7 @@ final class Send360dialogWhatsAppAction
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
      * @param  string  $url  URL del media
+     *
      * @return string Tipo di media (image, video, audio, document)
      */
     private function determineMediaType(string $url): string

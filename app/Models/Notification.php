@@ -30,6 +30,7 @@ use Modules\Xot\Models\BaseModel;
  * @property array<string>|string|null $channels
  * @property string|null $status
  * @property Carbon|null $sent_at
+ *
  * @property-read Model|null $creator
  * @property-read Model|null $updater
  *

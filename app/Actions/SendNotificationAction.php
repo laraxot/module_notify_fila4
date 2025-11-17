@@ -6,7 +6,6 @@ namespace Modules\Notify\Actions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Notifications\GenericNotification;
@@ -55,7 +54,7 @@ class SendNotificationAction
 
         // Determina i canali da utilizzare
         $templateChannels = $template->getAttribute('channels') ?? [];
-        $effectiveChannels = $channels ?: $templateChannels;
+        $effectiveChannels = $channels ? $channels : $templateChannels;
 
         // Assicurati che i canali siano stringhe valide
         $filteredChannels = [];
@@ -128,7 +127,7 @@ class SendNotificationAction
             $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
             $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
             $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-            $body = $bodyHtml ?: $bodyText;
+            $body = $bodyHtml ? $bodyHtml : $bodyText;
 
             /** @var array<string, mixed> $mergedOptions */
             $mergedOptions = array_merge($options, [
@@ -146,7 +145,7 @@ class SendNotificationAction
             $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
             $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
             $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
-            $body = $bodyHtml ?: $bodyText;
+            $body = $bodyHtml ? $bodyHtml : $bodyText;
 
             /** @var array<string, mixed> $mergedOptions */
             $mergedOptions = array_merge($options, [
@@ -173,7 +172,7 @@ class SendNotificationAction
         $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
         $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
         $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-        $message = $bodyText ?: strip_tags($bodyHtml);
+        $message = $bodyText ? $bodyText : strip_tags($bodyHtml);
 
         Notification::send($recipient, new GenericNotification(
             $subject,
@@ -203,7 +202,7 @@ class SendNotificationAction
         // Usa il testo plain o una versione senza HTML
         $bodyTextRaw = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
         $bodyHtmlRaw = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
-        $bodyText = $bodyTextRaw ?: strip_tags($bodyHtmlRaw);
+        $bodyText = $bodyTextRaw ? $bodyTextRaw : strip_tags($bodyHtmlRaw);
 
         // Limita la lunghezza del messaggio SMS (tipicamente 160 caratteri)
         $maxLength = 160;

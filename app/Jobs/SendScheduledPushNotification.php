@@ -26,7 +26,8 @@ class SendScheduledPushNotification implements ShouldQueue
 
     public function __construct(
         private string $jobId
-    ) {}
+    ) {
+    }
 
     /**
      * Execute the job.
@@ -71,7 +72,6 @@ class SendScheduledPushNotification implements ShouldQueue
 
             // Rimuovi notifica programmata
             Cache::forget("scheduled_push:{$this->jobId}");
-
         } catch (\Exception $e) {
             Log::error('Scheduled push notification failed', [
                 'job_id' => $this->jobId,

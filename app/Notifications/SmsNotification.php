@@ -44,7 +44,7 @@ class SmsNotification extends Notification implements ShouldQueue
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
 
-            $this->smsData = new SmsData;
+            $this->smsData = new SmsData();
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
             $this->smsData->to = (string) $to;
@@ -59,6 +59,7 @@ class SmsNotification extends Notification implements ShouldQueue
      * Get the notification's delivery channels.
      *
      * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     *
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array

@@ -10,13 +10,18 @@ use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
-use Spatie\QueueableAction\QueueableAction;
-
 use function Safe\preg_replace;
+use Spatie\QueueableAction\QueueableAction;
 
 final class SendNetfunSMSAction implements SmsActionContract
 {
     use QueueableAction;
+
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $defaultSender = null;
 
     private string $token;
 
@@ -24,12 +29,6 @@ final class SendNetfunSMSAction implements SmsActionContract
 
     /** @var array<string, mixed> */
     private array $vars = [];
-
-    protected bool $debug;
-
-    protected int $timeout;
-
-    protected ?string $defaultSender = null;
 
     /**
      * Create a new action instance.
@@ -50,13 +49,14 @@ final class SendNetfunSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('sms.debug', false);
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
     }
 
     /**
      * Execute the action.
      *
      * @param  SmsData  $smsData  I dati del messaggio SMS
+     *
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
@@ -71,7 +71,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
-            $to = $to !== '' ? ('+'.mb_substr($to, 2)) : $to;
+            $to = $to !== '' ? '+'.mb_substr($to, 2) : $to;
         }
         if (! Str::startsWith($to, '+')) {
             $to = '+39'.$to;
@@ -111,12 +111,14 @@ final class SendNetfunSMSAction implements SmsActionContract
      * Normalizza il numero di telefono nel formato E.164
      *
      * @param  string  $phoneNumber  Numero di telefono da normalizzare
+     *
      * @return string Numero di telefono normalizzato in formato E.164
      */
     /**
      * Normalizza il numero di telefono nel formato E.164
      *
      * @param  string  $phoneNumber  Numero di telefono da normalizzare
+     *
      * @return string Numero di telefono normalizzato in formato E.164
      */
     protected function normalizePhoneNumber(string $phoneNumber): string

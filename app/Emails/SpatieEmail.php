@@ -14,27 +14,26 @@ use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 use Modules\Xot\Datas\MetatagData;
 use Modules\Xot\Datas\XotData;
 use Mustache_Engine;
+use function Safe\file_get_contents;
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\TemplateMailable;
 use Webmozart\Assert\Assert;
-
-use function Safe\file_get_contents;
 
 /**
  * @see https://github.com/spatie/laravel-database-mail-templates
  */
 class SpatieEmail extends TemplateMailable
 {
+
+    public string $slug;
+
+    public array $data = [];
     // use our custom mail template model
     /** @var class-string<MailTemplateInterface> */
     protected static $templateModelClass = MailTemplate::class;
 
-    public string $slug;
-
     /** @var array<int, Attachment> */
     protected array $customAttachments = [];
-
-    public array $data = [];
 
     /**
      * The email recipient
@@ -177,9 +176,7 @@ class SpatieEmail extends TemplateMailable
             $mime = is_string($detectedMime) ? $detectedMime : 'application/octet-stream';
         }
 
-        $res = $res->as($filename)->withMime($mime);
-
-        return $res;
+        return $res->as($filename)->withMime($mime);
     }
 
     /**
@@ -200,9 +197,7 @@ class SpatieEmail extends TemplateMailable
         // Determina MIME type
         $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
 
-        $res = $res->as($filename)->withMime($mime);
-
-        return $res;
+        return $res->as($filename)->withMime($mime);
     }
 
     /**

@@ -8,7 +8,6 @@ use Exception;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendNotificationAction;
-use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Models\NotificationTemplate;
 
 class NotificationManager
@@ -56,6 +55,7 @@ class NotificationManager
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+     *
      * @return array<array>
      */
     public function sendMultiple(
@@ -90,9 +90,10 @@ class NotificationManager
      * Recupera i template per categoria.
      *
      * @param  string  $category  La categoria dei template
+     *
      * @return Collection<NotificationTemplate>
      */
-    public function getTemplatesByCategory(string $category)
+    public function getTemplatesByCategory(string $category): Collection
     {
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
     }
@@ -101,9 +102,10 @@ class NotificationManager
      * Recupera i template per canale.
      *
      * @param  string  $channel  Il canale di notifica
+     *
      * @return Collection<NotificationTemplate>
      */
-    public function getTemplatesByChannel(string $channel)
+    public function getTemplatesByChannel(string $channel): Collection
     {
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
     }
@@ -112,6 +114,7 @@ class NotificationManager
      * Recupera le statistiche di invio per un template.
      *
      * @param  NotificationTemplate  $_template  Template delle notifiche Il template
+     *
      * @return array<string, mixed>
      */
     public function getTemplateStats(NotificationTemplate $_template): array
@@ -141,6 +144,7 @@ class NotificationManager
      * Recupera le statistiche di invio per un destinatario.
      *
      * @param  Model  $_recipient  Il destinatario
+     *
      * @return array<string, mixed>
      */
     public function getRecipientStats(Model $_recipient): array

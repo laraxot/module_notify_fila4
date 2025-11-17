@@ -45,6 +45,7 @@ final class SendNexmoSMSAction implements SmsActionContract
      * Execute the action.
      *
      * @param  SmsData  $smsData  I dati del messaggio SMS
+     *
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
@@ -58,7 +59,7 @@ final class SendNexmoSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
-            $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
+            $to = $to !== '' ? '+'.substr($to, 2) : $to;
         }
 
         if (! Str::startsWith($to, '+')) {
