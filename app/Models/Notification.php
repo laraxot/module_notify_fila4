@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 =======
@@ -13,6 +14,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\NotificationFactory;
 >>>>>>> 8bc2fc9f (first)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+>>>>>>> 20a3d3b (.)
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -41,6 +46,7 @@ use Modules\Xot\Models\BaseModel;
  * @property-read Model|null $updater
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
@@ -60,6 +66,8 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereUpdatedBy($value)
  *
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -86,9 +94,12 @@ class Notification extends BaseModel
      * @return array<string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[\Override]
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     protected function casts(): array
     {
         return [

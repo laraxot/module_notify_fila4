@@ -6,10 +6,15 @@ namespace Modules\Notify\Models;
 
 use Illuminate\Support\Carbon;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+>>>>>>> 20a3d3b (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -55,6 +60,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property int|null $order_column
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
  * @mixin Eloquent
  *
  * @property string|null $email
@@ -64,8 +72,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
  * @mixin IdeHelperContact
  * @mixin \Eloquent
  */
@@ -87,10 +98,13 @@ class Contact extends BaseModel
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /** @return array<string, string> */
     #[\Override]
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     protected function casts(): array
     {
         return [

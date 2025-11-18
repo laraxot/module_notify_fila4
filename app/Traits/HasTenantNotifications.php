@@ -48,6 +48,7 @@ trait HasTenantNotifications
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * Ottiene l'ID del tenant corrente.
      */
@@ -61,6 +62,8 @@ trait HasTenantNotifications
 
     /**
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
      * Verifica se il modello appartiene al tenant specificato.
      */
     public function belongsToTenant(string $tenantId): bool
@@ -82,26 +85,37 @@ trait HasTenantNotifications
     public static function bootHasTenantNotifications(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         static::creating(function (Model $model): void {
 =======
         static::creating(function (Model $model) {
 >>>>>>> 8bc2fc9f (first)
+=======
+        static::creating(function (Model $model): void {
+>>>>>>> 20a3d3b (.)
             if (! isset($model->tenant_id)) {
                 $model->tenant_id = $model->getTenantId();
             }
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         static::addGlobalScope('tenant', function (Builder $builder): void {
 =======
         static::addGlobalScope('tenant', function (Builder $builder) {
 >>>>>>> 8bc2fc9f (first)
+=======
+        static::addGlobalScope('tenant', function (Builder $builder): void {
+>>>>>>> 20a3d3b (.)
             /** @var Model $model */
             $model = $builder->getModel();
             $builder->where($model->getTable().'.tenant_id', $model->getTenantId());
         });
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
 
     /**
      * Ottiene l'ID del tenant corrente.
@@ -113,6 +127,9 @@ trait HasTenantNotifications
 
         return $tenantManager->getTenantId();
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
 }

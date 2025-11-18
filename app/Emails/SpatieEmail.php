@@ -7,10 +7,14 @@ namespace Modules\Notify\Emails;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailables\Attachment;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Mail\Mailables\Envelope;
 =======
 use Illuminate\Support\Arr;
 >>>>>>> 8bc2fc9f (first)
+=======
+use Illuminate\Mail\Mailables\Envelope;
+>>>>>>> 20a3d3b (.)
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Notify\Models\MailTemplate;
@@ -21,9 +25,12 @@ use Mustache_Engine;
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\TemplateMailable;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Symfony\Component\Mime\MimeTypes;
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\file_get_contents;
@@ -34,16 +41,23 @@ use function Safe\file_get_contents;
 class SpatieEmail extends TemplateMailable
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
     public string $slug;
 
     public array $data = [];
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     // use our custom mail template model
     /** @var class-string<MailTemplateInterface> */
     protected static $templateModelClass = MailTemplate::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /** @var array<int, Attachment> */
     protected array $customAttachments = [];
@@ -57,6 +71,11 @@ class SpatieEmail extends TemplateMailable
     public array $data = [];
 
 >>>>>>> 8bc2fc9f (first)
+=======
+    /** @var array<int, Attachment> */
+    protected array $customAttachments = [];
+
+>>>>>>> 20a3d3b (.)
     /**
      * The email recipient
      */
@@ -135,6 +154,9 @@ class SpatieEmail extends TemplateMailable
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
     /**
      * Get the message envelope.
      */
@@ -148,8 +170,11 @@ class SpatieEmail extends TemplateMailable
         );
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     public function getHtmlLayout(): string
     {
         // $pathToLayout = storage_path('mail-layouts/main.html');
@@ -202,6 +227,7 @@ class SpatieEmail extends TemplateMailable
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $res->as($filename)->withMime($mime);
     }
 
@@ -215,6 +241,14 @@ class SpatieEmail extends TemplateMailable
     }
 
 >>>>>>> 8bc2fc9f (first)
+=======
+        return $res->as($filename)->withMime($mime);
+    }
+
+    /**
+     * @param  array<string, string>  $attachment
+     */
+>>>>>>> 20a3d3b (.)
     public function getAttachmentFromData(array $attachment): Attachment
     {
         // Valida e tipizza parametri
@@ -231,12 +265,16 @@ class SpatieEmail extends TemplateMailable
         $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $res->as($filename)->withMime($mime);
 =======
         $res = $res->as($filename)->withMime($mime);
 
         return $res;
 >>>>>>> 8bc2fc9f (first)
+=======
+        return $res->as($filename)->withMime($mime);
+>>>>>>> 20a3d3b (.)
     }
 
     /**

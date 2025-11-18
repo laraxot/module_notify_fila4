@@ -72,6 +72,7 @@ trait HasNotificationTracking
     {
         $html = $this->addLinkTracking($html, $trackingId);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return $this->addTrackingPixel($html, $trackingId);
 =======
@@ -79,6 +80,10 @@ trait HasNotificationTracking
 
         return $html;
 >>>>>>> 8bc2fc9f (first)
+=======
+
+        return $this->addTrackingPixel($html, $trackingId);
+>>>>>>> 20a3d3b (.)
     }
 
     /**

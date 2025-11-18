@@ -7,6 +7,7 @@ namespace Modules\Notify\Notifications;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Emails\SpatieEmail;
@@ -39,43 +40,42 @@ class RecordNotification extends Notification
         $channels = [];
 =======
 use Illuminate\Support\Str;
+=======
+>>>>>>> 20a3d3b (.)
 use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Emails\SpatieEmail;
-use Modules\Notify\Models\MailTemplate;
 
+/**
+ * Notifica che utilizza i template Mail/SMS configurati nel modulo Notify.
+ */
 class RecordNotification extends Notification
 {
-    protected Model $record;
-
-    protected string $slug;
-
     /**
-     * @var array<string, mixed>
+     * @param  array<string, mixed>  $data
+     * @param  array<int, array<string, string>>  $attachments
      */
-    protected array $data = [];
+    public function __construct(
+        protected readonly Model $record,
+        protected readonly string $slug,
+        protected array $data = [],
+        protected array $attachments = [],
+    ) {}
 
     /**
-     * @var array<int, array<string, string>>
-     */
-    protected array $attachments = [];
-
-    public function __construct(Model $record, string $slug)
-    {
-        $this->record = $record;
-        $this->slug = $slug;
-    }
-
-    /**
-     * @return array<string|class-string>
+     * @return array<int, string|class-string>
      */
     public function via(object $notifiable): array
     {
-        $channels = [];
         if (! method_exists($notifiable, 'routeNotificationFor')) {
-            return $channels;
+            return [];
         }
+<<<<<<< HEAD
 >>>>>>> 8bc2fc9f (first)
+=======
+
+        $channels = [];
+>>>>>>> 20a3d3b (.)
         if ($notifiable->routeNotificationFor('mail')) {
             $channels[] = 'mail';
         }
@@ -86,6 +86,7 @@ class RecordNotification extends Notification
         return $channels;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function toMail(object $notifiable): SpatieEmail
     {
@@ -101,20 +102,24 @@ class RecordNotification extends Notification
      * @param  object  $notifiable
      */
     public function toMail($notifiable): SpatieEmail
+=======
+    public function toMail(object $notifiable): SpatieEmail
+>>>>>>> 20a3d3b (.)
     {
-        $email = new SpatieEmail($this->record, $this->slug);
-        $email = $email->mergeData($this->data);
+        $email = (new SpatieEmail($this->record, $this->slug))
+            ->mergeData($this->data)
+            ->addAttachments($this->attachments);
 
-        $email = $email->addAttachments($this->attachments);
-
-        // Importante: garantisci che ci sia sempre un destinatario
         if (method_exists($notifiable, 'routeNotificationFor')) {
-            // Ottieni l'email dal notifiable
             $recipient = $notifiable->routeNotificationFor('mail');
+<<<<<<< HEAD
 
             // Valida che sia una stringa valida
             if (is_string($recipient) && ! empty($recipient)) {
 >>>>>>> 8bc2fc9f (first)
+=======
+            if (is_string($recipient) && $recipient !== '') {
+>>>>>>> 20a3d3b (.)
                 $email->to($recipient);
             }
         }
@@ -122,6 +127,7 @@ class RecordNotification extends Notification
         return $email;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function toSms(object $notifiable): ?SmsData
     {
@@ -139,10 +145,15 @@ class RecordNotification extends Notification
         // we'll use that to get the destination phone number
         // dddx($notifiable);//Illuminate\Notifications\AnonymousNotifiable
 >>>>>>> 8bc2fc9f (first)
+=======
+    public function toSms(object $notifiable): ?SmsData
+    {
+>>>>>>> 20a3d3b (.)
         $recipient = null;
         if (method_exists($notifiable, 'routeNotificationFor')) {
             $recipient = $notifiable->routeNotificationFor('sms');
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         if ($recipient === null) {
@@ -171,23 +182,36 @@ class RecordNotification extends Notification
         if (is_string($fallbackRecipient)) {
             $recipient = $fallbackRecipient;
         }
+=======
+
+>>>>>>> 20a3d3b (.)
         if ($recipient === null) {
+            $fallbackRecipient = config('sms.fallback_to');
+            if (is_string($fallbackRecipient) && $fallbackRecipient !== '') {
+                $recipient = $fallbackRecipient;
+            }
+        }
+
+        if (! is_string($recipient) || $recipient === '') {
             return null;
         }
 
-        $smsData = SmsData::from([
-            'from' => 'Xot',
+        $email = (new SpatieEmail($this->record, $this->slug))->mergeData($this->data);
+
+        return SmsData::from([
+            'from' => config('sms.from', 'Xot'),
             'to' => $recipient,
             'body' => $email->buildSms(),
         ]);
-
-        return $smsData;
     }
 
     /**
+<<<<<<< HEAD
      * Merge additional data for email template.
      *
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
      * @param  array<string, mixed>  $data
      */
     public function mergeData(array $data): self
@@ -199,10 +223,13 @@ class RecordNotification extends Notification
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * Add attachments to the notification.
      *
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
      * @param  array<int, array<string, string>>  $attachments
      */
     public function addAttachments(array $attachments): self

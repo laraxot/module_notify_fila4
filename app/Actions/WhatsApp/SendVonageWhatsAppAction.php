@@ -18,14 +18,20 @@ final class SendVonageWhatsAppAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
     protected bool $debug;
 
     protected int $timeout;
 
     protected ?string $defaultSender;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     private string $apiKey;
 
     private string $apiSecret;
@@ -35,6 +41,7 @@ final class SendVonageWhatsAppAction
     private array $vars = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     protected bool $debug;
 
@@ -43,6 +50,8 @@ final class SendVonageWhatsAppAction
     protected ?string $defaultSender;
 
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     /**
      * Create a new action instance.
      */
@@ -66,10 +75,14 @@ final class SendVonageWhatsAppAction
         $this->defaultSender = $defaultSender;
         $this->debug = (bool) config('whatsapp.debug', false);
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
 =======
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> 8bc2fc9f (first)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> 20a3d3b (.)
     }
 
     /**

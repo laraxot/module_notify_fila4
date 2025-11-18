@@ -39,10 +39,14 @@ class MailTemplateResource extends LangBaseResource
                         ->label('Nome Template')
                         ->required()
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
 =======
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
 >>>>>>> 8bc2fc9f (first)
+=======
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
+>>>>>>> 20a3d3b (.)
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -52,12 +56,16 @@ class MailTemplateResource extends LangBaseResource
                 ])
                 ->columns(2),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
             'subject' => TextInput::make('subject')
                 ->required()
                 ->maxLength(255),
             'html_template' => RichEditor::make('html_template')
                 ->required()
                 ->columnSpanFull(),
+<<<<<<< HEAD
             'params_display' => View::make('notify::filament.components.params-badges')
                 ->viewData(fn ($record): array => [
                     'params' => is_object($record) && isset($record->params) ? $record->params : [],
@@ -72,13 +80,25 @@ class MailTemplateResource extends LangBaseResource
 =======
             'subject' => TextInput::make('subject')->required()->maxLength(255),
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
+=======
+>>>>>>> 20a3d3b (.)
             'params_display' => View::make('notify::filament.components.params-badges')
-                ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
+                ->viewData(fn ($record): array => [
+                    'params' => is_object($record) && isset($record->params) ? $record->params : [],
+                ])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+<<<<<<< HEAD
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
 >>>>>>> 8bc2fc9f (first)
+=======
+            'text_template' => Textarea::make('text_template')
+                ->maxLength(65535)
+                ->columnSpanFull(),
+            'sms_template' => Textarea::make('sms_template')
+                ->columnSpanFull(),
+>>>>>>> 20a3d3b (.)
         ];
     }
 }

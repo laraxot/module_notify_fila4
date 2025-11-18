@@ -5,10 +5,15 @@ declare(strict_types=1);
 ?>
 <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <tr>
 <tr>
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+<tr>
+<tr>
+>>>>>>> 20a3d3b (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -19,6 +24,9 @@ declare(strict_types=1);
 				<td class="w560" width="560">
 					<div class="article-content" align="left">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
 					<div class="article-content" align="left">
 					<div class="article-content" align="left">
 					<div class="article-content" align="left">
@@ -32,5 +40,8 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 					<div class="article-content" align="left">
 					<div class="article-content" align="left">
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)

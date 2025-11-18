@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Xot\Models\XotBaseModel;
 =======
@@ -14,12 +15,16 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> 8bc2fc9f (first)
 use Modules\Xot\Traits\Updater;
+=======
+use Modules\Xot\Models\XotBaseModel;
+>>>>>>> 20a3d3b (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
  * Class BaseModel.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
@@ -30,10 +35,12 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     use SoftDeletes;
 =======
 abstract class BaseModel extends Model implements HasMedia
+=======
+abstract class BaseModel extends XotBaseModel implements HasMedia
+>>>>>>> 20a3d3b (.)
 {
-    // use Searchable;
-    use \Modules\Xot\Models\Traits\HasXotFactory;
     use InteractsWithMedia;
+<<<<<<< HEAD
 >>>>>>> 8bc2fc9f (first)
     use Updater;
 
@@ -54,10 +61,13 @@ abstract class BaseModel extends Model implements HasMedia
 
     /** @var int */
     protected $perPage = 30;
+=======
+>>>>>>> 20a3d3b (.)
 
     /** @var string */
     protected $connection = 'notify';
 
+<<<<<<< HEAD
     /** @var list<string> */
     protected $appends = [];
 
@@ -77,6 +87,8 @@ abstract class BaseModel extends Model implements HasMedia
    
 
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     /** @return array<string, string> */
     protected function casts(): array
     {

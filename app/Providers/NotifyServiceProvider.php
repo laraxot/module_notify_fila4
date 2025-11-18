@@ -20,9 +20,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     protected string $module_ns = __NAMESPACE__;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[\Override]
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     public function boot(): void
     {
         parent::boot();

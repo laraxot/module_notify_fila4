@@ -36,6 +36,7 @@ class ConfigHelper
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * Sostituisce ricorsivamente le variabili template in un array.
      *
@@ -78,6 +79,8 @@ class ConfigHelper
 
     /**
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
      * Ottiene un valore di configurazione con sostituzione delle variabili template.
      */
     public static function get(string $key, mixed $default = null): mixed
@@ -184,6 +187,9 @@ class ConfigHelper
         return self::replaceTemplateVariables($safePathConfig);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
 
     /**
      * Sostituisce ricorsivamente le variabili template in un array.
@@ -224,6 +230,9 @@ class ConfigHelper
 
         return $string;
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
 }

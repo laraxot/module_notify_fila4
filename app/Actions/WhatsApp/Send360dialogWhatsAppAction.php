@@ -19,12 +19,18 @@ final class Send360dialogWhatsAppAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
     protected bool $debug;
 
     protected int $timeout;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     private string $apiKey;
 
     private string $baseUrl = 'https://waba.360dialog.io/v1';
@@ -32,12 +38,15 @@ final class Send360dialogWhatsAppAction
     private array $vars = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     protected bool $debug;
 
     protected int $timeout;
 
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     /**
      * Create a new action instance.
      */

@@ -8,21 +8,28 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Log;
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
     private NexmoData $nexmoData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     private ?string $defaultSender = null;
@@ -31,6 +38,11 @@ final class SendNexmoSMSAction implements SmsActionContract
     private ?string $defaultSender = null;
     
 >>>>>>> 8bc2fc9f (first)
+=======
+
+    private ?string $defaultSender = null;
+
+>>>>>>> 20a3d3b (.)
     /** @var array<string, mixed> */
     private array $vars = [];
 
@@ -63,9 +75,12 @@ final class SendNexmoSMSAction implements SmsActionContract
      * @throws Exception In caso di errore durante l'invio
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[\Override]
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -76,10 +91,14 @@ final class SendNexmoSMSAction implements SmsActionContract
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = $to !== '' ? '+'.substr($to, 2) : $to;
 =======
             $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
 >>>>>>> 8bc2fc9f (first)
+=======
+            $to = $to !== '' ? '+'.substr($to, 2) : $to;
+>>>>>>> 20a3d3b (.)
         }
 
         if (! Str::startsWith($to, '+')) {

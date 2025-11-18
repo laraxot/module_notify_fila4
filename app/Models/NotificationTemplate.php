@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Blade;
 use Modules\Notify\Enums\NotificationTypeEnum;
@@ -12,16 +13,18 @@ use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 =======
 use Carbon\Carbon;
+=======
+>>>>>>> 20a3d3b (.)
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Blade;
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+<<<<<<< HEAD
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
 use Spatie\Translatable\HasTranslations;
 
 /**
@@ -34,14 +37,20 @@ class NotificationTemplate extends BaseModel implements HasMedia
     use InteractsWithMedia;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
     public array $translatable = [
         'subject',
         'body_text',
         'body_html',
     ];
 
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     protected $fillable = [
         'name',
         'code',
@@ -62,6 +71,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         'type',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     /**
@@ -93,11 +103,14 @@ class NotificationTemplate extends BaseModel implements HasMedia
     ];
 
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     public function registerMediaCollections(): void
     {
         $this->addMediaCollection('attachments')->singleFile();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     /*
@@ -138,6 +151,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * }
      */
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
     /**
      * Compile the template with the given data.
      *
@@ -149,6 +164,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
         $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
         $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
@@ -159,6 +175,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
         
 >>>>>>> 8bc2fc9f (first)
+=======
+
+        $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
+        $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
+
+>>>>>>> 20a3d3b (.)
         $bodyTextTranslation = $this->getTranslation('body_text', app()->getLocale());
         $bodyText = is_string($bodyTextTranslation) ? $bodyTextTranslation : null;
 
@@ -201,6 +223,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      * Compile a string template with the given data.
      *
@@ -218,6 +241,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
     /**
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
      * Preview the template with the given data.
      *
      * @param  array<string, mixed>  $data  Additional data to merge with preview data
@@ -241,6 +266,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include active templates.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function scopeActive(Builder $query): Builder
 =======
@@ -250,12 +276,17 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function scopeActive($query)
 >>>>>>> 8bc2fc9f (first)
+=======
+     */
+    public function scopeActive(Builder $query): Builder
+>>>>>>> 20a3d3b (.)
     {
         return $query->where('is_active', true);
     }
 
     /**
      * Scope a query to only include templates for a specific channel.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function scopeForChannel(Builder $query, string $channel): Builder
@@ -266,12 +297,17 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function scopeForChannel($query, string $channel)
 >>>>>>> 8bc2fc9f (first)
+=======
+     */
+    public function scopeForChannel(Builder $query, string $channel): Builder
+>>>>>>> 20a3d3b (.)
     {
         return $query->whereJsonContains('channels', $channel);
     }
 
     /**
      * Scope a query to only include templates for a specific category.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function scopeForCategory(Builder $query, string $category): Builder
@@ -282,6 +318,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function scopeForCategory($query, string $category)
 >>>>>>> 8bc2fc9f (first)
+=======
+     */
+    public function scopeForCategory(Builder $query, string $category): Builder
+>>>>>>> 20a3d3b (.)
     {
         return $query->where('category', $category);
     }
@@ -314,6 +354,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, mixed> $data */
         return $data;
 =======
@@ -322,6 +363,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
         return $safeData;
 >>>>>>> 8bc2fc9f (first)
+=======
+        /** @var array<string, mixed> $data */
+        return $data;
+>>>>>>> 20a3d3b (.)
     }
 
     /**
@@ -367,6 +412,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
         return is_string($result) ? $result : '';
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
 
     /**
      * Get the attributes that should be cast.
@@ -403,6 +451,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
         return Blade::render($template, $data);
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)
 }

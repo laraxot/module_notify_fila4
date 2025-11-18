@@ -24,10 +24,14 @@ class BuildMailMessageAction
         Model $model,
         array $view_params = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?DataCollection $dataCollection = null,
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 8bc2fc9f (first)
+=======
+        ?DataCollection $dataCollection = null,
+>>>>>>> 20a3d3b (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -37,11 +41,15 @@ class BuildMailMessageAction
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20a3d3b (.)
         $params = [
             'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
             'from_name' => $theme->view_params['from'] ?? $theme->from,
             'subject' => $view_params['subject'] ?? $theme->subject,
         ];
+<<<<<<< HEAD
 
         Assert::keyExists($params, 'from_address');
         Assert::keyExists($params, 'from_name');
@@ -57,12 +65,17 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
+=======
+>>>>>>> 20a3d3b (.)
 
-        // Utilizziamo asserzioni per verificare che i valori siano stringhe
-        if (!is_string($fromAddress)) {
-            $fromAddress = '';
-        }
+        Assert::keyExists($params, 'from_address');
+        Assert::keyExists($params, 'from_name');
+        Assert::keyExists($params, 'subject');
+        Assert::string($params['from_address'], 'from_address must be string');
+        Assert::nullOrString($params['from_name'], 'from_name must be string or null');
+        Assert::string($params['subject'], 'subject must be string');
 
+<<<<<<< HEAD
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
@@ -76,6 +89,11 @@ class BuildMailMessageAction
             ->from($fromAddress, $fromName)
             ->subject($subject)
 >>>>>>> 8bc2fc9f (first)
+=======
+        $email = (new MailMessage)
+            ->from($params['from_address'], $params['from_name'])
+            ->subject($params['subject'])
+>>>>>>> 20a3d3b (.)
             ->view($view_html, $theme->view_params);
 
         if ($dataCollection instanceof DataCollection) {

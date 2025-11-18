@@ -38,6 +38,7 @@ class EmailDataEmail extends Mailable
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return new Envelope(
             from: new Address($this->email_data->from_email, $this->email_data->from),
             subject: $this->email_data->subject,
@@ -50,6 +51,12 @@ class EmailDataEmail extends Mailable
 
         return $envelope;
 >>>>>>> 8bc2fc9f (first)
+=======
+        return new Envelope(
+            from: new Address($this->email_data->from_email, $this->email_data->from),
+            subject: $this->email_data->subject,
+        );
+>>>>>>> 20a3d3b (.)
     }
 
     /**
