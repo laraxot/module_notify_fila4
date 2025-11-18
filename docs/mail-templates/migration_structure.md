@@ -3,6 +3,7 @@
 ## Informazioni Generali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 =======
 <<<<<<< HEAD
@@ -11,6 +12,9 @@
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+- **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
+>>>>>>> 8bc2fc9f (first)
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`
 

@@ -83,6 +83,7 @@ Per identificare i file che non rispettano questa convenzione, è possibile util
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 =======
 <<<<<<< HEAD
@@ -91,6 +92,9 @@ find /var/www/html/<directory progetto>/laravel/Modules -type f -name "*[A-Z][A-
 find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
+>>>>>>> 8bc2fc9f (first)
 ```
 
 ## Riferimenti

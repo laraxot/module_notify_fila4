@@ -1,6 +1,7 @@
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
@@ -14,13 +15,18 @@ Questo documento descrive il piano di pulizia e standardizzazione delle traduzio
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 =======
+=======
+>>>>>>> 8bc2fc9f (first)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+>>>>>>> 8bc2fc9f (first)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

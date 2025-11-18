@@ -30,6 +30,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    $attachments = [
        [
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -38,11 +39,15 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 8bc2fc9f (first)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -51,6 +56,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 8bc2fc9f (first)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

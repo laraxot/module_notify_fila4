@@ -8,6 +8,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services\MailEngines;
 
+<<<<<<< HEAD
+=======
+use ErrorException;
+use Exception;
+>>>>>>> 8bc2fc9f (first)
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
 use InvalidArgumentException;
@@ -67,7 +72,11 @@ class MailtrapEngine
         // Mail::raw('Hello World!', function($msg) {$msg->to('vair81@gmail.com')->subject('Test Email'); });
 
         // try {
+<<<<<<< HEAD
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+=======
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 8bc2fc9f (first)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;

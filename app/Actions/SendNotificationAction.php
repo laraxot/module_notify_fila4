@@ -6,6 +6,10 @@ namespace Modules\Notify\Actions;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Log;
+>>>>>>> 8bc2fc9f (first)
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Notifications\GenericNotification;
@@ -25,8 +29,13 @@ class SendNotificationAction
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
+<<<<<<< HEAD
      * @param  array<int, string>  $channels  I canali da utilizzare
      * @param  array<string, mixed>  $options  Opzioni aggiuntive
+=======
+     * @param  array<int, string>  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
+     * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+>>>>>>> 8bc2fc9f (first)
      *
      * @throws Exception Se il template non esiste o non è attivo
      */
@@ -54,7 +63,11 @@ class SendNotificationAction
 
         // Determina i canali da utilizzare
         $templateChannels = $template->getAttribute('channels') ?? [];
+<<<<<<< HEAD
         $effectiveChannels = $channels ? $channels : $templateChannels;
+=======
+        $effectiveChannels = $channels ?: $templateChannels;
+>>>>>>> 8bc2fc9f (first)
 
         // Assicurati che i canali siano stringhe valide
         $filteredChannels = [];
@@ -74,6 +87,10 @@ class SendNotificationAction
                 $this->sendViaChannel($recipient, $stringChannel, $compiled, $options);
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
+<<<<<<< HEAD
+=======
+                Log::error("Errore invio notifica via {$stringChannel}: ".$e->getMessage());
+>>>>>>> 8bc2fc9f (first)
 
                 continue;
             }
@@ -127,7 +144,11 @@ class SendNotificationAction
             $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
             $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
             $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
+<<<<<<< HEAD
             $body = $bodyHtml ? $bodyHtml : $bodyText;
+=======
+            $body = $bodyHtml ?: $bodyText;
+>>>>>>> 8bc2fc9f (first)
 
             /** @var array<string, mixed> $mergedOptions */
             $mergedOptions = array_merge($options, [
@@ -145,7 +166,11 @@ class SendNotificationAction
             $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
             $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
             $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
+<<<<<<< HEAD
             $body = $bodyHtml ? $bodyHtml : $bodyText;
+=======
+            $body = $bodyHtml ?: $bodyText;
+>>>>>>> 8bc2fc9f (first)
 
             /** @var array<string, mixed> $mergedOptions */
             $mergedOptions = array_merge($options, [
@@ -172,7 +197,11 @@ class SendNotificationAction
         $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');
         $bodyText = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
         $bodyHtml = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
+<<<<<<< HEAD
         $message = $bodyText ? $bodyText : strip_tags($bodyHtml);
+=======
+        $message = $bodyText ?: strip_tags($bodyHtml);
+>>>>>>> 8bc2fc9f (first)
 
         Notification::send($recipient, new GenericNotification(
             $subject,
@@ -202,12 +231,20 @@ class SendNotificationAction
         // Usa il testo plain o una versione senza HTML
         $bodyTextRaw = is_string($compiled['body_text'] ?? null) ? $compiled['body_text'] : '';
         $bodyHtmlRaw = is_string($compiled['body_html'] ?? null) ? $compiled['body_html'] : '';
+<<<<<<< HEAD
         $bodyText = $bodyTextRaw ? $bodyTextRaw : strip_tags($bodyHtmlRaw);
 
         // Limita la lunghezza del messaggio SMS (tipicamente 160 caratteri)
         $maxLength = 160;
         if (mb_strlen($bodyText) > $maxLength) {
             $bodyText = mb_substr($bodyText, 0, $maxLength - 3).'...';
+=======
+        $bodyText = $bodyTextRaw ?: strip_tags($bodyHtmlRaw);
+
+        // Limita la lunghezza del messaggio SMS
+        if (mb_strlen($bodyText) > 320) {
+            $bodyText = mb_substr($bodyText, 0, 317).'...';
+>>>>>>> 8bc2fc9f (first)
         }
 
         $subject = is_string($compiled['subject'] ?? null) ? $compiled['subject'] : (string) ($compiled['subject'] ?? '');

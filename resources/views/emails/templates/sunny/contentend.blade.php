@@ -14,6 +14,7 @@ declare(strict_types=1);
 <tr>
 	<td colspan="3" height="30"></td>
 </tr>
+<<<<<<< HEAD
 </tr>
 </tr>
 </tr>
@@ -26,3 +27,5 @@ declare(strict_types=1);
 </tr>
 </tr>
 </tr>
+=======
+>>>>>>> 8bc2fc9f (first)

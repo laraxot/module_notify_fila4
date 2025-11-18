@@ -4,10 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 8bc2fc9f (first)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Media\Models\Media;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Database\Factories\MailTemplateLogFactory;
+>>>>>>> 8bc2fc9f (first)
 use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 
@@ -19,6 +27,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
  *
+<<<<<<< HEAD
+=======
+ * @method static MailTemplateLogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|MailTemplateLog newModelQuery()
+ * @method static Builder<static>|MailTemplateLog newQuery()
+ * @method static Builder<static>|MailTemplateLog query()
+ *
+>>>>>>> 8bc2fc9f (first)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
@@ -39,6 +55,7 @@ class MailTemplateLog extends BaseModel
         'clicked_at',
     ];
 
+<<<<<<< HEAD
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
@@ -49,11 +66,17 @@ class MailTemplateLog extends BaseModel
         return $this->morphTo();
     }
 
+=======
+>>>>>>> 8bc2fc9f (first)
     /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     protected function casts(): array
     {
         return [
@@ -66,4 +89,17 @@ class MailTemplateLog extends BaseModel
             'clicked_at' => 'datetime',
         ];
     }
+<<<<<<< HEAD
+=======
+
+    public function template(): BelongsTo
+    {
+        return $this->belongsTo(MailTemplate::class, 'template_id');
+    }
+
+    public function mailable(): MorphTo
+    {
+        return $this->morphTo();
+    }
+>>>>>>> 8bc2fc9f (first)
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
@@ -12,13 +13,18 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 
 In Laravel e <main module>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
 =======
+=======
+>>>>>>> 8bc2fc9f (first)
 # Convenzioni dei Path in Laravel e SaluteOra
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+>>>>>>> 8bc2fc9f (first)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -41,6 +47,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
 =======
 <<<<<<< HEAD
@@ -49,11 +56,15 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> 8bc2fc9f (first)
 ```
 
 **NON** in:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
 =======
@@ -63,6 +74,9 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> 8bc2fc9f (first)
 ```
 
 ## Perché è Importante
@@ -82,6 +96,7 @@ protected static string $view = 'notify::filament.pages.send-sms';
 
 // Il path fisico corrispondente sarà:
 <<<<<<< HEAD
+<<<<<<< HEAD
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 =======
 <<<<<<< HEAD
@@ -90,6 +105,9 @@ protected static string $view = 'notify::filament.pages.send-sms';
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> 8bc2fc9f (first)
 ```
 
 ## Verifica e Correzione

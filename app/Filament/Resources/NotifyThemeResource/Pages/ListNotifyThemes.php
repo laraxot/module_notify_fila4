@@ -13,6 +13,10 @@ class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     public function getTableColumns(): array
     {
         return [
@@ -33,6 +37,10 @@ class ListNotifyThemes extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     public function getTableFilters(): array
     {
         return [

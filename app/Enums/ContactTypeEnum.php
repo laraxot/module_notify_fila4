@@ -58,11 +58,21 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
 
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         return Arr::map(
+=======
+        $res = Arr::map(
+>>>>>>> 8bc2fc9f (first)
             ContactTypeEnum::cases(),
             function (ContactTypeEnum $item) {
                 return TextInput::make($item->value)->prefixIcon($item->getIcon());
             },
         );
+<<<<<<< HEAD
+=======
+
+        /** @var array $res */
+        return $res;
+>>>>>>> 8bc2fc9f (first)
     }
 }

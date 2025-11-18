@@ -19,18 +19,30 @@ final class SendOfficialTelegramAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     protected bool $debug;
 
     protected int $timeout;
 
     protected ?string $parseMode;
 
+=======
+>>>>>>> 8bc2fc9f (first)
     private string $token;
 
     private string $apiUrl;
 
     private array $vars = [];
 
+<<<<<<< HEAD
+=======
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $parseMode;
+
+>>>>>>> 8bc2fc9f (first)
     /**
      * Create a new action instance.
      */

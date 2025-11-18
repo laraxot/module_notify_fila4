@@ -37,10 +37,19 @@ class EmailDataEmail extends Mailable
             $this->email_data->from_email = $from_email;
         }
 
+<<<<<<< HEAD
         return new Envelope(
             from: new Address($this->email_data->from_email, $this->email_data->from),
             subject: $this->email_data->subject,
         );
+=======
+        $envelope = new Envelope(
+            from: new Address($this->email_data->from_email, $this->email_data->from),
+            subject: $this->email_data->subject,
+        );
+
+        return $envelope;
+>>>>>>> 8bc2fc9f (first)
     }
 
     /**

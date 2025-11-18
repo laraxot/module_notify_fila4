@@ -17,6 +17,7 @@
 ### Directory Fisiche (path su disco)
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 <<<<<<< HEAD
@@ -25,6 +26,9 @@
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 8bc2fc9f (first)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email

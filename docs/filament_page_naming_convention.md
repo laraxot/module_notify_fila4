@@ -54,6 +54,7 @@ Eseguire il seguente comando per trovare pagine non conformi:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
 =======
 <<<<<<< HEAD
@@ -62,6 +63,9 @@ find /var/www/html/<directory progetto>/laravel/Modules -path "*/Filament/*/Page
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> 8bc2fc9f (first)
 ```
 
 ## Riferimenti

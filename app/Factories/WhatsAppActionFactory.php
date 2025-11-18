@@ -22,6 +22,19 @@ final class WhatsAppActionFactory
      * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
      *
      * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
+<<<<<<< HEAD
+=======
+     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
+     *
+     * @throws Exception Se il driver specificato non è supportato
+     */
+    /**
+     * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
+     * Utilizza una formula per calcolare il nome della classe dell'azione.
+     *
+     * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
+     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
+>>>>>>> 8bc2fc9f (first)
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
@@ -32,10 +45,13 @@ final class WhatsAppActionFactory
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
+<<<<<<< HEAD
         if ($normalizedDriver === '') {
             $normalizedDriver = 'Twilio';
         }
 
+=======
+>>>>>>> 8bc2fc9f (first)
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 

@@ -8,16 +8,25 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
+=======
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 8bc2fc9f (first)
 use Modules\Notify\Datas\SMS\SmsFactorData;
 use Modules\Notify\Datas\SmsData;
 
 final class SendSmsFactorSMSAction implements SmsActionContract
 {
     private SmsFactorData $smsFactorData;
+<<<<<<< HEAD
 
     private ?string $defaultSender = null;
 
+=======
+    private ?string $defaultSender = null;
+    
+>>>>>>> 8bc2fc9f (first)
     /** @var array<string, mixed> */
     private array $vars = [];
 
@@ -45,6 +54,10 @@ final class SendSmsFactorSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();
@@ -52,7 +65,11 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
+<<<<<<< HEAD
             $to = $to !== '' ? '+'.substr($to, 2) : $to;
+=======
+            $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
+>>>>>>> 8bc2fc9f (first)
         }
 
         if (! Str::startsWith($to, '+')) {

@@ -4,6 +4,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8bc2fc9f (first)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 24 24"
@@ -17,6 +20,7 @@
     <path d="M9 17a3 3 0 0 0 6 0"/>
   </g>
   <circle cx="18.5" cy="5.5" r="2.5" fill="currentColor"/>
+<<<<<<< HEAD
 =======
 >>>>>>> 7cf73d1 (.)
 =======
@@ -380,3 +384,6 @@
 =======
 </svg>
 >>>>>>> 92ecc28 (.)
+=======
+</svg>
+>>>>>>> 8bc2fc9f (first)

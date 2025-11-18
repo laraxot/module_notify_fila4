@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
+<<<<<<< HEAD
+=======
+use Filament\Forms;
+>>>>>>> 8bc2fc9f (first)
 use Filament\Schemas\Components\Section;
 use Modules\Notify\Enums\ContactTypeEnum;
 
@@ -26,7 +30,13 @@ class ContactSection extends Section
 
     protected function getFormSchema(): array
     {
+<<<<<<< HEAD
         return ContactTypeEnum::getFormSchema();
+=======
+        $res = ContactTypeEnum::getFormSchema();
+
+        return $res;
+>>>>>>> 8bc2fc9f (first)
     }
 
     /*

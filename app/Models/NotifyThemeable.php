@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 use Modules\Xot\Models\BaseMorphPivot;
+=======
+>>>>>>> 8bc2fc9f (first)
 
 /**
  * Modules\Notify\Models\NotifyThemeable.
@@ -18,8 +21,11 @@ use Modules\Xot\Models\BaseMorphPivot;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+=======
+>>>>>>> 8bc2fc9f (first)
  *
  * @mixin IdeHelperNotifyThemeable
  * @mixin \Eloquent

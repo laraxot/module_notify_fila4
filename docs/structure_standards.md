@@ -17,6 +17,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
@@ -28,12 +29,17 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/SmsData.php
 =======
+=======
+>>>>>>> 8bc2fc9f (first)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SmsData.php
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+>>>>>>> 8bc2fc9f (first)
 ```
 
 ### ❌ ERRATO: ALTERNATIVE COMUNI MA ERRATE
@@ -58,6 +64,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Data*"
 =======
 <<<<<<< HEAD
@@ -66,10 +73,14 @@ find /var/www/html/<directory progetto>/laravel/Modules/Notify/app -type d -name
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
+>>>>>>> 8bc2fc9f (first)
 ```
 
 Questo restituirà:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SMS
@@ -82,6 +93,10 @@ Questo restituirà:
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
+>>>>>>> 8bc2fc9f (first)
 ```
 
 ## Esempi di Importazioni Corrette

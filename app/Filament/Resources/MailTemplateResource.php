@@ -38,7 +38,11 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
+<<<<<<< HEAD
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
+=======
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+>>>>>>> 8bc2fc9f (first)
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -47,6 +51,7 @@ class MailTemplateResource extends LangBaseResource
                         ->unique(ignoreRecord: true),
                 ])
                 ->columns(2),
+<<<<<<< HEAD
             'subject' => TextInput::make('subject')
                 ->required()
                 ->maxLength(255),
@@ -64,6 +69,16 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')
                 ->columnSpanFull(),
+=======
+            'subject' => TextInput::make('subject')->required()->maxLength(255),
+            'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
+            'params_display' => View::make('notify::filament.components.params-badges')
+                ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
+                ->columnSpanFull()
+                ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+            'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
+            'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
+>>>>>>> 8bc2fc9f (first)
         ];
     }
 }

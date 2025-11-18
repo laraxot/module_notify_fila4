@@ -6,6 +6,10 @@ namespace Modules\Notify\Datas;
 
 use Exception;
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
+=======
+use Modules\Tenant\Services\TenantService;
+>>>>>>> 8bc2fc9f (first)
 use Spatie\LaravelData\Data;
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport\Smtp\EsmtpTransport;
@@ -83,8 +87,14 @@ class SmtpData extends Data
         } catch (Exception $e) {
             throw new Exception('Errore durante la connessione SMTP: '.$e->getMessage());
         }
+<<<<<<< HEAD
 
         return new Mailer($transport);
+=======
+        $mailer = new Mailer($transport);
+
+        return $mailer;
+>>>>>>> 8bc2fc9f (first)
     }
 
     public function send(EmailData $emailData): void

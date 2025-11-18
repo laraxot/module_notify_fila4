@@ -52,7 +52,11 @@ class Get
 
         if ($theme->body_html === null) {
             $html = trans($trad_mod.'.body_html');
+<<<<<<< HEAD
             if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+=======
+            if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
+>>>>>>> 8bc2fc9f (first)
                 $html = '##body_html##';
             }
 

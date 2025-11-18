@@ -4,8 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\NotificationFactory;
+>>>>>>> 8bc2fc9f (first)
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -33,6 +40,26 @@ use Modules\Xot\Models\BaseModel;
  * @property-read Model|null $creator
  * @property-read Model|null $updater
  *
+<<<<<<< HEAD
+=======
+ * @method static NotificationFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Notification newModelQuery()
+ * @method static Builder<static>|Notification newQuery()
+ * @method static Builder<static>|Notification query()
+ * @method static Builder<static>|Notification whereCreatedAt($value)
+ * @method static Builder<static>|Notification whereCreatedBy($value)
+ * @method static Builder<static>|Notification whereData($value)
+ * @method static Builder<static>|Notification whereDeletedAt($value)
+ * @method static Builder<static>|Notification whereDeletedBy($value)
+ * @method static Builder<static>|Notification whereId($value)
+ * @method static Builder<static>|Notification whereNotifiableId($value)
+ * @method static Builder<static>|Notification whereNotifiableType($value)
+ * @method static Builder<static>|Notification whereReadAt($value)
+ * @method static Builder<static>|Notification whereType($value)
+ * @method static Builder<static>|Notification whereUpdatedAt($value)
+ * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
+>>>>>>> 8bc2fc9f (first)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -58,6 +85,10 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     protected function casts(): array
     {
         return [

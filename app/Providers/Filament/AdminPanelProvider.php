@@ -4,21 +4,30 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Providers\Filament;
 
+<<<<<<< HEAD
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
 use Modules\Xot\Datas\XotData;
+=======
+use Filament\Panel;
+>>>>>>> 8bc2fc9f (first)
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
 
+<<<<<<< HEAD
         // Temporaneamente commentato per compatibilità Filament 4.x
         // $panel->plugins([
         //     SpatieTranslatablePlugin::make(),
@@ -33,6 +42,8 @@ class AdminPanelProvider extends XotBasePanelProvider
             ));
         }
 
+=======
+>>>>>>> 8bc2fc9f (first)
         return $panel;
     }
 }

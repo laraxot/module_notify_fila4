@@ -1,8 +1,16 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
+=======
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> develop
+>>>>>>> 8bc2fc9f (first)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -11,6 +19,13 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    ->ignoreVCS(true);
+=======
+>>>>>>> develop
+>>>>>>> 8bc2fc9f (first)
 
 $config = new PhpCsFixer\Config();
 
@@ -37,3 +52,12 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    ->setFinder($finder);
+=======
+>>>>>>> develop
+
+return $config;
+>>>>>>> 8bc2fc9f (first)

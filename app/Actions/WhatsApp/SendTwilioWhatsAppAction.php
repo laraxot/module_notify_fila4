@@ -18,12 +18,15 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     protected bool $debug;
 
     protected int $timeout;
 
     protected ?string $defaultSender = null;
 
+=======
+>>>>>>> 8bc2fc9f (first)
     private string $accountSid;
 
     private string $authToken;
@@ -33,6 +36,15 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
+=======
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $defaultSender = null;
+
+>>>>>>> 8bc2fc9f (first)
     /**
      * Create a new action instance.
      */
@@ -58,7 +70,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
         $sender = config('whatsapp.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 8bc2fc9f (first)
     }
 
     /**
@@ -69,6 +85,10 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
      *
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     public function execute(WhatsAppData $whatsAppData): array
     {
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);

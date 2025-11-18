@@ -17,6 +17,7 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 $attachments = [
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -25,11 +26,15 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 8bc2fc9f (first)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
+<<<<<<< HEAD
 <<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
@@ -39,6 +44,9 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> 8bc2fc9f (first)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],

@@ -17,10 +17,13 @@ final class SendFacebookWhatsAppAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     protected bool $debug;
 
     protected int $timeout;
 
+=======
+>>>>>>> 8bc2fc9f (first)
     private string $accessToken;
 
     private string $phoneNumberId;
@@ -29,6 +32,13 @@ final class SendFacebookWhatsAppAction
 
     private array $vars = [];
 
+<<<<<<< HEAD
+=======
+    protected bool $debug;
+
+    protected int $timeout;
+
+>>>>>>> 8bc2fc9f (first)
     /**
      * Create a new action instance.
      */
@@ -52,7 +62,11 @@ final class SendFacebookWhatsAppAction
 
         // Parametri a livello di root
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 8bc2fc9f (first)
     }
 
     /**

@@ -23,7 +23,11 @@ class BuildMailMessageAction
         string $name,
         Model $model,
         array $view_params = [],
+<<<<<<< HEAD
         ?DataCollection $dataCollection = null,
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 8bc2fc9f (first)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -32,6 +36,7 @@ class BuildMailMessageAction
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
+<<<<<<< HEAD
         $params = [
             'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
             'from_name' => $theme->view_params['from'] ?? $theme->from,
@@ -48,6 +53,29 @@ class BuildMailMessageAction
         $email = (new MailMessage)
             ->from($params['from_address'], $params['from_name'])
             ->subject($params['subject'])
+=======
+        $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
+        $fromName = $theme->view_params['from'] ?? $theme->from;
+        $subject = $view_params['subject'] ?? $theme->subject;
+
+        // Utilizziamo asserzioni per verificare che i valori siano stringhe
+        if (!is_string($fromAddress)) {
+            $fromAddress = '';
+        }
+
+        // Il nome del mittente può essere null
+        if ($fromName !== null && !is_string($fromName)) {
+            $fromName = '';
+        }
+
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+>>>>>>> 8bc2fc9f (first)
             ->view($view_html, $theme->view_params);
 
         if ($dataCollection instanceof DataCollection) {

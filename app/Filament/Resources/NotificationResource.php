@@ -14,6 +14,10 @@ class NotificationResource extends XotBaseResource
 {
     protected static ?string $model = Notification::class;
 
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     public static function getFormSchema(): array
     {
         return [

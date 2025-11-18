@@ -5,7 +5,11 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use GuzzleHttp\Client;
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
+=======
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 8bc2fc9f (first)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 
@@ -16,6 +20,10 @@ use Modules\Notify\Datas\SmsData;
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';

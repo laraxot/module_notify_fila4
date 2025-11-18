@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Contracts;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 8bc2fc9f (first)
 use Kreait\Firebase\Messaging\Message;
 
 /**

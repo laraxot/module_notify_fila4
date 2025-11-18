@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+=======
+>>>>>>> 8bc2fc9f (first)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -51,6 +54,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property int|null $duplicate_count
  * @property int|null $order_column
  *
+<<<<<<< HEAD
  * @mixin Eloquent
  *
  * @property string|null $email
@@ -60,6 +64,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
+=======
+>>>>>>> 8bc2fc9f (first)
  * @mixin IdeHelperContact
  * @mixin \Eloquent
  */
@@ -80,6 +86,11 @@ class Contact extends BaseModel
         'token',
     ];
 
+<<<<<<< HEAD
+=======
+    /** @return array<string, string> */
+    #[\Override]
+>>>>>>> 8bc2fc9f (first)
     protected function casts(): array
     {
         return [

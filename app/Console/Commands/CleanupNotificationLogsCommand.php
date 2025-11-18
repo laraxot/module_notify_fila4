@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
+=======
+>>>>>>> 8bc2fc9f (first)
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
 
@@ -42,6 +45,7 @@ class CleanupNotificationLogsCommand extends Command
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
 
+<<<<<<< HEAD
         $query = NotificationLog::query()->where('created_at', '<', now()->subDays($days));
 
         // Se configurato, mantiene i log delle notifiche fallite
@@ -55,6 +59,19 @@ class CleanupNotificationLogsCommand extends Command
             foreach ($logs as $log) {
                 $log->delete();
             }
+=======
+        $query = NotificationLog::where('created_at', '<', now()->subDays($days));
+
+        // Se configurato, mantiene i log delle notifiche fallite
+        if ($keepFailed) {
+            $query->where('status', '!=', NotificationLogStatusEnum::FAILED);
+        }
+
+        $totalDeleted = 0;
+        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
+            $count = $logs->count(); /** @phpstan-ignore method.nonObject */
+            $logs->each->delete();
+>>>>>>> 8bc2fc9f (first)
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");
         });
