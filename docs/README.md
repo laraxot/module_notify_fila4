@@ -1,178 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Modulo Notify - Documentazione
-
-> **Versione**: 1.1  
-> **Ultimo aggiornamento**: Novembre 2025  
-> **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
-
-## 🔧 Correzioni Recenti
-
-### PSR-4 Namespace Fixes
-- ✅ `SendScheduledPushNotification.php`: `Modules\Notify\App\Jobs` → `Modules\Notify\Jobs`
-- ✅ `PushNotificationService.php`: Namespace verificato
-- Dettagli: [psr4-namespace-fix.md](./psr4-namespace-fix.md)
-
-### Stato Attuale
-- ✅ Autoload Composer (22855 classi) senza warning PSR-4
-- ✅ Script `php artisan serve` avviato con successo
-- ✅ Documentazione aggiornata
-
----
-
-## 📚 Overview
-
-Il modulo **Notify** fornisce l'infrastruttura centralizzata per email, SMS, notifiche push e comunicazioni multicanale nell'ecosistema Laraxot.
-
-### Funzionalità Chiave
-1. **Template e contenuti dinamici** (Spatie Mail Templates, Mustache placeholders)
-2. **Allegati avanzati** (binary/stream, file system, MIME detection)
-3. **Canali multipli** (SMTP, Mailgun, SES, Twilio, Vonage, Firebase, OneSignal)
-4. **Pannello Filament** per amministrazione, preview e test
-5. **Preferenze utente** (opt-in/out, GDPR compliance)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Modulo Notify - Documentazione
-
-## 📚 Overview
-
-Il modulo **Notify** è il sistema centrale per **email, notifiche, SMS e comunicazioni** nel framework Laraxot.  
-Supporta template dinamici, allegati binari, multi-canale e integrazione completa con Spatie Laravel Mail Templates.
-
----
-
-## 🎯 Funzionalità Principali
-
-### 1. **Sistema Email con Template Database**
-- Template email salvati su database (Spatie Mail Templates)
-- Placeholder dinamici con Mustache
-- Supporto HTML/Text/SMS
-- Preview email in admin panel
-
-### 2. **Allegati Email Avanzati**
-- ⭐ **Allegati da contenuto binario** (PDF generati al volo)
-- Allegati da file esistenti
-- Multiple attachment support
-- Auto-detection MIME types
-
-### 3. **Multi-Channel Notifications**
-- Email (SMTP, Mailgun, SES, ecc.)
-- SMS (Twilio, Vonage, ecc.)
-- WhatsApp (Twilio API)
-- Database notifications
-
-### 4. **Integrazione Filament**
-- Admin panel per gestione template
-- Preview email real-time
-- Testing tools integrati
-
----
-
-## 📖 Documentazione Disponibile
-
-### Guide Complete
-
-#### Email System
-- **[Email Attachments Usage](./email-sending/attachments_usage.md)** ⭐  
-  Guida completa agli allegati email (path e binary data)
-
-- **[Spatie Mail Templates Deep Dive](./spatie-database-mail-templates-deep-dive.md)**  
-  Sistema template email database
-
-- **[Email Layouts Best Practices](./mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)**  
-  Best practices layout email
-
-#### Notifications
-- **[Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)**  
-  Come implementare notifiche custom
-
-- **[RecordNotification Usage](./notifications/record-notification.md)**  
-  Notifiche basate su record Eloquent
-
-#### SMS & WhatsApp
-- **[WhatsApp Provider Architecture](./whatsapp_provider_architecture.md)**  
-  Architettura provider WhatsApp
-
----
-
-## 🏗️ Architettura
-
-### Componenti Chiave
-
-```
-Modules/Notify/
-├── app/
-│   ├── Emails/
-│   │   ├── SpatieEmail.php              ⭐ Email con allegati binari
-│   │   └── EmailDataEmail.php
-│   │  
-│   ├── Notifications/
-│   │   ├── RecordNotification.php       ⭐ Notifica generica per record
-│   │   ├── ThemeNotification.php
-│   │   └── SendSchedeNotification.php
-│   │  
-│   ├── Datas/
-│   │   ├── EmailData.php                # DTO Email
-│   │   ├── SmtpData.php                 # DTO SMTP config
-│   │   ├── SmsData.php                  # DTO SMS
-│   │   └── EmailAttachmentData.php      # DTO Attachment
-│   │  
-│   ├── Actions/
-│   │   └── BuildMailMessageAction.php
-│   │  
-│   └── Channels/
-│       ├── SmsChannel.php
-│       └── WhatsAppChannel.php
-│  
-└── docs/                                 # Documentazione
-    ├── README.md                         ⭐ QUESTO FILE
-    ├── email-sending/
-    │   └── attachments_usage.md
-    └── notifications/
-        └── record-notification.md
-```
->>>>>>> 8bc2fc9f (first)
-
----
-
-## 🚀 Quick Start
-
-<<<<<<< HEAD
-```bash
-# Migrare e seedare
-php artisan module:migrate Notify
-php artisan module:seed Notify
-
-# Aprire pannello Filament
-php artisan serve
-# → http://localhost:8000/admin
-```
-
-```php
-use Modules\Notify\Services\PushNotificationService;
-
-app(PushNotificationService::class)->send(
-    channel: 'email',
-    to: ['user@example.com'],
-    template: 'welcome',
-    data: ['name' => 'Mario Rossi'],
-);
-=======
 ### 1. Invio Email Semplice
 
 ```php
@@ -240,26 +65,10 @@ Notification::route('mail', 'user@example.com')
     ->route('sms', '+393331234567')
     ->route('whatsapp', '+393331234567')
     ->notify($notify);
->>>>>>> 8bc2fc9f (first)
 ```
 
 ---
 
-<<<<<<< HEAD
-## 🧠 Architettura
-
-| Componente | Path | Responsabilità |
-|------------|------|----------------|
-| `Notification` | `app/Models/Notification.php` | Tracciamento invii |
-| `NotificationTemplate` | `app/Models/NotificationTemplate.php` | Contenuti dinamici |
-| `EmailTemplate` | `app/Models/EmailTemplate.php` | Template e versioning |
-| `Contact` / `ContactGroup` | `app/Models/Contact*.php` | Destinatari e segmentazione |
-| `Theme` | `app/Models/Theme.php` | Branding e layout |
-| `PushNotificationService` | `app/Services/PushNotificationService.php` | Integrazione provider |
-| `SendScheduledPushNotification` | `app/Jobs/...` | Invio asincrono pianificato |
-
-Documentazione di dettaglio: vedi cartella `docs/` (Email, Push, Templates, Contacts).
-=======
 ## 💡 Pattern e Best Practices
 
 ### Pattern 1: Allegati Binari (Raccomandato)
@@ -347,21 +156,11 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 #### Notifications
 - [Notifications Implementation Guide](./notifications/notifications_implementation_guide.md)
 - [Notification Management Business Logic](./notifications/notification-management-business-logic.md)
->>>>>>> 8bc2fc9f (first)
 
 ---
 
 ## 🧪 Testing
 
-<<<<<<< HEAD
-- ✅ Business logic tests (95% copertura)
-- 📌 Tests mancanti: modelli base (`BaseModel`, `BasePivot`, `BaseMorphPivot`)
-- Tooling: Pest v3, PHPStan livello 10, Laravel Pint
-
-```bash
-./vendor/bin/pest Modules/Notify/tests
-./vendor/bin/phpstan analyse Modules/Notify --level=max
-=======
 ### Test Email con Allegati
 
 ```php
@@ -395,47 +194,16 @@ class SpatieEmailTest extends TestCase
 
 ```bash
 php artisan test --filter=RecordNotificationTest
->>>>>>> 8bc2fc9f (first)
 ```
 
 ---
 
-<<<<<<< HEAD
-## 🗺️ Roadmap
-
-1. **Breve termine**
-   - Completare test modelli base
-   - Automazione pulizia template legacy
-2. **Medio termine**
-   - Supporto notifiche in-app
-   - Analytics realtime
-3. **Lungo termine**
-   - Personalizzazione AI-driven
-   - SDK mobile
-
----
-
-## 📚 Documenti Utili
-
-- [psr4-namespace-fix.md](./psr4-namespace-fix.md)
-- [business-logic-analysis.md](./business-logic-analysis.md)
-- [email](./email-sending/README.md) / [push](./push-notifications/README.md) / [sms](./sms/README.md)
-- [Laraxot Conventions](../../Xot/docs/conventions.md)
-
----
-
-**Nota**: Il modulo Notify è riutilizzabile cross-progetto. Evitare riferimenti hardcoded a domini specifici.
-=======
->>>>>>> 6ba141fc (.)
 =======
 =======
->>>>>>> f47ea0f (.)
 =======
->>>>>>> fc29e26 (.)
 # Modulo Notify - Analisi Completa
 =======
 # 📧 **Notify Module** - Sistema Avanzato di Notifiche
->>>>>>> 0232891 (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -600,234 +368,10 @@ $attachments = [
         'data' => $content,  // DEVE essere presente
         'as' => 'file.pdf',  // DEVE essere stringa
         'mime' => 'application/pdf', // DEVE essere stringa
->>>>>>> 8bc2fc9f (first)
     ],
 ];
 ```
 
-<<<<<<< HEAD
-### 🧪 **Testing**
-```bash
-# Test del modulo
-php artisan test --testsuite=Notify
-
-# Test PHPStan compliance
-./vendor/bin/phpstan analyze Modules/Notify --level=9
-
-# Test invio notifiche
-php artisan notify:test --channel=email
-php artisan notify:test --channel=sms
-```
-
-## 📚 **Documentazione Completa**
-
-### 🏗️ **Architettura**
-- [Notifications System](notifications-system.md) - Sistema completo notifiche
-- [Email Templates](email_templates.md) - Gestione template email
-- [SMS Integration](sms_driver_selection_analysis.md) - Integrazione SMS
-- [Push Notifications](telegram_integration.md) - Notifiche push
-
-### 🎨 **Template System**
-- [Email Templates](email_templates.md) - Template email personalizzabili
-- [SMS Templates](notification-templates.md) - Template SMS
-- [Push Templates](base_templates.md) - Template push notifications
-- [WYSIWYG Editor](email-wysiwyg-editor-tests.md) - Editor visuale
-
-### 🔧 **Development**
-- [PHPStan Fixes](phpstan/README.md) - Log completo correzioni PHPStan
-- [Translation Fixes](send_email_translation_improvement.md) - Correzioni traduzioni
-- [Best Practices](best_practices.md) - Linee guida sviluppo
-
-### 📊 **Analytics & Monitoring**
-- [Email Analytics](email-analytics.md) - Analytics email avanzati
-- [Email Logs](email-logs.md) - Logging completo email
-- [Performance Optimization](performance_optimization.md) - Ottimizzazioni performance
-
-## 🎨 **Componenti Filament**
-
-### 📧 **Email Template Resource**
-```php
-// Filament Resource per gestione template email
-class MailTemplateResource extends XotBaseResource
-{
-    protected static ?string $model = MailTemplate::class;
-    
-    public static function getFormSchema(): array
-    {
-        return [
-            Forms\Components\TextInput::make('slug')
-                ->label(__('notify::fields.slug.label'))
-                ->required(),
-            Forms\Components\TextInput::make('subject')
-                ->label(__('notify::fields.subject.label'))
-                ->required(),
-            Forms\Components\RichEditor::make('body')
-                ->label(__('notify::fields.body.label'))
-                ->required(),
-        ];
-    }
-}
-```
-
-### 📱 **SMS Template Resource**
-```php
-// Filament Resource per gestione template SMS
-class SmsTemplateResource extends XotBaseResource
-{
-    protected static ?string $model = SmsTemplate::class;
-    
-    public static function getFormSchema(): array
-    {
-        return [
-            Forms\Components\TextInput::make('name')
-                ->label(__('notify::fields.name.label'))
-                ->required(),
-            Forms\Components\Textarea::make('body')
-                ->label(__('notify::fields.body.label'))
-                ->required(),
-        ];
-    }
-}
-```
-
-## 🔧 **Best Practices**
-
-### 1️⃣ **Template Variables**
-```php
-// ✅ CORRETTO - Variabili tipizzate
-class AppointmentConfirmationNotification extends Notification
-{
-    public function __construct(
-        private readonly Appointment $appointment
-    ) {}
-
-    public function toMail($notifiable): MailMessage
-    {
-        return (new MailMessage)
-            ->subject('Conferma Appuntamento')
-            ->view('notify::emails.appointment-confirmation', [
-                'appointment' => $this->appointment,
-                'user' => $notifiable,
-            ]);
-    }
-}
-```
-
-### 2️⃣ **Queue Management**
-```php
-// ✅ CORRETTO - Code asincrone per invio massivo
-class SendBulkEmailAction
-{
-    use QueueableAction;
-
-    public function execute(array $users, MailTemplate $template): void
-    {
-        foreach ($users as $user) {
-            $user->notify(new CustomEmailNotification($template))
-                ->onQueue('notifications');
-        }
-    }
-}
-```
-
-### 3️⃣ **Error Handling**
-```php
-// ✅ CORRETTO - Gestione errori robusta
-class NotificationService
-{
-    public function send(Notification $notification, $notifiable): bool
-    {
-        try {
-            $notifiable->notify($notification);
-            return true;
-        } catch (Exception $e) {
-            Log::error('Notification failed', [
-                'notification' => get_class($notification),
-                'notifiable' => get_class($notifiable),
-                'error' => $e->getMessage(),
-            ]);
-            return false;
-        }
-    }
-}
-```
-
-## 🐛 **Troubleshooting**
-
-### **Problemi Comuni**
-
-#### 📧 **Email Delivery Issues**
-```bash
-# Verificare configurazione SMTP
-php artisan tinker
->>> Mail::raw('Test email', function($message) { $message->to('test@example.com'); });
-```
-**Soluzione**: Consulta [Email Configuration](email_templates.md)
-
-#### 📱 **SMS Delivery Issues**
-```php
-// Verificare configurazione Netfun
-'providers' => [
-    'sms' => [
-        'driver' => 'netfun',
-        'api_key' => env('NETFUN_API_KEY'),
-        'sender' => env('SMS_SENDER'),
-    ],
-],
-```
-**Soluzione**: Consulta [SMS Configuration](sms_driver_selection_analysis.md)
-
-#### 🔔 **Push Notification Issues**
-```bash
-# Verificare Firebase configuration
-php artisan notify:test-push
-```
-**Soluzione**: Consulta [Push Configuration](telegram_integration.md)
-
-## 🤝 **Contributing**
-
-### 📋 **Checklist Contribuzione**
-- [ ] Codice passa PHPStan Level 9
-- [ ] Test unitari aggiunti
-- [ ] Documentazione aggiornata
-- [ ] Traduzioni complete (IT/EN/DE)
-- [ ] Template testati
-- [ ] Error handling robusto
-
-### 🎯 **Convenzioni**
-- **Template Variables**: Sempre tipizzate e documentate
-- **Queue Usage**: Utilizzare code per invio massivo
-- **Error Handling**: Logging completo errori
-- **Testing**: Test per ogni canale di notifica
-
-## 📊 **Roadmap**
-
-### 🎯 **Q1 2025**
-- [ ] **Advanced Analytics** - Metriche dettagliate per ogni canale
-- [ ] **Template Editor** - Editor WYSIWYG avanzato
-- [ ] **A/B Testing** - Testing automatico template
-
-### 🎯 **Q2 2025**
-- [ ] **Smart Scheduling** - Invio intelligente basato su timezone
-- [ ] **Personalization Engine** - Personalizzazione automatica contenuti
-- [ ] **Multi-language Templates** - Template multilingua
-
-### 🎯 **Q3 2025**
-- [ ] **AI Content Generation** - Generazione automatica contenuti
-- [ ] **Advanced Segmentation** - Segmentazione utenti avanzata
-- [ ] **Real-time Analytics** - Analytics in tempo reale
-
-## 📞 **Support & Maintainers**
-
-- **🏢 Team**: Laraxot Development Team
-- **📧 Email**: notify@laraxot.com
-- **🐛 Issues**: [GitHub Issues](https://github.com/laraxot/notify-module/issues)
-- **📚 Docs**: [Documentazione Completa](https://docs.laraxot.com/notify)
-- **💬 Discord**: [Laraxot Community](https://discord.gg/laraxot)
-
----
-
-=======
 ---
 
 ## 📊 Performance
@@ -894,29 +438,18 @@ Log::channel('email')->info('Email sent', [
 **PHPStan Level:** 10
 =======
 =======
->>>>>>> bd22fd4 (.)
 =======
->>>>>>> a612126 (.)
 =======
->>>>>>> 467a2e4 (.)
 =======
->>>>>>> 3a87c62 (.)
 =======
->>>>>>> da89aab (.)
 =======
->>>>>>> 65a883d (.)
 =======
->>>>>>> 01afecf (.)
 =======
->>>>>>> b008c86 (.)
 =======
->>>>>>> 9bd3cd0 (.)
 =======
->>>>>>> 75c16f6 (.)
 # Modulo Notify - Analisi Completa
 =======
 # Modulo Notify - Documentazione
->>>>>>> a187384 (.)
 
 ## 📚 Overview
 
@@ -1150,21 +683,7 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 ---
 
-<<<<<<< HEAD
->>>>>>> 8bc2fc9f (first)
-<<<<<<< HEAD
-**Ultimo aggiornamento**: Dicembre 2024  
-**Versione**: 1.0  
-**Stato**: Test business logic completati (95% copertura)  
-**Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 9ed014c (.)
 =======
->>>>>>> f47ea0f (.)
-=======
->>>>>>> fc29e26 (.)
 =======
 ### 🏆 **Achievements**
 
@@ -1191,54 +710,27 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **🐛 PHPStan Level 9**: File core certificati ✅  
 **🌐 Translation Standards**: File traduzione certificati ✅  
 **🚀 Performance**: 96/100 score
->>>>>>> 0232891 (.)
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7bac387 (.)
 =======
->>>>>>> bd22fd4 (.)
 =======
->>>>>>> a612126 (.)
 =======
->>>>>>> 467a2e4 (.)
 =======
->>>>>>> 3a87c62 (.)
 =======
->>>>>>> 4760417 (.)
 =======
->>>>>>> da89aab (.)
 =======
->>>>>>> 61cfa35 (.)
 =======
->>>>>>> 65a883d (.)
 =======
->>>>>>> c69af64 (.)
 =======
->>>>>>> 01afecf (.)
 =======
->>>>>>> b008c86 (.)
 =======
->>>>>>> 17aa899 (.)
 =======
->>>>>>> 9bd3cd0 (.)
 =======
->>>>>>> 895d6b1 (.)
-=======
->>>>>>> 75c16f6 (.)
 =======
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
->>>>>>> 0110612 (.)
 =======
 ## 🔗 Collegamenti
 
@@ -1412,5 +904,3 @@ Log::channel('email')->info('Email sent', [
 **Versione:** 2.1.0  
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
->>>>>>> a187384 (.)
->>>>>>> 8bc2fc9f (first)
