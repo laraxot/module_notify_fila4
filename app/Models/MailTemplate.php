@@ -8,7 +8,7 @@ namespace Modules\Notify\Models;
 use Carbon\Carbon;
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Collection;
+use Modules\Xot\Models\Traits\HasXotFactory;
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 use Spatie\Sluggable\HasSlug;
@@ -16,33 +16,33 @@ use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
 
 /**
- * @property int $id
- * @property string $mailable
- * @property string|null $subject
- * @property string $html_template
- * @property string|null $text_template
- * @property int $version
- * @property Carbon $created_at
- * @property Carbon $updated_at
- * @property Carbon|null $deleted_at
- * @property Carbon $created_at
- * @property Carbon $updated_at
- * @property Carbon|null $deleted_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property string|null $deleted_by
- * @property string $name
- * @property string $slug
-  * @property string|null $updated_by
- * @property string|null $created_by
- * @property string|null $deleted_by
- * @property string $name
- * @property string $slug
- * @property array $variables
- * @property mixed $translations
- * @property string|null $params
+ * @property int                          $id
+ * @property string                       $mailable
+ * @property string|null                  $subject
+ * @property string                       $html_template
+ * @property string|null                  $text_template
+ * @property int                          $version
+ * @property Carbon                       $created_at
+ * @property Carbon                       $updated_at
+ * @property Carbon|null                  $deleted_at
+ * @property Carbon                       $created_at
+ * @property Carbon                       $updated_at
+ * @property Carbon|null                  $deleted_at
+ * @property string|null                  $updated_by
+ * @property string|null                  $created_by
+ * @property string|null                  $deleted_by
+ * @property string                       $name
+ * @property string                       $slug
+ * @property string|null                  $updated_by
+ * @property string|null                  $created_by
+ * @property string|null                  $deleted_by
+ * @property string                       $name
+ * @property string                       $slug
+ * @property array                        $variables
+ * @property mixed                        $translations
+ * @property string|null                  $params
  * @property array<array-key, mixed>|null $sms_template
- * @property int $counter
+ * @property int                          $counter
  *
  * @mixin \Eloquent
  */
@@ -50,8 +50,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 {
     use HasSlug;
 
-    // use SoftDeletes;
     use HasTranslations;
+    use HasXotFactory;
 
     /** @var list<string> */
     public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
