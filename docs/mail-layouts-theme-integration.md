@@ -266,6 +266,18 @@ echo $email->getHtmlLayout();
 // ✅ Dovrebbe mostrare layout custom!
 ```
 
+## Logo vettoriale 2025
+
+> **Aggiornamento 18 novembre 2025**  
+> `Modules/Notify/resources/svg/logo.svg` racconta ora il *Notification Communication Hub* con tre canali (email, SMS, push) e palette coerente con il Design System Italiano.
+
+- palette istituzionale: Blu Italia `#0066CC`, Verde `#00AA66`, accento `#00C7B1`
+- supporto a dark mode (`prefers-color-scheme`) e rispetto di `prefers-reduced-motion`
+- classi semantiche (`.ring`, `.channel`, `.hub`) sovrascrivibili nei temi white-label senza perdere la narrativa multi-tenant
+- riutilizzabile via `logo_svg` / `logo_header` nei layout email o nei componenti web
+
+Quando si crea un tema personalizzato duplicare l’SVG, aggiornare i colori di brand e mantenere la tripla metafora dei canali per preservare coerenza visiva fra tenant diversi.
+
 ## Pattern Multi-Tenant
 
 ### Scenario: Email Diverse Per Tenant

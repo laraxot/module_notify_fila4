@@ -2,19 +2,7 @@
 
 ## Introduzione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento descrive i layout di email disponibili nella directory `resources/mail-layouts` del modulo Notify di <nome progetto>. Questi layout sono progettati per essere compatibili con la maggior parte dei client email e forniscono una base solida per tutte le email transazionali dell'applicazione.
-=======
-<<<<<<< HEAD
-Questo documento descrive i layout di email disponibili nella directory `resources/mail-layouts` del modulo Notify di <main module>. Questi layout sono progettati per essere compatibili con la maggior parte dei client email e forniscono una base solida per tutte le email transazionali dell'applicazione.
-=======
 Questo documento descrive i layout di email disponibili nella directory `resources/mail-layouts` del modulo Notify di SaluteOra. Questi layout sono progettati per essere compatibili con la maggior parte dei client email e forniscono una base solida per tutte le email transazionali dell'applicazione.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Questo documento descrive i layout di email disponibili nella directory `resources/mail-layouts` del modulo Notify di SaluteOra. Questi layout sono progettati per essere compatibili con la maggior parte dei client email e forniscono una base solida per tutte le email transazionali dell'applicazione.
->>>>>>> 8bc2fc9f (first)
 
 ## Struttura dei Layout
 

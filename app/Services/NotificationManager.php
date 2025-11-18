@@ -8,13 +8,6 @@ use Exception;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SendNotificationAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Modules\Notify\Models\NotificationLog;
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
 use Modules\Notify\Models\NotificationTemplate;
 
 class NotificationManager
@@ -98,15 +91,7 @@ class NotificationManager
      * @param  string  $category  La categoria dei template
      * @return Collection<NotificationTemplate>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getTemplatesByCategory(string $category): Collection
-=======
-    public function getTemplatesByCategory(string $category)
->>>>>>> 8bc2fc9f (first)
-=======
-    public function getTemplatesByCategory(string $category): Collection
->>>>>>> 20a3d3b (.)
     {
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
     }
@@ -117,15 +102,7 @@ class NotificationManager
      * @param  string  $channel  Il canale di notifica
      * @return Collection<NotificationTemplate>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getTemplatesByChannel(string $channel): Collection
-=======
-    public function getTemplatesByChannel(string $channel)
->>>>>>> 8bc2fc9f (first)
-=======
-    public function getTemplatesByChannel(string $channel): Collection
->>>>>>> 20a3d3b (.)
     {
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
     }

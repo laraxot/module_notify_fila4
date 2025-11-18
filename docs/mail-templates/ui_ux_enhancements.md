@@ -2,19 +2,7 @@
 
 ## Introduzione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
-=======
-<<<<<<< HEAD
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <main module>, mantenendo la coerenza visiva e migliorando l'usabilità.
-=======
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
->>>>>>> 8bc2fc9f (first)
 
 ## Componenti per il Campo `name`
 
@@ -225,19 +213,7 @@ return [
 ];
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Conformità con gli Standard <nome progetto>
-=======
-<<<<<<< HEAD
-## Conformità con gli Standard <main module>
-=======
 ## Conformità con gli Standard SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 8bc2fc9f (first)
 
 Tutti i componenti proposti:
 1. Non utilizzano il metodo `->label()` sui componenti Filament
@@ -253,19 +229,7 @@ I miglioramenti UI/UX proposti per i campi `name` e `slug` si concentrano su:
 3. **Azioni contestuali** che facilitano operazioni comuni
 4. **Relazioni intuitive** tra campi correlati
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
-=======
-<<<<<<< HEAD
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <main module> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
-=======
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
->>>>>>> 8bc2fc9f (first)
 
 ## Riferimenti
 

@@ -35,52 +35,6 @@ class ConfigHelper
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     * Sostituisce ricorsivamente le variabili template in un array.
-     *
-     * @param  array<string, mixed>  $data
-     * @param  array<string, mixed>  $variables
-     * @return array<string, mixed>
-     */
-    private static function recursiveReplace(array $data, array $variables): array
-    {
-        $result = [];
-
-        foreach ($data as $key => $value) {
-            if (is_string($value)) {
-                $result[$key] = self::replaceStringVariables($value, $variables);
-            } elseif (is_array($value)) {
-                /** @var array<string, mixed> $value */
-                $result[$key] = self::recursiveReplace($value, $variables);
-            } else {
-                $result[$key] = $value;
-            }
-        }
-
-        return $result;
-    }
-
-    /**
-     * Sostituisce le variabili template in una stringa.
-     *
-     * @param  array<string, mixed>  $variables
-     */
-    private static function replaceStringVariables(string $string, array $variables): string
-    {
-        foreach ($variables as $variable => $value) {
-            $placeholder = '{{'.$variable.'}}';
-            $string = str_replace($placeholder, (string) $value, $string);
-        }
-
-        return $string;
-    }
-
-    /**
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
      * Ottiene un valore di configurazione con sostituzione delle variabili template.
      */
     public static function get(string $key, mixed $default = null): mixed
@@ -186,10 +140,6 @@ class ConfigHelper
 
         return self::replaceTemplateVariables($safePathConfig);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
 
     /**
      * Sostituisce ricorsivamente le variabili template in un array.
@@ -230,9 +180,4 @@ class ConfigHelper
 
         return $string;
     }
-<<<<<<< HEAD
-=======
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
 }

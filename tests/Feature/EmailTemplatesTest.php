@@ -1,23 +1,9 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\File;
-use Tests\TestCase;
-use Tests\TestCase;
-=======
 
-use Tests\TestCase;
-use Illuminate\Support\Facades\File;
->>>>>>> 8bc2fc9f (first)
-=======
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
-use Tests\TestCase;
->>>>>>> 20a3d3b (.)
 
 uses(TestCase::class);
 

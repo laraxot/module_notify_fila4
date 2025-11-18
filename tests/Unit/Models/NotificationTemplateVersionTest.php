@@ -53,10 +53,6 @@ class NotificationTemplateVersionTest extends TestCase
             'change_notes',
         ];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
             'template_id', 'subject', 'body_html', 'body_text', 'channels',
@@ -72,11 +68,6 @@ class NotificationTemplateVersionTest extends TestCase
         $model = new NotificationTemplateVersion();
         $this->assertEquals($expectedFillable, $model->getFillable());
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
-<<<<<<< HEAD
-=======
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
         $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
     }
 

@@ -39,15 +39,7 @@ class SmsChannel
      *
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function send(mixed $notifiable, Notification $notification): ?array
-=======
-    public function send($notifiable, Notification $notification)
->>>>>>> 8bc2fc9f (first)
-=======
-    public function send(mixed $notifiable, Notification $notification): ?array
->>>>>>> 20a3d3b (.)
     {
         if (! method_exists($notification, 'toSms')) {
             throw new Exception('Notification does not have toSms method');

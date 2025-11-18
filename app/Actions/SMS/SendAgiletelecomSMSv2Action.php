@@ -4,20 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SmsActionContract;
-=======
-use GuzzleHttp\Client;
-use Illuminate\Support\Facades\Http;
-use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
->>>>>>> 8bc2fc9f (first)
-=======
-use Illuminate\Support\Facades\Http;
-use Modules\Notify\Contracts\SmsActionContract;
->>>>>>> 20a3d3b (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 
@@ -28,13 +16,6 @@ use Modules\Notify\Datas\SmsData;
  */
 class SendAgiletelecomSMSv2Action implements SmsActionContract
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    #[\Override]
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     public function execute(SmsData $data): array
     {
         $agile = AgiletelecomData::make();

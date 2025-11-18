@@ -1,18 +1,6 @@
 # Notifiche Telegram 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di <nome progetto>.
-=======
-<<<<<<< HEAD
-Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di <main module>.
-=======
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di SaluteOra.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di SaluteOra.
->>>>>>> 8bc2fc9f (first)
 
 ## Indice
 
@@ -27,19 +15,7 @@ Questa documentazione descrive come implementare notifiche Telegram nel modulo N
 
 ## Introduzione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. <nome progetto> integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
-=======
-<<<<<<< HEAD
-Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. <main module> integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
-=======
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
->>>>>>> 8bc2fc9f (first)
 
 ## Setup del Bot Telegram
 
@@ -52,49 +28,17 @@ Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua AP
 
 ### Funzionalità del Bot
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il bot di <nome progetto> deve avere:
-- Privacy Mode disattivata (per leggere messaggi nei gruppi)
-- Comandi personalizzati configurati
-- Immagine del profilo con logo <nome progetto>
-=======
-<<<<<<< HEAD
-Il bot di <main module> deve avere:
-- Privacy Mode disattivata (per leggere messaggi nei gruppi)
-- Comandi personalizzati configurati
-- Immagine del profilo con logo <main module>
-=======
-=======
->>>>>>> 8bc2fc9f (first)
 Il bot di SaluteOra deve avere:
 - Privacy Mode disattivata (per leggere messaggi nei gruppi)
 - Comandi personalizzati configurati
 - Immagine del profilo con logo SaluteOra
-<<<<<<< HEAD
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
->>>>>>> 8bc2fc9f (first)
 
 ### Comandi Consigliati
 
 Configura i seguenti comandi per il tuo bot:
 ```
 start - Inizia l'interazione con il bot
-<<<<<<< HEAD
-<<<<<<< HEAD
-register - Collega il tuo account Telegram a <nome progetto>
-=======
-<<<<<<< HEAD
-register - Collega il tuo account Telegram a <main module>
-=======
 register - Collega il tuo account Telegram a SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-register - Collega il tuo account Telegram a SaluteOra
->>>>>>> 8bc2fc9f (first)
 unregister - Scollega il tuo account Telegram
 settings - Gestisci le tue preferenze di notifica
 help - Ottieni assistenza
@@ -215,30 +159,10 @@ public function toTelegram($notifiable)
 
 ### Collegamento Account Telegram
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Per collegare un account Telegram a un utente <nome progetto>:
-
-1. Implementa un comando `/register` nel bot che generi un token univoco.
-2. L'utente inserisce questo token nel proprio profilo nell'app <nome progetto>.
-=======
-<<<<<<< HEAD
-Per collegare un account Telegram a un utente <main module>:
-
-1. Implementa un comando `/register` nel bot che generi un token univoco.
-2. L'utente inserisce questo token nel proprio profilo nell'app <main module>.
-=======
-=======
->>>>>>> 8bc2fc9f (first)
 Per collegare un account Telegram a un utente SaluteOra:
 
 1. Implementa un comando `/register` nel bot che generi un token univoco.
 2. L'utente inserisce questo token nel proprio profilo nell'app SaluteOra.
-<<<<<<< HEAD
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
->>>>>>> 8bc2fc9f (first)
 3. Salva il `chat_id` Telegram dell'utente nel database.
 
 ```php
@@ -251,19 +175,7 @@ use Modules\Notify\Models\TelegramToken;
 class RegisterCommand extends Command
 {
     protected $name = 'register';
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected $description = 'Collega il tuo account Telegram a <nome progetto>';
-=======
-<<<<<<< HEAD
-    protected $description = 'Collega il tuo account Telegram a <main module>';
-=======
     protected $description = 'Collega il tuo account Telegram a SaluteOra';
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-    protected $description = 'Collega il tuo account Telegram a SaluteOra';
->>>>>>> 8bc2fc9f (first)
     
     public function handle()
     {
@@ -278,19 +190,7 @@ class RegisterCommand extends Command
         ]);
         
         $this->replyWithMessage([
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo <nome progetto> per completare il collegamento."
-=======
-<<<<<<< HEAD
-            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo <main module> per completare il collegamento."
-=======
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
->>>>>>> 8bc2fc9f (first)
         ]);
     }
 }

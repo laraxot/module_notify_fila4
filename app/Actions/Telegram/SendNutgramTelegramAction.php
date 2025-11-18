@@ -19,39 +19,18 @@ final class SendNutgramTelegramAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
     protected bool $debug;
 
     protected int $timeout;
 
     protected ?string $parseMode;
 
-<<<<<<< HEAD
-=======
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     private string $token;
 
     private string $apiUrl;
 
     private array $vars = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    protected bool $debug;
-
-    protected int $timeout;
-
-    protected ?string $parseMode;
-
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     /**
      * Create a new action instance.
      */

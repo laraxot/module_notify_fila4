@@ -71,13 +71,6 @@ class SendScheduledPushNotification implements ShouldQueue
 
             // Rimuovi notifica programmata
             Cache::forget("scheduled_push:{$this->jobId}");
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
         } catch (\Exception $e) {
             Log::error('Scheduled push notification failed', [
                 'job_id' => $this->jobId,

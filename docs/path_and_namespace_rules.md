@@ -7,59 +7,19 @@
 ### ✅ Path Corretti
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Models
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Filament
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Http/Controllers
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Providers
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Models
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Filament
-=======
-=======
->>>>>>> 8bc2fc9f (first)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS
 /var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers
 /var/www/html/saluteora/laravel/Modules/Notify/app/Providers
 /var/www/html/saluteora/laravel/Modules/Notify/app/Models
 /var/www/html/saluteora/laravel/Modules/Notify/app/Filament
-<<<<<<< HEAD
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
->>>>>>> 8bc2fc9f (first)
 ```
 
 ### ❌ Path Errati
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/SMS
-/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Http/Controllers
-/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Providers
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Actions/SMS
-/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Http/Controllers
-/var/www/html/<directory progetto>/laravel/Modules/Notify/App/Providers
-=======
 /var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
 /var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
 /var/www/html/saluteora/laravel/Modules/Notify/App/Providers
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
-/var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
-/var/www/html/saluteora/laravel/Modules/Notify/App/Providers
->>>>>>> 8bc2fc9f (first)
 ```
 
 ## Struttura Corretta dei Namespace
@@ -94,19 +54,7 @@ namespace Modules\Notify\App\Datas;
 
 **Path fisico corretto:**
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
-=======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
->>>>>>> 8bc2fc9f (first)
 ```
 
 **Namespace corretto:**
@@ -118,19 +66,7 @@ namespace Modules\Notify\Actions\SMS;
 
 **Path fisico corretto:**
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
-=======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
->>>>>>> 8bc2fc9f (first)
 ```
 
 **Namespace corretto:**
@@ -142,19 +78,7 @@ namespace Modules\Notify\Http\Controllers;
 
 **Path fisico corretto:**
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
-=======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
->>>>>>> 8bc2fc9f (first)
 ```
 
 **Namespace corretto:**
@@ -166,19 +90,7 @@ namespace Modules\Notify\Providers;
 
 **Path fisico corretto:**
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
-=======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
->>>>>>> 8bc2fc9f (first)
 ```
 
 **Namespace corretto:**
@@ -195,19 +107,7 @@ namespace Modules\Notify\App\Datas;
 
 ## Motivo di questa Regola
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
-=======
-<<<<<<< HEAD
-Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <main module>.
-=======
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
->>>>>>> 8bc2fc9f (first)
 
 ## Esempio per Datas
 
@@ -239,19 +139,7 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 
 **Path fisico corretto:**
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
-=======
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
-=======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
->>>>>>> 8bc2fc9f (first)
 ```
 
 **Namespace corretto:**

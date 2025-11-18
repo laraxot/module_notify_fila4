@@ -13,21 +13,9 @@ class EmailData extends Data
 {
     public string $to;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?string $from = null;
 
     public ?string $from_email = null;
-=======
-    public null|string $from = null;
-
-    public null|string $from_email = null;
->>>>>>> 8bc2fc9f (first)
-=======
-    public ?string $from = null;
-
-    public ?string $from_email = null;
->>>>>>> 20a3d3b (.)
 
     public string $subject;
 
@@ -42,8 +30,6 @@ class EmailData extends Data
         string $subject,
         string $body_html,
         array $attachments = [],
-<<<<<<< HEAD
-<<<<<<< HEAD
         ?string $from = null,
         ?string $from_email = null,
         ?string $body = null,
@@ -55,28 +41,6 @@ class EmailData extends Data
         }
         $this->from = $from;
         if (! is_string($from_email)) {
-=======
-        null|string $from = null,
-        null|string $from_email = null,
-        null|string $body = null,
-=======
-        ?string $from = null,
-        ?string $from_email = null,
-        ?string $body = null,
->>>>>>> 20a3d3b (.)
-    ) {
-        Assert::email($to, 'Invalid "to" email format');
-        $this->to = $to;
-        if (! is_string($from)) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-        }
-        $this->from = $from;
-<<<<<<< HEAD
-        if (!is_string($from_email)) {
->>>>>>> 8bc2fc9f (first)
-=======
-        if (! is_string($from_email)) {
->>>>>>> 20a3d3b (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
         }
         $this->from_email = $from_email;
@@ -91,27 +55,11 @@ class EmailData extends Data
 
     public function getFrom(): Address
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! isset($this->from)) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->from = $from;
         }
         if (! isset($this->from_email)) {
-=======
-        if (!isset($this->from)) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-            $this->from = $from;
-        }
-        if (!isset($this->from_email)) {
->>>>>>> 8bc2fc9f (first)
-=======
-        if (! isset($this->from)) {
-            Assert::string($from = config('mail.from.name', 'Default Sender'));
-            $this->from = $from;
-        }
-        if (! isset($this->from_email)) {
->>>>>>> 20a3d3b (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->from_email = $from_email;
         }
@@ -125,15 +73,7 @@ class EmailData extends Data
             $this->body = strip_tags($this->body_html);
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         $email = (new MimeEmail)
-=======
-        $email = (new MimeEmail())
->>>>>>> 8bc2fc9f (first)
-=======
-        $email = (new MimeEmail)
->>>>>>> 20a3d3b (.)
             ->from($this->getFrom())
             ->to($this->to)
             ->subject(strip_tags($this->subject))
@@ -141,15 +81,7 @@ class EmailData extends Data
             ->text($this->body);
 
         foreach ($this->attachments as $attachment) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             Assert::string($attachment, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-=======
-            Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
->>>>>>> 8bc2fc9f (first)
-=======
-            Assert::string($attachment, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
->>>>>>> 20a3d3b (.)
             $email->attachFromPath($attachment); // string $path, ?string $name = null, ?string $contentType = null
         }
 

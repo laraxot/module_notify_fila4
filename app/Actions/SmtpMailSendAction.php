@@ -4,19 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Modules\Notify\Datas\EmailData;
-use Modules\Notify\Datas\SmtpData;
-use Symfony\Component\Mailer\Mailer;
-use Symfony\Component\Mime\Address;
-use Symfony\Component\Mime\Email;
-use Webmozart\Assert\Assert;
-
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
 class SmtpMailSendAction
 {
     public function execute(string $_to, string $_subject, string $_body): void

@@ -1,18 +1,6 @@
 # Standard per le Traduzioni 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
-=======
-<<<<<<< HEAD
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <main module>, con particolare attenzione al modulo Notify.
-=======
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
->>>>>>> 8bc2fc9f (first)
 
 ## Struttura delle Cartelle
 

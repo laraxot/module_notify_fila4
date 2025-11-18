@@ -18,21 +18,12 @@ final class SendNetfunSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
     protected bool $debug;
 
     protected int $timeout;
 
     protected ?string $defaultSender = null;
 
-<<<<<<< HEAD
-=======
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     private string $token;
 
     private string $endpoint;
@@ -40,18 +31,6 @@ final class SendNetfunSMSAction implements SmsActionContract
     /** @var array<string, mixed> */
     private array $vars = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    protected bool $debug;
-
-    protected int $timeout;
-
-    protected ?string $defaultSender = null;
-
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     /**
      * Create a new action instance.
      *
@@ -71,15 +50,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('sms.debug', false);
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
-=======
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
->>>>>>> 8bc2fc9f (first)
-=======
-        $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
->>>>>>> 20a3d3b (.)
     }
 
     /**
@@ -90,13 +61,6 @@ final class SendNetfunSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    #[\Override]
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -107,15 +71,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
-<<<<<<< HEAD
-<<<<<<< HEAD
             $to = $to !== '' ? '+'.mb_substr($to, 2) : $to;
-=======
-            $to = $to !== '' ? ('+'.mb_substr($to, 2)) : $to;
->>>>>>> 8bc2fc9f (first)
-=======
-            $to = $to !== '' ? '+'.mb_substr($to, 2) : $to;
->>>>>>> 20a3d3b (.)
         }
         if (! Str::startsWith($to, '+')) {
             $to = '+39'.$to;

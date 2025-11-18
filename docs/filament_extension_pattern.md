@@ -1,18 +1,6 @@
 # Pattern di Estensione per Componenti Filament 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
-=======
-<<<<<<< HEAD
-Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <main module>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
-=======
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
->>>>>>> 8bc2fc9f (first)
 
 ## Regola Fondamentale
 
@@ -32,19 +20,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 
 ## Motivazione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
-=======
-<<<<<<< HEAD
-1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <main module>, mantenendo la coerenza in tutta l'applicazione.
-=======
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
->>>>>>> 8bc2fc9f (first)
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -65,19 +41,7 @@ Quando si estende `XotBaseResource`, è importante seguire queste regole per evi
 
 2. **Non ridefinire metodi standard a meno che non sia necessario**:
    - `public static function table(Table $table): Table`
-<<<<<<< HEAD
-<<<<<<< HEAD
    - `public static function getListTableColumns(): array`
-=======
-<<<<<<< HEAD
-   - `public static function getTableColumns(): array`
-=======
-   - `public static function getListTableColumns(): array`
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-   - `public static function getListTableColumns(): array`
->>>>>>> 8bc2fc9f (first)
 
 Queste proprietà e metodi sono già configurati in `XotBaseResource` per garantire coerenza e centralizzazione della logica. Ridefinirli può portare a comportamenti imprevisti e aumentare la complessità del codice.
 
@@ -126,19 +90,7 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 
 ### 1. Personalizzazione Centralizzata
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
-=======
-<<<<<<< HEAD
-Le classi XotBase possono implementare comportamenti specifici per <main module>, come:
-=======
 Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
->>>>>>> 8bc2fc9f (first)
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici

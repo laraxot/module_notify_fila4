@@ -2,19 +2,7 @@
 
 ## Introduzione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
-=======
-<<<<<<< HEAD
-Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di <main module>, in particolare per la gestione dei template email.
-=======
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
->>>>>>> 8bc2fc9f (first)
 
 ## Panoramica del Pacchetto
 
@@ -28,27 +16,9 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 - **Supporto Dark Mode**: Compatibilità con il tema scuro di Filament
 - **Validazione Avanzata**: Regole di validazione personalizzabili
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Compatibilità con <nome progetto>
-
-Il componente è compatibile con l'architettura di <nome progetto> e può essere integrato seguendo le convenzioni del progetto:
-=======
-<<<<<<< HEAD
-### Compatibilità con <main module>
-
-Il componente è compatibile con l'architettura di <main module> e può essere integrato seguendo le convenzioni del progetto:
-=======
 ### Compatibilità con SaluteOra
 
 Il componente è compatibile con l'architettura di SaluteOra e può essere integrato seguendo le convenzioni del progetto:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-### Compatibilità con SaluteOra
-
-Il componente è compatibile con l'architettura di SaluteOra e può essere integrato seguendo le convenzioni del progetto:
->>>>>>> 8bc2fc9f (first)
 
 - Non utilizza componenti UI personalizzati
 - Può essere configurato per restituire array associativi con chiavi stringhe
@@ -73,19 +43,7 @@ php artisan vendor:publish --tag="filament-title-with-slug-config"
 
 ### Configurazione Base
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di <nome progetto>:
-=======
-<<<<<<< HEAD
-Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di <main module>:
-=======
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
->>>>>>> 8bc2fc9f (first)
 
 ```php
 use Camya\Filament\Forms\Components\TitleWithSlugInput;
@@ -117,19 +75,7 @@ public static function getFormSchema(): array
 
 ### Personalizzazione Avanzata
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Per adattare il componente alle esigenze specifiche di <nome progetto>:
-=======
-<<<<<<< HEAD
-Per adattare il componente alle esigenze specifiche di <main module>:
-=======
 Per adattare il componente alle esigenze specifiche di SaluteOra:
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Per adattare il componente alle esigenze specifiche di SaluteOra:
->>>>>>> 8bc2fc9f (first)
 
 ```php
 'titleSlug' => TitleWithSlugInput::make(
@@ -166,15 +112,7 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 
 ```php
 ->urlPath('/mail-templates/')
-<<<<<<< HEAD
-<<<<<<< HEAD
-->urlHost('https://<nome progetto>.example.com')
-=======
 ->urlHost('https://saluteora.example.com')
->>>>>>> 7bac387 (.)
-=======
-->urlHost('https://saluteora.example.com')
->>>>>>> 8bc2fc9f (first)
 ->urlHostVisible(true)
 ```
 
@@ -209,19 +147,7 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
     : null)
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Vantaggi per <nome progetto>
-=======
-<<<<<<< HEAD
-## Vantaggi per <main module>
-=======
 ## Vantaggi per SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-## Vantaggi per SaluteOra
->>>>>>> 8bc2fc9f (first)
 
 L'integrazione di questo componente nel modulo Notify offrirebbe:
 
@@ -233,33 +159,11 @@ L'integrazione di questo componente nel modulo Notify offrirebbe:
 
 ## Considerazioni per l'Implementazione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Conformità con le Convenzioni di <nome progetto>
-
-Per rispettare le convenzioni del progetto, è necessario:
-
-1. **Traduzione**: Configurare le etichette per utilizzare il sistema di traduzione di <nome progetto> anziché testi hardcoded
-=======
-<<<<<<< HEAD
-### Conformità con le Convenzioni di <main module>
-
-Per rispettare le convenzioni del progetto, è necessario:
-
-1. **Traduzione**: Configurare le etichette per utilizzare il sistema di traduzione di <main module> anziché testi hardcoded
-=======
-=======
->>>>>>> 8bc2fc9f (first)
 ### Conformità con le Convenzioni di SaluteOra
 
 Per rispettare le convenzioni del progetto, è necessario:
 
 1. **Traduzione**: Configurare le etichette per utilizzare il sistema di traduzione di SaluteOra anziché testi hardcoded
-<<<<<<< HEAD
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
->>>>>>> 8bc2fc9f (first)
 2. **Array Associativo**: Utilizzare chiavi stringhe nell'array di schema del form
 3. **Nomenclatura**: Seguire le convenzioni di nomenclatura del progetto
 
@@ -291,54 +195,18 @@ public static function getFormSchema(): array
 ### Potenziali Limitazioni
 
 1. **Dipendenza Esterna**: Introduce una dipendenza aggiuntiva nel progetto
-<<<<<<< HEAD
-<<<<<<< HEAD
-2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di <nome progetto>
-=======
-<<<<<<< HEAD
-2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di <main module>
-=======
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
->>>>>>> 8bc2fc9f (first)
 3. **Modifiche Future**: Come ogni dipendenza, è soggetto a cambiamenti nelle versioni future
 
 ### Alternative
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di <nome progetto>
-=======
-<<<<<<< HEAD
-1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di <main module>
-=======
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
->>>>>>> 8bc2fc9f (first)
 2. **Approccio Modulare**: Utilizzare i componenti nativi di Filament con logica personalizzata
 3. **Altri Pacchetti**: Valutare pacchetti alternativi con funzionalità simili
 
 ## Conclusioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di <nome progetto> potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
-=======
-<<<<<<< HEAD
-Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di <main module> potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
-=======
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-=======
-Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
->>>>>>> 8bc2fc9f (first)
 
 L'implementazione dovrebbe seguire le convenzioni del progetto, con particolare attenzione alla localizzazione e alla struttura del form schema.
 

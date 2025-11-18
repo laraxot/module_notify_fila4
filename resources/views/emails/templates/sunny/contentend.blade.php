@@ -14,10 +14,6 @@ declare(strict_types=1);
 <tr>
 	<td colspan="3" height="30"></td>
 </tr>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
 </tr>
 </tr>
 </tr>
@@ -30,8 +26,3 @@ declare(strict_types=1);
 </tr>
 </tr>
 </tr>
-<<<<<<< HEAD
-=======
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)

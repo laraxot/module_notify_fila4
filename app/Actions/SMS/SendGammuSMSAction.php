@@ -5,13 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use Exception;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Facades\Log;
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\GammuData;
@@ -27,34 +20,15 @@ final class SendGammuSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
     protected bool $debug;
 
     protected ?string $defaultSender = null;
 
-<<<<<<< HEAD
-=======
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     private GammuData $gammuData;
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    protected bool $debug;
-
-    protected ?string $defaultSender = null;
-
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     /**
      * Create a new action instance.
      */
@@ -84,13 +58,6 @@ final class SendGammuSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    #[\Override]
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

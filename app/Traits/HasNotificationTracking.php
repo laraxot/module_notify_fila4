@@ -71,19 +71,8 @@ trait HasNotificationTracking
     protected function addTracking(string $html, string $trackingId): string
     {
         $html = $this->addLinkTracking($html, $trackingId);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         return $this->addTrackingPixel($html, $trackingId);
-=======
-        $html = $this->addTrackingPixel($html, $trackingId);
-
-        return $html;
->>>>>>> 8bc2fc9f (first)
-=======
-
-        return $this->addTrackingPixel($html, $trackingId);
->>>>>>> 20a3d3b (.)
     }
 
     /**

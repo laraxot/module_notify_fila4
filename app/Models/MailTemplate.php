@@ -9,14 +9,6 @@ use Carbon\Carbon;
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\SoftDeletes;
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 use Spatie\Sluggable\HasSlug;
@@ -24,10 +16,6 @@ use Spatie\Sluggable\SlugOptions;
 use Spatie\Translatable\HasTranslations;
 
 /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
  * @property int $id
  * @property string $mailable
  * @property string|null $subject
@@ -45,89 +33,22 @@ use Spatie\Translatable\HasTranslations;
  * @property string|null $deleted_by
  * @property string $name
  * @property string $slug
-<<<<<<< HEAD
- * @property Collection<int, MailTemplateVersion> $versions
- * @property Collection<int, MailTemplateLog> $logs
- * @property string|null $updated_by
-=======
   * @property string|null $updated_by
->>>>>>> 20a3d3b (.)
  * @property string|null $created_by
  * @property string|null $deleted_by
  * @property string $name
  * @property string $slug
  * @property array $variables
  * @property mixed $translations
-<<<<<<< HEAD
  * @property string|null $params
  * @property array<array-key, mixed>|null $sms_template
  * @property int $counter
  *
-=======
- * @property int                                  $id
- * @property string                               $mailable
- * @property string|null                          $subject
- * @property string                               $html_template
- * @property string|null                          $text_template
- * @property int                                  $version
- * @property Carbon                               $created_at
- * @property Carbon                               $updated_at
- * @property Carbon|null                          $deleted_at
- * @property Collection<int, MailTemplateVersion> $versions
- * @property Collection<int, MailTemplateLog>     $logs
- * @property string|null                          $updated_by
- * @property string|null                          $created_by
- * @property string|null                          $deleted_by
- * @property string                               $name
- * @property string                               $slug
- * @property array                                $variables
- * @property mixed                                $translations
- *
- * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
- * @method static Builder<static>|MailTemplate newModelQuery()
- * @method static Builder<static>|MailTemplate newQuery()
- * @method static Builder<static>|MailTemplate query()
- * @method static Builder<static>|MailTemplate whereCreatedAt($value)
- * @method static Builder<static>|MailTemplate whereCreatedBy($value)
- * @method static Builder<static>|MailTemplate whereDeletedAt($value)
- * @method static Builder<static>|MailTemplate whereDeletedBy($value)
- * @method static Builder<static>|MailTemplate whereHtmlTemplate($value)
- * @method static Builder<static>|MailTemplate whereId($value)
- * @method static Builder<static>|MailTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
- * @method static Builder<static>|MailTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
- * @method static Builder<static>|MailTemplate whereLocale(string $column, string $locale)
- * @method static Builder<static>|MailTemplate whereLocales(string $column, array $locales)
- * @method static Builder<static>|MailTemplate whereMailable($value)
- * @method static Builder<static>|MailTemplate whereName($value)
- * @method static Builder<static>|MailTemplate whereSlug($value)
- * @method static Builder<static>|MailTemplate whereSubject($value)
- * @method static Builder<static>|MailTemplate whereTextTemplate($value)
- * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
- * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
- *
-=======
->>>>>>> 20a3d3b (.)
- * @property string|null $params
- * @property array<array-key, mixed>|null $sms_template
- * @property int $counter
- *
-<<<<<<< HEAD
- * @method static Builder<static>|MailTemplate whereCounter($value)
- * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
- *
- * @mixin IdeHelperMailTemplate
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 {
     use HasSlug;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
 
     // use SoftDeletes;
     use HasTranslations;
@@ -135,24 +56,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     /** @var list<string> */
     public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
 
-<<<<<<< HEAD
-=======
-    // use SoftDeletes;
-    use HasTranslations;
-
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     /** @var string */
     protected $connection = 'notify';
 
     /** @var list<string> */
-<<<<<<< HEAD
-=======
-    public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
-
-    /** @var list<string> */
->>>>>>> 8bc2fc9f (first)
     protected $fillable = [
         'mailable',
         'name',
@@ -171,26 +78,6 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     ];
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     * Define attribute casts.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return [
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-            'deleted_at' => 'datetime',
-        ];
-    }
-
-    /**
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
      * Get the options for generating the slug.
      */
     public function getSlugOptions(): SlugOptions
@@ -205,10 +92,6 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         }
         $slug = $mailable->getSlug();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 20a3d3b (.)
         return $query->where('mailable', $mailable::class)->where('slug', $slug);
     }
 
@@ -224,12 +107,6 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
         ];
-<<<<<<< HEAD
-=======
-        return $query->where('mailable', get_class($mailable))->where('slug', $slug);
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     }
 
     /*

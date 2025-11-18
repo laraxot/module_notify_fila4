@@ -4,17 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
-=======
-use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Config;
-use Modules\Tenant\Services\TenantService;
->>>>>>> 8bc2fc9f (first)
-=======
-use Illuminate\Support\Facades\Config;
->>>>>>> 20a3d3b (.)
 use Spatie\LaravelData\Data;
 
 class GammuData extends Data

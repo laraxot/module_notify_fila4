@@ -8,35 +8,16 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
-=======
-use Modules\Notify\Contracts\SMS\SmsActionContract;
->>>>>>> 8bc2fc9f (first)
-=======
-use Modules\Notify\Contracts\SmsActionContract;
->>>>>>> 20a3d3b (.)
 use Modules\Notify\Datas\SMS\TwilioData;
 use Modules\Notify\Datas\SmsData;
 
 final class SendTwilioSMSAction implements SmsActionContract
 {
     private TwilioData $twilioData;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     private ?string $defaultSender = null;
 
-=======
-    private ?string $defaultSender = null;
-    
->>>>>>> 8bc2fc9f (first)
-=======
-
-    private ?string $defaultSender = null;
-
->>>>>>> 20a3d3b (.)
     /** @var array<string, mixed> */
     private array $vars = [];
 
@@ -68,13 +49,6 @@ final class SendTwilioSMSAction implements SmsActionContract
      *
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    #[\Override]
->>>>>>> 8bc2fc9f (first)
-=======
->>>>>>> 20a3d3b (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
