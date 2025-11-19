@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19,6 +20,9 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 </tbody>
 >>>>>>> 75179b8 (.)
+=======
+dy>
+>>>>>>> c8eedbb (.)
 </table>
 </td>
 </tr>
