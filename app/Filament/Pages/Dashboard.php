@@ -4,12 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
@@ -25,6 +24,8 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -35,24 +36,10 @@ class Dashboard extends XotBaseDashboard
     public function mount(): void
     {
         /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
          * }
          */
-<<<<<<< HEAD
-=======
-        $user = auth()->user();
-        if (! $user->hasRole('super-admin')) {
-            redirect('/admin');
-        }
-        */
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     }
 }

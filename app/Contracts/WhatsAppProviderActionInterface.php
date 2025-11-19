@@ -8,15 +8,7 @@ use Modules\Notify\Datas\WhatsAppData;
 
 /**
  * Interfaccia per le azioni dei provider WhatsApp.
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> b19cd40 (.)
-=======
- *
->>>>>>> 4e2ebfb (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -33,12 +25,4 @@ interface WhatsAppProviderActionInterface
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-} 
->>>>>>> b19cd40 (.)
-=======
-}
->>>>>>> 4e2ebfb (.)

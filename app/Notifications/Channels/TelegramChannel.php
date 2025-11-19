@@ -1,12 +1,11 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
@@ -21,6 +20,8 @@ declare(strict_types=1);
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -69,15 +70,7 @@ class TelegramChannel
         // Per ora, logghiamo solo l'intento di invio
         Log::info('Telegram notification would be sent', [
             'chat_id' => $chatId,
-<<<<<<< HEAD
-<<<<<<< HEAD
             'message' => $message,
-=======
-            'message' => $message
->>>>>>> b19cd40 (.)
-=======
-            'message' => $message,
->>>>>>> 4e2ebfb (.)
         ]);
     }
 }

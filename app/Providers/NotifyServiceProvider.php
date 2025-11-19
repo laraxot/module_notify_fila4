@@ -7,6 +7,7 @@ namespace Modules\Notify\Providers;
 // use Illuminate\Support\Facades\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14,6 +15,8 @@ namespace Modules\Notify\Providers;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 use Override;
 >>>>>>> 75179b8 (.)
 use Illuminate\Support\Arr;
@@ -21,16 +24,6 @@ use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Arr;
-use Webmozart\Assert\Assert;
-use Illuminate\Support\Facades\Mail;
-use Modules\Tenant\Services\TenantService;
-use Modules\Xot\Providers\XotBaseServiceProvider;
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -43,6 +36,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function boot(): void
     {
         parent::boot();
@@ -52,16 +46,14 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 207ac35 (.)
-    #[Override]
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b (.)
     #[Override]
->>>>>>> 4e2ebfb (.)
     public function boot(): void
     {
         parent::boot();
         //if (! app()->environment('production')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -73,6 +65,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
         $fallback_to = Arr::get($mail, 'fallback_to', null);
@@ -81,17 +75,5 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         }
 
         // }
-<<<<<<< HEAD
-=======
-            $mail=TenantService::config('mail');
-            Assert::isArray($mail);
-            $fallback_to=Arr::get($mail,'fallback_to',null);
-            if(is_string($fallback_to)){
-                Mail::alwaysTo($fallback_to);
-            }
-       // }
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     }
 }

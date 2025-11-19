@@ -27,6 +27,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -39,6 +40,8 @@ class Pdf
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -59,26 +62,5 @@ class Pdf
             'as' => $file_name,
             'mime' => 'application/pdf',
         ]);
-<<<<<<< HEAD
-=======
-        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
-        if (isset($view_params[$file_name])) {
-            $file_name = $view_params[$file_name];
-        }
-        Assert::string($file_name);
-        $file_path = Storage::disk('cache')->path($file_name);
-
-        HtmlService::toPdf(filename: $file_path, html: $html, out: 'file', pdforientation: 'P');
-
-        return AttachmentData::from(
-            [
-                'path' => $file_path,
-                'as' => $file_name,
-                'mime' => 'application/pdf',
-            ]
-        );
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     }
 }

@@ -7,6 +7,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SmsActionContract;
 =======
@@ -16,6 +17,8 @@ use Modules\Notify\Contracts\SmsActionContract;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -23,17 +26,6 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 75179b8 (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
-<<<<<<< HEAD
-=======
-
-use GuzzleHttp\Client;
-use Modules\Notify\Datas\SmsData;
-use Illuminate\Support\Facades\Http;
-use Modules\Notify\Datas\SMS\AgiletelecomData;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -47,6 +39,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -54,6 +47,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
     #[Override]
 >>>>>>> 75179b8 (.)
     public function execute(SmsData $data): array
@@ -77,33 +72,6 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'Accept-Encoding' => 'gzip, deflate',
             'Cache-Control' => 'no-cache',
             'Connection' => 'keep-alive',
-<<<<<<< HEAD
-=======
-    public function execute(SmsData $data): array{
-        
-        $base_uri='https://secure.agiletelecom.com/';
-        $relative_path='securesend_v1.aspx';
-
-        $agile=AgiletelecomData::make();
-        $phone=app(NormalizePhoneNumberAction::class)->execute($data->to);
-        
-        
-        $data = [
-            "smsTEXT" => $data->body,
-            "smsNUMBER" => $phone,
-            "smsSENDER" => $agile->sender,
-            "smsGATEWAY" => "H", // M = Qualità standard, H = Qualità Alta
-            "smsUSER" =>$agile->username,
-            "smsPASSWORD" => $agile->password
-        ];
-
-        $headers = [
-            "Accept-Encoding" => "gzip, deflate",
-            "Cache-Control" => "no-cache",
-            "Connection" => "keep-alive",
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         ];
 
         $client = new Client([
@@ -114,21 +82,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ]);
 
         $connection = $client->request('POST', $relative_path);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         return [];
     }
-=======
-        
-        return [];
-
-    }
-    
->>>>>>> b19cd40 (.)
-=======
-
-        return [];
-    }
->>>>>>> 4e2ebfb (.)
 }
