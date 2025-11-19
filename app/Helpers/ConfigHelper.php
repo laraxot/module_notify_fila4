@@ -193,16 +193,25 @@ class ConfigHelper
         foreach ($variables as $variable => $value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
 =======
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
             $placeholder = '{{' . $variable . '}}';
 =======
             $placeholder = '{{'.$variable.'}}';
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

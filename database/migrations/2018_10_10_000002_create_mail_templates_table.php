@@ -5,18 +5,28 @@ declare(strict_types=1);
 use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 =======
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -25,17 +35,26 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 return new class() extends XotBaseMigration {
 =======
 return new class () extends XotBaseMigration {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     /**
      * Run the migrations.
      */
@@ -52,13 +71,17 @@ return new class () extends XotBaseMigration {
             $table->json('text_template')->nullable();
             $table->string('version')->default('1.0.0');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (! $this->hasColumn('name')) {
@@ -68,6 +91,10 @@ return new class () extends XotBaseMigration {
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -82,6 +109,7 @@ return new class () extends XotBaseMigration {
             );
         });
     }
+<<<<<<< HEAD
 =======
             if (! $this->hasColumn('name')) {
                 $table->string('name');
@@ -95,4 +123,6 @@ return new class () extends XotBaseMigration {
     }
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 };

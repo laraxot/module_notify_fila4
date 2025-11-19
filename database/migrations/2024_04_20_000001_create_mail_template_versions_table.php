@@ -7,11 +7,16 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
 return new class() extends XotBaseMigration {
 >>>>>>> 75179b8 (.)
     public function up(): void
@@ -35,6 +40,7 @@ return new class() extends XotBaseMigration {
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, true);
         });
+<<<<<<< HEAD
 =======
 return new class () extends XotBaseMigration {
     public function up(): void
@@ -66,5 +72,7 @@ return new class () extends XotBaseMigration {
             }
         );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 };

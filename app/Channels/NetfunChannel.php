@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -11,7 +12,15 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -23,19 +32,27 @@ class NetfunChannel
 {
     protected SendNetfunSMSAction $sendSMSAction;
 <<<<<<< HEAD
-
-=======
-    
->>>>>>> b19cd40 (.)
-    public function __construct(SendNetfunSMSAction $sendSMSAction)
-    {
-        $this->sendSMSAction = $sendSMSAction;
-    }
 <<<<<<< HEAD
 
 =======
     
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+    public function __construct(SendNetfunSMSAction $sendSMSAction)
+    {
+        $this->sendSMSAction = $sendSMSAction;
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
     /**
      * Invia la notifica tramite Netfun SMS
 <<<<<<< HEAD
@@ -58,10 +75,14 @@ class NetfunChannel
             return null;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $to = $notifiable->routeNotificationForNetfun($notification);
 <<<<<<< HEAD
         if (! $to) {
@@ -71,10 +92,14 @@ class NetfunChannel
             return null;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         // Ottieni il messaggio dalla notifica
 <<<<<<< HEAD
         if (! method_exists($notification, 'toNetfun')) {
@@ -84,6 +109,9 @@ class NetfunChannel
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 
         $message = $notification->toNetfun($notifiable);
 
@@ -99,6 +127,7 @@ class NetfunChannel
         // Esegui l'invio tramite la Queueable Action
         // L'esecuzione avverrà in modo asincrono (in background)
         return $this->sendSMSAction->onQueue('sms')->execute($smsData); // Esegui sulla coda 'sms'
+<<<<<<< HEAD
 =======
         
         $message = $notification->toNetfun($notifiable);
@@ -116,5 +145,7 @@ class NetfunChannel
             ->onQueue('sms') // Esegui sulla coda 'sms'
             ->execute($smsData);
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 }

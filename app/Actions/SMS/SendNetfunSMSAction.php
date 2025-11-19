@@ -6,15 +6,21 @@ namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+>>>>>>> 207ac35 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -25,9 +31,13 @@ use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
 use function Safe\preg_replace;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -64,10 +74,14 @@ final class SendNetfunSMSAction implements SmsActionContract
 
     /** @var string|null */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected null|string $defaultSender = null;
 =======
     protected ?string $defaultSender = null;
 >>>>>>> b19cd40 (.)
+=======
+    protected null|string $defaultSender = null;
+>>>>>>> 4e2ebfb (.)
 
 >>>>>>> 75179b8 (.)
     /**
@@ -95,16 +109,25 @@ final class SendNetfunSMSAction implements SmsActionContract
         $this->debug = (bool) config('sms.debug', false);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+        $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     }
 
     /**
@@ -122,13 +145,20 @@ final class SendNetfunSMSAction implements SmsActionContract
      * @throws Exception In caso di errore durante l'invio
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -177,10 +207,14 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 75179b8 (.)
                 $clientException->getCode(),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException,
 =======
                 $clientException
 >>>>>>> b19cd40 (.)
+=======
+                $clientException,
+>>>>>>> 4e2ebfb (.)
             );
         }
 
@@ -215,10 +249,14 @@ final class SendNetfunSMSAction implements SmsActionContract
         // Rimuovi tutti i caratteri non numerici tranne il +
         $cleaned = preg_replace('/[^0-9+]/', '', $phoneNumber);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         // Se preg_replace restituisce null (non dovrebbe succedere con input string)
 <<<<<<< HEAD
         if (! is_string($cleaned) || $cleaned === '') {
@@ -227,6 +265,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 75179b8 (.)
             $cleaned = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -241,11 +280,29 @@ final class SendNetfunSMSAction implements SmsActionContract
             $cleaned = '+39' . ltrim($cleaned, '0');
 >>>>>>> 75179b8 (.)
         }
+=======
+>>>>>>> 207ac35 (.)
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+        // Se il numero non inizia con '+'
+        if (!Str::startsWith($cleaned, '+')) {
+            $cleaned = '+39' . ltrim($cleaned, '0');
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         return $cleaned;
     }
 }

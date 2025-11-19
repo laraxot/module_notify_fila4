@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
@@ -11,12 +14,15 @@ declare(strict_types=1);
 {!! $html !!}
 @include('notify::emails.templates.'.$theme.'.contentEnd')
 <<<<<<< HEAD
+<<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.content-end')
 @include('notify::emails.templates.'.$theme.'.content-end')
 @include('notify::emails.templates.'.$theme.'.contentEnd')
 @include('notify::emails.templates.'.$theme.'.content-end')
 =======
 >>>>>>> 82ae73b (.)
+=======
+>>>>>>> 207ac35 (.)
 =======
 @include('notify::emails.templates.'.$theme.'.contentStart')
 {!! $html !!}
@@ -25,4 +31,9 @@ declare(strict_types=1);
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)

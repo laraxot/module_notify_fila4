@@ -12,17 +12,23 @@ use RuntimeException;
 =======
 use RuntimeException;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
 >>>>>>> 75179b8 (.)
 use Tests\TestCase;
+<<<<<<< HEAD
 =======
 use Modules\Notify\Models\NotificationTemplateVersion;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
 class NotificationTemplateVersionBusinessLogicTest extends TestCase
 {
@@ -33,10 +39,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $versionData = [
             'template_id' => $template->id,
             'subject' => 'Versione 2.0 - Conferma Appuntamento',
@@ -134,10 +144,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5',
@@ -153,10 +167,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $complexChannels = [
             'email' => [
                 'enabled' => true,
@@ -189,10 +207,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $conditions = [
             'user_type' => ['patient', 'doctor'],
             'appointment_status' => 'confirmed',
@@ -216,10 +238,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $variables = [
             'required' => ['patient_name', 'appointment_date', 'doctor_name'],
             'optional' => ['clinic_address', 'phone_number'],
@@ -246,10 +272,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         // Crea multiple versioni
         $version1 = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
@@ -316,10 +346,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.2.3',
@@ -338,10 +372,14 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = NotificationTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'subject' => null,

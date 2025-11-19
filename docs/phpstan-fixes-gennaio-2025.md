@@ -246,6 +246,9 @@ public function toMail(object $notifiable): MailMessage
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 92/100 score  
 **✨ Test Coverage**: 95% ✅
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 207ac35 (.)

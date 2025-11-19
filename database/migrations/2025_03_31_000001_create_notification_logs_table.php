@@ -8,18 +8,27 @@ use Illuminate\Support\Facades\Schema;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends Migration
 {
 =======
 return new class extends Migration {
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 return new class extends Migration {
 =======
 return new class extends Migration
 {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+return new class extends Migration {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     /**
      * Esegue la migrazione.
      */
@@ -38,10 +47,14 @@ return new class extends Migration
             $table->text('error')->nullable();
             $table->timestamps();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

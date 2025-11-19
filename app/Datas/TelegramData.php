@@ -9,10 +9,14 @@ use Spatie\LaravelData\Data;
 /**
  * Data Transfer Object per i messaggi Telegram.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+=======
+ *
+>>>>>>> 4e2ebfb (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi Telegram
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -46,6 +50,7 @@ class TelegramData extends Data
         public string $text,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
@@ -55,6 +60,10 @@ class TelegramData extends Data
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
         public null|string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
@@ -62,8 +71,11 @@ class TelegramData extends Data
         public null|array $replyMarkup = null,
         public null|array $media = null,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 =======
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
@@ -72,7 +84,12 @@ class TelegramData extends Data
         public ?array $replyMarkup = null,
         public ?array $media = null,
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
         public string $type = 'text',
     ) {}
 }

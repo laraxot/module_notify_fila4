@@ -6,6 +6,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Tables\Columns\TextColumn;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Builders\ColumnBuilder;
@@ -20,9 +21,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+>>>>>>> 207ac35 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Filament\Tables;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -33,17 +39,26 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 <<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getTableColumns(): array
@@ -66,6 +81,10 @@ class ListContacts extends XotBaseListRecords
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -90,8 +109,11 @@ class ListContacts extends XotBaseListRecords
                 fn(Builder $query): Builder => $query->where('active', false),
             ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 =======
     public function getTableColumns(): array
     {
@@ -134,7 +156,12 @@ class ListContacts extends XotBaseListRecords
                     return $query->where('active', false);
                 }),
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
         ];
     }
 }

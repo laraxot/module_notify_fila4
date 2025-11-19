@@ -11,17 +11,26 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 return new class() extends XotBaseMigration {
 =======
 return new class () extends XotBaseMigration {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -30,6 +39,9 @@ return new class () extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('mailable');
@@ -45,6 +57,7 @@ return new class () extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 =======
         $this->tableCreate(
             function (Blueprint $table): void {
@@ -64,5 +77,7 @@ return new class () extends XotBaseMigration {
             }
         );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 };

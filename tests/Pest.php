@@ -4,11 +4,16 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 75179b8 (.)
@@ -58,6 +63,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
  * | global functions to help you to reduce the number of lines of code in your test files.
  * |
  */
+<<<<<<< HEAD
 =======
 namespace Modules\Notify\Tests;
 
@@ -110,6 +116,8 @@ expect()->extend('toBeMailTemplate', function () {
 |
 */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
 function createNotification(array $attributes = []): Notification
 {

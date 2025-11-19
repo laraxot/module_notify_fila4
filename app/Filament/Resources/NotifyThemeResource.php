@@ -5,9 +5,13 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -26,10 +30,15 @@ class NotifyThemeResource extends XotBaseResource
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static ?string $model = NotifyTheme::class;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> 75179b8 (.)
 
@@ -46,8 +55,11 @@ class NotifyThemeResource extends XotBaseResource
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 =======
     protected static ?string $model = NotifyTheme::class;
 
@@ -68,7 +80,12 @@ class NotifyThemeResource extends XotBaseResource
                     return self::fieldOptions('post_type');
                 }),
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -92,11 +109,15 @@ class NotifyThemeResource extends XotBaseResource
                 ])
                 ->default('empty'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
     }
 
+<<<<<<< HEAD
 =======
             'body' => Textarea::make('body')
                 ->columnSpanFull(),
@@ -108,6 +129,8 @@ class NotifyThemeResource extends XotBaseResource
    
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

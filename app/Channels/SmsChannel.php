@@ -52,6 +52,7 @@ class SmsChannel
     public function send($notifiable, Notification $notification)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!method_exists($notification, 'toSms')) {
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -59,7 +60,13 @@ class SmsChannel
 =======
         if (! method_exists($notification, 'toSms')) {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+        if (!method_exists($notification, 'toSms')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
             throw new Exception('Notification does not have toSms method');
         }
 
@@ -67,26 +74,38 @@ class SmsChannel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! ($smsData instanceof SmsData)) {
 =======
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
         if (!($smsData instanceof SmsData)) {
 =======
 
         if (! $smsData instanceof SmsData) {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+=======
+=======
+        if (!($smsData instanceof SmsData)) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
         $action = $this->factory->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
         return $action->execute($smsData);
     }

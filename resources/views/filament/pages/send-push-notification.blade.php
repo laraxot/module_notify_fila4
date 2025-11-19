@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
@@ -53,6 +56,7 @@ declare(strict_types=1);
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 =======
 <x-filament-panels::page>
     <x-filament::section>
@@ -78,4 +82,6 @@ declare(strict_types=1);
         </x-slot>
     </x-filament::section>
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 </x-filament-panels::page>

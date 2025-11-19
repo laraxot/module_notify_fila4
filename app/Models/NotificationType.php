@@ -2,9 +2,13 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD

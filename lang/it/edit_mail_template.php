@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -23,6 +26,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 =======
 return array (
   'actions' => 
@@ -46,3 +50,5 @@ return array (
   ),
 );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
