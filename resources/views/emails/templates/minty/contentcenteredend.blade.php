@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -23,6 +24,17 @@ declare(strict_types=1);
 =======
 dy>
 >>>>>>> c8eedbb (.)
+=======
+dy>
+=======
+<?php
+
+declare(strict_types=1);
+
+?>
+</tbody>
+>>>>>>> 518c702 (.)
+>>>>>>> f963d2c (.)
 </table>
 </td>
 </tr>

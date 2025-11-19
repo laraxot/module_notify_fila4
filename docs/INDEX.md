@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9,6 +10,8 @@
 =======
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> f963d2c (.)
 # Notify Module Documentation
 
 ## Overview
@@ -62,6 +65,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -259,6 +263,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> f963d2c (.)
 
 ## Sottocartelle
 
@@ -269,6 +275,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ### Notifications
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -285,6 +292,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> f963d2c (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -295,6 +304,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -406,3 +416,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> f963d2c (.)
