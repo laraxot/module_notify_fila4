@@ -5,16 +5,26 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
+=======
+>>>>>>> 82ae73b (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+>>>>>>> b19cd40 (.)
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b8 (.)
 
@@ -134,6 +144,7 @@ class Contact extends BaseModel
 {
     /** @var list<string> */
     protected $fillable = [
+<<<<<<< HEAD
         'model_id',
         'model_type',
         'contact_type',
@@ -151,7 +162,18 @@ class Contact extends BaseModel
 =======
     /** @return array<string, string> */
     #[Override]
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+=======
+        'model_id', 'model_type', 'contact_type', 'value',
+        'verified_at', 'updated_at', 'created_at',
+        'updated_by', 'created_by', 'user_id', 'token',
+    ];
+
+    /** @return array<string, string> */
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
     protected function casts(): array
     {
         return [
@@ -160,9 +182,17 @@ class Contact extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+=======
+
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+
+>>>>>>> b19cd40 (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',

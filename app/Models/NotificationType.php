@@ -1,7 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 
+=======
+>>>>>>> b19cd40 (.)
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD

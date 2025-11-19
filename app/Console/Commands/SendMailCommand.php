@@ -54,6 +54,7 @@ class SendMailCommand extends Command
         SmtpData::make()->send($emailData);
 
         /*
+<<<<<<< HEAD
          * Notification::route('mail', $emailData->to)
          * ->notify(new EmailDataNotification($emailData));
          */
@@ -63,7 +64,18 @@ class SendMailCommand extends Command
         $this->info('Email sent successfully to '.$emailData->to);
 =======
         $this->info('Email sent successfully to ' . $emailData->to);
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+=======
+        Notification::route('mail', $emailData->to)
+            ->notify(new EmailDataNotification($emailData));
+        */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to '.$emailData->to);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
 
         return Command::SUCCESS;
     }

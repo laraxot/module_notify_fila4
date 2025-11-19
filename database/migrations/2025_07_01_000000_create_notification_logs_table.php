@@ -1,21 +1,35 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 return new class extends Migration
 {
 =======
 return new class extends Migration {
 >>>>>>> 75179b8 (.)
+=======
+return new class extends Migration {
+=======
+return new class extends Migration
+{
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
     /**
      * Run the migrations.
      */
@@ -41,7 +55,11 @@ return new class extends Migration {
                 $table->text('error_message')->nullable();
                 $table->json('metadata')->nullable();
                 $table->timestamps();
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> b19cd40 (.)
                 $table->index(['notifiable_type', 'notifiable_id']);
                 $table->index('channel');
                 $table->index('status');

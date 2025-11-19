@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -20,3 +21,12 @@ return [
 =======
 >>>>>>> 75179b8 (.)
 ];
+=======
+return array (
+  'navigation' =>
+  array (
+    'label' => 'Impostazioni Notifiche',
+    'group' => 'Notifiche',
+  ),
+);
+>>>>>>> b19cd40 (.)

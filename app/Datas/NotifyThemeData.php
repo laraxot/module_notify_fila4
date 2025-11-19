@@ -9,6 +9,7 @@ use Spatie\LaravelData\Data;
 class NotifyThemeData extends Data
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $from_email = null; // from address
 
     public ?string $from = null; // from name
@@ -17,6 +18,16 @@ class NotifyThemeData extends Data
 
     public null|string $from = null; // from name
 >>>>>>> 75179b8 (.)
+=======
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+=======
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
 
     public string $subject;
 

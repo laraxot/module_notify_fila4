@@ -17,6 +17,7 @@ class NotificationData extends Data
     public string $from;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $from_email = null;
 
     public string $to;
@@ -25,6 +26,8 @@ class NotificationData extends Data
 
     public ?string $body_html = null;
 =======
+=======
+>>>>>>> 82ae73b (.)
     public null|string $from_email = null;
 
     public string $to;
@@ -32,7 +35,19 @@ class NotificationData extends Data
     public null|string $subject = null;
 
     public null|string $body_html = null;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+=======
+    public ?string $from_email = null;
+
+    public string $to;
+
+    public ?string $subject = null;
+
+    public ?string $body_html = null;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
 
     public string $body;
 
@@ -42,11 +57,17 @@ class NotificationData extends Data
      * @var DataCollection<AttachmentData>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?DataCollection $attachments = null;
 =======
+=======
+>>>>>>> 82ae73b (.)
     public null|DataCollection $attachments = null;
 >>>>>>> 75179b8 (.)
 
+=======
+    public ?DataCollection $attachments = null;
+>>>>>>> b19cd40 (.)
     // public ?array $attachment_paths = [];
 
     /**
@@ -65,10 +86,20 @@ class NotificationData extends Data
 
     public function getSmsData(): SmsData
     {
+<<<<<<< HEAD
         return SmsData::from([
             'from' => $this->from,
             'to' => $this->to,
             'body' => $this->body,
         ]);
+=======
+        return SmsData::from(
+            [
+                'from' => $this->from,
+                'to' => $this->to,
+                'body' => $this->body,
+            ]
+        );
+>>>>>>> b19cd40 (.)
     }
 }

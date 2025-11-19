@@ -24,10 +24,17 @@ class BuildMailMessageAction
         Model $model,
         array $view_params = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?DataCollection $dataCollection = null,
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 75179b8 (.)
+=======
+        null|DataCollection $dataCollection = null,
+=======
+        ?DataCollection $dataCollection = null
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -57,22 +64,39 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
+<<<<<<< HEAD
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
         $email = new MailMessage()
+=======
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+>>>>>>> b19cd40 (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
 >>>>>>> 75179b8 (.)

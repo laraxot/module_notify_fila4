@@ -44,13 +44,22 @@ class EmailDataNotification extends Notification
      * Get the notification's delivery channels.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  object  $_notifiable  The entity to be notified (not used in this method)
 =======
+=======
+>>>>>>> 82ae73b (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
 >>>>>>> 75179b8 (.)
      * @return array<string>
      */
     public function via(object $_notifiable): array
+=======
+     * @param object $notifiable The entity to be notified
+     * @return array<string>
+     */
+    public function via(object $notifiable): array
+>>>>>>> b19cd40 (.)
     {
         return ['mail'];
     }
@@ -75,11 +84,19 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
+<<<<<<< HEAD
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
 
         if (!empty($this->emailData->body_html)) {
+=======
+        $mailMessage = (new MailMessage())
+            ->subject($this->emailData->subject)
+            ->line($this->emailData->body);
+
+        if (! empty($this->emailData->body_html)) {
+>>>>>>> b19cd40 (.)
             $mailMessage->view('notify::emails.template', [
 >>>>>>> 75179b8 (.)
                 'content' => $this->emailData->body_html,
@@ -87,10 +104,16 @@ class EmailDataNotification extends Notification
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
             $mailMessage = $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 =======
+=======
+>>>>>>> 82ae73b (.)
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+=======
+        if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
+>>>>>>> b19cd40 (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 >>>>>>> 75179b8 (.)
         }

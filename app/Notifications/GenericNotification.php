@@ -10,12 +10,20 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
 =======
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
+
+>>>>>>> b19cd40 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 >>>>>>> 75179b8 (.)
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
+=======
+>>>>>>> b19cd40 (.)
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
@@ -71,6 +79,7 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene i canali di consegna della notifica.
      *
+<<<<<<< HEAD
      * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
 <<<<<<< HEAD
      *
@@ -79,6 +88,12 @@ class GenericNotification extends Notification implements ShouldQueue
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
+=======
+     * @param mixed $notifiable
+     * @return array<int, string>
+     */
+    public function via($notifiable): array
+>>>>>>> b19cd40 (.)
     {
 <<<<<<< HEAD
         /** @var array<int, string> $channels */
@@ -107,14 +122,22 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function toMail($notifiable): MailMessage
     {
+<<<<<<< HEAD
         $mail = new MailMessage()
+=======
+        $mail = (new MailMessage())
+>>>>>>> b19cd40 (.)
             ->subject($this->title)
             ->greeting('Gentile ' . $this->getRecipientName($notifiable))
             ->line($this->message);
 >>>>>>> 75179b8 (.)
 
         // Aggiungi eventuali azioni se specificate nei dati
+<<<<<<< HEAD
         if (isset($this->data['action_text'], $this->data['action_url'])) {
+=======
+        if (isset($this->data['action_text']) && isset($this->data['action_url'])) {
+>>>>>>> b19cd40 (.)
             /** @phpstan-ignore-next-line */
 <<<<<<< HEAD
             $mail = $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
@@ -134,7 +157,12 @@ class GenericNotification extends Notification implements ShouldQueue
             }
         }
 
+<<<<<<< HEAD
         return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
+=======
+        return $mail->salutation('Cordiali saluti,')
+            ->line('Team il progetto');
+>>>>>>> b19cd40 (.)
     }
 
     /**
@@ -152,7 +180,11 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 75179b8 (.)
     {
         $content = "il progetto: {$this->title}\n{$this->message}";
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($content) > 320) {
 <<<<<<< HEAD
@@ -161,7 +193,11 @@ class GenericNotification extends Notification implements ShouldQueue
             $content = mb_substr($content, 0, 317) . '...';
 >>>>>>> 75179b8 (.)
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         // TODO: Implementare TwilioSmsMessage quando disponibile
         $to = '';
 <<<<<<< HEAD
@@ -172,7 +208,11 @@ class GenericNotification extends Notification implements ShouldQueue
             $routeResult = $notifiable->routeNotificationForTwilio($this);
             $to = (string) ($routeResult ?? '');
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         return [
             'content' => $content,
             'to' => $to,
@@ -226,22 +266,38 @@ class GenericNotification extends Notification implements ShouldQueue
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
             return $notifiable->getFullName();
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         if (is_object($notifiable) && $notifiable instanceof Model) {
 >>>>>>> 75179b8 (.)
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'full_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'full_name', 'Utente');
             }
+<<<<<<< HEAD
 
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'first_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'first_name', 'Utente');
             }
 
+=======
+            
+            if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'first_name')) {
+                return SafeAttributeCastAction::getString($notifiable, 'first_name', 'Utente');
+            }
+            
+>>>>>>> b19cd40 (.)
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'name', 'Utente');
             }
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         return 'Utente';
     }
 }

@@ -22,7 +22,12 @@ trait HasTenantNotifications
      */
     public function notifications(): MorphMany
     {
+<<<<<<< HEAD
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
+=======
+        return $this->morphMany(NotificationLog::class, 'notifiable')
+            ->where('tenant_id', $this->getTenantId());
+>>>>>>> b19cd40 (.)
     }
 
     /**
@@ -35,7 +40,12 @@ trait HasTenantNotifications
      */
     public function unreadNotifications(): MorphMany
     {
+<<<<<<< HEAD
         return $this->notifications()->whereNull('read_at');
+=======
+        return $this->notifications()
+            ->whereNull('read_at');
+>>>>>>> b19cd40 (.)
     }
 
     /**
@@ -48,7 +58,12 @@ trait HasTenantNotifications
      */
     public function readNotifications(): MorphMany
     {
+<<<<<<< HEAD
         return $this->notifications()->whereNotNull('read_at');
+=======
+        return $this->notifications()
+            ->whereNotNull('read_at');
+>>>>>>> b19cd40 (.)
     }
 
     /**
@@ -65,10 +80,19 @@ trait HasTenantNotifications
      * @param string|null $tenantId
      * @return Builder
      */
+<<<<<<< HEAD
     public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+=======
+    public function scopeForTenant(Builder $query, ?string $tenantId = null): Builder
+    {
+        $tenantId = $tenantId ?? $this->getTenantId();
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -80,7 +104,11 @@ trait HasTenantNotifications
      *
      * @return string|null
      */
+<<<<<<< HEAD
     protected function getTenantId(): null|string
+=======
+    protected function getTenantId(): ?string
+>>>>>>> b19cd40 (.)
     {
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);
@@ -158,5 +186,12 @@ trait HasTenantNotifications
             $builder->where($model->getTable() . '.tenant_id', $model->getTenantId());
         });
     }
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
 }
+=======
+} 
+>>>>>>> b19cd40 (.)

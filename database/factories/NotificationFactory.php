@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -9,6 +10,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\Notify\Models\Notification;
 =======
 
+=======
+>>>>>>> b19cd40 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\Notification;

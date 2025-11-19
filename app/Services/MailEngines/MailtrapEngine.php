@@ -29,15 +29,23 @@ use Webmozart\Assert\Assert;
 class MailtrapEngine
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $from = null;
 =======
     public null|string $from = null;
 >>>>>>> 75179b8 (.)
+=======
+    public null|string $from = null;
+=======
+    public ?string $from = null;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
 
     public string $to;
 
     public string $driver;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public ?string $body = null;
 
@@ -48,6 +56,8 @@ class MailtrapEngine
         if (! (self::$instance instanceof self)) {
             self::$instance = new self;
 =======
+=======
+>>>>>>> 82ae73b (.)
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -55,6 +65,15 @@ class MailtrapEngine
     public static function getInstance(): self
     {
         if (!(self::$instance instanceof self)) {
+=======
+    public ?string $body = null;
+
+    private static ?self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (! self::$instance instanceof self) {
+>>>>>>> b19cd40 (.)
             self::$instance = new self();
 >>>>>>> 75179b8 (.)
         }
@@ -91,10 +110,17 @@ class MailtrapEngine
 
         // try {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 75179b8 (.)
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+        Assert::string($this->body);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
@@ -110,7 +136,10 @@ class MailtrapEngine
 
             $msg->to($to)->subject('Test Email');
         });
+<<<<<<< HEAD
 
+=======
+>>>>>>> b19cd40 (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

@@ -27,6 +27,7 @@ class PlivoData extends Data
         if (! (self::$instance instanceof PlivoData)) {
 =======
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -50,6 +51,30 @@ class PlivoData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+
+class PlivoData extends Data
+{
+    public ?string $auth_id;
+    public ?string $auth_token;
+    public ?string $base_url;
+    public string $auth_type = 'basic';
+    public int $timeout = 30;
+
+    private static ?self $instance = null;
+
+    public static function make(): self
+    {
+        if (! self::$instance instanceof PlivoData) {
+            /*
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.plivo', []);
+            */
+>>>>>>> b19cd40 (.)
             $data = Config::array('sms.drivers.plivo');
             self::$instance = self::from($data);
         }
@@ -67,8 +92,15 @@ class PlivoData extends Data
                     'Authorization' => 'Basic '.base64_encode($this->auth_id.':'.$this->auth_token),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
                     'Content-Type' => 'application/json',
+=======
+                    'Content-Type' => 'application/json'
+>>>>>>> b19cd40 (.)
                 ];
         }
     }

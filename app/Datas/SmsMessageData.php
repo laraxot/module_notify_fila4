@@ -10,6 +10,7 @@ readonly class SmsMessageData
         public string $recipient,
         public string $message,
 <<<<<<< HEAD
+<<<<<<< HEAD
         public ?string $sender = null,
         public ?string $reference = null,
         public ?string $scheduledDate = null,
@@ -18,5 +19,15 @@ readonly class SmsMessageData
         public null|string $reference = null,
         public null|string $scheduledDate = null,
 >>>>>>> 75179b8 (.)
+=======
+        public null|string $sender = null,
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+=======
+        public ?string $sender = null,
+        public ?string $reference = null,
+        public ?string $scheduledDate = null,
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
     ) {}
 }

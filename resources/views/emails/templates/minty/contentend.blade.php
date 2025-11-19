@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 </tbody>
 </table>
 </td>
@@ -13,7 +16,9 @@ declare(strict_types=1);
 </tr>
 </tbody>
 </table>
+<<<<<<< HEAD
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 </div>
 </div>
@@ -29,3 +34,8 @@ declare(strict_types=1);
 </div>
 =======
 >>>>>>> 75179b8 (.)
+=======
+=======
+</div>
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
