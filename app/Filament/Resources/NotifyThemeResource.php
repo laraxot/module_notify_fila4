@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+use Override;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -16,7 +17,7 @@ class NotifyThemeResource extends XotBaseResource
 {
     protected static ?string $model = NotifyTheme::class;
 
-    #[\Override]
+    #[Override]
     public static function getFormSchema(): array
     {
         return [

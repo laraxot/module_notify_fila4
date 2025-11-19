@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Override;
+use Illuminate\Contracts\Support\Htmlable;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -29,7 +31,7 @@ class SendWhatsAppPage extends XotBasePage
 {
     public ?array $whatsappData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
 
     protected string $view = 'notify::filament.pages.send-whatsapp';
 
@@ -64,7 +66,7 @@ class SendWhatsAppPage extends XotBasePage
 
     public function whatsappForm(Schema $schema): Schema
     {
-        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $components */
+        /** @var array<Htmlable|string> $components */
         $components = array_values($this->getWhatsAppFormSchema());
 
         return $schema->components($components)->model($this->getUser())->statePath('whatsappData');
@@ -140,7 +142,7 @@ class SendWhatsAppPage extends XotBasePage
         ];
     }
 
-    #[\Override]
+    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

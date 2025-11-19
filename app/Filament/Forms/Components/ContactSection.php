@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
+use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Section;
 use Modules\Notify\Enums\ContactTypeEnum;
 
@@ -18,7 +19,7 @@ class ContactSection extends Section
     protected function setUp(): void
     {
         parent::setUp();
-        /** @var array<\Illuminate\Contracts\Support\Htmlable|string> $schema */
+        /** @var array<Htmlable|string> $schema */
         $schema = array_values($this->getFormSchema());
         $this->schema($schema);
         $this->columns(2);

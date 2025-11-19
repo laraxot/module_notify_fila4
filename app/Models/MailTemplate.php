@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
+use Exception;
 use Carbon\Carbon;
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
@@ -88,7 +89,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder
     {
         if (! method_exists($mailable, 'getSlug')) {
-            throw new \Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
+            throw new Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
         }
         $slug = $mailable->getSlug();
 

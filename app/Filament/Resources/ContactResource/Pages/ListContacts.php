@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 
+use Filament\Tables\Columns\TextColumn;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Builders\ColumnBuilder;
 use Modules\Xot\Filament\Builders\FilterBuilder;
@@ -24,7 +25,7 @@ class ListContacts extends XotBaseListRecords
             'id' => ColumnBuilder::id(),
             'name' => ColumnBuilder::name(),
             'email' => ColumnBuilder::email(),
-            'phone' => \Filament\Tables\Columns\TextColumn::make('phone')->searchable()->sortable(),
+            'phone' => TextColumn::make('phone')->searchable()->sortable(),
             'message' => ColumnBuilder::description(limit: 100),
             'is_read' => ColumnBuilder::booleanIcon('is_read'),
             ...ColumnBuilder::timestamps(),

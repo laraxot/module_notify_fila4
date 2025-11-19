@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use Modules\Xot\Datas\XotData;
 use Filament\Facades\Filament;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Livewire\Livewire;
@@ -11,7 +12,7 @@ use Modules\Notify\Models\MailTemplate;
 use function Pest\Laravel\actingAs;
 
 beforeEach(function () {
-    $this->user = \Modules\Xot\Datas\XotData::make()->getUserClass()::factory()->create();
+    $this->user = XotData::make()->getUserClass()::factory()->create();
     $this->user->assignRole('notify::admin');
 
     actingAs($this->user);

@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
+use Exception;
+use DateTime;
+use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
@@ -56,7 +59,7 @@ class PushNotificationService
             try {
                 $result = $this->sendToPlatform($platform, $token, $notification, $data);
                 $results[$platform] = $result;
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 Log::error("Push notification failed for platform {$platform}", [
                     'error' => $e->getMessage(),
                     'token' => $token,
@@ -89,7 +92,7 @@ class PushNotificationService
             try {
                 $result = $this->sendBatchToPlatform($platform, $platformTokens, $notification, $data);
                 $results[$platform] = $result;
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 Log::error("Batch push notification failed for platform {$platform}", [
                     'error' => $e->getMessage(),
                     'token_count' => count($platformTokens),
@@ -119,7 +122,7 @@ class PushNotificationService
             try {
                 $result = $this->sendTopicToPlatform($platform, $topic, $notification, $data);
                 $results[$platform] = $result;
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 Log::error("Topic push notification failed for platform {$platform}", [
                     'error' => $e->getMessage(),
                     'topic' => $topic,
@@ -156,7 +159,7 @@ class PushNotificationService
     /**
      * Invia notifica push programmata
      */
-    public function scheduleNotification(array $tokens, array $notification, array $data, \DateTime $scheduleTime): string
+    public function scheduleNotification(array $tokens, array $notification, array $data, DateTime $scheduleTime): string
     {
         $jobId = uniqid('push_', true);
 
@@ -169,7 +172,7 @@ class PushNotificationService
         ], $scheduleTime);
 
         // Programma job Laravel
-        \Modules\Notify\Jobs\SendScheduledPushNotification::dispatch($jobId)
+        SendScheduledPushNotification::dispatch($jobId)
             ->delay($scheduleTime);
 
         return $jobId;
@@ -183,7 +186,7 @@ class PushNotificationService
         $template = $this->getTemplate($templateId);
 
         if (! $template) {
-            throw new \Exception("Template {$templateId} not found");
+            throw new Exception("Template {$templateId} not found");
         }
 
         $notification = $this->processTemplate($template, $variables);
@@ -218,7 +221,7 @@ class PushNotificationService
             'fcm' => $this->sendFCMNotification($token, $notification, $data),
             'apns' => $this->sendAPNSNotification($token, $notification, $data),
             'webpush' => $this->sendWebPushNotification($token, $notification, $data),
-            default => throw new \Exception("Unsupported platform: {$platform}")
+            default => throw new Exception("Unsupported platform: {$platform}")
         };
     }
 
@@ -261,7 +264,7 @@ class PushNotificationService
             ];
         }
 
-        throw new \Exception('FCM request failed: '.$response->body());
+        throw new Exception('FCM request failed: '.$response->body());
     }
 
     /**
@@ -335,7 +338,7 @@ class PushNotificationService
                     $failureCount++;
                 }
                 $results[] = $result;
-            } catch (\Exception $e) {
+            } catch (Exception $e) {
                 $failureCount++;
                 $results[] = [
                     'success' => false,
@@ -364,7 +367,7 @@ class PushNotificationService
             'fcm' => $this->sendFCMTopicNotification($topic, $notification, $data),
             'apns' => $this->sendAPNSTopicNotification($topic, $notification, $data),
             'webpush' => $this->sendWebPushTopicNotification($topic, $notification, $data),
-            default => throw new \Exception("Unsupported platform: {$platform}")
+            default => throw new Exception("Unsupported platform: {$platform}")
         };
     }
 
@@ -402,7 +405,7 @@ class PushNotificationService
             ];
         }
 
-        throw new \Exception('FCM topic request failed: '.$response->body());
+        throw new Exception('FCM topic request failed: '.$response->body());
     }
 
     /**

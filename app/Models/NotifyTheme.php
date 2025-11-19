@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Modules\Xot\Models\Traits\HasXotFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -49,7 +50,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  */
 class NotifyTheme extends BaseModel implements HasMedia
 {
-    use \Modules\Xot\Models\Traits\HasXotFactory;
+    use HasXotFactory;
     use InteractsWithMedia;
 
     protected $fillable = [

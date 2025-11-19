@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -26,7 +27,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 {
     public ?array $pushData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-bell-alert';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-bell-alert';
 
     protected string $view = 'notify::filament.pages.send-push';
 
@@ -146,7 +147,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
         ];
     }
 
-    #[\Override]
+    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

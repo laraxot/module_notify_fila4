@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+use Override;
+use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -25,7 +27,7 @@ class MailTemplateResource extends LangBaseResource
      * - Le etichette, i placeholder e i testi di aiuto sono gestiti tramite LangServiceProvider
      * - File di traduzione: Modules/Notify/resources/lang/{locale}/mail_template.php
      */
-    #[\Override]
+    #[Override]
     public static function getFormSchema(): array
     {
         return [
@@ -38,7 +40,7 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('name')
                         ->label('Nome Template')
                         ->required()
-                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set): void {
+                        ->afterStateUpdated(function (string $state, Set $set): void {
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')

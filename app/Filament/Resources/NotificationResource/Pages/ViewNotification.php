@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
+use Override;
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Section;
@@ -17,7 +18,7 @@ class ViewNotification extends XotBaseViewRecord
     /**
      * @return array<Component>
      */
-    #[\Override]
+    #[Override]
     protected function getInfolistSchema(): array
     {
         return [

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -31,7 +32,7 @@ class SendSmsPage extends XotBasePage
 {
     public ?array $smsData = [];
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
     protected string $view = 'notify::filament.pages.send-sms';
 
@@ -138,7 +139,7 @@ class SendSmsPage extends XotBasePage
         ];
     }
 
-    #[\Override]
+    #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();

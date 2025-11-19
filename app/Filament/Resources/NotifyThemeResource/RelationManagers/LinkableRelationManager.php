@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers;
 
+use Override;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
@@ -13,7 +14,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 
     protected static ?string $recordTitleAttribute = 'id';
 
-    #[\Override]
+    #[Override]
     public function getFormSchema(): array
     {
         return [
