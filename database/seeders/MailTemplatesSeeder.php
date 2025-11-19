@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b8 (.)
 namespace Modules\Notify\Database\Seeders;
 
 use Illuminate\Database\Seeder;

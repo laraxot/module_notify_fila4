@@ -4,9 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Carbon;
+>>>>>>> 75179b8 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -50,16 +60,73 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+<<<<<<< HEAD
  *
  * @mixin Eloquent
  *
  * @property string|null $email
  * @property string|null $mobile_phone
+=======
+ * @method static ContactFactory factory($count = null, $state = [])
+ * @method static Builder|Contact newModelQuery()
+ * @method static Builder|Contact newQuery()
+ * @method static Builder|Contact query()
+ * @method static Builder|Contact whereContactType($value)
+ * @method static Builder|Contact whereCreatedAt($value)
+ * @method static Builder|Contact whereCreatedBy($value)
+ * @method static Builder|Contact whereId($value)
+ * @method static Builder|Contact whereModelId($value)
+ * @method static Builder|Contact whereModelType($value)
+ * @method static Builder|Contact whereLastName($value)
+ * @method static Builder|Contact whereMailCount($value)
+ * @method static Builder|Contact whereMailSentAt($value)
+ * @method static Builder|Contact whereMobilePhone($value)
+ * @method static Builder|Contact whereOrderColumn($value)
+ * @method static Builder|Contact whereSmsCount($value)
+ * @method static Builder|Contact whereSmsSentAt($value)
+ * @method static Builder|Contact whereSmsStatusCode($value)
+ * @method static Builder|Contact whereSmsStatusTxt($value)
+ * @method static Builder|Contact whereSurveyPdfId($value)
+ * @method static Builder|Contact whereToken($value)
+ * @method static Builder|Contact whereUpdatedAt($value)
+ * @method static Builder|Contact whereUpdatedBy($value)
+ * @method static Builder|Contact whereUserId($value)
+ * @method static Builder|Contact whereValue($value)
+ * @method static Builder|Contact whereVerifiedAt($value)
+ * @mixin Eloquent
+ * @property string|null $email
+ * @property string|null $mobile_phone
+ * @method static Builder|Contact whereAttribute1($value)
+ * @method static Builder|Contact whereAttribute10($value)
+ * @method static Builder|Contact whereAttribute11($value)
+ * @method static Builder|Contact whereAttribute12($value)
+ * @method static Builder|Contact whereAttribute13($value)
+ * @method static Builder|Contact whereAttribute14($value)
+ * @method static Builder|Contact whereAttribute2($value)
+ * @method static Builder|Contact whereAttribute3($value)
+ * @method static Builder|Contact whereAttribute4($value)
+ * @method static Builder|Contact whereAttribute5($value)
+ * @method static Builder|Contact whereAttribute6($value)
+ * @method static Builder|Contact whereAttribute7($value)
+ * @method static Builder|Contact whereAttribute8($value)
+ * @method static Builder|Contact whereAttribute9($value)
+ * @method static Builder|Contact whereDuplicateCount($value)
+ * @method static Builder|Contact whereEmail($value)
+ * @method static Builder|Contact whereFirstName($value)
+ * @method static Builder|Contact whereUsesleft($value)
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+>>>>>>> 75179b8 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
  *
+=======
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+>>>>>>> 75179b8 (.)
  * @mixin IdeHelperContact
  * @mixin \Eloquent
  */
@@ -80,6 +147,11 @@ class Contact extends BaseModel
         'token',
     ];
 
+<<<<<<< HEAD
+=======
+    /** @return array<string, string> */
+    #[Override]
+>>>>>>> 75179b8 (.)
     protected function casts(): array
     {
         return [

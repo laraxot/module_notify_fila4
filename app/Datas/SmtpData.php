@@ -6,6 +6,10 @@ namespace Modules\Notify\Datas;
 
 use Exception;
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
+=======
+use Modules\Tenant\Services\TenantService;
+>>>>>>> 75179b8 (.)
 use Spatie\LaravelData\Data;
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport\Smtp\EsmtpTransport;
@@ -18,12 +22,17 @@ class SmtpData extends Data
 {
     public string $transport = 'smtp';
 
+<<<<<<< HEAD
     public ?string $url = null;
+=======
+    public null|string $url = null;
+>>>>>>> 75179b8 (.)
 
     public string $host = '127.0.0.1';
 
     public int $port = 2525;
 
+<<<<<<< HEAD
     public ?string $encryption = null; // 'tls';
 
     public ?bool $tls = null;
@@ -35,15 +44,35 @@ class SmtpData extends Data
     public ?string $timeout = null;
 
     public ?string $local_domain = null;
+=======
+    public null|string $encryption = null; // 'tls';
+
+    public null|bool $tls = null;
+
+    public null|string $username = null;
+
+    public null|string $password = null;
+
+    public null|string $timeout = null;
+
+    public null|string $local_domain = null;
+>>>>>>> 75179b8 (.)
 
     private static array $instance = [];
 
     public static function make(string $name = 'smtp'): self
     {
+<<<<<<< HEAD
         if (! isset(self::$instance[$name]) || ! (self::$instance[$name] instanceof self)) {
             // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.'.$name);
+=======
+        if (!isset(self::$instance[$name]) || !(self::$instance[$name] instanceof self)) {
+            // $data = TenantService::getConfig('mail');
+            Assert::isArray($data = config('mail'));
+            $data_name = Arr::get($data, 'mailers.' . $name);
+>>>>>>> 75179b8 (.)
             self::$instance[$name] = self::from($data_name);
         }
 
@@ -81,10 +110,18 @@ class SmtpData extends Data
         try {
             $transport->start();
         } catch (Exception $e) {
+<<<<<<< HEAD
             throw new Exception('Errore durante la connessione SMTP: '.$e->getMessage());
         }
 
         return new Mailer($transport);
+=======
+            throw new Exception('Errore durante la connessione SMTP: ' . $e->getMessage());
+        }
+        $mailer = new Mailer($transport);
+
+        return $mailer;
+>>>>>>> 75179b8 (.)
     }
 
     public function send(EmailData $emailData): void
@@ -94,7 +131,11 @@ class SmtpData extends Data
         try {
             $mailer->send($mimeEmail);
         } catch (Exception $e) {
+<<<<<<< HEAD
             throw new Exception("Errore durante l'invio dell'email: ".$e->getMessage());
+=======
+            throw new Exception("Errore durante l'invio dell'email: " . $e->getMessage());
+>>>>>>> 75179b8 (.)
         }
     }
 }

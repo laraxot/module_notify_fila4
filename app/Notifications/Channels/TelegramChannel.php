@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b8 (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -12,6 +16,7 @@ class TelegramChannel
 {
     /**
      * Invia la notifica tramite Telegram.
+<<<<<<< HEAD
      */
     public function send(mixed $notifiable, Notification $notification): void
     {
@@ -20,6 +25,20 @@ class TelegramChannel
         }
 
         if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForTelegram')) {
+=======
+     *
+     * @param mixed $notifiable
+     * @param Notification $notification
+     * @return void
+     */
+    public function send($notifiable, Notification $notification)
+    {
+        if (!method_exists($notification, 'toTelegram')) {
+            throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
+        }
+
+        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForTelegram')) {
+>>>>>>> 75179b8 (.)
             throw new Exception('Il metodo routeNotificationForTelegram() non è definito nel notifiable.');
         }
 

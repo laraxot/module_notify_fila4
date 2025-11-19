@@ -14,6 +14,7 @@ declare(strict_types=1);
 </tbody>
 </table>
 </div>
+<<<<<<< HEAD
 </div>
 </div>
 </div>
@@ -26,3 +27,5 @@ declare(strict_types=1);
 </div>
 </div>
 </div>
+=======
+>>>>>>> 75179b8 (.)

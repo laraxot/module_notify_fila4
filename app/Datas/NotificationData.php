@@ -16,6 +16,7 @@ class NotificationData extends Data
     // public int $q;
     public string $from;
 
+<<<<<<< HEAD
     public ?string $from_email = null;
 
     public string $to;
@@ -23,6 +24,15 @@ class NotificationData extends Data
     public ?string $subject = null;
 
     public ?string $body_html = null;
+=======
+    public null|string $from_email = null;
+
+    public string $to;
+
+    public null|string $subject = null;
+
+    public null|string $body_html = null;
+>>>>>>> 75179b8 (.)
 
     public string $body;
 
@@ -31,7 +41,11 @@ class NotificationData extends Data
     /**
      * @var DataCollection<AttachmentData>
      */
+<<<<<<< HEAD
     public ?DataCollection $attachments = null;
+=======
+    public null|DataCollection $attachments = null;
+>>>>>>> 75179b8 (.)
 
     // public ?array $attachment_paths = [];
 

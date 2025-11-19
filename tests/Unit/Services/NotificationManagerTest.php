@@ -18,7 +18,11 @@ class NotificationManagerTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
         $this->notificationManager = new NotificationManager;
+=======
+        $this->notificationManager = new NotificationManager();
+>>>>>>> 75179b8 (.)
     }
 
     protected function tearDown(): void

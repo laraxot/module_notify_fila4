@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Contracts;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 75179b8 (.)
 use Kreait\Firebase\Messaging\Message;
 
 /**
@@ -25,5 +29,9 @@ interface MobilePushNotification
      *
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
     public function toArray(?object $notifiable): array;
+=======
+    public function toArray(null|object $notifiable): array;
+>>>>>>> 75179b8 (.)
 }

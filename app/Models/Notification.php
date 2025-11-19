@@ -2,10 +2,21 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
+=======
+
+namespace Modules\Notify\Models;
+
+use Override;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Database\Factories\NotificationFactory;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 75179b8 (.)
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -32,7 +43,26 @@ use Modules\Xot\Models\BaseModel;
  * @property Carbon|null $sent_at
  * @property-read Model|null $creator
  * @property-read Model|null $updater
+<<<<<<< HEAD
  *
+=======
+ * @method static NotificationFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Notification newModelQuery()
+ * @method static Builder<static>|Notification newQuery()
+ * @method static Builder<static>|Notification query()
+ * @method static Builder<static>|Notification whereCreatedAt($value)
+ * @method static Builder<static>|Notification whereCreatedBy($value)
+ * @method static Builder<static>|Notification whereData($value)
+ * @method static Builder<static>|Notification whereDeletedAt($value)
+ * @method static Builder<static>|Notification whereDeletedBy($value)
+ * @method static Builder<static>|Notification whereId($value)
+ * @method static Builder<static>|Notification whereNotifiableId($value)
+ * @method static Builder<static>|Notification whereNotifiableType($value)
+ * @method static Builder<static>|Notification whereReadAt($value)
+ * @method static Builder<static>|Notification whereType($value)
+ * @method static Builder<static>|Notification whereUpdatedAt($value)
+ * @method static Builder<static>|Notification whereUpdatedBy($value)
+>>>>>>> 75179b8 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -58,6 +88,10 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
     protected function casts(): array
     {
         return [

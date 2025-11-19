@@ -4,17 +4,33 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
+use Filament\Forms;
+use Filament\Forms\Components\TextInput;
+use Filament\Resources\Pages\PageRegistration;
+use Modules\Notify\Filament\Resources\ContactResource\Pages;
+>>>>>>> 75179b8 (.)
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ContactResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static ?string $model = Contact::class;
+=======
+    protected static null|string $model = Contact::class;
+>>>>>>> 75179b8 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -23,6 +39,10 @@ class ContactResource extends XotBaseResource
      *
      * @return array<string, Component>
      */
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -42,11 +62,19 @@ class ContactResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
     public static function getRelations(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
     public static function getPages(): array
     {
         return [

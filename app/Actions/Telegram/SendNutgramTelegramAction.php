@@ -4,12 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
+<<<<<<< HEAD
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 75179b8 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\TelegramData;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
+=======
+>>>>>>> 75179b8 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -19,6 +26,7 @@ final class SendNutgramTelegramAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     protected bool $debug;
 
     protected int $timeout;
@@ -30,6 +38,14 @@ final class SendNutgramTelegramAction
     private string $apiUrl;
 
     private array $vars = [];
+=======
+    private string $token;
+    private string $apiUrl;
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+    protected null|string $parseMode;
+>>>>>>> 75179b8 (.)
 
     /**
      * Create a new action instance.
@@ -37,7 +53,11 @@ final class SendNutgramTelegramAction
     public function __construct()
     {
         $token = config('services.telegram.token');
+<<<<<<< HEAD
         if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b8 (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -57,9 +77,14 @@ final class SendNutgramTelegramAction
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
      * @return array Risultato dell'operazione
      *
+=======
+     * @param TelegramData $telegramData I dati del messaggio Telegram
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b8 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -109,7 +134,11 @@ final class SendNutgramTelegramAction
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
+<<<<<<< HEAD
                 ! empty($telegramData->media)
+=======
+                !empty($telegramData->media)
+>>>>>>> 75179b8 (.)
         ) {
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
@@ -124,7 +153,11 @@ final class SendNutgramTelegramAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
+<<<<<<< HEAD
             /** @var array{ok?: bool, result?: array{message_id?: int}} $responseData */
+=======
+            /** @var array $responseData */
+>>>>>>> 75179b8 (.)
             $responseData = json_decode($responseContent, true);
 
             // Salva i dati della risposta nelle variabili dell'azione
@@ -137,6 +170,7 @@ final class SendNutgramTelegramAction
                 'response_code' => $statusCode,
             ]);
 
+<<<<<<< HEAD
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
@@ -146,6 +180,11 @@ final class SendNutgramTelegramAction
             return [
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $messageId,
+=======
+            return [
+                'success' => $responseData['ok'] ?? false,
+                'message_id' => $responseData['result']['message_id'] ?? null,
+>>>>>>> 75179b8 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

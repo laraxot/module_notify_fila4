@@ -7,10 +7,13 @@ return [
         'label' => 'Menu Notifiche',
         'group' => 'Sistema',
     ],
+<<<<<<< HEAD
     'actions' => [
         'logout' => [
             'tooltip' => 'logout',
             'icon' => 'logout',
         ],
     ],
+=======
+>>>>>>> 75179b8 (.)
 ];

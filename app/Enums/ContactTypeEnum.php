@@ -17,7 +17,11 @@ use Modules\Xot\Filament\Traits\TransTrait;
  * Questo enum centralizza la gestione dei driver SMS disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
+<<<<<<< HEAD
 enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
+=======
+enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
+>>>>>>> 75179b8 (.)
 {
     use TransTrait;
 
@@ -30,21 +34,34 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
 
     public function getLabel(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
+=======
+        return $this->transClass(self::class, $this->value . '.label');
+>>>>>>> 75179b8 (.)
     }
 
     public function getColor(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.color');
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 75179b8 (.)
     }
 
     public function getIcon(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.icon');
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 75179b8 (.)
     }
 
     public function getDescription(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.description');
     }
 
@@ -54,15 +71,31 @@ enum ContactTypeEnum: string implements HasColor, HasIcon, HasLabel
     public static function getSearchable(): array
     {
         return array_map(fn ($item) => $item->value, ContactTypeEnum::cases());
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+    }
+
+    public static function getSearchable(): array
+    {
+        return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
+>>>>>>> 75179b8 (.)
     }
 
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         return Arr::map(
             ContactTypeEnum::cases(),
             function (ContactTypeEnum $item) {
                 return TextInput::make($item->value)->prefixIcon($item->getIcon());
             },
         );
+=======
+        $res = Arr::map(
+            ContactTypeEnum::cases(),
+            fn($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
+        );
+        return $res;
+>>>>>>> 75179b8 (.)
     }
 }

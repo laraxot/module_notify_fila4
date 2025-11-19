@@ -15,7 +15,12 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template nei dati di configurazione.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+     *
+>>>>>>> 75179b8 (.)
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -35,6 +40,7 @@ class ConfigHelper
     }
 
     /**
+<<<<<<< HEAD
      * Ottiene un valore di configurazione con sostituzione delle variabili template.
      */
     public static function get(string $key, mixed $default = null): mixed
@@ -146,6 +152,13 @@ class ConfigHelper
      *
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $variables
+=======
+     * Sostituisce ricorsivamente le variabili template in un array.
+     *
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $variables
+     *
+>>>>>>> 75179b8 (.)
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -169,15 +182,119 @@ class ConfigHelper
     /**
      * Sostituisce le variabili template in una stringa.
      *
+<<<<<<< HEAD
      * @param  array<string, mixed>  $variables
+=======
+     * @param array<string, mixed> $variables
+>>>>>>> 75179b8 (.)
      */
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 75179b8 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 
         return $string;
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * Ottiene un valore di configurazione con sostituzione delle variabili template.
+     */
+    public static function get(string $key, mixed $default = null): mixed
+    {
+        $value = Config::get($key, $default);
+
+        if (is_string($value)) {
+            $companyConfig = Config::get('notify.company', []);
+            $companyConfig = is_array($companyConfig) ? $companyConfig : [];
+
+            /* @var array<string, mixed> $companyConfig */
+            return self::replaceStringVariables($value, $companyConfig);
+        }
+
+        if (is_array($value)) {
+            /** @var array<string, mixed> $value */
+            return self::replaceTemplateVariables($value);
+        }
+
+        return $value;
+    }
+
+    /**
+     * Ottiene i dati di test con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getTestData(): array
+    {
+        $testData = Config::get('notify.test_data', []);
+        $testData = is_array($testData) ? $testData : [];
+
+        /* @var array<string, mixed> $testData */
+        return self::replaceTemplateVariables($testData);
+    }
+
+    /**
+     * Ottiene la configurazione della company con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getCompanyConfig(): array
+    {
+        $companyConfig = Config::get('notify.company', []);
+        $companyConfig = is_array($companyConfig) ? $companyConfig : [];
+
+        /* @var array<string, mixed> $companyConfig */
+        return self::replaceTemplateVariables($companyConfig);
+    }
+
+    /**
+     * Ottiene la configurazione dei webhook con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getWebhookConfig(): array
+    {
+        $webhookConfig = Config::get('notify.webhooks', []);
+        $webhookConfig = is_array($webhookConfig) ? $webhookConfig : [];
+
+        /* @var array<string, mixed> $webhookConfig */
+        return self::replaceTemplateVariables($webhookConfig);
+    }
+
+    /**
+     * Ottiene la configurazione email con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getEmailConfig(): array
+    {
+        $emailConfig = Config::get('notify.email', []);
+        $emailConfig = is_array($emailConfig) ? $emailConfig : [];
+
+        /* @var array<string, mixed> $emailConfig */
+        return self::replaceTemplateVariables($emailConfig);
+    }
+
+    /**
+     * Ottiene la configurazione dei path con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getPathConfig(): array
+    {
+        $pathConfig = Config::get('notify.paths', []);
+        $pathConfig = is_array($pathConfig) ? $pathConfig : [];
+
+        /* @var array<string, mixed> $pathConfig */
+        return self::replaceTemplateVariables($pathConfig);
+    }
+>>>>>>> 75179b8 (.)
 }

@@ -20,10 +20,17 @@ class Get
     public function execute(string $name, string $type, array $view_params): NotifyThemeData
     {
         $xotData = XotData::make();
+<<<<<<< HEAD
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
+=======
+        if (!isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (!isset($view_params['lang'])) {
+>>>>>>> 75179b8 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -39,10 +46,17 @@ class Get
 
         $module_name_low = Str::lower($xotData->main_module);
 
+<<<<<<< HEAD
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
+=======
+        $trad_mod = $module_name_low . '::' . $type . '.' . $name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod . '.subject');
+>>>>>>> 75179b8 (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -51,8 +65,13 @@ class Get
         }
 
         if ($theme->body_html === null) {
+<<<<<<< HEAD
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+=======
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+>>>>>>> 75179b8 (.)
                 $html = '##body_html##';
             }
 
@@ -98,7 +117,11 @@ class Get
             }
 
             $view_params['logo'] =
+<<<<<<< HEAD
                 '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+=======
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+>>>>>>> 75179b8 (.)
 
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
@@ -107,8 +130,13 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
+<<<<<<< HEAD
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+=======
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+>>>>>>> 75179b8 (.)
             }
         }
 

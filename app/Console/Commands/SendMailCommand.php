@@ -5,8 +5,17 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
+<<<<<<< HEAD
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
+=======
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Notification;
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\SmtpData;
+use Modules\Notify\Emails\EmailDataEmail;
+use Modules\Notify\Notifications\EmailDataNotification;
+>>>>>>> 75179b8 (.)
 use Webmozart\Assert\Assert;
 
 class SendMailCommand extends Command
@@ -50,7 +59,11 @@ class SendMailCommand extends Command
          */
         // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
 
+<<<<<<< HEAD
         $this->info('Email sent successfully to '.$emailData->to);
+=======
+        $this->info('Email sent successfully to ' . $emailData->to);
+>>>>>>> 75179b8 (.)
 
         return Command::SUCCESS;
     }

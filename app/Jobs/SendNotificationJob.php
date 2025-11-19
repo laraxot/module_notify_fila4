@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Jobs;
 
+<<<<<<< HEAD
+=======
+use Throwable;
+>>>>>>> 75179b8 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -11,7 +15,10 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Modules\Notify\Actions\SendNotificationAction;
+<<<<<<< HEAD
 use Throwable;
+=======
+>>>>>>> 75179b8 (.)
 
 class SendNotificationJob implements ShouldQueue
 {
@@ -37,11 +44,19 @@ class SendNotificationJob implements ShouldQueue
     /**
      * Crea una nuova istanza del job.
      *
+<<<<<<< HEAD
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+=======
+     * @param Model $recipient Il destinatario della notifica
+     * @param string $templateCode Il codice del template da utilizzare
+     * @param array $data I dati per compilare il template
+     * @param array $channels I canali da utilizzare
+     * @param array $options Opzioni aggiuntive per l'invio
+>>>>>>> 75179b8 (.)
      */
     public function __construct(
         protected Model $recipient,
@@ -65,6 +80,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
+<<<<<<< HEAD
         /** @var array<string, mixed> $data */
         $data = $this->data;
         /** @var array<int, string> $channels */
@@ -73,10 +89,19 @@ class SendNotificationJob implements ShouldQueue
         $options = $this->options;
 
         $action->execute($this->recipient, $this->templateCode, $data, $channels, $options);
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 75179b8 (.)
     }
 
     /**
      * Gestisce un fallimento del job.
+<<<<<<< HEAD
+=======
+     *
+     * @param Throwable $exception
+     * @return void
+>>>>>>> 75179b8 (.)
      */
     public function failed(Throwable $exception): void
     {

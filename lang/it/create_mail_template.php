@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b8 (.)
 return [
     'fields' => [
         'mailable' => [
@@ -26,6 +30,7 @@ return [
         ],
         'cancel' => [
             'label' => 'cancel',
+<<<<<<< HEAD
             'tooltip' => 'cancel',
         ],
         'logout' => [
@@ -37,6 +42,8 @@ return [
             'tooltip' => 'profile',
             'icon' => 'profile',
             'label' => 'profile',
+=======
+>>>>>>> 75179b8 (.)
         ],
     ],
 ];

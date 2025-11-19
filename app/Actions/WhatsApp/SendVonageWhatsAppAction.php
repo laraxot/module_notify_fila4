@@ -8,6 +8,10 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+>>>>>>> 75179b8 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -17,6 +21,7 @@ final class SendVonageWhatsAppAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     protected bool $debug;
 
     protected int $timeout;
@@ -30,6 +35,15 @@ final class SendVonageWhatsAppAction
     private string $baseUrl = 'https://api.nexmo.com/v1/messages';
 
     private array $vars = [];
+=======
+    private string $apiKey;
+    private string $apiSecret;
+    private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+    protected null|string $defaultSender;
+>>>>>>> 75179b8 (.)
 
     /**
      * Create a new action instance.
@@ -37,13 +51,21 @@ final class SendVonageWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.vonage.api_key');
+<<<<<<< HEAD
         if (! is_string($apiKey)) {
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 75179b8 (.)
             throw new Exception('put [VONAGE_KEY] variable to your .env and config [services.vonage.api_key]');
         }
         $this->apiKey = $apiKey;
 
         $apiSecret = config('services.vonage.api_secret');
+<<<<<<< HEAD
         if (! is_string($apiSecret)) {
+=======
+        if (!is_string($apiSecret)) {
+>>>>>>> 75179b8 (.)
             throw new Exception('put [VONAGE_SECRET] variable to your .env and config [services.vonage.api_secret]');
         }
         $this->apiSecret = $apiSecret;
@@ -53,15 +75,24 @@ final class SendVonageWhatsAppAction
         $defaultSender = config('whatsapp.from');
         $this->defaultSender = $defaultSender;
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b8 (.)
     }
 
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
      *
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b8 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -103,8 +134,13 @@ final class SendVonageWhatsAppAction
         ];
 
         // Gestione diversi tipi di messaggi
+<<<<<<< HEAD
         if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
             $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+=======
+        if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> 75179b8 (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 
             $payload['message']['content'] = [
@@ -114,7 +150,11 @@ final class SendVonageWhatsAppAction
                     'caption' => $whatsAppData->body,
                 ],
             ];
+<<<<<<< HEAD
         } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+>>>>>>> 75179b8 (.)
             $payload['message']['content'] = [
                 'type' => 'template',
                 'template' => $whatsAppData->template,
@@ -177,7 +217,11 @@ final class SendVonageWhatsAppAction
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
+<<<<<<< HEAD
      * @param  string  $url  URL del media
+=======
+     * @param string $url URL del media
+>>>>>>> 75179b8 (.)
      * @return string Tipo di media (image, video, audio, file)
      */
     private function determineMediaType(string $url): string

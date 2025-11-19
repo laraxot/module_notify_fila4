@@ -6,6 +6,12 @@ namespace Modules\Notify\Factories;
 
 use Exception;
 use Illuminate\Support\Facades\Config;
+<<<<<<< HEAD
+=======
+use Modules\Notify\Actions\Telegram\SendBotmanTelegramAction;
+use Modules\Notify\Actions\Telegram\SendNutgramTelegramAction;
+use Modules\Notify\Actions\Telegram\SendOfficialTelegramAction;
+>>>>>>> 75179b8 (.)
 use Modules\Notify\Contracts\TelegramProviderActionInterface;
 
 /**
@@ -19,21 +25,34 @@ final class TelegramActionFactory
     /**
      * Crea un'azione Telegram basata sul driver specificato o su quello predefinito.
      *
+<<<<<<< HEAD
      * @param  string|null  $driver  Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
      *
+=======
+     * @param string|null $driver Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
+     * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
+>>>>>>> 75179b8 (.)
      * @throws Exception Se il driver specificato non è supportato
      */
     /**
      * Crea un'azione Telegram basata sul driver specificato o su quello predefinito.
      * Utilizza una formula per calcolare il nome della classe dell'azione.
      *
+<<<<<<< HEAD
      * @param  string|null  $driver  Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
      *
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
     public function create(?string $driver = null): TelegramProviderActionInterface
+=======
+     * @param string|null $driver Driver Telegram da utilizzare (se null, viene utilizzato quello predefinito)
+     * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
+     * @throws Exception Se il driver specificato non è supportato o la classe non esiste
+     */
+    public function create(null|string $driver = null): TelegramProviderActionInterface
+>>>>>>> 75179b8 (.)
     {
         $driver ??= Config::get('telegram.default', 'official');
 
@@ -44,15 +63,23 @@ final class TelegramActionFactory
         $className = "\\Modules\\Notify\\Actions\\Telegram\\Send{$normalizedDriver}TelegramAction";
 
         // Verifica se la classe esiste
+<<<<<<< HEAD
         if (! class_exists($className)) {
             throw new Exception(
                 'Unsupported Telegram driver: '.
                 (is_string($driver) ? $driver : '').
+=======
+        if (!class_exists($className)) {
+            throw new Exception(
+                'Unsupported Telegram driver: ' .
+                (is_string($driver) ? $driver : '') .
+>>>>>>> 75179b8 (.)
                     ". Class {$className} not found.",
             );
         }
 
         // Verifica se la classe implementa l'interfaccia richiesta
+<<<<<<< HEAD
         if (! is_subclass_of($className, TelegramProviderActionInterface::class)) {
             throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
         }
@@ -65,5 +92,12 @@ final class TelegramActionFactory
 
         /** @var TelegramProviderActionInterface $instance */
         return $instance;
+=======
+        if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
+            throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
+        }
+
+        return app($className);
+>>>>>>> 75179b8 (.)
     }
 }

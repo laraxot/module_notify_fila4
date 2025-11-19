@@ -4,18 +4,32 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SmsActionContract;
+=======
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 75179b8 (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 75179b8 (.)
  * @see https://agiletelecom.com/docs/protocollo-http-post-e-get/
  */
 class SendAgiletelecomSMSv2Action implements SmsActionContract
 {
+<<<<<<< HEAD
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
     public function execute(SmsData $data): array
     {
         $agile = AgiletelecomData::make();
@@ -24,6 +38,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
         $phone = app(NormalizePhoneNumberAction::class)->execute($data->to);
 
         $payload = [
+<<<<<<< HEAD
             // 'globalId' => $data->reference ?? uniqid('sms_', true),
             // 'maxIdLen' => 64,
             // 'enableConcatenated' => true,
@@ -38,6 +53,22 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
                     'sender' => $agile->sender,
                     'body' => $data->body,
                     // 'hexBody' => false,
+=======
+            //'globalId' => $data->reference ?? uniqid('sms_', true),
+            //'maxIdLen' => 64,
+            //'enableConcatenated' => true,
+            //'enableUnicode' => true,
+            //'enableDelivery' => $config['enable_delivery'] ?? true,
+            //'simulation' => app()->environment('local', 'testing'),
+            'messages' => [
+                [
+                    'destinations' => [$phone],
+                    //'ids' => [$data->reference ?? uniqid('msg_', true)],
+                    //'sender' => $config['sender'],
+                    'sender' => $agile->sender,
+                    'body' => $data->body,
+                    //'hexBody' => false,
+>>>>>>> 75179b8 (.)
                 ],
             ],
         ];
@@ -46,7 +77,11 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 
         $response = Http::withHeaders($agile->getAuthHeaders())->timeout($agile->timeout)->post($url, $payload);
 
+<<<<<<< HEAD
         // dddx($response->body());
+=======
+        //dddx($response->body());
+>>>>>>> 75179b8 (.)
 
         return [];
     }

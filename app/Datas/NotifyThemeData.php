@@ -8,9 +8,15 @@ use Spatie\LaravelData\Data;
 
 class NotifyThemeData extends Data
 {
+<<<<<<< HEAD
     public ?string $from_email = null; // from address
 
     public ?string $from = null; // from name
+=======
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+>>>>>>> 75179b8 (.)
 
     public string $subject;
 

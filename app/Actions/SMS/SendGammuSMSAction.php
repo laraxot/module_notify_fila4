@@ -4,9 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
+=======
+use Override;
+use Exception;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 75179b8 (.)
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
@@ -20,15 +28,28 @@ final class SendGammuSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
+<<<<<<< HEAD
     protected bool $debug;
 
     protected ?string $defaultSender = null;
 
+=======
+    /** @var GammuData */
+>>>>>>> 75179b8 (.)
     private GammuData $gammuData;
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
+=======
+    /** @var bool */
+    protected bool $debug;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+
+>>>>>>> 75179b8 (.)
     /**
      * Create a new action instance.
      */
@@ -36,11 +57,19 @@ final class SendGammuSMSAction implements SmsActionContract
     {
         $this->gammuData = GammuData::make();
 
+<<<<<<< HEAD
         if (! $this->gammuData->path) {
             throw new Exception('Path Gammu non configurato in sms.php');
         }
 
         if (! $this->gammuData->config) {
+=======
+        if (!$this->gammuData->path) {
+            throw new Exception('Path Gammu non configurato in sms.php');
+        }
+
+        if (!$this->gammuData->config) {
+>>>>>>> 75179b8 (.)
             throw new Exception('Config Gammu non configurato in sms.php');
         }
 
@@ -53,21 +82,37 @@ final class SendGammuSMSAction implements SmsActionContract
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
      *
      * @throws Exception In caso di errore durante l'invio
      */
+=======
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     * @throws Exception In caso di errore durante l'invio
+     */
+    #[Override]
+>>>>>>> 75179b8 (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
+<<<<<<< HEAD
             $to = '+'.mb_substr($to, 2);
         }
 
         if (! Str::startsWith($to, '+')) {
             $to = '+39'.$to;
+=======
+            $to = '+' . mb_substr($to, 2);
+        }
+
+        if (!Str::startsWith($to, '+')) {
+            $to = '+39' . $to;
+>>>>>>> 75179b8 (.)
         }
 
         // Prepara il messaggio per Gammu
@@ -94,8 +139,13 @@ final class SendGammuSMSAction implements SmsActionContract
             // Rimuove il file temporaneo
             unlink($tempFile);
 
+<<<<<<< HEAD
             if (! $process->isSuccessful()) {
                 throw new Exception('Gammu error: '.$process->getErrorOutput());
+=======
+            if (!$process->isSuccessful()) {
+                throw new Exception('Gammu error: ' . $process->getErrorOutput());
+>>>>>>> 75179b8 (.)
             }
 
             $this->vars['status_code'] = $process->getExitCode();
@@ -107,7 +157,11 @@ final class SendGammuSMSAction implements SmsActionContract
             unlink($tempFile);
 
             throw new Exception(
+<<<<<<< HEAD
                 $exception->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 75179b8 (.)
                 $exception->getCode(),
                 $exception,
             );
