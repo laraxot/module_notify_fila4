@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,11 +13,14 @@
 =======
 =======
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 1fd232c (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -28,6 +32,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 1fd232c (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 75179b8 (.)
 	<tr>

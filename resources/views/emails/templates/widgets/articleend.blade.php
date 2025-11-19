@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,6 +13,8 @@
 =======
 =======
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 1fd232c (.)
 <?php
 
 declare(strict_types=1);
@@ -29,14 +32,18 @@ declare(strict_types=1);
 >>>>>>> c8eedbb (.)
 =======
 </td>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 1fd232c (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,3 +75,6 @@ declare(strict_types=1);
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 1fd232c (.)
