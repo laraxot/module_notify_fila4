@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -11,15 +10,7 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
-<<<<<<< HEAD
-<<<<<<< HEAD
     ->ignoreVCS(true);
-=======
-    ->ignoreVCS(true)
->>>>>>> 75179b8 (.)
-=======
-    ->ignoreVCS(true)
->>>>>>> 7148d73 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -31,7 +22,7 @@ $config
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
-        //'binary_operator_spaces' => ['align_double_arrow' => false],
+        // 'binary_operator_spaces' => ['align_double_arrow' => false],
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -46,14 +37,6 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
-<<<<<<< HEAD
-<<<<<<< HEAD
     ->setFinder($finder);
-=======
-    ->setFinder($finder)
->>>>>>> 75179b8 (.)
-=======
-    ->setFinder($finder)
->>>>>>> 7148d73 (.)
 
 return $config;

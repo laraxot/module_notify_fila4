@@ -5,31 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Pages;
 
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> 7148d73 (.)
 
 class Dashboard extends XotBaseDashboard
 {

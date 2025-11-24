@@ -4,23 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Modules\Notify\Models\MailTemplate;
-use Modules\Notify\Models\MailTemplateVersion;
-use RuntimeException;
-=======
-=======
->>>>>>> 7148d73 (.)
 use RuntimeException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Tests\TestCase;
 
 class MailTemplateVersionBusinessLogicTest extends TestCase
@@ -39,15 +26,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'html_template' => '<!DOCTYPE html><html><body><h1>Conferma Appuntamento</h1><p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.</p></body></html>',
             'text_template' => 'Conferma Appuntamento\n\nGentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.',
             'version' => '2.0',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'created_by' => 'admin@'.config('app.domain', 'example.com'),
-=======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
->>>>>>> 75179b8 (.)
-=======
-            'created_by' => 'admin@' . config('app.domain', 'example.com'),
->>>>>>> 7148d73 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
 
@@ -59,15 +38,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'mailable' => 'AppointmentConfirmation',
             'subject' => 'Conferma Appuntamento - Versione 2.0',
             'version' => '2.0',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'created_by' => 'admin@'.config('app.domain', 'example.com'),
-=======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
->>>>>>> 75179b8 (.)
-=======
-            'created_by' => 'admin@' . config('app.domain', 'example.com'),
->>>>>>> 7148d73 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
 
@@ -141,41 +112,12 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5.2',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'created_by' => 'developer@'.config('app.domain', 'example.com'),
-=======
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
->>>>>>> 75179b8 (.)
-=======
-            'created_by' => 'developer@' . config('app.domain', 'example.com'),
->>>>>>> 7148d73 (.)
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
-=======
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
->>>>>>> 7148d73 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
@@ -242,14 +184,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         $textTemplate = '
         CONFERMA APPUNTAMENTO
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         =====================
->>>>>>> 75179b8 (.)
-=======
-        =====================
->>>>>>> 7148d73 (.)
         
         Gentile {{patient_name}},
         
@@ -354,18 +289,6 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             $version = MailTemplateVersion::factory()->create([
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
-<<<<<<< HEAD
-<<<<<<< HEAD
-                'version' => '1.'.$index,
-                'subject' => 'Template per '.$mailableClass,
-                'html_template' => '<p>Template per '.$mailableClass.'</p>',
-            ]);
-
-            $this->assertEquals($mailableClass, $version->mailable);
-            $this->assertEquals('Template per '.$mailableClass, $version->subject);
-=======
-=======
->>>>>>> 7148d73 (.)
                 'version' => '1.' . $index,
                 'subject' => 'Template per ' . $mailableClass,
                 'html_template' => '<p>Template per ' . $mailableClass . '</p>',
@@ -373,10 +296,6 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
             $this->assertEquals($mailableClass, $version->mailable);
             $this->assertEquals('Template per ' . $mailableClass, $version->subject);
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
         }
     }
 
@@ -481,13 +400,6 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     private function extractVariables(string $template): array
     {
         preg_match_all('/\{\{([^}]+)\}\}/', $template, $matches);
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
         return array_unique($matches[1] ?? []);
     }
 }

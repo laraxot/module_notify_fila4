@@ -70,15 +70,7 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $theme = new NotifyTheme;
-=======
         $theme = new NotifyTheme();
->>>>>>> 75179b8 (.)
-=======
-        $theme = new NotifyTheme();
->>>>>>> 7148d73 (.)
 
         $expectedFillable = [
             'id',
@@ -104,15 +96,7 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $theme = new NotifyTheme;
-=======
         $theme = new NotifyTheme();
->>>>>>> 75179b8 (.)
-=======
-        $theme = new NotifyTheme();
->>>>>>> 7148d73 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -132,15 +116,7 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_logo_appended_attribute(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $theme = new NotifyTheme;
-=======
         $theme = new NotifyTheme();
->>>>>>> 75179b8 (.)
-=======
-        $theme = new NotifyTheme();
->>>>>>> 7148d73 (.)
 
         $expectedAppends = ['logo'];
 

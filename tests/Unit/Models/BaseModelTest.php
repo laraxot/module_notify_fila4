@@ -12,37 +12,7 @@ use Tests\TestCase;
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $this->baseModel = new class extends BaseModel
-    {
-=======
     $this->baseModel = new class extends BaseModel {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-use Modules\Notify\Models\BaseModel;
-
-beforeEach(function () {
-    $this->baseModel = new class extends BaseModel
-    {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-    $this->baseModel = new class extends BaseModel {
->>>>>>> 7148d73 (.)
         protected $table = 'test_notify_table';
     };
 });

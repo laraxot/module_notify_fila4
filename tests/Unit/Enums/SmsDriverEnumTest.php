@@ -4,27 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasLabel;
-use Modules\Notify\Enums\SmsDriverEnum;
-use PHPUnit\Framework\TestCase;
-use ReflectionClass;
-=======
-=======
->>>>>>> 7148d73 (.)
 use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use ReflectionClass;
 use Modules\Notify\Enums\SmsDriverEnum;
 use PHPUnit\Framework\TestCase;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 
 class SmsDriverEnumTest extends TestCase
 {
@@ -81,35 +66,7 @@ class SmsDriverEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
-=======
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
-=======
-        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
->>>>>>> 9777d1b (.)
-=======
-        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
->>>>>>> 7148d73 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

@@ -30,26 +30,7 @@ class PreviewMailTemplate extends Page
                 ->label(__('notify::mail.template.preview.actions.back.label'))
                 ->icon(__('notify::mail.template.preview.actions.back.icon'))
                 ->color(__('notify::mail.template.preview.actions.back.color'))
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
->>>>>>> 75179b8 (.)
-=======
-                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
->>>>>>> 7148d73 (.)
         ];
     }
 }

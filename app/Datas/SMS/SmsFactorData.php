@@ -4,29 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Config;
-use Spatie\LaravelData\Data;
-
-class SmsFactorData extends Data
-{
-    public ?string $token;
-
-    public ?string $base_url;
-
-    public string $auth_type = 'bearer';
-
-    public int $timeout = 30;
-
-    private static ?self $instance = null;
-
-    public static function make(): self
-    {
-        if (! (self::$instance instanceof SmsFactorData)) {
-=======
-=======
->>>>>>> 7148d73 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
@@ -45,10 +22,6 @@ class SmsFactorData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof SmsFactorData)) {
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
@@ -66,15 +39,7 @@ class SmsFactorData extends Data
             case 'bearer':
             default:
                 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    'Authorization' => 'Bearer '.$this->token,
-=======
                     'Authorization' => 'Bearer ' . $this->token,
->>>>>>> 75179b8 (.)
-=======
-                    'Authorization' => 'Bearer ' . $this->token,
->>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                     'Cache-Control' => 'no-cache',
                 ];

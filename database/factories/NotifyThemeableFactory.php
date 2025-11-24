@@ -32,61 +32,14 @@ class NotifyThemeableFactory extends Factory
 
     public function forUser(): static
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->state(fn (array $_attributes): array => [
-=======
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-        return $this->state(fn(array $_attributes): array => [
-=======
-        return $this->state(fn (array $attributes): array => [
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-        return $this->state(fn(array $_attributes): array => [
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-        return $this->state(fn(array $_attributes): array => [
->>>>>>> 9777d1b (.)
-=======
-        return $this->state(fn(array $_attributes): array => [
->>>>>>> 7148d73 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
 
     public function forPatient(): static
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return $this->state(fn (array $_attributes): array => [
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
         return $this->state(fn(array $_attributes): array => [
->>>>>>> 75179b8 (.)
-=======
-        return $this->state(fn(array $_attributes): array => [
->>>>>>> 7148d73 (.)
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }

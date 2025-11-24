@@ -156,15 +156,6 @@ return [
             'icon' => 'heroicon-o-check-circle',
             'color' => 'warning',
         ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'logout' => [
-            'tooltip' => 'logout',
-        ],
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     ],
     'messages' => [
         'created' => [

@@ -5,27 +5,7 @@ declare(strict_types=1);
 use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-return new class extends XotBaseMigration
-{
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
 return new class() extends XotBaseMigration {
->>>>>>> 75179b8 (.)
-=======
-return new class() extends XotBaseMigration {
->>>>>>> 7148d73 (.)
     public function up(): void
     {
         $this->tableCreate(function (Blueprint $table): void {

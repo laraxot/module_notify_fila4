@@ -4,18 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Components\TextInput;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasLabel;
-use Modules\Notify\Enums\ContactTypeEnum;
-use PHPUnit\Framework\TestCase;
-use ReflectionClass;
-=======
-=======
->>>>>>> 7148d73 (.)
 use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
@@ -23,10 +11,6 @@ use ReflectionClass;
 use Filament\Forms\Components\TextInput;
 use Modules\Notify\Enums\ContactTypeEnum;
 use PHPUnit\Framework\TestCase;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 
 class ContactTypeEnumTest extends TestCase
 {
@@ -89,27 +73,12 @@ class ContactTypeEnumTest extends TestCase
     /** @test */
     public function get_form_schema_returns_text_inputs(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $form = ContactTypeEnum::getFormSchema();
-
-        $this->assertIsArray($form);
-        $this->assertCount(6, $form);
-
-        foreach ($form as $component) {
-=======
-=======
->>>>>>> 7148d73 (.)
         $schema = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($schema);
         $this->assertCount(6, $schema);
 
         foreach ($schema as $component) {
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
             $this->assertInstanceOf(TextInput::class, $component);
         }
     }
@@ -117,35 +86,7 @@ class ContactTypeEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
-=======
         $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
-=======
-        $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
->>>>>>> 9777d1b (.)
-=======
-        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
->>>>>>> 7148d73 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

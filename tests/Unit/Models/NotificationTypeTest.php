@@ -40,15 +40,7 @@ class NotificationTypeTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $notificationType = new NotificationType;
-=======
         $notificationType = new NotificationType();
->>>>>>> 75179b8 (.)
-=======
-        $notificationType = new NotificationType();
->>>>>>> 7148d73 (.)
 
         $expectedFillable = [
             'name',

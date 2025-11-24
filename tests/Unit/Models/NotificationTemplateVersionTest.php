@@ -53,63 +53,7 @@ class NotificationTemplateVersionTest extends TestCase
             'change_notes',
         ];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
-=======
-=======
->>>>>>> 82ae73b (.)
-            'template_id', 'subject', 'body_html', 'body_text', 'channels',
-            'variables', 'conditions', 'version', 'created_by', 'change_notes',
-        ];
-
-<<<<<<< HEAD
-        ];
-
-        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
-        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
-        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
-        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
-        $model = new NotificationTemplateVersion();
-        $this->assertEquals($expectedFillable, $model->getFillable());
-        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
-        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
-=======
->>>>>>> 75179b8 (.)
-=======
-        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-        $model = new NotificationTemplateVersion();
-        $this->assertEquals($expectedFillable, $model->getFillable());
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-        $model = new NotificationTemplateVersion();
-        $this->assertEquals($expectedFillable, $model->getFillable());
->>>>>>> 9777d1b (.)
-=======
-        $model = new NotificationTemplateVersion();
-        $this->assertEquals($expectedFillable, $model->getFillable());
-=======
-        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
->>>>>>> 518c702 (.)
->>>>>>> f963d2c (.)
-=======
-        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
->>>>>>> 1fd232c (.)
-=======
-        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
->>>>>>> 7148d73 (.)
     }
 
     /** @test */

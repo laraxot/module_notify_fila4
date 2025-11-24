@@ -4,41 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\Config;
-use Spatie\LaravelData\Data;
-
-class AgiletelecomData extends Data
-{
-    public ?string $username;
-
-    public ?string $password;
-
-    public ?string $sender;
-
-    public ?string $endpoint;
-
-    public ?string $enable_delivery;
-
-    public ?string $simulation;
-
-    public string $auth_type = 'basic';
-
-    public ?string $api_key;
-
-    public ?string $oauth_token;
-
-    public int $timeout = 30;
-
-    private static ?self $instance = null;
-
-    public static function make(): self
-    {
-        if (! (self::$instance instanceof AgiletelecomData)) {
-=======
-=======
->>>>>>> 7148d73 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
@@ -65,10 +30,6 @@ class AgiletelecomData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof AgiletelecomData)) {
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
@@ -85,70 +46,20 @@ class AgiletelecomData extends Data
         switch ($this->auth_type) {
             case 'api_key':
                 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    'Authorization' => 'Api-Key '.$this->api_key,
-=======
                     'Authorization' => 'Api-Key ' . $this->api_key,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-                    'Authorization' => 'Api-Key ' . $this->api_key,
->>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                 ];
 
             case 'oauth':
                 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    'Authorization' => 'OAuth '.$this->oauth_token,
-=======
                     'Authorization' => 'OAuth ' . $this->oauth_token,
->>>>>>> 75179b8 (.)
-=======
-                    'Authorization' => 'OAuth ' . $this->oauth_token,
->>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                 ];
 
             case 'basic':
             default:
                 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
-=======
                     'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-                    'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
->>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

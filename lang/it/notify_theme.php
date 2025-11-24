@@ -134,16 +134,6 @@ return [
                 'cancel' => 'No, annulla',
             ],
         ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'logout' => [
-            'tooltip' => 'logout',
-            'icon' => 'logout',
-        ],
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     ],
     'messages' => [
         'created' => [

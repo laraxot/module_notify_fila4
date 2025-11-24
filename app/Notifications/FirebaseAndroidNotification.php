@@ -8,47 +8,14 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Notifications;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Override;
->>>>>>> 75179b8 (.)
-=======
-use Override;
-=======
->>>>>>> b19cd40 (.)
->>>>>>> 82ae73b (.)
-=======
-use Override;
-=======
->>>>>>> b19cd40 (.)
-=======
-use Override;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-use Override;
->>>>>>> 9777d1b (.)
-=======
-use Override;
->>>>>>> 7148d73 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Stringable;
 use Kreait\Firebase\Messaging\AndroidConfig;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Message;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Kreait\Firebase\Messaging\MessageData;
->>>>>>> 75179b8 (.)
-=======
-use Kreait\Firebase\Messaging\MessageData;
->>>>>>> 7148d73 (.)
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
@@ -65,15 +32,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     /**
      * Create a new notification instance.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  FirebaseNotificationData  $data  The Firebase notification data (I dati della notifica Firebase)
-=======
      * @param FirebaseNotificationData $data The Firebase notification data (I dati della notifica Firebase)
->>>>>>> 75179b8 (.)
-=======
-     * @param FirebaseNotificationData $data The Firebase notification data (I dati della notifica Firebase)
->>>>>>> 7148d73 (.)
      */
     public function __construct(
         public FirebaseNotificationData $data,
@@ -82,26 +41,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     /**
      * Get the notification's delivery channels.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
      * @param object $_notifiable The entity to be notified (l'entità da notificare)
->>>>>>> 75179b8 (.)
-=======
-     * @param object $_notifiable The entity to be notified (l'entità da notificare)
->>>>>>> 7148d73 (.)
      * @return array<int, class-string>
      */
     public function via(object $_notifiable): array
@@ -116,17 +56,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * Create the Firebase Cloud message for the notification.
      * Crea il messaggio Firebase Cloud per la notifica.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  object  $notifiable  The entity to be notified
-=======
      * @param object $notifiable The entity to be notified
      * @return CloudMessage
->>>>>>> 75179b8 (.)
-=======
-     * @param object $notifiable The entity to be notified
-     * @return CloudMessage
->>>>>>> 7148d73 (.)
      */
     public function toFirebase(object $notifiable): CloudMessage
     {
@@ -153,15 +84,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
             }
 
             // Add notification only if it contains valid data (Aggiungiamo la notifica solo se contiene dati validi)
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if (! empty($notification)) {
-=======
             if (!empty($notification)) {
->>>>>>> 75179b8 (.)
-=======
-            if (!empty($notification)) {
->>>>>>> 7148d73 (.)
                 $androidConfig['notification'] = $notification;
             }
         }
@@ -174,40 +97,11 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     /**
      * Get the array representation of the notification.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  object|null  $notifiable  The entity to be notified
-     * @return array<string, mixed>
-     */
-    public function toArray(?object $notifiable): array
-=======
-=======
->>>>>>> 7148d73 (.)
      * @param object|null $notifiable The entity to be notified
      * @return array<string, mixed>
      */
     #[Override]
     public function toArray(null|object $notifiable): array
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
-    public function toArray(?object $notifiable): array
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    #[Override]
-    public function toArray(null|object $notifiable): array
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
     {
         // return $this->data->toArray();
         return [];
@@ -215,20 +109,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
     /**
      * Convert to a Firebase Cloud message (Converti in un messaggio Cloud Firebase).
-<<<<<<< HEAD
-<<<<<<< HEAD
-     */
-=======
-=======
->>>>>>> 7148d73 (.)
      *
      * @return Message
      */
     #[Override]
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;

@@ -4,21 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-use Exception;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Filament\Forms\Components\RichEditor;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\Toggle;
-use Filament\Notifications\Notification as FilamentNotification;
-use Filament\Panel;
-=======
-=======
->>>>>>> 7148d73 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -33,10 +18,6 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -44,15 +25,6 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-class SendAwsEmailPage extends XotBasePage
-{
-    public ?array $emailData = [];
-=======
-=======
->>>>>>> 7148d73 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
@@ -61,51 +33,12 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 class SendAwsEmailPage extends XotBasePage
 {
     public null|array $emailData = [];
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
-
-    public ?array $emailData = [];
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    public null|array $emailData = [];
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static ?string $cluster = Test::class;
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
     protected static null|string $cluster = Test::class;
->>>>>>> 75179b8 (.)
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 7148d73 (.)
 
     /**
      * Get the slug of the page
@@ -131,41 +64,12 @@ class SendAwsEmailPage extends XotBasePage
 
     protected function fillForms(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        // $this->emailForm->fill();
-        // Form data filled;
-=======
-=======
->>>>>>> 7148d73 (.)
         $this->emailForm->fill();
     }
 
     public function emailForm(Schema $schema): Schema
     {
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
-        return $schema
-            ->components($this->getEmailFormSchema())
-            ->model($this->getUser())
-            ->statePath('emailData');
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
     }
 
     public function getEmailFormSchema(): array
@@ -206,16 +110,7 @@ class SendAwsEmailPage extends XotBasePage
 
     public function sendEmail(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        // $data = $this->emailForm->getState();
-        $data = $this->data;
-=======
         $data = $this->emailForm->getState();
->>>>>>> 75179b8 (.)
-=======
-        $data = $this->emailForm->getState();
->>>>>>> 7148d73 (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';
@@ -256,26 +151,7 @@ class SendAwsEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! ($user instanceof Model)) {
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
         if (!($user instanceof Model)) {
->>>>>>> 75179b8 (.)
-=======
-        if (!($user instanceof Model)) {
->>>>>>> 7148d73 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

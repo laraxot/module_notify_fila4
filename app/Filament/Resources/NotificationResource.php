@@ -2,17 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-namespace Modules\Notify\Filament\Resources;
-
-use Filament\Forms\Components\DateTimePicker;
-use Filament\Forms\Components\Textarea;
-use Filament\Forms\Components\TextInput;
-use Modules\Notify\Models\Notification;
-=======
-=======
->>>>>>> 7148d73 (.)
 
 namespace Modules\Notify\Filament\Resources;
 
@@ -24,28 +13,13 @@ use Filament\Forms\Components\TextInput;
 use Modules\Notify\Filament\Resources\NotificationResource\Pages;
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class NotificationResource extends XotBaseResource
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static ?string $model = Notification::class;
-
-=======
     protected static null|string $model = Notification::class;
 
     #[Override]
->>>>>>> 75179b8 (.)
-=======
-    protected static null|string $model = Notification::class;
-
-    #[Override]
->>>>>>> 7148d73 (.)
     public static function getFormSchema(): array
     {
         return [

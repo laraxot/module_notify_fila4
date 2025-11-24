@@ -2,18 +2,8 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
-=======
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
->>>>>>> 75179b8 (.)
-=======
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Builder;
->>>>>>> 7148d73 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('NotificationType Business Logic', function () {
@@ -22,15 +12,7 @@ describe('NotificationType Business Logic', function () {
     });
 
     test('notification type has expected fillable fields', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $notificationType = new NotificationType;
-=======
         $notificationType = new NotificationType();
->>>>>>> 75179b8 (.)
-=======
-        $notificationType = new NotificationType();
->>>>>>> 7148d73 (.)
         $expectedFillable = [
             'name',
             'description',
@@ -41,15 +23,7 @@ describe('NotificationType Business Logic', function () {
     });
 
     test('notification type can store basic information', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $notificationType = new NotificationType;
-=======
         $notificationType = new NotificationType();
->>>>>>> 75179b8 (.)
-=======
-        $notificationType = new NotificationType();
->>>>>>> 7148d73 (.)
         $notificationType->name = 'Email Verification';
         $notificationType->description = 'Email verification notification type';
         $notificationType->template = 'email-verification-template';
@@ -60,15 +34,7 @@ describe('NotificationType Business Logic', function () {
     });
 
     test('notification type model can be instantiated without errors', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $notificationType = new NotificationType;
-=======
         $notificationType = new NotificationType();
->>>>>>> 75179b8 (.)
-=======
-        $notificationType = new NotificationType();
->>>>>>> 7148d73 (.)
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);

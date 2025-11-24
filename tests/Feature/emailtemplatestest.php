@@ -2,18 +2,8 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Facades\File;
-use Tests\TestCase;
-=======
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
->>>>>>> 75179b8 (.)
-=======
-use Tests\TestCase;
-use Illuminate\Support\Facades\File;
->>>>>>> 7148d73 (.)
 
 uses(TestCase::class);
 

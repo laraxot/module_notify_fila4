@@ -2,14 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 75179b8 (.)
-=======
-
->>>>>>> 7148d73 (.)
 return [
     'resource' => [
         'name' => 'Template Email',
@@ -185,37 +178,6 @@ return [
         'activeLocale' => [
             'label' => 'activeLocale',
         ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'logout' => [
-            'tooltip' => 'logout',
-            'icon' => 'logout',
-            'label' => 'logout',
-        ],
-        'profile' => [
-            'tooltip' => 'profile',
-            'icon' => 'profile',
-            'label' => 'profile',
-        ],
-        'cancel' => [
-            'tooltip' => 'cancel',
-            'icon' => 'cancel',
-            'label' => 'cancel',
-        ],
-        'reorderRecords' => [
-            'tooltip' => 'reorderRecords',
-            'icon' => 'reorderRecords',
-            'label' => 'reorderRecords',
-        ],
-        'save' => [
-            'tooltip' => 'save',
-            'icon' => 'save',
-            'label' => 'save',
-        ],
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',
@@ -237,11 +199,4 @@ return [
     'model' => [
         'label' => 'mail template.model',
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-    'label' => 'mail template',
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 ];

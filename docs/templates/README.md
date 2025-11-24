@@ -48,19 +48,7 @@ Grazie,<br>
 // app/Filament/Resources/EmailTemplateResource.php
 use Filament\Forms\Components\Builder;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public static function form(Form $form): Form
->>>>>>> 75179b8 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> f963d2c (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 7148d73 (.)
 {
     return $form->schema([
         Builder::make('content')

@@ -9,15 +9,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Exception;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-=======
-=======
 use BackedEnum;
->>>>>>> 7148d73 (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -26,10 +18,6 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Page;
@@ -41,17 +29,6 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Webmozart\Assert\Assert;
-
-class SendTelegram extends Page implements HasForms
-{
-    public array $data = [];
-
-=======
-=======
->>>>>>> 7148d73 (.)
 use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
@@ -60,71 +37,10 @@ use Webmozart\Assert\Assert;
  */
 class SendTelegram extends Page implements HasForms
 {
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public ?array $emailData = [];
-=======
-    public null|array $emailData = [];
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-    public null|array $emailData = [];
-=======
-    public ?array $emailData = [];
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    public null|array $emailData = [];
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-    public null|array $emailData = [];
->>>>>>> 9777d1b (.)
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
-
-    protected string $view = 'notify::filament.pages.send-email';
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static ?string $cluster = Test::class;
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-    protected static null|string $cluster = Test::class;
-=======
-    protected static ?string $cluster = Test::class;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 9777d1b (.)
-=======
     public null|array $emailData = [];
 
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -132,23 +48,12 @@ class SendTelegram extends Page implements HasForms
     protected string $view = 'notify::filament.pages.send-email';
 
     protected static null|string $cluster = Test::class;
->>>>>>> 7148d73 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function sendEmail(): void
-    {
-        $data = $this->data;
-        Assert::string($token = config('services.telegram-bot-api.token'));
-        $url = 'https://api.telegram.org/bot'.$token.'/getMe';
-=======
-=======
->>>>>>> 7148d73 (.)
     public function emailForm(Schema $schema): Schema
     {
         /*
@@ -176,10 +81,6 @@ class SendTelegram extends Page implements HasForms
         $data = $this->emailForm->getState();
         Assert::string($token = config('services.telegram-bot-api.token'));
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
         Http::get($url);
         // dddx($response->json());
         /*
@@ -219,34 +120,7 @@ class SendTelegram extends Page implements HasForms
     {
         return [
             Action::make('emailFormActions')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                 
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-                
-=======
-                //
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-                
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-                
->>>>>>> 9777d1b (.)
-=======
-                
->>>>>>> 7148d73 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -255,26 +129,7 @@ class SendTelegram extends Page implements HasForms
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! ($user instanceof Model)) {
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
         if (!($user instanceof Model)) {
->>>>>>> 75179b8 (.)
-=======
-        if (!($user instanceof Model)) {
->>>>>>> 7148d73 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -288,14 +143,6 @@ class SendTelegram extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        // Form data filled;
-=======
         $this->emailForm->fill();
->>>>>>> 75179b8 (.)
-=======
-        $this->emailForm->fill();
->>>>>>> 7148d73 (.)
     }
 }

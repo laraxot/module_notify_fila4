@@ -4,83 +4,24 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 7148d73 (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-<<<<<<< HEAD
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Notifications\Notification;
-use Filament\Schemas\Schema;
-=======
-=======
->>>>>>> 7148d73 (.)
 use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-<<<<<<< HEAD
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Filament\Clusters\Test;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Webmozart\Assert\Assert;
-
-=======
-=======
->>>>>>> 7148d73 (.)
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
@@ -88,105 +29,25 @@ use Webmozart\Assert\Assert;
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 class TestSmtpPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public ?array $emailData = [];
-
-    public ?string $error_message = null;
-=======
     public null|array $emailData = [];
 
     public null|string $error_message = null;
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-    public null|array $emailData = [];
-
-    public null|string $error_message = null;
-=======
-    public ?array $emailData = [];
-
-    public ?string $error_message = null;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    public null|array $emailData = [];
-
-    public null|string $error_message = null;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-    public null|array $emailData = [];
-
-    public null|string $error_message = null;
->>>>>>> 9777d1b (.)
-=======
-    public null|array $emailData = [];
-
-    public null|string $error_message = null;
->>>>>>> 7148d73 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static ?string $cluster = Test::class;
-=======
     protected static null|string $cluster = Test::class;
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-    protected static null|string $cluster = Test::class;
-=======
-    protected static ?string $cluster = Test::class;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 9777d1b (.)
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 7148d73 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function sendEmail(): void
-    {
-        $data = $this->data;
-=======
-=======
->>>>>>> 7148d73 (.)
     public function emailForm(Schema $schema): Schema
     {
         Assert::isArray($mail_config = config('mail'));
@@ -235,10 +96,6 @@ class TestSmtpPage extends XotBasePage implements HasForms
     public function sendEmail(): void
     {
         $data = $this->emailForm->getState();
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
         $smtp = SmtpData::from($data);
         $emailData = EmailData::from($data);
         // dddx([
@@ -265,42 +122,12 @@ class TestSmtpPage extends XotBasePage implements HasForms
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function emailForm(Schema $schema): Schema
-    {
-        return $schema->components([])->model($this->getUser())->statePath('emailData');
-    }
-
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! ($user instanceof Model)) {
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
         if (!($user instanceof Model)) {
->>>>>>> 75179b8 (.)
-=======
-        if (!($user instanceof Model)) {
->>>>>>> 7148d73 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.',
             );
@@ -322,29 +149,6 @@ class TestSmtpPage extends XotBasePage implements HasForms
             }
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->fill($typedConfig);
-=======
-=======
-=======
-        
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
         $this->emailForm->fill($typedConfig);
->>>>>>> 75179b8 (.)
-=======
-        $this->emailForm->fill($typedConfig);
->>>>>>> 7148d73 (.)
     }
 }

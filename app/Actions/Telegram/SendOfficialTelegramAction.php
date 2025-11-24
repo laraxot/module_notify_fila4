@@ -4,26 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
->>>>>>> 75179b8 (.)
-=======
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
->>>>>>> 7148d73 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\TelegramData;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -33,47 +19,13 @@ final class SendOfficialTelegramAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected bool $debug;
-
-    protected int $timeout;
-
-    protected ?string $parseMode;
-
-    private string $token;
-
-    private string $apiUrl;
-
-    private array $vars = [];
-=======
-=======
->>>>>>> 7148d73 (.)
     private string $token;
     private string $apiUrl;
+    /** @var array<string, mixed> */
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
-    protected null|string $parseMode;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
     protected ?string $parseMode;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    protected null|string $parseMode;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
 
     /**
      * Create a new action instance.
@@ -81,15 +33,7 @@ final class SendOfficialTelegramAction
     public function __construct()
     {
         $token = config('services.telegram.token');
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (! is_string($token)) {
-=======
-        if (!is_string($token)) {
->>>>>>> 75179b8 (.)
-=======
-        if (!is_string($token)) {
->>>>>>> 7148d73 (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -109,19 +53,8 @@ final class SendOfficialTelegramAction
     /**
      * Execute the action.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  TelegramData  $telegramData  I dati del messaggio Telegram
-     * @return array Risultato dell'operazione
-     *
-=======
      * @param TelegramData $telegramData I dati del messaggio Telegram
-     * @return array Risultato dell'operazione
->>>>>>> 75179b8 (.)
-=======
-     * @param TelegramData $telegramData I dati del messaggio Telegram
-     * @return array Risultato dell'operazione
->>>>>>> 7148d73 (.)
+     * @return array<string, mixed> Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -171,15 +104,7 @@ final class SendOfficialTelegramAction
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
-<<<<<<< HEAD
-<<<<<<< HEAD
-                ! empty($telegramData->media)
-=======
-                !empty($telegramData->media)
->>>>>>> 75179b8 (.)
-=======
-                !empty($telegramData->media)
->>>>>>> 7148d73 (.)
+            ! empty($telegramData->media)
         ) {
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
@@ -194,15 +119,7 @@ final class SendOfficialTelegramAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-<<<<<<< HEAD
-<<<<<<< HEAD
-            /** @var array{ok?: bool, result?: array{message_id?: int}} $responseData */
-=======
-            /** @var array $responseData */
->>>>>>> 75179b8 (.)
-=======
-            /** @var array $responseData */
->>>>>>> 7148d73 (.)
+            /** @var array<string, mixed> $responseData */
             $responseData = json_decode($responseContent, true);
 
             // Salva i dati della risposta nelle variabili dell'azione
@@ -210,55 +127,11 @@ final class SendOfficialTelegramAction
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // Extract message_id safely
-            $messageId = null;
-            if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
-                $messageId = is_int($responseData['result']['message_id']) ? $responseData['result']['message_id'] : (int) $responseData['result']['message_id'];
-            }
-
-            return [
-                'success' => $responseData['ok'] ?? false,
-                'message_id' => $messageId,
-=======
-=======
-=======
-            
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-
->>>>>>> 4e2ebfb (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
             Log::info('Telegram inviato con successo', [
                 'chat_id' => $telegramData->chatId,
                 'response_code' => $statusCode,
             ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-            return [
-                'success' => $responseData['ok'] ?? false,
-                'message_id' => $responseData['result']['message_id'] ?? null,
->>>>>>> 75179b8 (.)
-=======
             /** @var array<string, mixed> $result */
             $result = $responseData['result'] ?? [];
             /** @var int|null $messageId */
@@ -267,14 +140,13 @@ final class SendOfficialTelegramAction
             return [
                 'success' => ($responseData['ok'] ?? false) === true,
                 'message_id' => $messageId,
->>>>>>> 7148d73 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
-            /** @var array $responseBody */
+            /** @var array<string, mixed> $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true);
 
             // Salva i dati dell'errore nelle variabili dell'azione

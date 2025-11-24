@@ -4,24 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Str;
-use ReflectionClass;
-use ReflectionException;
-use RuntimeException;
-=======
-=======
->>>>>>> 7148d73 (.)
 use RuntimeException;
 use ReflectionClass;
 use ReflectionException;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 
 /**
  * Classe per l'invio di SMS.
@@ -29,58 +16,11 @@ use Webmozart\Assert\Assert;
 class SmsService
 {
     // ---------CSS------------
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public ?string $to = null;
-
-    public ?string $from = null;
-
-    public ?string $body = null;
-
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
     public null|string $to = null;
 
     public null|string $from = null;
 
     public null|string $body = null;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-    public ?string $to = null;
-
-    public ?string $from = null;
-
-    public ?string $body = null;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
     /**
      * Variabili per il template SMS.
      *
@@ -93,53 +33,15 @@ class SmsService
      */
     public string $driver = 'netfun';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    private static ?self $instance = null;
-=======
     private static null|self $instance = null;
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-    private static null|self $instance = null;
-=======
-    private static ?self $instance = null;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    private static null|self $instance = null;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 9777d1b (.)
-=======
-    private static null|self $instance = null;
->>>>>>> 7148d73 (.)
 
     /**
      * Ottiene un'istanza singleton della classe.
      */
     public static function getInstance(): self
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (self::$instance === null) {
-            self::$instance = new self;
-=======
         if (null === self::$instance) {
             self::$instance = new self();
->>>>>>> 75179b8 (.)
-=======
-        if (null === self::$instance) {
-            self::$instance = new self();
->>>>>>> 7148d73 (.)
         }
 
         return self::$instance;
@@ -156,30 +58,7 @@ class SmsService
     /**
      * Sets local variables and merges them with the vars array.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  array<string, mixed>  $vars
-=======
-=======
-=======
-     * 
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-     *
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
      * @param array<string, mixed> $vars
->>>>>>> 75179b8 (.)
-=======
-     * @param array<string, mixed> $vars
->>>>>>> 7148d73 (.)
      */
     public function setLocalVars(array $vars): self
     {
@@ -194,15 +73,7 @@ class SmsService
     /**
      * Unisce le variabili con quelle esistenti.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  array<string, mixed>  $vars
-=======
      * @param array<string, mixed> $vars
->>>>>>> 75179b8 (.)
-=======
-     * @param array<string, mixed> $vars
->>>>>>> 7148d73 (.)
      */
     public function mergeVars(array $vars): self
     {
@@ -216,36 +87,15 @@ class SmsService
      */
     public function send(): self
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
-
-        // Verifichiamo che la classe esista
-        if (! class_exists($engineClassName)) {
-=======
-=======
->>>>>>> 7148d73 (.)
         $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
 
         // Verifichiamo che la classe esista
         if (!class_exists($engineClassName)) {
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
             throw new RuntimeException("La classe del motore SMS {$engineClassName} non esiste");
         }
 
         // Verifichiamo che la classe abbia il metodo make
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! method_exists($engineClassName, 'make')) {
-=======
         if (!method_exists($engineClassName, 'make')) {
->>>>>>> 75179b8 (.)
-=======
-        if (!method_exists($engineClassName, 'make')) {
->>>>>>> 7148d73 (.)
             throw new RuntimeException("La classe {$engineClassName} non implementa il metodo make()");
         }
 
@@ -253,29 +103,13 @@ class SmsService
         $instance = $engineClassName::make();
 
         // Verifichiamo che l'istanza sia un oggetto
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! is_object($instance)) {
-=======
         if (!is_object($instance)) {
->>>>>>> 75179b8 (.)
-=======
-        if (!is_object($instance)) {
->>>>>>> 7148d73 (.)
             throw new RuntimeException("Il metodo make() di {$engineClassName} non ha restituito un oggetto");
         }
 
         // Verifichiamo che l'istanza abbia i metodi necessari
         foreach (['setLocalVars', 'send', 'getVars'] as $method) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if (! method_exists($instance, $method)) {
-=======
             if (!method_exists($instance, $method)) {
->>>>>>> 75179b8 (.)
-=======
-            if (!method_exists($instance, $method)) {
->>>>>>> 7148d73 (.)
                 throw new RuntimeException("L'istanza di {$engineClassName} non implementa il metodo {$method}()");
             }
         }
@@ -297,15 +131,7 @@ class SmsService
             $result = $getVarsMethod->invoke($instance);
 
             // Verifichiamo che il risultato sia un array
-<<<<<<< HEAD
-<<<<<<< HEAD
-            if (! is_array($result)) {
-=======
             if (!is_array($result)) {
->>>>>>> 75179b8 (.)
-=======
-            if (!is_array($result)) {
->>>>>>> 7148d73 (.)
                 $result = [];
             }
 
@@ -320,35 +146,7 @@ class SmsService
 
             $this->mergeVars($typedResult);
         } catch (ReflectionException $e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
-=======
             throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-            
-            $this->mergeVars($typedResult);
-        } catch (ReflectionException $e) {
-            throw new RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
->>>>>>> 7148d73 (.)
         }
 
         return $this;

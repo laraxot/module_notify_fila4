@@ -33,8 +33,6 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - **Diagnosis**: Check environment variables and configuration files for typos or missing values.
 - **Fix**: Update configurations with correct values and restart application if necessary.
 
-<<<<<<< HEAD
-=======
 ### 5. ParseError durante composer update - Assert::string con assegnazione inline
 - **Symptoms**: Errore `ParseError: syntax error, unexpected token "->"` durante `composer update -W` o `php artisan package:discover`.
 - **Diagnosis**: Il problema si verifica quando si usa `Assert::string()` con un'assegnazione inline seguita immediatamente da una chiamata a metodo con `->`.
@@ -86,7 +84,6 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - **Prevenzione**: Utilizzare sempre tipizzazione esplicita per array e verificare tipi prima di accedere a offset su valori mixed
 - **Documentazione completa**: Vedi [phpstan-level10-analysis.md](./phpstan-level10-analysis.md)
 
->>>>>>> 7148d73 (.)
 ## Testing and Verification
 - Use sandbox environments or test modes provided by notification services to simulate sends without affecting real users.
 - Verify fixes by sending test notifications after applying changes.

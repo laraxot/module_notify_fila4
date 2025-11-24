@@ -10,97 +10,23 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
->>>>>>> 75179b8 (.)
-=======
-use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
-use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
-use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
->>>>>>> 7148d73 (.)
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class NotifyThemeResource extends XotBaseResource
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static ?string $model = NotifyTheme::class;
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
     protected static null|string $model = NotifyTheme::class;
->>>>>>> 75179b8 (.)
-=======
-    protected static null|string $model = NotifyTheme::class;
->>>>>>> 7148d73 (.)
 
     #[Override]
     public static function getFormSchema(): array
     {
         return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
-            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
-            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
-=======
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-    protected static ?string $model = NotifyTheme::class;
-
-
-    public static function getFormSchema(): array
-    {
-        return [
-            'lang' => Select::make('lang')
-                ->options(function (): array {
-                    return self::fieldOptions('lang');
-                }),
-            'type' => Select::make('type')
-                ->options(function (): array {
-                    return self::fieldOptions('type');
-                }),
-            'post_type' => Select::make('post_type')
-                ->options(function (): array {
-                    return self::fieldOptions('post_type');
-                }),
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
-            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
-            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
->>>>>>> 7148d73 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),

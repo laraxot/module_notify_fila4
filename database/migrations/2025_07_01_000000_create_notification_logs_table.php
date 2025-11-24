@@ -2,79 +2,18 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-declare(strict_types=1);
-
-
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-
->>>>>>> 7148d73 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-return new class extends Migration
-{
-=======
 return new class extends Migration {
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-return new class extends Migration {
-=======
-return new class extends Migration
-{
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-return new class extends Migration {
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-return new class extends Migration {
->>>>>>> 9777d1b (.)
-=======
-return new class extends Migration {
->>>>>>> 7148d73 (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! Schema::hasTable('notification_logs')) {
-=======
         if (!Schema::hasTable('notification_logs')) {
->>>>>>> 75179b8 (.)
-=======
-        if (!Schema::hasTable('notification_logs')) {
->>>>>>> 7148d73 (.)
             Schema::create('notification_logs', function (Blueprint $table) {
                 $table->id();
                 $table->string('notifiable_type');

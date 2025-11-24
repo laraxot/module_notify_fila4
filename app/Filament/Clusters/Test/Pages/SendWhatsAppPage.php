@@ -4,23 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-use Illuminate\Contracts\Support\Htmlable;
-use Exception;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Filament\Forms\Components\KeyValue;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\TextInput;
-use Filament\Notifications\Notification as FilamentNotification;
-use Filament\Panel;
-use Filament\Schemas\Schema;
-=======
-=======
 use BackedEnum;
->>>>>>> 7148d73 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -34,105 +18,26 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Notify\Datas\WhatsAppData;
->>>>>>> 75179b8 (.)
-=======
-use Modules\Notify\Datas\WhatsAppData;
->>>>>>> 7148d73 (.)
 use Modules\Notify\Enums\WhatsAppDriverEnum;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\WhatsAppNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-use Modules\Notify\Enums\WhatsAppDriverEnum;
-
-use Filament\Forms;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Modules\Notify\Datas\WhatsAppData;
-use Illuminate\Support\Facades\Log;
-use Filament\Forms\Contracts\HasForms;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Notify\Filament\Clusters\Test;
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Illuminate\Support\Facades\Notification;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Modules\Notify\Notifications\WhatsAppNotification;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Filament\Notifications\Notification as FilamentNotification;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
->>>>>>> 7148d73 (.)
 
 /**
  * @property \Filament\Schemas\Schema $whatsappForm
  */
 class SendWhatsAppPage extends XotBasePage
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public ?array $whatsappData = [];
-
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
-
-    protected string $view = 'notify::filament.pages.send-whatsapp';
-
-    protected static ?string $cluster = Test::class;
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-    public null|array $whatsappData = [];
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
-    protected string $view = 'notify::filament.pages.send-whatsapp';
-    protected static null|string $cluster = Test::class;
->>>>>>> 75179b8 (.)
-=======
     public null|array $whatsappData = [];
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-chat-bubble-left-right';
     protected string $view = 'notify::filament.pages.send-whatsapp';
     protected static null|string $cluster = Test::class;
->>>>>>> 7148d73 (.)
 
     /**
      * Get the slug of the page
@@ -163,41 +68,7 @@ class SendWhatsAppPage extends XotBasePage
 
     public function whatsappForm(Schema $schema): Schema
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        /** @var array<Htmlable|string> $components */
-        $components = array_values($this->getWhatsAppFormSchema());
-
-        return $schema->components($components)->model($this->getUser())->statePath('whatsappData');
-=======
         return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
-=======
-        return $schema
-            ->components($this->getWhatsAppFormSchema())
-            ->model($this->getUser())
-            ->statePath('whatsappData');
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
->>>>>>> 9777d1b (.)
-=======
-        return $schema->components($this->getWhatsAppFormSchema())->model($this->getUser())->statePath('whatsappData');
->>>>>>> 7148d73 (.)
     }
 
     public function getWhatsAppFormSchema(): array
@@ -253,15 +124,7 @@ class SendWhatsAppPage extends XotBasePage
                 ->title('Messaggio WhatsApp inviato con successo')
                 ->send();
         } catch (Exception $e) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            Log::error('Errore nell\'invio WhatsApp: '.$e->getMessage());
-=======
             Log::error('Errore nell\'invio WhatsApp: ' . $e->getMessage());
->>>>>>> 75179b8 (.)
-=======
-            Log::error('Errore nell\'invio WhatsApp: ' . $e->getMessage());
->>>>>>> 7148d73 (.)
 
             FilamentNotification::make()
                 ->danger()
@@ -283,26 +146,7 @@ class SendWhatsAppPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! ($user instanceof Model)) {
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
         if (!($user instanceof Model)) {
->>>>>>> 75179b8 (.)
-=======
-        if (!($user instanceof Model)) {
->>>>>>> 7148d73 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

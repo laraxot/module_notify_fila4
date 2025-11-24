@@ -4,18 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Exception;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Filament\Forms\Components\Repeater;
-use Filament\Forms\Components\Select;
-use Filament\Forms\Components\TextInput;
-=======
-=======
 use BackedEnum;
->>>>>>> 7148d73 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -25,27 +14,10 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Stringable;
-use Kreait\Firebase\Contract\Messaging;
-use Kreait\Firebase\Messaging\CloudMessage;
-use Kreait\Firebase\Messaging\MessageData;
-use Modules\Notify\Filament\Clusters\Test;
-=======
-=======
->>>>>>> 7148d73 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -55,91 +27,20 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 /**
  * @property \Filament\Schemas\Schema $notificationForm
  */
->>>>>>> 75179b8 (.)
-=======
-/**
- * @property \Filament\Schemas\Schema $notificationForm
- */
->>>>>>> 7148d73 (.)
 class SendPushNotification extends Page implements HasForms
 {
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public ?array $notificationData = [];
-=======
-    public null|array $notificationData = [];
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-    public null|array $notificationData = [];
-=======
-    public ?array $notificationData = [];
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    public null|array $notificationData = [];
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-    public null|array $notificationData = [];
->>>>>>> 9777d1b (.)
-
-    // protected static ?string $navigationIcon = 'heroicon-o-envelope';
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
-
-    protected string $view = 'notify::filament.pages.send-push-notification';
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected static ?string $cluster = Test::class;
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-    protected static null|string $cluster = Test::class;
-=======
-    protected static ?string $cluster = Test::class;
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-    protected static null|string $cluster = Test::class;
->>>>>>> 9777d1b (.)
-=======
     public null|array $notificationData = [];
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
@@ -148,27 +49,12 @@ class SendPushNotification extends Page implements HasForms
     protected string $view = 'notify::filament.pages.send-push-notification';
 
     protected static null|string $cluster = Test::class;
->>>>>>> 7148d73 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function form(Schema $schema): Schema
-    {
-        /**
-         * Callback per filtrare i dispositivi.
-         */
-
-        return $schema
-            ->components([
-                Select::make('deviceToken')->options(fn () => []),
-=======
-=======
->>>>>>> 7148d73 (.)
     public function notificationForm(Schema $schema): Schema
     {
         $devices = DeviceUser::with(['profile', 'device'])
@@ -230,10 +116,6 @@ class SendPushNotification extends Page implements HasForms
         return $schema
             ->components([
                 Select::make('deviceToken')->options(fn() => $to),
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -248,15 +130,7 @@ class SendPushNotification extends Page implements HasForms
 
     public function sendNotification(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $data = $this->notificationData;
-=======
         $data = $this->notificationForm->getState();
->>>>>>> 75179b8 (.)
-=======
-        $data = $this->notificationForm->getState();
->>>>>>> 7148d73 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -266,13 +140,6 @@ class SendPushNotification extends Page implements HasForms
                 ->title('Errore')
                 ->body('Token del dispositivo non valido')
                 ->send();
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
             return;
         }
 
@@ -354,34 +221,7 @@ class SendPushNotification extends Page implements HasForms
     {
         return [
             Action::make('notificationFormActions')
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
                 
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-                
-=======
-                //
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-                
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-                
->>>>>>> 9777d1b (.)
-=======
-                
->>>>>>> 7148d73 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -391,26 +231,7 @@ class SendPushNotification extends Page implements HasForms
     {
         $user = Filament::auth()->user();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (! ($user instanceof Model)) {
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
         if (!($user instanceof Model)) {
->>>>>>> 75179b8 (.)
-=======
-        if (!($user instanceof Model)) {
->>>>>>> 7148d73 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -424,14 +245,6 @@ class SendPushNotification extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        // Form data filled;
-=======
         $this->notificationForm->fill();
->>>>>>> 75179b8 (.)
-=======
-        $this->notificationForm->fill();
->>>>>>> 7148d73 (.)
     }
 }

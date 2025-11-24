@@ -8,14 +8,11 @@ use Modules\Xot\Providers\XotBaseRouteServiceProvider;
 
 class RouteServiceProvider extends XotBaseRouteServiceProvider
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
+    /**
+     * The module name.
+     */
     public string $name = 'Notify';
 
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     /**
      * The module namespace to assume when generating URLs to actions.
      */
@@ -24,14 +21,4 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-    public string $name = 'Notify';
->>>>>>> 75179b8 (.)
-=======
-
-    public string $name = 'Notify';
->>>>>>> 7148d73 (.)
 }

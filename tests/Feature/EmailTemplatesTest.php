@@ -1,42 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-use Illuminate\Support\Facades\File;
-use Tests\TestCase;
-=======
-=======
->>>>>>> f963d2c (.)
-use Tests\TestCase;
-use Illuminate\Support\Facades\File;
->>>>>>> 75179b8 (.)
-
-=======
-use Tests\TestCase;
-use Illuminate\Support\Facades\File;
->>>>>>> 9777d1b (.)
-uses(TestCase::class);
-test('html template contains optional function', function (): void {
-    // Percorso del file
-    $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
-    // Verifico che il file esiste
-    expect(File::exists($filePath))->toBeTrue('Il file html.blade.php non esiste');
-    // Leggo il contenuto del file
-    $content = File::get($filePath);
-    // Verifico che contiene la funzione optional per subject
-    expect($content)
-        ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
-    // Verifico che contiene la funzione optional per body_html
-=======
-=======
->>>>>>> 1fd232c (.)
-=======
->>>>>>> 7148d73 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;

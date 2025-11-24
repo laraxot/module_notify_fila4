@@ -15,18 +15,6 @@ use Spatie\LaravelData\Data;
 class WhatsAppData extends Data
 {
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  string  $to  Numero di telefono del destinatario in formato E.164 (es. +393401234567)
-     * @param  string  $body  Contenuto testuale del messaggio
-     * @param  string|null  $from  Numero di telefono del mittente (opzionale, può essere definito nella configurazione)
-     * @param  array|null  $media  Array di URL di media da allegare al messaggio (immagini, video, documenti)
-     * @param  array|null  $buttons  Array di pulsanti interattivi (supportati solo da alcuni provider)
-     * @param  array|null  $template  Dati del template per messaggi strutturati (supportati solo da alcuni provider)
-     * @param  string  $type  Tipo di messaggio: 'text', 'media', 'template', ecc.
-=======
-=======
->>>>>>> 7148d73 (.)
      * @param string $to Numero di telefono del destinatario in formato E.164 (es. +393401234567)
      * @param string $body Contenuto testuale del messaggio
      * @param string|null $from Numero di telefono del mittente (opzionale, può essere definito nella configurazione)
@@ -34,62 +22,14 @@ class WhatsAppData extends Data
      * @param array|null $buttons Array di pulsanti interattivi (supportati solo da alcuni provider)
      * @param array|null $template Dati del template per messaggi strutturati (supportati solo da alcuni provider)
      * @param string $type Tipo di messaggio: 'text', 'media', 'template', ecc.
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
      */
     public function __construct(
         public string $to,
         public string $body,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        public ?string $from = null,
-        public ?array $media = null,
-        public ?array $buttons = null,
-        public ?array $template = null,
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
         public null|string $from = null,
         public null|array $media = null,
         public null|array $buttons = null,
         public null|array $template = null,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-        public ?string $from = null,
-        public ?array $media = null,
-        public ?array $buttons = null,
-        public ?array $template = null,
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
         public string $type = 'text',
     ) {}
 }

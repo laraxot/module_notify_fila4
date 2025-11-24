@@ -3,23 +3,7 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
 use Carbon\Carbon;
->>>>>>> 75179b8 (.)
-=======
-use Carbon\Carbon;
->>>>>>> 7148d73 (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
 
@@ -188,15 +172,7 @@ describe('Mail Template Log Business Logic', function () {
                     'patient_name' => 'Mario Rossi',
                     'appointment_date' => '2024-12-15 10:00:00',
                     'doctor_name' => 'Dr. Bianchi',
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    'clinic_name' => 'Studio Dentistico '.config('app.name', 'Our Platform'),
-=======
                     'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
->>>>>>> 75179b8 (.)
-=======
-                    'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
->>>>>>> 7148d73 (.)
                     'clinic_address' => 'Via Roma 123, Milano',
                     'clinic_phone' => '+39 02 1234567',
                 ],

@@ -118,11 +118,7 @@ Card::make()
 
 ### 1. Form Completo
 ```php
-<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public static function form(Form $form): Form
->>>>>>> f963d2c (.)
 {
     return $form
         ->schema([

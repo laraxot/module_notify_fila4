@@ -23,35 +23,7 @@ class BuildMailMessageAction
         string $name,
         Model $model,
         array $view_params = [],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        ?DataCollection $dataCollection = null,
-=======
         null|DataCollection $dataCollection = null,
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-        null|DataCollection $dataCollection = null,
-=======
-        ?DataCollection $dataCollection = null
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-        null|DataCollection $dataCollection = null,
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-        null|DataCollection $dataCollection = null,
->>>>>>> 9777d1b (.)
-=======
-        null|DataCollection $dataCollection = null,
->>>>>>> 7148d73 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -60,27 +32,6 @@ class BuildMailMessageAction
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $params = [
-            'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
-            'from_name' => $theme->view_params['from'] ?? $theme->from,
-            'subject' => $view_params['subject'] ?? $theme->subject,
-        ];
-
-        Assert::keyExists($params, 'from_address');
-        Assert::keyExists($params, 'from_name');
-        Assert::keyExists($params, 'subject');
-        Assert::string($params['from_address'], 'from_address must be string');
-        Assert::nullOrString($params['from_name'], 'from_name must be string or null');
-        Assert::string($params['subject'], 'subject must be string');
-
-        $email = (new MailMessage)
-            ->from($params['from_address'], $params['from_name'])
-            ->subject($params['subject'])
-=======
-=======
->>>>>>> 7148d73 (.)
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
@@ -99,38 +50,6 @@ class BuildMailMessageAction
             $subject = 'Notifica';
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $email = new MailMessage()
-=======
-        
-        if (!is_string($subject)) {
-            $subject = 'Notifica';
-        }
-        
-        $email = (new MailMessage())
->>>>>>> b19cd40 (.)
-            ->from($fromAddress, $fromName)
-            ->subject($subject)
->>>>>>> 75179b8 (.)
-            ->view($view_html, $theme->view_params);
-=======
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> f963d2c (.)
-        $email = new MailMessage();
-        $email = $email->from($fromAddress, $fromName);
-        $email = $email->subject($subject);
-        $email = $email->view($view_html, $theme->view_params);
-=======
-=======
->>>>>>> 1fd232c (.)
-=======
->>>>>>> 7148d73 (.)
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)

@@ -2,14 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 75179b8 (.)
-=======
-
->>>>>>> 7148d73 (.)
 return [
     'navigation' => [
         'icon' => 'heroicon-o-document-text',
@@ -58,15 +51,6 @@ return [
     ],
     'actions' => [
         'preview' => 'Anteprima',
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'openColumnManager' => [
-            'tooltip' => 'openColumnManager',
-        ],
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
     ],
     'enums' => [
         'notification_type' => [

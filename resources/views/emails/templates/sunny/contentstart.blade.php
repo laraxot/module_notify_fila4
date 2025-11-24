@@ -1,49 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 82ae73b (.)
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-=======
->>>>>>> f963d2c (.)
-=======
->>>>>>> 1fd232c (.)
-=======
->>>>>>> 7148d73 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 <tr>
->>>>>>> 75179b8 (.)
-=======
->>>>>>> c8eedbb (.)
-=======
-<tr>
-<<<<<<< HEAD
->>>>>>> 518c702 (.)
->>>>>>> f963d2c (.)
-=======
->>>>>>> 1fd232c (.)
-=======
-<tr>
->>>>>>> 7148d73 (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -52,42 +12,4 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 					<div class="article-content" align="left">
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-					<div class="article-content" align="left">
-=======
-					<div class="article-content" align="left">
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-					<div class="article-content" align="left">
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-					<div class="article-content" align="left">
->>>>>>> c8eedbb (.)
-=======
-					<div class="article-content" align="left">
-=======
-					<div class="article-content" align="left">
->>>>>>> 518c702 (.)
->>>>>>> f963d2c (.)
-=======
-					<div class="article-content" align="left">
->>>>>>> 1fd232c (.)
-=======
-					<div class="article-content" align="left">
->>>>>>> 7148d73 (.)

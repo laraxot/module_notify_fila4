@@ -20,54 +20,11 @@ class Get
     public function execute(string $name, string $type, array $view_params): NotifyThemeData
     {
         $xotData = XotData::make();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
-        if (!isset($view_params['post_id'])) {
-            $view_params['post_id'] = 0;
-        }
-        if (!isset($view_params['lang'])) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-        if (! isset($view_params['post_id'])) {
-            $view_params['post_id'] = 0;
-        }
-        if (! isset($view_params['lang'])) {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -83,54 +40,10 @@ class Get
 
         $module_name_low = Str::lower($xotData->main_module);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
-
-        if ($theme->subject === null) {
-            $subject = trans($trad_mod.'.subject');
-=======
-=======
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-=======
-        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
-
-        if ($theme->subject === null) {
-            $subject = trans($trad_mod.'.subject');
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
->>>>>>> 9777d1b (.)
-=======
->>>>>>> 7148d73 (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -139,42 +52,8 @@ class Get
         }
 
         if ($theme->body_html === null) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $html = trans($trad_mod.'.body_html');
-            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
-=======
             $html = trans($trad_mod . '.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-            $html = trans($trad_mod . '.body_html');
-            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
-=======
-            $html = trans($trad_mod.'.body_html');
-            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-            $html = trans($trad_mod . '.body_html');
-            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-            $html = trans($trad_mod . '.body_html');
-            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
->>>>>>> 9777d1b (.)
-=======
-            $html = trans($trad_mod . '.body_html');
-            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
->>>>>>> 7148d73 (.)
                 $html = '##body_html##';
             }
 
@@ -220,15 +99,7 @@ class Get
             }
 
             $view_params['logo'] =
-<<<<<<< HEAD
-<<<<<<< HEAD
-                '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
-=======
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
->>>>>>> 75179b8 (.)
-=======
-                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
->>>>>>> 7148d73 (.)
 
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
@@ -237,42 +108,8 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
-                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
-=======
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
->>>>>>> 75179b8 (.)
-=======
-=======
->>>>>>> 207ac35 (.)
-                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
-                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
-=======
-                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
-                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
->>>>>>> 82ae73b (.)
-=======
-=======
-                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
-                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35 (.)
-=======
-                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
-                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
->>>>>>> 9777d1b (.)
-=======
-                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
-                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
->>>>>>> 7148d73 (.)
             }
         }
 

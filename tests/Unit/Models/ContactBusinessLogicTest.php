@@ -11,15 +11,7 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store polymorphic model relationships', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->model_type = 'App\\Models\\User';
         $contact->model_id = '1';
 
@@ -28,15 +20,7 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store contact information with type', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->contact_type = 'email';
         $contact->value = 'test@example.com';
 
@@ -45,15 +29,7 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track sms communication', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->sms_count = 5;
         $contact->sms_status_code = '200';
         $contact->sms_status_txt = 'Success';
@@ -64,15 +40,7 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track email communication', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->mail_count = 3;
         $contact->mail_sent_at = '2023-01-01 10:00:00';
 
@@ -81,15 +49,7 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store personal information', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->first_name = 'Mario';
         $contact->last_name = 'Rossi';
 
@@ -98,15 +58,7 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact has verification tracking', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->token = 'abc123';
         $contact->verified_at = '2023-01-01 12:00:00';
 
@@ -115,15 +67,7 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact has flexible attribute storage', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->attribute_1 = 'value1';
         $contact->attribute_2 = 'value2';
 
@@ -132,30 +76,14 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track duplicate count', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->duplicate_count = 2;
 
         expect($contact->duplicate_count)->toBe(2);
     });
 
     test('contact has order column for sorting', function () {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $contact = new Contact;
-=======
         $contact = new Contact();
->>>>>>> 75179b8 (.)
-=======
-        $contact = new Contact();
->>>>>>> 7148d73 (.)
         $contact->order_column = 1;
 
         expect($contact->order_column)->toBe(1);

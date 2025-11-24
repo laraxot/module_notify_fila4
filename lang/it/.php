@@ -7,16 +7,4 @@ return [
         'label' => 'Menu Notifiche',
         'group' => 'Sistema',
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-    'actions' => [
-        'logout' => [
-            'tooltip' => 'logout',
-            'icon' => 'logout',
-        ],
-    ],
-=======
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 7148d73 (.)
 ];
