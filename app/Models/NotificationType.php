@@ -5,12 +5,15 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @mixin IdeHelperNotificationType
  * @mixin \Eloquent
  */
 class NotificationType extends BaseModel
 =======
+=======
+>>>>>>> 7148d73 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
@@ -22,7 +25,10 @@ use Illuminate\Database\Eloquent\Model;
  * @mixin \Eloquent
  */
 class NotificationType extends Model
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 {
     protected $fillable = [
         'name',

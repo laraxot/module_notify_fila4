@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7148d73 (.)
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Symfony\Component\Mailer\Mailer;
@@ -13,7 +16,10 @@ use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 class SmtpMailSendAction
 {
     public function execute(string $_to, string $_subject, string $_body): void

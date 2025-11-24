@@ -8,6 +8,7 @@ return [
         'group' => 'Sistema',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     'actions' => [
         'logout' => [
             'tooltip' => 'logout',
@@ -16,4 +17,6 @@ return [
     ],
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 ];

@@ -57,10 +57,14 @@ class NotificationTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification;
 =======
         $notification = new Notification();
 >>>>>>> 75179b8 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 7148d73 (.)
 
         $expectedFillable = [
             'message',
@@ -83,10 +87,14 @@ class NotificationTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification;
 =======
         $notification = new Notification();
 >>>>>>> 75179b8 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 7148d73 (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',

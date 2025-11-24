@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Spatie\LaravelData\Data;
 
@@ -26,6 +27,8 @@ class NexmoData extends Data
     {
         if (! (self::$instance instanceof NexmoData)) {
 =======
+=======
+>>>>>>> 7148d73 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
@@ -45,7 +48,10 @@ class NexmoData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof NexmoData)) {
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.nexmo', []);
@@ -64,6 +70,7 @@ class NexmoData extends Data
             default:
                 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
@@ -79,6 +86,9 @@ class NexmoData extends Data
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+>>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

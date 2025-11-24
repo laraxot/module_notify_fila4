@@ -6,6 +6,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73b (.)
@@ -15,6 +16,9 @@ declare(strict_types=1);
 >>>>>>> 9777d1b (.)
 use Modules\Notify\Helpers\ConfigHelper;
 >>>>>>> 75179b8 (.)
+=======
+use Modules\Notify\Helpers\ConfigHelper;
+>>>>>>> 7148d73 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('Notification Type Business Logic', function () {
@@ -150,6 +154,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'message' => 'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
                         config('app.name', 'Our Platform'),
 =======
@@ -161,11 +166,14 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
                 'message' =>
 
                         'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
                         config('app.name', 'Our Platform')
                     ,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +192,8 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
                 'variables' => ['appointment_date', 'appointment_time'],
                 'max_length' => 160,
             ],
@@ -210,10 +220,14 @@ describe('Notification Type Business Logic', function () {
             ->toBe('emails.appointment-reminder')
             ->and($type->fresh()->templates['sms']['message'])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
 =======
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
 >>>>>>> 75179b8 (.)
+=======
+            ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
+>>>>>>> 7148d73 (.)
                 config('app.name', 'Our Platform'))
             ->and($type->fresh()->templates['sms']['max_length'])
             ->toBe(160)
@@ -421,6 +435,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'delivery_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered',
                 'bounce_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-bounced',
                 'click_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-clicked',
@@ -433,12 +448,15 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
                 'delivery_webhook' =>
                     'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered',
                 'bounce_webhook' =>
                     'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-bounced',
                 'click_webhook' =>
                     'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-clicked',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,6 +477,8 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
             ],
             'api_endpoints' => [
                 'send' => 'POST /api/v1/notifications/send',
@@ -487,10 +507,14 @@ describe('Notification Type Business Logic', function () {
             ->toBe('Firebase')
             ->and($type->fresh()->integrations['webhooks']['delivery_webhook'])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->toBe('https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered')
 =======
             ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
 >>>>>>> 75179b8 (.)
+=======
+            ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
+>>>>>>> 7148d73 (.)
             ->and($type->fresh()->integrations['api_endpoints']['send'])
             ->toBe('POST /api/v1/notifications/send')
             ->and($type->fresh()->integrations['third_party']['crm_integration'])

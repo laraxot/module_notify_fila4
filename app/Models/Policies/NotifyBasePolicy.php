@@ -10,6 +10,7 @@ use Modules\User\Models\Policies\UserBasePolicy;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class NotifyBasePolicy extends UserBasePolicy {}
 =======
 abstract class NotifyBasePolicy extends UserBasePolicy
@@ -39,3 +40,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
 >>>>>>> 9777d1b (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 7148d73 (.)

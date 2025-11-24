@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 use Exception;
 use Filament\Actions\Action;
@@ -22,6 +23,9 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\MessageData;
 use Modules\Notify\Filament\Clusters\Test;
 =======
+=======
+use BackedEnum;
+>>>>>>> 7148d73 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -44,7 +48,10 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
@@ -52,15 +59,22 @@ use Webmozart\Assert\Assert;
 use function Safe\json_encode;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
  * @property \Filament\Schemas\Schema $notificationForm
  */
 >>>>>>> 75179b8 (.)
+=======
+/**
+ * @property \Filament\Schemas\Schema $notificationForm
+ */
+>>>>>>> 7148d73 (.)
 class SendPushNotificationPage extends XotBasePage
 {
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public ?array $notificationData = [];
 =======
@@ -117,12 +131,23 @@ class SendPushNotificationPage extends XotBasePage
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 9777d1b (.)
+=======
+    public null|array $notificationData = [];
+
+    // protected static ?string $navigationIcon = 'heroicon-o-envelope';
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-push-notification';
+
+    protected static null|string $cluster = Test::class;
+>>>>>>> 7148d73 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function form(Schema $schema): Schema
     {
@@ -134,6 +159,8 @@ class SendPushNotificationPage extends XotBasePage
             ->components([
                 Select::make('deviceToken')->options(fn () => []),
 =======
+=======
+>>>>>>> 7148d73 (.)
     public function notificationForm(Schema $schema): Schema
     {
         $devices = DeviceUser::with(['profile', 'device'])
@@ -195,7 +222,10 @@ class SendPushNotificationPage extends XotBasePage
         return $schema
             ->components([
                 Select::make('deviceToken')->options(fn() => $to),
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -211,10 +241,14 @@ class SendPushNotificationPage extends XotBasePage
     public function sendNotification(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = $this->data;
 =======
         $data = $this->notificationForm->getState();
 >>>>>>> 75179b8 (.)
+=======
+        $data = $this->notificationForm->getState();
+>>>>>>> 7148d73 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -225,9 +259,12 @@ class SendPushNotificationPage extends XotBasePage
                 ->body('Token del dispositivo non valido')
                 ->send();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
             return;
         }
 
@@ -313,6 +350,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 
 >>>>>>> 75179b8 (.)
@@ -333,6 +371,9 @@ class SendPushNotificationPage extends XotBasePage
 =======
                 
 >>>>>>> 9777d1b (.)
+=======
+                
+>>>>>>> 7148d73 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -343,6 +384,7 @@ class SendPushNotificationPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,6 +401,9 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 9777d1b (.)
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 7148d73 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -373,9 +418,13 @@ class SendPushNotificationPage extends XotBasePage
 
         // $this->editProfileForm->fill($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Form data filled;
 =======
         $this->notificationForm->fill();
 >>>>>>> 75179b8 (.)
+=======
+        $this->notificationForm->fill();
+>>>>>>> 7148d73 (.)
     }
 }

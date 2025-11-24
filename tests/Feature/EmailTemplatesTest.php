@@ -4,6 +4,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
@@ -34,6 +35,8 @@ test('html template contains optional function', function (): void {
 =======
 =======
 >>>>>>> 1fd232c (.)
+=======
+>>>>>>> 7148d73 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;

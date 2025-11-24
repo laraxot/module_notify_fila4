@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -22,6 +23,9 @@ declare(strict_types=1);
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+
+>>>>>>> 7148d73 (.)
 return [
     'navigation' => [
         'label' => 'Invio Email (Spatie)',

@@ -39,6 +39,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -61,10 +62,16 @@ declare(strict_types=1);
                     @foreach($this->record->variables as $key => $value)
                         <div class="col-span-1">
 >>>>>>> 4e2ebfb (.)
+=======
+                <x-filament::grid>
+                    @foreach($this->record->variables as $key => $value)
+                        <x-filament::grid.column>
+>>>>>>> 7148d73 (.)
                             <div class="p-2 bg-gray-50 rounded">
                                 <span class="font-medium">{{ $key }}:</span>
                                 <span class="text-gray-600">{{ $value }}</span>
                             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -90,6 +97,11 @@ declare(strict_types=1);
                         </div>
                     @endforeach
                 </div>
+=======
+                        </x-filament::grid.column>
+                    @endforeach
+                </x-filament::grid>
+>>>>>>> 7148d73 (.)
             </div>
         </div>
     </div>

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ class="block">
 =======
 =======
 >>>>>>> 1fd232c (.)
+=======
+>>>>>>> 7148d73 (.)
 <?php
 
 declare(strict_types=1);
@@ -37,10 +40,13 @@ declare(strict_types=1);
 ?>
 <div class="block">
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
 =======
 >>>>>>> 1fd232c (.)
+=======
+>>>>>>> 7148d73 (.)
 	<!-- Full + text -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fullimage">
 		<tbody>
@@ -60,6 +66,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 								<tbody>
 >>>>>>> 75179b8 (.)
@@ -89,3 +96,6 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> 1fd232c (.)
+=======
+								<tbody>
+>>>>>>> 7148d73 (.)

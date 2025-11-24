@@ -27,6 +27,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ?DataCollection $dataCollection = null,
 =======
         null|DataCollection $dataCollection = null,
@@ -48,6 +49,9 @@ class BuildMailMessageAction
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 9777d1b (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 7148d73 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -56,6 +60,7 @@ class BuildMailMessageAction
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
+<<<<<<< HEAD
 <<<<<<< HEAD
         $params = [
             'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
@@ -74,6 +79,8 @@ class BuildMailMessageAction
             ->from($params['from_address'], $params['from_name'])
             ->subject($params['subject'])
 =======
+=======
+>>>>>>> 7148d73 (.)
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
@@ -92,6 +99,7 @@ class BuildMailMessageAction
             $subject = 'Notifica';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +129,8 @@ class BuildMailMessageAction
 =======
 =======
 >>>>>>> 1fd232c (.)
+=======
+>>>>>>> 7148d73 (.)
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)

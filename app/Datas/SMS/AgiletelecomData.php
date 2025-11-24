@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Spatie\LaravelData\Data;
 
@@ -36,6 +37,8 @@ class AgiletelecomData extends Data
     {
         if (! (self::$instance instanceof AgiletelecomData)) {
 =======
+=======
+>>>>>>> 7148d73 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
@@ -62,7 +65,10 @@ class AgiletelecomData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof AgiletelecomData)) {
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
@@ -79,6 +85,7 @@ class AgiletelecomData extends Data
         switch ($this->auth_type) {
             case 'api_key':
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
                     'Authorization' => 'Api-Key '.$this->api_key,
 =======
@@ -97,22 +104,30 @@ class AgiletelecomData extends Data
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+                    'Authorization' => 'Api-Key ' . $this->api_key,
+>>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                 ];
 
             case 'oauth':
                 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'OAuth '.$this->oauth_token,
 =======
                     'Authorization' => 'OAuth ' . $this->oauth_token,
 >>>>>>> 75179b8 (.)
+=======
+                    'Authorization' => 'OAuth ' . $this->oauth_token,
+>>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                 ];
 
             case 'basic':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
 =======
@@ -131,6 +146,9 @@ class AgiletelecomData extends Data
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
+>>>>>>> 7148d73 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

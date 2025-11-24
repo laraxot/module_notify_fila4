@@ -58,10 +58,14 @@ class NotificationTemplateTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new NotificationTemplate;
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 7148d73 (.)
 
         $expectedFillable = [
             'name',
@@ -90,10 +94,14 @@ class NotificationTemplateTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new NotificationTemplate;
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 7148d73 (.)
 
         $expectedCasts = [
             'type' => NotificationTypeEnum::class,
@@ -118,10 +126,14 @@ class NotificationTemplateTest extends TestCase
     public function it_has_translatable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new NotificationTemplate;
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 7148d73 (.)
 
         $expectedTranslatable = [
             'subject',

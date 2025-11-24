@@ -8,6 +8,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
@@ -32,6 +33,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -59,23 +62,32 @@ class NotificationTemplateResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
             TextInput::make('name')
 >>>>>>> 75179b8 (.)
+=======
+            'name' => TextInput::make('name')
+>>>>>>> 7148d73 (.)
                 ->required()
                 ->maxLength(255)
                 ->unique(ignoreRecord: true)
                 ->helperText(__('notify::template.form.name.helper'))
                 ->columnSpan(['lg' => 2]),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'subject' => TextInput::make('subject')
 =======
             TextInput::make('subject')
 >>>>>>> 75179b8 (.)
+=======
+            'subject' => TextInput::make('subject')
+>>>>>>> 7148d73 (.)
                 ->required()
                 ->maxLength(255)
                 ->helperText(__('notify::template.form.subject.helper'))
                 ->columnSpan(['lg' => 2])
                 ->translateLabel(),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'type' => Select::make('type')
                 ->options(collect(NotificationTypeEnum::cases())
@@ -85,15 +97,24 @@ class NotificationTemplateResource extends XotBaseResource
                 ->options(collect(NotificationTypeEnum::cases())
                     ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
 >>>>>>> 75179b8 (.)
+=======
+            'type' => Select::make('type')
+                ->options(collect(NotificationTypeEnum::cases())
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+>>>>>>> 7148d73 (.)
                 ->required()
                 ->default(NotificationTypeEnum::EMAIL->value)
                 ->helperText(__('notify::template.form.type.helper'))
                 ->columnSpan(['lg' => 1]),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'body_text' => Textarea::make('body_text')
 =======
             Textarea::make('body_text')
 >>>>>>> 75179b8 (.)
+=======
+            'body_text' => Textarea::make('body_text')
+>>>>>>> 7148d73 (.)
                 ->required()
                 ->maxLength(65535)
                 ->columnSpan(['lg' => 3])
@@ -101,10 +122,14 @@ class NotificationTemplateResource extends XotBaseResource
                 ->rows(5)
                 ->translateLabel(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'body_html' => Textarea::make('body_html')
 =======
             Textarea::make('body_html')
 >>>>>>> 75179b8 (.)
+=======
+            'body_html' => Textarea::make('body_html')
+>>>>>>> 7148d73 (.)
                 ->required()
                 ->maxLength(65535)
                 ->columnSpan(['lg' => 3])
@@ -112,19 +137,27 @@ class NotificationTemplateResource extends XotBaseResource
                 ->rows(10)
                 ->translateLabel(),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'preview_data' => Textarea::make('preview_data')
 =======
             Textarea::make('preview_data')
 >>>>>>> 75179b8 (.)
+=======
+            'preview_data' => Textarea::make('preview_data')
+>>>>>>> 7148d73 (.)
                 ->json()
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.preview_data.helper'))
                 ->rows(5),
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attachments' => SpatieMediaLibraryFileUpload::make('attachments')
 =======
             SpatieMediaLibraryFileUpload::make('attachments')
 >>>>>>> 75179b8 (.)
+=======
+            'attachments' => SpatieMediaLibraryFileUpload::make('attachments')
+>>>>>>> 7148d73 (.)
                 ->collection('attachments')
                 ->multiple()
                 ->maxFiles(5)
@@ -135,6 +168,7 @@ class NotificationTemplateResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     #[Override]
@@ -218,6 +252,9 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+    #[Override]
+>>>>>>> 7148d73 (.)
     public static function getPages(): array
     {
         return [

@@ -16,10 +16,14 @@ use Modules\Xot\Filament\Traits\TransTrait;
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
 =======
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 75179b8 (.)
+=======
+enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
+>>>>>>> 7148d73 (.)
 {
     use TransTrait;
 
@@ -33,6 +37,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
     public function getLabel(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
 =======
@@ -59,10 +64,14 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+        return $this->transClass(self::class, $this->value . '.label');
+>>>>>>> 7148d73 (.)
     }
 
     public function getColor(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,10 +98,14 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value . '.color');
 >>>>>>> 9777d1b (.)
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 7148d73 (.)
     }
 
     public function getIcon(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,10 +131,14 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value . '.icon');
 >>>>>>> 9777d1b (.)
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 7148d73 (.)
     }
 
     public function getDescription(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,15 +155,23 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 9777d1b (.)
         return $this->transClass(self::class, $this->value . '.description');
 >>>>>>> 75179b8 (.)
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> 7148d73 (.)
     }
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @return self
 >>>>>>> 75179b8 (.)
+=======
+     *
+     * @return self
+>>>>>>> 7148d73 (.)
      */
     public static function getDefault(): self
     {

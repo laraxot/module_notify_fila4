@@ -8,6 +8,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19,6 +20,9 @@ use Exception;
 >>>>>>> 9777d1b (.)
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b8 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 7148d73 (.)
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
@@ -28,9 +32,12 @@ class RecordNotificationData extends Data
 {
     public UserContract $record;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
     public string $channel;
 
     public function getChannel(): string
@@ -43,6 +50,7 @@ class RecordNotificationData extends Data
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
                 return $email;
@@ -53,6 +61,8 @@ class RecordNotificationData extends Data
         }
         throw new Exception('Channel ['.$this->channel.'] not supported');
 =======
+=======
+>>>>>>> 7148d73 (.)
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                 return $email;
             case 'sms':
@@ -61,6 +71,9 @@ class RecordNotificationData extends Data
                 return $phone;
         }
         throw new Exception('Channel [' . $this->channel . '] not supported');
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
     }
 }

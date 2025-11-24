@@ -33,6 +33,60 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - **Diagnosis**: Check environment variables and configuration files for typos or missing values.
 - **Fix**: Update configurations with correct values and restart application if necessary.
 
+<<<<<<< HEAD
+=======
+### 5. ParseError durante composer update - Assert::string con assegnazione inline
+- **Symptoms**: Errore `ParseError: syntax error, unexpected token "->"` durante `composer update -W` o `php artisan package:discover`.
+- **Diagnosis**: Il problema si verifica quando si usa `Assert::string()` con un'assegnazione inline seguita immediatamente da una chiamata a metodo con `->`.
+- **Cause**: PHP può avere problemi di parsing quando un'assegnazione è incorporata direttamente nella chiamata di funzione seguita da una chiamata a metodo.
+- **Fix**: Separare sempre l'assegnazione dalla chiamata `Assert::string()`:
+  ```php
+  // ❌ ERRATO - causa ParseError
+  Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__);
+  $notify = new RecordNotification($user, $template_slug)->mergeData($data);
+
+  // ✅ CORRETTO - separare assegnazione e validazione
+  $template_slug = $data['template_slug'];
+  Assert::string($template_slug, __FILE__ . ':' . __LINE__);
+  $notify = new RecordNotification($user, $template_slug)->mergeData($data);
+  ```
+- **Files interessati**: 
+  - `Modules/Notify/app/Filament/Clusters/Test/Pages/SendSmsPage.php`
+  - `Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmailPage.php`
+- **Prevenzione**: Evitare sempre assegnazioni inline dentro chiamate `Assert::*()` quando seguite da chiamate a metodo.
+
+### 6. PHPStan Livello 10: Errori di Tipizzazione
+- **Symptoms**: Errori PHPStan livello 10 durante l'analisi statica del codice
+- **Diagnosis**: Mancanza di tipizzazione esplicita per array, parametri mixed, accesso a offset su mixed
+- **Fix**: Aggiungere tipizzazione esplicita con PHPDoc e shape types per array strutturati
+- **Files interessati**: 
+  - `Modules/Notify/app/Actions/SendNotificationAction.php` - Tipizzazione parametri e array
+  - `Modules/Notify/app/Notifications/GenericNotification.php` - Tipizzazione channels e metodi
+  - `Modules/Notify/app/Models/NotificationTemplate.php` - Tipizzazione preview data e channels
+  - `Modules/Notify/app/Notifications/RecordNotification.php` - Tipizzazione attachments e data
+  - `Modules/Notify/app/Actions/Telegram/*.php` - Accesso sicuro a offset array
+  - `Modules/Notify/app/Actions/WhatsApp/*.php` - Tipizzazione mediaUrl
+- **Pattern di correzione**:
+  ```php
+  // ❌ ERRATO
+  public function execute(Model $recipient, string $templateCode, array $data = []): bool
+  
+  // ✅ CORRETTO
+  public function execute(Model $recipient, string $templateCode, array<string, mixed> $data = []): bool
+  
+  // ❌ ERRATO - Accesso diretto a offset mixed
+  'message_id' => $responseData['result']['message_id'] ?? null
+  
+  // ✅ CORRETTO - Verifica tipo prima dell'accesso
+  /** @var array<string, mixed> $result */
+  $result = $responseData['result'] ?? [];
+  /** @var int|null $messageId */
+  $messageId = isset($result['message_id']) && is_int($result['message_id']) ? $result['message_id'] : null;
+  ```
+- **Prevenzione**: Utilizzare sempre tipizzazione esplicita per array e verificare tipi prima di accedere a offset su valori mixed
+- **Documentazione completa**: Vedi [phpstan-level10-analysis.md](./phpstan-level10-analysis.md)
+
+>>>>>>> 7148d73 (.)
 ## Testing and Verification
 - Use sandbox environments or test modes provided by notification services to simulate sends without affecting real users.
 - Verify fixes by sending test notifications after applying changes.

@@ -3,11 +3,14 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 =======
+=======
+>>>>>>> 7148d73 (.)
 
 namespace Modules\Notify\Models;
 
@@ -16,7 +19,10 @@ use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -44,8 +50,11 @@ use Modules\Xot\Models\BaseModel;
  * @property-read Model|null $creator
  * @property-read Model|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
+=======
+>>>>>>> 7148d73 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -62,7 +71,10 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -92,6 +104,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 75179b8 (.)
@@ -111,6 +124,9 @@ class Notification extends BaseModel
 =======
     #[Override]
 >>>>>>> 9777d1b (.)
+=======
+    #[Override]
+>>>>>>> 7148d73 (.)
     protected function casts(): array
     {
         return [

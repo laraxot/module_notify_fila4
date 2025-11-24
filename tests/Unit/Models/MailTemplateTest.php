@@ -53,10 +53,14 @@ class MailTemplateTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 7148d73 (.)
 
         $expectedFillable = [
             'mailable',
@@ -77,10 +81,14 @@ class MailTemplateTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 7148d73 (.)
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -95,10 +103,14 @@ class MailTemplateTest extends TestCase
     public function it_has_translatable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 7148d73 (.)
 
         $expectedTranslatable = [
             'subject',
@@ -114,10 +126,14 @@ class MailTemplateTest extends TestCase
     public function it_uses_notify_connection(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 7148d73 (.)
 
         $this->assertEquals('notify', $template->getConnectionName());
     }

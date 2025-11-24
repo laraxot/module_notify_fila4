@@ -9,16 +9,22 @@ declare(strict_types=1);
 namespace Modules\Notify\Services\MailEngines;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
 use InvalidArgumentException;
 =======
+=======
+>>>>>>> 7148d73 (.)
 use InvalidArgumentException;
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 use Webmozart\Assert\Assert;
 
 // ---------CSS------------
@@ -28,6 +34,7 @@ use Webmozart\Assert\Assert;
  */
 class MailtrapEngine
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,11 +60,15 @@ class MailtrapEngine
 =======
     public null|string $from = null;
 >>>>>>> 9777d1b (.)
+=======
+    public null|string $from = null;
+>>>>>>> 7148d73 (.)
 
     public string $to;
 
     public string $driver;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +90,8 @@ class MailtrapEngine
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -87,7 +100,10 @@ class MailtrapEngine
     {
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         }
 
         return self::$instance;
@@ -125,6 +141,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -146,16 +163,23 @@ class MailtrapEngine
 =======
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 9777d1b (.)
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 7148d73 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
 
             // Utilizziamo una condizione più appropriata
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! $to) {
 =======
             if (!$to) {
 >>>>>>> 75179b8 (.)
+=======
+            if (!$to) {
+>>>>>>> 7148d73 (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
             }
 

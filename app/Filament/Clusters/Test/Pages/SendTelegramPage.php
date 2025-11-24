@@ -10,6 +10,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Exception;
 use Filament\Actions\Action;
@@ -23,6 +24,9 @@ use Filament\Schemas\Schema;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 =======
+=======
+use BackedEnum;
+>>>>>>> 7148d73 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -41,23 +45,32 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Datas\TelegramData;
 use Modules\Notify\Datas\TelegramMessageData;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /**
  * @property Schema $telegramForm
 =======
+=======
+>>>>>>> 7148d73 (.)
 use NotificationChannels\Telegram\TelegramMessage;
 use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
 /**
  * @property \Filament\Schemas\Schema $telegramForm
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
  */
 class SendTelegramPage extends XotBasePage implements HasForms
 {
@@ -65,6 +78,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +134,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 9777d1b (.)
+=======
+    public null|array $telegramData = [];
+
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-telegram';
+
+    protected static null|string $cluster = Test::class;
+>>>>>>> 7148d73 (.)
 
     public function mount(): void
     {
@@ -128,6 +151,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public function telegramForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +186,9 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
         return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
 >>>>>>> 9777d1b (.)
+=======
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+>>>>>>> 7148d73 (.)
     }
 
     public function getTelegramFormSchema(): array
@@ -231,10 +258,14 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->send();
         } catch (Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Log::error('Errore nell\'invio Telegram: '.$e->getMessage());
 =======
             Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
 >>>>>>> 75179b8 (.)
+=======
+            Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
+>>>>>>> 7148d73 (.)
 
             FilamentNotification::make()
                 ->danger()

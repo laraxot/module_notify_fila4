@@ -8,6 +8,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -25,6 +26,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
 use Override;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
@@ -35,7 +38,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -47,12 +53,18 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $body
  * @property string|null $from
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property string|null $created_by
 =======
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
 >>>>>>> 75179b8 (.)
+=======
+ * @property Carbon|null $created_at
+ * @property string|null $created_by
+ * @property Carbon|null $updated_at
+>>>>>>> 7148d73 (.)
  * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
@@ -65,6 +77,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array $view_params
  * @property array $logo
  * @property Model|Eloquent $linkable
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property Model $linkable
  * @property MediaCollection<int, Media> $media
@@ -83,6 +96,8 @@ class NotifyTheme extends BaseModel implements HasMedia
     use InteractsWithMedia;
 
 =======
+=======
+>>>>>>> 7148d73 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @method static NotifyThemeFactory factory($count = null, $state = [])
@@ -121,7 +136,10 @@ class NotifyTheme extends BaseModel implements HasMedia
 class NotifyTheme extends BaseModel
 {
     /** @var list<string> */
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
     protected $fillable = [
         'id',
         'lang',
@@ -129,6 +147,7 @@ class NotifyTheme extends BaseModel
         'subject',
         'body',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'from',
         'post_type',
         'post_id',
@@ -136,13 +155,18 @@ class NotifyTheme extends BaseModel
         'theme',
         'from_email',
 =======
+=======
+>>>>>>> 7148d73 (.)
         'body_html',
         'from',
         'from_email',
         'post_type',
         'post_id',
         'theme',
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         'logo_src',
         'logo_width',
         'logo_height',
@@ -150,17 +174,21 @@ class NotifyTheme extends BaseModel
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array{path: string, width: int, height: int}
      */
     public function getLogoAttribute(?array $value): array
 =======
+=======
+>>>>>>> 7148d73 (.)
     /** @var list<string> */
     protected $appends = [
         'logo',
     ];
 
     public function getLogoAttribute(null|array $value): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -177,6 +205,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -199,6 +229,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 75179b8 (.)
@@ -218,6 +249,9 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> 9777d1b (.)
+=======
+    #[Override]
+>>>>>>> 7148d73 (.)
     protected function casts(): array
     {
         return [

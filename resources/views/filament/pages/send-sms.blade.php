@@ -22,7 +22,11 @@ declare(strict_types=1);
                         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendSMS"/>
                     </div>
                     <div>
+<<<<<<< HEAD
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
+=======
+                        <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
+>>>>>>> 7148d73 (.)
                     </div>
                 </div>
 

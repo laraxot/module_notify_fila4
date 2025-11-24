@@ -8,6 +8,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19,6 +20,9 @@ namespace Modules\Notify\Providers;
 >>>>>>> 9777d1b (.)
 use Override;
 >>>>>>> 75179b8 (.)
+=======
+use Override;
+>>>>>>> 7148d73 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -37,6 +41,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function boot(): void
     {
         parent::boot();
@@ -48,11 +53,14 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
     #[Override]
     public function boot(): void
     {
         parent::boot();
         //if (! app()->environment('production')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +75,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
         $fallback_to = Arr::get($mail, 'fallback_to', null);

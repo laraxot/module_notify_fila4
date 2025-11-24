@@ -16,6 +16,7 @@ class TelegramData extends Data
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $chatId  ID della chat o username del destinatario (es. 123456789 o @username)
      * @param  string  $text  Contenuto testuale del messaggio
      * @param  string|null  $parseMode  Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
@@ -26,6 +27,8 @@ class TelegramData extends Data
      * @param  array|null  $media  Array di media da allegare al messaggio (immagini, video, documenti)
      * @param  string  $type  Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
 =======
+=======
+>>>>>>> 7148d73 (.)
      * @param string $chatId ID della chat o username del destinatario (es. 123456789 o @username)
      * @param string $text Contenuto testuale del messaggio
      * @param string|null $parseMode Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
@@ -35,11 +38,15 @@ class TelegramData extends Data
      * @param array|null $replyMarkup Markup per tastiere inline, tastiere personalizzate, ecc.
      * @param array|null $media Array di media da allegare al messaggio (immagini, video, documenti)
      * @param string $type Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
      */
     public function __construct(
         public string $chatId,
         public string $text,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,12 +66,15 @@ class TelegramData extends Data
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
         public null|string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public null|int $replyToMessageId = null,
         public null|array $replyMarkup = null,
         public null|array $media = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +98,8 @@ class TelegramData extends Data
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
         public string $type = 'text',
     ) {}
 }

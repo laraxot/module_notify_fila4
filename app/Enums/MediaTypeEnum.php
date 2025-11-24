@@ -50,11 +50,17 @@ enum MediaTypeEnum: string
     /**
      * Verifica se un tipo di media è supportato
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @param string $type
      * @return bool
 >>>>>>> 75179b8 (.)
+=======
+     *
+     * @param string $type
+     * @return bool
+>>>>>>> 7148d73 (.)
      */
     public static function isSupported(string $type): bool
     {
@@ -64,10 +70,15 @@ enum MediaTypeEnum: string
     /**
      * Restituisce il tipo di media predefinito
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @return self
 >>>>>>> 75179b8 (.)
+=======
+     *
+     * @return self
+>>>>>>> 7148d73 (.)
      */
     public static function getDefault(): self
     {

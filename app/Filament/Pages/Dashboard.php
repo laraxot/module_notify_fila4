@@ -6,6 +6,7 @@ namespace Modules\Notify\Filament\Pages;
 
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
@@ -26,6 +27,9 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+>>>>>>> 7148d73 (.)
 
 class Dashboard extends XotBaseDashboard
 {

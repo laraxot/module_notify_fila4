@@ -5,15 +5,19 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Forms\Components;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Support\Htmlable;
 use Filament\Schemas\Components\Section;
 use Modules\Notify\Enums\ContactTypeEnum;
 =======
+=======
+>>>>>>> 7148d73 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -35,11 +39,14 @@ use Webmozart\Assert\Assert;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,6 +69,9 @@ class ContactSection extends Section
 >>>>>>> 9777d1b (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 75179b8 (.)
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> 7148d73 (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -69,23 +79,32 @@ class ContactSection extends Section
     {
         parent::setUp();
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<Htmlable|string> $schema */
         $schema = array_values($this->getFormSchema());
         $this->schema($schema);
 =======
         $this->schema($this->getFormSchema());
 >>>>>>> 75179b8 (.)
+=======
+        $this->schema($this->getFormSchema());
+>>>>>>> 7148d73 (.)
         $this->columns(2);
     }
 
     protected function getFormSchema(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ContactTypeEnum::getFormSchema();
 =======
         $res = ContactTypeEnum::getFormSchema();
         return $res;
 >>>>>>> 75179b8 (.)
+=======
+        $res = ContactTypeEnum::getFormSchema();
+        return $res;
+>>>>>>> 7148d73 (.)
     }
 
     /*

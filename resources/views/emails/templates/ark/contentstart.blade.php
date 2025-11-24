@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15,11 +16,14 @@
 >>>>>>> f963d2c (.)
 =======
 >>>>>>> 1fd232c (.)
+=======
+>>>>>>> 7148d73 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -37,6 +41,9 @@ declare(strict_types=1);
 >>>>>>> f963d2c (.)
 =======
 >>>>>>> 1fd232c (.)
+=======
+<tr>
+>>>>>>> 7148d73 (.)
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -50,6 +57,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> 75179b8 (.)
@@ -79,3 +87,6 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 1fd232c (.)
+=======
+					<div class="article-content" align="left">
+>>>>>>> 7148d73 (.)

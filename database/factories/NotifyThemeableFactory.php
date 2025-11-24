@@ -36,6 +36,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn (array $_attributes): array => [
 =======
         return $this->state(fn(array $_attributes): array => [
@@ -57,12 +58,16 @@ class NotifyThemeableFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 9777d1b (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 7148d73 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
 
     public function forPatient(): static
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +84,9 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 9777d1b (.)
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 75179b8 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 7148d73 (.)
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }

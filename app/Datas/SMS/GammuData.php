@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Spatie\LaravelData\Data;
 
@@ -22,6 +23,8 @@ class GammuData extends Data
     {
         if (! (self::$instance instanceof GammuData)) {
 =======
+=======
+>>>>>>> 7148d73 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
@@ -39,7 +42,10 @@ class GammuData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof GammuData)) {
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);

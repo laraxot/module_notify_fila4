@@ -17,6 +17,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73b (.)
@@ -27,6 +28,10 @@ use Modules\Notify\Datas\SmsData;
  *
  * @package Modules\Notify\Notifications
 >>>>>>> 75179b8 (.)
+=======
+ *
+ * @package Modules\Notify\Notifications
+>>>>>>> 7148d73 (.)
  */
 class SmsNotification extends Notification implements ShouldQueue
 {
@@ -35,10 +40,15 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * The SMS data.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @var SmsData
 >>>>>>> 75179b8 (.)
+=======
+     *
+     * @var SmsData
+>>>>>>> 7148d73 (.)
      */
     protected SmsData $smsData;
 
@@ -53,12 +63,17 @@ class SmsNotification extends Notification implements ShouldQueue
      * Create a new notification instance.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string|SmsData  $content  The content of the SMS or SmsData object
      * @param  array<string, mixed>  $config  Configuration options including provider
 =======
      * @param string|SmsData $content The content of the SMS or SmsData object
      * @param array<string, mixed> $config Configuration options including provider
 >>>>>>> 75179b8 (.)
+=======
+     * @param string|SmsData $content The content of the SMS or SmsData object
+     * @param array<string, mixed> $config Configuration options including provider
+>>>>>>> 7148d73 (.)
      */
     public function __construct(string|SmsData $content, array $config = [])
     {
@@ -68,6 +83,7 @@ class SmsNotification extends Notification implements ShouldQueue
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +104,9 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 9777d1b (.)
             $this->smsData = new SmsData();
 >>>>>>> 75179b8 (.)
+=======
+            $this->smsData = new SmsData();
+>>>>>>> 7148d73 (.)
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
             $this->smsData->to = (string) $to;
@@ -105,6 +124,7 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
 =======
 =======
@@ -117,6 +137,9 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 9777d1b (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
 >>>>>>> 75179b8 (.)
+=======
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+>>>>>>> 7148d73 (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -128,11 +151,17 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the SMS representation of the notification.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
      * @param mixed $notifiable
      * @return SmsData
 >>>>>>> 75179b8 (.)
+=======
+     *
+     * @param mixed $notifiable
+     * @return SmsData
+>>>>>>> 7148d73 (.)
      */
     public function toSms(mixed $notifiable): SmsData
     {
@@ -159,19 +188,25 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the provider to use for sending the SMS.
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function getProvider(): ?string
     {
         $provider = $this->config['provider'] ?? null;
 
 =======
+=======
+>>>>>>> 7148d73 (.)
      *
      * @return string|null
      */
     public function getProvider(): null|string
     {
         $provider = $this->config['provider'] ?? null;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         return is_string($provider) ? $provider : null;
     }
 }

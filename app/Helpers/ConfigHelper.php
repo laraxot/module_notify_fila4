@@ -16,11 +16,16 @@ class ConfigHelper
      * Sostituisce le variabili template nei dati di configurazione.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
 =======
      * @param array<string, mixed> $data
      *
 >>>>>>> 75179b8 (.)
+=======
+     * @param array<string, mixed> $data
+     *
+>>>>>>> 7148d73 (.)
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -40,6 +45,7 @@ class ConfigHelper
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Ottiene un valore di configurazione con sostituzione delle variabili template.
      */
@@ -153,12 +159,17 @@ class ConfigHelper
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $variables
 =======
+=======
+>>>>>>> 7148d73 (.)
      * Sostituisce ricorsivamente le variabili template in un array.
      *
      * @param array<string, mixed> $data
      * @param array<string, mixed> $variables
      *
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -183,14 +194,19 @@ class ConfigHelper
      * Sostituisce le variabili template in una stringa.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $variables
 =======
      * @param array<string, mixed> $variables
 >>>>>>> 75179b8 (.)
+=======
+     * @param array<string, mixed> $variables
+>>>>>>> 7148d73 (.)
      */
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,13 +232,19 @@ class ConfigHelper
 =======
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 9777d1b (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 7148d73 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 
         return $string;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7148d73 (.)
 
     /**
      * Ottiene un valore di configurazione con sostituzione delle variabili template.
@@ -316,5 +338,8 @@ class ConfigHelper
         /* @var array<string, mixed> $pathConfig */
         return self::replaceTemplateVariables($pathConfig);
     }
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 }

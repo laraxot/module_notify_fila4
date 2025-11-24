@@ -9,6 +9,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
@@ -31,6 +32,9 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 7148d73 (.)
     /**
      * Run the migrations.
      */
@@ -44,10 +48,14 @@ return new class() extends XotBaseMigration {
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! $this->hasColumn('notify_theme_id')) {
 =======
             if (!$this->hasColumn('notify_theme_id')) {
 >>>>>>> 75179b8 (.)
+=======
+            if (!$this->hasColumn('notify_theme_id')) {
+>>>>>>> 7148d73 (.)
                 $table->integer('notify_theme_id')->nullable();
             }
             $this->updateTimestamps(

@@ -8,6 +8,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -20,6 +21,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
@@ -27,7 +30,10 @@ use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -72,12 +78,15 @@ use Illuminate\Support\Carbon;
  * @property int|null $duplicate_count
  * @property int|null $order_column
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @mixin Eloquent
  *
  * @property string|null $email
  * @property string|null $mobile_phone
 =======
+=======
+>>>>>>> 7148d73 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -127,17 +136,25 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Contact whereUsesleft($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
 >>>>>>> 75179b8 (.)
+=======
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+>>>>>>> 7148d73 (.)
  * @mixin IdeHelperContact
  * @mixin \Eloquent
  */
@@ -158,6 +175,7 @@ class Contact extends BaseModel
         'token',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     /** @return array<string, string> */
@@ -185,6 +203,10 @@ class Contact extends BaseModel
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+    /** @return array<string, string> */
+    #[Override]
+>>>>>>> 7148d73 (.)
     protected function casts(): array
     {
         return [

@@ -3,9 +3,13 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 75179b8 (.)
+=======
+
+>>>>>>> 7148d73 (.)
 return [
     'resource' => [
         'name' => 'Notifica',
@@ -195,11 +199,14 @@ return [
             'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
         ],
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
     ],
     'messages' => [
         'no_notifications' => 'Non hai notifiche',

@@ -32,6 +32,7 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($token)) {
 =======
         if (!is_string($token)) {
@@ -53,6 +54,9 @@ class NetfunSendAction
 =======
         if (!is_string($token)) {
 >>>>>>> 9777d1b (.)
+=======
+        if (!is_string($token)) {
+>>>>>>> 7148d73 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -74,18 +78,24 @@ class NetfunSendAction
         $smsData->to .= '';
         if (Str::startsWith($smsData->to, '00')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $smsData->to = '+39'.mb_substr($smsData->to, 2);
         }
 
         if (! Str::startsWith($smsData->to, '+')) {
             $smsData->to = '+39'.$smsData->to;
 =======
+=======
+>>>>>>> 7148d73 (.)
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
         }
 
         if (!Str::startsWith($smsData->to, '+')) {
             $smsData->to = '+39' . $smsData->to;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         }
 
         $body = [
@@ -124,10 +134,14 @@ class NetfunSendAction
         } catch (ClientException $clientException) {
             throw new Exception(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
 =======
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 75179b8 (.)
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 7148d73 (.)
                 $clientException->getCode(),
                 $clientException,
             );

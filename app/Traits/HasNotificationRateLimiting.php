@@ -6,9 +6,13 @@ namespace Modules\Notify\Traits;
 
 use Illuminate\Cache\RateLimiter;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\Cache;
 >>>>>>> 75179b8 (.)
+=======
+use Illuminate\Support\Facades\Cache;
+>>>>>>> 7148d73 (.)
 
 trait HasNotificationRateLimiting
 {
@@ -16,19 +20,25 @@ trait HasNotificationRateLimiting
      * Verifica se l'invio della notifica è consentito dal rate limiting.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $key  Chiave univoca per il rate limiting
      */
     protected function shouldSendNotification(string $key): bool
     {
         if (! config('notify.rate_limiting.enabled')) {
 =======
+=======
+>>>>>>> 7148d73 (.)
      * @param string $key Chiave univoca per il rate limiting
      * @return bool
      */
     protected function shouldSendNotification(string $key): bool
     {
         if (!config('notify.rate_limiting.enabled')) {
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
             return true;
         }
 
@@ -44,9 +54,12 @@ trait HasNotificationRateLimiting
 
         $limiter->hit($key, $decayMinutes * 60);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         return true;
     }
 
@@ -54,10 +67,14 @@ trait HasNotificationRateLimiting
      * Ottiene il tempo rimanente prima che il rate limiting si resetti.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $key  Chiave univoca per il rate limiting
 =======
      * @param string $key Chiave univoca per il rate limiting
 >>>>>>> 75179b8 (.)
+=======
+     * @param string $key Chiave univoca per il rate limiting
+>>>>>>> 7148d73 (.)
      * @return int Secondi rimanenti
      */
     protected function getNotificationRateLimitRetryAfter(string $key): int
@@ -65,9 +82,12 @@ trait HasNotificationRateLimiting
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         return $limiter->availableIn($key);
     }
 
@@ -75,10 +95,14 @@ trait HasNotificationRateLimiting
      * Ottiene il numero di tentativi rimanenti per il rate limiting.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $key  Chiave univoca per il rate limiting
 =======
      * @param string $key Chiave univoca per il rate limiting
 >>>>>>> 75179b8 (.)
+=======
+     * @param string $key Chiave univoca per il rate limiting
+>>>>>>> 7148d73 (.)
      * @return int Tentativi rimanenti
      */
     protected function getNotificationRateLimitRemainingAttempts(string $key): int
@@ -88,9 +112,12 @@ trait HasNotificationRateLimiting
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         return $maxAttempts - $limiter->attempts($key);
     }
 
@@ -98,11 +125,16 @@ trait HasNotificationRateLimiting
      * Resetta il rate limiting per una chiave specifica.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $key  Chiave univoca per il rate limiting
 =======
      * @param string $key Chiave univoca per il rate limiting
      * @return void
 >>>>>>> 75179b8 (.)
+=======
+     * @param string $key Chiave univoca per il rate limiting
+     * @return void
+>>>>>>> 7148d73 (.)
      */
     protected function resetNotificationRateLimit(string $key): void
     {
@@ -115,6 +147,7 @@ trait HasNotificationRateLimiting
      * Genera una chiave univoca per il rate limiting.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  string  $type  Tipo di notifica
      * @param  mixed  $identifier  Identificatore univoco (es. ID utente)
 =======
@@ -122,6 +155,11 @@ trait HasNotificationRateLimiting
      * @param mixed $identifier Identificatore univoco (es. ID utente)
      * @return string
 >>>>>>> 75179b8 (.)
+=======
+     * @param string $type Tipo di notifica
+     * @param mixed $identifier Identificatore univoco (es. ID utente)
+     * @return string
+>>>>>>> 7148d73 (.)
      */
     protected function getNotificationRateLimitKey(string $type, mixed $identifier): string
     {

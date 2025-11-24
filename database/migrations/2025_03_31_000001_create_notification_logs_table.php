@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends Migration
 {
 =======
@@ -33,6 +34,9 @@ return new class extends Migration {
 =======
 return new class extends Migration {
 >>>>>>> 9777d1b (.)
+=======
+return new class extends Migration {
+>>>>>>> 7148d73 (.)
     /**
      * Esegue la migrazione.
      */

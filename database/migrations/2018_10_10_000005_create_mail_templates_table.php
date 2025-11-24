@@ -7,6 +7,7 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
@@ -32,12 +33,17 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 9777d1b (.)
+=======
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+>>>>>>> 7148d73 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateMailTemplatesTable.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +70,9 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 7148d73 (.)
     /**
      * Run the migrations.
      */
@@ -87,6 +96,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -106,6 +116,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -116,7 +128,10 @@ return new class() extends XotBaseMigration {
                 $table->text('params')->nullable();
             }
             if (!$this->hasColumn('sms_template')) {
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
                 $table->json('sms_template')->nullable();
             }
 

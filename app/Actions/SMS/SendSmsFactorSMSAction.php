@@ -8,6 +8,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -28,6 +29,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
 use Override;
 use Exception;
 use GuzzleHttp\Client;
@@ -45,20 +48,29 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
     /** @var SmsFactorData */
     private SmsFactorData $smsFactorData;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7148d73 (.)
     /** @var bool */
     protected bool $debug;
 
     /** @var string|null */
     protected null|string $defaultSender = null;
 
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
     /**
      * Create a new action instance.
      */
@@ -66,6 +78,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     {
         $this->smsFactorData = SmsFactorData::make();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +99,9 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 9777d1b (.)
         if (!$this->smsFactorData->token) {
 >>>>>>> 75179b8 (.)
+=======
+        if (!$this->smsFactorData->token) {
+>>>>>>> 7148d73 (.)
             throw new Exception('Token SMSFactor non configurato in sms.php');
         }
 
@@ -93,14 +109,19 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->debug = (bool) config('sms.debug', false);
 >>>>>>> 75179b8 (.)
+=======
+        $this->debug = (bool) config('sms.debug', false);
+>>>>>>> 7148d73 (.)
     }
 
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
@@ -108,11 +129,14 @@ final class SendSmsFactorSMSAction implements SmsActionContract
      * @throws Exception In caso di errore durante l'invio
      */
 =======
+=======
+>>>>>>> 7148d73 (.)
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -128,6 +152,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 7148d73 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();
@@ -136,18 +162,24 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = $to !== '' ? '+'.substr($to, 2) : $to;
         }
 
         if (! Str::startsWith($to, '+')) {
             $to = '+39'.$to;
 =======
+=======
+>>>>>>> 7148d73 (.)
             $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
         }
 
         if (!Str::startsWith($to, '+')) {
             $to = '+39' . $to;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         }
 
         $body = [
@@ -168,10 +200,14 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
         try {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $response = $client->post($this->smsFactorData->getBaseUrl().'/messages', ['json' => $body]);
 =======
             $response = $client->post($this->smsFactorData->getBaseUrl() . '/messages', ['json' => $body]);
 >>>>>>> 75179b8 (.)
+=======
+            $response = $client->post($this->smsFactorData->getBaseUrl() . '/messages', ['json' => $body]);
+>>>>>>> 7148d73 (.)
             $this->vars['status_code'] = $response->getStatusCode();
             $this->vars['status_txt'] = $response->getBody()->getContents();
 
@@ -179,10 +215,14 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         } catch (ClientException $clientException) {
             throw new Exception(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
 =======
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 75179b8 (.)
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 7148d73 (.)
                 $clientException->getCode(),
                 $clientException,
             );

@@ -3,27 +3,38 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\Theme;
 =======
 use Modules\Notify\Models\Theme;
 use Modules\Notify\Helpers\ConfigHelper;
 >>>>>>> 75179b8 (.)
+=======
+use Modules\Notify\Models\Theme;
+use Modules\Notify\Helpers\ConfigHelper;
+>>>>>>> 7148d73 (.)
 
 describe('Theme Management Business Logic', function () {
     it('can create theme with basic information', function () {
         $testData = ConfigHelper::getTestData();
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         $themeData = [
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform').' Professional'),
             'description' => $testData['theme_description'] ?? ('Tema professionale per '.config('app.name', 'Our Platform')),
 =======
+=======
+>>>>>>> 7148d73 (.)
         
         $themeData = [
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Professional'),
             'description' => $testData['theme_description'] ?? ('Tema professionale per ' . config('app.name', 'Our Platform')),
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
             'version' => '1.0.0',
             'is_active' => true,
         ];
@@ -330,10 +341,14 @@ describe('Theme Management Business Logic', function () {
         $theme = Theme::factory()->create();
         $metadata = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'author' => $testData['team_name'] ?? ('Team '.config('app.name', 'Our Platform')),
 =======
             'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
 >>>>>>> 75179b8 (.)
+=======
+            'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
+>>>>>>> 7148d73 (.)
             'created_date' => '2024-01-15',
             'last_modified' => '2024-12-01',
             'tags' => ['professional', 'healthcare', 'modern'],
@@ -341,10 +356,14 @@ describe('Theme Management Business Logic', function () {
             'compatibility' => ['Laravel 10', 'PHP 8.2+'],
             'license' => 'MIT',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'repository' => $testData['repository_url'] ?? ('https://github.com/'.strtolower(config('app.name', 'ourplatform')).'/themes'),
 =======
             'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
 >>>>>>> 75179b8 (.)
+=======
+            'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
+>>>>>>> 7148d73 (.)
         ];
 
         $theme->update(['metadata' => $metadata]);
@@ -440,6 +459,7 @@ describe('Theme Management Business Logic', function () {
     it('can search themes by category', function () {
         $businessTheme = Theme::factory()->create([
 <<<<<<< HEAD
+<<<<<<< HEAD
             'metadata' => ['category' => 'business'],
         ]);
         $healthcareTheme = Theme::factory()->create([
@@ -448,6 +468,8 @@ describe('Theme Management Business Logic', function () {
         $modernTheme = Theme::factory()->create([
             'metadata' => ['category' => 'modern'],
 =======
+=======
+>>>>>>> 7148d73 (.)
             'metadata' => ['category' => 'business']
         ]);
         $healthcareTheme = Theme::factory()->create([
@@ -455,7 +477,10 @@ describe('Theme Management Business Logic', function () {
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['category' => 'modern']
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         ]);
 
         $businessThemes = Theme::whereJsonContains('metadata->category', 'business')->get();
@@ -470,16 +495,22 @@ describe('Theme Management Business Logic', function () {
     it('can search themes by tags', function () {
         $professionalTheme = Theme::factory()->create([
 <<<<<<< HEAD
+<<<<<<< HEAD
             'metadata' => ['tags' => ['professional', 'business']],
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['tags' => ['modern', 'clean']],
 =======
+=======
+>>>>>>> 7148d73 (.)
             'metadata' => ['tags' => ['professional', 'business']]
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['tags' => ['modern', 'clean']]
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 7148d73 (.)
         ]);
 
         $professionalThemes = Theme::whereJsonContains('metadata->tags', 'professional')->get();

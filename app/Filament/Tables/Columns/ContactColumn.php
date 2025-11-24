@@ -20,12 +20,16 @@ use Modules\Notify\Enums\ContactTypeEnum;
  *
  * @author Laraxot Team
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @version 2.0 - REFACTOR COMPLETO
  *
 =======
  * @version 2.0 - REFACTOR COMPLETO
 >>>>>>> 75179b8 (.)
+=======
+ * @version 2.0 - REFACTOR COMPLETO
+>>>>>>> 7148d73 (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn
@@ -47,10 +51,14 @@ class ContactColumn extends ViewColumn
         ])
             ->label(__('notify::columns.contact.label'))
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->searchable()
 =======
             ->searchable(ContactTypeEnum::getSearchable())
 >>>>>>> 75179b8 (.)
+=======
+            ->searchable(ContactTypeEnum::getSearchable())
+>>>>>>> 7148d73 (.)
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }
