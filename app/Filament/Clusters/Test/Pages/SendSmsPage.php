@@ -68,9 +68,12 @@ class SendSmsPage extends XotBasePage
 
     public function smsForm(Schema $schema): Schema
     {
-        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+        return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select>
+     */
     public function getSmsFormSchema(): array
     {
         return [

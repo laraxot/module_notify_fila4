@@ -328,7 +328,7 @@ Keys da foreach sono sempre mixed.
 
 ## Conclusione
 
-Il modulo Notify è ora completamente type-safe a PHPStan Level 9.
+Il modulo Notify è ora completamente type-safe a PHPStan level 10.
 Sistema di notifiche multi-canale (email, SMS, database, Telegram, WhatsApp) con type safety garantito.
 
 **Filosofia applicata**: "Notification reliability starts with type safety."

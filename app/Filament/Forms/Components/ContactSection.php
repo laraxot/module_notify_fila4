@@ -21,14 +21,17 @@ class ContactSection extends Section
     protected function setUp(): void
     {
         parent::setUp();
-        $this->schema($this->getFormSchema());
+        $schema = $this->getFormSchema();
+        $this->schema($schema);
         $this->columns(2);
     }
 
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput>
+     */
     protected function getFormSchema(): array
     {
-        $res = ContactTypeEnum::getFormSchema();
-        return $res;
+        return ContactTypeEnum::getFormSchema();
     }
 
     /*

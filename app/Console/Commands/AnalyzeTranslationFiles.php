@@ -7,6 +7,7 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Console\Helper\Table;
+use Webmozart\Assert\Assert;
 
 class AnalyzeTranslationFiles extends Command
 {
@@ -115,6 +116,9 @@ class AnalyzeTranslationFiles extends Command
         $patterns = [];
 
         foreach ($allFiles as $file => $keys) {
+            if (!is_array($keys)) {
+                continue;
+            }
             $topLevelKeys = [];
 
             foreach (array_keys($keys) as $key) {
@@ -158,10 +162,13 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
+            Assert::string($key);
             $row = [$key];
 
             foreach (array_keys($allFiles) as $file) {
-                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+                /** @var array<string, mixed>|null $fileData */
+                $fileData = $allFiles[$file] ?? null;
+                $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
             }
 
             $table->addRow($row);
@@ -221,6 +228,9 @@ class AnalyzeTranslationFiles extends Command
         $navigationStructures = [];
 
         foreach ($allFiles as $file => $keys) {
+            if (!is_array($keys)) {
+                continue;
+            }
             $navigationKeys = [];
 
             foreach (array_keys($keys) as $key) {
