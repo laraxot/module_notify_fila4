@@ -51,6 +51,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -142,10 +143,13 @@ return [
 >>>>>>> 63c322c (.)
 =======
 >>>>>>> 2c9c66a (.)
+=======
+>>>>>>> f113074 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,11 +578,18 @@ return [
 =======
 =======
 >>>>>>> 63c322c (.)
+<<<<<<< HEAD
 >>>>>>> 3d462363 (rebase 210)
+=======
+=======
+=======
+>>>>>>> f113074 (.)
+>>>>>>> d121e45a (rebase 210)
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2749,6 +2760,7 @@ return [
 =======
 =======
 >>>>>>> 2c9c66a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fcaebc79 (rebase 210)
 =======
@@ -3296,6 +3308,11 @@ return [
 =======
 >>>>>>> 2c9c66a (.)
 >>>>>>> fcaebc79 (rebase 210)
+=======
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> f113074 (.)
+>>>>>>> d121e45a (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -3552,6 +3569,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d121e45a (rebase 210)
 =======
 
 >>>>>>> fcaebc79 (rebase 210)
@@ -4661,13 +4682,17 @@ return [
 =======
 >>>>>>> 2c9c66a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fcaebc79 (rebase 210)
 =======
+=======
+>>>>>>> d121e45a (rebase 210)
 =======
 =======
 
 >>>>>>> 0db165c (.)
 >>>>>>> f113074 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d121e45a (rebase 210)
 =======
@@ -5252,6 +5277,8 @@ return [
 =======
 >>>>>>> 2c9c66a (.)
 >>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> d121e45a (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -5508,6 +5535,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d121e45a (rebase 210)
 =======
 
 >>>>>>> fcaebc79 (rebase 210)
@@ -6617,13 +6648,17 @@ return [
 =======
 >>>>>>> 2c9c66a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fcaebc79 (rebase 210)
 =======
+=======
+>>>>>>> d121e45a (rebase 210)
 =======
 =======
 
 >>>>>>> 0db165c (.)
 >>>>>>> f113074 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d121e45a (rebase 210)
 =======
@@ -7208,6 +7243,8 @@ return [
 =======
 >>>>>>> 2c9c66a (.)
 >>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> d121e45a (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -7464,6 +7501,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d121e45a (rebase 210)
 =======
 
 >>>>>>> fcaebc79 (rebase 210)
@@ -8573,13 +8614,17 @@ return [
 =======
 >>>>>>> 2c9c66a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fcaebc79 (rebase 210)
 =======
+=======
+>>>>>>> d121e45a (rebase 210)
 =======
 =======
 
 >>>>>>> 0db165c (.)
 >>>>>>> f113074 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d121e45a (rebase 210)
 =======
@@ -9164,6 +9209,8 @@ return [
 =======
 >>>>>>> 2c9c66a (.)
 >>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> d121e45a (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
