@@ -174,6 +174,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -324,6 +325,8 @@ class MailtrapEngine
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     public ?string $from = null;
 =======
     public null|string $from = null;
@@ -514,12 +517,19 @@ class MailtrapEngine
     public null|string $from = null;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+    public null|string $from = null;
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
 
     public string $to;
 
     public string $driver;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -792,6 +802,8 @@ class MailtrapEngine
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 888799d0 (.)
     public ?string $body = null;
 
     private static ?self $instance = null;
@@ -891,6 +903,7 @@ class MailtrapEngine
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e11621f (.)
 =======
@@ -956,6 +969,10 @@ class MailtrapEngine
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -963,18 +980,6 @@ class MailtrapEngine
     public static function getInstance(): self
     {
         if (!(self::$instance instanceof self)) {
-<<<<<<< HEAD
-=======
-    public ?string $body = null;
-
-    private static ?self $instance = null;
-
-    public static function getInstance(): self
-    {
-        if (! self::$instance instanceof self) {
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             self::$instance = new self();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1087,6 +1092,10 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+>>>>>>> 888799d0 (.)
 =======
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 4d2eb53e (.)
@@ -1289,6 +1298,7 @@ class MailtrapEngine
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
@@ -1424,6 +1434,11 @@ class MailtrapEngine
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
@@ -1506,6 +1521,7 @@ class MailtrapEngine
 
             $msg->to($to)->subject('Test Email');
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1780,6 +1796,9 @@ class MailtrapEngine
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

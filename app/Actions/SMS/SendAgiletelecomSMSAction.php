@@ -56,6 +56,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -154,6 +155,8 @@ use Illuminate\Support\Facades\Http;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 888799d0 (.)
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
@@ -322,6 +325,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 =======
 =======
 use Spatie\QueueableAction\QueueableAction;
@@ -402,11 +406,14 @@ use Override;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,6 +591,8 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 011072e4 (.)
 =======
+=======
+>>>>>>> 888799d0 (.)
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -652,13 +661,19 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
 class SendAgiletelecomSMSAction implements SmsActionContract
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,6 +895,8 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     #[Override]
     public function execute(SmsData $data): array
     {
@@ -889,6 +906,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1210,4 +1228,6 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 }

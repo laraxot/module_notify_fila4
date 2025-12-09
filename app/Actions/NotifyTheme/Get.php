@@ -77,6 +77,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -176,6 +177,8 @@ class Get
 =======
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
@@ -190,11 +193,17 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         if (!isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (!isset($view_params['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -561,6 +570,8 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -732,7 +743,12 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -790,6 +806,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1038,10 +1055,14 @@ class Get
             ['view_params' => []],
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+            ['view_params' => []],
+>>>>>>> 888799d0 (.)
         );
 
         $module_name_low = Str::lower($xotData->main_module);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1183,6 +1204,8 @@ class Get
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 >>>>>>> f1c9518b (.)
 
@@ -1329,6 +1352,7 @@ class Get
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e11621f (.)
 =======
@@ -1366,10 +1390,15 @@ class Get
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1453,6 +1482,8 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -1705,7 +1736,12 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -1767,6 +1803,7 @@ class Get
 >>>>>>> e6c7fb3 (.)
 >>>>>>> 54220b28 (rebase 210)
         if ($theme->body_html === null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2038,6 +2075,8 @@ class Get
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
 =======
@@ -2257,7 +2296,14 @@ class Get
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
                 $html = '##body_html##';
             }
 
@@ -2349,6 +2395,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2391,6 +2438,8 @@ class Get
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
             $view_params['logo'] =
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2503,6 +2552,7 @@ class Get
             $view_params['logo'] =
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
 
+<<<<<<< HEAD
 =======
             $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
 >>>>>>> a12f125f4a (.)
@@ -2752,6 +2802,8 @@ class Get
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
 
@@ -2810,7 +2862,10 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 888799d0 (.)
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
 >>>>>>> 4d2eb53e (.)
@@ -3069,12 +3124,16 @@ class Get
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+>>>>>>> 888799d0 (.)
 =======
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
@@ -3203,6 +3262,8 @@ class Get
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
             }
         }
 
@@ -3212,6 +3273,7 @@ class Get
             $theme->update(['view_params' => $view_params]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3435,6 +3497,8 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         return NotifyThemeData::from([
             'from_email' => $theme->from_email,
 >>>>>>> 75179b85 (.)
@@ -3451,6 +3515,7 @@ class Get
             'body_html' => $body_html,
             'view_params' => $view_params,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3766,5 +3831,7 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     }
 }

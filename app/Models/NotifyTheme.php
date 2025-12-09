@@ -56,6 +56,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -206,6 +207,8 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Eloquent;
 >>>>>>> f1c9518b (.)
 =======
@@ -270,6 +273,7 @@ use Override;
 =======
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e11621f (.)
 =======
@@ -288,8 +292,10 @@ use Override;
 =======
 >>>>>>> b19cd40 (.)
 =======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> e11621f (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -911,6 +917,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1055,6 +1062,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     public function getLogoAttribute(?array $value): array
 =======
     public function getLogoAttribute(null|array $value): array
@@ -1276,7 +1285,13 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -1295,6 +1310,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1608,6 +1624,9 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+    #[Override]
+>>>>>>> 888799d0 (.)
     protected function casts(): array
     {
         return [
@@ -1616,6 +1635,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2010,21 +2030,11 @@ class NotifyTheme extends BaseModel
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
 =======
-
+>>>>>>> 888799d0 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
-
->>>>>>> b19cd40 (.)
-=======
-            'updated_by' => 'string',
-            'created_by' => 'string',
-            'deleted_by' => 'string',
->>>>>>> 4e2ebfb (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> 75179b85 (.)
             'view_params' => 'array',

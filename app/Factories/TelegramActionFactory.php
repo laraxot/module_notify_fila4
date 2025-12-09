@@ -89,6 +89,7 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -337,6 +338,9 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+ *
+>>>>>>> 888799d0 (.)
  * Questa factory centralizza la logica di selezione del driver Telegram
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -508,10 +512,6 @@ final class TelegramActionFactory
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     public function create(null|string $driver = null): TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +591,7 @@ final class TelegramActionFactory
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -852,6 +853,8 @@ final class TelegramActionFactory
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1063,15 +1066,7 @@ final class TelegramActionFactory
 >>>>>>> f1c9518b (.)
             throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         return app($className);
 <<<<<<< HEAD
 <<<<<<< HEAD

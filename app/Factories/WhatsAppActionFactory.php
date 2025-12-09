@@ -391,14 +391,7 @@ use function Safe\preg_replace;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,9 +415,8 @@ use function Safe\preg_replace;
 
 /**
  * Factory per la creazione di azioni WhatsApp.
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -624,6 +616,8 @@ use function Safe\preg_replace;
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -827,10 +821,6 @@ final class WhatsAppActionFactory
 =======
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1182,6 +1172,7 @@ final class WhatsAppActionFactory
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1638,6 +1629,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1848,15 +1841,7 @@ final class WhatsAppActionFactory
 >>>>>>> f1c9518b (.)
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         return app($className);
 <<<<<<< HEAD
 <<<<<<< HEAD

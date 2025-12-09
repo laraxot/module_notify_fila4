@@ -224,6 +224,10 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 888799d0 (.)
 =======
         $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
 >>>>>>> 4d2eb53e (.)
@@ -379,6 +383,7 @@ class ContactTypeEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
@@ -459,6 +464,11 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

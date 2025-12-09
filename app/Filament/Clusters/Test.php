@@ -80,6 +80,7 @@ class Test extends Cluster
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -342,6 +343,7 @@ class Test extends Cluster
 =======
 <<<<<<< HEAD
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
@@ -349,9 +351,15 @@ class Test extends Cluster
 >>>>>>> 3f39ac8b (.)
 =======
 =======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> e11621f (.)
 
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     // protected static ?string $navigationParentItem = 'Notifications';
     // protected static ?string $navigationGroup = 'Settings';
 }
