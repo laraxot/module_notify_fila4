@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
@@ -25,8 +28,11 @@ declare(strict_types=1);
 
     </x-filament-schemas::form>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 207ac35e (.)
 =======
 <x-filament::page>
 
@@ -39,5 +45,10 @@ declare(strict_types=1);
 
     </x-filament-panels::form>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 </x-filament::page>

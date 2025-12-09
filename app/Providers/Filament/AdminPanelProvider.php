@@ -13,17 +13,27 @@ namespace Modules\Notify\Providers\Filament;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 207ac35e (.)
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 =======
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
@@ -40,6 +50,9 @@ class AdminPanelProvider extends XotBasePanelProvider
     protected string $module = 'Notify';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     #[Override]
     public function panel(Panel $panel): Panel
     {
@@ -76,6 +89,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 75179b85 (.)
     }
 }
+<<<<<<< HEAD
 =======
     public function panel(Panel $panel): Panel
     { 
@@ -99,3 +113,5 @@ class AdminPanelProvider extends XotBasePanelProvider
 }
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)

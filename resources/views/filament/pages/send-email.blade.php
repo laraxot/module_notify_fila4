@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -19,6 +25,7 @@ declare(strict_types=1);
         
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <x-filament-panels::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -30,6 +37,10 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         <x-filament-schemas::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -39,8 +50,11 @@ declare(strict_types=1);
     
         </x-filament-schemas::form>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 207ac35e (.)
 =======
         <x-filament-panels::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
@@ -51,6 +65,11 @@ declare(strict_types=1);
     
         </x-filament-panels::form>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     </x-filament::section>
 </x-filament-panels::page>

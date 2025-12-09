@@ -140,7 +140,11 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 - **Leggibilità migliorata**: Codice più esplicito e chiaro
 
 ### **Benefici**
+<<<<<<< HEAD
 - ✅ **PHPStan level 10**: Compatibilità completa
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
 - ✅ **Leggibilità**: Codice più esplicito e chiaro
 - ✅ **Type Safety**: Mantenuta con type hints espliciti
 - ✅ **Debugging**: Più facile identificare problemi

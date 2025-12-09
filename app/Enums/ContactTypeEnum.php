@@ -5,11 +5,15 @@ declare(strict_types=1);
 namespace Modules\Notify\Enums;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Arr;
 use Filament\Support\Contracts\HasIcon;
@@ -17,15 +21,21 @@ use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 use Modules\Xot\Filament\Traits\TransTrait;
 
 /**
  * Enum per i driver SMS supportati
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+=======
+ *
+>>>>>>> 4e2ebfb (.)
  * Questo enum centralizza la gestione dei driver SMS disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -33,9 +43,13 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 {
     use TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
     case PHONE = 'phone';
     case MOBILE = 'mobile';
     case EMAIL = 'email';
@@ -43,40 +57,57 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
     case WHATSAPP = 'whatsapp';
     case FAX = 'fax';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 
     public function getLabel(): string
     {
         return $this->transClass(self::class, $this->value . '.label');
+<<<<<<< HEAD
 =======
     
     public function getLabel(): string
     {
         return $this->transClass(self::class,$this->value.'.label');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 
     public function getColor(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $this->transClass(self::class, $this->value . '.color');
 =======
         return $this->transClass(self::class,$this->value.'.color');
 
 >>>>>>> b19cd40 (.)
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 4e2ebfb (.)
     }
 
     public function getIcon(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value . '.icon');
 =======
         return $this->transClass(self::class,$this->value.'.icon');
 >>>>>>> b19cd40 (.)
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 4e2ebfb (.)
     }
 
     public function getDescription(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         return $this->transClass(self::class, $this->value . '.description');
     }
 
@@ -115,6 +146,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
         return $res;
 >>>>>>> 75179b85 (.)
     }
+<<<<<<< HEAD
 =======
         return $this->transClass(self::class,$this->value.'.description');
     }
@@ -138,4 +170,6 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
     
    
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 }

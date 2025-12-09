@@ -24,10 +24,16 @@ use RectorLaravel\Set\LaravelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
@@ -71,6 +77,7 @@ return static function (RectorConfig $rectorConfig): void {
         '*/docs',
         '*/vendor',
     ]);
+<<<<<<< HEAD
 =======
     $rectorConfig->paths(
         [
@@ -86,6 +93,8 @@ return static function (RectorConfig $rectorConfig): void {
         ]
     );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
@@ -93,6 +102,9 @@ return static function (RectorConfig $rectorConfig): void {
 
     // define sets of rules
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
@@ -106,6 +118,7 @@ return static function (RectorConfig $rectorConfig): void {
         // SetList::EARLY_RETURN,
         // SetList::INSTANCEOF,
     ]);
+<<<<<<< HEAD
 =======
     $rectorConfig->sets(
         [
@@ -124,6 +137,8 @@ return static function (RectorConfig $rectorConfig): void {
         ]
     );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
     $rectorConfig->importNames();
 >>>>>>> 75179b85 (.)
