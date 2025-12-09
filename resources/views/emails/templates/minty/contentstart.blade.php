@@ -176,6 +176,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -552,6 +553,8 @@ class="block">
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 31f5d28f (.)
 <?php
 
 declare(strict_types=1);
@@ -871,6 +874,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 3f537838 (.)
 <div class="block">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1458,6 +1462,11 @@ class="block">
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 1fd232c7 (.)
+=======
+=======
+class="block">
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 	<!-- Full + text -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fullimage">
 		<tbody>
@@ -1653,6 +1662,7 @@ class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2538,3 +2548,9 @@ class="block">
 =======
 								<tbody>
 >>>>>>> 3f537838 (.)
+=======
+								<tbody>
+=======
+								<tbody>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)

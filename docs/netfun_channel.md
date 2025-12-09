@@ -997,7 +997,9 @@ SMS_FROM_NAME=SaluteOra
 >>>>>>> c8b1c8bf (.)
 =======
 SMS_FROM_NAME=<nome progetto>
+<<<<<<< HEAD
 SMS_FROM_NAME=SaluteOra
+<<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
 =======
 SMS_FROM_NAME=<nome progetto>
@@ -1007,6 +1009,11 @@ SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=SaluteOra
 >>>>>>> f963d2c0 (.)
+=======
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 

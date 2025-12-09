@@ -358,6 +358,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -428,11 +429,14 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
 - [Translation Standards](../../Lang/docs/translation-standards.md)
 - [Filament Integration](../../Xot/docs/filament-translations.md)
 =======
 - [Translation Standards](../../Lang/project_docs/translation-standards.md)
 - [Filament Integration](../../Xot/project_docs/filament-translations.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,6 +810,9 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - [Translation Standards](../../Lang/docs/translation-standards.md)
 - [Filament Integration](../../Xot/docs/filament-translations.md)
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 
 ## Note per Sviluppatori Futuri
 
@@ -820,6 +827,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - **Modulo**: Notify
 - **File**: `app/Enums/SmsDriverEnum.php`
 - **Tipo Conflitto**: Implementazione interfacce e trait
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1105,3 +1113,8 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+- **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)

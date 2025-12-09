@@ -291,6 +291,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -361,11 +362,14 @@ public function sendEmail(): void
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 =======
 - [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -739,6 +743,9 @@ public function sendEmail(): void
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 
 ## 📝 Note
 
@@ -755,6 +762,7 @@ public function sendEmail(): void
 ### Zen
 - Semplificare dove possibile
 - Mantenere l'equilibrio tra funzionalità e complessità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1040,3 +1048,8 @@ public function sendEmail(): void
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+- Seguire il principio "meno è più" 
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
