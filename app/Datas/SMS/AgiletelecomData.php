@@ -130,12 +130,15 @@ use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email as MimeEmail;
 use Webmozart\Assert\Assert;
 =======
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> d45a0226 (.)
 
 class AgiletelecomData extends Data
 {
@@ -181,8 +184,12 @@ class AgiletelecomData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof AgiletelecomData)) {
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
@@ -880,8 +887,15 @@ class AgiletelecomData extends Data
         switch ($this->auth_type) {
             case 'api_key':
                 return [
+<<<<<<< HEAD
                     'Authorization' => 'Api-Key '.$this->api_key,
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+                    'Authorization' => 'Api-Key ' . $this->api_key,
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                     'Content-Type' => 'application/json',
                 ];
 
@@ -1262,8 +1276,15 @@ class AgiletelecomData extends Data
             case 'basic':
             default:
                 return [
+<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

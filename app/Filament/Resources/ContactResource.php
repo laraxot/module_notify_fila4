@@ -42,6 +42,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -58,16 +59,30 @@ namespace Modules\Notify\Filament\Resources;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
+use Filament\Forms;
+use Filament\Forms\Components\TextInput;
+use Filament\Resources\Pages\PageRegistration;
+use Modules\Notify\Filament\Resources\ContactResource\Pages;
+>>>>>>> f5f1cb1 (.)
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ContactResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static ?string $model = Contact::class;
 =======
 =======
@@ -382,6 +397,7 @@ class ContactResource extends XotBaseResource
 =======
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -455,6 +471,13 @@ class ContactResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+    protected static null|string $model = Contact::class;
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     /**
      * Get the form schema for the resource.

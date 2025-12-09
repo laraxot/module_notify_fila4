@@ -273,6 +273,7 @@ namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,12 +307,15 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 2effe245 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
@@ -328,10 +332,15 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+=======
+=======
+use Override;
+>>>>>>> d45a0226 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -343,6 +352,9 @@ namespace Modules\Notify\Models;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 =======
@@ -396,6 +408,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,6 +468,11 @@ use Modules\Xot\Models\BaseModel;
 =======
  *
 >>>>>>> 985c7bda (.)
+=======
+ *
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */

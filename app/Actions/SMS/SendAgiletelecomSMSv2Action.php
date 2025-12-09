@@ -34,7 +34,10 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d45a0226 (.)
 use GuzzleHttp\Client;
 =======
 >>>>>>> 985c7bda (.)
@@ -158,7 +161,12 @@ use GuzzleHttp\Client;
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
@@ -267,7 +275,11 @@ use Override;
 use Override;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
 =======
 =======
 
@@ -417,7 +429,19 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 use Override;
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -806,6 +830,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     //'hexBody' => false,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -969,6 +994,12 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
                     // 'hexBody' => false,
 >>>>>>> 985c7bda (.)
+=======
+                    // 'hexBody' => false,
+=======
+                    //'hexBody' => false,
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                 ],
             ],
         ];
@@ -1038,6 +1069,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 =======
 
+<<<<<<< HEAD
         // "{"globalId":"5a56f05b-a48c-41db-8fc2-063b53368e89","processedMessages":1,"processedSmsParts":1,"credit":9530.73}
 
 <<<<<<< HEAD
@@ -1244,12 +1276,18 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 
         //dddx($response->body());
 =======
+=======
+>>>>>>> d45a0226 (.)
 <<<<<<< HEAD
         // dddx($response->body());
 =======
         //dddx($response->body());
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
         return [];
     }

@@ -66,6 +66,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -302,6 +303,11 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 985c7bda (.)
+=======
+=======
+
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -338,6 +344,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -557,6 +564,13 @@ return new class extends Migration {
 return new class extends Migration
 {
 >>>>>>> 985c7bda (.)
+=======
+return new class extends Migration
+{
+=======
+return new class extends Migration {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     /**
      * Run the migrations.
      */

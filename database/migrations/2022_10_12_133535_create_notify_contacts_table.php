@@ -38,6 +38,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -201,10 +202,13 @@ return new class() extends XotBaseMigration {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
@@ -288,6 +292,11 @@ return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
 >>>>>>> 985c7bda (.)
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     /**
      * Run the migrations.

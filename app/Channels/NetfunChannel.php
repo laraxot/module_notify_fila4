@@ -616,7 +616,12 @@ class NetfunChannel
     /**
      * Invia la notifica tramite Netfun SMS
      *
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+<<<<<<< HEAD
+     * @param  mixed  $notifiable
+>>>>>>> d45a0226 (.)
      * @param  mixed  $notifiable
 <<<<<<< HEAD
 <<<<<<< HEAD

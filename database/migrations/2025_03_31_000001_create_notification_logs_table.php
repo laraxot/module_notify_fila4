@@ -38,6 +38,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -257,6 +258,13 @@ return new class extends Migration {
 return new class extends Migration
 {
 >>>>>>> 985c7bda (.)
+=======
+return new class extends Migration
+{
+=======
+return new class extends Migration {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     /**
      * Esegue la migrazione.
      */

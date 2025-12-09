@@ -36,6 +36,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -84,6 +85,8 @@ use Override;
 =======
 >>>>>>> 985c7bda (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -100,6 +103,7 @@ use Override;
 use Override;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,10 +182,17 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Eloquent;
 >>>>>>> f1c9518b (.)
 =======
+=======
+=======
+=======
+use Override;
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -190,6 +201,9 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 use Eloquent;
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -330,9 +344,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 <<<<<<< HEAD
  */
 class NotifyTheme extends BaseModel implements HasMedia
@@ -342,7 +359,10 @@ class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> b94a5f6 (.)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -412,6 +432,10 @@ class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
  * @mixin IdeHelperNotifyTheme
  * @mixin Eloquent
  */
@@ -517,6 +541,7 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -725,7 +750,10 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
     public function getLogoAttribute(?array $value): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
@@ -765,7 +793,15 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),

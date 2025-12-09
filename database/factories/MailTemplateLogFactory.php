@@ -173,9 +173,16 @@ namespace Modules\Notify\Database\Factories;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+=======
+use Modules\Notify\Models\MailTemplateLog;
+>>>>>>> f5f1cb1 (.)
+use Illuminate\Database\Eloquent\Factories\Factory;
+>>>>>>> d45a0226 (.)
 use Modules\Notify\Models\MailTemplateLog;
 =======
 <<<<<<< HEAD

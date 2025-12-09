@@ -42,6 +42,7 @@ namespace Modules\Notify\Actions\WhatsApp;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 75179b85 (.)
@@ -268,6 +269,11 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -469,7 +475,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     protected bool $debug;
 
     protected int $timeout;
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
 
 >>>>>>> f1c9518b (.)
     private string $authToken;
@@ -513,6 +523,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
 >>>>>>> 2effe245 (.)
     protected ?string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -744,6 +755,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+    protected null|string $defaultSender = null;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     /**
      * Create a new action instance.
@@ -754,6 +770,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($accountSid)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1051,7 +1068,12 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
         if (! is_string($accountSid)) {
+=======
+        if (!is_string($accountSid)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [TWILIO_ACCOUNT_SID] variable to your .env and config [services.twilio.account_sid]',
             );
@@ -1063,6 +1085,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($authToken)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1360,7 +1383,12 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
         if (! is_string($authToken)) {
+=======
+        if (!is_string($authToken)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [TWILIO_AUTH_TOKEN] variable to your .env and config [services.twilio.auth_token]',
             );
@@ -1913,6 +1941,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);
         $to = 'whatsapp:'.$whatsAppData->to;
@@ -2090,8 +2119,14 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);
         $to = 'whatsapp:'.$whatsAppData->to;
+=======
+        $from = 'whatsapp:' . ($whatsAppData->from ?? $this->defaultSender);
+        $to = 'whatsapp:' . $whatsAppData->to;
+>>>>>>> f5f1cb1 (.)
 
 >>>>>>> 985c7bda (.)
         // Log di debug se abilitato

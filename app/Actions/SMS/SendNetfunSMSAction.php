@@ -36,6 +36,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -177,6 +178,11 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -430,6 +436,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var string|null */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -661,6 +668,13 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
     protected ?string $defaultSender = null;
 >>>>>>> 985c7bda (.)
+=======
+    protected ?string $defaultSender = null;
+=======
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     /**
      * Create a new action instance.

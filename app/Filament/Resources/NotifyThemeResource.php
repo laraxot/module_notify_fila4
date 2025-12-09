@@ -36,6 +36,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -227,6 +228,11 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -352,6 +358,7 @@ class NotifyThemeResource extends XotBaseResource
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -405,7 +412,12 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
     protected static ?string $model = NotifyTheme::class;
+=======
+    protected static null|string $model = NotifyTheme::class;
+>>>>>>> f5f1cb1 (.)
 
 =======
     protected static null|string $model = NotifyTheme::class;
@@ -615,8 +627,11 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
             'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
@@ -624,6 +639,7 @@ class NotifyThemeResource extends XotBaseResource
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -714,6 +730,9 @@ class NotifyThemeResource extends XotBaseResource
             'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),

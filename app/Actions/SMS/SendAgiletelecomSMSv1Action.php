@@ -36,6 +36,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -128,6 +129,8 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -326,6 +329,7 @@ use Modules\Notify\Datas\SmsData;
 use Override;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 
@@ -355,6 +359,15 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 use Override;
 >>>>>>> 92ecc28 (.)
+=======
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.

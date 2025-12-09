@@ -36,6 +36,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -311,12 +312,24 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> b94a5f6 (.)
 use Illuminate\Database\Eloquent\Builder;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> f5f1cb1 (.)
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Xot\Contracts\ProfileContract;
@@ -437,6 +450,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -454,7 +468,10 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,7 +499,14 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -565,6 +589,7 @@ use Illuminate\Support\Carbon;
  *
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -654,7 +679,11 @@ use Illuminate\Support\Carbon;
 >>>>>>> 2effe245 (.)
  * @mixin IdeHelperContact
 =======
+=======
+>>>>>>> d45a0226 (.)
  *
+=======
+>>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperContact
 <<<<<<< HEAD
  *

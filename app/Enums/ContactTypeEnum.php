@@ -1099,8 +1099,15 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 
     public function getLabel(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value.'.label');
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value . '.label');
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     }
 
     public function getColor(): string
@@ -1137,6 +1144,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1356,6 +1364,12 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value.'.color');
 >>>>>>> 985c7bda (.)
+=======
+        return $this->transClass(self::class, $this->value.'.color');
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     }
 
     public function getIcon(): string
@@ -1392,6 +1406,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1600,6 +1615,12 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value.'.icon');
 >>>>>>> 985c7bda (.)
+=======
+        return $this->transClass(self::class, $this->value.'.icon');
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     }
 
     public function getDescription(): string
@@ -1636,6 +1657,7 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1745,6 +1767,12 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value.'.description');
 >>>>>>> 985c7bda (.)
+=======
+        return $this->transClass(self::class, $this->value.'.description');
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     }
 
 <<<<<<< HEAD

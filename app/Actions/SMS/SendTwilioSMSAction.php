@@ -36,6 +36,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -165,6 +166,11 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -264,6 +270,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 985c7bda (.)
 use Modules\Notify\Datas\SMS\TwilioData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -478,8 +485,15 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> b94a5f6 (.)
 use Override;
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -706,7 +720,9 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
     protected bool $debug;
 
+<<<<<<< HEAD
     protected ?string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     /** @var string|null */
@@ -740,6 +756,12 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -805,6 +827,7 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
 >>>>>>> 98d837b9 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         
@@ -938,7 +961,12 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
         if (! $this->twilioData->account_sid) {
+=======
+        if (!$this->twilioData->account_sid) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception('Account SID Twilio non configurato in sms.php');
         }
 

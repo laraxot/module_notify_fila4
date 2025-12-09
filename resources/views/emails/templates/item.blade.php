@@ -255,6 +255,7 @@ declare(strict_types=1);
 {!! $html !!}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.contentEnd')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +407,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 <<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.content-end')
 =======
@@ -654,4 +657,13 @@ declare(strict_types=1);
 =======
 @include('notify::emails.templates.'.$theme.'.content-end')
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+@include('notify::emails.templates.'.$theme.'.content-end')
+=======
+@include('notify::emails.templates.'.$theme.'.contentEnd')
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)

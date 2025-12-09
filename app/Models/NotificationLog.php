@@ -42,6 +42,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -62,6 +63,8 @@ namespace Modules\Notify\Models;
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 =======
 <<<<<<< HEAD
 use Carbon\Carbon;
@@ -119,6 +122,12 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
 use Carbon\Carbon;
 >>>>>>> 92ecc28 (.)
+=======
+use Carbon\Carbon;
+=======
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 2effe245 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -1623,6 +1632,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1700,9 +1710,12 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 98d837b9 (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
     }
 
     /**
+<<<<<<< HEAD
      * Scope to filter by notifiable entity.
      *
      * @param Builder<static> $query
@@ -1808,6 +1821,28 @@ final class NotificationLog extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+     * Marca il log come aperto.
+     */
+    public function markAsOpened(): void
+    {
+        $this->update([
+            'status' => NotificationLogStatusEnum::OPENED,
+            'opened_at' => now(),
+        ]);
+    }
+
+    /**
+     * Marca il log come cliccato.
+     */
+    public function markAsClicked(): void
+    {
+        $this->update([
+            'status' => NotificationLogStatusEnum::CLICKED,
+            'clicked_at' => now(),
+        ]);
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     }
 
     /**

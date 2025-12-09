@@ -13,6 +13,7 @@ class Test extends Cluster
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,7 +88,12 @@ class Test extends Cluster
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-squares-2x2';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
+>>>>>>> f5f1cb1 (.)
 
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)

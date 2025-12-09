@@ -67,6 +67,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -290,11 +291,19 @@ use Filament\Forms\Components\TextInput;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+use Filament\Forms\Components\TextInput;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+<<<<<<< HEAD
 use Filament\Forms\Components\Textarea;
 >>>>>>> f1c9518b (.)
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Forms\Components\Select;
@@ -531,20 +540,30 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 =======
+=======
+=======
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+>>>>>>> d45a0226 (.)
 use Filament\Forms;
 use Filament\Schemas\Schema;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,10 +735,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 >>>>>>> 985c7bda (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 =======
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> b94a5f6 (.)
 use Override;
 >>>>>>> 6ba141fc (.)
 >>>>>>> 2effe245 (.)
@@ -854,6 +877,7 @@ class NotificationTemplateResource extends XotBaseResource
 =======
     protected static ?string $model = NotificationTemplate::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -946,6 +970,15 @@ use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+=======
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
 class NotificationTemplateResource extends XotBaseResource
 {

@@ -51,6 +51,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -259,6 +260,12 @@ class SmtpData extends Data
 =======
     public ?string $url = null;
 >>>>>>> 985c7bda (.)
+=======
+    public ?string $url = null;
+=======
+    public null|string $url = null;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     public string $host = '127.0.0.1';
 
@@ -296,6 +303,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -493,6 +501,8 @@ class SmtpData extends Data
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
     public ?string $encryption = null; // 'tls';
 
     public ?bool $tls = null;
@@ -504,6 +514,7 @@ class SmtpData extends Data
     public ?string $timeout = null;
 
     public ?string $local_domain = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +614,9 @@ class SmtpData extends Data
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
     public null|string $encryption = null; // 'tls';
 
     public null|bool $tls = null;
@@ -614,6 +628,7 @@ class SmtpData extends Data
     public null|string $timeout = null;
 
     public null|string $local_domain = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,6 +715,9 @@ class SmtpData extends Data
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     private static array $instance = [];
 
@@ -737,6 +755,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -924,12 +943,15 @@ class SmtpData extends Data
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
         if (! isset(self::$instance[$name]) || ! (self::$instance[$name] instanceof self)) {
             // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.'.$name);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -1078,10 +1100,13 @@ class SmtpData extends Data
 >>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
         if (!isset(self::$instance[$name]) || !(self::$instance[$name] instanceof self)) {
             // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.' . $name);
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -1098,6 +1123,9 @@ class SmtpData extends Data
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             self::$instance[$name] = self::from($data_name);
         }
 
@@ -1157,6 +1185,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1364,6 +1393,12 @@ class SmtpData extends Data
 =======
             throw new Exception('Errore durante la connessione SMTP: '.$e->getMessage());
 >>>>>>> 985c7bda (.)
+=======
+            throw new Exception('Errore durante la connessione SMTP: '.$e->getMessage());
+=======
+            throw new Exception('Errore durante la connessione SMTP: ' . $e->getMessage());
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
         }
         $mailer = new Mailer($transport);
 
@@ -1399,6 +1434,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1606,6 +1642,12 @@ class SmtpData extends Data
 =======
             throw new Exception("Errore durante l'invio dell'email: ".$e->getMessage());
 >>>>>>> 985c7bda (.)
+=======
+            throw new Exception("Errore durante l'invio dell'email: ".$e->getMessage());
+=======
+            throw new Exception("Errore durante l'invio dell'email: " . $e->getMessage());
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
         }
     }
 }

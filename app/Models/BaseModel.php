@@ -9,6 +9,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -31,6 +32,11 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Modules\Xot\Actions\Factory\GetFactoryAction;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

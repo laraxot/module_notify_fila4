@@ -225,7 +225,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 return [
     'welcome' => [
+<<<<<<< HEAD
         'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : ''),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -367,6 +369,11 @@ return [
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+        'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : ''),
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
         'greeting' => 'Hello :name,',
         'description' => 'Thank you for joining us. We\'re excited to have you on board!',
         'action' => 'Get Started',

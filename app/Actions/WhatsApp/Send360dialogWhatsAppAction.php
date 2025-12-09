@@ -23,6 +23,7 @@ namespace Modules\Notify\Actions\WhatsApp;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -120,10 +121,16 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +148,11 @@ use Illuminate\Support\Str;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
@@ -444,6 +456,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($apiKey)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -741,7 +754,12 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
         if (! is_string($apiKey)) {
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
             );
@@ -2561,10 +2579,13 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 
 <<<<<<< HEAD
             /** @var array<string, mixed>|null $messages */
@@ -2579,6 +2600,7 @@ final class Send360dialogWhatsAppAction
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $messageId,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2668,9 +2690,12 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> a12f125f4a (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
             
@@ -2683,6 +2708,10 @@ final class Send360dialogWhatsAppAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -3201,11 +3230,14 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 985c7bda (.)
 
+<<<<<<< HEAD
             // Extract error message safely
             /** @phpstan-ignore-next-line - WhatsApp API response structure */
             $errorMessage = $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto';
 >>>>>>> 2effe245 (.)
 
+=======
+>>>>>>> f5f1cb1 (.)
             return [
                 'success' => false,
                 'error' => $errorMessage,
