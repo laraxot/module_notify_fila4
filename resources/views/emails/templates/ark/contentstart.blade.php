@@ -245,6 +245,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -853,6 +854,8 @@
 >>>>>>> 1442e291 (rebase 210)
 =======
 >>>>>>> f16a5ca4 (rebase 210)
+=======
+>>>>>>> f5a88785 (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -1351,6 +1354,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 116df547 (.)
 <tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1940,6 +1944,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> f16a5ca4 (rebase 210)
+=======
+>>>>>>> f5a88785 (rebase 210)
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -1947,6 +1953,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3410,3 +3417,6 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 0db165c (.)
 >>>>>>> f16a5ca4 (rebase 210)
+=======
+					<div class="article-content" align="left">
+>>>>>>> f5a88785 (rebase 210)
