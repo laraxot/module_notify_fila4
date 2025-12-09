@@ -34,6 +34,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -112,8 +113,12 @@ use Filament\Infolists\Components\TextEntry;
 >>>>>>> 9777d1b (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 <<<<<<< HEAD
@@ -146,6 +151,7 @@ class ViewNotification extends XotBaseViewRecord
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +252,8 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -275,6 +283,27 @@ class ViewNotification extends XotBaseViewRecord
                 TextEntry::make('created_at')->dateTime(),
                 TextEntry::make('updated_at')->dateTime(),
             ]),
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+     */
+    protected function getInfolistSchema(): array
+    {
+        return [
+            Section::make()
+                ->schema([
+                    TextEntry::make('id'),
+                    TextEntry::make('type'),
+                    TextEntry::make('notifiable_type'),
+                    TextEntry::make('notifiable_id'),
+                    TextEntry::make('data'),
+                    TextEntry::make('read_at')
+                        ->dateTime(),
+                    TextEntry::make('created_at')
+                        ->dateTime(),
+                    TextEntry::make('updated_at')
+                        ->dateTime(),
+                ])
+>>>>>>> b19cd40 (.)
         ];
     }
 }

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 82ae73be (.)
@@ -33,10 +34,14 @@
 =======
 
 >>>>>>> 2fc60436 (.)
+=======
+
+>>>>>>> 82ae73be (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,11 +82,14 @@ use Illuminate\Http\RedirectResponse;
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Modules\Notify\Models\NotificationLog;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -93,10 +101,13 @@ use function Safe\base64_decode;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
 class NotificationTrackingController extends Controller
 {
     /**
      * Traccia l'apertura di una notifica.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -105,10 +116,13 @@ class NotificationTrackingController extends Controller
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
      *
      * @param Request $request
      * @param string $id
      * @return Response
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -116,6 +130,8 @@ class NotificationTrackingController extends Controller
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
      */
     public function trackOpen(Request $request, string $id): Response
     {
@@ -137,6 +153,7 @@ class NotificationTrackingController extends Controller
      * Traccia il click su un link in una notifica.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param Request $request
      * @param string $id
@@ -237,6 +254,8 @@ class NotificationTrackingController extends Controller
         $url = $request->get('url', '');
 >>>>>>> 3f537838 (.)
 =======
+=======
+>>>>>>> 82ae73be (.)
      *
      * @param Request $request
      * @param string $id
@@ -246,12 +265,16 @@ class NotificationTrackingController extends Controller
     {
         $log = NotificationLog::find($id);
         $url = $request->get('url');
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
 
         if ($log) {
             $log->markAsClicked();
 
             // Aggiorna i metadati con il link cliccato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,10 +322,14 @@ class NotificationTrackingController extends Controller
 =======
             $metadata = $log->metadata ?? [];
 >>>>>>> 2fc60436 (.)
+=======
+            $metadata = $log->metadata ?? [];
+>>>>>>> 82ae73be (.)
             $metadata['clicked_links'] = array_merge(
                 $metadata['clicked_links'] ?? [],
                 [$url => now()->toIso8601String()]
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,11 +358,14 @@ class NotificationTrackingController extends Controller
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
             $log->update(['metadata' => $metadata]);
         }
 
         // Redirect all'URL originale
         return redirect()->away($url);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,3 +418,7 @@ class NotificationTrackingController extends Controller
     }
 } 
 >>>>>>> 2fc60436 (.)
+=======
+    }
+} 
+>>>>>>> 82ae73be (.)

@@ -109,6 +109,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -181,11 +182,14 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
     ) {}
 =======
     ) {
     }
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,6 +591,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
     ) {}
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
@@ -684,6 +690,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -908,11 +915,16 @@ final class PushNotificationDebugData extends Data implements Arrayable
         return new self($notifiable, $notification, $sendReport);
 =======
 >>>>>>> 2fc60436 (.)
+=======
+        return new self($notifiable, $notification, $sendReport);
+=======
+>>>>>>> 82ae73be (.)
         return new self(
             $notifiable,
             $notification,
             $sendReport,
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1308,6 +1320,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
         return new self($notifiable, $notification, $sendReport);
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
     }
 
     public function toArray(): array
@@ -1321,6 +1336,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'total' => $this->sendReport->count(),
                 'successes' => $this->sendReport->successes()->count(),
                 'failures' => $this->sendReport->failures()->count(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1689,6 +1705,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     ->map(static fn(SendReport $report): array => [
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 82ae73be (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
                     ->map(static fn(SendReport $report): array => [
@@ -2128,6 +2146,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     'result' => $report->result(),
                 ]),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -2369,6 +2388,39 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+                'successes_tokens' => $this->sendReport->successes()
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'failure_tokens' => $this->sendReport->failures()
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'unknown_tokens' => $this->sendReport
+                    ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'results' => $this->sendReport
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'target' => $report->target()->value(),
+                            'result' => $report->result(),
+                        ]
+                    ),
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
             ],
         ];
     }

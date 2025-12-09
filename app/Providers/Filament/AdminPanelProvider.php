@@ -87,6 +87,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -404,8 +405,13 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+=======
+use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
+>>>>>>> b19cd40 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -582,6 +588,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -686,6 +693,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 82ae73be (.)
     #[Override]
     public function panel(Panel $panel): Panel
     {
@@ -1093,6 +1102,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         return parent::panel($panel);
     }
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1201,3 +1211,28 @@ class AdminPanelProvider extends XotBasePanelProvider
     }
 }
 >>>>>>> 75179b85 (.)
+=======
+=======
+    public function panel(Panel $panel): Panel
+    { 
+        $panel->plugins([
+            SpatieTranslatablePlugin::make(),
+        ]);
+        if (! XotData::make()->disable_database_notifications) {
+            DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
+            // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
+            DatabaseNotifications::pollingInterval('60s');
+            FilamentView::registerRenderHook(
+                'panels::user-menu.before',
+                static fn (): string => Blade::render('@livewire(\'database-notifications\')'),
+            );
+        }
+
+       
+
+        return parent::panel($panel);
+    }
+}
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)

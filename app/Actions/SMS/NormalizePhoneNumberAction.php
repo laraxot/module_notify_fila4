@@ -346,14 +346,23 @@ use function Safe\preg_replace;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+=======
+use function Safe\preg_replace;
+use function Safe\preg_match;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -738,12 +747,21 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> 58816034 (.)
 =======
+=======
+>>>>>>> 82ae73be (.)
 class NormalizePhoneNumberAction
+=======
+class NormalizePhoneNumberAction 
+>>>>>>> b19cd40 (.)
 {
     public function execute(string $phoneNumber): string
     {
         // Rimuove parentesi e il loro contenuto
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 
         // Rimuove spazi e caratteri non numerici
@@ -803,6 +821,7 @@ class NormalizePhoneNumberAction
         // Prefisso italiano
         $prefix = '39';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -930,6 +949,8 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
         $phoneNumber = preg_replace("/\([0-9]+?\)/", "", $phoneNumber);
         
         // Rimuove spazi e caratteri non numerici
@@ -941,6 +962,7 @@ class NormalizePhoneNumberAction
         // Prefisso italiano
         $prefix = "39";
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,12 +1344,24 @@ class NormalizePhoneNumberAction
         return "+{$phoneNumber}";
 >>>>>>> 58816034 (.)
 =======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         // Verifica se il numero non inizia già con il prefisso corretto
         if (!preg_match('/^' . $prefix . '/', $phoneNumber)) {
             $phoneNumber = $prefix . $phoneNumber;
         }
+<<<<<<< HEAD
 
         return "+{$phoneNumber}";
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+=======
+        
+        return "+$phoneNumber";
+        
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
     }
 }

@@ -376,6 +376,7 @@ class SmsFactorData extends Data
 =======
 >>>>>>> 75179b85 (.)
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -401,6 +402,7 @@ class SmsFactorData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,6 +677,8 @@ class SmsFactorData extends Data
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -696,6 +700,7 @@ class SmsFactorData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.smsfactor', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1014,6 +1019,9 @@ class SmsFactorData extends Data
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -1599,8 +1607,15 @@ class SmsFactorData extends Data
 =======
                     'Authorization' => 'Bearer ' . $this->token,
                     'Content-Type' => 'application/json',
+<<<<<<< HEAD
                     'Cache-Control' => 'no-cache',
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+=======
+                    'Cache-Control' => 'no-cache'
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
                 ];
         }
     }
