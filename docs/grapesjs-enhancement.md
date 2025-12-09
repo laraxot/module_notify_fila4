@@ -132,9 +132,13 @@ class PublishPageTemplateAction {
 - Repository: https://github.com/dotswan/filament-grapesjs
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 31f5d28f (.)
 - GrapesJS Docs: https://grapesjs.com/docs/
