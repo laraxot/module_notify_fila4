@@ -361,6 +361,7 @@ php artisan notify:mail-template:test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -478,3 +479,8 @@ php artisan notify:mail-template:test
 =======
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 66453ace (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
