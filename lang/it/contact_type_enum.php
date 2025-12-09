@@ -12,6 +12,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
         'hex_color' => '#16a34a',
@@ -32,6 +33,22 @@ return [
 =======
         'hex_color' => '#16a34a',
 >>>>>>> 9777d1b3 (.)
+=======
+        'hex_color' => '#16a34a',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'hex_color' => '#16a34a',
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        'hex_color' => '#16a34a',
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -43,6 +60,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
         'hex_color' => '#9333ea',
@@ -63,6 +81,22 @@ return [
 =======
         'hex_color' => '#9333ea',
 >>>>>>> 9777d1b3 (.)
+=======
+        'hex_color' => '#9333ea',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'hex_color' => '#9333ea',
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        'hex_color' => '#9333ea',
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -74,6 +108,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
         'hex_color' => '#2563eb',
@@ -94,6 +129,22 @@ return [
 =======
         'hex_color' => '#2563eb',
 >>>>>>> 9777d1b3 (.)
+=======
+        'hex_color' => '#2563eb',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'hex_color' => '#2563eb',
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        'hex_color' => '#2563eb',
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -105,6 +156,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
         'hex_color' => '#ea580c',
@@ -125,6 +177,22 @@ return [
 =======
         'hex_color' => '#ea580c',
 >>>>>>> 9777d1b3 (.)
+=======
+        'hex_color' => '#ea580c',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'hex_color' => '#ea580c',
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        'hex_color' => '#ea580c',
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -136,6 +204,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
         'hex_color' => '#25d366',
@@ -156,6 +225,22 @@ return [
 =======
         'hex_color' => '#25d366',
 >>>>>>> 9777d1b3 (.)
+=======
+        'hex_color' => '#25d366',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'hex_color' => '#25d366',
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        'hex_color' => '#25d366',
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
@@ -165,9 +250,14 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -177,10 +267,15 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,9 +285,14 @@ return [
 =======
 >>>>>>> 207ac35e (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
         'description' => 'Numero fax',
     ],
 ]; 
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,3 +306,14 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        'description' => 'Numero fax',
+    ],
+]; 
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)

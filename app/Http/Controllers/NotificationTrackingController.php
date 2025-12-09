@@ -1,18 +1,25 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 82ae73be (.)
+=======
+
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 use function Safe\base64_decode;
 
 use Illuminate\Http\RedirectResponse;
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -49,6 +56,7 @@ class NotificationTrackingController extends Controller
      * @param Request $request
      * @param string $id
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return RedirectResponse
      */
     public function trackClick(Request $request, string $id): RedirectResponse
@@ -56,27 +64,37 @@ class NotificationTrackingController extends Controller
         $log = NotificationLog::find($id);
         $url = $request->get('url', '');
 =======
+=======
+>>>>>>> d09cb759 (.)
      * @return Response
      */
     public function trackClick(Request $request, string $id): Response
     {
         $log = NotificationLog::find($id);
         $url = $request->get('url');
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 
         if ($log) {
             $log->markAsClicked();
 
             // Aggiorna i metadati con il link cliccato
 <<<<<<< HEAD
+<<<<<<< HEAD
             $metadata = $log->data ?? [];
 =======
             $metadata = $log->metadata ?? [];
 >>>>>>> 82ae73be (.)
+=======
+            $metadata = $log->metadata ?? [];
+>>>>>>> d09cb759 (.)
             $metadata['clicked_links'] = array_merge(
                 $metadata['clicked_links'] ?? [],
                 [$url => now()->toIso8601String()]
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
             $log->update(['data' => $metadata]);
         }
@@ -84,11 +102,16 @@ class NotificationTrackingController extends Controller
         // Redirect all'URL originale
         return redirect()->away((string) $url);
 =======
+=======
+>>>>>>> d09cb759 (.)
             $log->update(['metadata' => $metadata]);
         }
 
         // Redirect all'URL originale
         return redirect()->away($url);
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 } 

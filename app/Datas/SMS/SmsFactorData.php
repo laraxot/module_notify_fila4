@@ -10,6 +10,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -20,6 +21,13 @@ use Illuminate\Support\Arr;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -45,10 +53,47 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+=======
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+
+class SmsFactorData extends Data
+{
+    public null|string $token;
+    public null|string $base_url;
+    public string $auth_type = 'bearer';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof SmsFactorData)) {
+            /*
+<<<<<<< HEAD
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.smsfactor', []);
+            */
+>>>>>>> a12f125f4a (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.smsfactor', []);
+             */
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d09cb759 (.)
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -71,6 +116,7 @@ class SmsFactorData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.smsfactor', []);
             */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +130,10 @@ class SmsFactorData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -99,6 +149,7 @@ class SmsFactorData extends Data
                 return [
                     'Authorization' => 'Bearer ' . $this->token,
                     'Content-Type' => 'application/json',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +178,24 @@ class SmsFactorData extends Data
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> 9777d1b3 (.)
+=======
+                    'Cache-Control' => 'no-cache',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    'Cache-Control' => 'no-cache',
+=======
+                    'Cache-Control' => 'no-cache'
+>>>>>>> a12f125f4a (.)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> b93ef594b4 (.)
+=======
+                    'Cache-Control' => 'no-cache'
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
                 ];
         }
     }

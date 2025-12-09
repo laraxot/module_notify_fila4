@@ -9,14 +9,18 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
 class ContactPolicy extends NotifyBasePolicy
 {
 }
 =======
+<<<<<<< HEAD
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -24,9 +28,21 @@ class ContactPolicy extends NotifyBasePolicy {}
 =======
 >>>>>>> 207ac35e (.)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 class ContactPolicy extends NotifyBasePolicy
 {
 }
+=======
+class ContactPolicy extends NotifyBasePolicy {}
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+class ContactPolicy extends NotifyBasePolicy
+{
+}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
@@ -39,3 +55,17 @@ class ContactPolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Notify\Models\Contact;
+use Modules\User\Models\Permission;
+use Modules\Xot\Contracts\UserContract;
+
+class ContactPolicy extends NotifyBasePolicy
+{
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)

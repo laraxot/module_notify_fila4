@@ -9,14 +9,18 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
 class NotifyThemeablePolicy extends NotifyBasePolicy
 {
 }
 =======
+<<<<<<< HEAD
 class NotifyThemeablePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -24,9 +28,21 @@ class NotifyThemeablePolicy extends NotifyBasePolicy {}
 =======
 >>>>>>> 207ac35e (.)
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 class NotifyThemeablePolicy extends NotifyBasePolicy
 {
 }
+=======
+class NotifyThemeablePolicy extends NotifyBasePolicy {}
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+class NotifyThemeablePolicy extends NotifyBasePolicy
+{
+}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
@@ -39,3 +55,16 @@ class NotifyThemeablePolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Xot\Contracts\UserContract;
+
+class NotifyThemeablePolicy extends NotifyBasePolicy
+{
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)

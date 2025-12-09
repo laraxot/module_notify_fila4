@@ -13,7 +13,15 @@ class NotificationTypeEnumTest extends TestCase
     public function it_has_correct_cases(): void
     {
         $this->assertCount(3, NotificationTypeEnum::cases());
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertEquals('email', NotificationTypeEnum::EMAIL->value);
         $this->assertEquals('sms', NotificationTypeEnum::SMS->value);
         $this->assertEquals('push', NotificationTypeEnum::PUSH->value);
@@ -51,10 +59,13 @@ class NotificationTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
 =======
         $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
@@ -76,6 +87,25 @@ class NotificationTypeEnumTest extends TestCase
 >>>>>>> 9777d1b3 (.)
         $uniqueValues = array_unique($values);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> a12f125f4a (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b93ef594b4 (.)
+        $uniqueValues = array_unique($values);
+
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+        $uniqueValues = array_unique($values);
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
@@ -83,10 +113,23 @@ class NotificationTypeEnumTest extends TestCase
     public function cases_returns_all_enum_instances(): void
     {
         $cases = NotificationTypeEnum::cases();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
         $this->assertIsArray($cases);
         $this->assertCount(3, $cases);
 
+<<<<<<< HEAD
+=======
+=======
+        
+        $this->assertIsArray($cases);
+        $this->assertCount(3, $cases);
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         foreach ($cases as $case) {
             $this->assertInstanceOf(NotificationTypeEnum::class, $case);
         }

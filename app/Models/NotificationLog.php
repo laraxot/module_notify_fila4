@@ -9,6 +9,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -19,6 +20,12 @@ namespace Modules\Notify\Models;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -85,10 +92,14 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
 =======
 use Illuminate\Support\Carbon;
 use Modules\Predict\Models\Profile;
@@ -99,6 +110,7 @@ use Illuminate\Contracts\Database\Query\Expression;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\User\Models\Traits\HasTenants;
 use Modules\Xot\Traits\Updater;
@@ -248,6 +260,78 @@ class NotificationLog extends Model
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+
+/**
+ * Modello per il logging delle notifiche.
+ *
+ * @property int $id
+ * @property int|null $template_id
+ * @property string $recipient_type
+ * @property int $recipient_id
+ * @property string $content
+ * @property array $data
+ * @property array $channels
+ * @property NotificationLogStatusEnum $status
+ * @property Carbon|null $sent_at
+ * @property Carbon|null $delivered_at
+ * @property Carbon|null $opened_at
+ * @property Carbon|null $clicked_at
+ * @property Carbon $created_at
+ * @property Carbon $updated_at
+ * @property-read NotificationTemplate|null $template
+ */
+final class NotificationLog extends BaseModel
+{
+    protected $fillable = [
+        'template_id',
+        'recipient_id',
+        'recipient_type',
+        'content',
+        'data',
+        'channels',
+        'status',
+        'sent_at',
+        'delivered_at',
+        'opened_at',
+        'clicked_at',
+    ];
+
+    protected $casts = [
+        'data' => 'array',
+        'channels' => 'array',
+        'sent_at' => 'datetime',
+        'delivered_at' => 'datetime',
+        'opened_at' => 'datetime',
+        'clicked_at' => 'datetime',
+        'status' => NotificationLogStatusEnum::class,
+    ];
+
+    /**
+     * Ottiene il template associato a questo log.
+     */
+    public function template(): BelongsTo
+    {
+        return $this->belongsTo(NotificationTemplate::class);
+    }
+
+    /**
+<<<<<<< HEAD
+     * Get the notifiable entity.
+>>>>>>> a12f125f4a (.)
+=======
+     * Ottiene il notifiable associato a questo log.
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
      */
     public function notifiable(): MorphTo
     {
@@ -255,6 +339,7 @@ class NotificationLog extends Model
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +355,12 @@ class NotificationLog extends Model
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -293,14 +384,19 @@ class NotificationLog extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+=======
+>>>>>>> d09cb759 (.)
+=======
      * Get the notification template.
      *
      * @return BelongsTo<NotificationTemplate, \Modules\Notify\Models\NotificationLog>
+<<<<<<< HEAD
      */
     public function template(): BelongsTo
     {
@@ -328,10 +424,41 @@ class NotificationLog extends Model
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+     * Scope per filtrare i log per notifiable.
+>>>>>>> b93ef594b4 (.)
+     */
+    public function scopeForNotifiable(
+        Builder $query,
+        Model $notifiable,
+    ): Builder {
+        return $query->where('recipient_type', $notifiable->getMorphClass())->where(
+            'recipient_id',
+            $notifiable->getKey(),
+        );
+    }
+
+    /**
+     * Scope per filtrare i log per stato.
+     */
+<<<<<<< HEAD
+    public function scopeWithStatus($query, string $status)
+    {
+>>>>>>> a12f125f4a (.)
+=======
+    public function scopeWithStatus(
+        Builder $query,
+        NotificationLogStatusEnum $status,
+    ): Builder {
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         return $query->where('status', $status);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +474,12 @@ class NotificationLog extends Model
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -358,10 +491,14 @@ class NotificationLog extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
 =======
      * Scope to filter by channel.
      *
@@ -465,6 +602,7 @@ class NotificationLog extends Model
     public function getChannelLabelAttribute(): string
     {
         return (string) __('notify::notification.fields.channel.options.'.$this->channel.'.label');
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,5 +638,18 @@ class NotificationLog extends Model
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+     * Scope per filtrare i log per template.
+     */
+    public function scopeForTemplate(
+        Builder $query,
+        int $templateId,
+    ): Builder {
+        return $query->where('template_id', $templateId);
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
     }
 }

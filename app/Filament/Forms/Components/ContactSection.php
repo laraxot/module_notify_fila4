@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
+<<<<<<< HEAD
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 <<<<<<< HEAD
@@ -19,19 +20,36 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Components\Section;
+use Filament\Forms;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> d09cb759 (.)
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
@@ -44,6 +62,10 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
 // use Squire\Models\Country;
 
@@ -54,6 +76,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -72,6 +95,31 @@ class ContactSection extends Section
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Filament\Forms;
+use Webmozart\Assert\Assert;
+use Filament\Forms\Components\Section;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+
+
+// use Squire\Models\Country;
+
+class ContactSection extends Forms\Components\Section
+{
+    
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
     //protected string $view = 'filament-forms::components.group';
 
     protected bool $disableLiveUpdates = false;
@@ -104,6 +152,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -114,6 +163,13 @@ class ContactSection extends Section
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
@@ -148,6 +204,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -155,18 +212,50 @@ class ContactSection extends Section
 =======
 
 
+=======
+=======
+=======
+
+
+=======
+>>>>>>> b93ef594b4 (.)
+    protected function getFormSchema(): array
+    {
+        $res = ContactTypeEnum::getFormSchema();
+        return $res;
+    }
+
+    /*
+<<<<<<< HEAD
+    public function saveRelationships(): void
+    {
+
+=======
+    
+
+>>>>>>> d09cb759 (.)
     protected function getFormSchema(): array
     {
         $res=ContactTypeEnum::getFormSchema(); 
         return $res;   
     }
 
+<<<<<<< HEAD
 
 
     /*
     public function saveRelationships(): void
     {
 
+=======
+    
+    
+    /*
+    public function saveRelationships(): void
+    {
+        
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
         $state = $this->getState();
         $record = $this->getRecord();
         $relationship = $record->{$this->getRelationship()}();
@@ -184,6 +273,7 @@ class ContactSection extends Section
     }
     */
     
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,4 +287,32 @@ class ContactSection extends Section
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     * public function saveRelationships(): void
+     * {
+     *
+     * $state = $this->getState();
+     * $record = $this->getRecord();
+     * $relationship = $record->{$this->getRelationship()}();
+     *
+     * if (null === $relationship) {
+     * return;
+     * }
+     * if ($address = $relationship->first()) {
+     * $address->update($state);
+     * } else {
+     * $relationship->updateOrCreate($state);
+     * }
+     *
+     * $record->touch();
+     * }
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 }

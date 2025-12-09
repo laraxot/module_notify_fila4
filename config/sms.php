@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -20,6 +21,13 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
@@ -51,10 +59,35 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+=======
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+return [
+    /*
+     * |--------------------------------------------------------------------------
+     * | Default SMS Driver
+     * |--------------------------------------------------------------------------
+     * |
+     * | This option controls the default SMS driver that will be used when
+     * | sending SMS messages. Supported drivers: "smsfactor", "twilio", "nexmo",
+     * | "plivo", "gammu", "netfun"
+     * |
+     */
+
+    'default' => env('SMS_DRIVER', 'smsfactor'),
+    /*
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
 =======
 return [
     /*
@@ -71,6 +104,10 @@ return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
 
     /*
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
     |--------------------------------------------------------------------------
     | SMS Drivers
     |--------------------------------------------------------------------------
@@ -80,6 +117,7 @@ return [
     | Nexmo, Plivo, and Gammu.
     |
     */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,6 +131,24 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     * |--------------------------------------------------------------------------
+     * | SMS Drivers
+     * |--------------------------------------------------------------------------
+     * |
+     * | Here you may configure the SMS drivers for your application. Out of
+     * | the box, Laravel supports several drivers including SMSFactor, Twilio,
+     * | Nexmo, Plivo, and Gammu.
+     * |
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
     'drivers' => [
         'smsfactor' => [
@@ -104,6 +160,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -122,6 +179,21 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
@@ -131,6 +203,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -149,6 +222,21 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'nexmo' => [
             'key' => env('NEXMO_KEY'),
             'secret' => env('NEXMO_SECRET'),
@@ -158,6 +246,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -176,6 +265,21 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'plivo' => [
             'auth_id' => env('PLIVO_AUTH_ID'),
             'auth_token' => env('PLIVO_AUTH_TOKEN'),
@@ -185,6 +289,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -203,6 +308,21 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'gammu' => [
             'path' => env('GAMMU_PATH', '/usr/bin/gammu'),
             'config' => env('GAMMU_CONFIG', '/etc/gammurc'),
@@ -212,6 +332,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -230,6 +351,21 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         'netfun' => [
             // Token API fornito da Netfun (obbligatorio)
             'token' => env('NETFUN_TOKEN'),
@@ -252,6 +388,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -262,6 +399,13 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
             'endpoint' => env('AGILETELECOM_API_URL', 'https://secure.agiletelecom.com/services/sms/send'),
         ],
     ],
@@ -301,10 +445,46 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+=======
+=======
+            'endpoint' => env('AGILETELECOM_API_URL','https://secure.agiletelecom.com/services/sms/send'),
+=======
+            'endpoint' => env('AGILETELECOM_API_URL', 'https://secure.agiletelecom.com/services/sms/send'),
+>>>>>>> b93ef594b4 (.)
+        ],
+    ],
+    /*
+     * |--------------------------------------------------------------------------
+     * | Global Debug Mode
+     * |--------------------------------------------------------------------------
+     * |
+     * | Enable or disable debug mode for all SMS drivers. This will log
+     * | detailed information about SMS sending attempts and responses.
+     * |
+     */
+
+    'debug' => env('SMS_DEBUG', false),
+    /*
+     * |--------------------------------------------------------------------------
+     * | SMS Queue
+     * |--------------------------------------------------------------------------
+     * |
+     * | This option allows you to specify the queue that should be used for
+     * | sending SMS messages. This is useful for handling large volumes of
+     * | SMS messages without blocking your application.
+     * |
+     */
+
+    'queue' => env('SMS_QUEUE', 'default'),
+    /*
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
 =======
             'endpoint' => env('AGILETELECOM_API_URL','https://secure.agiletelecom.com/services/sms/send'),
         ],
@@ -338,6 +518,10 @@ return [
     'queue' => env('SMS_QUEUE', 'default'),
 
     /*
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
     |--------------------------------------------------------------------------
     | SMS Retry Configuration
     |--------------------------------------------------------------------------
@@ -346,6 +530,7 @@ return [
     | You can specify the number of retries and the delay between retries.
     |
     */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -359,11 +544,29 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     * |--------------------------------------------------------------------------
+     * | SMS Retry Configuration
+     * |--------------------------------------------------------------------------
+     * |
+     * | Here you may configure the retry settings for failed SMS messages.
+     * | You can specify the number of retries and the delay between retries.
+     * |
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,6 +582,13 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Rate Limiting
@@ -392,11 +602,18 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -407,6 +624,7 @@ return [
     | This helps prevent abuse and ensures fair usage of the SMS service.
     |
     */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,12 +638,31 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    /*
+     * |--------------------------------------------------------------------------
+     * | SMS Rate Limiting
+     * |--------------------------------------------------------------------------
+     * |
+     * | Here you may configure the rate limiting settings for SMS messages.
+     * | This helps prevent abuse and ensures fair usage of the SMS service.
+     * |
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
     'rate_limit' => [
         'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +678,13 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Circuit Breaker
@@ -454,11 +698,18 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -469,6 +720,7 @@ return [
     | This helps prevent cascading failures when the SMS service is down.
     |
     */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,12 +734,31 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    /*
+     * |--------------------------------------------------------------------------
+     * | SMS Circuit Breaker
+     * |--------------------------------------------------------------------------
+     * |
+     * | Here you may configure the circuit breaker settings for SMS messages.
+     * | This helps prevent cascading failures when the SMS service is down.
+     * |
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
     'circuit_breaker' => [
         'enabled' => env('SMS_CIRCUIT_BREAKER_ENABLED', true),
         'threshold' => env('SMS_CIRCUIT_BREAKER_THRESHOLD', 5),
         'timeout' => env('SMS_CIRCUIT_BREAKER_TIMEOUT', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +774,13 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Timeout
@@ -527,10 +805,31 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+=======
+=======
+
+=======
+>>>>>>> b93ef594b4 (.)
+    /*
+     * |--------------------------------------------------------------------------
+     * | SMS Timeout
+     * |--------------------------------------------------------------------------
+     * |
+     * | Here you may configure the timeout settings for SMS messages.
+     * | This helps prevent hanging requests when the SMS service is slow.
+     * |
+     */
+
+    'timeout' => env('SMS_TIMEOUT', 30),
+    /*
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
 =======
 
     /*
@@ -546,6 +845,10 @@ return [
     'timeout' => env('SMS_TIMEOUT', 30),
 
     /*
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
     |--------------------------------------------------------------------------
     | SMS Logging
     |--------------------------------------------------------------------------
@@ -554,6 +857,7 @@ return [
     | This helps track the delivery status and troubleshoot issues.
     |
     */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,11 +871,29 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+     * |--------------------------------------------------------------------------
+     * | SMS Logging
+     * |--------------------------------------------------------------------------
+     * |
+     * | Here you may configure the logging settings for SMS messages.
+     * | This helps track the delivery status and troubleshoot issues.
+     * |
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
     'logging' => [
         'enabled' => env('SMS_LOGGING_ENABLED', true),
         'channel' => env('SMS_LOGGING_CHANNEL', 'stack'),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,6 +909,13 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Validation
@@ -600,11 +929,18 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
 
     /*
     |--------------------------------------------------------------------------
@@ -615,6 +951,7 @@ return [
     | This helps ensure that only valid phone numbers are used.
     |
     */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,6 +965,24 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+    /*
+     * |--------------------------------------------------------------------------
+     * | SMS Validation
+     * |--------------------------------------------------------------------------
+     * |
+     * | Here you may configure the validation settings for phone numbers.
+     * | This helps ensure that only valid phone numbers are used.
+     * |
+     */
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
     'validation' => [
         'enabled' => env('SMS_VALIDATION_ENABLED', true),

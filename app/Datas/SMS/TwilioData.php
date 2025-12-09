@@ -10,6 +10,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -20,6 +21,13 @@ use Illuminate\Support\Arr;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -46,10 +54,48 @@ class TwilioData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+=======
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> b93ef594b4 (.)
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+
+class TwilioData extends Data
+{
+    public null|string $account_sid;
+    public null|string $auth_token;
+    public null|string $base_url;
+    public string $auth_type = 'basic';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof TwilioData)) {
+            /*
+<<<<<<< HEAD
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.twilio', []);
+            */
+>>>>>>> a12f125f4a (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.twilio', []);
+             */
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d09cb759 (.)
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -73,6 +119,7 @@ class TwilioData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.twilio', []);
             */
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +133,10 @@ class TwilioData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -100,6 +151,7 @@ class TwilioData extends Data
             default:
                 return [
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +180,24 @@ class TwilioData extends Data
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded',
 >>>>>>> 9777d1b3 (.)
+=======
+                    'Content-Type' => 'application/x-www-form-urlencoded',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    'Content-Type' => 'application/x-www-form-urlencoded',
+=======
+                    'Content-Type' => 'application/x-www-form-urlencoded'
+>>>>>>> a12f125f4a (.)
+=======
+                    'Content-Type' => 'application/x-www-form-urlencoded',
+>>>>>>> b93ef594b4 (.)
+=======
+                    'Content-Type' => 'application/x-www-form-urlencoded'
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
                 ];
         }
     }
