@@ -790,6 +790,7 @@ class SmtpData extends Data
 >>>>>>> f1c9518b (.)
 >>>>>>> cf20697a6 (.)
         }
+
         return new Mailer($transport);
     }
 

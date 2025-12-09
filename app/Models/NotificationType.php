@@ -235,8 +235,6 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 namespace Modules\Notify\Models;
 
-use Illuminate\Database\Eloquent\Model;
-
 /**
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newQuery()
