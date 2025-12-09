@@ -607,6 +607,7 @@ use Modules\Xot\Traits\Updater;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a335025b (rebase 210)
 =======
 /**
@@ -615,12 +616,21 @@ use Modules\Xot\Traits\Updater;
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+=======
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 2cbbc069 (.)
  * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 >>>>>>> e00d798d (.)
 =======
  * @mixin IdeHelperNotificationTemplateVersion
@@ -632,6 +642,8 @@ use Modules\Xot\Traits\Updater;
  * @mixin \Eloquent
  */
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 2cbbc069 (.)
 class NotificationTemplateVersion extends BaseModel
 {
     use Updater;
@@ -1450,6 +1462,9 @@ class NotificationTemplateVersion extends BaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cbbc069 (.)
         /** @var NotificationTemplate */
         return $template;
     }

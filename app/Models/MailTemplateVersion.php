@@ -586,6 +586,7 @@ use Modules\Xot\Traits\Updater;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
 =======
  * @mixin \Eloquent
@@ -594,6 +595,8 @@ use Modules\Xot\Traits\Updater;
 =======
 =======
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> 2cbbc069 (.)
 /**
  * @property string $id
  * @property int $mail_template_id
@@ -610,6 +613,7 @@ use Modules\Xot\Traits\Updater;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null $deleted_by
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
@@ -617,12 +621,17 @@ use Modules\Xot\Traits\Updater;
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
 =======
+=======
+>>>>>>> 2cbbc069 (.)
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\MailTemplate|null $template
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
+<<<<<<< HEAD
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> 2cbbc069 (.)
  * @method static \Modules\Notify\Database\Factories\MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -645,6 +654,7 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|MailTemplateVersion withTrashed(bool $withTrashed = true)
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  * @mixin \Eloquent
  */
@@ -663,6 +673,10 @@ use Modules\Xot\Traits\Updater;
  * @mixin \Eloquent
  */
 >>>>>>> 75179b85 (.)
+=======
+ * @mixin \Eloquent
+ */
+>>>>>>> 2cbbc069 (.)
 class MailTemplateVersion extends BaseModel
 {
     use SoftDeletes, Updater;
@@ -996,6 +1010,7 @@ class MailTemplateVersion extends BaseModel
         $template->update([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /* @phpstan-ignore-next-line property.notFound */
             'subject' => $this->subject,
             /* @phpstan-ignore-next-line property.notFound */
@@ -1008,15 +1023,24 @@ class MailTemplateVersion extends BaseModel
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+            /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 2cbbc069 (.)
             'subject' => $this->subject,
+            /* @phpstan-ignore-next-line property.notFound */
             'html_template' => $this->html_template,
+            /* @phpstan-ignore-next-line property.notFound */
             'text_template' => $this->text_template,
         ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+        /** @var MailTemplate */
+>>>>>>> 2cbbc069 (.)
         return $template;
     }
 }

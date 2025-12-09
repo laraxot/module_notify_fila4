@@ -48,6 +48,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
@@ -68,6 +69,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 2cbbc069 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -85,6 +88,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +130,8 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 2941b0bd (.)
  * @mixin IdeHelperNotifyThemeable
+=======
+>>>>>>> 2cbbc069 (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

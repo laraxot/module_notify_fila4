@@ -17,6 +17,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -91,11 +92,17 @@ use Modules\Xot\Traits\Updater;
 =======
 use Modules\Xot\Traits\Updater;
 >>>>>>> 75179b85 (.)
+=======
+use Modules\Xot\Models\XotBaseModel;
+>>>>>>> 2cbbc069 (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2cbbc069 (.)
  * Base Model for Notify module.
  *
  * Extends XotBaseModel and adds:
@@ -103,6 +110,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  *
  * @see \Modules\Xot\Models\XotBaseModel
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
@@ -129,16 +137,18 @@ abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
     use HasFactory;
+=======
+abstract class BaseModel extends XotBaseModel implements HasMedia
+{
+>>>>>>> 2cbbc069 (.)
     use InteractsWithMedia;
-    use Updater;
 
     /**
-     * Indicates whether attributes are snake cased on arrays.
+     * The connection name for the model.
      *
-     * @see https://laravel-news.com/6-eloquent-secrets
-     *
-     * @var bool
+     * @var string
      */
+<<<<<<< HEAD
     public static $snakeAttributes = true;
 
     /** @var bool */
@@ -977,5 +987,19 @@ abstract class BaseModel extends Model implements HasMedia
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 75179b85 (.)
+=======
+    protected $connection = 'notify';
+
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return array_merge(parent::casts(), [
+            'verified_at' => 'datetime', // ✅ Notify-specific cast
+        ]);
+>>>>>>> 2cbbc069 (.)
     }
 }

@@ -548,21 +548,31 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a335025b (rebase 210)
 =======
 /**
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+=======
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 2cbbc069 (.)
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\MailTemplate|null $template
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 2cbbc069 (.)
  * @method static \Modules\Notify\Database\Factories\MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 >>>>>>> e00d798d (.)
 =======
  * @mixin IdeHelperMailTemplateLog
@@ -574,6 +584,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin \Eloquent
  */
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 2cbbc069 (.)
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [
