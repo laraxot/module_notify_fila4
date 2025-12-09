@@ -208,6 +208,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1707,6 +1708,9 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> f4acf543 (.)
 =======
 >>>>>>> e438127e (.)
+=======
+e width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 536139e0 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#ef3101' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
