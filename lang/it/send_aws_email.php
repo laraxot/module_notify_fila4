@@ -38,6 +38,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -155,6 +156,8 @@ return [
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
@@ -188,6 +191,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -305,6 +309,8 @@ return [
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -360,6 +366,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -477,6 +484,8 @@ return [
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -517,6 +526,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -634,6 +644,8 @@ return [
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',

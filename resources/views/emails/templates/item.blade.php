@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -112,6 +113,8 @@
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
 <?php
 
 declare(strict_types=1);
@@ -120,6 +123,7 @@ declare(strict_types=1);
 @include('notify::emails.templates.'.$theme.'.contentStart')
 {!! $html !!}
 @include('notify::emails.templates.'.$theme.'.contentEnd')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,3 +300,5 @@ declare(strict_types=1);
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)

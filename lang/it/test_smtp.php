@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -114,6 +115,8 @@
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
 declare(strict_types=1);
 
 return [
@@ -216,6 +219,7 @@ return [
         'subject_required' => 'L\'oggetto della email è obbligatorio',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -517,3 +521,5 @@ return array (
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 4c323e61 (.)
