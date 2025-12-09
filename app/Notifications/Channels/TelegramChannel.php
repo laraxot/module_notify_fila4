@@ -2,16 +2,22 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -51,13 +57,19 @@ class TelegramChannel
             'chat_id' => $chatId,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
             'message' => $message,
 =======
             'message' => $message
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
             'message' => $message,
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         ]);
     }
 }

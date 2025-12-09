@@ -16,13 +16,19 @@ class BeautyEmailData extends Data
     // sulla config beautymail di localhost manca, quindi va gestito se è vuoto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
     public null|array $css = [];
 =======
     public ?array $css = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
     public null|array $css = [];
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     public array $colors;
 }

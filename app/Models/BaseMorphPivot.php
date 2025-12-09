@@ -49,15 +49,21 @@ abstract class BaseMorphPivot extends MorphPivot
         'id',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
         'post_id',
         'post_type',
 =======
         'post_id', 'post_type',
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
         'post_id',
         'post_type',
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         'related_type',
         'user_id',
         'note',
@@ -73,11 +79,17 @@ abstract class BaseMorphPivot extends MorphPivot
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

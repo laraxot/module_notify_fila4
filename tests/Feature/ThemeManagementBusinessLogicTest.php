@@ -515,10 +515,16 @@ describe('Theme Management Business Logic', function () {
     });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 });
 =======
 }
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 });
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)

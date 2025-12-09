@@ -3,8 +3,11 @@
 declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
 /*--work in progress
  * use Modules\Notify\Http\Controllers\TelegramNotificationController;
@@ -18,6 +21,9 @@ declare(strict_types=1);
  * });
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 /*--work in progress
 use Modules\Notify\Http\Controllers\TelegramNotificationController;
@@ -31,5 +37,8 @@ Route::middleware('guest')->group(function () {
 });
 */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)

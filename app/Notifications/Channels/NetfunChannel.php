@@ -45,7 +45,11 @@ class NetfunChannel
 
         // Incrementiamo il contatore SMS
         $notifiable->increase('sms', $data);
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
 
         /*
          * $data['sms_sent_at'] = now();
@@ -53,6 +57,9 @@ class NetfunChannel
          * $notifiable->update($data);
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
         /*
         $data['sms_sent_at'] = now();
@@ -60,7 +67,10 @@ class NetfunChannel
         $notifiable->update($data);
         */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     }
 }

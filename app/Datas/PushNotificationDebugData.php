@@ -20,14 +20,20 @@ final class PushNotificationDebugData extends Data implements Arrayable
         private readonly MulticastSendReport $sendReport,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
     ) {}
 =======
     ) {
     }
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
     ) {}
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
@@ -36,6 +42,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
     ): self {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
         return new self($notifiable, $notification, $sendReport);
 =======
         return new self(
@@ -44,9 +53,12 @@ final class PushNotificationDebugData extends Data implements Arrayable
             $sendReport,
         );
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
         return new self($notifiable, $notification, $sendReport);
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     }
 
     public function toArray(): array
@@ -62,8 +74,11 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'failures' => $this->sendReport->failures()->count(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
                     ->map(static fn(SendReport $report): array => [
@@ -87,6 +102,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     'result' => $report->result(),
                 ]),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
                 'successes_tokens' => $this->sendReport->successes()
                     ->map(
@@ -118,8 +136,11 @@ final class PushNotificationDebugData extends Data implements Arrayable
                         ]
                     ),
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
             ],
         ];
     }

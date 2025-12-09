@@ -74,13 +74,19 @@ class TelegramDriverEnumTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
 =======
         $values = array_map(fn ($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

@@ -56,6 +56,9 @@ abstract class BasePivot extends Pivot
             'uuid' => 'string',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -66,11 +69,14 @@ abstract class BasePivot extends Pivot
             'deleted_at' => 'datetime',
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

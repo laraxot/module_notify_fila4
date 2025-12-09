@@ -15,8 +15,11 @@ class SmtpMailSendAction
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -57,6 +60,9 @@ class SmtpMailSendAction
          * }
          */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
     public function execute(string $to, string $subject, string $body): void
     {
@@ -97,7 +103,10 @@ class SmtpMailSendAction
         }
         */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     }
 }

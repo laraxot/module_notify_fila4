@@ -9,12 +9,18 @@ return [
         'color' => 'text-green-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#16a34a',
 =======
 >>>>>>> b19cd40 (.)
 =======
         'hex_color' => '#16a34a',
 >>>>>>> 75179b85 (.)
+=======
+        'hex_color' => '#16a34a',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -23,12 +29,18 @@ return [
         'color' => 'text-purple-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#9333ea',
 =======
 >>>>>>> b19cd40 (.)
 =======
         'hex_color' => '#9333ea',
 >>>>>>> 75179b85 (.)
+=======
+        'hex_color' => '#9333ea',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -37,12 +49,18 @@ return [
         'color' => 'text-blue-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#2563eb',
 =======
 >>>>>>> b19cd40 (.)
 =======
         'hex_color' => '#2563eb',
 >>>>>>> 75179b85 (.)
+=======
+        'hex_color' => '#2563eb',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -51,12 +69,18 @@ return [
         'color' => 'text-orange-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#ea580c',
 =======
 >>>>>>> b19cd40 (.)
 =======
         'hex_color' => '#ea580c',
 >>>>>>> 75179b85 (.)
+=======
+        'hex_color' => '#ea580c',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -65,12 +89,18 @@ return [
         'color' => 'text-green-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#25d366',
 =======
 >>>>>>> b19cd40 (.)
 =======
         'hex_color' => '#25d366',
 >>>>>>> 75179b85 (.)
+=======
+        'hex_color' => '#25d366',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
@@ -79,17 +109,26 @@ return [
         'color' => 'text-gray-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
         'description' => 'Numero fax',
     ],
 ]; 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)

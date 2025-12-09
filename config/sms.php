@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -9,6 +10,8 @@ declare(strict_types=1);
 
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 82ae73be (.)
 declare(strict_types=1);
 
 
@@ -37,6 +40,9 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 return [
     /*
@@ -63,8 +69,11 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     'drivers' => [
         'smsfactor' => [
@@ -73,55 +82,85 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'nexmo' => [
             'key' => env('NEXMO_KEY'),
             'secret' => env('NEXMO_SECRET'),
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'plivo' => [
             'auth_id' => env('PLIVO_AUTH_ID'),
             'auth_token' => env('PLIVO_AUTH_TOKEN'),
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'gammu' => [
             'path' => env('GAMMU_PATH', '/usr/bin/gammu'),
             'config' => env('GAMMU_CONFIG', '/etc/gammurc'),
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         'netfun' => [
             // Token API fornito da Netfun (obbligatorio)
             'token' => env('NETFUN_TOKEN'),
@@ -141,8 +180,11 @@ return [
             'sender' => env('AGILETELECOM_SENDER', 'MyApp'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
             'endpoint' => env('AGILETELECOM_API_URL', 'https://secure.agiletelecom.com/services/sms/send'),
         ],
     ],
@@ -179,6 +221,9 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
             'endpoint' => env('AGILETELECOM_API_URL','https://secure.agiletelecom.com/services/sms/send'),
         ],
@@ -221,8 +266,11 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
@@ -230,8 +278,11 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Rate Limiting
@@ -242,6 +293,9 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 
     /*
@@ -254,8 +308,11 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     'rate_limit' => [
         'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
@@ -264,8 +321,11 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Circuit Breaker
@@ -276,6 +336,9 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 
     /*
@@ -288,8 +351,11 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     'circuit_breaker' => [
         'enabled' => env('SMS_CIRCUIT_BREAKER_ENABLED', true),
@@ -298,8 +364,11 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Timeout
@@ -321,6 +390,9 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 
     /*
@@ -345,8 +417,11 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     'logging' => [
         'enabled' => env('SMS_LOGGING_ENABLED', true),
@@ -354,8 +429,11 @@ return [
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Validation
@@ -366,6 +444,9 @@ return [
      * |
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 
     /*
@@ -378,8 +459,11 @@ return [
     |
     */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     'validation' => [
         'enabled' => env('SMS_VALIDATION_ENABLED', true),

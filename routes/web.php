@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -9,6 +10,8 @@ declare(strict_types=1);
 
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 82ae73be (.)
 declare(strict_types=1);
 
 
@@ -24,6 +27,9 @@ declare(strict_types=1);
  * |
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +42,10 @@ declare(strict_types=1);
 |
 */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
 // Filament will handle all routes for this module

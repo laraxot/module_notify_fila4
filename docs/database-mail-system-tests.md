@@ -383,9 +383,15 @@ php artisan test --coverage --filter=MailTemplate
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 =======
 >>>>>>> b19cd40 (.)
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 75179b85 (.)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)

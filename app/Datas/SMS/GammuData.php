@@ -7,8 +7,11 @@ namespace Modules\Notify\Datas\SMS;
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -30,6 +33,9 @@ class GammuData extends Data
              * $data = Arr::get($data, 'drivers.gammu', []);
              */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -52,8 +58,11 @@ class GammuData extends Data
             $data = Arr::get($data, 'drivers.gammu', []);
             */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
             $data = Config::array('sms.drivers.gammu');
             self::$instance = self::from($data);
         }

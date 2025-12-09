@@ -3,12 +3,18 @@
 declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
 =======
 
 >>>>>>> 75179b85 (.)
+=======
+
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;

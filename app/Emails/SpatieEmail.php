@@ -8,8 +8,11 @@ use Symfony\Component\Mime\MimeTypes;
 use Mustache_Engine;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Attachment;
@@ -27,6 +30,9 @@ use Webmozart\Assert\Assert;
 
 use function Safe\file_get_contents;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -45,8 +51,11 @@ use Spatie\MailTemplates\TemplateMailable;
 use Modules\Xot\Actions\Cast\SafeArrayByModelCastAction;
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
 /**
  * @see https://github.com/spatie/laravel-database-mail-templates
@@ -57,8 +66,11 @@ class SpatieEmail extends TemplateMailable
     /** @var class-string<MailTemplateInterface> */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     protected static $templateModelClass = MailTemplate::class;
     public string $slug;
     /** @var array<int, Attachment> */
@@ -71,6 +83,9 @@ class SpatieEmail extends TemplateMailable
      */
     protected null|string $recipient = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
     protected static  $templateModelClass = MailTemplate::class;
     public string $slug;
@@ -86,16 +101,22 @@ class SpatieEmail extends TemplateMailable
 
     
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     public function __construct(Model $record, string $slug)
     {
         $this->slug = Str::slug($slug);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
         $tpl = MailTemplate::firstOrCreate(
             [
@@ -162,6 +183,9 @@ class SpatieEmail extends TemplateMailable
         $this->customAttachments[] = $attachment;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
         
         $tpl=MailTemplate::firstOrCreate([
@@ -217,8 +241,11 @@ class SpatieEmail extends TemplateMailable
         $this->customAttachments[] = $attachment;
     
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         return $this;
     }
 
@@ -226,21 +253,30 @@ class SpatieEmail extends TemplateMailable
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         $this->data = array_merge($this->data, $data);
         $this->setAdditionalData($this->data);
         $params = implode(',', array_keys($this->data));
         MailTemplate::where(['slug' => $this->slug, 'mailable' => SpatieEmail::class])->update(['params' => $params]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
         $this->data=array_merge($this->data,$data);
         $this->setAdditionalData($this->data);
         $params=implode(',',array_keys($this->data));
         MailTemplate::where(['slug'=>$this->slug,'mailable'=>SpatieEmail::class])->update(['params'=>$params]);
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         return $this;
     }
 
@@ -266,26 +302,38 @@ class SpatieEmail extends TemplateMailable
         $envelope = new Envelope();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         // Set the recipient if available
         if ($this->recipient) {
             $envelope->to($this->recipient);
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         return $envelope;
     }
 
@@ -305,8 +353,11 @@ class SpatieEmail extends TemplateMailable
         //dddx(MetatagData::make()->toArray());
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         $xot = XotData::make();
         $pub_theme = $xot->pub_theme;
         $pubThemePath = base_path('Themes/' . $pub_theme . '');
@@ -314,6 +365,9 @@ class SpatieEmail extends TemplateMailable
         //$pathToLayout = module_path('Notify','resources/mail-layouts/base.html');
         $pathToLayout = $pubThemePath . '/resources/mail-layouts/base.html';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
         $xot=XotData::make();
         $pub_theme=$xot->pub_theme;
@@ -322,8 +376,11 @@ class SpatieEmail extends TemplateMailable
         //$pathToLayout = module_path('Notify','resources/mail-layouts/base.html');
         $pathToLayout = $pubThemePath.'/resources/mail-layouts/base.html';
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         return file_get_contents($pathToLayout);
 
         //return '<header>Site name!</header>{{{ body }}}<footer>Copyright 2018</footer>';
@@ -334,6 +391,7 @@ class SpatieEmail extends TemplateMailable
         return $this->slug;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +457,11 @@ class SpatieEmail extends TemplateMailable
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
     public function getAttachmentFromPath(array $attachment): Attachment
     {
         $res = Attachment::fromPath($attachment['path']);
@@ -417,8 +480,17 @@ class SpatieEmail extends TemplateMailable
 >>>>>>> b19cd40 (.)
 =======
 
+<<<<<<< HEAD
         $res = $res->as($filename)->withMime($mime);
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+=======
+        $res = $res
+            ->as($filename)
+            ->withMime($mime);
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         return $res;
     }
 
@@ -426,6 +498,9 @@ class SpatieEmail extends TemplateMailable
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
         $res = Attachment::fromData(fn() => $attachment['data']);
 <<<<<<< HEAD
         /** @var string|null $asRaw */
@@ -496,10 +571,13 @@ class SpatieEmail extends TemplateMailable
 =======
         $res = $res->as($as)->withMime($mime);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 82ae73be (.)
 =======
         $res = Attachment::fromData(fn () => $attachment['data']);
         $as = $attachment['as'];
@@ -510,6 +588,7 @@ class SpatieEmail extends TemplateMailable
         if($mime==null && isset($info['extension'])){
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
 =======
             $mime = Arr::first(\Symfony\Component\Mime\MimeTypes::getDefault()->getMimeTypes($info['extension']));
@@ -517,6 +596,9 @@ class SpatieEmail extends TemplateMailable
 =======
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
 >>>>>>> de02998b (.)
+=======
+            $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
+>>>>>>> 82ae73be (.)
         }
         if($mime==null){
             $mime='application/octet-stream';
@@ -526,6 +608,7 @@ class SpatieEmail extends TemplateMailable
         $res = $res
             ->as($as)
             ->withMime($mime);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -549,6 +632,9 @@ class SpatieEmail extends TemplateMailable
 =======
         $res = $res->as($as)->withMime($mime);
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         return $res;
     }
 
@@ -562,8 +648,11 @@ class SpatieEmail extends TemplateMailable
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         $attachmentObjects = [];
 
         foreach ($attachments as $item) {
@@ -577,6 +666,9 @@ class SpatieEmail extends TemplateMailable
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
         
         $attachmentObjects = [];
@@ -592,8 +684,11 @@ class SpatieEmail extends TemplateMailable
             }
             
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
             if ($attachment) {
                 $attachmentObjects[] = $attachment;
             }
@@ -602,11 +697,17 @@ class SpatieEmail extends TemplateMailable
         $this->customAttachments = $attachmentObjects;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+        
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 
         return $this;
     }
@@ -620,8 +721,11 @@ class SpatieEmail extends TemplateMailable
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         return $this->customAttachments;
     }
 
@@ -661,7 +765,27 @@ class SpatieEmail extends TemplateMailable
         $mustache = app(Mustache_Engine::class);
         $sms = $mustache->render($sms_template, $this->data);
 
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+=======
+        
+        return $this->customAttachments;
+    }
+
+
+    public function buildSms():string{
+        /**@phpstan-ignore method.notFound */
+        $sms_template=$this->getMailTemplate()->getAttributeValue('sms_template');
+        $mustache= app(Mustache_Engine::class); 
+        $sms = $mustache->render(
+            $sms_template,
+            $this->data
+        );
+
+        
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
         return $sms;
     }
 }

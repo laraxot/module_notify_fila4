@@ -6,8 +6,11 @@ namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -71,6 +74,9 @@ final class NotificationLog extends BaseModel
     /**
      * Ottiene il notifiable associato a questo log.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 use Illuminate\Support\Carbon;
 use Modules\Predict\Models\Profile;
@@ -218,8 +224,11 @@ class NotificationLog extends Model
     /**
      * Get the notifiable entity.
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
      */
     public function notifiable(): MorphTo
     {
@@ -229,8 +238,11 @@ class NotificationLog extends Model
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -251,6 +263,9 @@ class NotificationLog extends Model
         NotificationLogStatusEnum $status,
     ): Builder {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
      * Get the notification template.
      *
@@ -270,16 +285,22 @@ class NotificationLog extends Model
     public function scopeWithStatus($query, string $status)
     {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         return $query->where('status', $status);
     }
 
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -288,6 +309,9 @@ class NotificationLog extends Model
     ): Builder {
         return $query->where('template_id', $templateId);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
      * Scope to filter by channel.
      *
@@ -392,6 +416,7 @@ class NotificationLog extends Model
     {
         return (string) __('notify::notification.fields.channel.options.'.$this->channel.'.label');
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
     }
 
     /**
@@ -416,5 +441,7 @@ class NotificationLog extends Model
         ]);
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     }
 }

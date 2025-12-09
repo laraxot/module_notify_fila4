@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 # ==============================================
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
@@ -63,6 +66,9 @@ lerna-debug.log*
 # LARAVEL SPECIFIC
 # ==============================================
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 # Dependencies and packages
 /vendor/
@@ -89,8 +95,11 @@ build/
 
 # Laravel specific
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -101,8 +110,11 @@ storage/*.key
 .env
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 .env.*
 !.env.example
 
@@ -197,6 +209,9 @@ test_notifications.sql
 laravel
 public_html
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
 
 # Local configurations
@@ -227,5 +242,8 @@ docs/phpstan/
 docs/cache/
 cache/
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)

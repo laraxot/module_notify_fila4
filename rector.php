@@ -33,6 +33,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -57,6 +58,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
@@ -104,6 +107,9 @@ return static function (RectorConfig $rectorConfig): void {
         '*/vendor',
     ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
     $rectorConfig->paths(
         [
@@ -119,8 +125,11 @@ return static function (RectorConfig $rectorConfig): void {
         ]
     );
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
@@ -129,8 +138,11 @@ return static function (RectorConfig $rectorConfig): void {
     // define sets of rules
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
@@ -145,6 +157,9 @@ return static function (RectorConfig $rectorConfig): void {
         // SetList::INSTANCEOF,
     ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
 =======
     $rectorConfig->sets(
         [
