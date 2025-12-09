@@ -128,7 +128,7 @@ class MailTemplateResource extends XotBaseResource
 {
     protected static ?string $model = MailTemplate::class;
 
-    public static function form(Form $form): Form
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form->schema([
             Card::make()->schema([
