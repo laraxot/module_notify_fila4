@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Implementazione dei Canali di Notifica 
 
 <<<<<<< HEAD
@@ -131,6 +132,11 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 =======
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
 >>>>>>> a29a4728 (.)
+=======
+# Implementazione dei Canali di Notifica 
+
+Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
+>>>>>>> 4f042b88 (.)
 
 ## Architettura Generale
 
@@ -285,7 +291,10 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
