@@ -83,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -156,12 +157,15 @@
 =======
 >>>>>>> 0dd5e35 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,11 +638,14 @@
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,6 +777,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
@@ -778,6 +787,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +883,8 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 <tr>
 =======
 =======
@@ -1142,6 +1154,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,6 +1625,10 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 =======
 >>>>>>> 2effe245 (.)
+=======
+					<div class="article-content" align="left">
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1626,6 +1643,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2032,3 +2050,5 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)

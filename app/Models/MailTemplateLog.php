@@ -45,6 +45,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -182,10 +183,13 @@ use Illuminate\Database\Eloquent\Model;
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -344,13 +348,34 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
+=======
+=======
+use Modules\User\Models\Profile;
+use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Modules\User\Models\Profile;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> b93ef594b4 (.)
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateLogFactory;
+use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
@@ -363,6 +388,10 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 75179b85 (.)
 
 /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @property-read Profile|null $creator
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
@@ -395,6 +424,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -414,6 +444,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
  * @property-read \Modules\User\Models\Profile|null $creator
  * @property-read \Illuminate\Database\Eloquent\Model|\Eloquent $mailable
@@ -427,6 +459,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateLog query()
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,6 +481,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
  *
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> d09cb759 (.)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
@@ -605,6 +640,7 @@ class MailTemplateLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -673,6 +709,10 @@ class MailTemplateLog extends BaseModel
     #[Override]
 =======
 >>>>>>> 2effe245 (.)
+=======
+    #[Override]
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,6 +725,7 @@ class MailTemplateLog extends BaseModel
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -807,6 +848,8 @@ class MailTemplateLog extends BaseModel
 =======
     #[Override]
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     protected function casts(): array
     {
         return [

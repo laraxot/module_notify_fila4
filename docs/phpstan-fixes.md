@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -871,6 +872,8 @@ private static function processArray(array $data): array
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -976,6 +979,7 @@ private function castNotificationData(mixed $data): string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 <<<<<<< HEAD
 >>>>>>> 9ed014c (.)
@@ -986,6 +990,8 @@ private function castNotificationData(mixed $data): string
 =======
 =======
 >>>>>>> 2fdda20 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 # Modulo Notify - Correzioni PHPStan Implementate
 
@@ -1160,6 +1166,7 @@ private static function processArray(array $data): array
 **Verificato**: ✅ Conformità PHPStan livello 9
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
@@ -1195,3 +1202,6 @@ private static function processArray(array $data): array
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)

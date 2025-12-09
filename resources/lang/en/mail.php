@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -60,10 +61,13 @@
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +384,8 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
@@ -390,6 +396,22 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+return [
+    'welcome' => [
+        'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : 'SaluteOra'),
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+return [
+    'welcome' => [
+        'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : ''),
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 return [
@@ -397,6 +419,7 @@ return [
         'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : 'SaluteOra'),
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +485,8 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         'greeting' => 'Hello :name,',
         'description' => 'Thank you for joining us. We\'re excited to have you on board!',
         'action' => 'Get Started',

@@ -45,6 +45,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -244,10 +245,13 @@ use Carbon\Carbon;
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 =======
 use Carbon\Carbon;
 =======
@@ -318,14 +322,37 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
+=======
+=======
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+>>>>>>> b93ef594b4 (.)
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Xot\Traits\Updater;
@@ -348,6 +375,10 @@ use Modules\Xot\Traits\Updater;
  * @property array|null $metadata
  * @property string|null $created_by
  * @property string|null $change_notes
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property Carbon|null $deleted_at
@@ -401,6 +432,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -419,6 +451,8 @@ use Modules\Xot\Traits\Updater;
 =======
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 =======
  * @property \Carbon\Carbon|null $created_at
@@ -454,6 +488,7 @@ use Modules\Xot\Traits\Updater;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion withoutTrashed()
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +510,8 @@ use Modules\Xot\Traits\Updater;
 =======
  *
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> d09cb759 (.)
  * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
  */
@@ -680,6 +717,7 @@ class MailTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -748,6 +786,10 @@ class MailTemplateVersion extends BaseModel
     #[Override]
 =======
 >>>>>>> 2effe245 (.)
+=======
+    #[Override]
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,6 +802,7 @@ class MailTemplateVersion extends BaseModel
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,6 +925,8 @@ class MailTemplateVersion extends BaseModel
 =======
     #[Override]
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     protected function casts(): array
     {
         return [
@@ -902,7 +947,15 @@ class MailTemplateVersion extends BaseModel
         $template = $this->template;
 
         if ($template === null) {
+<<<<<<< HEAD
             throw new RuntimeException('Template non trovato per questa versione');
+=======
+<<<<<<< HEAD
+            throw new RuntimeException('Template non trovato per questa versione');
+=======
+            throw new \RuntimeException('Template non trovato per questa versione');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         }
 
         $template->update([

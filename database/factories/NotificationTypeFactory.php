@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -112,10 +113,13 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 <<<<<<< HEAD
@@ -277,19 +281,27 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> a12f125f4a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
@@ -305,10 +317,13 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,6 +394,8 @@ declare(strict_types=1);
 
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -399,6 +416,7 @@ class NotificationTypeFactory extends Factory
             'updated_at' => $this->faker->dateTimeBetween('-1 year'),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,6 +537,10 @@ class NotificationTypeFactory extends Factory
 }
 =======
 >>>>>>> 2effe245 (.)
+=======
+}
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +555,7 @@ class NotificationTypeFactory extends Factory
 }
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -636,3 +659,5 @@ class NotificationTypeFactory extends Factory
 =======
 }
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)

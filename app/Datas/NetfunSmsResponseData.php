@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -107,10 +108,13 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 <<<<<<< HEAD
@@ -279,19 +283,27 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> a12f125f4a (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
@@ -307,10 +319,13 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,6 +397,8 @@ declare(strict_types=1);
 
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -517,9 +534,11 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
     public function __construct(
         public string $status,
+<<<<<<< HEAD
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
@@ -568,6 +587,9 @@ class NetfunSmsResponseData extends Data
         public null|array $messages = null,
         public null|string $error = null,
 =======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -577,6 +599,8 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> d09cb759 (.)
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
@@ -584,6 +608,7 @@ class NetfunSmsResponseData extends Data
         public ?string $batchId = null,
         public ?array $messages = null,
         public ?string $error = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -599,9 +624,13 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
@@ -618,6 +647,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
         public ?string $batchId = null,
@@ -625,6 +656,7 @@ class NetfunSmsResponseData extends Data
         public ?string $error = null,
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -888,6 +920,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     ) {}
 
     public static function fromArray(array $data): self
@@ -900,7 +934,9 @@ class NetfunSmsResponseData extends Data
             status: $data['status'],
             batchId: $data['batchId'] ?? null,
             messages: $data['messages'] ?? null,
+<<<<<<< HEAD
             error: $data['error'] ?? null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -985,6 +1021,23 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            error: $data['error'] ?? null,
+=======
+            error: $data['error'] ?? null
+>>>>>>> a12f125f4a (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> b93ef594b4 (.)
+=======
+            error: $data['error'] ?? null
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         );
     }
 }

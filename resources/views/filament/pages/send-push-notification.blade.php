@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -68,12 +69,15 @@
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -140,11 +144,17 @@
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 <x-filament-panels::page>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +322,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -435,10 +446,15 @@ declare(strict_types=1);
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> c8b1c8bf (.)
 =======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -474,6 +490,8 @@ declare(strict_types=1);
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -490,6 +508,7 @@ declare(strict_types=1);
                             {{ $action }}
                         @endforeach
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,10 +943,15 @@ declare(strict_types=1);
 >>>>>>> 4d2eb53e (.)
 =======
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+=======
+>>>>>>> 11ae5222 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
                 </div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 >>>>>>> 54220b28 (rebase 210)
 =======
 =======
@@ -1014,6 +1038,58 @@ declare(strict_types=1);
 >>>>>>> 75179b85 (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+<x-filament-panels::page>
+    <div class="space-y-6">
+        <div class="bg-white shadow rounded-lg">
+            <div class="px-4 py-5 sm:p-6">
+                <h3 class="text-lg font-medium text-gray-900">
+                    Test Invio Notifiche Push
+                </h3>
+                <p class="mt-1 text-sm text-gray-600">
+                    Utilizza questo form per testare l'invio di notifiche push ai dispositivi mobili tramite diversi servizi.
+                </p>
+
+                <div class="mt-6">
+                    {{ $this->notificationForm }}
+                </div>
+<<<<<<< HEAD
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+=======
+
+                <div class="mt-6 flex items-center justify-between gap-x-3">
+                    <div>
+                        <div class="inline-flex items-center" wire:loading wire:target="sendNotification()">
+                            <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            Invio in corso...
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        @foreach($this->getNotificationFormActions() as $action)
+                            {{ $action }}
+                        @endforeach
+                    </div>
+>>>>>>> 11ae5222 (.)
+                </div>
+            </div>
+<<<<<<< HEAD
+        </x-slot>
+    </x-filament::section>
+>>>>>>> a12f125f4a (.)
+=======
+        </div>
+    </div>
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d09cb759 (.)
+=======
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -1037,6 +1113,7 @@ declare(strict_types=1);
             </div>
         </x-slot>
     </x-filament::section>
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
@@ -1045,4 +1122,8 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 </x-filament-panels::page>

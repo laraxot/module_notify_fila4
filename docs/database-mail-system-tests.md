@@ -528,6 +528,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -909,3 +910,8 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> f963d2c0 (.)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)

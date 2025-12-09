@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -152,12 +153,15 @@
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -371,6 +375,8 @@
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 <?php
 
 declare(strict_types=1);
@@ -469,6 +475,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -517,6 +524,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
@@ -525,6 +534,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -825,6 +835,8 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 @extends('notify::emails.templates.ark')
 
 @section('content')
@@ -947,6 +959,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1141,6 +1154,10 @@ declare(strict_types=1);
 @stop
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+@stop
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1155,6 +1172,7 @@ declare(strict_types=1);
 @stop
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1438,3 +1456,5 @@ declare(strict_types=1);
 =======
 @stop
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)

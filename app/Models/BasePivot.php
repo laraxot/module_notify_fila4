@@ -159,6 +159,7 @@ abstract class BasePivot extends Pivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -241,10 +242,13 @@ abstract class BasePivot extends Pivot
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -299,12 +303,15 @@ abstract class BasePivot extends Pivot
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> d09cb759 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,11 +375,14 @@ abstract class BasePivot extends Pivot
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,9 +494,13 @@ abstract class BasePivot extends Pivot
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,10 +564,13 @@ abstract class BasePivot extends Pivot
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -824,6 +841,8 @@ abstract class BasePivot extends Pivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

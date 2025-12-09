@@ -48,6 +48,7 @@ use Modules\Notify\Models\NotifyThemeable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -130,6 +131,10 @@ use Modules\Notify\Models\NotifyThemeable;
  *
 =======
 >>>>>>> 2effe245 (.)
+=======
+ *
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +149,7 @@ use Modules\Notify\Models\NotifyThemeable;
  * 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,6 +253,8 @@ use Modules\Notify\Models\NotifyThemeable;
 =======
  *
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
  * @extends Factory<NotifyThemeable>
  */
 class NotifyThemeableFactory extends Factory
@@ -309,6 +317,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -495,6 +504,10 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 2effe245 (.)
         return $this->state(fn(array $_attributes): array => [
 =======
+=======
+        return $this->state(fn(array $_attributes): array => [
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -509,6 +522,7 @@ class NotifyThemeableFactory extends Factory
         return $this->state(fn (array $attributes): array => [
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,6 +594,8 @@ class NotifyThemeableFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
@@ -627,6 +643,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -645,10 +662,13 @@ class NotifyThemeableFactory extends Factory
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -703,6 +723,8 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         return $this->state(fn(array $_attributes): array => [
 =======
 =======
@@ -820,6 +842,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -836,6 +859,8 @@ class NotifyThemeableFactory extends Factory
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
         return $this->state(fn (array $attributes): array => [
 =======
@@ -849,6 +874,7 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -890,11 +916,14 @@ class NotifyThemeableFactory extends Factory
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
         return $this->state(fn (array $attributes): array => [
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1022,3 +1051,7 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)

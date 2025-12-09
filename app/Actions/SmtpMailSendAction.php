@@ -113,6 +113,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -155,10 +156,13 @@ class SmtpMailSendAction
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +393,8 @@ class SmtpMailSendAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -521,6 +527,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -557,6 +564,8 @@ class SmtpMailSendAction
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
     public function execute(string $to, string $subject, string $body): void
 =======
@@ -566,6 +575,7 @@ class SmtpMailSendAction
         dddx('WIP');
 
         /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,10 +696,13 @@ class SmtpMailSendAction
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
     public function execute(string $to, string $subject, string $body): void
     {
         dddx('WIP');
         /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,6 +821,9 @@ class SmtpMailSendAction
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
         $smtpData = SmtpData::make();
         $transport = $smtpData->getTransport();
 
@@ -842,6 +858,7 @@ class SmtpMailSendAction
             throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -939,6 +956,8 @@ class SmtpMailSendAction
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
          * $smtpData = SmtpData::make();
@@ -979,6 +998,7 @@ class SmtpMailSendAction
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1225,5 +1245,7 @@ class SmtpMailSendAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 }

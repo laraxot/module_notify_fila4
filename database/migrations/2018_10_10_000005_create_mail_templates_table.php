@@ -45,6 +45,7 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -260,6 +261,11 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 =======
+=======
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +284,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,6 +360,8 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -401,6 +410,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -603,6 +613,10 @@ return new class extends XotBaseMigration
 >>>>>>> 2effe245 (.)
 return new class() extends XotBaseMigration {
 =======
+=======
+return new class() extends XotBaseMigration {
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -617,6 +631,7 @@ return new class() extends XotBaseMigration {
 return new class () extends XotBaseMigration {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -677,6 +692,8 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     /**
      * Run the migrations.
      */
@@ -730,6 +747,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -778,6 +796,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -790,6 +810,7 @@ return new class() extends XotBaseMigration {
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -884,10 +905,13 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -947,10 +971,13 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1034,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -1026,6 +1055,7 @@ return new class() extends XotBaseMigration {
             );
         });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1348,6 +1378,8 @@ return new class() extends XotBaseMigration {
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
             if (! $this->hasColumn('name')) {
 =======
@@ -1377,6 +1409,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1385,6 +1418,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> d09cb759 (.)
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -1395,6 +1430,7 @@ return new class() extends XotBaseMigration {
                 $table->text('params')->nullable();
             }
             if (! $this->hasColumn('sms_template')) {
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73b (.)
@@ -1415,12 +1451,15 @@ return new class() extends XotBaseMigration {
             }
             if (!$this->hasColumn('sms_template')) {
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> d09cb759 (.)
                 $table->json('sms_template')->nullable();
             }
 
             $this->updateTimestamps(table: $table, hasSoftDeletes: true);
         });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1476,4 +1515,9 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 };

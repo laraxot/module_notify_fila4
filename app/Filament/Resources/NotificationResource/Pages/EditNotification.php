@@ -20,9 +20,11 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 75179b85 (.)
 
+<<<<<<< HEAD
 class EditNotification extends XotBaseEditRecord
 {
     protected static string $resource = NotificationResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +223,8 @@ class EditNotification extends XotBaseEditRecord
 =======
 >>>>>>> 3ee54c5d (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 class EditNotification extends XotBaseEditRecord
 {
@@ -239,6 +243,7 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,4 +508,6 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 }

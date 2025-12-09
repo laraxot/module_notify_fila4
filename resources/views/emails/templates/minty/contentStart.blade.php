@@ -83,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -156,12 +157,15 @@
 =======
 >>>>>>> 0dd5e35 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,11 +638,14 @@
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,6 +777,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
@@ -778,6 +787,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +883,8 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 <div class="block">
 =======
 =======
@@ -1148,6 +1160,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1618,6 +1631,10 @@ declare(strict_types=1);
 								<tbody>
 =======
 >>>>>>> 2effe245 (.)
+=======
+								<tbody>
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1632,6 +1649,7 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2038,3 +2056,5 @@ declare(strict_types=1);
 =======
 								<tbody>
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)

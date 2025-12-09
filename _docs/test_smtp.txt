@@ -48,6 +48,15 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 - [Best practice per la configurazione SMTP](./EMAIL_BEST_PRACTICES.md)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> bf9590e (.)
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
