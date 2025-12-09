@@ -6,12 +6,12 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Models\NotificationType;
 
-describe('NotificationType Business Logic', function (): void {
-    test('notification type extends eloquent model', function (): void {
+describe('NotificationType Business Logic', function () {
+    test('notification type extends eloquent model', function () {
         expect(NotificationType::class)->toBeSubclassOf(Model::class);
     });
 
-    test('notification type has expected fillable fields', function (): void {
+    test('notification type has expected fillable fields', function () {
         $notificationType = new NotificationType;
         $expectedFillable = [
             'name',
@@ -22,7 +22,7 @@ describe('NotificationType Business Logic', function (): void {
         expect($notificationType->getFillable())->toEqual($expectedFillable);
     });
 
-    test('notification type can store basic information', function (): void {
+    test('notification type can store basic information', function () {
         $notificationType = new NotificationType;
         $notificationType->name = 'Email Verification';
         $notificationType->description = 'Email verification notification type';
@@ -33,14 +33,14 @@ describe('NotificationType Business Logic', function (): void {
         expect($notificationType->template)->toBe('email-verification-template');
     });
 
-    test('notification type model can be instantiated without errors', function (): void {
+    test('notification type model can be instantiated without errors', function () {
         $notificationType = new NotificationType;
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);
     });
 
-    test('notification type can be queried', function (): void {
+    test('notification type can be queried', function () {
         $query = NotificationType::query();
 
         expect($query)->toBeInstanceOf(Builder::class);

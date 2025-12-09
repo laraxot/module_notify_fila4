@@ -2,11 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 namespace Modules\Notify\Jobs;
-=======
-namespace Modules\Notify\App\Jobs;
->>>>>>> ec9288a (.)
 
 use Exception;
 use Throwable;
@@ -17,11 +13,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
-<<<<<<< HEAD
 use Modules\Notify\Services\PushNotificationService;
-=======
-use Modules\Notify\App\Services\PushNotificationService;
->>>>>>> ec9288a (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -106,9 +98,3 @@ class SendScheduledPushNotification implements ShouldQueue
         Cache::forget("scheduled_push:{$this->jobId}");
     }
 }
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> ec9288a (.)
