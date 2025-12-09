@@ -159,6 +159,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -560,6 +561,8 @@
 =======
 =======
 >>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 09c0a9cd (.)
 <?php
 
 declare(strict_types=1);
@@ -1275,14 +1278,18 @@ declare(strict_types=1);
 >>>>>>> b8041b24 (.)
 =======
 <tr>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 09c0a9cd (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2252,3 +2259,6 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 518c702 (.)
 >>>>>>> fd1fcc4c (.)
+=======
+</tr>
+>>>>>>> 09c0a9cd (.)
