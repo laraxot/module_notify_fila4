@@ -8,6 +8,7 @@ namespace Modules\Notify\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
@@ -21,16 +22,10 @@ use Modules\Xot\Tests\CreatesApplication;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-use Illuminate\Foundation\Application;
-use Modules\Notify\Providers\NotifyServiceProvider;
 =======
-use Modules\Notify\Providers\NotifyServiceProvider;
-use Illuminate\Foundation\Application;
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
->>>>>>> 4e2ebfb (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 >>>>>>> 75179b85 (.)
@@ -55,6 +50,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -75,6 +71,9 @@ abstract class TestCase extends BaseTestCase
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }

@@ -8,6 +8,7 @@ namespace Modules\Notify\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -32,6 +33,10 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+>>>>>>> 9777d1b3 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -46,6 +51,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -54,11 +60,14 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,5 +92,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
     }
 }

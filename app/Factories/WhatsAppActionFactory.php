@@ -15,6 +15,7 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 
@@ -32,10 +33,14 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
 use function Safe\preg_replace;
 
 /**
  * Factory per la creazione di azioni WhatsApp.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,6 +65,9 @@ use function Safe\preg_replace;
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+ *
+>>>>>>> 9777d1b3 (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -84,6 +92,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -92,6 +101,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
@@ -119,6 +130,7 @@ final class WhatsAppActionFactory
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,10 +165,13 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
         // Verifica se la classe implementa l'interfaccia richiesta
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,13 +231,9 @@ final class WhatsAppActionFactory
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-
 =======
-        
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
 
->>>>>>> 4e2ebfb (.)
         return app($className);
 >>>>>>> 75179b85 (.)
     }

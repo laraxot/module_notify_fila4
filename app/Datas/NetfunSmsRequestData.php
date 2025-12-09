@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -28,6 +29,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 9777d1b3 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -71,6 +77,7 @@ class NetfunSmsRequestData extends Data
     {
         return new self(
             token: $data['token'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +143,9 @@ class NetfunSmsRequestData extends Data
             messages: $data['messages'],
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+            messages: $data['messages'],
+>>>>>>> 9777d1b3 (.)
         );
     }
 }

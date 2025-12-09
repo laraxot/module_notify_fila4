@@ -8,6 +8,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 use Override;
@@ -25,6 +26,9 @@ use Override;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+use Override;
+>>>>>>> 9777d1b3 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -35,6 +39,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -59,6 +64,10 @@ use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+use Modules\Notify\Datas\SMS\NexmoData;
+use Modules\Notify\Datas\SmsData;
+>>>>>>> 9777d1b3 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendNexmoSMSAction implements SmsActionContract
@@ -75,6 +84,7 @@ final class SendNexmoSMSAction implements SmsActionContract
     protected bool $debug;
 
     /** @var string|null */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,6 +109,9 @@ final class SendNexmoSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+    protected null|string $defaultSender = null;
+>>>>>>> 9777d1b3 (.)
 
     /**
      * Create a new action instance.
@@ -106,6 +119,7 @@ final class SendNexmoSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->nexmoData = NexmoData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +144,9 @@ final class SendNexmoSMSAction implements SmsActionContract
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
         if (!$this->nexmoData->key) {
             throw new Exception('Key Nexmo non configurata in sms.php');
         }
@@ -155,6 +172,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
     #[Override]
@@ -172,6 +190,9 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+    #[Override]
+>>>>>>> 9777d1b3 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -196,6 +217,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -216,6 +238,9 @@ final class SendNexmoSMSAction implements SmsActionContract
             'headers' => $headers,
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+            'headers' => $headers,
+>>>>>>> 9777d1b3 (.)
         ]);
 
         try {
@@ -226,6 +251,7 @@ final class SendNexmoSMSAction implements SmsActionContract
                     'to' => $to,
                     'from' => $from,
                     'text' => $smsData->body,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +280,10 @@ final class SendNexmoSMSAction implements SmsActionContract
                 ],
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+                    'type' => 'unicode',
+                ],
+>>>>>>> 9777d1b3 (.)
             ]);
 
             $this->vars['status_code'] = $response->getStatusCode();
@@ -264,6 +294,7 @@ final class SendNexmoSMSAction implements SmsActionContract
             throw new Exception(
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
                 $clientException->getCode(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +319,9 @@ final class SendNexmoSMSAction implements SmsActionContract
                 $clientException,
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+                $clientException,
+>>>>>>> 9777d1b3 (.)
             );
         }
     }
