@@ -361,6 +361,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
 =======
 <<<<<<< HEAD
@@ -491,11 +492,15 @@
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> eb71492d (.)
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> f9ec4f86 (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -646,6 +651,8 @@ npm-debug.log
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> eb71492d (.)
+=======
+>>>>>>> f9ec4f86 (.)
 vendor/
 /vendor/
 node_modules/
@@ -655,6 +662,7 @@ package-lock.json
 yarn.lock
 yarn-error.log
 composer.lock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -794,6 +802,8 @@ composer.lock
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> eb71492d (.)
+=======
+>>>>>>> f9ec4f86 (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -847,6 +857,7 @@ cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.exe
 =======
 <<<<<<< HEAD
@@ -970,6 +981,9 @@ cache/
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> eb71492d (.)
+=======
+*.exe
+>>>>>>> f9ec4f86 (.)
 *:Zone.Identifier
 v8-compile-cache-*
 .php-cs-fixer.cache
@@ -1010,6 +1024,7 @@ npm-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 npm-debug.log
 =======
 <<<<<<< HEAD
@@ -1133,6 +1148,9 @@ npm-debug.log
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> eb71492d (.)
+=======
+npm-debug.log
+>>>>>>> f9ec4f86 (.)
 yarn-error.log*
 lerna-debug.log*
 
@@ -2257,6 +2275,7 @@ docs/cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2375,6 +2394,8 @@ database_old/
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> eb71492d (.)
+=======
+>>>>>>> f9ec4f86 (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -2388,6 +2409,7 @@ database/Factories_old
 database/Factories_
 database_old/
 database_old
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2521,6 +2543,8 @@ database_old
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> eb71492d (.)
+=======
+>>>>>>> f9ec4f86 (.)
 
 # ==============================================
 # MODULE SPECIFIC - NOTIFY
@@ -2529,6 +2553,7 @@ database_old
 config/local.php
 config/development.php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2719,6 +2744,11 @@ storage/queue/
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> eb71492d (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> f9ec4f86 (.)
 
 # File di test notifiche
 notification_test_data.json
@@ -2728,6 +2758,7 @@ test_notifications.sql
 # END OF NOTIFY .GITIGNORE
 # ==============================================
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2881,6 +2912,9 @@ test_notifications.sql
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> eb71492d (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> f9ec4f86 (.)
 *.fila2
 laravel
 public_html
