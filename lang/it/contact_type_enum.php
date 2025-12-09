@@ -79,6 +79,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -427,6 +428,9 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+        'hex_color' => '#16a34a',
+>>>>>>> bb00ab64 (rebase 210)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -505,6 +509,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -853,6 +858,9 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+        'hex_color' => '#9333ea',
+>>>>>>> bb00ab64 (rebase 210)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -931,6 +939,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1279,6 +1288,9 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+        'hex_color' => '#2563eb',
+>>>>>>> bb00ab64 (rebase 210)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -1357,6 +1369,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1705,6 +1718,9 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+        'hex_color' => '#ea580c',
+>>>>>>> bb00ab64 (rebase 210)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -1783,6 +1799,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2131,6 +2148,9 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+        'hex_color' => '#25d366',
+>>>>>>> bb00ab64 (rebase 210)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
@@ -2206,6 +2226,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2424,10 +2445,13 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> bb00ab64 (rebase 210)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2882,3 +2906,5 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> bb00ab64 (rebase 210)
