@@ -301,6 +301,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -327,6 +328,8 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 =======
+=======
+>>>>>>> 3b4c9907 (.)
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -334,6 +337,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 >>>>>>> bf479cc (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -621,6 +625,11 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+=======
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -644,6 +653,7 @@ php -l Modules/Notify/lang/it/send_email.php
 ## 🔗 Collegamenti
 
 ### Documentazione Correlata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -719,11 +729,16 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> 3b4c9907 (.)
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+=======
+- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+>>>>>>> b19cd40 (.)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 =======
 >>>>>>> d284d65 (.)
@@ -899,6 +914,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -1170,6 +1186,14 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+=======
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
 
 ## 📝 Note di Implementazione
 

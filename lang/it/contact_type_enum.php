@@ -49,6 +49,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -252,6 +253,11 @@ return [
 =======
         'hex_color' => '#16a34a',
 >>>>>>> 4e4a7796 (.)
+=======
+        'hex_color' => '#16a34a',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -300,6 +306,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -503,6 +510,11 @@ return [
 =======
         'hex_color' => '#9333ea',
 >>>>>>> 4e4a7796 (.)
+=======
+        'hex_color' => '#9333ea',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -551,6 +563,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -754,6 +767,11 @@ return [
 =======
         'hex_color' => '#2563eb',
 >>>>>>> 4e4a7796 (.)
+=======
+        'hex_color' => '#2563eb',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -802,6 +820,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1005,6 +1024,11 @@ return [
 =======
         'hex_color' => '#ea580c',
 >>>>>>> 4e4a7796 (.)
+=======
+        'hex_color' => '#ea580c',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -1053,6 +1077,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1256,6 +1281,11 @@ return [
 =======
         'hex_color' => '#25d366',
 >>>>>>> 4e4a7796 (.)
+=======
+        'hex_color' => '#25d366',
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
@@ -1301,6 +1331,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1430,10 +1461,13 @@ return [
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,9 +1570,12 @@ return [
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
+>>>>>>> 3b4c9907 (.)
+=======
         'description' => 'Numero fax',
     ],
 ]; 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1695,3 +1732,6 @@ return [
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
