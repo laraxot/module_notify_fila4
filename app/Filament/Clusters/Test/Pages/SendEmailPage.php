@@ -129,12 +129,12 @@ class SendEmailPage extends XotBasePage
             'section' => Section::make()
                 // ->description('Update your account\'s profile information and email address.')
                 ->schema([
-                    'to' => TextInput::make('to')
+                    TextInput::make('to')
                         // ->unique(ignoreRecord: true)
                         ->email()
                         ->required(),
-                    'subject' => TextInput::make('subject')->required(),
-                    'body_html' => RichEditor::make('body_html')->required(),
+                    TextInput::make('subject')->required(),
+                    RichEditor::make('body_html')->required(),
                 ]),
         ];
     }
