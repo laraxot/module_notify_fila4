@@ -16,7 +16,6 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
-    use Queueable, SerializesModels;
 
     /**
      * Dati della notifica dell'appuntamento.
