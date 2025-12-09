@@ -1,17 +1,10 @@
 <?php
-<<<<<<< HEAD
-=======
-
->>>>>>> c454ecf (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
-<<<<<<< HEAD
 use function Safe\base64_decode;
 
-=======
->>>>>>> c454ecf (.)
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
