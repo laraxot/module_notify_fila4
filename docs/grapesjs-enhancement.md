@@ -71,6 +71,7 @@ class PageTemplate extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema {
 =======
 public static function form(Form $form): Form {
@@ -87,6 +88,9 @@ public static function form(Form $form): Form {
 =======
 public static function form(Form $form): Form {
 >>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> 31f5d28f (.)
     return $form->schema([
         TextInput::make('name')->required(),
         GrapesJsEditor::make('content_json')
@@ -158,6 +162,7 @@ class PublishPageTemplateAction {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 75179b85 (.)
@@ -179,4 +184,7 @@ class PublishPageTemplateAction {
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/project_docs/
+>>>>>>> 31f5d28f (.)
 - GrapesJS Docs: https://grapesjs.com/docs/
