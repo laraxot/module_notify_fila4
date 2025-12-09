@@ -39,6 +39,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
@@ -52,6 +53,8 @@ class SmsChannel
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
 =======
@@ -65,11 +68,15 @@ class SmsChannel
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +448,12 @@ class SmsChannel
 =======
         if (!method_exists($notification, 'toSms')) {
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($notification, 'toSms')) {
+=======
+        if (!method_exists($notification, 'toSms')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Notification does not have toSms method');
         }
 
@@ -494,6 +507,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -658,10 +672,13 @@ class SmsChannel
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f1c9518b (.)
         if (! ($smsData instanceof SmsData)) {
 =======
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -813,6 +830,8 @@ class SmsChannel
 =======
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 

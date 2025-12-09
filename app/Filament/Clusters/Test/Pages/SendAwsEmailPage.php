@@ -132,7 +132,11 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
 
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
+>>>>>>> 99ff506 (.)
 
     protected string $view = 'notify::filament.pages.send-email';
 

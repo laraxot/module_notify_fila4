@@ -72,6 +72,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -195,6 +196,8 @@ class Pdf
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> f1c9518b (.)
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
 =======
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
@@ -204,6 +207,7 @@ class Pdf
         }
         Assert::string($file_name, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -252,11 +256,14 @@ class Pdf
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> f1c9518b (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
         }
         Assert::string($file_name, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -265,6 +272,9 @@ class Pdf
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         $file_path = Storage::disk('cache')->path($file_name);
 
         HtmlService::toPdf(

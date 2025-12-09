@@ -31,6 +31,7 @@ namespace Modules\Notify\Actions\WhatsApp;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -163,10 +164,16 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 2941b0bd (.)
+=======
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,10 +219,13 @@ use Illuminate\Support\Str;
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +263,10 @@ use Modules\Notify\Datas\WhatsAppData;
 use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+use Modules\Notify\Datas\WhatsAppData;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Spatie\QueueableAction\QueueableAction;
 
 <<<<<<< HEAD
@@ -586,10 +600,25 @@ final class Send360dialogWhatsAppAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+    private string $apiKey;
+<<<<<<< HEAD
+
+    private string $baseUrl = 'https://waba.360dialog.io/v1';
+
+    private array $vars = [];
+
+>>>>>>> f1c9518b (.)
     protected bool $debug;
 
+=======
+    private string $baseUrl = 'https://waba.360dialog.io/v1';
+    private array $vars = [];
+    protected bool $debug;
+>>>>>>> 99ff506 (.)
     protected int $timeout;
 
 >>>>>>> c8b1c8bf (.)
@@ -647,6 +676,7 @@ final class Send360dialogWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.360dialog.api_key');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,6 +782,12 @@ final class Send360dialogWhatsAppAction
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+        if (! is_string($apiKey)) {
+=======
+        if (!is_string($apiKey)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception(
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
             );
@@ -1406,6 +1442,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1428,12 +1465,15 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
      *
 =======
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1444,6 +1484,9 @@ final class Send360dialogWhatsAppAction
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -1919,13 +1962,17 @@ final class Send360dialogWhatsAppAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $endpoint = $this->baseUrl . '/messages';
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
         $endpoint = $this->baseUrl.'/messages';
 =======
         $endpoint = $this->baseUrl . '/messages';
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
         $endpoint = $this->baseUrl.'/messages';
@@ -1933,6 +1980,8 @@ final class Send360dialogWhatsAppAction
         $endpoint = $this->baseUrl . '/messages';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 
         $payload = [
             'to' => $whatsAppData->to,
@@ -2259,6 +2308,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
         } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
@@ -2291,19 +2341,25 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
         } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 =======
         } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -2388,6 +2444,9 @@ final class Send360dialogWhatsAppAction
 =======
 >>>>>>> 3f537838 (.)
 =======
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             $mediaUrl = $whatsAppData->media[0];
             $mediaType = $this->determineMediaType($mediaUrl);
 
@@ -5044,8 +5103,16 @@ final class Send360dialogWhatsAppAction
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
+<<<<<<< HEAD
      * @param string $url URL del media
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+     * @param  string  $url  URL del media
+=======
+     * @param string $url URL del media
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return string Tipo di media (image, video, audio, document)
      */
     private function determineMediaType(string $url): string

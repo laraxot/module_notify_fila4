@@ -387,6 +387,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 
 class SmsFactorData extends Data
 {
@@ -404,12 +405,15 @@ class SmsFactorData extends Data
     {
         if (! (self::$instance instanceof SmsFactorData)) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+=======
+>>>>>>> f1c9518b (.)
 use Webmozart\Assert\Assert;
 
 class SmsFactorData extends Data
@@ -425,9 +429,13 @@ class SmsFactorData extends Data
     {
         if (!(self::$instance instanceof SmsFactorData)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
@@ -1174,10 +1182,17 @@ class SmsFactorData extends Data
                 return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Bearer '.$this->token,
 =======
                     'Authorization' => 'Bearer ' . $this->token,
 >>>>>>> 75179b8 (.)
+=======
+                    'Authorization' => 'Bearer '.$this->token,
+=======
+                    'Authorization' => 'Bearer ' . $this->token,
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                     'Content-Type' => 'application/json',
 <<<<<<< HEAD
 <<<<<<< HEAD

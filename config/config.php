@@ -1108,6 +1108,7 @@ return [
     //'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1227,6 +1228,9 @@ return [
     // Footer text for all emails
     //'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     // Social media links
     'social_links' => [

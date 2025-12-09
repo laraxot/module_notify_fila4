@@ -12151,6 +12151,7 @@ describe('Notification Management Business Logic', function () {
                 'subject' => "Test Notification - {$priority} Priority",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'content' => 'This is a test notification with '.$priority.' priority',
 =======
                 'content' => 'This is a test notification with ' . $priority . ' priority',
@@ -12158,6 +12159,12 @@ describe('Notification Management Business Logic', function () {
 =======
                 'content' => 'This is a test notification with ' . $priority . ' priority',
 >>>>>>> 75179b85 (.)
+=======
+                'content' => 'This is a test notification with '.$priority.' priority',
+=======
+                'content' => 'This is a test notification with ' . $priority . ' priority',
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 'status' => 'pending',
                 'priority' => $priority,
             ];
@@ -17007,6 +17014,7 @@ describe('Notification Management Business Logic', function () {
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tracking_id' => 'track_'.uniqid(),
 =======
             'tracking_id' => 'track_' . uniqid(),
@@ -17014,6 +17022,12 @@ describe('Notification Management Business Logic', function () {
 =======
             'tracking_id' => 'track_' . uniqid(),
 >>>>>>> 75179b85 (.)
+=======
+            'tracking_id' => 'track_'.uniqid(),
+=======
+            'tracking_id' => 'track_' . uniqid(),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         ];
 
         $notification = Notification::create($notificationData);

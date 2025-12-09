@@ -968,19 +968,28 @@ declare(strict_types=1);
             @foreach(array_filter(array_map('trim', explode(',', $params))) as $param)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <x-filament::badge>{{ $param }}</x-filament::badge>
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+                <x-filament::badge>{{ $param }}</x-filament::badge>
+=======
+>>>>>>> f1c9518b (.)
                 <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
                            bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 
                            border border-blue-200 dark:border-blue-800">
                     {{ $param }}
                 </span>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             @endforeach
         </div>
         

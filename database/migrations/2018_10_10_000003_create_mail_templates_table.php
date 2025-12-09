@@ -52,6 +52,7 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -238,9 +239,12 @@ use Illuminate\Support\Facades\Schema;
 =======
 >>>>>>> 98d837b9 (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -401,6 +405,8 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -456,6 +462,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -624,10 +631,13 @@ return new class() extends XotBaseMigration {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> f1c9518b (.)
 return new class extends XotBaseMigration
 {
 =======
 return new class() extends XotBaseMigration {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -768,6 +778,9 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     /**
      * Run the migrations.
      */
@@ -1061,6 +1074,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1368,6 +1382,12 @@ return new class() extends XotBaseMigration {
 =======
             if (!$this->hasColumn('name')) {
 >>>>>>> 2941b0bd (.)
+=======
+            if (! $this->hasColumn('name')) {
+=======
+            if (!$this->hasColumn('name')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 $table->string('name');
             }
             if ($this->hasColumn('name')) {
@@ -1421,6 +1441,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1595,6 +1616,12 @@ return new class() extends XotBaseMigration {
 =======
             if (!$this->hasColumn('slug')) {
 >>>>>>> 75179b85 (.)
+=======
+            if (! $this->hasColumn('slug')) {
+=======
+            if (!$this->hasColumn('slug')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 $table->string('slug')->unique();
             }
 

@@ -11,6 +11,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -66,9 +67,12 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +98,10 @@ use Modules\Notify\Datas\SmsData;
 
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use function Safe\preg_match;
 use function Safe\preg_replace;
 <<<<<<< HEAD
@@ -851,7 +859,15 @@ class NormalizePhoneNumberAction
         if (is_array($phoneNumber)) {
             $phoneNumber = implode('', $phoneNumber);
         }
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         // Rimuove parentesi e il loro contenuto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1280,23 +1296,30 @@ class NormalizePhoneNumberAction
         // Verifica se il numero non inizia già con il prefisso corretto
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!preg_match('/^' . $prefix . '/', $phoneNumber)) {
             $phoneNumber = $prefix . $phoneNumber;
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
         if (! preg_match('/^'.$prefix.'/', $phoneNumber)) {
             $phoneNumber = $prefix.$phoneNumber;
 =======
         if (!preg_match('/^' . $prefix . '/', $phoneNumber)) {
             $phoneNumber = $prefix . $phoneNumber;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD

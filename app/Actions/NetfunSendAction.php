@@ -76,6 +76,7 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -383,6 +384,12 @@ class NetfunSendAction
 =======
         if (!is_string($token)) {
 >>>>>>> 2941b0bd (.)
+=======
+        if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -406,11 +413,14 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
             $smsData->to = '+39'.mb_substr($smsData->to, 2);
 >>>>>>> f1c9518b (.)
         }
@@ -583,6 +593,7 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -590,11 +601,15 @@ class NetfunSendAction
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
         }
 
         if (!Str::startsWith($smsData->to, '+')) {
             $smsData->to = '+39' . $smsData->to;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -633,6 +648,9 @@ class NetfunSendAction
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
         $body = [
@@ -1777,13 +1795,17 @@ class NetfunSendAction
             throw new Exception(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
 =======
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
@@ -1819,6 +1841,8 @@ class NetfunSendAction
             throw new Exception(
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
                 $clientException->getCode(),
                 $clientException,
             );

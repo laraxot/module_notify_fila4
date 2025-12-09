@@ -74,6 +74,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -249,10 +250,13 @@ class Get
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> f1c9518b (.)
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,10 +299,14 @@ class Get
 =======
 =======
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
         if (!isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (!isset($view_params['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -677,6 +685,9 @@ class Get
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -1019,6 +1030,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1393,10 +1405,13 @@ class Get
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f1c9518b (.)
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1440,10 +1455,14 @@ class Get
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1585,6 +1604,9 @@ class Get
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -1646,6 +1668,7 @@ class Get
 >>>>>>> e6c7fb3 (.)
 >>>>>>> 54220b28 (rebase 210)
         if ($theme->body_html === null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1908,12 +1931,15 @@ class Get
         /* @phpstan-ignore-next-line property.notFound */
         if ($theme->body_html === null) {
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> f1c9518b (.)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
 =======
             $html = trans($trad_mod . '.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -2103,6 +2129,8 @@ class Get
             $html = trans($trad_mod . '.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
                 $html = '##body_html##';
             }
 
@@ -2233,13 +2261,17 @@ class Get
             $view_params['logo'] =
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
                 '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
 =======
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
                 '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
@@ -2247,6 +2279,8 @@ class Get
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2628,6 +2662,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2832,9 +2867,14 @@ class Get
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
 =======
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+>>>>>>> f1c9518b (.)
+=======
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -2987,6 +3027,8 @@ class Get
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
             }
         }
 

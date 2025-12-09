@@ -52,6 +52,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -106,6 +107,8 @@ use Override;
 use Override;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
@@ -129,6 +132,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 >>>>>>> 4689a827 (.)
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
@@ -192,9 +196,12 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
 use Override;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,6 +525,9 @@ use Override;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 class ListNotificationTemplates extends XotBaseListRecords
 {

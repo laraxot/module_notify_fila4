@@ -8,12 +8,18 @@ use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 75179b8 (.)
 =======
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 75179b85 (.)
+=======
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 /**
  * --

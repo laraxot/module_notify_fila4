@@ -40,6 +40,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
 <<<<<<< HEAD
@@ -104,6 +105,8 @@ class SendNotificationAction
      * @return bool
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array  $data  I dati per compilare il template
@@ -142,8 +145,11 @@ class SendNotificationAction
 >>>>>>> d45a0226 (.)
      *
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
      * @param array $data I dati per compilare il template
@@ -153,6 +159,7 @@ class SendNotificationAction
      * @return bool
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -160,6 +167,9 @@ class SendNotificationAction
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @throws Exception Se il template non esiste o non è attivo
      */
     public function execute(
@@ -561,6 +571,7 @@ class SendNotificationAction
         if (!$template) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -656,6 +667,9 @@ class SendNotificationAction
 
         if (!$template) {
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception("Template {$templateCode} non trovato o non attivo");
         }
 
@@ -667,6 +681,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $template->shouldSend($data)) {
 =======
         if (!$template->shouldSend($data)) {
@@ -695,6 +710,12 @@ class SendNotificationAction
 =======
         if (!$template->shouldSend($data)) {
 >>>>>>> 75179b85 (.)
+=======
+        if (! $template->shouldSend($data)) {
+=======
+        if (!$template->shouldSend($data)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             return false;
         }
 
@@ -853,12 +874,21 @@ class SendNotificationAction
                 $this->sendViaChannel($recipient, $channel, $compiled, $options);
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
+<<<<<<< HEAD
                 Log::error("Errore invio notifica via {$channel}: " . $e->getMessage());
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+                Log::error("Errore invio notifica via {$channel}: ".$e->getMessage());
+
+=======
+                Log::error("Errore invio notifica via {$channel}: " . $e->getMessage());
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 continue;
             }
         }
@@ -868,6 +898,7 @@ class SendNotificationAction
 
     /**
      * Invia la notifica attraverso un canale specifico.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -898,6 +929,10 @@ class SendNotificationAction
 =======
      *
 >>>>>>> 75179b85 (.)
+=======
+=======
+     *
+>>>>>>> f1c9518b (.)
      * @param Model $recipient
      * @param string $channel
      * @param array $compiled
@@ -905,11 +940,15 @@ class SendNotificationAction
      * @return void
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1400,6 +1439,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
         if (! method_exists($recipient, 'routeNotificationForMail')) {
@@ -1504,10 +1544,17 @@ class SendNotificationAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($recipient, 'routeNotificationForMail')) {
+=======
+        if (!method_exists($recipient, 'routeNotificationForMail')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
         $email = $recipient->routeNotificationForMail();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1599,6 +1646,12 @@ class SendNotificationAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+        if (! $email) {
+=======
+        if (!$email) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Email destinatario non disponibile');
         }
 
@@ -2809,6 +2862,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
         if (! method_exists($recipient, 'routeNotificationForSms')) {
@@ -2913,10 +2967,17 @@ class SendNotificationAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($recipient, 'routeNotificationForSms')) {
+=======
+        if (!method_exists($recipient, 'routeNotificationForSms')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
         $phone = $recipient->routeNotificationForSms();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3027,6 +3088,12 @@ class SendNotificationAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+        if (! $phone) {
+=======
+        if (!$phone) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Numero di telefono destinatario non disponibile');
         }
 
@@ -3476,7 +3543,15 @@ class SendNotificationAction
 
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($message) > 320) {
+<<<<<<< HEAD
             $message = mb_substr($message, 0, 317) . '...';
+=======
+<<<<<<< HEAD
+            $message = mb_substr($message, 0, 317).'...';
+=======
+            $message = mb_substr($message, 0, 317) . '...';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
 <<<<<<< HEAD

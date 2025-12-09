@@ -53,6 +53,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -197,6 +198,8 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Eloquent;
 >>>>>>> f1c9518b (.)
 =======
@@ -254,6 +257,7 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -264,6 +268,8 @@ use Override;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Override;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
@@ -274,6 +280,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
@@ -415,8 +424,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -445,9 +460,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @method static Builder|NotifyTheme whereUpdatedBy($value)
  * @method static Builder|NotifyTheme whereViewParams($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
  *
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -495,8 +513,12 @@ class NotifyTheme extends BaseModel implements HasMedia
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> f1c9518b (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @mixin Eloquent
@@ -504,6 +526,7 @@ class NotifyTheme extends BaseModel implements HasMedia
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -567,6 +590,9 @@ class NotifyTheme extends BaseModel implements HasMedia
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @mixin IdeHelperNotifyTheme
  * @mixin Eloquent
  */
@@ -827,6 +853,7 @@ class NotifyTheme extends BaseModel
         'logo',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1199,6 +1226,12 @@ class NotifyTheme extends BaseModel
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 2941b0bd (.)
+=======
+    public function getLogoAttribute(?array $value): array
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),

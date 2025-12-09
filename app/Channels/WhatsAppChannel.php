@@ -842,12 +842,15 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
 =======
@@ -857,17 +860,24 @@ class WhatsAppChannel
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
      * @throws Exception Se la notifica non ha il metodo toWhatsApp o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1239,6 +1249,12 @@ class WhatsAppChannel
 =======
         if (!method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($notification, 'toWhatsApp')) {
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
@@ -1395,13 +1411,17 @@ class WhatsAppChannel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!($whatsAppData instanceof WhatsAppData)) {
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
         if (! ($whatsAppData instanceof WhatsAppData)) {
 =======
         if (!($whatsAppData instanceof WhatsAppData)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
         if (! ($whatsAppData instanceof WhatsAppData)) {
@@ -1437,6 +1457,8 @@ class WhatsAppChannel
 
         if (!($whatsAppData instanceof WhatsAppData)) {
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
             throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
         }
 

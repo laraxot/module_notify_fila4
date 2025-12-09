@@ -842,12 +842,15 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
 =======
@@ -857,17 +860,24 @@ class TelegramChannel
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
      * @throws Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1239,6 +1249,12 @@ class TelegramChannel
 =======
         if (!method_exists($notification, 'toTelegram')) {
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($notification, 'toTelegram')) {
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
@@ -1395,13 +1411,17 @@ class TelegramChannel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!($telegramData instanceof TelegramData)) {
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
         if (! ($telegramData instanceof TelegramData)) {
 =======
         if (!($telegramData instanceof TelegramData)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
         if (! ($telegramData instanceof TelegramData)) {
@@ -1437,6 +1457,8 @@ class TelegramChannel
 
         if (!($telegramData instanceof TelegramData)) {
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
             throw new Exception('toTelegram method must return an instance of TelegramData');
         }
 

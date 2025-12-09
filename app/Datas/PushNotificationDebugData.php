@@ -1988,6 +1988,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     ->map(static fn (SendReport $report): array => [
 =======
                     ->map(static fn(SendReport $report): array => [
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -2018,11 +2019,15 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     ->successes()
                     ->map(static fn(SendReport $report): array => [
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
                 'failure_tokens' => $this->sendReport
                     ->failures()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2037,6 +2042,12 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
                     ->map(static fn(SendReport $report): array => [
 >>>>>>> 2941b0bd (.)
+=======
+                    ->map(static fn (SendReport $report): array => [
+=======
+                    ->map(static fn(SendReport $report): array => [
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
@@ -2050,8 +2061,11 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'results' => $this->sendReport->map(static fn (SendReport $report): array => [
 =======
                     ->filter(static fn(SendReport $report): bool => $report->messageWasSentToUnknownToken())
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
                     ->map(static fn(SendReport $report): array => [
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
@@ -2059,8 +2073,13 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'results' => $this->sendReport->map(static fn(SendReport $report): array => [
 >>>>>>> 75179b8 (.)
+=======
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),

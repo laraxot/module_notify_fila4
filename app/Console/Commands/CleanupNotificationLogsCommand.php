@@ -9,6 +9,7 @@ use Illuminate\Console\Command;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,9 +54,14 @@ use Modules\Notify\Models\NotificationLog;
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+use Modules\Notify\Models\NotificationLog;
+>>>>>>> f1c9518b (.)
+=======
 use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -88,6 +94,8 @@ use Modules\Notify\Models\NotificationLog;
 =======
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
 
 class CleanupNotificationLogsCommand extends Command
 {

@@ -1418,6 +1418,7 @@ enum TelegramDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1630,9 +1631,12 @@ enum TelegramDriverEnum: string
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @param string $driver
      * @return bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1644,6 +1648,9 @@ enum TelegramDriverEnum: string
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public static function isSupported(string $driver): bool
     {
@@ -1945,6 +1952,7 @@ enum TelegramDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2116,9 +2124,12 @@ enum TelegramDriverEnum: string
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> f1c9518b (.)
+=======
      *
      * @return self
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> origin/develop
@@ -2145,6 +2156,8 @@ enum TelegramDriverEnum: string
      *
      * @return self
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
      */
     public static function getDefault(): self
     {

@@ -57,6 +57,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -223,10 +224,13 @@ return new class() extends XotBaseMigration {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> f1c9518b (.)
 return new class extends XotBaseMigration
 {
 =======
 return new class() extends XotBaseMigration {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -367,6 +371,9 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -567,11 +574,14 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('from')) {
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
             if (! $this->hasColumn('from')) {
 >>>>>>> f1c9518b (.)
                 $table->string('from')->nullable();
@@ -610,8 +620,11 @@ return new class() extends XotBaseMigration {
 =======
             if (! $this->hasColumn('view_params')) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
             if (!$this->hasColumn('from')) {
                 $table->string('from')->nullable();
             }
@@ -647,11 +660,15 @@ return new class() extends XotBaseMigration {
             if (!$this->hasColumn('view_params')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 $table->json('view_params')->nullable();
             }
             $this->updateTimestamps(

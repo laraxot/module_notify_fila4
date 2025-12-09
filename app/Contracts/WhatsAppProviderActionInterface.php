@@ -696,6 +696,7 @@ interface WhatsAppProviderActionInterface
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  WhatsAppData  $whatsappData  I dati del messaggio WhatsApp
 =======
      * @param WhatsAppData $whatsappData I dati del messaggio WhatsApp
@@ -1267,6 +1268,12 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 58816034 (.)
 =======
      * @param WhatsAppData $whatsappData I dati del messaggio WhatsApp
+=======
+     * @param  WhatsAppData  $whatsappData  I dati del messaggio WhatsApp
+=======
+     * @param WhatsAppData $whatsappData I dati del messaggio WhatsApp
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;

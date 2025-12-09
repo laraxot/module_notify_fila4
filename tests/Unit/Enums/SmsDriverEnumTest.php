@@ -16,6 +16,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -30,6 +31,8 @@ namespace Modules\Notify\Tests\Unit\Enums;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 >>>>>>> f1c9518b (.)
@@ -73,6 +76,7 @@ use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -98,12 +102,15 @@ use ReflectionClass;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
 use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use ReflectionClass;
 use Modules\Notify\Enums\SmsDriverEnum;
 use PHPUnit\Framework\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -113,6 +120,9 @@ use PHPUnit\Framework\TestCase;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 class SmsDriverEnumTest extends TestCase
 {
@@ -169,6 +179,7 @@ class SmsDriverEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,6 +464,12 @@ class SmsDriverEnumTest extends TestCase
 =======
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> 161887a2 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

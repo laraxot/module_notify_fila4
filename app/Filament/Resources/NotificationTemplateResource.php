@@ -92,6 +92,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -331,6 +332,8 @@ use Filament\Forms\Components\TextInput;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 <<<<<<< HEAD
@@ -943,6 +946,7 @@ class NotificationTemplateResource extends XotBaseResource
     protected static ?string $model = NotificationTemplate::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1011,6 +1015,9 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -1019,8 +1026,13 @@ use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms;
 use Filament\Forms\Form;
+=======
+use Filament\Forms;
+use Filament\Schemas\Schema;
+>>>>>>> f1c9518b (.)
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -1030,6 +1042,7 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1070,11 +1083,14 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f1c9518b (.)
 
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static null|string $model = NotificationTemplate::class;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 
     #[Override]
@@ -1188,6 +1204,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static null|string $model = NotificationTemplate::class;
+=======
+>>>>>>> f1c9518b (.)
 
     #[Override]
     public static function getFormSchema(): array
@@ -1237,6 +1255,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 75179b85 (.)
                 ->options(collect(NotificationTypeEnum::cases())
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
 =======
 <<<<<<< HEAD
@@ -1252,6 +1271,12 @@ class NotificationTemplateResource extends XotBaseResource
                     ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+                    ->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+=======
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 ->required()
                 ->default(NotificationTypeEnum::EMAIL->value)
                 ->helperText(__('notify::template.form.type.helper'))

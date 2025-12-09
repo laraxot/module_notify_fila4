@@ -10,6 +10,7 @@ namespace Modules\Notify\Notifications\Channels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
@@ -44,6 +45,12 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> 2941b0bd (.)
+=======
+=======
+use Kreait\Firebase\Messaging\RegistrationToken;
+use Kreait\Firebase\Messaging\RegistrationTokens;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -54,12 +61,19 @@ use Kreait\Firebase\Exception\MessagingException;
 use Kreait\Firebase\Messaging\MulticastSendReport;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 =======
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+use Kreait\Firebase\Messaging\RegistrationToken;
+use Kreait\Firebase\Messaging\RegistrationTokens;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Contracts\CanReceivePushNotifications;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\PushNotificationDebugData;

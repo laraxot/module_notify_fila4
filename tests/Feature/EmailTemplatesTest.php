@@ -601,8 +601,13 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> ce26f84e (.)
 
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> 99ff506 (.)
 
 uses(TestCase::class);
 

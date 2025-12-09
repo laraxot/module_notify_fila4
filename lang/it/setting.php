@@ -412,6 +412,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -442,6 +443,9 @@ declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 return [
     'navigation' => [
         'label' => 'Impostazioni Notifiche',
@@ -453,12 +457,19 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
     'actions' => [
         'logout' => [
             'tooltip' => 'logout',
         ],
     ],
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 ];
 <<<<<<< HEAD
 <<<<<<< HEAD

@@ -60,6 +60,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -84,6 +85,8 @@ namespace Modules\Notify\Models;
 >>>>>>> d45a0226 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
 use Carbon\Carbon;
 =======
 <<<<<<< HEAD
@@ -282,6 +285,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 =======
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -341,6 +345,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -348,6 +354,10 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 use Modules\Notify\Enums\NotificationLogStatusEnum;

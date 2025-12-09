@@ -176,6 +176,7 @@ use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
 class NexmoData extends Data
@@ -337,6 +338,8 @@ use Modules\Tenant\Services\TenantService;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> f1c9518b (.)
 
 class NexmoData extends Data
 {
@@ -356,6 +359,7 @@ class NexmoData extends Data
         if (! (self::$instance instanceof NexmoData)) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -365,6 +369,8 @@ use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
 use Webmozart\Assert\Assert;
 
 class NexmoData extends Data
@@ -382,6 +388,7 @@ class NexmoData extends Data
         if (!(self::$instance instanceof NexmoData)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -390,6 +397,9 @@ class NexmoData extends Data
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             /*
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -661,6 +671,7 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -767,6 +778,12 @@ class NexmoData extends Data
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'

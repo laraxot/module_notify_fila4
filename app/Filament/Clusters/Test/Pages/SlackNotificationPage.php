@@ -290,9 +290,12 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 class SlackNotificationPage extends XotBasePage
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> f1c9518b (.)
 
@@ -346,6 +349,7 @@ class SlackNotificationPage extends XotBasePage
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -496,10 +500,14 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 class SlackNotificationPage extends XotBasePage
 {
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -690,4 +698,8 @@ class SlackNotificationPage extends XotBasePage
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 2941b0bd (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 }

@@ -52,6 +52,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -143,6 +144,8 @@ use Modules\User\Models\Profile;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Model;
@@ -320,6 +323,7 @@ use Modules\User\Models\Profile;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -373,6 +377,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> f1c9518b (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
@@ -384,12 +390,16 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 /**
  * @property-read Profile|null $creator
@@ -398,6 +408,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,10 +422,16 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @method static MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,6 +512,11 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */

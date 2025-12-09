@@ -14,15 +14,19 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -43,10 +47,13 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> f1c9518b (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +89,9 @@ use Illuminate\Queue\SerializesModels;
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;

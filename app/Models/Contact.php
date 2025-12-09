@@ -53,6 +53,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -155,6 +156,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
+=======
+>>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
@@ -332,6 +335,7 @@ use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -523,12 +527,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
+>>>>>>> f1c9518b (.)
+=======
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -574,6 +581,10 @@ use Illuminate\Support\Carbon;
 =======
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b85 (.)
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -617,6 +628,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -687,6 +699,11 @@ use Illuminate\Support\Carbon;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -714,8 +731,11 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Contact whereValue($value)
  * @method static Builder|Contact whereVerifiedAt($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
  *
 >>>>>>> f1c9518b (.)
  * @mixin Eloquent
@@ -730,6 +750,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $email
  * @property string|null $mobile_phone
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -782,6 +803,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f1c9518b (.)
  * @method static Builder|Contact whereAttribute1($value)
  * @method static Builder|Contact whereAttribute10($value)
  * @method static Builder|Contact whereAttribute11($value)
@@ -803,8 +826,14 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -827,10 +856,13 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
  *
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
@@ -844,6 +876,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -1037,6 +1070,8 @@ use Illuminate\Support\Carbon;
 =======
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
+=======
+>>>>>>> f1c9518b (.)
  * @mixin IdeHelperContact
  * @mixin \Eloquent
  */

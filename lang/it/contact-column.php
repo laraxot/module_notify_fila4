@@ -1188,6 +1188,7 @@ declare(strict_types=1);
  *
 =======
  * @version 1.0
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -1225,6 +1226,9 @@ declare(strict_types=1);
  * @author Laraxot Team
  * @version 1.0
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @since 2025-08-01
  */
 return [

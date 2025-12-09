@@ -53,6 +53,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -226,12 +227,19 @@ use GuzzleHttp\Exception\ClientException;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+=======
+>>>>>>> f1c9518b (.)
 use Override;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -573,10 +581,19 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+=======
+>>>>>>> f1c9518b (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\PlivoData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -590,9 +607,15 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var PlivoData */
 =======
 <<<<<<< HEAD
+=======
+    /** @var PlivoData */
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
 =======
     /** @var PlivoData */
 >>>>>>> 99ff506 (.)
@@ -615,9 +638,12 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var bool */
 =======
 <<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
 >>>>>>> f1c9518b (.)
     protected bool $debug;
 
@@ -665,6 +691,7 @@ final class SendPlivoSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 =======
     protected ?string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -783,6 +810,15 @@ final class SendPlivoSMSAction implements SmsActionContract
 >>>>>>> 75179b85 (.)
     /** @var bool */
     protected bool $debug;
+=======
+=======
+    /** @var bool */
+    protected bool $debug;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     /** @var string|null */
     protected null|string $defaultSender = null;
@@ -1030,6 +1066,7 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
@@ -1160,12 +1197,15 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
         if (! $this->plivoData->auth_id) {
             throw new Exception('Auth ID Plivo non configurato in sms.php');
         }
 
         if (! $this->plivoData->auth_token) {
 =======
+<<<<<<< HEAD
 =======
 =======
         
@@ -1227,11 +1267,14 @@ final class SendPlivoSMSAction implements SmsActionContract
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f1c9518b (.)
         if (!$this->plivoData->auth_id) {
             throw new Exception('Auth ID Plivo non configurato in sms.php');
         }
 
         if (!$this->plivoData->auth_token) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1316,6 +1359,9 @@ final class SendPlivoSMSAction implements SmsActionContract
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Auth Token Plivo non configurato in sms.php');
         }
 
@@ -1342,12 +1388,15 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
      *
@@ -1355,6 +1404,7 @@ final class SendPlivoSMSAction implements SmsActionContract
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
@@ -1575,6 +1625,8 @@ final class SendPlivoSMSAction implements SmsActionContract
 >>>>>>> 75179b85 (.)
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
+=======
+>>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
     #[Override]
@@ -1673,6 +1725,7 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
             $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
@@ -1683,6 +1736,8 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
             $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
 =======
             $to = $to !== '' ? '+'.substr($to, 2) : $to;
@@ -1698,6 +1753,7 @@ final class SendPlivoSMSAction implements SmsActionContract
         if (!Str::startsWith($to, '+')) {
             $to = '+39' . $to;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -1705,6 +1761,9 @@ final class SendPlivoSMSAction implements SmsActionContract
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
         $from = $smsData->from ?? $this->defaultSender;
@@ -1982,8 +2041,16 @@ final class SendPlivoSMSAction implements SmsActionContract
             ],
         ]);
 
+<<<<<<< HEAD
         $endpoint = $this->plivoData->getBaseUrl() . '/v1/Account/' . $this->plivoData->auth_id . '/Message/';
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+        $endpoint = $this->plivoData->getBaseUrl().'/v1/Account/'.$this->plivoData->auth_id.'/Message/';
+=======
+        $endpoint = $this->plivoData->getBaseUrl() . '/v1/Account/' . $this->plivoData->auth_id . '/Message/';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         try {
             $response = $client->post($endpoint, [
@@ -2282,13 +2349,17 @@ final class SendPlivoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
 =======
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
                 $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
@@ -2523,6 +2594,8 @@ final class SendPlivoSMSAction implements SmsActionContract
 >>>>>>> 58816034 (.)
 =======
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+=======
+>>>>>>> f1c9518b (.)
                 $clientException->getCode(),
                 $clientException,
 <<<<<<< HEAD

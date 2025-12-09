@@ -103,6 +103,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -295,6 +296,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 161887a2 (.)
+=======
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -797,6 +803,7 @@ class NetfunChannel
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
@@ -874,11 +881,19 @@ class NetfunChannel
      *
      * @param mixed $notifiable
      * @param Notification $notification
+=======
+     * @param  mixed  $notifiable
+=======
+     * @param mixed $notifiable
+     * @param Notification $notification
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return array|null
      */
     public function send($notifiable, Notification $notification)
     {
         // Ottieni il numero di telefono dal Notifiable
+<<<<<<< HEAD
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -1480,16 +1495,39 @@ class NetfunChannel
 =======
 >>>>>>> 58816034 (.)
 =======
+=======
+<<<<<<< HEAD
+        if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForNetfun')) {
+=======
+        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             return null;
         }
 
         $to = $notifiable->routeNotificationForNetfun($notification);
+<<<<<<< HEAD
         if (!$to) {
+=======
+<<<<<<< HEAD
+        if (! $to) {
+=======
+        if (!$to) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             return null;
         }
 
         // Ottieni il messaggio dalla notifica
+<<<<<<< HEAD
         if (!method_exists($notification, 'toNetfun')) {
+=======
+<<<<<<< HEAD
+        if (! method_exists($notification, 'toNetfun')) {
+=======
+        if (!method_exists($notification, 'toNetfun')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
 <<<<<<< HEAD

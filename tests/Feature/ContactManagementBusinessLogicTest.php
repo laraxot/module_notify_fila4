@@ -1050,6 +1050,7 @@ class ContactManagementBusinessLogicTest extends TestCase
                 'type' => 'email',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'subject' => 'Benvenuto su '.config('app.name', 'Our Platform'),
 =======
                 'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
@@ -1061,6 +1062,12 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
                 'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
 >>>>>>> 75179b85 (.)
+=======
+                'subject' => 'Benvenuto su '.config('app.name', 'Our Platform'),
+=======
+                'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 'sent_at' => now()->subDays(5)->toISOString(),
                 'status' => 'delivered',
                 'opened' => true,
@@ -1391,10 +1398,14 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
             'Benvenuto su ' . config('app.name', 'Our Platform'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             $contact->fresh()->communication_history[0]['subject'],
         );
 <<<<<<< HEAD

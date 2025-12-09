@@ -47,6 +47,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -63,6 +64,11 @@ use Exception;
 =======
 >>>>>>> 2941b0bd (.)
 use Illuminate\Database\Eloquent\Model;
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
@@ -553,6 +559,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -566,6 +573,11 @@ class RecordNotificationData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     public string $channel;
 
     public function getChannel(): string
@@ -752,9 +764,12 @@ class RecordNotificationData extends Data
             case 'mail':
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
                 Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 =======
                 Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -1137,6 +1152,16 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> de02998b (.)
         throw new Exception('Channel ['.$this->channel.'] not supported');
+=======
+                Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                return $email;
+            case 'sms':
+                Assert::string($phone = $this->record->phone, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                $phone = app(NormalizePhoneNumberAction::class)->execute($phone);
+                return $phone;
+        }
+        throw new Exception('Channel [' . $this->channel . '] not supported');
+>>>>>>> 99ff506 (.)
     }
 
 

@@ -182,6 +182,10 @@ use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
+=======
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+>>>>>>> 99ff506 (.)
 use Modules\Xot\Tests\CreatesApplication;
 =======
 <<<<<<< HEAD
@@ -839,6 +843,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Application  $app
 =======
      * @param Application $app
@@ -877,6 +882,12 @@ abstract class TestCase extends BaseTestCase
 =======
      * @param Application $app
 >>>>>>> 4c323e61 (.)
+=======
+     * @param  Application  $app
+=======
+     * @param Application $app
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array
