@@ -156,6 +156,9 @@ return [
             'icon' => 'heroicon-o-check-circle',
             'color' => 'warning',
         ],
+        'logout' => [
+            'tooltip' => 'logout',
+        ],
     ],
     'messages' => [
         'created' => [

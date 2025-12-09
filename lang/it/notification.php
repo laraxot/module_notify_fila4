@@ -318,6 +318,9 @@ return [
             'error_message' => 'Errore nell\'eliminazione della notifica',
             'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.',
         ],
+        'logout' => [
+            'tooltip' => 'logout',
+        ],
     ],
     'messages' => [
         'no_notifications' => 'Non hai notifiche',
