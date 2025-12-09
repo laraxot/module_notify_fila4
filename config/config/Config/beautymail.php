@@ -52,6 +52,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -145,10 +146,13 @@ return [
 >>>>>>> 2c9c66a (.)
 =======
 >>>>>>> f113074 (.)
+=======
+>>>>>>> 6ee9e73 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2767,6 +2771,7 @@ return [
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> f113074 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d121e45a (rebase 210)
 =======
@@ -3313,6 +3318,10 @@ return [
 >>>>>>> 0db165c (.)
 >>>>>>> f113074 (.)
 >>>>>>> d121e45a (rebase 210)
+=======
+=======
+>>>>>>> 6ee9e73 (.)
+>>>>>>> d7824f6f (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -3570,6 +3579,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7824f6f (rebase 210)
 =======
 
 >>>>>>> d121e45a (rebase 210)
@@ -4694,6 +4707,7 @@ return [
 >>>>>>> f113074 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d121e45a (rebase 210)
 =======
 =======
@@ -5279,6 +5293,10 @@ return [
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> d121e45a (rebase 210)
+=======
+=======
+>>>>>>> 6ee9e73 (.)
+>>>>>>> d7824f6f (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -5536,6 +5554,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7824f6f (rebase 210)
 =======
 
 >>>>>>> d121e45a (rebase 210)
@@ -6660,6 +6682,7 @@ return [
 >>>>>>> f113074 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d121e45a (rebase 210)
 =======
 =======
@@ -7245,6 +7268,10 @@ return [
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> d121e45a (rebase 210)
+=======
+=======
+>>>>>>> 6ee9e73 (.)
+>>>>>>> d7824f6f (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -7502,6 +7529,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7824f6f (rebase 210)
 =======
 
 >>>>>>> d121e45a (rebase 210)
@@ -8626,6 +8657,7 @@ return [
 >>>>>>> f113074 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d121e45a (rebase 210)
 =======
 =======
@@ -9211,6 +9243,10 @@ return [
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> d121e45a (rebase 210)
+=======
+=======
+>>>>>>> 6ee9e73 (.)
+>>>>>>> d7824f6f (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
