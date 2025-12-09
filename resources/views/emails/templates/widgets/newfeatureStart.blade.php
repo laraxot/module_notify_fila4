@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -216,6 +217,15 @@
 =======
 >>>>>>> fd497554 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
@@ -236,7 +246,14 @@
 =======
 =======
 >>>>>>> 177d64d (.)
+<<<<<<< HEAD
 >>>>>>> fd497554 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
 <?php
 
 declare(strict_types=1);
@@ -300,6 +317,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -313,6 +331,8 @@ declare(strict_types=1);
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> fd497554 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -525,7 +545,21 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 177d64d (.)
+<<<<<<< HEAD
 >>>>>>> fd497554 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -537,6 +571,7 @@ declare(strict_types=1);
 
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -735,6 +770,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 888799d0 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 99ff506 (.)
 =======
@@ -760,4 +797,25 @@ declare(strict_types=1);
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+					<td bgcolor="#ffffff" class="contentblock">
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> a12f125f4a (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> b93ef594b4 (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)

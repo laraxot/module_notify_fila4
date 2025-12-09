@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
+<<<<<<< HEAD
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +53,8 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 888799d0 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
@@ -59,6 +63,14 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -66,6 +78,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,9 +198,12 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,11 +226,14 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +267,8 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Illuminate\Database\Eloquent\Model;
@@ -262,6 +283,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -317,6 +339,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 
 class RecordNotificationData extends Data
 {
@@ -364,6 +388,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -382,10 +407,13 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,6 +468,8 @@ class RecordNotificationData extends Data
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -573,6 +603,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 >>>>>>> b19cd40 (.)
@@ -657,6 +688,30 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+=======
+        switch($this->channel){
+=======
+        switch ($this->channel) {
+>>>>>>> b93ef594b4 (.)
+            case 'mail':
+                Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                return $email;
+            case 'sms':
+                Assert::string($phone = $this->record->phone, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                $phone = app(NormalizePhoneNumberAction::class)->execute($phone);
+                return $phone;
+        }
+        throw new Exception('Channel [' . $this->channel . '] not supported');
+    }
+<<<<<<< HEAD
+
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> f2e64178 (.)
+=======
         switch($this->channel){
             case 'mail':
                 Assert::string($email=$this->record->email);
@@ -666,6 +721,7 @@ class RecordNotificationData extends Data
                 $phone=app(NormalizePhoneNumberAction::class)->execute($phone);
                 return $phone;
         }
+<<<<<<< HEAD
         throw new Exception('Channel ['.$this->channel.'] not supported');
     }
 
@@ -679,4 +735,12 @@ class RecordNotificationData extends Data
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+        throw new \Exception('Channel ['.$this->channel.'] not supported');
+    }
+
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
 }

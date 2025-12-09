@@ -30,6 +30,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -107,6 +108,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 =======
@@ -118,6 +121,13 @@ use Modules\Notify\Models\Notification;
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
@@ -200,6 +210,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -233,9 +244,13 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+>>>>>>> f2e64178 (.)
+=======
 namespace Modules\Notify\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +268,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
 >>>>>>> b93ef594b4 (.)
 use Modules\Notify\Models\Notification;
@@ -294,6 +311,7 @@ use Modules\Notify\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Notify\Models\Notification;
@@ -317,6 +335,8 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
 
 /*
 |--------------------------------------------------------------------------
@@ -337,6 +357,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(TestCase::class)
     ->uses(DatabaseTransactions::class)
 =======
@@ -367,6 +388,9 @@ pest()->extend(TestCase::class)
 uses(TestCase::class)
     ->uses(DatabaseTransactions::class)
 >>>>>>> 3f39ac8b (.)
+=======
+pest()->extend(TestCase::class)
+>>>>>>> f2e64178 (.)
     ->in('Feature', 'Unit');
 
 /*
@@ -381,6 +405,7 @@ uses(TestCase::class)
 */
 
 expect()->extend('toBeNotification', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,6 +441,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
     return $this->toBeInstanceOf(\Modules\Notify\Models\Notification::class);
 });
 
@@ -425,6 +452,7 @@ expect()->extend('toBeMailTemplate', function () {
 
 /*
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,6 +471,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -452,6 +482,7 @@ expect()->extend('toBeMailTemplate', function () {
 | global functions to help you to reduce the number of lines of code in your test files.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,6 +516,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> a12f125f4a (.)
 =======
  * |--------------------------------------------------------------------------
@@ -498,6 +531,7 @@ expect()->extend('toBeMailTemplate', function () {
  */
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -556,6 +590,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 
 function createNotification(array $attributes = []): Notification
 {
@@ -575,4 +611,28 @@ function createMailTemplate(array $attributes = []): MailTemplate
 function makeMailTemplate(array $attributes = []): MailTemplate
 {
     return MailTemplate::factory()->make($attributes);
+<<<<<<< HEAD
+=======
+=======
+
+function createNotification(array $attributes = []): \Modules\Notify\Models\Notification
+{
+    return \Modules\Notify\Models\Notification::factory()->create($attributes);
+}
+
+function makeNotification(array $attributes = []): \Modules\Notify\Models\Notification
+{
+    return \Modules\Notify\Models\Notification::factory()->make($attributes);
+}
+
+function createMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
+{
+    return \Modules\Notify\Models\MailTemplate::factory()->create($attributes);
+}
+
+function makeMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
+{
+    return \Modules\Notify\Models\MailTemplate::factory()->make($attributes);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 }

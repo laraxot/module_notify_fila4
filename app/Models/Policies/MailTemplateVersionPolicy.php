@@ -32,6 +32,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -67,6 +68,8 @@ class MailTemplateVersionPolicy extends NotifyBasePolicy
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 class MailTemplateVersionPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -243,11 +246,21 @@ class MailTemplateVersionPolicy extends NotifyBasePolicy
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+class MailTemplateVersionPolicy extends NotifyBasePolicy
+{
+}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
 class MailTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
 =======
 class MailTemplateVersionPolicy extends NotifyBasePolicy {}
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -256,9 +269,13 @@ class MailTemplateVersionPolicy extends NotifyBasePolicy {}
 =======
 =======
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f813254 (.)
+=======
 class MailTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
@@ -269,4 +286,20 @@ class MailTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Notify\Models\MailTemplateVersion;
+use Modules\Xot\Contracts\UserContract;
+
+class MailTemplateVersionPolicy extends NotifyBasePolicy
+{
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
