@@ -111,6 +111,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -427,6 +428,8 @@
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -906,6 +909,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1122,6 +1126,9 @@ return [
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
 return array (
   'navigation' => 
   array (
@@ -1307,6 +1314,7 @@ return array (
       'helper_text' => '',
       'options' => 
       array (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1755,11 +1763,15 @@ return array (
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
         'marketing' => 'Marketing',
         'transactional' => 'Transazionale',
         'notification' => 'Notifica',
         'newsletter' => 'Newsletter',
         'system' => 'Sistema',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2213,6 +2225,8 @@ return array (
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
     ],
     'placeholders' => [
         'email_template' => 'Seleziona un template email predefinito',
@@ -2222,6 +2236,7 @@ return array (
         'text_content' => 'Contenuto testuale dell\'email in formato plain text',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2552,6 +2567,9 @@ return array (
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
       ),
     ),
     'tracking_enabled' => 
@@ -2751,6 +2769,7 @@ return array (
     'text_content' => 'Contenuto testuale dell\'email in formato plain text',
   ),
 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3176,3 +3195,6 @@ return array (
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)

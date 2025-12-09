@@ -154,6 +154,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -726,6 +727,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
@@ -735,6 +738,7 @@ return static function (RectorConfig $rectorConfig): void {
         '*/docs',
         '*/vendor',
     ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -953,6 +957,9 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
     $rectorConfig->paths(
         [
             __DIR__,
@@ -966,6 +973,7 @@ return static function (RectorConfig $rectorConfig): void {
             '*/vendor',
         ]
     );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1354,12 +1362,16 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
     $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
 
     // define sets of rules
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1813,6 +1825,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
@@ -1939,6 +1953,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -2156,6 +2171,9 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
     $rectorConfig->sets(
         [
             PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
@@ -2172,6 +2190,7 @@ return static function (RectorConfig $rectorConfig): void {
             // SetList::INSTANCEOF,
         ]
     );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2539,6 +2558,9 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
 
     $rectorConfig->importNames();
 >>>>>>> 75179b85 (.)
