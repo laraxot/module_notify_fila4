@@ -46,6 +46,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -350,32 +351,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
-=======
-=======
-use Modules\User\Models\Profile;
-use Illuminate\Database\Eloquent\Model;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
->>>>>>> a12f125f4a (.)
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use Modules\User\Models\Profile;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> b93ef594b4 (.)
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateLogFactory;
-use Illuminate\Database\Eloquent\Builder;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
@@ -388,10 +372,6 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 75179b85 (.)
 
 /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property-read Profile|null $creator
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
@@ -415,6 +395,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,6 +464,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
@@ -600,6 +583,7 @@ class MailTemplateLog extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,6 +834,9 @@ class MailTemplateLog extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
     protected function casts(): array
     {
         return [

@@ -65,6 +65,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -299,6 +300,9 @@ class BuildMailMessageAction
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 3f537838 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -526,8 +530,8 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,6 +584,8 @@ class BuildMailMessageAction
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
@@ -624,6 +630,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -833,10 +840,14 @@ class BuildMailMessageAction
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -992,6 +1003,8 @@ class BuildMailMessageAction
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
@@ -1404,30 +1417,6 @@ class BuildMailMessageAction
 =======
 >>>>>>> 1fd232c7 (.)
         $email = new MailMessage()
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        
-        if (!is_string($subject)) {
-            $subject = 'Notifica';
-        }
-        
-        $email = (new MailMessage())
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-
-        if (!is_string($subject)) {
-            $subject = 'Notifica';
-        }
-
-        $email = new MailMessage()
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);

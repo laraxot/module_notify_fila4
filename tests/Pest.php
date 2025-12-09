@@ -45,6 +45,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -121,6 +122,8 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f537838 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 =======
@@ -285,6 +288,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -888,6 +892,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
 function createNotification(array $attributes = []): Notification
 {
@@ -907,28 +913,4 @@ function createMailTemplate(array $attributes = []): MailTemplate
 function makeMailTemplate(array $attributes = []): MailTemplate
 {
     return MailTemplate::factory()->make($attributes);
-<<<<<<< HEAD
-=======
-=======
-
-function createNotification(array $attributes = []): \Modules\Notify\Models\Notification
-{
-    return \Modules\Notify\Models\Notification::factory()->create($attributes);
-}
-
-function makeNotification(array $attributes = []): \Modules\Notify\Models\Notification
-{
-    return \Modules\Notify\Models\Notification::factory()->make($attributes);
-}
-
-function createMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
-{
-    return \Modules\Notify\Models\MailTemplate::factory()->create($attributes);
-}
-
-function makeMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
-{
-    return \Modules\Notify\Models\MailTemplate::factory()->make($attributes);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 }

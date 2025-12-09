@@ -47,6 +47,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -202,20 +203,9 @@ use Filament\Tables;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Override;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Tables;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -276,6 +266,7 @@ class ListNotifications extends XotBaseListRecords
 {
     protected static string $resource = NotificationResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,6 +406,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -430,6 +423,7 @@ class ListNotifications extends XotBaseListRecords
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -848,10 +842,13 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     public function getTableFilters(): array
     {
         return [
             'read' => Filter::make('is_read')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -978,10 +975,13 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1387,6 +1387,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

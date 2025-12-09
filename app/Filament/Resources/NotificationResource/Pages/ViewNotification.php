@@ -38,6 +38,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -124,26 +125,11 @@ use Filament\Infolists\Components\TextEntry;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Schemas\Components\Section;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Schemas\Components\Component;
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Filament\Schemas\Components\Component;
-use Override;
->>>>>>> b93ef594b4 (.)
-use Filament\Schemas\Components\Section;
-=======
-use Filament\Infolists\Components\Section;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Infolists\Components\TextEntry;
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -175,6 +161,7 @@ class ViewNotification extends XotBaseViewRecord
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,6 +279,8 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -321,57 +310,6 @@ class ViewNotification extends XotBaseViewRecord
                 TextEntry::make('created_at')->dateTime(),
                 TextEntry::make('updated_at')->dateTime(),
             ]),
-<<<<<<< HEAD
-=======
-=======
-     * @return array<\Filament\Schemas\Components\Component>
-=======
-     * @return array<Component>
->>>>>>> b93ef594b4 (.)
-     */
-    #[Override]
-    protected function getInfolistSchema(): array
-    {
-        return [
-<<<<<<< HEAD
-=======
-     * @return array<\Filament\Infolists\Components\Component>
-     */
-    protected function getInfolistSchema(): array
-    {
-        return [
->>>>>>> origin/develop
-            Section::make()
-                ->schema([
-                    TextEntry::make('id'),
-                    TextEntry::make('type'),
-                    TextEntry::make('notifiable_type'),
-                    TextEntry::make('notifiable_id'),
-                    TextEntry::make('data'),
-                    TextEntry::make('read_at')
-                        ->dateTime(),
-                    TextEntry::make('created_at')
-                        ->dateTime(),
-                    TextEntry::make('updated_at')
-                        ->dateTime(),
-                ])
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-            Section::make()->schema([
-                TextEntry::make('id'),
-                TextEntry::make('type'),
-                TextEntry::make('notifiable_type'),
-                TextEntry::make('notifiable_id'),
-                TextEntry::make('data'),
-                TextEntry::make('read_at')->dateTime(),
-                TextEntry::make('created_at')->dateTime(),
-                TextEntry::make('updated_at')->dateTime(),
-            ]),
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ];
     }
 }

@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -146,15 +147,13 @@
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 <x-filament-panels::page>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,6 +302,7 @@ declare(strict_types=1);
                 <div class="mt-6">
                     {{ $this->notificationForm }}
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -823,10 +823,15 @@ declare(strict_types=1);
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> 1fd232c7 (.)
+=======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+>>>>>>> 3f537838 (.)
                 </div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1126,4 +1131,6 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 </x-filament-panels::page>

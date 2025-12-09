@@ -7,20 +7,16 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Modules\Xot\Models\BaseMorphPivot;
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
-=======
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Contracts\ProfileContract;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b8 (.)
 =======
@@ -43,6 +39,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
@@ -54,6 +51,8 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -71,6 +70,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -99,6 +99,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
  * @mixin IdeHelperNotifyThemeable
  * @mixin \Eloquent
  */

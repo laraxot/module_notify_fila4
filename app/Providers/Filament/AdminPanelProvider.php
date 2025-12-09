@@ -91,6 +91,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -416,24 +417,10 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
-=======
-use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
->>>>>>> a12f125f4a (.)
-=======
-use Override;
-// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -447,6 +434,7 @@ use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -579,11 +567,14 @@ use Override;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,6 +728,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     #[Override]
     public function panel(Panel $panel): Panel
     {
@@ -1148,6 +1141,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1329,3 +1323,5 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)

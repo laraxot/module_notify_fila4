@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -155,6 +156,8 @@
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -166,6 +169,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,10 +435,13 @@ namespace Modules\Notify\Models;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,6 +468,8 @@ namespace Modules\Notify\Models;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 =======
@@ -481,27 +490,12 @@ use Modules\Xot\Models\BaseModel;
  * @property string $notifiable_type
  * @property int $notifiable_id
  * @property array<string, mixed>|string $data
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property Carbon|null $read_at
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
-<<<<<<< HEAD
-=======
-=======
- * @property \Illuminate\Support\Carbon|null $read_at
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property \Illuminate\Support\Carbon|null $deleted_at
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
  * @property string|null $deleted_by
  * @property int|null $tenant_id
  * @property int|null $user_id
@@ -509,10 +503,6 @@ use Modules\Xot\Models\BaseModel;
  * @property int|null $subject_id
  * @property array<string>|string|null $channels
  * @property string|null $status
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property Carbon|null $sent_at
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -554,6 +544,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,6 +625,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -791,6 +784,7 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1060,6 +1054,9 @@ class Notification extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
     protected function casts(): array
     {
         return [

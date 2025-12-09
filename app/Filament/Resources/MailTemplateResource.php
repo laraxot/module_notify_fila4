@@ -38,6 +38,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -105,17 +106,15 @@ use Override;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+use Override;
+>>>>>>> 3f537838 (.)
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
 use Filament\Schemas\Components\View;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -272,6 +271,7 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> a12f125f4a (.)
 =======
     protected static null|string $model = MailTemplate::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +475,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -484,6 +486,7 @@ class MailTemplateResource extends LangBaseResource
      * - Le etichette, i placeholder e i testi di aiuto sono gestiti tramite LangServiceProvider
      * - File di traduzione: Modules/Notify/resources/lang/{locale}/mail_template.php
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -546,38 +549,14 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     #[Override]
     public static function getFormSchema(): array
     {
         return [
 >>>>>>> 75179b85 (.)
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
-<<<<<<< HEAD
-=======
-=======
-    public static function getFormSchema(): array
-    {
-        return [
-            'mailable' => TextInput::make('mailable')
-                ->required()
-                ->maxLength(255),
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
-    public static function getFormSchema(): array
-    {
-        return [
-            'mailable' => TextInput::make('mailable')->required()->maxLength(255),
->>>>>>> b93ef594b4 (.)
-=======
-    public static function getFormSchema(): array
-    {
-        return [
-            'mailable' => Forms\Components\TextInput::make('mailable')
-                ->required()
-                ->maxLength(255),
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             //'name' => Forms\Components\TextInput::make('name'),
             //'slug' => Forms\Components\TextInput::make('slug'),
             Group::make()
@@ -666,12 +645,6 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('slug')
                         ->label('Slug')
                         ->required()
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
                         ->unique(ignoreRecord: true),
                 ])
                 ->columns(2),
@@ -972,6 +945,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1161,6 +1135,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         ];
     }
 }

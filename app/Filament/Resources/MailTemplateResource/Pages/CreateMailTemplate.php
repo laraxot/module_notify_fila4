@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -366,6 +367,8 @@
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -419,6 +422,7 @@ use Filament\Actions;
 >>>>>>> c8b1c8bf (.)
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1026,6 +1030,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
 class CreateMailTemplate extends LangBaseCreateRecord
 {
