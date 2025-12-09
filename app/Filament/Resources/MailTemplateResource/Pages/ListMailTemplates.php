@@ -9,6 +9,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -27,6 +28,8 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Override;
 >>>>>>> 75179b85 (.)
 use Filament\Tables\Columns\TextColumn;
@@ -35,6 +38,7 @@ use Filament\Tables\Table;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,11 +71,16 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+use Filament\Tables\Columns\TextColumn;
+>>>>>>> de02998b (.)
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Filament\Tables;
 use Filament\Tables\Table;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -88,11 +97,15 @@ use Filament\Tables\Table;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
     protected static string $resource = MailTemplateResource::class;
 
+<<<<<<< HEAD
     #[Override]
     public function getTableColumns(): array
     {
@@ -103,4 +116,34 @@ class ListMailTemplates extends LangBaseListRecords
             TextColumn::make('counter')->searchable()->sortable(),
         ];
     }
+=======
+    
+    public function getTableColumns(): array
+    {
+        return [
+            TextColumn::make('slug')
+                ->searchable()
+                ->sortable()
+                ,
+
+            TextColumn::make('mailable')
+                ->searchable()
+                ->sortable()
+                ,
+
+            TextColumn::make('subject')
+                ->searchable()
+                ->sortable()
+                ,
+
+            TextColumn::make('counter')
+                ->searchable()
+                ->sortable()
+                ,
+            
+        ];
+    }
+
+
+>>>>>>> b19cd40 (.)
 }

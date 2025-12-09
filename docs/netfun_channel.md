@@ -380,6 +380,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 =======
 =======
@@ -398,6 +399,10 @@ SMS_FROM_NAME=<nome progetto>
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
@@ -715,8 +720,12 @@ Log::info('SMS inviato', [
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> de02998b (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -725,4 +734,8 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)

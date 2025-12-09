@@ -12,4 +12,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 class EditNotification extends XotBaseEditRecord
 {
     protected static string $resource = NotificationResource::class;
+<<<<<<< HEAD
+=======
+
+>>>>>>> b19cd40 (.)
 }

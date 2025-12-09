@@ -30,6 +30,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli <nome progetto>.
 =======
 =======
@@ -48,6 +49,10 @@ interface TelegramProviderActionInterface
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli SaluteOra.
 >>>>>>> 75179b85 (.)
 =======
@@ -88,6 +93,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
 
 # Cerca interfacce con naming corretto
@@ -113,10 +119,15 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/la
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/saluteora/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/Modules
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,16 +157,23 @@ grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/l
 grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> de02998b (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 ```
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
 <<<<<<< HEAD
 - [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/docs/code-quality.md)
@@ -197,6 +215,13 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 31f5d28f (.)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
 =======
+<<<<<<< HEAD
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> d284d65 (.)
+=======
+- [Laravel Contracts Documentation](https://laravel.com/project_docs/contracts)
+- [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/project_docs/code-quality.md)
+- [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)

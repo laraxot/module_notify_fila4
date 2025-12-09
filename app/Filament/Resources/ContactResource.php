@@ -10,6 +10,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
@@ -33,8 +34,12 @@ class ContactResource extends XotBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
@@ -47,7 +52,9 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ContactResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = Contact::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -64,15 +71,25 @@ class ContactResource extends XotBaseResource
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+    protected static ?string $model = Contact::class;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
      * @return array<string, Component>
      */
     #[Override]
+=======
+     * @return array<string, \Filament\Schemas\Components\Component>
+     */
+>>>>>>> b19cd40 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -92,13 +109,19 @@ class ContactResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> b19cd40 (.)
     public static function getRelations(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
     #[Override]
+=======
+>>>>>>> b19cd40 (.)
     public static function getPages(): array
     {
         return [

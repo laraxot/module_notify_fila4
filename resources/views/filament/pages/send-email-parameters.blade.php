@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -51,8 +52,11 @@ declare(strict_types=1);
 >>>>>>> a12f125f4a (.)
 =======
     </x-filament-schemas::form>
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
 <x-filament::page>
 
@@ -64,6 +68,7 @@ declare(strict_types=1);
         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
 
     </x-filament-panels::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -80,4 +85,7 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 </x-filament::page>

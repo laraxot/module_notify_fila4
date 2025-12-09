@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 =======
 =======
@@ -24,6 +25,10 @@
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> 75179b85 (.)
 =======
@@ -131,7 +136,11 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
 =======
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 ```
 
 ## Riferimenti
