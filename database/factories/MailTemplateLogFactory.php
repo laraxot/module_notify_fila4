@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -71,6 +72,8 @@
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -165,6 +168,36 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 namespace Modules\Notify\Database\Factories;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Modules\Notify\Models\MailTemplateLog;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\MailTemplateLog;
+=======
+namespace Modules\Notify\Database\Factories;
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+use Illuminate\Database\Eloquent\Factories\Factory;
+>>>>>>> 2effe245 (.)
 use Modules\Notify\Models\MailTemplateLog;
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 99ff506 (.)
@@ -175,7 +208,15 @@ class MailTemplateLogFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
+<<<<<<< HEAD
     protected $model = MailTemplateLog::class;
+=======
+<<<<<<< HEAD
+    protected $model = MailTemplateLog::class;
+=======
+    protected $model = \Modules\Notify\Models\MailTemplateLog::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -214,6 +255,7 @@ class MailTemplateLogFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -254,6 +296,8 @@ class MailTemplateLogFactory extends Factory
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +310,7 @@ class MailTemplateLogFactory extends Factory
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,3 +378,5 @@ class MailTemplateLogFactory extends Factory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)

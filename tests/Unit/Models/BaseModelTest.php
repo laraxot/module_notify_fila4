@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,11 +73,43 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 888799d0 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\BaseModel;
+=======
+use Modules\Notify\Models\BaseModel;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Tests\TestCase;
 
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
+    $this->baseModel = new class extends BaseModel
+    {
+=======
+    $this->baseModel = new class extends BaseModel {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+>>>>>>> b93ef594b4 (.)
+use Modules\Notify\Models\BaseModel;
+use Tests\TestCase;
+
+uses(TestCase::class, RefreshDatabase::class);
+
+beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
 <<<<<<< HEAD
@@ -276,6 +309,10 @@ beforeEach(function () {
 <<<<<<< HEAD
     $this->baseModel = new class extends BaseModel
     {
+=======
+    $this->baseModel = new class extends BaseModel
+    {
+>>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
     $this->baseModel = new class extends BaseModel {
@@ -285,11 +322,14 @@ beforeEach(function () {
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
         protected $table = 'test_notify_table';
     };
 });

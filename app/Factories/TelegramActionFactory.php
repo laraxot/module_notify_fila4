@@ -51,6 +51,7 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -117,6 +118,10 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
  *
 =======
 >>>>>>> f2e64178 (.)
+=======
+ *
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +136,7 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
  * 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +211,8 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 =======
  *
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
  * Questa factory centralizza la logica di selezione del driver Telegram
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -266,6 +274,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -345,6 +354,18 @@ final class TelegramActionFactory
     public function create(null|string $driver = null): TelegramProviderActionInterface
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+    public function create(?string $driver = null): TelegramProviderActionInterface
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+    public function create(null|string $driver = null): TelegramProviderActionInterface
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
     {
         $driver ??= Config::get('telegram.default', 'official');
 
@@ -405,6 +426,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -418,6 +440,8 @@ final class TelegramActionFactory
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 2effe245 (.)
 =======
 =======
     public function create(?string $driver = null): TelegramProviderActionInterface
@@ -451,6 +475,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -477,6 +502,8 @@ final class TelegramActionFactory
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
     public function create(?string $driver = null): TelegramProviderActionInterface
     {
         $driver = $driver ?? Config::get('telegram.default', 'official');
@@ -492,6 +519,7 @@ final class TelegramActionFactory
             throw new Exception("Unsupported Telegram driver: " . (is_string($driver) ? $driver : '') . ". Class {$className} not found.");
         }
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -588,6 +616,10 @@ final class TelegramActionFactory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
         if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
@@ -629,6 +661,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -638,11 +671,22 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+        $instance = app($className);
+
+        if (! $instance instanceof TelegramProviderActionInterface) {
+            throw new Exception("Failed to create instance of {$className}.");
+        }
+
+>>>>>>> 2effe245 (.)
         /** @var TelegramProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
 =======
 =======
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
@@ -657,6 +701,8 @@ final class TelegramActionFactory
 >>>>>>> 9777d1b3 (.)
 =======
 =======
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +717,7 @@ final class TelegramActionFactory
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -749,5 +796,9 @@ final class TelegramActionFactory
 =======
         return app($className);
 >>>>>>> 54220b28 (rebase 210)
+=======
+        return app($className);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
     }
 }
