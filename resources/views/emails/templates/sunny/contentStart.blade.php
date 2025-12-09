@@ -103,6 +103,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
 =======
 >>>>>>> c6c33175 (.)
 =======
@@ -190,12 +193,15 @@
 =======
 >>>>>>> 7325acf3 (.)
 =======
+>>>>>>> 4e643df (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384,6 +390,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> c4bdacbf (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +422,7 @@
 =======
 =======
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c6c33175 (.)
 =======
@@ -753,11 +762,16 @@
 =======
 >>>>>>> 2bcb149 (.)
 >>>>>>> c6c33175 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -918,6 +932,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
@@ -926,6 +942,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1211,6 +1228,8 @@ declare(strict_types=1);
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
 <tr>
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1363,6 +1382,7 @@ declare(strict_types=1);
 			<tr><td class="w560" height="15" width="560"></td></tr>
 			<tr>
 				<td class="w560" width="560">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1708,6 +1728,8 @@ declare(strict_types=1);
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
 =======
 					<div class="article-content" align="left">
 >>>>>>> 99ff506 (.)
@@ -2395,6 +2417,9 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 =======
+					<div class="article-content" align="left">
+>>>>>>> 4e643df (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2409,6 +2434,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -2439,4 +2465,9 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)
