@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -311,6 +312,8 @@
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> f74da283 (.)
 <?php
 
 declare(strict_types=1);
@@ -546,6 +549,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -713,12 +717,17 @@ declare(strict_types=1);
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+=======
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> f74da283 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1253,3 +1262,9 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> 9721a5b2 (.)
+=======
+</tr>
+=======
+</tr>
+>>>>>>> 0db165c (.)
+>>>>>>> f74da283 (.)
