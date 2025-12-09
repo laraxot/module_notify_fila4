@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
@@ -30,6 +31,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
 
 ## Analisi della Situazione Attuale
@@ -40,11 +43,14 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
+=======
+>>>>>>> 31f5d28f (.)
 =======
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di .
 
@@ -58,6 +64,7 @@ Questo documento descrive il piano di pulizia e standardizzazione delle traduzio
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -66,6 +73,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

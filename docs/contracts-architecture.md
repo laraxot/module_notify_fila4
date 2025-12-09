@@ -14,6 +14,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -36,6 +37,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -45,11 +48,15 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -57,10 +64,13 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
+=======
+>>>>>>> 31f5d28f (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -72,6 +82,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
@@ -84,6 +95,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 ```
 
 ### 2. Namespace Unificati per le Interfacce
@@ -130,6 +143,7 @@ SendSmsInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -142,10 +156,14 @@ SendSmsInterface
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 =======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 31f5d28f (.)
+=======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
@@ -158,6 +176,8 @@ SendSmsInterface
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 ├── app/
 │   ├── Actions/
 │   │   ├── Email/

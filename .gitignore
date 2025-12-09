@@ -29,12 +29,42 @@
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
 # Modulo Notify Laraxot - Template standardizzato
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Ultimo aggiornamento: 2025-01-31
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> 62b0c9c (.)
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/vendor/
+/vendor
+/node_modules/
+/node_modules
+/docs/vendor/
+package-lock.json
+yarn.lock
+composer.lock
+yarn-error.log
+npm-debug.log
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 vendor/
 /vendor/
 node_modules/
@@ -44,6 +74,13 @@ package-lock.json
 yarn.lock
 yarn-error.log
 composer.lock
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 62b0c9c (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -66,7 +103,18 @@ cache/
 *.swp
 *.swo
 *.stackdump
+<<<<<<< HEAD
 *.exe
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*.exe
+>>>>>>> 62b0c9c (.)
+=======
+*.exe
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 *:Zone.Identifier
 v8-compile-cache-*
 .php-cs-fixer.cache
@@ -78,7 +126,18 @@ v8-compile-cache-*
 *.log
 error_log
 npm-debug.log*
+<<<<<<< HEAD
 npm-debug.log
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+npm-debug.log
+>>>>>>> 62b0c9c (.)
+=======
+npm-debug.log
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 yarn-error.log*
 lerna-debug.log*
 
@@ -291,6 +350,27 @@ docs/phpstan/
 docs/cache/
 
 # ==============================================
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# LANGUAGE FILES
+# ==============================================
+lang/lang/
+resources/lang/
+
+# ==============================================
+# OLD DIRECTORIES (LEGACY CLEANUP)
+# ==============================================
+resources/views/Components_old/
+database/Migrations_old/
+database/Seeders_old/
+database/Factories_old/
+database_old/
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -304,6 +384,13 @@ database/Factories_old
 database/Factories_
 database_old/
 database_old
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 62b0c9c (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 
 # ==============================================
 # MODULE SPECIFIC - NOTIFY
@@ -312,9 +399,28 @@ database_old
 config/local.php
 config/development.php
 
+<<<<<<< HEAD
 # Queue e notifiche
 storage/notifications/
 storage/queue/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Cache notifiche
+storage/notifications/
+storage/templates/
+storage/mail/
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> 62b0c9c (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 
 # File di test notifiche
 notification_test_data.json
@@ -324,7 +430,19 @@ test_notifications.sql
 # END OF NOTIFY .GITIGNORE
 # ==============================================
 
+<<<<<<< HEAD
 # 🚫 File specifici del progetto
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# File specifici del progetto
+=======
+# 🚫 File specifici del progetto
+>>>>>>> 62b0c9c (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 *.fila2
 laravel
 public_html

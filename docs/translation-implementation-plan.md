@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
 =======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
@@ -17,9 +18,13 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 =======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
 =======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 31f5d28f (.)
+=======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
@@ -31,6 +36,8 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 =======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 
 ## Analisi della Situazione Attuale
 
@@ -106,6 +113,7 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -126,6 +134,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 <<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
@@ -155,11 +165,15 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -169,10 +183,13 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
+=======
+>>>>>>> 31f5d28f (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -188,6 +205,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -195,6 +213,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 ```
 
 ### Template Standard per i File di Traduzione

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 # Notify Module Documentation
 
 ## Overview
@@ -67,6 +70,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -87,6 +91,10 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -103,6 +111,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
 
 ## Collegamenti Correlati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,11 +136,18 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,6 +158,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -237,6 +258,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
 =======
 
 >>>>>>> bf479cc (.)
@@ -290,6 +314,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
 =======
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
@@ -373,6 +400,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -401,10 +429,15 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
 =======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 31f5d28f (.)
+=======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
@@ -436,3 +469,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)

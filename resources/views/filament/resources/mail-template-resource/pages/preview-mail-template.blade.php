@@ -41,6 +41,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -98,6 +101,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -113,11 +117,16 @@ declare(strict_types=1);
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     @foreach($this->record->variables as $key => $value)
                         <div class="p-2 bg-gray-50 rounded">
                             <span class="font-medium">{{ $key }}:</span>
                             <span class="text-gray-600">{{ $value }}</span>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 11ae5222 (.)
@@ -128,6 +137,12 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 11ae5222 (.)
+>>>>>>> 62b0c9c (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
                         </div>
                     @endforeach
                 </div>

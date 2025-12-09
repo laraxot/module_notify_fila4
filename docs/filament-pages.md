@@ -73,11 +73,14 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 31f5d28f (.)
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Pagine](../../../../project_docs/architecture/pages.md)
 
@@ -87,6 +90,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseEditRecord](../../Xot/project_docs/filament-pages.md#XotBaseEditRecord)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -96,6 +100,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 

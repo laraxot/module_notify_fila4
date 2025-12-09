@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 # Struttura di Configurazione nei Moduli 
@@ -15,9 +16,13 @@
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 =======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 31f5d28f (.)
+=======
 # Struttura di Configurazione nei Moduli 
 # Struttura di Configurazione nei Moduli <nome progetto>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
@@ -29,6 +34,8 @@
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 
 ## Principi di Configurazione
 
