@@ -518,6 +518,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -537,6 +538,8 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotificationType
+=======
+>>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
 class NotificationType extends Model
