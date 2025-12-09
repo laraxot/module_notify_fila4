@@ -188,6 +188,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -655,6 +656,8 @@
 =======
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 0f81dc21 (.)
 <?php
 
 declare(strict_types=1);
@@ -1492,14 +1495,18 @@ declare(strict_types=1);
 >>>>>>> 56ae9932 (.)
 =======
 <tr>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 0f81dc21 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2631,3 +2638,6 @@ declare(strict_types=1);
 >>>>>>> 56ae9932 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+</tr>
+>>>>>>> 0f81dc21 (.)
