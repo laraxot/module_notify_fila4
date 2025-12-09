@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Modulo Notify - Documentazione
 
 > **Versione**: 1.1  
@@ -114,6 +115,8 @@ Documentazione di dettaglio: vedi cartella `docs/` (Email, Push, Templates, Cont
 =======
 >>>>>>> 6ba141fc (.)
 =======
+=======
+>>>>>>> f47ea0f (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -405,4 +408,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+<<<<<<< HEAD
 >>>>>>> 9ed014c (.)
+=======
+>>>>>>> f47ea0f (.)
