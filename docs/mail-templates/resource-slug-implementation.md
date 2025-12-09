@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -42,10 +43,13 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
 # Implementazione del Campo `slug` in MailTemplateResource
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,6 +341,9 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> ca10d6ad (.)
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> 66453ace (.)
 
 ## Implementazione nel Form Schema
 
@@ -434,6 +441,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -667,6 +675,9 @@ public static function getFormSchema(): array
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> ca10d6ad (.)
+=======
+## Conformità con gli Standard SaluteOra
+>>>>>>> 66453ace (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -684,6 +695,7 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,6 +726,11 @@ public static function getListTableColumns(): array
  */
 public static function getListTableColumns(): array
 >>>>>>> ee18dd92 (.)
+=======
+ * Campo slug in getListTableColumns()
+ */
+public static function getListTableColumns(): array
+>>>>>>> 66453ace (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')
@@ -833,6 +850,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -865,3 +883,5 @@ return [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
