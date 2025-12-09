@@ -6,6 +6,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 // This file references SaluteOra models that do not exist in this project
 =======
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 namespace Modules\Notify\Actions;
 
 use Exception;
@@ -28,6 +31,7 @@ use Illuminate\Support\Facades\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 // use Modules\SaluteOra\Models\Patient;
@@ -51,6 +55,11 @@ use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\SaluteOra\Models\Patient;
 >>>>>>> 82ae73be (.)
+=======
+use Modules\SaluteOra\Models\Appointment;
+use Modules\Notify\Mail\AppointmentNotificationMail;
+use Modules\SaluteOra\Models\Patient;
+>>>>>>> d09cb759 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction
@@ -71,6 +80,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $appointment L'appuntamento a cui si riferisce la notifica
      * @param string $type Il tipo di notifica (confermato, annullato, promemoria, ecc.)
      * @param array<string, mixed> $additionalData Dati aggiuntivi per la notifica
@@ -102,6 +112,8 @@ class SendAppointmentNotificationAction
         mixed $appointment,
 >>>>>>> 3f537838 (.)
 =======
+=======
+>>>>>>> d09cb759 (.)
      * @param Appointment $appointment L'appuntamento a cui si riferisce la notifica
      * @param string $type Il tipo di notifica (confermato, annullato, promemoria, ecc.)
      * @param array<string, mixed> $additionalData Dati aggiuntivi per la notifica
@@ -110,12 +122,16 @@ class SendAppointmentNotificationAction
      */
     public function execute(
         Appointment $appointment,
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
         string $type,
         array $additionalData = []
     ): bool {
         try {
             // Carica il paziente con le relazioni necessarie
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +157,8 @@ class SendAppointmentNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
             $patient = Patient::with('user')->find($appointment->patient_id);
             
             if (!$patient) {
@@ -155,6 +173,7 @@ class SendAppointmentNotificationAction
             $notificationData = [
                 'appointment' => $appointment,
                 'patient' => $patient,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
@@ -175,6 +194,8 @@ class SendAppointmentNotificationAction
 =======
 >>>>>>> 3f537838 (.)
 =======
+=======
+>>>>>>> d09cb759 (.)
                 'type' => $type,
                 'additionalData' => $additionalData,
             ];
@@ -202,11 +223,15 @@ class SendAppointmentNotificationAction
         } catch (Exception $e) {
             Log::error('Errore nell\'invio della notifica di appuntamento', [
                 'appointment_id' => $appointment->id,
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
                 'type' => $type,
                 'error' => $e->getMessage(),
                 'trace' => $e->getTraceAsString(),
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,6 +249,9 @@ class SendAppointmentNotificationAction
 =======
             
 >>>>>>> 82ae73be (.)
+=======
+            
+>>>>>>> d09cb759 (.)
             return false;
         }
     }
@@ -231,6 +259,7 @@ class SendAppointmentNotificationAction
     /**
      * Registra la notifica nel database.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,6 +295,8 @@ class SendAppointmentNotificationAction
     ): void {
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> d09cb759 (.)
      * @param Appointment $appointment
      * @param Patient $patient
      * @param string $type
@@ -275,7 +306,10 @@ class SendAppointmentNotificationAction
         Patient $patient,
         string $type
     ): void {
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
         // Se esiste un modello Notification, lo utilizziamo per registrare la notifica
         if (class_exists('\Modules\Notify\Models\Notification')) {
             $notification = new Notification();
@@ -297,6 +331,7 @@ class SendAppointmentNotificationAction
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -308,5 +343,7 @@ class SendAppointmentNotificationAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 }
