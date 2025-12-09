@@ -66,6 +66,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -232,10 +233,13 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
  *
  * Utilizza ViewColumn + Blade view per separare completamente
  * logica e presentazione seguendo i principi DRY/KISS
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,10 +402,14 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 51182e3c (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+=======
+>>>>>>> a9bf0423 (rebase 210)
  * 
  * Utilizza ViewColumn + Blade view per separare completamente 
  * logica e presentazione seguendo i principi DRY/KISS
  * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -617,6 +625,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
  * PATTERN CORRETTO:
  * - ViewColumn per layout complessi
  * - Blade view separata per HTML
@@ -678,6 +689,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -722,10 +734,13 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 51182e3c (rebase 210)
 =======
 >>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -978,6 +993,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
  *
 >>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
  * @author Laraxot Team
 <<<<<<< HEAD
  *
@@ -1051,6 +1068,7 @@ class ContactColumn extends ViewColumn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1217,6 +1235,8 @@ class ContactColumn extends ViewColumn
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
 
     protected function setUp(): void
     {
@@ -1272,12 +1292,27 @@ class ContactColumn extends ViewColumn
         $this->view(static::getView(), [
             'contact_types' => $contact_types,
         ])
+=======
+    
+    protected function setUp(): void
+    {
+        parent::setUp();
+        
+        // Passa i tipi di contatto alla view
+        $contact_types = ContactTypeEnum::cases();
+        
+        $this->view(static::getView(), [
+                'contact_types' => $contact_types,
+            ])
+>>>>>>> b19cd40 (.)
             ->label(__('notify::columns.contact.label'))
             ->searchable(ContactTypeEnum::getSearchable())
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1552,3 +1587,8 @@ class ContactColumn extends ViewColumn
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+=======
+}
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)

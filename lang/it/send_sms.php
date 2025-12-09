@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -228,6 +229,8 @@
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -308,6 +311,7 @@ return [
         'confirmation' => 'Sei sicuro di voler inviare questo SMS?',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -471,6 +475,9 @@ return [
 >>>>>>> 51182e3c (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+=======
+>>>>>>> a9bf0423 (rebase 210)
 return array (
   'resource' => 
   array (
@@ -559,6 +566,7 @@ return array (
     'confirmation' => 'Sei sicuro di voler inviare questo SMS?',
   ),
 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,3 +778,6 @@ return array (
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)

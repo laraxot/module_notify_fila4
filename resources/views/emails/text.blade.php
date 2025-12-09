@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -226,12 +227,15 @@
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
 {{ $email_data->body }}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,3 +522,8 @@ declare(strict_types=1);
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 84082535 (rebase 210)
+=======
+=======
+{{ $email_data->body }}
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
