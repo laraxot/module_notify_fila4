@@ -144,7 +144,11 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **PHPStan level 10**: Compatibilità completa
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
 =======
 - ✅ **PHPStan Level 9**: Compatibilità completa
 >>>>>>> 207ac35e (.)
@@ -272,6 +276,7 @@ public function toMail(object $notifiable): MailMessage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -325,3 +330,5 @@ public function toMail(object $notifiable): MailMessage
 
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 207ac35e (.)
