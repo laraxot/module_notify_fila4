@@ -202,6 +202,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property-read int|null $media_count
  * @property-read Model|\Eloquent $notifiable
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
  * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
@@ -221,6 +222,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @method static Builder<static>|NotificationLog whereTitle($value)
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
  * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
+ *
  * @mixin \Eloquent
  */
 final class NotificationLog extends BaseModel
@@ -247,14 +249,14 @@ final class NotificationLog extends BaseModel
     protected function casts(): array
     {
         return [
-        'data' => 'array',
-        'channels' => 'array',
-        'sent_at' => 'datetime',
-        'delivered_at' => 'datetime',
-        'opened_at' => 'datetime',
-        'clicked_at' => 'datetime',
-        'status' => NotificationLogStatusEnum::class,
-    ];
+            'data' => 'array',
+            'channels' => 'array',
+            'sent_at' => 'datetime',
+            'delivered_at' => 'datetime',
+            'opened_at' => 'datetime',
+            'clicked_at' => 'datetime',
+            'status' => NotificationLogStatusEnum::class,
+        ];
     }
 
     /**

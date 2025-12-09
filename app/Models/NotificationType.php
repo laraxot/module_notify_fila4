@@ -354,6 +354,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -391,6 +392,9 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> c42c734 (.)
 =======
 >>>>>>> 4c59e64 (.)
+=======
+ *
+>>>>>>> 13b8416 (.)
  * @mixin \Eloquent
  */
 class NotificationType extends Model

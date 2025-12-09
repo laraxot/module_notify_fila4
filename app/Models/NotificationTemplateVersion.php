@@ -386,10 +386,12 @@ use Modules\Xot\Traits\Updater;
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
+ *
  * @mixin \Eloquent
  */
 >>>>>>> a335025b (rebase 210)
