@@ -398,6 +398,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -716,6 +717,11 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 503981fd (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -797,6 +803,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1115,6 +1122,11 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 503981fd (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

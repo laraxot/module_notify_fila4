@@ -125,6 +125,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -489,6 +490,8 @@ declare(strict_types=1);
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
 
 /*--work in progress
  * use Modules\Notify\Http\Controllers\TelegramNotificationController;
@@ -501,6 +504,7 @@ declare(strict_types=1);
  * [TelegramNotificationController::class, 'view'])->middleware('api');
  * });
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -860,6 +864,9 @@ declare(strict_types=1);
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
 /*--work in progress
 use Modules\Notify\Http\Controllers\TelegramNotificationController;
 
@@ -871,6 +878,7 @@ Route::middleware('guest')->group(function () {
         [TelegramNotificationController::class, 'view'])->middleware('api');
 });
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1346,3 +1354,6 @@ Route::middleware('guest')->group(function () {
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)

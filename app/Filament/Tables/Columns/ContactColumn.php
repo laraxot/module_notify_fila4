@@ -133,6 +133,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -497,10 +498,13 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
  *
  * Utilizza ViewColumn + Blade view per separare completamente
  * logica e presentazione seguendo i principi DRY/KISS
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -860,10 +864,14 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
  * 
  * Utilizza ViewColumn + Blade view per separare completamente 
  * logica e presentazione seguendo i principi DRY/KISS
  * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1331,6 +1339,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
  * PATTERN CORRETTO:
  * - ViewColumn per layout complessi
  * - Blade view separata per HTML
@@ -1459,6 +1470,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1551,10 +1563,13 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2051,6 +2066,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
  *
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
  * @author Laraxot Team
 <<<<<<< HEAD
  *
@@ -2220,6 +2237,7 @@ class ContactColumn extends ViewColumn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2584,6 +2602,8 @@ class ContactColumn extends ViewColumn
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
 
     protected function setUp(): void
     {
@@ -2605,6 +2625,19 @@ class ContactColumn extends ViewColumn
         $this->view(static::getView(), [
             'contact_types' => $contact_types,
         ])
+=======
+    
+    protected function setUp(): void
+    {
+        parent::setUp();
+        
+        // Passa i tipi di contatto alla view
+        $contact_types = ContactTypeEnum::cases();
+        
+        $this->view(static::getView(), [
+                'contact_types' => $contact_types,
+            ])
+>>>>>>> b19cd40 (.)
             ->label(__('notify::columns.contact.label'))
 <<<<<<< HEAD
             ->searchable($searchableArray)
@@ -2614,7 +2647,9 @@ class ContactColumn extends ViewColumn
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3244,3 +3279,8 @@ class ContactColumn extends ViewColumn
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+=======
+}
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)

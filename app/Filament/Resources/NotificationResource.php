@@ -104,6 +104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -386,6 +387,8 @@
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -549,6 +552,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1333,6 +1337,8 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+>>>>>>> 8e5817bc (.)
+=======
 namespace Modules\Notify\Filament\Resources;
 
 use Filament\Forms\Components\DateTimePicker;
@@ -1361,6 +1367,7 @@ class NotificationResource extends XotBaseResource
                 ->label('Notifiable Type'),
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,6 +1418,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
             'notifiable_id' => TextInput::make('notifiable_id')
                 ->required()
                 ->numeric()
@@ -1516,6 +1525,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1828,6 +1838,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
@@ -1935,6 +1947,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -2176,6 +2189,9 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> origin/develop
 >>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
             'data' => Textarea::make('data')
                 ->label('Notification Data')
                 ->columnSpanFull(),
@@ -2195,6 +2211,7 @@ class NotificationResource extends XotBaseResource
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2584,4 +2601,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
 }

@@ -143,6 +143,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -509,6 +510,8 @@ class SmtpMailSendAction
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -548,6 +551,7 @@ class SmtpMailSendAction
          * throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -890,10 +894,13 @@ class SmtpMailSendAction
 =======
 >>>>>>> dceba960 (.)
 =======
+>>>>>>> 8e5817bc (.)
+=======
     public function execute(string $to, string $subject, string $body): void
     {
         dddx('WIP');
         /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1054,6 +1061,8 @@ class SmtpMailSendAction
 =======
 >>>>>>> origin/develop
 >>>>>>> dceba960 (.)
+=======
+>>>>>>> 8e5817bc (.)
         $smtpData = SmtpData::make();
         $transport = $smtpData->getTransport();
 
@@ -1088,6 +1097,7 @@ class SmtpMailSendAction
             throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1585,5 +1595,8 @@ class SmtpMailSendAction
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
     }
 }

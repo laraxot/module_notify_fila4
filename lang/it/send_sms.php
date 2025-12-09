@@ -121,6 +121,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -467,6 +468,8 @@
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -580,6 +583,7 @@ return [
         'confirmation' => 'Sei sicuro di voler inviare questo SMS?',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -940,6 +944,9 @@ return [
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> dceba960 (.)
+=======
+=======
+>>>>>>> 8e5817bc (.)
 return array (
   'resource' => 
   array (
@@ -1028,6 +1035,7 @@ return array (
     'confirmation' => 'Sei sicuro di voler inviare questo SMS?',
   ),
 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1491,3 +1499,6 @@ return array (
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)

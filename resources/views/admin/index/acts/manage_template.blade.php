@@ -119,6 +119,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -491,11 +492,14 @@
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1089,6 +1093,10 @@ declare(strict_types=1);
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 9d84f153 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
 @extends('adm_theme::layouts.app')
 @section('content')
     <a class="btn btn-primary">+</a>
@@ -1223,6 +1231,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1880,3 +1889,9 @@ declare(strict_types=1);
 =======
 @endsection
 >>>>>>> 9d84f153 (.)
+=======
+@endsection
+=======
+@endsection
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
