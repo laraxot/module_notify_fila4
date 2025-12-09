@@ -6,9 +6,15 @@ namespace Modules\Notify\Actions;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
+<<<<<<< HEAD
 use Modules\<nome progetto>\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\<nome progetto>\Models\Patient;
+=======
+use Modules\SaluteOra\Models\Appointment;
+use Modules\Notify\Mail\AppointmentNotificationMail;
+use Modules\SaluteOra\Models\Patient;
+>>>>>>> f963d2c (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction

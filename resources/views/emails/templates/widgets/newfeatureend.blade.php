@@ -166,6 +166,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -569,6 +570,8 @@
 =======
 >>>>>>> 9f07b0d4 (.)
 =======
+>>>>>>> 9cf0dc90 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
@@ -578,12 +581,19 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -675,6 +685,8 @@ declare(strict_types=1);
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
 =======
+=======
+>>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -1321,13 +1333,21 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> c8eedbb (.)
+<<<<<<< HEAD
 >>>>>>> 9f07b0d4 (.)
+=======
+=======
+</td>
+>>>>>>> 518c702 (.)
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2307,6 +2327,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 9f07b0d4 (.)
 =======
+>>>>>>> 9cf0dc90 (.)
+=======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> 75179b8 (.)
 =======
@@ -2332,4 +2354,13 @@ declare(strict_types=1);
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> c8eedbb (.)
+<<<<<<< HEAD
 >>>>>>> 9f07b0d4 (.)
+=======
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 518c702 (.)
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
