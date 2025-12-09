@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
 =======
@@ -191,6 +192,10 @@
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -358,6 +363,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -484,6 +490,8 @@ return [
 =======
 >>>>>>> b4f93b3a (rebase 210)
 =======
+>>>>>>> 1375c94d (rebase 210)
+=======
 return [
     /*
     |--------------------------------------------------------------------------
@@ -608,6 +616,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,6 +841,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
     'drivers' => [
         'official' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
@@ -903,6 +916,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -930,9 +944,12 @@ return [
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
+>>>>>>> 1375c94d (rebase 210)
+=======
         
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1173,6 +1190,9 @@ return [
         
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
         'botman' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
@@ -1244,6 +1264,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1271,9 +1292,12 @@ return [
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
+>>>>>>> 1375c94d (rebase 210)
+=======
         
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1514,6 +1538,9 @@ return [
         
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
         'nutgram' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
@@ -1587,6 +1614,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1778,6 +1806,10 @@ return [
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
     /*
      * |--------------------------------------------------------------------------
      * | Global Debug Mode
@@ -1810,6 +1842,7 @@ return [
      * | Retry Configuration
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2015,6 +2048,8 @@ return [
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
 =======
 
     /*
@@ -2175,6 +2210,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2385,10 +2421,15 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
     'retry' => [
         'attempts' => env('TELEGRAM_RETRY_ATTEMPTS', 3),
         'delay' => env('TELEGRAM_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2646,6 +2687,10 @@ return [
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
     /*
      * |--------------------------------------------------------------------------
      * | Rate Limiting
@@ -2716,6 +2761,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -2885,6 +2933,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3096,6 +3145,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
     'rate_limit' => [
         'enabled' => env('TELEGRAM_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('TELEGRAM_RATE_LIMIT_MAX_ATTEMPTS', 30),

@@ -114,6 +114,7 @@ abstract class BasePivot extends Pivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -170,6 +171,8 @@ abstract class BasePivot extends Pivot
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
@@ -295,6 +298,7 @@ abstract class BasePivot extends Pivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -342,9 +346,12 @@ abstract class BasePivot extends Pivot
 >>>>>>> a12f125f4a (.)
 >>>>>>> 9f8e680a (rebase 210)
 =======
+>>>>>>> 1375c94d (rebase 210)
+=======
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -576,6 +583,9 @@ abstract class BasePivot extends Pivot
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

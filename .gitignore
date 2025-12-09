@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -260,6 +261,10 @@
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
 # ==============================================
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
@@ -1028,6 +1033,7 @@ lerna-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -1226,6 +1232,8 @@ lerna-debug.log*
 =======
 >>>>>>> b4f93b3a (rebase 210)
 =======
+>>>>>>> 1375c94d (rebase 210)
+=======
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -1275,6 +1283,7 @@ build/
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1480,6 +1489,10 @@ build/
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -1554,6 +1567,7 @@ storage/*.key
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1745,6 +1759,10 @@ storage/*.key
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
 .env.*
 !.env.example
 
@@ -2490,6 +2508,7 @@ public_html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -2692,6 +2711,8 @@ public_html
 =======
 >>>>>>> b4f93b3a (rebase 210)
 =======
+>>>>>>> 1375c94d (rebase 210)
+=======
 
 # Local configurations
 Homestead.yaml
@@ -2745,6 +2766,7 @@ cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2950,3 +2972,7 @@ cache/
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
