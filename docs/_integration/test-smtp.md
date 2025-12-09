@@ -53,6 +53,7 @@ https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -89,6 +90,9 @@ https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 =======
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 3d462363 (rebase 210)
 
 # Come far funzionare la pagina SendEmail
 
@@ -129,6 +133,7 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 - [TestSmtpPage vs SendEmail: differenze architetturali](./test_smtp.md)
 - [Best practice per la configurazione SMTP](./EMAIL_BEST_PRACTICES.md)
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,3 +226,6 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 >>>>>>> 1442e291 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)

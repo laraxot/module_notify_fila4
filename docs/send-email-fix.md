@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -89,6 +92,7 @@ class SendEmail extends XotBasePage
         $this->smtpData = new SmtpData();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -178,6 +182,9 @@ class SendEmail extends XotBasePage
 =======
     public function form(Form $form): Form
 >>>>>>> fdb24863 (rebase 210)
+=======
+    public function form(Form $form): Form
+>>>>>>> 3d462363 (rebase 210)
     {
         return $form
             ->schema([
@@ -351,6 +358,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -443,6 +451,11 @@ class SmtpData extends Data
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
+- [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
+>>>>>>> 3d462363 (rebase 210)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -462,6 +475,7 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,3 +515,6 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> fdb24863 (rebase 210)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> 3d462363 (rebase 210)
