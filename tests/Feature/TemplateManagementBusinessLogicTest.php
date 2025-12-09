@@ -526,6 +526,7 @@ describe('Template Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -542,10 +543,13 @@ describe('Template Management Business Logic', function (): void {
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
 });
 =======
 }
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -654,3 +658,5 @@ describe('Template Management Business Logic', function (): void {
 =======
 });
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> e7a9a2bf (.)
