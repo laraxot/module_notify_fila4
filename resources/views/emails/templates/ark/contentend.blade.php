@@ -106,6 +106,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -886,6 +887,9 @@ declare(strict_types=1);
 =======
 </div>
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>
+>>>>>>> 0ab3206e (.)
 					</td>
 				</tr>
 			</tbody>
@@ -1006,6 +1010,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1541,3 +1546,6 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
+=======
+</tr>
+>>>>>>> 0ab3206e (.)
