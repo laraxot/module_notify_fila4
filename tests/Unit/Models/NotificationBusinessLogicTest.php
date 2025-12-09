@@ -5,12 +5,12 @@ declare(strict_types=1);
 use Modules\Notify\Models\Notification;
 use Modules\Xot\Models\BaseModel;
 
-describe('Notification Business Logic', function () {
-    test('notification extends xot base model', function () {
+describe('Notification Business Logic', function (): void {
+    test('notification extends xot base model', function (): void {
         expect(Notification::class)->toBeSubclassOf(BaseModel::class);
     });
 
-    test('notification can store polymorphic notifiable relationships', function () {
+    test('notification can store polymorphic notifiable relationships', function (): void {
         $notification = new Notification;
         $notification->notifiable_type = 'App\\Models\\User';
         $notification->notifiable_id = 1;
@@ -19,14 +19,14 @@ describe('Notification Business Logic', function () {
         expect($notification->notifiable_id)->toBe(1);
     });
 
-    test('notification has notification type', function () {
+    test('notification has notification type', function (): void {
         $notification = new Notification;
         $notification->type = 'App\\Notifications\\OrderConfirmation';
 
         expect($notification->type)->toBe('App\\Notifications\\OrderConfirmation');
     });
 
-    test('notification can store data payload', function () {
+    test('notification can store data payload', function (): void {
         $notification = new Notification;
         $notification->data = ['title' => 'Test', 'message' => 'Hello World'];
 
@@ -34,14 +34,14 @@ describe('Notification Business Logic', function () {
         expect($notification->data['title'])->toBe('Test');
     });
 
-    test('notification can track read status', function () {
+    test('notification can track read status', function (): void {
         $notification = new Notification;
         $notification->read_at = '2023-01-01 12:00:00';
 
         expect($notification->read_at)->toBe('2023-01-01 12:00:00');
     });
 
-    test('notification can track tenant and user', function () {
+    test('notification can track tenant and user', function (): void {
         $notification = new Notification;
         $notification->tenant_id = 1;
         $notification->user_id = 5;
@@ -50,7 +50,7 @@ describe('Notification Business Logic', function () {
         expect($notification->user_id)->toBe(5);
     });
 
-    test('notification can store polymorphic subject relationships', function () {
+    test('notification can store polymorphic subject relationships', function (): void {
         $notification = new Notification;
         $notification->subject_type = 'App\\Models\\Order';
         $notification->subject_id = 123;
@@ -59,7 +59,7 @@ describe('Notification Business Logic', function () {
         expect($notification->subject_id)->toBe(123);
     });
 
-    test('notification can track multiple channels', function () {
+    test('notification can track multiple channels', function (): void {
         $notification = new Notification;
         $notification->channels = ['mail', 'sms', 'database'];
 
@@ -68,7 +68,7 @@ describe('Notification Business Logic', function () {
         expect($notification->channels)->toContain('sms');
     });
 
-    test('notification can track status and sent time', function () {
+    test('notification can track status and sent time', function (): void {
         $notification = new Notification;
         $notification->status = 'sent';
         $notification->sent_at = '2023-01-01 14:00:00';
@@ -77,7 +77,7 @@ describe('Notification Business Logic', function () {
         expect($notification->sent_at)->toBe('2023-01-01 14:00:00');
     });
 
-    test('notification has factory for testing', function () {
+    test('notification has factory for testing', function (): void {
         expect(method_exists(Notification::class, 'factory'))->toBeTrue();
     });
 });
