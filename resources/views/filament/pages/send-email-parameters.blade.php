@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -99,12 +100,15 @@
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,11 +221,17 @@
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 <x-filament::page>
 
 <<<<<<< HEAD
@@ -334,6 +344,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -360,6 +371,8 @@ declare(strict_types=1);
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 =======
 =======
 >>>>>>> b93ef594b4 (.)
@@ -378,6 +391,7 @@ declare(strict_types=1);
 =======
     </x-filament-schemas::form>
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +458,8 @@ declare(strict_types=1);
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <x-filament::page>
 
     <x-filament-panels::form wire:submit="sendEmail()">
@@ -454,6 +470,7 @@ declare(strict_types=1);
         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
 
     </x-filament-panels::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -664,4 +681,8 @@ declare(strict_types=1);
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
 </x-filament::page>

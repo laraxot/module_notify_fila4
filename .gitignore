@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -99,12 +100,15 @@
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +221,8 @@
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 # ==============================================
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
@@ -431,6 +437,10 @@ npm-debug.log
 =======
 >>>>>>> 1442e291 (rebase 210)
 vendor/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 /vendor/
 node_modules/
 /node_modules/
@@ -878,6 +888,7 @@ lerna-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -899,6 +910,8 @@ lerna-debug.log*
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
 =======
 =======
 # Dependencies and packages
@@ -945,6 +958,7 @@ cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -961,6 +975,8 @@ cache/
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
 *.exe
 *:Zone.Identifier
 v8-compile-cache-*
@@ -980,6 +996,7 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,6 +1065,9 @@ lerna-debug.log*
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -1072,6 +1092,7 @@ npm-debug.log
 build/
 
 # Laravel specific
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1262,6 +1283,10 @@ build/
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -1325,6 +1350,7 @@ storage/*.key
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1353,10 +1379,13 @@ storage/*.key
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1484,6 +1513,8 @@ storage/*.key
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 .env.*
 !.env.example
 
@@ -2138,6 +2169,7 @@ public_html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -2159,6 +2191,8 @@ public_html
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
 =======
 =======
 =======
@@ -2268,6 +2302,7 @@ public_html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2320,6 +2355,8 @@ public_html
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 
 # Local configurations
 Homestead.yaml
@@ -2348,6 +2385,7 @@ Homestead.json
 docs/phpstan/
 docs/cache/
 cache/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2538,3 +2576,7 @@ cache/
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)

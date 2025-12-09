@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -81,10 +82,13 @@
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +212,8 @@
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -297,6 +303,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -315,6 +322,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 =======
 =======
 declare(strict_types=1);
@@ -330,6 +339,7 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 =======
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,11 +406,14 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Filament\Actions;
 use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,6 +610,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
@@ -656,6 +673,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -754,6 +772,8 @@ class EditMailTemplate extends LangBaseEditRecord
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -768,6 +788,7 @@ class EditMailTemplate extends LangBaseEditRecord
     
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -895,4 +916,6 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 }

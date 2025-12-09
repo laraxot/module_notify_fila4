@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -88,10 +89,13 @@ declare(strict_types=1);
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +118,8 @@ declare(strict_types=1);
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -139,6 +145,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
@@ -148,13 +155,18 @@ declare(strict_types=1);
 =======
 =======
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -165,6 +177,7 @@ declare(strict_types=1);
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -506,6 +519,8 @@ declare(strict_types=1);
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
 >>>>>>> a12f125f4a (.)
 =======
 declare(strict_types=1);
@@ -525,6 +540,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +661,8 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 
 // Filament will handle all routes for this module
 >>>>>>> 954a7fa (.)
