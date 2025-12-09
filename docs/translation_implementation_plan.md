@@ -93,6 +93,7 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
 =======
 =======
@@ -633,6 +634,12 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 >>>>>>> d284d65 (.)
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
 >>>>>>> 66453ace (.)
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
 
 ## Analisi della Situazione Attuale
 
@@ -1157,6 +1164,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1572,6 +1580,8 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1579,6 +1589,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_s_m_s.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1749,6 +1760,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 =======
 >>>>>>> 6608a1a0 (.)
 =======
+>>>>>>> 23cbbaf5 (.)
+=======
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1757,6 +1770,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_a_w_s_em
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2044,6 +2058,8 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette

@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -87,6 +88,8 @@
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
 # Documentazione SpatieEmail
 
 Questa directory contiene la documentazione relativa all'implementazione delle email multilingua utilizzando il pacchetto Spatie nel modulo Notify.
@@ -99,6 +102,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 
 ## Riferimenti Esterni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,12 +215,15 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
 - [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,3 +368,5 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 - [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)

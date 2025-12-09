@@ -1063,8 +1063,15 @@ SMS_FROM_NAME=<nome progetto>
 >>>>>>> 6608a1a0 (.)
 =======
 SMS_FROM_NAME=<nome progetto>
+<<<<<<< HEAD
 SMS_FROM_NAME=SaluteOra
+<<<<<<< HEAD
 >>>>>>> 66453ace (.)
+=======
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
