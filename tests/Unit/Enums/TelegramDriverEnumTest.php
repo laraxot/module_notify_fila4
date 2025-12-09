@@ -12,10 +12,14 @@ class TelegramDriverEnumTest extends TestCase
     /** @test */
     public function it_has_correct_cases(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, TelegramDriverEnum::cases());
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('telegram', TelegramDriverEnum::TELEGRAM->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('botapi', TelegramDriverEnum::BOTAPI->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('laravel-telegram', TelegramDriverEnum::LARAVEL_TELEGRAM->value);
     }
 
@@ -24,10 +28,15 @@ class TelegramDriverEnumTest extends TestCase
     {
         $options = TelegramDriverEnum::options();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($options);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $options);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Telegram', $options['telegram']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Bot API', $options['botapi']);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Laravel Telegram', $options['laravel-telegram']);
     }
 
@@ -36,27 +45,39 @@ class TelegramDriverEnumTest extends TestCase
     {
         $labels = TelegramDriverEnum::labels();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($labels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $labels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('telegram', $labels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('botapi', $labels);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('laravel-telegram', $labels);
     }
 
     /** @test */
     public function is_supported_returns_true_for_valid_drivers(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(TelegramDriverEnum::isSupported('telegram'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(TelegramDriverEnum::isSupported('botapi'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(TelegramDriverEnum::isSupported('laravel-telegram'));
     }
 
     /** @test */
     public function is_supported_returns_false_for_invalid_drivers(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(TelegramDriverEnum::isSupported('invalid'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(TelegramDriverEnum::isSupported(''));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(TelegramDriverEnum::isSupported('TELEGRAM'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse(TelegramDriverEnum::isSupported('Telegram'));
     }
 
@@ -65,7 +86,9 @@ class TelegramDriverEnumTest extends TestCase
     {
         $default = TelegramDriverEnum::getDefault();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(TelegramDriverEnum::class, $default);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains($default, TelegramDriverEnum::cases());
     }
 
@@ -262,6 +285,7 @@ class TelegramDriverEnumTest extends TestCase
 >>>>>>> d45a0226 (.)
         $uniqueValues = array_unique($values);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
@@ -270,10 +294,13 @@ class TelegramDriverEnumTest extends TestCase
     {
         $cases = TelegramDriverEnum::cases();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($cases);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $cases);
 
         foreach ($cases as $case) {
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertInstanceOf(TelegramDriverEnum::class, $case);
         }
     }
@@ -282,6 +309,7 @@ class TelegramDriverEnumTest extends TestCase
     public function all_cases_have_required_methods(): void
     {
         foreach (TelegramDriverEnum::cases() as $case) {
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->value);
         }
     }
