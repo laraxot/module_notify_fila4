@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Convenzioni sui Percorsi 
 
 ## Regole Fondamentali
@@ -33,6 +36,7 @@
    - I namespace possono essere in PascalCase ma devono mappare correttamente alle directory lowercase
 
 2. **Struttura Directory Principale**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,12 +205,15 @@
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
 3. **Struttura Directory Actions**
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/` (ERRATO)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,10 +259,13 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 
 4. **Struttura Directory Datas**
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/Datas/` (ERRATO)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,6 +477,8 @@
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 
 ## Namespace vs Directory
 
@@ -480,6 +492,7 @@
 ## Errori Comuni da Evitare
 
 1. **Mai utilizzare la "A" maiuscola nel percorso fisico della directory app**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -767,6 +780,10 @@
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+>>>>>>> 36ac4fc1 (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`
@@ -797,6 +814,7 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -817,3 +835,5 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

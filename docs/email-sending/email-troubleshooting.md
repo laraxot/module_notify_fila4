@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Risoluzione dei Problemi nelle Email 
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.
@@ -40,6 +43,7 @@ La classe `SpatieEmail` ora utilizza l'API moderna di Laravel per gli allegati t
 // Preparazione degli allegati
 $attachments = [
     [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +283,9 @@ $attachments = [
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> 36ac4fc1 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],
@@ -477,6 +484,7 @@ public function test_can_send_email_with_attachments()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -497,3 +505,5 @@ public function test_can_send_email_with_attachments()
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

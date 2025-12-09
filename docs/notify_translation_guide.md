@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di <nome progetto>. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di <nome progetto>.
 =======
 Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di SaluteOra. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di SaluteOra.
@@ -19,6 +20,16 @@ Questo documento fornisce una guida completa e dettagliata per la gestione delle
 =======
 Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di SaluteOra. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di SaluteOra.
 >>>>>>> f963d2c0 (.)
+=======
+Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di <nome progetto>. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di <nome progetto>.
+=======
+<<<<<<< HEAD
+Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di <main module>. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di <main module>.
+=======
+Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di SaluteOra. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di SaluteOra.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 
 ## Struttura dei File di Traduzione
 
@@ -160,6 +171,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di <nome progetto>. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
 =======
 È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di SaluteOra. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
@@ -173,6 +185,16 @@ return [
 =======
 È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di SaluteOra. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
 >>>>>>> f963d2c0 (.)
+=======
+È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di <nome progetto>. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
+=======
+<<<<<<< HEAD
+È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di <main module>. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
+=======
+È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di SaluteOra. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 
 ### Motivazione dell'Eccezione
 

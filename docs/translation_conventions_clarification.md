@@ -48,6 +48,7 @@ Dopo un'analisi approfondita, è stato determinato che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
@@ -61,6 +62,16 @@ Dopo un'analisi approfondita, è stato determinato che:
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
 >>>>>>> f963d2c0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
+=======
+<<<<<<< HEAD
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <main module>
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
    - Questa eccezione è documentata e intenzionale
 
 ## Convenzioni Corrette per il Modulo Notify
@@ -101,6 +112,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
 =======
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
@@ -114,6 +126,16 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 =======
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
 >>>>>>> f963d2c0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
+=======
+<<<<<<< HEAD
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <main module>, poiché rappresentano un'eccezione documentata.
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 
 ## Riferimenti
 

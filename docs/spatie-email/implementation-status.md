@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -45,6 +46,8 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Stato Implementazione SpatieEmail
 
 Questo documento tiene traccia dello stato di implementazione delle email utilizzando il pacchetto Spatie per le email multilingua nel modulo Notify.
@@ -66,6 +69,7 @@ Questo documento tiene traccia dello stato di implementazione delle email utiliz
 
 ### SendSpatieEmail.php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +231,9 @@ Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/F
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> 545977c8 (rebase 210)
+=======
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 36ac4fc1 (.)
 
 ```php
 // Errore di sintassi (manca ->)
@@ -262,6 +269,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 
 ## Risorse di Riferimento
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,10 +395,13 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
 4. [Best Practices](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -509,12 +520,15 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 
 ## Timeline
 
 - **Completato**: Configurazione base, documentazione iniziale
 - **In corso**: Refactoring modelli, correzioni sintassi
 - **Pianificato**: Testing, documentazione completa
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,3 +578,5 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

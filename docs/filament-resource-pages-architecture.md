@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Architettura delle Pagine di Risorse Filament 
 
 ## Regola Fondamentale
@@ -133,6 +136,7 @@ Le classi base XotBase già implementano la maggior parte delle funzionalità ne
 Per verificare che tutte le pagine di risorse seguano questo pattern:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,11 +376,15 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> 36ac4fc1 (.)
 ```
 
 ## Riferimenti
 
 - [Filament Resources Documentation](https://filamentphp.com/docs/3.x/panels/resources/getting-started)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -583,3 +591,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+- [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
+>>>>>>> 36ac4fc1 (.)

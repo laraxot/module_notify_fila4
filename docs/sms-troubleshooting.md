@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -235,6 +238,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -398,6 +402,8 @@ Log::debug('SMS Debug', [
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 - [Laravel Logging](https://laravel.com/docs/logging)
 
 ## Supporto
@@ -436,6 +442,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -456,3 +463,5 @@ Log::debug('SMS Debug', [
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

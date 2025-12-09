@@ -1046,6 +1046,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -1944,6 +1945,14 @@ declare(strict_types=1);
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+=======
+>>>>>>> 518c702 (.)
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">

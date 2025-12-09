@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
 </div>
 					</td>
 				</tr>

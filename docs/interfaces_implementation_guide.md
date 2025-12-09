@@ -14,6 +14,7 @@ Le interfacce sono organizzate in due livelli:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
@@ -27,10 +28,21 @@ Le interfacce sono organizzate in due livelli:
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 >>>>>>> f963d2c0 (.)
+=======
+   /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
+=======
+<<<<<<< HEAD
+   /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
+=======
+   /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
    ```
 
 2. **Interfacce Specifiche per Canale**: Posizionate in sottodirectory dedicate
    ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +60,16 @@ Le interfacce sono organizzate in due livelli:
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> f963d2c0 (.)
+=======
+   /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+=======
+<<<<<<< HEAD
+   /var/www/html/<directory progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+=======
+   /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
    ```
 
 ### Convenzioni di Naming

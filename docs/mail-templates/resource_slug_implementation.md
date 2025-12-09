@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
@@ -19,6 +20,16 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> f963d2c0 (.)
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
+=======
+<<<<<<< HEAD
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <main module>.
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 
 ## Implementazione nel Form Schema
 
@@ -62,6 +73,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard SaluteOra
@@ -75,6 +87,16 @@ public static function getFormSchema(): array
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> f963d2c0 (.)
+=======
+## Conformità con gli Standard <nome progetto>
+=======
+<<<<<<< HEAD
+## Conformità con gli Standard <main module>
+=======
+## Conformità con gli Standard SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -92,9 +114,27 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
+<<<<<<< HEAD
  * Campo slug in getTableColumns()
  */
 public static function getTableColumns(): array
+=======
+<<<<<<< HEAD
+ * Campo slug in getListTableColumns()
+ */
+public static function getListTableColumns(): array
+=======
+<<<<<<< HEAD
+ * Campo slug in getTableColumns()
+ */
+public static function getTableColumns(): array
+=======
+ * Campo slug in getListTableColumns()
+ */
+public static function getListTableColumns(): array
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')

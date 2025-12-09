@@ -57,8 +57,30 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
+=======
+# PHPStan Fixes - Notify
+=======
+=======
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+# PHPStan Fixes - Modulo Notify
+>>>>>>> 6ba141fc (.)
+
+## 2025-01-06
+
+| File | Intervento | Verifica |
+|------|------------|----------|
+| [`../app/Models/NotificationLog.php`](../app/Models/NotificationLog.php) | Creato modello mancante con metodi `markAsOpened()` / `markAsClicked()` e tipizzazione enum | `./vendor/bin/phpstan analyse Modules/Notify` |
+| [`../app/Console/Commands/CleanupNotificationLogsCommand.php`](../app/Console/Commands/CleanupNotificationLogsCommand.php) | Query tipizzate (`Collection`, enum `->value`) e chunk tipizzato | ✅ |
+| [`../app/Http/Controllers/NotificationTrackingController.php`](../app/Http/Controllers/NotificationTrackingController.php) | Controllo istanza log, gestione metadata con `Arr::get` | ✅ |
+| [`../database/factories/NotificationLogFactory.php`](../database/factories/NotificationLogFactory.php) | Factory tipizzata (`NotificationLogStatusEnum`) con stato coerente | ✅ |
+
+<<<<<<< HEAD
+Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G --no-progress` → **nessun errore**.
+>>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -592,6 +614,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d284d65 (.)
@@ -729,3 +752,112 @@ private static function processArray(array $data): array
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 9f953c6 (.)
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+=======
+# Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
+
+## 🔄 **Stato In Corso**
+
+Il modulo Notify ha ~6 errori PHPStan rimanenti, principalmente legati al safe casting da mixed types.
+
+## 🔧 **Correzioni Implementate**
+
+### Safe Casting Patterns
+Implementati pattern di safe casting per la maggior parte dei casi di conversione da mixed types:
+
+```php
+use \Modules\Xot\Actions\Cast\SafeStringCastAction;
+
+// Pattern di Safe Casting implementati
+private function safeCastToString(mixed $value): string
+{
+    return is_string($value) ? $value : (string) ($value ?? '');
+}
+
+// Utilizzo di SafeStringCastAction
+private function castWithAction(mixed $value): string
+{
+    return SafeStringCastAction::cast($value);
+}
+```
+
+### Filament Resources - Array Compatibility
+Tutte le risorse Filament del modulo sono state aggiornate per utilizzare array associativi con chiavi string.
+
+## 📋 **Errori Rimanenti (~6)**
+
+### Mixed Type Casting Issues
+- **Tipo**: `Cannot cast mixed to string/int/float`
+- **Localizzazione**: Principalmente in Actions e Services
+- **Soluzione**: Implementare pattern di safe casting con validazione
+
+### Pattern di Risoluzione Raccomandati
+```php
+// Per casting a string
+private function safeCastToString(mixed $value): string
+{
+    if (is_string($value)) {
+        return $value;
+    }
+    
+    if (is_null($value)) {
+        return '';
+    }
+    
+    return (string) $value;
+}
+
+// Per casting a int
+private function safeCastToInt(mixed $value): int
+{
+    if (is_int($value)) {
+        return $value;
+    }
+    
+    if (is_numeric($value)) {
+        return (int) $value;
+    }
+    
+    return 0;
+}
+
+// Utilizzo di SafeStringCastAction
+private function castNotificationData(mixed $data): string
+{
+    return SafeStringCastAction::cast($data);
+}
+```
+
+## 🎯 **Progressi**
+- **Errori Risolti**: ~75% (da ~24 errori iniziali a ~6)
+- **Array Compatibility**: ✅ Completato
+- **Method Signatures**: ✅ Completato
+- **Safe Casting**: 🔄 In corso (75% completato)
+
+## 📚 **Prossimi Passi**
+1. Identificare i 6 errori rimanenti con PHPStan
+2. Applicare pattern di safe casting ai punti critici
+3. Validare con PHPStan Level 7
+4. Aggiornare documentazione
+
+## 📋 **Best Practices Implementate**
+- **Array Associativi**: Chiavi string per azioni Filament
+- **Safe Casting**: Pattern di validazione prima del casting
+- **PHPDoc**: Tipi di ritorno precisi
+- **Validation**: Controlli di tipo robusti
+
+## 📚 **Documentazione di Riferimento**
+- `docs/phpstan-level7-guide.md`: Guida completa PHPStan Level 7
+- `docs/phpstan/safe-casting-patterns.md`: Pattern di casting sicuro
+- `\Modules\Xot\Actions\Cast\SafeStringCastAction`: Action per casting sicuro
+
+---
+*Ultimo aggiornamento: Gennaio 2025*
+*Stato: 🔄 In Corso - ~6 errori PHPStan rimanenti*
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)

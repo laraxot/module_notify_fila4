@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari
@@ -365,6 +368,7 @@ class FileUploadSecurityTest extends TestCase
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -828,3 +832,8 @@ class FileUploadSecurityTest extends TestCase
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+- [PHPUnit Documentation](https://phpunit.de/documentation.html) 
+>>>>>>> 36ac4fc1 (.)

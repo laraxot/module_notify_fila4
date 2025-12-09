@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,10 +25,13 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Integrazione MailPace Templates
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +265,9 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 =======
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> 36ac4fc1 (.)
 
 ## Template Disponibili
 
@@ -332,6 +339,7 @@ MailPace offre i seguenti template transazionali:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
@@ -525,6 +533,9 @@ MailPace offre i seguenti template transazionali:
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 36ac4fc1 (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -631,6 +642,7 @@ $mailTemplate->send($user->email, [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per 
@@ -818,6 +830,9 @@ $mailTemplate->send($user->email, [
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> 36ac4fc1 (.)
 
 ## Riferimenti
 
@@ -825,6 +840,7 @@ $mailTemplate->send($user->email, [
 - [Repository MailPace Templates](https://github.com/mailpace/templates)
 - [Guida Spatie Email](../SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Implementazione Slug Field](./SLUG_FIELD_IMPLEMENTATION.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -853,3 +869,5 @@ $mailTemplate->send($user->email, [
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

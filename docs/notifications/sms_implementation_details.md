@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Implementazione SMS : Guida Dettagliata
 
 Questa documentazione fornisce una guida dettagliata all'implementazione delle notifiche SMS , con confronto tra diversi provider e best practices specifiche per il contesto italiano.
@@ -306,6 +309,7 @@ return [
     'smshosting' => [
         'username' => env('SMSHOSTING_USERNAME'),
         'password' => env('SMSHOSTING_PASSWORD'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -798,6 +802,10 @@ return [
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
 >>>>>>> 545977c8 (rebase 210)
+=======
+        'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+        'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+>>>>>>> 36ac4fc1 (.)
     ],
 ];
 ```
@@ -1322,6 +1330,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 <<<<<<< HEAD
@@ -1811,6 +1820,12 @@ public function toTwilio($notifiable)
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+=======
+        ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
+        ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: saluteora.it/privacy");
+>>>>>>> 36ac4fc1 (.)
 }
 ```
 
@@ -1872,6 +1887,7 @@ class ConsentLog extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1892,3 +1908,5 @@ class ConsentLog extends Model
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

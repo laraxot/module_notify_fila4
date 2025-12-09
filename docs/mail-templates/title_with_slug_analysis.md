@@ -140,6 +140,7 @@ use Camya\Filament\Forms\Components\TitleWithSlugInput;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
@@ -159,6 +160,12 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 public static function form(Form $form): Form
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
 {
     return $form
         ->schema([

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Esempi Aggiuntivi di Contenuto per Template Email
 
 Questo documento contiene esempi aggiuntivi di contenuto HTML per template email da memorizzare nel database, seguendo l'architettura corretta di `spatie/laravel-database-mail-templates`.
@@ -210,6 +213,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 =======
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? ' Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -397,6 +401,9 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 =======
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+                <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+>>>>>>> 36ac4fc1 (.)
             </div>
         </div>
         
@@ -476,6 +483,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 =======
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? ' Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -663,6 +671,9 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 =======
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+        <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+>>>>>>> 36ac4fc1 (.)
     </div>
     
     <div style="border-top: 1px solid #e2e8f0; margin: 30px 0; padding-top: 30px;">
@@ -679,6 +690,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
     </p>
 </div>
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,3 +719,5 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

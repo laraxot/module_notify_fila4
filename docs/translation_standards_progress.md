@@ -18,18 +18,31 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/notification_template.php`
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php`
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/setting.php`
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php`
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/notification_template.php`
+=======
+>>>>>>> 36ac4fc1 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php`
@@ -38,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -45,6 +59,10 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
    - E altri 15 file (elenco completo in appendice)
 
 ### Correzioni Implementate
@@ -54,6 +72,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -61,12 +82,23 @@
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
    - Aggiornato `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+   - Creato `/var/www/html/<directory progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
+   - Creato `/var/www/html/<directory progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
+
+2. **File Corretti**
+   - Creato `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
+   - Aggiornato `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
+=======
+>>>>>>> 36ac4fc1 (.)
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -76,6 +108,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -83,6 +116,10 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
    - Rimosso il file con naming errato `send_whats_app.php`
 
 ### Prossime Correzioni da Implementare
@@ -92,6 +129,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -99,12 +139,23 @@
 2. **Verifiche da Eseguire**
    - Analisi della cartella `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/` per identificare problemi simili
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_email.php`
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_sms.php`
+   - `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_telegram.php`
+
+2. **Verifiche da Eseguire**
+   - Analisi della cartella `/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/en/` per identificare problemi simili
+=======
+>>>>>>> 36ac4fc1 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -114,6 +165,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -121,6 +173,10 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
    - Controllo dei riferimenti nel codice che potrebbero puntare ai vecchi file
 
 ## Documentazione di Riferimento
@@ -141,6 +197,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -162,12 +221,37 @@
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_spatie_email.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/create_mail_template.php
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/setting.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_netfun_sms.php (corretto)
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/notification_template.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/notify.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/contacts.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/test_smtp.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/log.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_sms.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/contact.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/slack_notification.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/template.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_push_notification.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/dashboard.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_whats_app.php (rimosso e sostituito)
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_firebase_push_notification.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_email.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/send_spatie_email.php
+/var/www/html/<directory progetto>/laravel/Modules/Notify/lang/it/create_mail_template.php
+=======
+>>>>>>> 36ac4fc1 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -191,6 +275,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -198,4 +283,8 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 ```

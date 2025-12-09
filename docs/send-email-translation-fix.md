@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -153,6 +156,7 @@ Ogni campo ora ha la struttura espansa completa:
 
 - [Documentazione Root](../docs/translation_standards_links.md)
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +366,8 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 
 ## Note Importanti
@@ -385,6 +391,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,3 +429,6 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 36ac4fc1 (.)

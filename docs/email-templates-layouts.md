@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -24,6 +25,8 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Template Email e Layout - Modulo Notify
 
 ## Scopo
@@ -168,6 +171,7 @@ MailTemplate::create([
 
 **Ultimo aggiornamento**: 2025-08-08  
 **Versione**: 1.0  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,3 +557,6 @@ MailTemplate::create([
 =======
 **Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+**Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
+>>>>>>> 36ac4fc1 (.)

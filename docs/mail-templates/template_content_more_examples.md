@@ -142,6 +142,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 =======
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -155,6 +156,16 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 =======
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> f963d2c0 (.)
+=======
+                <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+=======
+<<<<<<< HEAD
+                <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? '<main module> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+=======
+                <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
             </div>
         </div>
         
@@ -192,6 +203,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 =======
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -205,6 +217,16 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 =======
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> f963d2c0 (.)
+=======
+        <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+=======
+<<<<<<< HEAD
+        <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? '<main module> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+=======
+        <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
     </div>
     
     <div style="border-top: 1px solid #e2e8f0; margin: 30px 0; padding-top: 30px;">
