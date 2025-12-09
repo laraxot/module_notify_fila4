@@ -28,6 +28,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -77,6 +78,8 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -88,6 +91,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -108,6 +112,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
 
 /**
  * Modello per il logging delle notifiche.
@@ -1126,6 +1132,7 @@ final class NotificationLog extends BaseModel
         $this->update([
             'status' => NotificationLogStatusEnum::CLICKED,
             'clicked_at' => now(),
+<<<<<<< HEAD
         ]);
 <<<<<<< HEAD
 
@@ -1273,6 +1280,8 @@ final class NotificationLog extends BaseModel
         $this->update([
             'status' => NotificationLogStatusEnum::OPENED,
             'opened_at' => now(),
+=======
+>>>>>>> a404ea71 (.)
         ]);
     }
 
