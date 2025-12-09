@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -46,6 +47,8 @@
 =======
 >>>>>>> 712617d3 (.)
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> 94c68e2 (.)
@@ -54,7 +57,14 @@
 =======
 =======
 >>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
 # Notify Module Documentation
 
 ## Overview
@@ -108,6 +118,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +278,8 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -356,7 +369,16 @@ This document serves as the central index for the Notify module, providing guida
 =======
 =======
 >>>>>>> 10b3b08 (.)
+<<<<<<< HEAD
 >>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -392,6 +414,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -408,10 +431,17 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> 94c68e2 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
 - [Documentazione Generale PTV](../../../../docs/README.md)
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
@@ -476,6 +506,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 4f042b88 (.)
 =======
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> bd22fd4 (.)
 =======
@@ -486,7 +518,15 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -509,12 +549,15 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
 =======
 
 >>>>>>> bf479cc (.)
@@ -575,7 +618,17 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 =======
 >>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -709,6 +762,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -723,8 +777,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 712617d3 (.)
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> e627c3b (.)
 =======
 
 >>>>>>> bf479cc (.)
@@ -1014,6 +1072,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1030,8 +1089,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 712617d3 (.)
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> e627c3b (.)
 =======
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
@@ -1493,6 +1556,11 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f3086887 (rebase 210)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -1574,10 +1642,15 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 94c68e2 (.)
 =======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> e627c3b (.)
+=======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fdda20 (.)
 <<<<<<< HEAD
@@ -1655,4 +1728,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
 >>>>>>> 10b3b08 (.)
+<<<<<<< HEAD
 >>>>>>> bd804d67 (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
