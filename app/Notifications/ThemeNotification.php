@@ -127,6 +127,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -448,10 +449,15 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 4c323e61 (.)
 =======
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
     public function __construct(
         public string $name,
         public array $view_params,
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -721,6 +727,8 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 9cdf6146 (.)
 =======
+>>>>>>> 80f054e0 (.)
+=======
     public function __construct(public string $name, public array $view_params)
     {
     }
@@ -765,6 +773,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1125,6 +1134,10 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
 
     /**
      * Get the notification's delivery channels.
@@ -1238,6 +1251,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1324,12 +1338,15 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
         return $notifiable->getNotificationData($this->name, $this->view_params)->channels;
 =======
         return $notifiable
             ->getNotificationData($this->name, $this->view_params)
             ->channels;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1802,6 +1819,11 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 4c323e61 (.)
 =======
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+        return $notifiable->getNotificationData($this->name, $this->view_params)->channels;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
     }
 
     /**
@@ -1916,6 +1938,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2002,12 +2025,15 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
         $attachments = $notifiable->getNotificationData($this->name, $this->view_params)->attachments;
 =======
         $attachments = $notifiable
             ->getNotificationData($this->name, $this->view_params)
             ->attachments;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2480,6 +2506,11 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 4c323e61 (.)
 =======
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+        $attachments = $notifiable->getNotificationData($this->name, $this->view_params)->attachments;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
 
         $mail_message = app(BuildMailMessageAction::class)
             ->execute($this->name, $notifiable->getModel(), $this->view_params, $attachments);
@@ -2605,6 +2636,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2918,6 +2950,10 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 4c323e61 (.)
 =======
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
         return $notifiable->getNotificationData($this->name, $this->view_params)->getSmsData();
 
         /*
@@ -3033,6 +3069,9 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 9d67cabd (.)
 =======
@@ -3311,6 +3350,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3656,6 +3696,10 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
         // $notifiable->sendSmsCallback()
     }
 
