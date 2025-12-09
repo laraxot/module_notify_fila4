@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Miglioramenti UI/UX per MailTemplateResource
 
 ## Componenti Filament Consigliati
@@ -193,3 +194,5 @@ public static function table(Table $table): Table
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
 - [Componenti Blade Filament](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Best Practices UI/UX](https://filamentphp.com/docs/3.x/panels/resources/getting-started) 
+=======
+>>>>>>> c13e9db (.)
