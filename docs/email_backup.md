@@ -796,6 +796,7 @@ class MailBackupDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -876,6 +877,8 @@ class MailBackupDebugger
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
 - [Laravel Storage](https://laravel.com/docs/storage)
 - [Laravel Encryption](https://laravel.com/docs/encryption)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -883,6 +886,7 @@ class MailBackupDebugger
 - [Laravel Storage](https://laravel.com/project_docs/storage)
 - [Laravel Encryption](https://laravel.com/project_docs/encryption)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1380,3 +1384,6 @@ class MailBackupDebugger
 - [Laravel Encryption](https://laravel.com/docs/encryption)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
