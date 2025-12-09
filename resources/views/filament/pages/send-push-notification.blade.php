@@ -1070,9 +1070,9 @@ declare(strict_types=1);
                 <div class="mt-6">
                     {{ $this->notificationForm }}
                 </div>
-<<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1107,6 +1107,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> 367c6ceb (.)
+=======
+>>>>>>> 08fd62df (.)
                 </div>
             </div>
 <<<<<<< HEAD
