@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -100,6 +101,8 @@
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -220,6 +223,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -273,6 +277,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Pagine](../../../../project_docs/architecture/pages.md)
 
@@ -280,6 +286,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseListRecords](../../Xot/project_docs/filament-pages.md#XotBaseListRecords)
 - [XotBaseCreateRecord](../../Xot/project_docs/filament-pages.md#XotBaseCreateRecord)
 - [XotBaseEditRecord](../../Xot/project_docs/filament-pages.md#XotBaseEditRecord)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +412,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -420,6 +429,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 2. Non si sovrascrivono metodi se non necessario
 3. Si mantiene la coerenza con il resto del sistema
 4. La documentazione va mantenuta aggiornata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -562,3 +572,6 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> 36321fcb (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> b99af5a8 (.)

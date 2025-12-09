@@ -133,6 +133,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -202,10 +203,14 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> bb7e77c2 (.)
 =======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> b99af5a8 (.)
+=======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -410,6 +415,8 @@ $attachments = [
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
@@ -482,6 +489,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
@@ -551,10 +559,14 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> bb7e77c2 (.)
 =======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> b99af5a8 (.)
+=======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +771,8 @@ $attachments = [
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
