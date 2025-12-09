@@ -610,6 +610,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 
+use function Safe\json_encode;
+
 class NotificationTemplateTest extends TestCase
 {
     use RefreshDatabase;
