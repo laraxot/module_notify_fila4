@@ -258,6 +258,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -435,6 +436,8 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
 - [Laravel Logging](https://laravel.com/docs/logging)
 =======
 - [Laravel Logging](https://laravel.com/docs/logging)

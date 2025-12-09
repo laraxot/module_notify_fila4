@@ -1335,7 +1335,6 @@ class BuildMailMessageAction
             $subject = 'Notifica';
         }
 
-<<<<<<< HEAD
         $email = new MailMessage()
 <<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
@@ -1368,6 +1367,7 @@ class BuildMailMessageAction
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce89c8bb (.)
@@ -1437,6 +1437,8 @@ class BuildMailMessageAction
         $email = $email->view($view_html, $theme->view_params);
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> a404ea71 (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {
