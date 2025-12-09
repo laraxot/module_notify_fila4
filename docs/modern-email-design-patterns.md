@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Pattern di Design per Email Moderne
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +119,9 @@ Questo documento esplora i pattern di design più efficaci per le email moderne,
 =======
 Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
 >>>>>>> febe79e3 (.)
+=======
+Questo documento esplora i pattern di design più efficaci per le email moderne, basati sull'analisi di numerosi framework e risorse specializzate nel settore. L'obiettivo è fornire linee guida per creare email che massimizzino l'engagement mantenendo compatibilità cross-client e aderenza alle best practices di SaluteOra.
+>>>>>>> 2a97406c (.)
 
 ## Pattern Principali
 
@@ -461,5 +468,8 @@ return [
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [Spatie Email Integration](./SPATIE_EMAIL_USAGE_GUIDE.md)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

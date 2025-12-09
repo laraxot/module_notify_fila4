@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Guida Completa ai Provider di Notifiche 
 
 <<<<<<< HEAD
@@ -113,6 +114,11 @@ Questo documento fornisce una panoramica completa dell'architettura standardizza
 =======
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di SaluteOra.
 >>>>>>> febe79e3 (.)
+=======
+# Guida Completa ai Provider di Notifiche 
+
+Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di SaluteOra.
+>>>>>>> 2a97406c (.)
 
 ## Principi Architetturali per Tutti i Provider
 
@@ -246,5 +252,8 @@ Per implementazioni specifiche, vedere i documenti:
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -150,6 +153,7 @@ Ogni campo ora ha la struttura espansa completa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -230,6 +234,8 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 
 ## Note Importanti
@@ -253,6 +259,10 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 2a97406c (.)

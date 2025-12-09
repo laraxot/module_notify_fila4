@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -35,6 +38,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +150,9 @@ class OtpSmsNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> febe79e3 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 2a97406c (.)
         );
     }
 
@@ -332,6 +339,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -422,6 +430,9 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> febe79e3 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 2a97406c (.)
         );
     }
 
@@ -683,6 +694,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -773,6 +785,9 @@ public function sendBulkSms(Request $request)
 =======
             sender: 'SALUTEORA',
 >>>>>>> febe79e3 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 2a97406c (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -1255,5 +1270,8 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

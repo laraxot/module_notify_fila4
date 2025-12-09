@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Visualizzazione Parametri come Badge - Mail Templates
 
 ## Panoramica
@@ -194,6 +197,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 =======
 **Compatibilità**: Filament 3.x, Laravel 10+ 
@@ -276,3 +280,6 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 2a97406c (.)

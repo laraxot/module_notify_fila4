@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Implementazione del Campo `slug` in MailTemplateResource
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +119,9 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> febe79e3 (.)
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> 2a97406c (.)
 
 ## Implementazione nel Form Schema
 
@@ -176,6 +183,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -266,6 +274,9 @@ public static function getFormSchema(): array
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> febe79e3 (.)
+=======
+## Conformità con gli Standard SaluteOra
+>>>>>>> 2a97406c (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -391,5 +402,8 @@ return [
 - [Guida alla Migrazione](../MAIL_TEMPLATE_MIGRATION_GUIDE.md)
 - [Convenzioni Filament](../../../../docs/FILAMENT_CONVENTIONS.md)
 - [Regole per Filament](../../../../docs/FILAMENT_RULES.md)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

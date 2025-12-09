@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Stato Attuale del Lavoro - 12 Maggio 2025
 
 ## Problematiche Identificate
@@ -13,6 +16,7 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 
 ### 2. Problemi con le Traduzioni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +129,9 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 =======
 - **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di SaluteOra
 >>>>>>> febe79e3 (.)
+=======
+- **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di SaluteOra
+>>>>>>> 2a97406c (.)
 - **Causa**: Il modulo Notify utilizza convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali
 - **Dettagli**: I file utilizzano la chiave `navigation` e un pattern di naming con prefisso `send_` in snake_case
 
@@ -173,6 +180,7 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 
 ## Note Aggiuntive
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,3 +297,8 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 - Le soluzioni implementate mantengono la compatibilità con il codice esistente, garantendo al contempo chiarezza per gli sviluppatori futuri
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+- È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di SaluteOra
+- La documentazione è stata aggiornata per riflettere queste eccezioni e prevenire confusioni future
+- Le soluzioni implementate mantengono la compatibilità con il codice esistente, garantendo al contempo chiarezza per gli sviluppatori futuri
+>>>>>>> 2a97406c (.)

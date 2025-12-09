@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Sistema di Email Template
 
 ## Introduzione
@@ -11,6 +14,7 @@ Il modulo Notify implementa un sistema avanzato di gestione delle email template
 **Errore**: `MissingMailTemplate` durante registrazione pazienti  
 **Status**: CRITICO - Sistema registrazione bloccato  
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +127,9 @@ Il modulo Notify implementa un sistema avanzato di gestione delle email template
 =======
 ➡️ **Documentazione completa**: [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)  
 >>>>>>> febe79e3 (.)
+=======
+➡️ **Documentazione completa**: [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)  
+>>>>>>> 2a97406c (.)
 ➡️ **Pattern globali**: [Missing Mail Template Patterns](../../../docs/errori_gravi/missing-mail-template-patterns.md)
 
 ### Fix Immediato
@@ -399,6 +406,7 @@ MailTemplate::create([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ➡️ [Documentazione completa errore](../../<nome progetto>/docs/errori/missing-mail-template-spatiemail.md)
 =======
    - ➡️ [Documentazione completa errore](../../<nome modulo>/docs/errori/missing-mail-template-spatiemail.md)
@@ -489,6 +497,9 @@ MailTemplate::create([
 =======
    - ➡️ [Documentazione completa errore](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)
 >>>>>>> febe79e3 (.)
+=======
+   - ➡️ [Documentazione completa errore](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)
+>>>>>>> 2a97406c (.)
 
 2. **Template non trovato**
    - Verificare che il template esista nel database
@@ -521,6 +532,7 @@ php artisan tinker
 ## Collegamenti Correlati
 
 ### **Errori Critici e Soluzioni**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -633,12 +645,16 @@ php artisan tinker
 =======
 - [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> febe79e3 (.)
+=======
+- [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
+>>>>>>> 2a97406c (.)
 - [Missing Mail Template Patterns](../../../docs/errori_gravi/missing-mail-template-patterns.md) - Pattern globali
 - [Array to String Conversion](../../../docs/errori_gravi/array-to-string-conversion-patterns.md) - Errore correlato
 
 ### **Documentazione Tecnica**
 - [Documentazione Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [Gestione Traduzioni](../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -751,6 +767,8 @@ php artisan tinker
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
 - [Configurazione Email](../../../docs/email-configuration.md)
 - [Documentazione Traduzioni](./translations.md)
 - [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md)
@@ -765,5 +783,8 @@ php artisan tinker
 **Ultimo aggiornamento**: 26 Giugno 2025  
 **Status**: Aggiornato per errore critico MissingMailTemplate  
 **Priorità**: URGENT - Fix sistema registrazione
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

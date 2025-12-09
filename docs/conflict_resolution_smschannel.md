@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto
@@ -53,6 +56,7 @@ return $action->execute($smsData);
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [SMS Channel Architecture](sms_channel_action_resolution.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,3 +234,8 @@ return $action->execute($smsData);
 *Ultimo aggiornamento: giugno 2025*
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 2a97406c (.)

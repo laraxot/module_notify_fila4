@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Sistema Log Email 
 
 ## Panoramica
@@ -543,6 +546,7 @@ class MailLogDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -730,3 +734,8 @@ class MailLogDebugger
 >>>>>>> febe79e3 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Logging](https://laravel.com/docs/logging)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
+>>>>>>> 2a97406c (.)

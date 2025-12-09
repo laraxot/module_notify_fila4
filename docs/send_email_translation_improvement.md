@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Miglioramento File Traduzione send_email.php
 
 ## 🔍 Analisi del Problema
@@ -253,6 +256,7 @@ return [
 
 ### 1. Controllo Sintassi PHP
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +559,11 @@ cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 888799d0 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 2a97406c (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -608,6 +617,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -755,6 +765,13 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
+=======
+- [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
+- [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
+- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+- [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+- [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+>>>>>>> 2a97406c (.)
 - [Struttura Modulo Notify](./README.md)
 
 ### File Modificati
@@ -789,6 +806,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -1017,6 +1035,11 @@ php -l Modules/Notify/lang/it/send_email.php
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> 888799d0 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> 2a97406c (.)
 
 ## 📝 Note di Implementazione
 
@@ -1038,5 +1061,8 @@ php -l Modules/Notify/lang/it/send_email.php
 
 **Ultimo aggiornamento**: Gennaio 2025  
 **Autore**: Sistema di miglioramento automatico  
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -186,6 +189,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -266,6 +270,8 @@ Log::debug('SMS Debug', [
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
 - [Laravel Logging](https://laravel.com/docs/logging)
 
 ## Supporto
@@ -296,5 +302,8 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern Architetturali per le Notifiche
 
 <<<<<<< HEAD
@@ -113,6 +114,11 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 =======
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
 >>>>>>> febe79e3 (.)
+=======
+# Pattern Architetturali per le Notifiche
+
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> 2a97406c (.)
 
 ## Confronto tra Pattern Architetturali
 
@@ -247,5 +253,8 @@ Basandoci sull'analisi dei vantaggi e degli svantaggi:
 Il **Pattern Factory** offre il miglior equilibrio tra separazione delle responsabilità, riutilizzabilità e testabilità. Tuttavia, il **Pattern Attuale** è comunque una soluzione valida, specialmente per progetti di dimensioni ridotte o quando la coerenza con il framework è prioritaria.
 
 Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola il principio di Responsabilità Singola e crea un accoppiamento non necessario tra il DTO e la configurazione del sistema.
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

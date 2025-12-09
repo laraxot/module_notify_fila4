@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +119,9 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> febe79e3 (.)
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> 2a97406c (.)
 
 ## Principi Fondamentali
 
@@ -208,6 +215,7 @@ Migliore esperienza su client moderni:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 Per , si raccomanda un **approccio ibrido**:
@@ -298,6 +306,9 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> febe79e3 (.)
+=======
+Per SaluteOra, si raccomanda un **approccio ibrido**:
+>>>>>>> 2a97406c (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
@@ -410,5 +421,8 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [MailPace Integration](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

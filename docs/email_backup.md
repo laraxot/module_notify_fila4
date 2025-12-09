@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
 # Sistema Backup Email 
 
 ## Panoramica
@@ -667,6 +670,7 @@ class MailBackupDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -854,3 +858,8 @@ class MailBackupDebugger
 >>>>>>> febe79e3 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+- [Laravel Storage](https://laravel.com/docs/storage)
+- [Laravel Encryption](https://laravel.com/docs/encryption)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> 2a97406c (.)
