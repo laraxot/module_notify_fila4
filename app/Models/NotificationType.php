@@ -70,6 +70,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -398,6 +399,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD

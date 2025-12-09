@@ -88,6 +88,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -188,6 +189,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
      * @param  object  $_notifiable  The entity to be notified (not used in this method)
 =======
 =======
@@ -196,12 +199,15 @@ class EmailDataNotification extends Notification
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
      * @return array<string>
      */
     public function via(object $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +431,8 @@ class EmailDataNotification extends Notification
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     {
         return ['mail'];
     }
@@ -891,6 +899,7 @@ class EmailDataNotification extends Notification
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 <<<<<<< HEAD
@@ -1009,13 +1018,18 @@ class EmailDataNotification extends Notification
 >>>>>>> 2fc60436 (.)
 =======
 =======
+=======
+>>>>>>> 58816034 (.)
         $mailMessage = new MailMessage();
         $mailMessage = $mailMessage->subject($this->emailData->subject);
         $mailMessage = $mailMessage->line($this->emailData->body);
 
         if (!empty($this->emailData->body_html)) {
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             $mailMessage->view('notify::emails.template', [
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1023,6 +1037,7 @@ class EmailDataNotification extends Notification
             ]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1235,6 +1250,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
             $mailMessage = $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 =======
@@ -1242,13 +1259,9 @@ class EmailDataNotification extends Notification
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 207ac35 (.)
-        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
 =======
-        if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b (.)
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
->>>>>>> 4e2ebfb (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)

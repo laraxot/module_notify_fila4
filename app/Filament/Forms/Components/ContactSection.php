@@ -356,11 +356,10 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
@@ -369,6 +368,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -389,12 +390,18 @@ use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +629,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     // protected string $view = 'filament-forms::components.group';
 =======
 =======
@@ -636,6 +645,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -673,6 +684,7 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, \Filament\Forms\Components\TextInput>
      */
@@ -682,6 +694,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     protected function getFormSchema(): array
     {
 <<<<<<< HEAD
@@ -871,6 +885,7 @@ class ContactSection extends Forms\Components\Section
      * $record->touch();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1232,4 +1247,6 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 }

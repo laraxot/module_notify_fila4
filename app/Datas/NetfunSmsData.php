@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -67,6 +68,8 @@
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 58816034 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -78,6 +81,7 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -264,6 +268,8 @@ declare(strict_types=1);
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -306,6 +312,7 @@ class NetfunSmsData extends Data
         public string $recipient,
         public string $message,
         public string $sender,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +610,8 @@ class NetfunSmsData extends Data
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         public ?string $reference = null,
         public ?string $scheduledDate = null,
 =======
@@ -632,6 +641,13 @@ class NetfunSmsData extends Data
         public null|string $scheduledDate = null,
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
     ) {}
 }

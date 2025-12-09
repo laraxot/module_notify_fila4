@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -226,16 +227,11 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 declare(strict_types=1);
 
 
-=======
->>>>>>> b19cd40 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 4e2ebfb (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\MailTemplateVersion;
@@ -257,6 +253,7 @@ class MailTemplateVersionFactory extends Factory
         return [];
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,3 +427,5 @@ class MailTemplateVersionFactory extends Factory
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)

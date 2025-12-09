@@ -44,6 +44,7 @@ use Modules\Notify\Factories\TelegramActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -221,6 +222,9 @@ use Modules\Notify\Factories\TelegramActionFactory;
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+ *
+>>>>>>> 58816034 (.)
  * Questo canale utilizza il driver Telegram configurato in config/telegram.php
  * per inviare messaggi Telegram attraverso il provider selezionato.
  */
@@ -263,6 +267,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -440,6 +445,9 @@ class TelegramChannel
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -447,6 +455,7 @@ class TelegramChannel
     {
         $this->factory = $factory;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -658,13 +667,9 @@ class TelegramChannel
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
-
 =======
-    
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 58816034 (.)
 
->>>>>>> 4e2ebfb (.)
     /**
      * Invia la notifica attraverso il canale Telegram.
      *
@@ -961,9 +966,8 @@ class TelegramChannel
      */
     public function send($notifiable, Notification $notification)
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!method_exists($notification, 'toTelegram')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
@@ -983,11 +987,17 @@ class TelegramChannel
         if (!method_exists($notification, 'toTelegram')) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
         $telegramData = $notification->toTelegram($notifiable);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1117,6 +1127,8 @@ class TelegramChannel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1139,6 +1151,7 @@ class TelegramChannel
 
         $action = $this->factory->create();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1360,6 +1373,8 @@ class TelegramChannel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         return $action->execute($telegramData);
     }
 }

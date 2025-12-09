@@ -267,6 +267,7 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -495,6 +496,8 @@ abstract class BaseModel extends Model implements HasMedia
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -553,6 +556,7 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -781,6 +785,8 @@ abstract class BaseModel extends Model implements HasMedia
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

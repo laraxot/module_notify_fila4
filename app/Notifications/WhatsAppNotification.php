@@ -38,6 +38,7 @@ use Illuminate\Bus\Queueable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -318,12 +319,18 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Notifications\Notification;
+use Modules\Notify\Datas\WhatsAppData;
+>>>>>>> 58816034 (.)
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Class WhatsAppNotification
  *
  * Notification class for sending WhatsApp messages through various providers.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,17 +550,15 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 58816034 (.)
+=======
 =======
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 207ac35 (.)
- *
 =======
- * 
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b (.)
  *
->>>>>>> 4e2ebfb (.)
  * @package Modules\Notify\Notifications
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -621,6 +626,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         } else {
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -831,10 +837,14 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
             /** @phpstan-ignore-next-line */
             $this->whatsappData = new WhatsAppData(
                 to: SafeStringCastAction::cast($to),
                 body: $content,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -964,10 +974,13 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
                 from: $from !== null ? SafeStringCastAction::cast($from) : null,
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,12 +1204,15 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $this->config = $config;
     }
 
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1353,6 +1369,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
      * @param  mixed  $_notifiable  L'entità da notificare
 =======
 =======
@@ -1361,12 +1379,15 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
      * @param mixed $_notifiable L'entità da notificare
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1598,6 +1619,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     {
         // TODO: Implementare WhatsAppChannel quando disponibile
         return ['whatsapp'];
@@ -1843,15 +1866,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
      *
      * @return string|null
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getProvider(): null|string
-=======
-    public function getProvider(): ?string
->>>>>>> b19cd40 (.)
-=======
-    public function getProvider(): null|string
->>>>>>> 4e2ebfb (.)
     {
         $provider = $this->config['provider'] ?? null;
 <<<<<<< HEAD

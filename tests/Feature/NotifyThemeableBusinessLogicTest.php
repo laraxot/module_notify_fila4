@@ -60,6 +60,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -583,6 +584,10 @@ use Modules\Notify\Models\NotifyThemeable;
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+>>>>>>> 58816034 (.)
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -731,6 +736,7 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $theme3->id,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1309,6 +1315,10 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+>>>>>>> 58816034 (.)
     });
 
     it('can handle theme switching', function () {
@@ -1492,6 +1502,7 @@ describe('Notify Themeable Business Logic', function () {
         $theme1Assignments = NotifyThemeable::where('notify_theme_id', $theme1->id)->get();
         expect($theme1Assignments)->toHaveCount(5);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1821,6 +1832,8 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
 <<<<<<< HEAD
@@ -1829,6 +1842,7 @@ describe('Notify Themeable Business Logic', function () {
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2383,6 +2397,8 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);

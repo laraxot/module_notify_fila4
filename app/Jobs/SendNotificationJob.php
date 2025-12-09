@@ -224,6 +224,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -376,6 +377,8 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -384,6 +387,7 @@ class SendNotificationJob implements ShouldQueue
         $timeoutConfig = config('notify.queue.retry_after', 60);
         $this->timeout = is_numeric($timeoutConfig) ? ((int) $timeoutConfig) : 60;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +737,8 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -742,6 +748,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -856,6 +863,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         /** @var array<string, mixed> $data */
         $data = $this->data;
         /** @var array<int, string> $channels */
@@ -1205,7 +1214,13 @@ class SendNotificationJob implements ShouldQueue
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
     }
 
     /**
@@ -1266,6 +1281,7 @@ class SendNotificationJob implements ShouldQueue
             'trace' => $exception->getTraceAsString(),
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1609,3 +1625,6 @@ class SendNotificationJob implements ShouldQueue
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+}
+>>>>>>> 58816034 (.)

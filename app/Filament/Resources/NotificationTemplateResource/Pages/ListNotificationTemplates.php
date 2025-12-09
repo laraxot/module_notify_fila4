@@ -40,6 +40,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -83,15 +84,20 @@ use Override;
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 58816034 (.)
+=======
 =======
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 use Override;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,11 +418,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 
 class ListNotificationTemplates extends XotBaseListRecords
 {
     protected static string $resource = NotificationTemplateResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,6 +648,8 @@ class ListNotificationTemplates extends XotBaseListRecords
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 58816034 (.)
+=======
     #[Override]
 >>>>>>> 75179b8 (.)
 =======
@@ -657,11 +668,18 @@ class ListNotificationTemplates extends XotBaseListRecords
     #[Override]
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+    #[Override]
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
     public function getTableColumns(): array
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,3 +890,6 @@ class ListNotificationTemplates extends XotBaseListRecords
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+}
+>>>>>>> 58816034 (.)

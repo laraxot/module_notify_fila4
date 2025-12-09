@@ -35,12 +35,15 @@ use Filament\Forms\Components\RichEditor;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
 =======
 <<<<<<< HEAD
@@ -51,13 +54,16 @@ use Filament\Forms\Components\RichEditor;
 =======
 <<<<<<< HEAD
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
 =======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 9777d1b (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -81,6 +87,7 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -101,7 +108,12 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -174,14 +186,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> c8b1c8bf (.)
 =======
 use Modules\Xot\Datas\XotData;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
-=======
->>>>>>> b19cd40 (.)
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> 4e2ebfb (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -203,6 +208,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $emailData = [];
 =======
 <<<<<<< HEAD
@@ -212,6 +218,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     public ?array $emailData = [];
 >>>>>>> f1c9518b (.)
 
@@ -250,12 +258,21 @@ class TestSmtpPage extends XotBasePage implements HasForms
     public null|string $error_message = null;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +297,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     protected static ?string $cluster = Test::class;
 =======
     protected static null|string $cluster = Test::class;
@@ -304,7 +323,13 @@ class TestSmtpPage extends XotBasePage implements HasForms
     protected static null|string $cluster = Test::class;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 
     public function mount(): void
     {
@@ -354,10 +379,6 @@ class TestSmtpPage extends XotBasePage implements HasForms
         $this->emailData['subject'] = 'test';
         $defaultEmail = XotData::make()->super_admin;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         return $schema->components([
             Section::make('SMTP')
                 ->schema([
@@ -393,61 +414,6 @@ class TestSmtpPage extends XotBasePage implements HasForms
                 ])
                 ->columns(3),
         ])->statePath('emailData');
-<<<<<<< HEAD
-=======
-        return $schema
-            ->components(
-                [
-                    Section::make('SMTP')
-                        ->schema(
-                            [
-                                TextInput::make('host')
-                                // ->default($smtpConfig['host'])
-                                ,
-                                TextInput::make('port')
-                                    ->numeric()
-                                // ->default($smtpConfig['port'])
-                                ,
-                                TextInput::make('username')
-                                // ->default($smtpConfig['username'])
-                                ,
-                                TextInput::make('password')
-                                // ->default($smtpConfig['password'])
-                                ,
-                                TextInput::make('encryption')
-                                // ->default($smtpConfig['encryption'])
-                                ,
-                            ]
-                        )->columns(3),
-                    Section::make('MAIL')
-                        ->schema(
-                            [
-                                TextInput::make('from_email')
-                                    // ->default(config('mail.from.address', $defaultEmail))
-                                    ->email()
-                                    ->required(),
-                                TextInput::make('from')
-                                // ->default(config('mail.from.name'))
-                                ,
-                                TextInput::make('to')
-                                    // ->default($defaultEmail)
-                                    ->email()
-                                    ->required(),
-                                TextInput::make('subject')
-                                    ->default('test')
-                                    ->required(),
-                                RichEditor::make('body_html')
-                                    ->default('test body')
-                                    ->required()
-                                    ->columnSpanFull(),
-                            ]
-                        )->columns(3),
-                ]
-            )
-            ->statePath('emailData');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     }
 
     public function sendEmail(): void
@@ -486,10 +452,6 @@ class TestSmtpPage extends XotBasePage implements HasForms
     protected function getEmailFormActions(): array
     {
         return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
             Action::make('emailFormActions')->submit('emailFormActions'),
         ];
     }
@@ -526,21 +488,11 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
     #[Override]
-<<<<<<< HEAD
-=======
-            Action::make('emailFormActions')
-
-                ->submit('emailFormActions'),
-        ];
-    }
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +510,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         if (! ($user instanceof Model)) {
 =======
 =======
@@ -566,19 +520,14 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.',
             );
-<<<<<<< HEAD
-=======
-        if (! $user instanceof Model) {
-            throw new Exception('L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         }
 
         return $user;
@@ -588,15 +537,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
     {
         Assert::isArray($mail_config = config('mail'));
         Assert::isArray($smtpConfig = Arr::get($mail_config, 'mailers.smtp'));
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Convertiamo l'array generico in un array<string, mixed>
         $typedConfig = [];
         foreach ($smtpConfig as $key => $value) {
@@ -604,9 +545,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
                 $typedConfig[$key] = $value;
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +649,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 58816034 (.)
         $this->fill($typedConfig);
 =======
 =======
@@ -722,6 +664,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
         $this->emailForm->fill($typedConfig);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)

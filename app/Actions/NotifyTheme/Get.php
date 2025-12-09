@@ -62,6 +62,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -192,6 +193,8 @@ class Get
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
@@ -492,10 +495,13 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
         if (!isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (!isset($view_params['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +530,8 @@ class Get
 =======
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -543,7 +551,12 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -587,6 +600,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -764,10 +778,14 @@ class Get
             ['view_params' => []],
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+            ['view_params' => []],
+>>>>>>> 58816034 (.)
         );
 
         $module_name_low = Str::lower($xotData->main_module);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1130,6 +1148,8 @@ class Get
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
         if ($theme->subject === null) {
@@ -1193,10 +1213,13 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1226,6 +1249,8 @@ class Get
 =======
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -1245,7 +1270,12 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -1292,6 +1322,7 @@ class Get
 >>>>>>> e6c7fb3 (.)
 >>>>>>> 54220b28 (rebase 210)
         if ($theme->body_html === null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1619,6 +1650,8 @@ class Get
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
 =======
@@ -1648,7 +1681,14 @@ class Get
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
                 $html = '##body_html##';
             }
 
@@ -1726,6 +1766,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1762,6 +1803,8 @@ class Get
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             $view_params['logo'] =
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1843,6 +1886,7 @@ class Get
             $view_params['logo'] =
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
 
+<<<<<<< HEAD
 =======
             $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
 >>>>>>> a12f125f4a (.)
@@ -2008,6 +2052,8 @@ class Get
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
 
@@ -2015,6 +2061,7 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2309,6 +2356,8 @@ class Get
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
                 $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
 =======
@@ -2338,7 +2387,14 @@ class Get
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
             }
         }
 
@@ -2348,6 +2404,7 @@ class Get
             $theme->update(['view_params' => $view_params]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2482,6 +2539,8 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         return NotifyThemeData::from([
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2521,6 +2580,7 @@ class Get
             'body_html' => $body_html,
             'view_params' => $view_params,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2746,5 +2806,7 @@ class Get
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     }
 }
