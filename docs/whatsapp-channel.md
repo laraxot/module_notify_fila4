@@ -427,6 +427,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -489,12 +490,16 @@ class WhatsAppTest extends TestCase
 =======
 =======
 >>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 6608a1a0 (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/project_docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,12 +650,16 @@ class WhatsAppTest extends TestCase
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -879,3 +888,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)

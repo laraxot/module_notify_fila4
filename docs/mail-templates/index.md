@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -81,6 +82,8 @@
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
@@ -88,6 +91,7 @@
 - [README Modulo Notify](../README.md)
 - [Sistema Email](../database-mail-system.md)
 - [Template Email](../EMAIL_TEMPLATES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,6 +289,10 @@
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> ee18dd92 (.)
+=======
+- [Documentazione Generale ](../../../../../docs/README.md)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+>>>>>>> 6608a1a0 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura
@@ -337,6 +345,7 @@
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice dei template email, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 Ultimo aggiornamento: 14 Maggio 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,3 +431,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)

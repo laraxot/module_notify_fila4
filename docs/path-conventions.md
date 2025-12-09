@@ -107,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -249,6 +250,8 @@
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -374,6 +377,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
 >>>>>>> 75179b85 (.)
@@ -411,6 +415,8 @@
 =======
 >>>>>>> 31f5d28f (.)
 =======
+>>>>>>> 6608a1a0 (.)
+=======
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -436,6 +442,7 @@
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,6 +577,8 @@
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
 
 ## Namespace vs Directory
 
@@ -639,6 +648,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
 =======
@@ -735,6 +745,10 @@
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 >>>>>>> 31f5d28f (.)
 =======
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+>>>>>>> 6608a1a0 (.)
+=======
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
@@ -742,6 +756,7 @@
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -926,6 +941,8 @@
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`

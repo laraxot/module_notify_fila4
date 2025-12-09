@@ -301,13 +301,18 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 =======
 # Convenzioni di Naming per Filament 
 
+<<<<<<< HEAD
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
+=======
+>>>>>>> 6608a1a0 (.)
 =======
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema , con particolare attenzione alle pagine e alle risorse.
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema <nome progetto>, con particolare attenzione alle pagine e alle risorse.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
@@ -317,6 +322,8 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
 
 ## Convenzioni di Naming per Pagine Filament
 

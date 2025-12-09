@@ -157,6 +157,7 @@ Per verificare che tutte le classi seguano questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
@@ -366,7 +367,14 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
+=======
+find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
+find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
+find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
+>>>>>>> bf479cc (.)
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.

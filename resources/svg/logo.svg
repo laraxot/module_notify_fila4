@@ -145,6 +145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -623,6 +624,10 @@
 =======
 =======
 >>>>>>> 5e14ac3 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -718,6 +723,7 @@
         <circle cx="12" cy="12" r="8" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 6" />
         <circle cx="12" cy="12" r="12" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 8" />
     </g>
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
@@ -1928,6 +1934,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -1976,6 +1983,8 @@
 =======
 >>>>>>> cde5a49 (.)
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 6608a1a0 (.)
 </svg>
 <<<<<<< HEAD
 <<<<<<< HEAD
