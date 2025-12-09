@@ -28,6 +28,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -40,6 +41,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> a80c61f (.)
+=======
+ *
+>>>>>>> d2c515f (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -53,15 +57,20 @@ use Illuminate\Support\Carbon;
  * @method static Builder|NotifyThemeable whereUpdatedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> a80c61f (.)
+=======
+ *
+>>>>>>> d2c515f (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
@@ -108,6 +117,12 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
 >>>>>>> a80c61f (.)
+=======
+ *
+ * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
+ * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+ *
+>>>>>>> d2c515f (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

@@ -107,6 +107,7 @@ class SendScheduledPushNotification implements ShouldQueue
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -116,3 +117,5 @@ class SendScheduledPushNotification implements ShouldQueue
 =======
 
 >>>>>>> 6fb15fa (.)
+=======
+>>>>>>> d2c515f (.)
