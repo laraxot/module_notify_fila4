@@ -433,6 +433,7 @@ return [
 ## Vedi Anche
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
@@ -441,4 +442,9 @@ return [
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
 >>>>>>> 75179b85 (.)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+>>>>>>> f963d2c0 (.)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 

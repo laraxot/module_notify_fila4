@@ -159,8 +159,12 @@ document.querySelectorAll('.group').forEach(card => {
 - Tutti i componenti sono accessibili, responsive e personalizzabili.
 - Usare sempre slot e attributi per espandibilità.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 =======
 - Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
 >>>>>>> 75179b85 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+>>>>>>> f963d2c0 (.)
 - Integrare test di rendering e validazione accessibilità.

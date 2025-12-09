@@ -191,6 +191,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 
 #### 8.5.3 Tools
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Telescope](https://laravel.com/docs/telescope)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
@@ -199,6 +200,11 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Horizon](https://laravel.com/project_docs/horizon)
 - [Laravel Dusk](https://laravel.com/project_docs/dusk)
 >>>>>>> 75179b85 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> f963d2c0 (.)
 
 #### 8.5.4 Best Practices
 - [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
@@ -208,20 +214,28 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 #### 8.5.5 Security
 - [OWASP](https://owasp.org)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Security](https://laravel.com/docs/security)
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
 >>>>>>> 75179b85 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> f963d2c0 (.)
 - [PHP Security](https://phpsecurity.readthedocs.io)
 
 #### 8.5.6 Testing
 - [PHPUnit](https://phpunit.de)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
 #### 8.5.7 Performance
 - [Laravel Performance](https://laravel.com/docs/performance)
+<<<<<<< HEAD
 =======
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
@@ -229,14 +243,20 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 #### 8.5.7 Performance
 - [Laravel Performance](https://laravel.com/project_docs/performance)
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 - [PHP Performance](https://www.php.net/manual/en/performance.php)
 - [Web Performance](https://web.dev/performance)
 
 #### 8.5.8 Monitoring
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Monitoring](https://laravel.com/docs/monitoring)
 =======
 - [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
 >>>>>>> 75179b85 (.)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+>>>>>>> f963d2c0 (.)
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 

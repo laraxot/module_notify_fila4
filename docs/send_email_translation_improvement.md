@@ -254,10 +254,14 @@ return [
 ```bash
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 75179b85 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> f963d2c0 (.)
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 php -l Modules/Notify/lang/it/send_email.php
 

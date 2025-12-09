@@ -428,6 +428,7 @@ class TelegramTest extends TestCase
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [Telegram Webhook API](https://core.telegram.org/bots/api#setwebhook)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
@@ -435,12 +436,17 @@ class TelegramTest extends TestCase
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
 
 ## Principi di Configurazione
 

@@ -776,10 +776,14 @@ class TemplateControllerTest extends TestCase
 ## 8. Collegamenti Utili
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 >>>>>>> 75179b85 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> f963d2c0 (.)
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
