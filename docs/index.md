@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -32,6 +33,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
 # Notify Module Documentation
 
 ## Overview
@@ -85,6 +88,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +212,8 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 909e45af (.)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -229,7 +235,14 @@ This document serves as the central index for the Notify module, providing guida
 =======
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
+>>>>>>> 909e45af (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -246,6 +259,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
 
 ## Collegamenti Correlati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,11 +336,18 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> 3f39ac8b (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,6 +400,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -508,6 +534,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -642,6 +669,11 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
 =======
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
@@ -700,6 +732,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -708,6 +741,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
 =======
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
@@ -1111,8 +1146,10 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1156,4 +1193,14 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
+
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
+>>>>>>> 909e45af (.)

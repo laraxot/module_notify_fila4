@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 # Sistema Migrazione Email 
 
 ## Panoramica
@@ -778,6 +781,7 @@ class MailMigrationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Migrations](https://laravel.com/docs/migrations)
 - [Laravel Schema](https://laravel.com/docs/schema)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -800,12 +804,15 @@ class MailMigrationDebugger
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
 - [Laravel Migrations](https://laravel.com/project_docs/migrations)
 - [Laravel Schema](https://laravel.com/project_docs/schema)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
 - [Laravel Migrations](https://laravel.com/docs/migrations)
 - [Laravel Schema](https://laravel.com/docs/schema)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -871,3 +878,5 @@ class MailMigrationDebugger
 - [Laravel Schema](https://laravel.com/docs/schema)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)

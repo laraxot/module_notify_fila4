@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 # Sistema Log Email 
 
 ## Panoramica
@@ -529,6 +532,7 @@ class MailLogDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
@@ -551,12 +555,15 @@ class MailLogDebugger
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Observers](https://laravel.com/project_docs/eloquent#observers) 
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,3 +629,5 @@ class MailLogDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)

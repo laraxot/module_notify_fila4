@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 # Test Sistema Email - il progetto
 
 ## Panoramica
@@ -443,6 +446,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
@@ -465,12 +469,15 @@ class TestData
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 909e45af (.)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/project_docs/dusk) 
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,3 +543,5 @@ class TestData
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)

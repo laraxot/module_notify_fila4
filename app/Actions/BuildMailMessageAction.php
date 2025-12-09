@@ -751,6 +751,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $email = new MailMessage()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -926,10 +927,18 @@ class BuildMailMessageAction
 =======
 =======
 >>>>>>> fd497554 (.)
+=======
+>>>>>>> 909e45af (.)
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);
+=======
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+>>>>>>> bf479cc (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {

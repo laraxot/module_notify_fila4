@@ -117,8 +117,16 @@ Questo documento definisce le best practices per l'utilizzo di Enum e file di co
 =======
 # Utilizzo di Enum e Config 
 
+<<<<<<< HEAD
 Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema SaluteOra, con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+<<<<<<< HEAD
 >>>>>>> 2a97406c (.)
+=======
+=======
+Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema , con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema <nome progetto>, con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 
 ## Problema: Hardcoding delle Opzioni
 
@@ -287,6 +295,7 @@ Per standardizzare l'approccio , si raccomanda di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema <nome progetto> garantirà un codice più robusto e facile da mantenere.
 =======
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema  garantirà un codice più robusto e facile da mantenere.
@@ -313,9 +322,13 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
 >>>>>>> 23cbbaf5 (.)
 =======
+L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
+>>>>>>> 909e45af (.)
+=======
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema  garantirà un codice più robusto e facile da mantenere.
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema <nome progetto> garantirà un codice più robusto e facile da mantenere.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -382,3 +395,5 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 =======
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)

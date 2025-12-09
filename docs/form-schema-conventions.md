@@ -122,6 +122,7 @@ Per verificare che tutti i metodi schema rispettino questa convenzione:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
@@ -149,10 +150,14 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
 >>>>>>> 23cbbaf5 (.)
 =======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
+>>>>>>> 909e45af (.)
+=======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +225,8 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 ```
 
 ## Riferimenti

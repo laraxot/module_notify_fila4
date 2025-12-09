@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo
@@ -171,6 +174,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
 - [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
@@ -225,6 +229,10 @@ public function sendEmail(): void
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+- [Best Practices Laravel](https://laravel.com/project_docs/best-practices)
+- [Convenzioni Laraxot](../Xot/project_docs/laraxot-conventions.md)
+>>>>>>> 909e45af (.)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 
@@ -244,9 +252,13 @@ public function sendEmail(): void
 - Semplificare dove possibile
 - Mantenere l'equilibrio tra funzionalità e complessità
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Seguire il principio "meno è più" 
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 - Seguire il principio "meno è più" 
 >>>>>>> 2a97406c (.)
+=======
+- Seguire il principio "meno è più" 
+>>>>>>> 909e45af (.)

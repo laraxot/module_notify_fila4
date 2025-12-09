@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Standard <nome progetto>: Componenti Blade Filament
 
 <<<<<<< HEAD
@@ -64,6 +65,11 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 # Standard <nome progetto>: Componenti Blade Filament
 
 >>>>>>> 2a97406c (.)
+=======
+# Standard <nome progetto>: Componenti Blade Filament
+
+In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
+>>>>>>> 909e45af (.)
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 
 ## Vantaggi rispetto a componenti custom
@@ -86,6 +92,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 - Collegare questa pagina da ogni README e guida tecnica del modulo
 
 ## Collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,3 +162,9 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 - [README Notify](README.md)
 - [queueable-action.md](queueable-action.md)
 >>>>>>> 2a97406c (.)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+- [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+- [README Notify](README.md)
+- [queueable-action.md](queueable-action.md)
+>>>>>>> 909e45af (.)

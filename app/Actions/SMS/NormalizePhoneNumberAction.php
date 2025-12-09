@@ -320,6 +320,11 @@ use function Safe\preg_match;
 >>>>>>> 98d837b9 (.)
 class NormalizePhoneNumberAction
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2fdda20 (.)
     public function execute(string|array $phoneNumber): string
     {
         // Convert array to string if needed
@@ -332,9 +337,22 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
         
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+    public function execute(string $phoneNumber): string
+    {
+>>>>>>> 62b0c9c (.)
+=======
+    public function execute(string $phoneNumber): string
+    {
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
+>>>>>>> 909e45af (.)
         // Rimuove parentesi e il loro contenuto
 <<<<<<< HEAD
 <<<<<<< HEAD
