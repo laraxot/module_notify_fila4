@@ -4,6 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+>>>>>>> 62b0c9c (.)
 
 /**
  * Modello per il logging delle notifiche.
