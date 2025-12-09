@@ -142,6 +142,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -244,6 +245,8 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> bb7e77c2 (.)
 =======
+>>>>>>> 8e5817bc (.)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -306,7 +309,12 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
 >>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> e5b598a (.)
+>>>>>>> 8e5817bc (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -680,6 +688,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,6 +815,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> c4bdacbf (.)
 =======
+>>>>>>> 8e5817bc (.)
+=======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -869,7 +880,14 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e5b598a (.)
+>>>>>>> 8e5817bc (.)
 
 ## Sottocartelle
 
@@ -923,6 +941,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1168,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 8e5817bc (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -1331,6 +1352,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> 4e643df (.)
+=======
+>>>>>>> e5b598a (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -1355,6 +1378,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 =======
@@ -1364,11 +1388,14 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 4e643df (.)
 =======
+>>>>>>> e5b598a (.)
+=======
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1458,4 +1485,12 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 >>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
 >>>>>>> bb7e77c2 (.)
+=======
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> b19cd40 (.)
+>>>>>>> e5b598a (.)
+>>>>>>> 8e5817bc (.)
