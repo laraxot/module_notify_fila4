@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -12,6 +13,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Sistema Log Email 
 
 ## Panoramica
@@ -578,6 +581,7 @@ class MailLogDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -886,3 +890,8 @@ class MailLogDebugger
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Logging](https://laravel.com/project_docs/logging)
+- [Laravel Events](https://laravel.com/project_docs/events)
+- [Laravel Observers](https://laravel.com/project_docs/eloquent#observers) 
+>>>>>>> 4fc21b78 (rebase 210)

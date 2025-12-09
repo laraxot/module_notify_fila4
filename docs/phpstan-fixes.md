@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -337,6 +338,8 @@ private function castNotificationData(mixed $data): string
 =======
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -530,6 +533,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -643,3 +647,5 @@ private static function processArray(array $data): array
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)

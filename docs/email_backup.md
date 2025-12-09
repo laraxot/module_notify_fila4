@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -12,6 +13,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Sistema Backup Email 
 
 ## Panoramica
@@ -702,6 +705,7 @@ class MailBackupDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1010,3 +1014,8 @@ class MailBackupDebugger
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Storage](https://laravel.com/project_docs/storage)
+- [Laravel Encryption](https://laravel.com/project_docs/encryption)
+- [Laravel Commands](https://laravel.com/project_docs/artisan) 
+>>>>>>> 4fc21b78 (rebase 210)

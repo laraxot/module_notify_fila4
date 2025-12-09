@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -12,6 +13,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Test smtp page
 
 ![test smtp page](test-smtp-page.jpg)
@@ -26,6 +29,7 @@ Il sistema rileverà in automatico la configurazione di default, ma si potrà be
 
 Inseriti le varie impostazioni, si potrà verificare il funzionamento di una determinata configurazione email.
 ## Collegamenti tra versioni di test-smtp-page.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +366,10 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 >>>>>>> fcaebc79 (rebase 210)
+=======
+* [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
+* [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
+>>>>>>> 4fc21b78 (rebase 210)
 
 
 ### Versione Incoming
@@ -370,6 +378,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,3 +395,5 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)

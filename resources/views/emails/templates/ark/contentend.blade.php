@@ -115,6 +115,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -348,11 +349,14 @@
 >>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -954,6 +958,9 @@ declare(strict_types=1);
 =======
 </div>
 >>>>>>> 54220b28 (rebase 210)
+=======
+</div>
+>>>>>>> 4fc21b78 (rebase 210)
 					</td>
 				</tr>
 			</tbody>
@@ -1083,6 +1090,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1657,3 +1665,6 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> 54220b28 (rebase 210)
+=======
+</tr>
+>>>>>>> 4fc21b78 (rebase 210)

@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -12,6 +13,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Sistema Migrazione Email 
 
 ## Panoramica
@@ -827,6 +830,7 @@ class MailMigrationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1135,3 +1139,8 @@ class MailMigrationDebugger
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Migrations](https://laravel.com/project_docs/migrations)
+- [Laravel Schema](https://laravel.com/project_docs/schema)
+- [Laravel Commands](https://laravel.com/project_docs/artisan) 
+>>>>>>> 4fc21b78 (rebase 210)
