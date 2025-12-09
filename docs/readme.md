@@ -1,291 +1,169 @@
-# Modulo Notify - Analisi Completa
+# Modulo Notify - Documentazione
 
-## Panoramica del Modulo
+## Overview
 
-Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Laraxot, inclusi template email, gestione contatti, temi personalizzabili e tipi di notifica configurabili. È progettato per supportare multiple modalità di invio (email, SMS, push) con gestione avanzata di preferenze utente e compliance GDPR. 
+Il modulo Notify gestisce le notifiche, i template email e le integrazioni con sistemi di messaggistica per l'applicazione PTVX.
 
-**IMPORTANTE**: Questo modulo è completamente riutilizzabile tra progetti diversi e NON deve contenere riferimenti hardcoded a progetti specifici.
+## Componenti Principali
 
-## Struttura del Modulo
+### MailTemplateResource
 
-### Modelli Identificati (13 totali)
+Resource Filament per la gestione dei template email con supporto multilingua tramite **Spatie Translatable**.
 
-#### Modelli Principali
-- **Notification** - Notifiche inviate
-- **NotificationTemplate** - Template per notifiche
-- **EmailTemplate** - Template email specifici
-- **Contact** - Contatti destinatari
-- **ContactGroup** - Gruppi di contatti
-- **Theme** - Temi personalizzabili
-- **NotificationType** - Tipi di notifica configurabili
+**Path**: `Modules/Notify/app/Filament/Resources/MailTemplateResource.php`
 
-#### Modelli Base (estendono XotBase)
-- **BaseModel** - Modello base del modulo
-- **BaseMorphPivot** - Pivot per relazioni polimorfe
-- **BasePivot** - Pivot standard per relazioni
+**Estende**: `LangBaseResource` (Modules/Lang)
 
-#### Modelli di Supporto
-- **NotificationLog** - Log delle notifiche inviate
-- **NotificationQueue** - Coda per notifiche asincrone
-- **NotificationSettings** - Impostazioni globali
+**Caratteristiche**:
+- Supporto multilingua per subject, html_template, text_template
+- Editor rich text per template HTML
+- Visualizzazione parametri disponibili
+- Gestione slug automatico
 
-### Status Attuale
+### Modello MailTemplate
 
-#### Factories (10/13 - 77%)
-- ✅ **Complete**: Notification, NotificationTemplate, EmailTemplate, Contact, ContactGroup, Theme, NotificationType, NotificationLog, NotificationQueue, NotificationSettings
-- ❌ **Mancanti**: BaseModel, BaseMorphPivot, BasePivot
+**Path**: `Modules/Notify/app/Models/MailTemplate.php`
 
-#### Seeders (4 principali)
-- ✅ **MainSeeder** - Seeder principale per dati di test
-- ✅ **NotificationTemplateSeeder** - Template predefiniti
-- ✅ **ContactSeeder** - Contatti di esempio
-- ✅ **ThemeSeeder** - Temi predefiniti
+**Campi**:
+- `mailable` - FQCN della classe Mailable
+- `subject` - Oggetto email (traducibile)
+- `html_template` - Template HTML (traducibile)
+- `text_template` - Template testo (traducibile)
+- `sms_template` - Template SMS (traducibile)
+- `params` - Parametri disponibili nel template
 
-#### Tests (0% → 95% copertura business logic)
-- ✅ **Implementati**: 
-  - `NotificationManagementBusinessLogicTest` - Gestione notifiche
-  - `TemplateManagementBusinessLogicTest` - Gestione template
-  - `ContactManagementBusinessLogicTest` - Gestione contatti
-  - `ThemeManagementBusinessLogicTest` - Gestione temi
-  - `NotificationTypeBusinessLogicTest` - Gestione tipi
-  - `NotificationTemplateVersionBusinessLogicTest` - Versioni template notifiche
-  - `MailTemplateVersionBusinessLogicTest` - Versioni template email
-  - `MailTemplateLogBusinessLogicTest` - Log template email
-  - `NotifyThemeableBusinessLogicTest` - Relazioni tema-notifica
-- ❌ **Mancanti**: Test per modelli base (BaseModel, BaseMorphPivot, BasePivot)
+## Integrazione Spatie Translatable
 
-## Business Logic Implementata
+### Plugin Registration
 
-### 1. Gestione Notifiche
-- Creazione e invio notifiche multi-canale
-- Gestione stato e tracking delivery
-- Gestione errori e retry automatici
-- Supporto per notifiche programmate
-- Gestione preferenze utente e opt-out
+Il plugin **Lara Zeus Spatie Translatable** è registrato in `AdminPanelProvider`:
 
-### 2. Gestione Template
-- Template email HTML e testo
-- Template SMS con limiti caratteri
-- Template push con azioni
-- Gestione variabili e personalizzazione
-- Versioning e backup template
+```php
+use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 
-### 3. Gestione Contatti
-- Profili contatto completi
-- Preferenze notifica granulari
-- Demografia e segmentazione
-- Storico comunicazioni
-- Gestione consensi GDPR
+public function panel(Panel $panel): Panel
+{
+    $panel->plugins([
+        SpatieTranslatablePlugin::make()
+            ->defaultLocales(['it', 'en']),
+    ]);
+    
+    return parent::panel($panel);
+}
+```
 
-### 4. Gestione Temi
-- Sistema di temi personalizzabili
-- Configurazione colori, font, spacing
-- Componenti UI riutilizzabili
-- Supporto dark mode e responsive
-- Versioning e archiviazione temi
+### Lingue Supportate
 
-### 5. Gestione Tipi di Notifica
-- Configurazione canali per tipo
-- Regole di frequenza e timing
-- Permessi e restrizioni
-- Metriche e analytics
-- Integrazioni esterne
+- **Italiano** (it) - predefinita
+- **Inglese** (en)
 
-## Test Implementati
+### Documentazione Dettagliata
 
-### NotificationManagementBusinessLogicTest
-- ✅ Creazione notifiche con informazioni base
-- ✅ Gestione stato e tracking
-- ✅ Gestione errori e retry
-- ✅ Notifiche programmate
-- ✅ Gestione preferenze utente
+Consultare [spatie-translatable-integration.md](./spatie-translatable-integration.md) per:
+- Setup completo
+- Migrazione modelli esistenti
+- Best practices
+- Troubleshooting
 
-### TemplateManagementBusinessLogicTest
-- ✅ Creazione template email
-- ✅ Gestione template SMS
-- ✅ Gestione template push
-- ✅ Versioning template
-- ✅ Gestione variabili
+## Database Notifications
 
-### ContactManagementBusinessLogicTest
-- ✅ Creazione contatti e gruppi
-- ✅ Gestione preferenze notifica
-- ✅ Demografia e segmentazione
-- ✅ Storico comunicazioni
-- ✅ Gestione consensi GDPR
-- ✅ Ricerca e filtri avanzati
+### Configurazione
 
-### ThemeManagementBusinessLogicTest
-- ✅ Creazione e configurazione temi
-- ✅ Gestione colori e font
-- ✅ Componenti UI personalizzabili
-- ✅ Versioning e archiviazione
-- ✅ Ricerca e filtri temi
+Il modulo supporta notifiche database Filament con polling personalizzato:
 
-### NotificationTypeBusinessLogicTest
-- ✅ Configurazione tipi di notifica
-- ✅ Gestione canali e priorità
-- ✅ Regole e permessi
-- ✅ Metriche e analytics
-- ✅ Integrazioni esterne
+```php
+DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
+DatabaseNotifications::pollingInterval('60s');
+```
 
-### NotificationTemplateVersionBusinessLogicTest
-- ✅ Creazione versioni template notifiche
-- ✅ Gestione versioning e backup
-- ✅ Gestione variabili e personalizzazione
-- ✅ Gestione stati e workflow
-- ✅ Gestione metadati e configurazioni
+### Disabilitazione
 
-### MailTemplateVersionBusinessLogicTest
-- ✅ Creazione versioni template email
-- ✅ Gestione versioning e backup
-- ✅ Gestione variabili e personalizzazione
-- ✅ Gestione stati e workflow
-- ✅ Gestione metadati e configurazioni
+Le notifiche database possono essere disabilitate tramite configurazione:
 
-### MailTemplateLogBusinessLogicTest
-- ✅ Creazione log template email
-- ✅ Gestione lifecycle email (invio, consegna, apertura, click)
-- ✅ Gestione errori e retry
-- ✅ Gestione bounce e complaint
-- ✅ Gestione metadati analytics
-- ✅ Gestione relazioni polimorfe
+```php
+// config/xot.php
+'disable_database_notifications' => true,
+```
 
-### NotifyThemeableBusinessLogicTest
-- ✅ Creazione relazioni tema-notifica
-- ✅ Gestione relazioni polimorfe
-- ✅ Gestione assegnazioni multiple temi
-- ✅ Gestione cambio tema
-- ✅ Gestione audit trail
-- ✅ Gestione operazioni bulk
+## Panel Filament
 
-## Piano di Implementazione Prioritizzato
+### ID Panel
 
-### Fase 1: Completamento Test Base (Priorità ALTA)
-- [ ] Creare factories per modelli base mancanti
-- [ ] Implementare test per modelli base
-- [ ] Test di integrazione tra modelli
+`notify::admin`
 
-### Fase 2: Test Avanzati (Priorità MEDIA)
-- [ ] Test di performance per notifiche bulk
-- [ ] Test di sicurezza e permessi
-- [ ] Test di compliance GDPR
+### Path
 
-### Fase 3: Test di Sistema (Priorità BASSA)
-- [ ] Test end-to-end per workflow notifiche
-- [ ] Test di stress per coda notifiche
-- [ ] Test di integrazione con servizi esterni
+`/notify/admin`
 
-## Obiettivi di Qualità
+### Discovery
 
-### Copertura Test Target
-- **Business Logic**: 100% (✅ RAGGIUNTO)
-- **Modelli Base**: 100% (🔄 IN CORSO)
-- **Integrazione**: 95% (🔄 IN CORSO)
-- **Performance**: 80% (📋 PIANIFICATO)
+Il panel auto-discover:
+- Resources in `app/Filament/Resources`
+- Pages in `app/Filament/Pages`
+- Widgets in `app/Filament/Widgets`
+- Clusters in `app/Filament/Clusters`
 
-### Standard di Qualità
-- ✅ **PHPStan**: Livello 9+ per tutti i file
-- ✅ **PSR-12**: Conformità standard coding
-- ✅ **Type Safety**: Tipizzazione rigorosa
-- ✅ **Documentazione**: PHPDoc completo
-- ✅ **Test Coverage**: Copertura business logic completa
+## Errori Comuni
 
-## Architettura e Design Patterns
+### Plugin spatie-translatable Not Registered
 
-### Principi Implementati
-- **Single Responsibility**: Ogni modello ha una responsabilità specifica
-- **Open/Closed**: Estensibile per nuovi tipi di notifica
-- **Dependency Injection**: Iniezione servizi esterni
-- **Event-Driven**: Sistema eventi per notifiche
-- **Queue-Based**: Processamento asincrono
+**Errore**: `LogicException - Plugin [spatie-translatable] is not registered for panel [notify::admin]`
 
-### Integrazioni Supportate
-- **Email Providers**: SendGrid, Mailgun, SMTP
-- **SMS Providers**: Twilio, Nexmo
-- **Push Services**: Firebase, OneSignal
-- **Analytics**: Google Analytics, Mixpanel
-- **Monitoring**: Sentry, New Relic
+**Causa**: Plugin commentato in AdminPanelProvider
 
-## Performance e Scalabilità
+**Soluzione**: Vedere [errori/plugin-spatie-translatable-not-registered.md](./errori/plugin-spatie-translatable-not-registered.md)
 
-### Ottimizzazioni Implementate
-- **Batch Processing**: Invio notifiche in lotti
-- **Queue Management**: Gestione code asincrone
-- **Caching**: Cache template e configurazioni
-- **Database Indexing**: Indici per query frequenti
-- **Rate Limiting**: Controllo frequenza invio
+**Status**: ✅ RISOLTO (plugin registrato)
 
-### Metriche di Performance
-- **Throughput**: 1000+ notifiche/minuto
-- **Latency**: <100ms per notifica
-- **Uptime**: 99.9% disponibilità
-- **Scalability**: Supporto 100k+ utenti
+## Best Practices
 
-## Sicurezza e Compliance
+### 1. Template Email Multilingua
 
-### GDPR Compliance
-- ✅ **Consent Management**: Gestione consensi granulare
-- ✅ **Data Portability**: Esportazione dati utente
-- ✅ **Right to be Forgotten**: Cancellazione dati
-- ✅ **Audit Trail**: Tracciamento modifiche
-- ✅ **Data Encryption**: Crittografia dati sensibili
+Creare sempre traduzioni per tutte le lingue supportate:
 
-### Sicurezza
-- ✅ **Rate Limiting**: Prevenzione spam
-- ✅ **Input Validation**: Validazione dati input
-- ✅ **SQL Injection Protection**: Query parametrizzate
-- ✅ **XSS Protection**: Sanitizzazione output
-- ✅ **CSRF Protection**: Protezione cross-site
+```php
+MailTemplate::create([
+    'mailable' => 'App\\Mail\\WelcomeMail',
+    'slug' => 'welcome',
+    'subject' => [
+        'it' => 'Benvenuto',
+        'en' => 'Welcome',
+    ],
+    'html_template' => [
+        'it' => '<p>Ciao {{name}}</p>',
+        'en' => '<p>Hello {{name}}</p>',
+    ],
+]);
+```
 
-## Manutenzione e Monitoraggio
+### 2. Parametri Template
 
-### Health Checks
-- ✅ **Database Connectivity**: Verifica connessione DB
-- ✅ **External Services**: Verifica servizi esterni
-- ✅ **Queue Status**: Stato code asincrone
-- ✅ **Template Validation**: Validazione template
-- ✅ **Rate Limit Status**: Stato limiti frequenza
+Documentare sempre i parametri disponibili nel template:
 
-### Logging e Monitoring
-- ✅ **Structured Logging**: Log strutturati JSON
-- ✅ **Error Tracking**: Tracciamento errori
-- ✅ **Performance Metrics**: Metriche performance
-- ✅ **User Activity**: Tracciamento attività utente
-- ✅ **System Health**: Monitoraggio salute sistema
+```php
+'params' => ['name', 'email', 'verification_url']
+```
 
-## Roadmap Futura
+### 3. Testing Templates
 
-### Versioni Pianificate
-- **v2.0**: Supporto notifiche in-app
-- **v2.1**: AI-powered personalizzazione
-- **v2.2**: Multi-tenant avanzato
-- **v2.3**: Analytics predittivi
+Testare rendering in tutte le lingue supportate.
 
-### Funzionalità Future
-- **Machine Learning**: Personalizzazione automatica
-- **A/B Testing**: Test template e timing
-- **Advanced Segmentation**: Segmentazione comportamentale
-- **Real-time Analytics**: Analytics in tempo reale
-- **Mobile SDK**: SDK per app mobile
+## Collegamenti
 
-## Collegamenti e Riferimenti
+### Documentazione Interna
+- [Spatie Translatable Integration](./spatie-translatable-integration.md)
+- [Errore Plugin Not Registered](./errori/plugin-spatie-translatable-not-registered.md)
+- [Lang Module](../../../Lang/docs/README.md)
+- [Xot Panel Configuration](../../../Xot/docs/filament/panel-configuration.md)
 
-### Documentazione Correlata
-- [Modulo User](../User/docs/README.md) - Gestione utenti e permessi
-- [Modulo Gdpr](../Gdpr/docs/README.md) - Compliance GDPR
-- [Modulo Media](../Media/docs/README.md) - Gestione file e media
-- [Documentazione Root](../../../docs/README.md) - Panoramica progetto
-
-### Risorse Esterne
-- [Laravel Notifications](https://laravel.com/docs/notifications)
-- [SendGrid API](https://sendgrid.com/docs/api-reference/)
-- [Twilio API](https://www.twilio.com/docs)
-- [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging)
+### Documentazione Esterna
+- [Lara Zeus Spatie Translatable](https://filamentphp.com/plugins/lara-zeus-spatie-translatable)
+- [Spatie Laravel Translatable](https://spatie.be/docs/laravel-translatable/v6/introduction)
+- [Filament Plugins](https://filamentphp.com/plugins)
 
 ---
 
-**Ultimo aggiornamento**: Dicembre 2024  
-**Versione**: 1.0  
-**Stato**: Test business logic completati (95% copertura)  
-**Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+**Ultimo aggiornamento**: 27 Ottobre 2025  
+**Maintainer**: Team PTVX  
+**Status**: ✅ ATTIVO con supporto multilingua
+

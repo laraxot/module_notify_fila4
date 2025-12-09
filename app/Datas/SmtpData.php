@@ -1021,9 +1021,6 @@ class SmtpData extends Data
         return self::$instance[$name];
     }
 
-    /**
-     * @return array<string, mixed>
-     */
     public function toArray(): array
     {
         return [

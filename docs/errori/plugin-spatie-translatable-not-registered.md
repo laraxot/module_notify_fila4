@@ -373,6 +373,10 @@ Prima di usare `LangBase*`:
 **Next Step**: Decidere se MailTemplate deve essere traducibile
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> a7355f9 (.)
+=======
+
+>>>>>>> ab15d0e (.)

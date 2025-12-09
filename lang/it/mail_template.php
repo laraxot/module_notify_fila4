@@ -430,6 +430,9 @@ return [
             'label' => 'logout',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab15d0e (.)
         'profile' => [
             'tooltip' => 'profile',
             'icon' => 'profile',
@@ -450,10 +453,13 @@ return [
             'icon' => 'save',
             'label' => 'save',
         ],
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> a7355f9 (.)
+=======
+>>>>>>> ab15d0e (.)
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',

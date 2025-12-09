@@ -1494,6 +1494,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
         if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
 >>>>>>> 99ff506 (.)
@@ -1505,6 +1506,9 @@ final class SendVonageWhatsAppAction
                 throw new \Exception('Invalid media URL');
             }
 >>>>>>> 05bc3ad (.)
+=======
+            $mediaUrl = $whatsAppData->media[0];
+>>>>>>> ab15d0e (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 
 <<<<<<< HEAD
