@@ -173,6 +173,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -612,6 +613,8 @@
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 1fd232c7 (.)
 <?php
 
 declare(strict_types=1);
@@ -1334,6 +1337,7 @@ declare(strict_types=1);
 >>>>>>> b8041b24 (.)
 =======
 </td>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> fd1fcc4c (.)
 =======
@@ -1394,12 +1398,15 @@ declare(strict_types=1);
 </td>
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 1fd232c7 (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2455,3 +2462,6 @@ declare(strict_types=1);
 >>>>>>> c8eedbbb (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 1fd232c7 (.)

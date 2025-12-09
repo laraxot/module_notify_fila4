@@ -177,6 +177,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -618,6 +619,8 @@
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 1fd232c7 (.)
 <?php
 
 declare(strict_types=1);
@@ -1408,14 +1411,18 @@ declare(strict_types=1);
 >>>>>>> c8eedbbb (.)
 =======
 <tr>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 1fd232c7 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2484,3 +2491,6 @@ declare(strict_types=1);
 >>>>>>> c8eedbbb (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+</tr>
+>>>>>>> 1fd232c7 (.)
