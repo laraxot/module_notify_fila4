@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -254,11 +255,14 @@
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +571,8 @@ declare(strict_types=1);
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 7ffa94fc (rebase 210)
 @extends('beautymail::templates.minty')
 
 @section('content')
@@ -678,6 +684,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1017,3 +1024,6 @@ declare(strict_types=1);
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+=======
+@stop
+>>>>>>> 7ffa94fc (rebase 210)

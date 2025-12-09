@@ -267,6 +267,7 @@ class PublishPageTemplateAction {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - GrapesJS Docs: https://grapesjs.com/docs/
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
@@ -524,3 +525,6 @@ class PublishPageTemplateAction {
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> 7ffa94fc (rebase 210)
