@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 82ae73be (.)
@@ -19,10 +20,14 @@
 =======
 
 >>>>>>> 82ae73be (.)
+=======
+
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +52,8 @@ use Illuminate\Http\RedirectResponse;
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -82,6 +89,7 @@ class NotificationTrackingController extends Controller
      *
      * @param Request $request
      * @param string $id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,13 +152,18 @@ class NotificationTrackingController extends Controller
         $url = $request->get('url', '');
 >>>>>>> 3f537838 (.)
 =======
+=======
+>>>>>>> d09cb759 (.)
      * @return Response
      */
     public function trackClick(Request $request, string $id): Response
     {
         $log = NotificationLog::find($id);
         $url = $request->get('url');
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 
         if ($log) {
             $log->markAsClicked();
@@ -163,6 +176,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $metadata = $log->data ?? [];
 =======
             $metadata = $log->metadata ?? [];
@@ -185,6 +199,9 @@ class NotificationTrackingController extends Controller
 =======
             $metadata = $log->metadata ?? [];
 >>>>>>> 82ae73be (.)
+=======
+            $metadata = $log->metadata ?? [];
+>>>>>>> d09cb759 (.)
             $metadata['clicked_links'] = array_merge(
                 $metadata['clicked_links'] ?? [],
                 [$url => now()->toIso8601String()]
@@ -196,6 +213,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $log->update(['data' => $metadata]);
         }
 
@@ -210,6 +228,8 @@ class NotificationTrackingController extends Controller
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
             $log->update(['metadata' => $metadata]);
         }
 
@@ -219,6 +239,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -242,5 +263,7 @@ class NotificationTrackingController extends Controller
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 } 
