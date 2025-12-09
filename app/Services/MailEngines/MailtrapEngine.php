@@ -19,6 +19,7 @@ namespace Modules\Notify\Services\MailEngines;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 =======
 =======
@@ -85,7 +86,15 @@ use InvalidArgumentException;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
 use InvalidArgumentException;
+=======
+<<<<<<< HEAD
+use InvalidArgumentException;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
@@ -104,6 +113,7 @@ use Webmozart\Assert\Assert;
  */
 class MailtrapEngine
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +219,10 @@ class MailtrapEngine
     public null|string $from = null;
 =======
 >>>>>>> 4689a827 (.)
+=======
+    public null|string $from = null;
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,6 +237,7 @@ class MailtrapEngine
     public ?string $from = null;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -452,11 +467,14 @@ class MailtrapEngine
 =======
     public null|string $from = null;
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
 
     public string $to;
 
     public string $driver;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,10 +556,13 @@ class MailtrapEngine
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,6 +884,8 @@ class MailtrapEngine
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -870,6 +893,34 @@ class MailtrapEngine
     public static function getInstance(): self
     {
         if (!(self::$instance instanceof self)) {
+<<<<<<< HEAD
+=======
+=======
+    public ?string $body = null;
+=======
+    public null|string $body = null;
+>>>>>>> b93ef594b4 (.)
+
+    private static null|self $instance = null;
+
+    public static function getInstance(): self
+    {
+<<<<<<< HEAD
+        if (! self::$instance instanceof self) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!(self::$instance instanceof self)) {
+>>>>>>> b93ef594b4 (.)
+=======
+    public ?string $body = null;
+
+    private static ?self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (! self::$instance instanceof self) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             self::$instance = new self();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -973,6 +1024,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1041,6 +1093,10 @@ class MailtrapEngine
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
 >>>>>>> 4689a827 (.)
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1055,6 +1111,7 @@ class MailtrapEngine
         Assert::string($this->body);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1270,6 +1327,8 @@ class MailtrapEngine
 =======
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
@@ -1282,6 +1341,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!$to) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1334,11 +1394,21 @@ class MailtrapEngine
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
+=======
+<<<<<<< HEAD
+                throw new InvalidArgumentException('Il destinatario email non è valido');
+=======
+                throw new \InvalidArgumentException('Il destinatario email non è valido');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             }
 
             $msg->to($to)->subject('Test Email');
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1450,6 +1520,10 @@ class MailtrapEngine
 
 =======
 >>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1462,6 +1536,7 @@ class MailtrapEngine
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1588,6 +1663,8 @@ class MailtrapEngine
 =======
 
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

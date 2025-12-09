@@ -331,6 +331,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 =======
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
@@ -396,7 +397,12 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 =======
+=======
+>>>>>>> 4689a827 (.)
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+>>>>>>> d284d65 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 =======
 =======
