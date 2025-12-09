@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -61,6 +62,8 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -417,6 +420,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -447,6 +451,9 @@ class MailTemplateSecurityTest extends TestCase
 =======
 
 >>>>>>> 712617d3 (.)
+=======
+
+>>>>>>> fdb24863 (rebase 210)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -483,6 +490,7 @@ php artisan test --coverage --filter=MailTemplate
 ## Vedi Anche
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1156,3 +1164,6 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+>>>>>>> fdb24863 (rebase 210)

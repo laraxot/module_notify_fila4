@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -67,6 +68,8 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -230,6 +233,7 @@ Log::debug('SMS Debug', [
 - [Plivo](https://www.plivo.com/docs)
 
 ### 2. Risorse Utili
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -797,10 +801,16 @@ Log::debug('SMS Debug', [
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Laravel Logging](https://laravel.com/docs/logging)
+>>>>>>> fdb24863 (rebase 210)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -993,6 +1003,8 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
 
 ## Supporto
 
@@ -1022,6 +1034,7 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1094,3 +1107,5 @@ Log::debug('SMS Debug', [
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)

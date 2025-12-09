@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Invio Email Semplice
 
 ```php
@@ -467,6 +468,9 @@ Log::channel('email')->info('Email sent', [
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> fdb24863 (rebase 210)
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -950,7 +954,18 @@ Log::channel('email')->info('Email sent', [
 =======
 =======
 >>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> da89aab (.)
+=======
+>>>>>>> 65a883d (.)
+=======
+>>>>>>> 01afecf (.)
+>>>>>>> fdb24863 (rebase 210)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1251,6 +1266,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> f963d2c (.)
@@ -1273,6 +1289,8 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 =======
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
 >>>>>>> 7bac387 (.)
 =======
 >>>>>>> bd22fd4 (.)
@@ -1283,4 +1301,21 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 =======
 =======
 >>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> 4760417 (.)
+=======
+>>>>>>> da89aab (.)
+=======
+>>>>>>> 61cfa35 (.)
+=======
+>>>>>>> 65a883d (.)
+=======
+>>>>>>> c69af64 (.)
+=======
+>>>>>>> 01afecf (.)
+>>>>>>> fdb24863 (rebase 210)

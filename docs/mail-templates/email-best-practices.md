@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,8 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
 # Best Practices per Email Transazionali
 
 ## Introduzione
@@ -72,6 +75,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 
 ### 2. Branding Coerente
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,6 +438,9 @@ Questo documento descrive le best practices per la creazione e gestione di email
 =======
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> 1442e291 (rebase 210)
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> fdb24863 (rebase 210)
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
 
@@ -551,6 +558,7 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 =======
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
@@ -849,6 +857,9 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 =======
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> 1442e291 (rebase 210)
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> fdb24863 (rebase 210)
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
 - **main.html**: Alternativa minimalista
@@ -929,6 +940,7 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo le regole di progetto <nome progetto>, ricordare di:
 =======
 Seguendo le regole di progetto , ricordare di:
@@ -1219,6 +1231,9 @@ Seguendo le regole di progetto SaluteOra, ricordare di:
 =======
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> 1442e291 (rebase 210)
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> fdb24863 (rebase 210)
 
 - NON creare controller personalizzati per gestire l'invio di email
 - Utilizzare il package `spatie/laravel-mail-templates`
@@ -1284,6 +1299,7 @@ $mailTemplate->send($user->email, [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1326,3 +1342,5 @@ $mailTemplate->send($user->email, [
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
