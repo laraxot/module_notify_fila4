@@ -23,6 +23,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -116,6 +117,11 @@ use Override;
 =======
 use Override;
 >>>>>>> 3f537838 (.)
+=======
+use Override;
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
@@ -128,6 +134,7 @@ class ListNotifications extends XotBaseListRecords
 {
     protected static string $resource = NotificationResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +207,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -215,6 +224,7 @@ class ListNotifications extends XotBaseListRecords
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +290,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
     public function getTableColumns(): array
     {
@@ -312,6 +324,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +380,9 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
     public function getTableFilters(): array
     {
         return [
@@ -390,6 +406,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -443,10 +460,13 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,6 +516,9 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
                 ->query(function (Builder $query): Builder {
                     return $query->where('read_at', '!=', null);
                 })
@@ -504,6 +527,7 @@ class ListNotifications extends XotBaseListRecords
                 ->query(function (Builder $query): Builder {
                     return $query->whereNull('read_at');
                 })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -575,6 +599,9 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

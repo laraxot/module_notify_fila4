@@ -23,6 +23,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -76,6 +77,8 @@ namespace Modules\Notify\Models;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
@@ -100,6 +103,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -121,12 +125,15 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +206,9 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 use Illuminate\Support\Carbon;
 
 /**
@@ -321,6 +331,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -382,6 +393,8 @@ class Contact extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         'model_id',
         'model_type',
         'contact_type',
@@ -415,6 +428,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -446,12 +460,16 @@ class Contact extends BaseModel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
         'model_id', 'model_type', 'contact_type', 'value',
         'verified_at', 'updated_at', 'created_at',
         'updated_by', 'created_by', 'user_id', 'token',
     ];
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -523,6 +541,9 @@ class Contact extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
     protected function casts(): array
     {
         return [
@@ -550,6 +571,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -568,10 +590,13 @@ class Contact extends BaseModel
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -602,11 +627,14 @@ class Contact extends BaseModel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -717,6 +745,9 @@ class Contact extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',

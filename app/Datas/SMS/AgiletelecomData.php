@@ -24,6 +24,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -77,6 +78,8 @@ use Illuminate\Support\Arr;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -106,6 +109,7 @@ class AgiletelecomData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +195,8 @@ class AgiletelecomData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -227,6 +233,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +289,9 @@ class AgiletelecomData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
             $data = Config::array('sms.drivers.agiletelecom');
             self::$instance = self::from($data);
         }
@@ -308,6 +318,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -358,10 +369,16 @@ class AgiletelecomData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    public function getAuthHeaders(): array
+    {
+=======
+>>>>>>> de02998b (.)
 
     public function getAuthHeaders(): array
     {
                 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,6 +470,9 @@ class AgiletelecomData extends Data
     public function getAuthHeaders(): array
     {
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
         switch ($this->auth_type) {
             case 'api_key':
                 return [
@@ -476,6 +496,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -529,6 +550,8 @@ class AgiletelecomData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
                     'Content-Type' => 'application/json',
                 ];
 
@@ -538,6 +561,7 @@ class AgiletelecomData extends Data
                     'Content-Type' => 'application/json',
                 ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -600,6 +624,8 @@ class AgiletelecomData extends Data
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
                     'Content-Type' => 'application/json'
                 ];
             
@@ -614,6 +640,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -669,6 +696,9 @@ class AgiletelecomData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
             case 'basic':
             default:
                 return [
@@ -692,6 +722,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -745,11 +776,14 @@ class AgiletelecomData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
                     'Content-Type' => 'application/json',
                 ];
         }
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -799,11 +833,15 @@ class AgiletelecomData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
                     'Content-Type' => 'application/json'
                 ];
         }
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -881,3 +919,7 @@ class AgiletelecomData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+}
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)

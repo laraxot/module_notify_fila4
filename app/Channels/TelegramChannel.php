@@ -30,6 +30,7 @@ use Modules\Notify\Factories\TelegramActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -42,10 +43,13 @@ use Modules\Notify\Factories\TelegramActionFactory;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132,6 +136,8 @@ use Modules\Notify\Factories\TelegramActionFactory;
 =======
  *
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
  * Questo canale utilizza il driver Telegram configurato in config/telegram.php
  * per inviare messaggi Telegram attraverso il provider selezionato.
  */
@@ -160,6 +166,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -172,10 +179,13 @@ class TelegramChannel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
     
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +272,8 @@ class TelegramChannel
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -288,6 +300,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -300,10 +313,13 @@ class TelegramChannel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
     
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,6 +406,8 @@ class TelegramChannel
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     /**
      * Invia la notifica attraverso il canale Telegram.
      *
@@ -419,6 +437,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -431,10 +450,13 @@ class TelegramChannel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
         if (!method_exists($notification, 'toTelegram')) {
 =======
         if (! method_exists($notification, 'toTelegram')) {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,10 +548,13 @@ class TelegramChannel
 =======
         if (!method_exists($notification, 'toTelegram')) {
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
         $telegramData = $notification->toTelegram($notifiable);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -602,6 +627,8 @@ class TelegramChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 
         if (!($telegramData instanceof TelegramData)) {
             throw new Exception('toTelegram method must return an instance of TelegramData');
@@ -609,6 +636,7 @@ class TelegramChannel
 
         $action = $this->factory->create();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -670,6 +698,8 @@ class TelegramChannel
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
         
         if (! $telegramData instanceof TelegramData) {
             throw new Exception('toTelegram method must return an instance of TelegramData');
@@ -682,6 +712,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,6 +768,9 @@ class TelegramChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
         return $action->execute($telegramData);
     }
 }

@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +47,11 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
@@ -259,6 +265,7 @@ VONAGE_SECRET=xyz789...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -286,6 +293,11 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+VONAGE_SMS_FROM=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)

@@ -24,6 +24,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -77,6 +78,8 @@ use Illuminate\Support\Arr;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -99,6 +102,7 @@ class NexmoData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.nexmo', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +181,8 @@ class NexmoData extends Data
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -204,6 +210,7 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +266,9 @@ class NexmoData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
             $data = Config::array('sms.drivers.nexmo');
             self::$instance = self::from($data);
         }
@@ -292,6 +302,7 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -304,10 +315,13 @@ class NexmoData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,6 +408,8 @@ class NexmoData extends Data
 =======
                     'Content-Type' => 'application/json',
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
                 ];
         }
     }

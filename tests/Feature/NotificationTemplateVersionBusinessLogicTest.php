@@ -22,6 +22,7 @@ use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -37,10 +38,13 @@ use RuntimeException;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,10 +143,14 @@ use Tests\TestCase;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
 use Modules\Notify\Models\NotificationTemplateVersion;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +222,9 @@ use Tests\TestCase;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
 class NotificationTemplateVersionBusinessLogicTest extends TestCase
 {
@@ -242,6 +253,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -254,10 +266,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +359,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $versionData = [
             'template_id' => $template->id,
             'subject' => 'Versione 2.0 - Conferma Appuntamento',
@@ -455,6 +472,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -467,10 +485,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,6 +578,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5',
@@ -590,6 +613,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -602,10 +626,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -692,6 +719,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $complexChannels = [
             'email' => [
                 'enabled' => true,
@@ -742,6 +771,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -754,10 +784,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -844,6 +877,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $conditions = [
             'user_type' => ['patient', 'doctor'],
             'appointment_status' => 'confirmed',
@@ -885,6 +920,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -897,10 +933,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -987,6 +1026,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $variables = [
             'required' => ['patient_name', 'appointment_date', 'doctor_name'],
             'optional' => ['clinic_address', 'phone_number'],
@@ -1031,6 +1072,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1043,10 +1085,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1133,6 +1178,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         // Crea multiple versioni
         $version1 = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
@@ -1217,6 +1264,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1229,10 +1277,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1319,6 +1370,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.2.3',
@@ -1355,6 +1408,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1367,10 +1421,13 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1457,6 +1514,8 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $version = NotificationTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'subject' => null,

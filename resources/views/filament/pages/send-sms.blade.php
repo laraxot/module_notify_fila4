@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -75,11 +76,14 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +173,10 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 <x-filament-panels::page>
     <form wire:submit.prevent="sendSMS">
         <x-filament::section>
@@ -188,6 +196,7 @@ declare(strict_types=1);
                         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendSMS"/>
                     </div>
                     <div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +357,12 @@ declare(strict_types=1);
 =======
                         <x-filament::actions :actions="$this->getSmsFormActions()" />
 >>>>>>> 3f537838 (.)
+=======
+                        <x-filament::actions :actions="$this->getSmsFormActions()" />
+=======
+                        <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
                     </div>
                 </div>
 

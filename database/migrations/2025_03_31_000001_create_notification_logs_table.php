@@ -25,6 +25,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -37,11 +38,14 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 return new class extends Migration {
 =======
 return new class extends Migration
 {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +134,8 @@ return new class extends Migration {
 =======
 return new class extends Migration {
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     /**
      * Esegue la migrazione.
      */
@@ -166,6 +172,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -178,10 +185,13 @@ return new class extends Migration {
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 
 =======
             
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +278,8 @@ return new class extends Migration {
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

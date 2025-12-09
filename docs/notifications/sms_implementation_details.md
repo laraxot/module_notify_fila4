@@ -299,6 +299,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +327,11 @@ return [
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+        'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
@@ -887,6 +893,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 <<<<<<< HEAD
@@ -920,6 +927,12 @@ public function toTwilio($notifiable)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+        ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)

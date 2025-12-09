@@ -22,6 +22,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -37,11 +38,14 @@ use Exception;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,11 +146,15 @@ use Webmozart\Assert\Assert;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +227,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
 class RecordNotificationData extends Data
 {
@@ -251,6 +262,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -304,6 +316,8 @@ class RecordNotificationData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         switch ($this->channel) {
             case 'mail':
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -315,6 +329,7 @@ class RecordNotificationData extends Data
         }
         throw new Exception('Channel [' . $this->channel . '] not supported');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -380,6 +395,8 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
         switch($this->channel){
             case 'mail':
                 Assert::string($email=$this->record->email);
@@ -394,15 +411,19 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
         throw new Exception('Channel ['.$this->channel.'] not supported');
     }
 
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,4 +484,6 @@ class RecordNotificationData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 }

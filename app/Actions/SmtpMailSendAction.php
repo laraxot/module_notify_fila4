@@ -32,6 +32,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -85,6 +86,8 @@ class SmtpMailSendAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -142,6 +145,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -178,6 +182,8 @@ class SmtpMailSendAction
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
     public function execute(string $to, string $subject, string $body): void
     {
         dddx('WIP');
@@ -187,6 +193,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
@@ -200,6 +207,8 @@ class SmtpMailSendAction
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
         $smtpData = SmtpData::make();
         $transport = $smtpData->getTransport();
 
@@ -234,6 +243,7 @@ class SmtpMailSendAction
             throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
         }
         */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,5 +345,8 @@ class SmtpMailSendAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
     }
 }

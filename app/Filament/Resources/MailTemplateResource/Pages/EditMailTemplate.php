@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -66,6 +67,8 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -94,6 +97,7 @@ use Filament\Actions;
 >>>>>>> 75179b85 (.)
 use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +149,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Modules\Notify\Filament\Resources\MailTemplateResource;
@@ -155,6 +161,7 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +223,9 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
@@ -239,6 +249,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -251,10 +262,13 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 =======
 
     
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,4 +338,6 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 }

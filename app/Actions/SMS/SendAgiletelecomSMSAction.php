@@ -23,6 +23,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -76,11 +77,14 @@ namespace Modules\Notify\Actions\SMS;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +142,8 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
 
 use GuzzleHttp\Client;
 use Modules\Notify\Datas\SmsData;
@@ -148,6 +154,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +210,9 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -225,6 +235,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -286,6 +297,8 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     #[Override]
     public function execute(SmsData $data): array
     {
@@ -311,6 +324,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -345,6 +359,9 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
     public function execute(SmsData $data): array{
         
         $res= app(SendAgiletelecomSMSv2Action::class)->execute($data);
@@ -352,6 +369,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
         return $res;
     }
    
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,4 +439,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 }

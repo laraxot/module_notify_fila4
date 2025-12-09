@@ -29,6 +29,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -373,6 +374,8 @@ class NotificationLog extends Model
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -449,6 +452,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
@@ -469,6 +473,8 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
 use Illuminate\Support\Carbon;
 use Modules\Predict\Models\Profile;
 use Illuminate\Database\Eloquent\Builder;
@@ -481,8 +487,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\User\Models\Traits\HasTenants;
 use Modules\Xot\Traits\Updater;
@@ -622,6 +631,7 @@ class NotificationLog extends Model
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -721,6 +731,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
      */
     public function notifiable(): MorphTo
     {
@@ -747,6 +759,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -799,6 +812,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -836,6 +851,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -857,6 +873,8 @@ final class NotificationLog extends BaseModel
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
      * Get the notification template.
      *
@@ -866,10 +884,13 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
      */
     public function template(): BelongsTo
     {
@@ -885,6 +906,7 @@ final class NotificationLog extends BaseModel
     public function scopeWithStatus($query, string $status)
     {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -967,10 +989,13 @@ final class NotificationLog extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         return $query->where('status', $status);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1042,6 +1067,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -1067,6 +1094,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1088,6 +1116,8 @@ final class NotificationLog extends BaseModel
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
      * Scope to filter by channel.
      *
@@ -1101,6 +1131,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -1111,6 +1142,103 @@ final class NotificationLog extends BaseModel
 =======
 =======
 >>>>>>> 3f537838 (.)
+=======
+    }
+
+    /**
+     * Scope to filter by notifiable entity.
+     *
+     * @param Builder<static> $query
+     * @return Builder<static>
+     */
+    public function scopeForNotifiable($query, Model $notifiable)
+    {
+        return $query->where('notifiable_type', get_class($notifiable))
+            ->where('notifiable_id', $notifiable->getKey());
+    }
+
+    /**
+     * Mark the notification as sent.
+     */
+    public function markAsSent(): self
+    {
+        $this->update([
+            'status' => self::STATUS_SENT,
+            'sent_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as delivered.
+     */
+    public function markAsDelivered(): self
+    {
+        $this->update([
+            'status' => self::STATUS_DELIVERED,
+            'delivered_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as failed.
+     */
+    public function markAsFailed(?string $message = null): self
+    {
+        $this->update([
+            'status' => self::STATUS_FAILED,
+            'status_message' => $message,
+            'failed_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as opened.
+     */
+    public function markAsOpened(): self
+    {
+        $this->update([
+            'status' => self::STATUS_OPENED,
+            'opened_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as clicked.
+     */
+    public function markAsClicked(): self
+    {
+        $this->update([
+            'status' => self::STATUS_CLICKED,
+            'clicked_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Get the status label attribute.
+     */
+    public function getStatusLabelAttribute(): string
+    {
+        return (string) __('notify::notification.fields.status.'.$this->status);
+    }
+
+    /**
+     * Get the channel label attribute.
+     */
+    public function getChannelLabelAttribute(): string
+    {
+        return (string) __('notify::notification.fields.channel.options.'.$this->channel.'.label');
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
     }
 
     /**
