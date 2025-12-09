@@ -17,6 +17,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -64,6 +65,8 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
 =======
+=======
+>>>>>>> c8b1c8bf (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -72,7 +75,10 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 =======
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
 
+=======
+>>>>>>> c8b1c8bf (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Repeater;
@@ -81,15 +87,22 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 use Filament\Schemas\Schema;
 >>>>>>> f1c9518b (.)
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -101,8 +114,11 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Filament\Clusters\Test;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\User\Models\DeviceUser;
 =======
+=======
+>>>>>>> c8b1c8bf (.)
 =======
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -113,13 +129,18 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /**
  * @property \Filament\Schemas\Schema $notificationForm
@@ -132,12 +153,20 @@ use function Safe\json_encode;
  */
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+=======
+/**
+ * @property \Filament\Schemas\Schema $notificationForm
+ */
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 class SendPushNotification extends Page implements HasForms
 {
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public null|array $notificationData = [];
 =======
@@ -172,22 +201,41 @@ class SendPushNotification extends Page implements HasForms
     protected static ?string $cluster = Test::class;
 =======
     public null|array $notificationData = [];
+=======
+    public ?array $notificationData = [];
+=======
+    public null|array $notificationData = [];
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-push-notification';
 
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+<<<<<<< HEAD
+    protected static ?string $cluster = Test::class;
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
+<<<<<<< HEAD
     public function notificationForm(Schema $schema): Schema
+=======
+<<<<<<< HEAD
+    public function form(Schema $schema): Schema
+>>>>>>> c8b1c8bf (.)
     {
 <<<<<<< HEAD
         $devices = DeviceUser::with(['profile', 'device'])
@@ -268,9 +316,74 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
                 Select::make('deviceToken')->options(fn () => []),
 =======
+<<<<<<< HEAD
                 Select::make('deviceToken')->options(fn() => []),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+    public function notificationForm(Schema $schema): Schema
+    {
+        $devices = DeviceUser::with(['profile', 'device'])
+            ->where('push_notifications_token', '!=', null)
+            ->where('push_notifications_token', '!=', 'unknown')
+            ->where('push_notifications_enabled', 1)
+            // ->whereHas('profile') //db separato percio' da errore cosi'
+            ->whereHas('device')
+            ->get();
+
+        /**
+         * Callback per mappare i dispositivi in opzioni per il select.
+         */
+        $callback = function ($item) {
+            /** @var mixed $item */
+            if (!is_object($item)) {
+                return [];
+            }
+
+            // Relations & attributes in a Laravel-safe way
+            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
+            if (!is_object($profile)) {
+                return [];
+            }
+            $fullName = (string) (data_get($profile, 'full_name') ?? 'Utente');
+
+            $tokenAttr = method_exists($item, 'getAttribute') ? $item->getAttribute('push_notifications_token') : null;
+            $token = is_string($tokenAttr) ? $tokenAttr : '';
+            if ($token === '' || $token === 'unknown') {
+                return [];
+            }
+
+            $device = method_exists($item, 'getRelationValue') ? $item->getRelationValue('device') : null;
+            $robotVal = data_get($device, 'robot');
+            $robot = is_string($robotVal) ? $robotVal : null;
+
+            // Creiamo la label con gli ultimi 5 caratteri del token
+            $tokenSuffix = mb_substr($token, -5);
+            $label = $fullName . ' (' . ($robot ?? '') . ') ' . $tokenSuffix;
+
+            return [$token => $label];
+        };
+
+        /**
+         * Callback per filtrare i dispositivi.
+         */
+        $filterCallback = function ($item): bool {
+            if (!is_object($item)) {
+                return false;
+            }
+            $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
+            return is_object($profile);
+        };
+
+        $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
+
+        Assert::isArray($to);
+
+        return $schema
+            ->components([
+                Select::make('deviceToken')->options(fn() => $to),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -285,7 +398,15 @@ class SendPushNotification extends Page implements HasForms
 
     public function sendNotification(): void
     {
+<<<<<<< HEAD
         $data = $this->notificationForm->getState();
+=======
+<<<<<<< HEAD
+        $data = $this->notificationData;
+=======
+        $data = $this->notificationForm->getState();
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -296,12 +417,18 @@ class SendPushNotification extends Page implements HasForms
                 ->body('Token del dispositivo non valido')
                 ->send();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             return;
         }
 
@@ -383,7 +510,14 @@ class SendPushNotification extends Page implements HasForms
     {
         return [
             Action::make('notificationFormActions')
+<<<<<<< HEAD
                 
+=======
+<<<<<<< HEAD
+=======
+                
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -394,6 +528,7 @@ class SendPushNotification extends Page implements HasForms
         $user = Filament::auth()->user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -402,6 +537,12 @@ class SendPushNotification extends Page implements HasForms
         if (!($user instanceof Model)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -415,6 +556,14 @@ class SendPushNotification extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
+<<<<<<< HEAD
         $this->notificationForm->fill();
+=======
+<<<<<<< HEAD
+        // Form data filled;
+=======
+        $this->notificationForm->fill();
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 }

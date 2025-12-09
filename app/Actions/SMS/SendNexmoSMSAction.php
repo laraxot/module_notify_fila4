@@ -38,6 +38,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -174,6 +175,8 @@ use Override;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -513,15 +516,30 @@ final class SendNexmoSMSAction implements SmsActionContract
 {
     private NexmoData $nexmoData;
     private ?string $defaultSender = null;
+<<<<<<< HEAD
     
     /** @var array<string, mixed> */
     private array $vars = [];
 >>>>>>> 5e14ac3 (.)
+=======
+=======
+use Override;
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\NexmoData;
+use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> c8b1c8bf (.)
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /** @var NexmoData */
 =======
@@ -531,10 +549,16 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
     private NexmoData $nexmoData;
+=======
+    /** @var NexmoData */
+    private NexmoData $nexmoData;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /** @var bool */
@@ -699,11 +723,14 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 2941b0bd (.)
 =======
 =======
+>>>>>>> c8b1c8bf (.)
+=======
     /** @var bool */
     protected bool $debug;
 
     /** @var string|null */
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -785,6 +812,10 @@ final class SendNexmoSMSAction implements SmsActionContract
 
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     /**
      * Create a new action instance.
      */
@@ -847,6 +878,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 >>>>>>> 98d837b9 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -983,6 +1015,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         if (! $this->nexmoData->key) {
 =======
         if (!$this->nexmoData->key) {
@@ -992,6 +1026,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 
         if (! $this->nexmoData->secret) {
 =======
+<<<<<<< HEAD
 =======
 =======
         
@@ -1024,30 +1059,46 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         if (!$this->nexmoData->key) {
             throw new Exception('Key Nexmo non configurata in sms.php');
         }
 
         if (!$this->nexmoData->secret) {
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             throw new Exception('Secret Nexmo non configurato in sms.php');
         }
 
         // Parametri a livello di root
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
+<<<<<<< HEAD
         $this->debug = (bool) config('sms.debug', false);
+=======
+<<<<<<< HEAD
+=======
+        $this->debug = (bool) config('sms.debug', false);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 
     /**
      * Execute the action.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
      *
@@ -1058,6 +1109,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1268,6 +1320,15 @@ final class SendNexmoSMSAction implements SmsActionContract
     #[\Override]
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+=======
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     * @throws Exception In caso di errore durante l'invio
+     */
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -1278,6 +1339,7 @@ final class SendNexmoSMSAction implements SmsActionContract
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
         }
 
@@ -1286,6 +1348,9 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 <<<<<<< HEAD
             $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
+=======
+            $to = $to !== '' ? '+'.substr($to, 2) : $to;
+>>>>>>> c8b1c8bf (.)
         }
 
         if (! Str::startsWith($to, '+')) {
@@ -1296,8 +1361,12 @@ final class SendNexmoSMSAction implements SmsActionContract
 
         if (!Str::startsWith($to, '+')) {
             $to = '+39' . $to;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         }
 
         $from = $smsData->from ?? $this->defaultSender;
@@ -1503,6 +1572,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 
         try {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $response = $client->post($this->nexmoData->getBaseUrl() . '/sms/json', [
 =======
 <<<<<<< HEAD
@@ -1511,6 +1581,12 @@ final class SendNexmoSMSAction implements SmsActionContract
             $response = $client->post($this->nexmoData->getBaseUrl() . '/sms/json', [
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+            $response = $client->post($this->nexmoData->getBaseUrl().'/sms/json', [
+=======
+            $response = $client->post($this->nexmoData->getBaseUrl() . '/sms/json', [
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 'form_params' => [
                     'api_key' => $this->nexmoData->key,
                     'api_secret' => $this->nexmoData->secret,
@@ -1748,6 +1824,7 @@ final class SendNexmoSMSAction implements SmsActionContract
         } catch (ClientException $clientException) {
             throw new Exception(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 =======
 <<<<<<< HEAD
@@ -1756,6 +1833,12 @@ final class SendNexmoSMSAction implements SmsActionContract
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $clientException->getCode(),
 <<<<<<< HEAD
 <<<<<<< HEAD

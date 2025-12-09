@@ -56,6 +56,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -226,6 +227,12 @@ class BuildMailMessageAction
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 985c7bda (.)
+=======
+        ?DataCollection $dataCollection = null,
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -234,6 +241,7 @@ class BuildMailMessageAction
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
+<<<<<<< HEAD
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
@@ -288,6 +296,14 @@ class BuildMailMessageAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+        $params = [
+            'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
+            'from_name' => $theme->view_params['from'] ?? $theme->from,
+            'subject' => $view_params['subject'] ?? $theme->subject,
+        ];
+>>>>>>> c8b1c8bf (.)
 
 =======
         
@@ -304,6 +320,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -432,6 +449,16 @@ class BuildMailMessageAction
 =======
 
 >>>>>>> 985c7bda (.)
+=======
+        $email = (new MailMessage)
+            ->from($params['from_address'], $params['from_name'])
+            ->subject($params['subject'])
+=======
+        $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
+        $fromName = $theme->view_params['from'] ?? $theme->from;
+        $subject = $view_params['subject'] ?? $theme->subject;
+
+>>>>>>> c8b1c8bf (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
@@ -467,6 +494,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -631,10 +659,14 @@ class BuildMailMessageAction
 =======
 
 >>>>>>> 985c7bda (.)
+=======
+
+>>>>>>> c8b1c8bf (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,11 +788,14 @@ class BuildMailMessageAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -827,6 +862,12 @@ class BuildMailMessageAction
 >>>>>>> 82ae73be (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
+=======
+        $email = new MailMessage()
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             ->view($view_html, $theme->view_params);
 =======
 =======

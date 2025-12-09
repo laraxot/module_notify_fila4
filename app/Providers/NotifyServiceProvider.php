@@ -18,6 +18,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -78,6 +79,11 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+=======
+use Override;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -316,6 +322,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -686,12 +693,24 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 23161eb (.)
 =======
     #[\Override]
+=======
+>>>>>>> c8b1c8bf (.)
     public function boot(): void
     {
         parent::boot();
         // if (! app()->environment('production')) {
+<<<<<<< HEAD
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+=======
+    #[Override]
+    public function boot(): void
+    {
+        parent::boot();
+        //if (! app()->environment('production')) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 

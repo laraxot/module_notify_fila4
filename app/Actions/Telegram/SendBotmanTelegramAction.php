@@ -25,6 +25,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -129,11 +130,17 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\TelegramData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,6 +158,11 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -388,6 +400,16 @@ final class SendBotmanTelegramAction
 {
     use QueueableAction;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $parseMode;
+
+>>>>>>> c8b1c8bf (.)
     private string $token;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,6 +420,14 @@ final class SendBotmanTelegramAction
     private string $apiUrl;
 
     private array $vars = [];
+=======
+    private string $token;
+    private string $apiUrl;
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+    protected null|string $parseMode;
+>>>>>>> 75179b8 (.)
 
     protected bool $debug;
 
@@ -676,6 +706,7 @@ final class SendBotmanTelegramAction
     {
         $token = config('services.telegram.token');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($token)) {
 =======
 <<<<<<< HEAD
@@ -684,6 +715,12 @@ final class SendBotmanTelegramAction
         if (!is_string($token)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+        if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -1115,6 +1152,7 @@ final class SendBotmanTelegramAction
      * Execute the action.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param TelegramData $telegramData I dati del messaggio Telegram
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1135,14 +1173,20 @@ final class SendBotmanTelegramAction
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
      * @return array Risultato dell'operazione
      *
 =======
      * @param TelegramData $telegramData I dati del messaggio Telegram
      * @return array Risultato dell'operazione
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -2188,6 +2232,7 @@ final class SendBotmanTelegramAction
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             !empty($telegramData->media)
 =======
                 !empty($telegramData->media)
@@ -2198,6 +2243,12 @@ final class SendBotmanTelegramAction
                 !empty($telegramData->media)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+                ! empty($telegramData->media)
+=======
+                !empty($telegramData->media)
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         ) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2748,7 +2799,15 @@ final class SendBotmanTelegramAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
+<<<<<<< HEAD
             /** @var array $responseData */
+=======
+<<<<<<< HEAD
+            /** @var array{ok?: bool, result?: array{message_id?: int}} $responseData */
+=======
+            /** @var array $responseData */
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             $responseData = json_decode($responseContent, true);
 
 <<<<<<< HEAD
@@ -3149,6 +3208,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3157,6 +3217,8 @@ final class SendBotmanTelegramAction
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
@@ -3194,6 +3256,7 @@ final class SendBotmanTelegramAction
 >>>>>>> fbed41ac (.)
             return [
                 'success' => $responseData['ok'] ?? false,
+<<<<<<< HEAD
                 'message_id' => $responseData['result']['message_id'] ?? null,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3208,6 +3271,14 @@ final class SendBotmanTelegramAction
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+                'message_id' => $messageId,
+=======
+            return [
+                'success' => $responseData['ok'] ?? false,
+                'message_id' => $responseData['result']['message_id'] ?? null,
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

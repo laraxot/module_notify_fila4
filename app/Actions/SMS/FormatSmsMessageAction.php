@@ -9,6 +9,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -160,9 +161,12 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> d45a0226 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -231,6 +235,10 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use function Safe\preg_split;
 
 /**
@@ -1460,7 +1468,11 @@ class FormatSmsMessageAction
         } else {
             // Per messaggi concatenati, ogni SMS è di 153 caratteri
             $smsCount = intval($characterCount / 153);
+<<<<<<< HEAD
             if ($characterCount % 153 > 0) {
+=======
+            if (($characterCount % 153) > 0) {
+>>>>>>> 75179b8 (.)
                 $smsCount++;
             }
         }

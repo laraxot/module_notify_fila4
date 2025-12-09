@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +127,9 @@ use Illuminate\Support\Arr;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -271,6 +275,13 @@ class PlivoData extends Data
 =======
         if (! (self::$instance instanceof PlivoData)) {
 =======
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+>>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
 class PlivoData extends Data
@@ -287,11 +298,15 @@ class PlivoData extends Data
     {
         if (!(self::$instance instanceof PlivoData)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             /*
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -488,6 +503,7 @@ class PlivoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,6 +573,12 @@ class PlivoData extends Data
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->auth_id.':'.$this->auth_token),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'

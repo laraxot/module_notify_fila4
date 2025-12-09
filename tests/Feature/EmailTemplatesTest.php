@@ -92,6 +92,7 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 75179b85 (.)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -220,10 +221,13 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> bce3ff15 (.)
 
+=======
+>>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7bac387 (.)
 use Tests\TestCase;
@@ -364,6 +368,11 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 4cb1607 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 uses(TestCase::class);
 

@@ -891,7 +891,11 @@ class ContactTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
         $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
 
         $expectedFillable = [
             'model_id',
@@ -913,7 +917,11 @@ class ContactTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 75179b8 (.)
 
         $expectedCasts = [
             'id' => 'string',

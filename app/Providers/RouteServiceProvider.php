@@ -8,6 +8,7 @@ use Modules\Xot\Providers\XotBaseRouteServiceProvider;
 
 class RouteServiceProvider extends XotBaseRouteServiceProvider
 {
+<<<<<<< HEAD
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,8 +16,13 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
      * The module name.
      */
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
     public string $name = 'Notify';
 
+=======
+>>>>>>> 75179b8 (.)
     /**
 =======
 >>>>>>> 75179b85 (.)
@@ -37,6 +43,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     public string $name = 'Notify';
@@ -53,4 +60,10 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 
     public string $name = 'Notify';
 >>>>>>> 75179b85 (.)
+=======
+=======
+
+    public string $name = 'Notify';
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 }

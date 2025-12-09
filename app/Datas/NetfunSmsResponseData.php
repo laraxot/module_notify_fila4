@@ -68,6 +68,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -311,6 +312,11 @@ declare(strict_types=1);
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -342,11 +348,14 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
         public ?string $batchId = null,
         public ?array $messages = null,
         public ?string $error = null,
@@ -423,6 +432,7 @@ class NetfunSmsResponseData extends Data
             error: $error,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -453,9 +463,12 @@ class NetfunSmsResponseData extends Data
         public ?array $messages = null,
         public ?string $error = null,
 =======
+>>>>>>> c8b1c8bf (.)
+=======
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -742,10 +755,18 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 2941b0bd (.)
 =======
         return new self(
+=======
+    ) {}
+
+    public static function fromArray(array $data): self
+    {
+        return new self(
+>>>>>>> c8b1c8bf (.)
             status: $data['status'],
             batchId: $data['batchId'] ?? null,
             messages: $data['messages'] ?? null,
             error: $data['error'] ?? null,
+<<<<<<< HEAD
 >>>>>>> 5fd545e4 (.)
 =======
             error: $data['error'] ?? null,
@@ -782,6 +803,9 @@ class NetfunSmsResponseData extends Data
             error: $data['error'] ?? null,
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         );
     }
 }

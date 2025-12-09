@@ -68,6 +68,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -311,6 +312,11 @@ declare(strict_types=1);
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -342,6 +348,9 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
     /**
      * @param array{token: string, messages: array<int, array<string, mixed>>} $data
      * @return self
@@ -359,6 +368,7 @@ class NetfunSmsRequestData extends Data
             messages: $messages,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -367,10 +377,14 @@ class NetfunSmsRequestData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
     public static function fromArray(array $data): self
     {
         return new self(
             token: $data['token'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +624,10 @@ class NetfunSmsRequestData extends Data
             messages: $data['messages'],
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+            messages: $data['messages'],
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         );
     }
 }

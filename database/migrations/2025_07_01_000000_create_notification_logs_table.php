@@ -68,6 +68,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -311,6 +312,11 @@ declare(strict_types=1);
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -349,6 +355,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -577,11 +584,19 @@ return new class extends Migration
 return new class extends Migration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+return new class extends Migration
+{
+=======
+return new class extends Migration {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!Schema::hasTable('notification_logs')) {
 =======
@@ -595,6 +610,12 @@ return new class extends Migration {
         if (!Schema::hasTable('notification_logs')) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+        if (! Schema::hasTable('notification_logs')) {
+=======
+        if (!Schema::hasTable('notification_logs')) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             Schema::create('notification_logs', function (Blueprint $table) {
 =======
             Schema::create('notification_logs', function (Blueprint $table): void {

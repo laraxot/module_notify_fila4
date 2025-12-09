@@ -350,6 +350,10 @@
 >>>>>>> 4b544042 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b8 (.)
 return [
     'resource' => [
         'name' => 'Notifica',
@@ -538,9 +542,12 @@ return [
             'error_message' => 'Errore nell\'eliminazione della notifica',
             'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.',
         ],
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
         ],
+=======
+>>>>>>> 75179b8 (.)
     ],
     'messages' => [
         'no_notifications' => 'Non hai notifiche',

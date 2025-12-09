@@ -85,16 +85,23 @@ use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,10 +479,13 @@ final class WhatsAppActionFactory
      * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string|null $driver Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
      * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  string|null  $driver  Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
      * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
      *
@@ -601,6 +611,7 @@ final class WhatsAppActionFactory
 =======
      * @param string|null $driver Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
      * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
+<<<<<<< HEAD
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
@@ -627,10 +638,25 @@ final class WhatsAppActionFactory
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+     * @throws Exception Se il driver specificato non è supportato
+     */
+    /**
+     * Crea un'azione WhatsApp basata sul driver specificato o su quello predefinito.
+     * Utilizza una formula per calcolare il nome della classe dell'azione.
+     *
+     * @param string|null $driver Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
+     * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
+     * @throws Exception Se il driver specificato non è supportato o la classe non esiste
+     */
+    public function create(null|string $driver = null): WhatsAppProviderActionInterface
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -698,6 +724,8 @@ final class WhatsAppActionFactory
 >>>>>>> d13ead25 (.)
 =======
 >>>>>>> 3d542a31 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 <<<<<<< HEAD
@@ -711,6 +739,7 @@ final class WhatsAppActionFactory
 >>>>>>> f1c9518b (.)
             $normalizedDriver = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -988,15 +1017,34 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 2effe245 (.)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+=======
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 
         // Verifica se la classe esiste
+<<<<<<< HEAD
         if (!class_exists($className)) {
             throw new Exception(
                 'Unsupported WhatsApp driver: ' .
                 (is_string($driver) ? $driver : '') .
+=======
+<<<<<<< HEAD
+        if (! class_exists($className)) {
+            throw new Exception(
+                'Unsupported WhatsApp driver: '.
+                (is_string($driver) ? $driver : '').
+=======
+        if (!class_exists($className)) {
+            throw new Exception(
+                'Unsupported WhatsApp driver: ' .
+                (is_string($driver) ? $driver : '') .
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                     ". Class {$className} not found.",
             );
         }
@@ -1176,9 +1224,12 @@ final class WhatsAppActionFactory
 >>>>>>> 985c7bda (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
         if (! is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
 =======
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
@@ -1241,6 +1292,7 @@ final class WhatsAppActionFactory
         /** @var WhatsAppProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1366,5 +1418,14 @@ final class WhatsAppActionFactory
         return app($className);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+=======
+        if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
+            throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
+        }
+
+        return app($className);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 }

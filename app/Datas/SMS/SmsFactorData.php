@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,6 +349,9 @@ use Illuminate\Support\Arr;
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 4b544042 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -367,6 +371,26 @@ class SmsFactorData extends Data
     public static function make(): self
     {
         if (! (self::$instance instanceof SmsFactorData)) {
+=======
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+
+class SmsFactorData extends Data
+{
+    public null|string $token;
+    public null|string $base_url;
+    public string $auth_type = 'bearer';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof SmsFactorData)) {
+>>>>>>> 75179b8 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
@@ -976,7 +1000,11 @@ class SmsFactorData extends Data
             case 'bearer':
             default:
                 return [
+<<<<<<< HEAD
                     'Authorization' => 'Bearer '.$this->token,
+=======
+                    'Authorization' => 'Bearer ' . $this->token,
+>>>>>>> 75179b8 (.)
                     'Content-Type' => 'application/json',
 <<<<<<< HEAD
 <<<<<<< HEAD

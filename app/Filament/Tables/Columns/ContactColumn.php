@@ -1489,9 +1489,13 @@ use Modules\Notify\Enums\ContactTypeEnum;
  *
 >>>>>>> 4b544042 (.)
  * @author Laraxot Team
+<<<<<<< HEAD
  *
  * @version 2.0 - REFACTOR COMPLETO
  *
+=======
+ * @version 2.0 - REFACTOR COMPLETO
+>>>>>>> 75179b8 (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn
@@ -1899,7 +1903,11 @@ class ContactColumn extends ViewColumn
             'contact_types' => $contact_types,
         ])
             ->label(__('notify::columns.contact.label'))
+<<<<<<< HEAD
             ->searchable()
+=======
+            ->searchable(ContactTypeEnum::getSearchable())
+>>>>>>> 75179b8 (.)
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }

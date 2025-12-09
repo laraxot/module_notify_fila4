@@ -538,6 +538,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
@@ -574,6 +575,11 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
 >>>>>>> 0232891 (.)
 >>>>>>> 6a44db8a (.)
+=======
+=======
+    ->ignoreVCS(true)
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -611,10 +617,14 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 =======
     ->setFinder($finder)
 
 return $config;
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
     ->setFinder($finder);
@@ -670,3 +680,6 @@ return $config;
 =======
 >>>>>>> 0232891 (.)
 >>>>>>> 6a44db8a (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)

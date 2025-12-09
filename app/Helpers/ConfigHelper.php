@@ -29,16 +29,23 @@ class ConfigHelper
      * Sostituisce le variabili template nei dati di configurazione.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      *
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  array<string, mixed>  $data
 =======
      * @param array<string, mixed> $data
      *
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -87,6 +94,117 @@ class ConfigHelper
     }
 
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     * Ottiene un valore di configurazione con sostituzione delle variabili template.
+     */
+    public static function get(string $key, mixed $default = null): mixed
+    {
+        $value = Config::get($key, $default);
+
+        if (is_string($value)) {
+            $companyConfig = Config::get('notify.company', []);
+            $companyConfig = is_array($companyConfig) ? $companyConfig : [];
+
+            /** @var array<string, mixed> $safeCompanyConfig */
+            $safeCompanyConfig = $companyConfig;
+
+            return self::replaceStringVariables($value, $safeCompanyConfig);
+        }
+
+        if (is_array($value)) {
+            /** @var array<string, mixed> $safeValue */
+            $safeValue = $value;
+
+            return self::replaceTemplateVariables($safeValue);
+        }
+
+        return $value;
+    }
+
+    /**
+     * Ottiene i dati di test con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getTestData(): array
+    {
+        $testData = Config::get('notify.test_data', []);
+        $testData = is_array($testData) ? $testData : [];
+
+        /** @var array<string, mixed> $safeTestData */
+        $safeTestData = $testData;
+
+        return self::replaceTemplateVariables($safeTestData);
+    }
+
+    /**
+     * Ottiene la configurazione della company con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getCompanyConfig(): array
+    {
+        $companyConfig = Config::get('notify.company', []);
+        $companyConfig = is_array($companyConfig) ? $companyConfig : [];
+
+        /** @var array<string, mixed> $safeCompanyConfig */
+        $safeCompanyConfig = $companyConfig;
+
+        return self::replaceTemplateVariables($safeCompanyConfig);
+    }
+
+    /**
+     * Ottiene la configurazione dei webhook con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getWebhookConfig(): array
+    {
+        $webhookConfig = Config::get('notify.webhooks', []);
+        $webhookConfig = is_array($webhookConfig) ? $webhookConfig : [];
+
+        /** @var array<string, mixed> $safeWebhookConfig */
+        $safeWebhookConfig = $webhookConfig;
+
+        return self::replaceTemplateVariables($safeWebhookConfig);
+    }
+
+    /**
+     * Ottiene la configurazione email con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getEmailConfig(): array
+    {
+        $emailConfig = Config::get('notify.email', []);
+        $emailConfig = is_array($emailConfig) ? $emailConfig : [];
+
+        /** @var array<string, mixed> $safeEmailConfig */
+        $safeEmailConfig = $emailConfig;
+
+        return self::replaceTemplateVariables($safeEmailConfig);
+    }
+
+    /**
+     * Ottiene la configurazione dei path con sostituzione delle variabili template.
+     *
+     * @return array<string, mixed>
+     */
+    public static function getPathConfig(): array
+    {
+        $pathConfig = Config::get('notify.paths', []);
+        $pathConfig = is_array($pathConfig) ? $pathConfig : [];
+
+        /** @var array<string, mixed> $safePathConfig */
+        $safePathConfig = $pathConfig;
+
+        return self::replaceTemplateVariables($safePathConfig);
+    }
+
+    /**
+>>>>>>> c8b1c8bf (.)
      * Sostituisce ricorsivamente le variabili template in un array.
      *
 <<<<<<< HEAD
@@ -98,11 +216,20 @@ class ConfigHelper
      * @param  array<string, mixed>  $data
      * @param  array<string, mixed>  $variables
 =======
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      * @param array<string, mixed> $variables
      *
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+     * Sostituisce ricorsivamente le variabili template in un array.
+     *
+     * @param array<string, mixed> $data
+     * @param array<string, mixed> $variables
+     *
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -127,6 +254,7 @@ class ConfigHelper
      * Sostituisce le variabili template in una stringa.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $variables
 =======
 <<<<<<< HEAD
@@ -135,10 +263,17 @@ class ConfigHelper
      * @param array<string, mixed> $variables
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+     * @param  array<string, mixed>  $variables
+=======
+     * @param array<string, mixed> $variables
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      */
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,11 +521,22 @@ class ConfigHelper
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+            $placeholder = '{{'.$variable.'}}';
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 
         return $string;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
 
     /**
      * Ottiene un valore di configurazione con sostituzione delle variabili template.
@@ -400,6 +546,7 @@ class ConfigHelper
         $value = Config::get($key, $default);
 
         if (is_string($value)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,10 +561,13 @@ class ConfigHelper
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
             $companyConfig = Config::get('notify.company', []);
             $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
             /* @var array<string, mixed> $companyConfig */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,6 +584,8 @@ class ConfigHelper
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
             return self::replaceStringVariables($value, $companyConfig);
         }
 
@@ -456,6 +608,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $testDataRaw = Config::get('notify.test_data', []);
         /** @var array<string, mixed> $testData */
         $testData = SafeArrayCastAction::cast($testDataRaw);
@@ -466,10 +619,13 @@ class ConfigHelper
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $testData = Config::get('notify.test_data', []);
         $testData = is_array($testData) ? $testData : [];
 
         /* @var array<string, mixed> $testData */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +642,8 @@ class ConfigHelper
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
         return self::replaceTemplateVariables($testData);
     }
 
@@ -500,6 +658,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $companyConfigRaw = Config::get('notify.company', []);
         /** @var array<string, mixed> $companyConfig */
         $companyConfig = SafeArrayCastAction::cast($companyConfigRaw);
@@ -510,10 +669,13 @@ class ConfigHelper
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $companyConfig = Config::get('notify.company', []);
         $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
         /* @var array<string, mixed> $companyConfig */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -530,6 +692,8 @@ class ConfigHelper
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
         return self::replaceTemplateVariables($companyConfig);
     }
 
@@ -544,6 +708,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $webhookConfigRaw = Config::get('notify.webhooks', []);
         /** @var array<string, mixed> $webhookConfig */
         $webhookConfig = SafeArrayCastAction::cast($webhookConfigRaw);
@@ -554,10 +719,13 @@ class ConfigHelper
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $webhookConfig = Config::get('notify.webhooks', []);
         $webhookConfig = is_array($webhookConfig) ? $webhookConfig : [];
 
         /* @var array<string, mixed> $webhookConfig */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,6 +742,8 @@ class ConfigHelper
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
         return self::replaceTemplateVariables($webhookConfig);
     }
 
@@ -588,6 +758,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $emailConfigRaw = Config::get('notify.email', []);
         /** @var array<string, mixed> $emailConfig */
         $emailConfig = SafeArrayCastAction::cast($emailConfigRaw);
@@ -598,10 +769,13 @@ class ConfigHelper
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $emailConfig = Config::get('notify.email', []);
         $emailConfig = is_array($emailConfig) ? $emailConfig : [];
 
         /* @var array<string, mixed> $emailConfig */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -618,6 +792,8 @@ class ConfigHelper
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
         return self::replaceTemplateVariables($emailConfig);
     }
 
@@ -632,6 +808,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pathConfigRaw = Config::get('notify.paths', []);
         /** @var array<string, mixed> $pathConfig */
         $pathConfig = SafeArrayCastAction::cast($pathConfigRaw);
@@ -642,10 +819,13 @@ class ConfigHelper
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
         $pathConfig = Config::get('notify.paths', []);
         $pathConfig = is_array($pathConfig) ? $pathConfig : [];
 
         /* @var array<string, mixed> $pathConfig */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -664,4 +844,9 @@ class ConfigHelper
 >>>>>>> 54220b28 (rebase 210)
         return self::replaceTemplateVariables($pathConfig);
     }
+=======
+        return self::replaceTemplateVariables($pathConfig);
+    }
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 }

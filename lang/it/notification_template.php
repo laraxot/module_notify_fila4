@@ -350,6 +350,10 @@
 >>>>>>> 4b544042 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b8 (.)
 return [
     'navigation' => [
         'icon' => 'heroicon-o-document-text',
@@ -398,9 +402,12 @@ return [
     ],
     'actions' => [
         'preview' => 'Anteprima',
+<<<<<<< HEAD
         'openColumnManager' => [
             'tooltip' => 'openColumnManager',
         ],
+=======
+>>>>>>> 75179b8 (.)
     ],
     'enums' => [
         'notification_type' => [

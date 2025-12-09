@@ -37,6 +37,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -316,6 +317,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
@@ -325,8 +328,11 @@ use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
 
 /**
  * @property-read Profile|null $creator
@@ -336,16 +342,20 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
  * @method static MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +485,11 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin \Eloquent
  */
 >>>>>>> e00d798d (.)
+=======
+ * @mixin IdeHelperMailTemplateLog
+ * @mixin \Eloquent
+ */
+>>>>>>> c8b1c8bf (.)
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [
@@ -492,6 +507,7 @@ class MailTemplateLog extends BaseModel
         'clicked_at',
     ];
 
+<<<<<<< HEAD
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
@@ -502,11 +518,14 @@ class MailTemplateLog extends BaseModel
         return $this->morphTo();
     }
 
+=======
+>>>>>>> c8b1c8bf (.)
     /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,6 +726,9 @@ class MailTemplateLog extends BaseModel
     #[\Override]
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+    #[Override]
+>>>>>>> c8b1c8bf (.)
     protected function casts(): array
     {
         return [
@@ -719,4 +741,17 @@ class MailTemplateLog extends BaseModel
             'clicked_at' => 'datetime',
         ];
     }
+<<<<<<< HEAD
+=======
+
+    public function template(): BelongsTo
+    {
+        return $this->belongsTo(MailTemplate::class, 'template_id');
+    }
+
+    public function mailable(): MorphTo
+    {
+        return $this->morphTo();
+    }
+>>>>>>> c8b1c8bf (.)
 }
