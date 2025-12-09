@@ -423,12 +423,15 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
 >>>>>>> 99ff506 (.)
 =======
 <<<<<<< HEAD
@@ -440,6 +443,8 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> a80c61f (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -462,6 +467,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
  * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
@@ -470,6 +476,18 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
  * @method static Builder<static>|MailTemplate whereParams($value)
  * @property array<array-key, mixed>|null $sms_template
  * @property int $counter
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> a80c61f (.)
+ * @property string|null $params
+ * @method static Builder<static>|MailTemplate whereParams($value)
+ * @property array<array-key, mixed>|null $sms_template
+<<<<<<< HEAD
+ * @property int                          $counter
+ *
+>>>>>>> 7c1c276f (rebase 210)
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
 <<<<<<< HEAD
@@ -487,7 +505,16 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> f1c9518b (.)
  * @mixin IdeHelperMailTemplate
 =======
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 05bc3ad (.)
+=======
+ * @property int $counter
+ * @method static Builder<static>|MailTemplate whereCounter($value)
+ * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

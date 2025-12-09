@@ -136,10 +136,12 @@ class SendAwsEmailPage extends XotBasePage
     /**
      * @return array<string, mixed>
      */
+    /** @phpstan-ignore-next-line return.type */
     public function getEmailFormSchema(): array
     {
         return [
             TextInput::make('to')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,10 +195,13 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
                 ->label(__('notify::email.form.to.label'))
                 ->email()
                 ->required()
                 ->helperText(__('notify::email.form.to.helper')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,11 +320,19 @@ class SendAwsEmailPage extends XotBasePage
                 ->maxLength(150),
             RichEditor::make('body_html')
 >>>>>>> 2cbbc069 (.)
+=======
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+>>>>>>> 7c1c276f (rebase 210)
                 ->label(__('notify::email.form.body_html.label'))
                 ->required()
                 ->fileAttachmentsDisk('public')
                 ->fileAttachmentsDirectory('uploads/mail-attachments')
                 ->helperText(__('notify::email.form.body_html.helper')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +402,9 @@ class SendAwsEmailPage extends XotBasePage
 =======
             Select::make('template')
 >>>>>>> 2cbbc069 (.)
+=======
+            Select::make('template')
+>>>>>>> 7c1c276f (rebase 210)
                 ->label(__('notify::email.form.template.label'))
                 ->options([
                     'aws-default' => 'AWS Default',
@@ -399,6 +415,7 @@ class SendAwsEmailPage extends XotBasePage
                 ->default('aws-default')
                 ->required()
                 ->helperText(__('notify::email.form.template.helper')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -468,6 +485,9 @@ class SendAwsEmailPage extends XotBasePage
 =======
             Toggle::make('add_attachments')
 >>>>>>> 2cbbc069 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 7c1c276f (rebase 210)
                 ->label(__('notify::email.form.add_attachments.label'))
                 ->default(false)
                 ->helperText(__('notify::email.form.add_attachments.helper')),

@@ -498,6 +498,7 @@ class SendNotificationAction
         /** @var array{subject: string, body_html: string|null, body_text: string|null} $compiled */
         $compiled = $template->compile($data);
 
+<<<<<<< HEAD
         // Usa i canali specificati o quelli del template
         /** @var array<int, string> $templateChannels */
         $templateChannels = $template->channels;
@@ -507,6 +508,16 @@ class SendNotificationAction
         // Invia tramite ogni canale
         foreach ($channelsToUse as $channel) {
             if (!is_string($channel)) {
+=======
+        // Determina i canali da utilizzare
+        /* @phpstan-ignore-next-line property.notFound */
+        $effectiveChannels = $channels ?: $template->channels;
+
+        // Processa ogni canale
+        /* @phpstan-ignore-next-line foreach.nonIterable */
+        foreach ($effectiveChannels as $channel) {
+            if (! is_string($channel)) {
+>>>>>>> 7c1c276f (rebase 210)
                 continue;
             }
 =======

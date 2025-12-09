@@ -14,6 +14,7 @@ use Modules\Xot\Models\XotBaseModel;
 =======
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -29,7 +30,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 99ff506 (.)
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+use Modules\Xot\Models\XotBaseModel;
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
@@ -55,6 +62,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     /**
      * Get the attributes that should be cast.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, string>
@@ -487,5 +495,14 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
             'verified_at' => 'datetime', // ✅ Notify-specific cast
         ]);
 >>>>>>> 2cbbc069 (.)
+=======
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return array_merge(parent::casts(), [
+            'verified_at' => 'datetime', // ✅ Notify-specific cast
+        ]);
+>>>>>>> 7c1c276f (rebase 210)
     }
 }

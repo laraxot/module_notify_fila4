@@ -379,7 +379,10 @@ use Modules\Xot\Traits\Updater;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7c1c276f (rebase 210)
 /**
  * @property string $id
  * @property int $mail_template_id
@@ -395,12 +398,20 @@ use Modules\Xot\Traits\Updater;
  * @property string|null $updated_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\MailTemplate|null $template
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7c1c276f (rebase 210)
  * @method static \Modules\Notify\Database\Factories\MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -422,10 +433,15 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  * @method static Builder<static>|MailTemplateVersion withTrashed(bool $withTrashed = true)
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+<<<<<<< HEAD
  *
  * @mixin \Eloquent
  */
 >>>>>>> 2cbbc069 (.)
+=======
+ * @mixin \Eloquent
+ */
+>>>>>>> 7c1c276f (rebase 210)
 class MailTemplateVersion extends BaseModel
 {
     use SoftDeletes, Updater;

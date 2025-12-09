@@ -398,6 +398,7 @@ class FormatSmsMessageAction
     /**
      * @return array<string, mixed>
      */
+    /** @phpstan-ignore-next-line return.type */
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati
@@ -1406,6 +1407,7 @@ class FormatSmsMessageAction
 >>>>>>> 011072e4 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
@@ -1546,6 +1548,8 @@ class FormatSmsMessageAction
 =======
 
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
         return [$formattedMessage, $characterCount, $smsCount];
     }
 }

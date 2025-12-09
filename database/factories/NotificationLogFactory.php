@@ -19,3 +19,7 @@ class NotificationLogFactory extends Factory
         return [];
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a80c61f (.)

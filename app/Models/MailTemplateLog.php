@@ -324,23 +324,37 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+=======
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 7c1c276f (rebase 210)
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\MailTemplate|null $template
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7c1c276f (rebase 210)
  * @method static \Modules\Notify\Database\Factories\MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+<<<<<<< HEAD
  *
  * @mixin \Eloquent
  */
 >>>>>>> 2cbbc069 (.)
+=======
+ * @mixin \Eloquent
+ */
+>>>>>>> 7c1c276f (rebase 210)
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [
