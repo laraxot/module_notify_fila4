@@ -255,8 +255,6 @@ use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 >>>>>>> 7c39b1fe (.)
 
-use function Safe\json_encode;
-
 class MailTemplateTest extends TestCase
 {
     use RefreshDatabase;
@@ -264,7 +262,6 @@ class MailTemplateTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -285,7 +282,6 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'mailable' => 'App\Mail\WelcomeMail',
@@ -297,7 +293,6 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(MailTemplate::class, $template);
     }
 
@@ -318,7 +313,6 @@ class MailTemplateTest extends TestCase
             'counter',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $template->getFillable());
     }
 
@@ -333,7 +327,6 @@ class MailTemplateTest extends TestCase
             'deleted_at' => 'datetime',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $template->casts());
     }
 
@@ -349,7 +342,6 @@ class MailTemplateTest extends TestCase
             'sms_template',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedTranslatable, $template->translatable);
     }
 
@@ -358,7 +350,6 @@ class MailTemplateTest extends TestCase
     {
         $template = new MailTemplate;
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('notify', $template->getConnectionName());
     }
 
@@ -374,9 +365,7 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('test-email-template', $template->slug);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'slug' => 'test-email-template',
@@ -397,23 +386,16 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'params' => json_encode($params),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(4, $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('name', $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('email', $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('company', $template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('role', $template->params);
     }
 
@@ -437,21 +419,15 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'sms_template' => json_encode($smsTemplate),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->sms_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Benvenuto {{name}}! La tua email è {{email}}', $template->sms_template['message']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['name', 'email'], $template->sms_template['variables']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(160, $template->sms_template['max_length']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('GSM7', $template->sms_template['encoding']);
     }
 
@@ -467,17 +443,12 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(0, $template->counter);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->increment('counter');
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(1, $template->fresh()->counter);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->increment('counter', 5);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(6, $template->fresh()->counter);
     }
 
@@ -493,7 +464,6 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $template->update([
             'name' => 'Updated Name',
             'subject' => 'Updated Subject',
@@ -501,7 +471,6 @@ class MailTemplateTest extends TestCase
             'params' => ['updated'],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'name' => 'Updated Name',
@@ -510,7 +479,6 @@ class MailTemplateTest extends TestCase
             'params' => json_encode(['updated']),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('updated-name', $template->fresh()->slug);
     }
 
@@ -530,13 +498,9 @@ class MailTemplateTest extends TestCase
             ->where('slug', 'find-test-template')
             ->first();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundTemplate);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($template->id, $foundTemplate->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('App\Mail\FindMail', $foundTemplate->mailable);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('find-test-template', $foundTemplate->slug);
     }
 
@@ -554,11 +518,8 @@ class MailTemplateTest extends TestCase
 
         $foundTemplate = MailTemplate::where('name', 'Name Search Template')->first();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundTemplate);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($template->id, $foundTemplate->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Name Search Template', $foundTemplate->name);
     }
 
@@ -576,9 +537,7 @@ class MailTemplateTest extends TestCase
 
         $foundTemplates = MailTemplate::where('subject', 'like', '%Welcome%')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $foundTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Welcome to our platform', $foundTemplates[0]->subject);
     }
 
@@ -596,11 +555,8 @@ class MailTemplateTest extends TestCase
 
         $foundTemplates = MailTemplate::whereJsonContains('params', 'name')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $foundTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals($template->id, $foundTemplates[0]->id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertContains('name', $foundTemplates[0]->params);
     }
 
@@ -628,13 +584,9 @@ class MailTemplateTest extends TestCase
         $lowCounterTemplates = MailTemplate::where('counter', '<=', 10)->get();
         $highCounterTemplates = MailTemplate::where('counter', '>=', 25)->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $lowCounterTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highCounterTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(5, $lowCounterTemplates[0]->counter);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(50, $highCounterTemplates[0]->counter);
     }
 
@@ -650,9 +602,7 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->params);
     }
 
@@ -669,9 +619,7 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($template->sms_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($template->sms_template);
     }
 
@@ -705,21 +653,15 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('mail_templates', [
             'id' => $template->id,
             'sms_template' => json_encode($complexSmsTemplate),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Benvenuto {{name}}!', $template->sms_template['message']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['name', 'email'], $template->sms_template['variables']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(160, $template->sms_template['max_length']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($template->sms_template['fallback']['enabled']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('high', $template->sms_template['delivery_options']['priority']);
     }
 
@@ -749,11 +691,8 @@ class MailTemplateTest extends TestCase
             ->where('counter', '>=', 15)
             ->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $foundTemplates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Another Multi Criteria Template', $foundTemplates[0]->name);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(20, $foundTemplates[0]->counter);
     }
 
@@ -771,13 +710,9 @@ class MailTemplateTest extends TestCase
             'counter' => 0,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->text_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->sms_template);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($template->params);
     }
 
@@ -804,11 +739,8 @@ class MailTemplateTest extends TestCase
 
         $templates = MailTemplate::where('name', 'Test Template')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $templates);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('test-template', $templates[0]->slug);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('test-template-1', $templates[1]->slug);
     }
 }

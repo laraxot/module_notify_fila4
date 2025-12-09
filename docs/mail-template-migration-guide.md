@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida alla Migrazione di MailTemplate
 
 ## Panoramica
@@ -255,3 +256,5 @@ Per una comprensione completa, consultare anche:
 ## Conclusione
 
 Seguire il pattern di migrazione `XotBaseMigration` è essenziale per mantenere la coerenza in tutto il progetto. L'implementazione del campo `slug` nella tabella `mail_templates` dimostra l'applicazione corretta di questo pattern e offre numerosi vantaggi per l'usabilità del sistema di template email.
+=======
+>>>>>>> 5fd545e4 (.)

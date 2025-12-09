@@ -270,8 +270,6 @@ use Tests\TestCase;
 
 use function Safe\json_encode;
 
-use function Safe\json_encode;
-
 class ContactManagementBusinessLogicTest extends TestCase
 {
     use RefreshDatabase;

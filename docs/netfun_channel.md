@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Canale Netfun
 
 ## 1. Struttura Base
@@ -1227,3 +1228,5 @@ Log::info('SMS inviato', [
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Esempi Pratici: Blade Components Tailwind per <nome progetto>
 
 Questa guida mostra come creare Blade component riutilizzabili, accessibili e responsive usando pattern Tailwind CSS, secondo le best practice Webcrunch e le regole <nome progetto>.
@@ -218,3 +219,5 @@ document.querySelectorAll('.group').forEach(card => {
 >>>>>>> 23cbbaf5 (.)
 - Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 - Integrare test di rendering e validazione accessibilità.
+=======
+>>>>>>> 5fd545e4 (.)

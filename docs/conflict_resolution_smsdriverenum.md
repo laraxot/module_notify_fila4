@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitto SmsDriverEnum
 
 ## Problema Identificato
@@ -519,3 +520,5 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

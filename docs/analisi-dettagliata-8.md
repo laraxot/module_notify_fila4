@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 
 ## 8. Note Finali
@@ -540,3 +541,5 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 23cbbaf5 (.)
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+=======
+>>>>>>> 5fd545e4 (.)

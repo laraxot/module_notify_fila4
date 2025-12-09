@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base
@@ -629,3 +630,5 @@ class TelegramTest extends TestCase
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

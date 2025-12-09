@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pattern di Design per Email Moderne
 
 ## Introduzione
@@ -460,3 +461,5 @@ return [
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [Spatie Email Integration](./SPATIE_EMAIL_USAGE_GUIDE.md)
+=======
+>>>>>>> 5fd545e4 (.)

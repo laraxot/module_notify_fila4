@@ -93,6 +93,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <x-filament::section>
         <x-slot name="heading">
             Test Invio Notifiche Push
@@ -120,6 +121,8 @@ declare(strict_types=1);
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     <div class="space-y-6">
         <div class="bg-white shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
@@ -129,6 +132,7 @@ declare(strict_types=1);
                 <p class="mt-1 text-sm text-gray-600">
                     Utilizza questo form per testare l'invio di notifiche push ai dispositivi mobili tramite diversi servizi.
                 </p>
+<<<<<<< HEAD
 
                 <div class="mt-6">
                     {{ $this->notificationForm }}
@@ -388,19 +392,14 @@ declare(strict_types=1);
         <x-slot name="heading">
             Test Invio Notifiche Push
         </x-slot>
+=======
+>>>>>>> 5fd545e4 (.)
 
-        <x-slot name="description">
-            Utilizza questo form per testare l'invio di notifiche push ai dispositivi mobili tramite diversi servizi.
-        </x-slot>
-
-        {{ $this->notificationForm }}
-
-        <x-slot name="footer">
-            <div class="flex items-center justify-between gap-x-3">
-                <div>
-                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification()" />
+                <div class="mt-6">
+                    {{ $this->notificationForm }}
                 </div>
                 <div>
+<<<<<<< HEAD
                     <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
                 </div>
             </div>
@@ -569,4 +568,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+                </div>
+            </div>
+        </div>
+    </div>
+>>>>>>> 5fd545e4 (.)
 </x-filament-panels::page>

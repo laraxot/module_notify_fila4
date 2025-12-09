@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test Sistema Email - il progetto
 
 ## Panoramica
@@ -524,3 +525,5 @@ class TestData
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)

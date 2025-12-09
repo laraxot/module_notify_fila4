@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test Sistema Email - il progetto
 
 ## Panoramica
@@ -641,3 +642,5 @@ class TestData
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

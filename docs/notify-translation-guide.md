@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione
@@ -396,3 +397,5 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
+=======
+>>>>>>> 5fd545e4 (.)

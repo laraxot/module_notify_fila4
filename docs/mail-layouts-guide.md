@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida ai Layout Email nel Modulo Notify
 
 ## Introduzione
@@ -248,3 +249,5 @@ I layout attuali sono compatibili con l'approccio utilizzato da [mailpace/templa
 - [Spatie Email Documentation](./SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility Guide](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
+=======
+>>>>>>> 5fd545e4 (.)

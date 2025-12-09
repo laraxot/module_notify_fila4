@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale
@@ -177,3 +178,5 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/*.php" -type f 
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
+=======
+>>>>>>> 5fd545e4 (.)

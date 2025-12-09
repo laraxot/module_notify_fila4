@@ -1200,6 +1200,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 =======
     #[Override]
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
     #[Override]
@@ -1350,6 +1351,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 =======
     #[Override]
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function execute(WhatsAppData $whatsAppData): array
     {
         $from = 'whatsapp:' . ($whatsAppData->from ?? $this->defaultSender);

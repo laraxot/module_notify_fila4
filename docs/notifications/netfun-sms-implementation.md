@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Netfun SMS 
 
 ## Introduzione
@@ -311,3 +312,5 @@ class AppointmentReminder extends Notification
 - [Documentazione Netfun API](https://www.netfun.it/docs/api)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
+=======
+>>>>>>> 5fd545e4 (.)

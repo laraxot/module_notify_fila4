@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Log Email 
 
 ## Panoramica
@@ -610,3 +611,5 @@ class MailLogDebugger
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)

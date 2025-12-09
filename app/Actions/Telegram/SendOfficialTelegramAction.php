@@ -2345,11 +2345,14 @@ final class SendOfficialTelegramAction
                 'message_id' => $responseData['result']['message_id'] ?? null,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

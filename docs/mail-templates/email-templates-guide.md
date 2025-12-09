@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida ai Template Email Responsive
 
 Questa guida descrive i template email responsive disponibili nel modulo Notify, la loro struttura e come utilizzarli nelle comunicazioni con gli utenti.
@@ -421,3 +422,5 @@ class SendAppointmentConfirmationAction
 - [EMAIL_BEST_PRACTICES.md](./EMAIL_BEST_PRACTICES.md) - Best practices per email transazionali
 - [RESPONSIVE_EMAIL_TEMPLATES.md](../RESPONSIVE_EMAIL_TEMPLATES.md) - Guide dettagliate sul design responsive
 - [MAILPACE_TEMPLATES_INTEGRATION.md](./MAILPACE_TEMPLATES_INTEGRATION.md) - Integrazione con template esterni
+=======
+>>>>>>> 5fd545e4 (.)

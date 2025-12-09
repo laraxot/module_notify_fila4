@@ -378,6 +378,7 @@ class ContactSection extends Forms\Components\Section
         $this->columns(2);
     }
 
+<<<<<<< HEAD
     /**
      * @return array<string, \Filament\Forms\Components\TextInput>
      */
@@ -394,6 +395,11 @@ class ContactSection extends Forms\Components\Section
         $this->schema($this->getFormSchema());
         $this->columns(2);
     }
+=======
+    protected function getFormSchema(): array
+    {
+        $res = ContactTypeEnum::getFormSchema();
+>>>>>>> 5fd545e4 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

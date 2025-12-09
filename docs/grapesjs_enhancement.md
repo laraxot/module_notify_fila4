@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione GrapesJS Editor (Dotswan)
 
 Questo documento analizza il plugin [Dotswan GrapesJS](https://filamentphp.com/plugins/dotswan-grapesjs) per Filament e propone una versione in-house open source migliorata.
@@ -335,3 +336,5 @@ class PublishPageTemplateAction {
 =======
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

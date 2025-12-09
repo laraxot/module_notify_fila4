@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Migrazione Email 
 
 ## Panoramica
@@ -976,3 +977,5 @@ class MailMigrationDebugger
 - [Laravel Schema](https://laravel.com/docs/schema)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

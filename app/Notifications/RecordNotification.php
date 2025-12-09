@@ -1147,6 +1147,7 @@ class RecordNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (is_string($to)) {
                 $email->to($to);
 =======
@@ -1264,6 +1265,10 @@ class RecordNotification extends Notification
             $email->to($to);
             if ($to) {
 >>>>>>> 75179b85 (.)
+=======
+            $email->to($to);
+            if ($to) {
+>>>>>>> 5fd545e4 (.)
                 $email->setRecipient($to);
             }
         }

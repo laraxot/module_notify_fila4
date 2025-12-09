@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzione di Naming per le Interfacce 
 
 ## Regola Fondamentale
@@ -515,3 +516,5 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Monitoraggio Email 
 
 ## Panoramica
@@ -1078,3 +1079,5 @@ class MailMonitoringDebugger
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

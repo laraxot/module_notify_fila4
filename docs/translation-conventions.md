@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali
@@ -344,3 +345,5 @@ Le traduzioni devono essere oneste, non ingannevoli, non manipolatorie e non off
 
 ## Zen
 La traduzione perfetta è quella che non si nota: è naturale, fluida, non distrae e non crea attrito. Ogni parola superflua va eliminata, ogni concetto va reso con la massima semplicità e armonia.
+=======
+>>>>>>> 5fd545e4 (.)

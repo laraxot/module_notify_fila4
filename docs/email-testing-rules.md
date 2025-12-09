@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo
@@ -237,3 +238,5 @@ public function sendEmail(): void
 - Semplificare dove possibile
 - Mantenere l'equilibrio tra funzionalità e complessità
 - Seguire il principio "meno è più" 
+=======
+>>>>>>> 5fd545e4 (.)

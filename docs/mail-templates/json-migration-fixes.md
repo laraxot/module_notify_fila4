@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Correzioni per le Migrazioni JSON in Laravel
 
 ## Problema Identificato
@@ -417,3 +418,5 @@ I problemi più comuni si verificano in migrazioni che coinvolgono campi con tra
 - [MySQL JSON Functions Reference](https://dev.mysql.com/doc/refman/8.0/en/json-functions.html)
 - [Laravel Migration & Database Guide](https://laravel.com/docs/10.x/migrations)
 - [Converting Database Column Types in Laravel](https://laravel.com/docs/10.x/migrations#modifying-columns)
+=======
+>>>>>>> 5fd545e4 (.)

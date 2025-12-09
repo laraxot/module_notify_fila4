@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Esempi Aggiuntivi di Contenuto per Template Email
 
 Questo documento contiene esempi aggiuntivi di contenuto HTML per template email da memorizzare nel database, seguendo l'architettura corretta di `spatie/laravel-database-mail-templates`.
@@ -411,3 +412,5 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
     </p>
 </div>
 ```
+=======
+>>>>>>> 5fd545e4 (.)

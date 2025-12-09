@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test smtp page
 
 ![test smtp page](test-smtp-page.jpg)
@@ -90,3 +91,5 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 
 ---
 
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Utilizzo di Enum e Config 
 
 <<<<<<< HEAD
@@ -369,3 +370,5 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 =======
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Progresso Standardizzazione Traduzioni
 
 ## Stato Attuale - 12/05/2025
@@ -958,3 +959,5 @@
 =======
 >>>>>>> febe79e3 (.)
 ```
+=======
+>>>>>>> 5fd545e4 (.)

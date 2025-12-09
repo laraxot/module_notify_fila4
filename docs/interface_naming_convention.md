@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzione di Naming per le Interfacce 
 
 ## Regola Fondamentale
@@ -1309,3 +1310,5 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura delle Interfacce (Contracts) in Notify
 
 ## Principi Architetturali Fondamentali
@@ -428,3 +429,5 @@ SendSmsInterface
 2. Normalizzare tutte le implementazioni per utilizzare `SmsProviderActionInterface`
 3. Rimuovere tutti i riferimenti obsoleti alle interfacce non corrette
 4. Aggiornare documentazione e implementazioni per riflettere questa architettura
+=======
+>>>>>>> 5fd545e4 (.)

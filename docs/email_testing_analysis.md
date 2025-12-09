@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
@@ -469,3 +470,5 @@ public function sendEmail(): void
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -80,6 +80,7 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 
@@ -218,6 +219,8 @@ use function Safe\preg_replace;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 5fd545e4 (.)
 
 use function Safe\preg_replace;
 <<<<<<< HEAD
@@ -849,6 +852,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var WhatsAppProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
@@ -944,5 +948,8 @@ final class WhatsAppActionFactory
 
         return app($className);
 >>>>>>> 75179b85 (.)
+=======
+        return app($className);
+>>>>>>> 5fd545e4 (.)
     }
 }

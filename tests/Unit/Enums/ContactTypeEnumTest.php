@@ -82,6 +82,7 @@ class ContactTypeEnumTest extends TestCase
         $this->assertCount(6, $form);
 
         foreach ($form as $component) {
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -100,6 +101,8 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
             $this->assertInstanceOf(TextInput::class, $component);
         }
     }

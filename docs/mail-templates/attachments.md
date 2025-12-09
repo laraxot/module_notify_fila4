@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestione degli Allegati nelle Email
 
 ## Implementazione Corretta
@@ -295,3 +296,5 @@ Mail::to($user->email)
 - Documentare i tipi supportati
 - Implementare gestione errori
 - Monitorare le performance 
+=======
+>>>>>>> 5fd545e4 (.)

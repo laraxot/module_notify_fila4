@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale
@@ -176,3 +177,5 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | 
 
 - [Filament Documentation](https://filamentphp.com/docs/3.x/panels/pages/getting-started)
 - [PSR-4 Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
+=======
+>>>>>>> 5fd545e4 (.)

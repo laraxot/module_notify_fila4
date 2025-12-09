@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Architettura delle Pagine di Risorse Filament 
 
 ## Regola Fondamentale
@@ -342,3 +343,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 >>>>>>> febe79e3 (.)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione Canale WhatsApp
 
 ## 1. Struttura Base
@@ -531,3 +532,5 @@ class WhatsAppTest extends TestCase
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

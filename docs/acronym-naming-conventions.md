@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per Acronimi 
 
 ## Regola Fondamentale
@@ -206,3 +207,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
 - [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)
 - [PHP-FIG Naming Conventions](https://www.php-fig.org/bylaws/psr-naming-conventions/)
+=======
+>>>>>>> 5fd545e4 (.)

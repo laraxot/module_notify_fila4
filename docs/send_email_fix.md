@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -569,3 +570,5 @@ class SmtpData extends Data
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

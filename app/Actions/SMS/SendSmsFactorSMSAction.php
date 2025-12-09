@@ -702,6 +702,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
 >>>>>>> 011072e4 (.)
     #[Override]
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -810,6 +811,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();

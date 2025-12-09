@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ContactColumn Icon Issue - Analisi e Risoluzione
 
 ## 🚨 PROBLEMA IDENTIFICATO
@@ -563,3 +564,5 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 **Priorità**: 🔴 ALTA (Funzionalità core non funzionante)  
 **Tempo Stimato Fix**: 5 minuti  
 **Rischio**: 🟢 BASSO (Modifica isolata)
+=======
+>>>>>>> 5fd545e4 (.)

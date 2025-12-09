@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo
@@ -454,3 +455,5 @@ public function sendEmail(): void
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

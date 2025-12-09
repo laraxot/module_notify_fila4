@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stato Implementazione SpatieEmail
 
 Questo documento tiene traccia dello stato di implementazione delle email utilizzando il pacchetto Spatie per le email multilingua nel modulo Notify.
@@ -278,3 +279,5 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 - **Completato**: Configurazione base, documentazione iniziale
 - **In corso**: Refactoring modelli, correzioni sintassi
 - **Pianificato**: Testing, documentazione completa
+=======
+>>>>>>> 5fd545e4 (.)

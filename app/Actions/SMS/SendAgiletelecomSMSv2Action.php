@@ -358,9 +358,6 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 >>>>>>> 2941b0bd (.)
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function execute(SmsData $data): array
     {
         $agile = AgiletelecomData::make();

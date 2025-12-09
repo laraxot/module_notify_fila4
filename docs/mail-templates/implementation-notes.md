@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -413,3 +414,5 @@ L'implementazione corretta dimostra che:
 Input: "name, email, company, date"
 Output: [name] [email] [company] [date] (come badge blu)
 ``` 
+=======
+>>>>>>> 5fd545e4 (.)

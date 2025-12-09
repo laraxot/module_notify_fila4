@@ -47,6 +47,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -175,6 +176,9 @@ class BuildMailMessageAction
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 2941b0bd (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 5fd545e4 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -629,6 +633,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $email = new MailMessage()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +781,8 @@ class BuildMailMessageAction
 >>>>>>> ce26f84e (.)
 =======
 >>>>>>> 7d903672 (.)
+=======
+>>>>>>> 5fd545e4 (.)
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)

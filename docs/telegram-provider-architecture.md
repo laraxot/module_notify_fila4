@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Architettura Telegram Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
@@ -978,3 +979,5 @@ In fase di installazione:
 3. **Errori di Formattazione**: Verificare la correttezza della sintassi HTML/Markdown
 4. **Errori Webhook**: Verificare che l'URL sia accessibile e con SSL valido
 5. **Dimensione File**: Rispettare i limiti di dimensione dei file
+=======
+>>>>>>> 5fd545e4 (.)

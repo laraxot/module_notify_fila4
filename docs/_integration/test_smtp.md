@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # test_smtp
 
 <!-- Contenuto migrato da _docs/test_smtp.txt -->
@@ -245,3 +246,5 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

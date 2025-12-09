@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema di Code per Email - il progetto
 
 ## Panoramica
@@ -1318,3 +1319,5 @@ php artisan queue:restart
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

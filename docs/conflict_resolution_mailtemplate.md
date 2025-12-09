@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Risoluzione Conflitti MailTemplate.php
 
 ## Contesto del Conflitto
@@ -244,3 +245,5 @@ Verificare che:
 >>>>>>> febe79e3 (.)
 
 *Ultimo aggiornamento: giugno 2025*
+=======
+>>>>>>> 5fd545e4 (.)

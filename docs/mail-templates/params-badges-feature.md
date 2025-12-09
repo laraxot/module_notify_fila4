@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Visualizzazione Parametri come Badge - Mail Templates
 
 ## Panoramica
@@ -273,3 +274,5 @@ Badge: [user_name] [reset_link] [expiry_time]
 =======
 **Compatibilità**: Filament 3.x, Laravel 10+ 
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)

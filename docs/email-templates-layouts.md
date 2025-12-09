@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Template Email e Layout - Modulo Notify
 
 ## Scopo
@@ -315,3 +316,5 @@ MailTemplate::create([
 =======
 **Compatibilità**: Laravel 12.x, Filament 4.x, Spatie Mail Templates
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

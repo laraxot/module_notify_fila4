@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Documentazione SpatieEmail
 
 Questa directory contiene la documentazione relativa all'implementazione delle email multilingua utilizzando il pacchetto Spatie nel modulo Notify.
@@ -108,3 +109,5 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida Completa ai Provider di Notifiche 
 
 <<<<<<< HEAD
@@ -245,3 +246,5 @@ Per implementazioni specifiche, vedere i documenti:
 - [PROVIDER_ACTIONS_ARCHITECTURE.md](./PROVIDER_ACTIONS_ARCHITECTURE.md)
 - [SMS_ACTIONS_PATTERN.md](./SMS_ACTIONS_PATTERN.md)
 - [WHATSAPP_PROVIDER_ARCHITECTURE.md](./WHATSAPP_PROVIDER_ARCHITECTURE.md)
+=======
+>>>>>>> 5fd545e4 (.)

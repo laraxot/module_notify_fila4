@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione dei Canali di Notifica 
 
 <<<<<<< HEAD
@@ -265,3 +266,5 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
+=======
+>>>>>>> 5fd545e4 (.)

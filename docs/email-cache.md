@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema Cache Email 
 
 ## Panoramica
@@ -576,3 +577,5 @@ class MailCacheDebugger
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)

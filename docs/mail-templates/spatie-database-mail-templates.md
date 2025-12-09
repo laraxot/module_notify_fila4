@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spatie Laravel Database Mail Templates
 
 ## Introduzione
@@ -748,3 +749,5 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 3. **Testare su più client email**: Verificare la corretta visualizzazione su diversi client
 4. **Mantenere template semplici**: Evitare costrutti complessi in Mustache che potrebbero non funzionare
 5. **Aggiungere versione testuale**: Fornire sempre una versione testuale dell'email per client che non supportano HTML
+=======
+>>>>>>> 5fd545e4 (.)

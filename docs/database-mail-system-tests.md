@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -549,3 +550,5 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)

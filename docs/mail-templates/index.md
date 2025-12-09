@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
@@ -132,3 +133,5 @@
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice dei template email, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 Ultimo aggiornamento: 14 Maggio 2025
+=======
+>>>>>>> 5fd545e4 (.)

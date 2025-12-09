@@ -243,6 +243,7 @@ class NetfunSmsResponseData extends Data
      */
     public static function fromArray(array $data): self
     {
+<<<<<<< HEAD
         /** @var string $status */
         $status = $data['status'];
         /** @var string|null $batchId */
@@ -463,6 +464,13 @@ class NetfunSmsResponseData extends Data
 =======
             error: $data['error'] ?? null,
 >>>>>>> 2941b0bd (.)
+=======
+        return new self(
+            status: $data['status'],
+            batchId: $data['batchId'] ?? null,
+            messages: $data['messages'] ?? null,
+            error: $data['error'] ?? null,
+>>>>>>> 5fd545e4 (.)
         );
     }
 }

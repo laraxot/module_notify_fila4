@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -441,3 +442,5 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 5fd545e4 (.)

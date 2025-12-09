@@ -385,6 +385,7 @@ class SendEmailPage extends XotBasePage
         $this->fillForms();
     }
 
+<<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
@@ -640,6 +641,8 @@ class SendEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getEmailFormSchema(): array
     {
         return [

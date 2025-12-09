@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari
@@ -410,3 +411,5 @@ class FileUploadSecurityTest extends TestCase
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
+=======
+>>>>>>> 5fd545e4 (.)

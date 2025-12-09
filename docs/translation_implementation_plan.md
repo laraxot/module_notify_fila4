@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
 <<<<<<< HEAD
@@ -975,3 +976,5 @@ return [
 ## Conclusione
 
 L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify seguano gli standard definiti, migliorando la manutenibilità e la coerenza del codice.
+=======
+>>>>>>> 5fd545e4 (.)
