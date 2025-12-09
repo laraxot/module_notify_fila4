@@ -47,6 +47,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -57,6 +58,9 @@ class OtpSmsNotification extends NetfunSmsNotification
 >>>>>>> f963d2c0 (.)
 =======
             sender: 'SALUTEORA'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 31f5d28f (.)
 =======
             sender: 'SALUTEORA'
 >>>>>>> 31f5d28f (.)
@@ -69,6 +73,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 >>>>>>> bf479cc (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
             sender: 'SALUTEORA'
@@ -104,6 +109,8 @@ class OtpSmsNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
         );
     }
 
@@ -282,6 +289,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -292,6 +300,9 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 >>>>>>> f963d2c0 (.)
 =======
             sender: 'SALUTEORA'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 31f5d28f (.)
 =======
             sender: 'SALUTEORA'
 >>>>>>> 31f5d28f (.)
@@ -304,6 +315,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 >>>>>>> bf479cc (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
             sender: 'SALUTEORA'
@@ -339,6 +351,8 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
         );
     }
 
@@ -592,6 +606,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -602,6 +617,9 @@ public function sendBulkSms(Request $request)
 >>>>>>> f963d2c0 (.)
 =======
             sender: 'SALUTEORA',
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 31f5d28f (.)
 =======
             sender: 'SALUTEORA',
 >>>>>>> 31f5d28f (.)
@@ -614,6 +632,7 @@ public function sendBulkSms(Request $request)
 >>>>>>> bf479cc (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
             sender: 'SALUTEORA',
@@ -649,6 +668,8 @@ public function sendBulkSms(Request $request)
 =======
             sender: 'SALUTEORA',
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
