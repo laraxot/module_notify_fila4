@@ -54,6 +54,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -515,6 +516,10 @@ use Modules\Notify\Models\NotifyThemeable;
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+>>>>>>> 59916c8f (.)
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -635,6 +640,7 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $theme3->id,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,6 +1151,10 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+>>>>>>> 59916c8f (.)
     });
 
     it('can handle theme switching', function () {
@@ -1298,6 +1308,7 @@ describe('Notify Themeable Business Logic', function () {
         $theme1Assignments = NotifyThemeable::where('notify_theme_id', $theme1->id)->get();
         expect($theme1Assignments)->toHaveCount(5);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1587,10 +1598,13 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2077,6 +2091,8 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);

@@ -83,6 +83,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -556,10 +557,15 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+use Modules\Notify\Filament\Resources\NotificationTemplateResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+>>>>>>> 59916c8f (.)
 
 class EditNotificationTemplate extends XotBaseEditRecord
 {
     protected static string $resource = NotificationTemplateResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -871,6 +877,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
 
     /*
      * protected function getRedirectUrl(): string
@@ -890,6 +898,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
      * }
      */
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1452,3 +1461,5 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> 59916c8f (.)
