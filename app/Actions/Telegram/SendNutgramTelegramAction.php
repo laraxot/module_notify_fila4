@@ -4575,6 +4575,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 >>>>>>> b19cd40 (.)
@@ -4688,6 +4689,11 @@ final class SendNutgramTelegramAction
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
 >>>>>>> 75179b85 (.)
+=======
+            return [
+                'success' => $responseData['ok'] ?? false,
+                'message_id' => $responseData['result']['message_id'] ?? null,
+>>>>>>> 5fd545e4 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

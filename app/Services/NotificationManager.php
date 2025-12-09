@@ -963,6 +963,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -984,6 +985,9 @@ class NotificationManager
 =======
             $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
 >>>>>>> 75179b85 (.)
+=======
+            $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
+>>>>>>> 5fd545e4 (.)
         }
 
         return $logs;

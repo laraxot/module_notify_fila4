@@ -833,8 +833,6 @@ use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 >>>>>>> 7c39b1fe (.)
 
-use function Safe\json_encode;
-
 class NotifyThemeTest extends TestCase
 {
     use RefreshDatabase;
@@ -842,7 +840,6 @@ class NotifyThemeTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -870,7 +867,6 @@ class NotifyThemeTest extends TestCase
             ],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'lang' => 'it',
@@ -893,7 +889,6 @@ class NotifyThemeTest extends TestCase
             ]),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(NotifyTheme::class, $theme);
     }
 
@@ -928,7 +923,6 @@ class NotifyThemeTest extends TestCase
             'view_params',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $theme->getFillable());
     }
 
@@ -957,7 +951,6 @@ class NotifyThemeTest extends TestCase
             'view_params' => 'array',
         ];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedCasts, $theme->casts());
     }
 
@@ -976,7 +969,6 @@ class NotifyThemeTest extends TestCase
 
         $expectedAppends = ['logo'];
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedAppends, $theme->getAppends());
     }
 
@@ -1005,21 +997,15 @@ class NotifyThemeTest extends TestCase
             'view_params' => $viewParams,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode($viewParams),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($theme->view_params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Test Company', $theme->view_params['company_name']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('#ef4444', $theme->view_params['primary_color']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Inter', $theme->view_params['fonts']['primary']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1200px', $theme->view_params['layout']['max_width']);
     }
 
@@ -1036,17 +1022,11 @@ class NotifyThemeTest extends TestCase
 
         $logo = $theme->logo;
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('path', $logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('width', $logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertArrayHasKey('height', $logo);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(300, $logo['width']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(120, $logo['height']);
     }
 
@@ -1061,9 +1041,7 @@ class NotifyThemeTest extends TestCase
 
         $logo = $theme->logo;
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(50, $logo['width']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(50, $logo['height']);
     }
 
@@ -1078,7 +1056,6 @@ class NotifyThemeTest extends TestCase
             'view_params' => ['original' => true],
         ]);
 
-        /** @phpstan-ignore-next-line method.nonObject */
         $theme->update([
             'subject' => 'Updated Subject',
             'body' => 'Updated body text',
@@ -1086,7 +1063,6 @@ class NotifyThemeTest extends TestCase
             'view_params' => ['updated' => true, 'version' => '2.0'],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'subject' => 'Updated Subject',
@@ -1095,13 +1071,9 @@ class NotifyThemeTest extends TestCase
             'view_params' => json_encode(['updated' => true, 'version' => '2.0']),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated Subject', $theme->fresh()->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated body text', $theme->fresh()->body);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('updated', $theme->fresh()->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(['updated' => true, 'version' => '2.0'], $theme->fresh()->view_params);
     }
 
@@ -1130,17 +1102,11 @@ class NotifyThemeTest extends TestCase
         $englishThemes = NotifyTheme::where('lang', 'en')->get();
         $germanThemes = NotifyTheme::where('lang', 'de')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $italianThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $englishThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $germanThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('it', $italianThemes[0]->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('en', $englishThemes[0]->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('de', $germanThemes[0]->lang);
     }
 
@@ -1169,17 +1135,11 @@ class NotifyThemeTest extends TestCase
         $smsThemes = NotifyTheme::where('type', 'sms')->get();
         $pushThemes = NotifyTheme::where('type', 'push')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $emailThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $smsThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $pushThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email', $emailThemes[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('sms', $smsThemes[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('push', $pushThemes[0]->type);
     }
 
@@ -1208,17 +1168,11 @@ class NotifyThemeTest extends TestCase
         $darkThemes = NotifyTheme::where('theme', 'dark')->get();
         $customThemes = NotifyTheme::where('theme', 'custom')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $defaultThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $darkThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $customThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('default', $defaultThemes[0]->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('dark', $darkThemes[0]->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('custom', $customThemes[0]->theme);
     }
 
@@ -1250,17 +1204,11 @@ class NotifyThemeTest extends TestCase
         $companyThemes = NotifyTheme::where('post_type', 'App\Models\Company')->get();
         $orderThemes = NotifyTheme::where('post_type', 'App\Models\Order')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $userThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $companyThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $orderThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userThemes[0]->post_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\Company', $companyThemes[0]->post_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\Order', $orderThemes[0]->post_type);
     }
 
@@ -1288,15 +1236,10 @@ class NotifyThemeTest extends TestCase
         $welcomeThemes = NotifyTheme::where('subject', 'like', '%Welcome%')->get();
         $orderThemes = NotifyTheme::where('subject', 'like', '%Order%')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $welcomeThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $orderThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('Welcome', $welcomeThemes[0]->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('Welcome', $welcomeThemes[1]->subject);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('Order', $orderThemes[0]->subject);
     }
 
@@ -1328,17 +1271,11 @@ class NotifyThemeTest extends TestCase
         $marketingThemes = NotifyTheme::where('from_email', 'marketing@example.com')->get();
         $supportThemes = NotifyTheme::where('from_email', 'support@example.com')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $systemThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $marketingThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $supportThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('system@example.com', $systemThemes[0]->from_email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('marketing@example.com', $marketingThemes[0]->from_email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('support@example.com', $supportThemes[0]->from_email);
     }
 
@@ -1375,13 +1312,9 @@ class NotifyThemeTest extends TestCase
         $highPriorityThemes = NotifyTheme::whereJsonPath('view_params.priority', 'high')->get();
         $securityThemes = NotifyTheme::whereJsonPath('view_params.category', 'security')->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highPriorityThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $securityThemes);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $highPriorityThemes[0]->view_params['priority']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('security', $securityThemes[0]->view_params['category']);
     }
 
@@ -1426,15 +1359,10 @@ class NotifyThemeTest extends TestCase
             ->whereJsonPath('view_params.priority', 'high')
             ->get();
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $italianEmailHighPriority);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('it', $italianEmailHighPriority[0]->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email', $italianEmailHighPriority[0]->type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high', $italianEmailHighPriority[0]->view_params['priority']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('Italian High Priority Security', $italianEmailHighPriority[0]->subject);
     }
 
@@ -1458,29 +1386,17 @@ class NotifyThemeTest extends TestCase
             'view_params' => null,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->lang);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->body);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->body_html);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->from);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->from_email);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->post_type);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->post_id);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->theme);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->logo_src);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->logo_width);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->logo_height);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($theme->view_params);
     }
 
@@ -1493,15 +1409,12 @@ class NotifyThemeTest extends TestCase
             'view_params' => [],
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode([]),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($theme->view_params);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEmpty($theme->view_params);
     }
 
@@ -1564,23 +1477,16 @@ class NotifyThemeTest extends TestCase
             'view_params' => $complexParams,
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themes', [
             'id' => $theme->id,
             'view_params' => json_encode($complexParams),
         ]);
 
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('/images/logo.png', $theme->view_params['branding']['logo']['url']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('#3b82f6', $theme->view_params['branding']['colors']['primary']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Inter', $theme->view_params['branding']['fonts']['heading']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('1200px', $theme->view_params['layout']['container']['max_width']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue($theme->view_params['features']['dark_mode']);
-        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertFalse($theme->view_params['features']['animations']);
     }
 }

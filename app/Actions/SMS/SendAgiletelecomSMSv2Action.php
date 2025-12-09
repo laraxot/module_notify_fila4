@@ -754,6 +754,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2941b0bd (.)
     #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ba141fc (.)
 =======
@@ -780,6 +781,8 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function execute(SmsData $data): array
     {
         $agile = AgiletelecomData::make();

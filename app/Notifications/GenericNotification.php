@@ -10,6 +10,7 @@ namespace Modules\Notify\Notifications;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,6 +410,11 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+>>>>>>> 5fd545e4 (.)
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
@@ -523,6 +529,7 @@ class GenericNotification extends Notification implements ShouldQueue
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $title Il titolo della notifica
      * @param string $message Il contenuto della notifica
 <<<<<<< HEAD
@@ -560,15 +567,20 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
      * @param string $title Il titolo della notifica
      * @param string $message Il contenuto della notifica
      * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
      * @param array<string, mixed> $data Dati aggiuntivi per la notifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
      */
     public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
     {
@@ -581,6 +593,7 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene i canali di consegna della notifica.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,6 +763,9 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+     * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
+>>>>>>> 5fd545e4 (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -1014,6 +1030,7 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 58816034 (.)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $this->channels;
 =======
@@ -1095,10 +1112,14 @@ class GenericNotification extends Notification implements ShouldQueue
     {
         return $this->channels;
 >>>>>>> 75179b85 (.)
+=======
+        return $this->channels;
+>>>>>>> 5fd545e4 (.)
     }
 
     /**
      * Ottiene la rappresentazione mail della notifica.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -1616,10 +1637,19 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d298dd9c (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+     *
+     * @param mixed $notifiable
+     * @return MailMessage
+     */
+    public function toMail($notifiable): MailMessage
+    {
+>>>>>>> 5fd545e4 (.)
         $mail = new MailMessage()
             ->subject($this->title)
             ->greeting('Gentile ' . $this->getRecipientName($notifiable))
             ->line($this->message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1863,6 +1893,12 @@ class GenericNotification extends Notification implements ShouldQueue
         if (isset($this->data['action_text'], $this->data['action_url'])) {
             /** @phpstan-ignore-next-line */
 >>>>>>> 75179b85 (.)
+=======
+
+        // Aggiungi eventuali azioni se specificate nei dati
+        if (isset($this->data['action_text'], $this->data['action_url'])) {
+            /** @phpstan-ignore-next-line */
+>>>>>>> 5fd545e4 (.)
             $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
         }
 
@@ -2186,6 +2222,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2228,6 +2265,12 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+     * @param mixed $notifiable
+     * @return array<string, mixed>
+     */
+    public function toTwilio($notifiable): array
+>>>>>>> 5fd545e4 (.)
     {
         $content = "il progetto: {$this->title}\n{$this->message}";
 <<<<<<< HEAD
@@ -3064,6 +3107,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
 =======
 >>>>>>> c8b1c8bf (.)
@@ -3108,6 +3152,12 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+     * @param mixed $notifiable
+     * @return array<string, mixed>
+     */
+    public function toDatabase($notifiable): array
+>>>>>>> 5fd545e4 (.)
     {
         return [
             'title' => $this->title,
@@ -3121,17 +3171,24 @@ class GenericNotification extends Notification implements ShouldQueue
      * Ottiene il nome del destinatario per il saluto personalizzato.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param mixed $notifiable
      * @return string
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+     *
+     * @param mixed $notifiable
+     * @return string
+>>>>>>> 5fd545e4 (.)
      */
     protected function getRecipientName($notifiable): string
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3334,6 +3391,12 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+            return $notifiable->getFullName();
+        }
+
+        if (is_object($notifiable) && $notifiable instanceof Model) {
+>>>>>>> 5fd545e4 (.)
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'full_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'full_name', 'Utente');
             }

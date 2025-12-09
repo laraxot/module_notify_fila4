@@ -747,6 +747,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read NotificationTemplate|null $template
+<<<<<<< HEAD
  * @property string $notifiable_type
  * @property int $notifiable_id
  * @property string $title
@@ -776,6 +777,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
  * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
  * @mixin \Eloquent
+=======
+>>>>>>> 5fd545e4 (.)
  */
 final class NotificationLog extends BaseModel
 {
@@ -802,6 +805,7 @@ final class NotificationLog extends BaseModel
         'clicked_at' => 'datetime',
         'status' => NotificationLogStatusEnum::class,
     ];
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -1018,6 +1022,8 @@ class NotificationLog extends Model
             'updated_at' => 'datetime',
         ];
     }
+=======
+>>>>>>> 5fd545e4 (.)
 
     /**
      * Get the notifiable entity.

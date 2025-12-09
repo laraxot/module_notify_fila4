@@ -900,6 +900,7 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> 2941b0bd (.)
     #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ba141fc (.)
 =======
@@ -926,6 +927,8 @@ class ListMailTemplates extends LangBaseListRecords
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
     public function getTableColumns(): array
     {
         return [
