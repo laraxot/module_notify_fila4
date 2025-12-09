@@ -146,12 +146,17 @@ namespace Modules\Notify\Tests;
 >>>>>>> 4d253d2c (rebase 210)
 use Illuminate\Foundation\Application;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 >>>>>>> 99ff506 (.)
+=======
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Modules\Notify\Providers\NotifyServiceProvider;
+>>>>>>> 8e43c3e (.)
 use Modules\Xot\Tests\CreatesApplication;
 =======
 =======
@@ -616,6 +621,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Application  $app
 =======
      * @param Application $app
@@ -669,6 +675,9 @@ abstract class TestCase extends BaseTestCase
 =======
      * @param Application $app
 >>>>>>> 5f6e153 (.)
+=======
+     * @param  Application  $app
+>>>>>>> 8e43c3e (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array
