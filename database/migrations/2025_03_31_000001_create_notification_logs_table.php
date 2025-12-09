@@ -58,9 +58,12 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 return new class extends Migration
 {
 >>>>>>> 4d2eb53e (.)
@@ -92,11 +95,22 @@ return new class extends Migration
 =======
 =======
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+return new class extends Migration {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
 return new class extends Migration {
 =======
 return new class extends Migration
 {
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,8 +310,11 @@ return new class extends Migration {
 return new class extends Migration {
 >>>>>>> e11621f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
+=======
+>>>>>>> f2e64178 (.)
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -309,6 +326,7 @@ return new class extends Migration
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -421,6 +439,8 @@ return new class extends Migration {
 return new class extends Migration {
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
     /**
      * Esegue la migrazione.
      */
@@ -438,6 +458,7 @@ return new class extends Migration {
             $table->string('status'); // sent, failed, pending
             $table->text('error')->nullable();
             $table->timestamps();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -588,6 +609,10 @@ return new class extends Migration {
 
 =======
 >>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -602,6 +627,7 @@ return new class extends Migration {
             
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,6 +763,8 @@ return new class extends Migration {
 =======
 
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

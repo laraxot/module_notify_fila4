@@ -56,6 +56,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -158,6 +159,10 @@ use Spatie\LaravelData\Data;
  *
 =======
 >>>>>>> 4689a827 (.)
+=======
+ *
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +177,7 @@ use Spatie\LaravelData\Data;
  * 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,6 +313,8 @@ use Spatie\LaravelData\Data;
 =======
  *
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi WhatsApp
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -415,6 +423,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -517,6 +526,8 @@ class WhatsAppData extends Data
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
@@ -577,11 +588,26 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
         public null|string $from = null,
         public null|array $media = null,
         public null|array $buttons = null,
         public null|array $template = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -634,8 +660,12 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 99ff506 (.)
+>>>>>>> f2e64178 (.)
 =======
 =======
+=======
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -648,10 +678,14 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 4689a827 (.)
 =======
+=======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,6 +731,9 @@ class WhatsAppData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
@@ -714,6 +751,9 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,6 +846,7 @@ class WhatsAppData extends Data
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -891,12 +932,17 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
@@ -1012,6 +1058,9 @@ class WhatsAppData extends Data
 =======
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
         public string $type = 'text',
     ) {}
 }

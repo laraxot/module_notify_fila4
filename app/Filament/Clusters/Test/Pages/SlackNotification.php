@@ -51,6 +51,7 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
 =======
@@ -61,6 +62,8 @@ class SlackNotification extends Page
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f2e64178 (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
@@ -81,6 +84,7 @@ class SlackNotification extends Page
 =======
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -189,10 +193,14 @@ class SlackNotification extends Page
 =======
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,7 +231,10 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> f2e64178 (.)
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -374,6 +385,7 @@ class SlackNotification extends Page
 =======
 >>>>>>> e11621f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 =======
@@ -383,6 +395,10 @@ class SlackNotification extends Page
     protected static null|string $cluster = Test::class;
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $cluster = Test::class;
@@ -401,6 +417,7 @@ class SlackNotification extends Page
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -496,4 +513,6 @@ class SlackNotification extends Page
 =======
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 }

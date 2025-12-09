@@ -57,6 +57,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -233,6 +234,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 return new class extends XotBaseMigration
 {
 =======
@@ -244,6 +247,13 @@ return new class extends XotBaseMigration
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
 return new class() extends XotBaseMigration {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -316,6 +326,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -335,6 +346,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
 =======
 return new class () extends XotBaseMigration {
@@ -359,6 +372,7 @@ return new class() extends XotBaseMigration {
             $table->unique(['mail_template_id', 'version']);
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,6 +429,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 return new class () extends XotBaseMigration {
     public function up(): void
     {
@@ -439,6 +455,7 @@ return new class () extends XotBaseMigration {
             }
         );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,11 +512,15 @@ return new class () extends XotBaseMigration {
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> f2e64178 (.)
         $this->tableUpdate(
             function (Blueprint $table): void {
                 $this->updateTimestamps($table, true);
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +574,8 @@ return new class () extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 >>>>>>> a12f125f4a (.)
 =======
         $this->tableUpdate(function (Blueprint $table): void {
@@ -562,6 +585,7 @@ return new class () extends XotBaseMigration {
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -680,5 +704,7 @@ return new class () extends XotBaseMigration {
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
     }
 };

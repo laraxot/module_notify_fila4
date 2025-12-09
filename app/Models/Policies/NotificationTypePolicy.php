@@ -56,6 +56,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -119,6 +120,8 @@ class NotificationTypePolicy extends NotifyBasePolicy
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 class NotificationTypePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -347,6 +350,7 @@ class NotificationTypePolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3f39ac8b (.)
@@ -437,11 +441,14 @@ class NotificationTypePolicy extends NotifyBasePolicy {}
 =======
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> f2e64178 (.)
 class NotificationTypePolicy extends NotifyBasePolicy
 {
 }
 =======
 class NotificationTypePolicy extends NotifyBasePolicy {}
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,9 +532,13 @@ class NotificationTypePolicy extends NotifyBasePolicy
 >>>>>>> 95531e1 (.)
 =======
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f813254 (.)
+=======
 class NotificationTypePolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
@@ -538,4 +549,20 @@ class NotificationTypePolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Notify\Models\NotificationType;
+use Modules\Xot\Contracts\UserContract;
+
+class NotificationTypePolicy extends NotifyBasePolicy
+{
+   
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)

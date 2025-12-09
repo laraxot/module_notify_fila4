@@ -51,6 +51,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -77,10 +78,13 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +186,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -207,6 +213,7 @@ class PlivoData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,11 +269,14 @@ class PlivoData extends Data
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -286,6 +296,8 @@ use Illuminate\Support\Arr;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -314,6 +326,7 @@ class PlivoData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,6 +586,9 @@ class PlivoData extends Data
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> f2e64178 (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -595,6 +611,7 @@ class PlivoData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.plivo', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -681,6 +698,10 @@ class PlivoData extends Data
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
             $data = Config::array('sms.drivers.plivo');
             self::$instance = self::from($data);
         }
@@ -811,6 +832,7 @@ class PlivoData extends Data
                     'Authorization' => 'Basic '.base64_encode($this->auth_id.':'.$this->auth_token),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,7 +983,10 @@ class PlivoData extends Data
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> e11621f (.)
+=======
+>>>>>>> f813254 (.)
                     'Content-Type' => 'application/json',
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
@@ -1069,6 +1094,23 @@ class PlivoData extends Data
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    'Content-Type' => 'application/json',
+=======
+                    'Content-Type' => 'application/json'
+>>>>>>> a12f125f4a (.)
+=======
+                    'Content-Type' => 'application/json',
+>>>>>>> b93ef594b4 (.)
+=======
+                    'Content-Type' => 'application/json'
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
                 ];
         }
     }

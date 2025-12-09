@@ -85,6 +85,10 @@ interface MobilePushNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public function toArray(?object $notifiable): array;
+>>>>>>> f2e64178 (.)
 =======
     public function toArray(?object $notifiable): array;
 >>>>>>> 888799d0 (.)
@@ -296,6 +300,7 @@ interface MobilePushNotification
     public function toArray(null|object $notifiable): array;
 >>>>>>> e11621f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 =======
@@ -310,6 +315,11 @@ interface MobilePushNotification
     public function toArray(null|object $notifiable): array;
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+    public function toArray(null|object $notifiable): array;
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +334,7 @@ interface MobilePushNotification
     public function toArray(?object $notifiable): array;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
@@ -432,4 +443,7 @@ interface MobilePushNotification
     public function toArray(null|object $notifiable): array;
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
 }
