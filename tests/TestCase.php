@@ -151,7 +151,6 @@ namespace Modules\Notify\Tests;
 =======
 >>>>>>> 985c7bda (.)
 use Illuminate\Foundation\Application;
-<<<<<<< HEAD
 =======
 use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> f5f1cb1 (.)
@@ -624,9 +623,6 @@ abstract class TestCase extends BaseTestCase
      *
 <<<<<<< HEAD
      * @param  Application  $app
-=======
-     * @param Application $app
->>>>>>> f5f1cb1 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

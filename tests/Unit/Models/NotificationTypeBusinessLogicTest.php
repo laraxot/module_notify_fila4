@@ -2,13 +2,8 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-=======
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Builder;
->>>>>>> f5f1cb1 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('NotificationType Business Logic', function () {
@@ -39,11 +34,7 @@ describe('NotificationType Business Logic', function () {
     });
 
     test('notification type model can be instantiated without errors', function () {
-<<<<<<< HEAD
         $notificationType = new NotificationType;
-=======
-        $notificationType = new NotificationType();
->>>>>>> f5f1cb1 (.)
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);

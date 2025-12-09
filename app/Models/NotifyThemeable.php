@@ -9,7 +9,6 @@ namespace Modules\Notify\Models;
 =======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -45,6 +44,7 @@ use Illuminate\Support\Carbon;
  * @property int|null $notify_theme_id
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +121,8 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+=======
+>>>>>>> 23161eb (.)
  * @mixin IdeHelperNotifyThemeable
  * @mixin \Eloquent
  */
