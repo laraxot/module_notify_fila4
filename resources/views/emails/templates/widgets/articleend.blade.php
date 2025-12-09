@@ -113,6 +113,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -905,12 +906,15 @@ declare(strict_types=1);
 =======
 </td>
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 0ab3206e (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1588,3 +1592,6 @@ declare(strict_types=1);
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 0ab3206e (.)
