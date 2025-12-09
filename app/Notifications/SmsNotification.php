@@ -704,7 +704,7 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the provider configuration for this notification.
      *
-     * @return array<int, string>
+     * @return array<string, mixed>
      */
     public function getConfig(): array
     {
