@@ -40,15 +40,19 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
     protected static ?string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
@@ -325,4 +329,6 @@ class SlackNotification extends Page
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 }

@@ -44,6 +44,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -160,6 +161,8 @@ use Override;
 use Filament\Tables;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
@@ -190,6 +193,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,10 +373,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> a335025b (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +430,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
     #[\Override]
 =======
 =======
@@ -494,7 +503,12 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     #[Override]
     /**
      * @return array<string, mixed>
@@ -941,6 +955,7 @@ class ListContacts extends XotBaseListRecords
                 fn(Builder $query): Builder => $query->where('active', false),
             ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1027,6 +1042,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         ];
     }
 }

@@ -41,6 +41,7 @@ use Modules\Notify\Factories\TelegramActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -202,6 +203,9 @@ use Modules\Notify\Factories\TelegramActionFactory;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+ *
+>>>>>>> 985c7bda (.)
  * Questo canale utilizza il driver Telegram configurato in config/telegram.php
  * per inviare messaggi Telegram attraverso il provider selezionato.
  */
@@ -241,6 +245,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -402,6 +407,9 @@ class TelegramChannel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -409,6 +417,7 @@ class TelegramChannel
     {
         $this->factory = $factory;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -612,16 +621,14 @@ class TelegramChannel
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+    /**
+     * Invia la notifica attraverso il canale Telegram.
+     *
+>>>>>>> 985c7bda (.)
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
-=======
-     * @param mixed $notifiable Entità che riceve la notifica
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
-     * @param Notification $notification Notifica da inviare
->>>>>>> f813254 (.)
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
 =======
@@ -634,6 +641,7 @@ class TelegramChannel
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,10 +888,14 @@ class TelegramChannel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        if (! method_exists($notification, 'toTelegram')) {
+>>>>>>> 985c7bda (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
         $telegramData = $notification->toTelegram($notifiable);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1002,6 +1014,8 @@ class TelegramChannel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
 <<<<<<< HEAD
         if (!($telegramData instanceof TelegramData)) {
@@ -1017,6 +1031,7 @@ class TelegramChannel
 
         $action = $this->factory->create();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1220,6 +1235,8 @@ class TelegramChannel
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         return $action->execute($telegramData);
     }
 }

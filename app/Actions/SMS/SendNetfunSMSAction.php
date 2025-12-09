@@ -35,6 +35,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -174,6 +175,8 @@ use Override;
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -236,6 +239,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -384,6 +388,9 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
 use function Safe\preg_replace;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -421,6 +428,7 @@ final class SendNetfunSMSAction implements SmsActionContract
     /** @var int */
     protected int $timeout;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /** @var string|null */
 <<<<<<< HEAD
@@ -650,6 +658,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+    protected ?string $defaultSender = null;
+>>>>>>> 985c7bda (.)
 
     /**
      * Create a new action instance.
@@ -678,6 +689,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('sms.debug', false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -869,6 +881,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
+>>>>>>> 985c7bda (.)
     }
 
     /**
@@ -889,6 +904,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +986,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
     #[\Override]
 =======
     #[Override]
@@ -1080,7 +1098,13 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -1169,6 +1193,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1330,6 +1355,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+                $clientException,
+>>>>>>> 985c7bda (.)
             );
         }
 
@@ -1401,6 +1429,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1562,6 +1591,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
         // Se preg_replace restituisce null (non dovrebbe succedere con input string)
 <<<<<<< HEAD
         if (!is_string($cleaned) || $cleaned === '') {
@@ -1574,6 +1606,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
             $cleaned = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1703,6 +1736,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
         // Se il numero non inizia con '+'
 <<<<<<< HEAD
         if (!Str::startsWith($cleaned, '+')) {
@@ -1717,6 +1753,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 0f07e6d (.)
@@ -2016,6 +2053,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
         return $cleaned;
     }
 }

@@ -9,15 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Models\NotifyTheme;
 
 /**
-<<<<<<< HEAD
  * @extends Factory<NotifyTheme>
-=======
-<<<<<<< HEAD
- * @extends Factory<NotifyTheme>
-=======
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Modules\Notify\Models\NotifyTheme>
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
  */
 class NotifyThemeFactory extends Factory
 {

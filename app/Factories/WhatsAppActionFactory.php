@@ -115,6 +115,7 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -272,20 +273,9 @@ use function Safe\preg_replace;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,8 +321,8 @@ use function Safe\preg_replace;
 
 /**
  * Factory per la creazione di azioni WhatsApp.
-<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,6 +441,8 @@ use function Safe\preg_replace;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -487,6 +479,7 @@ final class WhatsAppActionFactory
      * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,6 +597,9 @@ final class WhatsAppActionFactory
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+    public function create(?string $driver = null): WhatsAppProviderActionInterface
+>>>>>>> 985c7bda (.)
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
@@ -865,6 +861,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1092,6 +1089,8 @@ final class WhatsAppActionFactory
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
@@ -1134,6 +1133,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1144,8 +1144,9 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 985c7bda (.)
 
-<<<<<<< HEAD
         $instance = app($className);
 
         if (! $instance instanceof WhatsAppProviderActionInterface) {
@@ -1156,6 +1157,7 @@ final class WhatsAppActionFactory
         /** @var WhatsAppProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1272,5 +1274,7 @@ final class WhatsAppActionFactory
         return app($className);
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 }

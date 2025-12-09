@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -238,6 +239,10 @@ declare(strict_types=1);
 
 
 >>>>>>> 2941b0bd (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 985c7bda (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -265,6 +270,7 @@ class NetfunSmsData extends Data
         public string $recipient,
         public string $message,
         public string $sender,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,5 +544,9 @@ class NetfunSmsData extends Data
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+        public ?string $reference = null,
+        public ?string $scheduledDate = null,
+>>>>>>> 985c7bda (.)
     ) {}
 }

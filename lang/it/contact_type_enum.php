@@ -83,6 +83,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -451,6 +452,9 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        'hex_color' => '#16a34a',
+>>>>>>> 985c7bda (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -533,6 +537,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -901,6 +906,9 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        'hex_color' => '#9333ea',
+>>>>>>> 985c7bda (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -983,6 +991,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1351,6 +1360,9 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        'hex_color' => '#2563eb',
+>>>>>>> 985c7bda (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -1433,6 +1445,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1801,6 +1814,9 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        'hex_color' => '#ea580c',
+>>>>>>> 985c7bda (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -1883,6 +1899,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2251,6 +2268,9 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        'hex_color' => '#25d366',
+>>>>>>> 985c7bda (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
@@ -2330,6 +2350,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2562,10 +2583,13 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3048,3 +3072,5 @@ return [
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)

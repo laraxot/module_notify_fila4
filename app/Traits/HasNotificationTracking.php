@@ -124,6 +124,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -212,10 +213,13 @@ trait HasNotificationTracking
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         !Str::startsWith($url, ['http://', 'https://'])
@@ -461,6 +465,9 @@ trait HasNotificationTracking
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+                        ! Str::startsWith($url, ['http://', 'https://'])
+>>>>>>> 985c7bda (.)
                 ) {
                     return $matches[0];
                 }
@@ -472,6 +479,7 @@ trait HasNotificationTracking
 
                 return str_replace($url, $trackingUrl, $matches[0]);
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -663,6 +671,9 @@ trait HasNotificationTracking
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+            $html,
+>>>>>>> 985c7bda (.)
         );
     }
 
@@ -799,6 +810,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -960,3 +972,6 @@ trait HasNotificationTracking
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+}
+>>>>>>> 985c7bda (.)

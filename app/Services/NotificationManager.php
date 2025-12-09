@@ -4,16 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
-<<<<<<< HEAD
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
-=======
-<<<<<<< HEAD
-use Exception;
-use Illuminate\Database\Eloquent\Collection;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 use Illuminate\Support\Facades\Mail;
@@ -34,6 +26,7 @@ class NotificationManager
     /**
      * Invia una notifica a un destinatario.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param Model $recipient Il destinatario della notifica
@@ -77,11 +70,14 @@ class NotificationManager
      * @param array $channels I canali da utilizzare (opzionale)
      * @param array $options Opzioni aggiuntive per l'invio
 =======
+=======
+>>>>>>> 985c7bda (.)
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+<<<<<<< HEAD
 =======
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
@@ -121,12 +117,15 @@ class NotificationManager
      * @return array
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      */
     public function send(
         Model $recipient,
         string $templateCode,
         array $data = [],
         array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,14 +350,14 @@ class NotificationManager
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
-            throw new Exception("Template not found: {$templateCode}");
 =======
-<<<<<<< HEAD
+        array $options = [],
+    ): array {
+        $template = $this->getTemplate($templateCode);
+
+        if (! $template) {
+>>>>>>> 985c7bda (.)
             throw new Exception("Template not found: {$templateCode}");
-=======
-            throw new \Exception("Template not found: {$templateCode}");
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         }
 
         $action = app(SendNotificationAction::class);
@@ -370,6 +369,7 @@ class NotificationManager
     /**
      * Invia una notifica a più destinatari.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,11 +399,14 @@ class NotificationManager
 =======
 >>>>>>> f1c9518b (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
      * @param  array<Model>  $recipients  I destinatari delle notifiche
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array<string, mixed>  $data  I dati per compilare il template
      * @param  array<int, string>  $channels  I canali da utilizzare (opzionale)
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per l'invio
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
      * @param array $recipients I destinatari delle notifiche
@@ -553,6 +556,8 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      * @return array<array>
 >>>>>>> 75179b85 (.)
 =======
@@ -578,6 +583,7 @@ class NotificationManager
         string $templateCode,
         array $data = [],
         array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -683,22 +689,9 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         array $options = [],
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        array $options = [],
-=======
-        array $options = []
->>>>>>> a12f125f4a (.)
-=======
-        array $options = [],
->>>>>>> b93ef594b4 (.)
-=======
-        array $options = []
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     ): array {
         $logs = [];
 
@@ -782,6 +775,7 @@ class NotificationManager
 <<<<<<< HEAD
      * @param  string  $code  Il codice del template
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getTemplate(string $code): ?NotificationTemplate
 =======
@@ -1042,11 +1036,17 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+    public function getTemplate(string $code): ?NotificationTemplate
+    {
+        return NotificationTemplate::where('code', $code)->where('is_active', true)->first();
+>>>>>>> 985c7bda (.)
     }
 
     /**
      * Recupera i template per categoria.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $category La categoria dei template
@@ -1081,10 +1081,14 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+     * @param  string  $category  La categoria dei template
+>>>>>>> 985c7bda (.)
      * @return Collection<NotificationTemplate>
      */
     public function getTemplatesByCategory(string $category)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1285,11 +1289,15 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
+>>>>>>> 985c7bda (.)
     }
 
     /**
      * Recupera i template per canale.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $channel Il canale di notifica
@@ -1324,10 +1332,14 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+     * @param  string  $channel  Il canale di notifica
+>>>>>>> 985c7bda (.)
      * @return Collection<NotificationTemplate>
      */
     public function getTemplatesByChannel(string $channel)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1528,6 +1540,9 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
+>>>>>>> 985c7bda (.)
     }
 
     /**
@@ -1564,6 +1579,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1676,11 +1692,15 @@ class NotificationManager
      * @param NotificationTemplate $_template Template delle notifiche Il template
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+     * @param  NotificationTemplate  $_template  Template delle notifiche Il template
+>>>>>>> 985c7bda (.)
      * @return array<string, mixed>
      */
     public function getTemplateStats(NotificationTemplate $_template): array
     {
         // $logs = $template->logs();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         
@@ -1930,6 +1950,9 @@ class NotificationManager
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -1983,6 +2006,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2095,11 +2119,15 @@ class NotificationManager
      * @param Model $_recipient Il destinatario
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+     * @param  Model  $_recipient  Il destinatario
+>>>>>>> 985c7bda (.)
      * @return array<string, mixed>
      */
     public function getRecipientStats(Model $_recipient): array
     {
         // $logs = NotificationLog::forNotifiable($recipient)->get();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         
@@ -2349,6 +2377,9 @@ class NotificationManager
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -2397,6 +2428,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2558,3 +2590,6 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+}
+>>>>>>> 985c7bda (.)

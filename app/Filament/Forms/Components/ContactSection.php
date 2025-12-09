@@ -8,6 +8,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -20,9 +21,12 @@ namespace Modules\Notify\Filament\Forms\Components;
 use Filament\Schemas\Components\Section;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Filament\Forms;
 >>>>>>> f1c9518b (.)
 use Filament\Schemas\Components\Section;
+<<<<<<< HEAD
 use Filament\Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +337,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+use Modules\Notify\Enums\ContactTypeEnum;
+>>>>>>> 985c7bda (.)
 
 // use Squire\Models\Country;
 
@@ -369,6 +376,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -546,6 +554,9 @@ class ContactSection extends Forms\Components\Section
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+    // protected string $view = 'filament-forms::components.group';
+>>>>>>> 985c7bda (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -561,6 +572,7 @@ class ContactSection extends Forms\Components\Section
         $this->columns(2);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,6 +722,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
@@ -752,6 +766,7 @@ class ContactSection extends Forms\Components\Section
      * $record->touch();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1086,4 +1101,6 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 }

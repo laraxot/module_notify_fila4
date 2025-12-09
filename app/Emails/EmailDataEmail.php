@@ -8,6 +8,7 @@ namespace Modules\Notify\Emails;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
@@ -30,6 +31,8 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
@@ -86,6 +89,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -344,6 +348,11 @@ class EmailDataEmail extends Mailable
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+    public function __construct(
+        public EmailData $email_data,
+    ) {}
+>>>>>>> 985c7bda (.)
 
     /**
      * Get the message envelope.
@@ -381,6 +390,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -568,12 +578,15 @@ class EmailDataEmail extends Mailable
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if ($this->email_data->from_email === null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -743,6 +756,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }
@@ -772,15 +787,7 @@ class EmailDataEmail extends Mailable
     /**
      * Get the attachments for the message.
      *
-<<<<<<< HEAD
      * @return array<int, Attachment>
-=======
-<<<<<<< HEAD
-     * @return array<int, Attachment>
-=======
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
      */
     public function attachments(): array
     {

@@ -52,6 +52,7 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -213,6 +214,9 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+ *
+>>>>>>> 985c7bda (.)
  * Questa factory centralizza la logica di selezione del driver Telegram
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -249,6 +253,7 @@ final class TelegramActionFactory
      * @return TelegramProviderActionInterface Azione Telegram corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,6 +371,9 @@ final class TelegramActionFactory
     public function create(null|string $driver = null): TelegramProviderActionInterface
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+    public function create(?string $driver = null): TelegramProviderActionInterface
+>>>>>>> 985c7bda (.)
     {
         $driver ??= Config::get('telegram.default', 'official');
 
@@ -398,6 +406,7 @@ final class TelegramActionFactory
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +629,8 @@ final class TelegramActionFactory
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
         if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
@@ -662,6 +673,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,8 +684,9 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 985c7bda (.)
 
-<<<<<<< HEAD
         $instance = app($className);
 
         if (! $instance instanceof TelegramProviderActionInterface) {
@@ -684,6 +697,7 @@ final class TelegramActionFactory
         /** @var TelegramProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -800,5 +814,7 @@ final class TelegramActionFactory
         return app($className);
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 }

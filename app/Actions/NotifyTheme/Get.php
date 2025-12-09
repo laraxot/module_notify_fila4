@@ -57,6 +57,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -177,10 +178,13 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -480,6 +484,8 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -520,6 +526,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -681,6 +688,9 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+            ['view_params' => []],
+>>>>>>> 985c7bda (.)
         );
 
         $module_name_low = Str::lower($xotData->main_module);
@@ -716,6 +726,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1028,10 +1039,13 @@ class Get
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -1096,6 +1110,8 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
             $theme->update(['subject' => $subject]);
         }
 
@@ -1121,6 +1137,7 @@ class Get
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1438,6 +1455,11 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        if ($theme->body_html === null) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
+>>>>>>> 985c7bda (.)
                 $html = '##body_html##';
             }
 
@@ -1512,6 +1534,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1542,6 +1565,8 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
             $view_params['logo'] =
 <<<<<<< HEAD
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
@@ -1553,6 +1578,7 @@ class Get
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1766,6 +1792,8 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
 
@@ -1773,6 +1801,7 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2046,6 +2075,10 @@ class Get
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+>>>>>>> 985c7bda (.)
             }
         }
 
@@ -2055,6 +2088,7 @@ class Get
             $theme->update(['view_params' => $view_params]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2178,6 +2212,8 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         return NotifyThemeData::from([
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2211,6 +2247,7 @@ class Get
             'body_html' => $body_html,
             'view_params' => $view_params,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2417,5 +2454,7 @@ class Get
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 }

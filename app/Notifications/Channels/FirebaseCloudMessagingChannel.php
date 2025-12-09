@@ -4,19 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Notifications\Channels;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Kreait\Firebase\Messaging\RegistrationToken;
-use Kreait\Firebase\Messaging\RegistrationTokens;
-=======
-<<<<<<< HEAD
-use Kreait\Firebase\Messaging\RegistrationToken;
-use Kreait\Firebase\Messaging\RegistrationTokens;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -67,6 +54,7 @@ final class FirebaseCloudMessagingChannel
                     sendReport: $multicastSendReport,
                 )->toArray();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,14 +288,12 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
                 self::$logger->debug(sprintf(
                     "FCM notification debug:\n%s",
                     json_encode($notificationDebugData, JSON_PRETTY_PRINT),
                 ));
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
             }
         } catch (Exception $exception) {
             self::$logger->error(sprintf(
@@ -317,6 +303,7 @@ final class FirebaseCloudMessagingChannel
                 json_encode($notification->toArray(null), JSON_THROW_ON_ERROR),
                 json_encode($userNotificationTokens->toArray(), JSON_THROW_ON_ERROR),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -731,6 +718,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
             self::$logger->error(json_encode($exception->getTrace(), JSON_PRETTY_PRINT));
         }
     }
@@ -750,14 +739,11 @@ final class FirebaseCloudMessagingChannel
         }
 
         /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
          * @var list<RegistrationToken|string>|RegistrationToken|RegistrationTokens|non-empty-string
          */
         $registrationTokens = $userDeviceTokens->toArray();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -987,10 +973,13 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         return $this->firebaseCloudMessaging->sendMulticast(
             message: $notification->toCloudMessage(),
             registrationTokens: $registrationTokens,
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1387,6 +1376,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 
     /**
@@ -1396,15 +1387,7 @@ final class FirebaseCloudMessagingChannel
     private function testFcmTokens(Collection $tokens): void
     {
         /**
-<<<<<<< HEAD
          * @var list<RegistrationToken|non-empty-string>|RegistrationToken|RegistrationTokens|non-empty-string
-=======
-<<<<<<< HEAD
-         * @var list<RegistrationToken|non-empty-string>|RegistrationToken|RegistrationTokens|non-empty-string
-=======
-         * @var list<\Kreait\Firebase\Messaging\RegistrationToken|non-empty-string>|\Kreait\Firebase\Messaging\RegistrationToken|\Kreait\Firebase\Messaging\RegistrationTokens|non-empty-string
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
          */
         $registrationTokenOrTokens = $tokens->toArray();
         $validatedTokens = $this->firebaseCloudMessaging->validateRegistrationTokens($registrationTokenOrTokens);

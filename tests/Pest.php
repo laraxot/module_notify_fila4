@@ -33,6 +33,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -123,6 +124,8 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 =======
@@ -199,6 +202,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
  * | global functions to help you to reduce the number of lines of code in your test files.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -636,6 +640,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
 function createNotification(array $attributes = []): Notification
 {
@@ -655,28 +661,4 @@ function createMailTemplate(array $attributes = []): MailTemplate
 function makeMailTemplate(array $attributes = []): MailTemplate
 {
     return MailTemplate::factory()->make($attributes);
-<<<<<<< HEAD
-=======
-=======
-
-function createNotification(array $attributes = []): \Modules\Notify\Models\Notification
-{
-    return \Modules\Notify\Models\Notification::factory()->create($attributes);
-}
-
-function makeNotification(array $attributes = []): \Modules\Notify\Models\Notification
-{
-    return \Modules\Notify\Models\Notification::factory()->make($attributes);
-}
-
-function createMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
-{
-    return \Modules\Notify\Models\MailTemplate::factory()->create($attributes);
-}
-
-function makeMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
-{
-    return \Modules\Notify\Models\MailTemplate::factory()->make($attributes);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 }

@@ -16,6 +16,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -72,6 +73,8 @@ use Override;
 use Override;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -90,6 +93,7 @@ use Override;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +286,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -291,6 +297,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +380,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -472,6 +481,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
     public function boot(): void
     {
@@ -632,6 +642,15 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
+    public function boot(): void
+    {
+        parent::boot();
+        // if (! app()->environment('production')) {
+>>>>>>> 985c7bda (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 
@@ -642,6 +661,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -846,5 +866,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 }

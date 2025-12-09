@@ -41,6 +41,7 @@ use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
 use Override;
+<<<<<<< HEAD
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -111,6 +112,8 @@ use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
+=======
+>>>>>>> 985c7bda (.)
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -355,6 +358,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ->afterStateUpdated(function (string $state, Set $set): void {
 =======
                         //->live(debounce: 200)
@@ -376,6 +380,15 @@ class MailTemplateResource extends LangBaseResource
                         //->reactive()
                         ->afterStateUpdated(function (string $state, Set $set) {
 >>>>>>> 75179b85 (.)
+=======
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+=======
+                        ->afterStateUpdated(static function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+>>>>>>> 6ba141fc (.)
+=======
+                        ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -418,13 +431,19 @@ class MailTemplateResource extends LangBaseResource
             'html_template' => RichEditor::make('html_template')->required()->columnSpanFull(),
             'params_display' => View::make('notify::filament.components.params-badges')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(fn($record) => ['params' => $record?->params])
+=======
+<<<<<<< HEAD
+                ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
+>>>>>>> 985c7bda (.)
                 ->columnSpanFull()
                 ->visible(fn($record): bool => !empty($record->params)),
 =======
 <<<<<<< HEAD
                 ->viewData(fn ($record) => ['params' => $record?->params])
                 ->columnSpanFull()
+<<<<<<< HEAD
                 ->visible(fn ($record): bool => ! empty($record->params)),
 =======
                 ->viewData(fn($record) => ['params' => $record?->params])
@@ -432,6 +451,15 @@ class MailTemplateResource extends LangBaseResource
                 ->visible(fn($record): bool => !empty($record->params)),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+                ->visible(static fn ($record): bool => \is_object($record) && isset($record->params) && ! empty($record->params)),
+>>>>>>> 6ba141fc (.)
+=======
+                ->viewData(fn ($record) => ['params' => (is_object($record) && property_exists($record, 'params') ? $record->params : [])])
+                ->columnSpanFull()
+                ->visible(fn ($record): bool => is_object($record) && property_exists($record, 'params') && ! empty($record->params)),
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
 <<<<<<< HEAD

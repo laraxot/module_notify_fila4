@@ -36,6 +36,7 @@ namespace Modules\Notify\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -197,6 +198,9 @@ namespace Modules\Notify\Enums;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+ *
+>>>>>>> 985c7bda (.)
  * Questo enum centralizza la gestione dei driver Telegram disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -205,6 +209,7 @@ enum TelegramDriverEnum: string
     case TELEGRAM = 'telegram';
     case BOTAPI = 'botapi';
     case LARAVEL_TELEGRAM = 'laravel-telegram';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,10 +328,13 @@ enum TelegramDriverEnum: string
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
     /**
      * Restituisce le opzioni per il componente Select di Filament
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,6 +539,8 @@ enum TelegramDriverEnum: string
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      * @return array<string, string>
      */
     public static function options(): array
@@ -571,6 +581,7 @@ enum TelegramDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -659,10 +670,13 @@ enum TelegramDriverEnum: string
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -867,6 +881,8 @@ enum TelegramDriverEnum: string
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      * @return array<string, string>
      */
     public static function labels(): array
@@ -877,6 +893,7 @@ enum TelegramDriverEnum: string
             self::LARAVEL_TELEGRAM->value => __('notify::telegram.drivers.laravel_telegram'),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1307,11 +1324,20 @@ enum TelegramDriverEnum: string
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+    /**
+     * Verifica se un driver è supportato
+     */
+    public static function isSupported(string $driver): bool
+    {
+>>>>>>> 985c7bda (.)
         return in_array($driver, array_column(self::cases(), 'value'), strict: true);
     }
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -1495,10 +1521,13 @@ enum TelegramDriverEnum: string
      * @return self
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      */
     public static function getDefault(): self
     {
         $default = config('telegram.default', self::TELEGRAM->value);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1690,6 +1719,9 @@ enum TelegramDriverEnum: string
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
         return self::from(is_string($default) ? $default : self::TELEGRAM->value);
     }
 }

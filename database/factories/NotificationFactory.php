@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -74,6 +75,8 @@
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -169,6 +172,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 namespace Modules\Notify\Database\Factories;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -196,6 +200,8 @@ namespace Modules\Notify\Database\Factories;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 2effe245 (.)
 use Modules\Notify\Models\Notification;
@@ -208,15 +214,7 @@ class NotificationFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
-<<<<<<< HEAD
     protected $model = Notification::class;
-=======
-<<<<<<< HEAD
-    protected $model = Notification::class;
-=======
-    protected $model = \Modules\Notify\Models\Notification::class;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.

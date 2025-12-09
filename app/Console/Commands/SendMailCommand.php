@@ -79,6 +79,7 @@ class SendMailCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -167,11 +168,14 @@ class SendMailCommand extends Command
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
          * Notification::route('mail', $emailData->to)
          * ->notify(new EmailDataNotification($emailData));
          */
         // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $this->info('Email sent successfully to ' . $emailData->to);
@@ -422,6 +426,9 @@ class SendMailCommand extends Command
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        $this->info('Email sent successfully to '.$emailData->to);
+>>>>>>> 985c7bda (.)
 
         return Command::SUCCESS;
     }

@@ -65,6 +65,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -109,6 +110,8 @@ use Override;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
 =======
@@ -307,7 +310,12 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 =======
@@ -348,6 +356,10 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 985c7bda (.)
 <<<<<<< HEAD
 use Override;
 =======
@@ -432,12 +444,19 @@ use Filament\SpatieLaravelTranslatablePlugin;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+use Override;
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +505,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -495,6 +516,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +575,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 98d837b9 (.)
     #[Override]
 =======
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     #[Override]
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -651,6 +677,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> b19cd40 (.)
 =======
@@ -958,3 +985,5 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)

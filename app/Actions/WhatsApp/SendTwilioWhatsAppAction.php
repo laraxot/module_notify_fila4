@@ -41,6 +41,7 @@ namespace Modules\Notify\Actions\WhatsApp;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 75179b85 (.)
@@ -265,6 +266,8 @@ use Override;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -280,8 +283,8 @@ use Illuminate\Support\Str;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +444,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use function Safe\json_decode;
 
 final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
@@ -449,8 +454,22 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
     private string $accountSid;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+    private string $authToken;
+
+    private string $baseUrl = 'https://api.twilio.com/2010-04-01';
+
+    /** @var array<string, mixed> */
+    private array $vars = [];
+
+    protected bool $debug;
+
+    protected int $timeout;
+>>>>>>> 985c7bda (.)
 
 >>>>>>> f1c9518b (.)
     private string $authToken;
@@ -494,6 +513,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 
 >>>>>>> 2effe245 (.)
     protected ?string $defaultSender = null;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     protected null|string $defaultSender = null;
@@ -722,6 +742,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
     /**
      * Create a new action instance.
@@ -729,6 +751,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
     public function __construct()
     {
         $accountSid = config('services.twilio.account_sid');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!is_string($accountSid)) {
@@ -1027,10 +1050,17 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        if (! is_string($accountSid)) {
+            throw new Exception(
+                'put [TWILIO_ACCOUNT_SID] variable to your .env and config [services.twilio.account_sid]',
+            );
+>>>>>>> 985c7bda (.)
         }
         $this->accountSid = $accountSid;
 
         $authToken = config('services.twilio.auth_token');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!is_string($authToken)) {
@@ -1329,6 +1359,12 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        if (! is_string($authToken)) {
+            throw new Exception(
+                'put [TWILIO_AUTH_TOKEN] variable to your .env and config [services.twilio.auth_token]',
+            );
+>>>>>>> 985c7bda (.)
         }
         $this->authToken = $authToken;
 
@@ -1336,6 +1372,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
         $sender = config('whatsapp.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1565,6 +1602,9 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 985c7bda (.)
     }
 
     /**
@@ -1585,6 +1625,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1661,6 +1702,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> f2e64178 (.)
 =======
 =======
+=======
+>>>>>>> 985c7bda (.)
     #[\Override]
 =======
     #[Override]
@@ -1863,8 +1906,12 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 =======
 >>>>>>> 82c6772 (.)
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
     public function execute(WhatsAppData $whatsAppData): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
         $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);
@@ -2042,6 +2089,11 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+        $from = 'whatsapp:'.($whatsAppData->from ?? $this->defaultSender);
+        $to = 'whatsapp:'.$whatsAppData->to;
+
+>>>>>>> 985c7bda (.)
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp Twilio', [
@@ -2050,6 +2102,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
                 'message_length' => strlen($whatsAppData->body),
             ]);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2168,6 +2221,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
         $client = new Client([
             'timeout' => $this->timeout,
@@ -2184,6 +2239,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2388,11 +2444,14 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         $payload = [
             'To' => $to,
             'From' => $from,
             'Body' => $whatsAppData->body,
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2584,6 +2643,9 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
         // Aggiungi media se presente
 <<<<<<< HEAD
         if (!empty($whatsAppData->media)) {
@@ -2596,6 +2658,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> f1c9518b (.)
             $payload['MediaUrl'] = $whatsAppData->media[0];
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2714,12 +2777,15 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
         try {
             $response = $client->post($endpoint, [
                 'form_params' => $payload,
             ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2920,6 +2986,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array<string, mixed>|null $responseData */
@@ -2954,6 +3022,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3115,6 +3184,9 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
@@ -3149,6 +3221,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3310,10 +3383,14 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
             Log::info('WhatsApp Twilio inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3432,12 +3509,15 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => isset($responseData['sid']) && is_string($responseData['sid'])
                     ? $responseData['sid']
                     : null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3644,6 +3724,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -3682,6 +3764,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3776,10 +3859,14 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4046,6 +4133,9 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
             Log::warning('Errore invio WhatsApp Twilio', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
@@ -4081,6 +4171,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4169,12 +4260,15 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
             return [
                 'success' => false,
                 'error' => isset($responseBody['message']) && is_string($responseBody['message'])
                     ? $responseBody['message']
                     : 'Errore sconosciuto',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4381,6 +4475,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

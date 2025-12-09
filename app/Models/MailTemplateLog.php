@@ -35,6 +35,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -119,9 +120,12 @@ use Modules\User\Models\Profile;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +267,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 2effe245 (.)
@@ -307,10 +313,6 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f1c9518b (.)
 
 /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property-read Profile|null $creator
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
@@ -328,6 +330,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +377,9 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+ *
+>>>>>>> 985c7bda (.)
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
@@ -479,6 +485,7 @@ class MailTemplateLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -531,6 +538,8 @@ class MailTemplateLog extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -630,7 +639,13 @@ class MailTemplateLog extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     protected function casts(): array
     {
         return [

@@ -41,6 +41,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -59,6 +60,8 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> 4689a827 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
 use Carbon\Carbon;
@@ -113,9 +116,119 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+=======
+use Carbon\Carbon;
+>>>>>>> 92ecc28 (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 2effe245 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Arr;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+use Modules\Xot\Models\BaseModel;
+
+/**
+ * @property int $id
+<<<<<<< HEAD
+ * @property string $notifiable_type
+ * @property int $notifiable_id
+ * @property string $title
+ * @property string $content
+ * @property array<int, string> $channels
+ * @property array<string, mixed>|null $data
+ * @property Carbon|null $sent_at
+ * @property string $status
+ * @property string|null $error
+<<<<<<< HEAD
+=======
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Spatie\MediaLibrary\MediaCollections\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read Model|\Eloquent $notifiable
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
+ *
+ * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
+ * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
+ * @method static Builder<static>|NotificationLog newModelQuery()
+ * @method static Builder<static>|NotificationLog newQuery()
+ * @method static Builder<static>|NotificationLog query()
+ * @method static Builder<static>|NotificationLog whereChannels($value)
+ * @method static Builder<static>|NotificationLog whereContent($value)
+ * @method static Builder<static>|NotificationLog whereCreatedAt($value)
+ * @method static Builder<static>|NotificationLog whereData($value)
+ * @method static Builder<static>|NotificationLog whereError($value)
+ * @method static Builder<static>|NotificationLog whereId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableId($value)
+ * @method static Builder<static>|NotificationLog whereNotifiableType($value)
+ * @method static Builder<static>|NotificationLog whereSentAt($value)
+ * @method static Builder<static>|NotificationLog whereStatus($value)
+ * @method static Builder<static>|NotificationLog whereTitle($value)
+ * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
+ * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
+ *
+ * @mixin \Eloquent
+>>>>>>> 6ba141fc (.)
+ */
+class NotificationLog extends BaseModel
+{
+    /**
+     * @var list<string>
+     */
+    protected $fillable = [
+        'notifiable_type',
+        'notifiable_id',
+        'title',
+        'content',
+        'channels',
+        'data',
+        'sent_at',
+        'status',
+        'error',
+    ];
+
+<<<<<<< HEAD
+    /**
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
+            'channels' => 'array',
+            'data' => 'array',
+            'sent_at' => 'datetime',
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+        ];
+    }
+=======
+    protected $casts = [
+        'data' => 'array',
+        'channels' => 'array',
+        'sent_at' => 'datetime',
+        'delivered_at' => 'datetime',
+        'opened_at' => 'datetime',
+        'clicked_at' => 'datetime',
+        'status' => NotificationLogStatusEnum::class,
+    ];
+>>>>>>> 6ba141fc (.)
+
+<<<<<<< HEAD
+=======
+    /**
+     * Ottiene il template associato a questo log.
+     */
+    public function template(): BelongsTo
+    {
+        return $this->belongsTo(NotificationTemplate::class);
+    }
+
+    /**
+     * Ottiene il notifiable associato a questo log.
+<<<<<<< HEAD
+>>>>>>> 985c7bda (.)
 =======
 =======
 >>>>>>> 3f39ac8b (.)
@@ -194,6 +307,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * Modello per il logging delle notifiche.
  *
  * @property int $id
+=======
+>>>>>>> 92ecc28 (.)
  * @property int|null $template_id
  * @property string $recipient_type
  * @property int $recipient_id
@@ -244,6 +359,7 @@ final class NotificationLog extends BaseModel
     }
 
     /**
+<<<<<<< HEAD
      * Ottiene il notifiable associato a questo log.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -946,6 +1062,9 @@ final class NotificationLog extends BaseModel
 >>>>>>> 98d837b9 (.)
      */
 =======
+=======
+     * Ottiene il notifiable associato a questo log.
+>>>>>>> 985c7bda (.)
      */
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -1224,11 +1343,6 @@ final class NotificationLog extends BaseModel
 =======
 =======
     /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -1248,6 +1362,7 @@ final class NotificationLog extends BaseModel
         Builder $query,
         NotificationLogStatusEnum $status,
     ): Builder {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1345,10 +1460,13 @@ final class NotificationLog extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         return $query->where('status', $status);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1466,6 +1584,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -1473,6 +1593,7 @@ final class NotificationLog extends BaseModel
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1685,6 +1806,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 
     /**

@@ -35,6 +35,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -80,6 +81,8 @@ use Override;
 =======
 >>>>>>> 4689a827 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
 =======
@@ -185,6 +188,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> 92ecc28 (.)
 use Eloquent;
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -248,8 +253,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array $view_params
  * @property array $logo
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Model|Eloquent $linkable
 =======
+=======
+>>>>>>> 985c7bda (.)
 <<<<<<< HEAD
  * @property Model $linkable
 =======
@@ -257,6 +265,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> 92ecc28 (.)
  * @property Model|Eloquent $linkable
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
@@ -295,18 +305,34 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @mixin Eloquent
+=======
+ * @mixin \Eloquent
+ *
+=======
+>>>>>>> 6ba141fc (.)
+=======
+ *
+ * @mixin Eloquent
+ *
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 985c7bda (.)
 <<<<<<< HEAD
  */
 class NotifyTheme extends BaseModel implements HasMedia
@@ -314,7 +340,10 @@ class NotifyTheme extends BaseModel implements HasMedia
 =======
 =======
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> 92ecc28 (.)
  *
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  * @property ProfileContract|null $creator
@@ -381,6 +410,8 @@ class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
  * @mixin IdeHelperNotifyTheme
  * @mixin Eloquent
  */
@@ -517,6 +548,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -691,7 +723,10 @@ class NotifyTheme extends BaseModel
 =======
 =======
 =======
+=======
+>>>>>>> 985c7bda (.)
     public function getLogoAttribute(?array $value): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 =======
@@ -725,7 +760,12 @@ class NotifyTheme extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -744,6 +784,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,6 +867,8 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
     #[Override]
@@ -924,7 +967,13 @@ class NotifyTheme extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     protected function casts(): array
     {
         return [
@@ -933,6 +982,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -997,9 +1047,12 @@ class NotifyTheme extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 =======
+=======
+>>>>>>> 985c7bda (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -1150,6 +1203,7 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1245,6 +1299,10 @@ class NotifyTheme extends BaseModel
 >>>>>>> 98d837b9 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 =======
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
