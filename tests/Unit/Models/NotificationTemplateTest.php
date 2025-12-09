@@ -41,6 +41,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -55,10 +56,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,10 +329,14 @@ use Tests\TestCase;
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 9fe1b60e (rebase 210)
 use Tests\TestCase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,6 +503,9 @@ use Tests\TestCase;
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
 
 class NotificationTemplateTest extends TestCase
 {
@@ -876,6 +887,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1016,10 +1028,13 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 116df547 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
         $this->assertEquals(
             '<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>',
             $result['body_html'],
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1246,6 +1261,11 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 116df547 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+=======
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
         $this->assertEquals('Benvenuto Mario Rossi! La tua email è mario@example.com', $result['body_text']);
     }
 
@@ -1374,6 +1394,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1514,10 +1535,13 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 116df547 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
         $this->assertEquals(
             '<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>',
             $resultWithAdditional['body_html'],
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1738,6 +1762,11 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+=======
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
     }
 
     /** @test */
@@ -1860,6 +1889,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1896,10 +1926,13 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
 =======
         $this->assertCount(2, $smsTemplates);  // sms_template + multi_channel_template
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2096,6 +2129,8 @@ class NotificationTemplateTest extends TestCase
 =======
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
     }
 
     /** @test */
