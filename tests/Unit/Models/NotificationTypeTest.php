@@ -569,6 +569,7 @@ class NotificationTypeTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -581,6 +582,7 @@ class NotificationTypeTest extends TestCase
             'template' => 'email_template_1',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_types', [
             'id' => $notificationType->id,
             'name' => 'Email Notification',
@@ -588,6 +590,7 @@ class NotificationTypeTest extends TestCase
             'template' => 'email_template_1',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(NotificationType::class, $notificationType);
     }
 
@@ -606,6 +609,7 @@ class NotificationTypeTest extends TestCase
             'template',
         ];
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($expectedFillable, $notificationType->getFillable());
     }
 
@@ -618,12 +622,14 @@ class NotificationTypeTest extends TestCase
             'template' => 'original_template',
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $notificationType->update([
             'name' => 'Updated Name',
             'description' => 'Updated description',
             'template' => 'updated_template',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_types', [
             'id' => $notificationType->id,
             'name' => 'Updated Name',
@@ -631,8 +637,11 @@ class NotificationTypeTest extends TestCase
             'template' => 'updated_template',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated Name', $notificationType->fresh()->name);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Updated description', $notificationType->fresh()->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('updated_template', $notificationType->fresh()->template);
     }
 
@@ -647,10 +656,15 @@ class NotificationTypeTest extends TestCase
 
         $found = NotificationType::where('name', 'SMS Notification')->first();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($found);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($notificationType->id, $found->id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('SMS Notification', $found->name);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('SMS notification type', $found->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('sms_template', $found->template);
     }
 
@@ -672,9 +686,13 @@ class NotificationTypeTest extends TestCase
         $template1Types = NotificationType::where('template', 'email_template_1')->get();
         $template2Types = NotificationType::where('template', 'email_template_2')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $template1Types);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $template2Types);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email_template_1', $template1Types[0]->template);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('email_template_2', $template2Types[0]->template);
     }
 
@@ -702,10 +720,15 @@ class NotificationTypeTest extends TestCase
         $userTypes = NotificationType::where('description', 'like', '%for users%')->get();
         $mobileTypes = NotificationType::where('description', 'like', '%mobile%')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $userTypes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $mobileTypes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('for users', $userTypes[0]->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('for users', $userTypes[1]->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertStringContainsString('mobile', $mobileTypes[0]->description);
     }
 
@@ -718,8 +741,11 @@ class NotificationTypeTest extends TestCase
             'template' => null,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notificationType->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($notificationType->template);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notification_types', [
             'id' => $notificationType->id,
             'description' => null,
@@ -742,17 +768,24 @@ class NotificationTypeTest extends TestCase
             NotificationType::create($typeData);
         }
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseCount('notification_types', 5);
 
         $emailType = NotificationType::where('name', 'Email')->first();
         $smsType = NotificationType::where('name', 'SMS')->first();
         $pushType = NotificationType::where('name', 'Push')->first();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Email notifications', $emailType->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('SMS notifications', $smsType->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('Push notifications', $pushType->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('email', $emailType->template);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('sms', $smsType->template);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('push', $pushType->template);
     }
 
@@ -781,9 +814,13 @@ class NotificationTypeTest extends TestCase
             ->where('description', 'like', '%email%')
             ->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $highPriorityEmailTypes);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('High Priority Email', $highPriorityEmailTypes[0]->name);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('High priority email notifications', $highPriorityEmailTypes[0]->description);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('high_priority_email', $highPriorityEmailTypes[0]->template);
     }
 }

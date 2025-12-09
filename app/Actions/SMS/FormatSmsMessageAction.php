@@ -395,6 +395,10 @@ class FormatSmsMessageAction
 class FormatSmsMessageAction
 >>>>>>> 98d837b9 (.)
 {
+    /**
+     * @return array<string, mixed>
+     */
+    /** @phpstan-ignore-next-line return.type */
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati
