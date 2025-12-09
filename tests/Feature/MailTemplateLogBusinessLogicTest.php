@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +127,7 @@ use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -633,19 +633,13 @@ use Modules\Notify\Models\MailTemplateLog;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
 
 describe('Mail Template Log Business Logic', function () {
     it('can create mail template log with basic information', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $logData = [
             'template_id' => $template->id,
             'mailable_type' => 'App\Mail\AppointmentConfirmation',
@@ -679,6 +673,7 @@ describe('Mail Template Log Business Logic', function () {
             'status_message' => 'Email inviata con successo',
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -948,6 +943,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->status)
             ->toBe('sent')
             ->and($log->status_message)
@@ -958,6 +955,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('Mario Rossi')
             ->and($log->metadata['campaign_id'])
             ->toBe('appointment_confirmation_001');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1404,6 +1402,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can manage mail template log relationships', function () {
@@ -1412,6 +1412,7 @@ describe('Mail Template Log Business Logic', function () {
             'template_id' => $template->id,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1818,19 +1819,14 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+        expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can track email lifecycle events', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
@@ -1860,6 +1856,7 @@ describe('Mail Template Log Business Logic', function () {
             'clicked_at' => now()->addMinutes(7),
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2129,6 +2126,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->status)
             ->toBe('clicked')
             ->and($log->sent_at)
@@ -2136,6 +2135,7 @@ describe('Mail Template Log Business Logic', function () {
             ->not->toBeNull()->and($log->opened_at)
             ->not->toBeNull()->and($log->clicked_at)
             ->not->toBeNull();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2582,19 +2582,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can handle email failure scenarios', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
@@ -2612,6 +2606,7 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2881,6 +2876,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -2889,6 +2886,7 @@ describe('Mail Template Log Business Logic', function () {
             ->not->toBeNull()->and($log->metadata['error_code'])->toBe('INVALID_EMAIL')->and(
                 $log->metadata['retry_count'],
             )->toBe(3);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3335,25 +3333,20 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can manage mailable polymorphic relationships', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'mailable_type' => 'App\Models\Appointment',
             'mailable_id' => 456,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3623,12 +3616,15 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->mailable_type)
             ->toBe('App\Models\Appointment')
             ->and($log->mailable_id)
             ->toBe(456)
             ->and($log->mailable())
             ->toBeInstanceOf(MorphTo::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4048,19 +4044,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can handle complex data structures', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $complexData = [
             'recipient' => [
                 'email' => 'patient@example.com',
@@ -4123,6 +4113,7 @@ describe('Mail Template Log Business Logic', function () {
             'data' => $complexData,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4392,6 +4383,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->data['recipient']['email'])
             ->toBe('patient@example.com')
             ->and($log->data['recipient']['name'])
@@ -4404,6 +4397,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toContain('consent_form.pdf')
             ->and($log->data['delivery_options']['priority'])
             ->toBe('high');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4851,19 +4845,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can manage metadata for analytics', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $analyticsMetadata = [
             'campaign_id' => 'appointment_confirmation_q4_2024',
             'segment' => 'new_patients',
@@ -4895,6 +4883,7 @@ describe('Mail Template Log Business Logic', function () {
             'metadata' => $analyticsMetadata,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5164,6 +5153,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->metadata['campaign_id'])
             ->toBe('appointment_confirmation_q4_2024')
             ->and($log->metadata['segment'])
@@ -5176,6 +5167,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('mobile')
             ->and($log->metadata['engagement_metrics']['open_rate'])
             ->toBe(0.85);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5623,19 +5615,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can handle delivery status transitions', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
@@ -5713,6 +5699,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6054,6 +6041,9 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+        expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
+>>>>>>> 4e4a7796 (.)
 
         // Transizione: sent -> delivered
         $log->update([
@@ -6127,6 +6117,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6468,6 +6459,9 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+        expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
+>>>>>>> 4e4a7796 (.)
 
         // Transizione: delivered -> opened
         $log->update([
@@ -6541,6 +6535,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6882,19 +6877,14 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+        expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can handle bounce and complaint scenarios', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'sent',
@@ -6975,6 +6965,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -7182,6 +7173,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->status)
             ->toBe('bounced')
             ->and($log->status_message)
@@ -7190,6 +7183,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('hard')
             ->and($log->metadata['bounce_reason'])
             ->toBe('Address does not exist');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7635,6 +7629,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
 
         // Simula complaint
         $log->update([
@@ -7648,6 +7644,7 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7917,12 +7914,15 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->status)
             ->toBe('complained')
             ->and($log->status_message)
             ->toBe('Email segnalata come spam')
             ->and($log->metadata['complaint_type'])
             ->toBe('abuse');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8342,19 +8342,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can manage retry logic', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'failed',
@@ -8441,6 +8435,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8782,6 +8777,9 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+        expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
+>>>>>>> 4e4a7796 (.)
 
         // Secondo retry
         $log->update([
@@ -8870,6 +8868,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -9077,6 +9076,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -9085,6 +9086,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe(3)
             ->and($log->metadata['final_failure'])
             ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9530,19 +9532,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can handle empty or null values gracefully', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status_message' => null,
@@ -9555,6 +9551,7 @@ describe('Mail Template Log Business Logic', function () {
             'clicked_at' => null,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9824,6 +9821,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->status_message)
             ->toBeNull()
             ->and($log->data)
@@ -9840,6 +9839,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBeNull()
             ->and($log->clicked_at)
             ->toBeNull();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10289,19 +10289,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 
     it('can validate timestamp consistency', function () {
         $template = MailTemplate::factory()->create();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $now = now();
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
@@ -10312,6 +10306,7 @@ describe('Mail Template Log Business Logic', function () {
         ]);
 
         // Verifica che i timestamp siano in ordine cronologico
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10581,16 +10576,14 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
         expect($log->sent_at->lt($log->delivered_at))
             ->toBeTrue()
             ->and($log->delivered_at->lt($log->opened_at))
             ->toBeTrue()
             ->and($log->opened_at->lt($log->clicked_at))
             ->toBeTrue();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 
         // Verifica che i timestamp non siano nel futuro
         expect($log->sent_at->lte(now()))
@@ -10601,6 +10594,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBeTrue()
             ->and($log->clicked_at->lte(now()))
             ->toBeTrue();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11060,5 +11054,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
     });
 });

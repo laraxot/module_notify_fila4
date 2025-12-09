@@ -104,6 +104,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e4a7796 (.)
 =======
 >>>>>>> c4bdacbf (.)
 =======
@@ -428,6 +431,7 @@
 =======
 =======
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
@@ -766,11 +770,16 @@
 =======
 >>>>>>> 4e643df (.)
 >>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 12f2f7e (.)
+>>>>>>> 4e4a7796 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1371,6 +1380,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 4e4a7796 (.)
 <div class="block">
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1389,6 +1400,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1737,6 +1749,8 @@ declare(strict_types=1);
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
 =======
 								<tbody>
 >>>>>>> 99ff506 (.)
@@ -2477,4 +2491,10 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
+=======
+=======
+								<tbody>
+>>>>>>> 12f2f7e (.)
+>>>>>>> 4e4a7796 (.)
