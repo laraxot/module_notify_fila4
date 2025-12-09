@@ -50,6 +50,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -436,6 +437,11 @@ use Tests\TestCase;
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 9d84f153 (.)
 
 class ContactTest extends TestCase
 {
@@ -745,6 +751,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -996,6 +1003,9 @@ class ContactTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 9d84f153 (.)
 
         $this->assertNotNull($foundContact);
         $this->assertEquals($contact->id, $foundContact->id);
@@ -1430,6 +1440,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -1703,3 +1714,5 @@ class ContactTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
