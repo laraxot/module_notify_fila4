@@ -267,6 +267,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -317,12 +318,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 2cbbc069 (.)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> a335025b (rebase 210)
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
                 ])
                 ->default('bot')
                 ->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,12 +400,16 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             Select::make('parse_mode')
 >>>>>>> 7c1c276f (rebase 210)
+=======
+            Select::make('parse_mode')
+>>>>>>> a335025b (rebase 210)
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
                     'MarkdownV2' => 'MarkdownV2',
                 ])
                 ->helperText('Formato del testo (opzionale)'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -608,6 +616,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
             TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
             Select::make('media_type')
 >>>>>>> 7c1c276f (rebase 210)
+=======
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+>>>>>>> a335025b (rebase 210)
                 ->options([
                     'photo' => 'Foto',
                     'video' => 'Video',
@@ -615,6 +632,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                     'audio' => 'Audio',
                 ])
                 ->helperText('Tipo di media (opzionale)'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -797,6 +815,9 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 >>>>>>> 7c1c276f (rebase 210)
+=======
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+>>>>>>> a335025b (rebase 210)
         ];
     }
 

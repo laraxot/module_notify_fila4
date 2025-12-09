@@ -839,6 +839,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -849,6 +850,9 @@ class Get
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> a335025b (rebase 210)
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 <<<<<<< HEAD
@@ -1039,6 +1043,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -1049,6 +1054,9 @@ class Get
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> a335025b (rebase 210)
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
@@ -1057,6 +1065,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1273,7 +1282,18 @@ class Get
         /* @phpstan-ignore-next-line property.notFound */
         if ($theme->body_html === null) {
 >>>>>>> a80c61f (.)
+<<<<<<< HEAD
 >>>>>>> 7c1c276f (rebase 210)
+=======
+=======
+        $bodyHtml = $theme->attributes['body_html'] ?? null;
+        if ($bodyHtml === null) {
+>>>>>>> 2cf1e9d (.)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+>>>>>>> 4c59e64 (.)
+>>>>>>> a335025b (rebase 210)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
 =======
@@ -2049,6 +2069,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'from_email' => $theme->from_email,
 =======
             /* @phpstan-ignore-next-line property.notFound */
@@ -2066,6 +2087,11 @@ class Get
 =======
             'from_email' => $theme->from_email,
 >>>>>>> 54220b28 (rebase 210)
+=======
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> a335025b (rebase 210)
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,

@@ -192,6 +192,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     /**
      * @return array<string, mixed>
      */
+    /** @phpstan-ignore-next-line return.type */
     public function getPushFormSchema(): array
     {
         return [
@@ -212,6 +213,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->url()
                 ->helperText(__('notify::push.form.image_url.helper')),
             Select::make('notification_type')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +285,8 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 2cbbc069 (.)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> a335025b (rebase 210)
                 ->label(__('notify::push.form.notification_type.label'))
                 ->options([
                     'message' => 'Message',
@@ -292,6 +296,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ])
                 ->default('message')
                 ->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,6 +423,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->helperText(__('notify::push.form.high_priority.helper')),
             KeyValue::make('custom_data')
 >>>>>>> 7c1c276f (rebase 210)
+=======
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+>>>>>>> a335025b (rebase 210)
                 ->label(__('notify::push.form.custom_data.label'))
                 ->keyLabel(__('notify::push.form.custom_data.key_label'))
                 ->valueLabel(__('notify::push.form.custom_data.value_label'))
