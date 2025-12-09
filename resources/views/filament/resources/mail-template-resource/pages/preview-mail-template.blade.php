@@ -1,26 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 <x-filament-panels::page>
     <div class="space-y-6">
         <div class="p-4 bg-white rounded-lg shadow">
@@ -78,6 +60,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -215,10 +198,16 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    @foreach($this->record->variables as $key => $value)
+                        <div class="col-span-1">
+>>>>>>> 3f537838 (.)
                             <div class="p-2 bg-gray-50 rounded">
                                 <span class="font-medium">{{ $key }}:</span>
                                 <span class="text-gray-600">{{ $value }}</span>
                             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,42 +357,12 @@ declare(strict_types=1);
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
-                        </div>
 =======
->>>>>>> 11ae5222 (.)
+>>>>>>> 3f537838 (.)
                         </div>
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
                     @endforeach
                 </div>
             </div>
         </div>
     </div>
 </x-filament-panels::page>
-<<<<<<< HEAD
-=======
-=======
-                        </x-filament::grid.column>
-=======
->>>>>>> b93ef594b4 (.)
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </div>
-<<<<<<< HEAD
-</x-filament-panels::page> 
->>>>>>> a12f125f4a (.)
-=======
-</x-filament-panels::page>
->>>>>>> b93ef594b4 (.)
-=======
-                        </x-filament::grid.column>
-                    @endforeach
-                </x-filament::grid>
-            </div>
-        </div>
-    </div>
-</x-filament-panels::page> 
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

@@ -36,6 +36,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -138,12 +139,16 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    ) {}
+>>>>>>> 3f537838 (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
         MobilePushNotification $notification,
         MulticastSendReport $sendReport,
     ): self {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,6 +292,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        return new self($notifiable, $notification, $sendReport);
+>>>>>>> 3f537838 (.)
     }
 
     public function toArray(): array
@@ -315,6 +323,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -374,6 +383,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
                     ->map(static fn(SendReport $report): array => [
@@ -386,10 +397,6 @@ final class PushNotificationDebugData extends Data implements Arrayable
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
                 'unknown_tokens' => $this->sendReport
                     ->filter(static fn(SendReport $report): bool => $report->messageWasSentToUnknownToken())
                     ->map(static fn(SendReport $report): array => [
@@ -400,6 +407,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -552,6 +560,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
             ],
         ];
     }
