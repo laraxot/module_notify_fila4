@@ -32,6 +32,7 @@ interface MobilePushNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -73,4 +74,7 @@ interface MobilePushNotification
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+    public function toArray(null|object $notifiable): array;
+>>>>>>> 3f537838 (.)
 }

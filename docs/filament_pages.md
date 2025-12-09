@@ -77,6 +77,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -91,6 +92,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -98,6 +101,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseListRecords](../../Xot/docs/filament-pages.md#XotBaseListRecords)
 - [XotBaseCreateRecord](../../Xot/docs/filament-pages.md#XotBaseCreateRecord)
 - [XotBaseEditRecord](../../Xot/docs/filament-pages.md#XotBaseEditRecord)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146,6 +150,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 - [NotificationTemplateResource](./filament-resources.md)
 
 ## Note Importanti
@@ -156,9 +162,12 @@ class EditNotificationTemplate extends XotBaseEditRecord
 4. La documentazione va mantenuta aggiornata
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> 75179b85 (.)
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 3f537838 (.)

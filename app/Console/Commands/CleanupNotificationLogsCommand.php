@@ -8,11 +8,15 @@ use Illuminate\Console\Command;
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+>>>>>>> 3f537838 (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -43,6 +47,7 @@ class CleanupNotificationLogsCommand extends Command
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
         $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
 =======
@@ -53,6 +58,10 @@ class CleanupNotificationLogsCommand extends Command
         $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
         $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
 >>>>>>> d09cb759 (.)
+=======
+        $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
+        $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
+>>>>>>> 3f537838 (.)
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
@@ -63,6 +72,7 @@ class CleanupNotificationLogsCommand extends Command
         if ($keepFailed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $query->where('status', '!=', NotificationLogStatusEnum::FAILED);
 =======
             $query->where('status', '!=', NotificationLog::STATUS_FAILED);
@@ -70,6 +80,9 @@ class CleanupNotificationLogsCommand extends Command
 =======
             $query->where('status', '!=', NotificationLog::STATUS_FAILED);
 >>>>>>> d09cb759 (.)
+=======
+            $query->where('status', '!=', NotificationLogStatusEnum::FAILED);
+>>>>>>> 3f537838 (.)
         }
 
         $totalDeleted = 0;

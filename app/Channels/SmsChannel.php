@@ -34,16 +34,13 @@ class SmsChannel
      * Invia la notifica attraverso il canale SMS.
      *
      * @param mixed $notifiable Entità che riceve la notifica
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +93,9 @@ class SmsChannel
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+        if (!method_exists($notification, 'toSms')) {
+>>>>>>> 3f537838 (.)
             throw new Exception('Notification does not have toSms method');
         }
 
@@ -107,6 +107,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -151,6 +152,9 @@ class SmsChannel
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+        if (!($smsData instanceof SmsData)) {
+>>>>>>> 3f537838 (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
@@ -161,6 +165,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -198,6 +203,8 @@ class SmsChannel
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
         return $action->execute($smsData);
     }

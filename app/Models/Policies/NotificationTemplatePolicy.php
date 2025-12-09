@@ -10,6 +10,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -68,3 +69,8 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+class NotificationTemplatePolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 3f537838 (.)

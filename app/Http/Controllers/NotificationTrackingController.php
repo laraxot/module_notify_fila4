@@ -57,6 +57,7 @@ class NotificationTrackingController extends Controller
      * @param string $id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return RedirectResponse
      */
     public function trackClick(Request $request, string $id): RedirectResponse
@@ -67,20 +68,28 @@ class NotificationTrackingController extends Controller
 =======
 >>>>>>> d09cb759 (.)
      * @return Response
+=======
+     * @return \Illuminate\Http\RedirectResponse
+>>>>>>> 3f537838 (.)
      */
-    public function trackClick(Request $request, string $id): Response
+    public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {
         $log = NotificationLog::find($id);
+<<<<<<< HEAD
         $url = $request->get('url');
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        $url = $request->get('url', '');
+>>>>>>> 3f537838 (.)
 
         if ($log) {
             $log->markAsClicked();
 
             // Aggiorna i metadati con il link cliccato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $metadata = $log->data ?? [];
@@ -90,10 +99,14 @@ class NotificationTrackingController extends Controller
 =======
             $metadata = $log->metadata ?? [];
 >>>>>>> d09cb759 (.)
+=======
+            $metadata = $log->data ?? [];
+>>>>>>> 3f537838 (.)
             $metadata['clicked_links'] = array_merge(
                 $metadata['clicked_links'] ?? [],
                 [$url => now()->toIso8601String()]
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $log->update(['data' => $metadata]);
@@ -113,5 +126,12 @@ class NotificationTrackingController extends Controller
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+            $log->update(['data' => $metadata]);
+        }
+
+        // Redirect all'URL originale
+        return redirect()->away((string) $url);
+>>>>>>> 3f537838 (.)
     }
 } 

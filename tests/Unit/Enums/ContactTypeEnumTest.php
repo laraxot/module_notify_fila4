@@ -4,20 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use ReflectionClass;
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Modules\Notify\Enums\ContactTypeEnum;
 use PHPUnit\Framework\TestCase;
 
@@ -27,15 +18,7 @@ class ContactTypeEnumTest extends TestCase
     public function it_has_correct_cases(): void
     {
         $this->assertCount(6, ContactTypeEnum::cases());
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->assertEquals('phone', ContactTypeEnum::PHONE->value);
         $this->assertEquals('mobile', ContactTypeEnum::MOBILE->value);
         $this->assertEquals('email', ContactTypeEnum::EMAIL->value);
@@ -47,41 +30,17 @@ class ContactTypeEnumTest extends TestCase
     /** @test */
     public function it_implements_filament_contracts(): void
     {
-<<<<<<< HEAD
         $this->assertInstanceOf(HasLabel::class, ContactTypeEnum::PHONE);
         $this->assertInstanceOf(HasIcon::class, ContactTypeEnum::PHONE);
         $this->assertInstanceOf(HasColor::class, ContactTypeEnum::PHONE);
-=======
-<<<<<<< HEAD
-        $this->assertInstanceOf(HasLabel::class, ContactTypeEnum::PHONE);
-        $this->assertInstanceOf(HasIcon::class, ContactTypeEnum::PHONE);
-        $this->assertInstanceOf(HasColor::class, ContactTypeEnum::PHONE);
-=======
-        $this->assertInstanceOf(\Filament\Support\Contracts\HasLabel::class, ContactTypeEnum::PHONE);
-        $this->assertInstanceOf(\Filament\Support\Contracts\HasIcon::class, ContactTypeEnum::PHONE);
-        $this->assertInstanceOf(\Filament\Support\Contracts\HasColor::class, ContactTypeEnum::PHONE);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 
     /** @test */
     public function it_has_trans_trait(): void
     {
-<<<<<<< HEAD
         $reflection = new ReflectionClass(ContactTypeEnum::class);
         $traits = $reflection->getTraitNames();
 
-=======
-<<<<<<< HEAD
-        $reflection = new ReflectionClass(ContactTypeEnum::class);
-        $traits = $reflection->getTraitNames();
-
-=======
-        $reflection = new \ReflectionClass(ContactTypeEnum::class);
-        $traits = $reflection->getTraitNames();
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->assertContains('Modules\Xot\Filament\Traits\TransTrait', $traits);
     }
 
@@ -100,15 +59,7 @@ class ContactTypeEnumTest extends TestCase
     public function get_searchable_returns_all_values(): void
     {
         $searchable = ContactTypeEnum::getSearchable();
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->assertIsArray($searchable);
         $this->assertCount(6, $searchable);
         $this->assertContains('phone', $searchable);
@@ -131,10 +82,6 @@ class ContactTypeEnumTest extends TestCase
         foreach ($form as $component) {
 =======
         $schema = ContactTypeEnum::getFormSchema();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 
         $this->assertIsArray($schema);
         $this->assertCount(6, $schema);
@@ -142,17 +89,6 @@ class ContactTypeEnumTest extends TestCase
         foreach ($schema as $component) {
 >>>>>>> 75179b85 (.)
             $this->assertInstanceOf(TextInput::class, $component);
-<<<<<<< HEAD
-=======
-=======
-        
-        $this->assertIsArray($schema);
-        $this->assertCount(6, $schema);
-        
-        foreach ($schema as $component) {
-            $this->assertInstanceOf(\Filament\Forms\Components\TextInput::class, $component);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         }
     }
 
@@ -165,12 +101,15 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
 =======
         $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
@@ -192,25 +131,6 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> 9777d1b3 (.)
         $uniqueValues = array_unique($values);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
-=======
-        $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
->>>>>>> a12f125f4a (.)
-=======
-        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
->>>>>>> b93ef594b4 (.)
-        $uniqueValues = array_unique($values);
-
-=======
-        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
-        $uniqueValues = array_unique($values);
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 }
