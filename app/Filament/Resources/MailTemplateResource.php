@@ -40,8 +40,11 @@ use Filament\Schemas\Components\View;
 use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
+<<<<<<< HEAD
 use Override;
 <<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -306,7 +309,7 @@ class MailTemplateResource extends LangBaseResource
      * - Le etichette, i placeholder e i testi di aiuto sono gestiti tramite LangServiceProvider
      * - File di traduzione: Modules/Notify/resources/lang/{locale}/mail_template.php
      */
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
@@ -432,7 +435,14 @@ class MailTemplateResource extends LangBaseResource
             'params_display' => View::make('notify::filament.components.params-badges')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(fn($record) => ['params' => $record?->params])
+=======
+<<<<<<< HEAD
+                ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
+                ->columnSpanFull()
+                ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+>>>>>>> fbed41ac (.)
 =======
 <<<<<<< HEAD
                 ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
@@ -459,7 +469,15 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => is_object($record) && property_exists($record, 'params') && ! empty($record->params)),
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+                ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
+                ->columnSpanFull()
+                ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
 <<<<<<< HEAD

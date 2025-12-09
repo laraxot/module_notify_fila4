@@ -1688,6 +1688,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1877,6 +1878,8 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
      * @return self
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
      */
     public static function getDefault(): self
     {

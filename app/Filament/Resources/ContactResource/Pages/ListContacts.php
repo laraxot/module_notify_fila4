@@ -46,6 +46,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -170,6 +171,8 @@ use Override;
 use Filament\Tables;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
@@ -417,6 +420,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -439,6 +443,8 @@ class ListContacts extends XotBaseListRecords
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 =======
@@ -517,6 +523,7 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
     #[Override]
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
@@ -970,6 +977,12 @@ class ListContacts extends XotBaseListRecords
 =======
     #[Override]
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public function getTableColumns(): array
     {
         return [
@@ -984,7 +997,19 @@ class ListContacts extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[\Override]
+=======
+    #[Override]
+>>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public function getTableFilters(): array
     {
         return [

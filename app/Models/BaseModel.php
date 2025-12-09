@@ -10,6 +10,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -37,6 +38,8 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -72,6 +75,19 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  */
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
+<<<<<<< HEAD
+=======
+    // use Searchable;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    use \Modules\Xot\Models\Traits\HasXotFactory;
+=======
+    use HasFactory;
+>>>>>>> 6ba141fc (.)
+=======
+    use \Modules\Xot\Models\Traits\HasXotFactory;
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     use InteractsWithMedia;
 
     /**
@@ -81,6 +97,27 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
      */
     protected $connection = 'notify';
 
+<<<<<<< HEAD
+=======
+    /** @var list<string> */
+    protected $appends = [];
+
+    /** @var string */
+    protected $primaryKey = 'id';
+
+    /** @var string */
+    protected $keyType = 'string';
+
+    /** @var list<string> */
+    protected $hidden = [
+        // 'password'
+    ];
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+   
+=======
+>>>>>>> fbed41ac (.)
     /**
      * Get the attributes that should be cast.
      *
@@ -111,6 +148,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     {
         return app(GetFactoryAction::class)->execute(static::class);
     }
+<<<<<<< HEAD
+=======
+>>>>>>> 6ba141fc (.)
+=======
+   
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
     /** @return array<string, string> */
 >>>>>>> f2e64178 (.)

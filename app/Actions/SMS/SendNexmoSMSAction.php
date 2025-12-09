@@ -37,6 +37,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -171,6 +172,8 @@ use Override;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -208,6 +211,7 @@ use Illuminate\Support\Facades\Log;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 <<<<<<< HEAD
@@ -440,6 +444,8 @@ use Modules\Notify\Datas\SmsData;
 =======
 =======
 =======
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SMS\NexmoData;
@@ -497,6 +503,20 @@ use Modules\Notify\Datas\SMS\NexmoData;
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
 use Spatie\QueueableAction\QueueableAction;
+=======
+use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Datas\SMS\NexmoData;
+use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+
+final class SendNexmoSMSAction implements SmsActionContract
+{
+    private NexmoData $nexmoData;
+    private ?string $defaultSender = null;
+    
+    /** @var array<string, mixed> */
+    private array $vars = [];
+>>>>>>> 5e14ac3 (.)
 
 final class SendNexmoSMSAction implements SmsActionContract
 {
@@ -1069,6 +1089,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1122,6 +1143,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
     #[Override]
@@ -1238,7 +1261,13 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [

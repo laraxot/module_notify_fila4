@@ -2216,6 +2216,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3199,6 +3200,9 @@ return [
 
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+=======
+
+>>>>>>> fbed41ac (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -4487,6 +4491,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5475,6 +5480,8 @@ return [
 
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,

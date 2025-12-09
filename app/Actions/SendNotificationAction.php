@@ -577,8 +577,44 @@ class SendNotificationAction
         $compiled = $template->compile($data);
 
         // Determina i canali da utilizzare
+<<<<<<< HEAD
         /* @phpstan-ignore-next-line property.notFound */
         $effectiveChannels = $channels ?: $template->channels;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $templateChannels = $template->getAttribute('channels') ?? [];
+        $effectiveChannels = $channels ?: $templateChannels;
+
+        // Assicurati che i canali siano stringhe valide
+        $filteredChannels = [];
+        if (is_array($effectiveChannels)) {
+            foreach ($effectiveChannels as $channel) {
+                if (is_string($channel)) {
+                    $filteredChannels[] = $channel;
+                }
+            }
+        }
+        $effectiveChannels = $filteredChannels;
+=======
+        $effectiveChannels = $channels ?: $template->channels;
+>>>>>>> 6ba141fc (.)
+=======
+        $templateChannels = $template->getAttribute('channels') ?? [];
+        $effectiveChannels = $channels ?: $templateChannels;
+>>>>>>> 5e14ac3 (.)
+
+        // Assicurati che i canali siano stringhe valide
+        $filteredChannels = [];
+        if (is_array($effectiveChannels)) {
+            foreach ($effectiveChannels as $channel) {
+                if (is_string($channel)) {
+                    $filteredChannels[] = $channel;
+                }
+            }
+        }
+        $effectiveChannels = $filteredChannels;
+>>>>>>> fbed41ac (.)
 
         // Processa ogni canale
         /* @phpstan-ignore-next-line foreach.nonIterable */
@@ -586,6 +622,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -593,6 +630,15 @@ class SendNotificationAction
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+            $stringChannel = $channel;
+=======
+            $stringChannel = is_string($channel) ? $channel : (string) $channel;
+>>>>>>> 6ba141fc (.)
+=======
+            $stringChannel = $channel;
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
             try {
 <<<<<<< HEAD
 <<<<<<< HEAD

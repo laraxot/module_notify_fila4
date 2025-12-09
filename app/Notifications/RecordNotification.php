@@ -193,6 +193,7 @@ use Modules\Notify\Channels\SmsChannel;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Emails\SpatieEmail;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,7 +416,13 @@ use Illuminate\Notifications\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+=======
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
 class RecordNotification extends Notification
 {
@@ -424,13 +431,28 @@ class RecordNotification extends Notification
 =======
 
     protected string $slug;
-<<<<<<< HEAD
 
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
+    /**
+     * @var array<string, mixed>
+     */
+    protected array $data = [];
+
+    /**
+     * @var array<int, array<string, string>>
+     */
+    protected array $attachments = [];
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
 =======
     /** @var array<string, mixed> */
 =======
@@ -723,11 +745,17 @@ class RecordNotification extends Notification
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
     public function __construct(Model $record, string $slug)
     {
         $this->record = $record;
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->slug = Str::slug($slug);
 <<<<<<< HEAD
@@ -998,10 +1026,16 @@ class RecordNotification extends Notification
 >>>>>>> 98d837b9 (.)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
         $this->slug = $slug;
     }
 
     /**
+<<<<<<< HEAD
 =======
         $this->slug = Str::slug($slug);
     }
@@ -1097,7 +1131,14 @@ class RecordNotification extends Notification
      * @param object $notifiable
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
      * @return array<string|class-string>
      */
     public function via($notifiable): array
@@ -1789,6 +1830,12 @@ class RecordNotification extends Notification
             // Valida che sia una stringa valida
             if (is_string($recipient) && ! empty($recipient)) {
                 $email->to($recipient);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
                 $email->setRecipient($recipient);
 <<<<<<< HEAD
 =======
@@ -1860,7 +1907,14 @@ class RecordNotification extends Notification
                 $email->setRecipient($to);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
             }
         }
 
@@ -3175,6 +3229,18 @@ class RecordNotification extends Notification
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+        return $this;
+    }
+
+    /**
+     * Add attachments to the notification.
+     *
+     * @param  array<int, array<string, string>>  $attachments
+     */
+    public function addAttachments(array $attachments): self
+    {
+        $this->attachments = array_merge($this->attachments, $attachments);
+
         return $this;
     }
 }

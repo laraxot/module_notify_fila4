@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Mail;
 
-=======
->>>>>>> 2fdda20 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -15,6 +13,7 @@ use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +52,13 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 
 >>>>>>> 23161eb (.)
 >>>>>>> 2fdda20 (.)
+=======
+// use Modules\<nome progetto>\Models\Appointment;
+
+class AppointmentNotificationMail extends Mailable implements ShouldQueue
+{
+    use Queueable, SerializesModels;
+>>>>>>> 5e14ac3 (.)
 
     /**
      * Dati della notifica dell'appuntamento.
@@ -73,8 +79,11 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 23161eb (.)
      * @param  array<string, mixed>  $notificationData
+<<<<<<< HEAD
 >>>>>>> 2fdda20 (.)
 >>>>>>> 31bdf6b (.)
+=======
+>>>>>>> 5e14ac3 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -114,11 +123,12 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 23161eb (.)
 
-        if (is_object($appointment) && property_exists($appointment, 'id') && $appointment->id) {
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
             $appointmentId = is_int($appointment->id) || is_string($appointment->id) ? $appointment->id : (string) $appointment->id;
             $subject .= ' #'.$appointmentId;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -146,6 +156,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+>>>>>>> 5e14ac3 (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],

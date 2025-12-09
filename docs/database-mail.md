@@ -473,7 +473,6 @@ class ProcessDoctorModerationAction
 
 ```html
 <x-mail::message>
-
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},

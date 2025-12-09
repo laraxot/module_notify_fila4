@@ -6,6 +6,7 @@ namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
@@ -30,6 +31,9 @@ use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 92ecc28 (.)
 use Illuminate\Support\Carbon;
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 5e14ac3 (.)
 
 /**
  * Modules\Notify\Models\NotifyThemeable.
@@ -42,7 +46,6 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
-<<<<<<< HEAD
  *
 <<<<<<< HEAD
 <<<<<<< HEAD

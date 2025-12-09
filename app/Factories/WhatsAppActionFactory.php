@@ -17,6 +17,7 @@ namespace Modules\Notify\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a29a4728 (.)
 =======
@@ -77,6 +78,8 @@ namespace Modules\Notify\Factories;
 =======
 >>>>>>> 2fdda20 (.)
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Exception;
 use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
@@ -747,6 +750,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
+<<<<<<< HEAD
         if (! is_string($normalizedDriver)) {
             $normalizedDriver = '';
         }
@@ -854,7 +858,12 @@ final class WhatsAppActionFactory
 >>>>>>> 2fdda20 (.)
 
 >>>>>>> 31bdf6b (.)
+<<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 

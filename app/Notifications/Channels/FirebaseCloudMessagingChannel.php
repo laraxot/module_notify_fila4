@@ -4,11 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Notifications\Channels;
 
-<<<<<<< HEAD
-=======
-use Kreait\Firebase\Messaging\RegistrationToken;
-use Kreait\Firebase\Messaging\RegistrationTokens;
->>>>>>> f5f1cb1 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

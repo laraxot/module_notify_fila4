@@ -67,6 +67,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -308,10 +309,13 @@ declare(strict_types=1);
 
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +367,8 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> 011072e4 (.)
 return new class extends Migration {
 =======
+=======
+>>>>>>> fbed41ac (.)
 return new class extends Migration
 {
 >>>>>>> b19cd40 (.)

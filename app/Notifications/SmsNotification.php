@@ -46,6 +46,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -220,6 +221,8 @@ use Modules\Notify\Datas\SmsData;
  * @package Modules\Notify\Notifications
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
  */
 class SmsNotification extends Notification implements ShouldQueue
 {
@@ -467,7 +470,6 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 =======
 
-<<<<<<< HEAD
             $this->smsData = new SmsData;
 =======
 =======

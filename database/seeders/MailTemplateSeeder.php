@@ -4,10 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Database\Seeders;
 
-<<<<<<< HEAD
-=======
-use Modules\Notify\Emails\SpatieEmail;
->>>>>>> f5f1cb1 (.)
 use Illuminate\Database\Seeder;
 use Modules\Notify\Emails\SpatieEmail;
 use Modules\Notify\Models\MailTemplate;

@@ -37,6 +37,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -86,6 +87,8 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 =======
 <<<<<<< HEAD
 =======
@@ -206,7 +209,12 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> b94a5f6 (.)
 use Eloquent;
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Eloquent;
@@ -268,10 +276,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array $logo
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Model|Eloquent $linkable
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
  * @property Model $linkable
 =======
@@ -283,7 +294,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 92ecc28 (.)
  * @property Model|Eloquent $linkable
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+ * @property Model $linkable
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
 <<<<<<< HEAD
@@ -333,7 +350,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 6ba141fc (.)
 =======
  *
- * @mixin Eloquent
+ * @mixin \Eloquent
  *
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
@@ -345,11 +362,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
  */
 class NotifyTheme extends BaseModel implements HasMedia
@@ -516,6 +536,14 @@ class NotifyTheme extends BaseModel implements HasMedia
  */
 >>>>>>> 7c1c276f (rebase 210)
 class NotifyTheme extends BaseModel
+<<<<<<< HEAD
+=======
+>>>>>>> 6ba141fc (.)
+=======
+ */
+class NotifyTheme extends BaseModel implements HasMedia
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 {
     /** @var list<string> */
     protected $fillable = [
@@ -536,6 +564,19 @@ class NotifyTheme extends BaseModel
         'view_params',
     ];
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
+    /**
+     * @return array{path: string, width: int, height: int}
+     */
+    public function getLogoAttribute(): array
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
     /** @var list<string> */
     protected $appends = [
         'logo',
@@ -801,7 +842,14 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -820,6 +868,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -905,6 +954,8 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
 =======
 <<<<<<< HEAD
     #[Override]
@@ -1009,7 +1060,12 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     protected function casts(): array
     {
         return [
@@ -1090,6 +1146,7 @@ class NotifyTheme extends BaseModel
             'deleted_by' => 'string',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -1341,7 +1398,12 @@ class NotifyTheme extends BaseModel
 >>>>>>> 985c7bda (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
             'view_params' => 'array',
         ];
     }

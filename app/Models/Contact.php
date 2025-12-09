@@ -37,6 +37,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -314,6 +315,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
@@ -401,7 +404,13 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -903,6 +912,7 @@ class Contact extends BaseModel
 
     /** @return array<string, string> */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,6 +965,8 @@ class Contact extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
     #[\Override]
 =======
@@ -1123,7 +1135,13 @@ class Contact extends BaseModel
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     protected function casts(): array
     {
         return [

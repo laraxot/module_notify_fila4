@@ -338,6 +338,7 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -512,6 +513,8 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
  * @package Modules\Notify\Notifications
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
  */
 class WhatsAppNotification extends Notification implements ShouldQueue
 {
@@ -1132,6 +1135,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1212,6 +1216,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> fbed41ac (.)
      * @param  mixed  $_notifiable  L'entità da notificare
 =======
 =======

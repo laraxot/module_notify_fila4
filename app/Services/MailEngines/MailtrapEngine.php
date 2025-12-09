@@ -14,6 +14,7 @@ namespace Modules\Notify\Services\MailEngines;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 =======
 =======
@@ -57,6 +58,8 @@ use InvalidArgumentException;
 use InvalidArgumentException;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
@@ -110,6 +113,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -128,6 +132,8 @@ class MailtrapEngine
 >>>>>>> 011072e4 (.)
     public null|string $from = null;
 =======
+=======
+>>>>>>> fbed41ac (.)
     public ?string $from = null;
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD

@@ -37,6 +37,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -64,6 +65,8 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> fbed41ac (.)
 =======
 use Override;
 <<<<<<< HEAD
@@ -437,12 +440,20 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
 >>>>>>> 985c7bda (.)
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,6 +507,8 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 =======
@@ -574,6 +587,13 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
     #[Override]
+<<<<<<< HEAD
+=======
+>>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public function getTableColumns(): array
     {
         return [
@@ -829,6 +849,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -851,6 +872,8 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 =======
@@ -929,6 +952,13 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
     #[Override]
+<<<<<<< HEAD
+=======
+>>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public function getTableFilters(): array
     {
         return [

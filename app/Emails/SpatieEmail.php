@@ -1594,6 +1594,7 @@ class SpatieEmail extends TemplateMailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -2320,6 +2321,9 @@ class SpatieEmail extends TemplateMailable
 
 >>>>>>> 985c7bda (.)
         return $envelope;
+=======
+        return $this;
+>>>>>>> 5e14ac3 (.)
     }
 
 >>>>>>> 82c6772 (.)
@@ -2842,6 +2846,7 @@ class SpatieEmail extends TemplateMailable
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3392,6 +3397,7 @@ class SpatieEmail extends TemplateMailable
         $asForPathinfo = is_string($attachment['as']) ? $attachment['as'] : '';
         $info = pathinfo($asForPathinfo);
 =======
+<<<<<<< HEAD
         $as = $attachment['as'];
 
         $mime = Arr::get($attachment, 'mime', null); //?? File::mimeType($as);   file vuole un file esistente
@@ -3399,6 +3405,37 @@ class SpatieEmail extends TemplateMailable
 >>>>>>> 75179b85 (.)
         if ($mime === null && isset($info['extension'])) {
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
+=======
+>>>>>>> 23161eb (.)
+=======
+        return $res;
+    }
+>>>>>>> 5e14ac3 (.)
+
+    public function getAttachmentFromData(array $attachment): Attachment
+    {
+        // Valida e tipizza parametri
+        Assert::keyExists($attachment, 'data', 'Attachment must have data');
+        Assert::string($attachment['data'], 'Attachment data must be string');
+
+        $data = $attachment['data'];
+        $res = Attachment::fromData(fn () => $data);
+
+        // Determina filename
+        $filename = isset($attachment['as']) ? (string) $attachment['as'] : 'attachment';
+
+        // Determina MIME type
+<<<<<<< HEAD
+        $mime = Arr::get($attachment, 'mime', null);
+
+        if ($mime === null) {
+            // Tenta di determinare MIME type da estensione filename
+            $info = pathinfo($filename);
+            if (isset($info['extension'])) {
+                $detectedMime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
+                $mime = is_string($detectedMime) ? $detectedMime : null;
+            }
+>>>>>>> fbed41ac (.)
         }
         if ($mime === null) {
             $mime = 'application/octet-stream';
@@ -3860,6 +3897,9 @@ class SpatieEmail extends TemplateMailable
             $mime = 'application/octet-stream';
         }
 >>>>>>> 6ba141fc (.)
+=======
+        $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
+>>>>>>> 5e14ac3 (.)
 
         $res = $res->as($filename)->withMime($mime);
 
