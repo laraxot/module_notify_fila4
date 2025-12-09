@@ -68,6 +68,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204,6 +205,14 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 51182e3c (rebase 210)
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -422,6 +431,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +568,14 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 51182e3c (rebase 210)
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -833,6 +851,7 @@ Quando configuri il file `.env`, utilizza questi nomi di variabili:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -969,6 +988,14 @@ SMS_FROM=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 51182e3c (rebase 210)
+=======
+SMS_FROM=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+SMS_FROM=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
 SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
@@ -1178,6 +1205,7 @@ NETFUN_API_KEY=your_api_key_here
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1314,6 +1342,14 @@ NETFUN_SENDER=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 51182e3c (rebase 210)
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
