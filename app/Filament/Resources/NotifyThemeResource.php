@@ -230,6 +230,7 @@ use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes
 >>>>>>> f1c9518b (.)
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
 
 class NotifyThemeResource extends XotBaseResource
 {
