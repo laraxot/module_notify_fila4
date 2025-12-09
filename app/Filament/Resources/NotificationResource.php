@@ -942,6 +942,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> c8b1c8bf (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
 
 class NotificationResource extends XotBaseResource
 {
