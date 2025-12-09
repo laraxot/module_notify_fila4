@@ -111,6 +111,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -129,10 +130,13 @@ trait HasNotificationRateLimiting
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,3 +248,8 @@ trait HasNotificationRateLimiting
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
