@@ -29,6 +29,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -97,6 +98,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -255,6 +258,7 @@ class NexmoData extends Data
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
             /*
+<<<<<<< HEAD
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.nexmo', []);
             */
@@ -336,6 +340,35 @@ class NexmoData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.nexmo', []);
+             */
+=======
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+
+class NexmoData extends Data
+{
+    public ?string $key;
+    public ?string $secret;
+    public ?string $base_url;
+    public string $auth_type = 'api_key';
+    public int $timeout = 30;
+
+    private static ?self $instance = null;
+
+    public static function make(): self
+    {
+        if (! self::$instance instanceof NexmoData) {
+            /*
+            $data = TenantService::getConfig('sms');
+            $data = Arr::get($data, 'drivers.nexmo', []);
+            */
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
             $data = Config::array('sms.drivers.nexmo');
             self::$instance = self::from($data);
         }
@@ -396,12 +429,20 @@ class NexmoData extends Data
                     'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510,6 +551,8 @@ class NexmoData extends Data
 =======
                     'Content-Type' => 'application/json',
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
                 ];
         }
     }

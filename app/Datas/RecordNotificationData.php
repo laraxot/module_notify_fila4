@@ -27,6 +27,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -45,6 +46,10 @@ use Exception;
 use Illuminate\Database\Eloquent\Model;
 =======
 =======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -52,6 +57,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,11 +194,15 @@ use Webmozart\Assert\Assert;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +294,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 
 class RecordNotificationData extends Data
 {
@@ -304,6 +317,7 @@ class RecordNotificationData extends Data
 
     public function getRoute(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +410,8 @@ class RecordNotificationData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -526,6 +542,7 @@ class RecordNotificationData extends Data
         throw new Exception('Channel [' . $this->channel . '] not supported');
 >>>>>>> 99ff506 (.)
     }
+<<<<<<< HEAD
 
 
 >>>>>>> b19cd40 (.)
@@ -606,4 +623,21 @@ class RecordNotificationData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+        switch($this->channel){
+            case 'mail':
+                Assert::string($email=$this->record->email);
+                return $email;
+            case 'sms':
+                Assert::string($phone=$this->record->phone);
+                $phone=app(NormalizePhoneNumberAction::class)->execute($phone);
+                return $phone;
+        }
+        throw new Exception('Channel ['.$this->channel.'] not supported');
+    }
+
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 }

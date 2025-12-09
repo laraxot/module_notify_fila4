@@ -31,6 +31,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -174,6 +175,11 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 7c39b1fe (.)
+=======
+
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;

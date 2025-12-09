@@ -36,6 +36,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -108,7 +109,13 @@ use Filament\Tables;
 >>>>>>> 75179b85 (.)
 =======
 =======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Tables;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -138,6 +145,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,10 +281,16 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
  * Uses ColumnBuilder and FilterBuilder to reduce code duplication.
  */
 >>>>>>> 2cbbc069 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,6 +383,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
     #[Override]
     /**
      * @return array<string, mixed>
@@ -648,6 +664,7 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
             ),
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -701,6 +718,50 @@ class ListContacts extends XotBaseListRecords
 =======
             'active' => FilterBuilder::activeToggle(),
 >>>>>>> 2cbbc069 (.)
+=======
+=======
+    public function getTableColumns(): array
+    {
+        return [
+            'id' => TextColumn::make('id')
+                ->numeric()
+                ->sortable(),
+            'name' => TextColumn::make('name')
+                ->searchable()
+                ->sortable(),
+            'email' => TextColumn::make('email')
+                ->searchable()
+                ->sortable(),
+            'phone' => TextColumn::make('phone')
+                ->searchable()
+                ->sortable(),
+            'message' => TextColumn::make('message')
+                ->searchable()
+                ->sortable(),
+            'is_read' => IconColumn::make('is_read')
+                ->boolean(),
+            'created_at' => TextColumn::make('created_at')
+                ->dateTime()
+                ->sortable(),
+            'updated_at' => TextColumn::make('updated_at')
+                ->dateTime()
+                ->sortable(),
+        ];
+    }
+
+    public function getTableFilters(): array
+    {
+        return [
+            'active' => Filter::make('active')
+                ->query(function (Builder $query): Builder {
+                    return $query->where('active', true);
+                }),
+            'inactive' => Filter::make('inactive')
+                ->query(function (Builder $query): Builder {
+                    return $query->where('active', false);
+                }),
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
         ];
     }
 }
