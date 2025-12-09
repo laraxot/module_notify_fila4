@@ -239,6 +239,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -766,6 +767,8 @@ class="block">
 class="block">
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> 227ade66 (.)
 <?php
 
 declare(strict_types=1);
@@ -1932,6 +1935,7 @@ class="block">
 >>>>>>> 87271fea (.)
 =======
 <div class="block">
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 36321fcb (.)
 =======
@@ -1957,6 +1961,8 @@ class="block">
 <div class="block">
 >>>>>>> 518c702 (.)
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> 227ade66 (.)
 	<!-- start textbox-with-title -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fulltext">
 		<tbody>
@@ -2217,6 +2223,7 @@ class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3397,3 +3404,6 @@ class="block">
 >>>>>>> 75b03dc9 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+								<tbody>
+>>>>>>> 227ade66 (.)
