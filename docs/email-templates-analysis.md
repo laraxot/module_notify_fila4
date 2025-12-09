@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi Approfondita: Email Templates in Laravel per <nome progetto>
 
 ## 1. Panoramica Soluzioni Analizzate
@@ -339,3 +340,5 @@ public static function form(Form $form): Form
 >>>>>>> f6b0523 (.)
 =======
 >>>>>>> c417ace (.)
+=======
+>>>>>>> aedd9af (.)
