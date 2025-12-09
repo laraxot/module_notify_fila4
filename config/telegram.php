@@ -126,6 +126,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
 =======
@@ -404,6 +405,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -543,6 +546,7 @@ return [
      * | Telegram Drivers
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1554,6 +1558,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
     'drivers' => [
         'official' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
@@ -1685,6 +1691,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2196,6 +2203,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
         'botman' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
@@ -2327,6 +2336,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2838,6 +2848,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
         'nutgram' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
@@ -2971,6 +2983,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3341,6 +3354,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
     /*
      * |--------------------------------------------------------------------------
      * | Global Debug Mode
@@ -3373,6 +3388,7 @@ return [
      * | Retry Configuration
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4420,10 +4436,13 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
     'retry' => [
         'attempts' => env('TELEGRAM_RETRY_ATTEMPTS', 3),
         'delay' => env('TELEGRAM_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4920,11 +4939,14 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
     /*
      * |--------------------------------------------------------------------------
      * | Rate Limiting
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5774,6 +5796,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
     'rate_limit' => [
         'enabled' => env('TELEGRAM_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('TELEGRAM_RATE_LIMIT_MAX_ATTEMPTS', 30),

@@ -223,6 +223,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +362,8 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> e0d9c9be (.)
 =======
+>>>>>>> 7a2f131f (.)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -435,7 +438,12 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
 >>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+>>>>>>> 7a2f131f (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -1795,6 +1803,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -1875,7 +1884,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
 >>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+>>>>>>> 7a2f131f (.)
 
 ## Sottocartelle
 
@@ -2002,6 +2016,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2035,6 +2050,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -2324,7 +2341,12 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
 >>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+>>>>>>> 7a2f131f (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -2365,6 +2387,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> bb7e77c2 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2731,6 +2754,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
 =======
 >>>>>>> f813254 (.)
 =======
@@ -3194,4 +3219,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
 >>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+>>>>>>> 7a2f131f (.)
