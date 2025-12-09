@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -58,6 +59,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Risoluzione Conflitti RecordNotification.php
 
 ## Contesto del Conflitto
@@ -138,6 +141,7 @@ Verificare che:
 - [Notify Module Documentation](README.md)
 - [RecordNotification Implementation](notifications/record_notification.md)
 - [SpatieEmail Integration](spatie_email_usage_guide.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,3 +641,8 @@ Verificare che:
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 4f042b88 (.)
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 712617d3 (.)

@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -58,6 +59,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Regole per il Testing delle Email
 
 ## 🎯 Scopo
@@ -210,6 +213,7 @@ public function sendEmail(): void
 ## 🔗 Collegamenti
 
 - [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -904,6 +908,10 @@ public function sendEmail(): void
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 >>>>>>> 9721a5b2 (.)
+=======
+- [Best Practices Laravel](https://laravel.com/docs/best-practices)
+- [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
+>>>>>>> 712617d3 (.)
 
 ## 📝 Note
 
@@ -920,6 +928,7 @@ public function sendEmail(): void
 ### Zen
 - Semplificare dove possibile
 - Mantenere l'equilibrio tra funzionalità e complessità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1289,3 +1298,6 @@ public function sendEmail(): void
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+=======
+- Seguire il principio "meno è più" 
+>>>>>>> 712617d3 (.)

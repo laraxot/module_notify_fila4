@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -58,6 +59,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Utilizzo di PHPStan nel Progetto <nome progetto>
 
 ## Esecuzione di PHPStan
@@ -176,6 +179,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 
 ## Collegamenti tra versioni di phpstan-usage.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -795,6 +799,9 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 >>>>>>> 9721a5b2 (.)
+=======
+* [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
+>>>>>>> 712617d3 (.)
 
 
 ### Versione Incoming
@@ -802,6 +809,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -865,3 +873,5 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

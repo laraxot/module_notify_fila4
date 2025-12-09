@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -52,6 +53,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali
@@ -70,6 +73,7 @@
 
 ### Directory Fisiche (path su disco)
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +429,9 @@
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 9721a5b2 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 712617d3 (.)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email
@@ -515,6 +522,7 @@ Questa struttura garantisce:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -555,3 +563,5 @@ Questa struttura garantisce:
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

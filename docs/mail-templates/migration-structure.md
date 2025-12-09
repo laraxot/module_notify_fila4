@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -52,10 +53,13 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Struttura della Migrazione MailTemplate
 
 ## Informazioni Generali
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +415,9 @@
 =======
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> 9721a5b2 (.)
+=======
+- **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
+>>>>>>> 712617d3 (.)
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`
 
@@ -640,6 +647,7 @@ public function tableUpdate(\Closure $next, ?string $table = null): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -680,3 +688,5 @@ public function tableUpdate(\Closure $next, ?string $table = null): void
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

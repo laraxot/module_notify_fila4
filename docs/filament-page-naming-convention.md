@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -52,6 +53,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Convenzioni di Naming per Pagine Filament
 
 ## Regola Fondamentale
@@ -107,6 +110,7 @@ Le pagine con nomi non conformi potrebbero:
 Eseguire il seguente comando per trovare pagine non conformi:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,12 +466,16 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | 
 =======
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
 >>>>>>> 9721a5b2 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> 712617d3 (.)
 ```
 
 ## Riferimenti
 
 - [Filament Documentation](https://filamentphp.com/docs/3.x/panels/pages/getting-started)
 - [PSR-4 Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,3 +533,5 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | 
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

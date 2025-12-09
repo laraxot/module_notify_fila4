@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -52,6 +53,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Miglioramento File Traduzione send_email.php
 
 ## 🔍 Analisi del Problema
@@ -375,6 +378,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -663,6 +667,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 9721a5b2 (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 712617d3 (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -687,6 +694,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 ### Documentazione Correlata
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -985,10 +993,14 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 >>>>>>> 4f042b88 (.)
+=======
+- [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
+>>>>>>> 712617d3 (.)
 - [Struttura Modulo Notify](./README.md)
 
 ### File Modificati
 - `laravel/Modules/Notify/lang/it/send_email.php` - File principale migliorato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1277,6 +1289,9 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> 4f042b88 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> 712617d3 (.)
 
 ## 📝 Note di Implementazione
 
@@ -1298,6 +1313,7 @@ php -l Modules/Notify/lang/it/send_email.php
 
 **Ultimo aggiornamento**: Gennaio 2025  
 **Autore**: Sistema di miglioramento automatico  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1355,3 +1371,5 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

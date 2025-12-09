@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -52,10 +53,13 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Integrazione WhatsApp 
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +407,9 @@ Questo documento descrive l'architettura e l'implementazione dell'integrazione W
 =======
 Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
 >>>>>>> 9721a5b2 (.)
+=======
+Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di SaluteOra, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
+>>>>>>> 712617d3 (.)
 
 ## Architettura
 
@@ -868,6 +875,7 @@ $whatsAppData = new WhatsAppData(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     body: 'Questo è un messaggio di test da <nome progetto>',
 =======
     body: 'Questo è un messaggio di test da ',
@@ -1146,6 +1154,9 @@ $whatsAppData = new WhatsAppData(
 =======
     body: 'Questo è un messaggio di test da SaluteOra',
 >>>>>>> 9721a5b2 (.)
+=======
+    body: 'Questo è un messaggio di test da SaluteOra',
+>>>>>>> 712617d3 (.)
 );
 
 $result = $action->execute($whatsAppData);
@@ -1347,6 +1358,7 @@ L'integrazione WhatsApp  segue gli stessi pattern e standard utilizzati per l'in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di <nome progetto>, mantenendo la coerenza con le altre modalità di comunicazione.
 =======
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di , mantenendo la coerenza con le altre modalità di comunicazione.
@@ -1625,10 +1637,14 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 =======
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
 >>>>>>> 9721a5b2 (.)
+=======
+Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di SaluteOra, mantenendo la coerenza con le altre modalità di comunicazione.
+>>>>>>> 712617d3 (.)
 
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1686,3 +1702,5 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

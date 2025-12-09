@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -103,6 +104,8 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Sistema Monitoraggio Email 
 
 ## Panoramica
@@ -971,6 +974,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1284,3 +1288,9 @@ class MailMonitoringDebugger
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> b99af5a8 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+- [Laravel Events](https://laravel.com/docs/events) 
+>>>>>>> 712617d3 (.)

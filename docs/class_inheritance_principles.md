@@ -116,6 +116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +762,10 @@
 # Principi di Ereditarietà nelle Classi <nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+=======
+# Principi di Ereditarietà nelle Classi <nome progetto>
+# Principi di Ereditarietà nelle Classi SaluteOra
+>>>>>>> 712617d3 (.)
 
 ## Regola Fondamentale: No Duplicate Declarations
 
@@ -836,6 +841,7 @@ Per identificare dichiarazioni duplicate, usare:
 ```bash
 
 # Trova classi che estendono XotBasePage e implementano HasForms
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1792,6 +1798,11 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
 >>>>>>> 7a2f131f (.)
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
+>>>>>>> 712617d3 (.)
 ```
 
 ## Riferimenti
@@ -1800,6 +1811,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 - [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
 - [DRY Principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 - [PHP OOP Best Practices](https://phptherightway.com/#object-oriented-programming)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1860,3 +1872,5 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

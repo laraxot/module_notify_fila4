@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -58,6 +59,8 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica
@@ -213,6 +216,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -289,6 +293,9 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -421,6 +428,7 @@ class TreatmentComplete extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -448,6 +456,9 @@ class TreatmentComplete extends Mailable
 =======
 
 >>>>>>> 36321fcb (.)
+=======
+
+>>>>>>> 712617d3 (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -504,6 +515,7 @@ php artisan notify:mail-template:test
 ## Vedi Anche
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1150,3 +1162,6 @@ php artisan notify:mail-template:test
 =======
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 7a2f131f (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 712617d3 (.)

@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -52,6 +53,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -181,6 +184,7 @@ Ogni campo ora ha la struttura espansa completa:
 
 - [Documentazione Root](../docs/translation_standards_links.md)
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,6 +510,9 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 >>>>>>> 4f042b88 (.)
+=======
+- [Best Practices Filament](../docs/filament_translation_best_practices.md)
+>>>>>>> 712617d3 (.)
 
 ## Note Importanti
 
@@ -528,6 +535,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,3 +611,6 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 4f042b88 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 712617d3 (.)

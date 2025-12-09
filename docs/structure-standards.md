@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -52,6 +53,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Standard di Struttura nel Modulo Notify
 
 ## Directory Principali e Convenzioni di Denominazione
@@ -70,6 +73,7 @@
 Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,10 +304,13 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SmsData.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -578,6 +585,8 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
 ```
 
 ### ❌ ERRATO: ALTERNATIVE COMUNI MA ERRATE
@@ -670,6 +679,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Data*"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
@@ -956,6 +966,9 @@ find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 =======
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> 9721a5b2 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
+>>>>>>> 712617d3 (.)
 ```
 
 Questo restituirà:
@@ -1029,6 +1042,7 @@ Questo restituirà:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SMS
 =======
@@ -1383,6 +1397,10 @@ Questo restituirà:
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
 >>>>>>> 9721a5b2 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
+>>>>>>> 712617d3 (.)
 ```
 
 ## Esempi di Importazioni Corrette
@@ -1465,6 +1483,7 @@ class MyPage extends Modules\Xot\Filament\Pages\XotBasePage {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1505,3 +1524,5 @@ class MyPage extends Modules\Xot\Filament\Pages\XotBasePage {}
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
