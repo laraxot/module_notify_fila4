@@ -605,6 +605,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1260,3 +1261,8 @@ class TestData
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [PHPUnit](https://phpunit.de/)
+- [Laravel Dusk](https://laravel.com/docs/dusk) 
+>>>>>>> 1442e291 (rebase 210)

@@ -144,6 +144,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -439,6 +440,9 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 1442e291 (rebase 210)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email

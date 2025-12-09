@@ -940,6 +940,7 @@ class MailMigrationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1595,3 +1596,8 @@ class MailMigrationDebugger
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Migrations](https://laravel.com/docs/migrations)
+- [Laravel Schema](https://laravel.com/docs/schema)
+- [Laravel Commands](https://laravel.com/docs/artisan) 
+>>>>>>> 1442e291 (rebase 210)

@@ -130,6 +130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di <nome progetto> con i diversi client email.
 =======
 Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di  con i diversi client email.
@@ -417,6 +418,9 @@ Questo documento fornisce linee guida dettagliate per garantire la massima compa
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di SaluteOra con i diversi client email.
+>>>>>>> 1442e291 (rebase 210)
 
 ## Compatibilità Client Email
 
