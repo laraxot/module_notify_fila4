@@ -27,6 +27,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -139,15 +140,13 @@ use Override;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+use Override;
+>>>>>>> 2941b0bd (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Eloquent;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -177,10 +176,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property int|null $logo_height
  * @property array $view_params
  * @property array $logo
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property Model|Eloquent $linkable
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
@@ -214,44 +209,6 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
-<<<<<<< HEAD
-=======
-=======
- * @property Model|\Eloquent $linkable
- * @property MediaCollection<int, \Modules\Media\Models\Media> $media
- * @property int|null $media_count
- * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme query()
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereBody($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereBodyHtml($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereCreatedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereFrom($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereFromEmail($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLang($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoHeight($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoSrc($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoWidth($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme wherePostId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme wherePostType($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereSubject($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereTheme($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereType($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereUpdatedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereViewParams($value)
- * @property \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property \Modules\Xot\Contracts\ProfileContract|null $updater
- * @mixin \Eloquent
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedBy($value)
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
  * @mixin IdeHelperNotifyTheme
  * @mixin Eloquent
  */
@@ -304,6 +261,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -429,6 +387,9 @@ class NotifyTheme extends BaseModel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 2941b0bd (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -470,6 +431,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -584,6 +546,9 @@ class NotifyTheme extends BaseModel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+    #[Override]
+>>>>>>> 2941b0bd (.)
     protected function casts(): array
     {
         return [
@@ -615,6 +580,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -823,6 +789,11 @@ class NotifyTheme extends BaseModel
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+>>>>>>> 2941b0bd (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
             'view_params' => 'array',
         ];

@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -53,6 +54,8 @@
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 declare(strict_types=1);
 
 
@@ -136,28 +139,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\MailTemplateVersion;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-
-=======
->>>>>>> a12f125f4a (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> b93ef594b4 (.)
-namespace Modules\Notify\Database\Factories;
-
-use Modules\Notify\Models\MailTemplateVersion;
-=======
-namespace Modules\Notify\Database\Factories;
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class MailTemplateVersionFactory extends Factory
@@ -165,15 +146,7 @@ class MailTemplateVersionFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
-<<<<<<< HEAD
     protected $model = MailTemplateVersion::class;
-=======
-<<<<<<< HEAD
-    protected $model = MailTemplateVersion::class;
-=======
-    protected $model = \Modules\Notify\Models\MailTemplateVersion::class;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -206,6 +179,7 @@ class MailTemplateVersionFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -303,3 +277,5 @@ class MailTemplateVersionFactory extends Factory
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
