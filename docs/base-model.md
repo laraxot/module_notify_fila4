@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -106,6 +107,8 @@
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
 # BaseModel del Modulo Notify
 
 ## Panoramica
@@ -222,6 +225,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -277,11 +281,14 @@ class NotificationTemplate extends BaseModel
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> b99af5a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +419,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -426,6 +435,7 @@ class NotificationTemplate extends BaseModel
 3. Il namespace non include il segmento `app`
 4. Le funzionalità comuni vanno implementate qui
 5. La documentazione va mantenuta aggiornata 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,3 +547,5 @@ class NotificationTemplate extends BaseModel
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)

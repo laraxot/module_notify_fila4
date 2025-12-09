@@ -254,6 +254,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -486,6 +487,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -609,6 +612,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -761,6 +765,9 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 =======
 >>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Pagine](../../../../project_docs/architecture/pages.md)
 
@@ -768,6 +775,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseListRecords](../../Xot/project_docs/filament-pages.md#XotBaseListRecords)
 - [XotBaseCreateRecord](../../Xot/project_docs/filament-pages.md#XotBaseCreateRecord)
 - [XotBaseEditRecord](../../Xot/project_docs/filament-pages.md#XotBaseEditRecord)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1113,6 +1121,9 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
 - [NotificationTemplateResource](./filament-resources.md)
 
 ## Note Importanti
@@ -1121,6 +1132,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 2. Non si sovrascrivono metodi se non necessario
 3. Si mantiene la coerenza con il resto del sistema
 4. La documentazione va mantenuta aggiornata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1497,3 +1509,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)

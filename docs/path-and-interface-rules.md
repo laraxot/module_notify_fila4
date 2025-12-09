@@ -143,6 +143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -215,10 +216,14 @@
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> b99af5a8 (.)
 =======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f3086887 (rebase 210)
+=======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,6 +437,8 @@
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email
