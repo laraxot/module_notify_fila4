@@ -201,7 +201,7 @@ class SendSpatieEmailPage extends XotBasePage
 =======
     public ?array $emailData = [];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
 >>>>>>> 510e6e8b (.)
     protected string $view = 'notify::filament.pages.send-email';

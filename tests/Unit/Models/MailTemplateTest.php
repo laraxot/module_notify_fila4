@@ -808,6 +808,8 @@ use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 >>>>>>> 2941b0bd (.)
 
+use function Safe\json_encode;
+
 class MailTemplateTest extends TestCase
 {
     use RefreshDatabase;
