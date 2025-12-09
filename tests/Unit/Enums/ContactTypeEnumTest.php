@@ -73,21 +73,12 @@ class ContactTypeEnumTest extends TestCase
     /** @test */
     public function get_form_schema_returns_text_inputs(): void
     {
-<<<<<<< HEAD
         $form = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($form);
         $this->assertCount(6, $form);
 
         foreach ($form as $component) {
-=======
-        $schema = ContactTypeEnum::getFormSchema();
-
-        $this->assertIsArray($schema);
-        $this->assertCount(6, $schema);
-
-        foreach ($schema as $component) {
->>>>>>> b8140d8 (.)
             $this->assertInstanceOf(TextInput::class, $component);
         }
     }
