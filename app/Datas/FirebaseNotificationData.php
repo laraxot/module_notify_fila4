@@ -8,8 +8,6 @@ use Illuminate\Support\Str;
 use Modules\Xot\Datas\XotData;
 use Spatie\LaravelData\Data;
 
-use function Safe\json_encode;
-
 class FirebaseNotificationData extends Data
 {
     public string $type; // ' => $data['type'],

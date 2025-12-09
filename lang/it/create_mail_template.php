@@ -154,6 +154,17 @@ return [
         ],
         'cancel' => [
             'label' => 'cancel',
+            'tooltip' => 'cancel',
+        ],
+        'logout' => [
+            'tooltip' => 'logout',
+            'icon' => 'logout',
+            'label' => 'logout',
+        ],
+        'profile' => [
+            'tooltip' => 'profile',
+            'icon' => 'profile',
+            'label' => 'profile',
         ],
     ],
 ];
