@@ -102,6 +102,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -166,11 +167,14 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/docs/XotBaseModel.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,6 +356,8 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti

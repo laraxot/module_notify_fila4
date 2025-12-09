@@ -4,20 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 use Modules\Xot\Contracts\ProfileContract;
-=======
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Contracts\ProfileContract;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
 
@@ -34,6 +26,7 @@ use Illuminate\Support\Carbon;
  * @property int|null $notify_theme_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -42,6 +35,8 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -65,6 +60,7 @@ use Illuminate\Support\Carbon;
  *
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
 =======
@@ -95,6 +91,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotifyThemeable
  * @mixin \Eloquent
  */

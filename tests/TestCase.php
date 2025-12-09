@@ -40,6 +40,7 @@ namespace Modules\Notify\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -72,29 +73,14 @@ namespace Modules\Notify\Tests;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
 use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 use Modules\Notify\Providers\NotifyServiceProvider;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Foundation\Application;
-use Modules\Notify\Providers\NotifyServiceProvider;
-=======
-use Modules\Notify\Providers\NotifyServiceProvider;
-use Illuminate\Foundation\Application;
->>>>>>> a12f125f4a (.)
-=======
-use Illuminate\Foundation\Application;
-use Modules\Notify\Providers\NotifyServiceProvider;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 >>>>>>> 99ff506 (.)
 use Modules\Xot\Tests\CreatesApplication;
@@ -203,6 +189,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -396,6 +383,9 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -403,6 +393,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Get package providers.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param  Application  $app
@@ -419,20 +410,15 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+     * @param Application $app
+>>>>>>> f5f1cb1 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array
     {
         return [
-<<<<<<< HEAD
             NotifyServiceProvider::class,
-=======
-<<<<<<< HEAD
-            NotifyServiceProvider::class,
-=======
-            \Modules\Notify\Providers\NotifyServiceProvider::class,
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ];
     }
 }
