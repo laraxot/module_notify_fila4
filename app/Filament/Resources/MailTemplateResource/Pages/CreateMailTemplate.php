@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -109,6 +110,10 @@
 >>>>>>> 4c323e61 (.)
 =======
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -137,6 +142,7 @@ use Filament\Actions;
 >>>>>>> 75179b85 (.)
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +225,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> 9cdf6146 (.)
 =======
+>>>>>>> 80f054e0 (.)
+=======
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Filament\Actions;
@@ -235,6 +243,7 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -330,6 +339,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
 
 class CreateMailTemplate extends LangBaseCreateRecord
 {

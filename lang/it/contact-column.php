@@ -33,6 +33,15 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+ *
+ * File di traduzione per la colonna riutilizzabile ContactColumn
+ * che utilizza ContactTypeEnum per il rendering centralizzato.
+ *
+>>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> ba564870 (.)
 =======
@@ -233,6 +242,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,6 +345,10 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9cdf6146 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
  * @author Laraxot Team
  *
  * @version 1.0
