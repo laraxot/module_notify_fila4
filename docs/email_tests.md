@@ -610,6 +610,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -702,6 +703,8 @@ class TestData
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
@@ -709,6 +712,7 @@ class TestData
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/project_docs/dusk) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1275,3 +1279,6 @@ class TestData
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)

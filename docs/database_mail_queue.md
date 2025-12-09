@@ -372,6 +372,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -843,6 +844,11 @@ $users->each(function ($user) {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -945,6 +951,7 @@ $this->call('queue:prune-batches', [
 ### 1. Orizzontale
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2274,11 +2281,23 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
+=======
+>>>>>>> 229a065a (rebase 210)
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 >>>>>>> fdb24863 (rebase 210)
+=======
+=======
+
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
 autostart=true
 autorestart=true
 numprocs=4
@@ -2360,6 +2379,7 @@ if ($failedJobs > $threshold) {
 ### 1. Pulizia
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2952,6 +2972,11 @@ if ($failedJobs > $threshold) {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -3335,6 +3360,7 @@ php artisan queue:restart
 ## Vedi Anche
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Horizon Documentation](https://laravel.com/docs/horizon)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3987,3 +4013,8 @@ php artisan queue:restart
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> fdb24863 (rebase 210)
+=======
+- [Redis Documentation](https://redis.io/documentation)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
