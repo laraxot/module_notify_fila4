@@ -29,6 +29,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -144,6 +145,9 @@ use Modules\Notify\Datas\TelegramData;
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+ *
+>>>>>>> 161887a2 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider Telegram devono rispettare.
  */
@@ -177,6 +181,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -292,3 +297,6 @@ interface TelegramProviderActionInterface
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+}
+>>>>>>> 161887a2 (.)
