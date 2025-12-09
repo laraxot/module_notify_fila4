@@ -878,8 +878,12 @@ final class WhatsAppActionFactory
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (!is_string($normalizedDriver)) {
+=======
+        if (! is_string($normalizedDriver)) {
+>>>>>>> 0c46ff7 (.)
             $normalizedDriver = '';
         }
 
