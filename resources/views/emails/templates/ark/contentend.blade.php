@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -24,6 +25,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1fd232c7 (.)
 <?php
 
 declare(strict_types=1);
@@ -128,8 +131,11 @@ declare(strict_types=1);
 >>>>>>> c8eedbbb (.)
 =======
 </div>
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 1fd232c7 (.)
 					</td>
 				</tr>
 			</tbody>
@@ -139,6 +145,7 @@ declare(strict_types=1);
 </tr>
 <tr>
 	<td colspan="3" height="30"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,3 +259,6 @@ declare(strict_types=1);
 >>>>>>> c8eedbbb (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+</tr>
+>>>>>>> 1fd232c7 (.)
