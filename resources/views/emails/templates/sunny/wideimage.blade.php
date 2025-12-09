@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -740,12 +741,15 @@ declare(strict_types=1);
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+=======
+>>>>>>> 878ac14d (rebase 210)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1302,3 +1306,6 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
+=======
+</tr>
+>>>>>>> 878ac14d (rebase 210)

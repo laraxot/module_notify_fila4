@@ -88,6 +88,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -739,6 +740,9 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+=======
+e width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 878ac14d (rebase 210)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -840,6 +844,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1287,3 +1292,6 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 878ac14d (rebase 210)
