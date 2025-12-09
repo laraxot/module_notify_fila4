@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -154,6 +155,8 @@
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -229,6 +232,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -458,10 +462,13 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
     protected static string $resource = MailTemplateResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -684,4 +691,6 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
 }

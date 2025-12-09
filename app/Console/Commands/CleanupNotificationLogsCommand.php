@@ -42,11 +42,18 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 <<<<<<< HEAD
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
+<<<<<<< HEAD
 =======
 use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+>>>>>>> 12f2f7e (.)
+>>>>>>> 4e4a7796 (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
