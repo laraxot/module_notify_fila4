@@ -132,6 +132,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -406,6 +407,9 @@ $attachments = [
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> c7a4727b (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
@@ -477,6 +481,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
@@ -751,6 +756,9 @@ $attachments = [
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> c7a4727b (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],

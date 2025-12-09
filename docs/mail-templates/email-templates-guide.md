@@ -134,6 +134,7 @@ Questa guida descrive i template email responsive disponibili nel modulo Notify,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 =======
 I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
@@ -400,6 +401,9 @@ I template email responsive di SaluteOra sono progettati per offrire una comunic
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> c7a4727b (.)
 
 - **Responsive**: ottimizzati per qualsiasi dispositivo (desktop, tablet, mobile)
 - **Accessibili**: strutturati per garantire accessibilità secondo gli standard WCAG
@@ -571,6 +575,7 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
 <<<<<<< HEAD
 =======
@@ -837,6 +842,9 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> c7a4727b (.)
 | `$contact_phone` | Telefono di contatto | "+39 06 1234567" |
 | `$office_hours` | Orari ufficio | "Lun-Ven: 9:00-19:00, Sab: 9:00-13:00" |
 
