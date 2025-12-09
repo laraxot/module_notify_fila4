@@ -160,6 +160,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
@@ -211,6 +212,8 @@ $attachments = [
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 503981fd (.)
+=======
+>>>>>>> 3b4c9907 (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -218,6 +221,7 @@ $attachments = [
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 >>>>>>> bf479cc (.)
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -898,6 +902,11 @@ $attachments = [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+=======
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],

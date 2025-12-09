@@ -529,6 +529,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1005,6 +1006,11 @@ class MailTemplateSecurityTest extends TestCase
 
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -1035,6 +1041,7 @@ php artisan test --coverage --filter=MailTemplate
 
 ## Collegamenti
 - [Database Mail System](database-mail-system.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1384,6 +1391,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 3b4c9907 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -1438,6 +1447,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1610,6 +1620,8 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
+>>>>>>> 3b4c9907 (.)
+=======
 - [Testing Guide](../../../project_docs/testing-guide.md)
 - [CI/CD Pipeline](../../../project_docs/ci-cd.md)
 
@@ -1617,6 +1629,7 @@ php artisan test --coverage --filter=MailTemplate
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2049,3 +2062,5 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
