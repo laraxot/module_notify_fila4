@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
+=======
+use Filament\Facades\Filament\Schemas\Schema;
+>>>>>>> c0c6523 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -129,12 +133,21 @@ class SendEmailPage extends XotBasePage
             'section' => Section::make()
                 // ->description('Update your account\'s profile information and email address.')
                 ->schema([
+<<<<<<< HEAD
                     TextInput::make('to')
                         // ->unique(ignoreRecord: true)
                         ->email()
                         ->required(),
                     TextInput::make('subject')->required(),
                     RichEditor::make('body_html')->required(),
+=======
+                    'to' => TextInput::make('to')
+                        // ->unique(ignoreRecord: true)
+                        ->email()
+                        ->required(),
+                    'subject' => TextInput::make('subject')->required(),
+                    'body_html' => RichEditor::make('body_html')->required(),
+>>>>>>> c0c6523 (.)
                 ]),
         ];
     }
