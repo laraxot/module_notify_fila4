@@ -187,6 +187,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -345,6 +346,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> f9ec4f86 (.)
 =======
 >>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 3ee54c5d (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -431,6 +434,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -534,6 +538,9 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 =======
 >>>>>>> eb71492d (.)
+=======
+=======
+>>>>>>> 3ee54c5d (.)
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Pagine](../../../../project_docs/architecture/pages.md)
 
@@ -541,6 +548,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseListRecords](../../Xot/project_docs/filament-pages.md#XotBaseListRecords)
 - [XotBaseCreateRecord](../../Xot/project_docs/filament-pages.md#XotBaseCreateRecord)
 - [XotBaseEditRecord](../../Xot/project_docs/filament-pages.md#XotBaseEditRecord)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +784,9 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> f9ec4f86 (.)
 =======
 >>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
 - [NotificationTemplateResource](./filament-resources.md)
 
 ## Note Importanti
