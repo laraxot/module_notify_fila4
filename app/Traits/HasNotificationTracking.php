@@ -44,11 +44,19 @@ trait HasNotificationTracking
             '/<a\s+(?:[^>]*?\s+)?href=(["\'])(.*?)\1/i',
             function ($matches) use ($trackingId) {
                 $url = $matches[2];
+<<<<<<< HEAD
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
                         !Str::startsWith($url, ['http://', 'https://'])
+=======
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
+>>>>>>> b19cd40 (.)
                 ) {
                     return $matches[0];
                 }
@@ -60,7 +68,11 @@ trait HasNotificationTracking
 
                 return str_replace($url, $trackingUrl, $matches[0]);
             },
+<<<<<<< HEAD
             $html,
+=======
+            $html
+>>>>>>> b19cd40 (.)
         );
     }
 
@@ -117,4 +129,8 @@ trait HasNotificationTracking
     {
         return $this->isTrackingEnabled() && config('notify.tracking.links.enabled', false);
     }
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> b19cd40 (.)
