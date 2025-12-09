@@ -1037,11 +1037,15 @@ class NotificationTemplateResource extends XotBaseResource
     #[Override]
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+        return array_values([
+>>>>>>> cca10a64 (.)
             'name' => TextInput::make('name')
 =======
             TextInput::make('name')
@@ -1150,8 +1154,7 @@ class NotificationTemplateResource extends XotBaseResource
                 ->acceptedFileTypes(['application/pdf', 'image/*'])
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.attachments.helper')),
-        ];
-    }
+        ]);}
 
 <<<<<<< HEAD
 <<<<<<< HEAD

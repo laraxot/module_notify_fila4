@@ -109,6 +109,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -796,6 +797,8 @@ declare(strict_types=1);
 >>>>>>> eb71492d (.)
 =======
 >>>>>>> f9ec4f86 (.)
+=======
+>>>>>>> cca10a64 (.)
                         </div>
                     @endforeach
                 </div>

@@ -886,6 +886,7 @@ $this->call('queue:prune-batches', [
 >>>>>>> 59916c8f (.)
 # Supervisor config
 <<<<<<< HEAD
+<<<<<<< HEAD
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
@@ -1576,6 +1577,8 @@ process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis --queue=emails
 >>>>>>> bf479cc (.)
 >>>>>>> eb71492d (.)
+=======
+>>>>>>> cca10a64 (.)
 autostart=true
 autorestart=true
 numprocs=4
