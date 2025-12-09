@@ -268,7 +268,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 2941b0bd (.)
  * @author Laraxot Team
+ *
  * @version 1.0
+ *
  * @since 2025-08-01
  */
 return [

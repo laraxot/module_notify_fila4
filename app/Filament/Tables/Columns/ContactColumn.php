@@ -420,7 +420,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
  *
 >>>>>>> 2941b0bd (.)
  * @author Laraxot Team
+ *
  * @version 2.0 - REFACTOR COMPLETO
+ *
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn

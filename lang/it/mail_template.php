@@ -99,7 +99,6 @@
 >>>>>>> 2941b0bd (.)
 declare(strict_types=1);
 
-
 return [
     'resource' => [
         'name' => 'Template Email',
