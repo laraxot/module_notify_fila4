@@ -37,12 +37,15 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
@@ -372,14 +375,10 @@ class ContactResource extends XotBaseResource
 >>>>>>> 95531e1 (.)
 =======
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 use Filament\Schemas\Components\Component;
 use Override;
-=======
->>>>>>> b19cd40 (.)
-=======
-use Filament\Schemas\Components\Component;
-use Override;
->>>>>>> 4e2ebfb (.)
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
@@ -392,15 +391,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ContactResource extends XotBaseResource
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected static null|string $model = Contact::class;
-=======
-    protected static ?string $model = Contact::class;
->>>>>>> b19cd40 (.)
-=======
-    protected static null|string $model = Contact::class;
->>>>>>> 4e2ebfb (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 >>>>>>> 99ff506 (.)
@@ -409,6 +400,7 @@ class ContactResource extends XotBaseResource
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -644,6 +636,11 @@ class ContactResource extends XotBaseResource
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+     * @return array<string, Component>
+     */
+    #[Override]
+>>>>>>> 888799d0 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -689,6 +686,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -817,11 +815,15 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+    #[Override]
+>>>>>>> 888799d0 (.)
     public static function getRelations(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -974,6 +976,9 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+    #[Override]
+>>>>>>> 888799d0 (.)
     public static function getPages(): array
     {
         return [
