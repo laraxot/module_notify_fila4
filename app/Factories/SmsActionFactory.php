@@ -7,7 +7,7 @@ namespace Modules\Notify\Factories;
 use Exception;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Contracts\SmsActionContract;
 
 /**
  * Factory per la creazione di azioni SMS.
