@@ -149,11 +149,12 @@ class SendTelegramPage extends XotBasePage implements HasForms
     public function getTelegramFormSchema(): array
     {
         return [
-            'chat_id' => TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
-            'text' => TextInput::make('text')
+            TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
+            TextInput::make('text')
                 ->required()
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
+<<<<<<< HEAD
             'driver' => Select::make('driver')
 =======
 =======
@@ -257,12 +258,16 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            Select::make('driver')
+>>>>>>> 2cbbc069 (.)
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
                 ])
                 ->default('bot')
                 ->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,12 +333,16 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             Select::make('parse_mode')
 >>>>>>> 3f537838 (.)
+=======
+            Select::make('parse_mode')
+>>>>>>> 2cbbc069 (.)
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
                     'MarkdownV2' => 'MarkdownV2',
                 ])
                 ->helperText('Formato del testo (opzionale)'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,6 +529,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+>>>>>>> 2cbbc069 (.)
                 ->options([
                     'photo' => 'Foto',
                     'video' => 'Video',
@@ -527,6 +545,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                     'audio' => 'Audio',
                 ])
                 ->helperText('Tipo di media (opzionale)'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,6 +720,9 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 >>>>>>> 3f537838 (.)
+=======
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+>>>>>>> 2cbbc069 (.)
         ];
     }
 

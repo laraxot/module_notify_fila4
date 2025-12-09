@@ -226,6 +226,21 @@ use Modules\Xot\Traits\Updater;
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
+=======
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
+ * @method static Builder<static>|NotificationTemplateVersion newQuery()
+ * @method static Builder<static>|NotificationTemplateVersion query()
+ * @mixin \Eloquent
+ */
+>>>>>>> 2cbbc069 (.)
 class NotificationTemplateVersion extends BaseModel
 {
     use Updater;
@@ -664,6 +679,7 @@ class NotificationTemplateVersion extends BaseModel
             'conditions' => $this->conditions ?? null,
         ]);
 
+        /** @var NotificationTemplate */
         return $template;
     }
 <<<<<<< HEAD

@@ -362,10 +362,11 @@ class SendNotificationAction
         $compiled = $template->compile($data);
 
         // Determina i canali da utilizzare
-        $effectiveChannels = $channels ?: /** @phpstan-ignore-line property.notFound */ $template->channels;
+        /* @phpstan-ignore-next-line property.notFound */
+        $effectiveChannels = $channels ?: $template->channels;
 
         // Processa ogni canale
-        /** @phpstan-ignore-next-line foreach.nonIterable */
+        /* @phpstan-ignore-next-line foreach.nonIterable */
         foreach ($effectiveChannels as $channel) {
 <<<<<<< HEAD
 <<<<<<< HEAD

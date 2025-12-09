@@ -226,6 +226,22 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
+=======
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read Model|\Eloquent $mailable
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\MailTemplateLogFactory factory($count = null, $state = [])
+ * @method static Builder<static>|MailTemplateLog newModelQuery()
+ * @method static Builder<static>|MailTemplateLog newQuery()
+ * @method static Builder<static>|MailTemplateLog query()
+ * @mixin \Eloquent
+ */
+>>>>>>> 2cbbc069 (.)
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [
