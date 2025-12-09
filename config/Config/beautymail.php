@@ -46,6 +46,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -124,10 +125,13 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0b399d7 (.)
+=======
+>>>>>>> 31b9519 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2773,6 +2777,7 @@ return [
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> 01afecf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -3286,6 +3291,10 @@ return [
 >>>>>>> 518c702 (.)
 >>>>>>> 01afecf (.)
 >>>>>>> fdb24863 (rebase 210)
+=======
+=======
+>>>>>>> 31b9519 (.)
+>>>>>>> 7efe49a4 (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -3527,6 +3536,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7efe49a4 (rebase 210)
 =======
 
 >>>>>>> fdb24863 (rebase 210)
@@ -4565,6 +4578,7 @@ return [
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> 01afecf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fdb24863 (rebase 210)
@@ -5103,6 +5117,10 @@ return [
 >>>>>>> 878ac14d (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+=======
+>>>>>>> 31b9519 (.)
+>>>>>>> 7efe49a4 (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -5343,6 +5361,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7efe49a4 (rebase 210)
 =======
 
 >>>>>>> fdb24863 (rebase 210)
@@ -6385,6 +6407,7 @@ return [
 >>>>>>> 01afecf (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fdb24863 (rebase 210)
 =======
 =======
@@ -6914,6 +6937,10 @@ return [
 >>>>>>> 878ac14d (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+=======
+>>>>>>> 31b9519 (.)
+>>>>>>> 7efe49a4 (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -7155,6 +7182,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7efe49a4 (rebase 210)
 =======
 
 >>>>>>> fdb24863 (rebase 210)
@@ -8197,6 +8228,7 @@ return [
 >>>>>>> 01afecf (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fdb24863 (rebase 210)
 =======
 =======
@@ -8728,6 +8760,10 @@ return [
 >>>>>>> 878ac14d (rebase 210)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+=======
+>>>>>>> 31b9519 (.)
+>>>>>>> 7efe49a4 (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
