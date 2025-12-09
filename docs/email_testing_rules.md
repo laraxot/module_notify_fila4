@@ -329,6 +329,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -899,6 +900,10 @@ public function sendEmail(): void
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> b99af5a8 (.)
+=======
+- [Best Practices Laravel](https://laravel.com/docs/best-practices)
+- [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
+>>>>>>> 9721a5b2 (.)
 
 ## 📝 Note
 
@@ -915,6 +920,7 @@ public function sendEmail(): void
 ### Zen
 - Semplificare dove possibile
 - Mantenere l'equilibrio tra funzionalità e complessità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1281,3 +1287,5 @@ public function sendEmail(): void
 - Seguire il principio "meno è più" 
 >>>>>>> bf479cc (.)
 >>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)

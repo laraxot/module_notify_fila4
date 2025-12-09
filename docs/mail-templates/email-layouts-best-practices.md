@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di <nome progetto>.
 =======
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di .
@@ -389,6 +390,9 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 >>>>>>> c7a4727b (.)
 =======
 >>>>>>> b99af5a8 (.)
+=======
+Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di SaluteOra.
+>>>>>>> 9721a5b2 (.)
 
 ## Indice
 
@@ -471,6 +475,7 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 =======
  utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
@@ -746,6 +751,9 @@ SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e ge
 >>>>>>> c7a4727b (.)
 =======
 >>>>>>> b99af5a8 (.)
+=======
+SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
+>>>>>>> 9721a5b2 (.)
 
 1. **Layout HTML base**: Struttura generale dell'email (`resources/mail-layouts/*.html`)
 2. **Contenuto dei template**: Contenuto specifico memorizzato nel database (tabella `mail_templates`)
