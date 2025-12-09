@@ -16,6 +16,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -26,6 +27,8 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
@@ -61,21 +64,6 @@ use Override;
 >>>>>>> 9777d1b3 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Filters\SelectFilter;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
@@ -92,6 +80,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -193,10 +182,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> 3f537838 (.)
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +237,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -253,6 +249,7 @@ class ListNotifyThemes extends XotBaseListRecords
             'post_id' => TextColumn::make('post_id')->sortable(),
             'post_type' => TextColumn::make('post_type')->sortable(),
             'logo_src' => TextColumn::make('logo_src')->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,42 +342,20 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: true),
             'updated_at' => TextColumn::make('updated_at')
-<<<<<<< HEAD
-=======
-=======
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => Columns\TextColumn::make('id')
-                ->sortable(),
-            'lang' => Columns\TextColumn::make('lang')
-                ->sortable(),
-            'type' => Columns\TextColumn::make('type')
-                ->sortable(),
-            'post_id' => Columns\TextColumn::make('post_id')
-                ->sortable(),
-            'post_type' => Columns\TextColumn::make('post_type')
-                ->sortable(),
-            'logo_src' => Columns\TextColumn::make('logo_src')
-                ->sortable(),
-            'created_at' => Columns\TextColumn::make('created_at')
-                ->dateTime()
-                ->sortable()
-                ->toggleable(isToggledHiddenByDefault: true),
-            'updated_at' => Columns\TextColumn::make('updated_at')
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: true),
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,6 +402,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     #[Override]
     public function getTableFilters(): array
     {
@@ -442,6 +419,7 @@ class ListNotifyThemes extends XotBaseListRecords
             ),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,4 +551,6 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 }

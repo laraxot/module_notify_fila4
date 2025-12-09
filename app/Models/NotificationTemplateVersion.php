@@ -16,6 +16,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -50,10 +51,13 @@ namespace Modules\Notify\Models;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,36 +112,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
-=======
-=======
-use RuntimeException;
-use Modules\User\Models\Profile;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
->>>>>>> a12f125f4a (.)
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use RuntimeException;
-use Modules\User\Models\Profile;
->>>>>>> b93ef594b4 (.)
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
-use Illuminate\Database\Eloquent\Builder;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Xot\Traits\Updater;
 
 // BaseModel in same namespace provides common behaviors
 /**
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property-read Profile|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
@@ -147,20 +131,6 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
-<<<<<<< HEAD
-=======
-=======
- * @property-read \Modules\User\Models\Profile|null $creator
- * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
- * @property-read int|null $media_count
- * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
- * @property-read \Modules\User\Models\Profile|null $updater
- * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplateVersion newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplateVersion newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplateVersion query()
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
@@ -198,6 +168,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -261,6 +232,9 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
     protected function casts(): array
     {
         return [
@@ -278,6 +252,7 @@ class NotificationTemplateVersion extends BaseModel
     public function restore(): NotificationTemplate
     {
         $template = $this->template;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,11 +299,14 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,6 +391,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -424,6 +404,7 @@ class NotificationTemplateVersion extends BaseModel
 
         return $template;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,3 +487,6 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+}
+>>>>>>> 3f537838 (.)

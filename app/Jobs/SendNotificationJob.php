@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Jobs;
 
-<<<<<<< HEAD
 use Throwable;
-=======
-<<<<<<< HEAD
-use Throwable;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -85,6 +78,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -119,6 +113,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -127,6 +123,7 @@ class SendNotificationJob implements ShouldQueue
         $timeoutConfig = config('notify.queue.retry_after', 60);
         $this->timeout = is_numeric($timeoutConfig) ? ((int) $timeoutConfig) : 60;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +216,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -228,6 +227,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,28 +329,18 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 3f537838 (.)
     }
 
     /**
      * Gestisce un fallimento del job.
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
      * @param Throwable $exception
      * @return void
      */
     public function failed(Throwable $exception): void
-<<<<<<< HEAD
-=======
-=======
-     * @param \Throwable $exception
-     * @return void
-     */
-    public function failed(\Throwable $exception): void
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     {
         // Log dell'errore
         logger()->error('Errore nell\'invio della notifica', [
@@ -361,6 +351,7 @@ class SendNotificationJob implements ShouldQueue
             'trace' => $exception->getTraceAsString(),
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -443,3 +434,6 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+}
+>>>>>>> 3f537838 (.)

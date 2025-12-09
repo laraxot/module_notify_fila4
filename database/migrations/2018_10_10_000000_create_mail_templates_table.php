@@ -21,6 +21,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -91,6 +92,9 @@ return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 3f537838 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -98,6 +102,7 @@ return new class() extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +154,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('mailable');
@@ -156,10 +163,6 @@ return new class() extends XotBaseMigration {
             $table->longText('html_template');
             $table->longText('text_template')->nullable();
         });
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -168,6 +171,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,5 +273,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     }
 };

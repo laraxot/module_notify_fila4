@@ -8,7 +8,6 @@ use Filament\Clusters\Cluster;
 
 class Test extends Cluster
 {
-<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,6 +21,7 @@ class Test extends Cluster
 =======
 >>>>>>> 207ac35e (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -84,6 +84,8 @@ class Test extends Cluster
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     // protected static ?string $navigationParentItem = 'Notifications';
     // protected static ?string $navigationGroup = 'Settings';
 }

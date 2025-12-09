@@ -31,6 +31,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -104,6 +105,9 @@ trait HasTenantNotifications
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
+>>>>>>> 3f537838 (.)
     }
 
     /**
@@ -125,6 +129,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -198,6 +203,9 @@ trait HasTenantNotifications
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        return $this->notifications()->whereNull('read_at');
+>>>>>>> 3f537838 (.)
     }
 
     /**
@@ -219,6 +227,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -292,6 +301,9 @@ trait HasTenantNotifications
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        return $this->notifications()->whereNotNull('read_at');
+>>>>>>> 3f537838 (.)
     }
 
     /**
@@ -313,6 +325,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -420,6 +433,11 @@ trait HasTenantNotifications
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
+    {
+        $tenantId ??= $this->getTenantId();
+>>>>>>> 3f537838 (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -440,6 +458,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -510,6 +529,9 @@ trait HasTenantNotifications
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    protected function getTenantId(): null|string
+>>>>>>> 3f537838 (.)
     {
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);
@@ -568,6 +590,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -638,3 +661,6 @@ trait HasTenantNotifications
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+}
+>>>>>>> 3f537838 (.)

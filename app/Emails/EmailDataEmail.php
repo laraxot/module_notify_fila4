@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Emails;
 
-<<<<<<< HEAD
 use Illuminate\Mail\Mailables\Attachment;
-=======
-<<<<<<< HEAD
-use Illuminate\Mail\Mailables\Attachment;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
@@ -26,6 +19,7 @@ class EmailDataEmail extends Mailable
     use Queueable;
     use SerializesModels;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,12 +139,18 @@ class EmailDataEmail extends Mailable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    public function __construct(
+        public EmailData $email_data,
+    ) {}
+>>>>>>> 3f537838 (.)
 
     /**
      * Get the message envelope.
      */
     public function envelope(): Envelope
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,11 +197,14 @@ class EmailDataEmail extends Mailable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +291,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }
@@ -317,15 +322,7 @@ class EmailDataEmail extends Mailable
     /**
      * Get the attachments for the message.
      *
-<<<<<<< HEAD
      * @return array<int, Attachment>
-=======
-<<<<<<< HEAD
-     * @return array<int, Attachment>
-=======
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
      */
     public function attachments(): array
     {
