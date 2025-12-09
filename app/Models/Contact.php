@@ -1061,6 +1061,7 @@ use Illuminate\Support\Carbon;
  * @property-read MediaCollection<int, \Modules\Media\Models\Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Notify\Database\Factories\ContactFactory factory($count = null, $state = [])
  * @method static Builder<static>|Contact newModelQuery()
  * @method static Builder<static>|Contact newQuery()
@@ -1079,6 +1080,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Contact whereUserId($value)
  * @method static Builder<static>|Contact whereValue($value)
  * @method static Builder<static>|Contact whereVerifiedAt($value)
+ *
  * @mixin \Eloquent
  */
 >>>>>>> 2cbbc069 (.)
