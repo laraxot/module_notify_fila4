@@ -581,6 +581,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -983,3 +984,8 @@ return [
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> bf479cc (.)
 >>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+>>>>>>> d38aa9d2 (rebase 210)
