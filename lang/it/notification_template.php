@@ -130,11 +130,17 @@ return [
     'actions' => [
         'preview' => 'Anteprima',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'openColumnManager' => [
             'tooltip' => 'openColumnManager',
         ],
 =======
 >>>>>>> 99ff506 (.)
+=======
+        'openColumnManager' => [
+            'tooltip' => 'openColumnManager',
+        ],
+>>>>>>> a7355f9 (.)
     ],
     'enums' => [
         'notification_type' => [

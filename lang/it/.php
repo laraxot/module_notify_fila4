@@ -8,6 +8,9 @@ return [
         'group' => 'Sistema',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a7355f9 (.)
     'actions' => [
         'logout' => [
             'tooltip' => 'logout',
@@ -15,6 +18,9 @@ return [
             'label' => 'logout',
         ],
     ],
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> a7355f9 (.)
 ];

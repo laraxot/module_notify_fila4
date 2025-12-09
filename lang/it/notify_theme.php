@@ -293,12 +293,18 @@ return [
             ],
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a7355f9 (.)
         'logout' => [
             'tooltip' => 'logout',
             'icon' => 'logout',
         ],
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> a7355f9 (.)
     ],
     'messages' => [
         'created' => [

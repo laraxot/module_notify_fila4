@@ -260,11 +260,15 @@ return [
             'label' => 'activeLocale',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a7355f9 (.)
         'logout' => [
             'tooltip' => 'logout',
             'icon' => 'logout',
             'label' => 'logout',
         ],
+<<<<<<< HEAD
         'profile' => [
             'tooltip' => 'profile',
             'icon' => 'profile',
@@ -287,6 +291,8 @@ return [
         ],
 =======
 >>>>>>> 99ff506 (.)
+=======
+>>>>>>> a7355f9 (.)
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',
@@ -309,9 +315,13 @@ return [
         'label' => 'mail template.model',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     'label' => 'mail template',
 =======
 >>>>>>> 99ff506 (.)
+=======
+    'label' => 'mail template',
+>>>>>>> a7355f9 (.)
 ];
 <<<<<<< HEAD
 <<<<<<< HEAD
