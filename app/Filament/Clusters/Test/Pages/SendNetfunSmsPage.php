@@ -98,6 +98,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
@@ -132,6 +133,9 @@ class SendNetfunSmsPage extends XotBasePage
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 >>>>>>> 6ded0f9 (.)
+=======
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> ccb1541 (.)
 
     protected string $view = 'notify::filament.pages.send-sms';
 
