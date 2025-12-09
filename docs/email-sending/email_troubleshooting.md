@@ -100,6 +100,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
@@ -599,6 +600,9 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+>>>>>>> 7d765981 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],

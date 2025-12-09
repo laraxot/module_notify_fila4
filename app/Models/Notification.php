@@ -318,6 +318,7 @@ use Modules\Notify\Database\Factories\NotificationFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 =======
 =======
@@ -360,6 +361,9 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Modules\Xot\Models\BaseModel;
+>>>>>>> 7d765981 (.)
 
 /**
  * Notification model for the Notify module.
@@ -383,11 +387,16 @@ use Modules\Xot\Models\BaseModel;
  * @property array<string>|string|null $channels
  * @property string|null $status
  * @property Carbon|null $sent_at
+<<<<<<< HEAD
  * @property-read Model|null $creator
  * @property-read Model|null $updater
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+ * @property Model|null $creator
+ * @property Model|null $updater
+>>>>>>> 7d765981 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -586,6 +595,7 @@ use Modules\Xot\Models\BaseModel;
  * @property string|null $deleted_by
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -602,6 +612,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
  * @mixin \Eloquent
  */
 >>>>>>> e00d798d (.)

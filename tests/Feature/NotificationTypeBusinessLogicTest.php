@@ -5966,6 +5966,10 @@ describe('Notification Type Business Logic', function () {
             ->and($type->fresh()->archived_at)
             ->not->toBeNull()->and($type->fresh()->archive_reason)->toBe(
                 'Sostituito da nuovo tipo',
+<<<<<<< HEAD
+=======
+                /** @phpstan-ignore-next-line method.nonObject */
+>>>>>>> 7d765981 (.)
             )->and($type->fresh()->replacement_type_id)->toBe(15);
 <<<<<<< HEAD
 <<<<<<< HEAD

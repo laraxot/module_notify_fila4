@@ -1,14 +1,14 @@
 <?php
 
 declare(strict_types=1);
-use function Safe\class_uses;
-
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Notify\Models\MailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
+
+use function Safe\class_uses;
 
 describe('MailTemplate Business Logic', function (): void {
     test('mail template extends spatie mail template', function (): void {
