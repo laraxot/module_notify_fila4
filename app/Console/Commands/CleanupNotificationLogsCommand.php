@@ -192,9 +192,12 @@ class CleanupNotificationLogsCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
 =======
+=======
+>>>>>>> c42c734 (.)
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted): void {
             $count = $logs->count(); /* @phpstan-ignore method.nonObject */
 >>>>>>> 05bc3ad (.)
