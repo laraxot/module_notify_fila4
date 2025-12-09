@@ -527,6 +527,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 3f537838 (.)
     }
+<<<<<<< HEAD
 
     /**
      * Marca il log come aperto.
@@ -619,4 +620,6 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 3f537838 (.)
     }
+=======
+>>>>>>> e39a6f9 (.)
 }
