@@ -12,7 +12,11 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
+<<<<<<< HEAD
 // use Modules\<nome progetto>\Models\Appointment;
+=======
+// use Modules\SaluteOra\Models\Appointment;
+>>>>>>> 6ba141fc (.)
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
@@ -51,6 +55,10 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
             default => 'Notifica Appuntamento',
         };
 
+<<<<<<< HEAD
+=======
+        // PHPStan Level 10: isset() invece di property_exists() per Eloquent magic property
+>>>>>>> 6ba141fc (.)
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
             $appointmentId = is_int($appointment->id) || is_string($appointment->id) ? $appointment->id : (string) $appointment->id;
             $subject .= ' #'.$appointmentId;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Modulo Notify - Documentazione
 
 > **Versione**: 1.1  
@@ -109,3 +110,5 @@ Documentazione di dettaglio: vedi cartella `docs/` (Email, Push, Templates, Cont
 ---
 
 **Nota**: Il modulo Notify è riutilizzabile cross-progetto. Evitare riferimenti hardcoded a domini specifici.
+=======
+>>>>>>> 6ba141fc (.)
