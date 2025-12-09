@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
 =======
@@ -208,6 +209,8 @@
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -387,6 +390,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -523,6 +527,8 @@ return [
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
+>>>>>>> c5c038f2 (rebase 210)
+=======
 return [
     /*
     |--------------------------------------------------------------------------
@@ -538,6 +544,7 @@ return [
     'default' => env('SMS_DRIVER', 'smsfactor'),
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +632,8 @@ return [
 =======
 >>>>>>> origin/develop
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
     |--------------------------------------------------------------------------
     | SMS Drivers
     |--------------------------------------------------------------------------
@@ -634,6 +643,7 @@ return [
     | Nexmo, Plivo, and Gammu.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -903,6 +913,9 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
 
     'drivers' => [
         'smsfactor' => [
@@ -979,6 +992,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1264,6 +1278,11 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
@@ -1338,6 +1357,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1623,6 +1643,11 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
         'nexmo' => [
             'key' => env('NEXMO_KEY'),
             'secret' => env('NEXMO_SECRET'),
@@ -1697,6 +1722,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1982,6 +2008,11 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
         'plivo' => [
             'auth_id' => env('PLIVO_AUTH_ID'),
             'auth_token' => env('PLIVO_AUTH_TOKEN'),
@@ -2056,6 +2087,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2341,6 +2373,11 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
         'gammu' => [
             'path' => env('GAMMU_PATH', '/usr/bin/gammu'),
             'config' => env('GAMMU_CONFIG', '/etc/gammurc'),
@@ -2415,6 +2452,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2700,6 +2738,11 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
         'netfun' => [
             // Token API fornito da Netfun (obbligatorio)
             'token' => env('NETFUN_TOKEN'),
@@ -2787,6 +2830,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2991,6 +3035,8 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
             'endpoint' => env('AGILETELECOM_API_URL', 'https://secure.agiletelecom.com/services/sms/send'),
         ],
     ],
@@ -3026,6 +3072,7 @@ return [
      * | You can specify the number of retries and the delay between retries.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3242,6 +3289,8 @@ return [
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
+>>>>>>> c5c038f2 (rebase 210)
+=======
             'endpoint' => env('AGILETELECOM_API_URL','https://secure.agiletelecom.com/services/sms/send'),
         ],
     ],
@@ -3274,6 +3323,7 @@ return [
     'queue' => env('SMS_QUEUE', 'default'),
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3361,6 +3411,8 @@ return [
 =======
 >>>>>>> origin/develop
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
     |--------------------------------------------------------------------------
     | SMS Retry Configuration
     |--------------------------------------------------------------------------
@@ -3369,6 +3421,7 @@ return [
     | You can specify the number of retries and the delay between retries.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3637,6 +3690,9 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
 
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
@@ -3712,6 +3768,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3916,6 +3973,8 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Rate Limiting
@@ -3925,6 +3984,7 @@ return [
      * | This helps prevent abuse and ensures fair usage of the SMS service.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4125,6 +4185,9 @@ return [
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
 
     /*
     |--------------------------------------------------------------------------
@@ -4135,6 +4198,7 @@ return [
     | This helps prevent abuse and ensures fair usage of the SMS service.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4404,6 +4468,9 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
 
     'rate_limit' => [
         'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
@@ -4480,6 +4547,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4684,6 +4752,8 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Circuit Breaker
@@ -4693,6 +4763,7 @@ return [
      * | This helps prevent cascading failures when the SMS service is down.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4893,6 +4964,9 @@ return [
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
 
     /*
     |--------------------------------------------------------------------------
@@ -4903,6 +4977,7 @@ return [
     | This helps prevent cascading failures when the SMS service is down.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5172,6 +5247,9 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
 
     'circuit_breaker' => [
         'enabled' => env('SMS_CIRCUIT_BREAKER_ENABLED', true),
@@ -5248,6 +5326,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5452,6 +5531,8 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Timeout
@@ -5472,6 +5553,7 @@ return [
      * | This helps track the delivery status and troubleshoot issues.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5673,6 +5755,8 @@ return [
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
+>>>>>>> c5c038f2 (rebase 210)
+=======
 
     /*
     |--------------------------------------------------------------------------
@@ -5687,6 +5771,7 @@ return [
     'timeout' => env('SMS_TIMEOUT', 30),
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5774,6 +5859,8 @@ return [
 =======
 >>>>>>> origin/develop
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
     |--------------------------------------------------------------------------
     | SMS Logging
     |--------------------------------------------------------------------------
@@ -5782,6 +5869,7 @@ return [
     | This helps track the delivery status and troubleshoot issues.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6050,6 +6138,9 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
 
     'logging' => [
         'enabled' => env('SMS_LOGGING_ENABLED', true),
@@ -6125,6 +6216,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6329,6 +6421,8 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Validation
@@ -6338,6 +6432,7 @@ return [
      * | This helps ensure that only valid phone numbers are used.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6538,6 +6633,9 @@ return [
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
 
     /*
     |--------------------------------------------------------------------------
@@ -6548,6 +6646,7 @@ return [
     | This helps ensure that only valid phone numbers are used.
     |
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6817,6 +6916,9 @@ return [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
 
     'validation' => [
         'enabled' => env('SMS_VALIDATION_ENABLED', true),
