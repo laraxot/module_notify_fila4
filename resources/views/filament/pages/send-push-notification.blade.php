@@ -213,8 +213,10 @@ declare(strict_types=1);
                 <div class="mt-6">
                     {{ $this->notificationForm }}
                 </div>
+<<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 </div>
@@ -257,6 +259,9 @@ declare(strict_types=1);
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 367c6ceb (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -273,6 +278,7 @@ declare(strict_types=1);
                             {{ $action }}
                         @endforeach
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +463,9 @@ declare(strict_types=1);
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> 367c6ceb (.)
                 </div>
             </div>
         </div>
