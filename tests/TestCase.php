@@ -145,18 +145,8 @@ namespace Modules\Notify\Tests;
 =======
 >>>>>>> 4d253d2c (rebase 210)
 use Illuminate\Foundation\Application;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
-=======
-use Modules\Notify\Providers\NotifyServiceProvider;
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
->>>>>>> 99ff506 (.)
-=======
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
-use Modules\Notify\Providers\NotifyServiceProvider;
->>>>>>> 8e43c3e (.)
 use Modules\Xot\Tests\CreatesApplication;
 =======
 =======
@@ -610,74 +600,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Get package providers.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param  Application  $app
-=======
-     * @param Application $app
->>>>>>> 99ff506 (.)
-=======
-     * @param Application $app
-=======
-     * @param Application $app
->>>>>>> 4e643df (.)
-=======
-     * @param Application $app
->>>>>>> c434001 (.)
-=======
-     * @param Application $app
->>>>>>> 10b3b08 (.)
-=======
-     * @param Application $app
->>>>>>> 5dacc15 (.)
-=======
-<<<<<<< HEAD
-     * @param Application $app
-=======
-     * @param \Illuminate\Foundation\Application $app
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f813254 (.)
-=======
-     * @param Application $app
->>>>>>> f5f1cb1 (.)
-=======
->>>>>>> 4e643df (.)
-=======
-     * @param Application $app
->>>>>>> 12f2f7e (.)
-=======
->>>>>>> c434001 (.)
-=======
-     * @param Application $app
->>>>>>> 9e8255b (.)
-=======
->>>>>>> 10b3b08 (.)
-=======
-     * @param Application $app
->>>>>>> bc11326 (.)
-=======
->>>>>>> 5dacc15 (.)
-=======
-     * @param Application $app
->>>>>>> 5f6e153 (.)
-=======
-     * @param  Application  $app
->>>>>>> 8e43c3e (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

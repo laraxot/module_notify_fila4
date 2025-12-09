@@ -1283,13 +1283,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
  *
 >>>>>>> 5b50927d (rebase 210)
  * @author Laraxot Team
-<<<<<<< HEAD
  *
  * @version 2.0 - REFACTOR COMPLETO
  *
-=======
- * @version 2.0 - REFACTOR COMPLETO
->>>>>>> 99ff506 (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn

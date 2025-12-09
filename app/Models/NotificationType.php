@@ -348,57 +348,8 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 99ff506 (.)
-=======
-=======
-=======
-namespace Modules\Notify\Models;
-
-use Illuminate\Database\Eloquent\Model;
-
-/**
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType query()
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperNotificationType
-=======
->>>>>>> 05bc3ad (.)
-=======
->>>>>>> a80c61f (.)
-=======
- *
->>>>>>> d2c515f (.)
-=======
- * @mixin IdeHelperNotificationType
->>>>>>> ab15d0e (.)
-=======
->>>>>>> c42c734 (.)
-=======
->>>>>>> 4c59e64 (.)
-=======
- *
->>>>>>> 13b8416 (.)
-=======
- * @mixin IdeHelperNotificationType
->>>>>>> 625ad07 (.)
  * @mixin \Eloquent
  */
 class NotificationType extends Model

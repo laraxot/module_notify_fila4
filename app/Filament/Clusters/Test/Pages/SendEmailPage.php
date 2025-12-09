@@ -253,55 +253,7 @@ class SendEmailPage extends XotBasePage
 =======
 >>>>>>> 3f537838 (.)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> 99ff506 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> d2d07aa (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> b586b08 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> 65a883d (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> 944ccc8 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> 75c16f6 (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> 5d44317 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> d60d83a (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> e9f2f09 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> ea313f3 (.)
-=======
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> 6ded0f9 (.)
-=======
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
->>>>>>> ccb1541 (.)
 
     protected string $view = 'notify::filament.pages.send-email';
 

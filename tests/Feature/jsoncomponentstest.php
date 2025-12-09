@@ -2,46 +2,8 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
-=======
-=======
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
-=======
->>>>>>> f5f1cb1 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
->>>>>>> 2ceb139 (.)
-=======
->>>>>>> 1c9a755 (.)
-use Tests\TestCase;
-use Illuminate\Support\Facades\File;
->>>>>>> 99ff506 (.)
-=======
-use Illuminate\Support\Facades\File;
-use Tests\TestCase;
->>>>>>> a80c61f (.)
-=======
-use Tests\TestCase;
-use Illuminate\Support\Facades\File;
->>>>>>> c650db4 (.)
-=======
-use Illuminate\Support\Facades\File;
-use Tests\TestCase;
->>>>>>> 2a17243 (.)
 
 uses(TestCase::class);
 
@@ -59,42 +21,13 @@ test('components json is valid and contains expected components', function (): v
     $json = json_decode($content, true);
 
     // Verifico che il JSON è valido
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
-=======
-    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
->>>>>>> 99ff506 (.)
-=======
-    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
->>>>>>> a80c61f (.)
-=======
-    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
->>>>>>> c650db4 (.)
-=======
-    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
->>>>>>> 2a17243 (.)
 
     // Verifico che ci sono 2 componenti
     expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');
 
     // Verifico che ci sono i componenti SendMailCommand e TelegramWebhook
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-=======
->>>>>>> 6a92a74 (.)
-=======
->>>>>>> c650db4 (.)
-=======
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> 2a17243 (.)
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
@@ -105,41 +38,7 @@ test('components json is valid and contains expected components', function (): v
     expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-=======
-=======
->>>>>>> a80c61f (.)
-=======
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> e6c7fb3 (.)
-    expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-    expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-    expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
-
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-    expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
-    expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 99ff506 (.)
-=======
->>>>>>> a80c61f (.)
-=======
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> e6c7fb3 (.)
-=======
->>>>>>> 6a92a74 (.)
-=======
->>>>>>> c650db4 (.)
-=======
-    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
->>>>>>> 2a17243 (.)
     expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
 
     // Verifico i nomi specifici dei componenti
