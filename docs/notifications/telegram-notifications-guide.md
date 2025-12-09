@@ -135,8 +135,16 @@ Questa documentazione descrive come implementare notifiche Telegram nel modulo N
 =======
 # Notifiche Telegram 
 
+<<<<<<< HEAD
 Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+=======
+=======
+Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di .
+Questa documentazione descrive come implementare notifiche Telegram nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
 
 ## Indice
 
@@ -177,6 +185,7 @@ Questa documentazione descrive come implementare notifiche Telegram nel modulo N
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. <nome progetto> integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
 =======
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot.  integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
@@ -206,9 +215,13 @@ Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua AP
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
 >>>>>>> 909e45af (.)
 =======
+Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
+>>>>>>> bb7e77c2 (.)
+=======
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot.  integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. <nome progetto> integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +295,8 @@ Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua AP
 =======
 Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua API per bot. SaluteOra integra Telegram per inviare notifiche relative ad appuntamenti, promemoria e altre comunicazioni importanti.
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
 
 ## Setup del Bot Telegram
 
@@ -320,6 +335,7 @@ Telegram offre un'ottima piattaforma per notifiche istantanee grazie alla sua AP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il bot di <nome progetto> deve avere:
 - Privacy Mode disattivata (per leggere messaggi nei gruppi)
 - Comandi personalizzati configurati
@@ -388,6 +404,8 @@ Il bot di  deve avere:
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
 Il bot di SaluteOra deve avere:
 - Privacy Mode disattivata (per leggere messaggi nei gruppi)
 - Comandi personalizzati configurati
@@ -417,6 +435,7 @@ Il bot di SaluteOra deve avere:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -434,6 +453,8 @@ Il bot di SaluteOra deve avere:
 =======
 >>>>>>> 909e45af (.)
 =======
+>>>>>>> bb7e77c2 (.)
+=======
 Il bot di  deve avere:
 - Privacy Mode disattivata (per leggere messaggi nei gruppi)
 - Comandi personalizzati configurati
@@ -443,6 +464,7 @@ Il bot di <nome progetto> deve avere:
 - Comandi personalizzati configurati
 - Immagine del profilo con logo <nome progetto>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,6 +518,8 @@ Il bot di <nome progetto> deve avere:
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
 
 ### Comandi Consigliati
 
@@ -528,6 +552,7 @@ start - Inizia l'interazione con il bot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 register - Collega il tuo account Telegram a <nome progetto>
 =======
 register - Collega il tuo account Telegram a 
@@ -557,9 +582,13 @@ register - Collega il tuo account Telegram a SaluteOra
 register - Collega il tuo account Telegram a SaluteOra
 >>>>>>> 909e45af (.)
 =======
+register - Collega il tuo account Telegram a SaluteOra
+>>>>>>> bb7e77c2 (.)
+=======
 register - Collega il tuo account Telegram a 
 register - Collega il tuo account Telegram a <nome progetto>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -633,6 +662,8 @@ register - Collega il tuo account Telegram a SaluteOra
 =======
 register - Collega il tuo account Telegram a SaluteOra
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
 unregister - Scollega il tuo account Telegram
 settings - Gestisci le tue preferenze di notifica
 help - Ottieni assistenza
@@ -779,6 +810,7 @@ public function toTelegram($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per collegare un account Telegram a un utente <nome progetto>:
 
 1. Implementa un comando `/register` nel bot che generi un token univoco.
@@ -847,6 +879,8 @@ Per collegare un account Telegram a un utente :
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
 Per collegare un account Telegram a un utente SaluteOra:
 
 1. Implementa un comando `/register` nel bot che generi un token univoco.
@@ -876,6 +910,7 @@ Per collegare un account Telegram a un utente SaluteOra:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -893,6 +928,8 @@ Per collegare un account Telegram a un utente SaluteOra:
 =======
 >>>>>>> 909e45af (.)
 =======
+>>>>>>> bb7e77c2 (.)
+=======
 Per collegare un account Telegram a un utente :
 
 1. Implementa un comando `/register` nel bot che generi un token univoco.
@@ -902,6 +939,7 @@ Per collegare un account Telegram a un utente <nome progetto>:
 1. Implementa un comando `/register` nel bot che generi un token univoco.
 2. L'utente inserisce questo token nel proprio profilo nell'app <nome progetto>.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,6 +993,8 @@ Per collegare un account Telegram a un utente <nome progetto>:
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
 3. Salva il `chat_id` Telegram dell'utente nel database.
 
 ```php
@@ -993,6 +1033,7 @@ class RegisterCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $description = 'Collega il tuo account Telegram a <nome progetto>';
 =======
     protected $description = 'Collega il tuo account Telegram a ';
@@ -1022,9 +1063,13 @@ class RegisterCommand extends Command
     protected $description = 'Collega il tuo account Telegram a SaluteOra';
 >>>>>>> 909e45af (.)
 =======
+    protected $description = 'Collega il tuo account Telegram a SaluteOra';
+>>>>>>> bb7e77c2 (.)
+=======
     protected $description = 'Collega il tuo account Telegram a ';
     protected $description = 'Collega il tuo account Telegram a <nome progetto>';
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1098,6 +1143,8 @@ class RegisterCommand extends Command
 =======
     protected $description = 'Collega il tuo account Telegram a SaluteOra';
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
     
     public function handle()
     {
@@ -1138,6 +1185,7 @@ class RegisterCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo <nome progetto> per completare il collegamento."
 =======
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo  per completare il collegamento."
@@ -1167,9 +1215,13 @@ class RegisterCommand extends Command
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
 >>>>>>> 909e45af (.)
 =======
+            'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
+>>>>>>> bb7e77c2 (.)
+=======
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo  per completare il collegamento."
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo <nome progetto> per completare il collegamento."
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1243,6 +1295,8 @@ class RegisterCommand extends Command
 =======
             'text' => "Il tuo codice di collegamento è: {$token}\n\nInseriscilo nel tuo profilo SaluteOra per completare il collegamento."
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
         ]);
     }
 }

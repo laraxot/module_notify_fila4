@@ -66,6 +66,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -95,9 +96,13 @@ class OtpSmsNotification extends NetfunSmsNotification
             sender: 'SALUTEORA'
 >>>>>>> 909e45af (.)
 =======
+            sender: 'SALUTEORA'
+>>>>>>> bb7e77c2 (.)
+=======
             sender: '<nome progetto>'
             sender: '<nome progetto>'
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +176,8 @@ class OtpSmsNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
         );
     }
 
@@ -361,6 +368,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -390,9 +398,13 @@ class AppointmentReminderNotification extends NetfunSmsNotification
             sender: 'SALUTEORA'
 >>>>>>> 909e45af (.)
 =======
+            sender: 'SALUTEORA'
+>>>>>>> bb7e77c2 (.)
+=======
             sender: '<nome progetto>'
             sender: '<nome progetto>'
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +478,8 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
         );
     }
 
@@ -731,6 +745,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -760,9 +775,13 @@ public function sendBulkSms(Request $request)
             sender: 'SALUTEORA',
 >>>>>>> 909e45af (.)
 =======
+            sender: 'SALUTEORA',
+>>>>>>> bb7e77c2 (.)
+=======
             sender: '<nome progetto>',
             sender: '<nome progetto>',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -836,6 +855,8 @@ public function sendBulkSms(Request $request)
 =======
             sender: 'SALUTEORA',
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();

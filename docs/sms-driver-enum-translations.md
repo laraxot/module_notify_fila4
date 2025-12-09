@@ -215,6 +215,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 >>>>>>> 75179b85 (.)
@@ -292,6 +293,11 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+=======
+- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
 - [Documentazione Traduzioni](../../Lang/docs/)
 
 ---
