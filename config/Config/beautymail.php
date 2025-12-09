@@ -63,6 +63,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +174,15 @@ return [
 >>>>>>> cde5a49 (.)
 =======
 >>>>>>> 4ac6c3c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+     * 'css' => [
+     * '.button-content .button { background: red }',
+     * ],
+     */
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
 =======
         'css' => [
             '.button-content .button { background: red }',
@@ -1227,6 +1237,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2088,6 +2099,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -2241,6 +2256,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2254,9 +2270,12 @@ return [
 =======
 >>>>>>> 80f054e0 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3240,11 +3259,15 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
         'unsubscribe' => null,
         'address' => null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3405,9 +3428,12 @@ return [
 =======
 >>>>>>> 80f054e0 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4390,6 +4416,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -4543,6 +4572,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4556,9 +4586,12 @@ return [
 =======
 >>>>>>> 80f054e0 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5543,6 +5576,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,

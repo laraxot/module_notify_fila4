@@ -170,6 +170,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,6 +240,8 @@ use Modules\Notify\Datas\SmsData;
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -248,13 +251,23 @@ use Modules\Notify\Datas\SmsData;
 =======
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 use function Safe\preg_split;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,10 +322,13 @@ use function Safe\preg_split;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 class FormatSmsMessageAction
 =======
 class FormatSmsMessageAction 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,11 +472,17 @@ class FormatSmsMessageAction
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+class FormatSmsMessageAction
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 {
     public function execute(string $message): array
     {
         // Sanitizza i caratteri accentati
         $formattedMessage = str_replace(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +607,10 @@ class FormatSmsMessageAction
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
             ['à', 'è', 'é', 'ì', 'ò', 'ù', 'À', 'È', 'É', 'Ì', 'Ò', 'Ù', '€'],
             ["a'", "e'", "e'", "i'", "o'", "u'", "A'", "E'", "E'", "I'", "O'", "U'", 'EUR'],
             $message,
@@ -621,6 +647,9 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -703,6 +732,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -807,10 +837,15 @@ class FormatSmsMessageAction
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         // Calcola il numero di caratteri considerando doppi i caratteri speciali
         $characterCount = mb_strlen($formattedMessage);
         $specialChars = ['^', '{', '}', '[', ']', '~', '\\', '|'];
         $specialCharsEscaped = ['\^', '{', '}', '\[', '\]', '~', '\\\\', '\|'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -935,6 +970,10 @@ class FormatSmsMessageAction
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
         foreach ($specialChars as $index => $specialChar) {
             $messageParts = preg_split("/{$specialCharsEscaped[$index]}/", $formattedMessage, -1, PREG_SPLIT_NO_EMPTY);
@@ -943,6 +982,7 @@ class FormatSmsMessageAction
 
             $specialCharCount = count($messageParts) - 1;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1043,6 +1083,8 @@ class FormatSmsMessageAction
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
         
         foreach ($specialChars as $index => $specialChar) {
             $messageParts = preg_split("/{$specialCharsEscaped[$index]}/", $formattedMessage, -1, PREG_SPLIT_NO_EMPTY);
@@ -1064,6 +1106,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1159,6 +1202,10 @@ class FormatSmsMessageAction
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
             if (str_starts_with($formattedMessage, $specialChar)) {
                 $specialCharCount++;
             }
@@ -1197,6 +1244,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1289,6 +1337,10 @@ class FormatSmsMessageAction
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
             // Ogni carattere speciale conta come 2 caratteri
             $characterCount += $specialCharCount;
@@ -1325,6 +1377,9 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1401,6 +1456,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1511,6 +1567,10 @@ class FormatSmsMessageAction
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         // Calcola il numero di SMS
         if ($characterCount <= 160) {
             $smsCount = 1;
@@ -1525,6 +1585,7 @@ class FormatSmsMessageAction
                 $smsCount++;
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1704,10 +1765,13 @@ class FormatSmsMessageAction
 =======
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> ce89c8bb (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
@@ -1740,6 +1804,11 @@ class FormatSmsMessageAction
         
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         return [$formattedMessage, $characterCount, $smsCount];
     }
 }

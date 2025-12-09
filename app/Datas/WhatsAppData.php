@@ -40,6 +40,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -62,10 +63,13 @@ use Spatie\LaravelData\Data;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +213,11 @@ use Spatie\LaravelData\Data;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+ *
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi WhatsApp
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -284,6 +293,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -368,6 +378,8 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> ce89c8bb (.)
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
@@ -375,11 +387,19 @@ class WhatsAppData extends Data
 =======
 =======
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
         public null|string $from = null,
         public null|array $media = null,
         public null|array $buttons = null,
         public null|array $template = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,16 +691,28 @@ class WhatsAppData extends Data
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> ce89c8bb (.)
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
 =======
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
         public ?array $template = null,
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
         public string $type = 'text',
     ) {}
 }

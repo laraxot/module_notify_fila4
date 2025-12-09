@@ -357,6 +357,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
@@ -376,13 +377,25 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+use Webmozart\Assert\Assert;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,6 +620,8 @@ class ContactSection extends Forms\Components\Section
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
     // protected string $view = 'filament-forms::components.group';
 =======
 =======
@@ -614,6 +629,13 @@ class ContactSection extends Forms\Components\Section
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73b (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -650,11 +672,16 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, \Filament\Forms\Components\TextInput>
      */
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
     protected function getFormSchema(): array
     {
 <<<<<<< HEAD
@@ -875,6 +902,7 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -887,6 +915,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 
 
@@ -1079,6 +1109,7 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1197,4 +1228,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 }

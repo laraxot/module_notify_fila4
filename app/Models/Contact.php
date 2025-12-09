@@ -40,6 +40,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -330,6 +331,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -337,12 +340,17 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
@@ -371,6 +379,8 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
@@ -380,6 +390,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
@@ -430,6 +441,10 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -895,6 +910,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -995,6 +1011,10 @@ class Contact extends BaseModel
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         'model_id',
         'model_type',
         'contact_type',
@@ -1247,11 +1267,14 @@ class Contact extends BaseModel
     /** @return array<string, string> */
     #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
+=======
+>>>>>>> 207ac35 (.)
 =======
         'model_id', 'model_type', 'contact_type', 'value',
         'verified_at', 'updated_at', 'created_at',
@@ -1260,8 +1283,16 @@ class Contact extends BaseModel
 
     /** @return array<string, string> */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
     protected function casts(): array
     {
         return [
@@ -1270,6 +1301,7 @@ class Contact extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1336,6 +1368,8 @@ class Contact extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -1420,6 +1454,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1450,9 +1485,12 @@ class Contact extends BaseModel
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1593,6 +1631,9 @@ class Contact extends BaseModel
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',

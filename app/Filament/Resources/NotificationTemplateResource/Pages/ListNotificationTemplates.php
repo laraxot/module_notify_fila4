@@ -39,6 +39,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -80,8 +81,12 @@ use Override;
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 =======
 >>>>>>> 82ae73b (.)
+=======
+>>>>>>> 207ac35 (.)
 use Override;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -298,16 +303,20 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 =======
 =======
+>>>>>>> ce89c8bb (.)
+=======
 use Override;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
@@ -401,11 +410,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
 class ListNotificationTemplates extends XotBaseListRecords
 {
     protected static string $resource = NotificationTemplateResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +637,8 @@ class ListNotificationTemplates extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 =======
+>>>>>>> ce89c8bb (.)
+=======
     #[Override]
 >>>>>>> 75179b8 (.)
 =======
@@ -632,11 +646,23 @@ class ListNotificationTemplates extends XotBaseListRecords
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
     public function getTableColumns(): array
     {
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -691,10 +717,13 @@ class ListNotificationTemplates extends XotBaseListRecords
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -838,3 +867,8 @@ class ListNotificationTemplates extends XotBaseListRecords
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)

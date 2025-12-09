@@ -38,6 +38,7 @@ namespace Modules\Notify\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -60,10 +61,13 @@ namespace Modules\Notify\Enums;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +211,11 @@ namespace Modules\Notify\Enums;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+ *
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
  * Questo enum centralizza la gestione dei driver WhatsApp disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -216,6 +225,7 @@ enum WhatsAppDriverEnum: string
     case MESSAGEBIRD = 'messagebird';
     case VONAGE = 'vonage';
     case INFOBIP = 'infobip';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,6 +350,10 @@ enum WhatsAppDriverEnum: string
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
     /**
      * Restituisce le opzioni per il componente Select di Filament
@@ -375,6 +389,9 @@ enum WhatsAppDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -456,6 +473,7 @@ enum WhatsAppDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -559,6 +577,10 @@ enum WhatsAppDriverEnum: string
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
      * @return array<string, string>
      */
     public static function options(): array
@@ -602,6 +624,7 @@ enum WhatsAppDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -694,6 +717,10 @@ enum WhatsAppDriverEnum: string
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
@@ -729,6 +756,9 @@ enum WhatsAppDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -804,6 +834,7 @@ enum WhatsAppDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -913,6 +944,10 @@ enum WhatsAppDriverEnum: string
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
      * @return array<string, string>
      */
     public static function labels(): array
@@ -924,6 +959,7 @@ enum WhatsAppDriverEnum: string
             self::INFOBIP->value => __('notify::whatsapp.drivers.infobip'),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1367,12 +1403,17 @@ enum WhatsAppDriverEnum: string
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
     /**
      * Verifica se un driver è supportato
 <<<<<<< HEAD
 =======
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 =======
@@ -1383,11 +1424,15 @@ enum WhatsAppDriverEnum: string
 >>>>>>> 985c7bda (.)
 =======
 =======
+>>>>>>> ce89c8bb (.)
+=======
     
     /**
      * Verifica se un driver è supportato
      * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
      * @param string $driver
      * @return bool
 >>>>>>> 75179b8 (.)
@@ -1395,7 +1440,13 @@ enum WhatsAppDriverEnum: string
     public static function isSupported(string $driver): bool
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         return in_array($driver, array_column(self::cases(), 'value'), strict: true);
     }
 
@@ -1600,6 +1651,7 @@ enum WhatsAppDriverEnum: string
 =======
 =======
      *
+<<<<<<< HEAD
 =======
         return in_array($driver, array_column(self::cases(), 'value'));
     }
@@ -1608,6 +1660,8 @@ enum WhatsAppDriverEnum: string
      * Restituisce il driver predefinito dal file di configurazione
      * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
      * @return self
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1615,6 +1669,7 @@ enum WhatsAppDriverEnum: string
     public static function getDefault(): self
     {
         $default = config('whatsapp.default', self::TWILIO->value);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1669,10 +1724,13 @@ enum WhatsAppDriverEnum: string
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1816,6 +1874,11 @@ enum WhatsAppDriverEnum: string
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
         return self::from(is_string($default) ? $default : self::TWILIO->value);
     }
 }

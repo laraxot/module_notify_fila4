@@ -78,6 +78,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -315,6 +316,8 @@ use Override;
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 >>>>>>> 75179b8 (.)
@@ -322,13 +325,25 @@ use Override;
 >>>>>>> c8b1c8bf (.)
 =======
 =======
+=======
+>>>>>>> 207ac35 (.)
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 =======
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
 =======
@@ -800,6 +815,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -807,6 +823,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
@@ -855,6 +874,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
     #[Override]
     public function panel(Panel $panel): Panel
     {
@@ -918,6 +941,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 =======
@@ -960,6 +984,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
     public function panel(Panel $panel): Panel
     { 
@@ -1038,6 +1064,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
@@ -1121,3 +1148,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)

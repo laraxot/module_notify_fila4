@@ -38,6 +38,7 @@ use Filament\Resources\Pages\Page;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -60,12 +61,15 @@ use Filament\Resources\Pages\Page;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 =======
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93,9 +97,12 @@ use Modules\Notify\Models\MailTemplate;
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +241,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 
 /**
  * @property MailTemplate $record
@@ -256,6 +265,7 @@ class PreviewMailTemplate extends Page
                 ->label(__('notify::mail.template.preview.actions.back.label'))
                 ->icon(__('notify::mail.template.preview.actions.back.icon'))
                 ->color(__('notify::mail.template.preview.actions.back.color'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,10 +416,16 @@ class PreviewMailTemplate extends Page
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
                 ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -446,6 +462,9 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -521,6 +540,7 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,3 +659,7 @@ class PreviewMailTemplate extends Page
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
