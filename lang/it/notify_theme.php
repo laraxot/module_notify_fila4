@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -479,6 +480,11 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
+=======
+
+declare(strict_types=1);
+
+>>>>>>> 84082535 (rebase 210)
 return [
     'navigation' => [
         'group' => 'Sistema',

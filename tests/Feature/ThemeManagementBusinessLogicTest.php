@@ -743,6 +743,7 @@ describe('Theme Management Business Logic', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1040,3 +1041,6 @@ describe('Theme Management Business Logic', function (): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+});
+>>>>>>> 84082535 (rebase 210)
