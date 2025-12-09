@@ -44,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -442,6 +443,11 @@ declare(strict_types=1);
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 2941b0bd (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -494,6 +500,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -818,6 +825,9 @@ return new class extends Migration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+return new class extends Migration {
+>>>>>>> 2941b0bd (.)
     /**
      * Run the migrations.
      */
@@ -919,6 +929,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1151,6 +1162,9 @@ return new class extends Migration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
                 $table->index(['notifiable_type', 'notifiable_id']);
                 $table->index('channel');
                 $table->index('status');

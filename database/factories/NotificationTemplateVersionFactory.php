@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -259,34 +260,14 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 declare(strict_types=1);
 
 
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\NotificationTemplateVersion;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-
-=======
->>>>>>> a12f125f4a (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> b93ef594b4 (.)
-namespace Modules\Notify\Database\Factories;
-
-use Modules\Notify\Models\NotificationTemplateVersion;
-=======
-namespace Modules\Notify\Database\Factories;
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -298,15 +279,7 @@ class NotificationTemplateVersionFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
-<<<<<<< HEAD
     protected $model = NotificationTemplateVersion::class;
-=======
-<<<<<<< HEAD
-    protected $model = NotificationTemplateVersion::class;
-=======
-    protected $model = \Modules\Notify\Models\NotificationTemplateVersion::class;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -316,6 +289,7 @@ class NotificationTemplateVersionFactory extends Factory
         return [];
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,3 +516,5 @@ class NotificationTemplateVersionFactory extends Factory
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)

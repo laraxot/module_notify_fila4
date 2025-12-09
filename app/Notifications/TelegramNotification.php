@@ -112,6 +112,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -466,6 +467,10 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+     * @param string $message Il messaggio da inviare tramite Telegram
+     * @param array<string, mixed> $options Opzioni aggiuntive per la notifica
+>>>>>>> 2941b0bd (.)
      */
     public function __construct(string $message, array $options = [])
     {
@@ -476,6 +481,7 @@ class TelegramNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,6 +607,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 2941b0bd (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
 =======
 =======
@@ -657,6 +665,7 @@ class TelegramNotification extends Notification implements ShouldQueue
      */
 <<<<<<< HEAD
     public function via($_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1015,6 +1024,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
     {
         return [TelegramChannel::class];
     }
@@ -1034,6 +1045,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> f1c9518b (.)
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1355,6 +1367,9 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+    public function toArray(null|object $notifiable): array
+>>>>>>> 2941b0bd (.)
     {
         // return $this->data->toArray();
         return [];

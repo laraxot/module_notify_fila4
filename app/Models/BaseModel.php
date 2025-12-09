@@ -16,6 +16,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -66,13 +67,9 @@ use Modules\Xot\Models\XotBaseModel;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 4689a827 (.)
-use Modules\Xot\Actions\Factory\GetFactoryAction;
 =======
-<<<<<<< HEAD
+>>>>>>> 2941b0bd (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -200,6 +197,7 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, string>
      */
 =======
@@ -241,21 +239,13 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
-<<<<<<< HEAD
-=======
-=======
-     * @return \Illuminate\Database\Eloquent\Factories\Factory<static>
-     */
-    protected static function newFactory()
-    {
-        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,6 +341,7 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -621,6 +612,8 @@ abstract class BaseModel extends Model implements HasMedia
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -690,6 +683,7 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -960,6 +954,8 @@ abstract class BaseModel extends Model implements HasMedia
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

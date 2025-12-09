@@ -118,6 +118,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -645,12 +646,16 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+    ) {}
+>>>>>>> 2941b0bd (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
         MobilePushNotification $notification,
         MulticastSendReport $sendReport,
     ): self {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1442,6 +1447,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+        return new self($notifiable, $notification, $sendReport);
+>>>>>>> 2941b0bd (.)
     }
 
     public function toArray(): array
@@ -1455,6 +1463,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'total' => $this->sendReport->count(),
                 'successes' => $this->sendReport->successes()->count(),
                 'failures' => $this->sendReport->failures()->count(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1860,6 +1869,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
                     ->map(static fn(SendReport $report): array => [
@@ -1872,6 +1883,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->map(static fn (SendReport $report): array => [
 =======
                     ->map(static fn(SendReport $report): array => [
@@ -1879,6 +1891,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
                     ->map(static fn(SendReport $report): array => [
 >>>>>>> 3f537838 (.)
+=======
+                    ->map(static fn(SendReport $report): array => [
+>>>>>>> 2941b0bd (.)
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
@@ -1998,6 +2013,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -2662,6 +2678,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
             ],
         ];
     }

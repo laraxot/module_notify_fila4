@@ -83,6 +83,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1000,37 +1001,15 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
-use Override;
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+>>>>>>> 2941b0bd (.)
 use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
-<<<<<<< HEAD
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -1156,30 +1135,10 @@ use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class NotificationTemplateResource extends XotBaseResource
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     protected static null|string $model = NotificationTemplate::class;
 
     #[Override]
@@ -1525,6 +1484,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> a12f125f4a (.)
 =======
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2892,23 +2852,18 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
     public static function getPages(): array
     {
         return [
             ...parent::getPages(),
-<<<<<<< HEAD
             'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
-=======
-<<<<<<< HEAD
-            'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
-=======
-            'preview' => Pages\PreviewNotificationTemplate::route('/{record}/preview'),
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ];
     }
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3208,12 +3163,15 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
      * public static function getEloquentQuery(): Builder
      * {
      * return parent::getEloquentQuery()
      * ->orderBy('name');
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3715,4 +3673,6 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 }

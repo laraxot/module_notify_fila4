@@ -62,6 +62,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -445,20 +446,9 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 use Override;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Tables;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -468,6 +458,7 @@ use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -559,10 +550,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -734,6 +728,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
     #[Override]
 <<<<<<< HEAD
     /**
@@ -870,6 +866,7 @@ class ListContacts extends XotBaseListRecords
             'inactive' => Filter::make('inactive')->query(
                 fn(Builder $query): Builder => $query->where('active', false),
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1522,6 +1519,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
         ];
     }
 }

@@ -90,6 +90,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -801,6 +802,11 @@ use Tests\TestCase;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 2941b0bd (.)
 
 class MailTemplateTest extends TestCase
 {

@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -660,11 +661,14 @@
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1162,6 +1166,8 @@ declare(strict_types=1);
 >>>>>>> f053e7c (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 2941b0bd (.)
 <div class="block">
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
@@ -1204,6 +1210,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2134,3 +2141,6 @@ declare(strict_types=1);
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+								<tbody>
+>>>>>>> 2941b0bd (.)

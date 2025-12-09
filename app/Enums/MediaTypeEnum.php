@@ -50,6 +50,7 @@ namespace Modules\Notify\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -282,6 +283,9 @@ namespace Modules\Notify\Enums;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+ *
+>>>>>>> 2941b0bd (.)
  * Questo enum centralizza la gestione dei tipi di media disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -291,6 +295,7 @@ enum MediaTypeEnum: string
     case VIDEO = 'video';
     case DOCUMENT = 'document';
     case AUDIO = 'audio';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,10 +468,13 @@ enum MediaTypeEnum: string
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 
     /**
      * Restituisce le opzioni per il componente Select di Filament
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +769,8 @@ enum MediaTypeEnum: string
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
      * @return array<string, string>
      */
     public static function options(): array
@@ -816,6 +826,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -944,10 +955,13 @@ enum MediaTypeEnum: string
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1242,6 +1256,8 @@ enum MediaTypeEnum: string
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
      * @return array<string, string>
      */
     public static function labels(): array
@@ -1253,6 +1269,7 @@ enum MediaTypeEnum: string
             self::AUDIO->value => __('notify::whatsapp.media_types.audio'),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1395,6 +1412,8 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 2941b0bd (.)
 
     /**
      * Verifica se un tipo di media è supportato
@@ -1403,6 +1422,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1864,11 +1884,14 @@ enum MediaTypeEnum: string
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
      * @param string $type
      * @return bool
      */
     public static function isSupported(string $type): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1911,6 +1934,8 @@ enum MediaTypeEnum: string
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
         return in_array($type, array_column(self::cases(), 'value'), strict: true);
     }
 
@@ -2095,32 +2120,6 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 =======
      *
-<<<<<<< HEAD
-=======
-=======
-        return in_array($type, array_column(self::cases(), 'value'));
-=======
-        return in_array($type, array_column(self::cases(), 'value'), strict: true);
->>>>>>> b93ef594b4 (.)
-    }
-
-    /**
-     * Restituisce il tipo di media predefinito
-<<<<<<< HEAD
-     * 
->>>>>>> a12f125f4a (.)
-=======
-     *
->>>>>>> b93ef594b4 (.)
-=======
-        return in_array($type, array_column(self::cases(), 'value'));
-    }
-    
-    /**
-     * Restituisce il tipo di media predefinito
-     * 
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
      * @return self
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)

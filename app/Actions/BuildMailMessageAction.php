@@ -70,6 +70,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -330,6 +331,9 @@ class BuildMailMessageAction
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 2941b0bd (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -557,8 +561,8 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +639,8 @@ class BuildMailMessageAction
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
@@ -684,6 +690,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -919,10 +926,14 @@ class BuildMailMessageAction
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1094,6 +1105,8 @@ class BuildMailMessageAction
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 2941b0bd (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
@@ -1161,6 +1174,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
         $email = new MailMessage()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1507,6 +1521,8 @@ class BuildMailMessageAction
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);

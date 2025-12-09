@@ -107,6 +107,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -697,6 +698,10 @@ return [
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+        'name' => 'Notifica', // Nome singolare
+        'plural' => 'Notifiche', // Nome plurale
+>>>>>>> 2941b0bd (.)
         'group' => 'Sistema',
         'label' => 'Notifiche',
         'icon' => 'notify-bell-animated',

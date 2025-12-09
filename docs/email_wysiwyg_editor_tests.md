@@ -485,6 +485,7 @@ class FileUploadSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1007,3 +1008,7 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> d284d65 (.)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
 >>>>>>> 4689a827 (.)
+=======
+- [Laravel Testing Documentation](https://laravel.com/docs/testing)
+- [Dusk Documentation](https://laravel.com/docs/dusk)
+>>>>>>> 2941b0bd (.)

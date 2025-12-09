@@ -90,6 +90,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -801,6 +802,11 @@ use Tests\TestCase;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplateLog;
+use Tests\TestCase;
+>>>>>>> 2941b0bd (.)
 
 class MailTemplateLogTest extends TestCase
 {
@@ -1514,6 +1520,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -2008,3 +2015,5 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)

@@ -165,6 +165,7 @@ abstract class BasePivot extends Pivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -894,6 +895,11 @@ abstract class BasePivot extends Pivot
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 2941b0bd (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
