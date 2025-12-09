@@ -65,6 +65,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xotbaseserviceprovider.md`.
 =======
 Per maggiori dettagli sul provider base, consulta `modules/xot/project_docs/providers/xotbaseserviceprovider.md`.
@@ -162,3 +163,6 @@ Per maggiori dettagli sul provider base, consulta `modules/xot/project_docs/prov
 =======
 Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xotbaseserviceprovider.md`.
 >>>>>>> a404ea71 (.)
+=======
+Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xotbaseserviceprovider.md`.
+>>>>>>> ee18dd92 (.)

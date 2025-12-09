@@ -143,6 +143,7 @@ Ogni campo ora ha la struttura espansa completa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -203,6 +204,8 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 
 ## Note Importanti

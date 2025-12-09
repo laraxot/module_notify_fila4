@@ -296,6 +296,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 =======
         'sender' => env('SMSHOSTING_SENDER', ''),
@@ -362,6 +363,9 @@ return [
 =======
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> a404ea71 (.)
+=======
+        'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+>>>>>>> ee18dd92 (.)
     ],
 ];
 ```
@@ -831,6 +835,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
@@ -917,6 +922,10 @@ public function toTwilio($notifiable)
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> a404ea71 (.)
+=======
+        ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: saluteora.it/privacy");
+>>>>>>> ee18dd92 (.)
 }
 ```
 

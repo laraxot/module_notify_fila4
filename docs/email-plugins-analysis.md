@@ -136,6 +136,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -164,6 +165,9 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 31f5d28f (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -317,6 +321,7 @@ class MailAnalytics
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 >>>>>>> 75179b85 (.)
@@ -349,5 +354,7 @@ class MailAnalytics
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Packages](https://spatie.be/open-source) 

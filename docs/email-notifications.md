@@ -178,6 +178,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -206,6 +207,9 @@ class NotificationResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 31f5d28f (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -411,6 +415,7 @@ class NotificationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
@@ -477,3 +482,8 @@ class NotificationDebugger
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> ee18dd92 (.)

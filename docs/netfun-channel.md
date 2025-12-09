@@ -388,6 +388,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 =======
 SMS_FROM_NAME=
@@ -454,6 +455,9 @@ SMS_FROM_NAME=SaluteOra
 =======
 SMS_FROM_NAME=SaluteOra
 >>>>>>> a404ea71 (.)
+=======
+SMS_FROM_NAME=SaluteOra
+>>>>>>> ee18dd92 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -770,6 +774,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -835,6 +840,8 @@ Log::info('SMS inviato', [
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -856,6 +863,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 75179b85 (.)
@@ -904,3 +912,5 @@ Log::info('SMS inviato', [
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)

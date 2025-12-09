@@ -265,6 +265,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -305,11 +306,14 @@ public static function getTableActions(): array
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseResource](../../Xot/docs/XotBaseResource.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,6 +434,8 @@ public static function getTableActions(): array
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
 - [Gestione Template](../template-management.md)
 
 ## Note Importanti
@@ -472,6 +478,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -512,12 +519,15 @@ public static function getTableActions(): array
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
 * [filament-resources.md](../../../../docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/docs/filament-resources.md)
 * [filament-resources.md](../../Xot/docs/filament-resources.md)
 * [filament-resources.md](../../Patient/docs/filament-resources.md)
 * [filament-resources.md](../../Cms/docs/filament-resources.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,6 +649,8 @@ public static function getTableActions(): array
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> ee18dd92 (.)
 
 
 ---

@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo errore viola i principi di modularità e coerenza dell'architettura di <nome progetto>, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di , dove ogni modulo gestisce le proprie configurazioni in file dedicati.
@@ -86,6 +87,9 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> a404ea71 (.)
+=======
+Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
+>>>>>>> ee18dd92 (.)
 
 ## Pattern Corretto
 

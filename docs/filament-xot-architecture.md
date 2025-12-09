@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 =======
  utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
@@ -84,6 +85,9 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
 =======
 SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 >>>>>>> a404ea71 (.)
+=======
+SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
+>>>>>>> ee18dd92 (.)
 
 Questo documento spiega in dettaglio i motivi architetturali, i vantaggi e l'implementazione di questo pattern.
 
@@ -143,6 +147,7 @@ abstract class XotBasePage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
@@ -162,6 +167,9 @@ abstract class XotBasePage extends Page implements HasForms
 =======
     public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -219,6 +227,7 @@ Prima (❌):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
@@ -238,6 +247,9 @@ public function form(Form $form): Form
 =======
 public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
+=======
+public function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
 {
     return $form
         ->schema([
@@ -278,6 +290,7 @@ protected function getFormSchema(): array
 Per verificare che tutte le classi seguano questa regola:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,6 +378,9 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 >>>>>>> a404ea71 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
+>>>>>>> ee18dd92 (.)
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.

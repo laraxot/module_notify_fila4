@@ -61,6 +61,7 @@ class RecordNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->subject('Notifica da <nome progetto>')
 =======
             ->subject('Notifica da ')
@@ -127,6 +128,9 @@ class RecordNotification extends Notification implements ShouldQueue
 =======
             ->subject('Notifica da SaluteOra')
 >>>>>>> a404ea71 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> ee18dd92 (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))

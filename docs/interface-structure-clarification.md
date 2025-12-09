@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
@@ -92,6 +93,9 @@
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> a404ea71 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> ee18dd92 (.)
 ```
 
 Con il namespace corrispondente:
