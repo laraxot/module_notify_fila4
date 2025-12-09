@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -229,12 +230,15 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> a12f125f4a (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b94a5f6 (.)
@@ -608,12 +612,15 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
 declare(strict_types=1);
 
 
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -650,6 +657,8 @@ declare(strict_types=1);
 
 
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -658,6 +667,7 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +733,9 @@ $finder = PhpCsFixer\Finder::create()
 =======
     ->ignoreVCS(true)
 >>>>>>> 4689a827 (.)
+=======
+    ->ignoreVCS(true)
+>>>>>>> 7325acf3 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -737,6 +750,7 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // 'binary_operator_spaces' => ['align_double_arrow' => false],
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
@@ -747,6 +761,9 @@ $config
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 4689a827 (.)
+=======
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> 7325acf3 (.)
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -761,6 +778,7 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -856,3 +874,8 @@ return $config;
 
 return $config;
 >>>>>>> 4689a827 (.)
+=======
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> 7325acf3 (.)

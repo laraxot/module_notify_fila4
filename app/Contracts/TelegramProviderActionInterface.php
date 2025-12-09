@@ -112,6 +112,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -326,6 +327,10 @@ use Modules\Notify\Datas\TelegramData;
  *
 =======
 >>>>>>> 4689a827 (.)
+=======
+ *
+=======
+>>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,6 +345,7 @@ use Modules\Notify\Datas\TelegramData;
  * 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +661,8 @@ use Modules\Notify\Datas\TelegramData;
 =======
  *
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider Telegram devono rispettare.
  */
@@ -1239,7 +1247,9 @@ interface TelegramProviderActionInterface
      * @return array Risultato dell'operazione
      */
     public function execute(TelegramData $telegramData): array;
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1270,6 +1280,8 @@ interface TelegramProviderActionInterface
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> 7325acf3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1284,6 +1296,7 @@ interface TelegramProviderActionInterface
 } 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -1316,3 +1329,5 @@ interface TelegramProviderActionInterface
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)

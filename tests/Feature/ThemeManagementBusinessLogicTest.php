@@ -685,6 +685,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -899,6 +900,10 @@ describe('Theme Management Business Logic', function () {
 });
 =======
 >>>>>>> 4689a827 (.)
+=======
+});
+=======
+>>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -913,6 +918,7 @@ describe('Theme Management Business Logic', function () {
 }
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1228,3 +1234,5 @@ describe('Theme Management Business Logic', function () {
 =======
 });
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)

@@ -74,6 +74,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -131,12 +132,15 @@
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> 7325acf3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +315,8 @@
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
 <?php
 
 declare(strict_types=1);
@@ -536,6 +542,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -600,18 +607,24 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 =======
+>>>>>>> 7325acf3 (.)
+=======
 <<<<<<< HEAD
 =======
 @include('notify::emails.templates.'.$theme.'.contentStart')
 {!! $html !!}
 @include('notify::emails.templates.'.$theme.'.contentEnd')
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 7325acf3 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 @include('notify::emails.templates.'.$theme.'.contentStart')
 {!! $html !!}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -876,3 +889,8 @@ declare(strict_types=1);
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> ba564870 (.)
+=======
+@include('notify::emails.templates.'.$theme.'.contentEnd')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
