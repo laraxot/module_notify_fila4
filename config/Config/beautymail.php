@@ -61,6 +61,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,10 +268,13 @@ return [
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 677a6ab7 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,10 +661,14 @@ return [
 =======
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> 677a6ab7 (.)
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2066,6 +2074,9 @@ return [
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> 677a6ab7 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -2217,6 +2228,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2723,8 +2735,14 @@ return [
 =======
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> 677a6ab7 (.)
+=======
+
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d13ead25 (.)
 =======
@@ -3203,11 +3221,14 @@ return [
 =======
 
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 677a6ab7 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
         'unsubscribe' => null,
         'address' => null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4341,6 +4362,11 @@ return [
 
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+=======
+=======
+
+>>>>>>> 0db165c (.)
+>>>>>>> 677a6ab7 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -4492,6 +4518,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5482,6 +5509,11 @@ return [
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+
+>>>>>>> 0db165c (.)
+>>>>>>> 677a6ab7 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,

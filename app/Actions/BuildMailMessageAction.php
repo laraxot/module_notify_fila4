@@ -806,6 +806,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $email = new MailMessage()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -992,6 +993,8 @@ class BuildMailMessageAction
 =======
 >>>>>>> 54220b28 (rebase 210)
 =======
+=======
+>>>>>>> 677a6ab7 (.)
         $email = (new MailMessage())
 =======
 =======
@@ -1044,10 +1047,26 @@ class BuildMailMessageAction
 =======
         $email = (new MailMessage())
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
+=======
+=======
+        $email = (new MailMessage())
+=======
+<<<<<<< HEAD
+        $email = new MailMessage()
+>>>>>>> 4ad63a5 (.)
+>>>>>>> 7cf73d1 (.)
+>>>>>>> 677a6ab7 (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);
+=======
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+>>>>>>> 0db165c (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {
