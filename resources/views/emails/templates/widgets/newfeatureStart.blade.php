@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -237,6 +238,8 @@
 =======
 >>>>>>> 6d08c01b (.)
 =======
+>>>>>>> 6b6b9e41 (.)
+=======
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
@@ -301,7 +304,14 @@
 =======
 =======
 >>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+>>>>>>> 6b6b9e41 (.)
 <?php
 
 declare(strict_types=1);
@@ -372,6 +382,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -400,9 +411,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 6d08c01b (.)
 =======
+=======
+>>>>>>> 2e67a2a (.)
+>>>>>>> 6b6b9e41 (.)
+=======
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
@@ -599,6 +615,8 @@ declare(strict_types=1);
 >>>>>>> 4d2eb53e (.)
 =======
 =======
+>>>>>>> 6b6b9e41 (.)
+=======
 >>>>>>> e11621f (.)
 <<<<<<< HEAD
 >>>>>>> 888799d0 (.)
@@ -661,7 +679,12 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
+=======
+=======
+>>>>>>> 2e67a2a (.)
+>>>>>>> 6b6b9e41 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -673,6 +696,7 @@ declare(strict_types=1);
 
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,15 +904,20 @@ declare(strict_types=1);
 =======
 >>>>>>> 6d08c01b (.)
 =======
+>>>>>>> 6b6b9e41 (.)
+=======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 99ff506 (.)
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> 2e67a2a (.)
 					<td bgcolor="#ffffff" class="contentblock">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
 <<<<<<< HEAD
@@ -941,4 +970,12 @@ declare(strict_types=1);
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> b19cd40 (.)
 >>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+>>>>>>> 6b6b9e41 (.)
