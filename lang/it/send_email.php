@@ -126,6 +126,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -487,6 +488,8 @@
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -981,6 +984,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -1227,6 +1231,9 @@ return [
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 51182e3c (rebase 210)
 return array (
   'navigation' => 
   array (
@@ -1412,6 +1419,7 @@ return array (
       'helper_text' => '',
       'options' => 
       array (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1917,11 +1925,15 @@ return array (
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
         'marketing' => 'Marketing',
         'transactional' => 'Transazionale',
         'notification' => 'Notifica',
         'newsletter' => 'Newsletter',
         'system' => 'Sistema',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2435,6 +2447,8 @@ return array (
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
     ],
     'placeholders' => [
         'email_template' => 'Seleziona un template email predefinito',
@@ -2444,6 +2458,7 @@ return array (
         'text_content' => 'Contenuto testuale dell\'email in formato plain text',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2819,6 +2834,9 @@ return array (
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 51182e3c (rebase 210)
       ),
     ),
     'tracking_enabled' => 
@@ -3018,6 +3036,7 @@ return array (
     'text_content' => 'Contenuto testuale dell\'email in formato plain text',
   ),
 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3500,3 +3519,6 @@ return array (
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)

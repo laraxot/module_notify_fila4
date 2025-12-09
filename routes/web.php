@@ -129,6 +129,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e790eb33 (.)
@@ -323,6 +324,13 @@ declare(strict_types=1);
 // Filament gestisce le route di questo modulo.
 =======
 >>>>>>> 51182e3c (rebase 210)
+=======
+declare(strict_types=1);
+
+<<<<<<< HEAD
+// Filament gestisce le route di questo modulo.
+=======
+>>>>>>> 51182e3c (rebase 210)
 /*
  * |--------------------------------------------------------------------------
  * | Web Routes
@@ -333,6 +341,7 @@ declare(strict_types=1);
  * | contains the "web" middleware group. Now create something great!
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +437,9 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 51182e3c (rebase 210)
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -438,6 +450,7 @@ declare(strict_types=1);
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1508,3 +1521,9 @@ declare(strict_types=1);
 
 // Filament will handle all routes for this module
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+
+// Filament will handle all routes for this module
+>>>>>>> 954a7fa (.)
+>>>>>>> 51182e3c (rebase 210)

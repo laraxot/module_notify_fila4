@@ -337,6 +337,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -578,6 +579,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -586,6 +589,7 @@ class SendNotificationJob implements ShouldQueue
         $timeoutConfig = config('notify.queue.retry_after', 60);
         $this->timeout = is_numeric($timeoutConfig) ? ((int) $timeoutConfig) : 60;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -817,6 +821,8 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> e0d9c9be (.)
 =======
+>>>>>>> 51182e3c (rebase 210)
+=======
         protected array $options = []
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -825,6 +831,7 @@ class SendNotificationJob implements ShouldQueue
         $timeoutConfig = config('notify.queue.retry_after', 60);
         $this->timeout = is_numeric($timeoutConfig) ? (int) $timeoutConfig : 60;
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,6 +1134,9 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -1136,6 +1146,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1696,6 +1707,10 @@ class SendNotificationJob implements ShouldQueue
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
 >>>>>>> 8e5817bc (.)
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+=======
+>>>>>>> 51182e3c (rebase 210)
         $action->execute(
             $this->recipient,
             $this->templateCode,
@@ -1704,6 +1719,7 @@ class SendNotificationJob implements ShouldQueue
             $this->options
         );
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1835,6 +1851,8 @@ class SendNotificationJob implements ShouldQueue
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
     }
 
     /**
@@ -1908,6 +1926,7 @@ class SendNotificationJob implements ShouldQueue
             'trace' => $exception->getTraceAsString(),
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2078,10 +2097,13 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2447,3 +2469,5 @@ class SendNotificationJob implements ShouldQueue
 =======
 }
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
