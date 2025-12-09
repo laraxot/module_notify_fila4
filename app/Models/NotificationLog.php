@@ -4,27 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> bf479cc (.)
-=======
->>>>>>> 372da3e (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 62b0c9c (.)
-=======
->>>>>>> bf479cc (.)
-=======
->>>>>>> 372da3e (.)
 
 /**
  * Modello per il logging delle notifiche.
@@ -121,24 +106,24 @@ final class NotificationLog extends BaseModel
     }
 
     /**
-     * Marca la notifica come aperta.
+     * Marca il log come aperto.
      */
     public function markAsOpened(): void
     {
         $this->update([
-            'opened_at' => now(),
             'status' => NotificationLogStatusEnum::OPENED,
+            'opened_at' => now(),
         ]);
     }
 
     /**
-     * Marca la notifica come cliccata.
+     * Marca il log come cliccato.
      */
     public function markAsClicked(): void
     {
         $this->update([
-            'clicked_at' => now(),
             'status' => NotificationLogStatusEnum::CLICKED,
+            'clicked_at' => now(),
         ]);
     }
 }
