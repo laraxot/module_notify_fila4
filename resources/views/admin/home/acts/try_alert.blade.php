@@ -68,6 +68,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -123,12 +124,15 @@
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
+>>>>>>> 22baa66d (rebase 210)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +292,8 @@
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> bb00ab64 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -369,6 +375,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -478,10 +485,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 22baa66d (rebase 210)
+=======
 @extends('adm_theme::layouts.app')
 @section('content')
 <h1>Alert Inviato</h1>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +570,8 @@ declare(strict_types=1);
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -568,6 +582,7 @@ declare(strict_types=1);
 @endsection
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,3 +771,5 @@ declare(strict_types=1);
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> bb00ab64 (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)

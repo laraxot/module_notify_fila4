@@ -427,6 +427,7 @@ class MailAnalytics
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
@@ -752,3 +753,10 @@ class MailAnalytics
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Packages](https://spatie.be/open-source) 
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+=======
+- [Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> d284d65 (.)
+- [Spatie Packages](https://spatie.be/open-source) 
+>>>>>>> 22baa66d (rebase 210)
