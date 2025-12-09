@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -25,10 +26,13 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 # ==============================================
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
 # Modulo Notify Laraxot - Template standardizzato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
@@ -46,11 +50,15 @@
 =======
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> a404ea71 (.)
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> 75179b85 (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -72,6 +80,8 @@ npm-debug.log
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 75179b85 (.)
 vendor/
 /vendor/
 node_modules/
@@ -83,6 +93,7 @@ yarn-error.log
 composer.lock
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -91,6 +102,8 @@ composer.lock
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -113,6 +126,7 @@ cache/
 *.swp
 *.swo
 *.stackdump
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 *.exe
@@ -212,6 +226,8 @@ cache/
 *.swp
 *.swo
 *.stackdump
+=======
+>>>>>>> 75179b85 (.)
 *.exe
 *:Zone.Identifier
 v8-compile-cache-*
@@ -231,6 +247,7 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -278,6 +295,8 @@ build/
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -286,6 +305,7 @@ public_html/storage
 public_html/hot
 storage/*.key
 .env
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +332,8 @@ storage/*.key
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 .env.*
 !.env.example
 
@@ -368,6 +390,7 @@ docs/phpstan/
 docs/cache/
 
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -555,6 +578,8 @@ cache/
 =======
 
 # ==============================================
+=======
+>>>>>>> 75179b85 (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -592,6 +617,7 @@ test_notifications.sql
 *.fila2
 laravel
 public_html
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -643,3 +669,5 @@ cache/
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)

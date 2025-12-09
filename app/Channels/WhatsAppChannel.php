@@ -18,6 +18,7 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -62,6 +63,9 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 =======
  *
 >>>>>>> 3f537838 (.)
+=======
+ *
+>>>>>>> 75179b85 (.)
  * Questo canale utilizza il driver WhatsApp configurato in config/whatsapp.php
  * per inviare messaggi WhatsApp attraverso il provider selezionato.
  */
@@ -78,6 +82,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -122,6 +127,9 @@ class WhatsAppChannel
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -136,6 +144,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -180,6 +189,9 @@ class WhatsAppChannel
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
@@ -190,6 +202,7 @@ class WhatsAppChannel
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,10 +259,14 @@ class WhatsAppChannel
 =======
         if (!method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 3f537838 (.)
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> 75179b85 (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
         $whatsAppData = $notification->toWhatsApp($notifiable);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +293,8 @@ class WhatsAppChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
         if (!($whatsAppData instanceof WhatsAppData)) {
             throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
@@ -283,6 +302,7 @@ class WhatsAppChannel
 
         $action = $this->factory->create();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -341,6 +361,8 @@ class WhatsAppChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         return $action->execute($whatsAppData);
     }
 }

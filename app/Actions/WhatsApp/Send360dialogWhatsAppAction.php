@@ -10,6 +10,7 @@ namespace Modules\Notify\Actions\WhatsApp;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -37,10 +38,14 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 3f537838 (.)
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 75179b85 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Datas\WhatsAppData;
@@ -60,10 +65,13 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> b19cd40 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +116,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use function Safe\json_decode;
 
 final class Send360dialogWhatsAppAction
@@ -118,7 +128,10 @@ final class Send360dialogWhatsAppAction
     private string $baseUrl = 'https://waba.360dialog.io/v1';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var array<string, mixed> */
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -141,6 +154,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -198,11 +212,17 @@ final class Send360dialogWhatsAppAction
                 'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
             );
 >>>>>>> 3f537838 (.)
+=======
+            throw new Exception(
+                'put [360DIALOG_API_KEY] variable to your .env and config [services.360dialog.api_key]',
+            );
+>>>>>>> 75179b85 (.)
         }
         $this->apiKey = $apiKey;
 
         // Parametri a livello di root
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +282,10 @@ final class Send360dialogWhatsAppAction
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('whatsapp.timeout'), 30);
 >>>>>>> 3f537838 (.)
+=======
+        $this->timeout = app(SafeIntCastAction::class)
+            ->execute(config('whatsapp.timeout'), 30);
+>>>>>>> 75179b85 (.)
     }
 
     /**
@@ -270,7 +294,11 @@ final class Send360dialogWhatsAppAction
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, mixed> Risultato dell'operazione
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
 =======
      * @return array Risultato dell'operazione
 >>>>>>> 75179b85 (.)
@@ -296,6 +324,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -340,6 +369,9 @@ final class Send360dialogWhatsAppAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
@@ -352,6 +384,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -371,6 +404,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             ],
         ]);
 
@@ -380,6 +415,7 @@ final class Send360dialogWhatsAppAction
             'to' => $whatsAppData->to,
         ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +477,8 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
             $payload['type'] = 'text';
@@ -451,6 +489,7 @@ final class Send360dialogWhatsAppAction
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             /** @var string $mediaUrl */
@@ -504,12 +543,18 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            $mediaUrl = $whatsAppData->media[0];
+            $mediaType = $this->determineMediaType($mediaUrl);
+
+>>>>>>> 75179b85 (.)
             $payload['type'] = $mediaType;
             $payload[$mediaType] = [
                 'link' => $mediaUrl,
                 'caption' => $whatsAppData->body,
             ];
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,12 +581,15 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
             ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -618,11 +666,14 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
             $responseData = json_decode($responseContent, true);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,11 +747,14 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -732,10 +786,13 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             Log::info('WhatsApp 360dialog inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,10 +835,15 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
@@ -789,6 +851,7 @@ final class Send360dialogWhatsAppAction
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             /** @var array<string, mixed> $responseBody */
@@ -890,11 +953,17 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+>>>>>>> 75179b85 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -926,11 +995,14 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             Log::warning('Errore invio WhatsApp 360dialog', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1010,16 +1082,22 @@ final class Send360dialogWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
             return [
                 'success' => false,
                 'error' => $responseBody['errors'][0]['message'] ?? 'Errore sconosciuto',
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1071,6 +1149,9 @@ final class Send360dialogWhatsAppAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
@@ -1087,6 +1168,7 @@ final class Send360dialogWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1142,6 +1224,10 @@ final class Send360dialogWhatsAppAction
 
         return match ($extension) {
 >>>>>>> 3f537838 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 75179b85 (.)
             'jpg', 'jpeg', 'png', 'gif', 'webp' => 'image',
             'mp4', 'mov', 'avi', 'webm' => 'video',
             'mp3', 'wav', 'ogg' => 'audio',

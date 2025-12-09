@@ -17,7 +17,11 @@ class LogsRelationManager extends RelationManager
     protected static ?string $recordTitleAttribute = 'id';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
 =======
     public function form(Form $form): Form
 >>>>>>> 75179b85 (.)

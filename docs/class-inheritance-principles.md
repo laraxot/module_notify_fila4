@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 =======
 # Principi di Ereditarietà nelle Classi 
@@ -40,6 +41,10 @@
 =======
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> a404ea71 (.)
+=======
+# Principi di Ereditarietà nelle Classi 
+# Principi di Ereditarietà nelle Classi SaluteOra
+>>>>>>> 75179b85 (.)
 
 ## Regola Fondamentale: No Duplicate Declarations
 
@@ -123,6 +128,7 @@ Per identificare dichiarazioni duplicate, usare:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 =======
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
@@ -160,6 +166,11 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 =======
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
 >>>>>>> a404ea71 (.)
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
+>>>>>>> 75179b85 (.)
 ```
 
 ## Riferimenti

@@ -3,7 +3,10 @@ Test Laravel SMTP Mail via Tinker
 https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 //----------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 75179b85 (.)
 
 # Come far funzionare la pagina SendEmail
 
@@ -46,6 +49,7 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -58,3 +62,5 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)

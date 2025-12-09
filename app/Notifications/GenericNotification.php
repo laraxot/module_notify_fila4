@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -52,10 +53,13 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +106,9 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 =======
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> 3f537838 (.)
+=======
+use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
+>>>>>>> 75179b85 (.)
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
@@ -124,7 +131,11 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @var array<int, string> I canali da utilizzare per la notifica
+=======
+     * @var array<string> I canali da utilizzare per la notifica
+>>>>>>> 75179b85 (.)
 =======
      * @var array<string> I canali da utilizzare per la notifica
 >>>>>>> 75179b85 (.)
@@ -146,7 +157,11 @@ class GenericNotification extends Notification implements ShouldQueue
      * @param string $message Il contenuto della notifica
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<int, string> $channels I canali da utilizzare ('mail', 'sms', 'database')
+=======
+     * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
+>>>>>>> 75179b85 (.)
 =======
      * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
 >>>>>>> 75179b85 (.)
@@ -173,6 +188,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -192,10 +208,13 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
      * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +265,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     {
         return $this->channels;
     }
@@ -258,6 +279,7 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function toMail($notifiable): MailMessage
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -331,6 +353,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
         $mail = new MailMessage()
             ->subject($this->title)
             ->greeting('Gentile ' . $this->getRecipientName($notifiable))
@@ -338,6 +362,7 @@ class GenericNotification extends Notification implements ShouldQueue
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text'], $this->data['action_url'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -364,6 +389,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             /** @phpstan-ignore-next-line */
             $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
         }
@@ -382,6 +409,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -429,6 +457,9 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
         return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
 >>>>>>> 3f537838 (.)
+=======
+        return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
+>>>>>>> 75179b85 (.)
     }
 
     /**
@@ -447,6 +478,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 
@@ -509,11 +541,15 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($content) > 320) {
             $content = mb_substr($content, 0, 317) . '...';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,6 +581,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         // TODO: Implementare TwilioSmsMessage quando disponibile
         $to = '';
         if (is_object($notifiable) && method_exists($notifiable, 'routeNotificationForTwilio')) {
@@ -558,6 +596,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -602,6 +641,9 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         return [
             'content' => $content,
             'to' => $to,
@@ -634,6 +676,7 @@ class GenericNotification extends Notification implements ShouldQueue
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             /** @var string $fullName */
@@ -685,10 +728,16 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            return $notifiable->getFullName();
+        }
+
+>>>>>>> 75179b85 (.)
         if (is_object($notifiable) && $notifiable instanceof Model) {
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'full_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'full_name', 'Utente');
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,11 +763,14 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'first_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'first_name', 'Utente');
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,10 +828,13 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'name', 'Utente');
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -831,6 +886,9 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         return 'Utente';
     }
 }

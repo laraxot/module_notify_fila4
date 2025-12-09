@@ -7,6 +7,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -47,6 +48,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
@@ -73,6 +76,7 @@ test('html template contains optional function', function (): void {
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +245,8 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -280,6 +286,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
 =======
@@ -313,3 +320,5 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)

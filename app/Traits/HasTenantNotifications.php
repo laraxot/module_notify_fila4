@@ -26,6 +26,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -73,6 +74,9 @@ trait HasTenantNotifications
 =======
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
 >>>>>>> 3f537838 (.)
+=======
+        return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
+>>>>>>> 75179b85 (.)
     }
 
     /**
@@ -89,6 +93,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -136,6 +141,9 @@ trait HasTenantNotifications
 =======
         return $this->notifications()->whereNull('read_at');
 >>>>>>> 3f537838 (.)
+=======
+        return $this->notifications()->whereNull('read_at');
+>>>>>>> 75179b85 (.)
     }
 
     /**
@@ -152,6 +160,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -199,6 +208,9 @@ trait HasTenantNotifications
 =======
         return $this->notifications()->whereNotNull('read_at');
 >>>>>>> 3f537838 (.)
+=======
+        return $this->notifications()->whereNotNull('read_at');
+>>>>>>> 75179b85 (.)
     }
 
     /**
@@ -215,6 +227,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -278,6 +291,11 @@ trait HasTenantNotifications
     {
         $tenantId ??= $this->getTenantId();
 >>>>>>> 3f537838 (.)
+=======
+    public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
+    {
+        $tenantId ??= $this->getTenantId();
+>>>>>>> 75179b85 (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -293,6 +311,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -337,6 +356,9 @@ trait HasTenantNotifications
 =======
     protected function getTenantId(): null|string
 >>>>>>> 3f537838 (.)
+=======
+    protected function getTenantId(): null|string
+>>>>>>> 75179b85 (.)
     {
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);
@@ -390,6 +412,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -434,3 +457,6 @@ trait HasTenantNotifications
 =======
 }
 >>>>>>> 3f537838 (.)
+=======
+}
+>>>>>>> 75179b85 (.)

@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -23,6 +24,8 @@ use Filament\Schemas\Schema;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -35,6 +38,9 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -45,7 +51,10 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 
@@ -56,6 +65,7 @@ class SendEmailPage extends XotBasePage
 {
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public ?array $emailData = [];
 =======
@@ -129,11 +139,15 @@ class SendEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 75179b85 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +200,9 @@ class SendEmailPage extends XotBasePage
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 3f537838 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b85 (.)
 
     public function mount(): void
     {
@@ -194,6 +211,7 @@ class SendEmailPage extends XotBasePage
 
     public function emailForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,6 +347,11 @@ class SendEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 75179b85 (.)
     public function getEmailFormSchema(): array
     {
         return [
@@ -376,6 +399,7 @@ class SendEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 
 >>>>>>> 75179b85 (.)
@@ -417,6 +441,9 @@ class SendEmailPage extends XotBasePage
 =======
                 
 >>>>>>> 3f537838 (.)
+=======
+                
+>>>>>>> 75179b85 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -427,6 +454,7 @@ class SendEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,6 +482,9 @@ class SendEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+=======
         if (!($user instanceof Model)) {
 >>>>>>> 75179b85 (.)
             throw new Exception(

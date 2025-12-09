@@ -182,7 +182,11 @@ class EmailTemplateResource extends Resource
 {
     protected static ?string $model = EmailTemplate::class;
 
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -442,6 +446,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -470,3 +475,6 @@ Cordiali saluti,<br>
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> 75179b85 (.)

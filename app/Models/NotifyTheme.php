@@ -11,6 +11,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 use Override;
@@ -48,6 +49,9 @@ use Override;
 =======
 use Override;
 >>>>>>> 3f537838 (.)
+=======
+use Override;
+>>>>>>> 75179b85 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -150,6 +154,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -194,6 +199,9 @@ class NotifyTheme extends BaseModel
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 3f537838 (.)
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 75179b85 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -219,6 +227,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
     #[Override]
@@ -258,6 +267,9 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
     protected function casts(): array
     {
         return [
@@ -273,6 +285,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -338,6 +351,11 @@ class NotifyTheme extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 3f537838 (.)
+=======
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+>>>>>>> 75179b85 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
             'view_params' => 'array',
         ];

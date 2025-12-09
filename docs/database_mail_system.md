@@ -128,7 +128,11 @@ class MailTemplateResource extends XotBaseResource
 {
     protected static ?string $model = MailTemplate::class;
 
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -259,6 +263,7 @@ class TreatmentComplete extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -284,6 +289,8 @@ class TreatmentComplete extends Mailable
 
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 75179b85 (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -344,6 +351,7 @@ php artisan notify:mail-template:test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -385,3 +393,8 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 75179b85 (.)

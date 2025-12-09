@@ -28,6 +28,7 @@ use Webmozart\Assert\Assert;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 
 =======
  * @property \Filament\Schemas\Schema $emailForm
@@ -47,6 +48,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+ * @property \Filament\Schemas\Schema $emailForm
+>>>>>>> 75179b85 (.)
  */
 class TestSmtpPage extends XotBasePage implements HasForms
 {
@@ -70,6 +74,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function sendEmail(): void
     {
         $data = $this->data;
@@ -78,6 +83,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     public function emailForm(Schema $schema): Schema
     {
         Assert::isArray($mail_config = config('mail'));
@@ -126,6 +133,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
     public function sendEmail(): void
     {
         $data = $this->emailForm->getState();
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
         $smtp = SmtpData::from($data);
         $emailData = EmailData::from($data);
@@ -154,11 +164,14 @@ class TestSmtpPage extends XotBasePage implements HasForms
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
         return $schema->components([])->model($this->getUser())->statePath('emailData');
     }
 
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
     #[Override]
@@ -188,6 +201,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +241,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+        $this->emailForm->fill($typedConfig);
+>>>>>>> 75179b85 (.)
+=======
         $this->emailForm->fill($typedConfig);
 >>>>>>> 75179b85 (.)
     }

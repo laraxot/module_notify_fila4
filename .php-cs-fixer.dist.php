@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 declare(strict_types=1);
@@ -104,6 +105,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 3f537838 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -114,7 +120,11 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreDotFiles(true)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->ignoreVCS(true);
+=======
+    ->ignoreVCS(true)
+>>>>>>> 75179b85 (.)
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
@@ -134,7 +144,11 @@ $config
         'combine_consecutive_unsets' => true,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // 'binary_operator_spaces' => ['align_double_arrow' => false],
+=======
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> 75179b85 (.)
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 75179b85 (.)
@@ -157,9 +171,15 @@ $config
     ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->setFinder($finder);
 
 return $config;
+=======
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> 75179b85 (.)
 =======
     ->setFinder($finder)
 

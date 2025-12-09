@@ -29,7 +29,10 @@ class EventServiceProvider extends BaseEventServiceProvider
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Email verification configuration if needed
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======

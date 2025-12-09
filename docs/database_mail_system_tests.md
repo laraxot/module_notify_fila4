@@ -351,6 +351,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -376,6 +377,8 @@ class MailTemplateSecurityTest extends TestCase
 
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 75179b85 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -412,6 +415,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -424,12 +428,15 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b85 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
 ## Vedi Anche
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 <<<<<<< HEAD
@@ -468,3 +475,6 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+>>>>>>> 75179b85 (.)
