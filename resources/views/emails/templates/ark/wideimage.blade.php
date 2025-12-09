@@ -219,6 +219,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -759,6 +760,8 @@
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> d13ead25 (.)
 <?php
 
 declare(strict_types=1);
@@ -1306,6 +1309,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -1730,12 +1734,17 @@ declare(strict_types=1);
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> d13ead25 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3043,3 +3052,9 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> a29a4728 (.)
+=======
+</tr>
+=======
+</tr>
+>>>>>>> 0db165c (.)
+>>>>>>> d13ead25 (.)
