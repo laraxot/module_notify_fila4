@@ -22,6 +22,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -53,6 +54,9 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+use Filament\Schemas\Components\Component;
+>>>>>>> 75179b85 (.)
+=======
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
 =======
@@ -72,6 +76,7 @@ class ViewNotification extends XotBaseViewRecord
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +144,9 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+     * @return array<Component>
+>>>>>>> 75179b85 (.)
+=======
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======

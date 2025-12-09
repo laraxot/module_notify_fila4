@@ -75,6 +75,7 @@ class ContactTypeEnumTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $form = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($form);
@@ -84,6 +85,8 @@ class ContactTypeEnumTest extends TestCase
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
         $schema = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($schema);
@@ -91,6 +94,9 @@ class ContactTypeEnumTest extends TestCase
 
         foreach ($schema as $component) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -101,6 +107,7 @@ class ContactTypeEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +171,9 @@ class ContactTypeEnumTest extends TestCase
 =======
         $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
 >>>>>>> 9777d1b3 (.)
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 75179b85 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

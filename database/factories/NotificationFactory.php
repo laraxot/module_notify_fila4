@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -74,6 +75,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 9777d1b3 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\Notification;

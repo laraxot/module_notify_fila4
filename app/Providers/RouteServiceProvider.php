@@ -12,11 +12,14 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * The module name.
      */
     public string $name = 'Notify';
 
     /**
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -33,6 +36,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    public string $name = 'Notify';
+>>>>>>> 75179b85 (.)
 =======
 
     public string $name = 'Notify';

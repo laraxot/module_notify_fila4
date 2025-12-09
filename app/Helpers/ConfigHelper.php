@@ -8,7 +8,10 @@ use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeArrayCastAction;
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -34,6 +37,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $companyConfigRaw = Config::get('notify.company', []);
         $templateVariablesRaw = Config::get('notify.template_variables', []);
 
@@ -43,6 +47,8 @@ class ConfigHelper
         $templateVariables = SafeArrayCastAction::cast($templateVariablesRaw);
         
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -58,6 +64,9 @@ class ConfigHelper
         /** @var array<string, mixed> $templateVariables */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -102,6 +111,7 @@ class ConfigHelper
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +198,9 @@ class ConfigHelper
 =======
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 3f537838 (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 75179b85 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 
@@ -205,10 +218,13 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $companyConfigRaw = Config::get('notify.company', []);
             /** @var array<string, mixed> $companyConfig */
             $companyConfig = SafeArrayCastAction::cast($companyConfigRaw);
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -219,6 +235,9 @@ class ConfigHelper
             /* @var array<string, mixed> $companyConfig */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -245,10 +264,13 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $testDataRaw = Config::get('notify.test_data', []);
         /** @var array<string, mixed> $testData */
         $testData = SafeArrayCastAction::cast($testDataRaw);
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -259,6 +281,9 @@ class ConfigHelper
         /* @var array<string, mixed> $testData */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -277,10 +302,13 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $companyConfigRaw = Config::get('notify.company', []);
         /** @var array<string, mixed> $companyConfig */
         $companyConfig = SafeArrayCastAction::cast($companyConfigRaw);
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -291,6 +319,9 @@ class ConfigHelper
         /* @var array<string, mixed> $companyConfig */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -309,10 +340,13 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $webhookConfigRaw = Config::get('notify.webhooks', []);
         /** @var array<string, mixed> $webhookConfig */
         $webhookConfig = SafeArrayCastAction::cast($webhookConfigRaw);
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -323,6 +357,9 @@ class ConfigHelper
         /* @var array<string, mixed> $webhookConfig */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -341,10 +378,13 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $emailConfigRaw = Config::get('notify.email', []);
         /** @var array<string, mixed> $emailConfig */
         $emailConfig = SafeArrayCastAction::cast($emailConfigRaw);
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -355,6 +395,9 @@ class ConfigHelper
         /* @var array<string, mixed> $emailConfig */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -373,10 +416,13 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $pathConfigRaw = Config::get('notify.paths', []);
         /** @var array<string, mixed> $pathConfig */
         $pathConfig = SafeArrayCastAction::cast($pathConfigRaw);
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -387,6 +433,9 @@ class ConfigHelper
         /* @var array<string, mixed> $pathConfig */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)

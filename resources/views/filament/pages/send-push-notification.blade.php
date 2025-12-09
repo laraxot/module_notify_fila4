@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -52,12 +53,15 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 <x-filament-panels::page>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +90,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
     <div class="space-y-6">
         <div class="bg-white shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
@@ -99,6 +105,7 @@ declare(strict_types=1);
                 <div class="mt-6">
                     {{ $this->notificationForm }}
                 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +201,11 @@ declare(strict_types=1);
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+=======
+>>>>>>> 75179b85 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -210,6 +222,7 @@ declare(strict_types=1);
                             {{ $action }}
                         @endforeach
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -358,4 +371,11 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 11ae5222 (.)
+                </div>
+            </div>
+        </div>
+    </div>
+>>>>>>> 75179b85 (.)
 </x-filament-panels::page>

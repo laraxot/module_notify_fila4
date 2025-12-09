@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -74,6 +75,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 9777d1b3 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\MailTemplateLog;
@@ -94,6 +100,7 @@ class MailTemplateLogFactory extends Factory
         return [];
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,3 +171,5 @@ class MailTemplateLogFactory extends Factory
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)

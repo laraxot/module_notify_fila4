@@ -130,6 +130,7 @@ class MailTemplateResource extends XotBaseResource
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -137,6 +138,9 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -330,6 +334,7 @@ php artisan notify:mail-template:test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -383,3 +388,6 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 75179b85 (.)

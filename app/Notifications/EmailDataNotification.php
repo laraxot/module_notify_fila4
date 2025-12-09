@@ -49,6 +49,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -85,10 +86,13 @@ class EmailDataNotification extends Notification
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
      * @return array<string>
      */
     public function via(object $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +180,8 @@ class EmailDataNotification extends Notification
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     {
         return ['mail'];
     }
@@ -188,6 +194,7 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,11 +264,14 @@ class EmailDataNotification extends Notification
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
 
         if (!empty($this->emailData->body_html)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,11 +388,14 @@ class EmailDataNotification extends Notification
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             $mailMessage->view('notify::emails.template', [
                 'content' => $this->emailData->body_html,
             ]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,6 +482,9 @@ class EmailDataNotification extends Notification
 =======
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
 >>>>>>> 3f537838 (.)
+=======
+        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+>>>>>>> 75179b85 (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
         }
 

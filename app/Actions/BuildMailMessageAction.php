@@ -36,6 +36,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -109,6 +110,9 @@ class BuildMailMessageAction
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 3f537838 (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 75179b85 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -133,6 +137,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -206,6 +211,9 @@ class BuildMailMessageAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
@@ -223,6 +231,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -296,10 +305,14 @@ class BuildMailMessageAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,11 +362,14 @@ class BuildMailMessageAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,6 +464,8 @@ class BuildMailMessageAction
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)

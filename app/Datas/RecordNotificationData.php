@@ -17,6 +17,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -32,11 +33,14 @@ use Exception;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +158,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 class RecordNotificationData extends Data
 {
@@ -167,6 +173,7 @@ class RecordNotificationData extends Data
 
     public function getRoute(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +223,8 @@ class RecordNotificationData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         switch ($this->channel) {
             case 'mail':
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -227,6 +236,7 @@ class RecordNotificationData extends Data
         }
         throw new Exception('Channel [' . $this->channel . '] not supported');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,4 +347,6 @@ class RecordNotificationData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 }

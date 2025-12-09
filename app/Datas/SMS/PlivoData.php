@@ -18,6 +18,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -54,6 +55,8 @@ use Illuminate\Support\Arr;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -76,6 +79,7 @@ class PlivoData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +205,8 @@ class PlivoData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             $data = Config::array('sms.drivers.plivo');
             self::$instance = self::from($data);
         }
@@ -215,6 +221,7 @@ class PlivoData extends Data
             default:
                 return [
                     'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -301,6 +308,9 @@ class PlivoData extends Data
 =======
                     'Content-Type' => 'application/json',
 >>>>>>> 3f537838 (.)
+=======
+                    'Content-Type' => 'application/json',
+>>>>>>> 75179b85 (.)
                 ];
         }
     }

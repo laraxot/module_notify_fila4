@@ -9,6 +9,7 @@ namespace Modules\Notify\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +29,8 @@ namespace Modules\Notify\Factories;
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Exception;
 use Illuminate\Support\Facades\Config;
 use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
@@ -48,6 +51,7 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 
@@ -175,10 +179,15 @@ use function Safe\preg_replace;
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+
+use function Safe\preg_replace;
+>>>>>>> 75179b85 (.)
 
 /**
  * Factory per la creazione di azioni WhatsApp.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +225,8 @@ use function Safe\preg_replace;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -249,6 +260,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -285,11 +297,14 @@ final class WhatsAppActionFactory
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,6 +384,9 @@ final class WhatsAppActionFactory
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+>>>>>>> 75179b85 (.)
 
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
@@ -382,6 +400,7 @@ final class WhatsAppActionFactory
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,10 +522,13 @@ final class WhatsAppActionFactory
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         // Verifica se la classe implementa l'interfaccia richiesta
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +613,10 @@ final class WhatsAppActionFactory
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+
+        return app($className);
+>>>>>>> 75179b85 (.)
+=======
 
         return app($className);
 >>>>>>> 75179b85 (.)

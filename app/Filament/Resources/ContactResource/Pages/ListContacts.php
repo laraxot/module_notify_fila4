@@ -23,6 +23,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -69,12 +70,17 @@ use Filament\Tables;
 use Override;
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
+=======
+use Override;
+use Filament\Tables;
+>>>>>>> 75179b85 (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,10 +160,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> 75179b85 (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +218,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -226,6 +239,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,10 +307,13 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
             'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
                 fn(Builder $query): Builder => $query->where('active', false),
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,6 +450,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         ];
     }
 }

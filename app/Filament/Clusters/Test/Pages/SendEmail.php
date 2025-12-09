@@ -7,7 +7,10 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -38,6 +41,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 
  */
 class SendEmail extends Page implements HasForms
@@ -55,11 +59,16 @@ class SendEmail extends Page implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
  * @property \Filament\Schemas\Schema $emailForm
  */
 class SendEmail extends Page implements HasForms
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -86,6 +95,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function sendEmail(): void
     {
         $data = $this->data;
@@ -100,6 +110,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     public function emailForm(Schema $schema): Schema
     {
         return $schema
@@ -123,6 +135,9 @@ class SendEmail extends Page implements HasForms
     {
         $data = $this->emailForm->getState();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -172,7 +187,11 @@ class SendEmail extends Page implements HasForms
         // $this->editProfileForm->fill($data);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Form data filled;
+=======
+        $this->emailForm->fill();
+>>>>>>> 75179b85 (.)
 =======
         $this->emailForm->fill();
 >>>>>>> 75179b85 (.)

@@ -19,6 +19,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -107,6 +108,10 @@ return new class() extends XotBaseMigration {
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 >>>>>>> 3f537838 (.)
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> 75179b85 (.)
 
     /**
      * Run the migrations.
@@ -124,6 +129,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -168,6 +174,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -185,6 +193,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,5 +297,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     }
 };

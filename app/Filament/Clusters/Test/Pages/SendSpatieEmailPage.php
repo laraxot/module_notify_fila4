@@ -13,6 +13,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -41,6 +42,8 @@ use BackedEnum;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -76,7 +79,11 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> 75179b85 (.)
@@ -114,6 +121,7 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -137,6 +145,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -152,6 +162,7 @@ class SendSpatieEmailPage extends XotBasePage
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
             RichEditor::make('body_html')->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +316,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         ];
     }
 
@@ -343,6 +356,7 @@ class SendSpatieEmailPage extends XotBasePage
          * ->locale('it')
          * ->send($email);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -480,6 +494,11 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        Assert::string($mail_template_slug = $data['mail_template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $notify = new RecordNotification($user, $mail_template_slug);
+        $notify->mergeData($data);
+>>>>>>> 75179b85 (.)
 
         Notification::route('mail', $data['to'])
             //->locale('it')

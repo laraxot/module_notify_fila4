@@ -18,6 +18,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -46,6 +47,8 @@ use BackedEnum;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -86,7 +89,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> 75179b85 (.)
@@ -108,6 +115,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public function telegramForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +166,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
         return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
@@ -170,6 +180,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
             Select::make('driver')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,12 +225,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
                 ])
                 ->default('bot')
                 ->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,12 +284,16 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             Select::make('parse_mode')
 >>>>>>> 3f537838 (.)
+=======
+            Select::make('parse_mode')
+>>>>>>> 75179b85 (.)
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
                     'MarkdownV2' => 'MarkdownV2',
                 ])
                 ->helperText('Formato del testo (opzionale)'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,6 +371,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
             TextInput::make('reply_to_message_id')
@@ -360,6 +380,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->helperText('ID del messaggio a cui rispondere'),
             TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
             Select::make('media_type')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,6 +448,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
                 ->options([
                     'photo' => 'Foto',
                     'video' => 'Video',
@@ -434,6 +457,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                     'audio' => 'Audio',
                 ])
                 ->helperText('Tipo di media (opzionale)'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -567,6 +591,9 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 >>>>>>> 3f537838 (.)
+=======
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+>>>>>>> 75179b85 (.)
         ];
     }
 

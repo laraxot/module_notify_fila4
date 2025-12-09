@@ -3,7 +3,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -14,6 +17,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -23,6 +29,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Providers\Filament;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,12 +184,17 @@ use Override;
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 >>>>>>> 3f537838 (.)
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> 75179b85 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,11 +235,14 @@ use Filament\SpatieLaravelTranslatablePlugin;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +418,11 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> b93ef594b4 (.)
     public function panel(Panel $panel): Panel
     {
+=======
+    #[Override]
+    public function panel(Panel $panel): Panel
+    {
+>>>>>>> 75179b85 (.)
         // Temporaneamente commentato per compatibilità Filament 4.x
         // $panel->plugins([
         //     SpatieTranslatablePlugin::make(),
@@ -419,6 +439,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         return parent::panel($panel);
     }
 }
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 
@@ -497,3 +518,5 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)

@@ -17,6 +17,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -53,10 +54,13 @@ namespace Modules\Notify\Models;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +118,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -156,6 +162,7 @@ class MailTemplateLog extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235,6 +242,9 @@ class MailTemplateLog extends BaseModel
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
     protected function casts(): array
     {
         return [

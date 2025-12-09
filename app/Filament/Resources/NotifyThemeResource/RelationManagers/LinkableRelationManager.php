@@ -17,6 +17,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -162,12 +163,17 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> 75179b85 (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
+<<<<<<< HEAD
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 class LinkableRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'linkable';
@@ -185,6 +191,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -221,6 +228,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     protected static null|string $recordTitleAttribute = 'id';
 
     #[Override]
@@ -228,6 +237,7 @@ class LinkableRelationManager extends XotBaseRelationManager
     {
         return [
             TextInput::make('id')->required()->maxLength(255),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +333,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         ];
     }
 }

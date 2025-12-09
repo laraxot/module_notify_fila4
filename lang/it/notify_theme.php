@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -118,6 +119,11 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 3f537838 (.)
+=======
+
+declare(strict_types=1);
+
+>>>>>>> 75179b85 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',

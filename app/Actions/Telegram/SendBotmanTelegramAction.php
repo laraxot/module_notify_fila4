@@ -13,6 +13,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -52,6 +53,9 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 3f537838 (.)
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 75179b85 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -60,7 +64,10 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -69,6 +76,7 @@ use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
 use function Safe\json_encode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,6 +170,8 @@ use function Safe\json_decode;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 final class SendBotmanTelegramAction
 {
@@ -169,6 +179,7 @@ final class SendBotmanTelegramAction
 
     private string $token;
     private string $apiUrl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,10 +191,13 @@ final class SendBotmanTelegramAction
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
     protected null|string $parseMode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,6 +299,8 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
     /**
      * Create a new action instance.
@@ -299,6 +315,7 @@ final class SendBotmanTelegramAction
         /** @var string $apiUrl */
         $apiUrl = config('services.telegram.api_url', 'https://api.telegram.org');
         $this->apiUrl = $apiUrl;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,11 +402,15 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Parametri a livello di root
         /** @var string|null $parseMode */
         $parseMode = config('telegram.parse_mode');
         $this->parseMode = $parseMode;
         $this->debug = (bool) config('telegram.debug', false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -488,6 +509,10 @@ final class SendBotmanTelegramAction
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('telegram.timeout'), 30);
 >>>>>>> 3f537838 (.)
+=======
+        $this->timeout = app(SafeIntCastAction::class)
+            ->execute(config('telegram.timeout'), 30);
+>>>>>>> 75179b85 (.)
     }
 
     /**
@@ -497,7 +522,11 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, mixed> Risultato dell'operazione
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
 =======
      * @return array Risultato dell'operazione
 >>>>>>> 75179b85 (.)
@@ -532,6 +561,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -571,10 +601,14 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'base_uri' => $this->apiUrl,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -704,6 +738,9 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
             'photo' => "/bot{$this->token}/sendPhoto",
@@ -726,6 +763,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -799,6 +837,9 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Prepara il payload in base al tipo di messaggio
         $payload = [
             'chat_id' => $telegramData->chatId,
@@ -817,6 +858,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -853,6 +895,8 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -862,6 +906,7 @@ final class SendBotmanTelegramAction
             $payload['reply_markup'] = json_encode($telegramData->replyMarkup);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -958,11 +1003,14 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         // Aggiungi parametri specifici per il tipo di messaggio
         if ($telegramData->type === 'text') {
             $payload['text'] = $telegramData->text;
             $payload['parse_mode'] = $telegramData->parseMode ?? $this->parseMode;
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1031,10 +1079,13 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
                 !empty($telegramData->media)
         ) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1092,6 +1143,8 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
             $payload['caption'] = $telegramData->text;
@@ -1110,6 +1163,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1183,10 +1237,14 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1260,12 +1318,15 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
             $responseData = json_decode($responseContent, true);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1330,10 +1391,13 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1489,6 +1553,8 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
             Log::info('Telegram BotMan inviato con successo', [
                 'chat_id' => $telegramData->chatId,
@@ -1499,6 +1565,9 @@ final class SendBotmanTelegramAction
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1508,6 +1577,7 @@ final class SendBotmanTelegramAction
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1663,10 +1733,16 @@ final class SendBotmanTelegramAction
             
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+>>>>>>> 75179b85 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
@@ -1733,11 +1809,15 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
             Log::warning('Errore invio Telegram BotMan', [
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1791,12 +1871,17 @@ final class SendBotmanTelegramAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
             return [
                 'success' => false,
                 'error' => $responseBody['description'] ?? 'Errore sconosciuto',
                 'error_code' => $responseBody['error_code'] ?? null,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)

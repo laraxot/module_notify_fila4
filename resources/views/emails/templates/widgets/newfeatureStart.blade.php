@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -86,6 +87,8 @@
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
@@ -113,6 +116,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -197,6 +201,8 @@ declare(strict_types=1);
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
@@ -219,6 +225,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -292,3 +299,6 @@ declare(strict_types=1);
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 3f537838 (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 75179b85 (.)

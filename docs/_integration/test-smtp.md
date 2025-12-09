@@ -18,6 +18,7 @@ https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -31,6 +32,8 @@ https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 =======
 =======
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
 
 # Come far funzionare la pagina SendEmail
 
@@ -76,6 +79,7 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -102,3 +106,5 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 75179b85 (.)

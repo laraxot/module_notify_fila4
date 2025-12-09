@@ -28,6 +28,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data I dati per compilare il template
      * @param array<int, string> $channels I canali da utilizzare (opzionale, usa quelli del template se non specificati)
      * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
@@ -65,6 +66,11 @@ class SendNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+     * @param array $data I dati per compilare il template
+     * @param array $channels I canali da utilizzare (opzionale, usa quelli del template se non specificati)
+     * @param array $options Opzioni aggiuntive per l'invio
+>>>>>>> 75179b85 (.)
      *
      * @return bool
      * @throws Exception Se il template non esiste o non è attivo
@@ -74,6 +80,7 @@ class SendNotificationAction
         string $templateCode,
         array $data = [],
         array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,10 +130,13 @@ class SendNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         array $options = [],
     ): bool {
         // Recupera il template
         $template = NotificationTemplate::where('code', $templateCode)->where('is_active', true)->first();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,10 +207,15 @@ class SendNotificationAction
 
         if (!$template) {
 >>>>>>> 75179b85 (.)
+=======
+
+        if (!$template) {
+>>>>>>> 75179b85 (.)
             throw new Exception("Template {$templateCode} non trovato o non attivo");
         }
 
         // Verifica condizioni di invio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,10 +229,14 @@ class SendNotificationAction
 =======
         if (!$template->shouldSend($data)) {
 >>>>>>> 75179b85 (.)
+=======
+        if (!$template->shouldSend($data)) {
+>>>>>>> 75179b85 (.)
             return false;
         }
 
         // Compila il template
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +259,8 @@ class SendNotificationAction
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
         $compiled = $template->compile($data);
 
         // Determina i canali da utilizzare
@@ -249,6 +270,9 @@ class SendNotificationAction
         foreach ($effectiveChannels as $channel) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -271,6 +295,7 @@ class SendNotificationAction
      *
      * @param Model $recipient
      * @param string $channel
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,10 +340,13 @@ class SendNotificationAction
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
      * @param array $compiled
      * @param array $options
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
     {
@@ -394,6 +422,10 @@ class SendNotificationAction
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
     {
 >>>>>>> 3f537838 (.)
+=======
+    protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
+    {
+>>>>>>> 75179b85 (.)
         switch ($channel) {
             case 'mail':
                 $this->sendMail($recipient, $compiled, $options);
@@ -414,6 +446,7 @@ class SendNotificationAction
      */
     protected function sendMail(Model $recipient, array $compiled, array $options): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,10 +479,14 @@ class SendNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        if (!method_exists($recipient, 'routeNotificationForMail')) {
+>>>>>>> 75179b85 (.)
             throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
         $email = $recipient->routeNotificationForMail();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,6 +520,8 @@ class SendNotificationAction
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
         if (!$email) {
             throw new Exception('Email destinatario non disponibile');
         }
@@ -508,6 +547,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,10 +650,14 @@ class SendNotificationAction
 =======
                 ]),
 >>>>>>> 3f537838 (.)
+=======
+                ]),
+>>>>>>> 75179b85 (.)
             ));
         } else {
             // Fallback per modelli che non implementano Notifiable
             Notification::send($recipient, new GenericNotification(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,6 +666,8 @@ class SendNotificationAction
                 ['mail'],
                 $notificationData,
 =======
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -644,6 +690,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ]),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -746,12 +793,16 @@ class SendNotificationAction
 =======
                 ]),
 >>>>>>> 3f537838 (.)
+=======
+                ]),
+>>>>>>> 75179b85 (.)
             ));
         }
     }
 
     /**
      * Invia una notifica nel database.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,6 +833,8 @@ class SendNotificationAction
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
      */
     protected function sendDatabase(Model $recipient, array $compiled, array $options): void
     {
@@ -789,6 +842,7 @@ class SendNotificationAction
             $compiled['subject'],
             $compiled['body_text'] ?? strip_tags($compiled['body_html']),
             ['database'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -904,6 +958,9 @@ class SendNotificationAction
 =======
             $options,
 >>>>>>> 3f537838 (.)
+=======
+            $options,
+>>>>>>> 75179b85 (.)
         ));
     }
 
@@ -912,6 +969,7 @@ class SendNotificationAction
      */
     protected function sendSms(Model $recipient, array $compiled, array $options): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -944,10 +1002,14 @@ class SendNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        if (!method_exists($recipient, 'routeNotificationForSms')) {
+>>>>>>> 75179b85 (.)
             throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
         $phone = $recipient->routeNotificationForSms();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -980,6 +1042,9 @@ class SendNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        if (!$phone) {
+>>>>>>> 75179b85 (.)
             throw new Exception('Numero di telefono destinatario non disponibile');
         }
 
@@ -987,10 +1052,14 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var string|null $bodyHtml */
         $bodyHtml = $compiled['body_html'];
         /** @var string $message */
         $message = $compiled['body_text'] ?? ($bodyHtml !== null ? strip_tags($bodyHtml) : '');
+=======
+        $message = $compiled['body_text'] ?? strip_tags($compiled['body_html']);
+>>>>>>> 75179b85 (.)
 =======
         $message = $compiled['body_text'] ?? strip_tags($compiled['body_html']);
 >>>>>>> 75179b85 (.)
@@ -1025,6 +1094,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var string $subject */
         $subject = $compiled['subject'];
         /** @var array<string, mixed> $notificationOptions */
@@ -1168,5 +1238,8 @@ class SendNotificationAction
 =======
         Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
 >>>>>>> 3f537838 (.)
+=======
+        Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
+>>>>>>> 75179b85 (.)
     }
 }

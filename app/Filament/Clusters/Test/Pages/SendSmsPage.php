@@ -13,6 +13,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -41,6 +42,8 @@ use BackedEnum;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -74,7 +77,11 @@ class SendSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> 75179b85 (.)
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 >>>>>>> 75179b85 (.)
@@ -128,6 +135,7 @@ class SendSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
@@ -153,6 +161,11 @@ class SendSmsPage extends XotBasePage
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
@@ -203,6 +216,7 @@ class SendSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $template_slug = $data['template_slug'];
             Assert::string($template_slug, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
             $recordNotification = new RecordNotification($user, $template_slug);
@@ -250,6 +264,11 @@ class SendSmsPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            $notify = new RecordNotification($user, $template_slug);
+            $notify->mergeData($data);
+>>>>>>> 75179b85 (.)
 
             Notification::route('sms', $data['to'])
                 //->locale('it')

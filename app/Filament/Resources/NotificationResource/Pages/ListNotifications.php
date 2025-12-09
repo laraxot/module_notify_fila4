@@ -17,6 +17,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -83,6 +84,9 @@ use Override;
 =======
 use Override;
 >>>>>>> 3f537838 (.)
+=======
+use Override;
+>>>>>>> 75179b85 (.)
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
@@ -95,6 +99,7 @@ class ListNotifications extends XotBaseListRecords
 {
     protected static string $resource = NotificationResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +149,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -159,6 +166,7 @@ class ListNotifications extends XotBaseListRecords
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,10 +284,13 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
     public function getTableFilters(): array
     {
         return [
             'read' => Filter::make('is_read')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,10 +340,13 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -424,6 +438,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

@@ -833,6 +833,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -954,3 +955,9 @@ class MailMonitoringDebugger
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+- [Laravel Cache](https://laravel.com/project_docs/cache)
+- [Laravel Events](https://laravel.com/project_docs/events)
+- [Laravel Commands](https://laravel.com/project_docs/artisan) 
+- [Laravel Events](https://laravel.com/project_docs/events) 
+>>>>>>> 75179b85 (.)

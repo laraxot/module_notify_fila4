@@ -22,6 +22,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -71,6 +72,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Override;
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Utilities\Set;
@@ -86,6 +89,7 @@ use Modules\Notify\Models\MailTemplate;
 class MailTemplateResource extends LangBaseResource
 {
     protected static null|string $model = MailTemplate::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,6 +227,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -239,6 +245,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'mailable' => TextInput::make('mailable')
                 ->default('Modules\Notify\Emails\SpatieEmail')
                 ->required()
@@ -249,12 +256,17 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
             //'name' => Forms\Components\TextInput::make('name'),
             //'slug' => Forms\Components\TextInput::make('slug'),
             Group::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -267,7 +279,13 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ->afterStateUpdated(function (string $state, Set $set): void {
+=======
+                        //->live(debounce: 200)
+                        //->reactive()
+                        ->afterStateUpdated(function (string $state, Set $set) {
+>>>>>>> 75179b85 (.)
 =======
                         //->live(debounce: 200)
                         //->reactive()
@@ -294,6 +312,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'subject' => TextInput::make('subject')
                 ->required()
                 ->maxLength(255),
@@ -316,6 +335,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
             //->columnSpan('full'),
 
             'subject' => TextInput::make('subject')->required()->maxLength(255),
@@ -326,6 +347,7 @@ class MailTemplateResource extends LangBaseResource
                 ->visible(fn($record): bool => !empty($record->params)),
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +556,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
         ];
     }
 }
