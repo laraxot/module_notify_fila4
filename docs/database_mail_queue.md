@@ -269,6 +269,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -506,6 +507,11 @@ $users->each(function ($user) {
 
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -669,6 +675,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -747,11 +754,14 @@ $this->call('queue:prune-batches', [
 >>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
 # Supervisor config
 <<<<<<< HEAD
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,11 +832,14 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 =======
 >>>>>>> 460b8f5b (rebase 210)
 =======
+>>>>>>> b4f93b3a (rebase 210)
+=======
 
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1277,6 +1290,9 @@ process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis --queue=emails
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
 autostart=true
 autorestart=true
 numprocs=4
@@ -1358,6 +1374,7 @@ if ($failedJobs > $threshold) {
 ### 1. Pulizia
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1656,6 +1673,11 @@ if ($failedJobs > $threshold) {
 
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -1685,6 +1707,7 @@ php artisan queue:restart
 ## Collegamenti
 - [Database Mail System](database-mail-system.md)
 - [Mail Templates](database-mail-templates.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1860,6 +1883,8 @@ php artisan queue:restart
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
 ## Vedi Anche
@@ -1888,6 +1913,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Redis Documentation](https://redis.io/documentation)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1976,12 +2002,15 @@ php artisan queue:restart
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
+>>>>>>> b4f93b3a (rebase 210)
+=======
 - [Queue Configuration](../../../project_docs/queue-configuration.md)
 
 ## Vedi Anche
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Horizon Documentation](https://laravel.com/project_docs/horizon)
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2195,3 +2224,5 @@ php artisan queue:restart
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
