@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+use function Safe\class_uses;
 
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;

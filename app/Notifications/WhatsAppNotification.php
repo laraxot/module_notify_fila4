@@ -1503,7 +1503,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     /**
      * Get the provider configuration for this notification.
      *
-     * @return array<string, mixed>
+     * @return array<int, string>
      */
     public function getConfig(): array
     {
