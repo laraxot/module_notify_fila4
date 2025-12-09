@@ -90,7 +90,7 @@ class SettingPage extends XotBasePage
         ];
 
         return [
-            EnvWidget::make(['only' => $only]),
+            'env' => EnvWidget::make(['only' => $only]),
         ];
     }
 }
