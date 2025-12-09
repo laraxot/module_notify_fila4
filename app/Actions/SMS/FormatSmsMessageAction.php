@@ -1460,7 +1460,7 @@ class FormatSmsMessageAction
         } else {
             // Per messaggi concatenati, ogni SMS è di 153 caratteri
             $smsCount = intval($characterCount / 153);
-            if (($characterCount % 153) > 0) {
+            if ($characterCount % 153 > 0) {
                 $smsCount++;
             }
         }
