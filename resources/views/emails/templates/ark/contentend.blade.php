@@ -134,6 +134,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -407,6 +408,8 @@
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
 <?php
 
 declare(strict_types=1);
@@ -688,6 +691,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1107,6 +1111,11 @@ declare(strict_types=1);
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 48830c88 (rebase 210)
+=======
+=======
+>
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
 					</td>
 				</tr>
 			</tbody>
@@ -1255,6 +1264,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1918,3 +1928,9 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+</tr>
+=======
+</tr>
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
