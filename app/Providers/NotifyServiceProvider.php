@@ -591,9 +591,11 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 98d837b9 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
-        $fallback_to = Arr::get($mail, 'fallback_to', null);
-        if (is_string($fallback_to)) {
-            Mail::alwaysTo($fallback_to);
+
+        $fallbackTo = Arr::get($mail, 'fallback_to');
+
+        if (is_string($fallbackTo)) {
+            Mail::alwaysTo($fallbackTo);
         }
 
         // }
