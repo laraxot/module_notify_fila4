@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
 <<<<<<< HEAD
@@ -712,6 +713,12 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 4f042b88 (.)
 
 ## Analisi della Situazione Attuale
 
@@ -891,6 +898,7 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1147,6 +1155,8 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> 4f042b88 (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1154,6 +1164,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_s_m_s.ph
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1749,6 +1760,8 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> 4f042b88 (.)
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1756,6 +1769,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_s_m_s.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2272,6 +2286,8 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> 4f042b88 (.)
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -2279,6 +2295,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2780,6 +2797,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> 4f042b88 (.)
 ```
 
 ### Template Standard per i File di Traduzione
@@ -2842,6 +2861,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -2882,3 +2902,5 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)

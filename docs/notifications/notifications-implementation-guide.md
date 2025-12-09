@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -49,6 +50,8 @@
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
 # Guida all'Implementazione delle Notifiche 
 
 Questa documentazione descrive come implementare correttamente le notifiche utilizzando Laravel Notifications nel modulo Notify.
@@ -96,6 +99,7 @@ class RecordNotification extends Notification implements ShouldQueue
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,6 +421,9 @@ class RecordNotification extends Notification implements ShouldQueue
 =======
             ->subject('Notifica da SaluteOra')
 >>>>>>> a29a4728 (.)
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 4f042b88 (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))
@@ -548,6 +555,7 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -586,3 +594,5 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)

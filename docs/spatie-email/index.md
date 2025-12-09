@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -97,6 +98,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
 # Documentazione SpatieEmail
 
 Questa directory contiene la documentazione relativa all'implementazione delle email multilingua utilizzando il pacchetto Spatie nel modulo Notify.
@@ -109,6 +112,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 
 ## Riferimenti Esterni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,3 +394,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+- [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
+- [Best Practices per Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
+>>>>>>> 4f042b88 (.)

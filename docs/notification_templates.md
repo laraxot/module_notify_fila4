@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,8 @@
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
 # Template delle Notifiche
 
 ## Architettura
@@ -157,6 +160,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 
 ## Link Correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -874,3 +878,8 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 - [Documentazione Media Library](../../../docs/media-library.md)
 - [Documentazione Traduzioni](../../../docs/translations.md) 
 >>>>>>> a29a4728 (.)
+=======
+- [Documentazione Filament](../../../docs/filament.md)
+- [Documentazione Media Library](../../../docs/media-library.md)
+- [Documentazione Traduzioni](../../../docs/translations.md) 
+>>>>>>> 4f042b88 (.)

@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,8 @@
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
 # Guida: Creazione di Plugin Tailwind Custom per <nome progetto>
 
 Questa guida mostra come creare, documentare e integrare plugin custom Tailwind CSS per pattern condivisi (bottoni, alert, badge, ecc.) secondo le best practice Webcrunch e le regole <nome progetto>.
@@ -231,6 +234,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
@@ -691,6 +695,9 @@ module.exports = {
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 >>>>>>> a29a4728 (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
+>>>>>>> 4f042b88 (.)
 - Usare i plugin per pattern condivisi (bottoni, alert, badge, card, ecc.).
 - Versionare e testare i plugin per evitare regressioni.
 - Integrare plugin solo se realmente riutilizzati da più moduli/temi.
@@ -818,6 +825,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
@@ -1278,6 +1286,9 @@ module.exports = {
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 >>>>>>> a29a4728 (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
+>>>>>>> 4f042b88 (.)
 - [Webcrunch: Creare Plugin Tailwind](https://webcrunch.com/posts/create-a-tailwind-css-plugin-from-scratch)
 
 ---
@@ -1286,6 +1297,7 @@ module.exports = {
 - Centralizzare i plugin condivisi per evitare duplicazione.
 - Documentare pattern e snippet di utilizzo.
 - Integrare plugin custom solo se portano reale valore e riuso.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1346,3 +1358,5 @@ module.exports = {
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)

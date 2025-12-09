@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -124,6 +125,10 @@
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -177,6 +182,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,6 +340,8 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> c6c33175 (.)
 =======
+>>>>>>> 4f042b88 (.)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -379,7 +387,12 @@ This document serves as the central index for the Notify module, providing guida
 =======
 =======
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
+=======
+=======
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -405,6 +418,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -439,10 +453,13 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> f963d2c0 (.)
 =======
+=======
+>>>>>>> 4f042b88 (.)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
 - [Documentazione Generale PTV](../../../../docs/README.md)
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -462,6 +479,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Documentazione Generale PTV](../../../../docs/README.md)
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -476,6 +498,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -525,6 +548,13 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+=======
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -607,7 +637,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 4f042b88 (.)
 =======
 
 >>>>>>> bf479cc (.)
@@ -1736,7 +1769,15 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
 
 ## Sottocartelle
 
@@ -1747,6 +1788,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ### Notifications
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1808,6 +1850,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
 =======
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
@@ -2143,7 +2187,15 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 =======
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
+=======
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -2176,6 +2228,9 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -2942,4 +2997,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 >>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)

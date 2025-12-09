@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 <<<<<<< HEAD
@@ -252,11 +253,16 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+# Piano di Pulizia e Standardizzazione delle Traduzioni
+
+>>>>>>> 4f042b88 (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,6 +526,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`
@@ -627,6 +635,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -665,3 +674,5 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)

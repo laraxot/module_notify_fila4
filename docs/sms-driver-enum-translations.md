@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -49,6 +50,8 @@
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
 # Traduzioni SmsDriverEnum - Modulo Notify
 
 ## Panoramica
@@ -233,6 +236,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [SmsDriverEnum](../app/Enums/SmsDriverEnum.php)
 - [TransTrait](../../Xot/app/Traits/TransTrait.php)
 - [Configurazione SMS](../config/sms.php)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,10 +529,13 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
 - [Documentazione Traduzioni](../../Lang/docs/)
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,3 +557,5 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)

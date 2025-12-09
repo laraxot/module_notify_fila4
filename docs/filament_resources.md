@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,8 @@
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
 # Risorse Filament del Modulo Notify
 
 ### Versione HEAD
@@ -409,6 +412,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -617,11 +621,14 @@ public static function getTableActions(): array
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseResource](../../Xot/docs/XotBaseResource.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1179,6 +1186,8 @@ public static function getTableActions(): array
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
 - [Gestione Template](../template-management.md)
 
 ## Note Importanti
@@ -1197,6 +1206,7 @@ public static function getTableActions(): array
 6. I campi JSON sono validati correttamente
 7. Le traduzioni seguono la struttura corretta 
 ## Collegamenti tra versioni di filament-resources.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1516,12 +1526,15 @@ public static function getTableActions(): array
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
 * [filament-resources.md](../../../../docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/docs/filament-resources.md)
 * [filament-resources.md](../../Xot/docs/filament-resources.md)
 * [filament-resources.md](../../Patient/docs/filament-resources.md)
 * [filament-resources.md](../../Cms/docs/filament-resources.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2080,10 +2093,13 @@ public static function getTableActions(): array
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 4f042b88 (.)
 
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2144,3 +2160,5 @@ public static function getTableActions(): array
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
