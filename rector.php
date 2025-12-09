@@ -42,6 +42,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -177,6 +178,8 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
@@ -187,6 +190,7 @@ return static function (RectorConfig $rectorConfig): void {
         '*/vendor',
     ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -196,12 +200,30 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+    $rectorConfig->paths(
+        [
+            __DIR__,
+        ]
+    );
+
+    $rectorConfig->skip(
+        [
+            './vendor/',
+            '*/docs',
+            '*/vendor',
+        ]
+    );
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
     $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
 
     // define sets of rules
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +254,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
@@ -252,6 +276,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -264,6 +289,9 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
     $rectorConfig->sets(
         [
             PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
@@ -281,6 +309,7 @@ return static function (RectorConfig $rectorConfig): void {
         ]
     );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
@@ -297,6 +326,9 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 
     $rectorConfig->importNames();
 >>>>>>> 75179b85 (.)

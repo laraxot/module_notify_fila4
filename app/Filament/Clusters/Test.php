@@ -15,6 +15,7 @@ class Test extends Cluster
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 
@@ -58,6 +59,11 @@ class Test extends Cluster
 =======
 
 >>>>>>> 75179b85 (.)
+=======
+
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
     // protected static ?string $navigationParentItem = 'Notifications';
     // protected static ?string $navigationGroup = 'Settings';
 }
