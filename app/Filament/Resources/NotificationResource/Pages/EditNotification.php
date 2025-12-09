@@ -7,10 +7,10 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 
-<<<<<<< HEAD
 class EditNotification extends XotBaseEditRecord
 {
     protected static string $resource = NotificationResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -453,4 +453,6 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 4b544042 (.)
 }
