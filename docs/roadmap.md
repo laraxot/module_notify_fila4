@@ -246,6 +246,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -276,6 +277,8 @@ Overall Module Completion: 60%
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)* [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
@@ -474,6 +477,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 >>>>>>> d284d65 (.)
@@ -525,6 +529,11 @@ Overall Module Completion: 60%
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+=======
+* [roadmap.md](../../../../Themes/One/docs/roadmap.md)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
 
 # Roadmap Implementazione
 
@@ -787,6 +796,7 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
@@ -844,6 +854,8 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 
 ## Collegamenti Completi
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
@@ -1006,6 +1018,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 ## Collegamenti Completi
@@ -1063,6 +1076,8 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md).
 >>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
 
 
 ### Versione Incoming
