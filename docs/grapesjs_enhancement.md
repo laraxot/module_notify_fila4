@@ -67,10 +67,14 @@ class PageTemplate extends Model {
 ### 5.2 Filament Resource
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema {
 =======
 public static function form(Form $form): Form {
 >>>>>>> 75179b85 (.)
+=======
+public static function form(Form $form): Form {
+>>>>>>> f963d2c0 (.)
     return $form->schema([
         TextInput::make('name')->required(),
         GrapesJsEditor::make('content_json')
@@ -141,6 +145,7 @@ class PublishPageTemplateAction {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - GrapesJS Docs: https://grapesjs.com/docs/
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
@@ -169,3 +174,6 @@ class PublishPageTemplateAction {
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 75179b85 (.)
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> f963d2c0 (.)

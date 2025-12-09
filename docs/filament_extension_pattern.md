@@ -1,7 +1,11 @@
 # Pattern di Estensione per Componenti Filament 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+=======
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+>>>>>>> f963d2c0 (.)
 =======
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
 >>>>>>> f963d2c0 (.)
@@ -25,7 +29,11 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 ## Motivazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> f963d2c0 (.)
 =======
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
 >>>>>>> f963d2c0 (.)
@@ -99,7 +107,11 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 ### 1. Personalizzazione Centralizzata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
+=======
+Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
+>>>>>>> f963d2c0 (.)
 =======
 Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
 >>>>>>> f963d2c0 (.)

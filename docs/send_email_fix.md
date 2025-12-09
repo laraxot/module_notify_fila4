@@ -62,10 +62,14 @@ class SendEmail extends XotBasePage
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
 >>>>>>> 75179b85 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
     {
         return $form
             ->schema([
@@ -221,6 +225,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -261,6 +266,11 @@ class SmtpData extends Data
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
 >>>>>>> 75179b85 (.)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/docs/mail)
+- [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
+- [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
+>>>>>>> f963d2c0 (.)
 
 ## ⚠️ Note Importanti
 
@@ -278,6 +288,10 @@ class SmtpData extends Data
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 75179b85 (.)
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> f963d2c0 (.)

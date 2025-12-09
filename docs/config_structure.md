@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> f963d2c0 (.)

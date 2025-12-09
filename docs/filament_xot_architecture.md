@@ -3,7 +3,11 @@
 ## Introduzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
+=======
+SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
+>>>>>>> f963d2c0 (.)
 =======
 SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 >>>>>>> f963d2c0 (.)
@@ -61,7 +65,11 @@ abstract class XotBasePage extends Page implements HasForms
 
     // Form standardizzato
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
 =======
     public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
@@ -117,7 +125,11 @@ Prima (❌):
 ```php
 // In ogni classe Page
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
 =======
 public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
@@ -162,7 +174,11 @@ Per verificare che tutte le classi seguano questa regola:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
+>>>>>>> f963d2c0 (.)
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 >>>>>>> f963d2c0 (.)
