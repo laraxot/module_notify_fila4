@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 declare(strict_types=1);
 
 
@@ -201,6 +204,7 @@ return [
         'label' => 'mail template.model',
     ],
 ];
+<<<<<<< HEAD
 =======
 return array (
   'resource' => 
@@ -442,3 +446,5 @@ return array (
   ),
 );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

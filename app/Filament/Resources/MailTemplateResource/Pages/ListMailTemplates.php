@@ -10,6 +10,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -32,12 +33,16 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 >>>>>>> de02998b (.)
 use Override;
 >>>>>>> 75179b85 (.)
+=======
+use Override;
+>>>>>>> 75179b85 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,12 +105,17 @@ use Filament\Tables\Table;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 75179b85 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
     protected static string $resource = MailTemplateResource::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -116,6 +126,7 @@ class ListMailTemplates extends LangBaseListRecords
             TextColumn::make('counter')->searchable()->sortable(),
         ];
     }
+<<<<<<< HEAD
 =======
     
     public function getTableColumns(): array
@@ -146,4 +157,6 @@ class ListMailTemplates extends LangBaseListRecords
 
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 }

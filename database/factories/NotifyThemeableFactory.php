@@ -11,10 +11,14 @@ use Modules\Notify\Models\NotifyThemeable;
 /**
  * NotifyThemeable Factory
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+=======
+ *
+>>>>>>> 75179b85 (.)
  * @extends Factory<NotifyThemeable>
  */
 class NotifyThemeableFactory extends Factory
@@ -37,10 +41,14 @@ class NotifyThemeableFactory extends Factory
     public function forUser(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
 =======
         return $this->state(fn (array $attributes): array => [
 >>>>>>> b19cd40 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> 75179b85 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
@@ -48,11 +56,15 @@ class NotifyThemeableFactory extends Factory
     public function forPatient(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
         return $this->state(fn(array $_attributes): array => [
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }
 }
+<<<<<<< HEAD
 =======
         return $this->state(fn (array $attributes): array => [
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
@@ -60,3 +72,5 @@ class NotifyThemeableFactory extends Factory
     }
 }
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

@@ -1,10 +1,16 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
+
+>>>>>>> 75179b85 (.)
+=======
+declare(strict_types=1);
+
 
 >>>>>>> 75179b85 (.)
 return [
@@ -22,6 +28,7 @@ return [
      * | Telegram Drivers
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 =======
 return [
     /*
@@ -40,24 +47,32 @@ return [
     |--------------------------------------------------------------------------
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     'drivers' => [
         'official' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
         'botman' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
             'webhook_url' => env('TELEGRAM_WEBHOOK_URL'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
         'nutgram' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
@@ -66,6 +81,9 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Global Debug Mode
@@ -98,6 +116,7 @@ return [
      * | Retry Configuration
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -137,16 +156,22 @@ return [
     |--------------------------------------------------------------------------
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     'retry' => [
         'attempts' => env('TELEGRAM_RETRY_ATTEMPTS', 3),
         'delay' => env('TELEGRAM_RETRY_DELAY', 60),
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Rate Limiting
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 =======
 
     /*
@@ -155,6 +180,8 @@ return [
     |--------------------------------------------------------------------------
     */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     'rate_limit' => [
         'enabled' => env('TELEGRAM_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('TELEGRAM_RATE_LIMIT_MAX_ATTEMPTS', 30),

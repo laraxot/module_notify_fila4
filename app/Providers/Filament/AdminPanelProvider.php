@@ -1,16 +1,23 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 75179b85 (.)
 /**
  * ---.
  */
 
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Providers\Filament;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,12 +79,17 @@ use Override;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> 75179b85 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,11 +106,14 @@ use Filament\SpatieLaravelTranslatablePlugin;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
     public function panel(Panel $panel): Panel
@@ -108,12 +123,20 @@ class AdminPanelProvider extends XotBasePanelProvider
 
 =======
 >>>>>>> 75179b85 (.)
+=======
+    #[Override]
+    public function panel(Panel $panel): Panel
+    {
+>>>>>>> 75179b85 (.)
         // Temporaneamente commentato per compatibilità Filament 4.x
         // $panel->plugins([
         //     SpatieTranslatablePlugin::make(),
         // ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
         if (!XotData::make()->disable_database_notifications) {
@@ -121,7 +144,11 @@ class AdminPanelProvider extends XotBasePanelProvider
             // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
             DatabaseNotifications::pollingInterval('60s');
 <<<<<<< HEAD
+<<<<<<< HEAD
             FilamentView::registerRenderHook('panels::user-menu.before', static fn (): string => Blade::render(
+=======
+            FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
+>>>>>>> 75179b85 (.)
 =======
             FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
 >>>>>>> 75179b85 (.)
@@ -129,6 +156,7 @@ class AdminPanelProvider extends XotBasePanelProvider
             ));
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $panel;
 =======
@@ -159,3 +187,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 }
 
 >>>>>>> b19cd40 (.)
+=======
+        return parent::panel($panel);
+    }
+}
+>>>>>>> 75179b85 (.)

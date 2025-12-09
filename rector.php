@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 
@@ -16,6 +17,8 @@ use Rector\Set\ValueObject\SetList;
 return static function (RectorConfig $rectorConfig): void {
     // Paths to analyze
 =======
+=======
+>>>>>>> 75179b85 (.)
 use Rector\PHPUnit\Set\PHPUnitLevelSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
@@ -23,6 +26,7 @@ use RectorLaravel\Rector\MethodCall\RedirectRouteToToRouteHelperRector;
 use RectorLaravel\Set\LaravelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,10 +55,13 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 75179b85 (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     // Paths to skip
     $rectorConfig->skip([
@@ -89,11 +96,14 @@ return static function (RectorConfig $rectorConfig): void {
     // Import short classes
     $rectorConfig->importShortClasses(false);
 =======
+=======
+>>>>>>> 75179b85 (.)
     $rectorConfig->skip([
         './vendor/',
         '*/docs',
         '*/vendor',
     ]);
+<<<<<<< HEAD
 =======
     $rectorConfig->paths(
         [
@@ -109,6 +119,8 @@ return static function (RectorConfig $rectorConfig): void {
         ]
     );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
@@ -116,6 +128,9 @@ return static function (RectorConfig $rectorConfig): void {
 
     // define sets of rules
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
@@ -129,6 +144,7 @@ return static function (RectorConfig $rectorConfig): void {
         // SetList::EARLY_RETURN,
         // SetList::INSTANCEOF,
     ]);
+<<<<<<< HEAD
 =======
     $rectorConfig->sets(
         [
@@ -147,6 +163,10 @@ return static function (RectorConfig $rectorConfig): void {
         ]
     );
 >>>>>>> b19cd40 (.)
+
+    $rectorConfig->importNames();
+>>>>>>> 75179b85 (.)
+=======
 
     $rectorConfig->importNames();
 >>>>>>> 75179b85 (.)

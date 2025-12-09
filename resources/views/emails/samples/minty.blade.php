@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 @extends('beautymail::templates.minty')
 
 @section('content')
@@ -54,7 +60,11 @@ declare(strict_types=1);
 	@include('beautymail::templates.minty.contentEnd')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @stop
 =======
 @stop
 >>>>>>> b19cd40 (.)
+=======
+@stop
+>>>>>>> 75179b85 (.)

@@ -25,6 +25,9 @@ class Pdf
         $html = $notify_theme_data->body_html;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -44,6 +47,7 @@ class Pdf
             'as' => $file_name,
             'mime' => 'application/pdf',
         ]);
+<<<<<<< HEAD
 =======
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         if (isset($view_params[$file_name])) {
@@ -62,5 +66,7 @@ class Pdf
             ]
         );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     }
 }

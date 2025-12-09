@@ -6,10 +6,14 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class() extends XotBaseMigration {
 =======
 return new class () extends XotBaseMigration {
 >>>>>>> b19cd40 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b85 (.)
     /**
      * Run the migrations.
      */
@@ -17,6 +21,9 @@ return new class () extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->nullableMorphs('model');
@@ -31,6 +38,7 @@ return new class () extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 =======
         $this->tableCreate(
             function (Blueprint $table): void {
@@ -48,5 +56,7 @@ return new class () extends XotBaseMigration {
             }
         );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     }
 };

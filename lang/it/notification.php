@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 declare(strict_types=1);
 
 
@@ -205,6 +208,7 @@ return [
         'error' => 'Si è verificato un errore durante l\'operazione',
     ],
 ];
+<<<<<<< HEAD
 =======
 return array (
   'resource' => 
@@ -449,3 +453,5 @@ return array (
   ),
 );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

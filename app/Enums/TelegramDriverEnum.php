@@ -7,10 +7,14 @@ namespace Modules\Notify\Enums;
 /**
  * Enum per i driver Telegram supportati
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+=======
+ *
+>>>>>>> 75179b85 (.)
  * Questo enum centralizza la gestione dei driver Telegram disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -20,16 +24,22 @@ enum TelegramDriverEnum: string
     case BOTAPI = 'botapi';
     case LARAVEL_TELEGRAM = 'laravel-telegram';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
     /**
      * Restituisce le opzioni per il componente Select di Filament
      *
+<<<<<<< HEAD
 =======
     
     /**
      * Restituisce le opzioni per il componente Select di Filament
      * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
      * @return array<string, string>
      */
     public static function options(): array
@@ -41,16 +51,22 @@ enum TelegramDriverEnum: string
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
      *
+<<<<<<< HEAD
 =======
     
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
      * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
      * @return array<string, string>
      */
     public static function labels(): array
@@ -62,28 +78,38 @@ enum TelegramDriverEnum: string
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
     /**
      * Verifica se un driver è supportato
      *
+<<<<<<< HEAD
 =======
     
     /**
      * Verifica se un driver è supportato
      * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
      * @param string $driver
      * @return bool
      */
     public static function isSupported(string $driver): bool
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
         return in_array($driver, array_column(self::cases(), 'value'), strict: true);
     }
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
      *
+<<<<<<< HEAD
 =======
         return in_array($driver, array_column(self::cases(), 'value'));
     }
@@ -92,16 +118,22 @@ enum TelegramDriverEnum: string
      * Restituisce il driver predefinito dal file di configurazione
      * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
      * @return self
      */
     public static function getDefault(): self
     {
         $default = config('telegram.default', self::TELEGRAM->value);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         return self::from(is_string($default) ? $default : self::TELEGRAM->value);
     }
 }

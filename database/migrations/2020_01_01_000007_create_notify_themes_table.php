@@ -10,10 +10,14 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  * Class CreateThemesTable.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class() extends XotBaseMigration {
 =======
 return new class () extends XotBaseMigration {
 >>>>>>> b19cd40 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b85 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -22,6 +26,9 @@ return new class () extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('lang')->nullable();
@@ -72,6 +79,7 @@ return new class () extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         }); // end update
+<<<<<<< HEAD
 =======
         $this->tableCreate(
             function (Blueprint $table): void {
@@ -125,6 +133,8 @@ return new class () extends XotBaseMigration {
             }
         ); // end update
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     }
 
     // end function up

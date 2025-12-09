@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 declare(strict_types=1);
 
 
@@ -10,6 +13,7 @@ return [
         'group' => 'Notifiche',
     ],
 ];
+<<<<<<< HEAD
 =======
 return array (
   'navigation' =>
@@ -19,3 +23,5 @@ return array (
   ),
 );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

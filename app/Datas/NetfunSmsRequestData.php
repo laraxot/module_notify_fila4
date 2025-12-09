@@ -1,11 +1,17 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -13,10 +19,13 @@ use Spatie\LaravelData\Data;
 class NetfunSmsRequestData extends Data
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @param string $token
      * @param array<int, array<string, mixed>> $messages
      */
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
     public function __construct(
@@ -24,6 +33,7 @@ class NetfunSmsRequestData extends Data
         public array $messages,
     ) {}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /**
      * @param array{token: string, messages: array<int, array<string, mixed>>} $data
@@ -39,10 +49,13 @@ class NetfunSmsRequestData extends Data
             token: $token,
             messages: $messages,
 =======
+=======
+>>>>>>> 75179b85 (.)
     public static function fromArray(array $data): self
     {
         return new self(
             token: $data['token'],
+<<<<<<< HEAD
 <<<<<<< HEAD
             messages: $data['messages'],
 <<<<<<< HEAD
@@ -88,6 +101,9 @@ class NetfunSmsRequestData extends Data
             messages: $data['messages']
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+            messages: $data['messages'],
+>>>>>>> 75179b85 (.)
         );
     }
 }

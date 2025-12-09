@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -50,6 +51,11 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -59,7 +65,11 @@ $finder = PhpCsFixer\Finder::create()
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->ignoreVCS(true);
+=======
+    ->ignoreVCS(true)
+>>>>>>> 75179b85 (.)
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
@@ -75,7 +85,11 @@ $config
         'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
 <<<<<<< HEAD
+<<<<<<< HEAD
         // 'binary_operator_spaces' => ['align_double_arrow' => false],
+=======
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> 75179b85 (.)
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 75179b85 (.)
@@ -94,9 +108,15 @@ $config
         'elseif' => true,
     ])
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->setFinder($finder);
 
 return $config;
+=======
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> 75179b85 (.)
 =======
     ->setFinder($finder)
 

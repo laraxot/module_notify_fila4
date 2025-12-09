@@ -373,6 +373,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Global SMS configuration
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +415,10 @@ SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+=======
+SMS_FROM_NAME=<nome progetto>
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 75179b85 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -715,22 +720,29 @@ Log::info('SMS inviato', [
 - [Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 75179b85 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -739,3 +751,6 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> 75179b85 (.)

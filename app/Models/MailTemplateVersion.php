@@ -5,17 +5,23 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 =======
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -92,9 +98,13 @@ class MailTemplateVersion extends BaseModel
      * @return array<string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
     protected function casts(): array
     {
         return [

@@ -6,6 +6,9 @@ namespace Modules\Notify\Datas\SMS;
 
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -28,6 +31,7 @@ class PlivoData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
+<<<<<<< HEAD
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -52,6 +56,8 @@ class PlivoData extends Data
             $data = Arr::get($data, 'drivers.plivo', []);
             */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
             $data = Config::array('sms.drivers.plivo');
             self::$instance = self::from($data);
         }
@@ -67,10 +73,14 @@ class PlivoData extends Data
                 return [
                     'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'
 >>>>>>> b19cd40 (.)
+=======
+                    'Content-Type' => 'application/json',
+>>>>>>> 75179b85 (.)
                 ];
         }
     }

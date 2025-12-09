@@ -1,6 +1,9 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 declare(strict_types=1);
 
 
@@ -331,6 +334,7 @@ return [
         'click_count' => 'Clic ricevuti',
     ],
     'categories' => [
+<<<<<<< HEAD
 =======
 return array (
   'navigation' => 
@@ -518,12 +522,17 @@ return array (
       'options' => 
       array (
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
         'marketing' => 'Marketing',
         'transactional' => 'Transazionale',
         'notification' => 'Notifica',
         'newsletter' => 'Newsletter',
         'system' => 'Sistema',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
     ],
     'placeholders' => [
         'email_template' => 'Seleziona un template email predefinito',
@@ -533,6 +542,7 @@ return array (
         'text_content' => 'Contenuto testuale dell\'email in formato plain text',
     ],
 ];
+<<<<<<< HEAD
 =======
       ),
     ),
@@ -734,3 +744,5 @@ return array (
   ),
 );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

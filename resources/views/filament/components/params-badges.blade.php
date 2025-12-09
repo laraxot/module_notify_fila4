@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 {{-- Visualizzazione parametri come badge --}}
 @if(!empty($params))
     <div class="space-y-2">
@@ -28,7 +34,11 @@ declare(strict_types=1);
         </div>
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 @endif
 =======
 @endif 
 >>>>>>> b19cd40 (.)
+=======
+@endif
+>>>>>>> 75179b85 (.)

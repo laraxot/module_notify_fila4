@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
@@ -13,6 +14,12 @@ use Illuminate\Foundation\Application;
 >>>>>>> b19cd40 (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Xot\Tests\CreatesApplication;
+=======
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Tests\CreatesApplication;
+>>>>>>> 75179b85 (.)
 
 /**
  * Base test case for Notify module tests.
@@ -31,10 +38,14 @@ abstract class TestCase extends BaseTestCase
         // Load Notify module specific configurations
         $this->loadLaravelMigrations();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }

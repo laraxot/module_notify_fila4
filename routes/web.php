@@ -1,10 +1,16 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
+
+>>>>>>> 75179b85 (.)
+=======
+declare(strict_types=1);
+
 
 >>>>>>> 75179b85 (.)
 /*
@@ -17,6 +23,7 @@ declare(strict_types=1);
  * | contains the "web" middleware group. Now create something great!
  * |
  */
+<<<<<<< HEAD
 =======
 /*
 |--------------------------------------------------------------------------
@@ -29,5 +36,7 @@ declare(strict_types=1);
 |
 */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 // Filament will handle all routes for this module

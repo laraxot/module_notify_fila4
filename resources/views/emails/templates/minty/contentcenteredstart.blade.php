@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 <div class="block">
 	<!-- start textbox-with-title -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fulltext">
@@ -23,7 +29,11 @@ declare(strict_types=1);
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<tbody>
 =======
 								<tbody>
 >>>>>>> b19cd40 (.)
+=======
+								<tbody>
+>>>>>>> 75179b85 (.)

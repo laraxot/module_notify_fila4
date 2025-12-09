@@ -6,6 +6,9 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 return new class() extends XotBaseMigration {
     public function up(): void
     {
@@ -28,6 +31,7 @@ return new class() extends XotBaseMigration {
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, true);
         });
+<<<<<<< HEAD
 =======
 return new class () extends XotBaseMigration {
     public function up(): void
@@ -59,5 +63,7 @@ return new class () extends XotBaseMigration {
             }
         );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     }
 };

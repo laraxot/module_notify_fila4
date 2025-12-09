@@ -10,6 +10,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -23,6 +24,9 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 >>>>>>> 3f537838 (.)
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> 75179b85 (.)
 use Override;
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
@@ -34,6 +38,7 @@ class ViewNotification extends XotBaseViewRecord
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +64,9 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+     * @return array<Component>
+>>>>>>> 75179b85 (.)
+=======
      * @return array<Component>
 >>>>>>> 75179b85 (.)
      */

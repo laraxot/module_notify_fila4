@@ -381,7 +381,11 @@ namespace Modules\Notify\Filament\Resources;
 
 class TemplateResource extends Resource
 {
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -610,6 +614,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -635,6 +640,9 @@ class TemplatePreview extends Component
 =======
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 >>>>>>> a404ea71 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
 - [Stripo Documentation](https://stripo.email/templates/)
 - [Beefree Documentation](https://beefree.io/templates)
 - [Unlayer Documentation](https://unlayer.com/)

@@ -127,7 +127,11 @@ class MailTemplate extends Model
 ```php
 class MailTemplateResource extends XotBaseResource
 {
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -272,6 +276,7 @@ class MailAnalytics
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 >>>>>>> 75179b85 (.)
@@ -280,5 +285,8 @@ class MailAnalytics
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 >>>>>>> 31f5d28f (.)
+=======
+- [Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Packages](https://spatie.be/open-source) 

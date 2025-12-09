@@ -75,17 +75,23 @@ abstract class BaseModel extends Model implements HasMedia
             'uuid' => 'string',
             'published_at' => 'datetime',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

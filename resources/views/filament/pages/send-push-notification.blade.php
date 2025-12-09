@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 <x-filament-panels::page>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <x-filament::section>
         <x-slot name="heading">
@@ -64,6 +68,8 @@ declare(strict_types=1);
 =======
 >>>>>>> b93ef594b4 (.)
 <x-filament-panels::page>
+=======
+>>>>>>> 75179b85 (.)
     <div class="space-y-6">
         <div class="bg-white shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
@@ -100,6 +106,7 @@ declare(strict_types=1);
 >>>>>>> 11ae5222 (.)
                 </div>
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
         </x-slot>
     </x-filament::section>
@@ -155,4 +162,8 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+        </div>
+    </div>
+>>>>>>> 75179b85 (.)
 </x-filament-panels::page>

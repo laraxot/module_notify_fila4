@@ -24,10 +24,14 @@ class BuildMailMessageAction
         Model $model,
         array $view_params = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
         null|DataCollection $dataCollection = null,
 =======
         ?DataCollection $dataCollection = null
 >>>>>>> b19cd40 (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 75179b85 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -40,30 +44,42 @@ class BuildMailMessageAction
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
         $email = new MailMessage()
+<<<<<<< HEAD
 =======
         
         if (!is_string($subject)) {
@@ -72,6 +88,8 @@ class BuildMailMessageAction
         
         $email = (new MailMessage())
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);

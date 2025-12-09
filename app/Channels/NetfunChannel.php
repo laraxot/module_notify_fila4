@@ -1,11 +1,17 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -17,19 +23,27 @@ class NetfunChannel
 {
     protected SendNetfunSMSAction $sendSMSAction;
 <<<<<<< HEAD
-
-=======
-    
->>>>>>> b19cd40 (.)
-    public function __construct(SendNetfunSMSAction $sendSMSAction)
-    {
-        $this->sendSMSAction = $sendSMSAction;
-    }
 <<<<<<< HEAD
 
 =======
     
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+    public function __construct(SendNetfunSMSAction $sendSMSAction)
+    {
+        $this->sendSMSAction = $sendSMSAction;
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
     /**
      * Invia la notifica tramite Netfun SMS
      *
@@ -44,24 +58,35 @@ class NetfunChannel
             return null;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         $to = $notifiable->routeNotificationForNetfun($notification);
         if (!$to) {
             return null;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Ottieni il messaggio dalla notifica
         if (!method_exists($notification, 'toNetfun')) {
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
         $message = $notification->toNetfun($notifiable);
 
@@ -77,6 +102,7 @@ class NetfunChannel
         // Esegui l'invio tramite la Queueable Action
         // L'esecuzione avverrà in modo asincrono (in background)
         return $this->sendSMSAction->onQueue('sms')->execute($smsData); // Esegui sulla coda 'sms'
+<<<<<<< HEAD
 =======
         
         $message = $notification->toNetfun($notifiable);
@@ -94,5 +120,7 @@ class NetfunChannel
             ->onQueue('sms') // Esegui sulla coda 'sms'
             ->execute($smsData);
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
     }
 }

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
 
 ## Data
@@ -192,6 +193,8 @@ Durante la risoluzione:
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 75179b85 (.)
 # ✅ CORREZIONI PHPSTAN COMPLETATE - Modulo Notify
 
 ## 🎯 Obiettivo Raggiunto
@@ -332,6 +335,9 @@ I pattern di type safety implementati possono essere applicati a:
 *Risultato: 0 errori PHPStan Level 9*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 75179b85 (.)

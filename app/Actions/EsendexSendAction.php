@@ -39,6 +39,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
@@ -99,6 +100,10 @@ class EsendexSendAction
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 75179b85 (.)
         }
 
         $data = [
@@ -111,6 +116,7 @@ class EsendexSendAction
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+<<<<<<< HEAD
 <<<<<<< HEAD
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
 
@@ -133,6 +139,16 @@ class EsendexSendAction
 
         if (!is_string($auth[1])) {
 >>>>>>> 75179b85 (.)
+=======
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+        // Verifichiamo che i valori dell'array di autenticazione siano stringhe
+        if (!is_string($auth[0])) {
+            $auth[0] = '';
+        }
+
+        if (!is_string($auth[1])) {
+>>>>>>> 75179b85 (.)
             $auth[1] = '';
         }
 
@@ -141,6 +157,7 @@ class EsendexSendAction
             'user_key: ' . $auth[0],
             'Session_key: ' . $auth[1],
         ]);
+<<<<<<< HEAD
 =======
         
         if (!is_string($auth[1])) {
@@ -157,6 +174,8 @@ class EsendexSendAction
             ]
         );
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -169,6 +188,7 @@ class EsendexSendAction
             return [];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,11 +221,14 @@ class EsendexSendAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 75179b85 (.)
         $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
         if (!is_array($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +287,8 @@ class EsendexSendAction
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 75179b85 (.)
         }
 
         return $res;
@@ -280,6 +305,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function login(): ?array
 =======
     public function login(): null|array
@@ -328,6 +354,9 @@ class EsendexSendAction
     public function login(): ?array
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+    public function login(): null|array
+>>>>>>> 75179b85 (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -342,6 +371,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
 =======
         $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
@@ -390,6 +420,9 @@ class EsendexSendAction
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+>>>>>>> 75179b85 (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 
@@ -408,9 +441,13 @@ class EsendexSendAction
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return explode(';', is_string($response) ? $response : ((string) $response));
 =======
         return explode(';', is_string($response) ? $response : (string) $response);
 >>>>>>> b19cd40 (.)
+=======
+        return explode(';', is_string($response) ? $response : ((string) $response));
+>>>>>>> 75179b85 (.)
     }
 }

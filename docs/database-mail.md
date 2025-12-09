@@ -436,6 +436,10 @@ Cordiali saluti,<br>
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
 >>>>>>> b19cd40 (.)
+=======
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> 75179b85 (.)

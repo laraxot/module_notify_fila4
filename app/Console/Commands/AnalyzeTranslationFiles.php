@@ -8,7 +8,10 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Console\Helper\Table;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 
@@ -44,10 +47,15 @@ class AnalyzeTranslationFiles extends Command
         // Collect all files and their keys
         foreach ($languages as $langDir) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
             $files = File::files($langDirPath);
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
 =======
             $lang = basename($langDir);
             $files = File::files($langDir);
@@ -125,9 +133,12 @@ class AnalyzeTranslationFiles extends Command
 
         foreach ($allFiles as $file => $keys) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
             $topLevelKeys = [];
@@ -174,6 +185,7 @@ class AnalyzeTranslationFiles extends Command
 
         foreach ($allKeys as $key) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::string($key);
             $row = [$key];
 
@@ -182,10 +194,15 @@ class AnalyzeTranslationFiles extends Command
                 $fileData = $allFiles[$file] ?? null;
                 $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
 =======
+=======
+>>>>>>> 75179b85 (.)
             $row = [$key];
 
             foreach (array_keys($allFiles) as $file) {
                 $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
 >>>>>>> 75179b85 (.)
             }
 
@@ -208,10 +225,14 @@ class AnalyzeTranslationFiles extends Command
 
         foreach (array_keys($allFiles) as $file) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (str_contains($file, '/send_')) {
 =======
             if (strpos($file, '/send_') !== false) {
 >>>>>>> b19cd40 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
@@ -251,6 +272,7 @@ class AnalyzeTranslationFiles extends Command
 
         foreach ($allFiles as $file => $keys) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
@@ -264,6 +286,12 @@ class AnalyzeTranslationFiles extends Command
 =======
                 if (strpos((string) $key, 'navigation.') === 0) {
 >>>>>>> b19cd40 (.)
+=======
+            $navigationKeys = [];
+
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 75179b85 (.)
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                 }
             }

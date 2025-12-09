@@ -4,12 +4,17 @@ declare(strict_types=1);
 
 use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 =======
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 >>>>>>> b19cd40 (.)
+=======
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+>>>>>>> 75179b85 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -17,10 +22,14 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
  * Class CreateMailTemplatesTable.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class() extends XotBaseMigration {
 =======
 return new class () extends XotBaseMigration {
 >>>>>>> b19cd40 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b85 (.)
     /**
      * Run the migrations.
      */
@@ -37,24 +46,34 @@ return new class () extends XotBaseMigration {
             $table->json('text_template')->nullable();
             $table->string('version')->default('1.0.0');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('name')) {
 =======
             if (! $this->hasColumn('name')) {
 >>>>>>> b19cd40 (.)
+=======
+            if (!$this->hasColumn('name')) {
+>>>>>>> 75179b85 (.)
                 $table->string('name');
             }
             if ($this->hasColumn('name')) {
                 $table->string('name')->nullable()->change();
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
             if (!$this->hasColumn('slug')) {
                 $table->string('slug')->unique();
             }
@@ -65,6 +84,7 @@ return new class () extends XotBaseMigration {
             );
         });
     }
+<<<<<<< HEAD
 =======
             if (! $this->hasColumn('slug')) {
                 $table->string('slug')->unique();
@@ -75,4 +95,6 @@ return new class () extends XotBaseMigration {
     }
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 };

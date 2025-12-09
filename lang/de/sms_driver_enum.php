@@ -46,7 +46,11 @@ return [
         'description' => 'Italienischer Anbieter für Telekommunikationsdienste und SMS',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 ]; 
 >>>>>>> b19cd40 (.)
+=======
+];
+>>>>>>> 75179b85 (.)

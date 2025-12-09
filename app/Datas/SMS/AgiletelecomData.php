@@ -6,6 +6,9 @@ namespace Modules\Notify\Datas\SMS;
 
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -35,6 +38,7 @@ class AgiletelecomData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
              */
+<<<<<<< HEAD
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -67,6 +71,8 @@ class AgiletelecomData extends Data
             $data = Arr::get($data, 'drivers.agiletelecom', []);
             */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
             $data = Config::array('sms.drivers.agiletelecom');
             self::$instance = self::from($data);
         }
@@ -74,6 +80,7 @@ class AgiletelecomData extends Data
         return self::$instance;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getAuthHeaders(): array
     {
@@ -83,11 +90,18 @@ class AgiletelecomData extends Data
     {
                 
 >>>>>>> b19cd40 (.)
+=======
+    public function getAuthHeaders(): array
+    {
+>>>>>>> 75179b85 (.)
         switch ($this->auth_type) {
             case 'api_key':
                 return [
                     'Authorization' => 'Api-Key ' . $this->api_key,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
                     'Content-Type' => 'application/json',
                 ];
 
@@ -97,6 +111,7 @@ class AgiletelecomData extends Data
                     'Content-Type' => 'application/json',
                 ];
 
+<<<<<<< HEAD
 =======
                     'Content-Type' => 'application/json'
                 ];
@@ -108,16 +123,22 @@ class AgiletelecomData extends Data
                 ];
             
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
             case 'basic':
             default:
                 return [
                     'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
                     'Content-Type' => 'application/json',
                 ];
         }
     }
 }
+<<<<<<< HEAD
 =======
                     'Content-Type' => 'application/json'
                 ];
@@ -126,3 +147,5 @@ class AgiletelecomData extends Data
     
 }
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

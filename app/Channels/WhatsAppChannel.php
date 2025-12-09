@@ -12,10 +12,14 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 /**
  * Canale di notifica per l'invio di messaggi WhatsApp.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+=======
+ *
+>>>>>>> 75179b85 (.)
  * Questo canale utilizza il driver WhatsApp configurato in config/whatsapp.php
  * per inviare messaggi WhatsApp attraverso il provider selezionato.
  */
@@ -26,10 +30,14 @@ class WhatsAppChannel
      */
     private WhatsAppActionFactory $factory;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -38,10 +46,14 @@ class WhatsAppChannel
         $this->factory = $factory;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 75179b85 (.)
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
@@ -53,15 +65,22 @@ class WhatsAppChannel
     public function send($notifiable, Notification $notification)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!method_exists($notification, 'toWhatsApp')) {
 =======
         if (! method_exists($notification, 'toWhatsApp')) {
 >>>>>>> b19cd40 (.)
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> 75179b85 (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
         $whatsAppData = $notification->toWhatsApp($notifiable);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
         if (!($whatsAppData instanceof WhatsAppData)) {
             throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
@@ -69,6 +88,7 @@ class WhatsAppChannel
 
         $action = $this->factory->create();
 
+<<<<<<< HEAD
 =======
         
         if (! $whatsAppData instanceof WhatsAppData) {
@@ -78,6 +98,8 @@ class WhatsAppChannel
         $action = $this->factory->create();
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
         return $action->execute($whatsAppData);
     }
 }

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
@@ -20,6 +21,10 @@
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 >>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Generale ](../../../../../docs/README.md)
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> 75179b85 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura

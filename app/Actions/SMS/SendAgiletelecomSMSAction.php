@@ -5,11 +5,15 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 =======
 
 use GuzzleHttp\Client;
@@ -17,6 +21,8 @@ use Modules\Notify\Datas\SmsData;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -24,6 +30,9 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 class SendAgiletelecomSMSAction implements SmsActionContract
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
     #[Override]
     public function execute(SmsData $data): array
     {
@@ -31,6 +40,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 
         return $res;
     }
+<<<<<<< HEAD
 =======
     public function execute(SmsData $data): array{
         
@@ -40,4 +50,6 @@ class SendAgiletelecomSMSAction implements SmsActionContract
     }
    
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 }

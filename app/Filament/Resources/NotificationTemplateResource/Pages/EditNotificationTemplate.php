@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
@@ -12,11 +13,18 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 
 >>>>>>> b19cd40 (.)
+=======
+use Modules\Notify\Filament\Resources\NotificationTemplateResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+>>>>>>> 75179b85 (.)
 
 class EditNotificationTemplate extends XotBaseEditRecord
 {
     protected static string $resource = NotificationTemplateResource::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
     /*
      * protected function getRedirectUrl(): string
@@ -36,6 +44,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
      * }
      */
 }
+<<<<<<< HEAD
 =======
     /*
     protected function getRedirectUrl(): string
@@ -56,3 +65,5 @@ class EditNotificationTemplate extends XotBaseEditRecord
     */
 } 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

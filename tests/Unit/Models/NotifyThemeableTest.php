@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
@@ -13,6 +14,11 @@ use Tests\TestCase;
 use Modules\Notify\Models\NotifyThemeable;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyThemeable;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -101,12 +107,16 @@ class NotifyThemeableTest extends TestCase
         ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')
             ->where('model_id', 123)
             ->first();
 >>>>>>> b19cd40 (.)
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+>>>>>>> 75179b85 (.)
 
         $this->assertNotNull($found);
         $this->assertEquals($themeable->id, $found->id);
@@ -390,6 +400,7 @@ class NotifyThemeableTest extends TestCase
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -399,3 +410,5 @@ class NotifyThemeableTest extends TestCase
 
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)

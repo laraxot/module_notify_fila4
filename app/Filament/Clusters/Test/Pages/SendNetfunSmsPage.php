@@ -5,10 +5,13 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 use Filament\Facades\Filament\Schemas\Schema;
 >>>>>>> c0c6523 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -33,7 +36,11 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
+<<<<<<< HEAD
  * @property Schema $smsForm
+=======
+ * @property \Filament\Schemas\Schema $smsForm
+>>>>>>> 75179b85 (.)
  */
 class SendNetfunSmsPage extends XotBasePage
 {
@@ -78,6 +85,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
@@ -91,6 +99,11 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 

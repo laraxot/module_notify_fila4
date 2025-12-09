@@ -10,25 +10,35 @@ use Modules\Notify\Enums\ContactTypeEnum;
 /**
  * ContactColumn - Colonna Filament riutilizzabile per rendering contatti
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
  *
  * Utilizza ViewColumn + Blade view per separare completamente
  * logica e presentazione seguendo i principi DRY/KISS
  *
+<<<<<<< HEAD
 =======
  * 
  * Utilizza ViewColumn + Blade view per separare completamente 
  * logica e presentazione seguendo i principi DRY/KISS
  * 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
  * PATTERN CORRETTO:
  * - ViewColumn per layout complessi
  * - Blade view separata per HTML
  * - Accessibilità WCAG 2.1 AA compliant
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+=======
+ *
+>>>>>>> 75179b85 (.)
  * @author Laraxot Team
  * @version 2.0 - REFACTOR COMPLETO
  * @since 2025-01-06
@@ -40,6 +50,9 @@ class ContactColumn extends ViewColumn
      */
     protected string $view = 'notify::filament.tables.columns.contact';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 
     protected function setUp(): void
     {
@@ -48,6 +61,7 @@ class ContactColumn extends ViewColumn
         // Passa i tipi di contatto alla view
         $contact_types = ContactTypeEnum::cases();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @var array<string> $searchableArray */
         $searchableArray = ContactTypeEnum::getSearchable();
@@ -84,3 +98,14 @@ class ContactColumn extends ViewColumn
 =======
 }
 >>>>>>> b19cd40 (.)
+=======
+        $this->view(static::getView(), [
+            'contact_types' => $contact_types,
+        ])
+            ->label(__('notify::columns.contact.label'))
+            ->searchable(ContactTypeEnum::getSearchable())
+            ->sortable(false)
+            ->toggleable(isToggledHiddenByDefault: false);
+    }
+}
+>>>>>>> 75179b85 (.)

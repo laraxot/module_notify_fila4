@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 75179b85 (.)
 <x-filament-panels::page>
     <form wire:submit.prevent="sendSMS">
         <x-filament::section>
@@ -25,6 +31,7 @@ declare(strict_types=1);
                         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendSMS"/>
                     </div>
                     <div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +87,9 @@ declare(strict_types=1);
                         <x-filament-panels::form.actions :actions="$this->getSmsFormActions()" />
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+                        <x-filament::actions :actions="$this->getSmsFormActions()" />
+>>>>>>> 75179b85 (.)
                     </div>
                 </div>
 
