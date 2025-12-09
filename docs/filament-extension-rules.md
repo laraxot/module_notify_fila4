@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -46,6 +47,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale
@@ -105,6 +108,7 @@ class SendSMSPage extends XotBasePage
 Per verificare che tutte le classi seguano questa regola:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385,10 +389,13 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+=======
+>>>>>>> 2a97406c (.)
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,3 +410,5 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)

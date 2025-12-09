@@ -95,6 +95,7 @@ abstract class XotBasePage extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
@@ -129,6 +130,12 @@ abstract class XotBasePage extends Page implements HasForms
 =======
     public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
+=======
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -188,6 +195,7 @@ Prima (❌):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
@@ -222,6 +230,12 @@ public function form(Form $form): Form
 =======
 public function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
+=======
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
 {
     return $form
         ->schema([

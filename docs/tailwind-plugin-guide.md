@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -85,6 +86,8 @@
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
 # Guida: Creazione di Plugin Tailwind Custom per <nome progetto>
 
 Questa guida mostra come creare, documentare e integrare plugin custom Tailwind CSS per pattern condivisi (bottoni, alert, badge, ecc.) secondo le best practice Webcrunch e le regole <nome progetto>.
@@ -195,6 +198,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
 >>>>>>> 75179b85 (.)
@@ -310,6 +314,8 @@ module.exports = {
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 - Usare i plugin per pattern condivisi (bottoni, alert, badge, card, ecc.).
 - Versionare e testare i plugin per evitare regressioni.
@@ -372,6 +378,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
 >>>>>>> 75179b85 (.)
@@ -487,6 +494,8 @@ module.exports = {
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
 >>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 - [Webcrunch: Creare Plugin Tailwind](https://webcrunch.com/posts/create-a-tailwind-css-plugin-from-scratch)
 
@@ -496,6 +505,7 @@ module.exports = {
 - Centralizzare i plugin condivisi per evitare duplicazione.
 - Documentare pattern e snippet di utilizzo.
 - Integrare plugin custom solo se portano reale valore e riuso.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,3 +596,5 @@ module.exports = {
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
