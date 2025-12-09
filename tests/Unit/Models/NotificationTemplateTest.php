@@ -268,6 +268,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 2941b0bd (.)
 
+use function Safe\json_encode;
+
 class NotificationTemplateTest extends TestCase
 {
     use RefreshDatabase;

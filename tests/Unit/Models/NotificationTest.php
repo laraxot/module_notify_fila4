@@ -230,6 +230,8 @@ use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 >>>>>>> 2941b0bd (.)
 
+use function Safe\json_encode;
+
 class NotificationTest extends TestCase
 {
     use RefreshDatabase;

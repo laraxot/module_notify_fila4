@@ -82,6 +82,7 @@ use Webmozart\Assert\Assert;
  */
 class SendSmsPage extends XotBasePage
 {
+<<<<<<< HEAD
     public null|array $smsData = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +101,12 @@ class SendSmsPage extends XotBasePage
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 >>>>>>> 75179b85 (.)
+=======
+    public ?array $smsData = [];
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
+
+>>>>>>> 510e6e8b (.)
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
 

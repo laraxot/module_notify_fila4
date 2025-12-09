@@ -84,6 +84,7 @@ use Webmozart\Assert\Assert;
  */
 class SendSpatieEmailPage extends XotBasePage
 {
+<<<<<<< HEAD
     public null|array $emailData = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +103,12 @@ class SendSpatieEmailPage extends XotBasePage
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> 75179b85 (.)
+=======
+    public ?array $emailData = [];
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
+
+>>>>>>> 510e6e8b (.)
     protected string $view = 'notify::filament.pages.send-email';
     protected static null|string $cluster = Test::class;
 
