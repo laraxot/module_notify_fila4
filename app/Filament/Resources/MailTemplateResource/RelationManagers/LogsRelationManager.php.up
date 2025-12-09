@@ -20,6 +20,7 @@ class LogsRelationManager extends RelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
@@ -36,6 +37,9 @@ class LogsRelationManager extends RelationManager
     public function form(Form $form): Form
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
     {
         return $form
             ->schema([

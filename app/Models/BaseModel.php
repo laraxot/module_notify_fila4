@@ -12,6 +12,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -54,10 +55,13 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Models\XotBaseModel;
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 use Modules\Xot\Traits\Updater;
@@ -72,10 +76,14 @@ use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+use Modules\Xot\Traits\Updater;
+>>>>>>> 75179b85 (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
+<<<<<<< HEAD
  * Base Model for Notify module.
  *
  * Extends XotBaseModel and adds:
@@ -101,6 +109,10 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> fbed41ac (.)
     use InteractsWithMedia;
 =======
+=======
+ * Class BaseModel.
+ */
+>>>>>>> 75179b85 (.)
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
@@ -125,6 +137,7 @@ abstract class BaseModel extends Model implements HasMedia
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 
     /**
@@ -136,6 +149,12 @@ abstract class BaseModel extends Model implements HasMedia
 
 <<<<<<< HEAD
 =======
+=======
+
+    /** @var string */
+    protected $connection = 'notify';
+
+>>>>>>> 75179b85 (.)
     /** @var list<string> */
     protected $appends = [];
 
@@ -150,6 +169,7 @@ abstract class BaseModel extends Model implements HasMedia
         // 'password'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,12 +205,18 @@ abstract class BaseModel extends Model implements HasMedia
      * Create a new factory instance for the model.
      *
 >>>>>>> c8b1c8bf (.)
+=======
+    /**
+     * Create a new factory instance for the model.
+     *
+>>>>>>> 75179b85 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -209,6 +235,12 @@ abstract class BaseModel extends Model implements HasMedia
     protected function casts(): array
     {
 <<<<<<< HEAD
+=======
+
+    /** @return array<string, string> */
+    protected function casts(): array
+    {
+>>>>>>> 75179b85 (.)
         return [
             'id' => 'string',
             'uuid' => 'string',
@@ -268,6 +300,7 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -498,6 +531,8 @@ abstract class BaseModel extends Model implements HasMedia
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -557,6 +592,7 @@ abstract class BaseModel extends Model implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -787,10 +823,13 @@ abstract class BaseModel extends Model implements HasMedia
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
+<<<<<<< HEAD
 =======
         return array_merge(parent::casts(), [
             'verified_at' => 'datetime', // ✅ Notify-specific cast
@@ -805,5 +844,7 @@ abstract class BaseModel extends Model implements HasMedia
             'verified_at' => 'datetime', // ✅ Notify-specific cast
         ]);
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 75179b85 (.)
     }
 }

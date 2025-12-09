@@ -61,6 +61,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -588,6 +589,10 @@ use Modules\Notify\Models\NotifyThemeable;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
 >>>>>>> 58816034 (.)
+=======
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+>>>>>>> 75179b85 (.)
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -598,12 +603,17 @@ describe('Notify Themeable Business Logic', function () {
             'model_id' => 123,
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b85 (.)
         ];
 
         $themeable = NotifyThemeable::create($themeableData);
@@ -614,12 +624,17 @@ describe('Notify Themeable Business Logic', function () {
             'model_id' => 123,
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
+=======
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b85 (.)
         ]);
 
         expect($themeable->model_type)->toBe('App\Models\NotificationTemplate');
@@ -668,12 +683,17 @@ describe('Notify Themeable Business Logic', function () {
     it('can manage theme relationships', function () {
         $theme = NotifyTheme::factory()->create([
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name' => config('app.name', 'Platform').' Professional',
             'description' => 'Tema professionale per '.config('app.name', 'Platform'),
 =======
             'name' => config('app.name', 'Platform') . ' Professional',
             'description' => 'Tema professionale per ' . config('app.name', 'Platform'),
 >>>>>>> 75179b8 (.)
+=======
+            'name' => config('app.name', 'Platform') . ' Professional',
+            'description' => 'Tema professionale per ' . config('app.name', 'Platform'),
+>>>>>>> 75179b85 (.)
         ]);
 
         $themeable = NotifyThemeable::factory()->create([
@@ -683,10 +703,14 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->theme)->toBeInstanceOf(NotifyTheme::class);
         expect($themeable->theme->id)->toBe($theme->id);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($themeable->theme->name)->toBe(config('app.name', 'Platform').' Professional');
 =======
         expect($themeable->theme->name)->toBe(config('app.name', 'Platform') . ' Professional');
 >>>>>>> 75179b8 (.)
+=======
+        expect($themeable->theme->name)->toBe(config('app.name', 'Platform') . ' Professional');
+>>>>>>> 75179b85 (.)
     });
 
     it('can handle user tracking', function () {
@@ -695,6 +719,7 @@ describe('Notify Themeable Business Logic', function () {
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
         ]);
@@ -702,13 +727,18 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->created_by)->toBe('developer@'.config('app.domain', 'example.com'));
         expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
 =======
+=======
+>>>>>>> 75179b85 (.)
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
 
         expect($themeable->created_by)->toBe('developer@' . config('app.domain', 'example.com'));
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
         expect($themeable->created_at)->not->toBeNull();
         expect($themeable->updated_at)->not->toBeNull();
     });
@@ -736,6 +766,7 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $theme3->id,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1319,6 +1350,10 @@ describe('Notify Themeable Business Logic', function () {
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
             ->toHaveCount(3);
 >>>>>>> 58816034 (.)
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+>>>>>>> 75179b85 (.)
     });
 
     it('can handle theme switching', function () {
@@ -1335,19 +1370,27 @@ describe('Notify Themeable Business Logic', function () {
         $themeable->update([
             'notify_theme_id' => $newTheme->id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
 =======
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
+=======
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 75179b85 (.)
         ]);
 
         expect($themeable->notify_theme_id)->toBe($newTheme->id);
         expect($themeable->theme->name)->toBe('Tema Nuovo');
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
 =======
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
 >>>>>>> 75179b8 (.)
+=======
+        expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+>>>>>>> 75179b85 (.)
     });
 
     it('can handle empty or null values gracefully', function () {
@@ -1435,18 +1478,24 @@ describe('Notify Themeable Business Logic', function () {
         $themeable->update([
             'notify_theme_id' => null,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
         ]);
 
         expect($themeable->notify_theme_id)->toBeNull();
         expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
 =======
+=======
+>>>>>>> 75179b85 (.)
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
 
         expect($themeable->notify_theme_id)->toBeNull();
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
     });
 
     it('can manage audit trail', function () {
@@ -1454,6 +1503,7 @@ describe('Notify Themeable Business Logic', function () {
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
+<<<<<<< HEAD
 <<<<<<< HEAD
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
         ]);
@@ -1467,6 +1517,8 @@ describe('Notify Themeable Business Logic', function () {
 
         expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
 =======
+=======
+>>>>>>> 75179b85 (.)
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
         ]);
 
@@ -1478,7 +1530,10 @@ describe('Notify Themeable Business Logic', function () {
         ]);
 
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
         expect($themeable->updated_at)->not->toBeNull();
 
         expect($themeable->created_at->lte($themeable->updated_at))->toBeTrue();
@@ -1502,6 +1557,7 @@ describe('Notify Themeable Business Logic', function () {
         $theme1Assignments = NotifyThemeable::where('notify_theme_id', $theme1->id)->get();
         expect($theme1Assignments)->toHaveCount(5);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2399,16 +2455,26 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+        NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
+            'notify_theme_id' => $theme2->id,
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+        ]);
+>>>>>>> 75179b85 (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);
 
         foreach ($theme2Assignments as $assignment) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect($assignment->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
 =======
             expect($assignment->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
 >>>>>>> 75179b8 (.)
+=======
+            expect($assignment->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+>>>>>>> 75179b85 (.)
         }
     });
 });

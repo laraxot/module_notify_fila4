@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -365,6 +366,11 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 75179b8 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 return [
     'fields' => [
         'mailable' => [
@@ -389,6 +395,7 @@ return [
         ],
         'cancel' => [
             'label' => 'cancel',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'tooltip' => 'cancel',
         ],
@@ -1039,3 +1046,8 @@ return array (
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+        ],
+    ],
+];
+>>>>>>> 75179b85 (.)

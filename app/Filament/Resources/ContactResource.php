@@ -47,6 +47,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -466,6 +467,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
@@ -483,6 +486,7 @@ class ContactResource extends XotBaseResource
     protected static null|string $model = Contact::class;
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -534,10 +538,13 @@ class ContactResource extends XotBaseResource
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b85 (.)
 
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,6 +887,11 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+     * @return array<string, Component>
+     */
+    #[Override]
+>>>>>>> 75179b85 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -935,6 +947,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1139,11 +1152,15 @@ class ContactResource extends XotBaseResource
     #[Override]
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
     public static function getRelations(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1382,6 +1399,9 @@ class ContactResource extends XotBaseResource
     #[Override]
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
     public static function getPages(): array
     {
         return [

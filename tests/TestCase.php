@@ -69,6 +69,7 @@ namespace Modules\Notify\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -223,6 +224,12 @@ use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Tests\CreatesApplication;
+>>>>>>> 75179b85 (.)
 
 /**
  * Base test case for Notify module tests.
@@ -240,6 +247,7 @@ abstract class TestCase extends BaseTestCase
 
         // Load Notify module specific configurations
         $this->loadLaravelMigrations();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,6 +655,9 @@ abstract class TestCase extends BaseTestCase
 =======
 
 >>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -655,10 +666,14 @@ abstract class TestCase extends BaseTestCase
      * Get package providers.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Application  $app
 =======
      * @param Application $app
 >>>>>>> 75179b8 (.)
+=======
+     * @param Application $app
+>>>>>>> 75179b85 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -365,6 +366,11 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 75179b8 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 return [
     'resource' => [
         'name' => 'Template Email',
@@ -541,6 +547,7 @@ return [
             'label' => 'activeLocale',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
             'icon' => 'logout',
@@ -568,6 +575,8 @@ return [
         ],
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',
@@ -589,6 +598,7 @@ return [
     'model' => [
         'label' => 'mail template.model',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
     'label' => 'mail template',
 =======
@@ -1430,3 +1440,6 @@ return array (
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+];
+>>>>>>> 75179b85 (.)

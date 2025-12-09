@@ -157,11 +157,14 @@ return [
             'color' => 'warning',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
         ],
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
     ],
     'messages' => [
         'created' => [
@@ -191,6 +194,7 @@ return [
         'verification_failed' => [
             'title' => 'Errore Verifica',
             'message' => 'Impossibile verificare il contatto: :error',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -813,4 +817,8 @@ return [
         ],
     ],
 >>>>>>> 58816034 (.)
+=======
+        ],
+    ],
+>>>>>>> 75179b85 (.)
 ];

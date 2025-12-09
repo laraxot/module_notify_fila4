@@ -42,6 +42,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -110,12 +111,15 @@ namespace Modules\Notify\Models;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 75179b85 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +460,9 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 75179b85 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -499,6 +506,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,6 +618,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> f1c9518b (.)
 =======
 =======
+=======
+>>>>>>> 75179b85 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -639,7 +649,10 @@ use Illuminate\Support\Carbon;
  * @mixin Eloquent
  * @property string|null $email
  * @property string|null $mobile_phone
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
  * @method static Builder|Contact whereAttribute1($value)
  * @method static Builder|Contact whereAttribute10($value)
  * @method static Builder|Contact whereAttribute11($value)
@@ -660,6 +673,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Contact whereUsesleft($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
@@ -673,10 +687,15 @@ use Illuminate\Support\Carbon;
  * @property ProfileContract|null $updater
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+>>>>>>> 75179b85 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @method static Builder<static>|Contact whereDeletedAt($value)
@@ -885,10 +904,18 @@ use Illuminate\Support\Carbon;
  */
 >>>>>>> 6e550ff (.)
 >>>>>>> e00d798d (.)
+=======
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ * @mixin IdeHelperContact
+ * @mixin \Eloquent
+ */
+>>>>>>> 75179b85 (.)
 class Contact extends BaseModel
 {
     /** @var list<string> */
     protected $fillable = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1026,6 +1053,8 @@ class Contact extends BaseModel
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
         'model_id',
         'model_type',
         'contact_type',
@@ -1039,6 +1068,7 @@ class Contact extends BaseModel
         'token',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /** @return array<string, string> */
 <<<<<<< HEAD
@@ -1310,6 +1340,10 @@ class Contact extends BaseModel
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+    /** @return array<string, string> */
+    #[Override]
+>>>>>>> 75179b85 (.)
     protected function casts(): array
     {
         return [
@@ -1318,6 +1352,7 @@ class Contact extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1657,6 +1692,11 @@ class Contact extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 58816034 (.)
+=======
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+>>>>>>> 75179b85 (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',

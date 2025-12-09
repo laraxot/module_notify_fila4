@@ -77,15 +77,19 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -1019,6 +1023,10 @@ declare(strict_types=1);
 =======
  * @version 1.0
 >>>>>>> 75179b8 (.)
+=======
+ * @author Laraxot Team
+ * @version 1.0
+>>>>>>> 75179b85 (.)
  * @since 2025-08-01
  */
 return [

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,10 +295,13 @@ class NexmoData extends Data
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
@@ -427,6 +431,8 @@ use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+=======
+>>>>>>> 75179b85 (.)
 use Webmozart\Assert\Assert;
 
 class NexmoData extends Data
@@ -443,6 +449,7 @@ class NexmoData extends Data
     {
         if (!(self::$instance instanceof NexmoData)) {
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.nexmo', []);
@@ -518,6 +525,11 @@ class NexmoData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.nexmo', []);
+             */
+>>>>>>> 75179b85 (.)
             $data = Config::array('sms.drivers.nexmo');
             self::$instance = self::from($data);
         }
@@ -531,6 +543,7 @@ class NexmoData extends Data
             case 'api_key':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,6 +813,10 @@ class NexmoData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+                    'Content-Type' => 'application/json',
+>>>>>>> 75179b85 (.)
                 ];
         }
     }

@@ -85,6 +85,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -357,11 +358,14 @@
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,6 +797,8 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
 {{-- Visualizzazione parametri come badge --}}
 @if(!empty($params))
     <div class="space-y-2">
@@ -803,14 +809,20 @@ declare(strict_types=1);
         <div class="flex flex-wrap gap-2">
             @foreach(array_filter(array_map('trim', explode(',', $params))) as $param)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <x-filament::badge>{{ $param }}</x-filament::badge>
 =======
+=======
+>>>>>>> 75179b85 (.)
                 <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
                            bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 
                            border border-blue-200 dark:border-blue-800">
                     {{ $param }}
                 </span>
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
             @endforeach
         </div>
         
@@ -908,6 +920,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1380,3 +1393,6 @@ declare(strict_types=1);
 =======
 @endif
 >>>>>>> 58816034 (.)
+=======
+@endif
+>>>>>>> 75179b85 (.)

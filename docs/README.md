@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Invio Email Semplice
 
 ```php
@@ -909,6 +910,8 @@ Log::channel('email')->info('Email sent', [
 =======
 =======
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 75179b85 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1201,6 +1204,9 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 75179b85 (.)

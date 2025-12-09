@@ -71,6 +71,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -411,6 +412,11 @@ namespace Modules\Notify\Models;
  */
 class NotificationType extends BaseModel
 =======
+=======
+
+namespace Modules\Notify\Models;
+
+>>>>>>> 75179b85 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
@@ -422,7 +428,10 @@ use Illuminate\Database\Eloquent\Model;
  * @mixin \Eloquent
  */
 class NotificationType extends Model
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
 {
     protected $fillable = [
         'name',

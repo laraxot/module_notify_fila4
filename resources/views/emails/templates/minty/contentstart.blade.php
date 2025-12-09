@@ -168,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1386,12 +1387,15 @@ class="block">
 =======
 =======
 >>>>>>> 1fd232c (.)
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
 <div class="block">
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
@@ -1401,6 +1405,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 1fd232c (.)
 >>>>>>> d298dd9c (.)
+=======
+>>>>>>> 75179b85 (.)
 	<!-- Full + text -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fullimage">
 		<tbody>
@@ -1588,6 +1594,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2436,3 +2443,6 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> 1fd232c (.)
 >>>>>>> d298dd9c (.)
+=======
+								<tbody>
+>>>>>>> 75179b85 (.)

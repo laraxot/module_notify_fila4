@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,10 +295,13 @@ class TwilioData extends Data
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 75179b85 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
@@ -427,6 +431,8 @@ use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+=======
+>>>>>>> 75179b85 (.)
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -443,6 +449,7 @@ class TwilioData extends Data
     {
         if (!(self::$instance instanceof TwilioData)) {
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.twilio', []);
@@ -518,6 +525,11 @@ class TwilioData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.twilio', []);
+             */
+>>>>>>> 75179b85 (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -531,6 +543,7 @@ class TwilioData extends Data
             case 'basic':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,6 +813,10 @@ class TwilioData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+                    'Content-Type' => 'application/x-www-form-urlencoded',
+>>>>>>> 75179b85 (.)
                 ];
         }
     }

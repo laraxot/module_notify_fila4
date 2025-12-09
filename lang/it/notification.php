@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -365,6 +366,11 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 75179b8 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 return [
     'resource' => [
         'name' => 'Notifica',
@@ -554,11 +560,14 @@ return [
             'confirmation' => 'Sei sicuro di voler eliminare questa notifica? Questa azione non può essere annullata.',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
         ],
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
     ],
     'messages' => [
         'no_notifications' => 'Non hai notifiche',
@@ -572,6 +581,7 @@ return [
         'error' => 'Si è verificato un errore durante l\'operazione',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,3 +1421,5 @@ return array (
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)

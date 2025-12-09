@@ -89,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -762,6 +763,11 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 58816034 (.)
+=======
+
+declare(strict_types=1);
+
+>>>>>>> 75179b85 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
@@ -895,12 +901,15 @@ return [
             ],
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
         'logout' => [
             'tooltip' => 'logout',
             'icon' => 'logout',
         ],
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
     ],
     'messages' => [
         'created' => [

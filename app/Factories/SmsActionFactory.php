@@ -8,10 +8,14 @@ use Exception;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
 =======
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 75179b8 (.)
+=======
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 75179b85 (.)
 
 /**
  * Factory per la creazione di azioni SMS.
@@ -58,6 +62,7 @@ final class SmsActionFactory
      * Utilizza una risoluzione dinamica delle classi basata sulla convenzione di naming
      * per istanziare l'action corretta.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param string|null $driver Driver SMS da utilizzare (se null, viene utilizzato quello predefinito)
@@ -120,11 +125,14 @@ final class SmsActionFactory
 =======
     public function create(?string $driver = null): SmsActionContract
 =======
+=======
+>>>>>>> 75179b85 (.)
      * @param string|null $driver Driver SMS da utilizzare (se null, viene utilizzato quello predefinito)
      * @return SmsActionContract Azione SMS corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
     public function create(null|string $driver = null): SmsActionContract
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -402,11 +410,16 @@ final class SmsActionFactory
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+    {
+        $driver ??= Config::get('sms.default', 'netfun');
+>>>>>>> 75179b85 (.)
 
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName(is_string($driver) ? $driver : '');
 
         // Avvisa per driver non standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,6 +718,10 @@ final class SmsActionFactory
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
 >>>>>>> b93ef594b4 (.)
+=======
+        if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
+            Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
+>>>>>>> 75179b85 (.)
         }
 
         // Costruisci il nome della classe seguendo la convenzione
@@ -718,6 +735,7 @@ final class SmsActionFactory
                 'className' => $className,
             ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             throw new Exception("Unsupported SMS driver: " . (is_string($driver) ? $driver : '') . ". Class {$className} not found.");
 >>>>>>> a12f125f4a (.)
@@ -893,11 +911,17 @@ final class SmsActionFactory
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+            throw new Exception(
+                'Unsupported SMS driver: ' . (is_string($driver) ? $driver : '') . ". Class {$className} not found.",
+            );
+>>>>>>> 75179b85 (.)
         }
 
         $instance = app($className);
 
         // Verifica che l'istanza implementi l'interfaccia corretta
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!($instance instanceof SmsActionContract)) {
@@ -914,6 +938,9 @@ final class SmsActionFactory
         if (!($instance instanceof SmsActionContract)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+        if (!($instance instanceof SmsActionContract)) {
+>>>>>>> 75179b85 (.)
             throw new Exception("Class {$className} does not implement SmsActionContract.");
         }
 
@@ -926,6 +953,7 @@ final class SmsActionFactory
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $driver Nome del driver da normalizzare
 =======
 <<<<<<< HEAD
@@ -940,6 +968,9 @@ final class SmsActionFactory
      * @param string $driver Nome del driver da normalizzare
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+     * @param string $driver Nome del driver da normalizzare
+>>>>>>> 75179b85 (.)
      * @return string Nome normalizzato
      */
     private function normalizeDriverName(string $driver): string

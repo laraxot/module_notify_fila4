@@ -46,6 +46,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -301,6 +302,9 @@ return new class() extends XotBaseMigration {
 return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b85 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -308,6 +312,7 @@ return new class() extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +450,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('lang')->nullable();
@@ -455,6 +462,7 @@ return new class() extends XotBaseMigration {
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!$this->hasColumn('from')) {
@@ -500,6 +508,8 @@ return new class() extends XotBaseMigration {
 =======
             if (! $this->hasColumn('view_params')) {
 =======
+=======
+>>>>>>> 75179b85 (.)
             if (!$this->hasColumn('from')) {
                 $table->string('from')->nullable();
             }
@@ -533,6 +543,7 @@ return new class() extends XotBaseMigration {
             }
 
             if (!$this->hasColumn('view_params')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -714,6 +725,8 @@ return new class() extends XotBaseMigration {
             }
 
             if (!$this->hasColumn('view_params')) {
+=======
+>>>>>>> 75179b85 (.)
                 $table->json('view_params')->nullable();
             }
             $this->updateTimestamps(
@@ -721,6 +734,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         }); // end update
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 <<<<<<< HEAD
@@ -905,6 +919,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
     }
 
     // end function up

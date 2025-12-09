@@ -80,6 +80,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -707,6 +708,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 >>>>>>> 58816034 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
 
 class MailTemplateTest extends TestCase
 {
@@ -753,10 +759,14 @@ class MailTemplateTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b85 (.)
 
         $expectedFillable = [
             'mailable',
@@ -777,10 +787,14 @@ class MailTemplateTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b85 (.)
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -795,10 +809,14 @@ class MailTemplateTest extends TestCase
     public function it_has_translatable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b85 (.)
 
         $expectedTranslatable = [
             'subject',
@@ -814,10 +832,14 @@ class MailTemplateTest extends TestCase
     public function it_uses_notify_connection(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b85 (.)
 
         $this->assertEquals('notify', $template->getConnectionName());
     }

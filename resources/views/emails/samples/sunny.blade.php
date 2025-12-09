@@ -85,6 +85,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -357,11 +358,14 @@
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,6 +797,8 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
 @extends('beautymail::templates.sunny')
 
 @section('content')
@@ -803,18 +809,24 @@ declare(strict_types=1);
     ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include('beautymail::templates.sunny.content-start')
 
         <p>Today will be a great day!</p>
 
     @include('beautymail::templates.sunny.content-end')
 =======
+=======
+>>>>>>> 75179b85 (.)
     @include('beautymail::templates.sunny.contentStart')
 
         <p>Today will be a great day!</p>
 
     @include('beautymail::templates.sunny.contentEnd')
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
 
     @include('beautymail::templates.sunny.button', [
         	'title' => 'Click me',
@@ -911,6 +923,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1383,3 +1396,6 @@ declare(strict_types=1);
 =======
 @stop
 >>>>>>> 58816034 (.)
+=======
+@stop
+>>>>>>> 75179b85 (.)

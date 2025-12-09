@@ -46,6 +46,7 @@ readonly class SmsMessageData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -419,5 +420,10 @@ readonly class SmsMessageData
         public null|string $scheduledDate = null,
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+        public null|string $sender = null,
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 75179b85 (.)
     ) {}
 }

@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -365,6 +366,11 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 75179b8 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 return [
     'navigation' => [
         'icon' => 'heroicon-o-document-text',
@@ -414,11 +420,14 @@ return [
     'actions' => [
         'preview' => 'Anteprima',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'openColumnManager' => [
             'tooltip' => 'openColumnManager',
         ],
 =======
 >>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
     ],
     'enums' => [
         'notification_type' => [
@@ -428,6 +437,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1096,3 +1106,5 @@ return array (
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)

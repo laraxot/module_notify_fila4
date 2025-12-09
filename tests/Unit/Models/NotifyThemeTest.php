@@ -80,6 +80,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -707,6 +708,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 >>>>>>> 58816034 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -771,10 +777,14 @@ class NotifyThemeTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme;
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b8 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b85 (.)
 
         $expectedFillable = [
             'id',
@@ -801,10 +811,14 @@ class NotifyThemeTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme;
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b8 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b85 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -825,10 +839,14 @@ class NotifyThemeTest extends TestCase
     public function it_has_logo_appended_attribute(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme;
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b8 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b85 (.)
 
         $expectedAppends = ['logo'];
 
@@ -1425,6 +1443,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1861,3 +1880,5 @@ class NotifyThemeTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)

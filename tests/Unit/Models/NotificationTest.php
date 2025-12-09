@@ -80,6 +80,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -705,6 +706,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 >>>>>>> 58816034 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
 
 class NotificationTest extends TestCase
 {
@@ -755,10 +761,14 @@ class NotificationTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification;
 =======
         $notification = new Notification();
 >>>>>>> 75179b8 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 75179b85 (.)
 
         $expectedFillable = [
             'message',
@@ -781,10 +791,14 @@ class NotificationTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification;
 =======
         $notification = new Notification();
 >>>>>>> 75179b8 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 75179b85 (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',

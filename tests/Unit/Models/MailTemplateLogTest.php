@@ -80,6 +80,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -707,6 +708,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 >>>>>>> 58816034 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplateLog;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
 
 class MailTemplateLogTest extends TestCase
 {
@@ -757,10 +763,14 @@ class MailTemplateLogTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $log = new MailTemplateLog;
 =======
         $log = new MailTemplateLog();
 >>>>>>> 75179b8 (.)
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 75179b85 (.)
 
         $expectedFillable = [
             'template_id',
@@ -784,10 +794,14 @@ class MailTemplateLogTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $log = new MailTemplateLog;
 =======
         $log = new MailTemplateLog();
 >>>>>>> 75179b8 (.)
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 75179b85 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -1402,6 +1416,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1838,3 +1853,5 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)

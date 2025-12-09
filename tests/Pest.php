@@ -40,6 +40,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -349,6 +350,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 75179b85 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Tests\TestCase;
@@ -382,6 +385,7 @@ expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification:
 expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Modules\Notify\Tests\TestCase;
@@ -630,6 +634,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 2effe245 (.)
 >>>>>>> a12f125f4a (.)
 =======
+=======
+>>>>>>> 75179b85 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -639,6 +645,7 @@ expect()->extend('toBeMailTemplate', function () {
  * | global functions to help you to reduce the number of lines of code in your test files.
  * |
  */
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
@@ -718,6 +725,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
 
 function createNotification(array $attributes = []): Notification
 {
