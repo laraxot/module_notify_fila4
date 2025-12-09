@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -722,3 +723,5 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 >>>>>>> 467a2e4 (.)
 =======
 >>>>>>> 3a87c62 (.)
+=======
+>>>>>>> 4760417 (.)
