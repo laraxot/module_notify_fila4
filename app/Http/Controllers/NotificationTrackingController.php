@@ -24,6 +24,7 @@ namespace Modules\Notify\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
 use Illuminate\Http\RedirectResponse;
@@ -37,6 +38,8 @@ use Illuminate\Http\RedirectResponse;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> a404ea71 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -79,7 +82,11 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return RedirectResponse
+=======
+     * @return \Illuminate\Http\RedirectResponse
+>>>>>>> a404ea71 (.)
 =======
      * @return \Illuminate\Http\RedirectResponse
 >>>>>>> a404ea71 (.)

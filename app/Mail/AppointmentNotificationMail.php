@@ -4,17 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Mail;
 
-<<<<<<< HEAD
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Attachment;
-=======
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
->>>>>>> bf479cc (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -23,10 +16,7 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
-<<<<<<< HEAD
-=======
     use Queueable, SerializesModels;
->>>>>>> bf479cc (.)
 
     /**
      * Dati della notifica dell'appuntamento.
@@ -38,11 +28,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
-<<<<<<< HEAD
-     * @param array<string, mixed> $notificationData
-=======
      * @param  array<string, mixed>  $notificationData
->>>>>>> bf479cc (.)
      */
     public function __construct(array $notificationData)
     {
@@ -66,11 +52,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         };
 
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
-<<<<<<< HEAD
-            $subject .= ' #' . $appointment->id;
-=======
             $subject .= ' #'.$appointment->id;
->>>>>>> bf479cc (.)
         }
 
         return new Envelope(
