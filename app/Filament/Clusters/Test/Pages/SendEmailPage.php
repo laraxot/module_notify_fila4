@@ -4,22 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-use Filament\Schemas\Schema;
-=======
-use Filament\Facades\Filament\Schemas\Schema;
->>>>>>> c0c6523 (.)
-use Filament\Schemas\Components\Section;
-use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\RichEditor;
-use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
-use Filament\Forms;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
+use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -28,6 +20,7 @@ use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Override;
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
@@ -36,13 +29,13 @@ class SendEmailPage extends XotBasePage
 {
     // use NavigationLabelTrait;
 
-    public null|array $emailData = [];
+    public ?array $emailData = [];
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
-    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
 
     public function mount(): void
     {
@@ -133,21 +126,12 @@ class SendEmailPage extends XotBasePage
             'section' => Section::make()
                 // ->description('Update your account\'s profile information and email address.')
                 ->schema([
-<<<<<<< HEAD
-                    TextInput::make('to')
-                        // ->unique(ignoreRecord: true)
-                        ->email()
-                        ->required(),
-                    TextInput::make('subject')->required(),
-                    RichEditor::make('body_html')->required(),
-=======
                     'to' => TextInput::make('to')
                         // ->unique(ignoreRecord: true)
                         ->email()
                         ->required(),
                     'subject' => TextInput::make('subject')->required(),
                     'body_html' => RichEditor::make('body_html')->required(),
->>>>>>> c0c6523 (.)
                 ]),
         ];
     }
@@ -177,7 +161,6 @@ class SendEmailPage extends XotBasePage
     {
         return [
             Action::make('emailFormActions')
-                
 
                 ->submit('emailFormActions'),
         ];
@@ -188,7 +171,7 @@ class SendEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
-        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
