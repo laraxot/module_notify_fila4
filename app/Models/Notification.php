@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -178,6 +179,8 @@
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -493,7 +496,14 @@ namespace Modules\Notify\Models;
 namespace Modules\Notify\Models;
 
 use Override;
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+namespace Modules\Notify\Models;
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
@@ -936,6 +946,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1191,6 +1202,11 @@ class Notification extends BaseModel
 =======
     #[Override]
 >>>>>>> 2941b0bd (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
     protected function casts(): array
     {
         return [
