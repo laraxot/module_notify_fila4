@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -85,6 +86,11 @@ declare(strict_types=1);
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 9777d1b3 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -118,6 +124,7 @@ class MailTemplateFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -178,3 +185,6 @@ class MailTemplateFactory extends Factory
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+}
+>>>>>>> 9777d1b3 (.)

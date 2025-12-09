@@ -112,6 +112,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -172,6 +173,9 @@ class ConfigHelper
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> 9777d1b3 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

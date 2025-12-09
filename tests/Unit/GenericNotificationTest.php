@@ -12,6 +12,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -50,6 +51,8 @@ namespace Modules\Notify\Tests\Unit;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Notifications\GenericNotification;
 
@@ -59,6 +62,7 @@ describe('GenericNotification getRecipientName', function (): void {
     it('prefers getFullName() when available', function (): void {
         $notification = new GenericNotification('Title', 'Message');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +132,9 @@ describe('GenericNotification getRecipientName', function (): void {
         $notifiable = new class {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+        $notifiable = new class {
+>>>>>>> 9777d1b3 (.)
             public function getFullName(): string
             {
                 return 'John Doe';
@@ -144,6 +151,7 @@ describe('GenericNotification getRecipientName', function (): void {
     it('uses Eloquent model full_name when present and non-empty', function (): void {
         $notification = new GenericNotification('Title', 'Message');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +224,9 @@ describe('GenericNotification getRecipientName', function (): void {
         $model = new class extends Model {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+        $model = new class extends Model {
+>>>>>>> 9777d1b3 (.)
             protected $attributes = [
                 'full_name' => 'Jane Roe',
             ];
@@ -232,6 +243,7 @@ describe('GenericNotification getRecipientName', function (): void {
         $notification = new GenericNotification('Title', 'Message');
 
         // first_name present
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,6 +281,8 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
         $model1 = new class extends Model {
             protected $attributes = ['first_name' => 'Alice'];
         };
@@ -278,6 +292,7 @@ describe('GenericNotification getRecipientName', function (): void {
         };
         // none present
         $model3 = new class extends Model {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,6 +350,8 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
             protected $attributes = [];
         };
 
