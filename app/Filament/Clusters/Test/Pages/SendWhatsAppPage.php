@@ -1708,6 +1708,7 @@ class SendWhatsAppPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'driver' => Select::make('driver')
 =======
 =======
@@ -2210,10 +2211,14 @@ class SendWhatsAppPage extends XotBasePage
 =======
             Select::make('driver')
 >>>>>>> 2cbbc069 (.)
+=======
+            Select::make('driver')
+>>>>>>> 7c1c276f (rebase 210)
                 ->options(WhatsAppDriverEnum::options())
                 ->default(WhatsAppDriverEnum::getDefault()->value)
                 ->required()
                 ->helperText(__('notify::whatsapp.fields.driver.helper_text')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2420,10 +2425,13 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
             TextInput::make('template')->helperText('Nome del template (opzionale)'),
             KeyValue::make('parameters')->helperText('Parametri per il template (opzionale)'),
             TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
             Select::make('media_type')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2541,6 +2549,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
                 ->options([
                     'image' => 'Immagine',
                     'video' => 'Video',

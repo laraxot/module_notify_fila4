@@ -1094,12 +1094,15 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 7c1c276f (rebase 210)
 =======
 =======
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
 /**
  * @property string $id
  * @property string $model_type
@@ -1117,6 +1120,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $deleted_by
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read MediaCollection<int, \Modules\Media\Models\Media> $media
  * @property-read int|null $media_count
@@ -1126,16 +1130,21 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read MediaCollection<int, \Modules\Media\Models\Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> e00d798d (.)
 =======
 >>>>>>> 7d765981 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
  * @method static \Modules\Notify\Database\Factories\ContactFactory factory($count = null, $state = [])
  * @method static Builder<static>|Contact newModelQuery()
  * @method static Builder<static>|Contact newQuery()
@@ -1154,6 +1163,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Contact whereUserId($value)
  * @method static Builder<static>|Contact whereValue($value)
  * @method static Builder<static>|Contact whereVerifiedAt($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1232,6 +1242,10 @@ use Illuminate\Support\Carbon;
  * @mixin \Eloquent
  */
 >>>>>>> 2cbbc069 (.)
+=======
+ * @mixin \Eloquent
+ */
+>>>>>>> 7c1c276f (rebase 210)
 class Contact extends BaseModel
 {
     /** @var list<string> */

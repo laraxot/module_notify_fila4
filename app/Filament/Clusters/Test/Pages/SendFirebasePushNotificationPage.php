@@ -305,8 +305,11 @@ class SendFirebasePushNotificationPage extends XotBasePage
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Textarea|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle|\Filament\Forms\Components\KeyValue>
      */
     /** @phpstan-ignore-next-line return.type */
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
     public function getPushFormSchema(): array
     {
         return [
@@ -326,6 +329,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->label(__('notify::push.form.image_url.label'))
                 ->url()
                 ->helperText(__('notify::push.form.image_url.helper')),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'notification_type' => Select::make('notification_type')
 =======
@@ -488,6 +492,9 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+            Select::make('notification_type')
+>>>>>>> 7c1c276f (rebase 210)
                 ->label(__('notify::push.form.notification_type.label'))
                 ->options([
                     'message' => 'Message',
@@ -497,6 +504,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ])
                 ->default('message')
                 ->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +679,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->helperText(__('notify::push.form.high_priority.helper')),
             KeyValue::make('custom_data')
 >>>>>>> 2cbbc069 (.)
+=======
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+>>>>>>> 7c1c276f (rebase 210)
                 ->label(__('notify::push.form.custom_data.label'))
                 ->keyLabel(__('notify::push.form.custom_data.key_label'))
                 ->valueLabel(__('notify::push.form.custom_data.value_label'))

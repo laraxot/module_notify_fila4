@@ -807,7 +807,10 @@ use Modules\Xot\Models\BaseModel;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 7c1c276f (rebase 210)
 /**
@@ -824,9 +827,14 @@ use Modules\Xot\Models\BaseModel;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7c1c276f (rebase 210)
 =======
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
@@ -847,6 +855,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
  * @mixin \Eloquent
@@ -950,6 +959,10 @@ use Modules\Xot\Models\BaseModel;
  * @mixin \Eloquent
  */
 >>>>>>> 2cbbc069 (.)
+=======
+ * @mixin \Eloquent
+ */
+>>>>>>> 7c1c276f (rebase 210)
 class Notification extends BaseModel
 {
     /** @var list<string> */

@@ -1358,6 +1358,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -1379,6 +1380,9 @@ class Get
 >>>>>>> 2cbbc069 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 7c1c276f (rebase 210)
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 <<<<<<< HEAD
@@ -1870,6 +1874,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -1896,10 +1901,14 @@ class Get
 >>>>>>> 2cbbc069 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 7c1c276f (rebase 210)
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1919,6 +1928,8 @@ class Get
 =======
 >>>>>>> e6c7fb3 (.)
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 7c1c276f (rebase 210)
         if ($theme->body_html === null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2164,6 +2175,7 @@ class Get
 >>>>>>> 7aba3dd (.)
 =======
         /* @phpstan-ignore-next-line property.notFound */
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
         if ($theme->body_html === null) {
@@ -2200,6 +2212,10 @@ class Get
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+        if ($theme->body_html === null) {
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
 =======
@@ -3655,6 +3671,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'from_email' => $theme->from_email,
 =======
             /* @phpstan-ignore-next-line property.notFound */
@@ -3730,6 +3747,11 @@ class Get
 =======
             'from_email' => $theme->from_email,
 >>>>>>> 5fd545e4 (.)
+=======
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 7c1c276f (rebase 210)
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,

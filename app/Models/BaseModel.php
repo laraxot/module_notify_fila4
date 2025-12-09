@@ -21,6 +21,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -56,6 +57,8 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -105,6 +108,7 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 99ff506 (.)
 use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -121,14 +125,22 @@ use Modules\Xot\Traits\Updater;
 =======
 use Modules\Xot\Models\XotBaseModel;
 >>>>>>> 2cbbc069 (.)
+=======
+=======
+use Modules\Xot\Models\XotBaseModel;
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
  * Base Model for Notify module.
  *
  * Extends XotBaseModel and adds:
@@ -136,6 +148,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  *
  * @see \Modules\Xot\Models\XotBaseModel
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 abstract class BaseModel extends XotBaseModel implements HasMedia
@@ -167,6 +180,10 @@ abstract class BaseModel extends Model implements HasMedia
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
 >>>>>>> 2cbbc069 (.)
+=======
+abstract class BaseModel extends XotBaseModel implements HasMedia
+{
+>>>>>>> 7c1c276f (rebase 210)
     use InteractsWithMedia;
 
     /**
@@ -174,6 +191,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
      *
      * @var string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static $snakeAttributes = true;
 
@@ -1182,5 +1200,19 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
             'verified_at' => 'datetime', // ✅ Notify-specific cast
         ]);
 >>>>>>> 2cbbc069 (.)
+=======
+    protected $connection = 'notify';
+
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return array_merge(parent::casts(), [
+            'verified_at' => 'datetime', // ✅ Notify-specific cast
+        ]);
+>>>>>>> 7c1c276f (rebase 210)
     }
 }

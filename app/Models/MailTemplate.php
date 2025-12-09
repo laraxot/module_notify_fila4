@@ -773,6 +773,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
@@ -783,6 +784,8 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 =======
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
 >>>>>>> 99ff506 (.)
 =======
 <<<<<<< HEAD
@@ -794,6 +797,8 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> a80c61f (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -815,6 +820,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
  * @method static Builder<static>|MailTemplate whereTextTemplate($value)
  * @method static Builder<static>|MailTemplate whereUpdatedAt($value)
  * @method static Builder<static>|MailTemplate whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -864,6 +870,14 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
  * @property string|null $params
  * @method static Builder<static>|MailTemplate whereParams($value)
  * @property array<array-key, mixed>|null $sms_template
+=======
+ *
+=======
+>>>>>>> a80c61f (.)
+ * @property string|null $params
+ * @method static Builder<static>|MailTemplate whereParams($value)
+ * @property array<array-key, mixed>|null $sms_template
+>>>>>>> 7c1c276f (rebase 210)
 <<<<<<< HEAD
  * @property int                          $counter
  *
@@ -971,7 +985,19 @@ use Spatie\Translatable\HasTranslations;
  * @property int $counter
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 99ff506 (.)
+ * @mixin IdeHelperMailTemplate
+=======
+>>>>>>> 05bc3ad (.)
+=======
+ * @property int $counter
+ * @method static Builder<static>|MailTemplate whereCounter($value)
+ * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
  * @mixin \Eloquent
  */
 class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface

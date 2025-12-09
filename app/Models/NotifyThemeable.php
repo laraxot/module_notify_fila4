@@ -69,6 +69,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
@@ -99,6 +100,8 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -112,7 +115,12 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
+=======
+=======
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -125,16 +133,25 @@ use Illuminate\Support\Carbon;
  * @method static Builder|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder|NotifyThemeable whereUpdatedBy($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7c1c276f (rebase 210)
 <<<<<<< HEAD
  *
 =======
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
@@ -180,6 +197,8 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 2941b0bd (.)
 =======
+=======
+>>>>>>> 7c1c276f (rebase 210)
 <<<<<<< HEAD
  *
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -226,7 +245,15 @@ use Illuminate\Support\Carbon;
 >>>>>>> 98d837b9 (.)
  * @mixin IdeHelperNotifyThemeable
 =======
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 05bc3ad (.)
+=======
+ * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
+ * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+>>>>>>> a80c61f (.)
+>>>>>>> 7c1c276f (rebase 210)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot
