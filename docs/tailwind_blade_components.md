@@ -200,6 +200,7 @@ document.querySelectorAll('.group').forEach(card => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 =======
 - Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
@@ -349,9 +350,8 @@ document.querySelectorAll('.group').forEach(card => {
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 909e45af (.)
-- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 =======
-- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
->>>>>>> bf479cc (.)
+>>>>>>> a29a4728 (.)
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 - Integrare test di rendering e validazione accessibilità.
 >>>>>>> 2a97406c (.)

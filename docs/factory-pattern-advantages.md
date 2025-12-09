@@ -32,6 +32,7 @@ Questo documento analizza il pattern Factory attualmente implementato  per la se
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 =======
  implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
@@ -131,6 +132,9 @@ SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
+>>>>>>> a29a4728 (.)
 
 ```php
 // SmsActionFactory.php
@@ -225,6 +229,7 @@ public function getProviderAction(): SmsActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi svantaggi, soprattutto in progetti complessi come <nome progetto>:
 
 1. **Open/Closed Principle**: Permette di estendere il sistema (aggiungendo nuovi provider) senza modificare il codice esistente, soddisfacendo il principio Open/Closed di SOLID.
@@ -291,11 +296,14 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
 Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi svantaggi, soprattutto in progetti complessi come SaluteOra:
 
 1. **Open/Closed Principle**: Permette di estendere il sistema (aggiungendo nuovi provider) senza modificare il codice esistente, soddisfacendo il principio Open/Closed di SOLID.
 
 2. **Coerenza nell'Architettura**: Si allinea con l'architettura modulare di SaluteOra, dove ogni componente ha una responsabilità chiara e specifica.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +404,8 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
 
 3. **Flessibilità nella Selezione**: Permette di implementare logiche complesse di selezione del provider (es. fallback, round-robin, basato su regole) senza cambiare il DTO o il Channel.
 
@@ -423,6 +433,7 @@ Il pattern Factory attualmente implementato  per la selezione dei provider SMS �
 - **Manutenibilità**: Centralizza le modifiche relative alla selezione dei provider
 - **Estendibilità**: Facilita l'aggiunta di nuovi provider SMS
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,11 +555,9 @@ Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre
 =======
 =======
 >>>>>>> 909e45af (.)
-Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di SaluteOra, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
 =======
-Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di , garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
-Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di <nome progetto>, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
->>>>>>> bf479cc (.)
+>>>>>>> a29a4728 (.)
+Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di SaluteOra, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
 
 Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre vantaggi che superano del 30-40% i suoi svantaggi, mentre spostare la logica nel DTO comporterebbe svantaggi che superano del 60-70% i potenziali vantaggi.
 >>>>>>> 2a97406c (.)

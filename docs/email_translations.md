@@ -457,6 +457,7 @@ class TranslationValidator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -632,3 +633,7 @@ class TranslationValidator
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+>>>>>>> a29a4728 (.)
