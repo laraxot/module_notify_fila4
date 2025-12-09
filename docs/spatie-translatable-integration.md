@@ -269,4 +269,7 @@ Schema::table('mail_templates', function (Blueprint $table) {
 **Status**: ✅ PLUGIN REGISTRATO  
 **Compatibilità**: Filament 4.x
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a7355f9 (.)
