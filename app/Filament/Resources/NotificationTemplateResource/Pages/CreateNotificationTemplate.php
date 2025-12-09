@@ -62,6 +62,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -108,6 +109,8 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
@@ -115,6 +118,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,9 +170,12 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 460b8f5b (rebase 210)
+=======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +418,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 84082535 (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
 
 class CreateNotificationTemplate extends XotBaseCreateRecord
 {
@@ -473,6 +482,7 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -519,10 +529,13 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
 }
 =======
 }
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,3 +791,8 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 >>>>>>> 84082535 (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)

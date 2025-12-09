@@ -346,6 +346,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,6 +500,14 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+=======
+        'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+        'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -1175,6 +1184,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 <<<<<<< HEAD
@@ -1232,10 +1242,13 @@ public function toTwilio($notifiable)
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1258,9 +1271,12 @@ public function toTwilio($notifiable)
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 460b8f5b (rebase 210)
+=======
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1350,6 +1366,8 @@ public function toTwilio($notifiable)
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> 75179b85 (.)

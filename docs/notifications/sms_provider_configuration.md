@@ -363,9 +363,17 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 # Configurazione Provider SMS per le Notifiche 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -479,6 +487,7 @@ composer require laravel-notification-channels/vonage
 # .env
 VONAGE_KEY=abcd1234
 VONAGE_SECRET=xyz789...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,6 +694,14 @@ VONAGE_SMS_FROM=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+=======
+VONAGE_SMS_FROM=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+VONAGE_SMS_FROM=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 =======

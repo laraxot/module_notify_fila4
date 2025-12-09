@@ -61,6 +61,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -237,6 +238,10 @@ return [
 >>>>>>> 84082535 (rebase 210)
 =======
 >>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
@@ -298,6 +303,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
@@ -446,6 +454,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -627,6 +636,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -690,6 +703,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -713,9 +727,12 @@ return [
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 460b8f5b (rebase 210)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -927,6 +944,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -990,6 +1010,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1013,9 +1034,12 @@ return [
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 460b8f5b (rebase 210)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1227,6 +1251,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -1290,6 +1317,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1313,9 +1341,12 @@ return [
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+>>>>>>> 460b8f5b (rebase 210)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1527,6 +1558,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
