@@ -18,6 +18,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -41,6 +42,8 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
 =======
@@ -52,6 +55,10 @@ use Filament\Schemas\Components\Component;
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
@@ -62,6 +69,7 @@ class ViewNotification extends XotBaseViewRecord
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +120,10 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -135,6 +147,7 @@ class ViewNotification extends XotBaseViewRecord
                 TextEntry::make('created_at')->dateTime(),
                 TextEntry::make('updated_at')->dateTime(),
             ]),
+<<<<<<< HEAD
 =======
      * @return array<\Filament\Schemas\Components\Component>
      */
@@ -156,6 +169,8 @@ class ViewNotification extends XotBaseViewRecord
                         ->dateTime(),
                 ])
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         ];
     }
 }

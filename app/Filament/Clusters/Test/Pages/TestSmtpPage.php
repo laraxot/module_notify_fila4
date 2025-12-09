@@ -9,9 +9,13 @@ use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -20,9 +24,12 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
@@ -31,9 +38,13 @@ use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+>>>>>>> 4e2ebfb (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -67,6 +78,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
     use InteractsWithForms;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $emailData = [];
 
     public null|string $error_message = null;
@@ -75,16 +87,25 @@ class TestSmtpPage extends XotBasePage implements HasForms
 
     public ?string $error_message = null;
 >>>>>>> b19cd40 (.)
+=======
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
+>>>>>>> 4e2ebfb (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
 
     public function mount(): void
     {
@@ -114,6 +135,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
         $defaultEmail = XotData::make()->super_admin;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         return $schema->components([
             Section::make('SMTP')
                 ->schema([
@@ -149,6 +173,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
                 ])
                 ->columns(3),
         ])->statePath('emailData');
+<<<<<<< HEAD
 =======
         return $schema
             ->components(
@@ -201,6 +226,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
             )
             ->statePath('emailData');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 
     public function sendEmail(): void
@@ -233,6 +260,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
             Action::make('emailFormActions')->submit('emailFormActions'),
         ];
     }
@@ -249,6 +279,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 75179b85 (.)
     #[Override]
+<<<<<<< HEAD
 =======
             Action::make('emailFormActions')
 
@@ -257,19 +288,27 @@ class TestSmtpPage extends XotBasePage implements HasForms
     }
 
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         if (!($user instanceof Model)) {
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.',
             );
+<<<<<<< HEAD
 =======
         if (! $user instanceof Model) {
             throw new Exception('L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         }
 
         return $user;
@@ -280,10 +319,14 @@ class TestSmtpPage extends XotBasePage implements HasForms
         Assert::isArray($mail_config = config('mail'));
         Assert::isArray($smtpConfig = Arr::get($mail_config, 'mailers.smtp'));
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         // Convertiamo l'array generico in un array<string, mixed>
         $typedConfig = [];
         foreach ($smtpConfig as $key => $value) {
@@ -291,6 +334,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
                 $typedConfig[$key] = $value;
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -306,6 +350,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
@@ -339,6 +384,11 @@ class TestSmtpPage extends XotBasePage implements HasForms
         
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $this->emailForm->fill($typedConfig);
 >>>>>>> 75179b85 (.)
 =======
