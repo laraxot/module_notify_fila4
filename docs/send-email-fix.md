@@ -61,7 +61,7 @@ class SendEmail extends XotBasePage
         $this->smtpData = new SmtpData();
     }
 
-    public function form(Form $form): Form
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     {
         return $form
             ->schema([

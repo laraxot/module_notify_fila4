@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -25,7 +26,7 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
- * @property \Filament\Schemas\Schema $emailForm
+ * 
  */
 class SendEmail extends Page implements HasForms
 {
@@ -44,25 +45,6 @@ class SendEmail extends Page implements HasForms
     public function mount(): void
     {
         $this->fillForms();
-    }
-
-    public function emailForm(Schema $schema): Schema
-    {
-        return $schema
-            ->components([
-                Section::make()
-                    // ->description('Update your account\'s profile information and email address.')
-                    ->schema([
-                        TextInput::make('to')
-                            // ->unique(ignoreRecord: true)
-                            ->email()
-                            ->required(),
-                        TextInput::make('subject')->required(),
-                        RichEditor::make('body_html')->required(),
-                    ]),
-            ])
-            ->model($this->getUser())
-            ->statePath('emailData');
     }
 
     public function sendEmail(): void
