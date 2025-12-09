@@ -177,7 +177,11 @@ class AppointmentReminder extends Notification
             message: "Promemoria: appuntamento il {$this->appointment->date}",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
 =======
             sender: 'SaluteOra',
 >>>>>>> f963d2c0 (.)

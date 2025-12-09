@@ -129,10 +129,14 @@ class MailTemplateResource extends XotBaseResource
     protected static ?string $model = MailTemplate::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -324,6 +328,7 @@ php artisan notify:mail-template:test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -369,3 +374,6 @@ php artisan notify:mail-template:test
 =======
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 9777d1b3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)

@@ -45,7 +45,11 @@ $smsData = new SmsData(
     body: 'Il tuo codice OTP è: 123456',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from: '<nome progetto>'
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
 =======
     from: 'SaluteOra'
 >>>>>>> f963d2c0 (.)

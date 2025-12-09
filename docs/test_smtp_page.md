@@ -25,6 +25,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -87,6 +88,10 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 * [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
 >>>>>>> 75179b85 (.)
+=======
+* [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
+* [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
+>>>>>>> f963d2c0 (.)
 
 
 ### Versione Incoming

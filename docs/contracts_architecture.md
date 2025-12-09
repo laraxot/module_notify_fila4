@@ -10,6 +10,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 ✅ CORRETTO:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -18,12 +19,17 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -69,7 +75,11 @@ SendSmsInterface
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> f963d2c0 (.)

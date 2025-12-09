@@ -16,6 +16,7 @@
 3. **File Problematici Identificati**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php`
@@ -24,12 +25,17 @@
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/notification_template.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -38,6 +44,7 @@
 ### Correzioni Implementate
 
 1. **Documentazione Standard**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
@@ -49,6 +56,8 @@
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -56,6 +65,9 @@
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
    - Aggiornato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -64,6 +76,7 @@
 ### Prossime Correzioni da Implementare
 
 1. **File da Correggere Prioritariamente**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_email.php`
@@ -75,6 +88,8 @@
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -82,6 +97,9 @@
 2. **Verifiche da Eseguire**
    - Analisi della cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/en/` per identificare problemi simili
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -101,6 +119,7 @@
 ## Appendice: Elenco Completo dei File Non Conformi
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php
@@ -126,6 +145,8 @@
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -147,6 +168,9 @@
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_spatie_email.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/create_mail_template.php
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
@@ -8,12 +9,17 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 # Convenzioni dei Path in Laravel e SaluteOra
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -40,7 +46,11 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> f963d2c0 (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 >>>>>>> f963d2c0 (.)
@@ -54,7 +64,11 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> f963d2c0 (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 >>>>>>> f963d2c0 (.)
@@ -81,7 +95,11 @@ protected static string $view = 'notify::filament.pages.send-sms';
 // Il path fisico corrispondente sarà:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> f963d2c0 (.)
 =======
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 >>>>>>> f963d2c0 (.)

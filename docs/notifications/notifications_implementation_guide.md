@@ -47,7 +47,11 @@ class RecordNotification extends Notification implements ShouldQueue
         return (new MailMessage)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->subject('Notifica da <nome progetto>')
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> f963d2c0 (.)
 =======
             ->subject('Notifica da SaluteOra')
 >>>>>>> f963d2c0 (.)

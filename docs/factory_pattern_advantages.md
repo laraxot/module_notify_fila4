@@ -6,7 +6,11 @@ Questo documento analizza il pattern Factory attualmente implementato  per la se
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
+=======
+SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
+>>>>>>> f963d2c0 (.)
 =======
 SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 >>>>>>> f963d2c0 (.)
@@ -85,6 +89,7 @@ public function getProviderAction(): SmsActionInterface
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi svantaggi, soprattutto in progetti complessi come <nome progetto>:
 
 1. **Open/Closed Principle**: Permette di estendere il sistema (aggiungendo nuovi provider) senza modificare il codice esistente, soddisfacendo il principio Open/Closed di SOLID.
@@ -93,12 +98,17 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 =======
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi svantaggi, soprattutto in progetti complessi come SaluteOra:
 
 1. **Open/Closed Principle**: Permette di estendere il sistema (aggiungendo nuovi provider) senza modificare il codice esistente, soddisfacendo il principio Open/Closed di SOLID.
 
 2. **Coerenza nell'Architettura**: Si allinea con l'architettura modulare di SaluteOra, dove ogni componente ha una responsabilità chiara e specifica.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -131,7 +141,11 @@ Il pattern Factory attualmente implementato  per la selezione dei provider SMS �
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di <nome progetto>, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
+=======
+Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di SaluteOra, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
+>>>>>>> f963d2c0 (.)
 =======
 Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di SaluteOra, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
 >>>>>>> f963d2c0 (.)

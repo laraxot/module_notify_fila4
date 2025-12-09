@@ -31,7 +31,11 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
        [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> f963d2c0 (.)
@@ -44,7 +48,11 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
        [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> f963d2c0 (.)

@@ -121,9 +121,15 @@ if(!$this->hasColumn('subject')) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Applicazione a <nome progetto>
 
 Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+=======
+## Applicazione a SaluteOra
+
+Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+>>>>>>> f963d2c0 (.)
 =======
 ## Applicazione a SaluteOra
 
@@ -146,7 +152,11 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
+=======
+grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
+>>>>>>> f963d2c0 (.)
 =======
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
 >>>>>>> f963d2c0 (.)

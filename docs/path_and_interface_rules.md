@@ -18,7 +18,11 @@
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> f963d2c0 (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> f963d2c0 (.)
