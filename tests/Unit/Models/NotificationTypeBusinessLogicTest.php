@@ -28,13 +28,17 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f5f1cb1 (.)
 use Modules\Notify\Models\NotificationType;
 
-describe('NotificationType Business Logic', function () {
-    test('notification type extends eloquent model', function () {
+describe('NotificationType Business Logic', function (): void {
+    test('notification type extends eloquent model', function (): void {
         expect(NotificationType::class)->toBeSubclassOf(Model::class);
     });
 
+<<<<<<< HEAD
     test('notification type has expected fillable fields', function () {
 <<<<<<< HEAD
+=======
+    test('notification type has expected fillable fields', function (): void {
+>>>>>>> 05bc3ad (.)
         $notificationType = new NotificationType;
 =======
         $notificationType = new NotificationType();
@@ -48,8 +52,12 @@ describe('NotificationType Business Logic', function () {
         expect($notificationType->getFillable())->toEqual($expectedFillable);
     });
 
+<<<<<<< HEAD
     test('notification type can store basic information', function () {
 <<<<<<< HEAD
+=======
+    test('notification type can store basic information', function (): void {
+>>>>>>> 05bc3ad (.)
         $notificationType = new NotificationType;
 =======
         $notificationType = new NotificationType();
@@ -63,8 +71,12 @@ describe('NotificationType Business Logic', function () {
         expect($notificationType->template)->toBe('email-verification-template');
     });
 
+<<<<<<< HEAD
     test('notification type model can be instantiated without errors', function () {
 <<<<<<< HEAD
+=======
+    test('notification type model can be instantiated without errors', function (): void {
+>>>>>>> 05bc3ad (.)
         $notificationType = new NotificationType;
 =======
         $notificationType = new NotificationType();
@@ -81,7 +93,7 @@ describe('NotificationType Business Logic', function () {
         expect($notificationType)->toBeInstanceOf(Model::class);
     });
 
-    test('notification type can be queried', function () {
+    test('notification type can be queried', function (): void {
         $query = NotificationType::query();
 
         expect($query)->toBeInstanceOf(Builder::class);

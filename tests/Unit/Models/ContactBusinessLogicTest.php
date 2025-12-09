@@ -5,13 +5,17 @@ declare(strict_types=1);
 use Modules\Notify\Models\BaseModel;
 use Modules\Notify\Models\Contact;
 
-describe('Contact Business Logic', function () {
-    test('contact extends base model', function () {
+describe('Contact Business Logic', function (): void {
+    test('contact extends base model', function (): void {
         expect(Contact::class)->toBeSubclassOf(BaseModel::class);
     });
 
+<<<<<<< HEAD
     test('contact can store polymorphic model relationships', function () {
 <<<<<<< HEAD
+=======
+    test('contact can store polymorphic model relationships', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -23,8 +27,12 @@ describe('Contact Business Logic', function () {
         expect($contact->model_id)->toBe('1');
     });
 
+<<<<<<< HEAD
     test('contact can store contact information with type', function () {
 <<<<<<< HEAD
+=======
+    test('contact can store contact information with type', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -36,8 +44,12 @@ describe('Contact Business Logic', function () {
         expect($contact->value)->toBe('test@example.com');
     });
 
+<<<<<<< HEAD
     test('contact can track sms communication', function () {
 <<<<<<< HEAD
+=======
+    test('contact can track sms communication', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -51,8 +63,12 @@ describe('Contact Business Logic', function () {
         expect($contact->sms_status_txt)->toBe('Success');
     });
 
+<<<<<<< HEAD
     test('contact can track email communication', function () {
 <<<<<<< HEAD
+=======
+    test('contact can track email communication', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -64,8 +80,12 @@ describe('Contact Business Logic', function () {
         expect($contact->mail_sent_at)->toBe('2023-01-01 10:00:00');
     });
 
+<<<<<<< HEAD
     test('contact can store personal information', function () {
 <<<<<<< HEAD
+=======
+    test('contact can store personal information', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -77,8 +97,12 @@ describe('Contact Business Logic', function () {
         expect($contact->last_name)->toBe('Rossi');
     });
 
+<<<<<<< HEAD
     test('contact has verification tracking', function () {
 <<<<<<< HEAD
+=======
+    test('contact has verification tracking', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -90,8 +114,12 @@ describe('Contact Business Logic', function () {
         expect($contact->verified_at)->toBe('2023-01-01 12:00:00');
     });
 
+<<<<<<< HEAD
     test('contact has flexible attribute storage', function () {
 <<<<<<< HEAD
+=======
+    test('contact has flexible attribute storage', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -103,8 +131,12 @@ describe('Contact Business Logic', function () {
         expect($contact->attribute_2)->toBe('value2');
     });
 
+<<<<<<< HEAD
     test('contact can track duplicate count', function () {
 <<<<<<< HEAD
+=======
+    test('contact can track duplicate count', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();
@@ -114,8 +146,12 @@ describe('Contact Business Logic', function () {
         expect($contact->duplicate_count)->toBe(2);
     });
 
+<<<<<<< HEAD
     test('contact has order column for sorting', function () {
 <<<<<<< HEAD
+=======
+    test('contact has order column for sorting', function (): void {
+>>>>>>> 05bc3ad (.)
         $contact = new Contact;
 =======
         $contact = new Contact();

@@ -433,6 +433,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 98d837b9 (.)
     #[Override]
+    /**
+     * @return array<string, mixed>
+     */
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';

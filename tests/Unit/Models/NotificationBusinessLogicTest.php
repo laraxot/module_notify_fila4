@@ -16,13 +16,17 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Notify\Models\Notification;
 >>>>>>> 99ff506 (.)
 
-describe('Notification Business Logic', function () {
-    test('notification extends xot base model', function () {
+describe('Notification Business Logic', function (): void {
+    test('notification extends xot base model', function (): void {
         expect(Notification::class)->toBeSubclassOf(BaseModel::class);
     });
 
+<<<<<<< HEAD
     test('notification can store polymorphic notifiable relationships', function () {
 <<<<<<< HEAD
+=======
+    test('notification can store polymorphic notifiable relationships', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -34,8 +38,12 @@ describe('Notification Business Logic', function () {
         expect($notification->notifiable_id)->toBe(1);
     });
 
+<<<<<<< HEAD
     test('notification has notification type', function () {
 <<<<<<< HEAD
+=======
+    test('notification has notification type', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -45,8 +53,12 @@ describe('Notification Business Logic', function () {
         expect($notification->type)->toBe('App\\Notifications\\OrderConfirmation');
     });
 
+<<<<<<< HEAD
     test('notification can store data payload', function () {
 <<<<<<< HEAD
+=======
+    test('notification can store data payload', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -57,8 +69,12 @@ describe('Notification Business Logic', function () {
         expect($notification->data['title'])->toBe('Test');
     });
 
+<<<<<<< HEAD
     test('notification can track read status', function () {
 <<<<<<< HEAD
+=======
+    test('notification can track read status', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -68,8 +84,12 @@ describe('Notification Business Logic', function () {
         expect($notification->read_at)->toBe('2023-01-01 12:00:00');
     });
 
+<<<<<<< HEAD
     test('notification can track tenant and user', function () {
 <<<<<<< HEAD
+=======
+    test('notification can track tenant and user', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -81,8 +101,12 @@ describe('Notification Business Logic', function () {
         expect($notification->user_id)->toBe(5);
     });
 
+<<<<<<< HEAD
     test('notification can store polymorphic subject relationships', function () {
 <<<<<<< HEAD
+=======
+    test('notification can store polymorphic subject relationships', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -94,8 +118,12 @@ describe('Notification Business Logic', function () {
         expect($notification->subject_id)->toBe(123);
     });
 
+<<<<<<< HEAD
     test('notification can track multiple channels', function () {
 <<<<<<< HEAD
+=======
+    test('notification can track multiple channels', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -107,8 +135,12 @@ describe('Notification Business Logic', function () {
         expect($notification->channels)->toContain('sms');
     });
 
+<<<<<<< HEAD
     test('notification can track status and sent time', function () {
 <<<<<<< HEAD
+=======
+    test('notification can track status and sent time', function (): void {
+>>>>>>> 05bc3ad (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
@@ -120,7 +152,7 @@ describe('Notification Business Logic', function () {
         expect($notification->sent_at)->toBe('2023-01-01 14:00:00');
     });
 
-    test('notification has factory for testing', function () {
+    test('notification has factory for testing', function (): void {
         expect(method_exists(Notification::class, 'factory'))->toBeTrue();
     });
 });

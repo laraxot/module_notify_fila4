@@ -594,8 +594,8 @@ use Modules\Notify\Models\NotificationType;
 =======
 >>>>>>> 116df547 (.)
 
-describe('Notification Management Business Logic', function () {
-    it('can create notification with basic information', function () {
+describe('Notification Management Business Logic', function (): void {
+    it('can create notification with basic information', function (): void {
         $testData = ConfigHelper::getTestData();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -925,7 +925,9 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 116df547 (.)
         $notificationData = [
             'type' => 'email',
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'subject' => $testData['default_subject'],
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'content' => $testData['default_content'],
             'status' => 'pending',
             'priority' => 'normal',
@@ -1146,6 +1148,7 @@ describe('Notification Management Business Logic', function () {
             ->and($notification->type)
             ->toBe('email')
             ->and($notification->subject)
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             ->toBe($testData['default_subject'])
             ->and($notification->status)
             ->toBe('pending');
@@ -1494,17 +1497,20 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'type' => 'email',
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'subject' => $testData['default_subject'],
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'content' => $testData['default_content'],
             'status' => 'pending',
             'priority' => 'normal',
         ]);
     });
 
-    it('can create notification template', function () {
+    it('can create notification template', function (): void {
         $testData = ConfigHelper::getTestData();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1836,6 +1842,7 @@ describe('Notification Management Business Logic', function () {
             'name' => 'Welcome Email Template',
             'type' => 'email',
             'subject' => 'Benvenuto {{user_name}}',
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'content' => $testData['default_welcome_content'],
             'variables' => ['user_name', 'company_name'],
             'is_active' => true,
@@ -2404,6 +2411,7 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'name' => 'Welcome Email Template',
@@ -2413,7 +2421,7 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 
-    it('can create notification type', function () {
+    it('can create notification type', function (): void {
         $typeData = [
             'name' => 'welcome_email',
             'display_name' => 'Email di Benvenuto',
@@ -2984,6 +2992,7 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'name' => 'welcome_email',
@@ -2993,7 +3002,7 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 
-    it('can create contact for notifications', function () {
+    it('can create contact for notifications', function (): void {
         $contactData = [
             'name' => 'Mario Rossi',
             'email' => 'mario.rossi@example.com',
@@ -3569,6 +3578,7 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'name' => 'Mario Rossi',
@@ -3578,33 +3588,39 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 
-    it('can update notification status', function () {
+    it('can update notification status', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $notification = Notification::factory()->create([
             'status' => 'pending',
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $notification->update(['status' => 'sent']);
 
         expect($notification->fresh()->status)->toBe('sent');
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'status' => 'sent',
         ]);
     });
 
-    it('can delete notification', function () {
+    it('can delete notification', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $notification = Notification::factory()->create();
 
         $notificationId = $notification->id;
+        /** @phpstan-ignore-next-line method.nonObject */
         $notification->delete();
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseMissing('notifications', [
             'id' => $notificationId,
         ]);
     });
 
-    it('can create notification with custom data', function () {
+    it('can create notification with custom data', function (): void {
         $customData = [
             'user_id' => 123,
             'appointment_date' => '2024-01-15',
@@ -4183,6 +4199,7 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'type' => 'sms',
@@ -4191,7 +4208,7 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 
-    it('can create notification template with variables', function () {
+    it('can create notification template with variables', function (): void {
         $templateData = [
             'name' => 'Appointment Reminder Template',
             'type' => 'sms',
@@ -4764,6 +4781,7 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'name' => 'Appointment Reminder Template',
@@ -4771,7 +4789,7 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 
-    it('can create notification type with channels', function () {
+    it('can create notification type with channels', function (): void {
         $typeData = [
             'name' => 'appointment_reminder',
             'display_name' => 'Promemoria Appuntamento',
@@ -5343,6 +5361,7 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'name' => 'appointment_reminder',
@@ -5350,7 +5369,7 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 
-    it('can create contact with communication preferences', function () {
+    it('can create contact with communication preferences', function (): void {
         $contactData = [
             'name' => 'Giulia Bianchi',
             'email' => 'giulia.bianchi@example.com',
@@ -5934,15 +5953,17 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'name' => 'Giulia Bianchi',
             'email' => 'giulia.bianchi@example.com',
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'preferences' => json_encode($contactData['preferences']),
         ]);
     });
 
-    it('can create notification with priority levels', function () {
+    it('can create notification with priority levels', function (): void {
         $priorities = ['low', 'normal', 'high', 'urgent'];
 
         foreach ($priorities as $priority) {
@@ -5962,6 +5983,7 @@ describe('Notification Management Business Logic', function () {
 
             expect($notification->priority)->toBe($priority);
 
+            /** @phpstan-ignore-next-line property.notFound */
             $this->assertDatabaseHas('notifications', [
                 'id' => $notification->id,
                 'priority' => $priority,
@@ -5969,7 +5991,7 @@ describe('Notification Management Business Logic', function () {
         }
     });
 
-    it('can create notification with different types', function () {
+    it('can create notification with different types', function (): void {
         $types = ['email', 'sms', 'push', 'database', 'broadcast'];
 
         foreach ($types as $type) {
@@ -5985,6 +6007,7 @@ describe('Notification Management Business Logic', function () {
 
             expect($notification->type)->toBe($type);
 
+            /** @phpstan-ignore-next-line property.notFound */
             $this->assertDatabaseHas('notifications', [
                 'id' => $notification->id,
                 'type' => $type,
@@ -5992,7 +6015,7 @@ describe('Notification Management Business Logic', function () {
         }
     });
 
-    it('can create notification template with multiple languages', function () {
+    it('can create notification template with multiple languages', function (): void {
         $templateData = [
             'name' => 'Multi-language Welcome Template',
             'type' => 'email',
@@ -6579,14 +6602,16 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
             'name' => 'Multi-language Welcome Template',
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'translations' => json_encode($templateData['translations']),
         ]);
     });
 
-    it('can create notification type with delivery rules', function () {
+    it('can create notification type with delivery rules', function (): void {
         $typeData = [
             'name' => 'marketing_campaign',
             'display_name' => 'Campagna Marketing',
@@ -7169,14 +7194,16 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
             'name' => 'marketing_campaign',
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'delivery_rules' => json_encode($typeData['delivery_rules']),
         ]);
     });
 
-    it('can create contact with tags and categories', function () {
+    it('can create contact with tags and categories', function (): void {
         $contactData = [
             'name' => 'Marco Verdi',
             'email' => 'marco.verdi@example.com',
@@ -7765,17 +7792,21 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
             'name' => 'Marco Verdi',
             'email' => 'marco.verdi@example.com',
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'tags' => json_encode($contactData['tags']),
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'categories' => json_encode($contactData['categories']),
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'metadata' => json_encode($contactData['metadata']),
         ]);
     });
 
-    it('can create notification with scheduling', function () {
+    it('can create notification with scheduling', function (): void {
         $scheduledAt = now()->addHour();
         $expiresAt = now()->addDays(7);
 
@@ -8005,8 +8036,10 @@ describe('Notification Management Business Logic', function () {
             ->and($notification->status)
             ->toBe('scheduled')
             ->and($notification->scheduled_at->toDateTimeString())
+            /** @phpstan-ignore-next-line method.nonObject */
             ->toBe($scheduledAt->toDateTimeString())
             ->and($notification->expires_at->toDateTimeString())
+            /** @phpstan-ignore-next-line method.nonObject */
             ->toBe($expiresAt->toDateTimeString())
             ->and($notification->timezone)
             ->toBe('Europe/Rome');
@@ -8356,6 +8389,7 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
             'status' => 'scheduled',
@@ -8363,7 +8397,7 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 
-    it('can create notification with tracking options', function () {
+    it('can create notification with tracking options', function (): void {
         $notificationData = [
             'type' => 'email',
             'subject' => 'Trackable Notification Test',
@@ -8947,13 +8981,15 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'tracking' => json_encode($notificationData['tracking']),
         ]);
     });
 
-    it('can create notification with custom headers', function () {
+    it('can create notification with custom headers', function (): void {
         $notificationData = [
             'type' => 'email',
             'subject' => 'Custom Headers Notification Test',
@@ -9531,13 +9567,15 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'custom_headers' => json_encode($notificationData['custom_headers']),
         ]);
     });
 
-    it('can create notification with attachments', function () {
+    it('can create notification with attachments', function (): void {
         $notificationData = [
             'type' => 'email',
             'subject' => 'Attachment Notification Test',
@@ -10123,13 +10161,15 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'attachments' => json_encode($notificationData['attachments']),
         ]);
     });
 
-    it('can create notification with recipient groups', function () {
+    it('can create notification with recipient groups', function (): void {
         $notificationData = [
             'type' => 'email',
             'subject' => 'Group Notification Test',
@@ -10720,9 +10760,12 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'recipient_groups' => json_encode($notificationData['recipient_groups']),
+            /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
             'group_filters' => json_encode($notificationData['group_filters']),
         ]);
     });

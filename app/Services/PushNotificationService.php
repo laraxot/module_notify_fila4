@@ -2,7 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 namespace Modules\Notify\Services;
+=======
+namespace Modules\Notify\App\Services;
+>>>>>>> 05bc3ad (.)
 
 use Exception;
 use DateTime;
@@ -533,3 +537,9 @@ class PushNotificationService
         ];
     }
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 05bc3ad (.)
