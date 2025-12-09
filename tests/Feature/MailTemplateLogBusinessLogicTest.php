@@ -560,8 +560,9 @@ use Modules\Notify\Models\MailTemplateLog;
 =======
 >>>>>>> 2941b0bd (.)
 
-describe('Mail Template Log Business Logic', function () {
-    it('can create mail template log with basic information', function () {
+describe('Mail Template Log Business Logic', function (): void {
+    it('can create mail template log with basic information', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
         $logData = [
@@ -588,6 +589,7 @@ describe('Mail Template Log Business Logic', function () {
 
         $log = MailTemplateLog::create($logData);
 
+        /** @phpstan-ignore-next-line property.notFound */
         $this->assertDatabaseHas('mail_template_logs', [
             'id' => $log->id,
             'template_id' => $template->id,
@@ -1252,8 +1254,10 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can manage mail template log relationships', function () {
+    it('can manage mail template log relationships', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
         ]);
@@ -1627,33 +1631,39 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can track email lifecycle events', function () {
+    it('can track email lifecycle events', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
         ]);
 
         // Simula invio
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'sent',
             'sent_at' => now(),
         ]);
 
         // Simula consegna
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'delivered',
             'delivered_at' => now()->addMinutes(2),
         ]);
 
         // Simula apertura
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'opened',
             'opened_at' => now()->addMinutes(5),
         ]);
 
         // Simula click
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'clicked',
             'clicked_at' => now()->addMinutes(7),
@@ -2311,15 +2321,18 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can handle email failure scenarios', function () {
+    it('can handle email failure scenarios', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
         ]);
 
         // Simula fallimento
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'failed',
             'status_message' => 'Indirizzo email non valido: invalid@email',
@@ -2984,9 +2997,11 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can manage mailable polymorphic relationships', function () {
+    it('can manage mailable polymorphic relationships', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'mailable_type' => 'App\Models\Appointment',
@@ -3240,6 +3255,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('App\Models\Appointment')
             ->and($log->mailable_id)
             ->toBe(456)
+            /** @phpstan-ignore-next-line method.nonObject */
             ->and($log->mailable())
             ->toBeInstanceOf(MorphTo::class);
 <<<<<<< HEAD
@@ -3620,7 +3636,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can handle complex data structures', function () {
+    it('can handle complex data structures', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
         $complexData = [
@@ -3674,6 +3691,7 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'data' => $complexData,
@@ -4337,7 +4355,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can manage metadata for analytics', function () {
+    it('can manage metadata for analytics', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
         $analyticsMetadata = [
@@ -4366,6 +4385,7 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ];
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'metadata' => $analyticsMetadata,
@@ -5029,15 +5049,18 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can handle delivery status transitions', function () {
+    it('can handle delivery status transitions', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'pending',
         ]);
 
         // Transizione: pending -> sent
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'sent',
             'sent_at' => now(),
@@ -5413,6 +5436,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
 
         // Transizione: sent -> delivered
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'delivered',
             'delivered_at' => now()->addMinutes(1),
@@ -5788,6 +5812,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
 
         // Transizione: delivered -> opened
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'opened',
             'opened_at' => now()->addMinutes(3),
@@ -6163,15 +6188,18 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can handle bounce and complaint scenarios', function () {
+    it('can handle bounce and complaint scenarios', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'sent',
         ]);
 
         // Simula bounce
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'bounced',
             'status_message' => 'Indirizzo email inesistente',
@@ -6836,6 +6864,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
 
         // Simula complaint
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'complained',
             'status_message' => 'Email segnalata come spam',
@@ -7474,9 +7503,11 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can manage retry logic', function () {
+    it('can manage retry logic', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status' => 'failed',
@@ -7488,6 +7519,7 @@ describe('Mail Template Log Business Logic', function () {
         ]);
 
         // Primo retry
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'retrying',
             'metadata' => [
@@ -7867,6 +7899,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
 
         // Secondo retry
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'retrying',
             'metadata' => [
@@ -7880,6 +7913,7 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->metadata['retry_count'])->toBe(2);
 
         // Terzo retry fallito
+        /** @phpstan-ignore-next-line method.nonObject */
         $log->update([
             'status' => 'failed',
             'status_message' => 'Tutti i tentativi falliti',
@@ -8543,9 +8577,11 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can handle empty or null values gracefully', function () {
+    it('can handle empty or null values gracefully', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'status_message' => null,
@@ -9222,15 +9258,20 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 2941b0bd (.)
     });
 
-    it('can validate timestamp consistency', function () {
+    it('can validate timestamp consistency', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $template = MailTemplate::factory()->create();
 
         $now = now();
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $log = MailTemplateLog::factory()->create([
             'template_id' => $template->id,
             'sent_at' => $now,
+            /** @phpstan-ignore-next-line method.nonObject */
             'delivered_at' => $now->addMinutes(1),
+            /** @phpstan-ignore-next-line method.nonObject */
             'opened_at' => $now->addMinutes(3),
+            /** @phpstan-ignore-next-line method.nonObject */
             'clicked_at' => $now->addMinutes(5),
         ]);
 

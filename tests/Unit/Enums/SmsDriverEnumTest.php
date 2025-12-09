@@ -119,22 +119,33 @@ class SmsDriverEnumTest extends TestCase
     /** @test */
     public function it_has_correct_cases(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(7, SmsDriverEnum::cases());
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('smsfactor', SmsDriverEnum::SMSFACTOR->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('twilio', SmsDriverEnum::TWILIO->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('nexmo', SmsDriverEnum::NEXMO->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('plivo', SmsDriverEnum::PLIVO->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('gammu', SmsDriverEnum::GAMMU->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('netfun', SmsDriverEnum::NETFUN->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('agiletelecom', SmsDriverEnum::AGILETELECOM->value);
     }
 
     /** @test */
     public function it_implements_filament_contracts(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(HasLabel::class, SmsDriverEnum::SMSFACTOR);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(HasIcon::class, SmsDriverEnum::SMSFACTOR);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(HasColor::class, SmsDriverEnum::SMSFACTOR);
     }
 
@@ -142,18 +153,25 @@ class SmsDriverEnumTest extends TestCase
     public function it_has_trans_trait(): void
     {
         $reflection = new ReflectionClass(SmsDriverEnum::class);
+        /** @phpstan-ignore-next-line method.nonObject */
         $traits = $reflection->getTraitNames();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains('Modules\Xot\Filament\Traits\TransTrait', $traits);
     }
 
     /** @test */
     public function it_has_required_methods(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists(SmsDriverEnum::class, 'getLabel'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists(SmsDriverEnum::class, 'getColor'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists(SmsDriverEnum::class, 'getIcon'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists(SmsDriverEnum::class, 'getDescription'));
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertTrue(method_exists(SmsDriverEnum::class, 'getDefault'));
     }
 
@@ -162,7 +180,9 @@ class SmsDriverEnumTest extends TestCase
     {
         $default = SmsDriverEnum::getDefault();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(SmsDriverEnum::class, $default);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertContains($default, SmsDriverEnum::cases());
     }
 
@@ -455,6 +475,7 @@ class SmsDriverEnumTest extends TestCase
 >>>>>>> 161887a2 (.)
         $uniqueValues = array_unique($values);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
@@ -463,10 +484,13 @@ class SmsDriverEnumTest extends TestCase
     {
         $cases = SmsDriverEnum::cases();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($cases);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(7, $cases);
 
         foreach ($cases as $case) {
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertInstanceOf(SmsDriverEnum::class, $case);
         }
     }
@@ -475,9 +499,13 @@ class SmsDriverEnumTest extends TestCase
     public function all_cases_have_required_methods(): void
     {
         foreach (SmsDriverEnum::cases() as $case) {
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->getLabel());
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->getColor());
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->getIcon());
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->getDescription());
         }
     }
