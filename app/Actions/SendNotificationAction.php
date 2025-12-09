@@ -197,6 +197,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -311,10 +312,13 @@ class SendNotificationAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
         array $options = [],
     ): bool {
         // Recupera il template
         $template = NotificationTemplate::where('code', $templateCode)->where('is_active', true)->first();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,6 +391,8 @@ class SendNotificationAction
 =======
 >>>>>>> e0d9c9be (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
         array $options = []
     ): bool {
         // Recupera il template
@@ -394,6 +400,7 @@ class SendNotificationAction
             ->where('is_active', true)
             ->first();
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +457,8 @@ class SendNotificationAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 
 <<<<<<< HEAD
         if (! $template) {
@@ -784,6 +793,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
@@ -834,12 +844,18 @@ class SendNotificationAction
     {
 =======
 >>>>>>> 8e5817bc (.)
+=======
+    protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
+    {
+=======
+>>>>>>> 2fc60436 (.)
     protected function sendViaChannel(
         Model $recipient,
         string $channel,
         array $compiled,
         array $options
     ): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1100,6 +1116,9 @@ class SendNotificationAction
     protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
     {
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
         switch ($channel) {
             case 'mail':
                 $this->sendMail($recipient, $compiled, $options);
@@ -1954,7 +1973,11 @@ class SendNotificationAction
                 ['mail'],
                 array_merge($options, [
                     'text_view' => $compiled['body_text'],
+<<<<<<< HEAD
                 ]),
+=======
+                ])
+>>>>>>> b19cd40 (.)
             ));
         } else {
             // Fallback per modelli che non implementano Notifiable
@@ -1964,9 +1987,19 @@ class SendNotificationAction
                 ['mail'],
                 array_merge($options, [
                     'text_view' => $compiled['body_text'],
+<<<<<<< HEAD
                 ]),
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+                ])
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
             ));
         }
     }
@@ -2009,6 +2042,7 @@ class SendNotificationAction
             $compiled['body_text'] ?? strip_tags($compiled['body_html']),
 >>>>>>> 75179b8 (.)
             ['database'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $notificationOptions,
@@ -2308,6 +2342,12 @@ class SendNotificationAction
 =======
             $options,
 >>>>>>> 985c7bda (.)
+=======
+            $options,
+=======
+            $options
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
         ));
     }
 
@@ -2963,8 +3003,23 @@ class SendNotificationAction
             $message = mb_substr($message, 0, 317) . '...';
         }
 
+<<<<<<< HEAD
         Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+        Notification::send($recipient, new GenericNotification(
+            $compiled['subject'],
+            $message,
+            ['sms'],
+            $options
+        ));
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
     }
 }

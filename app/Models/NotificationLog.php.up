@@ -36,7 +36,11 @@ use Modules\Xot\Traits\Updater;
  */
 class NotificationLog extends BaseModel
 {
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
+=======
+    use HasFactory;
+>>>>>>> 82ae73b (.)
     use Updater;
 
     public const STATUS_PENDING = 'pending';
@@ -50,7 +54,11 @@ class NotificationLog extends BaseModel
     /** @var string */
     protected $table = 'notification_logs';
 
+<<<<<<< HEAD
     /** @var list<string> */
+=======
+    /** @var array<int, string> */
+>>>>>>> 82ae73b (.)
     protected $fillable = [
         'template_id',
         'notifiable_type',
@@ -86,11 +94,22 @@ class NotificationLog extends BaseModel
 
     public function template(): BelongsTo
     {
+<<<<<<< HEAD
         // Prima cerca il MailTemplate, altrimenti NotificationTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
         return $mailTemplate
             ? $this->belongsTo(MailTemplate::class, 'template_id')
             : $this->belongsTo(NotificationTemplate::class, 'template_id');
+=======
+        // Prova prima con MailTemplate
+        $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
+        if ($mailTemplate) {
+            return $this->belongsTo(MailTemplate::class, 'template_id');
+        }
+
+        // Se non trova MailTemplate, prova con NotificationTemplate
+        return $this->belongsTo(NotificationTemplate::class, 'template_id');
+>>>>>>> 82ae73b (.)
     }
 
     public function scopeWithStatus($query, string $status)

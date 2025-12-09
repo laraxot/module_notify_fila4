@@ -146,6 +146,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -236,6 +237,8 @@ trait HasNotificationTracking
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
@@ -501,8 +504,21 @@ trait HasNotificationTracking
                         ! Str::startsWith($url, ['http://', 'https://'])
 =======
                         !Str::startsWith($url, ['http://', 'https://'])
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
                 ) {
                     return $matches[0];
                 }
@@ -514,6 +530,7 @@ trait HasNotificationTracking
 
                 return str_replace($url, $trackingUrl, $matches[0]);
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,10 +582,13 @@ trait HasNotificationTracking
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
             $html,
 =======
             $html
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +729,8 @@ trait HasNotificationTracking
 =======
             $html,
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
         );
     }
 
@@ -891,6 +913,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -911,10 +934,13 @@ trait HasNotificationTracking
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1055,3 +1081,5 @@ trait HasNotificationTracking
 =======
 }
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)

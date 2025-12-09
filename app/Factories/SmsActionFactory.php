@@ -124,6 +124,7 @@ final class SmsActionFactory
      * @return SmsActionContract Azione SMS corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
+<<<<<<< HEAD
     public function create(null|string $driver = null): SmsActionContract
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -133,6 +134,7 @@ final class SmsActionFactory
 >>>>>>> c8b1c8bf (.)
     {
         $driver ??= Config::get('sms.default', 'netfun');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public function create(?string $driver = null): SmsActionContract
@@ -383,11 +385,19 @@ final class SmsActionFactory
     {
         $driver ??= Config::get('sms.default', 'netfun');
 >>>>>>> 985c7bda (.)
+=======
+=======
+    public function create(?string $driver = null): SmsActionContract
+    {
+        $driver = $driver ?? Config::get('sms.default', 'netfun');
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName(is_string($driver) ? $driver : '');
 
         // Avvisa per driver non standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -505,6 +515,8 @@ final class SmsActionFactory
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
         if (! in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: '.(is_string($driver) ? $driver : ''));
 >>>>>>> f1c9518b (.)
@@ -546,6 +558,7 @@ final class SmsActionFactory
         if (! class_exists($className)) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -565,6 +578,10 @@ final class SmsActionFactory
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
         }
@@ -604,6 +621,7 @@ final class SmsActionFactory
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -711,6 +729,8 @@ final class SmsActionFactory
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
         if (!in_array($normalizedDriver, $this->supportedDrivers)) {
             Log::warning("Attempting to use non-standard SMS driver: " . (is_string($driver) ? $driver : ''));
         }
@@ -727,6 +747,7 @@ final class SmsActionFactory
             ]);
 
             throw new Exception("Unsupported SMS driver: " . (is_string($driver) ? $driver : '') . ". Class {$className} not found.");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -830,6 +851,9 @@ final class SmsActionFactory
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
         }
 
         $instance = app($className);

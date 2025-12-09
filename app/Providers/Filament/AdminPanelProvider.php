@@ -77,6 +77,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -312,10 +313,22 @@ use Override;
 >>>>>>> 2941b0bd (.)
 =======
 =======
+>>>>>>> 2fc60436 (.)
+=======
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+=======
+use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
 =======
@@ -786,10 +799,14 @@ class AdminPanelProvider extends XotBasePanelProvider
     protected string $module = 'Notify';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
@@ -836,6 +853,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 82ae73b (.)
     #[Override]
     public function panel(Panel $panel): Panel
     {
@@ -898,6 +917,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 =======
@@ -939,9 +959,12 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
     public function panel(Panel $panel): Panel
     { 
         $panel->plugins([
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,6 +1006,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
             SpatieLaravelTranslatablePlugin::make(),
 >>>>>>> 2effe245 (.)
+=======
+            SpatieTranslatablePlugin::make(),
+>>>>>>> 2fc60436 (.)
         ]);
         if (! XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
@@ -1000,6 +1026,7 @@ class AdminPanelProvider extends XotBasePanelProvider
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1091,3 +1118,6 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)

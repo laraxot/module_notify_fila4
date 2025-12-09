@@ -30,6 +30,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -73,6 +74,8 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 >>>>>>> 3f537838 (.)
 =======
 =======
+=======
+>>>>>>> 2fc60436 (.)
 use Override;
 >>>>>>> c8b1c8bf (.)
 use Filament\Infolists\Components\TextEntry;
@@ -94,8 +97,12 @@ use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 =======
 =======
+=======
+>>>>>>> 82ae73b (.)
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 >>>>>>> 75179b8 (.)
@@ -123,6 +130,7 @@ class ViewNotification extends XotBaseViewRecord
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +219,8 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 2fc60436 (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -237,6 +247,27 @@ class ViewNotification extends XotBaseViewRecord
                 TextEntry::make('created_at')->dateTime(),
                 TextEntry::make('updated_at')->dateTime(),
             ]),
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+     */
+    protected function getInfolistSchema(): array
+    {
+        return [
+            Section::make()
+                ->schema([
+                    TextEntry::make('id'),
+                    TextEntry::make('type'),
+                    TextEntry::make('notifiable_type'),
+                    TextEntry::make('notifiable_id'),
+                    TextEntry::make('data'),
+                    TextEntry::make('read_at')
+                        ->dateTime(),
+                    TextEntry::make('created_at')
+                        ->dateTime(),
+                    TextEntry::make('updated_at')
+                        ->dateTime(),
+                ])
+>>>>>>> b19cd40 (.)
         ];
     }
 }

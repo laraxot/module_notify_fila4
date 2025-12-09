@@ -19,6 +19,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -81,6 +82,10 @@ use Override;
 >>>>>>> d45a0226 (.)
 =======
 =======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
 use Override;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -118,6 +123,7 @@ use Override;
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,11 +208,14 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2fc60436 (.)
+=======
 use Illuminate\Support\Arr;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -313,6 +322,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -322,6 +334,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,6 +708,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     #[\Override]
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2fc60436 (.)
     public function boot(): void
     {
         parent::boot();
@@ -704,13 +719,24 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> fbed41ac (.)
 =======
 =======
+=======
+>>>>>>> 82ae73b (.)
     #[Override]
+=======
+>>>>>>> b19cd40 (.)
     public function boot(): void
     {
         parent::boot();
         //if (! app()->environment('production')) {
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 
@@ -721,6 +747,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,6 +835,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
             $mail=TenantService::config('mail');
             Assert::isArray($mail);
             $fallback_to=Arr::get($mail,'fallback_to',null);
@@ -815,6 +845,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
                 Mail::alwaysTo($fallback_to);
             }
        // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -928,5 +959,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     }
 }

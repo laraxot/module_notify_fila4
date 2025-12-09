@@ -86,6 +86,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -182,14 +183,19 @@ class EmailDataNotification extends Notification
 >>>>>>> 985c7bda (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
 =======
+=======
+>>>>>>> 2fc60436 (.)
      * @param  object  $_notifiable  The entity to be notified (not used in this method)
 =======
+=======
+>>>>>>> 82ae73b (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
      * @return array<string>
      */
     public function via(object $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,10 +282,14 @@ class EmailDataNotification extends Notification
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
      * @param object $notifiable The entity to be notified
      * @return array<string>
      */
     public function via(object $notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +407,9 @@ class EmailDataNotification extends Notification
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     {
         return ['mail'];
     }
@@ -861,12 +874,17 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
 
         if (!empty($this->emailData->body_html)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
@@ -960,6 +978,15 @@ class EmailDataNotification extends Notification
 >>>>>>> 985c7bda (.)
             $mailMessage->view('notify::emails.template', [
 =======
+=======
+=======
+        $mailMessage = (new MailMessage())
+            ->subject($this->emailData->subject)
+            ->line($this->emailData->body);
+
+        if (! empty($this->emailData->body_html)) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
             $mailMessage->view('notify::emails.template', [
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -967,6 +994,7 @@ class EmailDataNotification extends Notification
             ]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1173,10 +1201,17 @@ class EmailDataNotification extends Notification
 >>>>>>> 985c7bda (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 =======
+=======
+>>>>>>> 2fc60436 (.)
         if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
             $mailMessage = $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 =======
+=======
+>>>>>>> 82ae73b (.)
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+=======
+        if (! empty($this->emailData->from_email) && ! empty($this->emailData->from)) {
+>>>>>>> b19cd40 (.)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)

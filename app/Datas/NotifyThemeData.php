@@ -42,6 +42,7 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -99,6 +100,8 @@ class NotifyThemeData extends Data
 =======
 >>>>>>> 207ac35e (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
     public ?string $from_email = null; // from address
 
     public ?string $from = null; // from name
@@ -374,7 +377,20 @@ class NotifyThemeData extends Data
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+=======
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
 
     public string $subject;
 

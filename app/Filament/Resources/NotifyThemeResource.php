@@ -38,6 +38,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -236,6 +237,11 @@ use Override;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+use Override;
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -262,6 +268,7 @@ use Override;
 
 class NotifyThemeResource extends XotBaseResource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,8 +384,12 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
     protected static ?string $model = NotifyTheme::class;
 =======
+=======
+>>>>>>> 82ae73b (.)
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -670,6 +681,7 @@ class NotifyThemeResource extends XotBaseResource
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     protected static ?string $model = NotifyTheme::class;
@@ -765,6 +777,31 @@ class NotifyThemeResource extends XotBaseResource
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b8 (.)
+=======
+=======
+    protected static ?string $model = NotifyTheme::class;
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'lang' => Select::make('lang')
+                ->options(function (): array {
+                    return self::fieldOptions('lang');
+                }),
+            'type' => Select::make('type')
+                ->options(function (): array {
+                    return self::fieldOptions('type');
+                }),
+            'post_type' => Select::make('post_type')
+                ->options(function (): array {
+                    return self::fieldOptions('post_type');
+                }),
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -787,6 +824,7 @@ class NotifyThemeResource extends XotBaseResource
                     'widgets' => 'widgets',
                 ])
                 ->default('empty'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -908,11 +946,14 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -999,6 +1040,9 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
             'body' => Textarea::make('body')
                 ->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')
@@ -1008,6 +1052,7 @@ class NotifyThemeResource extends XotBaseResource
 
    
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1126,6 +1171,9 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

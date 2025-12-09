@@ -6,6 +6,7 @@ namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +73,9 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> cb5f23b0 (.)
 =======
 >>>>>>> 7d765981 (.)
+=======
+use Modules\Notify\Models\NotificationLog;
+>>>>>>> 2fc60436 (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -109,6 +113,7 @@ class CleanupNotificationLogsCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
         $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
 =======
@@ -147,6 +152,10 @@ class CleanupNotificationLogsCommand extends Command
         $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
         $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
 >>>>>>> 3f537838 (.)
+=======
+        $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
+        $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
+>>>>>>> 2fc60436 (.)
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
@@ -155,6 +164,7 @@ class CleanupNotificationLogsCommand extends Command
 
         // Se configurato, mantiene i log delle notifiche fallite
         if ($keepFailed) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,6 +230,14 @@ class CleanupNotificationLogsCommand extends Command
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
 >>>>>>> e6c7fb3 (.)
+=======
+            $query->where('status', '!=', NotificationLog::STATUS_FAILED);
+        }
+
+        $totalDeleted = 0;
+        $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
+            $count = $logs->count(); /** @phpstan-ignore method.nonObject */
+>>>>>>> 2fc60436 (.)
             $logs->each->delete();
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");

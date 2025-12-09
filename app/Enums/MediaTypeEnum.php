@@ -37,6 +37,7 @@ namespace Modules\Notify\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -57,10 +58,13 @@ namespace Modules\Notify\Enums;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +205,8 @@ namespace Modules\Notify\Enums;
 =======
  *
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
  * Questo enum centralizza la gestione dei tipi di media disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -241,6 +247,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -331,10 +338,13 @@ enum MediaTypeEnum: string
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 
     /**
      * Restituisce le opzioni per il componente Select di Filament
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,10 +431,14 @@ enum MediaTypeEnum: string
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
     
     /**
      * Restituisce le opzioni per il componente Select di Filament
      * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -542,6 +556,9 @@ enum MediaTypeEnum: string
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
      * @return array<string, string>
      */
     public static function options(): array
@@ -584,6 +601,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -674,10 +692,13 @@ enum MediaTypeEnum: string
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
 
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -764,10 +785,14 @@ enum MediaTypeEnum: string
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
     
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
      * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -885,6 +910,9 @@ enum MediaTypeEnum: string
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
      * @return array<string, string>
      */
     public static function labels(): array
@@ -896,6 +924,7 @@ enum MediaTypeEnum: string
             self::AUDIO->value => __('notify::whatsapp.media_types.audio'),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1336,12 +1365,15 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 2fc60436 (.)
 
     /**
      * Verifica se un tipo di media è supportato
 <<<<<<< HEAD
 =======
      *
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> fbed41ac (.)
@@ -1349,6 +1381,21 @@ enum MediaTypeEnum: string
     public static function isSupported(string $type): bool
     {
 >>>>>>> 985c7bda (.)
+=======
+=======
+    
+    /**
+     * Verifica se un tipo di media è supportato
+     * 
+>>>>>>> b19cd40 (.)
+     * @param string $type
+     * @return bool
+>>>>>>> 75179b8 (.)
+     */
+    public static function isSupported(string $type): bool
+    {
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
         return in_array($type, array_column(self::cases(), 'value'), strict: true);
     }
 
@@ -1553,6 +1600,14 @@ enum MediaTypeEnum: string
 =======
 =======
      *
+=======
+        return in_array($type, array_column(self::cases(), 'value'));
+    }
+    
+    /**
+     * Restituisce il tipo di media predefinito
+     * 
+>>>>>>> b19cd40 (.)
      * @return self
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
