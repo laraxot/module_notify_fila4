@@ -589,7 +589,7 @@ class NotifyThemeResource extends XotBaseResource
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> b93ef594b4 (.)
 
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [

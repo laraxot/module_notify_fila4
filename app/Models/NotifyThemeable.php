@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 use Illuminate\Support\Carbon;
@@ -12,6 +13,9 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 6a92a74 (.)
 
 /**
  * Modules\Notify\Models\NotifyThemeable.
@@ -30,6 +34,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 =======
@@ -125,6 +130,8 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 >>>>>>> d2c515f (.)
 =======
+=======
+>>>>>>> 6a92a74 (.)
  * @mixin IdeHelperNotifyThemeable
 >>>>>>> ab15d0e (.)
  * @mixin \Eloquent

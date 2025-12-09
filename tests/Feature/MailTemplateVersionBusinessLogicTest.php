@@ -1548,7 +1548,6 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 98d837b9 (.)
         $textTemplate = '
         CONFERMA APPUNTAMENTO
-        =====================
         
         Gentile {{patient_name}},
         

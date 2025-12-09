@@ -1495,6 +1495,7 @@ final class SendVonageWhatsAppAction
         if ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
 >>>>>>> 99ff506 (.)
@@ -1509,6 +1510,9 @@ final class SendVonageWhatsAppAction
 =======
             $mediaUrl = $whatsAppData->media[0];
 >>>>>>> ab15d0e (.)
+=======
+            $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
+>>>>>>> 6a92a74 (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 
 <<<<<<< HEAD
