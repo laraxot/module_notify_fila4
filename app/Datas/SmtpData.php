@@ -6,6 +6,10 @@ namespace Modules\Notify\Datas;
 
 use Exception;
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
+=======
+use Modules\Tenant\Services\TenantService;
+>>>>>>> 8bc2fc9f (first)
 use Spatie\LaravelData\Data;
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\Transport\Smtp\EsmtpTransport;
@@ -1399,8 +1403,14 @@ class SmtpData extends Data
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
         }
+<<<<<<< HEAD
 
         return new Mailer($transport);
+=======
+        $mailer = new Mailer($transport);
+
+        return $mailer;
+>>>>>>> 8bc2fc9f (first)
     }
 
     public function send(EmailData $emailData): void
