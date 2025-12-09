@@ -81,6 +81,10 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (! is_string($token)) {
+>>>>>>> 98d837b9 (.)
 =======
         if (! is_string($token)) {
 >>>>>>> f2e64178 (.)
@@ -332,6 +336,7 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -441,6 +446,11 @@ class NetfunSendAction
 =======
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
+=======
+=======
+        if (!is_string($token)) {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -658,23 +668,7 @@ class NetfunSendAction
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
         }
 
-<<<<<<< HEAD
         if (!Str::startsWith($smsData->to, '+')) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!Str::startsWith($smsData->to, '+')) {
-=======
-        if (! Str::startsWith($smsData->to, '+')) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!Str::startsWith($smsData->to, '+')) {
->>>>>>> b93ef594b4 (.)
-=======
-        if (! Str::startsWith($smsData->to, '+')) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             $smsData->to = '+39' . $smsData->to;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,6 +720,7 @@ class NetfunSendAction
             'sender' => $smsData->from,
             'text_template' => $smsData->body, // .'  '.rand(1, 100),
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -923,11 +918,14 @@ class NetfunSendAction
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
              * 'delivery_callback' => 'https://www.google.com?code={{code}}',
              * 'default_placeholders' => [
              * 'code' => '0000',
              * ],
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1254,6 +1252,8 @@ class NetfunSendAction
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
             'async' => true,
             // 'max_sms_length' => 1,
             'utf8_enabled' => true,
@@ -1261,6 +1261,7 @@ class NetfunSendAction
                 [
                     'number' => $smsData->to,
                     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1458,12 +1459,15 @@ class NetfunSendAction
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
                      * 'placeholders' => [
                      * 'fullName' => 'Santi',
                      * 'body' => 'Ciao, hai vinto il premio',
                      * 'code' => '1234',
                      * ],
                      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1791,6 +1795,8 @@ class NetfunSendAction
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
                 ],
             ],
         ];
@@ -1801,6 +1807,7 @@ class NetfunSendAction
         try {
             $response = $client->post($endpoint, ['json' => $body]);
         } catch (ClientException $clientException) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1972,6 +1979,8 @@ class NetfunSendAction
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
             throw new Exception(
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2026,10 +2035,6 @@ class NetfunSendAction
                 $clientException->getCode(),
                 $clientException,
             );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
         }
 
         /*
@@ -2039,6 +2044,7 @@ class NetfunSendAction
          * echo '<pre>'.var_export($response->getStatusCode(), true).'</pre>';
          * echo '<pre>'.var_export($response->getBody()->getContents(), true).'</pre>';
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2378,6 +2384,8 @@ class NetfunSendAction
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
 
         $this->vars['status_code'] = $response->getStatusCode();
         $this->vars['status_txt'] = $response->getBody()->getContents();

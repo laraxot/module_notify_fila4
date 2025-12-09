@@ -4,31 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models\Policies;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Modules\User\Models\Policies\UserBasePolicy;
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-abstract class NotifyBasePolicy extends UserBasePolicy
-{
-}
-=======
-abstract class NotifyBasePolicy extends UserBasePolicy {}
->>>>>>> a12f125f4a (.)
-=======
-abstract class NotifyBasePolicy extends UserBasePolicy
-{
-}
->>>>>>> b93ef594b4 (.)
-=======
-use Illuminate\Support\Str;
-use Modules\Xot\Datas\XotData;
-use Modules\User\Models\Permission;
-use Modules\Xot\Contracts\UserContract;
-use Illuminate\Auth\Access\HandlesAuthorization;
->>>>>>> d284d65 (.)
 use Modules\User\Models\Policies\UserBasePolicy;
 
 <<<<<<< HEAD
@@ -128,8 +103,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 =======
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
-<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +218,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 }
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 98d837b9 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f2e64178 (.)
 =======
@@ -375,6 +352,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
@@ -478,3 +456,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
