@@ -84,7 +84,23 @@ class ConfigHelper
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
             $placeholder = '{{' . $variable . '}}';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $placeholder = '{{' . $variable . '}}';
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> a12f125f4a (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> b93ef594b4 (.)
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 
