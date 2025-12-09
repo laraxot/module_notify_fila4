@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -127,6 +128,8 @@
 >>>>>>> cb5f23b0 (.)
 =======
 >>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
 =======
 <<<<<<< HEAD
 =======
@@ -555,12 +558,20 @@
 =======
 =======
 >>>>>>> 5d16a4d (.)
+<<<<<<< HEAD
 >>>>>>> f81a620f (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> a7fea39 (.)
+>>>>>>> 06e3078e (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,6 +930,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f81a620f (.)
 =======
+>>>>>>> 06e3078e (.)
+=======
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 3962ad4 (.)
@@ -957,7 +970,16 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 5d16a4d (.)
+<<<<<<< HEAD
 >>>>>>> f81a620f (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> a7fea39 (.)
+>>>>>>> 06e3078e (.)
 </td>
 =======
 <<<<<<< HEAD
@@ -1058,6 +1080,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+=======
+>>>>>>> 06e3078e (.)
 <<<<<<< HEAD
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
@@ -1716,10 +1743,13 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 8d14144 (.)
+=======
+>>>>>>> a7fea39 (.)
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3962ad4 (.)
 <<<<<<< HEAD
@@ -1756,4 +1786,12 @@ declare(strict_types=1);
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> b19cd40 (.)
 >>>>>>> 5d16a4d (.)
+<<<<<<< HEAD
 >>>>>>> f81a620f (.)
+=======
+=======
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> a7fea39 (.)
+>>>>>>> 06e3078e (.)
