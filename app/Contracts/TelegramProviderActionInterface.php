@@ -71,6 +71,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -205,6 +206,10 @@ use Modules\Notify\Datas\TelegramData;
  *
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+ *
+=======
+>>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,6 +224,7 @@ use Modules\Notify\Datas\TelegramData;
  * 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +409,8 @@ use Modules\Notify\Datas\TelegramData;
 =======
  *
 >>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider Telegram devono rispettare.
  */
@@ -482,6 +490,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -616,6 +625,10 @@ interface TelegramProviderActionInterface
 }
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+}
+=======
+>>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +643,7 @@ interface TelegramProviderActionInterface
 } 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -814,3 +828,5 @@ interface TelegramProviderActionInterface
 =======
 }
 >>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
