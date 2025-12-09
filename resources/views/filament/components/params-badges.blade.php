@@ -539,6 +539,7 @@ declare(strict_types=1);
         <div class="flex flex-wrap gap-2">
             @foreach(array_filter(array_map('trim', explode(',', $params))) as $param)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <x-filament::badge>{{ $param }}</x-filament::badge>
 =======
                 <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
@@ -547,6 +548,9 @@ declare(strict_types=1);
                     {{ $param }}
                 </span>
 >>>>>>> 99ff506 (.)
+=======
+                <x-filament::badge>{{ $param }}</x-filament::badge>
+>>>>>>> a187384 (.)
             @endforeach
         </div>
         
