@@ -62,6 +62,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -274,6 +275,11 @@ return [
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
@@ -331,6 +337,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -543,6 +550,11 @@ return [
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -622,6 +634,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -834,6 +847,11 @@ return [
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -898,6 +916,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1110,6 +1129,11 @@ return [
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',
