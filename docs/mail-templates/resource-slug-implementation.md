@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -15,10 +16,13 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Implementazione del Campo `slug` in MailTemplateResource
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +211,9 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> 9c45d9bd (rebase 210)
 
 ## Implementazione nel Form Schema
 
@@ -283,6 +290,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -434,6 +442,9 @@ public static function getFormSchema(): array
 ## Conformità con gli Standard 
 ## Conformità con gli Standard SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+## Conformità con gli Standard SaluteOra
+>>>>>>> 9c45d9bd (rebase 210)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -564,6 +575,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -578,3 +590,5 @@ return [
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)

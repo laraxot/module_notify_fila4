@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -15,6 +16,8 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Azioni SMS
 
 ## Interfaccia
@@ -60,6 +63,7 @@ Le azioni SMS sono organizzate secondo questa struttura:
 $smsData = new SmsData(
     to: '+393331234567',
     body: 'Il tuo codice OTP è: 123456',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +252,9 @@ $smsData = new SmsData(
     from: ''
     from: 'SaluteOra'
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9c45d9bd (rebase 210)
 );
 
 $action = new SendNetfunSMSAction();
@@ -280,6 +287,7 @@ $result = $action->execute($smsData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -294,3 +302,5 @@ $result = $action->execute($smsData);
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)

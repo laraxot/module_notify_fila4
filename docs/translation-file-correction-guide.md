@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -15,10 +16,13 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Guida alla Correzione dei File di Traduzione
 
 ## Procedura Sistematica per la Standardizzazione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +211,9 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di .
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di SaluteOra.
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di SaluteOra.
+>>>>>>> 9c45d9bd (rebase 210)
 
 ## Passo 1: Analisi del File Esistente
 
@@ -259,6 +266,7 @@ Se il file ha un nome non conforme:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 touch /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_corretto.php
 =======
 touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
@@ -416,6 +424,9 @@ touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
+>>>>>>> 9c45d9bd (rebase 210)
 
 # 2. Copiare e correggere il contenuto
 
@@ -459,6 +470,7 @@ touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "nome_errato" /var/www/html/<nome progetto>/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
@@ -530,10 +542,13 @@ rm /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 grep -r "nome_errato" /var/www/html/saluteora/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -775,6 +790,8 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 ```
 
 ## Passo 3: Correzione della Struttura del File
@@ -858,6 +875,7 @@ Dopo aver corretto un file in italiano, verificare e aggiornare la versione ingl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/nome_file.php
 =======
 ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
@@ -1015,6 +1033,9 @@ ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/
 ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
 ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
+>>>>>>> 9c45d9bd (rebase 210)
 
 # 2. Se esiste, aggiornarlo con la stessa struttura
 
@@ -1093,6 +1114,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1107,3 +1129,5 @@ return [
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)

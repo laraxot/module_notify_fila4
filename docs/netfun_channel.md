@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -15,6 +16,8 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Implementazione Canale Netfun
 
 ## 1. Struttura Base
@@ -448,6 +451,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -792,6 +796,10 @@ SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+SMS_FROM_NAME=<nome progetto>
+SMS_FROM_NAME=SaluteOra
+>>>>>>> 9c45d9bd (rebase 210)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -1115,6 +1123,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1159,11 +1168,14 @@ Log::info('SMS inviato', [
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1386,11 +1398,14 @@ Log::info('SMS inviato', [
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1687,3 +1702,6 @@ Log::info('SMS inviato', [
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> efb0f8d9 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> 9c45d9bd (rebase 210)

@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -18,6 +19,8 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica
@@ -112,6 +115,7 @@ app(SendAppointmentNotificationAction::class)->execute(
 ### Esecuzione manuale dei promemoria
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,6 +430,8 @@ app(SendAppointmentNotificationAction::class)->execute(
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> efb0f8d9 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Invio promemoria per appuntamenti di domani
 php artisan dental:send-appointment-reminders --days=1
 
@@ -448,6 +454,7 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -464,3 +471,5 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)

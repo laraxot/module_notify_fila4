@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -15,10 +16,13 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Convenzioni di Naming per i Contracts 
 
 ## Regola Fondamentale
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +211,9 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 Nel sistema , tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> 9c45d9bd (rebase 210)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`
@@ -270,6 +277,7 @@ interface SmsProviderContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -284,3 +292,5 @@ interface SmsProviderContract
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -15,10 +16,13 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +211,9 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> 9c45d9bd (rebase 210)
 
 ## Principi Fondamentali
 
@@ -315,6 +322,7 @@ Migliore esperienza su client moderni:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 Per , si raccomanda un **approccio ibrido**:
@@ -466,6 +474,9 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 Per , si raccomanda un **approccio ibrido**:
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+Per SaluteOra, si raccomanda un **approccio ibrido**:
+>>>>>>> 9c45d9bd (rebase 210)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
@@ -583,6 +594,7 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -597,3 +609,5 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
