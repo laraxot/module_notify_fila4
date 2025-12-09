@@ -406,7 +406,11 @@ class ContactManagementBusinessLogicTest extends TestCase
         $communicationHistory = [
             [
                 'type' => 'email',
+<<<<<<< HEAD
                 'subject' => 'Benvenuto su '.config('app.name', 'Our Platform'),
+=======
+                'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
+>>>>>>> 99ff506 (.)
                 'sent_at' => now()->subDays(5)->toISOString(),
                 'status' => 'delivered',
                 'opened' => true,
@@ -531,7 +535,11 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 2941b0bd (.)
         $this->assertEquals(
+<<<<<<< HEAD
             'Benvenuto su '.config('app.name', 'Our Platform'),
+=======
+            'Benvenuto su ' . config('app.name', 'Our Platform'),
+>>>>>>> 99ff506 (.)
             $contact->fresh()->communication_history[0]['subject'],
         );
 <<<<<<< HEAD

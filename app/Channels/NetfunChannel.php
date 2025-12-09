@@ -58,6 +58,7 @@
 >>>>>>> 2941b0bd (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
@@ -136,6 +137,12 @@ declare(strict_types=1);
 
 
 >>>>>>> 161887a2 (.)
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -466,14 +473,31 @@ class NetfunChannel
     /**
      * Invia la notifica tramite Netfun SMS
      *
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @param Notification $notification
+=======
+<<<<<<< HEAD
+     * @param  mixed  $notifiable
+=======
+     * @param mixed $notifiable
+     * @param Notification $notification
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return array|null
      */
     public function send($notifiable, Notification $notification)
     {
         // Ottieni il numero di telefono dal Notifiable
+<<<<<<< HEAD
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
+=======
+<<<<<<< HEAD
+        if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForNetfun')) {
+=======
+        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             return null;
         }
 <<<<<<< HEAD
@@ -629,7 +653,15 @@ class NetfunChannel
 
 >>>>>>> 2941b0bd (.)
         $to = $notifiable->routeNotificationForNetfun($notification);
+<<<<<<< HEAD
         if (!$to) {
+=======
+<<<<<<< HEAD
+        if (! $to) {
+=======
+        if (!$to) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             return null;
         }
 <<<<<<< HEAD
@@ -782,7 +814,15 @@ class NetfunChannel
 
 >>>>>>> 2941b0bd (.)
         // Ottieni il messaggio dalla notifica
+<<<<<<< HEAD
         if (!method_exists($notification, 'toNetfun')) {
+=======
+<<<<<<< HEAD
+        if (! method_exists($notification, 'toNetfun')) {
+=======
+        if (!method_exists($notification, 'toNetfun')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
 <<<<<<< HEAD

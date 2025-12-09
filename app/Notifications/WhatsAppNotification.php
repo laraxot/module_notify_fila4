@@ -260,6 +260,7 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -389,6 +390,12 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
  *
 >>>>>>> 2941b0bd (.)
  * @package Modules\Notify\Notifications
+=======
+=======
+ *
+ * @package Modules\Notify\Notifications
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  */
 class WhatsAppNotification extends Notification implements ShouldQueue
 {
@@ -396,8 +403,16 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 
     /**
      * The WhatsApp data.
+<<<<<<< HEAD
      *
      * @var WhatsAppData
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @var WhatsAppData
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     protected WhatsAppData $whatsappData;
 
@@ -411,8 +426,18 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     /**
      * Create a new notification instance.
      *
+<<<<<<< HEAD
      * @param string|WhatsAppData $content The content of the WhatsApp message or WhatsAppData object
      * @param array<string, mixed> $config Configuration options including provider
+=======
+<<<<<<< HEAD
+     * @param  string|WhatsAppData  $content  The content of the WhatsApp message or WhatsAppData object
+     * @param  array<string, mixed>  $config  Configuration options including provider
+=======
+     * @param string|WhatsAppData $content The content of the WhatsApp message or WhatsAppData object
+     * @param array<string, mixed> $config Configuration options including provider
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function __construct(string|WhatsAppData $content, array $config = [])
     {
@@ -861,6 +886,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -930,6 +956,12 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 2941b0bd (.)
      * @param mixed $_notifiable L'entità da notificare
+=======
+     * @param  mixed  $_notifiable  L'entità da notificare
+=======
+     * @param mixed $_notifiable L'entità da notificare
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -1098,9 +1130,18 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 
     /**
      * Get the WhatsApp representation of the notification.
+<<<<<<< HEAD
      *
      * @param mixed $notifiable
      * @return WhatsAppData
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @param mixed $notifiable
+     * @return WhatsAppData
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function toWhatsApp(mixed $notifiable): WhatsAppData
     {
@@ -1126,8 +1167,12 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 
     /**
      * Get the provider to use for sending the WhatsApp message.
+<<<<<<< HEAD
      *
      * @return string|null
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1283,6 +1328,18 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> 2941b0bd (.)
     {
         $provider = $this->config['provider'] ?? null;
+<<<<<<< HEAD
+=======
+
+=======
+     *
+     * @return string|null
+     */
+    public function getProvider(): null|string
+    {
+        $provider = $this->config['provider'] ?? null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return is_string($provider) ? $provider : null;
     }
 }

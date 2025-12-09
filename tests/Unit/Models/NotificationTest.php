@@ -303,7 +303,11 @@ class NotificationTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
         $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
 
         $expectedFillable = [
             'message',
@@ -325,7 +329,11 @@ class NotificationTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',

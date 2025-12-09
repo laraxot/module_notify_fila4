@@ -120,6 +120,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 =======
@@ -143,6 +144,16 @@ use Filament\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+=======
+
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+use Filament\Actions;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD

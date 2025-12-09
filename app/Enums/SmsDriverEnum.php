@@ -338,7 +338,15 @@ use Modules\Xot\Filament\Traits\TransTrait;
  * Questo enum centralizza la gestione dei driver SMS disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
+<<<<<<< HEAD
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
+=======
+<<<<<<< HEAD
+enum SmsDriverEnum: string implements HasColor, HasIcon, HasLabel
+=======
+enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 {
     use TransTrait;
 <<<<<<< HEAD
@@ -584,6 +592,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
     public function getLabel(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class, $this->value . '.label');
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +754,13 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+        return $this->transClass(self::class, $this->value.'.label');
+=======
+        return $this->transClass(self::class, $this->value . '.label');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     public function getColor(): string
@@ -773,6 +789,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -904,6 +921,12 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value . '.color');
 >>>>>>> 2941b0bd (.)
+=======
+        return $this->transClass(self::class, $this->value.'.color');
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     public function getIcon(): string
@@ -932,6 +955,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1060,10 +1084,17 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
         return $this->transClass(self::class, $this->value . '.icon');
 >>>>>>> 2941b0bd (.)
+=======
+        return $this->transClass(self::class, $this->value.'.icon');
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     public function getDescription(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1157,10 +1188,17 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 2941b0bd (.)
         return $this->transClass(self::class, $this->value . '.description');
+=======
+        return $this->transClass(self::class, $this->value.'.description');
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     }
 
     /**
      * Restituisce il driver predefinito dal file di configurazione
+<<<<<<< HEAD
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1320,6 +1358,13 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 2941b0bd (.)
      * @return self
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @return self
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public static function getDefault(): self
     {

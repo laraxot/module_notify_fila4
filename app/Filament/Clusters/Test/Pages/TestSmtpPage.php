@@ -4,7 +4,27 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Override;
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification;
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Schema;
+=======
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -17,16 +37,23 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Filament\Clusters\Test;
+<<<<<<< HEAD
 use Modules\Xot\Datas\XotData;
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,10 +102,39 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 3f537838 (.)
  */
+=======
+=======
+use Modules\Xot\Datas\XotData;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Webmozart\Assert\Assert;
+
+/**
+ * 
+ */
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 class TestSmtpPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
 
+<<<<<<< HEAD
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+    public ?array $emailData = [];
+>>>>>>> f1c9518b (.)
+
+    public null|string $error_message = null;
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+=======
     public null|array $emailData = [];
 
     public null|string $error_message = null;
@@ -88,6 +144,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
     protected string $view = 'notify::filament.pages.send-email';
 
     protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     public function mount(): void
     {
@@ -229,7 +287,15 @@ class TestSmtpPage extends XotBasePage implements HasForms
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
         if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.',
             );

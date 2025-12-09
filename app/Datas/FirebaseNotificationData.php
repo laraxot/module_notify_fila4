@@ -47,6 +47,7 @@ class FirebaseNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -197,6 +198,14 @@ class FirebaseNotificationData extends Data
             'title' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.title'),
             'body' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.body'),
 >>>>>>> 2941b0bd (.)
+=======
+            'title' => trans($main_module.'::notifications.'.mb_strtoupper($type).'.title'),
+            'body' => trans($main_module.'::notifications.'.mb_strtoupper($type).'.body'),
+=======
+            'title' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.title'),
+            'body' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.body'),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             'data' => [],
         ];
 

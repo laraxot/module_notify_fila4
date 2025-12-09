@@ -48,6 +48,7 @@
 >>>>>>> 4689a827 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -205,6 +206,12 @@ declare(strict_types=1);
 
 
 >>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 return [
     'resource' => [
         'name' => 'Invio WhatsApp',

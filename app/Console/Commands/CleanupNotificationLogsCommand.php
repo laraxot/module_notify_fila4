@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
+<<<<<<< HEAD
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37,6 +38,15 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 3f537838 (.)
+=======
+<<<<<<< HEAD
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+use Modules\Notify\Models\NotificationLog;
+=======
+use Modules\Notify\Models\NotificationLog;
+use Modules\Notify\Enums\NotificationLogStatusEnum;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 class CleanupNotificationLogsCommand extends Command
 {

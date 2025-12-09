@@ -130,6 +130,10 @@
 >>>>>>> 7c39b1fe (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99ff506 (.)
 return [
     'navigation' => [
         'icon' => 'heroicon-o-document-text',
@@ -178,9 +182,12 @@ return [
     ],
     'actions' => [
         'preview' => 'Anteprima',
+<<<<<<< HEAD
         'openColumnManager' => [
             'tooltip' => 'openColumnManager',
         ],
+=======
+>>>>>>> 99ff506 (.)
     ],
     'enums' => [
         'notification_type' => [

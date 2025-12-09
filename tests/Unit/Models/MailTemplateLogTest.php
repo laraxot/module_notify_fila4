@@ -303,7 +303,11 @@ class MailTemplateLogTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
         $log = new MailTemplateLog;
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 99ff506 (.)
 
         $expectedFillable = [
             'template_id',
@@ -326,7 +330,11 @@ class MailTemplateLogTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
+<<<<<<< HEAD
         $log = new MailTemplateLog;
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 99ff506 (.)
 
         $expectedCasts = [
             'id' => 'string',

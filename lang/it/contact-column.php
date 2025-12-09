@@ -356,9 +356,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 7c39b1fe (.)
  * @author Laraxot Team
+<<<<<<< HEAD
  *
  * @version 1.0
  *
+=======
+ * @version 1.0
+>>>>>>> 99ff506 (.)
  * @since 2025-08-01
  */
 return [

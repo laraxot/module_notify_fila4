@@ -99,10 +99,15 @@
 >>>>>>> 2941b0bd (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Models;
 
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,11 +231,22 @@ namespace Modules\Notify\Models;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+
+namespace Modules\Notify\Models;
+
+use Override;
+>>>>>>> f1c9518b (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Models\BaseModel;
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 /**
  * Notification model for the Notify module.
@@ -256,6 +272,13 @@ use Modules\Xot\Models\BaseModel;
  * @property Carbon|null $sent_at
  * @property-read Model|null $creator
  * @property-read Model|null $updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -272,6 +295,13 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */

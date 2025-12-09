@@ -28,6 +28,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -99,6 +100,8 @@ namespace Modules\Notify\Models;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
+=======
+>>>>>>> f1c9518b (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 <<<<<<< HEAD
@@ -214,6 +217,25 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
+=======
+use Override;
+use RuntimeException;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Modules\Xot\Traits\Updater;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 /**
  * @property int $id
@@ -235,6 +257,13 @@ use Modules\Xot\Traits\Updater;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @method static MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -256,6 +285,13 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
  */

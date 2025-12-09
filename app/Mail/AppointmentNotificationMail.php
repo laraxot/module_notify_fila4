@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Mail;
 
+<<<<<<< HEAD
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
+=======
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+>>>>>>> 99ff506 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;

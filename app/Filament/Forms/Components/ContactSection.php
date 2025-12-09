@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Forms;
+>>>>>>> f1c9518b (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 <<<<<<< HEAD
@@ -28,6 +33,7 @@ use Filament\Forms;
 >>>>>>> 207ac35e (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224,11 +230,21 @@ use Webmozart\Assert\Assert;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+use Filament\Schemas\Components\Section;
+use Filament\Forms;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Enums\ContactTypeEnum;
+use Webmozart\Assert\Assert;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +379,12 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 2941b0bd (.)
     //protected string $view = 'filament-forms::components.group';
+=======
+    // protected string $view = 'filament-forms::components.group';
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -399,6 +421,7 @@ class ContactSection extends Forms\Components\Section
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
+<<<<<<< HEAD
 >>>>>>> 5fd545e4 (.)
 
 <<<<<<< HEAD
@@ -496,6 +519,12 @@ class ContactSection extends Forms\Components\Section
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return $res;
 <<<<<<< HEAD
 <<<<<<< HEAD

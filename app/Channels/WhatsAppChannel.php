@@ -486,13 +486,27 @@ class WhatsAppChannel
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
+<<<<<<< HEAD
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
+=======
+<<<<<<< HEAD
+     * @param  mixed  $notifiable  Entità che riceve la notifica
+     * @param  Notification  $notification  Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     *
+=======
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @throws Exception Se la notifica non ha il metodo toWhatsApp o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -650,6 +664,12 @@ class WhatsAppChannel
 =======
         if (!method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($notification, 'toWhatsApp')) {
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
@@ -747,7 +767,15 @@ class WhatsAppChannel
 =======
 >>>>>>> 2941b0bd (.)
 
+<<<<<<< HEAD
         if (!($whatsAppData instanceof WhatsAppData)) {
+=======
+<<<<<<< HEAD
+        if (! ($whatsAppData instanceof WhatsAppData)) {
+=======
+        if (!($whatsAppData instanceof WhatsAppData)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
         }
 

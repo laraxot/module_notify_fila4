@@ -28,6 +28,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -112,12 +113,15 @@ use Override;
 =======
 use Override;
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> f1c9518b (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,6 +163,19 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 >>>>>>> 011072e4 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+use Override;
+=======
+use Override;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
+use Filament\Tables\Columns;
+use Filament\Tables\Filters;
+use Modules\Notify\Filament\Resources\NotifyThemeResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 =======
 
@@ -683,6 +700,22 @@ class ListNotifyThemes extends XotBaseListRecords
     {
         return [
             'lang' => SelectFilter::make('lang')->options(
+<<<<<<< HEAD
+                fn(): array => NotifyThemeResource::fieldOptions('lang'),
+=======
+<<<<<<< HEAD
+                fn (): array => NotifyThemeResource::fieldOptions('lang'),
+>>>>>>> f1c9518b (.)
+            ),
+            'post_type' => SelectFilter::make('post_type')->options(
+                fn(): array => NotifyThemeResource::fieldOptions('post_type'),
+            ),
+            'type' => SelectFilter::make('type')->options(
+<<<<<<< HEAD
+                fn(): array => NotifyThemeResource::fieldOptions('type'),
+=======
+                fn (): array => NotifyThemeResource::fieldOptions('type'),
+=======
                 fn(): array => NotifyThemeResource::fieldOptions('lang'),
             ),
             'post_type' => SelectFilter::make('post_type')->options(
@@ -690,6 +723,8 @@ class ListNotifyThemes extends XotBaseListRecords
             ),
             'type' => SelectFilter::make('type')->options(
                 fn(): array => NotifyThemeResource::fieldOptions('type'),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             ),
         ];
     }

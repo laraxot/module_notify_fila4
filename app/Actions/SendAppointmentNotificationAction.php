@@ -11,6 +11,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 // This file references SaluteOra models that do not exist in this project
 =======
@@ -37,6 +38,10 @@ declare(strict_types=1);
 
 // This file references SaluteOra models that do not exist in this project
 >>>>>>> 3f537838 (.)
+=======
+
+// This file references SaluteOra models that do not exist in this project
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Actions;
 
 use Exception;
@@ -52,6 +57,7 @@ use Illuminate\Support\Facades\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 // use Modules\SaluteOra\Models\Patient;
@@ -100,6 +106,11 @@ use Modules\SaluteOra\Models\Patient;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 // use Modules\SaluteOra\Models\Patient;
 >>>>>>> 3f537838 (.)
+=======
+// use Modules\SaluteOra\Models\Appointment;
+use Modules\Notify\Mail\AppointmentNotificationMail;
+// use Modules\SaluteOra\Models\Patient;
+>>>>>>> f1c9518b (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction
@@ -125,6 +136,9 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
      * @param mixed $appointment L'appuntamento a cui si riferisce la notifica
      * @param string $type Il tipo di notifica (confermato, annullato, promemoria, ecc.)
      * @param array<string, mixed> $additionalData Dati aggiuntivi per la notifica
@@ -133,6 +147,7 @@ class SendAppointmentNotificationAction
      */
     public function execute(
         mixed $appointment,
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -199,6 +214,8 @@ class SendAppointmentNotificationAction
 =======
         mixed $appointment,
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
         string $type,
         array $additionalData = []
     ): bool {
@@ -213,12 +230,15 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
             $patient = null; // Patient::with('user')->find($appointment->patient_id);
 
             // Since patient models are not available in this project,
@@ -227,6 +247,9 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
                 'type' => $type,
                 'additional_data' => $additionalData,
             ]);
@@ -235,6 +258,7 @@ class SendAppointmentNotificationAction
 
         } catch (Exception $e) {
             Log::error('Errore nell\'invio della notifica di appuntamento', [
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -324,6 +348,8 @@ class SendAppointmentNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
                 'type' => $type,
                 'error' => $e->getMessage(),
                 'trace' => $e->getTraceAsString(),
@@ -337,6 +363,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -365,6 +392,9 @@ class SendAppointmentNotificationAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> f1c9518b (.)
             return false;
         }
     }
@@ -381,6 +411,9 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
      * @param mixed $appointment
      * @param mixed $patient
      * @param string $type
@@ -394,6 +427,7 @@ class SendAppointmentNotificationAction
         Log::info('recordNotification method called but not implemented due to missing models', [
             'type' => $type,
         ]);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -504,5 +538,7 @@ class SendAppointmentNotificationAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> f1c9518b (.)
     }
 }

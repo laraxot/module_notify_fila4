@@ -48,6 +48,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -121,6 +122,20 @@ class Pdf
             $file_name = $view_params[$file_name];
         }
         Assert::string($file_name, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+        $file_name = Str::slug($notify_theme_data->subject).'.pdf';
+        if (isset($view_params[$file_name])) {
+            $file_name = $view_params[$file_name];
+        }
+        Assert::string($file_name, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+        $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
+        if (isset($view_params[$file_name])) {
+            $file_name = $view_params[$file_name];
+        }
+        Assert::string($file_name, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         $file_path = Storage::disk('cache')->path($file_name);
 
         HtmlService::toPdf(

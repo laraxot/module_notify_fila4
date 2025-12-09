@@ -94,6 +94,7 @@
 >>>>>>> 2941b0bd (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 return [
     'welcome' => [
@@ -187,10 +188,18 @@ return [
 =======
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+return [
+    'welcome' => [
+        'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : ''),
+=======
+>>>>>>> f1c9518b (.)
 
 return [
     'welcome' => [
         'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : ''),
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 return [
@@ -247,6 +256,9 @@ return [
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         'greeting' => 'Hello :name,',
         'description' => 'Thank you for joining us. We\'re excited to have you on board!',
         'action' => 'Get Started',

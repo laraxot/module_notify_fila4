@@ -37,6 +37,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -166,6 +167,12 @@ use Modules\Notify\Datas\SmsData;
  *
 >>>>>>> 2941b0bd (.)
  * @package Modules\Notify\Notifications
+=======
+=======
+ *
+ * @package Modules\Notify\Notifications
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  */
 class SmsNotification extends Notification implements ShouldQueue
 {
@@ -173,8 +180,16 @@ class SmsNotification extends Notification implements ShouldQueue
 
     /**
      * The SMS data.
+<<<<<<< HEAD
      *
      * @var SmsData
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @var SmsData
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     protected SmsData $smsData;
 
@@ -188,8 +203,18 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Create a new notification instance.
      *
+<<<<<<< HEAD
      * @param string|SmsData $content The content of the SMS or SmsData object
      * @param array<string, mixed> $config Configuration options including provider
+=======
+<<<<<<< HEAD
+     * @param  string|SmsData  $content  The content of the SMS or SmsData object
+     * @param  array<string, mixed>  $config  Configuration options including provider
+=======
+     * @param string|SmsData $content The content of the SMS or SmsData object
+     * @param array<string, mixed> $config Configuration options including provider
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function __construct(string|SmsData $content, array $config = [])
     {
@@ -239,6 +264,7 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 011072e4 (.)
 
+<<<<<<< HEAD
 =======
             
 >>>>>>> b19cd40 (.)
@@ -351,6 +377,13 @@ class SmsNotification extends Notification implements ShouldQueue
 
 >>>>>>> 2941b0bd (.)
             $this->smsData = new SmsData();
+=======
+<<<<<<< HEAD
+            $this->smsData = new SmsData;
+=======
+            $this->smsData = new SmsData();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
             $this->smsData->to = (string) $to;
@@ -539,6 +572,7 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -608,6 +642,12 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 2941b0bd (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+=======
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+=======
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -776,9 +816,18 @@ class SmsNotification extends Notification implements ShouldQueue
 
     /**
      * Get the SMS representation of the notification.
+<<<<<<< HEAD
      *
      * @param mixed $notifiable
      * @return SmsData
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @param mixed $notifiable
+     * @return SmsData
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function toSms(mixed $notifiable): SmsData
     {
@@ -804,8 +853,12 @@ class SmsNotification extends Notification implements ShouldQueue
 
     /**
      * Get the provider to use for sending the SMS.
+<<<<<<< HEAD
      *
      * @return string|null
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,6 +1014,18 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 2941b0bd (.)
     {
         $provider = $this->config['provider'] ?? null;
+<<<<<<< HEAD
+=======
+
+=======
+     *
+     * @return string|null
+     */
+    public function getProvider(): null|string
+    {
+        $provider = $this->config['provider'] ?? null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         return is_string($provider) ? $provider : null;
     }
 }

@@ -10,6 +10,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 =======
 // use Illuminate\Support\Facades\Notification;
+<<<<<<< HEAD
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -25,6 +26,12 @@ use Override;
 // use Illuminate\Support\Facades\Notification;
 use Override;
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -33,9 +40,15 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 75179b85 (.)
+=======
+use Override;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +352,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     public function boot(): void
     {
         parent::boot();
+<<<<<<< HEAD
         //if (! app()->environment('production')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +451,13 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+        // if (! app()->environment('production')) {
+=======
+        //if (! app()->environment('production')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
         $fallback_to = Arr::get($mail, 'fallback_to', null);

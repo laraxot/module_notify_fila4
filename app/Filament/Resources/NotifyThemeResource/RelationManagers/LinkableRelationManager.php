@@ -27,6 +27,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -61,9 +62,16 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
 use Override;
+=======
+>>>>>>> f1c9518b (.)
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Override;
+=======
+use Override;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +324,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -383,6 +392,12 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> 4689a827 (.)
     protected static null|string $recordTitleAttribute = 'id';
+=======
+    protected static ?string $recordTitleAttribute = 'id';
+=======
+    protected static null|string $recordTitleAttribute = 'id';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     #[Override]
     public function getFormSchema(): array

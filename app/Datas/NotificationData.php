@@ -40,6 +40,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -189,6 +190,8 @@ class NotificationData extends Data
 =======
 >>>>>>> 4689a827 (.)
 =======
+=======
+>>>>>>> f1c9518b (.)
     public ?string $from_email = null;
 
     public string $to;
@@ -196,6 +199,7 @@ class NotificationData extends Data
     public ?string $subject = null;
 
     public ?string $body_html = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +278,17 @@ class NotificationData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+    public null|string $from_email = null;
+
+    public string $to;
+
+    public null|string $subject = null;
+
+    public null|string $body_html = null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     public string $body;
 
@@ -282,6 +297,7 @@ class NotificationData extends Data
     /**
      * @var DataCollection<AttachmentData>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -323,6 +339,12 @@ class NotificationData extends Data
 =======
 >>>>>>> 011072e4 (.)
     public null|DataCollection $attachments = null;
+=======
+    public ?DataCollection $attachments = null;
+=======
+    public null|DataCollection $attachments = null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 =======
     public ?DataCollection $attachments = null;

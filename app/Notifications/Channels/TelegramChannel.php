@@ -58,6 +58,7 @@
 >>>>>>> 2941b0bd (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
@@ -136,6 +137,12 @@ declare(strict_types=1);
 
 
 >>>>>>> 161887a2 (.)
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -147,17 +154,42 @@ class TelegramChannel
     /**
      * Invia la notifica tramite Telegram.
      *
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @param Notification $notification
+=======
+<<<<<<< HEAD
+     * @param  mixed  $notifiable
+=======
+     * @param mixed $notifiable
+     * @param Notification $notification
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      * @return void
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
         if (!method_exists($notification, 'toTelegram')) {
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
 
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForTelegram')) {
+=======
+<<<<<<< HEAD
+        if (! method_exists($notification, 'toTelegram')) {
+            throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
+        }
+
+        if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForTelegram')) {
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+            throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
+        }
+
+        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForTelegram')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Il metodo routeNotificationForTelegram() non è definito nel notifiable.');
         }
 

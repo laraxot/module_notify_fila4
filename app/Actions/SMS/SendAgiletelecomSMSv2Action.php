@@ -28,6 +28,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -98,10 +99,17 @@ namespace Modules\Notify\Actions\SMS;
 >>>>>>> 2941b0bd (.)
 use Override;
 use GuzzleHttp\Client;
+=======
+=======
+use Override;
+use GuzzleHttp\Client;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +148,8 @@ use Modules\Notify\Datas\SmsData;
 =======
 
 =======
+=======
+>>>>>>> f1c9518b (.)
 use Override;
 >>>>>>> b93ef594b4 (.)
 use GuzzleHttp\Client;
@@ -261,6 +271,15 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
+<<<<<<< HEAD
+=======
+ *
+=======
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @see https://agiletelecom.com/docs/protocollo-http-post-e-get/
  */
 class SendAgiletelecomSMSv2Action implements SmsActionContract
@@ -527,12 +546,22 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2941b0bd (.)
 
         $payload = [
+<<<<<<< HEAD
             //'globalId' => $data->reference ?? uniqid('sms_', true),
             //'maxIdLen' => 64,
             //'enableConcatenated' => true,
             //'enableUnicode' => true,
             //'enableDelivery' => $config['enable_delivery'] ?? true,
             //'simulation' => app()->environment('local', 'testing'),
+=======
+<<<<<<< HEAD
+            // 'globalId' => $data->reference ?? uniqid('sms_', true),
+            // 'maxIdLen' => 64,
+            // 'enableConcatenated' => true,
+            // 'enableUnicode' => true,
+            // 'enableDelivery' => $config['enable_delivery'] ?? true,
+            // 'simulation' => app()->environment('local', 'testing'),
+>>>>>>> f1c9518b (.)
             'messages' => [
                 [
                     'destinations' => [$phone],
@@ -540,6 +569,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
                     //'sender' => $config['sender'],
                     'sender' => $agile->sender,
                     'body' => $data->body,
+<<<<<<< HEAD
                     //'hexBody' => false,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -633,6 +663,25 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+                    // 'hexBody' => false,
+=======
+            //'globalId' => $data->reference ?? uniqid('sms_', true),
+            //'maxIdLen' => 64,
+            //'enableConcatenated' => true,
+            //'enableUnicode' => true,
+            //'enableDelivery' => $config['enable_delivery'] ?? true,
+            //'simulation' => app()->environment('local', 'testing'),
+            'messages' => [
+                [
+                    'destinations' => [$phone],
+                    //'ids' => [$data->reference ?? uniqid('msg_', true)],
+                    //'sender' => $config['sender'],
+                    'sender' => $agile->sender,
+                    'body' => $data->body,
+                    //'hexBody' => false,
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 ],
             ],
         ];
@@ -684,6 +733,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> b93ef594b4 (.)
         ];
 
+<<<<<<< HEAD
         // "{"globalId":"5a56f05b-a48c-41db-8fc2-063b53368e89","processedMessages":1,"processedSmsParts":1,"credit":9530.73}
 
 <<<<<<< HEAD
@@ -809,6 +859,13 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2941b0bd (.)
 
         //dddx($response->body());
+=======
+<<<<<<< HEAD
+        // dddx($response->body());
+=======
+        //dddx($response->body());
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
         return [];
     }

@@ -621,23 +621,40 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 7c39b1fe (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
+<<<<<<< HEAD
                     ->map(static fn (SendReport $report): array => [
+=======
+                    ->map(static fn(SendReport $report): array => [
+>>>>>>> 99ff506 (.)
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
                 'failure_tokens' => $this->sendReport
                     ->failures()
+<<<<<<< HEAD
                     ->map(static fn (SendReport $report): array => [
+=======
+                    ->map(static fn(SendReport $report): array => [
+>>>>>>> 99ff506 (.)
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
                 'unknown_tokens' => $this->sendReport
+<<<<<<< HEAD
                     ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
                     ->map(static fn (SendReport $report): array => [
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
                 'results' => $this->sendReport->map(static fn (SendReport $report): array => [
+=======
+                    ->filter(static fn(SendReport $report): bool => $report->messageWasSentToUnknownToken())
+                    ->map(static fn(SendReport $report): array => [
+                        'type' => $report->target()->type(),
+                        'value' => $report->target()->value(),
+                    ]),
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+>>>>>>> 99ff506 (.)
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),

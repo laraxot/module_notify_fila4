@@ -30,6 +30,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -180,6 +181,15 @@ return new class() extends XotBaseMigration {
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 >>>>>>> 2941b0bd (.)
+=======
+return new class extends XotBaseMigration
+{
+    protected ?string $model_class = Contact::class;
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     /**
      * Run the migrations.
@@ -293,7 +303,15 @@ return new class() extends XotBaseMigration {
             $table->timestamp('verified_at')->nullable();
         });
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
             if (!$this->hasColumn('token')) {
+=======
+<<<<<<< HEAD
+            if (! $this->hasColumn('token')) {
+=======
+            if (!$this->hasColumn('token')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 $table->string('token')->nullable();
             }
             $this->updateTimestamps(

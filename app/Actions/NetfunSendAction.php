@@ -52,6 +52,7 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -180,6 +181,12 @@ class NetfunSendAction
 =======
         if (!is_string($token)) {
 >>>>>>> 2941b0bd (.)
+=======
+        if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -200,7 +207,12 @@ class NetfunSendAction
 
         $smsData->to .= '';
         if (Str::startsWith($smsData->to, '00')) {
+<<<<<<< HEAD
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
+=======
+<<<<<<< HEAD
+            $smsData->to = '+39'.mb_substr($smsData->to, 2);
+>>>>>>> f1c9518b (.)
         }
 
 <<<<<<< HEAD
@@ -246,6 +258,7 @@ class NetfunSendAction
         if (!Str::startsWith($smsData->to, '+')) {
 =======
         if (! Str::startsWith($smsData->to, '+')) {
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +369,16 @@ class NetfunSendAction
         if (!Str::startsWith($smsData->to, '+')) {
 >>>>>>> 2941b0bd (.)
             $smsData->to = '+39' . $smsData->to;
+=======
+            $smsData->to = '+39'.$smsData->to;
+=======
+            $smsData->to = '+39' . mb_substr($smsData->to, 2);
+        }
+
+        if (!Str::startsWith($smsData->to, '+')) {
+            $smsData->to = '+39' . $smsData->to;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
         $body = [
@@ -997,7 +1020,15 @@ class NetfunSendAction
 =======
 >>>>>>> 2941b0bd (.)
             throw new Exception(
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+=======
+<<<<<<< HEAD
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 $clientException->getCode(),
                 $clientException,
             );

@@ -4,11 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
+<<<<<<< HEAD
 use RuntimeException;
 use ReflectionClass;
 use ReflectionException;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
+=======
+<<<<<<< HEAD
+use Illuminate\Support\Str;
+use ReflectionClass;
+use ReflectionException;
+use RuntimeException;
+=======
+use RuntimeException;
+use ReflectionClass;
+use ReflectionException;
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 /**
  * Classe per l'invio di SMS.
@@ -16,6 +31,7 @@ use Webmozart\Assert\Assert;
 class SmsService
 {
     // ---------CSS------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,11 +201,14 @@ class SmsService
 =======
 >>>>>>> 4689a827 (.)
 =======
+=======
+>>>>>>> f1c9518b (.)
     public ?string $to = null;
 
     public ?string $from = null;
 
     public ?string $body = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +287,16 @@ class SmsService
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+
+=======
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public null|string $body = null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
     /**
      * Variabili per il template SMS.
      *
@@ -304,6 +333,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -432,14 +462,30 @@ class SmsService
 =======
     private static null|self $instance = null;
 >>>>>>> 2941b0bd (.)
+=======
+    private static ?self $instance = null;
+=======
+    private static null|self $instance = null;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
     /**
      * Ottiene un'istanza singleton della classe.
      */
     public static function getInstance(): self
     {
+<<<<<<< HEAD
         if (null === self::$instance) {
             self::$instance = new self();
+=======
+<<<<<<< HEAD
+        if (self::$instance === null) {
+            self::$instance = new self;
+=======
+        if (null === self::$instance) {
+            self::$instance = new self();
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
         return self::$instance;
@@ -496,6 +542,7 @@ class SmsService
 =======
 >>>>>>> 011072e4 (.)
      *
+<<<<<<< HEAD
 =======
      * 
 >>>>>>> b19cd40 (.)
@@ -608,6 +655,13 @@ class SmsService
      *
 >>>>>>> 2941b0bd (.)
      * @param array<string, mixed> $vars
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $vars
+=======
+     * @param array<string, mixed> $vars
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function setLocalVars(array $vars): self
     {
@@ -622,7 +676,15 @@ class SmsService
     /**
      * Unisce le variabili con quelle esistenti.
      *
+<<<<<<< HEAD
      * @param array<string, mixed> $vars
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $vars
+=======
+     * @param array<string, mixed> $vars
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function mergeVars(array $vars): self
     {
@@ -636,6 +698,7 @@ class SmsService
      */
     public function send(): self
     {
+<<<<<<< HEAD
         $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -677,6 +740,10 @@ class SmsService
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+<<<<<<< HEAD
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
+>>>>>>> f1c9518b (.)
 
 =======
         
@@ -787,7 +854,17 @@ class SmsService
 
 >>>>>>> 2941b0bd (.)
         // Verifichiamo che la classe esista
+<<<<<<< HEAD
         if (!class_exists($engineClassName)) {
+=======
+        if (! class_exists($engineClassName)) {
+=======
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
+
+        // Verifichiamo che la classe esista
+        if (!class_exists($engineClassName)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new RuntimeException("La classe del motore SMS {$engineClassName} non esiste");
         }
 <<<<<<< HEAD
@@ -939,7 +1016,15 @@ class SmsService
 
 >>>>>>> 2941b0bd (.)
         // Verifichiamo che la classe abbia il metodo make
+<<<<<<< HEAD
         if (!method_exists($engineClassName, 'make')) {
+=======
+<<<<<<< HEAD
+        if (! method_exists($engineClassName, 'make')) {
+=======
+        if (!method_exists($engineClassName, 'make')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new RuntimeException("La classe {$engineClassName} non implementa il metodo make()");
         }
 <<<<<<< HEAD
@@ -1181,7 +1266,15 @@ class SmsService
 =======
 >>>>>>> 2941b0bd (.)
         // Verifichiamo che l'istanza sia un oggetto
+<<<<<<< HEAD
         if (!is_object($instance)) {
+=======
+<<<<<<< HEAD
+        if (! is_object($instance)) {
+=======
+        if (!is_object($instance)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new RuntimeException("Il metodo make() di {$engineClassName} non ha restituito un oggetto");
         }
 <<<<<<< HEAD
@@ -1334,7 +1427,15 @@ class SmsService
 >>>>>>> 2941b0bd (.)
         // Verifichiamo che l'istanza abbia i metodi necessari
         foreach (['setLocalVars', 'send', 'getVars'] as $method) {
+<<<<<<< HEAD
             if (!method_exists($instance, $method)) {
+=======
+<<<<<<< HEAD
+            if (! method_exists($instance, $method)) {
+=======
+            if (!method_exists($instance, $method)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 throw new RuntimeException("L'istanza di {$engineClassName} non implementa il metodo {$method}()");
             }
         }
@@ -1651,7 +1752,15 @@ class SmsService
 =======
 >>>>>>> 2941b0bd (.)
             // Verifichiamo che il risultato sia un array
+<<<<<<< HEAD
             if (!is_array($result)) {
+=======
+<<<<<<< HEAD
+            if (! is_array($result)) {
+=======
+            if (!is_array($result)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
                 $result = [];
             }
 <<<<<<< HEAD
@@ -1909,6 +2018,7 @@ class SmsService
 
             $this->mergeVars($typedResult);
         } catch (ReflectionException $e) {
+<<<<<<< HEAD
             throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2059,6 +2169,13 @@ class SmsService
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+=======
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
         return $this;
