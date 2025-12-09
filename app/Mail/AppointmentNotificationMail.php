@@ -18,6 +18,7 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -29,6 +30,8 @@ namespace Modules\Notify\Mail;
 =======
 >>>>>>> 98d837b9 (.)
 =======
+=======
+>>>>>>> a29a4728 (.)
 =======
 >>>>>>> 2fdda20 (.)
 >>>>>>> 909e45af (.)
@@ -76,6 +79,8 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> 2fdda20 (.)
+=======
+>>>>>>> 8d298d6 (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -87,13 +92,21 @@ use Illuminate\Mail\Mailable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 =======
+=======
+>>>>>>> a29a4728 (.)
 >>>>>>> 99ff506 (.)
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> 8d298d6 (.)
+>>>>>>> a29a4728 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -140,8 +153,11 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
     use Queueable, SerializesModels;
 =======
 <<<<<<< HEAD
@@ -163,7 +179,13 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> ca10d6ad (.)
 =======
 >>>>>>> 2fdda20 (.)
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
+=======
+=======
+    use Queueable, SerializesModels;
+>>>>>>> 8d298d6 (.)
+>>>>>>> a29a4728 (.)
 
     /**
 <<<<<<< HEAD
@@ -189,6 +211,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +267,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * @param  array<string, mixed>  $notificationData
 >>>>>>> 3f537838 (.)
 =======
+=======
+>>>>>>> a29a4728 (.)
      * @param  array<string, mixed>  $notificationData
 =======
      * @param array<string, mixed> $notificationData
@@ -298,7 +323,13 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2fdda20 (.)
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
+=======
+=======
+     * @param  array<string, mixed>  $notificationData
+>>>>>>> 8d298d6 (.)
+>>>>>>> a29a4728 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -477,6 +508,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $subject .= ' #'.$appointment->id;
         }
 
@@ -567,8 +599,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 2fdda20 (.)
             $subject .= ' #' . $appointment->id;
 =======
+=======
+>>>>>>> 8d298d6 (.)
             $subject .= ' #'.$appointment->id;
->>>>>>> bf479cc (.)
         }
         
 <<<<<<< HEAD
