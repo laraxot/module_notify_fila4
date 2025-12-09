@@ -110,6 +110,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -452,6 +453,10 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+     * @param string $message Il messaggio da inviare tramite Telegram
+     * @param array<string, mixed> $options Opzioni aggiuntive per la notifica
+>>>>>>> 161887a2 (.)
      */
     public function __construct(string $message, array $options = [])
     {
@@ -462,6 +467,7 @@ class TelegramNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -799,10 +805,13 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 161887a2 (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
      * @return array<int, class-string>
      */
     public function via($_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -977,6 +986,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     {
         return [TelegramChannel::class];
     }
@@ -1163,9 +1174,8 @@ class TelegramNotification extends Notification implements ShouldQueue
      * @param object|null $notifiable The entity to be notified
      * @return array<string, mixed>
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function toArray(null|object $notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1308,6 +1318,8 @@ class TelegramNotification extends Notification implements ShouldQueue
     public function toArray(null|object $notifiable): array
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     {
         // return $this->data->toArray();
         return [];

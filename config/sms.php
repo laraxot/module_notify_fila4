@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
 =======
@@ -388,6 +389,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 declare(strict_types=1);
 
 
@@ -436,6 +439,7 @@ return [
      * | Nexmo, Plivo, and Gammu.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1242,6 +1246,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 
     'drivers' => [
         'smsfactor' => [
@@ -1346,6 +1352,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1744,6 +1751,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
             'auth_token' => env('TWILIO_AUTH_TOKEN'),
@@ -1846,6 +1855,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2244,6 +2254,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
         'nexmo' => [
             'key' => env('NEXMO_KEY'),
             'secret' => env('NEXMO_SECRET'),
@@ -2346,6 +2358,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2744,6 +2757,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
         'plivo' => [
             'auth_id' => env('PLIVO_AUTH_ID'),
             'auth_token' => env('PLIVO_AUTH_TOKEN'),
@@ -2846,6 +2861,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3244,6 +3260,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
         'gammu' => [
             'path' => env('GAMMU_PATH', '/usr/bin/gammu'),
             'config' => env('GAMMU_CONFIG', '/etc/gammurc'),
@@ -3346,6 +3364,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3744,6 +3763,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
         'netfun' => [
             // Token API fornito da Netfun (obbligatorio)
             'token' => env('NETFUN_TOKEN'),
@@ -3859,6 +3880,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4146,6 +4168,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
             'endpoint' => env('AGILETELECOM_API_URL', 'https://secure.agiletelecom.com/services/sms/send'),
         ],
     ],
@@ -4181,6 +4205,7 @@ return [
      * | You can specify the number of retries and the delay between retries.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5013,11 +5038,14 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5403,6 +5431,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Rate Limiting
@@ -5412,6 +5442,7 @@ return [
      * | This helps prevent abuse and ensures fair usage of the SMS service.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6080,12 +6111,15 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 
     'rate_limit' => [
         'enabled' => env('SMS_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('SMS_RATE_LIMIT_MAX_ATTEMPTS', 60),
         'decay_minutes' => env('SMS_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6471,6 +6505,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Circuit Breaker
@@ -6480,6 +6516,7 @@ return [
      * | This helps prevent cascading failures when the SMS service is down.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7148,12 +7185,15 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 
     'circuit_breaker' => [
         'enabled' => env('SMS_CIRCUIT_BREAKER_ENABLED', true),
         'threshold' => env('SMS_CIRCUIT_BREAKER_THRESHOLD', 5),
         'timeout' => env('SMS_CIRCUIT_BREAKER_TIMEOUT', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7539,6 +7579,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Timeout
@@ -7559,6 +7601,7 @@ return [
      * | This helps track the delivery status and troubleshoot issues.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8358,11 +8401,14 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 
     'logging' => [
         'enabled' => env('SMS_LOGGING_ENABLED', true),
         'channel' => env('SMS_LOGGING_CHANNEL', 'stack'),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8748,6 +8794,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     /*
      * |--------------------------------------------------------------------------
      * | SMS Validation
@@ -8757,6 +8805,7 @@ return [
      * | This helps ensure that only valid phone numbers are used.
      * |
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9425,6 +9474,8 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 
     'validation' => [
         'enabled' => env('SMS_VALIDATION_ENABLED', true),

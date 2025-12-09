@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -253,16 +254,11 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 declare(strict_types=1);
 
 
-=======
->>>>>>> b19cd40 (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> 4e2ebfb (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\NotificationTemplateVersion;
@@ -287,6 +283,7 @@ class NotificationTemplateVersionFactory extends Factory
         return [];
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,3 +501,5 @@ class NotificationTemplateVersionFactory extends Factory
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)

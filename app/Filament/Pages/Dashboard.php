@@ -46,6 +46,7 @@ namespace Modules\Notify\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -92,6 +93,8 @@ namespace Modules\Notify\Filament\Pages;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,14 +296,6 @@ class Dashboard extends XotBaseDashboard
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 75179b85 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
->>>>>>> b19cd40 (.)
-=======
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> 4e2ebfb (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -316,6 +311,7 @@ class Dashboard extends XotBaseDashboard
     public function mount(): void
     {
         /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,11 +480,14 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,5 +765,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
     }
 }
