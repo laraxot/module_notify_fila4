@@ -37,7 +37,11 @@ class OtpSmsNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
 =======
             sender: 'SALUTEORA'
 >>>>>>> f963d2c0 (.)
@@ -215,7 +219,11 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
 =======
             sender: 'SALUTEORA'
 >>>>>>> f963d2c0 (.)
@@ -468,7 +476,11 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
 =======
             sender: 'SALUTEORA',
 >>>>>>> f963d2c0 (.)

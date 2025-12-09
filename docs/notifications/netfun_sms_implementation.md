@@ -178,7 +178,11 @@ class AppointmentReminder extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
 =======
             sender: 'SaluteOra',
 >>>>>>> f963d2c0 (.)

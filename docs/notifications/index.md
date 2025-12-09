@@ -6,7 +6,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> f963d2c0 (.)
@@ -47,7 +51,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> f963d2c0 (.)
 =======
 - SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 >>>>>>> f963d2c0 (.)

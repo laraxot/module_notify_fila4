@@ -46,7 +46,11 @@ $smsData = new SmsData(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from: '<nome progetto>'
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
 =======
     from: 'SaluteOra'
 >>>>>>> f963d2c0 (.)

@@ -11,6 +11,7 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 
 #### Formato 1: Allegato da File Esistente (`path`)
@@ -25,6 +26,8 @@ $attachments = [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 ```php
 // Formato corretto - un array di array di allegati
 $attachments = [
@@ -32,6 +35,9 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -45,7 +51,11 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> f963d2c0 (.)
@@ -61,6 +71,7 @@ $attachments = [
 ];
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +103,8 @@ $attachments = [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 ## Implementazione nella Classe SpatieEmail
 
 La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment` di Laravel per gestire gli allegati in modo robusto:
@@ -108,6 +121,7 @@ public function addAttachments(array $attachments): self
     $attachmentObjects = [];
     
     foreach ($attachments as $item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,6 +145,8 @@ public function addAttachments(array $attachments): self
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
         if (!isset($item['path']) || !file_exists($item['path'])) {
             continue;
         }
@@ -148,6 +164,9 @@ public function addAttachments(array $attachments): self
         $attachmentObjects[] = $attachment;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -176,10 +195,15 @@ public function attachments(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Esempio 1: Allegato da File Esistente
 
 ```php
 // Creazione di un array di allegati da file esistenti
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
 =======
 ```php
 // Creazione di un array di allegati
@@ -207,6 +231,7 @@ Mail::to($recipient)
     ->addAttachments($attachments));
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,6 +415,8 @@ foreach ($records as $record) {
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 ## Opzioni Disponibili per gli Allegati
 
 Ogni allegato deve contenere i seguenti parametri:
@@ -411,6 +438,9 @@ Ogni allegato deve contenere i seguenti parametri:
 - [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)

@@ -5,7 +5,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+=======
+Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> f963d2c0 (.)
 =======
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> f963d2c0 (.)
@@ -31,9 +35,15 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Compatibilità con <nome progetto>
 
 Il componente è compatibile con l'architettura di <nome progetto> e può essere integrato seguendo le convenzioni del progetto:
+=======
+### Compatibilità con SaluteOra
+
+Il componente è compatibile con l'architettura di SaluteOra e può essere integrato seguendo le convenzioni del progetto:
+>>>>>>> f963d2c0 (.)
 =======
 ### Compatibilità con SaluteOra
 
@@ -76,7 +86,11 @@ php artisan vendor:publish --tag="filament-title-with-slug-config"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di <nome progetto>:
+=======
+Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
+>>>>>>> f963d2c0 (.)
 =======
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
 >>>>>>> f963d2c0 (.)
@@ -120,7 +134,11 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per adattare il componente alle esigenze specifiche di <nome progetto>:
+=======
+Per adattare il componente alle esigenze specifiche di SaluteOra:
+>>>>>>> f963d2c0 (.)
 =======
 Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> f963d2c0 (.)
@@ -169,7 +187,11 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->urlHost('https://<nome progetto>.example.com')
+=======
+->urlHost('https://saluteora.example.com')
+>>>>>>> f963d2c0 (.)
 =======
 ->urlHost('https://saluteora.example.com')
 >>>>>>> f963d2c0 (.)
@@ -216,7 +238,11 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Vantaggi per <nome progetto>
+=======
+## Vantaggi per SaluteOra
+>>>>>>> f963d2c0 (.)
 =======
 ## Vantaggi per SaluteOra
 >>>>>>> f963d2c0 (.)
@@ -240,12 +266,15 @@ L'integrazione di questo componente nel modulo Notify offrirebbe:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Conformità con le Convenzioni di <nome progetto>
 
 Per rispettare le convenzioni del progetto, è necessario:
 
 1. **Traduzione**: Configurare le etichette per utilizzare il sistema di traduzione di <nome progetto> anziché testi hardcoded
 =======
+=======
+>>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -257,6 +286,9 @@ Per rispettare le convenzioni del progetto, è necessario:
 1. **Traduzione**: Configurare le etichette per utilizzare il sistema di traduzione di SaluteOra anziché testi hardcoded
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -296,7 +328,11 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di <nome progetto>
+=======
+2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
+>>>>>>> f963d2c0 (.)
 =======
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
 >>>>>>> f963d2c0 (.)
@@ -313,7 +349,11 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di <nome progetto>
+=======
+1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
+>>>>>>> f963d2c0 (.)
 =======
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
 >>>>>>> f963d2c0 (.)
@@ -331,7 +371,11 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di <nome progetto> potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
+=======
+Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
+>>>>>>> f963d2c0 (.)
 =======
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 >>>>>>> f963d2c0 (.)

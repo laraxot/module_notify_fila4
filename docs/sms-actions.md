@@ -56,6 +56,7 @@ $smsData = new SmsData(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from: '<nome progetto>'
 =======
     from: ''
@@ -110,6 +111,9 @@ $smsData = new SmsData(
     from: ''
     from: 'SaluteOra'
 >>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
 );
 
 $action = new SendNetfunSMSAction();

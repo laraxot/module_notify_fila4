@@ -18,7 +18,11 @@ Questo documento descrive le best practices per la creazione e gestione di email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> f963d2c0 (.)
 =======
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> f963d2c0 (.)
@@ -76,7 +80,11 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+=======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> f963d2c0 (.)
 =======
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> f963d2c0 (.)
@@ -97,7 +105,11 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo le regole di progetto <nome progetto>, ricordare di:
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> f963d2c0 (.)
 =======
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> f963d2c0 (.)
