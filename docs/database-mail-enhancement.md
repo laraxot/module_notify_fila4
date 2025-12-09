@@ -57,7 +57,7 @@ class EmailTemplate extends Model {
 
 // 3. Filament Resource
 class EmailTemplateResource extends XotBaseResource {
-    public static function form(Form $form): Form {
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema {
         return $form->schema([
             TextInput::make('name')->required(),
             TextInput::make('subject')->required(),
