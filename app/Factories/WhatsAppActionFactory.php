@@ -372,7 +372,10 @@ use function Safe\preg_replace;
 >>>>>>> 69fa7d37 (.)
 =======
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+<<<<<<< HEAD
 
+=======
+>>>>>>> b19cd40 (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -387,7 +390,9 @@ use function Safe\preg_replace;
 
 /**
  * Factory per la creazione di azioni WhatsApp.
+<<<<<<< HEAD
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -551,6 +556,11 @@ use function Safe\preg_replace;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+ * 
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -735,6 +745,7 @@ final class WhatsAppActionFactory
      * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
+<<<<<<< HEAD
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -1281,8 +1292,11 @@ final class WhatsAppActionFactory
 >>>>>>> a12f125f4a (.)
 =======
 
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
     public function create(?string $driver = null): WhatsAppProviderActionInterface
     {
@@ -1299,6 +1313,7 @@ final class WhatsAppActionFactory
             throw new Exception("Unsupported WhatsApp driver: " . (is_string($driver) ? $driver : '') . ". Class {$className} not found.");
         }
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1432,6 +1447,9 @@ final class WhatsAppActionFactory
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1636,7 +1654,11 @@ final class WhatsAppActionFactory
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         return app($className);
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
