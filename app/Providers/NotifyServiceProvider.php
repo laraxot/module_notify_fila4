@@ -26,11 +26,8 @@ use Override;
 >>>>>>> 75179b85 (.)
 =======
 // use Illuminate\Support\Facades\Notification;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 use Override;
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 // use Illuminate\Support\Facades\Notification;
@@ -107,10 +104,13 @@ use Override;
 // use Illuminate\Support\Facades\Notification;
 use Override;
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 9777d1b3 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +373,9 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 9777d1b3 (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -382,6 +385,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -788,16 +792,14 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-    #[Override]
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
     #[Override]
->>>>>>> 4e2ebfb (.)
     public function boot(): void
     {
         parent::boot();
         //if (! app()->environment('production')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1068,6 +1070,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
         $fallback_to = Arr::get($mail, 'fallback_to', null);
@@ -1076,6 +1080,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -1097,5 +1102,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
     }
 }

@@ -154,6 +154,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $emailData = [];
 =======
 <<<<<<< HEAD
@@ -217,21 +218,16 @@ class SendEmail extends Page implements HasForms
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-    public null|array $emailData = [];
 =======
-    public ?array $emailData = [];
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
     public null|array $emailData = [];
->>>>>>> 4e2ebfb (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -287,6 +283,8 @@ class SendEmail extends Page implements HasForms
     protected static null|string $cluster = Test::class;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 
     public function mount(): void
     {
@@ -334,10 +332,6 @@ class SendEmail extends Page implements HasForms
     public function emailForm(Schema $schema): Schema
     {
         return $schema
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
             ->components([
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
@@ -350,29 +344,6 @@ class SendEmail extends Page implements HasForms
                         RichEditor::make('body_html')->required(),
                     ]),
             ])
-<<<<<<< HEAD
-=======
-            ->components(
-                [
-                    Section::make()
-                        // ->description('Update your account\'s profile information and email address.')
-                        ->schema(
-                            [
-                                TextInput::make('to')
-                                    // ->unique(ignoreRecord: true)
-                                    ->email()
-                                    ->required(),
-                                TextInput::make('subject')
-                                    ->required(),
-                                RichEditor::make('body_html')
-                                    ->required(),
-                            ]
-                        ),
-                ]
-            )
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             ->model($this->getUser())
             ->statePath('emailData');
     }
@@ -397,18 +368,7 @@ class SendEmail extends Page implements HasForms
         $email_data = EmailData::from($data);
         // $from_address = config('mail.from.address');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         Mail::to($data['to'])->send(new EmailDataEmail($email_data));
-=======
-        Mail::to($data['to'])
-            ->send(
-                new EmailDataEmail($email_data)
-            );
->>>>>>> b19cd40 (.)
-=======
-        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
->>>>>>> 4e2ebfb (.)
 
         Notification::make()
             ->success()
@@ -427,17 +387,7 @@ class SendEmail extends Page implements HasForms
     protected function getEmailFormActions(): array
     {
         return [
-<<<<<<< HEAD
-<<<<<<< HEAD
             Action::make('emailFormActions')->submit('emailFormActions'),
-=======
-            Action::make('emailFormActions')
-
-                ->submit('emailFormActions'),
->>>>>>> b19cd40 (.)
-=======
-            Action::make('emailFormActions')->submit('emailFormActions'),
->>>>>>> 4e2ebfb (.)
         ];
     }
 
@@ -453,12 +403,15 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -493,13 +446,6 @@ class SendEmail extends Page implements HasForms
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
-<<<<<<< HEAD
-=======
-        if (! $user instanceof Model) {
-            throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         }
 
         return $user;

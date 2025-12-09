@@ -50,6 +50,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -300,6 +301,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -1120,156 +1123,6 @@ final class NotificationLog extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
      * Ottiene il notifiable associato a questo log.
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Carbon;
-use Modules\Predict\Models\Profile;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Collection;
-use Closure;
-use Illuminate\Contracts\Database\Query\Expression;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Modules\User\Models\Traits\HasTenants;
-use Modules\Xot\Traits\Updater;
-
-/**
- * NotificationLog model for logging sent notifications.
- *
- * @property int $id
- * @property int|null $template_id
- * @property string $notifiable_type
- * @property int $notifiable_id
- * @property string $channel
- * @property string $status
- * @property string|null $status_message
- * @property array<string, mixed>|null $data
- * @property array<string, mixed>|null $metadata
- * @property Carbon|null $sent_at
- * @property Carbon|null $delivered_at
- * @property Carbon|null $failed_at
- * @property Carbon|null $opened_at
- * @property Carbon|null $clicked_at
- * @property int|null $tenant_id
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property-read NotificationTemplate|null $template
- * @property-read Model $notifiable
- * @property string $title
- * @property string $content
- * @property string $channels
- * @property string|null $error
- * @property-read Profile|null $creator
- * @property-read string $channel_label
- * @property-read string $status_label
- * @property-read Profile|null $updater
- *
- * @method static Builder<static>|NotificationLog forChannel(string $channel)
- * @method static Builder<static>|NotificationLog forNotifiable(Model $notifiable)
- * @method static Builder<static>|NotificationLog newModelQuery()
- * @method static Builder<static>|NotificationLog newQuery()
- * @method static Builder<static>|NotificationLog query()
- * @method static Builder<static>|NotificationLog whereChannels($value)
- * @method static Builder<static>|NotificationLog whereContent($value)
- * @method static Builder<static>|NotificationLog whereCreatedAt($value)
- * @method static Builder<static>|NotificationLog whereData($value)
- * @method static Builder<static>|NotificationLog whereError($value)
- * @method static Builder<static>|NotificationLog whereId($value)
- * @method static Builder<static>|NotificationLog whereNotifiableId($value)
- * @method static Builder<static>|NotificationLog whereNotifiableType($value)
- * @method static Builder<static>|NotificationLog whereSentAt($value)
- * @method static Builder<static>|NotificationLog whereStatus($value)
- * @method static Builder<static>|NotificationLog whereTitle($value)
- * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
- * @method static Builder<static>|NotificationLog withStatus(string $status)
- * @method static NotificationLog|null first()
- * @method static Collection<int, NotificationLog> get()
- * @method static NotificationLog create(array $attributes = [])
- * @method static NotificationLog firstOrCreate(array $attributes = [], array $values = [])
- * @method static Builder<static>|NotificationLog where((string|Closure) $column, mixed $operator = null, mixed $value = null, string $boolean = 'and')
- * @method static Builder<static>|NotificationLog whereNotNull((string|Expression) $columns)
- * @method static int count(string $columns = '*')
- *
- * @mixin \Eloquent
- */
-class NotificationLog extends Model
-{
-    use HasFactory;
-    use HasTenants;
-    use Updater;
-
-    public const STATUS_PENDING = 'pending';
-
-    public const STATUS_PROCESSING = 'processing';
-
-    public const STATUS_SENT = 'sent';
-
-    public const STATUS_DELIVERED = 'delivered';
-
-    public const STATUS_FAILED = 'failed';
-
-    public const STATUS_SKIPPED = 'skipped';
-
-    public const STATUS_OPENED = 'opened';
-
-    public const STATUS_CLICKED = 'clicked';
-
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
-    protected $table = 'notification_logs';
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var list<string>
-     */
-    protected $fillable = [
-        'template_id',
-        'notifiable_type',
-        'notifiable_id',
-        'channel',
-        'status',
-        'status_message',
-        'data',
-        'metadata',
-        'sent_at',
-        'delivered_at',
-        'failed_at',
-        'opened_at',
-        'clicked_at',
-        'tenant_id',
-    ];
-
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    protected function casts(): array
-    {
-        return [
-            'data' => 'array',
-            'metadata' => 'array',
-            'sent_at' => 'datetime',
-            'delivered_at' => 'datetime',
-            'failed_at' => 'datetime',
-            'opened_at' => 'datetime',
-            'clicked_at' => 'datetime',
-            'created_at' => 'datetime',
-            'updated_at' => 'datetime',
-        ];
-    }
-
-    /**
-     * Get the notifiable entity.
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
      */
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1557,10 +1410,6 @@ class NotificationLog extends Model
 =======
 >>>>>>> 75179b85 (.)
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -1580,6 +1429,7 @@ class NotificationLog extends Model
         Builder $query,
         NotificationLogStatusEnum $status,
     ): Builder {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1735,10 +1585,13 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
         return $query->where('status', $status);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1884,6 +1737,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -1891,6 +1746,7 @@ class NotificationLog extends Model
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2122,6 +1978,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
     }
 
     /**
