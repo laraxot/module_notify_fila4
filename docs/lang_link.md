@@ -83,6 +83,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -253,6 +254,8 @@
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> eb71492d (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -339,6 +342,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -441,6 +445,9 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 =======
 >>>>>>> e790eb33 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/project_docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -451,6 +458,7 @@ Consulta la documentazione delle traduzioni:
 ## Collegamento Bidirezionale
 
 Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in questo modulo e la relativa sezione in [Lang](../../Lang/project_docs/).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -678,10 +686,14 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
 
 > Aggiorna entrambi i riferimenti se aggiungi nuove chiavi di traduzione o modifichi la struttura.
 
 ## Collegamenti tra versioni di lang-link.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +927,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> eb71492d (.)
 * [lang-link.md](../../../Chart/docs/lang-link.md)
 * [lang-link.md](../../../Reporting/docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/docs/lang-link.md)
@@ -1005,6 +1019,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1105,6 +1120,9 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 =======
 >>>>>>> e790eb33 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
 * [lang-link.md](../../../Chart/project_docs/lang-link.md)
 * [lang-link.md](../../../Reporting/project_docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/project_docs/lang-link.md)
@@ -1119,6 +1137,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Activity/project_docs/lang-link.md)
 * [lang-link.md](../../../Patient/project_docs/lang-link.md)
 * [lang-link.md](../../../Cms/project_docs/lang-link.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,6 +1345,9 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
 
 =======
 >>>>>>> 5fd545e4 (.)
