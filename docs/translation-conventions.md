@@ -442,7 +442,11 @@ Per verificare se le traduzioni sono applicate correttamente:
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> eb62d6cf (rebase 210)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
+<<<<<<< HEAD
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/10.x/localization)
+>>>>>>> d284d65 (.)
 
 ## Nota sui collegamenti
 
