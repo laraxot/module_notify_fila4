@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -326,6 +327,8 @@
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
 <?php
 
 declare(strict_types=1);
@@ -335,6 +338,7 @@ declare(strict_types=1);
 @section('content')
 <h1>Alert Inviato</h1>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -541,10 +545,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 >>>>>>> e790eb33 (.)
 =======
+>>>>>>> f81a620f (.)
+=======
 @extends('adm_theme::layouts.app')
 @section('content')
 <h1>Alert Inviato</h1>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -854,3 +861,6 @@ declare(strict_types=1);
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)

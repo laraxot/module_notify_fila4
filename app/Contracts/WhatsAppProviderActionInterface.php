@@ -90,6 +90,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -154,10 +155,13 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,6 +524,8 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
  *
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -614,6 +620,7 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -678,10 +685,13 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1044,3 +1054,5 @@ interface WhatsAppProviderActionInterface
 =======
 }
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)

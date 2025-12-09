@@ -87,6 +87,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -328,6 +329,8 @@ use Illuminate\Support\Arr;
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -351,6 +354,7 @@ class SmsFactorData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +607,8 @@ class SmsFactorData extends Data
 =======
 >>>>>>> e790eb33 (.)
 =======
+>>>>>>> f81a620f (.)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -624,6 +630,7 @@ class SmsFactorData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.smsfactor', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -911,6 +918,9 @@ class SmsFactorData extends Data
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -926,6 +936,7 @@ class SmsFactorData extends Data
                 return [
                     'Authorization' => 'Bearer '.$this->token,
                     'Content-Type' => 'application/json',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1072,10 +1083,13 @@ class SmsFactorData extends Data
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
                     'Cache-Control' => 'no-cache',
 =======
                     'Cache-Control' => 'no-cache'
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1438,6 +1452,8 @@ class SmsFactorData extends Data
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
                 ];
         }
     }

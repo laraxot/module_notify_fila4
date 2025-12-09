@@ -86,6 +86,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -150,6 +151,8 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
@@ -157,6 +160,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -575,6 +579,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
 
 class EditNotificationTemplate extends XotBaseEditRecord
 {
@@ -661,6 +667,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -902,6 +909,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> f81a620f (.)
 
     /*
      * protected function getRedirectUrl(): string
@@ -921,6 +930,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
      * }
      */
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1158,6 +1168,9 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+=======
+>>>>>>> f81a620f (.)
     /*
     protected function getRedirectUrl(): string
     {
@@ -1176,6 +1189,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
     }
     */
 } 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1501,3 +1515,6 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)

@@ -277,6 +277,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -395,6 +396,8 @@ Overall Module Completion: 60%
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 59916c8f (.)
+=======
+>>>>>>> f81a620f (.)
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/docs/roadmap.md)
@@ -542,6 +545,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -718,6 +722,11 @@ Overall Module Completion: 60%
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 59916c8f (.)
+=======
+=======
+* [roadmap.md](bashscripts/project_docs/roadmap.md)
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
 * [roadmap.md](docs/roadmap.md)
 * [roadmap.md](../../../Gdpr/project_docs/roadmap.md)
 * [roadmap.md](../../../Notify/project_docs/roadmap.md)
@@ -1041,6 +1050,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1133,6 +1143,8 @@ Overall Module Completion: 60%
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 59916c8f (.)
+=======
+>>>>>>> f81a620f (.)
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
@@ -1246,6 +1258,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1544,6 +1557,11 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_d
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 59916c8f (.)
+=======
+=======
+Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md).
