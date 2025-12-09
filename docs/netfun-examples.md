@@ -140,6 +140,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -382,6 +383,9 @@ class OtpSmsNotification extends NetfunSmsNotification
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> febe79e3 (.)
         );
     }
 
@@ -606,6 +610,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -848,6 +853,9 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SALUTEORA'
+>>>>>>> febe79e3 (.)
         );
     }
 
@@ -1147,6 +1155,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -1389,6 +1398,9 @@ public function sendBulkSms(Request $request)
 >>>>>>> 66453ace (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SALUTEORA',
+>>>>>>> febe79e3 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
