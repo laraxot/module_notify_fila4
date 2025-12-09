@@ -436,6 +436,7 @@ describe('Template Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -488,6 +489,10 @@ describe('Template Management Business Logic', function () {
 });
 =======
 >>>>>>> d09cb759 (.)
+=======
+});
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +507,7 @@ describe('Template Management Business Logic', function () {
 }
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -554,3 +560,5 @@ describe('Template Management Business Logic', function () {
 =======
 });
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)

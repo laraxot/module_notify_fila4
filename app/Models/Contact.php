@@ -26,6 +26,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -42,10 +43,13 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -87,12 +91,15 @@ namespace Modules\Notify\Models;
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,11 +147,15 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> 011072e4 (.)
 =======
+=======
+>>>>>>> 4689a827 (.)
+=======
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,6 +183,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
@@ -186,6 +199,7 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -228,6 +242,8 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
 use Illuminate\Support\Carbon;
 
 /**
@@ -272,6 +288,10 @@ use Illuminate\Support\Carbon;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -327,6 +347,66 @@ use Illuminate\Support\Carbon;
  * @property string|null $deleted_by
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
+<<<<<<< HEAD
+=======
+=======
+ * @method static \Modules\Notify\Database\Factories\ContactFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereContactType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereModelId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereModelType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereLastName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereMailCount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereMailSentAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereMobilePhone($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereOrderColumn($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereSmsCount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereSmsSentAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereSmsStatusCode($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereSmsStatusTxt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereSurveyPdfId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereUpdatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereUserId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereValue($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereVerifiedAt($value)
+ * @mixin Eloquent
+ * @property string|null $email
+ * @property string|null $mobile_phone
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute1($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute10($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute11($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute12($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute13($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute14($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute2($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute3($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute4($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute5($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute6($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute7($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute8($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereAttribute9($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereDuplicateCount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereFirstName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Contact whereUsesleft($value)
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Spatie\MediaLibrary\MediaCollections\Models\Media> $media
+ * @property int|null $media_count
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Contact whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Contact whereDeletedBy($value)
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
  * @mixin IdeHelperContact
  * @mixin \Eloquent
  */
@@ -353,6 +433,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -390,12 +471,15 @@ class Contact extends BaseModel
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
@@ -422,6 +506,8 @@ class Contact extends BaseModel
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
         'model_id',
         'model_type',
         'contact_type',
@@ -433,10 +519,15 @@ class Contact extends BaseModel
         'created_by',
         'user_id',
         'token',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
     ];
 
     /** @return array<string, string> */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,9 +566,12 @@ class Contact extends BaseModel
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -494,6 +588,8 @@ class Contact extends BaseModel
 =======
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
         'model_id', 'model_type', 'contact_type', 'value',
         'verified_at', 'updated_at', 'created_at',
         'updated_by', 'created_by', 'user_id', 'token',
@@ -506,6 +602,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,6 +625,8 @@ class Contact extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
 >>>>>>> a12f125f4a (.)
 =======
     ];
@@ -538,6 +637,7 @@ class Contact extends BaseModel
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -582,6 +682,8 @@ class Contact extends BaseModel
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
     protected function casts(): array
     {
         return [
@@ -612,6 +714,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -634,6 +737,8 @@ class Contact extends BaseModel
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -644,6 +749,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -652,12 +758,15 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -671,11 +780,14 @@ class Contact extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
 
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,9 +819,13 @@ class Contact extends BaseModel
 =======
 >>>>>>> 011072e4 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,10 +849,13 @@ class Contact extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -802,6 +921,8 @@ class Contact extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',
