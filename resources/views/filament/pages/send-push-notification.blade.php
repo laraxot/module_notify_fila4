@@ -243,6 +243,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
                 <div>
@@ -600,6 +601,10 @@ declare(strict_types=1);
 >>>>>>> 599eea9c (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+>>>>>>> 1442e291 (rebase 210)
                 </div>
             </div>
         </div>
