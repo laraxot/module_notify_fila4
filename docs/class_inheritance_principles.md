@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
@@ -15,6 +14,8 @@
 # Principi di Ereditarietà nelle Classi <nome progetto>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> 75179b85 (.)
 
@@ -92,8 +93,6 @@ Per identificare dichiarazioni duplicate, usare:
 ```bash
 
 # Trova classi che estendono XotBasePage e implementano HasForms
-<<<<<<< HEAD
-<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 <<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
@@ -101,14 +100,6 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
 >>>>>>> 75179b85 (.)
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
-=======
-grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
->>>>>>> b19cd40 (.)
-=======
-grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
-grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
-grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
->>>>>>> 4e2ebfb (.)
 ```
 
 ## Riferimenti

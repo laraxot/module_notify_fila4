@@ -28,15 +28,7 @@ class NetfunSendAction
     {
         // Prepare the action for execution, leveraging constructor injection.
         $token = config('services.netfun.token');
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!is_string($token)) {
-=======
-        if (! is_string($token)) {
->>>>>>> b19cd40 (.)
-=======
-        if (!is_string($token)) {
->>>>>>> 4e2ebfb (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -60,15 +52,7 @@ class NetfunSendAction
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!Str::startsWith($smsData->to, '+')) {
-=======
-        if (! Str::startsWith($smsData->to, '+')) {
->>>>>>> b19cd40 (.)
-=======
-        if (!Str::startsWith($smsData->to, '+')) {
->>>>>>> 4e2ebfb (.)
             $smsData->to = '+39' . $smsData->to;
         }
 
@@ -78,25 +62,11 @@ class NetfunSendAction
             'sender' => $smsData->from,
             'text_template' => $smsData->body, // .'  '.rand(1, 100),
             /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
              * 'delivery_callback' => 'https://www.google.com?code={{code}}',
              * 'default_placeholders' => [
              * 'code' => '0000',
              * ],
              */
-<<<<<<< HEAD
-=======
-            'delivery_callback' => 'https://www.google.com?code={{code}}',
-            'default_placeholders' => [
-                'code' => '0000',
-            ],
-            */
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             'async' => true,
             // 'max_sms_length' => 1,
             'utf8_enabled' => true,
@@ -104,27 +74,12 @@ class NetfunSendAction
                 [
                     'number' => $smsData->to,
                     /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
                      * 'placeholders' => [
                      * 'fullName' => 'Santi',
                      * 'body' => 'Ciao, hai vinto il premio',
                      * 'code' => '1234',
                      * ],
                      */
-<<<<<<< HEAD
-=======
-                    'placeholders' => [
-                        'fullName' => 'Santi',
-                        'body' => 'Ciao, hai vinto il premio',
-                        'code' => '1234',
-                    ],
-                    */
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
                 ],
             ],
         ];
@@ -135,10 +90,6 @@ class NetfunSendAction
         try {
             $response = $client->post($endpoint, ['json' => $body]);
         } catch (ClientException $clientException) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
             throw new Exception(
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
                 $clientException->getCode(),
@@ -153,21 +104,6 @@ class NetfunSendAction
          * echo '<pre>'.var_export($response->getStatusCode(), true).'</pre>';
          * echo '<pre>'.var_export($response->getBody()->getContents(), true).'</pre>';
          */
-<<<<<<< HEAD
-=======
-            throw new Exception($clientException->getMessage().'['.__LINE__.']['.class_basename($this).']', $clientException->getCode(), $clientException);
-        }
-
-        /*
-        echo '<hr/>';
-        echo '<pre>to: '.$this->to.'</pre>';
-        echo '<pre>body: '.$this->body.'</pre>';
-        echo '<pre>'.var_export($response->getStatusCode(), true).'</pre>';
-        echo '<pre>'.var_export($response->getBody()->getContents(), true).'</pre>';
-        */
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
         $this->vars['status_code'] = $response->getStatusCode();
         $this->vars['status_txt'] = $response->getBody()->getContents();

@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 use Illuminate\Support\Arr;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -31,33 +27,6 @@ class TwilioData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.twilio', []);
              */
-<<<<<<< HEAD
-=======
-use Spatie\LaravelData\Data;
-use Webmozart\Assert\Assert;
-use Illuminate\Support\Facades\Config;
-use Modules\Tenant\Services\TenantService;
-
-class TwilioData extends Data
-{
-    public ?string $account_sid;
-    public ?string $auth_token;
-    public ?string $base_url;
-    public string $auth_type = 'basic';
-    public int $timeout = 30;
-
-    private static ?self $instance = null;
-
-    public static function make(): self
-    {
-        if (! self::$instance instanceof TwilioData) {
-            /*
-            $data = TenantService::getConfig('sms');
-            $data = Arr::get($data, 'drivers.twilio', []);
-            */
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -72,15 +41,7 @@ class TwilioData extends Data
             default:
                 return [
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
-<<<<<<< HEAD
-<<<<<<< HEAD
                     'Content-Type' => 'application/x-www-form-urlencoded',
-=======
-                    'Content-Type' => 'application/x-www-form-urlencoded'
->>>>>>> b19cd40 (.)
-=======
-                    'Content-Type' => 'application/x-www-form-urlencoded',
->>>>>>> 4e2ebfb (.)
                 ];
         }
     }

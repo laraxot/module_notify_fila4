@@ -7,17 +7,15 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-use Override;
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
 use Filament\Tables\Columns\IconColumn;
@@ -32,21 +30,10 @@ use Override;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 75179b85 (.)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -76,51 +63,6 @@ class ListContacts extends XotBaseListRecords
                 fn(Builder $query): Builder => $query->where('active', false),
 >>>>>>> 75179b85 (.)
             ),
-<<<<<<< HEAD
-=======
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => TextColumn::make('id')
-                ->numeric()
-                ->sortable(),
-            'name' => TextColumn::make('name')
-                ->searchable()
-                ->sortable(),
-            'email' => TextColumn::make('email')
-                ->searchable()
-                ->sortable(),
-            'phone' => TextColumn::make('phone')
-                ->searchable()
-                ->sortable(),
-            'message' => TextColumn::make('message')
-                ->searchable()
-                ->sortable(),
-            'is_read' => IconColumn::make('is_read')
-                ->boolean(),
-            'created_at' => TextColumn::make('created_at')
-                ->dateTime()
-                ->sortable(),
-            'updated_at' => TextColumn::make('updated_at')
-                ->dateTime()
-                ->sortable(),
-        ];
-    }
-
-    public function getTableFilters(): array
-    {
-        return [
-            'active' => Filter::make('active')
-                ->query(function (Builder $query): Builder {
-                    return $query->where('active', true);
-                }),
-            'inactive' => Filter::make('inactive')
-                ->query(function (Builder $query): Builder {
-                    return $query->where('active', false);
-                }),
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
         ];
     }
 }

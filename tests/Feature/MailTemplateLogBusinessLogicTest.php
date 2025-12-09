@@ -3,21 +3,9 @@
 declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Carbon\Carbon;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
-=======
-use Modules\Notify\Models\MailTemplateLog;
-use Modules\Notify\Models\MailTemplate;
-use Carbon\Carbon;
->>>>>>> b19cd40 (.)
-=======
-use Carbon\Carbon;
-use Modules\Notify\Models\MailTemplate;
-use Modules\Notify\Models\MailTemplateLog;
->>>>>>> 4e2ebfb (.)
 
 describe('Mail Template Log Business Logic', function () {
     it('can create mail template log with basic information', function () {
@@ -56,10 +44,6 @@ describe('Mail Template Log Business Logic', function () {
             'status_message' => 'Email inviata con successo',
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->status)
             ->toBe('sent')
             ->and($log->status_message)
@@ -70,16 +54,6 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('Mario Rossi')
             ->and($log->metadata['campaign_id'])
             ->toBe('appointment_confirmation_001');
-<<<<<<< HEAD
-=======
-        expect($log->status)->toBe('sent')
-            ->and($log->status_message)->toBe('Email inviata con successo')
-            ->and($log->data['recipient'])->toBe('patient@example.com')
-            ->and($log->data['variables']['patient_name'])->toBe('Mario Rossi')
-            ->and($log->metadata['campaign_id'])->toBe('appointment_confirmation_001');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can manage mail template log relationships', function () {
@@ -88,16 +62,7 @@ describe('Mail Template Log Business Logic', function () {
             'template_id' => $template->id,
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
-=======
-        expect($log->template)->toBeInstanceOf(MailTemplate::class)
-            ->and($log->template->id)->toBe($template->id);
->>>>>>> b19cd40 (.)
-=======
-        expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
->>>>>>> 4e2ebfb (.)
     });
 
     it('can track email lifecycle events', function () {
@@ -132,10 +97,6 @@ describe('Mail Template Log Business Logic', function () {
             'clicked_at' => now()->addMinutes(7),
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->status)
             ->toBe('clicked')
             ->and($log->sent_at)
@@ -143,16 +104,6 @@ describe('Mail Template Log Business Logic', function () {
             ->not->toBeNull()->and($log->opened_at)
             ->not->toBeNull()->and($log->clicked_at)
             ->not->toBeNull();
-<<<<<<< HEAD
-=======
-        expect($log->status)->toBe('clicked')
-            ->and($log->sent_at)->not->toBeNull()
-            ->and($log->delivered_at)->not->toBeNull()
-            ->and($log->opened_at)->not->toBeNull()
-            ->and($log->clicked_at)->not->toBeNull();
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can handle email failure scenarios', function () {
@@ -175,10 +126,6 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -187,16 +134,6 @@ describe('Mail Template Log Business Logic', function () {
             ->not->toBeNull()->and($log->metadata['error_code'])->toBe('INVALID_EMAIL')->and(
                 $log->metadata['retry_count'],
             )->toBe(3);
-<<<<<<< HEAD
-=======
-        expect($log->status)->toBe('failed')
-            ->and($log->status_message)->toBe('Indirizzo email non valido: invalid@email')
-            ->and($log->failed_at)->not->toBeNull()
-            ->and($log->metadata['error_code'])->toBe('INVALID_EMAIL')
-            ->and($log->metadata['retry_count'])->toBe(3);
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can manage mailable polymorphic relationships', function () {
@@ -208,24 +145,12 @@ describe('Mail Template Log Business Logic', function () {
             'mailable_id' => 456,
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->mailable_type)
             ->toBe('App\Models\Appointment')
             ->and($log->mailable_id)
             ->toBe(456)
             ->and($log->mailable())
             ->toBeInstanceOf(MorphTo::class);
-<<<<<<< HEAD
-=======
-        expect($log->mailable_type)->toBe('App\Models\Appointment')
-            ->and($log->mailable_id)->toBe(456)
-            ->and($log->mailable())->toBeInstanceOf(MorphTo::class);
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can handle complex data structures', function () {
@@ -268,10 +193,6 @@ describe('Mail Template Log Business Logic', function () {
             'data' => $complexData,
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->data['recipient']['email'])
             ->toBe('patient@example.com')
             ->and($log->data['recipient']['name'])
@@ -284,17 +205,6 @@ describe('Mail Template Log Business Logic', function () {
             ->toContain('consent_form.pdf')
             ->and($log->data['delivery_options']['priority'])
             ->toBe('high');
-<<<<<<< HEAD
-=======
-        expect($log->data['recipient']['email'])->toBe('patient@example.com')
-            ->and($log->data['recipient']['name'])->toBe('Mario Rossi')
-            ->and($log->data['recipient']['preferences']['language'])->toBe('it')
-            ->and($log->data['template_data']['variables']['doctor_name'])->toBe('Dr. Bianchi')
-            ->and($log->data['template_data']['attachments'])->toContain('consent_form.pdf')
-            ->and($log->data['delivery_options']['priority'])->toBe('high');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can manage metadata for analytics', function () {
@@ -331,10 +241,6 @@ describe('Mail Template Log Business Logic', function () {
             'metadata' => $analyticsMetadata,
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->metadata['campaign_id'])
             ->toBe('appointment_confirmation_q4_2024')
             ->and($log->metadata['segment'])
@@ -347,17 +253,6 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('mobile')
             ->and($log->metadata['engagement_metrics']['open_rate'])
             ->toBe(0.85);
-<<<<<<< HEAD
-=======
-        expect($log->metadata['campaign_id'])->toBe('appointment_confirmation_q4_2024')
-            ->and($log->metadata['segment'])->toBe('new_patients')
-            ->and($log->metadata['geolocation']['country'])->toBe('IT')
-            ->and($log->metadata['geolocation']['city'])->toBe('Milano')
-            ->and($log->metadata['device_info']['type'])->toBe('mobile')
-            ->and($log->metadata['engagement_metrics']['open_rate'])->toBe(0.85);
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can handle delivery status transitions', function () {
@@ -375,16 +270,7 @@ describe('Mail Template Log Business Logic', function () {
             'status_message' => 'Email inviata al server SMTP',
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
-=======
-        expect($log->status)->toBe('sent')
-            ->and($log->sent_at)->not->toBeNull();
->>>>>>> b19cd40 (.)
-=======
-        expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
->>>>>>> 4e2ebfb (.)
 
         // Transizione: sent -> delivered
         $log->update([
@@ -393,16 +279,7 @@ describe('Mail Template Log Business Logic', function () {
             'status_message' => 'Email consegnata alla casella di posta',
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
-=======
-        expect($log->status)->toBe('delivered')
-            ->and($log->delivered_at)->not->toBeNull();
->>>>>>> b19cd40 (.)
-=======
-        expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
->>>>>>> 4e2ebfb (.)
 
         // Transizione: delivered -> opened
         $log->update([
@@ -411,16 +288,7 @@ describe('Mail Template Log Business Logic', function () {
             'status_message' => 'Email aperta dal destinatario',
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
-=======
-        expect($log->status)->toBe('opened')
-            ->and($log->opened_at)->not->toBeNull();
->>>>>>> b19cd40 (.)
-=======
-        expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
->>>>>>> 4e2ebfb (.)
     });
 
     it('can handle bounce and complaint scenarios', function () {
@@ -444,10 +312,6 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->status)
             ->toBe('bounced')
             ->and($log->status_message)
@@ -456,15 +320,6 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('hard')
             ->and($log->metadata['bounce_reason'])
             ->toBe('Address does not exist');
-<<<<<<< HEAD
-=======
-        expect($log->status)->toBe('bounced')
-            ->and($log->status_message)->toBe('Indirizzo email inesistente')
-            ->and($log->metadata['bounce_type'])->toBe('hard')
-            ->and($log->metadata['bounce_reason'])->toBe('Address does not exist');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
         // Simula complaint
         $log->update([
@@ -478,24 +333,12 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->status)
             ->toBe('complained')
             ->and($log->status_message)
             ->toBe('Email segnalata come spam')
             ->and($log->metadata['complaint_type'])
             ->toBe('abuse');
-<<<<<<< HEAD
-=======
-        expect($log->status)->toBe('complained')
-            ->and($log->status_message)->toBe('Email segnalata come spam')
-            ->and($log->metadata['complaint_type'])->toBe('abuse');
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can manage retry logic', function () {
@@ -522,16 +365,7 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
-=======
-        expect($log->status)->toBe('retrying')
-            ->and($log->metadata['retry_count'])->toBe(1);
->>>>>>> b19cd40 (.)
-=======
-        expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
->>>>>>> 4e2ebfb (.)
 
         // Secondo retry
         $log->update([
@@ -558,10 +392,6 @@ describe('Mail Template Log Business Logic', function () {
             ],
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -570,15 +400,6 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe(3)
             ->and($log->metadata['final_failure'])
             ->toBeTrue();
-<<<<<<< HEAD
-=======
-        expect($log->status)->toBe('failed')
-            ->and($log->status_message)->toBe('Tutti i tentativi falliti')
-            ->and($log->metadata['retry_count'])->toBe(3)
-            ->and($log->metadata['final_failure'])->toBeTrue();
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can handle empty or null values gracefully', function () {
@@ -596,10 +417,6 @@ describe('Mail Template Log Business Logic', function () {
             'clicked_at' => null,
         ]);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->status_message)
             ->toBeNull()
             ->and($log->data)
@@ -616,19 +433,6 @@ describe('Mail Template Log Business Logic', function () {
             ->toBeNull()
             ->and($log->clicked_at)
             ->toBeNull();
-<<<<<<< HEAD
-=======
-        expect($log->status_message)->toBeNull()
-            ->and($log->data)->toBeNull()
-            ->and($log->metadata)->toBeNull()
-            ->and($log->sent_at)->toBeNull()
-            ->and($log->delivered_at)->toBeNull()
-            ->and($log->failed_at)->toBeNull()
-            ->and($log->opened_at)->toBeNull()
-            ->and($log->clicked_at)->toBeNull();
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 
     it('can validate timestamp consistency', function () {
@@ -644,10 +448,6 @@ describe('Mail Template Log Business Logic', function () {
         ]);
 
         // Verifica che i timestamp siano in ordine cronologico
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
         expect($log->sent_at->lt($log->delivered_at))
             ->toBeTrue()
             ->and($log->delivered_at->lt($log->opened_at))
@@ -664,19 +464,5 @@ describe('Mail Template Log Business Logic', function () {
             ->toBeTrue()
             ->and($log->clicked_at->lte(now()))
             ->toBeTrue();
-<<<<<<< HEAD
-=======
-        expect($log->sent_at->lt($log->delivered_at))->toBeTrue()
-            ->and($log->delivered_at->lt($log->opened_at))->toBeTrue()
-            ->and($log->opened_at->lt($log->clicked_at))->toBeTrue();
-
-        // Verifica che i timestamp non siano nel futuro
-        expect($log->sent_at->lte(now()))->toBeTrue()
-            ->and($log->delivered_at->lte(now()))->toBeTrue()
-            ->and($log->opened_at->lte(now()))->toBeTrue()
-            ->and($log->clicked_at->lte(now()))->toBeTrue();
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
     });
 });

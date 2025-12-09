@@ -10,9 +10,8 @@
 // Struttura CORRETTA in config/sms.php
 return [
     // Configurazioni di base (applicate a tutti i provider)
-<<<<<<< HEAD
-<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
@@ -27,6 +26,8 @@ return [
     'from' => env('SMS_FROM', '<nome progetto>'),
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
     'retry' => [
@@ -43,9 +44,8 @@ return [
     'drivers' => [
         'netfun' => [
             'api_key' => env('NETFUN_API_KEY'),
-<<<<<<< HEAD
-<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
@@ -60,6 +60,8 @@ return [
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
@@ -133,9 +135,8 @@ Quando configuri il file `.env`, utilizza questi nomi di variabili:
 ```
 
 # Configurazione generale SMS
-<<<<<<< HEAD
-<<<<<<< HEAD
 SMS_FROM=<nome progetto>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 SMS_FROM=<nome progetto>
@@ -150,6 +151,8 @@ SMS_FROM=<nome progetto>
 SMS_FROM=<nome progetto>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 SMS_RETRY_ATTEMPTS=3
@@ -157,9 +160,8 @@ SMS_RETRY_DELAY=60
 
 # Netfun
 NETFUN_API_KEY=your_api_key_here
-<<<<<<< HEAD
-<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
@@ -174,6 +176,8 @@ NETFUN_SENDER=<nome progetto>
 NETFUN_SENDER=<nome progetto>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 75179b85 (.)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json

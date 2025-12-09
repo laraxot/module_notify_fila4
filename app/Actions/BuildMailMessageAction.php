@@ -23,15 +23,7 @@ class BuildMailMessageAction
         string $name,
         Model $model,
         array $view_params = [],
-<<<<<<< HEAD
-<<<<<<< HEAD
         null|DataCollection $dataCollection = null,
-=======
-        ?DataCollection $dataCollection = null
->>>>>>> b19cd40 (.)
-=======
-        null|DataCollection $dataCollection = null,
->>>>>>> 4e2ebfb (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -43,60 +35,25 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
-<<<<<<< HEAD
-        $email = new MailMessage()
-=======
-        
-        if (!is_string($subject)) {
-            $subject = 'Notifica';
-        }
-        
-        $email = (new MailMessage())
->>>>>>> b19cd40 (.)
-            ->from($fromAddress, $fromName)
-            ->subject($subject)
-            ->view($view_html, $theme->view_params);
-=======
         $email = new MailMessage();
         $email = $email->from($fromAddress, $fromName);
         $email = $email->subject($subject);
         $email = $email->view($view_html, $theme->view_params);
->>>>>>> 4e2ebfb (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {
