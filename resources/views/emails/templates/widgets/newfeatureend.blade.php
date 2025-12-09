@@ -165,6 +165,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -565,6 +566,8 @@
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 9f07b0d4 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -1313,13 +1316,19 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 </td>
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> c8eedbb (.)
+>>>>>>> 9f07b0d4 (.)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2296,6 +2305,8 @@ declare(strict_types=1);
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 9f07b0d4 (.)
+=======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> 75179b8 (.)
 =======
@@ -2315,4 +2326,10 @@ declare(strict_types=1);
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
+>>>>>>> c8eedbb (.)
+>>>>>>> 9f07b0d4 (.)
