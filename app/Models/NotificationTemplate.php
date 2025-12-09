@@ -558,24 +558,34 @@ use Spatie\Translatable\HasTranslations;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
  * @property NotificationTypeEnum $type
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
 =======
+>>>>>>> e00d798d (.)
+=======
 /**
  * @property NotificationTypeEnum $type
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
+<<<<<<< HEAD
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> e00d798d (.)
  * @property-read string $channels_label
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read mixed $translations
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
 =======
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
 >>>>>>> 7c1c276f (rebase 210)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> e00d798d (.)
  * @method static Builder<static>|NotificationTemplate active()
  * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -590,9 +600,13 @@ use Spatie\Translatable\HasTranslations;
  * @mixin \Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 6e550ff (.)
+>>>>>>> e00d798d (.)
 class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;

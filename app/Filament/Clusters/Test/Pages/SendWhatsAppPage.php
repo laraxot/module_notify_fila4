@@ -964,6 +964,7 @@ class SendWhatsAppPage extends XotBasePage
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'driver' => Select::make('driver')
 =======
 =======
@@ -1282,10 +1283,14 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+            Select::make('driver')
+>>>>>>> e00d798d (.)
                 ->options(WhatsAppDriverEnum::options())
                 ->default(WhatsAppDriverEnum::getDefault()->value)
                 ->required()
                 ->helperText(__('notify::whatsapp.fields.driver.helper_text')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1414,10 +1419,13 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
             TextInput::make('template')->helperText('Nome del template (opzionale)'),
             KeyValue::make('parameters')->helperText('Parametri per il template (opzionale)'),
             TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
             Select::make('media_type')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1517,6 +1525,8 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
                 ->options([
                     'image' => 'Immagine',
                     'video' => 'Video',

@@ -149,6 +149,7 @@ class SendSpatieEmailPage extends XotBasePage
     /** @phpstan-ignore-next-line return.type */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -157,10 +158,13 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
     public function getEmailFormSchema(): array
     {
         return [
             TextInput::make('to')->email()->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             /*
@@ -190,6 +194,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
             /*
              * Forms\Components\TextInput::make('subject')
              * ->required(),
@@ -198,6 +204,7 @@ class SendSpatieEmailPage extends XotBasePage
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
             RichEditor::make('body_html')->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +408,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
         ];
     }
 
