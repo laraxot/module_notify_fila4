@@ -109,6 +109,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -875,12 +876,15 @@ declare(strict_types=1);
 >>>>>>> d121e45a (rebase 210)
 =======
 >>>>>>> d7824f6f (rebase 210)
+=======
+>>>>>>> ee3afc5b (rebase 210)
 				</tr>
 			</table>
 
 		</td>
 	</tr>
 </table>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,3 +1540,5 @@ declare(strict_types=1);
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> d7824f6f (rebase 210)
+=======
+>>>>>>> ee3afc5b (rebase 210)
