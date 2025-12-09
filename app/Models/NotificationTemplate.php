@@ -226,9 +226,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function preview(array $data = []): array
     {
+<<<<<<< HEAD
         /** @var array<string, mixed> $previewData */
         $previewData = $this->preview_data ?? [];
         /** @var array<string, mixed> $mergedData */
+=======
+        $previewData = $this->preview_data ?? [];
+>>>>>>> 75179b85 (.)
         $mergedData = array_merge($previewData, $data);
 
         return $this->compile($mergedData);
@@ -276,10 +280,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getChannelsLabelAttribute(): string
     {
+<<<<<<< HEAD
         /** @var array<int, string> $channels */
         $channels = $this->channels;
         return collect($channels)
             ->map(fn(string $channel): string => (string) __('notify::template.fields.channel.options.' . $channel . '.label'))
+=======
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+>>>>>>> 75179b85 (.)
             ->implode(', ');
     }
 
@@ -290,9 +299,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function getGrapesJSData(): array
     {
+<<<<<<< HEAD
         /** @var array<string, mixed> $data */
         $data = $this->grapesjs_data ?? [];
         return $data;
+=======
+        return $this->grapesjs_data ?? [];
+>>>>>>> 75179b85 (.)
     }
 
     /**

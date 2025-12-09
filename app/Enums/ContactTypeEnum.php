@@ -48,14 +48,18 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class, $this->value . '.description');
     }
 
+<<<<<<< HEAD
     /**
      * @return array<string>
      */
+=======
+>>>>>>> 75179b85 (.)
     public static function getSearchable(): array
     {
         return array_map(fn($item) => $item->value, ContactTypeEnum::cases());
     }
 
+<<<<<<< HEAD
     /**
      * @return array<string, \Filament\Forms\Components\TextInput>
      */
@@ -69,5 +73,14 @@ enum ContactTypeEnum: string implements HasLabel, HasIcon, HasColor
             $result[$item->value] = TextInput::make($item->value)->prefixIcon($item->getIcon());
         }
         return $result;
+=======
+    public static function getFormSchema(): array
+    {
+        $res = Arr::map(
+            ContactTypeEnum::cases(),
+            fn($item) => TextInput::make($item->value)->prefixIcon($item->getIcon()),
+        );
+        return $res;
+>>>>>>> 75179b85 (.)
     }
 }

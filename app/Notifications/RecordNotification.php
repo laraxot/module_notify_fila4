@@ -17,9 +17,13 @@ class RecordNotification extends Notification
 {
     protected Model $record;
     protected string $slug;
+<<<<<<< HEAD
     /** @var array<string, mixed> */
     public array $data = [];
     /** @var array<int, array<string, string>> */
+=======
+    public array $data = [];
+>>>>>>> 75179b85 (.)
     public array $attachments = [];
 
     public function __construct(Model $record, string $slug)
@@ -63,8 +67,13 @@ class RecordNotification extends Notification
         if (method_exists($notifiable, 'routeNotificationFor')) {
             // Ottieni l'email dal notifiable
             $to = $notifiable->routeNotificationFor('mail');
+<<<<<<< HEAD
             if (is_string($to)) {
                 $email->to($to);
+=======
+            $email->to($to);
+            if ($to) {
+>>>>>>> 75179b85 (.)
                 $email->setRecipient($to);
             }
         }
@@ -108,20 +117,26 @@ class RecordNotification extends Notification
         return $smsData;
     }
 
+<<<<<<< HEAD
     /**
      * @param array<string, mixed> $data
      * @return self
      */
+=======
+>>>>>>> 75179b85 (.)
     public function mergeData(array $data): self
     {
         $this->data = array_merge($this->data, $data);
         return $this;
     }
 
+<<<<<<< HEAD
     /**
      * @param array<int, array<string, string>> $attachments
      * @return self
      */
+=======
+>>>>>>> 75179b85 (.)
     public function addAttachments(array $attachments): self
     {
         $this->attachments = array_merge($this->attachments, $attachments);

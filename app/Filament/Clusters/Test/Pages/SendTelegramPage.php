@@ -9,7 +9,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use BackedEnum;
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -47,7 +50,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public null|array $telegramData = [];
 
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
 
     protected string $view = 'notify::filament.pages.send-telegram';
 
@@ -60,6 +67,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     public function telegramForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         return $schema->schema($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
@@ -75,19 +83,38 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
             'driver' => Select::make('driver')
+=======
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+    }
+
+    public function getTelegramFormSchema(): array
+    {
+        return [
+            TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
+            TextInput::make('text')
+                ->required()
+                ->maxLength(4096)
+                ->helperText('Il messaggio non può superare i 4096 caratteri'),
+            Select::make('driver')
+>>>>>>> 75179b85 (.)
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
                 ])
                 ->default('bot')
                 ->required(),
+<<<<<<< HEAD
             'parse_mode' => Select::make('parse_mode')
+=======
+            Select::make('parse_mode')
+>>>>>>> 75179b85 (.)
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
                     'MarkdownV2' => 'MarkdownV2',
                 ])
                 ->helperText('Formato del testo (opzionale)'),
+<<<<<<< HEAD
             'disable_web_page_preview' => Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             'disable_notification' => Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
             'reply_to_message_id' => TextInput::make('reply_to_message_id')
@@ -95,6 +122,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->helperText('ID del messaggio a cui rispondere'),
             'media_url' => TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
             'media_type' => Select::make('media_type')
+=======
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+>>>>>>> 75179b85 (.)
                 ->options([
                     'photo' => 'Foto',
                     'video' => 'Video',
@@ -102,7 +138,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
                     'audio' => 'Audio',
                 ])
                 ->helperText('Tipo di media (opzionale)'),
+<<<<<<< HEAD
             'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+=======
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+>>>>>>> 75179b85 (.)
         ];
     }
 

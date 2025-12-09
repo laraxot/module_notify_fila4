@@ -1,8 +1,21 @@
+<<<<<<< HEAD
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+=======
+# Convenzioni dei Path in Laravel e 
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e , i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+# Convenzioni dei Path in Laravel e SaluteOra
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+>>>>>>> 75179b85 (.)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -24,13 +37,25 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 Le viste in Laravel devono essere collocate nella cartella `resources/views` (lowercase):
 
 ```
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
+>>>>>>> 75179b85 (.)
 ```
 
 **NON** in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
+>>>>>>> 75179b85 (.)
 ```
 
 ## Perché è Importante
@@ -49,7 +74,13 @@ Quando si fa riferimento a viste nei file PHP:
 protected static string $view = 'notify::filament.pages.send-sms';
 
 // Il path fisico corrispondente sarà:
+<<<<<<< HEAD
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+// /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+// /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> 75179b85 (.)
 ```
 
 ## Verifica e Correzione

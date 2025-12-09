@@ -8,6 +8,10 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+>>>>>>> 75179b85 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -20,7 +24,10 @@ final class SendFacebookWhatsAppAction
     private string $accessToken;
     private string $phoneNumberId;
     private string $baseUrl = 'https://graph.facebook.com/v17.0';
+<<<<<<< HEAD
     /** @var array<string, mixed> */
+=======
+>>>>>>> 75179b85 (.)
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
@@ -48,14 +55,22 @@ final class SendFacebookWhatsAppAction
 
         // Parametri a livello di root
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b85 (.)
     }
 
     /**
      * Execute the action.
      *
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+<<<<<<< HEAD
      * @return array<string, mixed> Risultato dell'operazione
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -109,8 +124,13 @@ final class SendFacebookWhatsAppAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseData */
             $responseData = json_decode($responseContent, true) ?: [];
+=======
+            /** @var array $responseData */
+            $responseData = json_decode($responseContent, true);
+>>>>>>> 75179b85 (.)
 
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
@@ -122,6 +142,7 @@ final class SendFacebookWhatsAppAction
                 'response_code' => $statusCode,
             ]);
 
+<<<<<<< HEAD
             /** @var array<string, mixed>|null $messages */
             $messages = $responseData['messages'] ?? null;
             /** @var array<string, mixed>|null $firstMessage */
@@ -134,14 +155,24 @@ final class SendFacebookWhatsAppAction
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $messageId,
+=======
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+>>>>>>> 75179b85 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+>>>>>>> 75179b85 (.)
 
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
@@ -154,6 +185,7 @@ final class SendFacebookWhatsAppAction
                 'response' => $responseBody,
             ]);
 
+<<<<<<< HEAD
             /** @var array<string, mixed>|null $error */
             $error = $responseBody['error'] ?? null;
             /** @var string $errorMessage */
@@ -164,6 +196,11 @@ final class SendFacebookWhatsAppAction
             return [
                 'success' => false,
                 'error' => $errorMessage,
+=======
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+>>>>>>> 75179b85 (.)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

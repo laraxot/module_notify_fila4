@@ -7,7 +7,10 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Console\Helper\Table;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
+=======
+>>>>>>> 75179b85 (.)
 
 class AnalyzeTranslationFiles extends Command
 {
@@ -40,10 +43,15 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
+<<<<<<< HEAD
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
             $files = File::files($langDirPath);
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -116,9 +124,12 @@ class AnalyzeTranslationFiles extends Command
         $patterns = [];
 
         foreach ($allFiles as $file => $keys) {
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
+=======
+>>>>>>> 75179b85 (.)
             $topLevelKeys = [];
 
             foreach (array_keys($keys) as $key) {
@@ -162,6 +173,7 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
+<<<<<<< HEAD
             Assert::string($key);
             $row = [$key];
 
@@ -169,6 +181,12 @@ class AnalyzeTranslationFiles extends Command
                 /** @var array<string, mixed>|null $fileData */
                 $fileData = $allFiles[$file] ?? null;
                 $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
+=======
+            $row = [$key];
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 75179b85 (.)
             }
 
             $table->addRow($row);
@@ -228,9 +246,12 @@ class AnalyzeTranslationFiles extends Command
         $navigationStructures = [];
 
         foreach ($allFiles as $file => $keys) {
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
+=======
+>>>>>>> 75179b85 (.)
             $navigationKeys = [];
 
             foreach (array_keys($keys) as $key) {

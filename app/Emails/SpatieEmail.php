@@ -181,6 +181,7 @@ class SpatieEmail extends TemplateMailable
         return $this->slug;
     }
 
+<<<<<<< HEAD
     /**
      * @param array{path: string, as?: string, mime?: string} $attachment
      * @return Attachment
@@ -199,6 +200,14 @@ class SpatieEmail extends TemplateMailable
         if ($mime === null) {
             $mime = 'application/octet-stream';
         }
+=======
+    public function getAttachmentFromPath(array $attachment): Attachment
+    {
+        $res = Attachment::fromPath($attachment['path']);
+        $info = pathinfo($attachment['path']);
+        $filename = $attachment['as'] ?? $info['basename'];
+        $mime = $attachment['mime'] ?? File::mimeType($attachment['path']);
+>>>>>>> 75179b85 (.)
 
         $res = $res->as($filename)->withMime($mime);
         return $res;
@@ -207,6 +216,7 @@ class SpatieEmail extends TemplateMailable
     public function getAttachmentFromData(array $attachment): Attachment
     {
         $res = Attachment::fromData(fn() => $attachment['data']);
+<<<<<<< HEAD
         /** @var string|null $asRaw */
         $asRaw = $attachment['as'] ?? null;
         $as = is_string($asRaw) ? $asRaw : '';
@@ -215,6 +225,12 @@ class SpatieEmail extends TemplateMailable
         /** @var string $asForPathinfo */
         $asForPathinfo = is_string($attachment['as']) ? $attachment['as'] : '';
         $info = pathinfo($asForPathinfo);
+=======
+        $as = $attachment['as'];
+
+        $mime = Arr::get($attachment, 'mime', null); //?? File::mimeType($as);   file vuole un file esistente
+        $info = pathinfo($attachment['as']);
+>>>>>>> 75179b85 (.)
         if ($mime === null && isset($info['extension'])) {
             $mime = Arr::first(MimeTypes::getDefault()->getMimeTypes($info['extension']));
         }
@@ -223,9 +239,13 @@ class SpatieEmail extends TemplateMailable
         }
         Assert::string($mime, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 
+<<<<<<< HEAD
         /** @var string|null $asForMethod */
         $asForMethod = is_string($asRaw) ? $asRaw : null;
         $res = $res->as($asForMethod)->withMime($mime);
+=======
+        $res = $res->as($as)->withMime($mime);
+>>>>>>> 75179b85 (.)
         return $res;
     }
 
@@ -273,10 +293,15 @@ class SpatieEmail extends TemplateMailable
     {
         /**@phpstan-ignore method.notFound */
         $sms_template = $this->getMailTemplate()->getAttributeValue('sms_template');
+<<<<<<< HEAD
         /** @var string $smsTemplateString */
         $smsTemplateString = is_string($sms_template) ? $sms_template : '';
         $mustache = app(Mustache_Engine::class);
         $sms = $mustache->render($smsTemplateString, $this->data);
+=======
+        $mustache = app(Mustache_Engine::class);
+        $sms = $mustache->render($sms_template, $this->data);
+>>>>>>> 75179b85 (.)
 
         return $sms;
     }

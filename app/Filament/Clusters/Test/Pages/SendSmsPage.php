@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use BackedEnum;
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -35,7 +38,11 @@ use Webmozart\Assert\Assert;
 class SendSmsPage extends XotBasePage
 {
     public null|array $smsData = [];
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> 75179b85 (.)
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
 
@@ -68,12 +75,18 @@ class SendSmsPage extends XotBasePage
 
     public function smsForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select>
      */
+=======
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
     public function getSmsFormSchema(): array
     {
         return [
@@ -107,10 +120,16 @@ class SendSmsPage extends XotBasePage
              * 'driver' => $data['driver']
              * ]));
              */
+<<<<<<< HEAD
             $template_slug = $data['template_slug'];
             Assert::string($template_slug, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
             $recordNotification = new RecordNotification($user, $template_slug);
             $notify = $recordNotification->mergeData($data);
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            $notify = new RecordNotification($user, $template_slug);
+            $notify->mergeData($data);
+>>>>>>> 75179b85 (.)
 
             Notification::route('sms', $data['to'])
                 //->locale('it')

@@ -60,6 +60,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 
     public function pushForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         return $schema->schema($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
     }
 
@@ -86,6 +87,31 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->url()
                 ->helperText(__('notify::push.form.image_url.helper')),
             'notification_type' => Select::make('notification_type')
+=======
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+    }
+
+    public function getPushFormSchema(): array
+    {
+        return [
+            TextInput::make('token')
+                ->label(__('notify::push.form.token.label'))
+                ->required()
+                ->helperText(__('notify::push.form.token.helper')),
+            TextInput::make('title')
+                ->label(__('notify::push.form.title.label'))
+                ->required()
+                ->maxLength(100),
+            Textarea::make('body')
+                ->label(__('notify::push.form.body.label'))
+                ->required()
+                ->rows(3),
+            TextInput::make('image_url')
+                ->label(__('notify::push.form.image_url.label'))
+                ->url()
+                ->helperText(__('notify::push.form.image_url.helper')),
+            Select::make('notification_type')
+>>>>>>> 75179b85 (.)
                 ->label(__('notify::push.form.notification_type.label'))
                 ->options([
                     'message' => 'Message',
@@ -95,11 +121,19 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ])
                 ->default('message')
                 ->required(),
+<<<<<<< HEAD
             'high_priority' => Toggle::make('high_priority')
                 ->label(__('notify::push.form.high_priority.label'))
                 ->default(false)
                 ->helperText(__('notify::push.form.high_priority.helper')),
             'custom_data' => KeyValue::make('custom_data')
+=======
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+>>>>>>> 75179b85 (.)
                 ->label(__('notify::push.form.custom_data.label'))
                 ->keyLabel(__('notify::push.form.custom_data.key_label'))
                 ->valueLabel(__('notify::push.form.custom_data.value_label'))

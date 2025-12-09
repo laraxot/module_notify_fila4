@@ -47,6 +47,7 @@ class SendEmailPage extends XotBasePage
 
     public function emailForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Schemas\Components\Component> $formSchema */
         $formSchema = $this->getEmailFormSchema();
         return $schema->components($formSchema)->model($this->getUser())->statePath('emailData');
@@ -55,6 +56,11 @@ class SendEmailPage extends XotBasePage
     /**
      * @return array<string, \Filament\Schemas\Components\Component>
      */
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+>>>>>>> 75179b85 (.)
     public function getEmailFormSchema(): array
     {
         return [

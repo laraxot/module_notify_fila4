@@ -10,5 +10,14 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 
 ## Riferimenti Esterni
 
+<<<<<<< HEAD
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
+=======
+- [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
+- [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
+- [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
+- [Best Practices per Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
+- [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
+- [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
+>>>>>>> 75179b85 (.)

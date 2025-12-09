@@ -5,7 +5,12 @@
 - [README Modulo Notify](../README.md)
 - [Sistema Email](../database-mail-system.md)
 - [Template Email](../EMAIL_TEMPLATES.md)
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+=======
+- [Documentazione Generale ](../../../../../docs/README.md)
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> 75179b85 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura

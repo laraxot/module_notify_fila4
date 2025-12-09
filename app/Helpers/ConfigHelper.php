@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Helpers;
 
 use Illuminate\Support\Facades\Config;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeArrayCastAction;
+=======
+>>>>>>> 75179b85 (.)
 
 /**
  * Helper per la gestione delle configurazioni del modulo Notify.
@@ -22,6 +25,7 @@ class ConfigHelper
      */
     public static function replaceTemplateVariables(array $data): array
     {
+<<<<<<< HEAD
         $companyConfigRaw = Config::get('notify.company', []);
         $templateVariablesRaw = Config::get('notify.template_variables', []);
 
@@ -30,6 +34,17 @@ class ConfigHelper
         /** @var array<string, mixed> $templateVariables */
         $templateVariables = SafeArrayCastAction::cast($templateVariablesRaw);
         
+=======
+        $companyConfig = Config::get('notify.company', []);
+        $templateVariables = Config::get('notify.template_variables', []);
+
+        // Assicura che entrambi siano array prima di combinarli
+        $companyConfig = is_array($companyConfig) ? $companyConfig : [];
+        $templateVariables = is_array($templateVariables) ? $templateVariables : [];
+
+        /** @var array<string, mixed> $companyConfig */
+        /** @var array<string, mixed> $templateVariables */
+>>>>>>> 75179b85 (.)
         $availableVariables = array_merge($companyConfig, $templateVariables);
 
         return self::recursiveReplace($data, $availableVariables);
@@ -84,9 +99,16 @@ class ConfigHelper
         $value = Config::get($key, $default);
 
         if (is_string($value)) {
+<<<<<<< HEAD
             $companyConfigRaw = Config::get('notify.company', []);
             /** @var array<string, mixed> $companyConfig */
             $companyConfig = SafeArrayCastAction::cast($companyConfigRaw);
+=======
+            $companyConfig = Config::get('notify.company', []);
+            $companyConfig = is_array($companyConfig) ? $companyConfig : [];
+
+            /* @var array<string, mixed> $companyConfig */
+>>>>>>> 75179b85 (.)
             return self::replaceStringVariables($value, $companyConfig);
         }
 
@@ -105,9 +127,16 @@ class ConfigHelper
      */
     public static function getTestData(): array
     {
+<<<<<<< HEAD
         $testDataRaw = Config::get('notify.test_data', []);
         /** @var array<string, mixed> $testData */
         $testData = SafeArrayCastAction::cast($testDataRaw);
+=======
+        $testData = Config::get('notify.test_data', []);
+        $testData = is_array($testData) ? $testData : [];
+
+        /* @var array<string, mixed> $testData */
+>>>>>>> 75179b85 (.)
         return self::replaceTemplateVariables($testData);
     }
 
@@ -118,9 +147,16 @@ class ConfigHelper
      */
     public static function getCompanyConfig(): array
     {
+<<<<<<< HEAD
         $companyConfigRaw = Config::get('notify.company', []);
         /** @var array<string, mixed> $companyConfig */
         $companyConfig = SafeArrayCastAction::cast($companyConfigRaw);
+=======
+        $companyConfig = Config::get('notify.company', []);
+        $companyConfig = is_array($companyConfig) ? $companyConfig : [];
+
+        /* @var array<string, mixed> $companyConfig */
+>>>>>>> 75179b85 (.)
         return self::replaceTemplateVariables($companyConfig);
     }
 
@@ -131,9 +167,16 @@ class ConfigHelper
      */
     public static function getWebhookConfig(): array
     {
+<<<<<<< HEAD
         $webhookConfigRaw = Config::get('notify.webhooks', []);
         /** @var array<string, mixed> $webhookConfig */
         $webhookConfig = SafeArrayCastAction::cast($webhookConfigRaw);
+=======
+        $webhookConfig = Config::get('notify.webhooks', []);
+        $webhookConfig = is_array($webhookConfig) ? $webhookConfig : [];
+
+        /* @var array<string, mixed> $webhookConfig */
+>>>>>>> 75179b85 (.)
         return self::replaceTemplateVariables($webhookConfig);
     }
 
@@ -144,9 +187,16 @@ class ConfigHelper
      */
     public static function getEmailConfig(): array
     {
+<<<<<<< HEAD
         $emailConfigRaw = Config::get('notify.email', []);
         /** @var array<string, mixed> $emailConfig */
         $emailConfig = SafeArrayCastAction::cast($emailConfigRaw);
+=======
+        $emailConfig = Config::get('notify.email', []);
+        $emailConfig = is_array($emailConfig) ? $emailConfig : [];
+
+        /* @var array<string, mixed> $emailConfig */
+>>>>>>> 75179b85 (.)
         return self::replaceTemplateVariables($emailConfig);
     }
 
@@ -157,9 +207,16 @@ class ConfigHelper
      */
     public static function getPathConfig(): array
     {
+<<<<<<< HEAD
         $pathConfigRaw = Config::get('notify.paths', []);
         /** @var array<string, mixed> $pathConfig */
         $pathConfig = SafeArrayCastAction::cast($pathConfigRaw);
+=======
+        $pathConfig = Config::get('notify.paths', []);
+        $pathConfig = is_array($pathConfig) ? $pathConfig : [];
+
+        /* @var array<string, mixed> $pathConfig */
+>>>>>>> 75179b85 (.)
         return self::replaceTemplateVariables($pathConfig);
     }
 }

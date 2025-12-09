@@ -58,8 +58,12 @@ final class TelegramActionFactory
             throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
         }
 
+<<<<<<< HEAD
         /** @var TelegramProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
+=======
+        return app($className);
+>>>>>>> 75179b85 (.)
     }
 }

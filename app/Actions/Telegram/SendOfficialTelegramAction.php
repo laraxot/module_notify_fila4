@@ -4,12 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions\Telegram;
 
+<<<<<<< HEAD
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 75179b85 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Datas\TelegramData;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
+=======
+>>>>>>> 75179b85 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -21,11 +28,18 @@ final class SendOfficialTelegramAction
 
     private string $token;
     private string $apiUrl;
+<<<<<<< HEAD
     /** @var array<string, mixed> */
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
     protected ?string $parseMode;
+=======
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+    protected null|string $parseMode;
+>>>>>>> 75179b85 (.)
 
     /**
      * Create a new action instance.
@@ -33,7 +47,11 @@ final class SendOfficialTelegramAction
     public function __construct()
     {
         $token = config('services.telegram.token');
+<<<<<<< HEAD
         if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b85 (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -54,7 +72,11 @@ final class SendOfficialTelegramAction
      * Execute the action.
      *
      * @param TelegramData $telegramData I dati del messaggio Telegram
+<<<<<<< HEAD
      * @return array<string, mixed> Risultato dell'operazione
+=======
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -104,7 +126,11 @@ final class SendOfficialTelegramAction
             $payload['disable_web_page_preview'] = $telegramData->disableWebPagePreview;
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
+<<<<<<< HEAD
             ! empty($telegramData->media)
+=======
+                !empty($telegramData->media)
+>>>>>>> 75179b85 (.)
         ) {
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
@@ -119,7 +145,11 @@ final class SendOfficialTelegramAction
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseData */
+=======
+            /** @var array $responseData */
+>>>>>>> 75179b85 (.)
             $responseData = json_decode($responseContent, true);
 
             // Salva i dati della risposta nelle variabili dell'azione
@@ -132,6 +162,7 @@ final class SendOfficialTelegramAction
                 'response_code' => $statusCode,
             ]);
 
+<<<<<<< HEAD
             /** @var array<string, mixed> $result */
             $result = $responseData['result'] ?? [];
             /** @var int|null $messageId */
@@ -140,13 +171,22 @@ final class SendOfficialTelegramAction
             return [
                 'success' => ($responseData['ok'] ?? false) === true,
                 'message_id' => $messageId,
+=======
+            return [
+                'success' => $responseData['ok'] ?? false,
+                'message_id' => $responseData['result']['message_id'] ?? null,
+>>>>>>> 75179b85 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseBody */
+=======
+            /** @var array $responseBody */
+>>>>>>> 75179b85 (.)
             $responseBody = json_decode($response->getBody()->getContents(), true);
 
             // Salva i dati dell'errore nelle variabili dell'azione

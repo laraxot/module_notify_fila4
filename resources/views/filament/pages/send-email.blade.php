@@ -14,6 +14,7 @@ declare(strict_types=1);
         </x-slot>
 
         
+<<<<<<< HEAD
         <x-filament-panels::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -22,5 +23,15 @@ declare(strict_types=1);
             <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
     
         </x-filament-panels::form>
+=======
+        <x-filament-schemas::form wire:submit="sendEmail()">
+            {{ $this->emailForm }}
+            {{ $error_message ?? '--' }}
+            <x-filament::actions :actions="$this->getEmailFormActions()" />
+    
+            <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
+    
+        </x-filament-schemas::form>
+>>>>>>> 75179b85 (.)
     </x-filament::section>
 </x-filament-panels::page>

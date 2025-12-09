@@ -4,13 +4,22 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 
+<<<<<<< HEAD
+=======
+use Override;
+use Filament\Tables;
+>>>>>>> 75179b85 (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 use Override;
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 75179b85 (.)
 
 class ListContacts extends XotBaseListRecords
 {
@@ -35,9 +44,15 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
             'active' => Filter::make('active')->query(fn (Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
                 fn (Builder $query): Builder => $query->where('active', false),
+=======
+            'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
+            'inactive' => Filter::make('inactive')->query(
+                fn(Builder $query): Builder => $query->where('active', false),
+>>>>>>> 75179b85 (.)
             ),
         ];
     }

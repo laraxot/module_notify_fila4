@@ -32,8 +32,13 @@ class EsendexSendAction
     {
         $auth = $this->login();
 
+<<<<<<< HEAD
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 75179b85 (.)
         }
 
         $data = [
@@ -49,11 +54,19 @@ class EsendexSendAction
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
 
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
+<<<<<<< HEAD
         if (! is_string($auth[0])) {
             $auth[0] = '';
         }
 
         if (! is_string($auth[1])) {
+=======
+        if (!is_string($auth[0])) {
+            $auth[0] = '';
+        }
+
+        if (!is_string($auth[1])) {
+>>>>>>> 75179b85 (.)
             $auth[1] = '';
         }
 
@@ -74,11 +87,19 @@ class EsendexSendAction
             return [];
         }
 
+<<<<<<< HEAD
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
         if (! is_array($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+=======
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+>>>>>>> 75179b85 (.)
         }
 
         return $res;
@@ -88,7 +109,11 @@ class EsendexSendAction
      * Authenticates the user given it's username and password.
      * Returns the pair user_key, Session_key.
      */
+<<<<<<< HEAD
     public function login(): ?array
+=======
+    public function login(): null|array
+>>>>>>> 75179b85 (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -96,7 +121,11 @@ class EsendexSendAction
         Assert::string($username = config('esendex.username'));
         Assert::string($password = config('esendex.password'));
 
+<<<<<<< HEAD
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+=======
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+>>>>>>> 75179b85 (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 

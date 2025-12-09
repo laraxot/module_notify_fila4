@@ -35,6 +35,10 @@ class OtpSmsNotification extends NetfunSmsNotification
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
             sender: '<nome progetto>'
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
         );
     }
 
@@ -201,6 +205,10 @@ class AppointmentReminderNotification extends NetfunSmsNotification
         parent::__construct(
             message: $message,
             sender: '<nome progetto>'
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 75179b85 (.)
         );
     }
 
@@ -442,6 +450,10 @@ public function sendBulkSms(Request $request)
             users: $users,
             message: $request->message,
             sender: '<nome progetto>',
+<<<<<<< HEAD
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 75179b85 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();

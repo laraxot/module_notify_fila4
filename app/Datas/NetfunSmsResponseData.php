@@ -9,12 +9,15 @@ use Spatie\LaravelData\Data;
 
 class NetfunSmsResponseData extends Data
 {
+<<<<<<< HEAD
     /**
      * @param string $status
      * @param string|null $batchId
      * @param array<int, array<string, mixed>>|null $messages
      * @param string|null $error
      */
+=======
+>>>>>>> 75179b85 (.)
     public function __construct(
         public string $status,
         public null|string $batchId = null,
@@ -22,6 +25,7 @@ class NetfunSmsResponseData extends Data
         public null|string $error = null,
     ) {}
 
+<<<<<<< HEAD
     /**
      * @param array{status: string, batchId?: string, messages?: array<int, array<string, mixed>>, error?: string} $data
      * @return self
@@ -41,6 +45,15 @@ class NetfunSmsResponseData extends Data
             batchId: $batchId,
             messages: $messages,
             error: $error,
+=======
+    public static function fromArray(array $data): self
+    {
+        return new self(
+            status: $data['status'],
+            batchId: $data['batchId'] ?? null,
+            messages: $data['messages'] ?? null,
+            error: $data['error'] ?? null,
+>>>>>>> 75179b85 (.)
         );
     }
 }

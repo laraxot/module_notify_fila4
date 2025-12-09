@@ -20,11 +20,18 @@ class Get
     public function execute(string $name, string $type, array $view_params): NotifyThemeData
     {
         $xotData = XotData::make();
+<<<<<<< HEAD
 
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
+=======
+        if (!isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (!isset($view_params['lang'])) {
+>>>>>>> 75179b85 (.)
             $view_params['lang'] = app()->getLocale();
         }
 

@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use BackedEnum;
+=======
+>>>>>>> 75179b85 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -37,7 +40,11 @@ use Webmozart\Assert\Assert;
 class SendSpatieEmailPage extends XotBasePage
 {
     public null|array $emailData = [];
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+>>>>>>> 75179b85 (.)
     protected string $view = 'notify::filament.pages.send-email';
     protected static null|string $cluster = Test::class;
 
@@ -63,6 +70,7 @@ class SendSpatieEmailPage extends XotBasePage
 
     public function emailForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -81,6 +89,23 @@ class SendSpatieEmailPage extends XotBasePage
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
             'body_html' => RichEditor::make('body_html')->required(),
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+    public function getEmailFormSchema(): array
+    {
+        return [
+            TextInput::make('to')->email()->required(),
+            /*
+             * Forms\Components\TextInput::make('subject')
+             * ->required(),
+             */
+            Select::make('mail_template_slug')
+                ->options(MailTemplate::all()->pluck('slug', 'slug'))
+                ->required(),
+            RichEditor::make('body_html')->required(),
+>>>>>>> 75179b85 (.)
         ];
     }
 
@@ -119,10 +144,16 @@ class SendSpatieEmailPage extends XotBasePage
          * ->locale('it')
          * ->send($email);
          */
+<<<<<<< HEAD
         $mail_template_slug = $data['mail_template_slug'];
         Assert::string($mail_template_slug, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         $recordNotification = new RecordNotification($user, $mail_template_slug);
         $notify = $recordNotification->mergeData($data);
+=======
+        Assert::string($mail_template_slug = $data['mail_template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        $notify = new RecordNotification($user, $mail_template_slug);
+        $notify->mergeData($data);
+>>>>>>> 75179b85 (.)
 
         Notification::route('mail', $data['to'])
             //->locale('it')

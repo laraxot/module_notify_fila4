@@ -23,7 +23,13 @@ Il pacchetto funziona con i seguenti componenti principali:
 In questo progetto, i layout HTML delle email sono memorizzati in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 75179b85 (.)
 ```
 
 Questi layout forniscono la struttura base per tutte le email, con un placeholder `{{{ body }}}` dove verrà inserito il contenuto specifico del template.
@@ -90,6 +96,12 @@ MailTemplate::create([
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
+<<<<<<< HEAD
+=======
+    'subject' => 'Benvenuto su SaluteOra, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
+>>>>>>> 75179b85 (.)
 ]);
 ```
 
@@ -123,6 +135,10 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <head>
     <meta charset="utf-8">
     <title><nome progetto></title>
+<<<<<<< HEAD
+=======
+    <title>SaluteOra</title>
+>>>>>>> 75179b85 (.)
     <style>
         /* Stili CSS inline */
         body { 
@@ -153,6 +169,10 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <body>
     <div class="header">
         <h1><nome progetto></h1>
+<<<<<<< HEAD
+=======
+        <h1>SaluteOra</h1>
+>>>>>>> 75179b85 (.)
     </div>
     
     <div class="content">
@@ -161,6 +181,10 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
     
     <div class="footer">
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+<<<<<<< HEAD
+=======
+        <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
+>>>>>>> 75179b85 (.)
         <p>Se hai ricevuto questa email per errore, per favore ignorala o contattaci.</p>
     </div>
 </body>
@@ -173,6 +197,10 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 
 ```html
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<<<<<<< HEAD
+=======
+<h2>Benvenuto su SaluteOra, {{ name }}!</h2>
+>>>>>>> 75179b85 (.)
 
 <p>Siamo felici di darti il benvenuto sulla nostra piattaforma.</p>
 
@@ -188,6 +216,10 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <p>{{ activationUrl }}</p>
 
 <p>Grazie,<br>Il team di <nome progetto></p>
+<<<<<<< HEAD
+=======
+<p>Grazie,<br>Il team di SaluteOra</p>
+>>>>>>> 75179b85 (.)
 ```
 
 ## Best Practices

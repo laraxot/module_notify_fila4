@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Providers;
 
+<<<<<<< HEAD
+=======
+// use Illuminate\Support\Facades\Notification;
+use Override;
+>>>>>>> 75179b85 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
+<<<<<<< HEAD
 use Override;
+=======
+>>>>>>> 75179b85 (.)
 use Webmozart\Assert\Assert;
 
 class NotifyServiceProvider extends XotBaseServiceProvider

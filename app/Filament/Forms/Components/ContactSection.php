@@ -21,6 +21,7 @@ class ContactSection extends Section
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
         $schema = $this->getFormSchema();
         $this->schema($schema);
         $this->columns(2);
@@ -32,6 +33,16 @@ class ContactSection extends Section
     protected function getFormSchema(): array
     {
         return ContactTypeEnum::getFormSchema();
+=======
+        $this->schema($this->getFormSchema());
+        $this->columns(2);
+    }
+
+    protected function getFormSchema(): array
+    {
+        $res = ContactTypeEnum::getFormSchema();
+        return $res;
+>>>>>>> 75179b85 (.)
     }
 
     /*

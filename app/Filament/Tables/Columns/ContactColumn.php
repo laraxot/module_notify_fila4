@@ -36,14 +36,21 @@ class ContactColumn extends ViewColumn
         // Passa i tipi di contatto alla view
         $contact_types = ContactTypeEnum::cases();
 
+<<<<<<< HEAD
         /** @var array<string> $searchableArray */
         $searchableArray = ContactTypeEnum::getSearchable();
         
+=======
+>>>>>>> 75179b85 (.)
         $this->view(static::getView(), [
             'contact_types' => $contact_types,
         ])
             ->label(__('notify::columns.contact.label'))
+<<<<<<< HEAD
             ->searchable($searchableArray)
+=======
+            ->searchable(ContactTypeEnum::getSearchable())
+>>>>>>> 75179b85 (.)
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }

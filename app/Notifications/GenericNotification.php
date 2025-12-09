@@ -30,7 +30,11 @@ class GenericNotification extends Notification implements ShouldQueue
     protected string $message;
 
     /**
+<<<<<<< HEAD
      * @var array<int, string> I canali da utilizzare per la notifica
+=======
+     * @var array<string> I canali da utilizzare per la notifica
+>>>>>>> 75179b85 (.)
      */
     protected array $channels;
 
@@ -44,7 +48,11 @@ class GenericNotification extends Notification implements ShouldQueue
      *
      * @param string $title Il titolo della notifica
      * @param string $message Il contenuto della notifica
+<<<<<<< HEAD
      * @param array<int, string> $channels I canali da utilizzare ('mail', 'sms', 'database')
+=======
+     * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
+>>>>>>> 75179b85 (.)
      * @param array<string, mixed> $data Dati aggiuntivi per la notifica
      */
     public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
@@ -149,9 +157,13 @@ class GenericNotification extends Notification implements ShouldQueue
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
+<<<<<<< HEAD
             /** @var string $fullName */
             $fullName = $notifiable->getFullName();
             return $fullName;
+=======
+            return $notifiable->getFullName();
+>>>>>>> 75179b85 (.)
         }
 
         if (is_object($notifiable) && $notifiable instanceof Model) {
