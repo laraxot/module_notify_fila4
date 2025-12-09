@@ -580,9 +580,6 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> 98d837b9 (.)
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
         return [

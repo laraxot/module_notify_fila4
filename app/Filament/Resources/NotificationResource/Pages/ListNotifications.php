@@ -352,6 +352,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -542,6 +543,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
     public function getTableFilters(): array
     {
         return [

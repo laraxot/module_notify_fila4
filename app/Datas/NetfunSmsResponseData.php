@@ -482,6 +482,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             error: $data['error'] ?? null,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,6 +673,9 @@ class NetfunSmsResponseData extends Data
 =======
             error: $data['error'] ?? null,
 >>>>>>> 98d837b9 (.)
+=======
+            error: $data['error'] ?? null,
+>>>>>>> 54220b28 (rebase 210)
         );
     }
 }

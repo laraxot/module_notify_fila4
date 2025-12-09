@@ -35,6 +35,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -165,6 +166,8 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
@@ -394,6 +397,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<int, string> $channels I canali da utilizzare ('mail', 'sms', 'database')
 =======
      * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
@@ -410,6 +414,9 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
      * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
 >>>>>>> 5fd545e4 (.)
+=======
+     * @param array<string> $channels I canali da utilizzare ('mail', 'sms', 'database')
+>>>>>>> 54220b28 (rebase 210)
      * @param array<string, mixed> $data Dati aggiuntivi per la notifica
      */
     public function __construct(string $title, string $message, array $channels = ['mail'], array $data = [])
@@ -423,6 +430,7 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene i canali di consegna della notifica.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -538,6 +546,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
      * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
      * @return array<int, string>
      */
@@ -806,6 +816,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -938,12 +949,16 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
         $mail = new MailMessage()
 >>>>>>> 98d837b9 (.)
+=======
+        $mail = new MailMessage()
+>>>>>>> 54220b28 (rebase 210)
             ->subject($this->title)
             ->greeting('Gentile ' . $this->getRecipientName($notifiable))
             ->line($this->message);
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text'], $this->data['action_url'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1219,6 +1234,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
             /** @phpstan-ignore-next-line */
             $mail->action((string) $this->data['action_text'], (string) $this->data['action_url']);
         }
@@ -1424,6 +1441,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @return array<string, mixed>
      */
@@ -1444,6 +1462,12 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function toTwilio($notifiable): array
 >>>>>>> 5fd545e4 (.)
+=======
+     * @param mixed $notifiable
+     * @return array<string, mixed>
+     */
+    public function toTwilio($notifiable): array
+>>>>>>> 54220b28 (rebase 210)
     {
         $content = "il progetto: {$this->title}\n{$this->message}";
 <<<<<<< HEAD
@@ -2032,6 +2056,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
      * @return array<string, mixed>
      */
@@ -2052,6 +2077,12 @@ class GenericNotification extends Notification implements ShouldQueue
      */
     public function toDatabase($notifiable): array
 >>>>>>> 5fd545e4 (.)
+=======
+     * @param mixed $notifiable
+     * @return array<string, mixed>
+     */
+    public function toDatabase($notifiable): array
+>>>>>>> 54220b28 (rebase 210)
     {
         return [
             'title' => $this->title,
@@ -2071,6 +2102,7 @@ class GenericNotification extends Notification implements ShouldQueue
     {
         // Tenta di ottenere il nome dal destinatario in vari modi
         if (is_object($notifiable) && method_exists($notifiable, 'getFullName')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2236,6 +2268,11 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+            return $notifiable->getFullName();
+        }
+
+>>>>>>> 54220b28 (rebase 210)
         if (is_object($notifiable) && $notifiable instanceof Model) {
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'full_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'full_name', 'Utente');

@@ -2692,6 +2692,7 @@ final class SendFacebookWhatsAppAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed>|null $messages */
             $messages = $responseData['messages'] ?? null;
             /** @var array<string, mixed>|null $firstMessage */
@@ -2785,6 +2786,11 @@ final class SendFacebookWhatsAppAction
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
 >>>>>>> 5fd545e4 (.)
+=======
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+>>>>>>> 54220b28 (rebase 210)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -3263,6 +3269,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed>|null $error */
             $error = $responseBody['error'] ?? null;
             /** @var string $errorMessage */
@@ -3386,6 +3393,11 @@ final class SendFacebookWhatsAppAction
                 'success' => false,
                 'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
 >>>>>>> 5fd545e4 (.)
+=======
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+>>>>>>> 54220b28 (rebase 210)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

@@ -490,9 +490,6 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 98d837b9 (.)
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableColumns(): array
     {
         return [
@@ -817,9 +814,6 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> 98d837b9 (.)
     #[Override]
-    /**
-     * @return array<string, mixed>
-     */
     public function getTableFilters(): array
     {
         return [

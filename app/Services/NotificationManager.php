@@ -609,6 +609,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -616,6 +617,8 @@ class NotificationManager
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
             $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
         }
 

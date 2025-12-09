@@ -384,6 +384,7 @@ class ListNotificationTemplates extends XotBaseListRecords
 >>>>>>> 011072e4 (.)
     #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -520,6 +521,8 @@ class ListNotificationTemplates extends XotBaseListRecords
 =======
     #[Override]
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
     public function getTableColumns(): array
     {
         return [];

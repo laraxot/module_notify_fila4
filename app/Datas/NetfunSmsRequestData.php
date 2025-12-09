@@ -318,6 +318,7 @@ class NetfunSmsRequestData extends Data
     public static function fromArray(array $data): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var string $token */
         $token = $data['token'];
         /** @var array<int, array<string, mixed>> $messages */
@@ -553,6 +554,11 @@ class NetfunSmsRequestData extends Data
 =======
             messages: $data['messages'],
 >>>>>>> 98d837b9 (.)
+=======
+        return new self(
+            token: $data['token'],
+            messages: $data['messages'],
+>>>>>>> 54220b28 (rebase 210)
         );
     }
 }

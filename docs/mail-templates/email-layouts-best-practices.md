@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Email Layouts Best Practices 
 
 <<<<<<< HEAD
@@ -597,3 +598,5 @@ Il supporto per la Dark Mode migliora l'esperienza utente e riduce l'affaticamen
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

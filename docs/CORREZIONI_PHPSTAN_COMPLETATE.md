@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
 
 ## Data
@@ -416,3 +417,5 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

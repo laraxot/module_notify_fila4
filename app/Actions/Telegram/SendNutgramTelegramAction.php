@@ -3035,6 +3035,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -3042,6 +3043,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

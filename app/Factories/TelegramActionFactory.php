@@ -637,6 +637,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var TelegramProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
@@ -745,5 +746,8 @@ final class TelegramActionFactory
 =======
         return app($className);
 >>>>>>> 5fd545e4 (.)
+=======
+        return app($className);
+>>>>>>> 54220b28 (rebase 210)
     }
 }

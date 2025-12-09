@@ -1566,6 +1566,7 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 =======
     #[Override]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
     #[Override]
@@ -1743,6 +1744,8 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 =======
     #[Override]
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
     public function execute(WhatsAppData $whatsAppData): array
     {
 <<<<<<< HEAD

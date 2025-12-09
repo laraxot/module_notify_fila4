@@ -146,6 +146,7 @@ class SendSmsPage extends XotBasePage
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function smsForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
@@ -216,6 +217,8 @@ class SendSmsPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
     public function getSmsFormSchema(): array
     {
         return [

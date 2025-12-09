@@ -1204,9 +1204,6 @@ class SendWhatsAppPage extends XotBasePage
 >>>>>>> 7a2f131f (.)
     }
 
-    /**
-     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
-     */
     public function getWhatsAppFormSchema(): array
     {
         return [

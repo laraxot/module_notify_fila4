@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -653,3 +654,5 @@ class MailAnalytics
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 >>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

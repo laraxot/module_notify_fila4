@@ -485,6 +485,11 @@ class LinkableRelationManager extends XotBaseRelationManager
     public function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 54220b28 (rebase 210)
             TextInput::make('id')->required()->maxLength(255),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,6 +677,7 @@ class LinkableRelationManager extends XotBaseRelationManager
                 ->required()
                 ->maxLength(255),
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
@@ -685,6 +691,12 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> e6ac118 (.)
+=======
+            TextInput::make('id')->required()->maxLength(255),
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
         ];
     }
 }

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -316,3 +317,5 @@ While both are present in the $fillable array, the canonical fields (`starts_at`
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

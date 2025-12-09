@@ -66,6 +66,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -151,6 +152,8 @@ class EmailDataNotification extends Notification
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
      * @param object $_notifiable The entity to be notified (not used in this method)
      * @return array<string>
      */
@@ -359,6 +362,7 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,11 +810,19 @@ class EmailDataNotification extends Notification
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+        $mailMessage = new MailMessage()
+            ->subject($this->emailData->subject)
+            ->line($this->emailData->body);
+
+        if (!empty($this->emailData->body_html)) {
+>>>>>>> 54220b28 (rebase 210)
             $mailMessage->view('notify::emails.template', [
                 'content' => $this->emailData->body_html,
             ]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -998,6 +1010,9 @@ class EmailDataNotification extends Notification
 =======
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
 >>>>>>> 98d837b9 (.)
+=======
+        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+>>>>>>> 54220b28 (rebase 210)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
         }
 

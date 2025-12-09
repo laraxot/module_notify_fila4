@@ -57,6 +57,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
@@ -81,6 +82,10 @@ class AnalyzeTranslationFiles extends Command
             $lang = basename($langDir);
             $files = File::files($langDir);
 >>>>>>> 5fd545e4 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 54220b28 (rebase 210)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -230,6 +235,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::string($key);
             $row = [$key];
 
@@ -264,6 +270,12 @@ class AnalyzeTranslationFiles extends Command
             foreach (array_keys($allFiles) as $file) {
                 $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
 >>>>>>> 5fd545e4 (.)
+=======
+            $row = [$key];
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 54220b28 (rebase 210)
             }
 
             $table->addRow($row);

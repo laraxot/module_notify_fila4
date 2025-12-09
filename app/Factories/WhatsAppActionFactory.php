@@ -113,8 +113,11 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
 
 =======
 >>>>>>> b19cd40 (.)
@@ -1085,6 +1088,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var WhatsAppProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
@@ -1193,5 +1197,8 @@ final class WhatsAppActionFactory
 =======
         return app($className);
 >>>>>>> 5fd545e4 (.)
+=======
+        return app($className);
+>>>>>>> 54220b28 (rebase 210)
     }
 }

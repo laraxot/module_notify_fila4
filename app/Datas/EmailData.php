@@ -43,6 +43,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -291,6 +292,11 @@ class EmailData extends Data
 
     public null|string $from_email = null;
 >>>>>>> 98d837b9 (.)
+=======
+    public null|string $from = null;
+
+    public null|string $from_email = null;
+>>>>>>> 54220b28 (rebase 210)
 
     public string $subject;
 
@@ -517,6 +523,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -812,13 +819,19 @@ class EmailData extends Data
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+        null|string $from = null,
+        null|string $from_email = null,
+        null|string $body = null,
+>>>>>>> 54220b28 (rebase 210)
     ) {
         Assert::email($to, 'Invalid "to" email format');
         $this->to = $to;
-        if (! is_string($from)) {
+        if (!is_string($from)) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
         }
         $this->from = $from;
+<<<<<<< HEAD
         if (! is_string($from_email)) {
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -836,6 +849,9 @@ class EmailData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+        if (!is_string($from_email)) {
+>>>>>>> 54220b28 (rebase 210)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
         }
         $this->from_email = $from_email;
@@ -1292,6 +1308,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $email = new MimeEmail()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1470,6 +1487,8 @@ class EmailData extends Data
 >>>>>>> d13ead25 (.)
 =======
 >>>>>>> 3d542a31 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
         $email = new MimeEmail()
             ->from($this->getFrom())
             ->to($this->to)
@@ -1478,6 +1497,7 @@ class EmailData extends Data
             ->text($this->body);
 
         foreach ($this->attachments as $attachment) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1665,6 +1685,9 @@ class EmailData extends Data
 =======
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 98d837b9 (.)
+=======
+            Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 54220b28 (rebase 210)
             $email->attachFromPath($attachment); // string $path, ?string $name = null, ?string $contentType = null
         }
 

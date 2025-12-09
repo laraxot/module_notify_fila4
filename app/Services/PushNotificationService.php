@@ -3,10 +3,14 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Notify\Services;
 =======
 namespace Modules\Notify\App\Services;
 >>>>>>> 05bc3ad (.)
+=======
+namespace Modules\Notify\Services;
+>>>>>>> e6c7fb3 (.)
 
 use Exception;
 use DateTime;
