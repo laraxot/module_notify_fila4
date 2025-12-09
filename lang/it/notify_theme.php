@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -73,6 +74,8 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
 
 declare(strict_types=1);
 
@@ -95,11 +98,15 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
 >>>>>>> 207ac35e (.)
 =======
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3f537838 (.)
 =======
@@ -133,6 +140,9 @@ declare(strict_types=1);
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 return [
     'navigation' => [
         'group' => 'Sistema',

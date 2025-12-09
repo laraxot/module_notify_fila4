@@ -77,20 +77,28 @@ class SendEmail extends Page implements HasForms
     // use NavigationLabelTrait;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $emailData = [];
 =======
     public ?array $emailData = [];
 >>>>>>> b19cd40 (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
 
     public function mount(): void
     {
@@ -124,6 +132,9 @@ class SendEmail extends Page implements HasForms
     {
         return $schema
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
             ->components([
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
@@ -136,6 +147,7 @@ class SendEmail extends Page implements HasForms
                         RichEditor::make('body_html')->required(),
                     ]),
             ])
+<<<<<<< HEAD
 =======
             ->components(
                 [
@@ -156,6 +168,8 @@ class SendEmail extends Page implements HasForms
                 ]
             )
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             ->model($this->getUser())
             ->statePath('emailData');
     }
@@ -174,6 +188,7 @@ class SendEmail extends Page implements HasForms
         // $from_address = config('mail.from.address');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Mail::to($data['to'])->send(new EmailDataEmail($email_data));
 =======
         Mail::to($data['to'])
@@ -181,6 +196,9 @@ class SendEmail extends Page implements HasForms
                 new EmailDataEmail($email_data)
             );
 >>>>>>> b19cd40 (.)
+=======
+        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
+>>>>>>> 4e2ebfb (.)
 
         Notification::make()
             ->success()
@@ -200,12 +218,16 @@ class SendEmail extends Page implements HasForms
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             Action::make('emailFormActions')->submit('emailFormActions'),
 =======
             Action::make('emailFormActions')
 
                 ->submit('emailFormActions'),
 >>>>>>> b19cd40 (.)
+=======
+            Action::make('emailFormActions')->submit('emailFormActions'),
+>>>>>>> 4e2ebfb (.)
         ];
     }
 
@@ -214,14 +236,20 @@ class SendEmail extends Page implements HasForms
         $user = Filament::auth()->user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         if (!($user instanceof Model)) {
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
 =======
         if (! $user instanceof Model) {
             throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         }
 
         return $user;

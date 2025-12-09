@@ -38,6 +38,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -56,6 +57,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -65,6 +68,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -96,6 +100,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertInstanceOf(BaseModel::class, $version);
     }
@@ -125,6 +134,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -173,6 +183,10 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
             'template_id',
             'subject',
             'body_html',
@@ -203,6 +217,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +242,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 207ac35e (.)
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
 =======
 =======
@@ -254,6 +271,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -262,9 +280,12 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
         $model = new NotificationTemplateVersion();
         $this->assertEquals($expectedFillable, $model->getFillable());
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
@@ -372,6 +393,8 @@ class NotificationTemplateVersionTest extends TestCase
         $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
     }
 
     /** @test */
@@ -392,6 +415,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -402,10 +426,13 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -473,6 +500,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $casts = $version->getCasts();
 
         $this->assertIsArray($casts);
@@ -499,6 +531,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -517,6 +550,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -526,6 +561,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -557,6 +593,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertTrue(method_exists($version, 'template'));
     }
@@ -579,6 +620,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -597,6 +639,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -606,6 +650,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -637,6 +682,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertTrue(method_exists($version, 'restore'));
     }
@@ -659,6 +709,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -669,10 +720,13 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,6 +791,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertTrue(method_exists($version, 'restore'));
 
@@ -765,6 +824,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -783,6 +843,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -792,6 +854,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -823,6 +886,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertEquals('notification_template_versions', $version->getTable());
     }
@@ -845,6 +913,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -863,6 +932,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -872,6 +943,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -903,6 +975,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertEquals('id', $version->getKeyName());
     }
@@ -925,6 +1002,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -943,6 +1021,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -952,6 +1032,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -983,6 +1064,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertTrue($version->usesTimestamps());
     }
@@ -1032,6 +1118,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1050,6 +1137,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -1059,6 +1148,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -1090,6 +1180,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertTrue(method_exists($version, 'creator'));
         $this->assertTrue(method_exists($version, 'updater'));
@@ -1113,6 +1208,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1131,6 +1227,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -1140,6 +1238,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -1171,6 +1270,11 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $version = new NotificationTemplateVersion();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         $this->assertTrue(method_exists($version, 'media'));
     }
