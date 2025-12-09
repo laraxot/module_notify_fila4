@@ -4,11 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
-<<<<<<< HEAD
-use Filament\Forms\Form;
-=======
 use Filament\Schemas\Schema;
->>>>>>> 22f1446 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -54,15 +50,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 
     public function sendEmail(): void
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $data = $this->emailForm->getState();
-=======
         $data = $this->data;
->>>>>>> 22f1446 (.)
-=======
-        $data = $this->data;
->>>>>>> 5bed4d4 (.)
         $smtp = SmtpData::from($data);
         $emailData = EmailData::from($data);
         // dddx([
@@ -89,20 +77,11 @@ class TestSmtpPage extends XotBasePage implements HasForms
         ];
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5bed4d4 (.)
-    public function emailForm(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
+    public function emailForm(Schema $schema): Schema
     {
-        return $schema->schema([])->model($this->getUser())->statePath('emailData');
+        return $schema->components([])->model($this->getUser())->statePath('emailData');
     }
 
-<<<<<<< HEAD
->>>>>>> 22f1446 (.)
-=======
->>>>>>> 5bed4d4 (.)
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
@@ -130,14 +109,6 @@ class TestSmtpPage extends XotBasePage implements HasForms
             }
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $this->emailForm->fill($typedConfig);
-=======
         $this->fill($typedConfig);
->>>>>>> 22f1446 (.)
-=======
-        $this->fill($typedConfig);
->>>>>>> 5bed4d4 (.)
     }
 }
