@@ -33,6 +33,7 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -47,10 +48,13 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +144,11 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+=======
+ *
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
  * Questa factory centralizza la logica di selezione del driver Telegram
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -180,6 +189,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -235,6 +245,10 @@ final class TelegramActionFactory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
     public function create(null|string $driver = null): TelegramProviderActionInterface
     {
         $driver ??= Config::get('telegram.default', 'official');
@@ -254,6 +268,7 @@ final class TelegramActionFactory
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,6 +344,8 @@ final class TelegramActionFactory
 =======
 >>>>>>> de02998b (.)
 =======
+>>>>>>> 011072e4 (.)
+=======
     public function create(?string $driver = null): TelegramProviderActionInterface
     {
         $driver = $driver ?? Config::get('telegram.default', 'official');
@@ -351,6 +368,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,10 +426,15 @@ final class TelegramActionFactory
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
         // Verifica se la classe implementa l'interfaccia richiesta
         if (!is_subclass_of($className, TelegramProviderActionInterface::class)) {
             throw new Exception("Class {$className} does not implement TelegramProviderActionInterface.");
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,10 +538,15 @@ final class TelegramActionFactory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         return app($className);
 >>>>>>> 75179b85 (.)
 =======

@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -38,6 +39,8 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
 declare(strict_types=1);
 
 
@@ -49,6 +52,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,10 +130,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 011072e4 (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
@@ -169,6 +176,8 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -194,6 +203,7 @@ class NetfunSmsResponseData extends Data
     public function __construct(
         public string $status,
 <<<<<<< HEAD
+<<<<<<< HEAD
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
@@ -202,6 +212,11 @@ class NetfunSmsResponseData extends Data
         public ?array $messages = null,
         public ?string $error = null,
 >>>>>>> b19cd40 (.)
+=======
+        public null|string $batchId = null,
+        public null|array $messages = null,
+        public null|string $error = null,
+>>>>>>> 4e2ebfb (.)
     ) {}
 
 <<<<<<< HEAD
@@ -272,6 +287,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             error: $data['error'] ?? null,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -338,10 +354,13 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
             error: $data['error'] ?? null,
 =======
             error: $data['error'] ?? null
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,6 +428,11 @@ class NetfunSmsResponseData extends Data
             error: $data['error'] ?? null
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+=======
+            error: $data['error'] ?? null,
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
         );
     }
 }

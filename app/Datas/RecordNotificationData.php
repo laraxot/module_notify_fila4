@@ -26,6 +26,16 @@ use Exception;
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+use Modules\Xot\Contracts\UserContract;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -161,6 +171,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +241,10 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
 
 class RecordNotificationData extends Data
 {
@@ -263,6 +278,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -318,6 +334,10 @@ class RecordNotificationData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
         switch ($this->channel) {
             case 'mail':
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -329,6 +349,7 @@ class RecordNotificationData extends Data
         }
         throw new Exception('Channel [' . $this->channel . '] not supported');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +418,8 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> de02998b (.)
 =======
+>>>>>>> 011072e4 (.)
+=======
         switch($this->channel){
             case 'mail':
                 Assert::string($email=$this->record->email);
@@ -423,6 +446,7 @@ class RecordNotificationData extends Data
 
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,4 +510,8 @@ class RecordNotificationData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
 }

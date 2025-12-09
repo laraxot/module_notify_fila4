@@ -30,6 +30,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
@@ -69,10 +70,13 @@ class ContactResource extends XotBaseResource
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,9 +96,12 @@ use Override;
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 011072e4 (.)
+=======
 use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
@@ -173,6 +180,8 @@ use Override;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
@@ -205,6 +214,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -250,10 +260,13 @@ class ContactResource extends XotBaseResource
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
     protected static null|string $model = Contact::class;
 =======
     protected static ?string $model = Contact::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306,12 +319,18 @@ class ContactResource extends XotBaseResource
     protected static ?string $model = Contact::class;
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+=======
+    protected static null|string $model = Contact::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
 
     /**
      * Get the form schema for the resource.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,6 +397,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 011072e4 (.)
      * @return array<string, Component>
      */
     #[Override]
@@ -441,15 +462,19 @@ class ContactResource extends XotBaseResource
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 011072e4 (.)
+=======
      * @return array<string, Component>
      */
     #[Override]
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
@@ -493,6 +518,8 @@ class ContactResource extends XotBaseResource
      */
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -532,17 +559,21 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
 =======
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +661,9 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
     public static function getRelations(): array
     {
         return [];
@@ -655,17 +689,21 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
 =======
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -751,6 +789,9 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
     public static function getPages(): array
     {
         return [
