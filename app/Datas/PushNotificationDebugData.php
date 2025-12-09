@@ -151,6 +151,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -850,12 +851,16 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+    ) {}
+>>>>>>> 84082535 (rebase 210)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
         MobilePushNotification $notification,
         MulticastSendReport $sendReport,
     ): self {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1909,6 +1914,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+        return new self($notifiable, $notification, $sendReport);
+>>>>>>> 84082535 (rebase 210)
     }
 
     /**
@@ -1925,6 +1933,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'total' => $this->sendReport->count(),
                 'successes' => $this->sendReport->successes()->count(),
                 'failures' => $this->sendReport->failures()->count(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2429,6 +2438,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
                 'successes_tokens' => $this->sendReport
                     ->successes()
 <<<<<<< HEAD
@@ -2498,10 +2509,6 @@ final class PushNotificationDebugData extends Data implements Arrayable
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
                 'unknown_tokens' => $this->sendReport
 <<<<<<< HEAD
                     ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
@@ -2649,6 +2656,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
@@ -3513,6 +3521,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
             ],
         ];
     }

@@ -252,6 +252,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -813,11 +814,14 @@ class="block">
 >>>>>>> 7efe49a4 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1283,6 +1287,8 @@ declare(strict_types=1);
 >>>>>>> cb85c538 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
 <div class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2334,6 +2340,7 @@ class="block">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3576,3 +3583,6 @@ class="block">
 >>>>>>> 7efe49a4 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+								<tbody>
+>>>>>>> 84082535 (rebase 210)

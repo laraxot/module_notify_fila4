@@ -113,6 +113,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -125,10 +126,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cb85c538 (rebase 210)
@@ -1460,6 +1464,8 @@ declare(strict_types=1);
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 84082535 (rebase 210)
  * @author Laraxot Team
 <<<<<<< HEAD
  *
