@@ -198,6 +198,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
@@ -354,6 +355,8 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 510e6e8b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';

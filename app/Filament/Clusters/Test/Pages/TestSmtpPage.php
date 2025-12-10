@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 use Filament\Forms\Form;
 =======
 >>>>>>> 75179b85 (.)
@@ -43,6 +46,7 @@ use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,6 +96,10 @@ use Override;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -99,6 +107,24 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Schema;
+=======
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Override;
+>>>>>>> e53a56570 (.)
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -460,12 +486,17 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Filament\Clusters\Test;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -494,6 +525,12 @@ use Modules\Xot\Datas\XotData;
 =======
 <<<<<<< HEAD
 >>>>>>> bf5d31b0f (.)
+=======
+use Modules\Xot\Datas\XotData;
+=======
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> b19cd40 (.)
@@ -522,6 +559,9 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -588,6 +628,7 @@ use Webmozart\Assert\Assert;
  */
 =======
 =======
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
@@ -612,12 +653,15 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property \Filament\Schemas\Schema $emailForm
  */
 =======
@@ -628,10 +672,13 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
  * 
  */
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
  * @property \Filament\Schemas\Schema $emailForm
  */
@@ -665,6 +712,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 class TestSmtpPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
@@ -674,6 +723,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,6 +858,15 @@ class TestSmtpPage extends XotBasePage implements HasForms
     public null|string $error_message = null;
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+    public ?array $emailData = [];
+>>>>>>> f1c9518b (.)
+
+    public null|string $error_message = null;
+>>>>>>> e53a56570 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
@@ -822,10 +881,14 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1034,6 +1097,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e53a56570 (.)
     public null|array $emailData = [];
 
     public null|string $error_message = null;
@@ -1043,6 +1108,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
     protected string $view = 'notify::filament.pages.send-email';
 
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -1153,6 +1219,10 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     public function mount(): void
     {
@@ -1630,6 +1700,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1733,10 +1804,16 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
         if (! ($user instanceof Model)) {
 =======
         if (!($user instanceof Model)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1794,6 +1871,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.',
             );

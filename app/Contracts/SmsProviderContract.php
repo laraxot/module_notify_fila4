@@ -17,6 +17,7 @@ interface SmsProviderContract
      * Invia un SMS utilizzando il provider specifico.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param SmsData $smsData I dati del messaggio SMS
 =======
 <<<<<<< HEAD
@@ -57,6 +58,12 @@ interface SmsProviderContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+     * @param  SmsData  $smsData  I dati del messaggio SMS
+=======
+     * @param SmsData $smsData I dati del messaggio SMS
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(SmsData $smsData): array;

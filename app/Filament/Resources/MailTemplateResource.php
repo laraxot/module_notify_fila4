@@ -64,6 +64,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -109,6 +110,10 @@ use Filament\Schemas\Components\Utilities\Set;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -121,6 +126,7 @@ use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
 use Override;
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -317,6 +323,13 @@ use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
 use Filament\Schemas\Components\View;
+=======
+use Filament\Schemas\Components\Group;
+use Filament\Schemas\Components\View;
+use Override;
+use Filament\Forms\Components\Utilities\Set;
+use Filament\Forms\Components\RichEditor;
+>>>>>>> f1c9518b (.)
 use Filament\Forms\Components\Textarea;
 use Filament\Forms;
 <<<<<<< HEAD
@@ -493,6 +506,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -503,6 +517,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -817,6 +833,7 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 3f537838 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -907,6 +924,11 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -1001,6 +1023,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -1014,16 +1037,23 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             'mailable' => TextInput::make('mailable')
                 ->default('Modules\Notify\Emails\SpatieEmail')
                 ->required()
                 ->maxLength(255),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'name_slug_group' => Group::make()
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
             'name_slug_group' => Group::make()
 =======
 =======
@@ -1161,6 +1191,7 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 75179b85 (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -1191,6 +1222,12 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+            'mailable' => TextInput::make('mailable')->required()->maxLength(255),
+>>>>>>> 99ff506 (.)
+            'name_group' => Group::make()
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
@@ -1362,6 +1399,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(fn($record) => ['params' => $record?->params])
 =======
 <<<<<<< HEAD
@@ -1426,6 +1464,21 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> fbed41ac (.)
 =======
+=======
+                ->viewData(fn($record) => ['params' => $record?->params])
+                ->columnSpanFull()
+                ->visible(fn($record): bool => !empty($record->params)),
+=======
+<<<<<<< HEAD
+                ->viewData(fn ($record) => ['params' => $record?->params])
+                ->columnSpanFull()
+                ->visible(fn ($record): bool => ! empty($record->params)),
+=======
+                ->viewData(fn($record) => ['params' => $record?->params])
+                ->columnSpanFull()
+                ->visible(fn($record): bool => !empty($record->params)),
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 >>>>>>> f1c9518b (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),

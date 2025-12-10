@@ -7,6 +7,7 @@ namespace Modules\Notify\Traits;
 
 use Illuminate\Cache\RateLimiter;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Cache;
 =======
 <<<<<<< HEAD
@@ -44,12 +45,18 @@ use Illuminate\Support\Facades\Cache;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+use Illuminate\Support\Facades\Cache;
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
 trait HasNotificationRateLimiting
 {
     /**
      * Verifica se l'invio della notifica è consentito dal rate limiting.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -65,6 +72,8 @@ trait HasNotificationRateLimiting
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param  string  $key  Chiave univoca per il rate limiting
      */
     protected function shouldSendNotification(string $key): bool
@@ -74,6 +83,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -87,6 +97,8 @@ trait HasNotificationRateLimiting
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @param string $key Chiave univoca per il rate limiting
      * @return bool
      */
@@ -94,6 +106,7 @@ trait HasNotificationRateLimiting
     {
         if (!config('notify.rate_limiting.enabled')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +131,9 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
             return true;
         }
 
@@ -133,6 +149,7 @@ trait HasNotificationRateLimiting
 
         $limiter->hit($key, $decayMinutes * 60);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +183,11 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         return true;
     }
 
@@ -173,6 +195,7 @@ trait HasNotificationRateLimiting
      * Ottiene il tempo rimanente prima che il rate limiting si resetti.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $key Chiave univoca per il rate limiting
 =======
 <<<<<<< HEAD
@@ -213,6 +236,12 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+     * @param  string  $key  Chiave univoca per il rate limiting
+=======
+     * @param string $key Chiave univoca per il rate limiting
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
      * @return int Secondi rimanenti
      */
     protected function getNotificationRateLimitRetryAfter(string $key): int
@@ -220,6 +249,7 @@ trait HasNotificationRateLimiting
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +283,11 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         return $limiter->availableIn($key);
     }
 
@@ -260,6 +295,7 @@ trait HasNotificationRateLimiting
      * Ottiene il numero di tentativi rimanenti per il rate limiting.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $key Chiave univoca per il rate limiting
 =======
 <<<<<<< HEAD
@@ -300,6 +336,12 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+     * @param  string  $key  Chiave univoca per il rate limiting
+=======
+     * @param string $key Chiave univoca per il rate limiting
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
      * @return int Tentativi rimanenti
      */
     protected function getNotificationRateLimitRemainingAttempts(string $key): int
@@ -309,6 +351,7 @@ trait HasNotificationRateLimiting
         /** @var RateLimiter */
         $limiter = app(RateLimiter::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +385,11 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         return $maxAttempts - $limiter->attempts($key);
     }
 
@@ -349,6 +397,7 @@ trait HasNotificationRateLimiting
      * Resetta il rate limiting per una chiave specifica.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $key Chiave univoca per il rate limiting
      * @return void
 =======
@@ -365,10 +414,13 @@ trait HasNotificationRateLimiting
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param  string  $key  Chiave univoca per il rate limiting
 =======
      * @param string $key Chiave univoca per il rate limiting
      * @return void
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +447,9 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
      */
     protected function resetNotificationRateLimit(string $key): void
     {
@@ -407,6 +462,7 @@ trait HasNotificationRateLimiting
      * Genera una chiave univoca per il rate limiting.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $type Tipo di notifica
      * @param mixed $identifier Identificatore univoco (es. ID utente)
      * @return string
@@ -424,12 +480,15 @@ trait HasNotificationRateLimiting
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param  string  $type  Tipo di notifica
      * @param  mixed  $identifier  Identificatore univoco (es. ID utente)
 =======
      * @param string $type Tipo di notifica
      * @param mixed $identifier Identificatore univoco (es. ID utente)
      * @return string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,6 +518,9 @@ trait HasNotificationRateLimiting
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
      */
     protected function getNotificationRateLimitKey(string $type, mixed $identifier): string
     {

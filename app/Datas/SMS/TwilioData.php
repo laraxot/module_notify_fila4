@@ -372,7 +372,10 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -631,6 +634,7 @@ use Modules\Tenant\Services\TenantService;
 =======
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
 =======
@@ -965,6 +969,8 @@ use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
+=======
+>>>>>>> e53a56570 (.)
 
 class TwilioData extends Data
 {
@@ -978,7 +984,28 @@ class TwilioData extends Data
 
     public static function make(): self
     {
+<<<<<<< HEAD
         if (! self::$instance instanceof TwilioData) {
+=======
+        if (! (self::$instance instanceof TwilioData)) {
+=======
+use Webmozart\Assert\Assert;
+
+class TwilioData extends Data
+{
+    public null|string $account_sid;
+    public null|string $auth_token;
+    public null|string $base_url;
+    public string $auth_type = 'basic';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof TwilioData)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             /*
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.twilio', []);
@@ -1251,6 +1278,7 @@ class TwilioData extends Data
             default:
                 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
@@ -1268,6 +1296,8 @@ class TwilioData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1422,6 +1452,7 @@ class TwilioData extends Data
 =======
 >>>>>>> 011072e4 (.)
 =======
+<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
@@ -1511,6 +1542,14 @@ class TwilioData extends Data
 =======
 >>>>>>> 011072e4 (.)
 >>>>>>> 1619767d8 (.)
+=======
+<<<<<<< HEAD
+                    'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded'

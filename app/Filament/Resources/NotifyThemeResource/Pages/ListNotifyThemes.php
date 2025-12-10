@@ -102,6 +102,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -389,6 +390,7 @@ use Override;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -556,6 +558,8 @@ use Override;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
@@ -814,6 +818,18 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1000,6 +1016,19 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> de02998b (.)
 =======
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+=======
+use Override;
+=======
+use Override;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
+use Filament\Tables\Columns;
+use Filament\Tables\Filters;
+use Modules\Notify\Filament\Resources\NotifyThemeResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 
 =======
 >>>>>>> 82ae73be (.)
@@ -3042,6 +3071,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 fn(): array => NotifyThemeResource::fieldOptions('lang'),
 =======
 <<<<<<< HEAD
@@ -3053,6 +3083,11 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+                fn(): array => NotifyThemeResource::fieldOptions('lang'),
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
                 fn (): array => NotifyThemeResource::fieldOptions('lang'),
 >>>>>>> f1c9518b (.)
             ),
@@ -3076,6 +3111,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -3088,6 +3124,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
             ),

@@ -10,6 +10,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ namespace Modules\Notify\Tests\Feature;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +377,19 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationTemplateVersion;
+=======
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Notify\Models\NotificationTemplateVersion;
+use RuntimeException;
+=======
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Notify\Models\NotificationTemplateVersion;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 =======
@@ -1688,6 +1704,7 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8dc1f2ed6 (.)
@@ -1902,6 +1919,16 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $this->expectExceptionMessage('Template not found for version ' . $version->id);
+=======
+<<<<<<< HEAD
+        $this->expectExceptionMessage('Template not found for version '.$version->id);
+=======
+        $this->expectExceptionMessage('Template not found for version ' . $version->id);
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
         $version->restore();
     }

@@ -587,6 +587,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -597,6 +598,8 @@ class WhatsAppData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param  string  $to  Numero di telefono del destinatario in formato E.164 (es. +393401234567)
      * @param  string  $body  Contenuto testuale del messaggio
      * @param  string|null  $from  Numero di telefono del mittente (opzionale, può essere definito nella configurazione)
@@ -605,6 +608,7 @@ class WhatsAppData extends Data
      * @param  array|null  $template  Dati del template per messaggi strutturati (supportati solo da alcuni provider)
      * @param  string  $type  Tipo di messaggio: 'text', 'media', 'template', ecc.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +629,9 @@ class WhatsAppData extends Data
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      * @param string $to Numero di telefono del destinatario in formato E.164 (es. +393401234567)
      * @param string $body Contenuto testuale del messaggio
      * @param string|null $from Numero di telefono del mittente (opzionale, può essere definito nella configurazione)
@@ -642,6 +649,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -664,6 +672,10 @@ class WhatsAppData extends Data
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      */
     public function __construct(
         public string $to,
@@ -760,6 +772,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1372,6 +1385,7 @@ class WhatsAppData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -1400,10 +1414,13 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> e53a56570 (.)
         public ?string $from = null,
         public ?array $media = null,
         public ?array $buttons = null,
         public ?array $template = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1425,6 +1442,8 @@ class WhatsAppData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1532,6 +1551,7 @@ class WhatsAppData extends Data
 >>>>>>> 2941b0bd (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -1562,10 +1582,13 @@ class WhatsAppData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> e53a56570 (.)
         public null|string $from = null,
         public null|array $media = null,
         public null|array $buttons = null,
         public null|array $template = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1973,6 +1996,10 @@ class WhatsAppData extends Data
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         public string $type = 'text',
     ) {}
 }

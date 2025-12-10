@@ -2863,6 +2863,9 @@ enum WhatsAppDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3271,6 +3274,7 @@ enum WhatsAppDriverEnum: string
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -3308,6 +3312,11 @@ enum WhatsAppDriverEnum: string
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+     *
+     * @param string $driver
+     * @return bool
+>>>>>>> e53a56570 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
      */
@@ -4033,6 +4042,7 @@ enum WhatsAppDriverEnum: string
     /**
      * Restituisce il driver predefinito dal file di configurazione
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return self
 =======
@@ -4052,6 +4062,8 @@ enum WhatsAppDriverEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4345,6 +4357,7 @@ enum WhatsAppDriverEnum: string
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -4412,6 +4425,12 @@ enum WhatsAppDriverEnum: string
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+     *
+     * @return self
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      */
     public static function getDefault(): self
     {

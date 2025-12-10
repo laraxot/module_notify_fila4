@@ -847,6 +847,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8dc1f2ed6 (.)
@@ -870,6 +871,11 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
  * @mixin IdeHelperNotificationType
  * @mixin \Eloquent
  */

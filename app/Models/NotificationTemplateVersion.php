@@ -102,6 +102,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -211,6 +212,7 @@ namespace Modules\Notify\Models;
 >>>>>>> 2941b0bd (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -383,12 +385,15 @@ use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Modules\User\Models\Profile;
 use Modules\Xot\Traits\Updater;
+<<<<<<< HEAD
 use Override;
 use RuntimeException;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
@@ -448,6 +453,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
@@ -574,6 +582,9 @@ use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -641,6 +652,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 2941b0bd (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -683,10 +695,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -947,6 +962,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -954,6 +972,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -982,6 +1001,10 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 // BaseModel in same namespace provides common behaviors
 /**
@@ -1000,12 +1023,16 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1027,10 +1054,13 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
  * @method static NotificationTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1210,10 +1240,15 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> 2941b0bd (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
@@ -1259,6 +1294,8 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
@@ -2521,8 +2558,18 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 2941b0bd (.)
 
+<<<<<<< HEAD
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
+=======
+<<<<<<< HEAD
+        if (! $template) {
+            throw new RuntimeException('Template not found for version '.$this->id);
+=======
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
 <<<<<<< HEAD

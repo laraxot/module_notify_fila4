@@ -10,6 +10,7 @@ use Modules\Xot\Filament\Widgets\EnvWidget;
 
 class SettingPage extends XotBasePage
 {
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
 =======
 <<<<<<< HEAD
@@ -57,6 +58,13 @@ class SettingPage extends XotBasePage
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-document-text';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-document-text';
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
     protected string $view = 'notify::filament.pages.setting';
 

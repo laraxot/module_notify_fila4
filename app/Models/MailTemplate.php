@@ -101,6 +101,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -504,6 +505,21 @@ use Modules\Xot\Models\Traits\HasXotFactory;
 >>>>>>> a070a65a5 (.)
 //use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 use Exception;
+=======
+// use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
+>>>>>>> f1c9518b (.)
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Contracts\Mail\Mailable;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\SoftDeletes;
+<<<<<<< HEAD
+use Illuminate\Support\Str;
+=======
+=======
+//use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
+use Exception;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Contracts\Mail\Mailable;
@@ -515,6 +531,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -527,6 +544,8 @@ use Illuminate\Support\Str;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 use Spatie\MailTemplates\Interfaces\MailTemplateInterface;
@@ -1064,6 +1083,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1094,6 +1114,10 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
  * @property int                                  $id
  * @property string                               $mailable
  * @property string|null                          $subject
@@ -1104,6 +1128,9 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
  * @property Carbon                               $updated_at
  * @property Carbon|null                          $deleted_at
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
  * @property Collection<int, MailTemplateVersion> $versions
  * @property Collection<int, MailTemplateLog>     $logs
  * @property string|null                          $updated_by
@@ -1115,6 +1142,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
  * @property mixed                                $translations
  *
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1520,6 +1548,9 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
  * @property int $id
  * @property string $mailable
  * @property string|null $subject
@@ -1538,6 +1569,10 @@ use Spatie\Translatable\HasTranslations;
  * @property string $slug
  * @property-read array $variables
  * @property-read mixed $translations
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -1565,6 +1600,7 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1579,6 +1615,10 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+ *
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
  * @property string|null $params
  * @method static Builder<static>|MailTemplate whereParams($value)
  * @property array<array-key, mixed>|null $sms_template
@@ -1586,6 +1626,18 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|MailTemplate whereCounter($value)
  * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *
+=======
+ * @property string|null $params
+ * @method static Builder<static>|MailTemplate whereParams($value)
+ * @property array<array-key, mixed>|null $sms_template
+ * @property int $counter
+ * @method static Builder<static>|MailTemplate whereCounter($value)
+ * @method static Builder<static>|MailTemplate whereSmsTemplate($value)
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
  * @mixin IdeHelperMailTemplate
 =======
 <<<<<<< HEAD
@@ -1678,6 +1730,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //use SoftDeletes;
     use HasTranslations;
     use HasSlug;
@@ -1687,10 +1740,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
     use HasSlug;
     // use SoftDeletes;
     use HasTranslations;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1725,10 +1781,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
     //use SoftDeletes;
     use HasTranslations;
     use HasSlug;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -1747,6 +1806,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     /** @var string */
     protected $connection = 'notify';
@@ -2245,6 +2307,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         //'version',  //under development
 =======
 <<<<<<< HEAD
@@ -2252,10 +2315,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
         // 'version',  //under development
 =======
         //'version',  //under development
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -2285,6 +2351,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         'params',
         'counter',
     ];
@@ -2299,6 +2368,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2309,10 +2379,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
     protected $attributes = [
         'mailable' => 'Modules\Notify\Emails\SpatieEmail',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2359,6 +2432,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
     /**
      * Define attribute casts.
      *
@@ -3344,6 +3422,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3564,6 +3643,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         }
         $slug = $mailable->getSlug();
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $query->where('mailable', get_class($mailable))->where('slug', $slug);
     }
 
@@ -3620,12 +3700,16 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+=======
+>>>>>>> e53a56570 (.)
         if (! method_exists($mailable, 'getSlug')) {
             throw new \Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
         }
         $slug = $mailable->getSlug();
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3697,10 +3781,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
         if (!method_exists($mailable, 'getSlug')) {
             throw new Exception('Il metodo getSlug() non è definito nella classe ' . $mailable::class);
         }
         $slug = $mailable->getSlug();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3831,6 +3918,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> b93ef594b4 (.)
         }
         $slug = $mailable->getSlug();
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         return $query->where('mailable', get_class($mailable))->where('slug', $slug);
     }
 

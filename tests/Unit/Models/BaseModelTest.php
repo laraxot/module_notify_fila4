@@ -215,6 +215,7 @@ uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
 =======
 <<<<<<< HEAD
@@ -231,6 +232,8 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
     $this->baseModel = new class extends BaseModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,6 +524,7 @@ beforeEach(function () {
     {
 =======
     $this->baseModel = new class extends BaseModel {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -912,6 +916,10 @@ beforeEach(function () {
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         protected $table = 'test_notify_table';
     };
 });

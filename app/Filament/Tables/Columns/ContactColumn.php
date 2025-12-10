@@ -3875,6 +3875,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -3977,6 +3978,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn

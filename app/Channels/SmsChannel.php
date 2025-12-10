@@ -53,6 +53,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
@@ -100,6 +101,10 @@ class SmsChannel
      * @param Notification $notification Notifica da inviare
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+     * @param  mixed  $notifiable  Entità che riceve la notifica
+     * @param  Notification  $notification  Notifica da inviare
+>>>>>>> e53a56570 (.)
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
 =======
@@ -109,6 +114,7 @@ class SmsChannel
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -120,6 +126,9 @@ class SmsChannel
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
@@ -127,6 +136,7 @@ class SmsChannel
 <<<<<<< HEAD
         if (!method_exists($notification, 'toSms')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +259,8 @@ class SmsChannel
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -724,6 +736,7 @@ class SmsChannel
         if (!method_exists($notification, 'toSms')) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
@@ -901,6 +914,8 @@ class SmsChannel
         if (!method_exists($notification, 'toSms')) {
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
             throw new Exception('Notification does not have toSms method');
         }
 
@@ -1002,6 +1017,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (! ($smsData instanceof SmsData)) {
 >>>>>>> 98d837b9 (.)
@@ -1037,6 +1053,8 @@ class SmsChannel
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1510,6 +1528,7 @@ class SmsChannel
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 2941b0bd (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> b19cd40 (.)
@@ -1636,11 +1655,14 @@ class SmsChannel
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 2941b0bd (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
         if (! ($smsData instanceof SmsData)) {
 =======
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 95531e1 (.)
@@ -1708,6 +1730,8 @@ class SmsChannel
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 

@@ -1485,10 +1485,14 @@ class TelegramChannel
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -1675,6 +1679,13 @@ class TelegramChannel
 =======
 >>>>>>> f1c9518b (.)
 =======
+=======
+     * @param  mixed  $notifiable  Entità che riceve la notifica
+     * @param  Notification  $notification  Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     *
+=======
+>>>>>>> e53a56570 (.)
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
@@ -1684,6 +1695,7 @@ class TelegramChannel
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1781,6 +1793,8 @@ class TelegramChannel
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2416,6 +2430,7 @@ class TelegramChannel
         if (!method_exists($notification, 'toTelegram')) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
@@ -2508,6 +2523,8 @@ class TelegramChannel
         if (!method_exists($notification, 'toTelegram')) {
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
@@ -2893,7 +2910,9 @@ class TelegramChannel
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
 
+<<<<<<< HEAD
         if (!($telegramData instanceof TelegramData)) {
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -2914,6 +2933,15 @@ class TelegramChannel
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+<<<<<<< HEAD
+        if (! ($telegramData instanceof TelegramData)) {
+=======
+        if (!($telegramData instanceof TelegramData)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception('toTelegram method must return an instance of TelegramData');
         }
 

@@ -26252,6 +26252,7 @@ describe('Notification Management Business Logic', function () {
                 'type' => 'email',
                 'subject' => "Test Notification - {$priority} Priority",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'content' => 'This is a test notification with ' . $priority . ' priority',
 =======
 <<<<<<< HEAD
@@ -26292,6 +26293,12 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+                'content' => 'This is a test notification with '.$priority.' priority',
+=======
+                'content' => 'This is a test notification with ' . $priority . ' priority',
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
                 'status' => 'pending',
                 'priority' => $priority,
             ];
@@ -36653,6 +36660,7 @@ describe('Notification Management Business Logic', function () {
                 'complaints' => true,
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tracking_id' => 'track_' . uniqid(),
 =======
 <<<<<<< HEAD
@@ -36693,6 +36701,12 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+            'tracking_id' => 'track_'.uniqid(),
+=======
+            'tracking_id' => 'track_' . uniqid(),
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         ];
 
         $notification = Notification::create($notificationData);

@@ -30,6 +30,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -384,6 +385,7 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 4689a827 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> f1c9518b (.)
 =======
@@ -408,9 +410,15 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+class NotificationTemplatePolicy extends NotifyBasePolicy {}
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 class NotificationTemplatePolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,6 +438,8 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -643,6 +653,7 @@ class NotificationTemplatePolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
@@ -1082,3 +1093,8 @@ class NotificationTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)

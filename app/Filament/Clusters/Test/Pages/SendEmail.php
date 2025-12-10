@@ -8,6 +8,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -15,6 +16,8 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Filament\Schemas\Schema;
 =======
 <<<<<<< HEAD
@@ -85,6 +88,7 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;
 =======
@@ -92,6 +96,8 @@ use Filament\Actions\Contracts\HasActions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> e53a56570 (.)
+=======
 <<<<<<< HEAD
 use Exception;
 use Filament\Actions\Action;
@@ -99,6 +105,7 @@ use Filament\Facades\Filament;
 =======
 use Filament\Schemas\Schema;
 
+<<<<<<< HEAD
 =======
 use Exception;
 use Filament\Actions\Action;
@@ -129,6 +136,8 @@ use Filament\Facades\Filament;
 use Filament\Schemas\Schema;
 
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -136,6 +145,7 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,6 +171,10 @@ use Filament\Forms;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
@@ -217,16 +231,20 @@ class SendEmail extends Page implements HasForms, HasActions
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 /**
  * 
  */
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
@@ -235,6 +253,8 @@ class SendEmail extends Page implements HasForms, HasActions
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> f1c9518b (.)
 class SendEmail extends Page implements HasForms
 {
@@ -370,6 +390,24 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+    public ?array $emailData = [];
+>>>>>>> f1c9518b (.)
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+=======
+>>>>>>> e53a56570 (.)
     public null|array $emailData = [];
 =======
 <<<<<<< HEAD
@@ -489,6 +527,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 =======
     protected static ?string $cluster = Test::class;
 =======
@@ -762,6 +801,10 @@ class SendEmail extends Page implements HasForms
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     public function mount(): void
     {
@@ -1124,6 +1167,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1227,10 +1271,16 @@ class SendEmail extends Page implements HasForms
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
         if (! ($user instanceof Model)) {
 =======
         if (!($user instanceof Model)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1288,6 +1338,9 @@ class SendEmail extends Page implements HasForms
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

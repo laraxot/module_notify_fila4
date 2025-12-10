@@ -422,6 +422,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1960,6 +1961,7 @@
 =======
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -2737,6 +2739,8 @@
 =======
 >>>>>>> e438127e (.)
 >>>>>>> 5ec7f2640 (.)
+=======
+>>>>>>> e53a56570 (.)
 <?php
 
 declare(strict_types=1);
@@ -3139,6 +3143,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bce3ff15 (.)
 =======
@@ -3195,6 +3200,8 @@ declare(strict_types=1);
 >>>>>>> 8e45d5fca (.)
 =======
 >>>>>>> 5ec7f2640 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -4187,6 +4194,7 @@ declare(strict_types=1);
 >>>>>>> 5ec7f2640 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -5979,6 +5987,11 @@ declare(strict_types=1);
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -5990,6 +6003,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6269,6 +6283,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 37beb5238 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7914,6 +7930,7 @@ declare(strict_types=1);
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
@@ -8033,3 +8050,5 @@ declare(strict_types=1);
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 4c323e61 (.)
 >>>>>>> 37beb5238 (.)
+=======
+>>>>>>> e53a56570 (.)

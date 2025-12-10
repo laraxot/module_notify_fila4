@@ -1912,6 +1912,7 @@ class NotifyThemeTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -1952,6 +1953,12 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedFillable = [
             'id',
@@ -1978,6 +1985,7 @@ class NotifyThemeTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2018,6 +2026,12 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -2038,6 +2052,7 @@ class NotifyThemeTest extends TestCase
     public function it_has_logo_appended_attribute(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2078,6 +2093,12 @@ class NotifyThemeTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $theme = new NotifyTheme;
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedAppends = ['logo'];
 

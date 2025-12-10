@@ -1894,6 +1894,7 @@ class MailTemplateTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -1934,6 +1935,12 @@ class MailTemplateTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedFillable = [
             'mailable',
@@ -1954,6 +1961,7 @@ class MailTemplateTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -1994,6 +2002,12 @@ class MailTemplateTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -2008,6 +2022,7 @@ class MailTemplateTest extends TestCase
     public function it_has_translatable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -2048,6 +2063,12 @@ class MailTemplateTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedTranslatable = [
             'subject',
@@ -2063,6 +2084,7 @@ class MailTemplateTest extends TestCase
     public function it_uses_notify_connection(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -2103,6 +2125,12 @@ class MailTemplateTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $template = new MailTemplate;
+=======
+        $template = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $this->assertEquals('notify', $template->getConnectionName());
     }

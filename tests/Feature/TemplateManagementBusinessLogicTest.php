@@ -4,6 +4,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,10 +19,13 @@ declare(strict_types=1);
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\EmailTemplate;
 use Modules\Notify\Models\Theme;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,11 +42,14 @@ use Modules\Notify\Models\Theme;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\EmailTemplate;
 use Modules\Notify\Models\Theme;
 use Modules\Notify\Helpers\ConfigHelper;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +74,9 @@ use Modules\Notify\Helpers\ConfigHelper;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
 describe('Template Management Business Logic', function () {
     it('can create email template with basic information', function () {
@@ -96,6 +106,7 @@ describe('Template Management Business Logic', function () {
         $testData = ConfigHelper::getTestData();
         $themeData = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Default'),
             'description' => $testData['theme_description'] ?? ('Tema predefinito per ' . config('app.name', 'Our Platform')),
 =======
@@ -112,11 +123,14 @@ describe('Template Management Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform').' Default'),
             'description' => $testData['theme_description'] ?? ('Tema predefinito per '.config('app.name', 'Our Platform')),
 =======
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Default'),
             'description' => $testData['theme_description'] ?? ('Tema predefinito per ' . config('app.name', 'Our Platform')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +157,9 @@ describe('Template Management Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
             'colors' => [
                 'primary' => '#001F3F',
                 'secondary' => '#3B82F6',
@@ -299,6 +316,7 @@ describe('Template Management Business Logic', function () {
         $template = EmailTemplate::factory()->create();
         $metadata = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'author' => 'Team ' . config('app.name', 'Our Platform'),
 =======
 <<<<<<< HEAD
@@ -339,6 +357,12 @@ describe('Template Management Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+            'author' => 'Team '.config('app.name', 'Our Platform'),
+=======
+            'author' => 'Team ' . config('app.name', 'Our Platform'),
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
             'created_date' => '2024-01-15',
             'last_modified' => '2024-12-01',
             'tags' => ['appointment', 'confirmation', 'patient'],
@@ -349,6 +373,7 @@ describe('Template Management Business Logic', function () {
         $template->update(['metadata' => $metadata]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($template->fresh()->metadata['author'])->toBe('Team ' . config('app.name', 'Our Platform'))
 =======
 <<<<<<< HEAD
@@ -389,6 +414,12 @@ describe('Template Management Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        expect($template->fresh()->metadata['author'])->toBe('Team '.config('app.name', 'Our Platform'))
+=======
+        expect($template->fresh()->metadata['author'])->toBe('Team ' . config('app.name', 'Our Platform'))
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
             ->and($template->fresh()->metadata['created_date'])->toBe('2024-01-15')
             ->and($template->fresh()->metadata['priority'])->toBe('high')
             ->and($template->fresh()->metadata['tags'])->toContain('appointment');

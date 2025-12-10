@@ -11,6 +11,7 @@ declare(strict_types=1);
  *
  * @author Laraxot Team
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @version 1.0
 =======
 <<<<<<< HEAD
@@ -26,11 +27,14 @@ declare(strict_types=1);
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
  *
  * @version 1.0
  *
 =======
  * @version 1.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +58,9 @@ declare(strict_types=1);
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
  * @since 2025-08-01
  */
 return [

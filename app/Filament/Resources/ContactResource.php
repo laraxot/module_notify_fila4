@@ -106,6 +106,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -189,6 +190,10 @@ namespace Modules\Notify\Filament\Resources;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
@@ -810,6 +815,7 @@ use Modules\Notify\Filament\Resources\ContactResource\Pages;
 use Modules\Notify\Models\Contact;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
+<<<<<<< HEAD
 class ContactResource extends XotBaseResource
 {
 <<<<<<< HEAD
@@ -1179,6 +1185,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1288,6 +1295,30 @@ class ContactResource extends XotBaseResource
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
+use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
+use Filament\Forms;
+use Filament\Forms\Components\TextInput;
+use Filament\Resources\Pages\PageRegistration;
+use Modules\Notify\Filament\Resources\ContactResource\Pages;
+use Modules\Notify\Models\Contact;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+
+class ContactResource extends XotBaseResource
+{
+    protected static null|string $model = Contact::class;
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     /**
      * Get the form schema for the resource.

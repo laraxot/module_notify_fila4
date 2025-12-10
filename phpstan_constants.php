@@ -3,6 +3,7 @@
 declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -42,3 +43,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+=======
+
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)

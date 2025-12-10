@@ -372,7 +372,10 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Webmozart\Assert\Assert;
 
 class NexmoData extends Data
@@ -631,6 +634,7 @@ use Modules\Tenant\Services\TenantService;
 =======
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d45a0226 (.)
 =======
@@ -965,6 +969,8 @@ use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
+=======
+>>>>>>> e53a56570 (.)
 
 class NexmoData extends Data
 {
@@ -978,7 +984,28 @@ class NexmoData extends Data
 
     public static function make(): self
     {
+<<<<<<< HEAD
         if (! self::$instance instanceof NexmoData) {
+=======
+        if (! (self::$instance instanceof NexmoData)) {
+=======
+use Webmozart\Assert\Assert;
+
+class NexmoData extends Data
+{
+    public null|string $key;
+    public null|string $secret;
+    public null|string $base_url;
+    public string $auth_type = 'api_key';
+    public int $timeout = 30;
+
+    private static null|self $instance = null;
+
+    public static function make(): self
+    {
+        if (!(self::$instance instanceof NexmoData)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             /*
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.nexmo', []);
@@ -1251,6 +1278,7 @@ class NexmoData extends Data
             default:
                 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
                     'Content-Type' => 'application/json',
 =======
@@ -1268,6 +1296,8 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1422,6 +1452,7 @@ class NexmoData extends Data
 =======
 >>>>>>> 011072e4 (.)
 =======
+<<<<<<< HEAD
                     'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
 =======
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
@@ -1511,6 +1542,14 @@ class NexmoData extends Data
 =======
 >>>>>>> 011072e4 (.)
 >>>>>>> 1619767d8 (.)
+=======
+<<<<<<< HEAD
+                    'Authorization' => 'Basic '.base64_encode($this->key.':'.$this->secret),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
                     'Content-Type' => 'application/json',
 =======
                     'Content-Type' => 'application/json'

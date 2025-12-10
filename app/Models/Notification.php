@@ -425,6 +425,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 <<<<<<< HEAD
@@ -432,6 +435,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -500,6 +504,8 @@ use Override;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -660,6 +666,7 @@ namespace Modules\Notify\Models;
 =======
 =======
 
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 namespace Modules\Notify\Models;
@@ -1105,6 +1112,12 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+namespace Modules\Notify\Models;
+
+use Override;
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
@@ -1132,6 +1145,7 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> a070a65a5 (.)
 use Modules\Xot\Models\BaseModel;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1212,10 +1226,13 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> 2941b0bd (.)
 use Modules\Xot\Models\BaseModel;
+=======
+>>>>>>> e53a56570 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 use Modules\Xot\Models\BaseModel;
 >>>>>>> 7d765981 (.)
@@ -1248,6 +1265,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 
 /**
  * Notification model for the Notify module.
@@ -1274,6 +1293,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
  * @property-read Model|null $creator
  * @property-read Model|null $updater
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1297,10 +1317,16 @@ use Modules\Xot\Models\BaseModel;
  * @property Model|null $creator
  * @property Model|null $updater
 >>>>>>> 7d765981 (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
  *
 =======
@@ -1332,6 +1358,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -1348,6 +1376,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1550,10 +1579,15 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 2941b0bd (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
@@ -1602,6 +1636,8 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */

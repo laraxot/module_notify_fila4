@@ -1896,6 +1896,7 @@ class NotificationTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -1936,6 +1937,12 @@ class NotificationTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedFillable = [
             'message',
@@ -1958,6 +1965,7 @@ class NotificationTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -1998,6 +2006,12 @@ class NotificationTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $notification = new Notification;
+=======
+        $notification = new Notification();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',

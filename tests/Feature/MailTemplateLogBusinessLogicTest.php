@@ -68,6 +68,7 @@ use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -75,6 +76,7 @@ use Modules\Notify\Models\MailTemplateLog;
 use Carbon\Carbon;
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
@@ -155,6 +157,8 @@ use Carbon\Carbon;
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+=======
+>>>>>>> e53a56570 (.)
 use Carbon\Carbon;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -7676,6 +7680,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
 =======
 <<<<<<< HEAD
@@ -7683,10 +7688,13 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
                     'clinic_name' => 'Studio Dentistico '.config('app.name', 'Our Platform'),
 =======
                     'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -7716,6 +7724,9 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
                     'clinic_address' => 'Via Roma 123, Milano',
                     'clinic_phone' => '+39 02 1234567',
                 ],

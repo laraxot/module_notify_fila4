@@ -502,6 +502,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -750,6 +751,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 4689a827 (.)
 >>>>>>> a12f125f4a (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -795,6 +797,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\ContactFactory;
@@ -802,6 +806,7 @@ use Modules\Xot\Contracts\ProfileContract;
 use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -835,12 +840,17 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -946,6 +956,8 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -1024,6 +1036,7 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> a070a65a5 (.)
 use Illuminate\Support\Carbon;
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4d2eb53e (.)
@@ -1309,6 +1322,11 @@ use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -1352,6 +1370,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,10 +1488,15 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 98d837b9 (.)
@@ -1629,6 +1653,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -1655,11 +1681,17 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Contact whereUserId($value)
  * @method static Builder|Contact whereValue($value)
  * @method static Builder|Contact whereVerifiedAt($value)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ *
+>>>>>>> f1c9518b (.)
  * @mixin Eloquent
  * @property string|null $email
  * @property string|null $mobile_phone
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1678,6 +1710,15 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+ *
+=======
+ * @mixin Eloquent
+ * @property string|null $email
+ * @property string|null $mobile_phone
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
  * @method static Builder|Contact whereAttribute1($value)
  * @method static Builder|Contact whereAttribute10($value)
  * @method static Builder|Contact whereAttribute11($value)
@@ -1697,6 +1738,15 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Contact whereFirstName($value)
  * @method static Builder|Contact whereUsesleft($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
 =======
@@ -1754,6 +1804,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1763,9 +1814,12 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
@@ -1794,11 +1848,17 @@ use Illuminate\Support\Carbon;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+ *
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+>>>>>>> e53a56570 (.)
  *
 =======
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1909,6 +1969,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
  * @mixin IdeHelperContact
 =======
 =======

@@ -77,6 +77,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -155,6 +156,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 abstract class NotifyBasePolicy extends UserBasePolicy {}
 >>>>>>> f1c9518b (.)
 =======
+<<<<<<< HEAD
 abstract class NotifyBasePolicy extends UserBasePolicy {}
 >>>>>>> d45a0226 (.)
 =======
@@ -191,6 +193,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 >>>>>>> a12f125f4a (.)
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
@@ -202,6 +206,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -759,6 +764,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
@@ -816,3 +822,5 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)

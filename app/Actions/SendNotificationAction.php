@@ -172,15 +172,19 @@ class SendNotificationAction
      * @return bool
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param  Model  $recipient  Il destinatario della notifica
      * @param  string  $templateCode  Il codice del template da utilizzare
      * @param  array  $data  I dati per compilare il template
      * @param  array  $channels  I canali da utilizzare (opzionale, usa quelli del template se non specificati)
      * @param  array  $options  Opzioni aggiuntive per l'invio
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 985c7bda (.)
@@ -254,6 +258,10 @@ class SendNotificationAction
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+     *
+=======
+>>>>>>> e53a56570 (.)
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
      * @param array $data I dati per compilare il template
@@ -261,6 +269,7 @@ class SendNotificationAction
      * @param array $options Opzioni aggiuntive per l'invio
      *
      * @return bool
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +298,10 @@ class SendNotificationAction
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      * @throws Exception Se il template non esiste o non è attivo
      */
     public function execute(
@@ -1187,6 +1200,9 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1341,6 +1357,7 @@ class SendNotificationAction
         if (!$template) {
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1371,6 +1388,11 @@ class SendNotificationAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception("Template {$templateCode} non trovato o non attivo");
         }
 
@@ -1391,6 +1413,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! $template->shouldSend($data)) {
 =======
         if (!$template->shouldSend($data)) {
@@ -1405,12 +1428,16 @@ class SendNotificationAction
         if (!$template->shouldSend($data)) {
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
         if (! $template->shouldSend($data)) {
 =======
         if (!$template->shouldSend($data)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
         if (! $template->shouldSend($data)) {
 =======
@@ -1447,6 +1474,8 @@ class SendNotificationAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e53a56570 (.)
             return false;
         }
 
@@ -1694,7 +1723,9 @@ class SendNotificationAction
                 $this->sendViaChannel($recipient, $channel, $compiled, $options);
             } catch (Exception $e) {
                 // Log dell'errore ma continua con altri canali
+<<<<<<< HEAD
                 Log::error("Errore invio notifica via {$channel}: " . $e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1706,13 +1737,20 @@ class SendNotificationAction
 =======
 >>>>>>> 75179b855 (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
                 Log::error("Errore invio notifica via {$channel}: ".$e->getMessage());
 
 =======
                 Log::error("Errore invio notifica via {$channel}: " . $e->getMessage());
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
                 continue;
             }
         }
@@ -1760,6 +1798,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 =======
      *
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
      * @param  array<string, mixed>  $compiled
@@ -1788,6 +1827,8 @@ class SendNotificationAction
 =======
      *
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param Model $recipient
      * @param string $channel
      * @param array $compiled
@@ -1800,6 +1841,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -1812,6 +1854,8 @@ class SendNotificationAction
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
      */
@@ -2860,8 +2904,11 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> e53a56570 (.)
         if (! method_exists($recipient, 'routeNotificationForMail')) {
 =======
 <<<<<<< HEAD
@@ -3095,6 +3142,12 @@ class SendNotificationAction
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($recipient, 'routeNotificationForMail')) {
+=======
+        if (!method_exists($recipient, 'routeNotificationForMail')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
@@ -3102,6 +3155,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3160,6 +3214,14 @@ class SendNotificationAction
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> f1c9518b (.)
+        if (! $email) {
+=======
+        if (!$email) {
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
             throw new Exception('Email destinatario non disponibile');
         }
 
@@ -5496,8 +5558,11 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> e53a56570 (.)
         if (! method_exists($recipient, 'routeNotificationForSms')) {
 =======
 <<<<<<< HEAD
@@ -5546,6 +5611,7 @@ class SendNotificationAction
 =======
 >>>>>>> 2941b0bd (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
         if (! method_exists($recipient, 'routeNotificationForSms')) {
@@ -5725,6 +5791,13 @@ class SendNotificationAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+        if (! method_exists($recipient, 'routeNotificationForSms')) {
+=======
+        if (!method_exists($recipient, 'routeNotificationForSms')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
@@ -5751,12 +5824,15 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e53a56570 (.)
         if (! $phone) {
 =======
         if (!$phone) {
@@ -5883,6 +5959,7 @@ class SendNotificationAction
         if (!$phone) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -5969,6 +6046,10 @@ class SendNotificationAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception('Numero di telefono destinatario non disponibile');
         }
 
@@ -6011,7 +6092,15 @@ class SendNotificationAction
 
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($message) > 320) {
+<<<<<<< HEAD
             $message = mb_substr($message, 0, 317) . '...';
+=======
+<<<<<<< HEAD
+            $message = mb_substr($message, 0, 317).'...';
+=======
+            $message = mb_substr($message, 0, 317) . '...';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
         }
 
 =======

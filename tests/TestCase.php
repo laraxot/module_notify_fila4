@@ -385,6 +385,7 @@ use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Illuminate\Foundation\Application;
@@ -423,12 +424,15 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 use Modules\Xot\Tests\CreatesApplication;
 =======
 <<<<<<< HEAD
@@ -677,6 +681,8 @@ use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 <<<<<<< HEAD
 use Tests\CreatesApplication;
 =======
+=======
+>>>>>>> e53a56570 (.)
 use Modules\Xot\Tests\CreatesApplication;
 =======
 =======
@@ -1955,6 +1961,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Get package providers.
      *
+<<<<<<< HEAD
      * @param Application $app
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2333,6 +2340,13 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 37beb5238 (.)
+=======
+<<<<<<< HEAD
+     * @param  Application  $app
+=======
+     * @param Application $app
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

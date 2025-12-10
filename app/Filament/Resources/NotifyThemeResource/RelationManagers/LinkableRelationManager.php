@@ -89,6 +89,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -478,6 +479,8 @@ use Override;
 >>>>>>> 8dc1f2ed6 (.)
 >>>>>>> 4689a827 (.)
 use Override;
+=======
+>>>>>>> f1c9518b (.)
 use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 =======
@@ -485,6 +488,11 @@ use Filament\Forms\Form;
 >>>>>>> 75179b8 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Override;
+=======
+use Override;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1158,6 +1166,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1337,6 +1346,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 8dc1f2ed6 (.)
     protected static null|string $recordTitleAttribute = 'id';
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -1415,6 +1425,13 @@ class LinkableRelationManager extends XotBaseRelationManager
     protected static null|string $recordTitleAttribute = 'id';
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+    protected static ?string $recordTitleAttribute = 'id';
+=======
+    protected static null|string $recordTitleAttribute = 'id';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     #[Override]
     public function getFormSchema(): array

@@ -189,6 +189,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 <<<<<<< HEAD
@@ -422,10 +425,14 @@ declare(strict_types=1);
 
 >>>>>>> 2941b0bd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -991,6 +998,10 @@ declare(strict_types=1);
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -1131,6 +1142,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1587,6 +1599,7 @@ return new class extends Migration
 return new class extends Migration {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 95531e1 (.)
@@ -1817,6 +1830,8 @@ return new class extends Migration {
 return new class extends Migration {
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
     /**
      * Run the migrations.
      */
@@ -1824,6 +1839,13 @@ return new class extends Migration {
     {
 <<<<<<< HEAD
         if (!Schema::hasTable('notification_logs')) {
+=======
+<<<<<<< HEAD
+        if (! Schema::hasTable('notification_logs')) {
+=======
+        if (!Schema::hasTable('notification_logs')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
             Schema::create('notification_logs', function (Blueprint $table) {
 =======
 <<<<<<< HEAD

@@ -2279,6 +2279,7 @@ class NotificationTypeTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notificationType = new NotificationType();
 =======
 <<<<<<< HEAD
@@ -2319,6 +2320,12 @@ class NotificationTypeTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $notificationType = new NotificationType;
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedFillable = [
             'name',

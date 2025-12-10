@@ -58,6 +58,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -143,11 +144,15 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 2941b0bd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 98d837b9 (.)
@@ -339,6 +344,8 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -696,6 +703,9 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 75179b85 (.)
 =======
 use Modules\Notify\Datas\TelegramData;
@@ -703,6 +713,7 @@ use Modules\Notify\Datas\TelegramData;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -716,6 +727,8 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
@@ -1437,6 +1450,11 @@ final class SendNutgramTelegramAction
 
 <<<<<<< HEAD
     private string $token;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+>>>>>>> f1c9518b (.)
     private string $apiUrl;
 =======
 <<<<<<< HEAD
@@ -1523,6 +1541,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 95531e1 (.)
 =======
@@ -1573,6 +1592,8 @@ final class SendNutgramTelegramAction
 
     private array $vars = [];
 =======
+=======
+>>>>>>> e53a56570 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
@@ -1581,13 +1602,19 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
     private string $token;
     private string $apiUrl;
+=======
+    private string $apiUrl;
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
     protected null|string $parseMode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1722,6 +1749,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1894,6 +1923,7 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -2139,6 +2169,8 @@ final class SendNutgramTelegramAction
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 
     /**
      * Create a new action instance.
@@ -2162,6 +2194,7 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($token)) {
 =======
         if (!is_string($token)) {
@@ -2176,12 +2209,16 @@ final class SendNutgramTelegramAction
         if (!is_string($token)) {
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
         if (! is_string($token)) {
 =======
         if (!is_string($token)) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
         if (! is_string($token)) {
 =======
@@ -2218,6 +2255,8 @@ final class SendNutgramTelegramAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e53a56570 (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -3458,6 +3497,7 @@ final class SendNutgramTelegramAction
      * @return array Risultato dell'operazione
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3468,12 +3508,17 @@ final class SendNutgramTelegramAction
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
      * @return array Risultato dell'operazione
      *
 =======
      * @param TelegramData $telegramData I dati del messaggio Telegram
      * @return array Risultato dell'operazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3507,6 +3552,10 @@ final class SendNutgramTelegramAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -6455,21 +6504,28 @@ final class SendNutgramTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
             ! empty($telegramData->media)
 =======
                 !empty($telegramData->media)
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
                 ! empty($telegramData->media)
 =======
                 !empty($telegramData->media)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
                 ! empty($telegramData->media)
@@ -6486,6 +6542,8 @@ final class SendNutgramTelegramAction
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> f1c9518b (.)
         ) {
 <<<<<<< HEAD

@@ -235,6 +235,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> b19cd40 (.)
@@ -349,6 +352,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 =======
 =======
 
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 namespace Modules\Notify\Database\Factories;
@@ -553,10 +557,13 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> e53a56570 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\MailTemplateVersion;
 use Illuminate\Database\Eloquent\Factories\Factory;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
@@ -577,6 +584,10 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 class MailTemplateVersionFactory extends Factory
 {

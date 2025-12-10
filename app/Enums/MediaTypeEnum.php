@@ -2863,6 +2863,9 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3271,6 +3274,7 @@ enum MediaTypeEnum: string
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -3308,6 +3312,11 @@ enum MediaTypeEnum: string
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+     *
+     * @param string $type
+     * @return bool
+>>>>>>> e53a56570 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
      */
@@ -4035,6 +4044,7 @@ enum MediaTypeEnum: string
     /**
      * Restituisce il tipo di media predefinito
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return self
 =======
@@ -4054,6 +4064,8 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4345,6 +4357,7 @@ enum MediaTypeEnum: string
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -4412,6 +4425,12 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+     *
+     * @return self
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      */
     public static function getDefault(): self
     {

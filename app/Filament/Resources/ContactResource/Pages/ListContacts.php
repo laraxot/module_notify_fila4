@@ -117,6 +117,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -735,14 +736,21 @@ use Filament\Tables;
 =======
 use Override;
 use Filament\Tables;
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> e53a56570 (.)
 =======
 =======
 use Override;
 use Filament\Tables;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;
@@ -773,6 +781,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 use Override;
@@ -790,6 +799,20 @@ class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
 >>>>>>> 1487fe812 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 75179b85 (.)
+=======
+use Override;
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1891,6 +1914,9 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD

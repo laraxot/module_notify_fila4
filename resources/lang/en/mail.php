@@ -301,6 +301,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> c8b1c8bf (.)
@@ -485,6 +488,7 @@ declare(strict_types=1);
 return [
     'welcome' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : ''),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,6 +501,11 @@ return [
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+        'title' => 'Welcome to '.(is_string(config('app.name')) ? config('app.name') : ''),
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> c8b1c8bf (.)
@@ -512,6 +521,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 return [
@@ -568,6 +580,7 @@ return [
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
@@ -1146,6 +1159,11 @@ return [
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         'greeting' => 'Hello :name,',
         'description' => 'Thank you for joining us. We\'re excited to have you on board!',
         'action' => 'Get Started',

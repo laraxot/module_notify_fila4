@@ -102,6 +102,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -246,6 +247,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -309,6 +311,8 @@ use Override;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 use Modules\Media\Models\Media;
@@ -710,6 +714,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -899,6 +904,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Carbon\Carbon;
@@ -909,6 +916,7 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -950,6 +958,14 @@ use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 <<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Blade;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Spatie\Translatable\HasTranslations;
 
 /**
@@ -1041,12 +1057,16 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1068,6 +1088,8 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
  * @method static Builder<static>|NotificationTemplate active()
  * @method static NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -1079,6 +1101,7 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1122,6 +1145,14 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+<<<<<<< HEAD
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
  * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
@@ -4664,12 +4695,23 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Compile the template with the given data.
      *
+<<<<<<< HEAD
      * @param array<string, mixed> $data The data to compile the template with
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data  The data to compile the template with
+=======
+     * @param array<string, mixed> $data The data to compile the template with
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function compile(array $data = []): array
@@ -4689,9 +4731,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Check if the notification should be sent based on conditions.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @param array<string, mixed> $data The data to check conditions against
      * @return bool
      */
@@ -4699,7 +4744,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
     {
         if (!$this->conditions) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e53a56570 (.)
 =======
 <<<<<<< HEAD
      * @param  array<string, mixed>  $data  The data to check conditions against
@@ -4716,7 +4764,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
         if (!$this->conditions) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
             return true;
         }
 
@@ -4733,6 +4784,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Compile a string template with the given data.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4784,9 +4836,16 @@ class NotificationTemplate extends BaseModel implements HasMedia
         if (! $template) {
 =======
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @param string|null $template The template to compile
      * @param array<string, mixed> $data The data to compile with
      * @return string|null
+=======
+<<<<<<< HEAD
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+>>>>>>> f1c9518b (.)
      */
 <<<<<<< HEAD
     protected function compileString(null|string $template, array $data): null|string
@@ -4967,12 +5026,28 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
     {
+<<<<<<< HEAD
         if (!$template) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+        if (! $template) {
+=======
+     * @param string|null $template The template to compile
+     * @param array<string, mixed> $data The data to compile with
+     * @return string|null
+     */
+    protected function compileString(null|string $template, array $data): null|string
+    {
+        if (!$template) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             return null;
         }
 
@@ -5013,15 +5088,19 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data Additional data to merge with preview data
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param  array<string, mixed>  $data  Additional data to merge with preview data
 =======
      * @param array<string, mixed> $data Additional data to merge with preview data
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -5042,6 +5121,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
@@ -5103,8 +5185,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include active templates.
      *
+<<<<<<< HEAD
      * @param Builder $query
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5195,12 +5279,17 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param Builder $query
 >>>>>>> 75179b855 (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
      * @param  Builder  $query
 =======
      * @param Builder $query
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @return Builder
      */
     public function scopeActive($query)
@@ -5211,9 +5300,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include templates for a specific channel.
      *
+<<<<<<< HEAD
      * @param Builder $query
      * @param string $channel
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5313,13 +5404,18 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param string $channel
 >>>>>>> 75179b855 (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
      * @param  Builder  $query
 =======
      * @param Builder $query
      * @param string $channel
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @return Builder
      */
     public function scopeForChannel($query, string $channel)
@@ -5330,9 +5426,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include templates for a specific category.
      *
+<<<<<<< HEAD
      * @param Builder $query
      * @param string $category
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5432,13 +5530,18 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param string $category
 >>>>>>> 75179b855 (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
      * @param  Builder  $query
 =======
      * @param Builder $query
      * @param string $category
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @return Builder
      */
     public function scopeForCategory($query, string $category)
@@ -5451,6 +5554,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
      *
      * @return string
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @return string
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function getChannelsLabelAttribute(): string
     {
@@ -6334,6 +6444,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Set the GrapesJS data.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6383,13 +6494,24 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @param array<string, mixed> $data
      * @return self
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+     * @return self
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
      */
     public function setGrapesJSData(array $data): self
     {
 <<<<<<< HEAD
         $this->grapesjs_data = $data;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6414,11 +6536,19 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $this->grapesjs_data = $data;
 >>>>>>> 75179b855 (.)
 =======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
         return $this;
     }
 
@@ -6488,12 +6618,16 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -6510,6 +6644,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
         return is_string($result) ? $result : '';
     }
 
@@ -6525,12 +6661,16 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -6547,6 +6687,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
         return is_string($result) ? $result : '';
     }
 
@@ -6554,6 +6696,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
     {
         $result = $this->getTranslation('body_html', app()->getLocale());
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         return is_string($result) ? $result : '';
     }
 =======

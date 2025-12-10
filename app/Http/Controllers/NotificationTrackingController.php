@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 82ae73be (.)
@@ -59,6 +60,7 @@
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2fc60436 (.)
@@ -101,6 +103,8 @@
 
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> e53a56570 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
@@ -135,10 +139,12 @@ use Illuminate\Http\RedirectResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -152,6 +158,11 @@ use function Safe\base64_decode;
 =======
 >>>>>>> f1c9518b (.)
 =======
+=======
+use function Safe\base64_decode;
+
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 >>>>>>> f1c9518b (.)
 use Illuminate\Http\RedirectResponse;
 =======
@@ -210,6 +221,7 @@ use Illuminate\Routing\Controller;
 use Modules\Notify\Models\NotificationLog;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
 =======
@@ -230,10 +242,15 @@ use function Safe\base64_decode;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
 use function Safe\base64_decode;
 
 =======
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -258,6 +275,9 @@ use function Safe\base64_decode;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 class NotificationTrackingController extends Controller
 {
     /**
@@ -275,6 +295,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -302,6 +323,10 @@ class NotificationTrackingController extends Controller
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      *
      * @param Request $request
      * @param string $id
@@ -319,6 +344,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -345,6 +371,10 @@ class NotificationTrackingController extends Controller
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      */
     public function trackOpen(Request $request, string $id): Response
     {
@@ -365,8 +395,11 @@ class NotificationTrackingController extends Controller
     /**
      * Traccia il click su un link in una notifica.
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return \Illuminate\Http\RedirectResponse
      * @return \Illuminate\Http\RedirectResponse
+=======
+>>>>>>> e53a56570 (.)
      *
      * @param Request $request
      * @param string $id
@@ -435,6 +468,7 @@ class NotificationTrackingController extends Controller
 =======
      * @return \Illuminate\Http\RedirectResponse
 >>>>>>> a404ea71 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -469,6 +503,17 @@ class NotificationTrackingController extends Controller
 >>>>>>> laraxot/develop
 =======
 >>>>>>> c4282a934 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+     *
+     * @param Request $request
+     * @param string $id
+     * @return RedirectResponse
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      */
     public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {
@@ -980,6 +1025,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } 
 =======
 <<<<<<< HEAD
@@ -987,10 +1033,16 @@ class NotificationTrackingController extends Controller
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+} 
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
 }
 =======
 } 
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1033,3 +1085,6 @@ class NotificationTrackingController extends Controller
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)

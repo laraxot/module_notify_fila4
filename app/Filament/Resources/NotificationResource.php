@@ -765,6 +765,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
     protected static ?string $model = Notification::class;
 =======
+<<<<<<< HEAD
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\KeyValue;
 use Filament\Forms\Components\Textarea;
@@ -789,6 +790,8 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
     protected static ?string $model = Notification::class;
 =======
+=======
+>>>>>>> e53a56570 (.)
 
 namespace Modules\Notify\Filament\Resources;
 
@@ -806,10 +809,13 @@ class NotificationResource extends XotBaseResource
 {
     protected static null|string $model = Notification::class;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 
 >>>>>>> c8b1c8bf (.)
 =======
     protected static null|string $model = Notification::class;
+=======
+>>>>>>> e53a56570 (.)
 
     #[Override]
 >>>>>>> 75179b8 (.)

@@ -52,6 +52,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -80,6 +81,8 @@ namespace Modules\Notify\Providers;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -168,6 +171,7 @@ use Override;
 use Override;
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> 161887a2 (.)
@@ -282,6 +286,13 @@ use Override;
 use Override;
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+<<<<<<< HEAD
+=======
+use Override;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -310,6 +321,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 75179b85 (.)
@@ -318,6 +330,7 @@ use Override;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fbed41ac (.)
@@ -354,6 +367,8 @@ use Override;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1321,6 +1336,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
         //if (! app()->environment('production')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,6 +1487,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 2941b0bd (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -1807,6 +1826,13 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+        // if (! app()->environment('production')) {
+=======
+        //if (! app()->environment('production')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
         $fallback_to = Arr::get($mail, 'fallback_to', null);

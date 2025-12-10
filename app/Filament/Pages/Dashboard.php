@@ -251,6 +251,9 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
@@ -541,6 +544,7 @@ class Dashboard extends XotBaseDashboard
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -571,6 +575,8 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -578,6 +584,7 @@ class Dashboard extends XotBaseDashboard
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 75179b85 (.)
@@ -592,12 +599,15 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 
 class Dashboard extends XotBaseDashboard
 {
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +629,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     protected string $view = 'notify::filament.pages.dashboard';
 

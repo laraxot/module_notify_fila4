@@ -10,6 +10,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +77,12 @@ use Illuminate\Contracts\Support\Htmlable;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+<<<<<<< HEAD
+use Filament\Forms;
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Filament\Schemas\Components\Section;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -137,6 +144,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -452,6 +462,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> 2941b0bd (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 =======
@@ -510,11 +521,14 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1053,6 +1067,10 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 // use Squire\Models\Country;
 
@@ -1154,6 +1172,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1508,6 +1527,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
     //protected string $view = 'filament-forms::components.group';
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -1518,9 +1538,12 @@ class ContactSection extends Forms\Components\Section
     // protected string $view = 'filament-forms::components.group';
 >>>>>>> 985c7bda (.)
 =======
+>>>>>>> e53a56570 (.)
+=======
     // protected string $view = 'filament-forms::components.group';
 =======
     //protected string $view = 'filament-forms::components.group';
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
@@ -1712,6 +1735,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     protected bool $disableLiveUpdates = false;
 

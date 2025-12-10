@@ -10,6 +10,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ namespace Modules\Notify\Tests\Feature;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +377,19 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
+=======
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use RuntimeException;
+=======
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 =======
@@ -1618,6 +1634,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -1625,10 +1642,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1658,6 +1678,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
 
@@ -1680,6 +1703,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -1687,10 +1711,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1720,6 +1747,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
 
@@ -2193,6 +2223,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'version' => '1.5.2',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -2201,6 +2234,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
 =======
@@ -2312,10 +2346,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
 =======
@@ -2333,6 +2370,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2513,6 +2552,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> 2941b0bd (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -2847,6 +2887,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
@@ -5063,6 +5110,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             $version = MailTemplateVersion::factory()->create([
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5099,6 +5147,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
                 'mailable' => $mailableClass,
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
                 'version' => '1.' . $index,
                 'subject' => 'Template per ' . $mailableClass,
                 'html_template' => '<p>Template per ' . $mailableClass . '</p>',
@@ -5107,6 +5158,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             $this->assertEquals($mailableClass, $version->mailable);
             $this->assertEquals('Template per ' . $mailableClass, $version->subject);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5122,6 +5174,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
                 'version' => '1.'.$index,
                 'subject' => 'Template per '.$mailableClass,
                 'html_template' => '<p>Template per '.$mailableClass.'</p>',
@@ -5137,6 +5193,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
             $this->assertEquals($mailableClass, $version->mailable);
             $this->assertEquals('Template per ' . $mailableClass, $version->subject);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5162,6 +5219,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         }
     }
 
@@ -8476,12 +8537,16 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 
 =======
@@ -8509,6 +8574,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
         return array_unique($matches[1] ?? []);
     }
 }

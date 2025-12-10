@@ -310,6 +310,7 @@ declare(strict_types=1);
 >>>>>>> 8dc1f2ed6 (.)
 declare(strict_types=1);
 
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -771,10 +772,13 @@ namespace Modules\Notify\Datas;
 use Spatie\LaravelData\Data;
 use Spatie\LaravelData\Optional;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
 <<<<<<< HEAD
 namespace Modules\Notify\Datas;
@@ -782,6 +786,7 @@ namespace Modules\Notify\Datas;
 use Spatie\LaravelData\Data;
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -892,10 +897,13 @@ use Spatie\LaravelData\Data;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
 use Spatie\LaravelData\Optional;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -921,6 +929,10 @@ use Spatie\LaravelData\Optional;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 class NetfunSmsData extends Data
 {
@@ -1065,6 +1077,7 @@ class NetfunSmsData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1609,6 +1622,7 @@ class NetfunSmsData extends Data
         public null|string $scheduledDate = null,
 >>>>>>> 2941b0bd (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 95531e1 (.)
@@ -1815,6 +1829,15 @@ class NetfunSmsData extends Data
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+        public ?string $reference = null,
+        public ?string $scheduledDate = null,
+=======
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
     ) {}
 }
 =======

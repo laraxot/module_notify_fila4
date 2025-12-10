@@ -2071,6 +2071,7 @@ class NotificationTemplateTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new NotificationTemplate();
 =======
 <<<<<<< HEAD
@@ -2111,6 +2112,12 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $template = new NotificationTemplate;
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedFillable = [
             'name',
@@ -2139,6 +2146,7 @@ class NotificationTemplateTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new NotificationTemplate();
 =======
 <<<<<<< HEAD
@@ -2179,6 +2187,12 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $template = new NotificationTemplate;
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedCasts = [
             'type' => NotificationTypeEnum::class,
@@ -2203,6 +2217,7 @@ class NotificationTemplateTest extends TestCase
     public function it_has_translatable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new NotificationTemplate();
 =======
 <<<<<<< HEAD
@@ -2243,6 +2258,12 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $template = new NotificationTemplate;
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedTranslatable = [
             'subject',

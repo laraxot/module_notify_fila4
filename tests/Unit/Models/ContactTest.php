@@ -2319,6 +2319,7 @@ class ContactTest extends TestCase
     public function it_has_correct_fillable_fields(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -2359,6 +2360,12 @@ class ContactTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedFillable = [
             'model_id',
@@ -2381,6 +2388,7 @@ class ContactTest extends TestCase
     public function it_has_correct_casts(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -2421,6 +2429,12 @@ class ContactTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $contact = new Contact;
+=======
+        $contact = new Contact();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $expectedCasts = [
             'id' => 'string',

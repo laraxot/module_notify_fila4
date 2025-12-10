@@ -59,6 +59,7 @@ class EventServiceProvider extends BaseEventServiceProvider
     }
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -67,11 +68,14 @@ class EventServiceProvider extends BaseEventServiceProvider
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
     protected function configureEmailVerification(): void {}
 =======
     protected function configureEmailVerification(): void
     {
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +110,10 @@ class EventServiceProvider extends BaseEventServiceProvider
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

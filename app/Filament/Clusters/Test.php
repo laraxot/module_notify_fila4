@@ -9,6 +9,7 @@ use Filament\Clusters\Cluster;
 
 class Test extends Cluster
 {
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
 
 =======
@@ -103,6 +104,7 @@ class Test extends Cluster
 =======
 >>>>>>> 207ac35e (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -156,6 +158,13 @@ class Test extends Cluster
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-squares-2x2';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 >>>>>>> f1c9518b (.)
 
 <<<<<<< HEAD

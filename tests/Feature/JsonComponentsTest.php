@@ -7,6 +7,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,6 +105,14 @@ use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Illuminate\Support\Facades\File;
+use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
 uses(TestCase::class);
 <<<<<<< HEAD
@@ -260,6 +269,7 @@ test('components json is valid and contains expected components', function (): v
 
     // Verifico che il JSON è valido
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
 =======
 <<<<<<< HEAD
@@ -304,12 +314,19 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
+=======
+    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
     // Verifico che ci sono 2 componenti
     expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');
 
     // Verifico che ci sono i componenti SendMailCommand e TelegramWebhook
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,6 +346,8 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
 =======
 >>>>>>> 6a44db8a (.)
@@ -351,6 +370,7 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -368,12 +388,16 @@ test('components json is valid and contains expected components', function (): v
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> e53a56570 (.)
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
     expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
     expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
 
     expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
     expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -406,6 +430,9 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
     expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
 
     // Verifico i nomi specifici dei componenti

@@ -6,6 +6,7 @@ namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
@@ -38,6 +39,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,10 +89,14 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 3f537838 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
 <<<<<<< HEAD
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,10 +121,13 @@ use Modules\Notify\Models\NotificationLog;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 use Modules\Notify\Models\NotificationLog;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +216,9 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 class CleanupNotificationLogsCommand extends Command
 {

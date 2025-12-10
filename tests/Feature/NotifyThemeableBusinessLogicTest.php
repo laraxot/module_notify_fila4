@@ -1397,6 +1397,7 @@ describe('Notify Themeable Business Logic', function () {
             'model_id' => 123,
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
@@ -1413,11 +1414,14 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1444,6 +1448,9 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         ];
 
         $themeable = NotifyThemeable::create($themeableData);
@@ -1454,6 +1461,7 @@ describe('Notify Themeable Business Logic', function () {
             'model_id' => 123,
             'notify_theme_id' => $theme->id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
@@ -1470,11 +1478,14 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'admin@'.config('app.domain', 'example.com'),
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1501,6 +1512,9 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         ]);
 
         expect($themeable->model_type)->toBe('App\Models\NotificationTemplate');
@@ -1818,17 +1832,21 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
             'name' => config('app.name', 'Platform').' Professional',
             'description' => 'Tema professionale per '.config('app.name', 'Platform'),
 =======
             'name' => config('app.name', 'Platform') . ' Professional',
             'description' => 'Tema professionale per ' . config('app.name', 'Platform'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1850,6 +1868,9 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         ]);
 
 <<<<<<< HEAD
@@ -2058,6 +2079,7 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->theme)->toBeInstanceOf(NotifyTheme::class);
         expect($themeable->theme->id)->toBe($theme->id);
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($themeable->theme->name)->toBe(config('app.name', 'Platform') . ' Professional');
 =======
 <<<<<<< HEAD
@@ -2213,6 +2235,12 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        expect($themeable->theme->name)->toBe(config('app.name', 'Platform').' Professional');
+=======
+        expect($themeable->theme->name)->toBe(config('app.name', 'Platform') . ' Professional');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
     });
 
     it('can handle user tracking', function () {
@@ -2220,6 +2248,7 @@ describe('Notify Themeable Business Logic', function () {
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2255,6 +2284,8 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 75179b855 (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
         ]);
@@ -2269,8 +2300,11 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->created_by)->toBe('developer@' . config('app.domain', 'example.com'));
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
         expect($themeable->created_at)->not->toBeNull();
         expect($themeable->updated_at)->not->toBeNull();
     });
@@ -4179,6 +4213,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
         $themeable->update([
             'notify_theme_id' => $newTheme->id,
+<<<<<<< HEAD
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -4226,10 +4261,18 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+<<<<<<< HEAD
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+=======
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         ]);
 
         expect($themeable->notify_theme_id)->toBe($newTheme->id);
         expect($themeable->theme->name)->toBe('Tema Nuovo');
+<<<<<<< HEAD
 <<<<<<< HEAD
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
 =======
@@ -4369,6 +4412,12 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
+=======
+        expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
     });
 
     it('can handle empty or null values gracefully', function () {
@@ -5186,6 +5235,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
         $themeable->update([
             'notify_theme_id' => null,
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5203,12 +5253,16 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
         ]);
 
         expect($themeable->notify_theme_id)->toBeNull();
         expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5229,11 +5283,14 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
 
         expect($themeable->notify_theme_id)->toBeNull();
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5381,6 +5438,9 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
     });
 
     it('can manage audit trail', function () {
@@ -5388,6 +5448,7 @@ describe('Notify Themeable Business Logic', function () {
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5397,6 +5458,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 75179b855 (.)
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
 =======
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
 >>>>>>> f1c9518b (.)
         ]);
@@ -5431,7 +5494,10 @@ describe('Notify Themeable Business Logic', function () {
 =======
         expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
         ]);
 
@@ -5444,10 +5510,14 @@ describe('Notify Themeable Business Logic', function () {
 
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         expect($themeable->updated_at)->not->toBeNull();
 
         expect($themeable->created_at->lte($themeable->updated_at))->toBeTrue();
@@ -6078,6 +6148,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
             'updated_by' => 'admin@'.config('app.domain', 'example.com'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         ]);
 >>>>>>> 9d67cabd (.)
@@ -6218,6 +6289,11 @@ describe('Notify Themeable Business Logic', function () {
 =======
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
+=======
+=======
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         ]);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7903,6 +7979,7 @@ describe('Notify Themeable Business Logic', function () {
 
         foreach ($theme2Assignments as $assignment) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect($assignment->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
 =======
 <<<<<<< HEAD
@@ -7943,6 +8020,12 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+            expect($assignment->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
+=======
+            expect($assignment->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         }
     });
 });

@@ -7,6 +7,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,8 +369,14 @@ uses(TestCase::class);
 =======
 >>>>>>> 2941b0bd (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> f1c9518b (.)
 
 uses(TestCase::class);
 >>>>>>> 2cbbc069 (.)
@@ -402,6 +409,7 @@ test('html template contains optional function', function (): void {
     // Verifico che contiene la funzione optional per subject
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,6 +1112,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -1174,6 +1183,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> e53a56570 (.)
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
 
@@ -1185,6 +1196,7 @@ test('html template contains optional function', function (): void {
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2436,6 +2448,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
@@ -2512,6 +2525,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> e53a56570 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -2527,6 +2542,7 @@ test('sunny template contains optional function', function (): void {
     // Verifico che contiene la funzione optional per cssInLine
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3237,6 +3253,7 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -3307,6 +3324,8 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> e53a56570 (.)
     expect($content)
         ->toContain(
             'optional($_theme)->cssInLine',
@@ -3314,6 +3333,7 @@ test('sunny template contains optional function', function (): void {
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4261,6 +4281,7 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 =======
     expect($content)->toContain('optional($_theme)->cssInLine', 'Il template sunny.blade.php non utilizza optional() per cssInLine');
@@ -4342,6 +4363,8 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> e53a56570 (.)
 });
 
 test('ark template contains optional function', function (): void {
@@ -4558,6 +4581,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5681,6 +5705,7 @@ test('ark template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -5753,6 +5778,8 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> 80f054e0 (.)
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> e53a56570 (.)
 });
 =======
 >>>>>>> 301ad8b44 (.)

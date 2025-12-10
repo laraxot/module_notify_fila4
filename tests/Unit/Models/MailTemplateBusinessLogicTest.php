@@ -8,6 +8,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +59,8 @@ use function Safe\class_uses;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -90,6 +93,7 @@ use Modules\Notify\Models\MailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +174,8 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -177,6 +183,10 @@ use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
@@ -243,6 +253,7 @@ describe('MailTemplate Business Logic', function () {
 
     test('mail template can store template content', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -283,6 +294,12 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         $mailTemplate->name = 'Welcome Email';
         $mailTemplate->subject = 'Welcome to our platform';
         $mailTemplate->html_template = '<h1>Welcome!</h1>';
@@ -294,6 +311,7 @@ describe('MailTemplate Business Logic', function () {
 
     test('mail template can link to mailable class', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -334,6 +352,12 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         $mailTemplate->mailable = 'App\\Mail\\WelcomeMail';
 
         expect($mailTemplate->mailable)->toBe('App\\Mail\\WelcomeMail');
@@ -341,6 +365,7 @@ describe('MailTemplate Business Logic', function () {
 
     test('mail template has version tracking', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -381,6 +406,12 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         $mailTemplate->version = 2;
 
         expect($mailTemplate->version)->toBe(2);
@@ -388,6 +419,7 @@ describe('MailTemplate Business Logic', function () {
 
     test('mail template can store optional text template', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -428,6 +460,12 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         $mailTemplate->text_template = 'Welcome! This is plain text.';
 
         expect($mailTemplate->text_template)->toBe('Welcome! This is plain text.');
@@ -442,6 +480,7 @@ describe('MailTemplate Business Logic', function () {
 
     test('mail template has creator and updater tracking', function () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -482,6 +521,12 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $mailTemplate = new MailTemplate;
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         $mailTemplate->created_by = 'user-1';
         $mailTemplate->updated_by = 'user-2';
 

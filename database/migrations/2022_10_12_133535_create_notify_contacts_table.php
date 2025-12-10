@@ -104,6 +104,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -138,6 +139,8 @@ return new class extends XotBaseMigration
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -713,11 +716,15 @@ return new class() extends XotBaseMigration {
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
@@ -899,6 +906,9 @@ return new class() extends XotBaseMigration {
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     /**
      * Run the migrations.
@@ -1289,6 +1299,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('token')) {
 =======
 <<<<<<< HEAD
@@ -1296,10 +1307,13 @@ return new class() extends XotBaseMigration {
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
             if (! $this->hasColumn('token')) {
 =======
             if (!$this->hasColumn('token')) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1329,6 +1343,9 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
                 $table->string('token')->nullable();
             }
             $this->updateTimestamps(

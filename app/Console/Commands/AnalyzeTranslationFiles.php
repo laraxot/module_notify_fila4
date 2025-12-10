@@ -167,6 +167,7 @@ class AnalyzeTranslationFiles extends Command
 
                 // Skip non-PHP files
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!str_ends_with($filename, '.php')) {
 =======
 <<<<<<< HEAD
@@ -207,11 +208,18 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+                if (! str_ends_with($filename, '.php')) {
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
                     continue;
                 }
 
                 $translations = require $filePath;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if (!is_array($translations)) {
                     $this->warn("File {$lang}/{$filename} does not return an array.");
@@ -229,6 +237,8 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
                 if (! is_array($translations)) {
                     $this->warn("File {$lang}/{$filename} does not return an array.");
 
@@ -238,6 +248,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
                 if (!is_array($translations)) {
@@ -261,6 +272,9 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
                     continue;
                 }
 
@@ -439,6 +453,7 @@ class AnalyzeTranslationFiles extends Command
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->info('Found ' . count($patterns) . ' different structure patterns:');
 =======
 <<<<<<< HEAD
@@ -479,6 +494,12 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $this->info('Found '.count($patterns).' different structure patterns:');
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Pattern', 'Files']);
@@ -1503,6 +1524,7 @@ class AnalyzeTranslationFiles extends Command
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
 =======
 <<<<<<< HEAD
@@ -1543,11 +1565,18 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         foreach ($sendFiles as $file) {
             $this->line(" - {$file}");
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->info('Resource files (' . count($resourceFiles) . '):');
 =======
 <<<<<<< HEAD
@@ -1588,6 +1617,12 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $this->info('Resource files ('.count($resourceFiles).'):');
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
         foreach ($resourceFiles as $file) {
             $this->line(" - {$file}");
         }
@@ -2007,8 +2042,10 @@ class AnalyzeTranslationFiles extends Command
                 }
             }
 
+<<<<<<< HEAD
             if (! empty($navigationKeys)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             $navigationKeys = [];
@@ -2095,12 +2132,17 @@ class AnalyzeTranslationFiles extends Command
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
                 sort($navigationKeys);
                 $structure = implode(',', $navigationKeys);
                 $navigationStructures[$structure][] = $file;
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
 =======
@@ -2142,6 +2184,12 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Structure', 'Files']);

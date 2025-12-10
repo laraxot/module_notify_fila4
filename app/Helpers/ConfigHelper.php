@@ -58,6 +58,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      *
 =======
@@ -70,10 +71,13 @@ class ConfigHelper
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
      * @param  array<string, mixed>  $data
 =======
      * @param array<string, mixed> $data
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +109,10 @@ class ConfigHelper
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
      * @return array<string, mixed>
      */
     public static function replaceTemplateVariables(array $data): array
@@ -211,9 +219,11 @@ class ConfigHelper
 >>>>>>> laraxot/develop
      * Sostituisce ricorsivamente le variabili template in un array.
      *
+<<<<<<< HEAD
      * @param array<string, mixed> $data
      * @param array<string, mixed> $variables
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -221,12 +231,21 @@ class ConfigHelper
 =======
 >>>>>>> 75179b855 (.)
 =======
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data
+     * @param  array<string, mixed>  $variables
+>>>>>>> e53a56570 (.)
+=======
      * @param array<string, mixed> $data
      * @param array<string, mixed> $variables
      *
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
      * @return array<string, mixed>
      */
     private static function recursiveReplace(array $data, array $variables): array
@@ -256,6 +275,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $variables
 =======
      * @param array<string, mixed> $variables
@@ -264,11 +284,14 @@ class ConfigHelper
      * @param array<string, mixed> $variables
 >>>>>>> 75179b855 (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
      * @param  array<string, mixed>  $variables
 =======
      * @param array<string, mixed> $variables
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
      */
     private static function replaceStringVariables(string $string, array $variables): string
@@ -707,10 +730,13 @@ class ConfigHelper
      * @param array<string, mixed> $variables
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> e53a56570 (.)
      */
     private static function replaceStringVariables(string $string, array $variables): string
     {
         foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,6 +842,8 @@ class ConfigHelper
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1216,6 +1244,7 @@ class ConfigHelper
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 >>>>>>> 3f39ac8b (.)
@@ -1273,6 +1302,8 @@ class ConfigHelper
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> e53a56570 (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 

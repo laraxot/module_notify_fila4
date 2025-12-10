@@ -37,6 +37,7 @@ use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -126,6 +127,7 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +141,9 @@ use Filament\Forms;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> e53a56570 (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -151,6 +156,7 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> c8b1c8bf (.)
@@ -162,6 +168,9 @@ use Filament\Schemas\Schema;
 =======
 
 >>>>>>> f1c9518b (.)
+=======
+
+>>>>>>> e53a56570 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Repeater;
@@ -170,6 +179,7 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,12 +205,17 @@ use Filament\Forms;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,6 +236,22 @@ use Filament\Pages\Page;
 >>>>>>> f1c9518b (.)
 use Filament\Schemas\Schema;
 >>>>>>> f1c9518b (.)
+=======
+use Filament\Schemas\Schema;
+>>>>>>> f1c9518b (.)
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Stringable;
+use Kreait\Firebase\Contract\Messaging;
+use Kreait\Firebase\Messaging\CloudMessage;
+use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
+use Modules\Notify\Filament\Clusters\Test;
+<<<<<<< HEAD
+use Modules\User\Models\DeviceUser;
+=======
+=======
+>>>>>>> e53a56570 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -235,6 +266,7 @@ use Modules\Notify\Filament\Clusters\Test;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\User\Models\DeviceUser;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -307,6 +339,10 @@ use Modules\User\Models\DeviceUser;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
@@ -354,6 +390,7 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @property \Filament\Schemas\Schema $notificationForm
  */
@@ -364,10 +401,13 @@ use function Safe\json_encode;
 =======
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> e53a56570 (.)
+=======
 /**
  * 
  */
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -403,12 +443,16 @@ use function Safe\json_encode;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 class SendPushNotification extends Page implements HasForms
 {
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,6 +482,13 @@ class SendPushNotification extends Page implements HasForms
 =======
     public null|array $notificationData = [];
 >>>>>>> 11b43e822 (.)
+=======
+    public null|array $notificationData = [];
+=======
+<<<<<<< HEAD
+    public ?array $notificationData = [];
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -523,15 +574,20 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+    protected static null|string $cluster = Test::class;
+>>>>>>> e53a56570 (.)
+=======
     protected static ?string $cluster = Test::class;
 =======
     public null|array $notificationData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -704,12 +760,15 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-push-notification';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -945,6 +1004,11 @@ class SendPushNotification extends Page implements HasForms
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 11b43e822 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     public function mount(): void
     {
@@ -990,6 +1054,9 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
         $devices = DeviceUser::with(['profile', 'device'])
             ->where('push_notifications_token', '!=', null)
             ->where('push_notifications_token', '!=', 'unknown')
@@ -1055,6 +1122,7 @@ class SendPushNotification extends Page implements HasForms
          * Callback per filtrare i dispositivi.
          */
 =======
+<<<<<<< HEAD
         /**
          * Callback per filtrare i dispositivi.
          */
@@ -1065,6 +1133,8 @@ class SendPushNotification extends Page implements HasForms
          */
 >>>>>>> f1c9518b (.)
 =======
+=======
+>>>>>>> e53a56570 (.)
 
         /**
          * Callback per filtrare i dispositivi.
@@ -1078,6 +1148,7 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
                 Select::make('deviceToken')->options(fn () => []),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1231,6 +1302,11 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+                Select::make('deviceToken')->options(fn() => []),
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -1359,12 +1435,16 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 
 =======
@@ -1392,6 +1472,8 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
             return;
         }
 
@@ -1948,6 +2030,7 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -2051,10 +2134,16 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
         if (! ($user instanceof Model)) {
 =======
         if (!($user instanceof Model)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -2112,6 +2201,9 @@ class SendPushNotification extends Page implements HasForms
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

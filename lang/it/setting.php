@@ -917,6 +917,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -1022,11 +1023,15 @@ declare(strict_types=1);
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> e53a56570 (.)
 return [
     'navigation' => [
         'label' => 'Impostazioni Notifiche',
         'group' => 'Notifiche',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 ];
 =======
@@ -1084,11 +1089,14 @@ return [
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
     'actions' => [
         'logout' => [
             'tooltip' => 'logout',
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,6 +1127,8 @@ return [
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
 >>>>>>> 99ff506 (.)
 ];

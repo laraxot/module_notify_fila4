@@ -70,6 +70,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -116,6 +117,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -160,6 +162,10 @@ use Filament\Schemas\Components\Component;
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+use Filament\Infolists\Components\TextEntry;
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
 =======
@@ -279,6 +285,7 @@ use Filament\Infolists\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,6 +311,20 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+<<<<<<< HEAD
+=======
+use Override;
+=======
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Components\Component;
+use Override;
+use Filament\Infolists\Components\TextEntry;
+use Modules\Notify\Filament\Resources\NotificationResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
 class ViewNotification extends XotBaseViewRecord
 {

@@ -88,6 +88,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -108,6 +109,7 @@ use Exception;
 use Illuminate\Database\Eloquent\Model;
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 888799d0 (.)
@@ -186,6 +188,11 @@ use Exception;
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
 use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
@@ -1146,12 +1153,16 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 =======
 
 =======
@@ -1179,6 +1190,8 @@ class RecordNotificationData extends Data
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
     public string $channel;
 
     public function getChannel(): string
@@ -1548,6 +1561,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
 <<<<<<< HEAD
@@ -1574,7 +1588,14 @@ class RecordNotificationData extends Data
 =======
         throw new Exception('Channel ['.$this->channel.'] not supported');
 =======
+=======
+>>>>>>> e53a56570 (.)
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+<<<<<<< HEAD
+                Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+
+>>>>>>> f1c9518b (.)
                 return $email;
             case 'sms':
                 Assert::string($phone = $this->record->phone, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
@@ -1820,6 +1841,7 @@ class RecordNotificationData extends Data
         }
         throw new Exception('Channel [' . $this->channel . '] not supported');
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2198,6 +2220,8 @@ class RecordNotificationData extends Data
 =======
         throw new Exception('Channel ['.$this->channel.'] not supported');
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> e53a56570 (.)
     }
 
 

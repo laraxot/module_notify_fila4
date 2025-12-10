@@ -42,6 +42,7 @@ use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -130,10 +131,13 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> e53a56570 (.)
 =======
 use Exception;
 use Filament\Actions\Action;
@@ -141,6 +145,7 @@ use Filament\Facades\Filament;
 =======
 use Filament\Schemas\Schema;
 
+<<<<<<< HEAD
 =======
 use Exception;
 use Filament\Actions\Action;
@@ -171,6 +176,8 @@ use Filament\Facades\Filament;
 use Filament\Schemas\Schema;
 
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -178,6 +185,7 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -203,6 +211,10 @@ use Filament\Forms;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Page;
@@ -214,6 +226,7 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -278,12 +291,27 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e53a56570 (.)
 use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
+=======
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+
+=======
+use Telegram\Bot\Laravel\Facades\Telegram;
+use Webmozart\Assert\Assert;
+
+/**
+ * 
+ */
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
 class SendTelegram extends Page implements HasForms
 {
 <<<<<<< HEAD
@@ -308,6 +336,7 @@ class SendTelegram extends Page implements HasForms
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,6 +366,13 @@ class SendTelegram extends Page implements HasForms
 =======
     public null|array $emailData = [];
 >>>>>>> 11b43e822 (.)
+=======
+    public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+    public ?array $emailData = [];
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
@@ -420,15 +456,20 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+    protected static null|string $cluster = Test::class;
+>>>>>>> e53a56570 (.)
+=======
     protected static ?string $cluster = Test::class;
 =======
     public null|array $emailData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -601,11 +642,14 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> e53a56570 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -840,6 +884,11 @@ class SendTelegram extends Page implements HasForms
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 11b43e822 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
 
     public function mount(): void
     {
@@ -901,6 +950,7 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -910,11 +960,14 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e53a56570 (.)
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
 =======
 <<<<<<< HEAD
         $url = 'https://api.telegram.org/bot'.$token.'/getMe';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
@@ -1030,6 +1083,11 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+        $url = 'https://api.telegram.org/bot' . $token . '/getMe';
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
         Http::get($url);
         // dddx($response->json());
         /*
@@ -1395,6 +1453,7 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1498,10 +1557,16 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+>>>>>>> e53a56570 (.)
         if (! ($user instanceof Model)) {
 =======
         if (!($user instanceof Model)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1559,6 +1624,9 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f1c9518b (.)
+>>>>>>> e53a56570 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
