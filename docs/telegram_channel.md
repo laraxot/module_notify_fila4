@@ -1237,6 +1237,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1472,6 +1473,7 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> bb00ab64 (rebase 210)
 =======
@@ -2033,6 +2035,8 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> c5c038f2 (rebase 210)
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -2307,6 +2311,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2357,6 +2362,8 @@ class TelegramTest extends TestCase
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -3062,6 +3069,7 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> bb00ab64 (rebase 210)
 =======
@@ -3441,3 +3449,5 @@ class TelegramTest extends TestCase
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)

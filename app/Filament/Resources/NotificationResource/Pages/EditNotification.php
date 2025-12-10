@@ -342,6 +342,7 @@ class EditNotification extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -416,6 +417,7 @@ class EditNotification extends XotBaseEditRecord
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 06e3078e (.)
@@ -476,9 +478,12 @@ class EditNotification extends XotBaseEditRecord
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> db6bec044 (.)
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +563,8 @@ class EditNotification extends XotBaseEditRecord
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> db6bec044 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1198,6 +1205,7 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -1530,6 +1538,11 @@ class EditNotification extends \Modules\Xot\Filament\Resources\Pages\XotBaseEdit
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+>>>>>>> db6bec044 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

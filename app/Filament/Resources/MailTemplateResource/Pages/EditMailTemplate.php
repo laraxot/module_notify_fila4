@@ -267,6 +267,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -828,10 +829,14 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> c5c038f2 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> bb00ab64 (rebase 210)
 =======
@@ -1109,6 +1114,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1463,6 +1470,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
 =======
@@ -1553,6 +1561,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1842,6 +1852,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> c5c038f2 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
@@ -2128,6 +2139,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> db6bec044 (.)
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Modules\Notify\Filament\Resources\MailTemplateResource;
@@ -2339,6 +2354,7 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -2363,6 +2379,8 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> db6bec044 (.)
 =======
 use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
@@ -2598,10 +2616,14 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> bb00ab64 (rebase 210)
 =======
@@ -3192,6 +3214,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
@@ -3456,6 +3480,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3528,6 +3553,7 @@ class EditMailTemplate extends LangBaseEditRecord
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
@@ -3724,6 +3750,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 
     
 >>>>>>> b19cd40 (.)
@@ -3838,6 +3866,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3888,6 +3917,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4474,10 +4505,14 @@ class EditMailTemplate extends LangBaseEditRecord
 =======
 >>>>>>> c5c038f2 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db6bec044 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> bb00ab64 (rebase 210)
 =======
@@ -4759,6 +4794,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> e312314fa (.)
 =======
 >>>>>>> 17f6b8617 (.)
+=======
+>>>>>>> db6bec044 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)
