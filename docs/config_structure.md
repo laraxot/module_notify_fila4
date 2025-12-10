@@ -1,4 +1,55 @@
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Struttura di Configurazione nei Moduli <nome progetto>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli <nome progetto>
+=======
+=======
+# Struttura di Configurazione nei Moduli <nome progetto>
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+# Struttura di Configurazione nei Moduli <main module>
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
 
 ## Principi di Configurazione
 

@@ -1,3 +1,125 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica
@@ -128,7 +250,187 @@ class MailTemplateResource extends XotBaseResource
 {
     protected static ?string $model = MailTemplate::class;
 
+<<<<<<< HEAD
     public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b855 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
     {
         return $form->schema([
             Card::make()->schema([
@@ -252,7 +554,125 @@ class TreatmentComplete extends Mailable
 ## Comandi Artisan
 
 ```bash
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8b1c8bf (.)
+=======
+
+>>>>>>> 9cf0dc90 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+
+>>>>>>> f963d2c0 (.)
+=======
+
+>>>>>>> ee18dd92 (.)
+=======
+
+>>>>>>> 66453ace (.)
+=======
+
+>>>>>>> 2a97406c (.)
+=======
+
+>>>>>>> 4f042b88 (.)
+=======
+
+>>>>>>> 36321fcb (.)
+=======
+
+>>>>>>> 712617d3 (.)
+=======
+
+>>>>>>> fdb24863 (rebase 210)
+=======
+
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+
+>>>>>>> eb62d6cf (rebase 210)
+=======
+
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+
+>>>>>>> c8b1c8bf (.)
+=======
+
+>>>>>>> 9cf0dc90 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+
+>>>>>>> f963d2c0 (.)
+=======
+
+>>>>>>> 75179b855 (.)
+=======
+
+>>>>>>> f963d2c0 (.)
+=======
+
+>>>>>>> ee18dd92 (.)
+=======
+
+>>>>>>> 66453ace (.)
+=======
+
+>>>>>>> 2a97406c (.)
+=======
+
+>>>>>>> 4f042b88 (.)
+=======
+
+>>>>>>> 36321fcb (.)
+=======
+
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -309,4 +729,1072 @@ php artisan notify:mail-template:test
 ## Vedi Anche
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> e0d9c9be (.)
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 75179b85 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 75179b85 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 161887a2 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> ee18dd92 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> ba564870 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 66453ace (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 888799d0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 2a97406c (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> c6c33175 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4f042b88 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 503981fd (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 36321fcb (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 7a2f131f (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 712617d3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> bb00ab64 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 36ac4fc1 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> c8b1c8bf (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 58816034 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9cf0dc90 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 75179b85 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 161887a2 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> ee18dd92 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> ba564870 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 66453ace (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 888799d0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 2a97406c (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> c6c33175 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4f042b88 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 503981fd (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 36321fcb (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 7a2f131f (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 712617d3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cb85c538 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 1c0eb9c7 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4d253d2c (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> efb0f8d9 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 52cd5f85 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> bb00ab64 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 36ac4fc1 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> c8b1c8bf (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 58816034 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9cf0dc90 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 75179b85 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 75179b855 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 9777d1b3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 161887a2 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> ee18dd92 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> ba564870 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 66453ace (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 888799d0 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 2a97406c (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> c6c33175 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 4f042b88 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 503981fd (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 36321fcb (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 7a2f131f (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> 712617d3 (.)
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+>>>>>>> laraxot/develop

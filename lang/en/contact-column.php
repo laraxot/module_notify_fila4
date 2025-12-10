@@ -9,7 +9,50 @@ declare(strict_types=1);
  * that uses ContactTypeEnum for centralized rendering.
  *
  * @author Laraxot Team
+<<<<<<< HEAD
  * @version 1.0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f1c9518b (.)
+ *
+ * @version 1.0
+ *
+=======
+ * @version 1.0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+=======
+ * @version 1.0
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+ * @version 1.0
+>>>>>>> 75179b85 (.)
+=======
+ * @version 1.0
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+>>>>>>> laraxot/develop
  * @since 2025-08-01
  */
 return [

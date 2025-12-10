@@ -2,12 +2,19 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Modules\Xot\Datas\XotData;
+=======
+>>>>>>> laraxot/develop
 use Filament\Facades\Filament;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 use Livewire\Livewire;
 use Modules\Notify\Filament\Resources\MailTemplateResource\Pages\ListMailTemplates;
 use Modules\Notify\Models\MailTemplate;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Datas\XotData;
+>>>>>>> laraxot/develop
 
 use function Pest\Laravel\actingAs;
 

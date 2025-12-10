@@ -3,7 +3,11 @@
 **Modulo**: Notify (Notification System & Communication)  
 **Status**: 80% COMPLETATO  
 **Priority**: HIGH  
+<<<<<<< HEAD
 **PHPStan**: ✅ level 10 (0 errori)  
+=======
+**PHPStan**: ✅ Level 9 (0 errori)  
+>>>>>>> laraxot/develop
 **Filament**: ✅ 4.x Compatibile  
 
 ---
@@ -55,7 +59,11 @@ Notify Module
 - [ ] **Service 3**: [Description]
 
 ### 🛠️ Technical Excellence
+<<<<<<< HEAD
 - [ ] **PHPStan level 10**: 0 errori
+=======
+- [ ] **PHPStan Level 9**: 0 errori
+>>>>>>> laraxot/develop
 - [ ] **Filament 4.x**: Compatibilità completa
 - [ ] **Type Safety**: Type hints completi
 - [ ] **Error Handling**: Gestione errori robusta
@@ -129,7 +137,11 @@ Notify Module
 ## 🎯 SUCCESS METRICS
 
 ### 📊 Technical Metrics
+<<<<<<< HEAD
 - [ ] **PHPStan level 10**: 0 errori
+=======
+- [ ] **PHPStan Level 9**: 0 errori
+>>>>>>> laraxot/develop
 - [ ] **Filament 4.x**: Compatibile
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms

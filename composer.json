@@ -38,6 +38,32 @@
             "Modules\\Notify\\Database\\Seeders\\": "database/seeders/"
         }
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Notify\\Tests\\": "tests/"
+        }
+    },
+=======
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
+>>>>>>> laraxot/develop
     "require": {
         "aws/aws-sdk-php": "*",
         "filament/filament": "*",

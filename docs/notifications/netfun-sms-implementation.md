@@ -1,3 +1,116 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
 # Implementazione Netfun SMS 
 
 ## Introduzione
@@ -175,7 +288,575 @@ class AppointmentReminder extends Notification
         $smsData = new NetfunSmsData(
             recipient: $phoneNumber,
             message: "Promemoria: appuntamento il {$this->appointment->date}",
+<<<<<<< HEAD
             sender: '<nome progetto>',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>',
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SaluteOra',
+=======
+            sender: 'SaluteOra',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 6608a1a0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 909e45af (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> bb7e77c2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> b99af5a8 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f3086887 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 3d462363 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 6e12a84b (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 545977c8 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 69fa7d37 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 6608a1a0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 909e45af (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> bb7e77c2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> b99af5a8 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f3086887 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 3d462363 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 6e12a84b (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 545977c8 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 69fa7d37 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 6608a1a0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 909e45af (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> bb7e77c2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> b99af5a8 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f3086887 (rebase 210)
+=======
+            sender: '',
+            sender: '<nome progetto>',
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> ca10d6ad (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> febe79e3 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a29a4728 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9721a5b2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 1442e291 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> fcaebc79 (rebase 210)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> c8b1c8bf (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9cf0dc90 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> ca10d6ad (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> febe79e3 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a29a4728 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9721a5b2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 1442e291 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> fcaebc79 (rebase 210)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> c8b1c8bf (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9cf0dc90 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b85 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: '',
+            sender: 'SaluteOra',
+>>>>>>> 75179b855 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a404ea71 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> ca10d6ad (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> febe79e3 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> a29a4728 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 9721a5b2 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+            sender: 'SaluteOra',
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
             reference: 'app_' . $this->appointment->id
         );
         
@@ -200,3 +881,121 @@ class AppointmentReminder extends Notification
 - [Documentazione Netfun API](https://www.netfun.it/docs/api)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop

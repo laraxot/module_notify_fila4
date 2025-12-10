@@ -1,3 +1,116 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
 # Guida ai Template Email Responsive
 
 Questa guida descrive i template email responsive disponibili nel modulo Notify, la loro struttura e come utilizzarli nelle comunicazioni con gli utenti.
@@ -14,7 +127,575 @@ Questa guida descrive i template email responsive disponibili nel modulo Notify,
 
 ## Introduzione
 
+<<<<<<< HEAD
 I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b85 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 6608a1a0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 23cbbaf5 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 909e45af (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> bb7e77c2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> b99af5a8 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f3086887 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 3d462363 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 6e12a84b (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 545977c8 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 69fa7d37 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 6608a1a0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 23cbbaf5 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 909e45af (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> bb7e77c2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> b99af5a8 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f3086887 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 3d462363 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 6e12a84b (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 545977c8 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 69fa7d37 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 6608a1a0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 23cbbaf5 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 909e45af (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> bb7e77c2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> b99af5a8 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f3086887 (rebase 210)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a404ea71 (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b85 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a404ea71 (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b85 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a404ea71 (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b85 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a404ea71 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> ca10d6ad (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> febe79e3 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a29a4728 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9721a5b2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 1442e291 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> fcaebc79 (rebase 210)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> c8b1c8bf (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9cf0dc90 (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b85 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a404ea71 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> ca10d6ad (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> febe79e3 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a29a4728 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9721a5b2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 1442e291 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> fcaebc79 (rebase 210)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> c8b1c8bf (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9cf0dc90 (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b85 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b855 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a404ea71 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> ca10d6ad (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> febe79e3 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> a29a4728 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 9721a5b2 (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
 
 - **Responsive**: ottimizzati per qualsiasi dispositivo (desktop, tablet, mobile)
 - **Accessibili**: strutturati per garantire accessibilità secondo gli standard WCAG
@@ -121,7 +802,574 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 | `$name` | Nome destinatario | "Utente" |
 | `$intro_text` | Testo introduttivo | Varia per template |
 | `$outro_text` | Testo conclusivo | Varia per template |
+<<<<<<< HEAD
 | `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+<<<<<<< HEAD
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b85 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 6608a1a0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 23cbbaf5 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 909e45af (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> bb7e77c2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> b99af5a8 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f3086887 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 3d462363 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 6e12a84b (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 545977c8 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 69fa7d37 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 6608a1a0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 23cbbaf5 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 909e45af (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> bb7e77c2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> b99af5a8 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f3086887 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 3d462363 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 6e12a84b (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 545977c8 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 69fa7d37 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 6608a1a0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 23cbbaf5 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 909e45af (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> bb7e77c2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> b99af5a8 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f3086887 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a404ea71 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b85 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a404ea71 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b85 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a404ea71 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b85 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a404ea71 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> ca10d6ad (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> febe79e3 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a29a4728 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9721a5b2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 1442e291 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> fcaebc79 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> c8b1c8bf (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9cf0dc90 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b85 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a404ea71 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> ca10d6ad (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> febe79e3 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a29a4728 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9721a5b2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 1442e291 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> fcaebc79 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> c8b1c8bf (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9cf0dc90 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b85 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b855 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a404ea71 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> ca10d6ad (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> febe79e3 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> a29a4728 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 9721a5b2 (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
 | `$contact_phone` | Telefono di contatto | "+39 06 1234567" |
 | `$office_hours` | Orari ufficio | "Lun-Ven: 9:00-19:00, Sab: 9:00-13:00" |
 
@@ -200,3 +1448,121 @@ class SendAppointmentConfirmationAction
 - [EMAIL_BEST_PRACTICES.md](./EMAIL_BEST_PRACTICES.md) - Best practices per email transazionali
 - [RESPONSIVE_EMAIL_TEMPLATES.md](../RESPONSIVE_EMAIL_TEMPLATES.md) - Guide dettagliate sul design responsive
 - [MAILPACE_TEMPLATES_INTEGRATION.md](./MAILPACE_TEMPLATES_INTEGRATION.md) - Integrazione con template esterni
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop

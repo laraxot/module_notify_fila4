@@ -1,3 +1,209 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
 # Esempi Pratici: Blade Components Tailwind per <nome progetto>
 
 Questa guida mostra come creare Blade component riutilizzabili, accessibili e responsive usando pattern Tailwind CSS, secondo le best practice Webcrunch e le regole <nome progetto>.
@@ -158,5 +364,449 @@ document.querySelectorAll('.group').forEach(card => {
 ## Best Practice
 - Tutti i componenti sono accessibili, responsive e personalizzabili.
 - Usare sempre slot e attributi per espandibilità.
+<<<<<<< HEAD
 - Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 - Integrare test di rendering e validazione accessibilità.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 31f5d28f (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 31f5d28f (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 31f5d28f (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+>>>>>>> 23cbbaf5 (.)
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 2a97406c (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+=======
+>>>>>>> fbed41ac (.)
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 909e45af (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 4f042b88 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+=======
+>>>>>>> fbed41ac (.)
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> bb7e77c2 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 36321fcb (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> b99af5a8 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 712617d3 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> f3086887 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> fdb24863 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 545977c8 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 36ac4fc1 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 69fa7d37 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> c8b1c8bf (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 9cf0dc90 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 75179b85 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 31f5d28f (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> ee18dd92 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 6608a1a0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 66453ace (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 2a97406c (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 909e45af (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 4f042b88 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> bb7e77c2 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 36321fcb (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> b99af5a8 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 712617d3 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> f3086887 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> fdb24863 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 545977c8 (rebase 210)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 36ac4fc1 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 69fa7d37 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> c8b1c8bf (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 9cf0dc90 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 75179b85 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 75179b855 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> f963d2c0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 31f5d28f (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> ee18dd92 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 6608a1a0 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 66453ace (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 2a97406c (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 909e45af (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 4f042b88 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> bb7e77c2 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 36321fcb (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> b99af5a8 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> 712617d3 (.)
+=======
+- Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
+- Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
+- Integrare test di rendering e validazione accessibilità.
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop

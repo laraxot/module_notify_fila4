@@ -175,7 +175,58 @@ class AppointmentReminder extends Notification
         $smsData = new NetfunSmsData(
             recipient: $phoneNumber,
             message: "Promemoria: appuntamento il {$this->appointment->date}",
+<<<<<<< HEAD
             sender: '<nome progetto>',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            sender: '<nome progetto>',
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: '<nome progetto>',
+=======
+=======
+            sender: '<nome progetto>',
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+            sender: '<main module>',
+=======
+            sender: 'SaluteOra',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
             reference: 'app_' . $this->appointment->id
         );
         

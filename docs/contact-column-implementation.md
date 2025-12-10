@@ -1,10 +1,877 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
 # ContactColumn - Implementazione DRY/KISS Centralizzata
 
 ## 🎯 Obiettivo
 Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utilizza `ContactTypeEnum` per il rendering centralizzato dei contatti seguendo i principi DRY e KISS.
 
 ## 🚨 **PROBLEMA CRITICO IDENTIFICATO** (2025-08-01)
+<<<<<<< HEAD
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b85 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> f963d2c0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 31f5d28f (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b85 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> f963d2c0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 31f5d28f (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b85 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> f963d2c0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 31f5d28f (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b85 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> f963d2c0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 31f5d28f (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> ee18dd92 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 6608a1a0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 66453ace (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 23cbbaf5 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 2a97406c (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 909e45af (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 4f042b88 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> bb7e77c2 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 36321fcb (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> b99af5a8 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 712617d3 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> f3086887 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> fdb24863 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 3d462363 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> eb62d6cf (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 6e12a84b (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 545977c8 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 36ac4fc1 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 69fa7d37 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> fd1fcc4c (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> eb71492d (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 4f3927d7 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 0ebb7b01 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> c8b1c8bf (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 9cf0dc90 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b85 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> f963d2c0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 31f5d28f (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> ee18dd92 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 6608a1a0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 66453ace (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 23cbbaf5 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 2a97406c (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 909e45af (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 4f042b88 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> bb7e77c2 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 36321fcb (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> b99af5a8 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 712617d3 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> f3086887 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> fdb24863 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 3d462363 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> eb62d6cf (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 6e12a84b (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 545977c8 (rebase 210)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 36ac4fc1 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 69fa7d37 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> fd1fcc4c (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> eb71492d (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 4f3927d7 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 0ebb7b01 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> c8b1c8bf (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 9cf0dc90 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b85 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> f963d2c0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b855 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> f963d2c0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 31f5d28f (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> ee18dd92 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 6608a1a0 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 66453ace (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 23cbbaf5 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 2a97406c (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 909e45af (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 4f042b88 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> bb7e77c2 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 36321fcb (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> b99af5a8 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> 712617d3 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](./contact-column-icon-issue-analysis.md)
 - 🛠️ **Soluzione**: Sostituire `@svg()` con `<x-filament::icon>`
 - ⚡ **Priorità**: ALTA (Funzionalità core non funzionante)
@@ -14,7 +881,644 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 - [x] Eliminazione duplicazione codice (da 79 a 46 righe PHP)
 - [x] Pattern unificato per tutti i tipi di contatto
 - [x] Single source of truth per proprietà UI
+<<<<<<< HEAD
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b85 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> f963d2c0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 31f5d28f (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b85 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> f963d2c0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 31f5d28f (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b85 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> f963d2c0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 31f5d28f (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b85 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> f963d2c0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 31f5d28f (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> ee18dd92 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 6608a1a0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 66453ace (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 2a97406c (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 909e45af (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 4f042b88 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> bb7e77c2 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 36321fcb (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> b99af5a8 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 712617d3 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 36ac4fc1 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 69fa7d37 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> fd1fcc4c (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> eb71492d (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 4f3927d7 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 0ebb7b01 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> c8b1c8bf (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 9cf0dc90 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b85 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> f963d2c0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 31f5d28f (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> ee18dd92 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 6608a1a0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 66453ace (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 2a97406c (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 909e45af (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 4f042b88 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> bb7e77c2 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 36321fcb (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> b99af5a8 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 712617d3 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 36ac4fc1 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 69fa7d37 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> fd1fcc4c (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> eb71492d (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 4f3927d7 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 0ebb7b01 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> c8b1c8bf (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 9cf0dc90 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b85 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> f963d2c0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b855 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> f963d2c0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 31f5d28f (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> ee18dd92 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 6608a1a0 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 66453ace (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 2a97406c (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 909e45af (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 4f042b88 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> bb7e77c2 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 36321fcb (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> b99af5a8 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> 712617d3 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop
 
 ## 🏗️ Architettura della Soluzione
 
@@ -358,4 +1862,314 @@ public function table(Table $table): Table
 4. **Documentare** l'utilizzo
 5. **Aggiornare** le regole e memorie
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 2a97406c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 909e45af (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 4f042b88 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> bb7e77c2 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 36321fcb (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> b99af5a8 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 712617d3 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f3086887 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> fdb24863 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 6e12a84b (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 545977c8 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 36ac4fc1 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 69fa7d37 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> fd1fcc4c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> eb71492d (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 4f3927d7 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 0ebb7b01 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c8b1c8bf (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 9cf0dc90 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 75179b85 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f963d2c0 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 31f5d28f (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> ee18dd92 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 6608a1a0 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 66453ace (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 2a97406c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 909e45af (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 4f042b88 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> bb7e77c2 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 36321fcb (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> b99af5a8 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 712617d3 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f3086887 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> fdb24863 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> eb62d6cf (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 6e12a84b (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 545977c8 (rebase 210)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 36ac4fc1 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 69fa7d37 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> fd1fcc4c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> eb71492d (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 4f3927d7 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 0ebb7b01 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c8b1c8bf (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 9cf0dc90 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 75179b85 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f963d2c0 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 75179b855 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f963d2c0 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 31f5d28f (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> ee18dd92 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 6608a1a0 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 66453ace (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 2a97406c (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 909e45af (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 4f042b88 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> bb7e77c2 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 36321fcb (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> b99af5a8 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 712617d3 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> laraxot/develop

@@ -48,7 +48,138 @@ Grazie,<br>
 // app/Filament/Resources/EmailTemplateResource.php
 use Filament\Forms\Components\Builder;
 
+<<<<<<< HEAD
 public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+public static function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+public static function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> fd1fcc4c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 6a44db8a (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 75179b855 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
 {
     return $form->schema([
         Builder::make('content')

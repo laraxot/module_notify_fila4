@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Jobs;
 
 use Exception;
+<<<<<<< HEAD
 use Throwable;
+=======
+>>>>>>> laraxot/develop
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -14,6 +17,13 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 use Modules\Notify\Services\PushNotificationService;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Throwable;
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> laraxot/develop
 use Webmozart\Assert\Assert;
 
 /**

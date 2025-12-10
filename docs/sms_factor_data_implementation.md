@@ -1,3 +1,128 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
 # SmsFactorData Implementation Summary
 
 ## Overview
@@ -72,8 +197,1172 @@ public function __construct()
 ### 3. Updated Documentation
 
 **Files Created/Updated**:
+<<<<<<< HEAD
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> ca10d6ad (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> febe79e3 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a29a4728 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 1442e291 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> fcaebc79 (rebase 210)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f9ec4f86 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 0ebb7b01 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> cccb594f (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> c8b1c8bf (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9cf0dc90 (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> ca10d6ad (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> febe79e3 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a29a4728 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 1442e291 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 84082535 (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> fcaebc79 (rebase 210)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f9ec4f86 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4b544042 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 0ebb7b01 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> cccb594f (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> c8b1c8bf (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9cf0dc90 (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 75179b855 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> ca10d6ad (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4c323e61 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> febe79e3 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a29a4728 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -176,8 +1465,1177 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/app/Datas/SMS/AgiletelecomData.php`: Similar implementation for Agiletelecom
 - `/Modules/Notify/app/Actions/SMS/SendSmsFactorSMSAction.php`: Refactored action class
 - `/Modules/Notify/config/sms.php`: SMS configuration file
+<<<<<<< HEAD
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f963d2c0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f963d2c0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f963d2c0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f963d2c0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> ee18dd92 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 2941b0bd (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> ca10d6ad (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 66453ace (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4c323e61 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> febe79e3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 2a97406c (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 98d837b9 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a29a4728 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4f042b88 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4e4a7796 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> c7a4727b (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9d84f153 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 712617d3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 116df547 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 1442e291 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> fdb24863 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 84082535 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> fcaebc79 (rebase 210)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 5b50927d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 36ac4fc1 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d45a0226 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> fd1fcc4c (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> cb5f23b0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f9ec4f86 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4f3927d7 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4b544042 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 0ebb7b01 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> cccb594f (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> c8b1c8bf (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9cf0dc90 (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f963d2c0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> ee18dd92 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 2941b0bd (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> ca10d6ad (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 66453ace (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4c323e61 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> febe79e3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 2a97406c (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 98d837b9 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a29a4728 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4f042b88 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4e4a7796 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> c7a4727b (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9d84f153 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 712617d3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 116df547 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 1442e291 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> fdb24863 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 229a065a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 84082535 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> fcaebc79 (rebase 210)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 9f8e680a (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 7ffa94fc (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 5aedc39c (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 82e5ee2d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 22baa66d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 5b50927d (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 36ac4fc1 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d45a0226 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> fd1fcc4c (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> cb5f23b0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f9ec4f86 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4f3927d7 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 3ee54c5d (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4b544042 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 0ebb7b01 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> cccb594f (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> c8b1c8bf (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9cf0dc90 (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 75179b85 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f963d2c0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 75179b855 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> f963d2c0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 3f537838 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a404ea71 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> ee18dd92 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 2941b0bd (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> ca10d6ad (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 66453ace (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4c323e61 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> febe79e3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 2a97406c (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 98d837b9 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a29a4728 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4f042b88 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 4e4a7796 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> c7a4727b (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9d84f153 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> b99af5a8 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 712617d3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 116df547 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+=======
+- `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> bf479cc (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
 
 ## Conclusion
 
 The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAction` successfully follows the established pattern and provides a more maintainable, type-safe, and consistent approach to SMS provider configuration management. This change aligns with the project's architecture principles and makes the codebase more robust and easier to extend.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop

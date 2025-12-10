@@ -140,7 +140,35 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 - **Leggibilità migliorata**: Codice più esplicito e chiaro
 
 ### **Benefici**
+<<<<<<< HEAD
 - ✅ **PHPStan level 10**: Compatibilità completa
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- ✅ **PHPStan level 10**: Compatibilità completa
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+>>>>>>> laraxot/develop
 - ✅ **Leggibilità**: Codice più esplicito e chiaro
 - ✅ **Type Safety**: Mantenuta con type hints espliciti
 - ✅ **Debugging**: Più facile identificare problemi
@@ -246,3 +274,119 @@ public function toMail(object $notifiable): MailMessage
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 92/100 score  
 **✨ Test Coverage**: 95% ✅
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 58816034 (.)
+
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> ce89c8bb (.)
+
+
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+
+
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 58816034 (.)
+=======
+
+
+>>>>>>> 9777d1b (.)
+<<<<<<< HEAD
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+
+
+>>>>>>> 9777d1b3 (.)
+>>>>>>> laraxot/develop

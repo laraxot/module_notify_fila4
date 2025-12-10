@@ -1,3 +1,116 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop
 # Azioni SMS
 
 ## Interfaccia
@@ -43,7 +156,575 @@ Le azioni SMS sono organizzate secondo questa struttura:
 $smsData = new SmsData(
     to: '+393331234567',
     body: 'Il tuo codice OTP è: 123456',
+<<<<<<< HEAD
     from: '<nome progetto>'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    from: '<nome progetto>'
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+    from: 'SaluteOra'
+=======
+    from: 'SaluteOra'
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 6608a1a0 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 23cbbaf5 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 909e45af (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> bb7e77c2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> b99af5a8 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f3086887 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 3d462363 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 6e12a84b (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 545977c8 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 69fa7d37 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 6608a1a0 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 23cbbaf5 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 909e45af (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> bb7e77c2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> b99af5a8 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f3086887 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 3d462363 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 6e12a84b (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 545977c8 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 69fa7d37 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 6608a1a0 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 23cbbaf5 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 909e45af (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> bb7e77c2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> b99af5a8 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f3086887 (rebase 210)
+=======
+    from: ''
+    from: '<nome progetto>'
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> ca10d6ad (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> febe79e3 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a29a4728 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9721a5b2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 1442e291 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> fcaebc79 (rebase 210)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> c8b1c8bf (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9cf0dc90 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> ca10d6ad (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> febe79e3 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a29a4728 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9721a5b2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 1442e291 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> fcaebc79 (rebase 210)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> c8b1c8bf (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9cf0dc90 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b85 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+    from: ''
+    from: 'SaluteOra'
+>>>>>>> 75179b855 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a404ea71 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> ca10d6ad (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> febe79e3 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> a29a4728 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 9721a5b2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+    from: 'SaluteOra'
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> laraxot/develop
 );
 
 $action = new SendNetfunSMSAction();
@@ -71,3 +752,121 @@ $result = $action->execute($smsData);
    - Validare l'input degli utenti
    - Sanitizzare i messaggi
    - Proteggere le chiavi API
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> laraxot/develop

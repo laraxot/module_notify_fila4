@@ -46,7 +46,541 @@ class NotificationTypeEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
+<<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 161887a2 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+>>>>>>> 0f07e6d (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 985c7bda (.)
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 2fc60436 (.)
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> ce89c8bb (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 161887a2 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+=======
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 99ff506 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f1c9518b (.)
+=======
+=======
+=======
+>>>>>>> 0f07e6d (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 985c7bda (.)
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 0f07e6d (.)
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b855 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 9777d1b3 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 161887a2 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
+>>>>>>> laraxot/develop
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

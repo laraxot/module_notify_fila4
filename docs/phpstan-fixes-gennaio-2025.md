@@ -141,10 +141,13 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 
 ### **Benefici**
 - ✅ **PHPStan Level 9**: Compatibilità completa
+<<<<<<< HEAD
 - ✅ **PHPStan Level 9**: Compatibilità completa
 - ✅ **PHPStan Level 9**: Compatibilità completa
 - ✅ **PHPStan Level 9**: Compatibilità completa
 - ✅ **PHPStan Level 9**: Compatibilità completa
+=======
+>>>>>>> laraxot/develop
 - ✅ **Leggibilità**: Codice più esplicito e chiaro
 - ✅ **Type Safety**: Mantenuta con type hints espliciti
 - ✅ **Debugging**: Più facile identificare problemi
@@ -250,6 +253,7 @@ public function toMail(object $notifiable): MailMessage
 **🌐 Translation Standards**: IT/EN complete ✅  
 **🚀 Performance**: 92/100 score  
 **✨ Test Coverage**: 95% ✅
+<<<<<<< HEAD
 
 
 
@@ -266,3 +270,16 @@ public function toMail(object $notifiable): MailMessage
 
 
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 0f07e6d (.)
+=======
+
+
+>>>>>>> e11621f (.)
+>>>>>>> laraxot/develop

@@ -29,12 +29,114 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    ```php
    $attachments = [
        [
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+           'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+           'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+=======
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

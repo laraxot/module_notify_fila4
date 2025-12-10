@@ -8,27 +8,209 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 
 ### Formato Corretto
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
 Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 
 #### Formato 1: Allegato da File Esistente (`path`)
 
 ```php
 // Formato corretto - allegato da file su filesystem
+<<<<<<< HEAD
 $attachments = [
     [
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+=======
+```php
+// Formato corretto - un array di array di allegati
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7bac387 (.)
+$attachments = [
+    [
+<<<<<<< HEAD
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+```php
+// Formato corretto - un array di array di allegati
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+$attachments = [
+    [
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+        'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+```php
+// Formato corretto - un array di array di allegati
+$attachments = [
+    [
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+        'path' => '/var/www/html/<directory progetto>/public_html/documents/terms.pdf',
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
+>>>>>>> laraxot/develop
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
 ];
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
 #### Formato 2: Allegato da Contenuto Binario (`data`)
 
 ```php
@@ -51,6 +233,43 @@ $attachments = [
 - ✅ Più sicuro (no file residui)
 - ❌ Non usare per file molto grandi (> 50MB) - usa `path` con storage dedicato
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
 ## Implementazione nella Classe SpatieEmail
 
 La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment` di Laravel per gestire gli allegati in modo robusto:
@@ -67,6 +286,31 @@ public function addAttachments(array $attachments): self
     $attachmentObjects = [];
     
     foreach ($attachments as $item) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
         $attachment = null;
         
         // Priorità 1: Se esiste 'path' e il file esiste, usa getAttachmentFromPath()
@@ -82,6 +326,91 @@ public function addAttachments(array $attachments): self
         if ($attachment) {
             $attachmentObjects[] = $attachment;
         }
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 2a97406c (.)
+        if (!isset($item['path']) || !file_exists($item['path'])) {
+            continue;
+        }
+        
+        $attachment = Attachment::fromPath($item['path']);
+        
+        if (isset($item['as'])) {
+            $attachment = $attachment->as($item['as']);
+        }
+        
+        if (isset($item['mime'])) {
+            $attachment = $attachment->withMime($item['mime']);
+        }
+        
+        $attachmentObjects[] = $attachment;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
     }
     
     $this->customAttachments = $attachmentObjects;
@@ -102,10 +431,86 @@ public function attachments(): array
 
 ## Esempio di Utilizzo Completo
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
 ### Esempio 1: Allegato da File Esistente
 
 ```php
 // Creazione di un array di allegati da file esistenti
+<<<<<<< HEAD
+=======
+=======
+```php
+// Creazione di un array di allegati
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
 $attachments = [
     [
         'path' => 'modules/notify/resources/assets/images/logo.png',
@@ -121,6 +526,31 @@ Mail::to($recipient)
     ->addAttachments($attachments));
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
 ### Esempio 2: Allegato PDF Generato Dinamicamente
 
 ```php
@@ -296,3 +726,92 @@ foreach ($records as $record) {
 - `Modules/Notify/app/Emails/SpatieEmail.php` - Gestione allegati
 - `Modules/Notify/app/Notifications/RecordNotification.php` - Notifiche con allegati
 - `Modules/Xot/app/Actions/Pdf/GetPdfContentByRecordAction.php` - Generazione PDF
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 2a97406c (.)
+## Opzioni Disponibili per gli Allegati
+
+Ogni allegato deve contenere i seguenti parametri:
+
+- `path`: Percorso al file da allegare (può essere percorso relativo o assoluto)
+- `as`: Nome del file che apparirà nell'email
+- `mime`: Tipo MIME del file (es. 'image/png', 'application/pdf', ecc.)
+
+## Note Aggiuntive
+
+- Assicurarsi che i file specificati nei percorsi esistano
+- Per allegati di grandi dimensioni, considerare l'utilizzo di un job in coda
+- Verificare che i tipi MIME siano corretti per evitare problemi di visualizzazione nei client email
+
+## Collegamenti alla Documentazione Correlata
+
+- [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
+- [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
+- [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop

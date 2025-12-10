@@ -114,7 +114,88 @@ TextInput::make('name')
 
 ### 1. Form Resource
 ```php
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+>>>>>>> laraxot/develop
 {
     return $form
         ->schema([
