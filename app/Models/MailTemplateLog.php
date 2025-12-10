@@ -72,6 +72,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -255,7 +256,12 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
@@ -270,6 +276,7 @@ use Modules\User\Models\Profile;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,7 +597,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -598,6 +610,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -613,7 +626,12 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 /**
  * @property-read Profile|null $creator
@@ -631,6 +649,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
@@ -648,7 +667,12 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
  * @method static MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
@@ -659,6 +683,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  *
  *
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -983,7 +1008,15 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin \Eloquent
  */
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+ * @mixin IdeHelperMailTemplateLog
+ * @mixin \Eloquent
+ */
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [
@@ -1006,7 +1039,10 @@ class MailTemplateLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> c5a0a4b2 (.)
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
@@ -1025,7 +1061,12 @@ class MailTemplateLog extends BaseModel
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     /**
      * Get the attributes that should be cast.
      *
@@ -1084,6 +1125,7 @@ class MailTemplateLog extends BaseModel
     #[Override]
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1445,7 +1487,13 @@ class MailTemplateLog extends BaseModel
 =======
     #[Override]
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     protected function casts(): array
     {
         return [
@@ -1463,12 +1511,18 @@ class MailTemplateLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     public function template(): BelongsTo
     {
@@ -1483,10 +1537,16 @@ class MailTemplateLog extends BaseModel
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 }

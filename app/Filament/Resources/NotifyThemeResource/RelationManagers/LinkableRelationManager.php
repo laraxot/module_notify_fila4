@@ -91,6 +91,7 @@ use Filament\Forms\Form;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -686,14 +687,22 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> b19cd40 (.)
@@ -753,7 +762,12 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 class LinkableRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'linkable';
@@ -823,6 +837,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -990,7 +1005,13 @@ class LinkableRelationManager extends XotBaseRelationManager
     protected static null|string $recordTitleAttribute = 'id';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    protected static null|string $recordTitleAttribute = 'id';
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     #[Override]
     public function getFormSchema(): array
@@ -1001,6 +1022,7 @@ class LinkableRelationManager extends XotBaseRelationManager
     protected static ?string $recordTitleAttribute = 'id';
     protected static null|string $recordTitleAttribute = 'id';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1520,7 +1542,13 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            TextInput::make('id')->required()->maxLength(255),
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         ];
     }
 }

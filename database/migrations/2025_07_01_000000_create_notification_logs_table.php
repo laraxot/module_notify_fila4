@@ -145,6 +145,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -691,7 +692,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -852,6 +861,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1314,7 +1324,13 @@ return new class extends Migration {
 return new class extends Migration {
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+return new class extends Migration {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     /**
      * Run the migrations.
      */
@@ -1337,6 +1353,7 @@ return new class extends Migration {
         if (!Schema::hasTable('notification_logs')) {
             Schema::create('notification_logs', function (Blueprint $table) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1389,7 +1406,14 @@ return new class extends Migration {
         if (!Schema::hasTable('notification_logs')) {
             Schema::create('notification_logs', function (Blueprint $table) {
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        if (!Schema::hasTable('notification_logs')) {
+            Schema::create('notification_logs', function (Blueprint $table) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 $table->id();
                 $table->string('notifiable_type');
                 $table->unsignedBigInteger('notifiable_id');
@@ -1509,6 +1533,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1796,7 +1821,13 @@ return new class extends Migration {
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 $table->index(['notifiable_type', 'notifiable_id']);
                 $table->index('channel');
                 $table->index('status');

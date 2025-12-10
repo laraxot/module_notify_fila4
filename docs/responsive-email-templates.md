@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,7 +83,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione
@@ -90,6 +96,7 @@
 <<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -540,7 +547,14 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ## Principi Fondamentali
 
@@ -705,6 +719,7 @@ Per <nome progetto>, si raccomanda un **approccio ibrido**:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 Per , si raccomanda un **approccio ibrido**:
@@ -1065,7 +1080,14 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Per , si raccomanda un **approccio ibrido**:
+Per SaluteOra, si raccomanda un **approccio ibrido**:
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
@@ -1206,6 +1228,7 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1266,4 +1289,9 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

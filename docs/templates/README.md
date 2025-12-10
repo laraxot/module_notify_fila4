@@ -89,6 +89,7 @@ public static function form(Form $form): Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -157,7 +158,13 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 public static function form(Form $form): Form
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 {
     return $form->schema([
         Builder::make('content')

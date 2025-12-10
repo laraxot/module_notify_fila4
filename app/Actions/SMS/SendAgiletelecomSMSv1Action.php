@@ -68,6 +68,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -154,7 +155,12 @@ use Override;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -162,7 +168,10 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
 <<<<<<< HEAD
@@ -846,7 +855,15 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
@@ -860,6 +877,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
     #[Override]
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,7 +1158,13 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';
@@ -1164,6 +1188,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'Connection' => 'keep-alive',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1653,7 +1678,12 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         ];
 
         $client = new Client([
@@ -1678,6 +1708,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
     }
     
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2262,5 +2293,13 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         return [];
     }
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+        return [];
+    }
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 }

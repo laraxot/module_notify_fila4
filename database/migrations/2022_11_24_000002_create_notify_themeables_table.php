@@ -140,6 +140,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -572,7 +573,13 @@ return new class() extends XotBaseMigration {
 return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     /**
      * Run the migrations.
      */
@@ -633,6 +640,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -801,7 +809,12 @@ return new class() extends XotBaseMigration {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->nullableMorphs('model');
@@ -818,6 +831,7 @@ return new class() extends XotBaseMigration {
             if (! $this->hasColumn('notify_theme_id')) {
             if (!$this->hasColumn('notify_theme_id')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -851,7 +865,13 @@ return new class() extends XotBaseMigration {
             if (!$this->hasColumn('notify_theme_id')) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            if (!$this->hasColumn('notify_theme_id')) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 $table->integer('notify_theme_id')->nullable();
             }
             $this->updateTimestamps(
@@ -861,6 +881,7 @@ return new class() extends XotBaseMigration {
         });
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1335,6 +1356,11 @@ return new class() extends XotBaseMigration {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 };

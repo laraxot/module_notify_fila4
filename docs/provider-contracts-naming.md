@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,7 +83,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Convenzioni di Naming per i Contracts 
 
 ## Regola Fondamentale
@@ -90,6 +96,7 @@
 <<<<<<< HEAD
 Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -540,7 +547,14 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 =======
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Nel sistema , tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`
@@ -627,6 +641,7 @@ interface SmsProviderContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -687,4 +702,9 @@ interface SmsProviderContract
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

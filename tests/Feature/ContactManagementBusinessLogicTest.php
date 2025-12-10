@@ -110,20 +110,29 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\json_encode;
 
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -1527,7 +1536,12 @@ use function Safe\json_encode;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -1677,6 +1691,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'subject' => 'Benvenuto su '.config('app.name', 'Our Platform'),
 =======
                 'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
@@ -1700,7 +1715,13 @@ class ContactManagementBusinessLogicTest extends TestCase
                 'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 'sent_at' => now()->subDays(5)->toISOString(),
                 'status' => 'delivered',
                 'opened' => true,
@@ -1870,6 +1891,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2713,7 +2735,12 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $this->assertEquals(
             'Benvenuto su ' . config('app.name', 'Our Platform'),
             $contact->fresh()->communication_history[0]['subject'],
@@ -2734,6 +2761,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
         $this->assertEquals('Benvenuto su ' . config('app.name', 'Our Platform'), $contact->fresh()->communication_history[0]['subject']);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2919,7 +2947,12 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
@@ -3229,6 +3262,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3599,7 +3633,12 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         $smsContact = Contact::factory()->create([
@@ -3611,6 +3650,7 @@ class ContactManagementBusinessLogicTest extends TestCase
             'preferences' => ['email' => true, 'sms' => false]
             'preferences' => ['email' => true, 'sms' => false],
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4421,7 +4461,12 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         ]);
 
         // Act
@@ -4447,6 +4492,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         $vipContact = Contact::factory()->create([
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4942,13 +4988,19 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5796,7 +5848,12 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         ]);
 
         // Act

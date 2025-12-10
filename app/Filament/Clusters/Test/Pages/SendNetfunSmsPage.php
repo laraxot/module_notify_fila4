@@ -24,6 +24,7 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 use Filament\Facades\Filament\Schemas\Schema;
@@ -95,7 +96,14 @@ use Filament\Schemas\Schema;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Filament\Panel;
+use Filament\Schemas\Schema;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Select;
@@ -112,6 +120,7 @@ use Filament\Notifications\Notification as FilamentNotification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -120,7 +129,12 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
@@ -144,6 +158,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
 <<<<<<< HEAD
@@ -178,7 +193,12 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
@@ -192,6 +212,7 @@ class SendNetfunSmsPage extends XotBasePage
     public ?array $smsData = [];
     public null|array $smsData = [];
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328,7 +349,12 @@ class SendNetfunSmsPage extends XotBasePage
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
@@ -339,6 +365,7 @@ class SendNetfunSmsPage extends XotBasePage
     protected static ?string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,7 +393,13 @@ class SendNetfunSmsPage extends XotBasePage
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     /**
      * Get the slug of the page
@@ -402,6 +435,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518,11 +552,14 @@ class SendNetfunSmsPage extends XotBasePage
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
     public function smsForm(Schema $schema): Schema
     {
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -536,7 +573,12 @@ class SendNetfunSmsPage extends XotBasePage
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public function getSmsFormSchema(): array
     {
         return [
@@ -646,6 +688,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -712,7 +755,13 @@ class SendNetfunSmsPage extends XotBasePage
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

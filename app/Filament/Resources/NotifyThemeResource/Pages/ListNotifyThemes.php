@@ -69,6 +69,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -363,7 +364,13 @@ use Override;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Override;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
@@ -393,6 +400,7 @@ use Override;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1039,7 +1047,14 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
@@ -1052,6 +1067,7 @@ class ListNotifyThemes extends XotBaseListRecords
     #[Override]
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1502,7 +1518,12 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -1515,6 +1536,7 @@ class ListNotifyThemes extends XotBaseListRecords
             'logo_src' => TextColumn::make('logo_src')->sortable(),
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1723,7 +1745,12 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
@@ -1743,6 +1770,7 @@ class ListNotifyThemes extends XotBaseListRecords
     #[Override]
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2147,7 +2175,13 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public function getTableFilters(): array
     {
         return [
@@ -2165,6 +2199,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2624,5 +2659,10 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 }

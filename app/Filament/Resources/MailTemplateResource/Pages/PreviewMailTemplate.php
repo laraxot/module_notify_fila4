@@ -141,6 +141,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -469,7 +470,14 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 /**
  * @property MailTemplate $record
@@ -571,6 +579,7 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -984,7 +993,12 @@ class PreviewMailTemplate extends Page
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
         ];
     }
@@ -996,6 +1010,7 @@ class PreviewMailTemplate extends Page
     }
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1214,4 +1229,9 @@ class PreviewMailTemplate extends Page
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

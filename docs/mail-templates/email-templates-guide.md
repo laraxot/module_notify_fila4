@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,7 +83,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Guida ai Template Email Responsive
 
 Questa guida descrive i template email responsive disponibili nel modulo Notify, la loro struttura e come utilizzarli nelle comunicazioni con gli utenti.
@@ -102,6 +108,7 @@ Questa guida descrive i template email responsive disponibili nel modulo Notify,
 <<<<<<< HEAD
 I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -552,7 +559,14 @@ I template email responsive di SaluteOra sono progettati per offrire una comunic
 =======
 I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 - **Responsive**: ottimizzati per qualsiasi dispositivo (desktop, tablet, mobile)
 - **Accessibili**: strutturati per garantire accessibilità secondo gli standard WCAG
@@ -751,6 +765,7 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
 <<<<<<< HEAD
 =======
@@ -1111,7 +1126,14 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 =======
 | `$contact_email` | Email di contatto | "supporto@saluteora.it" |
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+| `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 | `$contact_phone` | Telefono di contatto | "+39 06 1234567" |
 | `$office_hours` | Orari ufficio | "Lun-Ven: 9:00-19:00, Sab: 9:00-13:00" |
 
@@ -1218,6 +1240,7 @@ class SendAppointmentConfirmationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1278,4 +1301,9 @@ class SendAppointmentConfirmationAction
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

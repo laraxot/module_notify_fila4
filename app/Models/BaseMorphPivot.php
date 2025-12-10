@@ -26,6 +26,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 abstract class BaseMorphPivot extends MorphPivot
@@ -48,7 +49,13 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> e00d798d (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+abstract class BaseMorphPivot extends MorphPivot
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 {
     use Updater;
 
@@ -384,6 +391,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1131,7 +1139,14 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         'post_id',
         'post_type',
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        'post_id',
+        'post_type',
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         'related_type',
         'user_id',
         'note',
@@ -1302,6 +1317,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1811,7 +1827,12 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

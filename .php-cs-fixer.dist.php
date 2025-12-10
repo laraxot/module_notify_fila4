@@ -282,6 +282,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -1605,7 +1606,15 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1632,6 +1641,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->ignoreVCS(true);
 =======
     ->ignoreVCS(true)
@@ -1660,7 +1670,13 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    ->ignoreVCS(true)
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -1684,6 +1700,7 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // 'binary_operator_spaces' => ['align_double_arrow' => false],
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
@@ -1700,7 +1717,13 @@ $config
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -1743,6 +1766,7 @@ return $config;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1778,4 +1802,12 @@ return $config;
 
 return $config;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

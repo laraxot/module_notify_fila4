@@ -187,6 +187,7 @@ class WhatsAppDriverEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -519,7 +520,13 @@ class WhatsAppDriverEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, WhatsAppDriverEnum::cases());
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

@@ -145,6 +145,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -691,7 +692,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -705,7 +714,10 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> c5a0a4b2 (.)
     /**
      * @param string $token
      * @param array<int, array<string, mixed>> $messages
@@ -722,7 +734,12 @@ class NetfunSmsRequestData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public function __construct(
         public string $token,
         public array $messages,
@@ -730,6 +747,7 @@ class NetfunSmsRequestData extends Data
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,7 +805,12 @@ class NetfunSmsRequestData extends Data
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public static function fromArray(array $data): self
     {
         return new self(
@@ -875,6 +898,7 @@ class NetfunSmsRequestData extends Data
             messages: $data['messages']
             messages: $data['messages'],
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1315,7 +1339,13 @@ class NetfunSmsRequestData extends Data
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            messages: $data['messages'],
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         );
     }
 }

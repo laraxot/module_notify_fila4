@@ -118,6 +118,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -637,4 +638,12 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

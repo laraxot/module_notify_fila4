@@ -67,6 +67,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -187,7 +188,12 @@ use Exception;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
@@ -213,6 +219,7 @@ use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Exception;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,7 +743,12 @@ use Webmozart\Assert\Assert;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 class RecordNotificationData extends Data
 {
@@ -747,6 +759,7 @@ class RecordNotificationData extends Data
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -775,7 +788,12 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public string $channel;
 
     public function getChannel(): string
@@ -848,6 +866,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1106,7 +1125,14 @@ class RecordNotificationData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        switch ($this->channel) {
+            case 'mail':
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                 return $email;
             case 'sms':
@@ -1120,6 +1146,7 @@ class RecordNotificationData extends Data
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1607,5 +1634,10 @@ class RecordNotificationData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 }

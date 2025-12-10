@@ -136,6 +136,7 @@ use Modules\Xot\Tests\CreatesApplication;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -408,7 +409,12 @@ use Modules\Xot\Tests\CreatesApplication;
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
@@ -424,6 +430,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -454,7 +461,12 @@ use Tests\CreatesApplication;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 /**
  * Base test case for Notify module tests.
@@ -570,6 +582,7 @@ abstract class TestCase extends BaseTestCase
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1298,7 +1311,13 @@ abstract class TestCase extends BaseTestCase
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -1335,6 +1354,7 @@ abstract class TestCase extends BaseTestCase
      * @param  Application  $app
      * @param Application $app
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1528,7 +1548,13 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     * @param Application $app
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

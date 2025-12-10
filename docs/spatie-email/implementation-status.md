@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -163,7 +164,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Stato Implementazione SpatieEmail
 
 Questo documento tiene traccia dello stato di implementazione delle email utilizzando il pacchetto Spatie per le email multilingua nel modulo Notify.
@@ -257,6 +263,7 @@ Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 =======
 Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
@@ -541,7 +548,15 @@ Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/F
 =======
 Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ```php
 // Errore di sintassi (manca ->)
@@ -648,7 +663,10 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> c5a0a4b2 (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -730,6 +748,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
 1. [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](../Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](../Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -771,6 +791,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -849,6 +870,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -892,6 +915,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1117,7 +1141,12 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ## Timeline
 
@@ -1179,6 +1208,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1293,4 +1323,9 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

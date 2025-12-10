@@ -62,6 +62,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
@@ -449,7 +450,15 @@ class SmsChannel
 >>>>>>> c8b1c8bf (.)
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      * @throws Exception Se la notifica non ha il metodo toSms o il driver non è supportato
      */
     public function send($notifiable, Notification $notification)
@@ -469,6 +478,7 @@ class SmsChannel
         if (!method_exists($notification, 'toSms')) {
         if (!method_exists($notification, 'toSms')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,7 +720,13 @@ class SmsChannel
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        if (!method_exists($notification, 'toSms')) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             throw new Exception('Notification does not have toSms method');
         }
 
@@ -790,6 +806,7 @@ class SmsChannel
         if (!($smsData instanceof SmsData)) {
         if (!($smsData instanceof SmsData)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1298,7 +1315,13 @@ class SmsChannel
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        if (!($smsData instanceof SmsData)) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
@@ -1309,6 +1332,7 @@ class SmsChannel
         
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1598,7 +1622,12 @@ class SmsChannel
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         return $action->execute($smsData);
     }

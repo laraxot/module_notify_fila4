@@ -392,6 +392,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1778,7 +1779,15 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 class ContactTest extends TestCase
 {
@@ -1862,6 +1871,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $contact = new Contact;
@@ -1880,7 +1890,13 @@ class ContactTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $expectedFillable = [
             'model_id',
@@ -1912,6 +1928,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $contact = new Contact;
@@ -1930,7 +1947,13 @@ class ContactTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $contact = new Contact();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -2399,6 +2422,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3276,7 +3300,13 @@ class ContactTest extends TestCase
 =======
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $this->assertNotNull($foundContact);
         $this->assertEquals($contact->id, $foundContact->id);
@@ -3834,6 +3864,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4800,4 +4831,9 @@ class ContactTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

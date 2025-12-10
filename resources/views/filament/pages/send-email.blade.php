@@ -164,6 +164,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -664,7 +665,12 @@
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 <?php
 
 declare(strict_types=1);
@@ -672,6 +678,7 @@ declare(strict_types=1);
 ?>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1472,7 +1479,12 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -1659,7 +1671,10 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> c5a0a4b2 (.)
         <x-filament-panels::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -2180,7 +2195,12 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         <x-filament-schemas::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -2193,6 +2213,7 @@ declare(strict_types=1);
         <x-filament-panels::form wire:submit="sendEmail()">
         <x-filament-schemas::form wire:submit="sendEmail()">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3306,6 +3327,11 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     </x-filament::section>
 </x-filament-panels::page>

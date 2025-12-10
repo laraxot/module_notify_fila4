@@ -139,6 +139,7 @@ use Filament\Support\Contracts\HasIcon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -467,7 +468,14 @@ use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Filament\Traits\TransTrait;
 
@@ -564,6 +572,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1024,7 +1033,12 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
  *
  * Questo enum centralizza la gestione dei driver SMS disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
@@ -1092,6 +1106,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
@@ -1225,7 +1240,16 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
+{
+    use TransTrait;
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     case SMSFACTOR = 'smsfactor';
     case TWILIO = 'twilio';
     case NEXMO = 'nexmo';
@@ -1289,6 +1313,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1568,7 +1593,12 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     case AGILETELECOM = 'agiletelecom';
 
     public function getLabel(): string
@@ -1576,6 +1606,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class, $this->value . '.label');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1991,7 +2022,12 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     public function getColor(): string
@@ -2131,6 +2167,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->transClass(self::class, $this->value.'.color');
 >>>>>>> 98d837b9 (.)
@@ -2578,7 +2615,13 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class, $this->value . '.color');
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value . '.color');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     public function getIcon(): string
@@ -2714,6 +2757,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->transClass(self::class, $this->value.'.icon');
 >>>>>>> 58816034 (.)
@@ -3141,7 +3185,13 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class, $this->value . '.icon');
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value . '.icon');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     public function getDescription(): string
@@ -3229,6 +3279,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3475,7 +3526,13 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class, $this->value . '.description');
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        return $this->transClass(self::class, $this->value . '.description');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     /**
@@ -3487,6 +3544,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
         return $this->transClass(self::class,$this->value.'.description');
         return $this->transClass(self::class, $this->value . '.description');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3752,7 +3810,14 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     *
+     * @return self
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      */
     public static function getDefault(): self
     {
@@ -3807,6 +3872,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4149,7 +4215,13 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         return self::from(is_string($default) ? $default : self::SMSFACTOR->value);
     }
 }

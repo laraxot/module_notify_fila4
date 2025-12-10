@@ -329,6 +329,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1470,7 +1471,15 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -1544,6 +1553,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1562,7 +1572,13 @@ class NotifyThemeTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $expectedFillable = [
             'id',
@@ -1598,6 +1614,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1616,7 +1633,13 @@ class NotifyThemeTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -1646,6 +1669,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1664,7 +1688,13 @@ class NotifyThemeTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $expectedAppends = ['logo'];
 
@@ -2191,6 +2221,7 @@ class NotifyThemeTest extends TestCase
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3117,4 +3148,9 @@ class NotifyThemeTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

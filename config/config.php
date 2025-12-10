@@ -184,6 +184,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -684,7 +685,12 @@ return [
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      * |--------------------------------------------------------------------------
      * | Email Layout Configuration
      * |--------------------------------------------------------------------------
@@ -700,6 +706,7 @@ return [
     // Logo URL for email headers
     'logo_url' => env('MAIL_LOGO_URL', null),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1886,7 +1893,14 @@ return [
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    // Footer text for all emails
+    //'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     // Social media links
     'social_links' => [
@@ -1897,6 +1911,7 @@ return [
     ],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2556,7 +2571,12 @@ return [
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     // Unsubscribe URL
     'unsubscribe_url' => env('MAIL_UNSUBSCRIBE_URL', null),
     /*
@@ -2573,6 +2593,7 @@ return [
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3661,7 +3682,12 @@ return [
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     // Available layouts
     'layouts' => [
         'default' => 'notify::mail-layouts.base.default',
@@ -3705,6 +3731,7 @@ return [
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4545,7 +4572,12 @@ return [
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     // Available templates
     'templates' => [
         'welcome' => 'notify::mail-layouts.templates.welcome',

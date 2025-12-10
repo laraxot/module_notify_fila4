@@ -51,6 +51,7 @@ use Filament\Schemas\Components\Component;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -159,7 +160,12 @@ use Filament\Infolists\Components\TextEntry;
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Filament\Schemas\Components\Section;
@@ -174,6 +180,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -208,7 +215,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> fbed41ac (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Modules\Notify\Filament\Resources\NotificationResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 class ViewNotification extends XotBaseViewRecord
 {
@@ -223,6 +237,7 @@ class ViewNotification extends XotBaseViewRecord
      * @return array<Component>
      * @return array<Component>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,7 +383,13 @@ class ViewNotification extends XotBaseViewRecord
 =======
      * @return array<Component>
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     * @return array<Component>
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      */
     #[Override]
     protected function getInfolistSchema(): array

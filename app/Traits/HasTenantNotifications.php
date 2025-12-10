@@ -82,6 +82,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -458,7 +459,18 @@ trait HasTenantNotifications
 =======
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     *
+     * @return MorphMany
+     */
+    public function notifications(): MorphMany
+    {
+        return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     /**
@@ -531,6 +543,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -907,7 +920,18 @@ trait HasTenantNotifications
 =======
         return $this->notifications()->whereNull('read_at');
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     *
+     * @return MorphMany
+     */
+    public function unreadNotifications(): MorphMany
+    {
+        return $this->notifications()->whereNull('read_at');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     /**
@@ -982,6 +1006,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return MorphMany
 =======
@@ -1360,7 +1385,18 @@ trait HasTenantNotifications
 =======
         return $this->notifications()->whereNotNull('read_at');
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     *
+     * @return MorphMany
+     */
+    public function readNotifications(): MorphMany
+    {
+        return $this->notifications()->whereNotNull('read_at');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     /**
@@ -1372,7 +1408,10 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> c5a0a4b2 (.)
      *
      * @param Builder $query
      * @param string|null $tenantId
@@ -1681,7 +1720,12 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      *
      * @param Builder $query
      * @param string|null $tenantId
@@ -1707,6 +1751,7 @@ trait HasTenantNotifications
     {
         $tenantId = $tenantId ?? $this->getTenantId();
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2111,7 +2156,12 @@ trait HasTenantNotifications
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -2122,6 +2172,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Ottiene l'ID del tenant corrente.
 <<<<<<< HEAD
      *
@@ -2415,7 +2466,12 @@ trait HasTenantNotifications
      * Verifica se il modello appartiene al tenant specificato.
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      * Ottiene l'ID del tenant corrente.
      *
      * @return string|null
@@ -2436,6 +2492,7 @@ trait HasTenantNotifications
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2443,7 +2500,12 @@ trait HasTenantNotifications
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      */
     public function belongsToTenant(string $tenantId): bool
     {
@@ -2464,6 +2526,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return bool
 =======
@@ -2488,7 +2551,14 @@ trait HasTenantNotifications
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     *
+     * @return bool
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      */
     public function belongsToCurrentTenant(): bool
     {
@@ -2501,6 +2571,7 @@ trait HasTenantNotifications
      *
      * @return void
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2544,7 +2615,12 @@ trait HasTenantNotifications
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      *
      * @return void
      */
@@ -2554,6 +2630,7 @@ trait HasTenantNotifications
             if (!isset($model->tenant_id)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -2775,7 +2852,12 @@ trait HasTenantNotifications
 =======
             if (!isset($model->tenant_id)) {
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 $model->tenant_id = $model->getTenantId();
             }
         });
@@ -2783,6 +2865,7 @@ trait HasTenantNotifications
         static::addGlobalScope('tenant', function (Builder $builder) {
             /** @var Model $model */
             $model = $builder->getModel();
+<<<<<<< HEAD
 <<<<<<< HEAD
             $builder->where($model->getTable().'.tenant_id', $model->getTenantId());
         });
@@ -3166,4 +3249,13 @@ trait HasTenantNotifications
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            $builder->where($model->getTable() . '.tenant_id', $model->getTenantId());
+        });
+    }
+}
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

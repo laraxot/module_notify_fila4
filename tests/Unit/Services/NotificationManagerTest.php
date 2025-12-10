@@ -151,6 +151,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> 58816034 (.)
@@ -579,7 +580,13 @@ class NotificationManagerTest extends TestCase
         $this->notificationManager = new NotificationManager();
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->notificationManager = new NotificationManager();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     protected function tearDown(): void
@@ -714,6 +721,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1015,7 +1023,13 @@ class NotificationManagerTest extends TestCase
 =======
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         app()->instance(SendNotificationAction::class, $action);
 

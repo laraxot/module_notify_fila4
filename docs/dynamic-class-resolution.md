@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,7 +83,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Risoluzione Dinamica delle Classi nei Factory Pattern
 
 Questo documento analizza l'approccio di risoluzione dinamica delle classi nei factory pattern, confrontandolo con l'approccio basato su match esplicito.
@@ -237,6 +243,7 @@ La risoluzione dinamica delle classi offre vantaggi significativi in termini di 
 <<<<<<< HEAD
 Per il sistema di notifiche di <nome progetto>, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -695,4 +702,11 @@ Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una s
 =======
 Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Per il sistema di notifiche di , l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
+Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

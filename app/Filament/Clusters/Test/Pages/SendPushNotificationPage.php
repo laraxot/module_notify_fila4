@@ -28,6 +28,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -163,7 +164,13 @@ use Filament\Schemas\Schema;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Repeater;
@@ -212,6 +219,7 @@ use Modules\User\Models\DeviceUser;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -225,7 +233,12 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> fbed41ac (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Webmozart\Assert\Assert;
 
 use function Safe\json_encode;
@@ -244,6 +257,7 @@ use function Safe\json_encode;
  * @property \Filament\Schemas\Schema $notificationForm
  */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,7 +296,15 @@ use function Safe\json_encode;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+/**
+ * @property \Filament\Schemas\Schema $notificationForm
+ */
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 class SendPushNotificationPage extends XotBasePage
 {
     // use NavigationLabelTrait;
@@ -300,6 +322,7 @@ class SendPushNotificationPage extends XotBasePage
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,7 +508,13 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    public null|array $notificationData = [];
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -508,6 +537,7 @@ class SendPushNotificationPage extends XotBasePage
     protected static null|string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -653,7 +683,13 @@ class SendPushNotificationPage extends XotBasePage
     protected static null|string $cluster = Test::class;
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     public function mount(): void
     {
@@ -665,6 +701,7 @@ class SendPushNotificationPage extends XotBasePage
     public function form(Schema $schema): Schema
     {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -792,7 +829,12 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public function notificationForm(Schema $schema): Schema
     {
         $devices = DeviceUser::with(['profile', 'device'])
@@ -859,6 +901,7 @@ class SendPushNotificationPage extends XotBasePage
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -870,7 +913,12 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -894,6 +942,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = $this->notificationForm->getState();
 =======
 <<<<<<< HEAD
@@ -910,7 +959,13 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $data = $this->notificationForm->getState();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -931,6 +986,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -954,7 +1010,12 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             return;
         }
 
@@ -1058,6 +1119,7 @@ class SendPushNotificationPage extends XotBasePage
                 
                 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,7 +1251,13 @@ class SendPushNotificationPage extends XotBasePage
                 
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -1210,6 +1278,7 @@ class SendPushNotificationPage extends XotBasePage
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1300,7 +1369,13 @@ class SendPushNotificationPage extends XotBasePage
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -1323,6 +1398,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->notificationForm->fill();
 =======
 <<<<<<< HEAD
@@ -1339,6 +1415,12 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->notificationForm->fill();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 }

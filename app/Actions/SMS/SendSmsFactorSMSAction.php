@@ -93,6 +93,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -345,12 +346,18 @@ use Override;
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9777d1b (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Override;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Exception;
 use GuzzleHttp\Client;
@@ -430,6 +437,8 @@ use Override;
 use Spatie\QueueableAction\QueueableAction;
 use Spatie\QueueableAction\QueueableAction;
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -933,7 +942,18 @@ use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\SmsFactorData;
+use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 final class SendSmsFactorSMSAction implements SmsActionContract
 {
     use QueueableAction;
@@ -949,6 +969,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var SmsFactorData */
 =======
 <<<<<<< HEAD
@@ -1017,7 +1038,14 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     private SmsFactorData $smsFactorData;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    /** @var SmsFactorData */
+    private SmsFactorData $smsFactorData;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     /** @var array<string, mixed> */
     private array $vars = [];
@@ -1030,6 +1058,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var bool */
 =======
 <<<<<<< HEAD
@@ -1205,7 +1234,12 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     /** @var bool */
     protected bool $debug;
 
@@ -1280,6 +1314,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1548,7 +1583,13 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     /**
      * Create a new action instance.
      */
@@ -1670,6 +1711,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2054,7 +2096,14 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         if (!$this->smsFactorData->token) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+        if (!$this->smsFactorData->token) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             throw new Exception('Token SMSFactor non configurato in sms.php');
         }
 
@@ -2066,6 +2115,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         $this->debug = (bool) config('sms.debug', false);
         $this->debug = (bool) config('sms.debug', false);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2084,7 +2134,13 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         $this->debug = (bool) config('sms.debug', false);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->debug = (bool) config('sms.debug', false);
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     /**
@@ -2097,6 +2153,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
      * @return array Risultato dell'operazione
      *
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2494,7 +2551,12 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
@@ -2556,6 +2618,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
     #[Override]
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -2581,7 +2644,12 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();
@@ -2596,6 +2664,9 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 7624f916 (.)
@@ -2605,9 +2676,12 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         if (!Str::startsWith($to, '+')) {
             $to = '+39' . $to;
 <<<<<<< HEAD
+<<<<<<< HEAD
             $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
             $to = $to !== '' ? '+'.substr($to, 2) : $to;
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2651,7 +2725,12 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         }
 
         $body = [
@@ -2758,6 +2837,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3014,7 +3094,12 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'headers' => $headers,
         ]);
 
@@ -3033,6 +3118,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
             $response = $client->post($this->smsFactorData->getBaseUrl().'/messages', ['json' => $body]);
             $response = $client->post($this->smsFactorData->getBaseUrl() . '/messages', ['json' => $body]);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $response = $client->post($this->smsFactorData->getBaseUrl() . '/messages', ['json' => $body]);
@@ -3050,7 +3136,13 @@ final class SendSmsFactorSMSAction implements SmsActionContract
             $response = $client->post($this->smsFactorData->getBaseUrl() . '/messages', ['json' => $body]);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            $response = $client->post($this->smsFactorData->getBaseUrl() . '/messages', ['json' => $body]);
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             $this->vars['status_code'] = $response->getStatusCode();
             $this->vars['status_txt'] = $response->getBody()->getContents();
 
@@ -3124,6 +3216,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 =======
 <<<<<<< HEAD
@@ -3500,7 +3593,15 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
                 $clientException,
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $clientException->getCode(),
+                $clientException,
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             );
         }
     }

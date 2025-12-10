@@ -48,6 +48,7 @@ use Filament\Schemas\Components\Utilities\Set;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -170,7 +171,13 @@ use Override;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Override;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
@@ -184,6 +191,7 @@ use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
 use Override;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -293,10 +301,16 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Lang\Filament\Resources\LangBaseResource;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 75179b85 (.)
 
 class MailTemplateResource extends LangBaseResource
 {
     protected static null|string $model = MailTemplate::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,7 +669,12 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -674,6 +693,7 @@ class MailTemplateResource extends LangBaseResource
     {
         return [
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -769,12 +789,21 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     #[Override]
     public static function getFormSchema(): array
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 7624f916 (.)
@@ -786,6 +815,7 @@ class MailTemplateResource extends LangBaseResource
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
             'name_group' => Group::make()
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -825,7 +855,12 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 ->schema([
                     TextInput::make('name')
                         ->label('Nome Template')
@@ -851,6 +886,7 @@ class MailTemplateResource extends LangBaseResource
                         //->reactive()
                         ->afterStateUpdated(function (string $state, Set $set) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -912,7 +948,15 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                        //->live(debounce: 200)
+                        //->reactive()
+                        ->afterStateUpdated(function (string $state, Set $set) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -923,6 +967,7 @@ class MailTemplateResource extends LangBaseResource
                 ->columns(2),
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1110,7 +1155,12 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             //->columnSpan('full'),
 
             'subject' => TextInput::make('subject')->required()->maxLength(255),
@@ -1120,6 +1170,7 @@ class MailTemplateResource extends LangBaseResource
                 ->columnSpanFull()
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1576,7 +1627,15 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                ->visible(fn($record): bool => !empty($record->params)),
+            'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
+            'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         ];
     }
 }

@@ -139,6 +139,7 @@ use Modules\Notify\Models\NotificationType;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -568,7 +569,14 @@ use Modules\Notify\Models\NotificationType;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Modules\Notify\Helpers\ConfigHelper;
+use Modules\Notify\Models\NotificationType;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 describe('Notification Type Business Logic', function () {
     it('can create notification type with basic information', function () {
@@ -636,6 +644,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -804,7 +813,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->name)
             ->toBe('Appointment Reminder')
             ->and($type->slug)
@@ -817,6 +831,7 @@ describe('Notification Type Business Logic', function () {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1183,7 +1198,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
@@ -1278,6 +1298,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1446,7 +1467,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->channels['email']['enabled'])
             ->toBeTrue()
             ->and($type->fresh()->channels['email']['priority'])
@@ -1461,6 +1487,7 @@ describe('Notification Type Business Logic', function () {
             ->toBeFalse();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1828,7 +1855,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type settings', function () {
@@ -1907,6 +1939,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2075,7 +2108,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->settings['retry_attempts'])
             ->toBe(3)
             ->and($type->fresh()->settings['retry_delay'])
@@ -2096,6 +2134,7 @@ describe('Notification Type Business Logic', function () {
             ->toBeFalse();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2466,7 +2505,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type templates', function () {
@@ -2568,6 +2612,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fbed41ac (.)
@@ -2859,7 +2904,12 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 'message' =>
 
                         'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
@@ -2943,6 +2993,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3263,7 +3314,12 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 'variables' => ['appointment_date', 'appointment_time'],
                 'max_length' => 160,
             ],
@@ -3336,6 +3392,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3504,7 +3561,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->templates['email']['subject'])
             ->toBe('Promemoria Appuntamento - {{appointment_date}}')
             ->and($type->fresh()->templates['email']['variables'])
@@ -3522,6 +3584,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3555,7 +3618,13 @@ describe('Notification Type Business Logic', function () {
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 config('app.name', 'Our Platform'))
             ->and($type->fresh()->templates['sms']['max_length'])
             ->toBe(160)
@@ -3563,6 +3632,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('Promemoria Appuntamento');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3930,7 +4000,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type rules', function () {
@@ -4022,6 +4097,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4190,7 +4266,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->rules['frequency']['max_per_day'])
             ->toBe(3)
             ->and($type->fresh()->rules['frequency']['max_per_week'])
@@ -4209,6 +4290,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('Y-m-d');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4578,7 +4660,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type permissions', function () {
@@ -4655,6 +4742,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4823,7 +4911,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->permissions['roles'])
             ->toContain('admin')
             ->and($type->fresh()->permissions['roles'])
@@ -4840,6 +4933,7 @@ describe('Notification Type Business Logic', function () {
             ->toContain('business_hours_only');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5208,7 +5302,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type metrics', function () {
@@ -5289,6 +5388,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5457,7 +5557,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->metrics['delivery_rate'])
             ->toBe(98.5)
             ->and($type->fresh()->metrics['open_rate'])
@@ -5478,6 +5583,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe(2.5);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5848,7 +5954,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type scheduling', function () {
@@ -5939,6 +6050,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -6107,7 +6219,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->scheduling['scheduling_enabled'])
             ->toBeTrue()
             ->and($type->fresh()->scheduling['timezone_aware'])
@@ -6128,6 +6245,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('09:00');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6498,7 +6616,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type integrations', function () {
@@ -6524,6 +6647,7 @@ describe('Notification Type Business Logic', function () {
                 'bounce_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-bounced',
                 'click_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-clicked',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6873,7 +6997,12 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 'delivery_webhook' =>
                     'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered',
                 'bounce_webhook' =>
@@ -6967,6 +7096,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 58816034 (.)
@@ -7365,7 +7495,12 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             ],
             'api_endpoints' => [
                 'send' => 'POST /api/v1/notifications/send',
@@ -7440,6 +7575,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -7608,7 +7744,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->integrations['external_services']['email_provider'])
             ->toBe('SendGrid')
             ->and($type->fresh()->integrations['external_services']['sms_provider'])
@@ -7626,6 +7767,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered')
             ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7659,13 +7801,20 @@ describe('Notification Type Business Logic', function () {
             ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             ->and($type->fresh()->integrations['api_endpoints']['send'])
             ->toBe('POST /api/v1/notifications/send')
             ->and($type->fresh()->integrations['third_party']['crm_integration'])
             ->toBe('Salesforce');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8033,7 +8182,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can search notification types by category', function () {
@@ -8098,6 +8252,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -8266,7 +8421,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($healthcareTypes)
             ->toHaveCount(1)
             ->and($marketingTypes)
@@ -8277,6 +8437,7 @@ describe('Notification Type Business Logic', function () {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8642,7 +8803,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can search notification types by status', function () {
@@ -8706,6 +8872,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -8874,7 +9041,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($activeTypes)
             ->toHaveCount(1)
             ->and($inactiveTypes)
@@ -8885,6 +9057,7 @@ describe('Notification Type Business Logic', function () {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9250,13 +9423,19 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can search notification types by channel enabled', function () {
         $emailType = NotificationType::factory()->create([
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9472,13 +9651,19 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'channels' => ['email' => ['enabled' => true], 'sms' => ['enabled' => false]],
         ]);
         $smsType = NotificationType::factory()->create([
             'channels' => ['email' => ['enabled' => false], 'sms' => ['enabled' => true]],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9850,7 +10035,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         ]);
 
         $emailTypes = NotificationType::whereJsonContains('channels->email->enabled', true)->get();
@@ -9910,6 +10100,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -10078,7 +10269,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($emailTypes)
             ->toHaveCount(1)
             ->and($smsTypes)
@@ -10089,6 +10285,7 @@ describe('Notification Type Business Logic', function () {
             ->toBeTrue();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10454,7 +10651,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type archiving', function () {
@@ -10530,6 +10732,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -10698,7 +10901,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($type->fresh()->is_active)
             ->toBeFalse()
             ->and($type->fresh()->archived_at)
@@ -10708,6 +10916,7 @@ describe('Notification Type Business Logic', function () {
             )->and($type->fresh()->replacement_type_id)->toBe(15);
             )->and($type->fresh()->replacement_type_id)->toBe(15);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11114,7 +11323,13 @@ describe('Notification Type Business Logic', function () {
 =======
             )->and($type->fresh()->replacement_type_id)->toBe(15);
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            )->and($type->fresh()->replacement_type_id)->toBe(15);
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 
     it('can manage notification type duplication', function () {
@@ -11191,6 +11406,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -11359,7 +11575,12 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         expect($originalType->id)
             ->not
             ->toBe($duplicateType->id)
@@ -11371,6 +11592,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('1.0.1');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11736,6 +11958,11 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     });
 });

@@ -13,6 +13,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,13 +456,19 @@ class PlivoData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -634,7 +641,12 @@ use Spatie\LaravelData\Data;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Webmozart\Assert\Assert;
 
 class PlivoData extends Data
@@ -659,6 +671,7 @@ class PlivoData extends Data
              * $data = Arr::get($data, 'drivers.plivo', []);
              */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -849,7 +862,15 @@ class PlivoData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.plivo', []);
+             */
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             $data = Config::array('sms.drivers.plivo');
             self::$instance = self::from($data);
         }
@@ -934,6 +955,7 @@ class PlivoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1386,7 +1408,14 @@ class PlivoData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->auth_id . ':' . $this->auth_token),
+                    'Content-Type' => 'application/json',
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 ];
         }
     }

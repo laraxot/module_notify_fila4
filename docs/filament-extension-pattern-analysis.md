@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,7 +83,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore
@@ -194,6 +200,7 @@ Il progetto <nome progetto> utilizza un'architettura a strati per i componenti F
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto> utilizza un'architettura a strati per i componenti Filament:
 =======
 Il progetto  utilizza un'architettura a strati per i componenti Filament:
@@ -554,7 +561,14 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 =======
 Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Il progetto  utilizza un'architettura a strati per i componenti Filament:
+Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ```
 Filament Core Classes (vendor)
@@ -661,6 +675,7 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome progetto>:
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto :
@@ -1021,7 +1036,14 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto :
+Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 - Gestione multilingua
 - Integrazione con il sistema di permessi
 - Logging e auditing
@@ -1176,6 +1198,7 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di <nome progetto>. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
@@ -1544,4 +1567,11 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

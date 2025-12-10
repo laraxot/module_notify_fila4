@@ -180,6 +180,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -683,7 +684,14 @@ return new class extends XotBaseMigration
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     /**
      * Run the migrations.
@@ -745,6 +753,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -913,7 +922,12 @@ return new class extends XotBaseMigration
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -933,6 +947,7 @@ return new class extends XotBaseMigration
             if (! $this->hasColumn('token')) {
             if (!$this->hasColumn('token')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -966,7 +981,13 @@ return new class extends XotBaseMigration
             if (!$this->hasColumn('token')) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            if (!$this->hasColumn('token')) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 $table->string('token')->nullable();
             }
             $this->updateTimestamps(
@@ -976,6 +997,7 @@ return new class extends XotBaseMigration
         });
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1363,6 +1385,11 @@ return new class extends XotBaseMigration
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 };

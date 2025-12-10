@@ -11,6 +11,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b8 (.)
@@ -22,7 +23,13 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Kreait\Firebase\Messaging\Message;
 
 /**
@@ -177,6 +184,7 @@ interface MobilePushNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public function toArray(?object $notifiable): array;
 >>>>>>> 58816034 (.)
@@ -605,5 +613,11 @@ interface MobilePushNotification
     public function toArray(null|object $notifiable): array;
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    public function toArray(null|object $notifiable): array;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 }

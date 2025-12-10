@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -175,7 +176,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # ContactColumn - Implementazione DRY/KISS Centralizzata
 
 ## 🎯 Obiettivo
@@ -289,6 +295,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
 =======
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
@@ -695,7 +702,13 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 =======
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](./contact-column-icon-issue-analysis.md)
 - 🛠️ **Soluzione**: Sostituire `@svg()` con `<x-filament::icon>`
 - ⚡ **Priorità**: ALTA (Funzionalità core non funzionante)
@@ -812,6 +825,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
@@ -1218,7 +1232,13 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ## 🏗️ Architettura della Soluzione
 
@@ -1622,6 +1642,7 @@ public function table(Table $table): Table
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 >>>>>>> 5fd545e4 (.)
@@ -1802,4 +1823,10 @@ public function table(Table $table): Table
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

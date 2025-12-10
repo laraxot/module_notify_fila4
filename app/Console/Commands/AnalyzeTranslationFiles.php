@@ -15,6 +15,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 75179b85 (.)
@@ -26,7 +27,12 @@ use Webmozart\Assert\Assert;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 class AnalyzeTranslationFiles extends Command
 {
@@ -72,7 +78,10 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> c5a0a4b2 (.)
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
@@ -148,7 +157,14 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -161,6 +177,7 @@ class AnalyzeTranslationFiles extends Command
                 if (! str_ends_with($filename, '.php')) {
                 if (!str_ends_with($filename, '.php')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,7 +200,13 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                     continue;
                 }
 
@@ -202,6 +225,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -225,7 +249,14 @@ class AnalyzeTranslationFiles extends Command
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                     continue;
                 }
 
@@ -239,6 +270,7 @@ class AnalyzeTranslationFiles extends Command
                 foreach (array_keys($this->flattenArray($translations)) as $key) {
                 foreach (array_keys($this->flattenArray($translations)) as $key) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,7 +291,13 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                     $allKeys[$key] = true;
                 }
             }
@@ -322,6 +360,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
@@ -364,11 +403,14 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7624f916 (.)
 =======
+=======
+>>>>>>> 75179b85 (.)
             $topLevelKeys = [];
 
             foreach (array_keys($keys) as $key) {
                 $parts = explode('.', (string) $key);
                 $topLevelKeys[$parts[0]] = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
@@ -389,6 +431,13 @@ class AnalyzeTranslationFiles extends Command
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             }
 
             $pattern = implode(',', array_keys($topLevelKeys));
@@ -401,6 +450,7 @@ class AnalyzeTranslationFiles extends Command
         $this->info('Found '.count($patterns).' different structure patterns:');
         $this->info('Found ' . count($patterns) . ' different structure patterns:');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,7 +473,13 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Pattern', 'Files']);
@@ -460,6 +516,7 @@ class AnalyzeTranslationFiles extends Command
             $row = [$key];
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,7 +591,12 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             $row = [$key];
 
             foreach (array_keys($allFiles) as $file) {
@@ -551,6 +613,7 @@ class AnalyzeTranslationFiles extends Command
                 $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
 >>>>>>> 5d933abf (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,7 +636,12 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             }
 
             $table->addRow($row);
@@ -668,6 +736,7 @@ class AnalyzeTranslationFiles extends Command
             if (str_contains($file, '/send_')) {
             if (str_contains($file, '/send_')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1196,7 +1265,13 @@ class AnalyzeTranslationFiles extends Command
 =======
             if (str_contains($file, '/send_')) {
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
@@ -1213,6 +1288,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $this->info('Files with send_ prefix ('.count($sendFiles).'):');
@@ -1231,7 +1307,13 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         foreach ($sendFiles as $file) {
             $this->line(" - {$file}");
         }
@@ -1246,6 +1328,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $this->info('Resource files ('.count($resourceFiles).'):');
@@ -1264,7 +1347,13 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         foreach ($resourceFiles as $file) {
             $this->line(" - {$file}");
         }
@@ -1306,6 +1395,7 @@ class AnalyzeTranslationFiles extends Command
                 if (strpos((string) $key, 'navigation.') === 0) {
                 if (str_starts_with((string) $key, 'navigation.')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1656,7 +1746,14 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            $navigationKeys = [];
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
@@ -1668,6 +1765,7 @@ class AnalyzeTranslationFiles extends Command
             if (! empty($navigationKeys)) {
             if (!empty($navigationKeys)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!empty($navigationKeys)) {
@@ -1686,7 +1784,13 @@ class AnalyzeTranslationFiles extends Command
             if (!empty($navigationKeys)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 sort($navigationKeys);
                 $structure = implode(',', $navigationKeys);
                 $navigationStructures[$structure][] = $file;
@@ -1703,6 +1807,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $this->info('Found '.count($navigationStructures).' different navigation structures:');
@@ -1721,7 +1826,13 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Structure', 'Files']);

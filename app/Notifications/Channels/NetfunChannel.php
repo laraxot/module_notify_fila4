@@ -37,6 +37,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Eseguiamo l'action - restituisce sempre un array
         /** @var array<string, mixed> $data */
         $data = $netfunSendAction->execute($smsData);
@@ -737,7 +738,18 @@ class NetfunChannel
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        // Eseguiamo l'action e verifichiamo che il risultato sia un array
+        $data = $netfunSendAction->execute($smsData);
+        Assert::isArray($data, 'Il risultato di NetfunSendAction deve essere un array');
+
+        // Incrementiamo il contatore SMS
+        $notifiable->increase('sms', $data);
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         /*
          * $data['sms_sent_at'] = now();
@@ -746,6 +758,7 @@ class NetfunChannel
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1876,6 +1889,11 @@ class NetfunChannel
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 }

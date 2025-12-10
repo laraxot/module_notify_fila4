@@ -385,6 +385,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1644,7 +1645,15 @@ declare(strict_types=1);
 
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1661,6 +1670,7 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
     ->ignoreVCS(true)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1694,7 +1704,13 @@ $finder = PhpCsFixer\Finder::create()
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    ->ignoreVCS(true)
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -1749,6 +1765,7 @@ return $config;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1787,4 +1804,12 @@ return $config;
 
 return $config;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

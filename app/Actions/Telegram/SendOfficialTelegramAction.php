@@ -73,6 +73,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -253,7 +254,13 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -263,6 +270,7 @@ use Modules\Notify\Datas\TelegramData;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Notify\Datas\TelegramData;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -614,7 +622,12 @@ use function Safe\json_encode;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Modules\Notify\Datas\TelegramData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -622,6 +635,7 @@ use function Safe\json_decode;
 <<<<<<< HEAD
 use function Safe\json_encode;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,7 +938,13 @@ use function Safe\json_encode;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use function Safe\json_encode;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 final class SendOfficialTelegramAction
 {
@@ -955,6 +975,7 @@ final class SendOfficialTelegramAction
 
     private string $token;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1046,7 +1067,12 @@ final class SendOfficialTelegramAction
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     private string $token;
     private string $apiUrl;
     private array $vars = [];
@@ -1057,6 +1083,7 @@ final class SendOfficialTelegramAction
     protected ?string $parseMode;
     protected null|string $parseMode;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1473,7 +1500,12 @@ final class SendOfficialTelegramAction
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     /**
      * Create a new action instance.
@@ -1505,6 +1537,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (! is_string($token)) {
 =======
         if (!is_string($token)) {
@@ -1545,7 +1578,13 @@ final class SendOfficialTelegramAction
         if (!is_string($token)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             throw new Exception('put [TELEGRAM_BOT_TOKEN] variable to your .env and config [services.telegram.token]');
         }
         $this->token = $token;
@@ -1691,6 +1730,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2016,7 +2056,14 @@ final class SendOfficialTelegramAction
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('telegram.timeout'), 30);
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $this->timeout = app(SafeIntCastAction::class)
+            ->execute(config('telegram.timeout'), 30);
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 
     /**
@@ -2041,6 +2088,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param TelegramData $telegramData I dati del messaggio Telegram
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2091,7 +2139,14 @@ final class SendOfficialTelegramAction
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+     * @param TelegramData $telegramData I dati del messaggio Telegram
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -2187,6 +2242,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2352,11 +2408,18 @@ final class SendOfficialTelegramAction
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'base_uri' => $this->apiUrl,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         
@@ -2394,6 +2457,8 @@ final class SendOfficialTelegramAction
 
 
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 =======
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -2898,7 +2963,13 @@ final class SendOfficialTelegramAction
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
             'photo' => "/bot{$this->token}/sendPhoto",
@@ -3013,6 +3084,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3300,7 +3372,13 @@ final class SendOfficialTelegramAction
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         // Prepara il payload in base al tipo di messaggio
         $payload = [
             'chat_id' => $telegramData->chatId,
@@ -3363,6 +3441,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3523,7 +3602,12 @@ final class SendOfficialTelegramAction
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -3537,6 +3621,7 @@ final class SendOfficialTelegramAction
         
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3903,7 +3988,12 @@ final class SendOfficialTelegramAction
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         // Aggiungi parametri specifici per il tipo di messaggio
         if ($telegramData->type === 'text') {
             $payload['text'] = $telegramData->text;
@@ -3922,6 +4012,7 @@ final class SendOfficialTelegramAction
         ) {
         } elseif (in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation']) && !empty($telegramData->media)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4223,7 +4314,12 @@ final class SendOfficialTelegramAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
                 !empty($telegramData->media)
@@ -4246,6 +4342,7 @@ final class SendOfficialTelegramAction
         } elseif (in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation']) && !empty($telegramData->media)) {
         } elseif (in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation']) && !empty($telegramData->media)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4480,7 +4577,12 @@ final class SendOfficialTelegramAction
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
             $payload['caption'] = $telegramData->text;
@@ -4591,6 +4693,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4878,7 +4981,13 @@ final class SendOfficialTelegramAction
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
@@ -4915,6 +5024,7 @@ final class SendOfficialTelegramAction
 
             
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5570,7 +5680,12 @@ final class SendOfficialTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -5580,6 +5695,7 @@ final class SendOfficialTelegramAction
 
             
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5638,11 +5754,18 @@ final class SendOfficialTelegramAction
 =======
             
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -5650,6 +5773,8 @@ final class SendOfficialTelegramAction
             
             
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 =======
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -6059,7 +6184,13 @@ final class SendOfficialTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             Log::info('Telegram inviato con successo', [
                 'chat_id' => $telegramData->chatId,
                 'response_code' => $statusCode,
@@ -6110,6 +6241,7 @@ final class SendOfficialTelegramAction
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6177,7 +6309,15 @@ final class SendOfficialTelegramAction
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            return [
+                'success' => $responseData['ok'] ?? false,
+                'message_id' => $responseData['result']['message_id'] ?? null,
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -6215,6 +6355,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseBody */
 =======
             /** @var array $responseBody */
@@ -6402,11 +6543,20 @@ final class SendOfficialTelegramAction
             
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
             
@@ -6436,6 +6586,8 @@ final class SendOfficialTelegramAction
 
 
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 =======
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -6934,7 +7086,13 @@ final class SendOfficialTelegramAction
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             Log::warning('Errore invio Telegram', [
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
@@ -7045,6 +7203,7 @@ final class SendOfficialTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7332,7 +7491,13 @@ final class SendOfficialTelegramAction
 =======
 
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             return [
                 'success' => false,
                 'error' => $responseBody['description'] ?? 'Errore sconosciuto',

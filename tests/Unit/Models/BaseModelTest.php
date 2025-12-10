@@ -42,6 +42,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -130,7 +131,12 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
 use Tests\TestCase;
@@ -141,6 +147,7 @@ beforeEach(function () {
 <<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -642,7 +649,13 @@ beforeEach(function () {
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         protected $table = 'test_notify_table';
     };
 });

@@ -92,6 +92,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -1005,7 +1006,12 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 1fd232c (.)
 >>>>>>> d298dd9c2 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
@@ -1025,6 +1031,7 @@ test('html template contains optional function', function (): void {
     // Verifico che contiene la funzione optional per subject
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1110,7 +1117,12 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 08fd62d (.)
 >>>>>>> 4cb1607 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
 
@@ -1121,6 +1133,7 @@ test('html template contains optional function', function (): void {
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1354,7 +1367,12 @@ test('html template contains optional function', function (): void {
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> d298dd9c2 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
@@ -1363,6 +1381,7 @@ test('html template contains optional function', function (): void {
     expect($content)->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
     expect($content)->toContain('optional($email_data)->body_html', 'Il template html.blade.php non utilizza optional() per body_html');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2788,7 +2807,12 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> d298dd9c2 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -2798,12 +2822,20 @@ test('sunny template contains optional function', function (): void {
     // Verifico che il file esiste
     expect(File::exists($filePath))->toBeTrue('Il file sunny.blade.php non esiste');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 <<<<<<< HEAD
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     // Leggo il contenuto del file
     $content = File::get($filePath);
@@ -2817,6 +2849,7 @@ test('sunny template contains optional function', function (): void {
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 });
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3124,7 +3157,12 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     expect($content)
         ->toContain(
             'optional($_theme)->cssInLine',
@@ -3137,6 +3175,7 @@ test('ark template contains optional function', function (): void {
 });
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3515,7 +3554,12 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 });
 
 test('ark template contains optional function', function (): void {
@@ -3525,12 +3569,20 @@ test('ark template contains optional function', function (): void {
     // Verifico che il file esiste
     expect(File::exists($filePath))->toBeTrue('Il file ark.blade.php non esiste');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c5a0a4b2 (.)
 <<<<<<< HEAD
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     // Leggo il contenuto del file
     $content = File::get($filePath);
@@ -3567,6 +3619,7 @@ test('ark template contains optional function', function (): void {
     expect($content)->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 });
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4434,4 +4487,12 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> d298dd9c2 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    expect($content)
+        ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
+});
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

@@ -17,6 +17,7 @@ use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -47,7 +48,12 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
@@ -56,6 +62,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,7 +880,13 @@ use Illuminate\Support\Carbon;
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -943,6 +956,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -1129,7 +1143,12 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -1163,6 +1182,7 @@ use Illuminate\Support\Carbon;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1170,7 +1190,12 @@ use Illuminate\Support\Carbon;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
  * @method static Builder|Contact whereAttribute1($value)
  * @method static Builder|Contact whereAttribute10($value)
  * @method static Builder|Contact whereAttribute11($value)
@@ -1206,6 +1231,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *
@@ -1233,7 +1259,14 @@ use Illuminate\Support\Carbon;
  * @property ProfileContract|null $updater
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property Carbon|null $deleted_at
@@ -1259,6 +1292,7 @@ use Illuminate\Support\Carbon;
  *
  * @mixin IdeHelperContact
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1643,7 +1677,17 @@ use Illuminate\Support\Carbon;
  */
 >>>>>>> 6e550ff (.)
 >>>>>>> e00d798d (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ * @mixin IdeHelperContact
+ * @mixin \Eloquent
+ */
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 class Contact extends BaseModel
 {
     /** @var list<string> */
@@ -1702,6 +1746,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1870,7 +1915,12 @@ class Contact extends BaseModel
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         'model_id',
         'model_type',
         'contact_type',
@@ -1893,6 +1943,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @return array<string, string> */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2370,7 +2421,14 @@ class Contact extends BaseModel
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    /** @return array<string, string> */
+    #[Override]
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     protected function casts(): array
     {
         return [
@@ -2442,6 +2500,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3011,7 +3070,15 @@ class Contact extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',

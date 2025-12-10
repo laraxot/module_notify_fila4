@@ -14,6 +14,7 @@ use Modules\Notify\Datas\SmtpData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 =======
@@ -24,7 +25,12 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Datas\EmailData;
@@ -35,13 +41,19 @@ use Modules\Notify\Notifications\EmailDataNotification;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Webmozart\Assert\Assert;
 
 class SendMailCommand extends Command
@@ -137,6 +149,7 @@ class SendMailCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -418,7 +431,12 @@ class SendMailCommand extends Command
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
          * Notification::route('mail', $emailData->to)
          * ->notify(new EmailDataNotification($emailData));
          */
@@ -427,6 +445,7 @@ class SendMailCommand extends Command
         $this->info('Email sent successfully to ' . $emailData->to);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -860,7 +879,12 @@ class SendMailCommand extends Command
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         return Command::SUCCESS;
     }

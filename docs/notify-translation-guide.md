@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,7 +83,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Guida alle Traduzioni nel Modulo Notify
 
 ## Introduzione
@@ -90,6 +96,7 @@
 <<<<<<< HEAD
 Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di <nome progetto>. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di <nome progetto>.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -540,7 +547,14 @@ Questo documento fornisce una guida completa e dettagliata per la gestione delle
 =======
 Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di SaluteOra. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di SaluteOra.
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di . Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di .
+Questo documento fornisce una guida completa e dettagliata per la gestione delle traduzioni nel modulo Notify di SaluteOra. Il modulo Notify segue convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali di SaluteOra.
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ## Struttura dei File di Traduzione
 
@@ -771,6 +785,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di <nome progetto>. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
 =======
 È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di . Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
@@ -1131,7 +1146,14 @@ return [
 =======
 È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di SaluteOra. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di . Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
+È importante notare che questa struttura rappresenta un'eccezione documentata alle convenzioni generali di SaluteOra. Mentre le convenzioni generali (descritte in `Modules/Lang/docs/TRANSLATION_KEYS_RULES.md`) prevedono una struttura gerarchica espansa senza chiavi come `.navigation`, il modulo Notify utilizza intenzionalmente questa struttura specifica.
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ### Motivazione dell'Eccezione
 
@@ -1167,6 +1189,7 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 - [Standard per le Traduzioni ](./TRANSLATION_STANDARDS.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1253,4 +1276,9 @@ Questo comando verificherà che tutte le chiavi di traduzione necessarie siano p
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

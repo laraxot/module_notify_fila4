@@ -20,6 +20,7 @@ use Modules\Xot\Models\XotBasePivot;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBasePivot;
 =======
 use Illuminate\Database\Eloquent\Relations\Pivot;
@@ -110,7 +111,41 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Illuminate\Database\Eloquent\Relations\Pivot;
+// //use Laravel\Scout\Searchable;
+use Modules\Xot\Traits\Updater;
+
+/**
+ * Class BasePivot.
+ */
+abstract class BasePivot extends Pivot
+{
+    use Updater;
+
+    /**
+     * Indicates whether attributes are snake cased on arrays.
+     *
+     * @see https://laravel-news.com/6-eloquent-secrets
+     *
+     * @var bool
+     */
+    public static $snakeAttributes = true;
+
+    /** @var bool */
+    public $incrementing = true;
+
+    /** @var int */
+    protected $perPage = 30;
+
+    // use Searchable;
+    /** @var string */
+    protected $connection = 'notify';
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     // this will use the specified database connection
 
@@ -140,6 +175,7 @@ abstract class BasePivot extends XotBasePivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1598,7 +1634,15 @@ abstract class BasePivot extends XotBasePivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -1606,6 +1650,7 @@ abstract class BasePivot extends XotBasePivot
     }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1637,5 +1682,10 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> a335025b (rebase 210)
 =======
 >>>>>>> e00d798d (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 }

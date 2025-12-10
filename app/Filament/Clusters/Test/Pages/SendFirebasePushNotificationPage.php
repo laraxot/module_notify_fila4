@@ -14,6 +14,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -58,7 +59,12 @@ use Filament\Forms\Components\Toggle;
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
@@ -74,6 +80,7 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,7 +104,12 @@ use Filament\Forms\Contracts\HasForms;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Filament\Notifications\Notification as FilamentNotification;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -117,6 +129,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 {
     public ?array $pushData = [];
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,7 +179,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
@@ -177,6 +195,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     public null|array $pushData = [];
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -209,7 +228,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-bell-alert';
 
@@ -222,6 +246,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     protected static null|string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,7 +272,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
     public function mount(): void
     {
@@ -272,6 +303,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->pushForm->fill();
 =======
 <<<<<<< HEAD
@@ -283,7 +315,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
         // Form data filled;
 =======
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
         $this->pushForm->fill();
     }
 
@@ -321,6 +358,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
         return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
 =======
         return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -589,6 +627,10 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+    }
+
+>>>>>>> 75179b85 (.)
     public function getPushFormSchema(): array
     {
         return [
@@ -609,6 +651,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->url()
                 ->helperText(__('notify::push.form.image_url.helper')),
             Select::make('notification_type')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,7 +761,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
             Select::make('notification_type')
 >>>>>>> e00d798d (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 ->label(__('notify::push.form.notification_type.label'))
                 ->options([
                     'message' => 'Message',
@@ -733,6 +781,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,7 +857,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             Toggle::make('high_priority')
                 ->label(__('notify::push.form.high_priority.label'))
                 ->default(false)
@@ -816,6 +870,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
             KeyValue::make('custom_data')
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -967,7 +1022,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->helperText(__('notify::push.form.high_priority.helper')),
             KeyValue::make('custom_data')
 >>>>>>> e00d798d (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
                 ->label(__('notify::push.form.custom_data.label'))
                 ->keyLabel(__('notify::push.form.custom_data.key_label'))
                 ->valueLabel(__('notify::push.form.custom_data.value_label'))
@@ -988,6 +1048,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 
         
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1073,7 +1134,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9777d1b (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $data = $this->pushForm->getState();
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
         try {
             // Creare i dati della notifica Firebase
@@ -1158,6 +1225,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 =======
@@ -1230,7 +1298,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
     #[Override]
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
@@ -1244,6 +1318,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1323,7 +1398,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

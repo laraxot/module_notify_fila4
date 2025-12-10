@@ -89,6 +89,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -569,7 +570,12 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Tests\TestCase;
@@ -608,6 +614,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Notify\Tests\TestCase;
 <<<<<<< HEAD
@@ -617,7 +624,12 @@ use Modules\Notify\Tests\TestCase;
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -643,6 +655,7 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1354,7 +1367,12 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 function createNotification(array $attributes = []): Notification
 {

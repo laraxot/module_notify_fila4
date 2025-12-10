@@ -26,6 +26,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // use Illuminate\Support\Facades\Notification;
 <<<<<<< HEAD
@@ -198,7 +199,14 @@ use Override;
 use Override;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+// use Illuminate\Support\Facades\Notification;
+use Override;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -211,6 +219,7 @@ use Override;
 use Webmozart\Assert\Assert;
 use Override;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,7 +629,13 @@ use Webmozart\Assert\Assert;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Webmozart\Assert\Assert;
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -681,6 +696,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         parent::boot();
         // if (! app()->environment('production')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,7 +1205,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     #[Override]
     public function boot(): void
     {
@@ -1204,6 +1225,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         //if (! app()->environment('production')) {
     #[\Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1793,6 +1815,19 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+        $mail = TenantService::config('mail');
+        Assert::isArray($mail);
+        $fallback_to = Arr::get($mail, 'fallback_to', null);
+        if (is_string($fallback_to)) {
+            Mail::alwaysTo($fallback_to);
+        }
+
+        // }
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     }
 }

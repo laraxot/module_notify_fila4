@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -151,7 +152,12 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Integrazione Traduzioni Email - il progetto
 
 ## Panoramica
@@ -336,6 +342,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,7 +592,13 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -857,6 +870,7 @@ class TranslationValidator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Localization](https://laravel.com/project_docs/localization)
 >>>>>>> 75179b85 (.)
@@ -1189,4 +1203,13 @@ class TranslationValidator
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 - [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

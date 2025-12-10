@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -79,7 +80,12 @@
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -135,6 +141,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,7 +439,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 
 ## Sottocartelle
 
@@ -445,6 +457,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -532,7 +545,12 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -557,6 +575,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -924,4 +943,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)

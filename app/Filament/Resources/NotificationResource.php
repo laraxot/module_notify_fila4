@@ -141,6 +141,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -826,7 +827,15 @@ declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 namespace Modules\Notify\Filament\Resources;
 
 use Override;
@@ -851,6 +860,7 @@ class NotificationResource extends XotBaseResource
             'type' => TextInput::make('type')->required()->label('Notification Type'),
             'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1879,7 +1889,14 @@ class NotificationResource extends XotBaseResource
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+            'type' => TextInput::make('type')->required()->label('Notification Type'),
+            'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'notifiable_id' => TextInput::make('notifiable_id')
                 ->required()
                 ->numeric()
@@ -2020,6 +2037,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2430,7 +2448,12 @@ class NotificationResource extends XotBaseResource
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
@@ -2441,6 +2464,7 @@ class NotificationResource extends XotBaseResource
         ];
     }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3437,5 +3461,10 @@ class NotificationResource extends XotBaseResource
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> c5a0a4b2 (.)
 }

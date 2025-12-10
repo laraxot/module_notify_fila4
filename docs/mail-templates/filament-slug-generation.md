@@ -114,7 +114,11 @@ TextInput::make('name')
 
 ### 1. Form Resource
 ```php
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> c5a0a4b2 (.)
 {
     return $form
         ->schema([
