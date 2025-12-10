@@ -1199,6 +1199,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1566,10 +1567,14 @@ class TemplatePreview extends Component
 =======
 >>>>>>> a9bf0423 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47a873f13 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4d253d2c (rebase 210)
 =======
@@ -1865,6 +1870,8 @@ class TemplatePreview extends Component
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> 47a873f13 (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -2124,6 +2131,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2152,6 +2160,7 @@ class TemplatePreview extends Component
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 460b8f5b (rebase 210)
 =======
@@ -2245,9 +2254,14 @@ class TemplatePreview extends Component
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 47a873f13 (.)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2318,6 +2332,8 @@ class TemplatePreview extends Component
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 47a873f13 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -3230,4 +3246,10 @@ class TemplatePreview extends Component
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)

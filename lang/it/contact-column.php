@@ -216,6 +216,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,10 +282,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 229a065a (rebase 210)
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 47a873f13 (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -739,6 +743,8 @@ declare(strict_types=1);
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 47a873f13 (.)
 >>>>>>> 460b8f5b (rebase 210)
 <<<<<<< HEAD
 =======
@@ -2196,6 +2202,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -2214,6 +2221,8 @@ declare(strict_types=1);
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2744,10 +2753,14 @@ declare(strict_types=1);
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47a873f13 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4d253d2c (rebase 210)
 =======
@@ -2980,6 +2993,8 @@ declare(strict_types=1);
 >>>>>>> a75783374 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> 47a873f13 (.)
  * @author Laraxot Team
 <<<<<<< HEAD
  *

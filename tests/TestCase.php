@@ -205,6 +205,7 @@ namespace Modules\Notify\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -368,6 +369,7 @@ namespace Modules\Notify\Tests;
 =======
 >>>>>>> a9bf0423 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 460b8f5b (rebase 210)
 =======
@@ -480,6 +482,10 @@ namespace Modules\Notify\Tests;
 >>>>>>> a75783374 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
 use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -793,6 +799,7 @@ use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8f2456941 (.)
 =======
@@ -804,9 +811,12 @@ use Illuminate\Foundation\Application;
 =======
 >>>>>>> e0836b102 (.)
 =======
+>>>>>>> 47a873f13 (.)
+=======
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -859,6 +869,8 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> a75783374 (.)
+=======
+>>>>>>> 47a873f13 (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 <<<<<<< HEAD
@@ -1229,6 +1241,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1435,7 +1448,12 @@ abstract class TestCase extends BaseTestCase
 =======
 =======
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
 
 =======
         
@@ -1525,6 +1543,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1563,6 +1582,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> 47a873f13 (.)
 =======
 
 >>>>>>> 75179b85 (.)
@@ -1959,11 +1980,15 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> a9bf0423 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 47a873f13 (.)
 =======
 =======
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4d253d2c (rebase 210)
@@ -2408,6 +2433,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> a75783374 (.)
 =======
 >>>>>>> 903e3e2cd (.)
+=======
+>>>>>>> 47a873f13 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }

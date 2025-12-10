@@ -377,6 +377,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,7 +877,18 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -1876,6 +1888,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2375,7 +2388,18 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> b19cd40 (.)
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -3432,6 +3456,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3931,7 +3956,18 @@ SMS_FROM=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+SMS_FROM=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+SMS_FROM=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
 SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
@@ -4922,6 +4958,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5421,7 +5458,18 @@ NETFUN_SENDER=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> a9bf0423 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 903e3e2cd (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 460b8f5b (rebase 210)
+>>>>>>> 47a873f13 (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
