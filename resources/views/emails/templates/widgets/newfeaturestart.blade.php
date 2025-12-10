@@ -1021,14 +1021,22 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> c8b1c8bf (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2178,6 +2186,12 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
@@ -2871,9 +2885,13 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2975,10 +2993,15 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> eea68ec9 (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 					<td bgcolor="#ffffff" class="contentblock">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3867,10 +3890,14 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 2fc60436 (.)
 =======
 =======
+>>>>>>> 82ae73b (.)
+>>>>>>> ce89c8bb (.)
+=======
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
@@ -4410,3 +4437,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)

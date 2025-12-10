@@ -77,13 +77,17 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ce89c8bb (.)
         $this->notificationManager = new NotificationManager;
 >>>>>>> 98d837b9 (.)
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
         $this->notificationManager = new NotificationManager;
 >>>>>>> 888799d0 (.)
 =======
@@ -118,10 +122,15 @@ class NotificationManagerTest extends TestCase
 =======
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
         $this->notificationManager = new NotificationManager();
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -393,10 +402,14 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 2fc60436 (.)
 =======
 =======
+>>>>>>> 82ae73b (.)
+>>>>>>> ce89c8bb (.)
+=======
 =======
         $this->notificationManager = new NotificationManager();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
@@ -482,6 +495,8 @@ class NotificationManagerTest extends TestCase
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
     }
 
     protected function tearDown(): void
@@ -503,6 +518,7 @@ class NotificationManagerTest extends TestCase
         $template->shouldReceive('getAttribute')->with('code')->andReturn($templateCode);
 
         $action = Mockery::mock(SendNotificationAction::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,12 +622,15 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 =======
         $action->shouldReceive('execute')
             ->with($recipient, $templateCode, $data, $channels, $options)
             ->once();
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -850,6 +869,11 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+        $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
         app()->instance(SendNotificationAction::class, $action);
 

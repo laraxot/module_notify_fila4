@@ -131,6 +131,7 @@ class TelegramDriverEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -187,6 +188,8 @@ class TelegramDriverEnumTest extends TestCase
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> ce89c8bb (.)
         $values = array_map(fn ($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -216,6 +219,8 @@ class TelegramDriverEnumTest extends TestCase
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> 9777d1b3 (.)
 =======
@@ -283,6 +288,7 @@ class TelegramDriverEnumTest extends TestCase
 =======
         $values = array_map(fn ($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
 <<<<<<< HEAD
@@ -355,10 +361,14 @@ class TelegramDriverEnumTest extends TestCase
 >>>>>>> 2fc60436 (.)
 =======
 =======
+>>>>>>> 82ae73b (.)
+>>>>>>> ce89c8bb (.)
+=======
 =======
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
@@ -444,6 +454,8 @@ class TelegramDriverEnumTest extends TestCase
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

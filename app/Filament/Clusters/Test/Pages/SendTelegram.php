@@ -228,6 +228,7 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
     public null|array $emailData = [];
@@ -284,6 +285,8 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
     public ?array $emailData = [];
 =======
     public null|array $emailData = [];
@@ -325,10 +328,13 @@ class SendTelegram extends Page implements HasForms
     public null|array $emailData = [];
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
     public null|array $emailData = [];
 =======
     public ?array $emailData = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
     public null|array $emailData = [];
@@ -359,11 +365,21 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,6 +406,8 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
     protected static ?string $cluster = Test::class;
 =======
     protected static null|string $cluster = Test::class;
@@ -431,10 +449,13 @@ class SendTelegram extends Page implements HasForms
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -478,6 +499,15 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 
     public function mount(): void
     {
@@ -545,12 +575,16 @@ class SendTelegram extends Page implements HasForms
     {
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
          * dddx($response = Telegram::getMe());
          * $response = $telegram->sendMessage([
          * 'chat_id' => 'CHAT_ID',
          * 'text' => 'Hello World',
          * ]);
          */
+<<<<<<< HEAD
 =======
         dddx($response = Telegram::getMe());
         $response = $telegram->sendMessage([
@@ -559,11 +593,14 @@ class SendTelegram extends Page implements HasForms
         ]);
         */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         return $schema
             ->components([
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
                     ->schema([
+<<<<<<< HEAD
 <<<<<<< HEAD
                         TextInput::make('to')->required(),
                         RichEditor::make('body')->required(),
@@ -573,6 +610,10 @@ class SendTelegram extends Page implements HasForms
                         RichEditor::make('body')
                             ->required(),
 >>>>>>> b19cd40 (.)
+=======
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+>>>>>>> 4e2ebfb (.)
                     ]),
             ])
             ->model($this->getUser())
@@ -584,6 +625,9 @@ class SendTelegram extends Page implements HasForms
         $data = $this->emailForm->getState();
         Assert::string($token = config('services.telegram-bot-api.token'));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,6 +670,7 @@ class SendTelegram extends Page implements HasForms
         // Notification::sendNow($developers, new TelegramNotification());
         $message = is_string($data['body']) ? $data['body'] : '';
         Notification::route('telegram', $data['to'])->notify(new TelegramNotification($message));
+<<<<<<< HEAD
 =======
         $url = 'https://api.telegram.org/bot'.$token.'/getMe';
         Http::get($url);
@@ -656,6 +701,8 @@ class SendTelegram extends Page implements HasForms
         Notification::route('telegram', $data['to'])
             ->notify(new TelegramNotification($message));
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 
     protected function getForms(): array
@@ -681,6 +728,7 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 =======
@@ -690,6 +738,8 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> 58816034 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
                 
 >>>>>>> 75179b8 (.)
@@ -734,10 +784,13 @@ class SendTelegram extends Page implements HasForms
                 
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 207ac35 (.)
                 
 =======
                 //
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -776,6 +829,15 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -784,6 +846,7 @@ class SendTelegram extends Page implements HasForms
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -855,20 +918,29 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
         if (! ($user instanceof Model)) {
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
 =======
         if (! $user instanceof Model) {
             throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         }
 
         return $user;
