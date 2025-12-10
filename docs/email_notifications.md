@@ -1084,6 +1084,7 @@ class NotificationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2270,6 +2271,7 @@ class NotificationDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Events](https://laravel.com/project_docs/events)
@@ -2644,3 +2646,5 @@ class NotificationDebugger
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)

@@ -867,6 +867,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2053,6 +2054,7 @@ class TestData
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [PHPUnit](https://phpunit.de/)
@@ -2427,3 +2429,5 @@ class TestData
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)

@@ -1154,6 +1154,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2487,11 +2488,15 @@ return [
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3808094f6 (.)
 =======
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -2859,3 +2864,5 @@ return [
 >>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)

@@ -346,6 +346,7 @@ The Appointment model in <nome progetto> module defines both legacy field names 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The Appointment model in <nome progetto> module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 <<<<<<< HEAD
 =======
@@ -908,6 +909,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 =======
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 The Appointment model in <nome progetto> module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
@@ -1116,6 +1118,8 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 =======
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)
 
 ## Issues Detected
 
@@ -1287,6 +1291,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 <<<<<<< HEAD
 =======
@@ -1860,6 +1865,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 =======
 >>>>>>> 0ebb7b01 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 >>>>>>> cccb594f (.)
@@ -2074,6 +2080,11 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+=======
+**File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
+>>>>>>> cccb594f (.)
+>>>>>>> 3808094f6 (.)
 
 **Line 120**:
 ```php

@@ -553,6 +553,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1399,6 +1400,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 - [Documentazione Media Library](../../../docs/media-library.md)
 - [Documentazione Traduzioni](../../../docs/translations.md) 
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../project_docs/filament.md)
 - [Documentazione Media Library](../../../project_docs/media-library.md)
@@ -2166,3 +2168,5 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)

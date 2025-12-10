@@ -953,6 +953,7 @@ class MailLogDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2139,6 +2140,7 @@ class MailLogDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Events](https://laravel.com/project_docs/events)
@@ -2513,3 +2515,5 @@ class MailLogDebugger
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)

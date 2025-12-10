@@ -669,6 +669,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1459,6 +1460,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - [Translation Standards](../../Lang/docs/translation-standards.md)
 - [Filament Integration](../../Xot/docs/filament-translations.md)
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - [Translation Standards](../../Lang/project_docs/translation-standards.md)
 - [Filament Integration](../../Xot/project_docs/filament-translations.md)
@@ -2147,6 +2149,8 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)
 
 ## Note per Sviluppatori Futuri
 
@@ -2164,6 +2168,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 - **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2604,6 +2609,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
 >>>>>>> c8b1c8bf (.)
@@ -3078,3 +3084,5 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)

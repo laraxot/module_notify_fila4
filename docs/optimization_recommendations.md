@@ -122,6 +122,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> 75179b855 (.)
@@ -263,6 +264,9 @@
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+- **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
+>>>>>>> 3808094f6 (.)
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
 - **Email domains** hardcoded nei test
@@ -338,6 +342,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> 75179b855 (.)
@@ -479,6 +484,9 @@
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+- Riferimenti diretti a modelli SaluteOra
+>>>>>>> 3808094f6 (.)
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
@@ -545,6 +553,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> 75179b855 (.)
@@ -686,6 +695,9 @@
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
+>>>>>>> 3808094f6 (.)
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
 4. **Documentazione base**: Creata guida riusabilità
@@ -761,6 +773,7 @@ $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'database' => '<nome progetto>_test'
 >>>>>>> 75179b855 (.)
@@ -902,6 +915,9 @@ $user = User::factory()->create();
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+'database' => 'saluteora_test'
+>>>>>>> 3808094f6 (.)
 
 // ✅ DOPO
 $userClass = XotData::make()->getUserClass();

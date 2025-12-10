@@ -126,6 +126,7 @@ Il modulo Notify è progettato per essere **completamente riutilizzabile** tra d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 $user = \Modules\<nome progetto>\Models\User::factory()->create();
 'database' => '<nome progetto>_test',
@@ -285,6 +286,11 @@ $this->app['config']->set('database.connections.saluteora_test', [
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+$user = \Modules\SaluteOra\Models\User::factory()->create();
+'database' => 'saluteora_test',
+$this->app['config']->set('database.connections.saluteora_test', [
+>>>>>>> 3808094f6 (.)
 ```
 
 ✅ **SEMPRE utilizzare pattern riutilizzabili:**
@@ -301,6 +307,7 @@ Il modulo Notify deve utilizzare `XotData::make()->getUserClass()` per ottenere 
 ```php
 use Modules\Xot\Datas\XotData;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504,6 +511,9 @@ use Modules\Xot\Datas\XotData;
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+// Invece di: \Modules\SaluteOra\Models\User::class
+>>>>>>> 3808094f6 (.)
 $userClass = XotData::make()->getUserClass();
 $user = $userClass::factory()->create();
 ```
@@ -512,6 +522,7 @@ $user = $userClass::factory()->create();
 Per i test che richiedono configurazioni database specifiche:
 
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,6 +726,9 @@ Per i test che richiedono configurazioni database specifiche:
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+// Invece di: 'saluteora_test'
+>>>>>>> 3808094f6 (.)
 $testDatabase = config('database.default') . '_test';
 $this->app['config']->set("database.connections.{$testDatabase}", [
     // configurazione
@@ -797,6 +811,7 @@ $userModel = "{$projectNamespace}\\Models\\User";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
@@ -931,10 +946,13 @@ $this->artisan('migrate', ['--database' => '<nome progetto>_test']);
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 'database' => 'saluteora_test'
 $this->artisan('migrate', ['--database' => 'saluteora_test']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -966,11 +984,14 @@ $this->artisan('migrate', ['--database' => '<nome progetto>_test']);
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)
 ```
 
 ### ❌ Configurazioni Project-Specific
 ```php
 // VIETATO: Configurazioni specifiche del progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1183,6 +1204,10 @@ $this->artisan('migrate', ['--database' => '<nome progetto>_test']);
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+'app_name' => 'SaluteOra',
+'tenant_model' => \Modules\SaluteOra\Models\Studio::class,
+>>>>>>> 3808094f6 (.)
 ```
 
 ## Pattern Corretti per Riusabilità
@@ -1292,6 +1317,7 @@ Prima di committare modifiche al modulo Notify:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ ] Nessun riferimento hardcoded a "<nome progetto>" o altri nomi di progetti
 >>>>>>> 75179b855 (.)
@@ -1433,6 +1459,9 @@ Prima di committare modifiche al modulo Notify:
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+- [ ] Nessun riferimento hardcoded a "saluteora" o altri nomi di progetti
+>>>>>>> 3808094f6 (.)
 - [ ] Utilizzo di `XotData::make()->getUserClass()` per la classe User
 - [ ] Configurazioni database dinamiche nei test
 - [ ] Nessun import diretto di modelli da altri progetti
@@ -1508,6 +1537,7 @@ Per verificare che il modulo sia veramente riutilizzabile:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 grep -r -i "<nome progetto>\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
 >>>>>>> 75179b855 (.)
@@ -1649,6 +1679,9 @@ grep -r -i "saluteora\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+grep -r -i "saluteora\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
+>>>>>>> 3808094f6 (.)
 
 # Cerca import diretti da altri moduli
 grep -r "use Modules\\\\[^N][^o][^t][^i][^f][^y]" Modules/Notify/
@@ -1716,6 +1749,7 @@ grep -r "use Modules\\\\[^N][^o][^t][^i][^f][^y]" Modules/Notify/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 grep -r "database.*<nome progetto>\|app.*<nome progetto>" Modules/Notify/
 >>>>>>> 75179b855 (.)
@@ -1857,6 +1891,9 @@ grep -r "database.*saluteora\|app.*saluteora" Modules/Notify/
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+grep -r "database.*saluteora\|app.*saluteora" Modules/Notify/
+>>>>>>> 3808094f6 (.)
 ```
 
 ## Benefici della Riusabilità

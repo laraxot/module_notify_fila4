@@ -784,6 +784,7 @@ class FileUploadSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1639,10 +1640,14 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> bf479cc (.)
 >>>>>>> 0ebb7b01 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3808094f6 (.)
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 =======
 - [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
 - [Dusk Documentation](https://laravel.com/project_docs/dusk)
@@ -2363,3 +2368,5 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)

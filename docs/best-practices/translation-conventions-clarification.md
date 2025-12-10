@@ -161,6 +161,7 @@ Dopo un'analisi approfondita, è stato determinato che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
 >>>>>>> 75179b855 (.)
@@ -302,6 +303,9 @@ Dopo un'analisi approfondita, è stato determinato che:
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 3808094f6 (.)
    - Questa eccezione è documentata e intenzionale
 
 ## Convenzioni Corrette per il Modulo Notify
@@ -338,6 +342,7 @@ return [
 
 ## Conclusione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -541,6 +546,9 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 3808094f6 (.)
 
 ## Riferimenti
 

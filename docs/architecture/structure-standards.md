@@ -133,6 +133,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
@@ -267,10 +268,13 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SmsData.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -302,6 +306,8 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 3808094f6 (.)
 ```
 
 ### ❌ ERRATO: ALTERNATIVE COMUNI MA ERRATE
@@ -387,6 +393,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
@@ -685,10 +692,14 @@ find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Dat
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> bf479cc (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
+>>>>>>> 3808094f6 (.)
 ```
 
 Questo restituirà:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1097,6 +1108,10 @@ Questo restituirà:
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
+>>>>>>> 3808094f6 (.)
 ```
 
 ## Esempi di Importazioni Corrette
