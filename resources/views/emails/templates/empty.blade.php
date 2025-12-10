@@ -142,6 +142,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -582,12 +583,15 @@
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
 {!! $html !!}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1325,3 +1329,8 @@ declare(strict_types=1);
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 82e5ee2d (rebase 210)
+=======
+=======
+{!! $html !!}
+>>>>>>> b19cd40 (.)
+>>>>>>> c5c038f2 (rebase 210)
