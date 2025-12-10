@@ -748,6 +748,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1675,6 +1676,7 @@ SMS_FROM_NAME=<nome progetto>
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -2019,9 +2021,16 @@ SMS_FROM_NAME=SaluteOra
 =======
 =======
 >>>>>>> a0788fa28 (.)
+=======
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+>>>>>>> 69f695548 (.)
 SMS_FROM_NAME=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> 4e2ebfb (.)
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
@@ -2876,6 +2885,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 =======
@@ -3277,6 +3287,7 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> efb0f8d9 (rebase 210)
 =======
@@ -3554,6 +3565,8 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 >>>>>>> a0788fa28 (.)
+=======
+>>>>>>> 69f695548 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -3790,6 +3803,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3828,6 +3842,8 @@ Log::info('SMS inviato', [
 >>>>>>> 47a873f13 (.)
 =======
 >>>>>>> a0788fa28 (.)
+=======
+>>>>>>> 69f695548 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4405,12 +4421,16 @@ Log::info('SMS inviato', [
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 69f695548 (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 8a8a8e2f (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> efb0f8d9 (rebase 210)
 =======
@@ -4768,3 +4788,5 @@ Log::info('SMS inviato', [
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> a0788fa28 (.)
+=======
+>>>>>>> 69f695548 (.)
