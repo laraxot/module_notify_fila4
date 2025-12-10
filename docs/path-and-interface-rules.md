@@ -300,6 +300,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -446,11 +447,18 @@
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -508,6 +516,8 @@
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
@@ -743,6 +753,7 @@
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -935,6 +946,10 @@
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email

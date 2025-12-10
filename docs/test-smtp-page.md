@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -114,6 +115,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -271,6 +273,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Test smtp page
 
 ![test smtp page](test-smtp-page.jpg)
@@ -287,6 +291,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 ## Collegamenti tra versioni di test-smtp-page.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -492,6 +497,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 * [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -725,6 +731,8 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 
@@ -735,6 +743,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -899,6 +908,8 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 =======
 >>>>>>> ce1853afd (.)
 =======
+>>>>>>> 6ad5224fb (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -932,6 +943,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -1030,3 +1042,5 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

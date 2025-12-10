@@ -92,6 +92,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
@@ -315,6 +316,14 @@
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> c188e2a18 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> bf479cc (.)
+>>>>>>> 6ad5224fb (.)
 ```
 
 Con il namespace corrispondente:

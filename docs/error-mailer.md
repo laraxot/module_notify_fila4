@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -265,6 +267,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Error Mailer System
 
 ## Panoramica
@@ -439,6 +443,7 @@ class ErrorLogResource extends Resource
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,6 +721,7 @@ class ErrorLogResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> eb62d6cf (rebase 210)
@@ -860,6 +866,8 @@ class ErrorLogResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1301,6 +1309,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -1403,6 +1412,7 @@ return [
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -1481,12 +1491,15 @@ return [
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1675,6 +1688,8 @@ return [
 =======
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> 909e45af (.)
 =======
@@ -1729,6 +1744,7 @@ return [
 =======
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -1896,3 +1912,5 @@ return [
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

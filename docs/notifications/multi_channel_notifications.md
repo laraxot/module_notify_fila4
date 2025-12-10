@@ -254,6 +254,7 @@ Questa documentazione descrive come implementare correttamente notifiche multi-c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -266,6 +267,8 @@ Questa documentazione descrive come implementare correttamente notifiche multi-c
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
 =======
 =======
@@ -1566,7 +1569,16 @@ Questa documentazione descrive come implementare correttamente notifiche multi-c
 =======
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+=======
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 ## Indice
 
@@ -2759,6 +2771,7 @@ SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni 
 <nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -3103,9 +3116,20 @@ SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni 
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
 SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+<nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 ## Architettura delle Notifiche
 
@@ -4352,6 +4376,7 @@ SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
 <nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -4696,9 +4721,20 @@ SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
 SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+<nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 1. Installazione del provider scelto:
    ```bash
@@ -6032,6 +6068,7 @@ Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS.
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -6376,9 +6413,20 @@ Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS.
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 ### 1. Configurazione
 
@@ -7570,6 +7618,7 @@ return [
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -7914,9 +7963,20 @@ return [
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
         'api_url' => env('NETFUN_API_URL', 'https://api.netfun.it/sms/v1/'),
     ],
 ];
@@ -9105,6 +9165,7 @@ NETFUN_SENDER=SaluteOra
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=SaluteOra
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -9449,9 +9510,20 @@ NETFUN_SENDER=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
 NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ```
 
 ### 2. Creazione della Queueable Action
@@ -10960,6 +11032,7 @@ class AppointmentReminder extends Notification
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -11304,9 +11377,20 @@ class AppointmentReminder extends Notification
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
             ->reference('app_' . $this->appointment->id);
     }
     
@@ -12529,6 +12613,7 @@ class NetfunSMSTest extends TestCase
             ->content('Test SMS da <nome progetto>')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->content('Test SMS da SaluteOra')
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -12873,9 +12958,20 @@ class NetfunSMSTest extends TestCase
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
             ->content('Test SMS da SaluteOra')
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+            ->content('Test SMS da <nome progetto>')
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
             ->reference('test_123');
         
         $result = $action->execute(
@@ -14089,6 +14185,7 @@ class AppointmentReminderController extends Controller
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -14433,9 +14530,20 @@ class AppointmentReminderController extends Controller
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
             ->reference('app_' . $appointment->id);
         
         // Esecuzione asincrona

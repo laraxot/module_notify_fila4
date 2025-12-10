@@ -861,6 +861,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -975,6 +976,7 @@ class SmtpData extends Data
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1080,6 +1082,10 @@ class SmtpData extends Data
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -1181,6 +1187,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1215,6 +1222,8 @@ class SmtpData extends Data
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
@@ -1844,6 +1853,7 @@ class SmtpData extends Data
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -2272,6 +2282,11 @@ class SmtpData extends Data
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 ## ⚠️ Note Importanti
 
@@ -2291,6 +2306,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
    - Verificare configurazione SMTP 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2638,6 +2654,7 @@ class SmtpData extends Data
    - Verificare configurazione SMTP 
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -3103,3 +3120,5 @@ class SmtpData extends Data
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)

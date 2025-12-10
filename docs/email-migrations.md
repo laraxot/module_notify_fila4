@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -265,6 +267,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Sistema Migrazione Email 
 
 ## Panoramica
@@ -1132,6 +1136,7 @@ class MailMigrationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Migrations](https://laravel.com/docs/migrations)
 - [Laravel Schema](https://laravel.com/docs/schema)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1178,6 +1183,7 @@ class MailMigrationDebugger
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -1208,6 +1214,8 @@ class MailMigrationDebugger
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Migrations](https://laravel.com/project_docs/migrations)
 - [Laravel Schema](https://laravel.com/project_docs/schema)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -1243,6 +1251,7 @@ class MailMigrationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -1259,6 +1268,8 @@ class MailMigrationDebugger
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Migrations](https://laravel.com/docs/migrations)
@@ -1523,6 +1534,7 @@ class MailMigrationDebugger
 - [Laravel Schema](https://laravel.com/docs/schema)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1758,3 +1770,7 @@ class MailMigrationDebugger
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)

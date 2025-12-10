@@ -307,6 +307,7 @@ The Appointment model in <nome progetto> module defines both legacy field names 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The Appointment model in <nome progetto> module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 <<<<<<< HEAD
 =======
@@ -350,6 +351,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 >>>>>>> 54ad93c4 (rebase 210)
@@ -462,6 +464,11 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 The Appointment model in <nome progetto> module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 The Appointment model in <nome progetto> module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 >>>>>>> bf479cc (.)
@@ -510,6 +517,7 @@ The Appointment model in <nome progetto> module defines both legacy field names 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -526,6 +534,8 @@ The Appointment model in <nome progetto> module defines both legacy field names 
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
@@ -769,6 +779,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 >>>>>>> 9d3810d0 (rebase 210)
@@ -969,6 +980,8 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 The Appointment model in SaluteOra module defines both legacy field names (`start_time`, `end_time`) and canonical field names (`starts_at`, `ends_at`). The canonical field names `starts_at` and `ends_at` should be used consistently throughout the codebase.
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 ## Issues Detected
 
@@ -1125,6 +1138,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 <<<<<<< HEAD
 =======
@@ -1283,11 +1297,18 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 **File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+**File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 **File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 **File Path**: `/var/www/html/_bases/base_<nome progetto>/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 **File Path**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1349,6 +1370,8 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 **File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
@@ -1598,6 +1621,7 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 =======
 **File Path**: `/var/www/html/_bases/base_saluteora/laravel/Modules/Notify/app/Actions/SendAppointmentNotificationAction.php.old`
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1804,6 +1828,10 @@ The Appointment model in SaluteOra module defines both legacy field names (`star
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 **Line 120**:
 ```php

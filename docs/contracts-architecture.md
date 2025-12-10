@@ -291,6 +291,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -344,6 +345,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -462,6 +465,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -625,11 +629,16 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +772,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 >>>>>>> ce1853afd (.)
 =======
+>>>>>>> 6ad5224fb (.)
+=======
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -811,6 +822,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -925,11 +937,14 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1004,6 +1019,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1105,7 +1122,12 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 =======
 >>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -1158,6 +1180,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1174,6 +1197,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
@@ -1464,6 +1489,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1665,6 +1691,10 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ```
 
 ### 2. Namespace Unificati per le Interfacce
@@ -1847,6 +1877,7 @@ SendSmsInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -1993,11 +2024,18 @@ SendSmsInterface
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2055,6 +2093,8 @@ SendSmsInterface
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
@@ -2290,6 +2330,7 @@ SendSmsInterface
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -2482,6 +2523,10 @@ SendSmsInterface
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ├── app/
 │   ├── Actions/
 │   │   ├── Email/

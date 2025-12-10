@@ -299,6 +299,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -352,6 +353,8 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
@@ -577,6 +580,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -727,6 +731,10 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
@@ -867,6 +875,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -919,6 +928,8 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1021,7 +1032,12 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 =======
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
@@ -1031,6 +1047,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SmsData.php
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1088,6 +1105,8 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -1256,6 +1275,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1410,6 +1430,10 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ```
 
 ### ❌ ERRATO: ALTERNATIVE COMUNI MA ERRATE
@@ -1575,6 +1599,7 @@ find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Dat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Data*"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
@@ -1721,11 +1746,18 @@ find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
 find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Data*"
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1783,6 +1815,8 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
@@ -2018,6 +2052,7 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app
 =======
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -2210,6 +2245,10 @@ find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ```
 
 Questo restituirà:
@@ -2357,6 +2396,7 @@ Questo restituirà:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SMS
 =======
@@ -2590,7 +2630,14 @@ Questo restituirà:
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/SMS
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas
@@ -2598,6 +2645,7 @@ Questo restituirà:
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/SMS
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2655,6 +2703,8 @@ Questo restituirà:
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas
@@ -2792,6 +2842,7 @@ Questo restituirà:
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
@@ -3126,6 +3177,8 @@ Questo restituirà:
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 ```
 
 ## Esempi di Importazioni Corrette

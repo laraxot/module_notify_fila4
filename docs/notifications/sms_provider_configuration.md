@@ -254,6 +254,7 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -266,6 +267,8 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 =======
 =======
@@ -1566,7 +1569,16 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 =======
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 ## Indice
 
@@ -2850,6 +2862,7 @@ VONAGE_SMS_FROM=SaluteOra
 VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=SaluteOra
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -3194,9 +3207,20 @@ VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
 VONAGE_SMS_FROM=SaluteOra
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+VONAGE_SMS_FROM=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ```
 
 ### Implementazione Notifica

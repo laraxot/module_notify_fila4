@@ -911,9 +911,20 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 # Best Practices per l'Ereditarietà delle Classi
 
+<<<<<<< HEAD
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema , con particolare attenzione alle classi che estendono `XotBasePage`.
+Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 ## Analisi dell'Ereditarietà di XotBasePage
 

@@ -1076,6 +1076,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1188,6 +1189,7 @@ return [
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
@@ -1286,6 +1288,8 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
@@ -1383,6 +1387,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1415,6 +1420,8 @@ return [
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Exceptions](https://laravel.com/docs/errors)
@@ -1753,10 +1760,14 @@ return [
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 >>>>>>> 7ffa94fc (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ad5224fb (.)
 =======
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -2576,3 +2587,5 @@ return [
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)

@@ -642,6 +642,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -928,6 +929,7 @@ public static function getTableActions(): array
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -1189,6 +1191,8 @@ public static function getTableActions(): array
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -1428,6 +1432,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1613,6 +1618,7 @@ public static function getTableActions(): array
 =======
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -1762,11 +1768,14 @@ public static function getTableActions(): array
 =======
 >>>>>>> 9f8e680a (rebase 210)
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseResource](../../Xot/project_docs/XotBaseResource.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1911,6 +1920,8 @@ public static function getTableActions(): array
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2073,6 +2084,7 @@ public static function getTableActions(): array
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -2571,6 +2583,11 @@ public static function getTableActions(): array
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 - [Gestione Template](../template-management.md)
 
 ## Note Importanti
@@ -2836,6 +2853,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -3122,6 +3140,7 @@ public static function getTableActions(): array
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -3383,6 +3402,8 @@ public static function getTableActions(): array
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 * [filament-resources.md](../../../../docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/docs/filament-resources.md)
@@ -3623,6 +3644,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -3808,6 +3830,7 @@ public static function getTableActions(): array
 =======
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -3957,12 +3980,15 @@ public static function getTableActions(): array
 =======
 >>>>>>> 9f8e680a (rebase 210)
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 * [filament-resources.md](../../../../project_docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../project_docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/project_docs/filament-resources.md)
 * [filament-resources.md](../../Xot/project_docs/filament-resources.md)
 * [filament-resources.md](../../Patient/project_docs/filament-resources.md)
 * [filament-resources.md](../../Cms/project_docs/filament-resources.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4107,6 +4133,8 @@ public static function getTableActions(): array
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -4269,6 +4297,7 @@ public static function getTableActions(): array
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -4767,6 +4796,11 @@ public static function getTableActions(): array
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 
 ---

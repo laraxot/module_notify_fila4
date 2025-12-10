@@ -463,6 +463,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -749,6 +750,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -1010,6 +1012,8 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -1249,6 +1253,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1434,6 +1439,7 @@ class NotificationTemplate extends BaseModel
 =======
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -1583,11 +1589,14 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 9f8e680a (rebase 210)
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1732,6 +1741,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1894,6 +1905,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -2392,6 +2404,11 @@ class NotificationTemplate extends BaseModel
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti

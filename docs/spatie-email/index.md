@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -112,6 +113,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -259,6 +261,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Documentazione SpatieEmail
 
 Questa directory contiene la documentazione relativa all'implementazione delle email multilingua utilizzando il pacchetto Spatie nel modulo Notify.
@@ -275,6 +279,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +461,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 =======
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -530,12 +536,17 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 - [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +602,8 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -779,6 +792,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
@@ -913,3 +927,5 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

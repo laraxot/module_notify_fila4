@@ -735,6 +735,7 @@ class FileUploadSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -847,6 +848,7 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
@@ -945,6 +947,8 @@ class FileUploadSecurityTest extends TestCase
 =======
 >>>>>>> 9f8e680a (rebase 210)
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
 =======
@@ -1040,6 +1044,7 @@ class FileUploadSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1072,6 +1077,8 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
@@ -1373,10 +1380,14 @@ class FileUploadSecurityTest extends TestCase
 - [Dusk Documentation](https://laravel.com/docs/dusk)
 >>>>>>> 7ffa94fc (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ad5224fb (.)
 =======
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
@@ -2112,3 +2123,5 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)

@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -112,6 +113,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -259,6 +261,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Stato Implementazione SpatieEmail
 
 Questo documento tiene traccia dello stato di implementazione delle email utilizzando il pacchetto Spatie per le email multilingua nel modulo Notify.
@@ -283,6 +287,7 @@ Questo documento tiene traccia dello stato di implementazione delle email utiliz
 <<<<<<< HEAD
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,6 +511,7 @@ Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/F
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> eb62d6cf (rebase 210)
@@ -808,6 +814,8 @@ Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clust
 Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 ```php
 // Errore di sintassi (manca ->)
@@ -946,6 +954,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -981,6 +990,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -1021,6 +1032,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -1113,10 +1125,13 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 1. [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](../Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](../Lang/docs/translatable/implementazione-nel-progetto.md)
 4. [Best Practices](../Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,6 +1204,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1504,11 +1521,17 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
 4. [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1564,6 +1587,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1698,6 +1723,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1799,6 +1825,10 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 
 ## Timeline
 
@@ -1813,6 +1843,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1913,6 +1944,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -2088,3 +2120,5 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

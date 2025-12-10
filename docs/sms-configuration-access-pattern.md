@@ -288,6 +288,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di <n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo errore viola i principi di modularità e coerenza dell'architettura di <nome progetto>, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di , dove ogni modulo gestisce le proprie configurazioni in file dedicati.
@@ -332,6 +333,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -431,9 +433,15 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 Questo errore viola i principi di modularità e coerenza dell'architettura di , dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 Questo errore viola i principi di modularità e coerenza dell'architettura di <nome progetto>, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +499,8 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di <n
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
@@ -720,6 +730,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> 9d3810d0 (rebase 210)
@@ -906,6 +917,8 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 ## Pattern Corretto
 

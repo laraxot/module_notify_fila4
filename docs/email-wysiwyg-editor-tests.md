@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -265,6 +267,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Test Editor WYSIWYG Email - il progetto
 
 ## Test Unitari
@@ -776,6 +780,7 @@ class FileUploadSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
 - [Dusk Documentation](https://laravel.com/project_docs/dusk)
@@ -866,6 +871,7 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -944,10 +950,13 @@ class FileUploadSecurityTest extends TestCase
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Testing Documentation](https://laravel.com/project_docs/testing)
 - [Dusk Documentation](https://laravel.com/project_docs/dusk)
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1122,6 +1131,8 @@ class FileUploadSecurityTest extends TestCase
 =======
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
 >>>>>>> 909e45af (.)
 =======
@@ -1171,6 +1182,7 @@ class FileUploadSecurityTest extends TestCase
 =======
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
@@ -1324,3 +1336,5 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

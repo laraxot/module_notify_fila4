@@ -290,6 +290,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -343,6 +344,8 @@
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -492,6 +495,7 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -712,6 +716,10 @@
 >>>>>>> 252fa579e (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -1040,6 +1048,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1092,6 +1101,8 @@
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
 >>>>>>> 75179b85 (.)
@@ -1196,7 +1207,12 @@
 =======
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -1263,6 +1279,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1279,6 +1296,8 @@
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -1464,6 +1483,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -1623,6 +1643,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 ## Namespace vs Directory
 
@@ -1779,6 +1801,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
 =======
@@ -2012,7 +2035,14 @@
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
@@ -2020,6 +2050,7 @@
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2077,6 +2108,8 @@
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
@@ -2214,6 +2247,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
@@ -2548,6 +2582,8 @@
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`

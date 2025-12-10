@@ -1606,6 +1606,7 @@ return [
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 <<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1950,9 +1951,20 @@ return [
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
 =======
+=======
+>>>>>>> 6ad5224fb (.)
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 >>>>>>> ce1853afd (.)
+=======
+=======
+=======
+        'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
     ],
 ];
 ```
@@ -2693,6 +2705,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2707,6 +2720,8 @@ public function toTwilio($notifiable)
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
@@ -3605,10 +3620,18 @@ public function toTwilio($notifiable)
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 0a5473e16 (.)
+=======
+        ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: saluteora.it/privacy");
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3662,6 +3685,8 @@ public function toTwilio($notifiable)
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 =======
@@ -3835,6 +3860,7 @@ public function toTwilio($notifiable)
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -4358,6 +4384,8 @@ public function toTwilio($notifiable)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 }
 ```
 

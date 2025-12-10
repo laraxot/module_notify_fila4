@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -265,6 +267,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Sistema Notifiche Email - il progetto
 
 ## Panoramica
@@ -439,6 +443,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,6 +721,7 @@ class NotificationResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> eb62d6cf (rebase 210)
@@ -860,6 +866,8 @@ class NotificationResource extends XotBaseResource
     public static function form(Form $form): Form
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1161,6 +1169,7 @@ class NotificationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
@@ -1207,6 +1216,7 @@ class NotificationDebugger
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -1237,6 +1247,8 @@ class NotificationDebugger
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Mail](https://laravel.com/project_docs/mail) 
@@ -1272,6 +1284,7 @@ class NotificationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -1288,6 +1301,8 @@ class NotificationDebugger
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
@@ -1552,6 +1567,7 @@ class NotificationDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1787,3 +1803,7 @@ class NotificationDebugger
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)

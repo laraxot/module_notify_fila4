@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -265,6 +267,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Sistema Monitoraggio Email 
 
 ## Panoramica
@@ -1191,6 +1195,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1231,6 +1236,8 @@ class MailMonitoringDebugger
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1444,7 +1451,12 @@ class MailMonitoringDebugger
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -1454,6 +1466,7 @@ class MailMonitoringDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 - [Laravel Events](https://laravel.com/docs/events) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1528,6 +1541,8 @@ class MailMonitoringDebugger
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -1772,6 +1787,7 @@ class MailMonitoringDebugger
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
@@ -1934,3 +1950,5 @@ class MailMonitoringDebugger
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

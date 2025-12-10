@@ -300,6 +300,7 @@ Il progetto <nome progetto> utilizza un'architettura a strati per i componenti F
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto> utilizza un'architettura a strati per i componenti Filament:
 =======
 Il progetto  utilizza un'architettura a strati per i componenti Filament:
@@ -344,6 +345,7 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -443,9 +445,15 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 Il progetto  utilizza un'architettura a strati per i componenti Filament:
 Il progetto <nome progetto> utilizza un'architettura a strati per i componenti Filament:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +511,8 @@ Il progetto <nome progetto> utilizza un'architettura a strati per i componenti F
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
@@ -732,6 +742,7 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
 >>>>>>> 9d3810d0 (rebase 210)
@@ -918,6 +929,8 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 ```
 Filament Core Classes (vendor)
@@ -1073,6 +1086,7 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome progetto>:
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto :
@@ -1117,6 +1131,7 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -1216,9 +1231,15 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 Le classi XotBase contengono personalizzazioni specifiche per il progetto :
 Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome progetto>:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1276,6 +1297,8 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome 
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
@@ -1505,6 +1528,7 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
 >>>>>>> 9d3810d0 (rebase 210)
@@ -1691,6 +1715,8 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - Gestione multilingua
 - Integrazione con il sistema di permessi
 - Logging e auditing
@@ -1894,6 +1920,7 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di <nome progetto>. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
@@ -1938,6 +1965,7 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -2037,9 +2065,15 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di <nome progetto>. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2097,6 +2131,8 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
@@ -2334,6 +2370,7 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> 9d3810d0 (rebase 210)
@@ -2524,3 +2561,5 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

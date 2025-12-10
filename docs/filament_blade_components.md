@@ -227,6 +227,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -293,6 +294,8 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> 252fa579e (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 =======
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
@@ -597,12 +600,16 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 >>>>>>> 7ffa94fc (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ad5224fb (.)
 =======
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 =======
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 >>>>>>> 9d3810d0 (rebase 210)
@@ -1486,6 +1493,8 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> f3c06ccdd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 ## Vantaggi rispetto a componenti custom
 - **Coerenza UI/UX**: look & feel uniforme con tutto l’ecosistema Filament
@@ -1657,6 +1666,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 - [README Notify](README.md)
 - [queueable-action.md](queueable-action.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2130,6 +2140,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -2337,7 +2348,12 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> f3c06ccdd (.)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
+=======
+- [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
+>>>>>>> bf479cc (.)
 - [README Notify](README.md)
 - [queueable-action.md](queueable-action.md)
 >>>>>>> 2a97406c (.)

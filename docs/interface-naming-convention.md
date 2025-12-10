@@ -306,6 +306,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli <nome progetto>.
 =======
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli .
@@ -350,6 +351,7 @@ interface TelegramProviderActionInterface
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli SaluteOra.
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -449,9 +451,15 @@ interface TelegramProviderActionInterface
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli SaluteOra.
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli .
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli <nome progetto>.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -509,6 +517,8 @@ interface TelegramProviderActionInterface
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli SaluteOra.
@@ -739,6 +749,7 @@ interface TelegramProviderActionInterface
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli SaluteOra.
 >>>>>>> 9d3810d0 (rebase 210)
@@ -926,6 +937,8 @@ interface TelegramProviderActionInterface
 3. **Standardizzazione**: Questa convenzione è applicata in modo coerente in tutti i moduli SaluteOra.
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 4. **Integrazione con tooling**: Gli strumenti di analisi statica e generazione di codice sono configurati per questa convenzione.
 
 ## Implementazione
@@ -1084,6 +1097,7 @@ Per verificare la corretta implementazione:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1137,6 +1151,8 @@ Per verificare la corretta implementazione:
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
 
 # Cerca interfacce con naming corretto
@@ -1424,6 +1440,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -1557,10 +1574,13 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/saluteora/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/Modules
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1675,6 +1695,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 =======
 >>>>>>> ce1853afd (.)
 =======
+>>>>>>> 6ad5224fb (.)
+=======
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1719,6 +1741,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1802,10 +1825,16 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 
 # Cerca interfacce con naming corretto
 grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1868,6 +1897,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2013,6 +2044,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/la
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -2033,6 +2065,12 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/la
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+grep -r "interface.*Interface" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
+
+# Cerca interfacce con naming corretto
+grep -r "interface.*Contract" --include="*.php" /var/www/html/<nome progetto>/laravel/Modules
+>>>>>>> 6ad5224fb (.)
 grep -r "interface.*Interface" --include="*.php" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules
 
 # Cerca interfacce con naming corretto
@@ -2080,6 +2118,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2096,6 +2135,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/_bases/base_techpl
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 grep -r "interface.*Interface" --include="*.php" /var/www/html/saluteora/laravel/Modules
@@ -2253,6 +2294,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -2508,6 +2550,10 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)
 ```
 
 ## Riferimenti
@@ -2517,6 +2563,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 - [<nome progetto> Code Quality Guidelines](/var/www/html/<nome progetto>/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/<nome progetto>/laravel/Modules/Xot/app/Contracts/)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2787,10 +2834,14 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6ad5224fb (.)
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> 6e12a84b (rebase 210)
@@ -2815,11 +2866,14 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [PTVX Code Quality Guidelines](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_ptvx_fila3_mono/laravel/Modules/Xot/app/Contracts/)
 - [Modulo Xot Contracts](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Xot/app/Contracts/)
 <<<<<<< HEAD
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2849,6 +2903,8 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/docs/code-quality.md)
@@ -3182,6 +3238,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 - [SaluteOra Code Quality Guidelines](/var/www/html/saluteora/laravel/docs/code-quality.md)
 - [Modulo Xot Contracts](/var/www/html/saluteora/laravel/Modules/Xot/app/Contracts/)
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -3492,3 +3549,7 @@ grep -r "interface.*Contract" --include="*.php" /var/www/html/saluteora/laravel/
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)

@@ -291,6 +291,7 @@ https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -340,6 +341,7 @@ https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 =======
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -458,6 +460,8 @@ https://medium.com/@azishapidin/test-laravel-smtp-mail-via-tinker-cec59999214
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 # Come far funzionare la pagina SendEmail
 
@@ -554,6 +558,7 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -574,6 +579,8 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -781,6 +788,7 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -953,3 +961,5 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)

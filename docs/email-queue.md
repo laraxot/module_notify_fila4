@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -265,6 +267,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 # Sistema Code Email - il progetto
 
 ## Panoramica
@@ -587,6 +591,7 @@ class MailQueueResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -766,6 +771,7 @@ class MailQueueResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> eb62d6cf (rebase 210)
@@ -910,6 +916,8 @@ class MailQueueResource extends XotBaseResource
     public static function form(Form $form): Form
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1198,6 +1206,7 @@ class MailQueueManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
@@ -1244,6 +1253,7 @@ class MailQueueManager
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -1274,6 +1284,8 @@ class MailQueueManager
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Horizon](https://laravel.com/project_docs/horizon)
 - [Laravel Supervisor](https://laravel.com/project_docs/queues#supervisor-configuration) 
@@ -1309,6 +1321,7 @@ class MailQueueManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -1325,6 +1338,8 @@ class MailQueueManager
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Queue](https://laravel.com/docs/queues)
@@ -1589,6 +1604,7 @@ class MailQueueManager
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
@@ -1824,3 +1840,7 @@ class MailQueueManager
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> ce1853afd (.)
+=======
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+>>>>>>> 6ad5224fb (.)

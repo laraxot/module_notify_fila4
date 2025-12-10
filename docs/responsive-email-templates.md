@@ -286,6 +286,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
@@ -330,6 +331,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -429,9 +431,15 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -489,6 +497,8 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
@@ -718,6 +728,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 9d3810d0 (rebase 210)
@@ -904,6 +915,8 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 
 ## Principi Fondamentali
 
@@ -1117,6 +1130,7 @@ Per <nome progetto>, si raccomanda un **approccio ibrido**:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 Per , si raccomanda un **approccio ibrido**:
@@ -1161,6 +1175,7 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 3d462363 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -1260,9 +1275,15 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+Per SaluteOra, si raccomanda un **approccio ibrido**:
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 6ad5224fb (.)
 Per , si raccomanda un **approccio ibrido**:
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1320,6 +1341,8 @@ Per <nome progetto>, si raccomanda un **approccio ibrido**:
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 6ad5224fb (.)
 >>>>>>> 31f5d28f (.)
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
@@ -1549,6 +1572,7 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 9d3810d0 (rebase 210)
@@ -1735,6 +1759,8 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 6ad5224fb (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
