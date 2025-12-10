@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -94,7 +95,12 @@
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Sistema di Code per Email - il progetto
 
 ## Panoramica
@@ -326,6 +332,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -388,7 +395,13 @@ $users->each(function ($user) {
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -657,6 +670,7 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1718,7 +1732,12 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 =======
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
@@ -1729,6 +1748,7 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1778,7 +1798,12 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 =======
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -1806,6 +1831,7 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1851,7 +1877,12 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -1974,6 +2005,7 @@ if ($failedJobs > $threshold) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -2036,7 +2068,13 @@ if ($failedJobs > $threshold) {
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -2353,6 +2391,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3051,4 +3090,10 @@ php artisan queue:restart
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+- [Redis Documentation](https://redis.io/documentation)
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

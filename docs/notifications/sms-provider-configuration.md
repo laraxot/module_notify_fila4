@@ -35,6 +35,7 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Configurazione Provider SMS per le Notifiche 
 
 <<<<<<< HEAD
@@ -536,7 +537,15 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+# Configurazione Provider SMS per le Notifiche 
+
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 
 ## Indice
 
@@ -737,6 +746,7 @@ VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 =======
 VONAGE_SMS_FROM=
@@ -1106,7 +1116,13 @@ VONAGE_SMS_FROM=SaluteOra
 VONAGE_SMS_FROM=
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+VONAGE_SMS_FROM=SaluteOra
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 ```
 
 ### Implementazione Notifica
@@ -1497,6 +1513,7 @@ Log::info('SMS sent', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1562,4 +1579,9 @@ Log::info('SMS sent', [
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

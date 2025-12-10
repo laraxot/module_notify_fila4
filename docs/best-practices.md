@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices Implementazione
 
 ## Template Email
@@ -9,6 +10,8 @@
 ```php
 // resources/views/vendor/notifications/email/base.blade.php
 =======
+=======
+>>>>>>> 26f580eb (.)
 # Best Practices e Raccomandazioni
 
 ## 1. Design e Layout
@@ -16,12 +19,16 @@
 ### 1.1 Responsive Design
 ```php
 // resources/views/notify/layouts/responsive.blade.php
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <title>{{ config('app.name') }}</title>
     <style>
@@ -31,6 +38,8 @@
         .content { padding: 20px; }
         .footer { text-align: center; padding: 20px; font-size: 12px; }
 =======
+=======
+>>>>>>> 26f580eb (.)
     <title>{{ $subject }}</title>
     <style>
         /* Responsive styles */
@@ -49,25 +58,35 @@
                 font-size: 10px !important;
             }
         }
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
     </style>
 </head>
 <body>
     <div class="container">
 <<<<<<< HEAD
+<<<<<<< HEAD
         @yield('content')
 =======
+=======
+>>>>>>> 26f580eb (.)
         @include('notify::partials.header')
         <div class="content">
             {{ $slot }}
         </div>
         @include('notify::partials.footer')
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
     </div>
 </body>
 </html>
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### 2. Gestione Variabili
 ```php
@@ -89,6 +108,8 @@ class TemplateVariableService
         // 3. Gestione fallback
         // 4. Cache risultato
 =======
+=======
+>>>>>>> 26f580eb (.)
 ### 1.2 Compatibilità
 ```php
 namespace Modules\Notify\Services;
@@ -131,11 +152,15 @@ class CompatibilityService
         }
 
         return $issues;
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
     }
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Sistema Notifiche
 
@@ -155,6 +180,8 @@ class QueuedNotification extends Notification implements ShouldQueue
     {
         return [60, 180, 360];
 =======
+=======
+>>>>>>> 26f580eb (.)
 ### 1.3 Performance
 ```php
 namespace Modules\Notify\Services;
@@ -206,11 +233,15 @@ class PerformanceOptimizer
         $css = preg_replace('/\s+/', ' ', $css);
 
         return trim($css);
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
     }
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### 2. Rate Limiting
 ```php
@@ -223,6 +254,8 @@ class NotificationServiceProvider extends ServiceProvider
             return Limit::perMinute(60)->by($job->user->id);
         });
 =======
+=======
+>>>>>>> 26f580eb (.)
 ## 2. Struttura del Codice
 
 ### 2.1 Organizzazione
@@ -243,11 +276,15 @@ class ModuleServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/Database/Migrations');
         $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
         $this->loadViewsFrom(__DIR__.'/Resources/views', 'notify');
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
     }
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Editor Visuale
 
@@ -276,6 +313,8 @@ class EmailTemplateResource extends Resource
                         ]),
                 ]),
 =======
+=======
+>>>>>>> 26f580eb (.)
 ### 2.2 Convenzioni di Naming
 ```php
 namespace Modules\Notify\Services;
@@ -639,12 +678,16 @@ class TemplateLogger
             'timestamp' => now(),
             'user_id' => auth()->id(),
             'data' => $data
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
         ]);
     }
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### 2. Preview Template
 ```php
@@ -658,6 +701,8 @@ class PreviewAction extends Action
         // 3. Test rendering
         // 4. Log errori
 =======
+=======
+>>>>>>> 26f580eb (.)
 ### 6.2 Analytics
 ```php
 namespace Modules\Notify\Services;
@@ -779,11 +824,15 @@ class BackupTemplates extends Command
         );
 
         $this->info("Backup created: {$filename}");
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
     }
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Integrazioni
 
@@ -864,6 +913,8 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 =======
 >>>>>>> 5d933abf (.)
 =======
+=======
+>>>>>>> 26f580eb (.)
 ## 8. Note Finali
 
 1. **Documentazione**
@@ -900,6 +951,9 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
    - Aggiornare dipendenze
    - Scansionare vulnerabilità
    - Implementare best practices 
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
 =======
 >>>>>>> d151b9c1 (.)
+=======
+>>>>>>> 26f580eb (.)

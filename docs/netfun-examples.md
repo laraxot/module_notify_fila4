@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -88,7 +89,12 @@
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -128,6 +134,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 <<<<<<< HEAD
             sender: '<nome progetto>'
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,7 +592,13 @@ class OtpSmsNotification extends NetfunSmsNotification
             sender: '<nome progetto>'
             sender: 'SALUTEORA'
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
         );
     }
 
@@ -844,6 +857,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -1211,7 +1225,13 @@ class AppointmentReminderNotification extends NetfunSmsNotification
             sender: '<nome progetto>'
             sender: 'SALUTEORA'
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+            sender: 'SALUTEORA'
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
         );
     }
 
@@ -1545,6 +1565,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -1912,7 +1933,13 @@ public function sendBulkSms(Request $request)
             sender: '<nome progetto>',
             sender: 'SALUTEORA',
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+            sender: 'SALUTEORA',
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -2424,6 +2451,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -2489,4 +2517,9 @@ class NetfunNotificationIntegrationTest extends TestCase
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

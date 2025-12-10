@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -106,7 +107,12 @@
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Traduzioni SmsDriverEnum - Modulo Notify
 
 ## Panoramica
@@ -424,6 +430,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1547,13 +1554,19 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 =======
 =======
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 - [Documentazione Traduzioni](../../Lang/docs/)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione Traduzioni](../../Lang/docs/)
@@ -1715,6 +1728,8 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 =======
 =======
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1724,4 +1739,9 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

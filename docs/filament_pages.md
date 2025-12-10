@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -328,6 +331,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -634,6 +638,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> cccb594f (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -641,6 +647,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseListRecords](../../Xot/docs/filament-pages.md#XotBaseListRecords)
 - [XotBaseCreateRecord](../../Xot/docs/filament-pages.md#XotBaseCreateRecord)
 - [XotBaseEditRecord](../../Xot/docs/filament-pages.md#XotBaseEditRecord)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1462,6 +1469,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 - [NotificationTemplateResource](./filament-resources.md)
 
 ## Note Importanti
@@ -1595,6 +1604,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> 75179b85 (.)
@@ -1982,3 +1992,6 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> 75179b85 (.)
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> f963d2c0 (.)

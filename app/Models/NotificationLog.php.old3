@@ -43,6 +43,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
     use \Modules\Xot\Models\Traits\HasXotFactory;
@@ -55,7 +56,13 @@ class NotificationLog extends BaseModel
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+    use HasFactory;
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
     use Updater;
 
     public const STATUS_PENDING = 'pending';

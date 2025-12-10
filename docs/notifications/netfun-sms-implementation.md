@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -88,7 +89,12 @@
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Implementazione Netfun SMS 
 
 ## Introduzione
@@ -269,6 +275,7 @@ class AppointmentReminder extends Notification
 <<<<<<< HEAD
             sender: '<nome progetto>',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -727,7 +734,13 @@ class AppointmentReminder extends Notification
             sender: '',
             sender: 'SaluteOra',
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+            sender: 'SaluteOra',
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
             reference: 'app_' . $this->appointment->id
         );
         
@@ -754,6 +767,7 @@ class AppointmentReminder extends Notification
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -846,4 +860,9 @@ class AppointmentReminder extends Notification
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

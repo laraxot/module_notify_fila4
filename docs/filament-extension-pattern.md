@@ -34,6 +34,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern di Estensione per Componenti Filament 
 
 <<<<<<< HEAD
@@ -533,7 +534,15 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+# Pattern di Estensione per Componenti Filament 
+
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 
 ## Regola Fondamentale
 
@@ -647,6 +656,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
 =======
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per , mantenendo la coerenza in tutta l'applicazione.
@@ -1014,7 +1024,13 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per , mantenendo la coerenza in tutta l'applicazione.
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -1038,6 +1054,7 @@ Quando si estende `XotBaseResource`, è importante seguire queste regole per evi
 <<<<<<< HEAD
    - `public static function getListTableColumns(): array`
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1116,7 +1133,13 @@ Quando si estende `XotBaseResource`, è importante seguire queste regole per evi
 =======
    - `public static function getListTableColumns(): array`
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+   - `public static function getListTableColumns(): array`
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 
 Queste proprietà e metodi sono già configurati in `XotBaseResource` per garantire coerenza e centralizzazione della logica. Ridefinirli può portare a comportamenti imprevisti e aumentare la complessità del codice.
 
@@ -1259,6 +1282,7 @@ Le classi XotBase possono implementare comportamenti specifici per <nome progett
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
 =======
 Le classi XotBase possono implementare comportamenti specifici per , come:
@@ -1626,7 +1650,13 @@ Le classi XotBase possono implementare comportamenti specifici per SaluteOra, co
 Le classi XotBase possono implementare comportamenti specifici per , come:
 Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici
@@ -1674,6 +1704,7 @@ Prima di ogni commit, verificare che:
 Il pattern di estensione XotBase è fondamentale per la manutenibilità e la coerenza del codice . Seguire questo pattern garantisce che l'applicazione possa evolversi in modo controllato e che le personalizzazioni siano gestite in modo centralizzato.
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1766,4 +1797,9 @@ Il pattern di estensione XotBase è fondamentale per la manutenibilità e la coe
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

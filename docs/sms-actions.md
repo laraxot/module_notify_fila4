@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -88,7 +89,12 @@
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Azioni SMS
 
 ## Interfaccia
@@ -137,6 +143,7 @@ $smsData = new SmsData(
 <<<<<<< HEAD
     from: '<nome progetto>'
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,7 +602,13 @@ $smsData = new SmsData(
     from: ''
     from: 'SaluteOra'
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+    from: 'SaluteOra'
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 );
 
 $action = new SendNetfunSMSAction();
@@ -625,6 +638,7 @@ $result = $action->execute($smsData);
    - Proteggere le chiavi API
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -717,4 +731,9 @@ $result = $action->execute($smsData);
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

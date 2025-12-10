@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Analisi Approfondita: Email Templates in Laravel per <nome progetto>
 
 ## 1. Panoramica Soluzioni Analizzate
@@ -130,6 +131,8 @@ _Analisi aggiornata al 2025-05-05. Per dettagli e approfondimenti, consultare i 
 =======
 >>>>>>> 5d933abf (.)
 =======
+=======
+>>>>>>> 26f580eb (.)
 # Analisi dei Template Email in Laravel
 
 ## Panoramica
@@ -316,6 +319,9 @@ public static function form(Form $form): Form
 - Testare su diversi client email
 - Monitorare le performance
 - Implementare logging appropriato 
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
 =======
 >>>>>>> d151b9c1 (.)
+=======
+>>>>>>> 26f580eb (.)

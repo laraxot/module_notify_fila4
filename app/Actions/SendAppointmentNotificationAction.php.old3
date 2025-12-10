@@ -25,6 +25,7 @@ use Modules\SaluteOra\Models\Patient;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 use Modules\<nome progetto>\Models\Appointment;
@@ -53,7 +54,15 @@ use Modules\SaluteOra\Models\Patient;
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+use Modules\SaluteOra\Models\Appointment;
+use Modules\Notify\Mail\AppointmentNotificationMail;
+use Modules\SaluteOra\Models\Patient;
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction

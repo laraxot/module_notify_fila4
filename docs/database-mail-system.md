@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -94,7 +95,12 @@
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica
@@ -296,6 +302,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -405,7 +412,13 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -570,6 +583,7 @@ class TreatmentComplete extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -632,7 +646,13 @@ class TreatmentComplete extends Mailable
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -814,6 +834,7 @@ php artisan notify:mail-template:test
 - [Spatie Packages](https://spatie.be/open-source)
 - [Spatie Packages](https://spatie.be/open-source)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1669,4 +1690,10 @@ php artisan notify:mail-template:test
 =======
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+- [Spatie Packages](https://spatie.be/open-source)
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

@@ -322,6 +322,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1129,7 +1130,13 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 <?php
 
 declare(strict_types=1);
@@ -1181,6 +1188,7 @@ declare(strict_types=1);
 <tr>
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2604,7 +2612,14 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> c8eedbbb (.)
+<<<<<<< HEAD
 >>>>>>> a1962ca9 (.)
+=======
+=======
+<tr>
+>>>>>>> 518c702 (.)
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -3269,6 +3284,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4201,10 +4217,13 @@ declare(strict_types=1);
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> f963d2c0 (.)
 					<div class="article-content" align="left">
 =======
 					<div class="article-content" align="left">
 >>>>>>> 518c702 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4883,4 +4902,9 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> c8eedbbb (.)
+<<<<<<< HEAD
 >>>>>>> a1962ca9 (.)
+=======
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 26f580eb (.)

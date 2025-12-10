@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c5a0a4b2 (.)
+=======
+>>>>>>> 26f580eb (.)
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica
@@ -98,9 +101,13 @@ app(SendAppointmentNotificationAction::class)->execute(
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c5a0a4b2 (.)
+=======
+
+>>>>>>> 26f580eb (.)
 # Invio promemoria per appuntamenti di domani
 php artisan dental:send-appointment-reminders --days=1
 
@@ -118,9 +125,12 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 3. Monitorare i log per verificare l'invio corretto delle notifiche
 4. Testare regolarmente i template email su diversi client di posta
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5d933abf (.)
 =======
 >>>>>>> c5a0a4b2 (.)
 =======
 >>>>>>> d151b9c1 (.)
+=======
+>>>>>>> 26f580eb (.)
