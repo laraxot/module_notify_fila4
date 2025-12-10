@@ -940,6 +940,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1394,6 +1395,10 @@ class TemplatePreview extends Component
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -1588,6 +1593,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1662,10 +1668,13 @@ class TemplatePreview extends Component
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2340,3 +2349,6 @@ class TemplatePreview extends Component
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)

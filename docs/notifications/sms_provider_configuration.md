@@ -971,9 +971,17 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 # Configurazione Provider SMS per le Notifiche 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -1334,6 +1342,7 @@ VONAGE_SECRET=xyz789...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2240,9 +2249,14 @@ VONAGE_SMS_FROM=SaluteOra
 =======
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
 VONAGE_SMS_FROM=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
+=======
+VONAGE_SMS_FROM=<nome progetto>
+>>>>>>> 4e2ebfb (.)
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> f963d2c0 (.)
 =======

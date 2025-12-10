@@ -200,6 +200,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -751,6 +752,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
      * |--------------------------------------------------------------------------
      * | Email Layout Configuration
      * |--------------------------------------------------------------------------
@@ -945,6 +950,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -1423,6 +1431,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
@@ -1867,6 +1876,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     // Footer text for all emails
 <<<<<<< HEAD
     // 'footer_text' => env('MAIL_FOOTER_TEXT', '© ' . date('Y') . ' ' . config('app.name') . '. All rights reserved.'),
@@ -2241,6 +2254,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2784,6 +2798,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     // Unsubscribe URL
     'unsubscribe_url' => env('MAIL_UNSUBSCRIBE_URL', null),
     /*
@@ -2797,6 +2815,7 @@ return [
 
     // Default layout to use
     'default_layout' => 'notify::mail-layouts.base.default',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3317,6 +3336,8 @@ return [
 =======
 >>>>>>> e7a9a2bf (.)
 =======
+>>>>>>> 9d67cabd (.)
+=======
 
     // Unsubscribe URL
     'unsubscribe_url' => env('MAIL_UNSUBSCRIBE_URL', null),
@@ -3404,6 +3425,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3987,6 +4009,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     // Available layouts
     'layouts' => [
         'default' => 'notify::mail-layouts.base.default',
@@ -4177,6 +4203,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4251,10 +4278,13 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
 =======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4919,6 +4949,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     // Available templates
     'templates' => [
         'welcome' => 'notify::mail-layouts.templates.welcome',

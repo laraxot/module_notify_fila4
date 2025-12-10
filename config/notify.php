@@ -186,6 +186,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -737,6 +738,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
      * |--------------------------------------------------------------------------
      * | Company Configuration
      * |--------------------------------------------------------------------------
@@ -929,6 +934,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -1363,6 +1371,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1983,6 +1992,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     'company' => [
         'name' => env('COMPANY_NAME', 'Default Company'),
         'team' => env('COMPANY_TEAM', 'Default Team'),
@@ -1990,6 +2003,7 @@ return [
         'clinic_name' => env('CLINIC_NAME', 'Default Clinic'),
         'repository_url' => env('REPOSITORY_URL', 'https://github.com/example/repo'),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2718,6 +2732,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     /*
      * |--------------------------------------------------------------------------
      * | Default Test Data
@@ -2911,6 +2929,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -3384,6 +3405,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3975,6 +3997,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     'test_data' => [
         'default_subject' => 'Benvenuto su {{company_name}}',
         'default_content' => 'Grazie per esserti registrato al nostro servizio.',
@@ -3986,6 +4012,7 @@ return [
         'default_author' => '{{team_name}}',
         'default_repository' => '{{repository_url}}',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4714,6 +4741,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     /*
      * |--------------------------------------------------------------------------
      * | Webhook Configuration
@@ -4906,6 +4937,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -5378,6 +5412,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5968,11 +6003,16 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     'webhooks' => [
         'notification_delivered' => '{{webhook_base}}/webhooks/notification-delivered',
         'notification_bounced' => '{{webhook_base}}/webhooks/notification-bounced',
         'notification_clicked' => '{{webhook_base}}/webhooks/notification-clicked',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6701,6 +6741,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     /*
      * |--------------------------------------------------------------------------
      * | Email Configuration
@@ -6893,6 +6937,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -7365,6 +7412,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -7955,12 +8003,17 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     'email' => [
         'default_from_address' => env('MAIL_FROM_ADDRESS', 'noreply@example.com'),
         'default_from_name' => env('MAIL_FROM_NAME', '{{company_name}}'),
         'default_admin_email' => env('ADMIN_EMAIL', 'admin@{{company_name}}.com'),
         'default_developer_email' => env('DEVELOPER_EMAIL', 'developer@{{company_name}}.com'),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8689,6 +8742,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     /*
      * |--------------------------------------------------------------------------
      * | Path Configuration
@@ -8881,6 +8938,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -9353,6 +9413,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -9943,10 +10004,15 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     'paths' => [
         'default_avatar_path' => env('DEFAULT_AVATAR_PATH', '/images/avatars/default.svg'),
         'default_image_path' => env('DEFAULT_IMAGE_PATH', '/images/default.jpg'),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10675,6 +10741,10 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     /*
      * |--------------------------------------------------------------------------
      * | Template Variables
@@ -10867,6 +10937,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -11339,6 +11412,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -11929,6 +12003,10 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
     'template_variables' => [
         'company_name' => '{{company_name}}',
         'team_name' => '{{team_name}}',
@@ -12124,6 +12202,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -12274,10 +12353,13 @@ return [
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
 ];
 =======
 ]; 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13084,3 +13166,8 @@ return [
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+=======
+=======
+];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
