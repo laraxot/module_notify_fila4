@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,6 +60,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Implementazione Tailwind CSS nel Modulo Notify
 
 ## 1. Configurazione Base
@@ -459,6 +462,7 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -529,10 +533,13 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 =======
 >>>>>>> 3d462363 (rebase 210)
 =======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md). 
+<<<<<<< HEAD
 >>>>>>> bf479cc (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -765,3 +772,6 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
+>>>>>>> 4fc21b78 (rebase 210)

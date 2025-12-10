@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,6 +60,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -224,6 +227,7 @@ Log::debug('SMS Debug', [
 ### 2. Risorse Utili
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -545,10 +549,13 @@ Log::debug('SMS Debug', [
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Logging](https://laravel.com/docs/logging)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -577,6 +584,8 @@ Log::debug('SMS Debug', [
 =======
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 
 ## Supporto
 
@@ -606,6 +615,7 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,3 +681,5 @@ Log::debug('SMS Debug', [
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)

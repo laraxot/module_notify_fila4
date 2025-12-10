@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming per Filament 
 
 <<<<<<< HEAD
@@ -231,10 +232,13 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Convenzioni di Naming per Filament 
 
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema , con particolare attenzione alle pagine e alle risorse.
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4fc21b78 (rebase 210)
@@ -430,6 +434,8 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 =======
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
 >>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 
 ## Convenzioni di Naming per Pagine Filament
 
@@ -592,6 +598,7 @@ Prima di ogni commit, verificare che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -638,3 +645,5 @@ Prima di ogni commit, verificare che:
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)

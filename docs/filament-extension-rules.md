@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,6 +60,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale
@@ -118,6 +121,7 @@ class SendSMSPage extends XotBasePage
 Per verificare che tutte le classi seguano questa regola:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,12 +378,15 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4fc21b78 (rebase 210)
@@ -472,3 +479,5 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)

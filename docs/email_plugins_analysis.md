@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -65,6 +66,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica
@@ -223,6 +226,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -311,6 +315,9 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> fdb24863 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
     {
         return $form->schema([
             Card::make()->schema([
@@ -452,6 +459,7 @@ class MailAnalytics
 
 ## Vedi Anche
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1186,3 +1194,7 @@ class MailAnalytics
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Mail](https://laravel.com/project_docs/mail)
+- [Spatie Packages](https://spatie.be/open-source) 
+>>>>>>> 4fc21b78 (rebase 210)

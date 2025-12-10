@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -65,6 +66,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Test Sistema Email - il progetto
 
 ## Panoramica
@@ -489,6 +492,7 @@ class TestData
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1304,3 +1308,8 @@ class TestData
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+- [Laravel Testing](https://laravel.com/project_docs/testing)
+- [PHPUnit](https://phpunit.de/)
+- [Laravel Dusk](https://laravel.com/project_docs/dusk) 
+>>>>>>> 4fc21b78 (rebase 210)

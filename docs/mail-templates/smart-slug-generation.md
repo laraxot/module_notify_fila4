@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,10 +60,13 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Generazione Intelligente di Slug in Filament
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -440,6 +444,10 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 =======
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> fcaebc79 (rebase 210)
+=======
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di , in particolare per la gestione dei template email.
+Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
+>>>>>>> 4fc21b78 (rebase 210)
 
 ## Concetto Base
 
@@ -693,6 +701,7 @@ L'implementazione di una generazione intelligente di slug per i template email m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 =======
 Per il modulo Notify di , questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
@@ -995,6 +1004,10 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 =======
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> fcaebc79 (rebase 210)
+=======
+Per il modulo Notify di , questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
+>>>>>>> 4fc21b78 (rebase 210)
 
 ## Riferimenti
 
@@ -1003,6 +1016,7 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 - [Implementazione Modello con Slug](./MODEL_SLUG_IMPLEMENTATION.md)
 - [Componente TitleWithSlug](./TITLE_WITH_SLUG_COMPONENT.md)
 - [Miglioramenti UI/UX per Slug](./UI_UX_ENHANCEMENTS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1068,3 +1082,5 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)

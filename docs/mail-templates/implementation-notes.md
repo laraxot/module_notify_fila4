@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,6 +60,8 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -165,6 +168,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -475,6 +479,11 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> fcaebc79 (rebase 210)
+=======
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+>>>>>>> 4fc21b78 (rebase 210)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
@@ -554,6 +563,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -864,6 +874,11 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> fcaebc79 (rebase 210)
+=======
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+           'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
+>>>>>>> 4fc21b78 (rebase 210)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -1029,6 +1044,7 @@ Output: [name] [email] [company] [date] (come badge blu)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1075,3 +1091,5 @@ Output: [name] [email] [company] [date] (come badge blu)
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)

@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,8 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 # Test Sistema Email - il progetto
 
 ## Panoramica
@@ -595,6 +598,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
@@ -801,12 +805,15 @@ class TestData
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/project_docs/dusk) 
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -884,3 +891,5 @@ class TestData
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
