@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +218,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 2a97406c (.)
@@ -239,6 +241,8 @@
 =======
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -729,6 +733,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -885,6 +890,7 @@ class TemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> f3086887 (rebase 210)
@@ -1028,6 +1034,11 @@ class TemplateResource extends Resource
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1510,6 +1521,7 @@ class TemplateControllerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -1727,6 +1739,7 @@ class TemplateControllerTest extends TestCase
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -1743,6 +1756,10 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
@@ -1750,6 +1767,7 @@ class TemplateControllerTest extends TestCase
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1873,6 +1891,8 @@ class TemplateControllerTest extends TestCase
 =======
 >>>>>>> 2a97406c (.)
 =======
+=======
+>>>>>>> 74eb2e964 (.)
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 4f042b88 (.)
@@ -1884,6 +1904,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
@@ -2017,3 +2038,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)

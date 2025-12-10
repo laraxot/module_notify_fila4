@@ -402,6 +402,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -410,6 +411,8 @@ return [
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
     'from' => env('SMS_FROM', '<nome progetto>'),
 =======
 =======
@@ -1001,6 +1004,7 @@ return [
     'from' => env('SMS_FROM', '<nome progetto>'),
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 229a065a (rebase 210)
@@ -1574,6 +1578,8 @@ return [
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
@@ -1846,6 +1852,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -1854,6 +1861,8 @@ return [
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 =======
@@ -2445,6 +2454,7 @@ return [
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 229a065a (rebase 210)
@@ -3018,6 +3028,8 @@ return [
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
         'twilio' => [
@@ -3347,6 +3359,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -3355,6 +3368,8 @@ SMS_FROM=<nome progetto>
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 SMS_FROM=<nome progetto>
 =======
 =======
@@ -3946,6 +3961,7 @@ SMS_FROM=SaluteOra
 SMS_FROM=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 229a065a (rebase 210)
@@ -4519,6 +4535,8 @@ SMS_FROM=<nome progetto>
 SMS_FROM=SaluteOra
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 SMS_RETRY_ATTEMPTS=3
 SMS_RETRY_DELAY=60
 
@@ -4782,6 +4800,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -4790,6 +4809,8 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 NETFUN_SENDER=<nome progetto>
 =======
 =======
@@ -5381,6 +5402,7 @@ NETFUN_SENDER=SaluteOra
 NETFUN_SENDER=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 229a065a (rebase 210)
@@ -5954,6 +5976,8 @@ NETFUN_SENDER=<nome progetto>
 NETFUN_SENDER=SaluteOra
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Twilio

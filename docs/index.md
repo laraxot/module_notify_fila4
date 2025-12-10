@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -100,6 +101,8 @@
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -265,6 +268,8 @@
 =======
 >>>>>>> 712617d3 (.)
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> 94c68e2 (.)
@@ -277,7 +282,9 @@
 =======
 =======
 >>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e627c3b (.)
@@ -307,6 +314,14 @@
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 74eb2e964 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -362,6 +377,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +651,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -1868,6 +1886,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 <<<<<<< HEAD
 >>>>>>> bd804d67 (.)
 =======
@@ -2000,6 +2020,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 10b3b08 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
 >>>>>>> bd804d67 (.)
 =======
 =======
@@ -2009,6 +2032,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> bf479cc (.)
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2079,6 +2103,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> bd804d67 (.)
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2125,6 +2151,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2145,6 +2172,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -2169,6 +2198,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 36136dcfa (.)
 =======
@@ -2179,6 +2209,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
 - [Documentazione Generale PTV](../../../../docs/README.md)
@@ -2188,10 +2220,13 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 >>>>>>> 31f5d28f (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -2269,10 +2304,13 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> bd22fd4 (.)
 =======
@@ -2289,6 +2327,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 467a2e4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
 >>>>>>> 712617d3 (.)
 =======
 =======
@@ -2297,6 +2338,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
@@ -2334,6 +2376,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -2367,10 +2411,13 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 4f042b88 (.)
 =======
@@ -2382,6 +2429,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
@@ -2406,6 +2454,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 
 >>>>>>> bf479cc (.)
 =======
@@ -2499,6 +2549,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> bf479cc (.)
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
@@ -2546,6 +2597,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 467a2e4 (.)
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -2720,6 +2773,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2743,6 +2797,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 731b801a8 (.)
 =======
+>>>>>>> 74eb2e964 (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -2765,12 +2821,18 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 712617d3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 74eb2e964 (.)
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> e627c3b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -2782,6 +2844,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 
 >>>>>>> bf479cc (.)
 =======
@@ -3759,6 +3823,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -3832,9 +3897,12 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 712617d3 (.)
 =======
+>>>>>>> f3086887 (rebase 210)
+=======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e627c3b (.)
 =======
@@ -3850,6 +3918,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> e627c3b (.)
+=======
+>>>>>>> 74eb2e964 (.)
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
@@ -5142,10 +5214,14 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 909e45af (.)
 =======
@@ -5168,6 +5244,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -6172,8 +6250,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> bf479cc (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 74eb2e964 (.)
 >>>>>>> 2fdda20 (.)
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
@@ -6273,6 +6354,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 10b3b08 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 74eb2e964 (.)
 >>>>>>> bd804d67 (.)
 =======
 =======
@@ -6282,6 +6366,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
@@ -6518,3 +6603,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> bd804d67 (.)
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 74eb2e964 (.)
