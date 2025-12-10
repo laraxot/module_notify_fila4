@@ -123,4 +123,65 @@ Sono state analizzate le principali soluzioni open source, best practice e patte
 
 ---
 
+<<<<<<< HEAD
 _Analisi aggiornata al 2025-05-05. Per dettagli e approfondimenti, consultare i README specifici delle soluzioni nella cartella email-templates._
+=======
+class TemplateResource extends Resource
+{
+    protected static function getNavigationGroup(): ?string
+    {
+        return __('notify::navigation.group');
+    }
+}
+```
+
+### 2. Form Builder
+```php
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+{
+    return $form->schema([
+        TextInput::make('name')
+            ->required()
+            ->translateLabel(),
+        RichEditor::make('content')
+            ->required()
+            ->translateLabel()
+    ]);
+}
+```
+
+## Raccomandazioni
+
+1. **Architettura**
+   - Utilizzare un sistema ibrido (database + files)
+   - Implementare caching per le performance
+   - Separare logica e presentazione
+
+2. **Sicurezza**
+   - Sanitizzare input
+   - Validare template
+   - Implementare rate limiting
+
+3. **Performance**
+   - Caching dei template
+   - Ottimizzazione query
+   - Compressione assets
+
+4. **Manutenibilità**
+   - Documentazione completa
+   - Test automatizzati
+   - Versioning dei template
+
+## Collegamenti Utili
+
+- [Documentazione Laravel Mail](https://laravel.com/docs/mail)
+- [MJML Documentation](https://mjml.io/documentation/)
+- [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
+- [Filament Documentation](https://filamentphp.com/docs)
+
+## Note
+- Mantenere aggiornata la documentazione
+- Testare su diversi client email
+- Monitorare le performance
+- Implementare logging appropriato 
+>>>>>>> 7b1ccd1 (.)
