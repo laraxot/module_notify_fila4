@@ -356,6 +356,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -684,6 +685,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 52cd5f85 (rebase 210)
 =======
@@ -1081,6 +1083,8 @@ declare(strict_types=1);
 >>>>>>> f3c06ccdd (.)
 =======
 >>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1780,6 +1784,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -2751,6 +2758,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -2773,6 +2781,8 @@ return array (
 >>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> 7a9167faf (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3171,6 +3181,7 @@ return array (
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 52cd5f85 (rebase 210)
 =======
@@ -3703,6 +3714,8 @@ return array (
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
 >>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
         'marketing' => 'Marketing',
         'transactional' => 'Transazionale',
         'notification' => 'Notifica',
@@ -3961,6 +3974,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4314,6 +4328,7 @@ return array (
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 52cd5f85 (rebase 210)
 =======
@@ -4811,6 +4826,8 @@ return array (
 >>>>>>> f3c06ccdd (.)
 =======
 >>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
     ],
     'placeholders' => [
         'email_template' => 'Seleziona un template email predefinito',
@@ -5075,6 +5092,9 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
@@ -6045,6 +6065,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -6067,6 +6088,8 @@ return array (
 >>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 69f695548 (.)
+=======
+>>>>>>> 7a9167faf (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6439,6 +6462,7 @@ return array (
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 52cd5f85 (rebase 210)
 =======
@@ -6973,3 +6997,5 @@ return array (
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
 >>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)

@@ -854,6 +854,7 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 =======
 <<<<<<< HEAD
@@ -865,10 +866,22 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
 =======
+=======
+>>>>>>> 7a9167faf (.)
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 1375c94d (rebase 210)
+>>>>>>> 7a9167faf (.)
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
 <<<<<<< HEAD
 >>>>>>> 4fc21b78 (rebase 210)
@@ -1926,6 +1939,7 @@ VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2151,6 +2165,9 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
 =======
 VONAGE_SMS_FROM=<nome progetto>
 =======
@@ -2159,6 +2176,7 @@ VONAGE_SMS_FROM=<nome progetto>
 VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 =======
 VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> 52cd5f85 (rebase 210)
@@ -2440,6 +2458,8 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> 47a873f13 (.)
 =======
 >>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 =======

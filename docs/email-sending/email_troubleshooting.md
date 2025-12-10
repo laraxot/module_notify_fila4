@@ -317,6 +317,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -373,6 +374,8 @@ $attachments = [
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 5d49e093a (.)
+=======
+>>>>>>> 7a9167faf (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,6 +590,7 @@ $attachments = [
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
@@ -604,6 +608,8 @@ $attachments = [
 =======
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 7a9167faf (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -629,8 +635,11 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 7a9167faf (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -648,10 +657,13 @@ $attachments = [
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> eea68ec9 (.)
 =======
+=======
+>>>>>>> 7a9167faf (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -669,6 +681,9 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7a9167faf (.)
 >>>>>>> 207ac35e (.)
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
@@ -969,6 +984,7 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 1375c94d (rebase 210)
@@ -1844,6 +1860,10 @@ $attachments = [
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 5d49e093a (.)
+=======
+=======
+>>>>>>> 1375c94d (rebase 210)
+>>>>>>> 7a9167faf (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],
