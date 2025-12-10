@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> 75179b855 (.)
@@ -27,6 +28,8 @@
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
@@ -41,6 +44,7 @@
 #### 3. Testing Non Riutilizzabile
 - Test che utilizzano `User::factory()` invece di `XotData::make()->getUserClass()`
 - Configurazioni database hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,11 +67,14 @@
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
 - Riferimenti diretti a modelli SaluteOra
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
 ### Riusabilità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,6 +97,8 @@
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
@@ -104,6 +113,7 @@
 // Pattern da applicare a TUTTI i test
 // ❌ PRIMA
 $user = User::factory()->create();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +136,8 @@ $user = User::factory()->create();
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
 'database' => 'saluteora_test'
 
 // ✅ DOPO

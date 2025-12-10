@@ -178,6 +178,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -250,10 +251,13 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> 7325acf3 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -644,6 +648,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -883,6 +889,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1272,6 +1279,8 @@ class SmsFactorData extends Data
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> 7325acf3 (.)
+=======
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -1307,6 +1316,7 @@ class SmsFactorData extends Data
 >>>>>>> b93ef594b4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1324,6 +1334,8 @@ class SmsFactorData extends Data
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 7325acf3 (.)
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -1416,6 +1428,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2013,6 +2026,10 @@ class SmsFactorData extends Data
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -2222,6 +2239,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2556,6 +2574,10 @@ class SmsFactorData extends Data
                     'Cache-Control' => 'no-cache',
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+                    'Cache-Control' => 'no-cache',
+=======
+>>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2570,6 +2592,7 @@ class SmsFactorData extends Data
                     'Cache-Control' => 'no-cache'
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3218,6 +3241,8 @@ class SmsFactorData extends Data
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> ba564870 (.)
+=======
+>>>>>>> 7325acf3 (.)
                 ];
         }
     }

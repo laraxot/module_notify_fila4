@@ -182,6 +182,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -574,6 +575,8 @@
 # Collegamento alle Traduzioni del Modulo Notify
 
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 7325acf3 (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -751,6 +754,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -985,6 +989,9 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 7325acf3 (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/project_docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -1072,6 +1079,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1494,6 +1502,9 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> ca10d6ad (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
 
 > Aggiorna entrambi i riferimenti se aggiungi nuove chiavi di traduzione o modifichi la struttura.
 
@@ -1676,6 +1687,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -2010,6 +2022,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> ca10d6ad (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 7325acf3 (.)
 * [lang-link.md](../../../Chart/docs/lang-link.md)
 * [lang-link.md](../../../Reporting/docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/docs/lang-link.md)
@@ -2024,6 +2038,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Activity/docs/lang-link.md)
 * [lang-link.md](../../../Patient/docs/lang-link.md)
 * [lang-link.md](../../../Cms/docs/lang-link.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2411,6 +2426,9 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+=======
+>>>>>>> 7325acf3 (.)
 * [lang-link.md](../../../Chart/project_docs/lang-link.md)
 * [lang-link.md](../../../Reporting/project_docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/project_docs/lang-link.md)
@@ -2425,6 +2443,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Activity/project_docs/lang-link.md)
 * [lang-link.md](../../../Patient/project_docs/lang-link.md)
 * [lang-link.md](../../../Cms/project_docs/lang-link.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2852,6 +2871,9 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
 
 =======
 >>>>>>> 5fd545e4 (.)

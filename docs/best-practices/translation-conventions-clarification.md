@@ -51,6 +51,7 @@ Dopo un'analisi approfondita, è stato determinato che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
 >>>>>>> 75179b855 (.)
@@ -66,6 +67,8 @@ Dopo un'analisi approfondita, è stato determinato che:
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
    - Questa eccezione è documentata e intenzionale
 
@@ -110,6 +113,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
 >>>>>>> 75179b855 (.)
@@ -125,6 +129,8 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 7325acf3 (.)
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
 
 ## Riferimenti
