@@ -88,6 +88,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -668,6 +669,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> d298dd9c2 (.)
 
 <<<<<<< HEAD
 use Illuminate\Support\Facades\File;
@@ -832,6 +835,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
 =======
+<<<<<<< HEAD
     expect($content)
 <<<<<<< HEAD
 >>>>>>> a29a4728 (.)
@@ -843,6 +847,10 @@ test('html template contains optional function', function (): void {
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+=======
+>>>>>>> 1fd232c (.)
+>>>>>>> d298dd9c2 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
@@ -1079,6 +1087,7 @@ test('html template contains optional function', function (): void {
 
     // Verifico che contiene la funzione optional per body_html
     expect($content)
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 <<<<<<< HEAD
 >>>>>>> 7bac387 (.)
@@ -1139,10 +1148,13 @@ test('html template contains optional function', function (): void {
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> d298dd9c2 (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2456,6 +2468,8 @@ test('sunny template contains optional function', function (): void {
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> d298dd9c2 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -3887,5 +3901,8 @@ test('ark template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 });
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> d298dd9c2 (.)

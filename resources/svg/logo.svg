@@ -228,6 +228,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -549,6 +550,8 @@
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> d298dd9c2 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 160 160"
@@ -1161,6 +1164,8 @@
 >>>>>>> 9777d1b (.)
 =======
 >>>>>>> f963d2c (.)
+=======
+>>>>>>> 1fd232c (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -1256,6 +1261,7 @@
         <circle cx="12" cy="12" r="8" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 6" />
         <circle cx="12" cy="12" r="12" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 8" />
     </g>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0db165c (.)
 >>>>>>> 4ad63a5 (.)
@@ -3973,6 +3979,8 @@
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> d298dd9c2 (.)
 </svg>
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
