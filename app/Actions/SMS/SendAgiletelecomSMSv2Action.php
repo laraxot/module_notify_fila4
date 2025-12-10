@@ -104,6 +104,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -413,6 +414,7 @@ use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -551,16 +553,24 @@ use Modules\Notify\Contracts\SmsActionContract;
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SmsActionContract;
+=======
+>>>>>>> 7ceb00286 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
@@ -1399,8 +1409,11 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
  *
 =======
@@ -1417,6 +1430,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b8 (.)
@@ -1455,6 +1469,8 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
  * @see https://agiletelecom.com/docs/protocollo-http-post-e-get/
  */
 class SendAgiletelecomSMSv2Action implements SmsActionContract
@@ -1462,6 +1478,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1871,6 +1888,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 58816034 (.)
@@ -1921,6 +1939,11 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function execute(SmsData $data): array
     {
         $agile = AgiletelecomData::make();
@@ -2586,8 +2609,11 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             //'globalId' => $data->reference ?? uniqid('sms_', true),
             //'maxIdLen' => 64,
             //'enableConcatenated' => true,
@@ -2597,6 +2623,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2607,6 +2634,10 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             // 'globalId' => $data->reference ?? uniqid('sms_', true),
             // 'maxIdLen' => 64,
             // 'enableConcatenated' => true,
@@ -2818,6 +2849,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2891,6 +2923,8 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -3265,7 +3299,13 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
                     //'hexBody' => false,
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                 ],
             ],
         ];
@@ -3484,6 +3524,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         // "{"globalId":"5a56f05b-a48c-41db-8fc2-063b53368e89","processedMessages":1,"processedSmsParts":1,"credit":9530.73}
 
@@ -4116,6 +4157,12 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+        // dddx($response->body());
+=======
+        //dddx($response->body());
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
         return [];
     }

@@ -2601,6 +2601,7 @@ class NotificationTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -2612,10 +2613,13 @@ class NotificationTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $notification = new Notification();
@@ -2647,6 +2651,8 @@ class NotificationTest extends TestCase
         $notification = new Notification();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedFillable = [
             'message',
@@ -2670,6 +2676,7 @@ class NotificationTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -2681,10 +2688,13 @@ class NotificationTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $notification = new Notification;
 =======
         $notification = new Notification();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $notification = new Notification();
@@ -2716,6 +2726,8 @@ class NotificationTest extends TestCase
         $notification = new Notification();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',

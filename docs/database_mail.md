@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -133,6 +134,7 @@
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -191,6 +193,8 @@
 =======
 >>>>>>> 4f3927d7 (.)
 >>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -442,6 +446,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -564,6 +569,7 @@ class EmailTemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
@@ -660,6 +666,11 @@ class EmailTemplateResource extends Resource
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1134,6 +1145,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2029,6 +2041,7 @@ class ProcessDoctorModerationAction
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -2354,6 +2367,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -2414,6 +2429,7 @@ Cordiali saluti,<br>
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4140,6 +4156,7 @@ Cordiali saluti,<br>
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -5060,3 +5077,10 @@ Cordiali saluti,<br>
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
 >>>>>>> 763771402 (.)
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+- [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
+- [TinyMCE](https://www.tiny.cloud)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

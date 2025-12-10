@@ -1949,6 +1949,7 @@ interface TelegramProviderActionInterface
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param TelegramData $telegramData I dati del messaggio Telegram
 =======
 <<<<<<< HEAD
@@ -1960,10 +1961,13 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
 =======
      * @param TelegramData $telegramData I dati del messaggio Telegram
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
      * @param  TelegramData  $telegramData  I dati del messaggio Telegram
@@ -1971,6 +1975,8 @@ interface TelegramProviderActionInterface
      * @param TelegramData $telegramData I dati del messaggio Telegram
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(TelegramData $telegramData): array;

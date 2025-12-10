@@ -13,6 +13,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -28,6 +31,7 @@
 =======
 >>>>>>> 731b801a8 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> ce1853afd (.)
@@ -41,6 +45,10 @@
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -109,6 +117,34 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+>>>>>>> 7ceb00286 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -238,7 +274,33 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> d9e649ac3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+=======
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+=======
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 
 ## Sottocartelle
 
@@ -264,6 +326,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> 7ceb00286 (.)
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
@@ -275,6 +343,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
@@ -304,6 +373,9 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -342,6 +414,18 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+>>>>>>> 7ceb00286 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -567,6 +651,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d9e649ac3 (.)
 =======
+<<<<<<< HEAD
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)

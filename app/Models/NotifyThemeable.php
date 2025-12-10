@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
@@ -20,6 +21,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Carbon;
 >>>>>>> b94a5f6 (.)
 use Modules\Xot\Contracts\ProfileContract;
@@ -110,6 +113,7 @@ use Illuminate\Support\Carbon;
 use Modules\Xot\Models\BaseMorphPivot;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -164,10 +168,13 @@ use Illuminate\Support\Carbon;
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
 =======
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 use Illuminate\Database\Eloquent\Builder;
@@ -184,6 +191,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 /**
  * Modules\Notify\Models\NotifyThemeable.
@@ -196,6 +205,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,10 +252,13 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
@@ -429,6 +442,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -440,6 +455,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|NotifyThemeable whereNotifyThemeId($value)
  * @method static Builder|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder|NotifyThemeable whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -482,14 +498,22 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+=======
+ * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
+ * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD

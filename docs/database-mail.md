@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,6 +83,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -169,6 +171,8 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -414,6 +418,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -522,6 +527,7 @@ class EmailTemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
@@ -611,6 +617,11 @@ class EmailTemplateResource extends Resource
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -806,6 +817,7 @@ class ProcessDoctorModerationAction
 ```html
 <x-mail::message>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -924,6 +936,11 @@ class ProcessDoctorModerationAction
 
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+=======
+
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -984,6 +1001,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2079,6 +2097,7 @@ Cordiali saluti,<br>
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -2435,3 +2454,8 @@ Cordiali saluti,<br>
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

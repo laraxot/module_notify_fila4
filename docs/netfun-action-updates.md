@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Aggiornamenti a SendNetfunSMSAction
 
 ## Panoramica delle Modifiche
@@ -161,6 +167,7 @@
 <<<<<<< HEAD
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto <nome progetto> e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,6 +819,7 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto  e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> 9cf0dc90 (.)
@@ -1001,6 +1009,8 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 ## 1. Correzioni alla Configurazione
 
@@ -1456,6 +1466,7 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto <nome progetto> e con i pattern di configurazione standardizzati.
 =======
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto  e con i pattern di configurazione standardizzati.
@@ -1958,6 +1969,7 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto  e con i pattern di configurazione standardizzati.
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
 >>>>>>> 9cf0dc90 (.)
@@ -2147,6 +2159,8 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 Questi miglioramenti garantiscono:
 1. Maggiore manutenibilità del codice
@@ -2158,6 +2172,7 @@ Questi miglioramenti garantiscono:
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2263,6 +2278,8 @@ Questi miglioramenti garantiscono:
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2286,6 +2303,7 @@ Questi miglioramenti garantiscono:
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2340,3 +2358,7 @@ Questi miglioramenti garantiscono:
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

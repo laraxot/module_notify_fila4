@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -53,10 +54,13 @@
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Regola Critica: Mai Hardcodare Nomi di Progetto nei Moduli Riutilizzabili
 
 ## Problema Identificato
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +268,10 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 =======
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 >>>>>>> 3808094f6 (.)
+=======
+Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
+Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
+>>>>>>> 7ceb00286 (.)
 
 ## Impatto del Problema
 
@@ -339,17 +347,21 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 'subject' => 'Benvenuto su ',
 'content' => 'Grazie per esserti registrato su ',
 'clinic_name' => 'Studio Dentistico ',
 'webhook' => 'https://api.<nome progetto>.com/webhooks',
 'author' => 'Team PTVX',
 'path' => '/var/www/html/_bases/base_ptvx_fila3_mono/public_html/images/',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b855 (.)
@@ -477,12 +489,15 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 'subject' => 'Benvenuto su SaluteOra',
 'content' => 'Grazie per esserti registrato su SaluteOra',
 'clinic_name' => 'Studio Dentistico SaluteOra',
 'webhook' => 'https://api.saluteora.com/webhooks',
 'author' => 'Team SaluteOra',
 'path' => '/var/www/html/saluteora/public_html/images/',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,6 +765,9 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/',
+>>>>>>> 7ceb00286 (.)
 ```
 
 ## Soluzioni Implementate
@@ -804,6 +822,7 @@ $notificationData = [
 - **Media**: Gestione media per qualsiasi progetto
 
 ### Moduli Specifici del Progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1011,6 +1030,10 @@ $notificationData = [
 =======
 - **SaluteOra**: Solo per progetto SaluteOra
 >>>>>>> 3808094f6 (.)
+=======
+- ****: Solo per progetto 
+- **SaluteOra**: Solo per progetto SaluteOra
+>>>>>>> 7ceb00286 (.)
 - **SaluteMo**: Solo per progetto SaluteMo
 - **Patient**: Solo per progetti sanitari specifici
 
@@ -1093,15 +1116,19 @@ Eseguire regolarmente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 grep -r "<nome progetto>\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/UI/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b855 (.)
@@ -1229,10 +1256,13 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 grep -r "saluteora\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/UI/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/Xot/ --include="*.php"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1267,6 +1297,8 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 ```
 
 ## Configurazione per Progetti
@@ -1336,16 +1368,20 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 COMPANY_NAME=
 COMPANY_TEAM=Team 
 WEBHOOK_BASE_URL=https://api.<nome progetto>.com
 CLINIC_NAME=Studio Dentistico 
 REPOSITORY_URL=https://github.com/<nome progetto>/notify
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b855 (.)
@@ -1473,11 +1509,14 @@ REPOSITORY_URL=https://github.com/<nome progetto>/notify
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 COMPANY_NAME=SaluteOra
 COMPANY_TEAM=Team SaluteOra
 WEBHOOK_BASE_URL=https://api.saluteora.com
 CLINIC_NAME=Studio Dentistico SaluteOra
 REPOSITORY_URL=https://github.com/saluteora/notify
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1514,6 +1553,8 @@ REPOSITORY_URL=https://github.com/<nome progetto>/notify
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 ```
 
 ### Override per Progetti Specifici
@@ -1544,6 +1585,7 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 ---
 
 **Questa correzione è CRITICA per mantenere l'architettura modulare del sistema. Ogni violazione deve essere corretta immediatamente.**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1600,3 +1642,5 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)

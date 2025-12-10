@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Implementazione SMS : Guida Dettagliata
 
 Questa documentazione fornisce una guida dettagliata all'implementazione delle notifiche SMS , con confronto tra diversi provider e best practices specifiche per il contesto italiano.
@@ -439,6 +445,7 @@ return [
 <<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -969,6 +976,7 @@ return [
         'sender' => env('SMSHOSTING_SENDER', ''),
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> 9cf0dc90 (.)
@@ -1281,6 +1289,8 @@ return [
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     ],
 ];
 ```
@@ -1887,6 +1897,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
@@ -1902,6 +1913,7 @@ public function toTwilio($notifiable)
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1918,6 +1930,8 @@ public function toTwilio($notifiable)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
         ->content(": Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
@@ -1934,10 +1948,13 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b85 (.)
 =======
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
@@ -2559,6 +2576,7 @@ public function toTwilio($notifiable)
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
@@ -2734,6 +2752,8 @@ public function toTwilio($notifiable)
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 }
 ```
 
@@ -2797,6 +2817,7 @@ class ConsentLog extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2892,6 +2913,8 @@ class ConsentLog extends Model
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2915,6 +2938,7 @@ class ConsentLog extends Model
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2969,3 +2993,7 @@ class ConsentLog extends Model
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

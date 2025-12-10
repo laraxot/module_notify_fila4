@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -84,6 +85,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -176,6 +178,10 @@
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Utilizzo di PHPStan nel Progetto <nome progetto>
 
 ## Esecuzione di PHPStan
@@ -297,6 +303,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 <<<<<<< HEAD
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1334,6 +1341,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 * [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 >>>>>>> 9cf0dc90 (.)
@@ -1728,6 +1736,8 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 >>>>>>> cccb594f (.)
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 
 ### Versione Incoming
@@ -1735,6 +1745,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1854,6 +1865,8 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 >>>>>>> 602b8a0a9 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1883,6 +1896,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1943,3 +1957,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

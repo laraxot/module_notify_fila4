@@ -132,6 +132,7 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (! is_string($token)) {
 >>>>>>> 98d837b9 (.)
@@ -199,6 +200,8 @@ class NetfunSendAction
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -919,7 +922,16 @@ class NetfunSendAction
         if (!is_string($token)) {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+        if (! is_string($token)) {
+=======
+        if (!is_string($token)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -942,6 +954,7 @@ class NetfunSendAction
         if (Str::startsWith($smsData->to, '00')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -951,11 +964,14 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -967,6 +983,8 @@ class NetfunSendAction
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             $smsData->to = '+39'.mb_substr($smsData->to, 2);
 >>>>>>> f1c9518b (.)
         }
@@ -1274,6 +1292,7 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f15c41e60 (.)
 =======
@@ -1303,6 +1322,13 @@ class NetfunSendAction
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
         }
 
@@ -1338,6 +1364,7 @@ class NetfunSendAction
             $smsData->to = '+39' . $smsData->to;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1346,6 +1373,8 @@ class NetfunSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -1432,7 +1461,13 @@ class NetfunSendAction
             $smsData->to = '+39' . $smsData->to;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         }
 
         $body = [
@@ -4130,6 +4165,7 @@ class NetfunSendAction
 >>>>>>> 8c19c8df2 (.)
             throw new Exception(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -4160,7 +4196,16 @@ class NetfunSendAction
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                 $clientException->getCode(),
                 $clientException,
             );

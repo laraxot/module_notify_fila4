@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Architettura delle Interfacce (Contracts) in Notify
 
 ## Principi Architetturali Fondamentali
@@ -166,6 +172,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 ✅ CORRETTO:
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -388,6 +395,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -414,6 +423,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -424,6 +434,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -441,10 +453,13 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -523,6 +538,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -696,6 +712,10 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -804,6 +824,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -854,6 +875,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -959,6 +982,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1032,11 +1056,16 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,6 +1152,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1510,6 +1541,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -1855,6 +1887,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 ```
 
 ### 2. Namespace Unificati per le Interfacce
@@ -2047,6 +2081,7 @@ SendSmsInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -2440,6 +2475,7 @@ SendSmsInterface
 /var/www/html/saluteora/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 9cf0dc90 (.)
@@ -2758,6 +2794,8 @@ SendSmsInterface
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 ├── app/
 │   ├── Actions/
 │   │   ├── Email/
@@ -2792,6 +2830,7 @@ SendSmsInterface
 2. Normalizzare tutte le implementazioni per utilizzare `SmsProviderActionInterface`
 3. Rimuovere tutti i riferimenti obsoleti alle interfacce non corrette
 4. Aggiornare documentazione e implementazioni per riflettere questa architettura
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2897,6 +2936,8 @@ SendSmsInterface
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2920,6 +2961,7 @@ SendSmsInterface
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2974,3 +3016,7 @@ SendSmsInterface
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

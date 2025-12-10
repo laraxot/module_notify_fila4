@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -81,6 +82,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -166,6 +168,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Implementazione Canale Netfun
 
 ## 1. Struttura Base
@@ -789,6 +793,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,6 +1617,7 @@ SMS_FROM_NAME=<nome progetto>
 =======
 >>>>>>> cca10a64 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -2189,6 +2195,11 @@ SMS_FROM_NAME=SaluteOra
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+SMS_FROM_NAME=<nome progetto>
+SMS_FROM_NAME=SaluteOra
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -2596,6 +2607,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2676,6 +2688,7 @@ Log::info('SMS inviato', [
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -2853,6 +2866,8 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> e790eb33 (.)
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 7ceb00286 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -3105,6 +3120,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 =======
@@ -3587,6 +3603,7 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -3851,6 +3868,10 @@ Log::info('SMS inviato', [
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -3859,6 +3880,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4860,6 +4882,7 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
@@ -5177,3 +5200,8 @@ Log::info('SMS inviato', [
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

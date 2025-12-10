@@ -109,6 +109,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -567,7 +568,13 @@ return new class extends XotBaseMigration
 return new class() extends XotBaseMigration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function up(): void
     {
         $this->tableCreate(function (Blueprint $table): void {
@@ -591,6 +598,7 @@ return new class() extends XotBaseMigration {
         });
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1360,6 +1368,7 @@ return new class () extends XotBaseMigration {
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
@@ -1470,6 +1479,8 @@ return new class () extends XotBaseMigration {
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     }
 };
 =======

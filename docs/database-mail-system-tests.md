@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -82,6 +83,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -169,6 +171,8 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -516,6 +520,7 @@ class MailTemplateSecurityTest extends TestCase
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -634,6 +639,11 @@ class MailTemplateSecurityTest extends TestCase
 
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+=======
+
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -673,6 +683,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1768,6 +1779,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Pest PHP](https://pestphp.com/docs) 
@@ -2124,3 +2136,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

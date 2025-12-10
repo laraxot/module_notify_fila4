@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -81,6 +82,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -166,6 +168,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Sistema di Code per Email - il progetto
 
 ## Panoramica
@@ -358,6 +362,7 @@ $users->each(function ($user) {
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1106,6 +1111,7 @@ $users->each(function ($user) {
 
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1676,6 +1682,10 @@ $users->each(function ($user) {
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -1784,6 +1794,7 @@ $this->call('queue:prune-batches', [
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3474,6 +3485,7 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 =======
 >>>>>>> cca10a64 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -4814,6 +4826,13 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -4897,6 +4916,7 @@ if ($failedJobs > $threshold) {
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5645,6 +5665,7 @@ if ($failedJobs > $threshold) {
 
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -6215,6 +6236,10 @@ if ($failedJobs > $threshold) {
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -6246,6 +6271,7 @@ php artisan queue:restart
 - [Mail Templates](database-mail-templates.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6619,6 +6645,7 @@ php artisan queue:restart
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -6992,6 +7019,10 @@ php artisan queue:restart
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
 ## Vedi Anche
@@ -7000,6 +7031,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 - [Redis Documentation](https://redis.io/documentation)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8249,6 +8281,7 @@ php artisan queue:restart
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> c8b1c8bf (.)
@@ -8547,3 +8580,8 @@ php artisan queue:restart
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+- [Redis Documentation](https://redis.io/documentation)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

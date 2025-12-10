@@ -109,6 +109,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -688,6 +689,11 @@ use Eloquent;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Eloquent;
+=======
+use Modules\Xot\Models\Traits\HasXotFactory;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
@@ -744,6 +750,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -756,6 +763,22 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+=======
+use Override;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotifyThemeFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Eloquent;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Carbon;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -776,6 +799,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
@@ -786,10 +810,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $created_by
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+ * @property string|null $created_by
+=======
+>>>>>>> 7ceb00286 (.)
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -810,6 +839,9 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon|null $updated_at
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
  * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
@@ -851,6 +883,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 8c19c8df2 (.)
  * @property Model|Eloquent $linkable
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1756,7 +1789,9 @@ class NotifyTheme extends BaseModel
 >>>>>>> 7c1c276f (rebase 210)
 class NotifyTheme extends BaseModel
 {
+<<<<<<< HEAD
     /** @var list<string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1768,6 +1803,53 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+=======
+    use HasXotFactory;
+    use InteractsWithMedia;
+
+=======
+ * @property MediaCollection<int, Media> $media
+ * @property int|null $media_count
+ * @method static NotifyThemeFactory factory($count = null, $state = [])
+ * @method static Builder|NotifyTheme newModelQuery()
+ * @method static Builder|NotifyTheme newQuery()
+ * @method static Builder|NotifyTheme query()
+ * @method static Builder|NotifyTheme whereBody($value)
+ * @method static Builder|NotifyTheme whereBodyHtml($value)
+ * @method static Builder|NotifyTheme whereCreatedAt($value)
+ * @method static Builder|NotifyTheme whereCreatedBy($value)
+ * @method static Builder|NotifyTheme whereFrom($value)
+ * @method static Builder|NotifyTheme whereFromEmail($value)
+ * @method static Builder|NotifyTheme whereId($value)
+ * @method static Builder|NotifyTheme whereLang($value)
+ * @method static Builder|NotifyTheme whereLogoHeight($value)
+ * @method static Builder|NotifyTheme whereLogoSrc($value)
+ * @method static Builder|NotifyTheme whereLogoWidth($value)
+ * @method static Builder|NotifyTheme wherePostId($value)
+ * @method static Builder|NotifyTheme wherePostType($value)
+ * @method static Builder|NotifyTheme whereSubject($value)
+ * @method static Builder|NotifyTheme whereTheme($value)
+ * @method static Builder|NotifyTheme whereType($value)
+ * @method static Builder|NotifyTheme whereUpdatedAt($value)
+ * @method static Builder|NotifyTheme whereUpdatedBy($value)
+ * @method static Builder|NotifyTheme whereViewParams($value)
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @mixin Eloquent
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+ * @mixin IdeHelperNotifyTheme
+ * @mixin Eloquent
+ */
+class NotifyTheme extends BaseModel
+{
+    /** @var list<string> */
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     protected $fillable = [
         'id',
         'lang',
@@ -1775,18 +1857,24 @@ class NotifyTheme extends BaseModel
         'subject',
         'body',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
         'body_html',
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         'from',
         'from_email',
         'post_type',
@@ -1796,6 +1884,7 @@ class NotifyTheme extends BaseModel
 =======
         'from_email',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
@@ -1806,12 +1895,15 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
         'body_html',
         'from',
         'from_email',
         'post_type',
         'post_id',
         'theme',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1830,6 +1922,10 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         'logo_src',
         'logo_width',
         'logo_height',
@@ -1837,6 +1933,7 @@ class NotifyTheme extends BaseModel
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1852,12 +1949,15 @@ class NotifyTheme extends BaseModel
 >>>>>>> 5e14ac3 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
     /**
      * @return array{path: string, width: int, height: int}
      */
@@ -1988,6 +2088,9 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(?array $value): array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2727,7 +2830,26 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+=======
+    /** @var list<string> */
+    protected $appends = [
+        'logo',
+    ];
+
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -2749,6 +2871,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3261,6 +3384,7 @@ class NotifyTheme extends BaseModel
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -3387,6 +3511,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     protected function casts(): array
     {
         return [

@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25,13 +26,18 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
@@ -52,6 +58,7 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 use Filament\Panel;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
@@ -83,6 +90,8 @@ use Filament\Panel;
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -102,6 +111,7 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +166,10 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -163,6 +177,22 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendAwsEmailPage extends XotBasePage
+{
+<<<<<<< HEAD
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+=======
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
 use Filament\Notifications\Notification as FilamentNotification;
@@ -181,6 +211,7 @@ class SendAwsEmailPage extends XotBasePage
 {
     public null|array $emailData = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     public ?array $emailData = [];
@@ -195,6 +226,10 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
 >>>>>>> 75179b855 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +409,7 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -511,6 +547,16 @@ class SendAwsEmailPage extends XotBasePage
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+    protected static null|string $cluster = Test::class;
+=======
+<<<<<<< HEAD
+    protected static ?string $cluster = Test::class;
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
     /**
      * Get the slug of the page
@@ -555,6 +601,7 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
         $this->emailForm->fill();
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,6 +829,19 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        // $this->emailForm->fill();
+        // Form data filled;
+=======
+        $this->emailForm->fill();
+    }
+
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     }
 
     public function emailForm(Schema $schema): Schema
@@ -1771,16 +1831,20 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = $this->emailForm->getState();
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         // $data = $this->emailForm->getState();
         $data = $this->data;
 =======
         $data = $this->emailForm->getState();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1795,6 +1859,9 @@ class SendAwsEmailPage extends XotBasePage
         $data = $this->emailForm->getState();
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';
@@ -1962,6 +2029,7 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -2107,6 +2175,16 @@ class SendAwsEmailPage extends XotBasePage
         if (!($user instanceof Model)) {
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+        if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

@@ -38,6 +38,7 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -198,6 +199,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -278,6 +280,10 @@ use Illuminate\Support\Str;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -1197,6 +1203,16 @@ final class SendFacebookWhatsAppAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+    protected bool $debug;
+
+    protected int $timeout;
+
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     private string $accessToken;
 <<<<<<< HEAD
 =======
@@ -1302,6 +1318,7 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 1487fe812 (.)
     private array $vars = [];
+<<<<<<< HEAD
     protected bool $debug;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1310,11 +1327,19 @@ final class SendFacebookWhatsAppAction
 =======
 
 =======
+=======
+=======
+    private string $accessToken;
+>>>>>>> c8b1c8bf (.)
     private string $phoneNumberId;
     private string $baseUrl = 'https://graph.facebook.com/v17.0';
     private array $vars = [];
     protected bool $debug;
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
     protected int $timeout;
@@ -1322,6 +1347,7 @@ final class SendFacebookWhatsAppAction
     protected int $timeout;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     protected int $timeout;
 >>>>>>> 75179b85 (.)
@@ -1330,6 +1356,8 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 
     /**
      * Create a new action instance.
@@ -1358,6 +1386,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
@@ -1365,6 +1394,8 @@ final class SendFacebookWhatsAppAction
 =======
 <<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         if (!is_string($accessToken)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1501,6 +1532,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -1614,6 +1646,10 @@ final class SendFacebookWhatsAppAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             throw new Exception(
                 'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
             );
@@ -2374,6 +2410,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2396,6 +2433,9 @@ final class SendFacebookWhatsAppAction
 =======
 <<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
         if (!is_string($phoneNumberId)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2571,10 +2611,14 @@ final class SendFacebookWhatsAppAction
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
         if (! is_string($phoneNumberId)) {
 =======
         if (!is_string($phoneNumberId)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2642,6 +2686,10 @@ final class SendFacebookWhatsAppAction
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             throw new Exception(
                 'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
             );
@@ -3500,6 +3548,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -3532,6 +3581,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
 =======
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
@@ -3967,6 +4018,7 @@ final class SendFacebookWhatsAppAction
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -4108,11 +4160,14 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     }
 
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
      * @return array<string, mixed> Risultato dell'operazione
@@ -4150,6 +4205,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -4160,6 +4216,8 @@ final class SendFacebookWhatsAppAction
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
      *
@@ -4171,11 +4229,15 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
@@ -4204,6 +4266,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -4676,8 +4740,11 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'Authorization' => 'Bearer ' . $this->accessToken,
 =======
 <<<<<<< HEAD
@@ -4687,14 +4754,20 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
                 'Authorization' => 'Bearer '.$this->accessToken,
 =======
                 'Authorization' => 'Bearer ' . $this->accessToken,
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'Content-Type' => 'application/json',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4977,6 +5050,7 @@ final class SendFacebookWhatsAppAction
             ],
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5581,6 +5655,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
 =======
 <<<<<<< HEAD
@@ -5589,6 +5665,12 @@ final class SendFacebookWhatsAppAction
         $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+        $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
+=======
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6537,6 +6619,7 @@ final class SendFacebookWhatsAppAction
             ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6553,6 +6636,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
@@ -6560,6 +6645,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6576,6 +6662,10 @@ final class SendFacebookWhatsAppAction
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
@@ -6613,11 +6703,22 @@ final class SendFacebookWhatsAppAction
 >>>>>>> f1c9518b (.)
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
+<<<<<<< HEAD
                 'link' => $whatsAppData->media[0],
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+=======
+                'link' => is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '',
+=======
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+            $payload['type'] = 'template';
+            $payload['template'] = $whatsAppData->template;
+        } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+>>>>>>> 7ceb00286 (.)
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
                 'link' => $whatsAppData->media[0],
@@ -7487,6 +7588,9 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
             /** @var array<string, mixed> $responseData */
             $responseData = json_decode($responseContent, true) ?: [];
 =======
@@ -7899,6 +8003,12 @@ final class SendFacebookWhatsAppAction
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
+=======
+            /** @var array{messages?: array<int, array{id?: string}>, errors?: array<int, array{message?: string}>} $responseData */
+=======
+            /** @var array $responseData */
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             $responseData = json_decode($responseContent, true);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9285,7 +9395,10 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
             /** @var array<string, mixed>|null $messages */
             $messages = $responseData['messages'] ?? null;
             /** @var array<string, mixed>|null $firstMessage */
@@ -9295,22 +9408,30 @@ final class SendFacebookWhatsAppAction
                 ? $firstMessage['id']
                 : null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 7ceb00286 (.)
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]['id'])) {
                 $messageId = is_string($responseData['messages'][0]['id']) ? $responseData['messages'][0]['id'] : (string) ($responseData['messages'][0]['id'] ?? '');
             }
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
 <<<<<<< HEAD
                 'message_id' => $messageId,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9641,6 +9762,7 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
             return [
@@ -9712,9 +9834,12 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 7ceb00286 (.)
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
+<<<<<<< HEAD
 >>>>>>> 5fd545e4 (.)
 =======
             return [
@@ -9771,7 +9896,13 @@ final class SendFacebookWhatsAppAction
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -11330,6 +11461,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -11364,6 +11496,8 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             // Extract error message safely
             $errorMessage = 'Errore sconosciuto';
             if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
@@ -11397,6 +11531,7 @@ final class SendFacebookWhatsAppAction
                 'error' => $errorMessage,
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11713,6 +11848,7 @@ final class SendFacebookWhatsAppAction
                 'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
 >>>>>>> 54220b28 (rebase 210)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -11745,10 +11881,13 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             return [
                 'success' => false,
                 'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -11775,6 +11914,9 @@ final class SendFacebookWhatsAppAction
                 'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

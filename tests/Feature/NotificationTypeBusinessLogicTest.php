@@ -147,6 +147,7 @@ use Modules\Notify\Models\NotificationType;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -212,6 +213,7 @@ use Modules\Notify\Helpers\ConfigHelper;
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -334,6 +336,11 @@ use Modules\Notify\Helpers\ConfigHelper;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+use Modules\Notify\Helpers\ConfigHelper;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Models\NotificationType;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4415,6 +4422,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fbed41ac (.)
@@ -4455,6 +4463,8 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4673,11 +4683,15 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
                 'message' => 'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. '.
                         config('app.name', 'Our Platform'),
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce89c8bb (.)
@@ -4947,6 +4961,8 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'message' =>
 
                         'Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
@@ -5051,6 +5067,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5333,6 +5350,7 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -5620,6 +5638,11 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                 'variables' => ['appointment_date', 'appointment_time'],
                 'max_length' => 160,
             ],
@@ -6044,6 +6067,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('emails.appointment-reminder')
             ->and($type->fresh()->templates['sms']['message'])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
 =======
 <<<<<<< HEAD
@@ -6078,6 +6102,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
             ->toBe('Promemoria: appuntamento {{appointment_date}} alle {{appointment_time}}. ' .
 >>>>>>> 75179b85 (.)
@@ -6101,6 +6126,8 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 config('app.name', 'Our Platform'))
             ->and($type->fresh()->templates['sms']['max_length'])
             ->toBe(160)
@@ -11479,6 +11506,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 'delivery_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered',
                 'bounce_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-bounced',
@@ -11516,6 +11544,8 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -11582,10 +11612,13 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
                 'delivery_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-delivered',
                 'bounce_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-bounced',
                 'click_webhook' => 'https://api.'.config('app.domain', 'example.com').'/webhooks/notification-clicked',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11708,6 +11741,8 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -11776,6 +11811,7 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73b (.)
@@ -12034,6 +12070,8 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'delivery_webhook' =>
                     'https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered',
                 'bounce_webhook' =>
@@ -12139,6 +12177,7 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 58816034 (.)
@@ -12177,6 +12216,8 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -12529,6 +12570,7 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
@@ -12881,6 +12923,11 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             ],
             'api_endpoints' => [
                 'send' => 'POST /api/v1/notifications/send',
@@ -13307,6 +13354,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('Firebase')
             ->and($type->fresh()->integrations['webhooks']['delivery_webhook'])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
 =======
 <<<<<<< HEAD
@@ -13341,6 +13389,7 @@ describe('Notification Type Business Logic', function () {
             ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
             ->toBe('https://api.' . config('app.domain', 'example.com') . '/webhooks/notification-delivered')
 >>>>>>> 75179b85 (.)
@@ -13364,6 +13413,8 @@ describe('Notification Type Business Logic', function () {
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             ->and($type->fresh()->integrations['api_endpoints']['send'])
             ->toBe('POST /api/v1/notifications/send')
             ->and($type->fresh()->integrations['third_party']['crm_integration'])

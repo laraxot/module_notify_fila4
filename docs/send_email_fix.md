@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -84,6 +85,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -176,6 +178,10 @@
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -242,6 +248,7 @@ class SendEmail extends XotBasePage
 <<<<<<< HEAD
     public function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,6 +435,7 @@ class SendEmail extends XotBasePage
 =======
     public function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     public function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
@@ -516,6 +524,8 @@ class SendEmail extends XotBasePage
     public function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
 >>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     {
         return $form
             ->schema([
@@ -669,6 +679,7 @@ class SmtpData extends Data
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1786,11 +1797,15 @@ class SmtpData extends Data
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 >>>>>>> cccb594f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
@@ -2547,6 +2562,8 @@ class SmtpData extends Data
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 ## ⚠️ Note Importanti
 
@@ -2566,6 +2583,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
    - Verificare configurazione SMTP 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3007,6 +3025,7 @@ class SmtpData extends Data
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> cccb594f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
    - Verificare configurazione SMTP 
@@ -3484,3 +3503,8 @@ class SmtpData extends Data
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

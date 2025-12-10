@@ -58,6 +58,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -98,6 +99,8 @@ namespace Modules\Notify\Providers;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -248,6 +251,7 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -344,6 +348,13 @@ use Override;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+=======
+use Override;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -1208,6 +1219,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1960,12 +1972,15 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     #[\Override]
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     public function boot(): void
     {
         parent::boot();
@@ -1973,10 +1988,14 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         // if (! app()->environment('production')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
@@ -1984,11 +2003,14 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     #[Override]
     public function boot(): void
     {
         parent::boot();
         //if (! app()->environment('production')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
@@ -2123,6 +2145,10 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 

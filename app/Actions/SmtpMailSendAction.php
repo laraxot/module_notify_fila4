@@ -12,6 +12,7 @@ namespace Modules\Notify\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -23,6 +24,8 @@ namespace Modules\Notify\Actions;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Symfony\Component\Mailer\Mailer;
@@ -30,6 +33,7 @@ use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class SmtpMailSendAction
 {
@@ -40,6 +44,8 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b8 (.)
 class SmtpMailSendAction
 {

@@ -109,6 +109,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -610,6 +611,18 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+=======
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+=======
+use Override;
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use Illuminate\Support\Facades\Log;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -1285,6 +1298,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1303,6 +1317,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     /** @var string */
     private string $token;
 
@@ -1315,18 +1331,36 @@ final class SendNetfunSMSAction implements SmsActionContract
     private string $token;
 
 =======
+    protected bool $debug;
+
+    protected int $timeout;
+
+    protected ?string $defaultSender = null;
+
+    private string $token;
+
+>>>>>>> c8b1c8bf (.)
+=======
     /** @var string */
     private string $token;
 
     /** @var string */
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     private string $endpoint;
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1555,6 +1589,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 <<<<<<< HEAD
     /** @var bool */
 =======
@@ -1754,6 +1790,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
@@ -1772,6 +1809,10 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> 1619767d8 (.)
 =======
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
     /** @var bool */
     protected bool $debug;
 
@@ -1860,6 +1901,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2086,6 +2128,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> f15c41e60 (.)
 
 =======
+<<<<<<< HEAD
 =======
 =======
     protected ?string $defaultSender = null;
@@ -2162,6 +2205,11 @@ final class SendNetfunSMSAction implements SmsActionContract
 
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     /**
      * Create a new action instance.
      *
@@ -2171,6 +2219,7 @@ final class SendNetfunSMSAction implements SmsActionContract
     {
         // Recupera la configurazione specifica per il provider Netfun dalla sezione drivers
         $token = config('sms.drivers.netfun.token');
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!is_string($token)) {
 =======
@@ -2206,6 +2255,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         if (!is_string($token)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         if (!is_string($token)) {
 >>>>>>> 75179b85 (.)
@@ -2229,6 +2279,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [sms.drivers.netfun.token]');
         }
         $this->token = $token;
@@ -2334,6 +2386,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
 >>>>>>> 58816034 (.)
@@ -2373,6 +2426,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2812,6 +2867,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -2931,16 +2987,21 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     }
 
     /**
      * Execute the action.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
      *
@@ -2985,6 +3046,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3287,6 +3349,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
      * @param SmsData $smsData I dati del messaggio SMS
@@ -3638,6 +3701,15 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     * @throws Exception In caso di errore durante l'invio
+     */
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -3648,6 +3720,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3668,6 +3741,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             $to = $to !== '' ? ('+' . mb_substr($to, 2)) : $to;
         }
         if (!Str::startsWith($to, '+')) {
@@ -3694,7 +3769,13 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 <<<<<<< HEAD
             $to = $to !== '' ? ('+'.mb_substr($to, 2)) : $to;
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+            $to = $to !== '' ? '+'.mb_substr($to, 2) : $to;
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         }
         if (! Str::startsWith($to, '+')) {
             $to = '+39'.$to;
@@ -3708,11 +3789,15 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3733,6 +3818,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         }
 
         $body = [
@@ -3754,6 +3841,7 @@ final class SendNetfunSMSAction implements SmsActionContract
         } catch (ClientException $clientException) {
             throw new Exception(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 =======
 <<<<<<< HEAD
@@ -3762,6 +3850,12 @@ final class SendNetfunSMSAction implements SmsActionContract
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $clientException->getCode(),
                 $clientException,
 =======
@@ -4465,6 +4559,7 @@ final class SendNetfunSMSAction implements SmsActionContract
      * Normalizza il numero di telefono nel formato E.164
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $phoneNumber Numero di telefono da normalizzare
 =======
 <<<<<<< HEAD
@@ -4499,6 +4594,7 @@ final class SendNetfunSMSAction implements SmsActionContract
      * @param string $phoneNumber Numero di telefono da normalizzare
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
      * @param string $phoneNumber Numero di telefono da normalizzare
 >>>>>>> 75179b85 (.)
@@ -4522,12 +4618,15 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @return string Numero di telefono normalizzato in formato E.164
      */
     /**
      * Normalizza il numero di telefono nel formato E.164
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $phoneNumber Numero di telefono da normalizzare
 =======
 <<<<<<< HEAD
@@ -4562,6 +4661,7 @@ final class SendNetfunSMSAction implements SmsActionContract
      * @param string $phoneNumber Numero di telefono da normalizzare
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
      * @param string $phoneNumber Numero di telefono da normalizzare
 >>>>>>> 75179b85 (.)
@@ -4585,6 +4685,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @return string Numero di telefono normalizzato in formato E.164
      */
     protected function normalizePhoneNumber(string $phoneNumber): string
@@ -5012,8 +5114,11 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         if (!is_string($cleaned) || $cleaned === '') {
 =======
 <<<<<<< HEAD
@@ -5023,14 +5128,20 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
         if (! is_string($cleaned) || $cleaned === '') {
 =======
         if (!is_string($cleaned) || $cleaned === '') {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             $cleaned = '';
         }
 <<<<<<< HEAD
@@ -5314,17 +5425,25 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         if (!Str::startsWith($cleaned, '+')) {
             $cleaned = '+39' . ltrim($cleaned, '0');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         if (! Str::startsWith($cleaned, '+')) {
             $cleaned = '+39'.ltrim($cleaned, '0');
 =======
@@ -5332,15 +5451,21 @@ final class SendNetfunSMSAction implements SmsActionContract
             $cleaned = '+39' . ltrim($cleaned, '0');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         }
 <<<<<<< HEAD
 <<<<<<< HEAD

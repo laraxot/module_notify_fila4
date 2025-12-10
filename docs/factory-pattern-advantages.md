@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Analisi del Pattern Factory per la Selezione dei Provider SMS
 
 Questo documento analizza il pattern Factory attualmente implementato  per la selezione dei provider SMS, confrontandolo con l'alternativa di integrare la selezione nel DTO `SmsData`.
@@ -163,6 +169,7 @@ Questo documento analizza il pattern Factory attualmente implementato  per la se
 <<<<<<< HEAD
 <nome progetto> implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -814,6 +821,7 @@ SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
  implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 >>>>>>> 9cf0dc90 (.)
@@ -1003,6 +1011,8 @@ SaluteOra implementa un pattern Factory ottimale attraverso `SmsActionFactory`:
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 ```php
 // SmsActionFactory.php
@@ -1224,6 +1234,7 @@ public function getProviderAction(): SmsActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1297,6 +1308,8 @@ public function getProviderAction(): SmsActionInterface
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi svantaggi, soprattutto in progetti complessi come <nome progetto>:
 
 1. **Open/Closed Principle**: Permette di estendere il sistema (aggiungendo nuovi provider) senza modificare il codice esistente, soddisfacendo il principio Open/Closed di SOLID.
@@ -1323,6 +1336,7 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1333,6 +1347,8 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi svantaggi, soprattutto in progetti complessi come :
 
 1. **Open/Closed Principle**: Permette di estendere il sistema (aggiungendo nuovi provider) senza modificare il codice esistente, soddisfacendo il principio Open/Closed di SOLID.
@@ -1350,10 +1366,13 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1553,6 +1572,7 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1714,6 +1734,10 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi svantaggi, soprattutto in progetti complessi come SaluteOra:
 
 1. **Open/Closed Principle**: Permette di estendere il sistema (aggiungendo nuovi provider) senza modificare il codice esistente, soddisfacendo il principio Open/Closed di SOLID.
@@ -1865,6 +1889,7 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1937,6 +1962,8 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2341,6 +2368,7 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -2500,6 +2528,8 @@ Il pattern Factory offre numerosi vantaggi che superano di gran lunga i suoi sva
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 3. **Flessibilità nella Selezione**: Permette di implementare logiche complesse di selezione del provider (es. fallback, round-robin, basato su regole) senza cambiare il DTO o il Channel.
 
@@ -2532,6 +2562,7 @@ Questa scelta architetturale è coerente con i principi SOLID e con l'architettu
 
 Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre vantaggi che superano del 30-40% i suoi svantaggi, mentre spostare la logica nel DTO comporterebbe svantaggi che superano del 60-70% i potenziali vantaggi.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2988,6 +3019,7 @@ Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2998,6 +3030,8 @@ Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di , garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
 Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di SaluteOra, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
 
@@ -3008,6 +3042,9 @@ Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di SaluteOra, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
@@ -3031,6 +3068,7 @@ Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 Questa scelta architetturale è coerente con i principi SOLID e con l'architettura modulare di SaluteOra, garantendo un sistema flessibile, manutenibile e facilmente estendibile nel tempo.
 
@@ -3258,3 +3296,5 @@ Questa scelta architetturale è coerente con i principi SOLID e con l'architettu
 Rispetto all'alternativa di spostare la logica nel DTO, il pattern Factory offre vantaggi che superano del 30-40% i suoi svantaggi, mentre spostare la logica nel DTO comporterebbe svantaggi che superano del 60-70% i potenziali vantaggi.
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)

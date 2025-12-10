@@ -1196,6 +1196,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -1304,6 +1305,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 return [
     'navigation' => [
         'icon' => 'heroicon-o-document-text',
@@ -1354,6 +1358,7 @@ return [
         'preview' => 'Anteprima',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1370,10 +1375,13 @@ return [
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         'openColumnManager' => [
             'tooltip' => 'openColumnManager',
         ],
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1398,6 +1406,9 @@ return [
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
     ],
     'enums' => [
         'notification_type' => [

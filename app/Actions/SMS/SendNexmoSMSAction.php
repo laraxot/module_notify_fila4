@@ -109,6 +109,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -320,6 +321,7 @@ use Override;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -360,6 +362,8 @@ use Override;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -1278,8 +1282,35 @@ use Spatie\QueueableAction\QueueableAction;
 final class SendNexmoSMSAction implements SmsActionContract
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    private NexmoData $nexmoData;
+    private ?string $defaultSender = null;
+<<<<<<< HEAD
+    
+    /** @var array<string, mixed> */
+    private array $vars = [];
+>>>>>>> 5e14ac3 (.)
+=======
+=======
+use Override;
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\NexmoData;
+use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> c8b1c8bf (.)
+
+final class SendNexmoSMSAction implements SmsActionContract
+{
+>>>>>>> 7ceb00286 (.)
     use QueueableAction;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     /** @var NexmoData */
 =======
@@ -1290,6 +1321,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
     private NexmoData $nexmoData;
 =======
+<<<<<<< HEAD
     private NexmoData $nexmoData;
     private ?string $defaultSender = null;
 <<<<<<< HEAD
@@ -1464,10 +1496,13 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
     private NexmoData $nexmoData;
 =======
+=======
+>>>>>>> 7ceb00286 (.)
     /** @var NexmoData */
     private NexmoData $nexmoData;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     /** @var NexmoData */
     private NexmoData $nexmoData;
@@ -1486,10 +1521,13 @@ final class SendNexmoSMSAction implements SmsActionContract
     private NexmoData $nexmoData;
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1507,6 +1545,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     /** @var bool */
 =======
 <<<<<<< HEAD
@@ -1744,6 +1784,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
@@ -1773,6 +1814,10 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
 =======
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
     /** @var bool */
     protected bool $debug;
 
@@ -1819,6 +1864,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2278,6 +2324,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 =======
 =======
     protected ?string $defaultSender = null;
@@ -2328,6 +2375,11 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     /**
      * Create a new action instance.
      */
@@ -2543,10 +2595,13 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
         
 >>>>>>> b19cd40 (.)
@@ -2747,6 +2802,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -2767,6 +2823,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         if (! $this->nexmoData->key) {
 =======
         if (!$this->nexmoData->key) {
@@ -2782,12 +2840,15 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
         
@@ -3140,6 +3201,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3f537838 (.)
@@ -3184,6 +3246,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         if (!$this->nexmoData->key) {
             throw new Exception('Key Nexmo non configurata in sms.php');
         }
@@ -3191,11 +3255,15 @@ final class SendNexmoSMSAction implements SmsActionContract
         if (!$this->nexmoData->secret) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3216,6 +3284,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             throw new Exception('Secret Nexmo non configurato in sms.php');
         }
 
@@ -3230,13 +3300,17 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->debug = (bool) config('sms.debug', false);
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 7ceb00286 (.)
+=======
         $this->debug = (bool) config('sms.debug', false);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         $this->debug = (bool) config('sms.debug', false);
 >>>>>>> 75179b85 (.)
@@ -3252,6 +3326,8 @@ final class SendNexmoSMSAction implements SmsActionContract
         $this->debug = (bool) config('sms.debug', false);
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     }
 
     /**
@@ -3259,6 +3335,7 @@ final class SendNexmoSMSAction implements SmsActionContract
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3270,11 +3347,14 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -3285,6 +3365,10 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      * @param  SmsData  $smsData  I dati del messaggio SMS
      * @return array Risultato dell'operazione
      *
@@ -3366,6 +3450,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3396,6 +3481,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3635,6 +3722,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
      * @param SmsData $smsData I dati del messaggio SMS
@@ -3785,10 +3873,13 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 =======
@@ -3999,6 +4090,11 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -4008,6 +4104,7 @@ final class SendNexmoSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4028,6 +4125,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
         }
 
@@ -4055,7 +4154,13 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
 <<<<<<< HEAD
             $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+            $to = $to !== '' ? '+'.substr($to, 2) : $to;
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         }
 
         if (! Str::startsWith($to, '+')) {
@@ -4071,11 +4176,15 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4096,6 +4205,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         }
 
         $from = $smsData->from ?? $this->defaultSender;
@@ -4562,8 +4673,11 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             $response = $client->post($this->nexmoData->getBaseUrl() . '/sms/json', [
 =======
 <<<<<<< HEAD
@@ -4573,12 +4687,16 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
             $response = $client->post($this->nexmoData->getBaseUrl().'/sms/json', [
 =======
             $response = $client->post($this->nexmoData->getBaseUrl() . '/sms/json', [
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -4686,6 +4804,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'form_params' => [
                     'api_key' => $this->nexmoData->key,
                     'api_secret' => $this->nexmoData->secret,
@@ -5395,6 +5515,7 @@ final class SendNexmoSMSAction implements SmsActionContract
         } catch (ClientException $clientException) {
             throw new Exception(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 =======
 <<<<<<< HEAD
@@ -5403,6 +5524,12 @@ final class SendNexmoSMSAction implements SmsActionContract
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 $clientException->getCode(),
                 $clientException,
 =======

@@ -91,6 +91,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -199,6 +200,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -299,6 +301,10 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Integrazione GrapesJS Editor (Dotswan)
 
 Questo documento analizza il plugin [Dotswan GrapesJS](https://filamentphp.com/plugins/dotswan-grapesjs) per Filament e propone una versione in-house open source migliorata.
@@ -370,6 +376,7 @@ class PageTemplate extends Model {
 <<<<<<< HEAD
 public static function form(Form $form): Form {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -679,6 +686,7 @@ public static function form(Form $form): Form {
 public static function form(Form $form): Form {
 >>>>>>> 69fa7d37 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 public static function form(Form $form): Form {
 >>>>>>> c8b1c8bf (.)
@@ -828,6 +836,11 @@ public static function form(Form $form): Form {
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+public static function form(Form $form): Form {
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     return $form->schema([
         TextInput::make('name')->required(),
         GrapesJsEditor::make('content_json')
@@ -1059,6 +1072,7 @@ class PublishPageTemplateAction {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 75179b85 (.)
@@ -1315,10 +1329,14 @@ class PublishPageTemplateAction {
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> 69fa7d37 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> 9cf0dc90 (.)
@@ -1447,3 +1465,5 @@ class PublishPageTemplateAction {
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)

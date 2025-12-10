@@ -323,8 +323,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 =======
 >>>>>>> b19cd40 (.)
@@ -441,6 +444,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -541,6 +545,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 =======
 
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> c8b1c8bf (.)
 namespace Modules\Notify\Database\Factories;
 
@@ -597,6 +603,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> f1c9518b (.)
 =======
 =======
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -656,6 +663,15 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 class NotificationTemplateFactory extends Factory
 {

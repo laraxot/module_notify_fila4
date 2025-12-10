@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Contracts;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 <<<<<<< HEAD
@@ -31,6 +32,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Collection;
 
 /**
@@ -47,6 +53,7 @@ interface CanReceivePushNotifications
      * Get the value of the model's primary key.
      * non si puo usare mixed che cs lo cancella.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,11 +75,17 @@ interface CanReceivePushNotifications
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+     */
+    public function getKey(): string|int|null;
+=======
+>>>>>>> 7ceb00286 (.)
      *
      * @return string|int|null
      */
     public function getKey();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +102,9 @@ interface CanReceivePushNotifications
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

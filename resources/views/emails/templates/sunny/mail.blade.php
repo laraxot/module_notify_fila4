@@ -2614,6 +2614,7 @@ declare(strict_types=1);
     ]) --}}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2622,6 +2623,8 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
     @include('notify::emails.templates.sunny.content-start')
 
     {!! $html !!}
@@ -2629,6 +2632,7 @@ declare(strict_types=1);
     @include('notify::emails.templates.sunny.content-end')
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2638,12 +2642,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     @include('notify::emails.templates.sunny.contentStart')
 
     {!! $html !!}
 
     @include('notify::emails.templates.sunny.contentEnd')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2660,6 +2667,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 
     {{-- @include('beautymail::templates.sunny.button', [
         'title' => 'Click me',

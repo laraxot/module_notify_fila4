@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
@@ -16,6 +17,8 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,6 +322,7 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 985c7bda (.)
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -409,6 +413,10 @@ use Illuminate\Support\Arr;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1043,6 +1051,13 @@ class TwilioData extends Data
 =======
         if (! (self::$instance instanceof TwilioData)) {
 =======
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Config;
+use Modules\Tenant\Services\TenantService;
+use Spatie\LaravelData\Data;
+>>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -1059,11 +1074,15 @@ class TwilioData extends Data
     {
         if (!(self::$instance instanceof TwilioData)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             /*
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -1449,6 +1468,7 @@ class TwilioData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
@@ -1719,6 +1739,7 @@ class TwilioData extends Data
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
 =======
 =======
@@ -1752,6 +1773,13 @@ class TwilioData extends Data
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->account_sid.':'.$this->auth_token),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded'

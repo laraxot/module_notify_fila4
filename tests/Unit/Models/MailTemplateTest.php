@@ -2599,6 +2599,7 @@ class MailTemplateTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -2610,10 +2611,13 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $template = new MailTemplate();
@@ -2645,6 +2649,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedFillable = [
             'mailable',
@@ -2666,6 +2672,7 @@ class MailTemplateTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -2677,10 +2684,13 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $template = new MailTemplate();
@@ -2712,6 +2722,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -2727,6 +2739,7 @@ class MailTemplateTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -2738,10 +2751,13 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $template = new MailTemplate();
@@ -2773,6 +2789,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedTranslatable = [
             'subject',
@@ -2789,6 +2807,7 @@ class MailTemplateTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $template = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -2800,10 +2819,13 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $template = new MailTemplate;
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $template = new MailTemplate();
@@ -2835,6 +2857,8 @@ class MailTemplateTest extends TestCase
         $template = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $this->assertEquals('notify', $template->getConnectionName());
     }

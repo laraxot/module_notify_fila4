@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,12 +46,18 @@ use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 >>>>>>> e53a56570 (.)
+=======
+use Modules\Notify\Filament\Resources\NotificationResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+=======
+>>>>>>> 7ceb00286 (.)
 use Filament\Actions\DeleteAction;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +85,9 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 
 class EditNotification extends XotBaseEditRecord
 {

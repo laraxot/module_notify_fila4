@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Azioni SMS
 
 ## Interfaccia
@@ -202,6 +208,7 @@ $smsData = new SmsData(
 <<<<<<< HEAD
     from: '<nome progetto>'
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -853,6 +860,7 @@ $smsData = new SmsData(
     from: ''
     from: 'SaluteOra'
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     from: 'SaluteOra'
 >>>>>>> 9cf0dc90 (.)
@@ -1042,6 +1050,8 @@ $smsData = new SmsData(
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 );
 
 $action = new SendNetfunSMSAction();
@@ -1069,6 +1079,7 @@ $result = $action->execute($smsData);
    - Validare l'input degli utenti
    - Sanitizzare i messaggi
    - Proteggere le chiavi API
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1174,6 +1185,8 @@ $result = $action->execute($smsData);
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1197,6 +1210,7 @@ $result = $action->execute($smsData);
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1251,3 +1265,7 @@ $result = $action->execute($smsData);
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

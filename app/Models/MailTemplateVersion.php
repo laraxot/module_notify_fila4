@@ -107,6 +107,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -614,6 +615,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -755,6 +757,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
@@ -819,6 +823,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -827,10 +832,13 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -850,6 +858,8 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 /**
  * @property int $id
@@ -876,6 +886,7 @@ use Modules\Xot\Traits\Updater;
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,6 +905,7 @@ use Modules\Xot\Traits\Updater;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -918,6 +930,10 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
  * @method static MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -944,6 +960,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1449,6 +1466,7 @@ use Modules\Xot\Traits\Updater;
  * @mixin \Eloquent
  */
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
  * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
@@ -1490,6 +1508,8 @@ use Modules\Xot\Traits\Updater;
  */
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 class MailTemplateVersion extends BaseModel
 {
     use SoftDeletes, Updater;
@@ -1517,6 +1537,7 @@ class MailTemplateVersion extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2000,6 +2021,7 @@ class MailTemplateVersion extends BaseModel
 =======
     #[Override]
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     #[Override]
 =======
@@ -2128,6 +2150,8 @@ class MailTemplateVersion extends BaseModel
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     protected function casts(): array
     {
         return [
@@ -2161,6 +2185,7 @@ class MailTemplateVersion extends BaseModel
 
         $template->update([
 <<<<<<< HEAD
+<<<<<<< HEAD
             'subject' => $this->subject,
             'html_template' => $this->html_template,
             'text_template' => $this->text_template,
@@ -2183,6 +2208,8 @@ class MailTemplateVersion extends BaseModel
 >>>>>>> a335025b (rebase 210)
 =======
 >>>>>>> e00d798d (.)
+=======
+>>>>>>> 7ceb00286 (.)
             /* @phpstan-ignore-next-line property.notFound */
             'subject' => $this->subject,
             /* @phpstan-ignore-next-line property.notFound */
@@ -2192,6 +2219,7 @@ class MailTemplateVersion extends BaseModel
         ]);
 
         /** @var MailTemplate */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2249,6 +2277,15 @@ class MailTemplateVersion extends BaseModel
         /** @var MailTemplate */
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+=======
+            'subject' => $this->subject,
+            'html_template' => $this->html_template,
+            'text_template' => $this->text_template,
+        ]);
+
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         return $template;
     }
 }

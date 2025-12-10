@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -20,6 +21,7 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -35,6 +37,11 @@
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 /**
  * ---.
  */
@@ -48,10 +55,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -62,6 +72,7 @@
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -72,6 +83,8 @@
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Providers\Filament;
@@ -79,6 +92,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,6 +543,7 @@ use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 >>>>>>> 2941b0bd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -620,6 +635,14 @@ use Override;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
 =======
@@ -2483,11 +2506,16 @@ class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
     #[\Override]
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
 
+<<<<<<< HEAD
 >>>>>>> 5e14ac3 (.)
         return $panel;
 >>>>>>> fbed41ac (.)
@@ -2529,9 +2557,12 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> c8b1c8bf (.)
+=======
     #[Override]
     public function panel(Panel $panel): Panel
     {
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2541,20 +2572,48 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
         // Temporaneamente commentato per compatibilità Filament 4.x
         // $panel->plugins([
         //     SpatieTranslatablePlugin::make(),
         // ]);
+<<<<<<< HEAD
         if (!XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
             // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
             DatabaseNotifications::pollingInterval('60s');
             FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
+=======
+<<<<<<< HEAD
+
+        if (! XotData::make()->disable_database_notifications) {
+            DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
+            // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
+            DatabaseNotifications::pollingInterval('60s');
+            FilamentView::registerRenderHook('panels::user-menu.before', static fn (): string => Blade::render(
+=======
+        if (!XotData::make()->disable_database_notifications) {
+            DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
+            // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
+            DatabaseNotifications::pollingInterval('60s');
+            FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
                 '@livewire(\'database-notifications\')',
             ));
         }
 
+<<<<<<< HEAD
         return parent::panel($panel);
+=======
+<<<<<<< HEAD
+        return $panel;
+=======
+        return parent::panel($panel);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     }
 }
 >>>>>>> 10292b60a (.)

@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # UI/UX Enhancements per i Campi `name` e `slug` in MailTemplateResource
 
 ## Introduzione
@@ -161,6 +167,7 @@
 <<<<<<< HEAD
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,6 +819,7 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto , mantenendo la coerenza visiva e migliorando l'usabilità.
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
 >>>>>>> 9cf0dc90 (.)
@@ -1001,6 +1009,8 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 ## Componenti per il Campo `name`
 
@@ -1363,6 +1373,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -1865,6 +1876,7 @@ return [
 ## Conformità con gli Standard 
 ## Conformità con gli Standard SaluteOra
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> 9cf0dc90 (.)
@@ -2054,6 +2066,8 @@ return [
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 Tutti i componenti proposti:
 1. Non utilizzano il metodo `->label()` sui componenti Filament
@@ -2221,6 +2235,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 =======
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto  mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
@@ -2723,6 +2738,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto  mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 >>>>>>> 9cf0dc90 (.)
@@ -2912,12 +2928,15 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 ## Riferimenti
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms/fields/text-input)
 - [Implementazione Modello con Slug](./MODEL_SLUG_IMPLEMENTATION.md)
 - [Implementazione Risorsa con Slug](./RESOURCE_SLUG_IMPLEMENTATION.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3023,6 +3042,8 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -3046,6 +3067,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -3100,3 +3122,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

@@ -961,6 +961,9 @@ use Modules\Notify\Models\Notification;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1009,6 +1012,7 @@ use Override;
 <<<<<<< HEAD
 >>>>>>> b94a5f6 (.)
 
+<<<<<<< HEAD
 class NotificationResource extends XotBaseResource
 {
 <<<<<<< HEAD
@@ -1031,10 +1035,13 @@ class NotificationResource extends XotBaseResource
     protected static null|string $model = Notification::class;
 >>>>>>> f5f1cb1 (.)
 
+=======
+>>>>>>> 7ceb00286 (.)
 <<<<<<< HEAD
     #[\Override]
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected static ?string $model = Notification::class;
 =======
@@ -1070,6 +1077,12 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+    protected static null|string $model = Notification::class;
+
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 >>>>>>> c8b1c8bf (.)
     public static function getFormSchema(): array
     {

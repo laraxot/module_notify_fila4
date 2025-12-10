@@ -8,6 +8,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38,6 +39,12 @@ namespace Modules\Notify\Tests\Unit\Enums;
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
@@ -109,11 +116,15 @@ use PHPUnit\Framework\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -134,6 +145,8 @@ use PHPUnit\Framework\TestCase;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 class ContactTypeEnumTest extends TestCase
 {
@@ -207,12 +220,17 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $form = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($form);
@@ -226,11 +244,15 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -247,6 +269,11 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $schema = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($schema);
@@ -255,6 +282,7 @@ class ContactTypeEnumTest extends TestCase
         foreach ($schema as $component) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +296,9 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -280,6 +311,7 @@ class ContactTypeEnumTest extends TestCase
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -296,6 +328,8 @@ class ContactTypeEnumTest extends TestCase
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
             $this->assertInstanceOf(TextInput::class, $component);
         }
     }
@@ -382,6 +416,7 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
 >>>>>>> 888799d0 (.)
@@ -429,6 +464,8 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -874,7 +911,21 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
+=======
+        $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

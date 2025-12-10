@@ -274,10 +274,13 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
@@ -492,6 +495,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 2941b0bd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
@@ -537,10 +541,13 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -572,6 +579,8 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 class Dashboard extends XotBaseDashboard
 {

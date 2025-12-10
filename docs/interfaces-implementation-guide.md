@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Guida all'Implementazione delle Interfacce nel Modulo Notify
 
 ## Struttura delle Interfacce
@@ -318,6 +324,7 @@ Le interfacce sono organizzate in due livelli:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 =======
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
@@ -711,6 +718,7 @@ Le interfacce sono organizzate in due livelli:
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 >>>>>>> 9cf0dc90 (.)
@@ -1029,6 +1037,8 @@ Le interfacce sono organizzate in due livelli:
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
    ```
 
 2. **Interfacce Specifiche per Canale**: Posizionate in sottodirectory dedicate
@@ -1185,6 +1195,7 @@ Le interfacce sono organizzate in due livelli:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 =======
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
@@ -1578,6 +1589,7 @@ Le interfacce sono organizzate in due livelli:
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> 9cf0dc90 (.)
@@ -1896,6 +1908,8 @@ Le interfacce sono organizzate in due livelli:
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
    ```
 
 ### Convenzioni di Naming
@@ -1986,6 +2000,7 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2081,6 +2096,8 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2104,6 +2121,7 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2158,3 +2176,7 @@ Se si verifica l'errore `Interface "Modules\Notify\Contracts\SMS\SmsActionContra
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

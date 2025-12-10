@@ -1201,8 +1201,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 =======
@@ -1252,10 +1255,14 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 >>>>>>> c8b1c8bf (.)
 =======
+<<<<<<< HEAD
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 >>>>>>> f1c9518b (.)
@@ -1270,6 +1277,8 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 =======
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
@@ -1279,6 +1288,7 @@ use Filament\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -1293,8 +1303,13 @@ use Filament\Actions;
 =======
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD

@@ -731,6 +731,7 @@ namespace Modules\Notify\Models;
 class NotificationType extends BaseModel
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -1063,11 +1064,16 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 7ceb00286 (.)
 
 /**
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1257,6 +1263,13 @@ class NotificationType extends Model
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+ * @mixin IdeHelperNotificationType
+ * @mixin \Eloquent
+ */
+class NotificationType extends Model
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 {
     protected $fillable = [
         'name',

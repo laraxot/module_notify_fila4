@@ -13,6 +13,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +77,8 @@ use function Safe\class_uses;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -130,6 +133,7 @@ use Modules\Notify\Models\MailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,6 +226,8 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -230,9 +236,13 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
@@ -330,6 +340,7 @@ describe('MailTemplate Business Logic', function () {
     test('mail template can store template content', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -341,10 +352,13 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
@@ -376,6 +390,8 @@ describe('MailTemplate Business Logic', function () {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate->name = 'Welcome Email';
         $mailTemplate->subject = 'Welcome to our platform';
         $mailTemplate->html_template = '<h1>Welcome!</h1>';
@@ -396,6 +412,7 @@ describe('MailTemplate Business Logic', function () {
     test('mail template can link to mailable class', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -407,10 +424,13 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
@@ -442,6 +462,8 @@ describe('MailTemplate Business Logic', function () {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate->mailable = 'App\\Mail\\WelcomeMail';
 <<<<<<< HEAD
 
@@ -458,6 +480,7 @@ describe('MailTemplate Business Logic', function () {
     test('mail template has version tracking', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -469,10 +492,13 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
@@ -504,6 +530,8 @@ describe('MailTemplate Business Logic', function () {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate->version = 2;
 <<<<<<< HEAD
 
@@ -520,6 +548,7 @@ describe('MailTemplate Business Logic', function () {
     test('mail template can store optional text template', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -531,10 +560,13 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
@@ -566,6 +598,8 @@ describe('MailTemplate Business Logic', function () {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate->text_template = 'Welcome! This is plain text.';
 <<<<<<< HEAD
 
@@ -602,6 +636,7 @@ describe('MailTemplate Business Logic', function () {
     test('mail template has creator and updater tracking', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -613,10 +648,13 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate = new MailTemplate;
 =======
         $mailTemplate = new MailTemplate();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $mailTemplate = new MailTemplate();
@@ -648,6 +686,8 @@ describe('MailTemplate Business Logic', function () {
         $mailTemplate = new MailTemplate();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $mailTemplate->created_by = 'user-1';
         $mailTemplate->updated_by = 'user-2';
 <<<<<<< HEAD

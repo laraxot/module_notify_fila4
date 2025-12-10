@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Regole di Estensione delle Classi Filament
 
 ## Regola Fondamentale
@@ -219,6 +225,7 @@ find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/*.php" -t
 
 Le pagine che violano questa regola devono essere immediatamente corrette per mantenere l'integrità dell'architettura.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +623,7 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -626,6 +634,8 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/*.php" -type f -exec grep -l "extends.*Filament" {} \;
@@ -638,6 +648,9 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
@@ -649,6 +662,7 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f963d2c0 (.)
@@ -982,3 +996,5 @@ Le pagine che violano questa regola devono essere immediatamente corrette per ma
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)

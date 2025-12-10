@@ -632,7 +632,9 @@ class TelegramData extends Data
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -654,6 +656,10 @@ class TelegramData extends Data
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      * @param  string  $chatId  ID della chat o username del destinatario (es. 123456789 o @username)
      * @param  string  $text  Contenuto testuale del messaggio
      * @param  string|null  $parseMode  Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
@@ -669,6 +675,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
@@ -688,6 +695,11 @@ class TelegramData extends Data
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      * @param string $chatId ID della chat o username del destinatario (es. 123456789 o @username)
      * @param string $text Contenuto testuale del messaggio
      * @param string|null $parseMode Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
@@ -698,6 +710,7 @@ class TelegramData extends Data
      * @param array|null $media Array di media da allegare al messaggio (immagini, video, documenti)
      * @param string $type Tipo di messaggio: 'text', 'photo', 'video', 'document', 'audio', 'animation'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,6 +727,7 @@ class TelegramData extends Data
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -734,6 +748,8 @@ class TelegramData extends Data
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      */
     public function __construct(
         public string $chatId,
@@ -840,6 +856,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1293,6 +1310,7 @@ class TelegramData extends Data
 =======
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1331,6 +1349,10 @@ class TelegramData extends Data
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
@@ -1358,12 +1380,15 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1812,6 +1837,7 @@ class TelegramData extends Data
 >>>>>>> d45a0226 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
@@ -1824,12 +1850,17 @@ class TelegramData extends Data
 >>>>>>> 9777d1b (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         public null|string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public null|int $replyToMessageId = null,
         public null|array $replyMarkup = null,
         public null|array $media = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2005,6 +2036,8 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -2027,6 +2060,7 @@ class TelegramData extends Data
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce89c8bb (.)
@@ -2291,6 +2325,8 @@ class TelegramData extends Data
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         public string $type = 'text',
     ) {}
 }

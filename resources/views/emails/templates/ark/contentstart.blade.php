@@ -543,6 +543,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1515,6 +1516,7 @@
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -2117,6 +2119,8 @@
 =======
 >>>>>>> bce3ff15 (.)
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 <?php
 
 declare(strict_types=1);
@@ -2125,6 +2129,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4276,6 +4281,7 @@ declare(strict_types=1);
 <tr>
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8eedbb (.)
@@ -4765,6 +4771,8 @@ declare(strict_types=1);
 >>>>>>> 08fd62d (.)
 >>>>>>> bce3ff15 (.)
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -5324,6 +5332,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5607,6 +5616,8 @@ declare(strict_types=1);
 >>>>>>> 8134673e1 (.)
 =======
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7755,6 +7766,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -8533,3 +8545,5 @@ declare(strict_types=1);
 >>>>>>> 8134673e1 (.)
 =======
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)

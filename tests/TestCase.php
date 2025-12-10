@@ -495,6 +495,7 @@ use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -555,6 +556,8 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
@@ -948,6 +951,7 @@ use Tests\CreatesApplication;
 >>>>>>> e53a56570 (.)
 use Modules\Xot\Tests\CreatesApplication;
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1039,8 +1043,16 @@ use Tests\CreatesApplication;
 =======
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Tests\CreatesApplication;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 /**
  * Base test case for Notify module tests.
@@ -2484,6 +2496,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Application $app
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2580,10 +2593,13 @@ abstract class TestCase extends BaseTestCase
 =======
 <<<<<<< HEAD
 >>>>>>> a75783374 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @param  Application  $app
 =======
      * @param Application $app
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
      * @param Application $app
@@ -3004,6 +3020,8 @@ abstract class TestCase extends BaseTestCase
      * @param Application $app
 >>>>>>> f5f1cb1 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

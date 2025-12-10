@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Architettura delle Pagine di Risorse Filament 
 
 ## Regola Fondamentale
@@ -266,6 +272,7 @@ Per verificare che tutte le pagine di risorse seguano questo pattern:
 <<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,6 +815,7 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 >>>>>>> 9cf0dc90 (.)
@@ -1126,6 +1134,8 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 ```
 
 ## Riferimenti
@@ -1135,6 +1145,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 - [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1747,11 +1758,15 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 - [ XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
@@ -1820,3 +1835,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)

@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -133,6 +134,7 @@
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -191,6 +193,8 @@
 =======
 >>>>>>> 4f3927d7 (.)
 >>>>>>> 602b8a0a9 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -817,6 +821,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1712,6 +1717,7 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -2037,6 +2043,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -2295,6 +2303,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2683,6 +2692,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2914,6 +2924,10 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -2923,6 +2937,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4051,6 +4066,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> c8b1c8bf (.)
@@ -4678,3 +4694,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

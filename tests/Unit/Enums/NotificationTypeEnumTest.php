@@ -158,6 +158,7 @@ class NotificationTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -751,7 +752,16 @@ class NotificationTypeEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+        $values = array_map(fn ($case) => $case->value, NotificationTypeEnum::cases());
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $uniqueValues = array_unique($values);
 
 =======

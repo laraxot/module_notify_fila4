@@ -458,8 +458,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 =======
 <<<<<<< HEAD
@@ -711,6 +714,9 @@ namespace Modules\Notify\Models;
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> c8b1c8bf (.)
 namespace Modules\Notify\Models;
@@ -1200,6 +1206,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 2effe245 (.)
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 <<<<<<< HEAD
@@ -1229,11 +1236,22 @@ namespace Modules\Notify\Models;
 =======
 use Override;
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+=======
+
+namespace Modules\Notify\Models;
+
+use Override;
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1252,6 +1270,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
 namespace Modules\Notify\Models;
@@ -1323,6 +1343,13 @@ namespace Modules\Notify\Models;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+use Modules\Xot\Models\BaseModel;
+>>>>>>> 7ceb00286 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
@@ -1448,6 +1475,7 @@ use Modules\Xot\Models\BaseModel;
  * @property-read Model|null $creator
  * @property-read Model|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1481,10 +1509,14 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
  *
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
  * @property-read Model|null $creator
  * @property-read Model|null $updater
@@ -1514,6 +1546,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -1535,6 +1569,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1752,6 +1787,7 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1836,6 +1872,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -2078,6 +2116,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2594,6 +2633,7 @@ class Notification extends BaseModel
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -2720,6 +2760,8 @@ class Notification extends BaseModel
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     protected function casts(): array
     {
         return [

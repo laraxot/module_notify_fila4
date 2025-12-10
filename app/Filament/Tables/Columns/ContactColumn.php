@@ -5195,6 +5195,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -5300,6 +5301,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
  * @since 2025-01-06
  */
 class ContactColumn extends ViewColumn
@@ -7213,7 +7217,11 @@ class ContactColumn extends ViewColumn
 =======
 >>>>>>> a85ebf6cc (.)
             ->label(__('notify::columns.contact.label'))
+<<<<<<< HEAD
             ->searchable()
+=======
+            ->searchable(ContactTypeEnum::getSearchable())
+>>>>>>> 75179b8 (.)
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }

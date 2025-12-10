@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -219,6 +220,7 @@
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -313,6 +315,8 @@
 =======
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
@@ -435,6 +439,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
@@ -585,10 +590,14 @@
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 >>>>>>> 0ebb7b01 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> 9cf0dc90 (.)
@@ -861,6 +870,8 @@
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura
@@ -913,6 +924,7 @@
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice dei template email, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 Ultimo aggiornamento: 14 Maggio 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1021,6 +1033,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 1dc3e4fcd (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1073,6 +1087,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1278,3 +1293,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

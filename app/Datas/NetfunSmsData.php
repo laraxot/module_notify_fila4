@@ -224,6 +224,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -239,6 +240,8 @@ declare(strict_types=1);
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 <<<<<<< HEAD
 declare(strict_types=1);
@@ -976,7 +979,17 @@ use Spatie\LaravelData\Data;
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+namespace Modules\Notify\Datas;
+
+use Spatie\LaravelData\Data;
+=======
+
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -986,11 +999,15 @@ use Spatie\LaravelData\Optional;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1011,6 +1028,8 @@ use Spatie\LaravelData\Optional;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 class NetfunSmsData extends Data
 {
@@ -1162,6 +1181,7 @@ class NetfunSmsData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1562,6 +1582,7 @@ class NetfunSmsData extends Data
 =======
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -1802,12 +1823,16 @@ class NetfunSmsData extends Data
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+=======
+>>>>>>> 7ceb00286 (.)
         public ?string $reference = null,
         public ?string $scheduledDate = null,
 =======
         public null|string $reference = null,
         public null|string $scheduledDate = null,
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2010,6 +2035,9 @@ class NetfunSmsData extends Data
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     ) {}
 }
 =======

@@ -127,6 +127,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -513,6 +514,7 @@ class Pdf
 =======
 >>>>>>> f5f1cb1 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -527,12 +529,15 @@ class Pdf
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
         }
         Assert::string($file_name, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -594,6 +599,9 @@ class Pdf
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -603,11 +611,15 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -628,6 +640,8 @@ class Pdf
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $file_path = Storage::disk('cache')->path($file_name);
 
         HtmlService::toPdf(

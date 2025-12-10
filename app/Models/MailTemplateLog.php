@@ -107,6 +107,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -757,6 +758,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -803,6 +805,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
@@ -1102,9 +1106,15 @@ use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 /**
 <<<<<<< HEAD
@@ -1117,6 +1127,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1136,6 +1147,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1160,6 +1172,10 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
  * @method static MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
@@ -1169,6 +1185,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1570,6 +1587,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin \Eloquent
  */
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
  * @mixin IdeHelperMailTemplateLog
  * @mixin \Eloquent
@@ -1601,6 +1619,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [
@@ -1619,12 +1639,15 @@ class MailTemplateLog extends BaseModel
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
     public function template(): BelongsTo
     {
         return $this->belongsTo(MailTemplate::class, 'template_id');
@@ -1637,6 +1660,7 @@ class MailTemplateLog extends BaseModel
 
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1646,6 +1670,8 @@ class MailTemplateLog extends BaseModel
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     /**
      * Get the attributes that should be cast.
      *
@@ -1749,6 +1775,7 @@ class MailTemplateLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2137,6 +2164,7 @@ class MailTemplateLog extends BaseModel
 =======
     #[Override]
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     #[Override]
 =======
@@ -2265,6 +2293,8 @@ class MailTemplateLog extends BaseModel
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
     protected function casts(): array
     {
         return [
@@ -2284,6 +2314,7 @@ class MailTemplateLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -2294,6 +2325,8 @@ class MailTemplateLog extends BaseModel
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 
     public function template(): BelongsTo
     {
@@ -2305,6 +2338,7 @@ class MailTemplateLog extends BaseModel
         return $this->morphTo();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2320,6 +2354,9 @@ class MailTemplateLog extends BaseModel
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

@@ -452,6 +452,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -518,6 +519,7 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 58816034 (.)
@@ -535,6 +537,11 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
@@ -1264,6 +1271,7 @@ class RecordNotificationData extends Data
 {
     public UserContract $record;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1283,11 +1291,15 @@ class RecordNotificationData extends Data
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1312,6 +1324,8 @@ class RecordNotificationData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     public string $channel;
 
     public function getChannel(): string
@@ -1717,6 +1731,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
 <<<<<<< HEAD
@@ -1745,10 +1760,15 @@ class RecordNotificationData extends Data
 =======
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
 <<<<<<< HEAD
                 Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+                Assert::string($email = $this->record->email, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> c8b1c8bf (.)
 
 >>>>>>> f1c9518b (.)
                 return $email;
@@ -2632,6 +2652,16 @@ class RecordNotificationData extends Data
         }
 <<<<<<< HEAD
         throw new Exception('Channel ['.$this->channel.'] not supported');
+=======
+                Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                return $email;
+            case 'sms':
+                Assert::string($phone = $this->record->phone, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                $phone = app(NormalizePhoneNumberAction::class)->execute($phone);
+                return $phone;
+        }
+        throw new Exception('Channel [' . $this->channel . '] not supported');
+>>>>>>> 75179b8 (.)
     }
 <<<<<<< HEAD
 

@@ -12,6 +12,7 @@ declare(strict_types=1);
  * @author Laraxot Team
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @version 1.0
 =======
 <<<<<<< HEAD
@@ -29,11 +30,14 @@ declare(strict_types=1);
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
  *
  * @version 1.0
  *
 =======
  * @version 1.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +65,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
  * @since 2025-08-01
  */
 return [

@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -81,6 +82,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -166,6 +168,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Implementazione SMS : Guida Dettagliata
 
 Questa documentazione fornisce una guida dettagliata all'implementazione delle notifiche SMS , con confronto tra diversi provider e best practices specifiche per il contesto italiano.
@@ -452,6 +456,7 @@ return [
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1520,6 +1525,7 @@ return [
 =======
 >>>>>>> cca10a64 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -2097,6 +2103,11 @@ return [
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+        'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
+        'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     ],
 ];
 ```
@@ -2556,6 +2567,7 @@ public function toTwilio($notifiable)
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4375,6 +4387,7 @@ public function toTwilio($notifiable)
 =======
 >>>>>>> cca10a64 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -4696,6 +4709,13 @@ public function toTwilio($notifiable)
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+        ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
+        ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: saluteora.it/privacy");
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 }
 ```
 
@@ -4760,6 +4780,7 @@ class ConsentLog extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4861,6 +4882,8 @@ class ConsentLog extends Model
 =======
 >>>>>>> d9e649ac3 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -4890,6 +4913,7 @@ class ConsentLog extends Model
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -4945,3 +4969,5 @@ class ConsentLog extends Model
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 7ceb00286 (.)

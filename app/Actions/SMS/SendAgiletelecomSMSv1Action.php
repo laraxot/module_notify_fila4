@@ -107,6 +107,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -252,6 +253,16 @@ use Override;
 >>>>>>> f15c41e60 (.)
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+=======
+use GuzzleHttp\Client;
+use Modules\Notify\Contracts\SmsActionContract;
+=======
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
@@ -301,6 +312,151 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 011072e4 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+use GuzzleHttp\Client;
+use Modules\Notify\Datas\SmsData;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *
+=======
+=======
+>>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 use GuzzleHttp\Client;
 use Modules\Notify\Datas\SmsData;
@@ -1362,10 +1518,14 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> f1c9518b (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
  *
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 
 /**
@@ -1383,6 +1543,8 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
@@ -1506,6 +1668,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> b207a9b1a (.)
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1861,6 +2024,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 58816034 (.)
@@ -1911,6 +2075,11 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';

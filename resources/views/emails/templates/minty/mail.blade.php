@@ -2609,6 +2609,7 @@ declare(strict_types=1);
 @section('content')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include('notify::emails.templates.minty.contentStart')
 =======
 <<<<<<< HEAD
@@ -2618,10 +2619,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
     @include('notify::emails.templates.minty.content-start')
 =======
     @include('notify::emails.templates.minty.contentStart')
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     @include('notify::emails.templates.minty.contentStart')
@@ -2635,6 +2639,8 @@ declare(strict_types=1);
     @include('notify::emails.templates.minty.contentStart')
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     <tr>
         <td class="paragraph">
             {!! $html !!}
@@ -2684,6 +2690,7 @@ declare(strict_types=1);
         <td width="100%" height="25"></td>
     </tr> --}}
 <<<<<<< HEAD
+<<<<<<< HEAD
     @include('notify::emails.templates.minty.contentEnd')
 =======
 <<<<<<< HEAD
@@ -2693,10 +2700,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
     @include('notify::emails.templates.minty.content-end')
 =======
     @include('notify::emails.templates.minty.contentEnd')
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     @include('notify::emails.templates.minty.contentEnd')
@@ -2710,6 +2720,8 @@ declare(strict_types=1);
     @include('notify::emails.templates.minty.contentEnd')
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 
 @stop
 =======

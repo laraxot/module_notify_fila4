@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione
@@ -161,6 +167,7 @@
 <<<<<<< HEAD
 <nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,6 +819,7 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
  utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 >>>>>>> 9cf0dc90 (.)
@@ -1001,6 +1009,8 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 Questo documento spiega in dettaglio i motivi architetturali, i vantaggi e l'implementazione di questo pattern.
 
@@ -1057,6 +1067,7 @@ abstract class XotBasePage extends Page implements HasForms
 <<<<<<< HEAD
     public function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1229,6 +1240,7 @@ abstract class XotBasePage extends Page implements HasForms
 =======
     public function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     public function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
@@ -1310,6 +1322,8 @@ abstract class XotBasePage extends Page implements HasForms
     public function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -1364,6 +1378,7 @@ Prima (❌):
 <<<<<<< HEAD
 public function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1536,6 +1551,7 @@ public function form(Form $form): Form
 =======
 public function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 public function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
@@ -1617,6 +1633,8 @@ public function form(Form $form): Form
 public function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 {
     return $form
         ->schema([
@@ -1663,6 +1681,7 @@ find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec g
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2059,6 +2078,7 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2069,6 +2089,8 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
@@ -2081,6 +2103,9 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
@@ -2092,6 +2117,7 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f963d2c0 (.)
@@ -2423,3 +2449,5 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 7ceb00286 (.)

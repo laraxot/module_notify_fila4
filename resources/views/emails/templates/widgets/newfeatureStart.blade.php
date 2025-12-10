@@ -514,6 +514,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3940,7 +3941,13 @@
 =======
 >>>>>>> 4cb1607 (.)
 >>>>>>> bce3ff15 (.)
+<<<<<<< HEAD
 >>>>>>> d13d18db0 (.)
+=======
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 <?php
 
 declare(strict_types=1);
@@ -4438,6 +4445,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bce3ff15 (.)
 =======
@@ -4684,6 +4692,8 @@ declare(strict_types=1);
 >>>>>>> 8134673e1 (.)
 =======
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -8532,10 +8542,14 @@ declare(strict_types=1);
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 75179b85 (.)
@@ -8558,6 +8572,8 @@ declare(strict_types=1);
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -8569,6 +8585,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8836,6 +8853,8 @@ declare(strict_types=1);
 =======
 >>>>>>> e790eb33 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 =======
@@ -10107,11 +10126,15 @@ declare(strict_types=1);
 >>>>>>> 4a221df (.)
 >>>>>>> cb5f23b0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ce89c8bb (.)
@@ -11351,3 +11374,5 @@ declare(strict_types=1);
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> 7ceb00286 (.)

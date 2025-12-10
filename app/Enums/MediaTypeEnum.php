@@ -3173,10 +3173,13 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3604,6 +3607,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -3655,6 +3659,14 @@ enum MediaTypeEnum: string
      * @param string $type
      * @return bool
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+     *
+     * @param string $type
+     * @return bool
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -3662,6 +3674,9 @@ enum MediaTypeEnum: string
      * @return bool
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      */
     public static function isSupported(string $type): bool
     {
@@ -4471,10 +4486,13 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 7ceb00286 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4841,6 +4859,7 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> fbed41ac (.)
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
      *
@@ -4875,6 +4894,13 @@ enum MediaTypeEnum: string
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+     *
+     * @return self
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      */
     public static function getDefault(): self
     {

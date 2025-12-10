@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -286,6 +292,7 @@ Ogni campo ora ha la struttura espansa completa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1012,6 +1019,7 @@ Ogni campo ora ha la struttura espansa completa:
 - [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
 >>>>>>> fbed41ac (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1125,6 +1133,13 @@ Ogni campo ora ha la struttura espansa completa:
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+- [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
+- [Regole Helper Text](../project_docs/translation-helper-text-standards.md)
+- [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
+- [Best Practices Filament](../docs/filament_translation_best_practices.md)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 ## Note Importanti
 
@@ -1147,6 +1162,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1286,6 +1302,7 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-06* 
@@ -1355,3 +1372,8 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

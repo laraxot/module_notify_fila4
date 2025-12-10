@@ -107,6 +107,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -411,6 +412,7 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -428,10 +430,16 @@ use Modules\Notify\Models\Notification;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\Notification;
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3f39ac8b (.)
@@ -496,6 +504,8 @@ use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Tests\TestCase;
 
 /*
@@ -528,14 +538,18 @@ pest()->extend(TestCase::class)->in('Feature', 'Unit');
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -546,6 +560,10 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 expect()->extend('toBeNotification', fn () => $this->toBeInstanceOf(Notification::class));
 
 expect()->extend('toBeMailTemplate', fn () => $this->toBeInstanceOf(MailTemplate::class));
@@ -558,6 +576,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -572,8 +591,13 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 =======
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 /*
  * |--------------------------------------------------------------------------

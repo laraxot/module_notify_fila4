@@ -114,6 +114,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -338,6 +339,7 @@ use Override;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -381,6 +383,8 @@ use Override;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -393,10 +397,13 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -982,7 +989,13 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Override;
 >>>>>>> laraxot/develop
 use Filament\Tables\Columns\TextColumn;
@@ -994,6 +1007,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 use Override;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1733,7 +1747,19 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
@@ -1742,6 +1768,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2151,6 +2178,7 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 58816034 (.)
@@ -2201,6 +2229,11 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function getTableColumns(): array
     {
         return [

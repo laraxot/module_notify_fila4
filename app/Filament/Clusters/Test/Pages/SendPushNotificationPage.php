@@ -39,6 +39,7 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -156,6 +157,9 @@ use Modules\User\Models\DeviceUser;
 >>>>>>> 11b43e822 (.)
 use Filament\Schemas\Schema;
 =======
+=======
+use Override;
+>>>>>>> c8b1c8bf (.)
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -181,7 +185,9 @@ use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Filament\Clusters\Test;
+<<<<<<< HEAD
 use Modules\User\Models\DeviceUser;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -213,11 +219,17 @@ use Filament\Schemas\Schema;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+=======
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 7ceb00286 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Repeater;
 use Kreait\Firebase\Messaging\MessageData;
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
@@ -226,12 +238,16 @@ use Override;
 =======
 use Override;
 >>>>>>> 4e2ebfb (.)
+=======
+use Override;
+>>>>>>> 7ceb00286 (.)
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -283,6 +299,8 @@ use Webmozart\Assert\Assert;
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -292,6 +310,11 @@ use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
@@ -371,6 +394,7 @@ use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use function Safe\json_encode;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @property \Filament\Schemas\Schema $notificationForm
  */
@@ -406,12 +430,16 @@ use function Safe\json_encode;
 >>>>>>> f1c9518b (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 7ceb00286 (.)
 /**
  * @property \Filament\Schemas\Schema $notificationForm
  */
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -439,6 +467,9 @@ use function Safe\json_encode;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 class SendPushNotificationPage extends XotBasePage
 {
 <<<<<<< HEAD
@@ -447,6 +478,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public null|array $notificationData = [];
 =======
@@ -594,10 +626,14 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
     public ?array $notificationData = [];
 =======
     public null|array $notificationData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -770,6 +806,10 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -803,10 +843,14 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
     protected static null|string $cluster = Test::class;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -822,10 +866,14 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
     protected static ?string $cluster = Test::class;
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1016,12 +1064,16 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1057,6 +1109,13 @@ class SendPushNotificationPage extends XotBasePage
 =======
     public function notificationForm(Schema $schema): Schema
 >>>>>>> 11b43e822 (.)
+=======
+    public function notificationForm(Schema $schema): Schema
+=======
+<<<<<<< HEAD
+    public function form(Schema $schema): Schema
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1160,10 +1219,14 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
                 Select::make('deviceToken')->options(fn() => []),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1185,6 +1248,8 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     public function notificationForm(Schema $schema): Schema
     {
         $devices = DeviceUser::with(['profile', 'device'])
@@ -1205,6 +1270,7 @@ class SendPushNotificationPage extends XotBasePage
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
@@ -1212,6 +1278,9 @@ class SendPushNotificationPage extends XotBasePage
 =======
 
 >>>>>>> 4e2ebfb (.)
+=======
+
+>>>>>>> 7ceb00286 (.)
             // Relations & attributes (Laravel-safe)
             $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
             if (!is_object($profile)) {
@@ -1230,13 +1299,17 @@ class SendPushNotificationPage extends XotBasePage
             $robot = is_string($robotVal) ? $robotVal : null;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
             // Creiamo la label con gli ultimi 5 caratteri del token
             $tokenSuffix = mb_substr($token, -5);
             $label = $fullName . ' (' . ($robot ?? '') . ') ' . $tokenSuffix;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             
@@ -1247,6 +1320,8 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 7ceb00286 (.)
             return [$token => $label];
         };
 
@@ -1263,6 +1338,7 @@ class SendPushNotificationPage extends XotBasePage
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
 =======
         $to = $devices
@@ -1273,10 +1349,14 @@ class SendPushNotificationPage extends XotBasePage
 =======
         $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
 >>>>>>> 4e2ebfb (.)
+=======
+        $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
+>>>>>>> 7ceb00286 (.)
 
         Assert::isArray($to);
 
         return $schema
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1314,6 +1394,12 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+            ->components([
+                Select::make('deviceToken')->options(fn() => $to),
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -1400,15 +1486,19 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $data = $this->notificationForm->getState();
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $data = $this->data;
 =======
         $data = $this->notificationForm->getState();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1423,6 +1513,9 @@ class SendPushNotificationPage extends XotBasePage
         $data = $this->notificationForm->getState();
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -1433,6 +1526,7 @@ class SendPushNotificationPage extends XotBasePage
                 ->body('Token del dispositivo non valido')
                 ->send();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1452,11 +1546,15 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1481,6 +1579,8 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             return;
         }
 
@@ -1796,6 +1896,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
                 
@@ -1945,8 +2046,14 @@ class SendPushNotificationPage extends XotBasePage
 =======
 =======
                 
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
+=======
+                
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -2024,6 +2131,8 @@ class SendPushNotificationPage extends XotBasePage
 =======
                 
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -2067,6 +2176,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -2080,6 +2190,8 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -2184,6 +2296,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -2240,6 +2353,13 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+        if (! ($user instanceof Model)) {
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -2286,15 +2406,19 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->notificationForm->fill();
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         // Form data filled;
 =======
         $this->notificationForm->fill();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2309,6 +2433,9 @@ class SendPushNotificationPage extends XotBasePage
         $this->notificationForm->fill();
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     }
 }
 =======

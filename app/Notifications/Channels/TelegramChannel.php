@@ -212,8 +212,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,6 +546,7 @@ declare(strict_types=1);
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -710,6 +714,10 @@ declare(strict_types=1);
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -743,12 +751,15 @@ class TelegramChannel
     /**
      * Invia la notifica tramite Telegram.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1018,9 @@ class TelegramChannel
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
      * @return void
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
      */
     public function send($notifiable, Notification $notification)
     {
@@ -1105,14 +1119,31 @@ class TelegramChannel
 
         if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForTelegram')) {
 =======
+<<<<<<< HEAD
+=======
+     *
+     * @param mixed $notifiable
+     * @param Notification $notification
+     * @return void
+     */
+    public function send($notifiable, Notification $notification)
+    {
+>>>>>>> c8b1c8bf (.)
         if (!method_exists($notification, 'toTelegram')) {
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
 
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForTelegram')) {
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             throw new Exception('Il metodo routeNotificationForTelegram() non è definito nel notifiable.');
 <<<<<<< HEAD
 =======

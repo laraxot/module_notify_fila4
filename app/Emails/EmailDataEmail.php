@@ -15,6 +15,7 @@ namespace Modules\Notify\Emails;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8c19c8df2 (.)
@@ -22,6 +23,8 @@ namespace Modules\Notify\Emails;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
@@ -168,6 +171,7 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -183,6 +187,8 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
@@ -196,6 +202,9 @@ use Illuminate\Mail\Mailables\Attachment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
@@ -240,6 +249,8 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
@@ -249,11 +260,15 @@ use Illuminate\Mail\Mailables\Address;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -274,6 +289,8 @@ use Illuminate\Mail\Mailables\Address;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -1423,6 +1440,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
@@ -1462,6 +1480,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2029,6 +2049,7 @@ class EmailDataEmail extends Mailable
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -2041,6 +2062,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
@@ -2051,10 +2074,13 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -2880,11 +2906,14 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> d45a0226 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
@@ -2914,12 +2943,19 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2933,6 +2969,8 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
         $envelope = new Envelope(
             from: new Address($this->email_data->from_email, $this->email_data->from),
             subject: $this->email_data->subject,
@@ -2940,6 +2978,7 @@ class EmailDataEmail extends Mailable
 
         return $envelope;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2948,6 +2987,10 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
         return new Envelope(
             from: new Address($this->email_data->from_email, $this->email_data->from),
             subject: $this->email_data->subject,
@@ -2961,6 +3004,7 @@ class EmailDataEmail extends Mailable
         return $envelope;
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -2971,6 +3015,9 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     }
 
     /**

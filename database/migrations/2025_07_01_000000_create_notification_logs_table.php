@@ -212,10 +212,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 =======
 <<<<<<< HEAD
@@ -1120,7 +1123,17 @@ declare(strict_types=1);
 
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> fbed41ac (.)
+=======
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -1268,6 +1281,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1609,6 +1623,7 @@ return new class extends Migration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -1810,12 +1825,15 @@ return new class extends Migration {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 return new class extends Migration
 {
 =======
 return new class extends Migration {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -2051,11 +2069,14 @@ return new class extends Migration
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!Schema::hasTable('notification_logs')) {
 =======
@@ -2111,6 +2132,12 @@ return new class extends Migration
         if (!Schema::hasTable('notification_logs')) {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+        if (! Schema::hasTable('notification_logs')) {
+=======
+        if (!Schema::hasTable('notification_logs')) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             Schema::create('notification_logs', function (Blueprint $table) {
 =======
             Schema::create('notification_logs', function (Blueprint $table): void {

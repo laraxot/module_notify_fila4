@@ -3132,6 +3132,7 @@ class NotificationTypeTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notificationType = new NotificationType();
 =======
 <<<<<<< HEAD
@@ -3143,10 +3144,13 @@ class NotificationTypeTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $notificationType = new NotificationType;
 =======
         $notificationType = new NotificationType();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $notificationType = new NotificationType();
@@ -3178,6 +3182,8 @@ class NotificationTypeTest extends TestCase
         $notificationType = new NotificationType();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedFillable = [
             'name',

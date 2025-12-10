@@ -120,6 +120,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -613,7 +614,18 @@ use Modules\Notify\Datas\SmsData;
  * @package Modules\Notify\Notifications
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> fbed41ac (.)
+=======
+=======
+ *
+ * @package Modules\Notify\Notifications
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
  */
 class SmsNotification extends Notification implements ShouldQueue
 {
@@ -621,6 +633,7 @@ class SmsNotification extends Notification implements ShouldQueue
 
     /**
      * The SMS data.
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @var SmsData
@@ -654,6 +667,7 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> f1c9518b (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
      *
@@ -683,6 +697,12 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+     *
+     * @var SmsData
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      */
     protected SmsData $smsData;
 
@@ -697,9 +717,11 @@ class SmsNotification extends Notification implements ShouldQueue
      * Create a new notification instance.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string|SmsData $content The content of the SMS or SmsData object
      * @param array<string, mixed> $config Configuration options including provider
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +745,10 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      * @param  string|SmsData  $content  The content of the SMS or SmsData object
      * @param  array<string, mixed>  $config  Configuration options including provider
 =======
@@ -733,11 +759,15 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
      * @param string|SmsData $content The content of the SMS or SmsData object
      * @param array<string, mixed> $config Configuration options including provider
@@ -764,6 +794,8 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      */
     public function __construct(string|SmsData $content, array $config = [])
     {
@@ -1193,10 +1225,16 @@ class SmsNotification extends Notification implements ShouldQueue
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $this->smsData = new SmsData;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+            $this->smsData = new SmsData;
+=======
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
@@ -1424,6 +1462,7 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1543,6 +1582,11 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
+=======
+            $this->smsData = new SmsData();
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
             $this->smsData->to = (string) $to;
@@ -2273,6 +2317,7 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2665,6 +2710,12 @@ class SmsNotification extends Notification implements ShouldQueue
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+=======
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -3509,6 +3560,7 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the SMS representation of the notification.
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param mixed $notifiable
      * @return SmsData
@@ -3538,6 +3590,8 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> e53a56570 (.)
 =======
+>>>>>>> c8b1c8bf (.)
+=======
      *
      * @param mixed $notifiable
      * @return SmsData
@@ -3546,11 +3600,15 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
      *
      * @param mixed $notifiable
@@ -3580,6 +3638,8 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      */
     public function toSms(mixed $notifiable): SmsData
     {
@@ -3607,6 +3667,7 @@ class SmsNotification extends Notification implements ShouldQueue
      * Get the provider to use for sending the SMS.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3618,12 +3679,15 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      *
      * @return string|null
 =======
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -3634,6 +3698,10 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4024,6 +4092,7 @@ class SmsNotification extends Notification implements ShouldQueue
         $provider = $this->config['provider'] ?? null;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4032,11 +4101,14 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4057,6 +4129,8 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         return is_string($provider) ? $provider : null;
     }
 }

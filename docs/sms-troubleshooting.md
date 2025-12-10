@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -322,6 +328,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,6 +1055,7 @@ Log::debug('SMS Debug', [
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 >>>>>>> fbed41ac (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1161,6 +1169,13 @@ Log::debug('SMS Debug', [
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+- [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
+- [Laravel Queue](https://laravel.com/project_docs/queues)
+- [Laravel Logging](https://laravel.com/project_docs/logging)
+- [Laravel Logging](https://laravel.com/docs/logging)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 ## Supporto
 
@@ -1190,6 +1205,7 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1295,6 +1311,8 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1318,6 +1336,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1372,3 +1391,7 @@ Log::debug('SMS Debug', [
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

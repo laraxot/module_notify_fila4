@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -84,6 +85,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -176,6 +178,10 @@
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # SmsFactorData Implementation Summary
 
 ## Overview
@@ -254,6 +260,7 @@ public function __construct()
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1316,10 +1323,14 @@ public function __construct()
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
 >>>>>>> cccb594f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 - `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
@@ -2006,6 +2017,8 @@ public function __construct()
 >>>>>>> 1dc3e4fcd (.)
 =======
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -2382,6 +2395,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 =======
 - `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
@@ -3148,6 +3162,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 =======
 - `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> 9cf0dc90 (.)
@@ -3542,10 +3557,13 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> cccb594f (.)
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 ## Conclusion
 
 The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAction` successfully follows the established pattern and provides a more maintainable, type-safe, and consistent approach to SMS provider configuration management. This change aligns with the project's architecture principles and makes the codebase more robust and easier to extend.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3665,6 +3683,8 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 =======
 >>>>>>> 602b8a0a9 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -3694,6 +3714,7 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -3754,3 +3775,7 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Best Practices per Email Transazionali
 
 ## Introduzione
@@ -174,6 +180,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 <<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -825,6 +832,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 - **Elementi visuali**: Utilizzare logo, colori e font 
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> 9cf0dc90 (.)
@@ -1014,6 +1022,8 @@ Questo documento descrive le best practices per la creazione e gestione di email
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
 
@@ -1211,6 +1221,7 @@ La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mai
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 =======
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
@@ -1604,6 +1615,7 @@ La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/N
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> 9cf0dc90 (.)
@@ -1922,6 +1934,8 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
 - **main.html**: Alternativa minimalista
@@ -2082,6 +2096,7 @@ Seguendo le regole di progetto <nome progetto>, ricordare di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo le regole di progetto <nome progetto>, ricordare di:
 =======
 Seguendo le regole di progetto , ricordare di:
@@ -2584,6 +2599,7 @@ Seguendo le regole di progetto SaluteOra, ricordare di:
 Seguendo le regole di progetto , ricordare di:
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> 9cf0dc90 (.)
@@ -2773,6 +2789,8 @@ Seguendo le regole di progetto SaluteOra, ricordare di:
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 - NON creare controller personalizzati per gestire l'invio di email
 - Utilizzare il package `spatie/laravel-mail-templates`
@@ -2830,6 +2848,7 @@ $mailTemplate->send($user->email, [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2925,6 +2944,8 @@ $mailTemplate->send($user->email, [
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2948,6 +2969,7 @@ $mailTemplate->send($user->email, [
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -3002,3 +3024,7 @@ $mailTemplate->send($user->email, [
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

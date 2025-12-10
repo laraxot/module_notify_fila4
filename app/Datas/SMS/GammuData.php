@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 =======
 <<<<<<< HEAD
@@ -13,6 +14,8 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -806,6 +809,7 @@ use Illuminate\Support\Arr;
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
 =======
@@ -1043,6 +1047,8 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 4b544042 (.)
 >>>>>>> a85ebf6cc (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1067,14 +1073,18 @@ class GammuData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
@@ -1086,6 +1096,8 @@ use Spatie\LaravelData\Data;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Webmozart\Assert\Assert;
 
 class GammuData extends Data
@@ -1105,6 +1117,7 @@ class GammuData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1123,6 +1136,9 @@ class GammuData extends Data
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);

@@ -95,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -219,6 +220,7 @@
 >>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -313,6 +315,8 @@
 =======
 >>>>>>> 0ebb7b01 (.)
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Gestione degli Allegati nelle Email
 
 ## Implementazione Corretta
@@ -436,6 +440,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -607,11 +612,15 @@ $attachments = [
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> 0ebb7b01 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 9cf0dc90 (.)
@@ -908,6 +917,8 @@ $attachments = [
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ],
@@ -1027,6 +1038,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -1198,11 +1210,15 @@ $attachments = [
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> 0ebb7b01 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 9cf0dc90 (.)
@@ -1499,6 +1515,8 @@ $attachments = [
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+>>>>>>> 7ceb00286 (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ]
@@ -1636,6 +1654,7 @@ Mail::to($user->email)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1722,6 +1741,8 @@ Mail::to($user->email)
 =======
 >>>>>>> 1dc3e4fcd (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1774,6 +1795,7 @@ Mail::to($user->email)
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> 0ebb7b01 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1979,3 +2001,7 @@ Mail::to($user->email)
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> 1dc3e4fcd (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

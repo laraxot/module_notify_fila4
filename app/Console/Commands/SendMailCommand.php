@@ -7,6 +7,7 @@ namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +29,11 @@ use Modules\Notify\Datas\SmtpData;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\SmtpData;
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Datas\EmailData;
@@ -35,6 +41,7 @@ use Modules\Notify\Datas\SmtpData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Notifications\EmailDataNotification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +58,9 @@ use Modules\Notify\Notifications\EmailDataNotification;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
 use Webmozart\Assert\Assert;
 
 class SendMailCommand extends Command
@@ -447,12 +457,15 @@ class SendMailCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $this->info('Email sent successfully to ' . $emailData->to);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1425,7 +1438,16 @@ class SendMailCommand extends Command
         $this->info('Email sent successfully to ' . $emailData->to);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+        $this->info('Email sent successfully to '.$emailData->to);
+=======
+        $this->info('Email sent successfully to ' . $emailData->to);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
         return Command::SUCCESS;
     }

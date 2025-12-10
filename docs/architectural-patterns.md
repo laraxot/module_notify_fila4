@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern Architetturali per le Notifiche
 
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
@@ -597,6 +598,16 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+# Pattern Architetturali per le Notifiche
+
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di , con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+<<<<<<< HEAD
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 # Pattern Architetturali per le Notifiche
@@ -666,6 +677,7 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 # Pattern Architetturali per le Notifiche
 
@@ -1005,6 +1017,8 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 ## Confronto tra Pattern Architetturali
 
@@ -1149,6 +1163,7 @@ Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola i
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1244,6 +1259,8 @@ Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola i
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1267,6 +1284,7 @@ Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola i
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1321,3 +1339,7 @@ Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola i
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

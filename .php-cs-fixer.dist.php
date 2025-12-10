@@ -2904,6 +2904,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->ignoreVCS(true);
 =======
     ->ignoreVCS(true)
@@ -2918,12 +2919,16 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
     ->ignoreVCS(true);
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
@@ -2942,6 +2947,8 @@ $finder = PhpCsFixer\Finder::create()
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -3010,8 +3017,16 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     ->setFinder($finder);
+=======
+    ->setFinder($finder)
+>>>>>>> 75179b8 (.)
 
 return $config;
 =======

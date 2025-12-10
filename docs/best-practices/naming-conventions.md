@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -53,6 +54,8 @@
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Convenzioni di Naming
 
 ## Regole Generali
@@ -111,6 +114,7 @@ public function handleHTTPRequest(): void
 
 # Convenzioni di Naming per le Azioni di Notifica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +322,10 @@ Questo documento definisce le convenzioni di naming standardizzate per le azioni
 =======
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
 >>>>>>> 3808094f6 (.)
+=======
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema , supportando la risoluzione dinamica delle classi implementata nei factory.
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
+>>>>>>> 7ceb00286 (.)
 
 ## Pattern di Naming
 
@@ -458,6 +466,7 @@ Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -496,3 +505,5 @@ Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)

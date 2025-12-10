@@ -10,6 +10,7 @@ namespace Modules\Notify\Notifications\Channels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 <<<<<<< HEAD
@@ -48,9 +49,12 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 <<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Kreait\Firebase\Messaging\RegistrationToken;
@@ -257,6 +261,8 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -265,6 +271,7 @@ use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Exception\FirebaseException;
 use Kreait\Firebase\Exception\MessagingException;
 use Kreait\Firebase\Messaging\MulticastSendReport;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -277,10 +284,13 @@ use Kreait\Firebase\Messaging\MulticastSendReport;
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 =======
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
@@ -309,6 +319,8 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Contracts\CanReceivePushNotifications;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\PushNotificationDebugData;

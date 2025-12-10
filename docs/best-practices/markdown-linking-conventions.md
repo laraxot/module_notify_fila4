@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -53,6 +54,8 @@
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 # Convenzioni per i Collegamenti nei File Markdown
 
 ## Regola Fondamentale
@@ -64,6 +67,7 @@
 ### ❌ ERRATO: Percorsi Assoluti
 
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,12 +211,18 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> 43dd68f4b (.)
+=======
+[Convenzioni di Naming per le Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
+[Chiarimento sulla Struttura delle Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
+[Architettura dei Contratti](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+>>>>>>> 7ceb00286 (.)
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 [Convenzioni di Naming per le Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b855 (.)
@@ -524,6 +534,8 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -546,6 +558,7 @@ Per collegamenti a documenti in altre directory:
 1. **Portabilità**: I percorsi relativi funzionano indipendentemente dalla posizione di installazione del progetto
 2. **Compatibilità tra ambienti**: I percorsi assoluti potrebbero non funzionare in ambienti diversi
 3. **Manutenibilità**: I percorsi relativi sono più facili da mantenere quando la struttura del progetto cambia
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -753,6 +766,10 @@ Per collegamenti a documenti in altre directory:
 =======
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> 3808094f6 (.)
+=======
+4. **Standard del progetto**:  segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
+4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
+>>>>>>> 7ceb00286 (.)
 
 ## Regole per i Collegamenti Relativi
 
@@ -773,6 +790,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 
 - [Convenzioni di Documentazione](../../../docs/documentation-conventions.md)
 - [Markdown Best Practices](../../../docs/markdown-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -829,3 +847,5 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)

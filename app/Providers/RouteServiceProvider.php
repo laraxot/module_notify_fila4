@@ -10,6 +10,7 @@ use Modules\Xot\Providers\XotBaseRouteServiceProvider;
 class RouteServiceProvider extends XotBaseRouteServiceProvider
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
 <<<<<<< HEAD
 =======
@@ -29,6 +30,8 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,8 +42,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
     public string $name = 'Notify';
 
 =======
@@ -87,6 +93,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     public string $name = 'Notify';
@@ -104,6 +111,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
     public string $name = 'Notify';
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 
     public string $name = 'Notify';
 >>>>>>> 75179b85 (.)
@@ -111,9 +119,12 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 
     public string $name = 'Notify';
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -131,6 +142,9 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
     public string $name = 'Notify';
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

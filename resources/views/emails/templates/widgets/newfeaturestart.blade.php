@@ -543,6 +543,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1072,6 +1073,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9f07b0d4 (.)
@@ -2000,6 +2002,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> bce3ff15 (.)
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 <?php
 
 declare(strict_types=1);
@@ -2008,6 +2012,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3969,6 +3974,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 7d765981 (.)
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -4942,6 +4948,11 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 08fd62d (.)
 >>>>>>> bce3ff15 (.)
 >>>>>>> d13d18db0 (.)
+=======
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -5500,6 +5511,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5783,6 +5795,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 8134673e1 (.)
 =======
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7925,6 +7939,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
@@ -8704,3 +8719,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 8134673e1 (.)
 =======
 >>>>>>> d13d18db0 (.)
+=======
+>>>>>>> 7ceb00286 (.)

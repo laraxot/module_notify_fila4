@@ -71,6 +71,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -117,6 +118,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -163,6 +165,11 @@ use Filament\Schemas\Components\Component;
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
 =======
+=======
+=======
+use Override;
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Filament\Infolists\Components\TextEntry;
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
@@ -185,6 +192,7 @@ use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 4e2ebfb (.)
 use Filament\Schemas\Components\Section;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,7 +290,17 @@ use Filament\Infolists\Components\Section;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Filament\Infolists\Components\TextEntry;
+=======
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+use Filament\Schemas\Components\Section;
+use Filament\Infolists\Components\TextEntry;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD

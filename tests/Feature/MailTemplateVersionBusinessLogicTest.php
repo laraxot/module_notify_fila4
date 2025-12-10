@@ -15,6 +15,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +65,8 @@ namespace Modules\Notify\Tests\Feature;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +172,7 @@ use Modules\Notify\Models\MailTemplateVersion;
 =======
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -196,6 +200,10 @@ use Modules\Notify\Models\MailTemplateVersion;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
@@ -211,8 +219,11 @@ use RuntimeException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
@@ -286,10 +297,13 @@ use RuntimeException;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
 use RuntimeException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Tests\TestCase;
@@ -323,11 +337,16 @@ use Tests\TestCase;
 =======
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1832,6 +1851,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'text_template' => 'Conferma Appuntamento\n\nGentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.',
             'version' => '2.0',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -1866,6 +1886,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b85 (.)
@@ -1889,6 +1910,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
 
@@ -1901,6 +1924,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'subject' => 'Conferma Appuntamento - Versione 2.0',
             'version' => '2.0',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -1935,6 +1959,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b85 (.)
@@ -1958,6 +1983,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
 
@@ -2495,8 +2522,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
 =======
 <<<<<<< HEAD
@@ -2506,12 +2536,16 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
             'created_by' => 'developer@'.config('app.domain', 'example.com'),
 =======
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -2619,10 +2653,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3225,7 +3262,16 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+=======
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
@@ -4788,6 +4834,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
         =====================
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -4927,6 +4974,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
         
         Gentile {{patient_name}},
         
@@ -5665,6 +5714,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
                 'mailable' => $mailableClass,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             $version = MailTemplateVersion::factory()->create([
                 'template_id' => $template->id,
@@ -5687,6 +5737,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'version' => '1.' . $index,
                 'subject' => 'Template per ' . $mailableClass,
                 'html_template' => '<p>Template per ' . $mailableClass . '</p>',
@@ -5697,6 +5749,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5715,6 +5768,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
                 'version' => '1.'.$index,
                 'subject' => 'Template per '.$mailableClass,
                 'html_template' => '<p>Template per '.$mailableClass.'</p>',
@@ -5735,11 +5792,15 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5760,6 +5821,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         }
     }
 
@@ -9417,6 +9480,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         preg_match_all('/\{\{([^}]+)\}\}/', $template, $matches);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9436,11 +9500,15 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -9465,6 +9533,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         return array_unique($matches[1] ?? []);
     }
 }

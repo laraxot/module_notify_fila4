@@ -111,6 +111,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -159,6 +160,8 @@ return new class extends XotBaseMigration
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -785,7 +788,12 @@ return new class() extends XotBaseMigration {
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 return new class extends XotBaseMigration
 {
     protected ?string $model_class = Contact::class;
@@ -802,6 +810,7 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> 58816034 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 return new class() extends XotBaseMigration {
@@ -1045,7 +1054,15 @@ return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
     /**
      * Run the migrations.
@@ -1461,6 +1478,7 @@ return new class() extends XotBaseMigration {
         });
         $this->tableUpdate(function (Blueprint $table): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('token')) {
 =======
 <<<<<<< HEAD
@@ -1495,6 +1513,7 @@ return new class() extends XotBaseMigration {
             if (!$this->hasColumn('token')) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
             if (!$this->hasColumn('token')) {
 >>>>>>> 75179b85 (.)
@@ -1518,6 +1537,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 $table->string('token')->nullable();
 <<<<<<< HEAD
 =======

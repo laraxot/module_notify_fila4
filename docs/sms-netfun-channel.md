@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -72,6 +73,7 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -154,6 +156,10 @@
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Integrazione Netfun SMS Channel in Laravel
 
 ## Introduzione
@@ -274,6 +280,7 @@ Configurazione attuale con username/password nel modulo Notify:
 <<<<<<< HEAD
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -925,6 +932,7 @@ Configurazione attuale con username/password nel modulo Notify:
     'sender' => env('NETFUN_SENDER', ''),
     'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
     'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 9cf0dc90 (.)
@@ -1114,6 +1122,8 @@ Configurazione attuale con username/password nel modulo Notify:
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 7ceb00286 (.)
     'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
     // Parametri avanzati...
 ],
@@ -1537,6 +1547,7 @@ class NetfunSMSTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1632,6 +1643,8 @@ class NetfunSMSTest extends TestCase
 =======
 >>>>>>> fea359347 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1655,6 +1668,7 @@ class NetfunSMSTest extends TestCase
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1709,3 +1723,7 @@ class NetfunSMSTest extends TestCase
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

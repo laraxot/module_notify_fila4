@@ -109,6 +109,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -156,6 +157,8 @@ return new class extends XotBaseMigration
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -738,11 +741,17 @@ return new class() extends XotBaseMigration {
 =======
 =======
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 return new class extends XotBaseMigration
 {
 =======
 return new class() extends XotBaseMigration {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -892,7 +901,13 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     /**
      * Run the migrations.
      */
@@ -1308,6 +1323,7 @@ return new class extends XotBaseMigration
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!$this->hasColumn('notify_theme_id')) {
 =======
 <<<<<<< HEAD
@@ -1342,6 +1358,7 @@ return new class extends XotBaseMigration
             if (!$this->hasColumn('notify_theme_id')) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
             if (!$this->hasColumn('notify_theme_id')) {
 >>>>>>> 75179b85 (.)
@@ -1365,6 +1382,8 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 $table->integer('notify_theme_id')->nullable();
             }
             $this->updateTimestamps(

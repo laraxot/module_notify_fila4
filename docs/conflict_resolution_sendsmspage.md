@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -84,6 +85,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -176,6 +178,10 @@
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Risoluzione Conflitti SendSmsPage.php
 
 ## Contesto del Conflitto
@@ -393,6 +399,7 @@ Verificare che:
 
 *Ultimo aggiornamento: giugno 2025*
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1486,4 +1493,12 @@ Verificare che:
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 >>>>>>> 602b8a0a9 (.)
+=======
+=======
+- [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

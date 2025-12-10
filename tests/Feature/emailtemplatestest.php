@@ -17,6 +17,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +72,8 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
@@ -491,8 +494,18 @@ uses(Tests\TestCase::class);
 >>>>>>> 26d39e2eb (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> e00d798d (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> 75179b8 (.)
 
 uses(TestCase::class);
 >>>>>>> d45a0226 (.)

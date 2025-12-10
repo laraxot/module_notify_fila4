@@ -26,6 +26,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
@@ -33,6 +34,8 @@ namespace Modules\Notify\Actions\SMS;
 =======
 <<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
@@ -252,6 +255,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 2effe245 (.)
@@ -266,9 +270,12 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,6 +300,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +594,7 @@ use Modules\Notify\Datas\SmsData;
 
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 58816034 (.)
@@ -808,6 +818,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use function Safe\preg_split;
 
 /**
@@ -4720,6 +4732,7 @@ class FormatSmsMessageAction
             // Per messaggi concatenati, ogni SMS è di 153 caratteri
             $smsCount = intval($characterCount / 153);
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (($characterCount % 153) > 0) {
 =======
 <<<<<<< HEAD
@@ -4729,11 +4742,16 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
             if ($characterCount % 153 > 0) {
 =======
             if (($characterCount % 153) > 0) {
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
                 $smsCount++;
             }
         }

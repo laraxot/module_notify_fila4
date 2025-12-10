@@ -34836,6 +34836,7 @@ describe('Notification Management Business Logic', function () {
                 'subject' => "Test Notification - {$priority} Priority",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'content' => 'This is a test notification with ' . $priority . ' priority',
 =======
 <<<<<<< HEAD
@@ -34847,10 +34848,13 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'content' => 'This is a test notification with '.$priority.' priority',
 =======
                 'content' => 'This is a test notification with ' . $priority . ' priority',
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                 'content' => 'This is a test notification with ' . $priority . ' priority',
@@ -34882,6 +34886,8 @@ describe('Notification Management Business Logic', function () {
                 'content' => 'This is a test notification with ' . $priority . ' priority',
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 'status' => 'pending',
                 'priority' => $priority,
             ];
@@ -48608,6 +48614,7 @@ describe('Notification Management Business Logic', function () {
             ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'tracking_id' => 'track_' . uniqid(),
 =======
 <<<<<<< HEAD
@@ -48619,10 +48626,13 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
             'tracking_id' => 'track_'.uniqid(),
 =======
             'tracking_id' => 'track_' . uniqid(),
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             'tracking_id' => 'track_' . uniqid(),
@@ -48654,6 +48664,8 @@ describe('Notification Management Business Logic', function () {
             'tracking_id' => 'track_' . uniqid(),
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         ];
 
         $notification = Notification::create($notificationData);

@@ -109,6 +109,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -246,6 +247,7 @@ use Override;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -588,6 +590,8 @@ use Override;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
@@ -598,6 +602,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -885,11 +890,15 @@ use Filament\Tables\Filters\SelectFilter;
 =======
 =======
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 use Override;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
+<<<<<<< HEAD
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
@@ -1139,15 +1148,24 @@ use Override;
 >>>>>>> 4e2ebfb (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
 
 =======
 >>>>>>> 82ae73be (.)
@@ -1824,6 +1842,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2111,6 +2130,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 58816034 (.)
@@ -2151,6 +2171,11 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function getTableColumns(): array
     {
         return [
@@ -3066,6 +3091,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3382,6 +3408,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> fbed41ac (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 58816034 (.)
@@ -3422,6 +3449,11 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+    #[Override]
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function getTableFilters(): array
     {
         return [
@@ -3432,11 +3464,15 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
                 fn(): array => NotifyThemeResource::fieldOptions('lang'),
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -3448,6 +3484,8 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                 fn (): array => NotifyThemeResource::fieldOptions('lang'),
 >>>>>>> f1c9518b (.)
             ),
@@ -3472,6 +3510,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -3486,8 +3525,13 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
             ),
         ];
     }

@@ -15,6 +15,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +92,8 @@ use Illuminate\Contracts\Support\Htmlable;
 =======
 >>>>>>> f15c41e60 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -102,6 +105,9 @@ use Illuminate\Contracts\Support\Htmlable;
 =======
 use Filament\Forms;
 >>>>>>> d45a0226 (.)
+=======
+use Illuminate\Contracts\Support\Htmlable;
+>>>>>>> c8b1c8bf (.)
 use Filament\Schemas\Components\Section;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -172,12 +178,15 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1188,14 +1197,23 @@ use Webmozart\Assert\Assert;
 >>>>>>> 26d39e2eb (.)
 =======
 =======
+>>>>>>> c8b1c8bf (.)
+=======
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 // use Squire\Models\Country;
 
@@ -1304,6 +1322,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1926,7 +1945,16 @@ class ContactSection extends Forms\Components\Section
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+    // protected string $view = 'filament-forms::components.group';
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -1973,16 +2001,21 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $schema = $this->getFormSchema();
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         /** @var array<Htmlable|string> $schema */
         $schema = array_values($this->getFormSchema());
 >>>>>>> c8b1c8bf (.)
         $this->schema($schema);
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1991,6 +2024,10 @@ class ContactSection extends Forms\Components\Section
         $this->schema($this->getFormSchema());
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+=======
+        $this->schema($this->getFormSchema());
+>>>>>>> 75179b8 (.)
+>>>>>>> 7ceb00286 (.)
         $this->columns(2);
     }
 
@@ -2031,6 +2068,9 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2292,6 +2332,7 @@ class ContactSection extends Forms\Components\Section
         return $res;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         $this->schema($this->getFormSchema());
 =======
@@ -2343,6 +2384,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     }
 
     /*

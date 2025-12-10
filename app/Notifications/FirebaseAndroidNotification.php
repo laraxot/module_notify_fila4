@@ -114,6 +114,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -776,13 +777,24 @@ use Override;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> fbed41ac (.)
+=======
+=======
+use Override;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Stringable;
 use Kreait\Firebase\Messaging\AndroidConfig;
 use Kreait\Firebase\Messaging\CloudMessage;
 use Kreait\Firebase\Messaging\Message;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Kreait\Firebase\Messaging\MessageData;
 =======
@@ -805,11 +817,15 @@ use Kreait\Firebase\Messaging\MessageData;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 =======
 =======
 use Kreait\Firebase\Messaging\MessageData;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 use Kreait\Firebase\Messaging\MessageData;
 >>>>>>> 75179b85 (.)
@@ -837,6 +853,8 @@ use Kreait\Firebase\Messaging\MessageData;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\FirebaseNotificationData;
@@ -891,6 +909,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * Create a new notification instance.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param FirebaseNotificationData $data The Firebase notification data (I dati della notifica Firebase)
 =======
 <<<<<<< HEAD
@@ -899,6 +918,12 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @param FirebaseNotificationData $data The Firebase notification data (I dati della notifica Firebase)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+     * @param  FirebaseNotificationData  $data  The Firebase notification data (I dati della notifica Firebase)
+=======
+     * @param FirebaseNotificationData $data The Firebase notification data (I dati della notifica Firebase)
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      */
     public function __construct(
         public FirebaseNotificationData $data,
@@ -2004,6 +2029,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2405,6 +2431,12 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * @param object $_notifiable The entity to be notified (l'entità da notificare)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+     * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
+=======
+     * @param object $_notifiable The entity to be notified (l'entità da notificare)
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
      * @return array<int, class-string>
      */
     public function via(object $_notifiable): array
@@ -3253,9 +3285,11 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
      * Crea il messaggio Firebase Cloud per la notifica.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param object $notifiable The entity to be notified
      * @return CloudMessage
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3279,6 +3313,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      * @param  object  $notifiable  The entity to be notified
 =======
      * @param object $notifiable The entity to be notified
@@ -3288,11 +3326,15 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
      * @param object $notifiable The entity to be notified
      * @return CloudMessage
@@ -3319,6 +3361,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      */
     public function toFirebase(object $notifiable): CloudMessage
     {
@@ -4933,6 +4977,9 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
             if (!empty($notification)) {
 =======
 <<<<<<< HEAD
@@ -5738,6 +5785,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> e53a56570 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param object|null $notifiable The entity to be notified
 =======
      * @param  mixed  $notifiable  The entity to be notified
@@ -5748,6 +5796,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -5758,6 +5807,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @param  object|null  $notifiable  The entity to be notified
 >>>>>>> f1c9518b (.)
      * @return array<string, mixed>
@@ -5868,8 +5919,11 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6056,15 +6110,21 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
      * @param object|null $notifiable The entity to be notified
      * @return array<string, mixed>
      */
     #[Override]
     public function toArray(null|object $notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6557,6 +6617,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -6718,7 +6780,13 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
     public function toArray(null|object $notifiable): array
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     {
         // return $this->data->toArray();
         return [];
@@ -6726,6 +6794,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 
     /**
      * Convert to a Firebase Cloud message (Converti in un messaggio Cloud Firebase).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6739,6 +6808,8 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
      *
      * @return Message
 =======
@@ -7044,6 +7115,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
      */
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
      *
@@ -7074,10 +7146,13 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
      *
      * @return Message
      */
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -7094,6 +7169,10 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
     public function toCloudMessage(): Message
     {
         $notificationData = $this->data->data;

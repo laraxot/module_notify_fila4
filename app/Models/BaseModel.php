@@ -15,6 +15,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ namespace Modules\Notify\Models;
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -229,10 +232,15 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+use Modules\Xot\Models\XotBaseModel;
+=======
+>>>>>>> c8b1c8bf (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Traits\Updater;
@@ -248,6 +256,8 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 99ff506 (.)
 use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
@@ -262,6 +272,7 @@ use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
 use Modules\Xot\Traits\Updater;
 >>>>>>> 75179b85 (.)
@@ -292,6 +303,8 @@ use Modules\Xot\Models\XotBaseModel;
 use Modules\Xot\Traits\Updater;
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
@@ -324,8 +337,11 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
 <<<<<<< HEAD
@@ -345,6 +361,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     use InteractsWithMedia;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * Class BaseModel.
  */
@@ -360,11 +377,16 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
  */
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
     use HasFactory;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
     use InteractsWithMedia;
     use Updater;
 
@@ -375,6 +397,7 @@ abstract class BaseModel extends Model implements HasMedia
      *
      * @var bool
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -423,6 +446,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7ceb00286 (.)
     public static $snakeAttributes = true;
 
     /** @var bool */
@@ -434,11 +459,14 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     /** @var int */
     protected $perPage = 30;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b8 (.)
 
     /**
@@ -500,6 +528,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +540,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 7ceb00286 (.)
    
 =======
 >>>>>>> fbed41ac (.)
@@ -2227,11 +2258,22 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 985c7bda (.)
+=======
+    /**
+     * Create a new factory instance for the model.
+     *
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2244,6 +2286,10 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> d284d65 (.)
     }
 
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
     /** @return array<string, string> */
 >>>>>>> f2e64178 (.)
     protected function casts(): array

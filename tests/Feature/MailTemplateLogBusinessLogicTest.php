@@ -71,6 +71,7 @@ use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -97,6 +98,7 @@ use Carbon\Carbon;
 >>>>>>> f1c9518b (.)
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -178,6 +180,11 @@ use Carbon\Carbon;
 use Carbon\Carbon;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Carbon\Carbon;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
@@ -9878,6 +9885,7 @@ describe('Mail Template Log Business Logic', function () {
                     'appointment_date' => '2024-12-15 10:00:00',
                     'doctor_name' => 'Dr. Bianchi',
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
 =======
 <<<<<<< HEAD
@@ -9912,6 +9920,7 @@ describe('Mail Template Log Business Logic', function () {
                     'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
                     'clinic_name' => 'Studio Dentistico ' . config('app.name', 'Our Platform'),
 >>>>>>> 75179b85 (.)
@@ -9935,6 +9944,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
                     'clinic_address' => 'Via Roma 123, Milano',
                     'clinic_phone' => '+39 02 1234567',
                 ],

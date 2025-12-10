@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,6 +79,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -117,6 +119,10 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 # Risoluzione dei Problemi nelle Email 
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.
@@ -138,6 +144,7 @@ $attachments = [
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1295,6 +1302,7 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
@@ -2078,6 +2086,8 @@ $attachments = [
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> 7ceb00286 (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],
@@ -2275,6 +2285,7 @@ public function test_can_send_email_with_attachments()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2311,6 +2322,8 @@ public function test_can_send_email_with_attachments()
 =======
 >>>>>>> d9e649ac3 (.)
 =======
+>>>>>>> 7ceb00286 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2326,6 +2339,7 @@ public function test_can_send_email_with_attachments()
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2403,3 +2417,7 @@ public function test_can_send_email_with_attachments()
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

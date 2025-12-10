@@ -885,6 +885,10 @@ declare(strict_types=1);
 ?>
 <<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.contentStart')
+=======
+<<<<<<< HEAD
+@include('notify::emails.templates.'.$theme.'.content-start')
+>>>>>>> c8b1c8bf (.)
 {!! $html !!}
 <<<<<<< HEAD
 @include('notify::emails.templates.'.$theme.'.contentEnd')
@@ -2249,6 +2253,7 @@ declare(strict_types=1);
 =======
 =======
 @include('notify::emails.templates.'.$theme.'.content-end')
+<<<<<<< HEAD
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
 >>>>>>> 985c7bda (.)
@@ -2261,6 +2266,7 @@ declare(strict_types=1);
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2549,3 +2555,11 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+@include('notify::emails.templates.'.$theme.'.contentStart')
+{!! $html !!}
+@include('notify::emails.templates.'.$theme.'.contentEnd')
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)

@@ -212,10 +212,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
 =======
 <<<<<<< HEAD
@@ -1120,7 +1123,17 @@ declare(strict_types=1);
 
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> fbed41ac (.)
+=======
+=======
+
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -1180,10 +1193,21 @@ class NetfunSmsResponseData extends Data
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f15c41e60 (.)
 =======
 =======
 >>>>>>> d45a0226 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         public ?string $batchId = null,
         public ?array $messages = null,
         public ?string $error = null,
@@ -1612,6 +1636,7 @@ class NetfunSmsResponseData extends Data
             error: $error,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1702,6 +1727,7 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2276,9 +2302,12 @@ class NetfunSmsResponseData extends Data
 =======
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 7ceb00286 (.)
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2576,6 +2605,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -2593,6 +2623,15 @@ class NetfunSmsResponseData extends Data
 =======
         return new self(
 >>>>>>> 5fd545e4 (.)
+=======
+=======
+    ) {}
+
+    public static function fromArray(array $data): self
+    {
+        return new self(
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
             status: $data['status'],
             batchId: $data['batchId'] ?? null,
             messages: $data['messages'] ?? null,
@@ -2669,6 +2708,9 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7ceb00286 (.)
 >>>>>>> 5fd545e4 (.)
 =======
             error: $data['error'] ?? null,
@@ -2723,6 +2765,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
@@ -3011,6 +3054,10 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
         );
     }
 }

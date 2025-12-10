@@ -2617,6 +2617,7 @@ class NotifyThemeTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2628,10 +2629,13 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $theme = new NotifyTheme;
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $theme = new NotifyTheme();
@@ -2663,6 +2667,8 @@ class NotifyThemeTest extends TestCase
         $theme = new NotifyTheme();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedFillable = [
             'id',
@@ -2690,6 +2696,7 @@ class NotifyThemeTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2701,10 +2708,13 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $theme = new NotifyTheme;
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $theme = new NotifyTheme();
@@ -2736,6 +2746,8 @@ class NotifyThemeTest extends TestCase
         $theme = new NotifyTheme();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -2757,6 +2769,7 @@ class NotifyThemeTest extends TestCase
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2768,10 +2781,13 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 7ceb00286 (.)
         $theme = new NotifyTheme;
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $theme = new NotifyTheme();
@@ -2803,6 +2819,8 @@ class NotifyThemeTest extends TestCase
         $theme = new NotifyTheme();
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 7ceb00286 (.)
 
         $expectedAppends = ['logo'];
 

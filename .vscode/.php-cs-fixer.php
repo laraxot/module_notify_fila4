@@ -1813,6 +1813,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
@@ -1918,7 +1919,15 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
 >>>>>>> 0232891 (.)
 >>>>>>> 6a44db8a (.)
+<<<<<<< HEAD
 >>>>>>> ec82d0f4a (.)
+=======
+=======
+=======
+    ->ignoreVCS(true)
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -2020,6 +2029,7 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2059,9 +2069,14 @@ return $config;
 =======
 >>>>>>> ec82d0f4a (.)
 =======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
+=======
     ->setFinder($finder)
 
 return $config;
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
     ->setFinder($finder);
@@ -2188,4 +2203,10 @@ return $config;
 =======
 >>>>>>> 0232891 (.)
 >>>>>>> 6a44db8a (.)
+<<<<<<< HEAD
 >>>>>>> ec82d0f4a (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7ceb00286 (.)
