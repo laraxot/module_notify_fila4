@@ -60,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -103,6 +104,11 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+# Notify Module Documentation Index
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -274,6 +280,7 @@
 =======
 >>>>>>> 94c68e2 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb7e77c2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,7 +328,17 @@
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -377,6 +394,118 @@ This document serves as the central index for the Notify module, providing guida
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+# Indice della Documentazione - Modulo Notify
+
+## Panoramica
+Questo documento serve come indice centrale per il modulo Notify, fornendo una guida per la gestione delle notifiche all'interno di un'applicazione Laravel. Il modulo Notify gestisce vari canali di notifica come email, SMS e push notifications in modo modulare e riutilizzabile.
+
+## Principi Chiave
+1. **Modularità**: Il modulo Notify è progettato per essere riutilizzabile in diversi progetti, mantenendo funzionalità generiche
+2. **Estensibilità**: Consente personalizzazione e aggiunta di nuovi canali di notifica senza alterare il codice principale
+3. **Affidabilità**: Garantisce la consegna delle notifiche attraverso gestione robusta degli errori e logging
+
+## Funzionalità Principali
+- **Notifiche Multi-Canale**: Supporta email, SMS, WhatsApp, Telegram e altro
+- **Gestione Template**: Fornisce un sistema per creare e gestire template di notifica
+- **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
+
+## Collegamenti Correlati
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+- [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
+- [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
+- [Modulo Xot](../../Xot/docs/README.md)
+- [Modulo Lang](../../Lang/docs/README.md)
+- [Modulo UI](../../UI/docs/README.md)
+## Categorie Principali
+
+### Architettura e Struttura
+- [README](./README.md) - Panoramica generale del modulo
+- [Architettura](./ARCHITECTURE.md) - Architettura generale del modulo
+- [Struttura](./structure.md) - Struttura delle directory e dei componenti
+- [Modelli](./models.md) - Documentazione dei modelli Eloquent
+- [Eventi](./events.md) - Eventi e listeners
+
+### Sistema Email
+- [Sistema Email Database](./database-mail-system.md) - Sistema di gestione delle email basato su database
+- [Code Email](./database_mail_queue.md) - Sistema di code per l'invio di email
+- [Template Email](./EMAIL_TEMPLATES.md) - Struttura e utilizzo dei template email
+- [Best Practices Email](./EMAIL_BEST_PRACTICES.md) - Linee guida per le email
+- [Template Responsivi](./RESPONSIVE_EMAIL_TEMPLATES.md) - Implementazione di template email responsivi
+
+### Canali di Notifica
+- [Implementazione Canali](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md) - Implementazione dei canali di notifica
+- [SMS](./SMS_IMPLEMENTATION.md) - Implementazione del canale SMS
+- [WhatsApp](./WHATSAPP_CHANNEL.md) - Implementazione del canale WhatsApp
+- [Telegram](./TELEGRAM_CHANNEL.md) - Implementazione del canale Telegram
+
+### Filament UI
+- [Risorse Filament](./filament-resources.md) - Componenti Filament Resources
+- [Pagine Filament](./filament-pages.md) - Componenti Filament Pages
+- [Convenzioni Filament](./FILAMENT_EXTENSION_PATTERN.md) - Pattern di estensione per Filament
+
+### Configurazione
+- [Struttura Config](./CONFIG_STRUCTURE.md) - Struttura dei file di configurazione
+- [Configurazione SMS](./SMS_CONFIG_STRUCTURE.md) - Struttura della configurazione SMS
+- [Principi di Configurazione](./CONFIGURATIONS_USAGE_PRINCIPLES.md) - Principi per l'utilizzo delle configurazioni
+
+### Pattern e Architettura
+- [Pattern Factory](./FACTORY_PATTERN_ANALYSIS.md) - Analisi del pattern Factory
+- [Risoluzione Dinamica delle Classi](./DYNAMIC_CLASS_RESOLUTION.md) - Pattern di risoluzione dinamica delle classi
+- [Queueable Actions](./queueable-action.md) - Utilizzo di Spatie Queueable Actions
+
+### Standard e Traduzioni
+- [Convenzioni di Naming](./NAMING_CONVENTIONS.md) - Standard per i nomi di file e classi
+- [Traduzioni](./translations.md) - Sistema di traduzioni
+- [Standard Traduzioni](./TRANSLATION_STANDARDS.md) - Standard per le chiavi di traduzione
+
+### Testing e Qualità
+- [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
+- [Testing](./TESTING.md) - Strategie e approcci per il testing
+
+## Linee Guida per l'Implementazione
+
+### 1. Struttura del Modulo
+Il modulo Notify segue una struttura standard con directory per modelli, servizi, provider e template per garantire chiarezza e manutenibilità.
+
+### 2. Canali di Notifica
+Implementare vari canali per l'invio di notifiche, assicurandosi che ogni canale sia configurabile ed estensibile.
+```php
+// Esempio Configurazione Canale
+return [
+    'sms' => [
+        'driver' => 'netfun',
+        'api_key' => env('SMS_API_KEY'),
+    ],
+];
+```
+
+### 3. Template
+Utilizzare template per una formattazione coerente delle notifiche attraverso diversi canali.
+
+### 4. Gestione Errori
+Implementare una gestione robusta degli errori per gestire i fallimenti nella consegna delle notifiche.
+
+## Problemi Comuni e Soluzioni
+- **Fallimenti di Consegna**: Assicurarsi della corretta configurazione di chiavi API e endpoint per ogni canale di notifica
+- **Errori Template**: Verificare sintassi template e placeholder per evitare problemi di rendering
+- **Colli di Bottiglia Performance**: Utilizzare il queueing per l'invio di notifiche per prevenire ritardi nell'esperienza utente
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> 7bac387 (.)
+
+## ✅ Convenzioni Laraxot
+- [Module Conventions](../../Xot/docs/conventions.md)
+- [Namespace Conventions](../../Xot/docs/namespace_conventions.md)
+- [Testing Guidelines](../../Xot/docs/testing.md)
+
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4030,6 +4159,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2641c2944 (.)
@@ -4037,6 +4167,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> fea359347 (.)
 ### Miglioramenti Qualità Codice (2025-01-06)
 - **PHPStan Livello 10**: Analisi completa e correzione errori di tipizzazione
   - Corretti 16 errori principali nel modulo Notify
@@ -4125,6 +4257,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 Ultimo aggiornamento: 14 Maggio 2025
 
@@ -4880,6 +5013,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -5126,12 +5263,16 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 10b3b08 (.)
 =======
 >>>>>>> 9f953c6 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -5186,6 +5327,9 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 10b3b08 (.)
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -5215,8 +5359,11 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> fea359347 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5627,6 +5774,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -6605,3 +6753,10 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)

@@ -58,8 +58,10 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 >>>>>>> 998e6866b (.)
 $attachments = [
     [
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
+<<<<<<< HEAD
 =======
 ```php
 // Formato corretto - un array di array di allegati
@@ -143,7 +145,18 @@ $attachments = [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+=======
+<<<<<<< HEAD
+        'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
@@ -162,6 +175,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
@@ -175,6 +189,7 @@ $attachments = [
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
@@ -183,12 +198,18 @@ $attachments = [
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
         'path' => '/var/www/html/<directory progetto>/public_html/documents/terms.pdf',
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -205,6 +226,9 @@ $attachments = [
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],

@@ -4249,6 +4249,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bce3ff15 (.)
 =======
@@ -4463,6 +4464,8 @@ declare(strict_types=1);
 >>>>>>> 8e64ed49f (.)
 =======
 >>>>>>> 39a0b1e3f (.)
+=======
+>>>>>>> fea359347 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -8092,6 +8095,7 @@ declare(strict_types=1);
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 840b50d5 (.)
 =======
@@ -8112,10 +8116,16 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
+=======
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> fea359347 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 =======
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -8143,6 +8153,8 @@ declare(strict_types=1);
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> fea359347 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">

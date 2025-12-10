@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
@@ -25,6 +26,7 @@
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Struttura di Configurazione nei Moduli <nome progetto>
@@ -33,12 +35,18 @@
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+# Struttura di Configurazione nei Moduli <nome progetto>
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <main module>
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -55,6 +63,9 @@
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 
 ## Principi di Configurazione
 

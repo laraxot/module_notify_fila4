@@ -225,6 +225,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
 =======
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
@@ -238,6 +239,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 =======
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
@@ -246,12 +248,18 @@ Per verificare se le traduzioni sono applicate correttamente:
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
 - [<main module> Translation System](../../../../.cursor/rules/translations.rule)
 =======
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -268,6 +276,9 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 

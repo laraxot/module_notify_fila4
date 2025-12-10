@@ -43,6 +43,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
@@ -56,6 +57,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
@@ -64,12 +66,18 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
            'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -86,6 +94,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
@@ -103,6 +114,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
@@ -116,6 +128,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
@@ -124,12 +137,18 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
            'path' => '/var/www/html/<directory progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -146,6 +165,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

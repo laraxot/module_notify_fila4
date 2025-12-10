@@ -155,6 +155,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public static function form(Form $form): Form
@@ -224,11 +225,20 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 public static function form(Form $form): Form
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+public static function form(Form $form): Form
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 {
     return $form
         ->schema([

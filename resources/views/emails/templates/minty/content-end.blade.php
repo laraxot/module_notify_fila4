@@ -36,6 +36,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> 36ac4fc1 (.)
@@ -73,6 +74,10 @@ declare(strict_types=1);
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 </div>
 					</td>
 				</tr>

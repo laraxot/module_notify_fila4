@@ -129,6 +129,7 @@ Configurazione attuale con username/password nel modulo Notify:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
     'sender' => env('NETFUN_SENDER', 'SaluteOra'),
@@ -142,6 +143,7 @@ Configurazione attuale con username/password nel modulo Notify:
 =======
     'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
@@ -150,12 +152,18 @@ Configurazione attuale con username/password nel modulo Notify:
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
     'sender' => env('NETFUN_SENDER', '<main module>'),
 =======
     'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -172,6 +180,9 @@ Configurazione attuale con username/password nel modulo Notify:
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
     'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
     // Parametri avanzati...
 ],

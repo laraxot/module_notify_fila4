@@ -335,6 +335,16 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// use Modules\<nome progetto>\Models\Appointment;
+=======
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> fea359347 (.)
 // use Modules\SaluteOra\Models\Appointment;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
@@ -715,6 +725,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1186,6 +1197,10 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * @param  array<string, mixed>  $notificationData
 >>>>>>> 8d298d6 (.)
 >>>>>>> fdad57c30 (.)
+=======
+     * @param array<string, mixed> $notificationData
+>>>>>>> 518c702 (.)
+>>>>>>> fea359347 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -1199,6 +1214,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     {
         $appointment = $this->notificationData['appointment'];
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,12 +1628,18 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 
         $subject = match ($type) {
 >>>>>>> 8c19c8df2 (.)
+=======
+        
+        $subject = match($type) {
+>>>>>>> 518c702 (.)
+>>>>>>> fea359347 (.)
             'confirmed' => 'Conferma Appuntamento',
             'reminder' => 'Promemoria Appuntamento',
             'cancelled' => 'Cancellazione Appuntamento',
             'rescheduled' => 'Modifica Appuntamento',
             default => 'Notifica Appuntamento',
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1645,6 +1667,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
             $subject .= ' #'.$appointment->id;
         }
+=======
+>>>>>>> fea359347 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2002,6 +2026,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         // PHPStan Level 10: isset() invece di property_exists() per Eloquent magic property
 >>>>>>> 6ba141fc (.)
 =======
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -2275,6 +2300,15 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+        
+>>>>>>> 9ed014c (.)
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #' . $appointment->id;
+        }
+        
+>>>>>>> 518c702 (.)
+>>>>>>> fea359347 (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],
@@ -2346,6 +2380,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     public function content(): Content
     {
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2816,12 +2851,19 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         // Determina il template da utilizzare in base al tipo di notifica
         $view = match ($type) {
 >>>>>>> 8c19c8df2 (.)
+=======
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+>>>>>>> 518c702 (.)
+>>>>>>> fea359347 (.)
             'confirmed' => 'notify::emails.appointments.confirmed',
             'reminder' => 'notify::emails.appointments.reminder',
             'cancelled' => 'notify::emails.appointments.cancelled',
             'rescheduled' => 'notify::emails.appointments.rescheduled',
             default => 'notify::emails.appointments.generic',
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3113,6 +3155,10 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 
 >>>>>>> 8c19c8df2 (.)
+=======
+        
+>>>>>>> 518c702 (.)
+>>>>>>> fea359347 (.)
         return new Content(
             view: $view,
             with: [

@@ -527,6 +527,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -977,6 +978,7 @@
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
@@ -1912,6 +1914,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 8e64ed49f (.)
 =======
 >>>>>>> 39a0b1e3f (.)
+=======
+>>>>>>> fea359347 (.)
 <?php
 
 declare(strict_types=1);
@@ -1920,6 +1924,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3774,6 +3779,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 81ed8a35 (rebase 210)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -4744,6 +4750,11 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 43c0079b (rebase 210)
 >>>>>>> 39a0b1e3f (.)
+=======
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -5286,6 +5297,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5537,6 +5549,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 8e64ed49f (.)
 =======
 >>>>>>> 39a0b1e3f (.)
+=======
+>>>>>>> fea359347 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7543,6 +7557,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 518c702 (.)
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -8352,3 +8367,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 43c0079b (rebase 210)
 >>>>>>> 39a0b1e3f (.)
+=======
+>>>>>>> fea359347 (.)

@@ -16,6 +16,7 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
@@ -29,6 +30,7 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
@@ -37,12 +39,18 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <main module>.
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -59,6 +67,9 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 
 ## Implementazione nel Form Schema
 
@@ -111,6 +122,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard SaluteOra
@@ -124,6 +136,7 @@ public static function getFormSchema(): array
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ## Conformità con gli Standard <nome progetto>
@@ -132,12 +145,18 @@ public static function getFormSchema(): array
 ## Conformità con gli Standard <nome progetto>
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+## Conformità con gli Standard <nome progetto>
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
 ## Conformità con gli Standard <main module>
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -154,6 +173,9 @@ public static function getFormSchema(): array
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -172,6 +194,7 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 ```php
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Campo slug in getListTableColumns()
  */
 public static function getListTableColumns(): array
@@ -181,13 +204,18 @@ public static function getListTableColumns(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> fea359347 (.)
  * Campo slug in getTableColumns()
  */
 public static function getTableColumns(): array
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fea359347 (.)
  * Campo slug in getListTableColumns()
  */
 public static function getListTableColumns(): array
@@ -202,6 +230,7 @@ public static function getTableColumns(): array
 public static function getListTableColumns(): array
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -222,6 +251,9 @@ public static function getListTableColumns(): array
 public static function getListTableColumns(): array
 >>>>>>> f963d2c0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')

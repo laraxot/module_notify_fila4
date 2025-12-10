@@ -59,6 +59,7 @@ class RecordNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->subject('Notifica da <nome progetto>')
 =======
             ->subject('Notifica da SaluteOra')
@@ -72,6 +73,7 @@ class RecordNotification extends Notification implements ShouldQueue
 =======
             ->subject('Notifica da SaluteOra')
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             ->subject('Notifica da <nome progetto>')
@@ -80,12 +82,18 @@ class RecordNotification extends Notification implements ShouldQueue
             ->subject('Notifica da <nome progetto>')
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+=======
+            ->subject('Notifica da <nome progetto>')
+=======
+>>>>>>> fea359347 (.)
 <<<<<<< HEAD
             ->subject('Notifica da <main module>')
 =======
             ->subject('Notifica da SaluteOra')
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -102,6 +110,9 @@ class RecordNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> fea359347 (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))
