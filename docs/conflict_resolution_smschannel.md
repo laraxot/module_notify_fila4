@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,8 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto
@@ -137,6 +140,7 @@ return $action->execute($smsData);
 ## Collegamenti
 - [Notify Module Documentation](README.md)
 - [SMS Channel Architecture](sms_channel_action_resolution.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -770,3 +774,8 @@ return $action->execute($smsData);
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> fd1fcc4c (.)
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 4f3927d7 (.)
