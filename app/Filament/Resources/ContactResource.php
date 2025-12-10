@@ -77,6 +77,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -787,6 +788,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
@@ -804,6 +807,7 @@ class ContactResource extends XotBaseResource
     protected static null|string $model = Contact::class;
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,6 +870,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     /**
      * Get the form schema for the resource.
@@ -931,6 +937,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1498,6 +1505,11 @@ class ContactResource extends XotBaseResource
      */
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+     * @return array<string, Component>
+     */
+    #[Override]
+>>>>>>> 75179b855 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -1582,6 +1594,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1942,11 +1955,15 @@ class ContactResource extends XotBaseResource
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b855 (.)
     public static function getRelations(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2370,6 +2387,9 @@ class ContactResource extends XotBaseResource
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b855 (.)
     public static function getPages(): array
     {
         return [

@@ -8,6 +8,7 @@ namespace Modules\Notify\Datas\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,10 +463,13 @@ class NexmoData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,6 +630,8 @@ use Spatie\LaravelData\Data;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Webmozart\Assert\Assert;
 
 class NexmoData extends Data
@@ -642,6 +648,7 @@ class NexmoData extends Data
     {
         if (!(self::$instance instanceof NexmoData)) {
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -857,6 +864,11 @@ class NexmoData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.nexmo', []);
+             */
+>>>>>>> 75179b855 (.)
             $data = Config::array('sms.drivers.nexmo');
             self::$instance = self::from($data);
         }
@@ -882,6 +894,7 @@ class NexmoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1370,6 +1383,10 @@ class NexmoData extends Data
 =======
                     'Content-Type' => 'application/json',
 >>>>>>> 3f537838 (.)
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->key . ':' . $this->secret),
+                    'Content-Type' => 'application/json',
+>>>>>>> 75179b855 (.)
                 ];
         }
     }

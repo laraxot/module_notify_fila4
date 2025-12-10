@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -86,6 +87,8 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 # Chiarimento sulle Convenzioni di Traduzione nel Modulo Notify
 
 ## Identificazione di Convenzioni Contrastanti
@@ -224,6 +227,7 @@ Dopo un'analisi approfondita, è stato determinato che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
@@ -591,6 +595,10 @@ Dopo un'analisi approfondita, è stato determinato che:
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
 >>>>>>> f963d2c0 (.)
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 75179b855 (.)
    - Questa eccezione è documentata e intenzionale
 
 ## Convenzioni Corrette per il Modulo Notify
@@ -719,6 +727,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
 =======
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
@@ -1086,12 +1095,17 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 =======
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
 >>>>>>> f963d2c0 (.)
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 75179b855 (.)
 
 ## Riferimenti
 
 - [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1384,3 +1398,5 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)

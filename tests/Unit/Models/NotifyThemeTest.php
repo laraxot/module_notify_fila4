@@ -148,6 +148,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1336,6 +1337,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 >>>>>>> 3f537838 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 75179b855 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -1404,6 +1410,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1425,6 +1432,9 @@ class NotifyThemeTest extends TestCase
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b85 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b855 (.)
 
         $expectedFillable = [
             'id',
@@ -1455,6 +1465,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1476,6 +1487,9 @@ class NotifyThemeTest extends TestCase
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b85 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b855 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -1500,6 +1514,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $theme = new NotifyTheme;
@@ -1521,6 +1536,9 @@ class NotifyThemeTest extends TestCase
 =======
         $theme = new NotifyTheme();
 >>>>>>> 75179b85 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 75179b855 (.)
 
         $expectedAppends = ['logo'];
 
@@ -2045,6 +2063,7 @@ class NotifyThemeTest extends TestCase
         $this->assertFalse($theme->view_params['features']['animations']);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3005,3 +3024,5 @@ class NotifyThemeTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)

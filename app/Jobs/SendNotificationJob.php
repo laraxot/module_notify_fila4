@@ -28,6 +28,7 @@ namespace Modules\Notify\Jobs;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Throwable;
 =======
 =======
@@ -163,6 +164,9 @@ use Throwable;
 =======
 use Throwable;
 >>>>>>> 3f537838 (.)
+=======
+use Throwable;
+>>>>>>> 75179b855 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -176,6 +180,7 @@ use Modules\Notify\Actions\SendNotificationAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Throwable;
@@ -201,6 +206,8 @@ use Throwable;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
 class SendNotificationJob implements ShouldQueue
 {
@@ -226,6 +233,7 @@ class SendNotificationJob implements ShouldQueue
     /**
      * Crea una nuova istanza del job.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +299,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
      * @param array $data I dati per compilare il template
@@ -301,6 +311,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -316,12 +327,15 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      */
     public function __construct(
         protected Model $recipient,
         protected string $templateCode,
         protected array $data = [],
         protected array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,6 +728,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -722,6 +738,7 @@ class SendNotificationJob implements ShouldQueue
         $timeoutConfig = config('notify.queue.retry_after', 60);
         $this->timeout = is_numeric($timeoutConfig) ? ((int) $timeoutConfig) : 60;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1366,6 +1383,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -1375,6 +1394,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2236,10 +2256,14 @@ class SendNotificationJob implements ShouldQueue
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 3f537838 (.)
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 75179b855 (.)
     }
 
     /**
      * Gestisce un fallimento del job.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2329,6 +2353,11 @@ class SendNotificationJob implements ShouldQueue
      * @param Throwable $exception
      * @return void
 >>>>>>> 75179b85 (.)
+=======
+     *
+     * @param Throwable $exception
+     * @return void
+>>>>>>> 75179b855 (.)
      */
     public function failed(Throwable $exception): void
     {
@@ -2341,6 +2370,7 @@ class SendNotificationJob implements ShouldQueue
             'trace' => $exception->getTraceAsString(),
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2984,3 +3014,6 @@ class SendNotificationJob implements ShouldQueue
 =======
 }
 >>>>>>> 3f537838 (.)
+=======
+}
+>>>>>>> 75179b855 (.)

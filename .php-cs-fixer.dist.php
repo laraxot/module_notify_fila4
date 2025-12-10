@@ -173,6 +173,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -1540,6 +1541,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 3f537838 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b855 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1556,6 +1562,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->ignoreVCS(true);
 =======
     ->ignoreVCS(true)
@@ -1587,6 +1594,9 @@ $finder = PhpCsFixer\Finder::create()
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
+=======
+    ->ignoreVCS(true)
+>>>>>>> 75179b855 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -1598,6 +1608,7 @@ $config
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1623,6 +1634,9 @@ $config
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 75179b85 (.)
+=======
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> 75179b855 (.)
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -1637,6 +1651,7 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1685,3 +1700,8 @@ return $config;
 
 return $config;
 >>>>>>> 75179b85 (.)
+=======
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> 75179b855 (.)

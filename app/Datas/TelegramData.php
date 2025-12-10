@@ -69,6 +69,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -385,12 +386,16 @@ use Spatie\LaravelData\Data;
 =======
  *
 >>>>>>> 3f537838 (.)
+=======
+ *
+>>>>>>> 75179b855 (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi Telegram
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
 class TelegramData extends Data
 {
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,6 +434,8 @@ class TelegramData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      * @param string $chatId ID della chat o username del destinatario (es. 123456789 o @username)
      * @param string $text Contenuto testuale del messaggio
      * @param string|null $parseMode Modalità di parsing del testo ('Markdown', 'MarkdownV2', 'HTML')
@@ -444,6 +451,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -460,6 +468,8 @@ class TelegramData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      */
     public function __construct(
         public string $chatId,
@@ -531,6 +541,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -721,12 +732,15 @@ class TelegramData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         public null|string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public null|int $replyToMessageId = null,
         public null|array $replyMarkup = null,
         public null|array $media = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1357,6 +1371,8 @@ class TelegramData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         public string $type = 'text',
     ) {}
 }

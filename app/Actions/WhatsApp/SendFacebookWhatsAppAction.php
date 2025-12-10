@@ -26,6 +26,7 @@ use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -690,6 +691,12 @@ use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> 3f537838 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> 75179b855 (.)
 use function Safe\json_decode;
 
 final class SendFacebookWhatsAppAction
@@ -701,6 +708,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -721,12 +729,15 @@ final class SendFacebookWhatsAppAction
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     private string $accessToken;
     private string $phoneNumberId;
     private string $baseUrl = 'https://graph.facebook.com/v17.0';
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 
@@ -795,6 +806,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     /**
      * Create a new action instance.
@@ -816,6 +829,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($accessToken)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1278,10 +1292,13 @@ final class SendFacebookWhatsAppAction
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         if (!is_string($accessToken)) {
             throw new Exception(
                 'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1411,6 +1428,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         }
         $this->accessToken = $accessToken;
 
@@ -1427,6 +1446,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($phoneNumberId)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1885,10 +1905,13 @@ final class SendFacebookWhatsAppAction
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         if (!is_string($phoneNumberId)) {
             throw new Exception(
                 'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2018,6 +2041,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         }
         $this->phoneNumberId = $phoneNumberId;
 
@@ -2092,6 +2117,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -2481,11 +2507,15 @@ final class SendFacebookWhatsAppAction
 =======
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> 3f537838 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 75179b855 (.)
     }
 
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2546,6 +2576,10 @@ final class SendFacebookWhatsAppAction
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
      * @return array Risultato dell'operazione
 >>>>>>> 75179b85 (.)
+=======
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+>>>>>>> 75179b855 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -2619,6 +2653,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3296,10 +3331,13 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3320,10 +3358,14 @@ final class SendFacebookWhatsAppAction
 =======
                 'Authorization' => 'Bearer ' . $this->accessToken,
 >>>>>>> 75179b85 (.)
+=======
+                'Authorization' => 'Bearer ' . $this->accessToken,
+>>>>>>> 75179b855 (.)
                 'Content-Type' => 'application/json',
             ],
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3520,6 +3562,10 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+
+>>>>>>> 75179b855 (.)
         $payload = [
             'messaging_product' => 'whatsapp',
             'recipient_type' => 'individual',
@@ -3586,6 +3632,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3902,6 +3949,9 @@ final class SendFacebookWhatsAppAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b855 (.)
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
             $payload['type'] = 'text';
@@ -3915,12 +3965,16 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4192,11 +4246,14 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 58816034 (.)
 =======
+=======
+>>>>>>> 75179b855 (.)
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
                 'link' => $whatsAppData->media[0],
             ];
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4222,12 +4279,15 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
             ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4762,6 +4822,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
@@ -4773,6 +4835,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4866,10 +4929,14 @@ final class SendFacebookWhatsAppAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b855 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5439,10 +5506,14 @@ final class SendFacebookWhatsAppAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b855 (.)
             Log::info('WhatsApp Facebook inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5690,10 +5761,13 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $responseData['messages'][0]['id'] ?? null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5783,12 +5857,15 @@ final class SendFacebookWhatsAppAction
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
         } catch (ClientException $e) {
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6039,10 +6116,16 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+>>>>>>> 75179b855 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6627,11 +6710,15 @@ final class SendFacebookWhatsAppAction
 =======
 
 >>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b855 (.)
             Log::warning('Errore invio WhatsApp Facebook', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6914,10 +7001,13 @@ final class SendFacebookWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
             return [
                 'success' => false,
                 'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6992,6 +7082,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

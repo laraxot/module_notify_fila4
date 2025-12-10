@@ -8,6 +8,7 @@ namespace Modules\Notify\Datas\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,6 +934,9 @@ use Illuminate\Support\Arr;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+use Illuminate\Support\Arr;
+>>>>>>> 75179b855 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -950,6 +954,7 @@ class GammuData extends Data
     {
         if (!(self::$instance instanceof GammuData)) {
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -1864,6 +1869,11 @@ class GammuData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.gammu', []);
+             */
+>>>>>>> 75179b855 (.)
             $data = Config::array('sms.drivers.gammu');
             self::$instance = self::from($data);
         }

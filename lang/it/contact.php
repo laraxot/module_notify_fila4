@@ -161,6 +161,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -182,6 +183,8 @@ return [
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     ],
     'messages' => [
         'created' => [
@@ -211,6 +214,7 @@ return [
         'verification_failed' => [
             'title' => 'Errore Verifica',
             'message' => 'Impossibile verificare il contatto: :error',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1393,4 +1397,8 @@ return [
         ],
     ],
 >>>>>>> 3f537838 (.)
+=======
+        ],
+    ],
+>>>>>>> 75179b855 (.)
 ];

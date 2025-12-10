@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -25,6 +26,8 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 /**
  * ---.
  */
@@ -36,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -53,10 +57,13 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Providers\Filament;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,11 +626,17 @@ use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> 75179b85 (.)
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+use Filament\Notifications\Livewire\DatabaseNotifications;
+>>>>>>> 75179b855 (.)
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -833,11 +846,14 @@ use Override;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1746,6 +1762,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+=======
+    #[Override]
+>>>>>>> 75179b855 (.)
     public function panel(Panel $panel): Panel
     {
         // Temporaneamente commentato per compatibilità Filament 4.x
@@ -1764,6 +1783,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         return parent::panel($panel);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1979,3 +1999,5 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)

@@ -7,6 +7,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -33,10 +34,15 @@ use Modules\Notify\Helpers\ConfigHelper;
 use Modules\Notify\Models\Theme;
 use Modules\Notify\Helpers\ConfigHelper;
 >>>>>>> 75179b85 (.)
+=======
+use Modules\Notify\Models\Theme;
+use Modules\Notify\Helpers\ConfigHelper;
+>>>>>>> 75179b855 (.)
 
 describe('Theme Management Business Logic', function () {
     it('can create theme with basic information', function () {
         $testData = ConfigHelper::getTestData();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,10 +67,13 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         
         $themeData = [
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Professional'),
             'description' => $testData['theme_description'] ?? ('Tema professionale per ' . config('app.name', 'Our Platform')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,6 +89,8 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             'version' => '1.0.0',
             'is_active' => true,
         ];
@@ -390,6 +401,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
             'author' => $testData['team_name'] ?? ('Team '.config('app.name', 'Our Platform')),
@@ -411,6 +423,9 @@ describe('Theme Management Business Logic', function () {
 =======
             'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
 >>>>>>> 75179b85 (.)
+=======
+            'author' => $testData['team_name'] ?? ('Team ' . config('app.name', 'Our Platform')),
+>>>>>>> 75179b855 (.)
             'created_date' => '2024-01-15',
             'last_modified' => '2024-12-01',
             'tags' => ['professional', 'healthcare', 'modern'],
@@ -422,6 +437,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
             'repository' => $testData['repository_url'] ?? ('https://github.com/'.strtolower(config('app.name', 'ourplatform')).'/themes'),
@@ -443,6 +459,9 @@ describe('Theme Management Business Logic', function () {
 =======
             'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
 >>>>>>> 75179b85 (.)
+=======
+            'repository' => $testData['repository_url'] ?? ('https://github.com/' . strtolower(config('app.name', 'ourplatform')) . '/themes'),
+>>>>>>> 75179b855 (.)
         ];
 
         $theme->update(['metadata' => $metadata]);
@@ -542,6 +561,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -564,6 +584,8 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             'metadata' => ['category' => 'business']
         ]);
         $healthcareTheme = Theme::factory()->create([
@@ -571,6 +593,7 @@ describe('Theme Management Business Logic', function () {
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['category' => 'modern']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,6 +609,8 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         ]);
 
         $businessThemes = Theme::whereJsonContains('metadata->category', 'business')->get();
@@ -599,6 +624,7 @@ describe('Theme Management Business Logic', function () {
 
     it('can search themes by tags', function () {
         $professionalTheme = Theme::factory()->create([
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -623,10 +649,13 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             'metadata' => ['tags' => ['professional', 'business']]
         ]);
         $modernTheme = Theme::factory()->create([
             'metadata' => ['tags' => ['modern', 'clean']]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -642,6 +671,8 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         ]);
 
         $professionalThemes = Theme::whereJsonContains('metadata->tags', 'professional')->get();
@@ -712,6 +743,7 @@ describe('Theme Management Business Logic', function () {
             'replacement_theme_id' => 25,
         ]);
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1785,3 +1817,6 @@ describe('Theme Management Business Logic', function () {
 =======
 });
 >>>>>>> 3f537838 (.)
+=======
+});
+>>>>>>> 75179b855 (.)

@@ -21,6 +21,7 @@ namespace Modules\Notify\Notifications\Channels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -124,6 +125,10 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 use Kreait\Firebase\Messaging\RegistrationToken;
 use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> 3f537838 (.)
+=======
+use Kreait\Firebase\Messaging\RegistrationToken;
+use Kreait\Firebase\Messaging\RegistrationTokens;
+>>>>>>> 75179b855 (.)
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -132,6 +137,7 @@ use Kreait\Firebase\Contract\Messaging;
 use Kreait\Firebase\Exception\FirebaseException;
 use Kreait\Firebase\Exception\MessagingException;
 use Kreait\Firebase\Messaging\MulticastSendReport;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +162,8 @@ use Kreait\Firebase\Messaging\RegistrationTokens;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Modules\Notify\Contracts\CanReceivePushNotifications;
 use Modules\Notify\Contracts\MobilePushNotification;
 use Modules\Notify\Datas\PushNotificationDebugData;
@@ -326,6 +334,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -703,6 +712,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
                 self::$logger->debug(sprintf(
                     "FCM notification debug:\n%s",
                     json_encode($notificationDebugData, JSON_PRETTY_PRINT),
@@ -716,6 +727,7 @@ final class FirebaseCloudMessagingChannel
                 json_encode($notification->toArray(null), JSON_THROW_ON_ERROR),
                 json_encode($userNotificationTokens->toArray(), JSON_THROW_ON_ERROR),
             ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1594,6 +1606,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             self::$logger->error(json_encode($exception->getTrace(), JSON_PRETTY_PRINT));
         }
     }
@@ -1617,6 +1631,7 @@ final class FirebaseCloudMessagingChannel
          */
         $registrationTokens = $userDeviceTokens->toArray();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2120,10 +2135,13 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         return $this->firebaseCloudMessaging->sendMulticast(
             message: $notification->toCloudMessage(),
             registrationTokens: $registrationTokens,
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2984,6 +3002,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 
     /**

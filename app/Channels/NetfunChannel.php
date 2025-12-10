@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -423,6 +424,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 9777d1b3 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b855 (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -494,6 +500,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -987,6 +994,8 @@ class NetfunChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     public function __construct(SendNetfunSMSAction $sendSMSAction)
     {
@@ -995,6 +1004,7 @@ class NetfunChannel
 
     /**
      * Invia la notifica tramite Netfun SMS
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1162,11 +1172,17 @@ class NetfunChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+     *
+     * @param mixed $notifiable
+     * @param Notification $notification
+>>>>>>> 75179b855 (.)
      * @return array|null
      */
     public function send($notifiable, Notification $notification)
     {
         // Ottieni il numero di telefono dal Notifiable
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1855,10 +1871,14 @@ class NetfunChannel
 =======
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
 >>>>>>> 75179b85 (.)
+=======
+        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
+>>>>>>> 75179b855 (.)
             return null;
         }
 
         $to = $notifiable->routeNotificationForNetfun($notification);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1879,10 +1899,14 @@ class NetfunChannel
 =======
         if (!$to) {
 >>>>>>> 75179b85 (.)
+=======
+        if (!$to) {
+>>>>>>> 75179b855 (.)
             return null;
         }
 
         // Ottieni il messaggio dalla notifica
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2006,6 +2030,11 @@ class NetfunChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+        if (!method_exists($notification, 'toNetfun')) {
+            throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
+        }
+>>>>>>> 75179b855 (.)
 
         $message = $notification->toNetfun($notifiable);
 
@@ -2021,6 +2050,7 @@ class NetfunChannel
         // Esegui l'invio tramite la Queueable Action
         // L'esecuzione avverrà in modo asincrono (in background)
         return $this->sendSMSAction->onQueue('sms')->execute($smsData); // Esegui sulla coda 'sms'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2444,5 +2474,7 @@ class NetfunChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 }

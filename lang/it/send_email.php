@@ -170,6 +170,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -707,6 +708,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b855 (.)
 return [
     'navigation' => [
         'label' => 'Invio Email',
@@ -1034,6 +1040,7 @@ return [
         'click_count' => 'Clic ricevuti',
     ],
     'categories' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2392,6 +2399,8 @@ return array (
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         'marketing' => 'Marketing',
         'transactional' => 'Transazionale',
         'notification' => 'Notifica',
@@ -2567,6 +2576,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3084,6 +3094,8 @@ return array (
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     ],
     'placeholders' => [
         'email_template' => 'Seleziona un template email predefinito',
@@ -3093,6 +3105,7 @@ return array (
         'text_content' => 'Contenuto testuale dell\'email in formato plain text',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4443,3 +4456,5 @@ return array (
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)

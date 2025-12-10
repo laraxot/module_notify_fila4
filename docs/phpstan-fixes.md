@@ -116,6 +116,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -650,6 +651,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -822,6 +825,7 @@ private static function processArray(array $data): array
 **Responsabile**: Team di sviluppo Laraxot
 **Verificato**: ✅ Conformità PHPStan livello 9
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1855,3 +1859,5 @@ private static function processArray(array $data): array
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)

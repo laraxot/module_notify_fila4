@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -423,6 +424,11 @@ declare(strict_types=1);
 
 
 >>>>>>> 9777d1b3 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b855 (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -433,6 +439,7 @@ class TelegramChannel
 {
     /**
      * Invia la notifica tramite Telegram.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +613,8 @@ class TelegramChannel
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      *
      * @param mixed $notifiable
      * @param Notification $notification
@@ -616,6 +625,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -625,6 +635,8 @@ class TelegramChannel
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         if (!method_exists($notification, 'toTelegram')) {
             throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
         }
@@ -635,6 +647,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -650,6 +663,8 @@ class TelegramChannel
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             throw new Exception('Il metodo routeNotificationForTelegram() non è definito nel notifiable.');
         }
 
@@ -665,6 +680,7 @@ class TelegramChannel
         // Per ora, logghiamo solo l'intento di invio
         Log::info('Telegram notification would be sent', [
             'chat_id' => $chatId,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1042,6 +1058,9 @@ class TelegramChannel
 =======
             'message' => $message,
 >>>>>>> 3f537838 (.)
+=======
+            'message' => $message,
+>>>>>>> 75179b855 (.)
         ]);
     }
 }

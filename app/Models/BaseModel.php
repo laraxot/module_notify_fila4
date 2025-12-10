@@ -30,6 +30,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -128,10 +129,13 @@ use Modules\Xot\Models\XotBaseModel;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,10 +175,14 @@ use Modules\Xot\Traits\Updater;
 =======
 use Modules\Xot\Traits\Updater;
 >>>>>>> 75179b85 (.)
+=======
+use Modules\Xot\Traits\Updater;
+>>>>>>> 75179b855 (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225,10 +233,15 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
  * Class BaseModel.
  */
 >>>>>>> 75179b85 (.)
+=======
+ * Class BaseModel.
+ */
+>>>>>>> 75179b855 (.)
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
     use HasFactory;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -253,6 +266,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     use InteractsWithMedia;
     use Updater;
 
@@ -264,9 +279,12 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
      * @var bool
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     public static $snakeAttributes = true;
 
     /** @var bool */
@@ -277,6 +295,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297,10 +316,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     /** @var string */
     protected $connection = 'notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -310,6 +332,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     /** @var list<string> */
     protected $appends = [];
 
@@ -324,6 +348,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
         // 'password'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,12 +451,18 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+    /**
+     * Create a new factory instance for the model.
+     *
+>>>>>>> 75179b855 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,11 +498,16 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     {
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 75179b855 (.)
 
     /** @return array<string, string> */
     protected function casts(): array
     {
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         return [
             'id' => 'string',
             'uuid' => 'string',
@@ -579,6 +615,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1004,6 +1041,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -1111,6 +1150,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1536,12 +1576,15 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return array_merge(parent::casts(), [
             'verified_at' => 'datetime', // ✅ Notify-specific cast
@@ -1588,5 +1631,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 }

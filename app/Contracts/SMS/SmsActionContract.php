@@ -16,10 +16,14 @@ interface SmsActionContract
      * Invia un SMS utilizzando il provider specifico.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  SmsData  $smsData  I dati del messaggio SMS
 =======
      * @param SmsData $smsData I dati del messaggio SMS
 >>>>>>> 75179b85 (.)
+=======
+     * @param SmsData $smsData I dati del messaggio SMS
+>>>>>>> 75179b855 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(SmsData $smsData): array;

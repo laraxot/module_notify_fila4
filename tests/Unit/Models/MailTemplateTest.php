@@ -148,6 +148,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1336,6 +1337,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 >>>>>>> 3f537838 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+>>>>>>> 75179b855 (.)
 
 class MailTemplateTest extends TestCase
 {
@@ -1386,6 +1392,7 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
@@ -1407,6 +1414,9 @@ class MailTemplateTest extends TestCase
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b855 (.)
 
         $expectedFillable = [
             'mailable',
@@ -1431,6 +1441,7 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
@@ -1452,6 +1463,9 @@ class MailTemplateTest extends TestCase
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b855 (.)
 
         $expectedCasts = [
             'created_at' => 'datetime',
@@ -1470,6 +1484,7 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
@@ -1491,6 +1506,9 @@ class MailTemplateTest extends TestCase
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b855 (.)
 
         $expectedTranslatable = [
             'subject',
@@ -1510,6 +1528,7 @@ class MailTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $template = new MailTemplate;
@@ -1531,6 +1550,9 @@ class MailTemplateTest extends TestCase
 =======
         $template = new MailTemplate();
 >>>>>>> 75179b85 (.)
+=======
+        $template = new MailTemplate();
+>>>>>>> 75179b855 (.)
 
         $this->assertEquals('notify', $template->getConnectionName());
     }

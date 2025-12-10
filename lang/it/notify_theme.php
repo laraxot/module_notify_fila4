@@ -172,6 +172,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1454,6 +1455,11 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 3f537838 (.)
+=======
+
+declare(strict_types=1);
+
+>>>>>>> 75179b855 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
@@ -1591,6 +1597,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -1613,6 +1620,8 @@ return [
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     ],
     'messages' => [
         'created' => [

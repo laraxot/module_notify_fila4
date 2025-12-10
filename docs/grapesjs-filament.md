@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -155,6 +156,8 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 # GrapesJS per Filament: Analisi e Best Practice
 
 ## Regola sulle rotte
@@ -307,6 +310,7 @@ Grapesjs::make('body_html')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [GrapesJS Docs](https://grapesjs.com/project_docs/)
 >>>>>>> 75179b85 (.)
@@ -482,6 +486,9 @@ Grapesjs::make('body_html')
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+- [GrapesJS Docs](https://grapesjs.com/project_docs/)
+>>>>>>> 75179b855 (.)
 - [GrapesJS Docs](https://grapesjs.com/docs/)
 - [Filament Plugins](https://filamentphp.com/plugins)
 
@@ -539,6 +546,7 @@ Grapesjs::make('body_html')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -649,3 +657,5 @@ Grapesjs::make('body_html')
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)

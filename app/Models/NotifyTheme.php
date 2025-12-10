@@ -73,6 +73,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -450,6 +451,8 @@ use Override;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Override;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
@@ -463,6 +466,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -472,6 +476,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -486,6 +492,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
@@ -514,6 +521,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $created_by
  * @property Carbon|null $updated_at
 >>>>>>> 75179b85 (.)
+=======
+ * @property Carbon|null $created_at
+ * @property string|null $created_by
+ * @property Carbon|null $updated_at
+>>>>>>> 75179b855 (.)
  * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
@@ -525,6 +537,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property int|null $logo_height
  * @property array $view_params
  * @property array $logo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -967,6 +980,9 @@ class NotifyTheme extends BaseModel implements HasMedia
 =======
  * @property Model|Eloquent $linkable
 >>>>>>> 75179b85 (.)
+=======
+ * @property Model|Eloquent $linkable
+>>>>>>> 75179b855 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @method static NotifyThemeFactory factory($count = null, $state = [])
@@ -1000,6 +1016,7 @@ class NotifyTheme extends BaseModel implements HasMedia
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
  * @mixin IdeHelperNotifyTheme
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1130,16 +1147,21 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
  * @mixin Eloquent
  */
 class NotifyTheme extends BaseModel
 {
     /** @var list<string> */
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     protected $fillable = [
         'id',
         'lang',
@@ -1150,6 +1172,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'body_html',
 =======
 <<<<<<< HEAD
@@ -1172,6 +1195,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         'body_html',
         'from',
         'from_email',
@@ -1181,6 +1206,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1190,12 +1216,15 @@ class NotifyTheme extends BaseModel
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         'logo_src',
         'logo_width',
         'logo_height',
         'view_params',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1222,11 +1251,14 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 75179b855 (.)
     /** @var list<string> */
     protected $appends = [
         'logo',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1782,6 +1814,9 @@ class NotifyTheme extends BaseModel
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 3f537838 (.)
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 75179b855 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -1800,6 +1835,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2222,6 +2258,9 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b855 (.)
     protected function casts(): array
     {
         return [
@@ -2230,6 +2269,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2693,10 +2733,13 @@ class NotifyTheme extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
             // 'published_at' => 'datetime:Y-m-d', // da verificare
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
@@ -2709,6 +2752,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             'view_params' => 'array',
         ];
     }

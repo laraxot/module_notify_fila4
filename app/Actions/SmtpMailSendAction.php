@@ -8,6 +8,7 @@ namespace Modules\Notify\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -16,6 +17,8 @@ namespace Modules\Notify\Actions;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Datas\SmtpData;
 use Symfony\Component\Mailer\Mailer;
@@ -23,6 +26,7 @@ use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email;
 use Webmozart\Assert\Assert;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,6 +719,10 @@ class SmtpMailSendAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+class SmtpMailSendAction
+{
+>>>>>>> 75179b855 (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -754,6 +762,7 @@ class SmtpMailSendAction
          * throw new \Exception("Errore durante l'invio dell'email: ".$e->getMessage());
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2175,5 +2184,7 @@ class SmtpMailSendAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 }

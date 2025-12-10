@@ -22,6 +22,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 use Filament\Facades\Filament\Schemas\Schema;
@@ -97,6 +98,10 @@ use Filament\Schemas\Schema;
 use Filament\Panel;
 use Filament\Schemas\Schema;
 >>>>>>> 75179b85 (.)
+=======
+use Filament\Panel;
+use Filament\Schemas\Schema;
+>>>>>>> 75179b855 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Select;
@@ -112,6 +117,7 @@ use Filament\Notifications\Notification as FilamentNotification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -122,6 +128,8 @@ use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
@@ -130,6 +138,7 @@ use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +179,8 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
@@ -178,6 +189,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 class SendNetfunSmsPage extends XotBasePage
 {
     public null|array $smsData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,11 +341,14 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
     protected string $view = 'notify::filament.pages.send-sms';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +401,9 @@ class SendNetfunSmsPage extends XotBasePage
 =======
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b85 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b855 (.)
 
     /**
      * Get the slug of the page
@@ -414,6 +432,7 @@ class SendNetfunSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,11 +534,14 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     public function smsForm(Schema $schema): Schema
     {
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +558,8 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     public function getSmsFormSchema(): array
     {
         return [
@@ -643,6 +667,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -731,6 +756,9 @@ class SendNetfunSmsPage extends XotBasePage
 =======
         if (!($user instanceof Model)) {
 >>>>>>> 75179b85 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b855 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

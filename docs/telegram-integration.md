@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Integrazione Telegram 
 
 <<<<<<< HEAD
@@ -250,10 +251,13 @@ Questo documento descrive l'architettura e l'implementazione dell'integrazione T
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 # Integrazione Telegram 
 
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto , seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto SaluteOra, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,6 +535,8 @@ Questo documento descrive l'architettura e l'implementazione dell'integrazione T
 
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto SaluteOra, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 
 ## Architettura
 
@@ -733,6 +739,7 @@ TELEGRAM_PARSE_MODE=HTML
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -797,3 +804,5 @@ TELEGRAM_PARSE_MODE=HTML
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)

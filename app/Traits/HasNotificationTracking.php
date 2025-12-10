@@ -17,10 +17,13 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      * @param string $html Il contenuto HTML
      * @param string $trackingId ID per il tracking
      * @return string
@@ -28,6 +31,7 @@ trait HasNotificationTracking
     protected function addTrackingPixel(string $html, string $trackingId): string
     {
         if (!config('notify.tracking.enabled') || !config('notify.tracking.pixel.enabled')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -70,10 +74,13 @@ trait HasNotificationTracking
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             return $html;
         }
 
         $route = route(config('notify.tracking.pixel.route'), ['id' => $trackingId]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +129,11 @@ trait HasNotificationTracking
 
         return $html . $pixel;
 >>>>>>> 75179b85 (.)
+=======
+        $pixel = '<img src="' . $route . '" alt="" width="1" height="1" style="display:none">';
+
+        return $html . $pixel;
+>>>>>>> 75179b855 (.)
     }
 
     /**
@@ -133,10 +145,13 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      * @param string $html Il contenuto HTML
      * @param string $trackingId ID per il tracking
      * @return string
@@ -144,6 +159,7 @@ trait HasNotificationTracking
     protected function addLinkTracking(string $html, string $trackingId): string
     {
         if (!config('notify.tracking.enabled') || !config('notify.tracking.links.enabled')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -186,6 +202,8 @@ trait HasNotificationTracking
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             return $html;
         }
 
@@ -254,6 +272,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -551,11 +570,14 @@ trait HasNotificationTracking
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 75179b855 (.)
 
                 // Ignora link di unsubscribe, anchor e link relativi
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
                         !Str::startsWith($url, ['http://', 'https://'])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,6 +983,8 @@ trait HasNotificationTracking
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
                 ) {
                     return $matches[0];
                 }
@@ -1033,6 +1057,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1349,12 +1374,16 @@ trait HasNotificationTracking
 =======
             $html,
 >>>>>>> 3f537838 (.)
+=======
+            $html,
+>>>>>>> 75179b855 (.)
         );
     }
 
     /**
      * Aggiunge il tracking completo (pixel + link) a un contenuto HTML.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1402,10 +1431,16 @@ trait HasNotificationTracking
      * @param string $trackingId ID per il tracking
      * @return string
 >>>>>>> 75179b85 (.)
+=======
+     * @param string $html Il contenuto HTML
+     * @param string $trackingId ID per il tracking
+     * @return string
+>>>>>>> 75179b855 (.)
      */
     protected function addTracking(string $html, string $trackingId): string
     {
         $html = $this->addLinkTracking($html, $trackingId);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1447,10 +1482,15 @@ trait HasNotificationTracking
         $html = $this->addTrackingPixel($html, $trackingId);
         return $html;
 >>>>>>> 75179b85 (.)
+=======
+        $html = $this->addTrackingPixel($html, $trackingId);
+        return $html;
+>>>>>>> 75179b855 (.)
     }
 
     /**
      * Genera un ID univoco per il tracking.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1490,6 +1530,10 @@ trait HasNotificationTracking
      *
      * @return string
 >>>>>>> 75179b85 (.)
+=======
+     *
+     * @return string
+>>>>>>> 75179b855 (.)
      */
     protected function generateTrackingId(): string
     {
@@ -1504,6 +1548,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return bool
 =======
@@ -1537,6 +1582,10 @@ trait HasNotificationTracking
      *
      * @return bool
 >>>>>>> 75179b85 (.)
+=======
+     *
+     * @return bool
+>>>>>>> 75179b855 (.)
      */
     protected function isTrackingEnabled(): bool
     {
@@ -1551,6 +1600,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return bool
 =======
@@ -1584,6 +1634,10 @@ trait HasNotificationTracking
      *
      * @return bool
 >>>>>>> 75179b85 (.)
+=======
+     *
+     * @return bool
+>>>>>>> 75179b855 (.)
      */
     protected function isPixelTrackingEnabled(): bool
     {
@@ -1598,6 +1652,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @return bool
 =======
@@ -1631,6 +1686,10 @@ trait HasNotificationTracking
      *
      * @return bool
 >>>>>>> 75179b85 (.)
+=======
+     *
+     * @return bool
+>>>>>>> 75179b855 (.)
      */
     protected function isLinkTrackingEnabled(): bool
     {
@@ -1697,6 +1756,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2013,3 +2073,6 @@ trait HasNotificationTracking
 =======
 }
 >>>>>>> 3f537838 (.)
+=======
+}
+>>>>>>> 75179b855 (.)

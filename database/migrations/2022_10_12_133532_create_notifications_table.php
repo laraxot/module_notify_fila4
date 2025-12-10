@@ -73,6 +73,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -534,6 +535,9 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 3f537838 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 75179b855 (.)
     /**
      * Run the migrations.
      */
@@ -598,6 +602,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -783,6 +788,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->uuid('id')->primary();
             $table->string('type');
@@ -797,6 +804,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,5 +1221,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 };

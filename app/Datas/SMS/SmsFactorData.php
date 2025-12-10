@@ -8,6 +8,7 @@ namespace Modules\Notify\Datas\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,6 +937,9 @@ use Illuminate\Support\Arr;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+use Illuminate\Support\Arr;
+>>>>>>> 75179b855 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -954,6 +958,7 @@ class SmsFactorData extends Data
     {
         if (!(self::$instance instanceof SmsFactorData)) {
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -1870,6 +1875,11 @@ class SmsFactorData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+             * $data = TenantService::getConfig('sms');
+             * $data = Arr::get($data, 'drivers.smsfactor', []);
+             */
+>>>>>>> 75179b855 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -1883,6 +1893,7 @@ class SmsFactorData extends Data
             case 'bearer':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2986,6 +2997,11 @@ class SmsFactorData extends Data
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> 3f537838 (.)
+=======
+                    'Authorization' => 'Bearer ' . $this->token,
+                    'Content-Type' => 'application/json',
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 75179b855 (.)
                 ];
         }
     }

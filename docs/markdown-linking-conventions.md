@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -86,6 +87,8 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 # Convenzioni per i Collegamenti nei File Markdown
 
 ## Regola Fondamentale
@@ -97,6 +100,7 @@
 ### ❌ ERRATO: Percorsi Assoluti
 
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +271,8 @@
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 [Convenzioni di Naming per le Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -276,6 +282,7 @@
 [Convenzioni di Naming per le Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1163,6 +1170,8 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -1185,6 +1194,7 @@ Per collegamenti a documenti in altre directory:
 1. **Portabilità**: I percorsi relativi funzionano indipendentemente dalla posizione di installazione del progetto
 2. **Compatibilità tra ambienti**: I percorsi assoluti potrebbero non funzionare in ambienti diversi
 3. **Manutenibilità**: I percorsi relativi sono più facili da mantenere quando la struttura del progetto cambia
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1644,6 +1654,10 @@ Per collegamenti a documenti in altre directory:
 =======
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> f963d2c0 (.)
+=======
+4. **Standard del progetto**:  segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
+4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
+>>>>>>> 75179b855 (.)
 
 ## Regole per i Collegamenti Relativi
 
@@ -1664,6 +1678,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 
 - [Convenzioni di Documentazione](../../../docs/documentation-conventions.md)
 - [Markdown Best Practices](../../../docs/markdown-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1955,3 +1970,5 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)

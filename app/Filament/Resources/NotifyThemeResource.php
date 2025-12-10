@@ -71,6 +71,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -443,6 +444,9 @@ use Override;
 =======
 use Override;
 >>>>>>> 3f537838 (.)
+=======
+use Override;
+>>>>>>> 75179b855 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -454,6 +458,7 @@ use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
@@ -601,11 +606,14 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -646,10 +654,13 @@ class NotifyThemeResource extends XotBaseResource
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
 class NotifyThemeResource extends XotBaseResource
 {
     protected static null|string $model = NotifyTheme::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
@@ -681,11 +692,14 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     #[Override]
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1422,6 +1436,11 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+>>>>>>> 75179b855 (.)
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -1505,6 +1524,7 @@ class NotifyThemeResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1682,11 +1702,14 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2095,6 +2118,8 @@ class NotifyThemeResource extends XotBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     public static function fieldOptions(string $field): array
     {
         return match ($field) {

@@ -26,6 +26,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -329,11 +330,14 @@ use Webmozart\Assert\Assert;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -697,6 +701,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
 // use Squire\Models\Country;
 
@@ -769,6 +775,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1149,12 +1156,16 @@ class ContactSection extends Forms\Components\Section
 =======
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 75179b85 (.)
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> 75179b855 (.)
 
     protected bool $disableLiveUpdates = false;
 
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1397,6 +1408,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 75179b855 (.)
         $this->schema($this->getFormSchema());
         $this->columns(2);
     }
@@ -1405,7 +1418,10 @@ class ContactSection extends Forms\Components\Section
     {
         $res = ContactTypeEnum::getFormSchema();
         return $res;
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 
     /*
@@ -1428,6 +1444,7 @@ class ContactSection extends Forms\Components\Section
      * $record->touch();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2038,4 +2055,6 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 }

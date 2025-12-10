@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -155,6 +156,8 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 # Analisi Dettagliata del Modulo Notify - Parte 8: Note Finali
 
 ## 8. Note Finali
@@ -416,6 +419,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Telescope](https://laravel.com/docs/telescope)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
@@ -764,6 +768,11 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
 >>>>>>> f963d2c0 (.)
+=======
+- [Laravel Telescope](https://laravel.com/project_docs/telescope)
+- [Laravel Horizon](https://laravel.com/project_docs/horizon)
+- [Laravel Dusk](https://laravel.com/project_docs/dusk)
+>>>>>>> 75179b855 (.)
 
 #### 8.5.4 Best Practices
 - [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
@@ -841,6 +850,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Security](https://laravel.com/docs/security)
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
@@ -1049,6 +1059,9 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 - [Laravel Security](https://laravel.com/docs/security)
 >>>>>>> f963d2c0 (.)
+=======
+- [Laravel Security](https://laravel.com/project_docs/security)
+>>>>>>> 75179b855 (.)
 - [PHP Security](https://phpsecurity.readthedocs.io)
 
 #### 8.5.6 Testing
@@ -1122,6 +1135,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1290,6 +1304,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
@@ -1331,6 +1347,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1478,6 +1495,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 - [PHP Performance](https://www.php.net/manual/en/performance.php)
 - [Web Performance](https://web.dev/performance)
 
@@ -1551,6 +1570,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Monitoring](https://laravel.com/docs/monitoring)
 =======
 - [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
@@ -1871,3 +1891,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 >>>>>>> f963d2c0 (.)
+=======
+- [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
+- [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
+- [Log Management](https://en.wikipedia.org/wiki/Log_management) 
+>>>>>>> 75179b855 (.)

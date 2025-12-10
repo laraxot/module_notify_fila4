@@ -168,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -685,6 +686,8 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 <?php
 
 declare(strict_types=1);
@@ -698,6 +701,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <x-filament-panels::form wire:submit="sendEmail()">
         {{ $this->emailForm }}
 
@@ -717,6 +721,8 @@ declare(strict_types=1);
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     <x-filament-schemas::form wire:submit="sendEmail()">
         {{ $this->emailForm }}
 
@@ -725,6 +731,7 @@ declare(strict_types=1);
         <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
 
     </x-filament-schemas::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1884,4 +1891,6 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 </x-filament::page>

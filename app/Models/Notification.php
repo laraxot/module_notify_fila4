@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -657,10 +658,15 @@ use Override;
 declare(strict_types=1);
 
 >>>>>>> 75179b85 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 75179b855 (.)
 
 namespace Modules\Notify\Models;
 
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,10 +716,13 @@ namespace Modules\Notify\Models;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -792,6 +801,9 @@ use Modules\Xot\Models\BaseModel;
 =======
 use Modules\Xot\Models\BaseModel;
 >>>>>>> 75179b85 (.)
+=======
+use Modules\Xot\Models\BaseModel;
+>>>>>>> 75179b855 (.)
 
 /**
  * Notification model for the Notify module.
@@ -819,6 +831,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read Model|null $creator
  * @property-read Model|null $updater
 <<<<<<< HEAD
@@ -860,6 +873,10 @@ use Modules\Xot\Models\BaseModel;
  * @property-read Model|null $creator
  * @property-read Model|null $updater
 >>>>>>> 75179b85 (.)
+=======
+ * @property-read Model|null $creator
+ * @property-read Model|null $updater
+>>>>>>> 75179b855 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -876,6 +893,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1235,6 +1253,11 @@ use Modules\Xot\Models\BaseModel;
  * @mixin \Eloquent
  */
 >>>>>>> 75179b85 (.)
+=======
+ * @mixin IdeHelperNotification
+ * @mixin \Eloquent
+ */
+>>>>>>> 75179b855 (.)
 class Notification extends BaseModel
 {
     /** @var list<string> */
@@ -1257,6 +1280,7 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1682,6 +1706,9 @@ class Notification extends BaseModel
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b855 (.)
     protected function casts(): array
     {
         return [

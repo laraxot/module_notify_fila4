@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -86,6 +87,8 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali
@@ -108,6 +111,7 @@ Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza m
 ### 2. Posizione delle Azioni
 
 Le azioni specifiche dei provider SMS si trovano nella directory:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -578,6 +582,11 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 =======
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> f963d2c0 (.)
+=======
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/`
+- `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
+- `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/`
+>>>>>>> 75179b855 (.)
 
 ### 3. Convenzioni di Nomenclatura
 
@@ -695,6 +704,7 @@ Tutte le azioni devono gestire correttamente gli errori:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -759,3 +769,5 @@ Tutte le azioni devono gestire correttamente gli errori:
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)

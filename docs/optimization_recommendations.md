@@ -5,6 +5,10 @@
 ### ❌ PROBLEMI CRITICI IDENTIFICATI
 
 #### 1. Riusabilità Compromessa
+<<<<<<< HEAD
+=======
+- **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
+>>>>>>> 75179b855 (.)
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
@@ -19,11 +23,19 @@
 #### 3. Testing Non Riutilizzabile
 - Test che utilizzano `User::factory()` invece di `XotData::make()->getUserClass()`
 - Configurazioni database hardcoded
+<<<<<<< HEAD
+=======
+- Riferimenti diretti a modelli <nome progetto>
+>>>>>>> 75179b855 (.)
 - Riferimenti diretti a modelli SaluteOra
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
 ### Riusabilità
+<<<<<<< HEAD
+=======
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
+>>>>>>> 75179b855 (.)
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
@@ -38,6 +50,10 @@
 // Pattern da applicare a TUTTI i test
 // ❌ PRIMA
 $user = User::factory()->create();
+<<<<<<< HEAD
+=======
+'database' => '<nome progetto>_test'
+>>>>>>> 75179b855 (.)
 'database' => 'saluteora_test'
 
 // ✅ DOPO

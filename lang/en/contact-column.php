@@ -14,6 +14,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -38,6 +39,9 @@ declare(strict_types=1);
 =======
  * @version 1.0
 >>>>>>> 75179b85 (.)
+=======
+ * @version 1.0
+>>>>>>> 75179b855 (.)
  * @since 2025-08-01
  */
 return [

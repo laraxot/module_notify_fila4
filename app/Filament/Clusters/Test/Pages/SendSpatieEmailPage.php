@@ -24,6 +24,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -85,10 +86,13 @@ use BackedEnum;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\RichEditor;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,11 +198,14 @@ use Filament\Forms\Components\RichEditor;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +241,11 @@ use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> 75179b85 (.)
+=======
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification as FilamentNotification;
+>>>>>>> 75179b855 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -245,6 +257,7 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +311,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
@@ -310,6 +325,7 @@ class SendSpatieEmailPage extends XotBasePage
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
     protected string $view = 'notify::filament.pages.send-email';
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,6 +511,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     public function mount(): void
     {
@@ -516,6 +534,7 @@ class SendSpatieEmailPage extends XotBasePage
         $this->emailForm->fill();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -681,6 +700,10 @@ class SendSpatieEmailPage extends XotBasePage
     public function emailForm(Schema $schema): Schema
     {
 >>>>>>> 75179b85 (.)
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+>>>>>>> 75179b855 (.)
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -688,6 +711,7 @@ class SendSpatieEmailPage extends XotBasePage
     {
         return [
             TextInput::make('to')->email()->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -708,6 +732,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> e00d798d (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             /*
              * Forms\Components\TextInput::make('subject')
              * ->required(),
@@ -716,6 +742,7 @@ class SendSpatieEmailPage extends XotBasePage
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
             RichEditor::make('body_html')->required(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1062,6 +1089,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         ];
     }
 
@@ -1094,6 +1123,7 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         //Mail::to($data['to'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
 =======
 <<<<<<< HEAD
@@ -1113,6 +1143,9 @@ class SendSpatieEmailPage extends XotBasePage
 =======
         //Mail::to($data['to'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
 >>>>>>> 75179b85 (.)
+=======
+        //Mail::to($data['to'])->locale('it')->send((new SpatieEmail($user,'due'))->addAttachments($attachments));
+>>>>>>> 75179b855 (.)
         /*
          * // Create and send the email
          * $email = new SpatieEmail($user, 'uno');
@@ -1122,6 +1155,7 @@ class SendSpatieEmailPage extends XotBasePage
          * ->locale('it')
          * ->send($email);
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1368,10 +1402,14 @@ class SendSpatieEmailPage extends XotBasePage
 =======
         Assert::string($mail_template_slug = $data['mail_template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 75179b85 (.)
+=======
+        Assert::string($mail_template_slug = $data['mail_template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 75179b855 (.)
         $notify = new RecordNotification($user, $mail_template_slug);
         $notify->mergeData($data);
 
         Notification::route('mail', $data['to'])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             //->locale('it')
@@ -1386,6 +1424,9 @@ class SendSpatieEmailPage extends XotBasePage
 =======
             //->locale('it')
 >>>>>>> 75179b85 (.)
+=======
+            //->locale('it')
+>>>>>>> 75179b855 (.)
             ->notify($notify);
 
         FilamentNotification::make()
@@ -1424,6 +1465,7 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1512,6 +1554,9 @@ class SendSpatieEmailPage extends XotBasePage
 =======
         if (!($user instanceof Model)) {
 >>>>>>> 75179b85 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b855 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

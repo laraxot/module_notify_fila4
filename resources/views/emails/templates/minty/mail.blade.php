@@ -168,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -685,11 +686,14 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1517,10 +1521,13 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 @extends('notify::emails.templates.minty')
 
 @section('content')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1540,6 +1547,9 @@ declare(strict_types=1);
 =======
     @include('notify::emails.templates.minty.contentStart')
 >>>>>>> 75179b85 (.)
+=======
+    @include('notify::emails.templates.minty.contentStart')
+>>>>>>> 75179b855 (.)
     <tr>
         <td class="paragraph">
             {!! $html !!}
@@ -1592,6 +1602,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
     @include('notify::emails.templates.minty.content-end')
@@ -1607,5 +1618,8 @@ declare(strict_types=1);
 =======
     @include('notify::emails.templates.minty.contentEnd')
 >>>>>>> 75179b85 (.)
+=======
+    @include('notify::emails.templates.minty.contentEnd')
+>>>>>>> 75179b855 (.)
 
 @stop

@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -167,6 +168,8 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
@@ -245,6 +248,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
@@ -498,6 +502,10 @@
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Generale ](../../../../../docs/README.md)
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> 75179b855 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura
@@ -605,6 +613,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -723,3 +732,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 75179b855 (.)

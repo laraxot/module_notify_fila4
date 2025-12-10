@@ -8,6 +8,7 @@ namespace Modules\Notify\Contracts;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b8 (.)
@@ -22,6 +23,9 @@ use Illuminate\Database\Eloquent\Model;
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b85 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 75179b855 (.)
 use Illuminate\Support\Collection;
 
 /**
@@ -41,6 +45,7 @@ interface CanReceivePushNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function getKey(): string|int|null;
 =======
@@ -53,6 +58,8 @@ interface CanReceivePushNotifications
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      *
      * @return string|int|null
      */
@@ -60,6 +67,7 @@ interface CanReceivePushNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -68,4 +76,6 @@ interface CanReceivePushNotifications
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 }

@@ -73,6 +73,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -337,11 +338,14 @@ use Override;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Override;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -823,13 +827,18 @@ use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\TwilioData;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 final class SendTwilioSMSAction implements SmsActionContract
 {
     use QueueableAction;
@@ -840,6 +849,7 @@ final class SendTwilioSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var TwilioData */
 =======
 <<<<<<< HEAD
@@ -899,6 +909,10 @@ final class SendTwilioSMSAction implements SmsActionContract
     /** @var TwilioData */
     private TwilioData $twilioData;
 >>>>>>> 75179b85 (.)
+=======
+    /** @var TwilioData */
+    private TwilioData $twilioData;
+>>>>>>> 75179b855 (.)
 
     /** @var array<string, mixed> */
     private array $vars = [];
@@ -910,6 +924,7 @@ final class SendTwilioSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var bool */
 =======
 <<<<<<< HEAD
@@ -1087,11 +1102,14 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     /** @var bool */
     protected bool $debug;
 
     /** @var string|null */
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1400,6 +1418,9 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 75179b85 (.)
+=======
+
+>>>>>>> 75179b855 (.)
     /**
      * Create a new action instance.
      */
@@ -1467,6 +1488,7 @@ final class SendTwilioSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1813,11 +1835,15 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 75179b855 (.)
         if (!$this->twilioData->account_sid) {
             throw new Exception('Account SID Twilio non configurato in sms.php');
         }
 
         if (!$this->twilioData->auth_token) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1930,6 +1956,8 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             throw new Exception('Auth Token Twilio non configurato in sms.php');
         }
 
@@ -1940,6 +1968,7 @@ final class SendTwilioSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->debug = (bool) config('sms.debug', false);
 =======
 <<<<<<< HEAD
@@ -1958,11 +1987,15 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
         $this->debug = (bool) config('sms.debug', false);
 >>>>>>> 75179b85 (.)
+=======
+        $this->debug = (bool) config('sms.debug', false);
+>>>>>>> 75179b855 (.)
     }
 
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2364,10 +2397,13 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 <<<<<<< HEAD
@@ -2431,6 +2467,9 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+>>>>>>> 75179b855 (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
@@ -2442,15 +2481,19 @@ final class SendTwilioSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
             $to = '+39' . mb_substr($to, 2);
         }
 
         if (!Str::startsWith($to, '+')) {
             $to = '+39' . $to;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2490,6 +2533,8 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         }
 
         $from = $smsData->from ?? $this->defaultSender;
@@ -2497,6 +2542,7 @@ final class SendTwilioSMSAction implements SmsActionContract
         // Twilio richiede l'autenticazione Basic
         $client = new Client([
             'timeout' => $this->twilioData->getTimeout(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2961,6 +3007,8 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             'auth' => [$this->twilioData->account_sid, $this->twilioData->auth_token],
         ]);
 
@@ -2969,6 +3017,7 @@ final class SendTwilioSMSAction implements SmsActionContract
             '/2010-04-01/Accounts/' .
             $this->twilioData->account_sid .
             '/Messages.json';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3204,6 +3253,8 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
         try {
             $response = $client->post($endpoint, [
@@ -3211,6 +3262,7 @@ final class SendTwilioSMSAction implements SmsActionContract
                     'To' => $to,
                     'From' => $from,
                     'Body' => $smsData->body,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3588,6 +3640,9 @@ final class SendTwilioSMSAction implements SmsActionContract
 =======
                 ],
 >>>>>>> 3f537838 (.)
+=======
+                ],
+>>>>>>> 75179b855 (.)
             ]);
 
             $this->vars['status_code'] = $response->getStatusCode();
@@ -3596,6 +3651,7 @@ final class SendTwilioSMSAction implements SmsActionContract
             return $this->vars;
         } catch (ClientException $clientException) {
             throw new Exception(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4023,6 +4079,11 @@ final class SendTwilioSMSAction implements SmsActionContract
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $clientException->getCode(),
+                $clientException,
+>>>>>>> 75179b855 (.)
             );
         }
     }

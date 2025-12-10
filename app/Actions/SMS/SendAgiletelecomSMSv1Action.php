@@ -71,6 +71,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -162,12 +163,15 @@ use Override;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -832,10 +836,16 @@ use Modules\Notify\Datas\SmsData;
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
 >>>>>>> 75179b85 (.)
+=======
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+>>>>>>> 75179b855 (.)
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,6 +1150,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+=======
+    #[Override]
+>>>>>>> 75179b855 (.)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';
@@ -1161,6 +1174,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'Accept-Encoding' => 'gzip, deflate',
             'Cache-Control' => 'no-cache',
             'Connection' => 'keep-alive',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1680,6 +1694,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         ];
 
         $client = new Client([
@@ -1690,6 +1706,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ]);
 
         $connection = $client->request('POST', $relative_path);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2251,4 +2268,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         return [];
     }
 >>>>>>> 3f537838 (.)
+=======
+
+        return [];
+    }
+>>>>>>> 75179b855 (.)
 }

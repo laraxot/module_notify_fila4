@@ -19,6 +19,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -111,6 +112,11 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 >>>>>>> 75179b85 (.)
+=======
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Carbon;
+>>>>>>> 75179b855 (.)
 
 /**
  * Modules\Notify\Models\NotifyThemeable.
@@ -123,6 +129,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +248,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -252,6 +261,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|NotifyThemeable whereNotifyThemeId($value)
  * @method static Builder|NotifyThemeable whereUpdatedAt($value)
  * @method static Builder|NotifyThemeable whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,10 +283,13 @@ use Illuminate\Support\Carbon;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +435,11 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
  * @mixin IdeHelperNotifyThemeable
 >>>>>>> 75179b85 (.)
+=======
+ * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
+ * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
+ * @mixin IdeHelperNotifyThemeable
+>>>>>>> 75179b855 (.)
  * @mixin \Eloquent
  */
 class NotifyThemeable extends BaseMorphPivot

@@ -113,6 +113,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -127,10 +128,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1486,6 +1490,8 @@ use function Safe\json_encode;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 
 class NotificationTemplateTest extends TestCase
 {
@@ -1540,6 +1546,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $template = new NotificationTemplate;
@@ -1561,6 +1568,9 @@ class NotificationTemplateTest extends TestCase
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b85 (.)
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 75179b855 (.)
 
         $expectedFillable = [
             'name',
@@ -1593,6 +1603,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $template = new NotificationTemplate;
@@ -1614,6 +1625,9 @@ class NotificationTemplateTest extends TestCase
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b85 (.)
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 75179b855 (.)
 
         $expectedCasts = [
             'type' => NotificationTypeEnum::class,
@@ -1642,6 +1656,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $template = new NotificationTemplate;
@@ -1663,6 +1678,9 @@ class NotificationTemplateTest extends TestCase
 =======
         $template = new NotificationTemplate();
 >>>>>>> 75179b85 (.)
+=======
+        $template = new NotificationTemplate();
+>>>>>>> 75179b855 (.)
 
         $expectedTranslatable = [
             'subject',
@@ -2019,6 +2037,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2422,10 +2441,13 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         $this->assertEquals(
             '<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>',
             $result['body_html'],
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3089,6 +3111,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         $this->assertEquals('Benvenuto Mario Rossi! La tua email è mario@example.com', $result['body_text']);
     }
 
@@ -3306,6 +3330,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3709,10 +3734,13 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         $this->assertEquals(
             '<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>',
             $resultWithAdditional['body_html'],
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4364,6 +4392,8 @@ class NotificationTemplateTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 
     /** @test */
@@ -4575,6 +4605,7 @@ class NotificationTemplateTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5263,6 +5294,9 @@ class NotificationTemplateTest extends TestCase
 =======
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
 >>>>>>> 3f537838 (.)
+=======
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+>>>>>>> 75179b855 (.)
     }
 
     /** @test */

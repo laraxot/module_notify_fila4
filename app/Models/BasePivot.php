@@ -12,6 +12,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBasePivot;
 =======
 use Illuminate\Database\Eloquent\Relations\Pivot;
@@ -93,6 +94,8 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> 54220b28 (rebase 210)
 =======
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Database\Eloquent\Relations\Pivot;
 // //use Laravel\Scout\Searchable;
 use Modules\Xot\Traits\Updater;
@@ -122,7 +125,10 @@ abstract class BasePivot extends Pivot
     // use Searchable;
     /** @var string */
     protected $connection = 'notify';
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     // this will use the specified database connection
 
@@ -144,6 +150,7 @@ abstract class BasePivot extends Pivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1488,6 +1495,11 @@ abstract class BasePivot extends Pivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 >>>>>>> 3f537838 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 75179b855 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -1499,6 +1511,7 @@ abstract class BasePivot extends Pivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2cbbc069 (.)
 =======
@@ -1527,4 +1540,6 @@ abstract class BasePivot extends Pivot
 >>>>>>> e00d798d (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 }

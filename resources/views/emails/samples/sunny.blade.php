@@ -168,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -685,11 +686,14 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1517,6 +1521,8 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 @extends('beautymail::templates.sunny')
 
 @section('content')
@@ -1526,6 +1532,7 @@ declare(strict_types=1);
         'level' => 'h1',
     ])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1545,11 +1552,14 @@ declare(strict_types=1);
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     @include('beautymail::templates.sunny.contentStart')
 
         <p>Today will be a great day!</p>
 
     @include('beautymail::templates.sunny.contentEnd')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1561,6 +1571,8 @@ declare(strict_types=1);
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     @include('beautymail::templates.sunny.button', [
         	'title' => 'Click me',
@@ -1740,6 +1752,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2640,3 +2653,6 @@ declare(strict_types=1);
 =======
 @stop
 >>>>>>> 3f537838 (.)
+=======
+@stop
+>>>>>>> 75179b855 (.)

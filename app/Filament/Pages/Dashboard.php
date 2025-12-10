@@ -65,6 +65,7 @@ namespace Modules\Notify\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -405,6 +406,9 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 =======
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 75179b85 (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+>>>>>>> 75179b855 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
 
 class Dashboard extends XotBaseDashboard
@@ -413,6 +417,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -422,6 +427,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 
     protected string $view = 'notify::filament.pages.dashboard';
 
@@ -486,6 +493,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -671,11 +679,14 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
          * }
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1076,5 +1087,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 }

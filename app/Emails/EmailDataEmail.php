@@ -28,6 +28,7 @@ namespace Modules\Notify\Emails;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -44,10 +45,13 @@ namespace Modules\Notify\Emails;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -152,6 +156,8 @@ use Illuminate\Mail\Mailables\Address;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -163,6 +169,7 @@ class EmailDataEmail extends Mailable
     use Queueable;
     use SerializesModels;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -729,6 +736,11 @@ class EmailDataEmail extends Mailable
         public EmailData $email_data,
     ) {}
 >>>>>>> 3f537838 (.)
+=======
+    public function __construct(
+        public EmailData $email_data,
+    ) {}
+>>>>>>> 75179b855 (.)
 
     /**
      * Get the message envelope.
@@ -804,6 +816,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1015,11 +1028,14 @@ class EmailDataEmail extends Mailable
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1636,6 +1652,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b855 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }
@@ -1644,16 +1662,20 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
         $envelope = new Envelope(
             from: new Address($this->email_data->from_email, $this->email_data->from),
             subject: $this->email_data->subject,
         );
 
         return $envelope;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1680,6 +1702,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b855 (.)
     }
 
     /**
