@@ -13,6 +13,7 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Attachment;
 =======
@@ -243,10 +244,13 @@ use Illuminate\Mail\Mailables\Attachment;
 =======
 =======
 >>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +271,8 @@ use Illuminate\Queue\SerializesModels;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 01af324fe (.)
+=======
+>>>>>>> 8c6d84fe6 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -275,6 +281,7 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,6 +318,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     use Queueable, SerializesModels;
 >>>>>>> bf479cc (.)
 >>>>>>> 01af324fe (.)
+=======
+    use Queueable, SerializesModels;
+>>>>>>> 8c6d84fe6 (.)
 
     /**
 =======
@@ -635,6 +645,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1059,6 +1070,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * @param  array<string, mixed>  $notificationData
 >>>>>>> bf479cc (.)
 >>>>>>> 01af324fe (.)
+=======
+     * @param  array<string, mixed>  $notificationData
+>>>>>>> 8c6d84fe6 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -1481,6 +1495,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $subject .= ' #'.$appointment->id;
         }
 
@@ -1760,8 +1775,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> e2f1a4045 (.)
             $subject .= ' #' . $appointment->id;
 =======
+=======
+>>>>>>> 8c6d84fe6 (.)
             $subject .= ' #'.$appointment->id;
->>>>>>> bf479cc (.)
         }
         
 <<<<<<< HEAD
