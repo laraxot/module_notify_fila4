@@ -1446,6 +1446,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1480,6 +1481,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> c4282a934 (.)
 =======
+>>>>>>> 2ba4e5540 (.)
+=======
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -1503,6 +1506,7 @@ final class WhatsAppActionFactory
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> 367c6ceb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 08fd62df (.)
 =======
@@ -1821,11 +1825,14 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> a404ea71 (.)
 >>>>>>> c4282a934 (.)
+=======
+>>>>>>> 2ba4e5540 (.)
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
         if (!is_string($normalizedDriver)) {
             $normalizedDriver = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1881,6 +1888,9 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 >>>>>>> c4282a934 (.)
 =======
+<<<<<<< HEAD
+>>>>>>> 2ba4e5540 (.)
+=======
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 =======
 >>>>>>> 3f537838 (.)
@@ -1947,7 +1957,15 @@ final class WhatsAppActionFactory
 =======
 =======
 >>>>>>> a404ea71 (.)
+<<<<<<< HEAD
 >>>>>>> c4282a934 (.)
+=======
+=======
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+>>>>>>> 0db165c (.)
+>>>>>>> 367c6ceb (.)
+>>>>>>> 2ba4e5540 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD

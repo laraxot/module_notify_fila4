@@ -1803,6 +1803,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 <<<<<<< HEAD
@@ -1828,6 +1829,8 @@ class EmailDataNotification extends Notification
 >>>>>>> e2f1a4045 (.)
 =======
 >>>>>>> c4282a934 (.)
+=======
+>>>>>>> 2ba4e5540 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1913,10 +1916,20 @@ class EmailDataNotification extends Notification
 =======
 =======
 >>>>>>> a404ea71 (.)
+<<<<<<< HEAD
 >>>>>>> c4282a934 (.)
+=======
+=======
+>>>>>>> 367c6ceb (.)
+>>>>>>> 2ba4e5540 (.)
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
+=======
+        $mailMessage = new MailMessage();
+        $mailMessage = $mailMessage->subject($this->emailData->subject);
+        $mailMessage = $mailMessage->line($this->emailData->body);
+>>>>>>> 0db165c (.)
 
         if (!empty($this->emailData->body_html)) {
 <<<<<<< HEAD
