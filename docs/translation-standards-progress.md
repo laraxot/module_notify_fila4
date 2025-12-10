@@ -246,6 +246,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -253,6 +254,8 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php`
@@ -333,6 +336,7 @@
 =======
 >>>>>>> 31f5d28f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -533,6 +537,10 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php`
@@ -651,12 +659,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -806,6 +817,7 @@
 =======
 >>>>>>> 31f5d28f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -1011,6 +1023,10 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
    - E altri 15 file (elenco completo in appendice)
 
 ### Correzioni Implementate
@@ -1134,6 +1150,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1141,6 +1158,8 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -1807,6 +1826,9 @@
 =======
 >>>>>>> 31f5d28f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4282a934 (.)
 =======
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
@@ -1815,6 +1837,7 @@
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whatsapp.php` con struttura corretta
    - Aggiornato `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_sms.php` con struttura completa
 >>>>>>> a404ea71 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ee18dd92 (.)
 =======
@@ -2186,6 +2209,8 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
    - Rimosso il file con naming errato `send_whats_app.php`
 
 ### Prossime Correzioni da Implementare
@@ -2309,6 +2334,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2316,6 +2342,8 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -2982,6 +3010,9 @@
 =======
 >>>>>>> 31f5d28f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4282a934 (.)
 =======
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php`
@@ -2990,6 +3021,7 @@
 2. **Verifiche da Eseguire**
    - Analisi della cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/en/` per identificare problemi simili
 >>>>>>> a404ea71 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ee18dd92 (.)
 =======
@@ -3361,6 +3393,8 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
    - Controllo dei riferimenti nel codice che potrebbero puntare ai vecchi file
 
 ## Documentazione di Riferimento
@@ -3495,6 +3529,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -3502,6 +3537,8 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -3613,6 +3650,7 @@
 =======
 >>>>>>> 31f5d28f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -3813,6 +3851,10 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -3946,12 +3988,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -4131,6 +4176,7 @@
 =======
 >>>>>>> 31f5d28f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -4265,6 +4311,10 @@
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
 ```
 =======
 >>>>>>> 5fd545e4 (.)

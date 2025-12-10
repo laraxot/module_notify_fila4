@@ -100,12 +100,15 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
 =======
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto , con particolare attenzione al pattern Factory utilizzato.
@@ -692,7 +695,13 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 =======
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 >>>>>>> e2f1a4045 (.)
+=======
+=======
+Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
 
 ## Architettura Generale
 

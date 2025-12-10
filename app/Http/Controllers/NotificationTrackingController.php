@@ -134,6 +134,7 @@ use Illuminate\Http\RedirectResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
 =======
@@ -173,6 +174,7 @@ use Illuminate\Http\RedirectResponse;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> a404ea71 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -200,6 +202,8 @@ use Illuminate\Http\RedirectResponse;
 =======
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> c4282a934 (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -420,6 +424,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return RedirectResponse
 =======
      * @return \Illuminate\Http\RedirectResponse
@@ -430,6 +435,7 @@ class NotificationTrackingController extends Controller
 =======
      * @return \Illuminate\Http\RedirectResponse
 >>>>>>> a404ea71 (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -461,6 +467,8 @@ class NotificationTrackingController extends Controller
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> c4282a934 (.)
      */
     public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {

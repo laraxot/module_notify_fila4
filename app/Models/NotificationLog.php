@@ -107,6 +107,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -217,6 +218,7 @@ use Carbon\Carbon;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
@@ -505,6 +507,10 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -532,8 +538,11 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> c4282a934 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -554,6 +563,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
@@ -572,6 +582,10 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+=======
+>>>>>>> a404ea71 (.)
+>>>>>>> c4282a934 (.)
 
 /**
  * Modello per il logging delle notifiche.
@@ -4131,6 +4145,7 @@ final class NotificationLog extends BaseModel
         $this->update([
             'status' => NotificationLogStatusEnum::CLICKED,
             'clicked_at' => now(),
+<<<<<<< HEAD
         ]);
 <<<<<<< HEAD
 
