@@ -650,7 +650,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> c8b1c8bf (.)
     public static function getFormSchema(): array
     {
-        return [
+        return array_values([
             'type' => TextInput::make('type')->required()->label('Notification Type'),
             'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
 <<<<<<< HEAD
@@ -2670,7 +2670,7 @@ class NotificationResource extends XotBaseResource
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
-        ];
+        ]);
     }
 <<<<<<< HEAD
 <<<<<<< HEAD

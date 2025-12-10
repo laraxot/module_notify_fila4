@@ -39,6 +39,9 @@ class SettingPage extends XotBasePage
 
     protected string $view = 'notify::filament.pages.setting';
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getHeaderWidgets(): array
     {
         $only = [
@@ -48,7 +51,7 @@ class SettingPage extends XotBasePage
         ];
 
         return [
-            EnvWidget::make(['only' => $only]),
+            'env' => EnvWidget::make(['only' => $only]),
         ];
     }
 }
