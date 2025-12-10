@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Struttura di Configurazione nei Moduli 
 >>>>>>> 75179b855 (.)
@@ -39,6 +40,8 @@
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> c4bdacbf (.)
 # Struttura di Configurazione nei Moduli SaluteOra
 
 ## Principi di Configurazione
@@ -117,7 +120,10 @@
    - Rate limit, retry e circuit breaking dovrebbero essere configurati una volta sola
    - L'implementazione dovrebbe utilizzare queste configurazioni generiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)

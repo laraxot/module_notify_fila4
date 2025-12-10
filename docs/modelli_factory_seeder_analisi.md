@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
 # Analisi Modelli, Factory e Seeder - Modulo Notify
 
 ## Panoramica
@@ -227,6 +230,7 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### <nome progetto> Integration
 >>>>>>> 75179b855 (.)
@@ -254,6 +258,8 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> c4bdacbf (.)
 #### SaluteOra Integration
 - **Appointment Reminders**: Promemoria appuntamenti
 - **Report Notifications**: Notifiche nuovi referti
@@ -316,6 +322,7 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> 75179b855 (.)
@@ -343,6 +350,8 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> c4bdacbf (.)
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 - [User Module](../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
 - [Media Module](../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
@@ -358,7 +367,10 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 *Analisi completa di 10 modelli attivi, 4 file backup da rimuovere*
 *Sistema notifiche multi-canale completo*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)

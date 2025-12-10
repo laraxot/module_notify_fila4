@@ -488,6 +488,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1215,6 +1216,11 @@ $users->each(function ($user) {
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -1504,6 +1510,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3361,11 +3368,23 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 =======
 >>>>>>> c6c33175 (.)
 =======
+=======
+>>>>>>> c4bdacbf (.)
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+=======
+=======
+
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -3634,6 +3653,7 @@ if ($failedJobs > $threshold) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4361,6 +4381,11 @@ if ($failedJobs > $threshold) {
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -4935,6 +4960,7 @@ php artisan queue:restart
 ## Vedi Anche
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Horizon Documentation](https://laravel.com/docs/horizon)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5942,3 +5968,8 @@ php artisan queue:restart
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> 4f042b88 (.)
+=======
+- [Redis Documentation](https://redis.io/documentation)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)

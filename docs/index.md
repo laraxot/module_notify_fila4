@@ -342,6 +342,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -358,6 +359,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,7 +763,12 @@ This document serves as the central index for the Notify module, providing guida
 =======
 =======
 >>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2624,6 +2632,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -2681,7 +2690,14 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
 >>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)
 
 ## Sottocartelle
 
@@ -2884,6 +2900,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2947,6 +2964,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -3240,6 +3259,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
 =======
@@ -3398,6 +3418,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -3459,6 +3483,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 4f042b88 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3881,6 +3906,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> c6c33175 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 >>>>>>> f813254 (.)
 =======
 >>>>>>> d5c4b93 (.)
@@ -3889,6 +3916,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 4e643df (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e5b598a (.)
@@ -4503,11 +4531,14 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 2e67a2a (.)
 =======
 >>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
@@ -4662,4 +4693,12 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+=======
+=======
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+>>>>>>> 4e643df (.)
+>>>>>>> c4bdacbf (.)

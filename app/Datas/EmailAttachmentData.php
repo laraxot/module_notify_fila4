@@ -211,6 +211,7 @@ class EmailAttachmentData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -613,6 +614,10 @@ class EmailAttachmentData extends Data
         public string $contentType = 'application/octet-stream',
 =======
 >>>>>>> f2e64178 (.)
+=======
+        public string $contentType = 'application/octet-stream',
+=======
+>>>>>>> c4bdacbf (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,6 +632,7 @@ class EmailAttachmentData extends Data
         public string $contentType = 'application/octet-stream'
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1250,6 +1256,8 @@ class EmailAttachmentData extends Data
 =======
         public string $contentType = 'application/octet-stream',
 >>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
     ) {}
 
     public function getContent(): string

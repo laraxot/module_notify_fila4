@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming per Filament 
 
 <<<<<<< HEAD
@@ -43,6 +44,10 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+# Convenzioni di Naming per Filament 
+
+>>>>>>> c4bdacbf (.)
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
 
 ## Convenzioni di Naming per Pagine Filament
@@ -188,7 +193,10 @@ Prima di ogni commit, verificare che:
 3. Tutte le classi nella cartella `app/Filament/Widgets` terminino con "Widget"
 4. Tutte le viste Blade seguano la convenzione di naming
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)

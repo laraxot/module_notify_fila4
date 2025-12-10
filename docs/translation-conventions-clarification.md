@@ -111,7 +111,11 @@
 
  sono state identificate convenzioni contrastanti per le traduzioni:
 
+<<<<<<< HEAD
 ### Convenzioni Generali (Modules/Lang/docs/TRANSLATION_KEYS_RULES.md)
+=======
+### Convenzioni Generali (Modules/Lang/project_docs/TRANSLATION_KEYS_RULES.md)
+>>>>>>> d284d65 (.)
 
 ```php
 // Struttura gerarchica espansa
@@ -127,7 +131,11 @@
 // Esempio: user::auth.login.button.label
 ```
 
+<<<<<<< HEAD
 ### Convenzioni Specifiche del Modulo Notify (Modules/Notify/docs/TRANSLATION_CONVENTIONS.md)
+=======
+### Convenzioni Specifiche del Modulo Notify (Modules/Notify/project_docs/TRANSLATION_CONVENTIONS.md)
+>>>>>>> d284d65 (.)
 
 ```php
 // Struttura con chiave 'navigation'
@@ -1246,9 +1254,11 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Convenzioni Generali di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 - [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Regole per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1391,10 +1401,13 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 - [Convenzioni Generali di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_RULES.md)
 - [Convenzioni Specifiche del Modulo Notify](./TRANSLATION_CONVENTIONS.md)
 - [Regole per le Chiavi di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1597,3 +1610,5 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
