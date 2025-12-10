@@ -953,6 +953,7 @@ class MailQueueManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1993,6 +1994,7 @@ class MailQueueManager
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
 >>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
@@ -2115,3 +2117,5 @@ class MailQueueManager
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)

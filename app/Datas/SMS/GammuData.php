@@ -219,6 +219,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -243,6 +244,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -440,6 +443,7 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -757,6 +761,10 @@ use Illuminate\Support\Arr;
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -997,6 +1005,7 @@ class GammuData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1011,6 +1020,8 @@ class GammuData extends Data
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2177,6 +2188,7 @@ class GammuData extends Data
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -2539,6 +2551,10 @@ class GammuData extends Data
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
             $data = Config::array('sms.drivers.gammu');
             self::$instance = self::from($data);
         }

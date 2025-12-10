@@ -583,6 +583,7 @@ public static function getTableActions(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -645,6 +646,7 @@ public static function getTableActions(): array
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 23cbbaf5 (.)
 =======
@@ -1012,6 +1014,8 @@ public static function getTableActions(): array
 =======
 >>>>>>> 7325acf3 (.)
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -1019,6 +1023,7 @@ public static function getTableActions(): array
 - [XotBaseResource](../../Xot/docs/XotBaseResource.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1864,6 +1869,7 @@ public static function getTableActions(): array
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
@@ -2140,6 +2146,8 @@ public static function getTableActions(): array
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 - [Gestione Template](../template-management.md)
 
 ## Note Importanti
@@ -2160,6 +2168,7 @@ public static function getTableActions(): array
 ## Collegamenti tra versioni di filament-resources.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2436,6 +2445,7 @@ public static function getTableActions(): array
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 23cbbaf5 (.)
 =======
@@ -2803,6 +2813,8 @@ public static function getTableActions(): array
 =======
 >>>>>>> 7325acf3 (.)
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 * [filament-resources.md](../../../../docs/tecnico/filament/filament-resources.md)
 * [filament-resources.md](../../../../docs/regole/filament-resources.md)
 * [filament-resources.md](../../Gdpr/docs/filament-resources.md)
@@ -2811,6 +2823,7 @@ public static function getTableActions(): array
 * [filament-resources.md](../../Cms/docs/filament-resources.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3657,6 +3670,7 @@ public static function getTableActions(): array
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
@@ -3933,6 +3947,8 @@ public static function getTableActions(): array
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 
 
 ---

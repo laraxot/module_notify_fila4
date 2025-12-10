@@ -181,6 +181,7 @@ namespace Modules\Notify\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -493,6 +494,7 @@ use Modules\Xot\Tests\CreatesApplication;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -595,6 +597,12 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+>>>>>>> 37beb5238 (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 <<<<<<< HEAD
@@ -939,6 +947,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1604,6 +1613,7 @@ abstract class TestCase extends BaseTestCase
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4c323e61 (.)
@@ -1889,6 +1899,11 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -1896,8 +1911,8 @@ abstract class TestCase extends BaseTestCase
     /**
      * Get package providers.
      *
-<<<<<<< HEAD
      * @param Application $app
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2272,20 +2287,14 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array
     {
         return [
-<<<<<<< HEAD
             NotifyServiceProvider::class,
-=======
-<<<<<<< HEAD
-            NotifyServiceProvider::class,
-=======
-            \Modules\Notify\Providers\NotifyServiceProvider::class,
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ];
     }
 }

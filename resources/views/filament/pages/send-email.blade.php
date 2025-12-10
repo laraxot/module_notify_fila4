@@ -222,6 +222,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -622,6 +623,7 @@
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
@@ -917,6 +919,10 @@
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
 <?php
 
 declare(strict_types=1);
@@ -924,6 +930,7 @@ declare(strict_types=1);
 ?>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1380,6 +1387,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -2015,6 +2023,10 @@ declare(strict_types=1);
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -2269,6 +2281,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <x-filament-panels::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -2688,6 +2701,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -2981,6 +2995,10 @@ declare(strict_types=1);
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
         <x-filament-schemas::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -2989,6 +3007,7 @@ declare(strict_types=1);
             <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
     
         </x-filament-schemas::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3242,6 +3261,8 @@ declare(strict_types=1);
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -4183,6 +4204,7 @@ declare(strict_types=1);
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -4539,6 +4561,10 @@ declare(strict_types=1);
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
     </x-filament::section>
 </x-filament-panels::page>
 =======

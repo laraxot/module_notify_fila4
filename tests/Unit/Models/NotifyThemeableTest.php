@@ -234,6 +234,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2086,11 +2087,15 @@ use Tests\TestCase;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 37beb5238 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
 >>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cdf6146 (.)
 =======
@@ -2199,6 +2204,8 @@ use Tests\TestCase;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -2523,6 +2530,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3377,6 +3385,7 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 4c323e61 (.)
@@ -3739,6 +3748,11 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
 
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($found);
@@ -4289,6 +4303,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d67cabd (.)
 =======
@@ -5333,6 +5348,7 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -5651,3 +5667,7 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)

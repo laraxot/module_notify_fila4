@@ -233,6 +233,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1501,10 +1502,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 37beb5238 (.)
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 4c323e61 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cdf6146 (.)
 =======
@@ -1599,6 +1604,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 
 class CreateNotificationTemplate extends XotBaseCreateRecord
 {
@@ -1606,6 +1613,7 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 <<<<<<< HEAD
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2679,6 +2687,7 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 }
@@ -3042,3 +3051,8 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+}
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)

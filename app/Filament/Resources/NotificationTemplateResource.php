@@ -190,6 +190,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -395,6 +396,7 @@ use Override;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 4c323e61 (.)
@@ -506,6 +508,11 @@ use Override;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+use Override;
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
 use Filament\Forms\Components\TextInput;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -725,6 +732,7 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\Preview
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -757,6 +765,8 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\Preview
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 207ac35e (.)
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
@@ -867,6 +877,7 @@ use Filament\Forms\Form;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -929,6 +940,11 @@ use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+>>>>>>> 37beb5238 (.)
 use Filament\Forms;
 use Filament\Schemas\Schema;
 <<<<<<< HEAD
@@ -1242,6 +1258,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1268,6 +1285,8 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1436,6 +1455,7 @@ use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -1485,6 +1505,10 @@ use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 =======
@@ -1580,6 +1604,9 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
 =======
@@ -1715,6 +1742,7 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -1747,6 +1775,10 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
     protected static null|string $model = NotificationTemplate::class;
 =======
     protected static ?string $model = NotificationTemplate::class;
@@ -2765,6 +2797,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11b43e822 (.)
 =======
@@ -2781,6 +2814,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5838,6 +5873,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> d284d65 (.)
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -5943,25 +5979,22 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
     public static function getPages(): array
     {
         return [
             ...parent::getPages(),
-<<<<<<< HEAD
             'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
-=======
-<<<<<<< HEAD
-            'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
-=======
-            'preview' => Pages\PreviewNotificationTemplate::route('/{record}/preview'),
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ];
     }
 
     /*
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6445,6 +6478,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7325acf3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
@@ -6678,6 +6712,10 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
      * public static function getEloquentQuery(): Builder
      * {
      * return parent::getEloquentQuery()
@@ -6686,6 +6724,7 @@ class NotificationTemplateResource extends XotBaseResource
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7525,6 +7564,7 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4c323e61 (.)
 =======
@@ -7918,6 +7958,10 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 4c323e61 (.)
+>>>>>>> 37beb5238 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)
