@@ -92,6 +92,7 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
@@ -216,6 +217,8 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 207ac35e (.)
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
@@ -381,6 +384,7 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -388,10 +392,13 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 =======
 >>>>>>> 011072e4 (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
@@ -795,4 +802,9 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)

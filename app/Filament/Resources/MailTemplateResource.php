@@ -50,6 +50,7 @@ use Filament\Schemas\Components\Utilities\Set;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -186,7 +187,18 @@ use Override;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+use Override;
+=======
+>>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
@@ -194,6 +206,9 @@ use Filament\Schemas\Components\View;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 use Illuminate\Support\Str;
@@ -413,6 +428,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -595,7 +611,12 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 6e2169a3 (.)
 use Illuminate\Support\Str;
 use Modules\Notify\Models\MailTemplate;
 use Filament\Forms\Components\TextInput;
@@ -608,6 +629,7 @@ class MailTemplateResource extends LangBaseResource
     protected static null|string $model = MailTemplate::class;
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -696,7 +718,14 @@ class MailTemplateResource extends LangBaseResource
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -715,6 +744,7 @@ class MailTemplateResource extends LangBaseResource
     {
         return [
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,7 +852,14 @@ class MailTemplateResource extends LangBaseResource
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
     #[Override]
     public static function getFormSchema(): array
     {
@@ -836,6 +873,7 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 75179b85 (.)
 >>>>>>> 7624f916 (.)
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
+<<<<<<< HEAD
 =======
     public static function getFormSchema(): array
     {
@@ -844,6 +882,8 @@ class MailTemplateResource extends LangBaseResource
                 ->required()
                 ->maxLength(255),
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
             //'name' => Forms\Components\TextInput::make('name'),
             //'slug' => Forms\Components\TextInput::make('slug'),
             Group::make()
@@ -999,6 +1039,9 @@ class MailTemplateResource extends LangBaseResource
                         ->label('Slug')
                         ->required()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
                         ->unique(ignoreRecord: true),
                 ])
                 ->columns(2),
@@ -1387,6 +1430,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -1542,7 +1586,12 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 6e2169a3 (.)
                         ->unique(ignoreRecord: true)
                 ])
                 ->columns(2),
@@ -1577,6 +1626,7 @@ class MailTemplateResource extends LangBaseResource
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1684,7 +1734,14 @@ class MailTemplateResource extends LangBaseResource
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
         ];
     }
 }

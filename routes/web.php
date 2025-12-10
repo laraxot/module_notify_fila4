@@ -182,6 +182,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e790eb33 (.)
@@ -1691,7 +1692,14 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 declare(strict_types=1);
 
 
@@ -1783,6 +1791,7 @@ declare(strict_types=1);
 
 // Filament will handle all routes for this module
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1922,6 +1931,8 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 =======
+>>>>>>> 207ac35e (.)
+=======
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -1933,7 +1944,12 @@ declare(strict_types=1);
 |
 */
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
 // Filament will handle all routes for this module
 =======

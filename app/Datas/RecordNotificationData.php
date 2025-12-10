@@ -72,6 +72,16 @@ use Illuminate\Database\Eloquent\Model;
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+use Modules\Xot\Contracts\UserContract;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -567,6 +577,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -768,7 +779,14 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 
 class RecordNotificationData extends Data
 {
@@ -888,6 +906,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1048,6 +1067,10 @@ class RecordNotificationData extends Data
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1175,6 +1198,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 
@@ -1212,7 +1236,12 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 6e2169a3 (.)
         switch($this->channel){
             case 'mail':
                 Assert::string($email=$this->record->email);
@@ -1611,6 +1640,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 =======
@@ -1678,5 +1708,12 @@ class RecordNotificationData extends Data
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 }

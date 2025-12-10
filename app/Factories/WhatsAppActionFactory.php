@@ -466,9 +466,13 @@ use function Safe\preg_replace;
 >>>>>>> c8b1c8bf (.)
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,6 +524,7 @@ use function Safe\preg_replace;
 /**
  * Factory per la creazione di azioni WhatsApp.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
  * 
@@ -608,6 +613,7 @@ use function Safe\preg_replace;
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -813,7 +819,15 @@ use function Safe\preg_replace;
  * 
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+ *
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -1064,6 +1078,9 @@ final class WhatsAppActionFactory
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
 <<<<<<< HEAD
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
@@ -2484,6 +2501,7 @@ final class WhatsAppActionFactory
 =======
 =======
 
+<<<<<<< HEAD
 =======
     public function create(?string $driver = null): WhatsAppProviderActionInterface
     {
@@ -2501,6 +2519,8 @@ final class WhatsAppActionFactory
         }
         
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         // Verifica se la classe implementa l'interfaccia richiesta
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
 >>>>>>> 75179b85 (.)
@@ -2508,10 +2528,14 @@ final class WhatsAppActionFactory
             throw new Exception("Class {$className} does not implement WhatsAppProviderActionInterface.");
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         return app($className);
 <<<<<<< HEAD
         return app($className);

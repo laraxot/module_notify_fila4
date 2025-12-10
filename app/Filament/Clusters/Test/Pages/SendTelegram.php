@@ -305,6 +305,7 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
     public null|array $emailData = [];
@@ -399,10 +400,13 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 207ac35e (.)
     public null|array $emailData = [];
 =======
     public ?array $emailData = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,7 +497,15 @@ class SendTelegram extends Page implements HasForms
     public ?array $emailData = [];
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
@@ -515,6 +527,7 @@ class SendTelegram extends Page implements HasForms
     protected static null|string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -564,10 +577,13 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 207ac35e (.)
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73b (.)
@@ -677,7 +693,15 @@ class SendTelegram extends Page implements HasForms
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 
     public function mount(): void
     {
@@ -754,12 +778,16 @@ class SendTelegram extends Page implements HasForms
     {
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
          * dddx($response = Telegram::getMe());
          * $response = $telegram->sendMessage([
          * 'chat_id' => 'CHAT_ID',
          * 'text' => 'Hello World',
          * ]);
          */
+<<<<<<< HEAD
 =======
         dddx($response = Telegram::getMe());
         $response = $telegram->sendMessage([
@@ -768,11 +796,14 @@ class SendTelegram extends Page implements HasForms
         ]);
         */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         return $schema
             ->components([
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
                     ->schema([
+<<<<<<< HEAD
 <<<<<<< HEAD
                         TextInput::make('to')->required(),
                         RichEditor::make('body')->required(),
@@ -782,6 +813,10 @@ class SendTelegram extends Page implements HasForms
                         RichEditor::make('body')
                             ->required(),
 >>>>>>> b19cd40 (.)
+=======
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+>>>>>>> 4e2ebfb (.)
                     ]),
             ])
             ->model($this->getUser())
@@ -793,6 +828,9 @@ class SendTelegram extends Page implements HasForms
         $data = $this->emailForm->getState();
         Assert::string($token = config('services.telegram-bot-api.token'));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
 <<<<<<< HEAD
         $url = 'https://api.telegram.org/bot'.$token.'/getMe';
@@ -875,6 +913,7 @@ class SendTelegram extends Page implements HasForms
         // Notification::sendNow($developers, new TelegramNotification());
         $message = is_string($data['body']) ? $data['body'] : '';
         Notification::route('telegram', $data['to'])->notify(new TelegramNotification($message));
+<<<<<<< HEAD
 =======
         $url = 'https://api.telegram.org/bot'.$token.'/getMe';
         Http::get($url);
@@ -905,6 +944,8 @@ class SendTelegram extends Page implements HasForms
         Notification::route('telegram', $data['to'])
             ->notify(new TelegramNotification($message));
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
     }
 
     protected function getForms(): array
@@ -956,6 +997,7 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 =======
@@ -986,10 +1028,13 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 207ac35e (.)
                 
 =======
                 //
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1088,7 +1133,15 @@ class SendTelegram extends Page implements HasForms
                 //
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -1107,6 +1160,7 @@ class SendTelegram extends Page implements HasForms
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,6 +1199,10 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -1211,10 +1269,13 @@ class SendTelegram extends Page implements HasForms
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
 =======
         if (! $user instanceof Model) {
             throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         }
 
         return $user;

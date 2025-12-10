@@ -148,6 +148,7 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **PHPStan level 10**: Compatibilità completa
 =======
 - ✅ **PHPStan Level 9**: Compatibilità completa
@@ -164,7 +165,13 @@ PHPStan aveva difficoltà nel riconoscere la sintassi method chaining in alcuni 
 =======
 - ✅ **PHPStan Level 9**: Compatibilità completa
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+- ✅ **PHPStan Level 9**: Compatibilità completa
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
 - ✅ **Leggibilità**: Codice più esplicito e chiaro
 - ✅ **Type Safety**: Mantenuta con type hints espliciti
 - ✅ **Debugging**: Più facile identificare problemi
@@ -288,6 +295,7 @@ public function toMail(object $notifiable): MailMessage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -377,4 +385,9 @@ public function toMail(object $notifiable): MailMessage
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> 6e2169a3 (.)
