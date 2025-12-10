@@ -288,6 +288,7 @@ return $action->execute($smsData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
 =======
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
@@ -628,7 +629,12 @@ return $action->execute($smsData);
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 4f042b88 (.)
 =======
+=======
+>>>>>>> e790eb33 (.)
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+=======
+- [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
+>>>>>>> d284d65 (.)
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 712617d3 (.)

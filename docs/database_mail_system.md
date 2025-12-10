@@ -645,6 +645,7 @@ class TreatmentComplete extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1278,6 +1279,11 @@ class TreatmentComplete extends Mailable
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> fd1fcc4c (.)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -1751,7 +1757,9 @@ php artisan notify:mail-template:test
 >>>>>>> eea68ec9 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 - [Spatie Packages](https://spatie.be/open-source)
+<<<<<<< HEAD
 >>>>>>> 51182e3c (rebase 210)
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
@@ -2505,3 +2513,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> fd1fcc4c (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> e790eb33 (.)
