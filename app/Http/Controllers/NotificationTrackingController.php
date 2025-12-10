@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 82ae73be (.)
@@ -71,7 +72,13 @@
 =======
 
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Http\Controllers;
@@ -100,6 +107,7 @@ use Illuminate\Http\RedirectResponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Safe\base64_decode;
 
 =======
@@ -147,7 +155,12 @@ use Illuminate\Http\RedirectResponse;
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
@@ -164,6 +177,7 @@ use function Safe\base64_decode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -189,7 +203,12 @@ use function Safe\base64_decode;
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 class NotificationTrackingController extends Controller
 {
     /**
@@ -203,6 +222,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -223,7 +243,12 @@ class NotificationTrackingController extends Controller
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
      *
      * @param Request $request
      * @param string $id
@@ -237,6 +262,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -256,7 +282,12 @@ class NotificationTrackingController extends Controller
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
      */
     public function trackOpen(Request $request, string $id): Response
     {
@@ -297,6 +328,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @param Request $request
      * @param string $id
@@ -467,7 +499,12 @@ class NotificationTrackingController extends Controller
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
      *
      * @param Request $request
      * @param string $id
@@ -479,6 +516,7 @@ class NotificationTrackingController extends Controller
         $url = $request->get('url');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> 7624f916 (.)
@@ -487,6 +525,13 @@ class NotificationTrackingController extends Controller
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 1b6ddbbc (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 
         if ($log) {
             $log->markAsClicked();
@@ -523,6 +568,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $metadata = $log->data ?? [];
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,7 +630,13 @@ class NotificationTrackingController extends Controller
 =======
             $metadata = $log->metadata ?? [];
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+            $metadata = $log->metadata ?? [];
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
             $metadata['clicked_links'] = array_merge(
                 $metadata['clicked_links'] ?? [],
                 [$url => now()->toIso8601String()]
@@ -606,9 +658,12 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
 =======
 >>>>>>> 1b6ddbbc (.)
+=======
+>>>>>>> 5fae858e (.)
             $log->update(['data' => $metadata]);
         }
 
@@ -640,7 +695,12 @@ class NotificationTrackingController extends Controller
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
             $log->update(['metadata' => $metadata]);
         }
 
@@ -648,6 +708,7 @@ class NotificationTrackingController extends Controller
         return redirect()->away($url);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,4 +821,11 @@ class NotificationTrackingController extends Controller
     }
 } 
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 1b6ddbbc (.)
+=======
+=======
+    }
+} 
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)

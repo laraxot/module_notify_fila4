@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -91,12 +92,15 @@
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -228,12 +232,21 @@
 =======
 =======
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 <x-filament-panels::page>
 <<<<<<< HEAD
 =======
@@ -484,6 +497,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -638,10 +652,15 @@ declare(strict_types=1);
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> c8b1c8bf (.)
 =======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -734,7 +753,12 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 >>>>>>> 26f580eb (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -765,6 +789,7 @@ declare(strict_types=1);
         </div>
     </div>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1216,13 +1241,21 @@ declare(strict_types=1);
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> 1fd232c7 (.)
+<<<<<<< HEAD
 >>>>>>> b0e96545 (.)
+=======
+=======
+>>>>>>> 11ae5222 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
                 </div>
             </div>
         </div>
     </div>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1499,13 +1532,18 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> 7624f916 (.)
 <x-filament-panels::page>
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
     <div class="space-y-6">
         <div class="bg-white shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
@@ -1526,6 +1564,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1557,7 +1596,13 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -1588,6 +1633,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11ae5222 (.)
 <<<<<<< HEAD
 =======
@@ -1600,6 +1646,9 @@ declare(strict_types=1);
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 11ae5222 (.)
+>>>>>>> d09cb759 (.)
                 </div>
             </div>
 <<<<<<< HEAD
@@ -1610,19 +1659,29 @@ declare(strict_types=1);
         </div>
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 5fae858e (.)
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
             Test Invio Notifiche Push
         </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5fae858e (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
 >>>>>>> 7624f916 (.)
@@ -1637,7 +1696,25 @@ declare(strict_types=1);
 >>>>>>> 69fa7d37 (.)
                 <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+
+        <x-slot name="description">
+            Utilizza questo form per testare l'invio di notifiche push ai dispositivi mobili tramite diversi servizi.
+        </x-slot>
+
+        {{ $this->notificationForm }}
+
+        <x-slot name="footer">
+            <div class="flex items-center justify-between gap-x-3">
+                <div>
+                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification()" />
+                </div>
+                <div>
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
                     <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
                 </div>
             </div>
@@ -1652,6 +1729,7 @@ declare(strict_types=1);
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -1955,5 +2033,12 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 </x-filament-panels::page>

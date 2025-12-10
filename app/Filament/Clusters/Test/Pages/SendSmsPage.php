@@ -27,6 +27,7 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -71,6 +72,11 @@ use BackedEnum;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 =======
@@ -114,6 +120,11 @@ use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Exception;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -255,18 +266,53 @@ class SendSmsPage extends XotBasePage
 >>>>>>> c5a0a4b2 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+=======
+=======
+use Filament\Forms;
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Notifications\Notification as FilamentNotification;
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Notification;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Enums\SmsDriverEnum;
+use Modules\Notify\Filament\Clusters\Test;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Notifications\RecordNotification;
+use Modules\Notify\Notifications\SmsNotification;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Webmozart\Assert\Assert;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
 
 /**
  * @property \Filament\Schemas\Schema $smsForm
  */
 class SendSmsPage extends XotBasePage
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
     public null|array $smsData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,13 +342,23 @@ class SendSmsPage extends XotBasePage
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
     public ?array $smsData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected string $view = 'notify::filament.pages.send-sms';
     protected static ?string $cluster = Test::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5fae858e (.)
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -333,6 +389,8 @@ class SendSmsPage extends XotBasePage
 =======
 >>>>>>> 9777d1b3 (.)
 =======
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 7624f916 (.)
@@ -375,7 +433,10 @@ class SendSmsPage extends XotBasePage
     protected static string $view = 'notify::filament.pages.send-sms';
     protected static ?string $cluster = Test::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 5fae858e (.)
 <<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -467,14 +528,29 @@ class SendSmsPage extends XotBasePage
 =======
 =======
 >>>>>>> 9777d1b3 (.)
+<<<<<<< HEAD
 >>>>>>> 99a612a8 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+>>>>>>> 5fae858e (.)
 
     /**
      * Get the slug of the page
      *
      * This explicit definition ensures consistent URL generation for acronyms
      */
+<<<<<<< HEAD
     public static function getSlug(?Panel $panel = null): string
+=======
+<<<<<<< HEAD
+    public static function getSlug(?Panel $panel = null): string
+=======
+    public static function getSlug(): string
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     {
         return 'send-sms-page';
     }
@@ -503,6 +579,7 @@ class SendSmsPage extends XotBasePage
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,9 +699,36 @@ class SendSmsPage extends XotBasePage
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
     public function smsForm(Schema $schema): Schema
     {
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+=======
+<<<<<<< HEAD
+    public function smsForm(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+=======
+        return $schema
+            ->components($this->getSmsFormSchema())
+            ->model($this->getUser())
+            ->statePath('smsData');
+>>>>>>> a12f125f4a (.)
+=======
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+>>>>>>> b93ef594b4 (.)
+=======
+    public function smsForm(Form $form): Form
+    {
+        return $form
+            ->schema($this->getSmsFormSchema())
+            ->model($this->getUser())
+            ->statePath('smsData');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 
 <<<<<<< HEAD
@@ -650,6 +754,10 @@ class SendSmsPage extends XotBasePage
     public function getSmsFormSchema(): array
     {
         return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
             'to' => TextInput::make('to')
                 ->tel()
                 ->required()
@@ -663,7 +771,35 @@ class SendSmsPage extends XotBasePage
                 ->default(config('sms.default'))
                 ->required()
                 ->helperText(__('notify::sms.fields.driver.helper_text')),
+<<<<<<< HEAD
             'template_slug' => Select::make('template_slug')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'template_slug' => Select::make('template_slug')
+=======
+            'template_slug'=> Select::make('template_slug')
+>>>>>>> a12f125f4a (.)
+=======
+            'template_slug' => Select::make('template_slug')
+>>>>>>> b93ef594b4 (.)
+=======
+            'to' => Forms\Components\TextInput::make('to')
+                ->tel()
+                ->required()
+                ->helperText(__('notify::sms.fields.to.helper_text')),
+            'message' => Forms\Components\TextInput::make('message')
+                ->required()
+                ->maxLength(160)
+                ->helperText(__('notify::sms.fields.message.helper_text')),
+            'driver' => Forms\Components\Select::make('driver')
+                ->options(\Modules\Notify\Enums\SmsDriverEnum::class)
+                ->default(config('sms.default'))
+                ->required()
+                ->helperText(__('notify::sms.fields.driver.helper_text')),
+            'template_slug'=> Forms\Components\Select::make('template_slug')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
                 ->options(MailTemplate::all()->pluck('slug', 'slug'))
                 ->required(),
         ];
@@ -675,6 +811,14 @@ class SendSmsPage extends XotBasePage
             $data = $this->smsForm->getState();
             $user = $this->getUser();
             /*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
              * Notification::route('sms', $data['to'])
              * ->notify(new SmsNotification($data['message'], [
              * 'driver' => $data['driver']
@@ -792,6 +936,10 @@ class SendSmsPage extends XotBasePage
 >>>>>>> c5a0a4b2 (.)
             $notify = new RecordNotification($user, $template_slug);
             $notify->mergeData($data);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
             Notification::route('sms', $data['to'])
 <<<<<<< HEAD
@@ -812,6 +960,42 @@ class SendSmsPage extends XotBasePage
                 //->locale('it')
                 //->notify(new RecordNotification($user,'due'))
                 ->notify($notify);
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> origin/develop
+            Notification::route('sms', $data['to'])
+                ->notify(new SmsNotification($data['message'], [
+                    'driver' => $data['driver']
+                ]));
+            */
+            Assert::string($template_slug=$data['template_slug']);
+            $notify=(new RecordNotification($user,$template_slug))->mergeData($data);
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+
+            Notification::route('sms', $data['to'])
+                //->locale('it')
+                //->notify(new RecordNotification($user,'due'))
+<<<<<<< HEAD
+                ->notify($notify);;
+
+>>>>>>> a12f125f4a (.)
+=======
+                ->notify($notify);
+>>>>>>> b93ef594b4 (.)
+=======
+
+            
+            Notification::route('sms', $data['to'])
+                //->locale('it')
+                //->notify(new RecordNotification($user,'due'))
+                ->notify($notify);;
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
             
 
@@ -854,6 +1038,7 @@ class SendSmsPage extends XotBasePage
                 ->success()
                 ->title('SMS inviato con successo')
                 ->send();
+<<<<<<< HEAD
         } catch (Exception $e) {
 <<<<<<< HEAD
         } catch (Exception $e) {
@@ -870,7 +1055,10 @@ class SendSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -886,9 +1074,12 @@ class SendSmsPage extends XotBasePage
         } catch (\Exception $e) {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> d09cb759 (.)
             //Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
 =======
 <<<<<<< HEAD
@@ -938,7 +1129,21 @@ class SendSmsPage extends XotBasePage
         ];
     }
 
+<<<<<<< HEAD
     #[Override]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    #[Override]
+=======
+>>>>>>> a12f125f4a (.)
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
@@ -951,6 +1156,7 @@ class SendSmsPage extends XotBasePage
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -995,6 +1201,15 @@ class SendSmsPage extends XotBasePage
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         if (!($user instanceof Model)) {
 =======
 =======
@@ -1050,6 +1265,20 @@ class SendSmsPage extends XotBasePage
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        if (! $user instanceof Model) {
+            throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+        if (! $user instanceof Model) {
+            throw new \Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         }
 
         return $user;
