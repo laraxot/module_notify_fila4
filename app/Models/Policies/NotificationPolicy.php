@@ -94,6 +94,7 @@ class NotificationPolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class NotificationPolicy extends NotifyBasePolicy {}
 >>>>>>> 98d837b9 (.)
@@ -108,6 +109,8 @@ class NotificationPolicy extends NotifyBasePolicy {}
 >>>>>>> 3f39ac8b (.)
 class NotificationPolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -453,6 +456,7 @@ class NotificationPolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 class NotificationPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
@@ -897,3 +901,5 @@ class NotificationPolicy extends NotifyBasePolicy
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

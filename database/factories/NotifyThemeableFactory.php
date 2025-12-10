@@ -91,6 +91,7 @@ use Modules\Notify\Models\NotifyThemeable;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -299,6 +300,7 @@ use Modules\Notify\Models\NotifyThemeable;
 =======
  *
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -489,6 +491,8 @@ use Modules\Notify\Models\NotifyThemeable;
  *
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
  * @extends Factory<NotifyThemeable>
  */
 class NotifyThemeableFactory extends Factory
@@ -597,6 +601,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 98d837b9 (.)
@@ -632,6 +637,8 @@ class NotifyThemeableFactory extends Factory
 =======
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -799,6 +806,7 @@ class NotifyThemeableFactory extends Factory
 =======
         return $this->state(fn(array $_attributes): array => [
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1170,6 +1178,8 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
@@ -1263,6 +1273,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1322,6 +1333,7 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1406,6 +1418,8 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
         return $this->state(fn(array $_attributes): array => [
 =======
 =======
@@ -1600,6 +1614,7 @@ class NotifyThemeableFactory extends Factory
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1897,6 +1912,7 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2086,3 +2102,5 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

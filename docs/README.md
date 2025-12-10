@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1461,6 +1462,8 @@ php artisan notify:test-push
 >>>>>>> 467a2e4 (.)
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1749,6 +1752,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1773,10 +1777,13 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 **Ultimo aggiornamento**: Dicembre 2024  
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1946,3 +1953,5 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

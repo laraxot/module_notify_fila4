@@ -1041,6 +1041,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1543,6 +1544,7 @@ describe('Theme Management Business Logic', function () {
 =======
 });
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2145,3 +2147,5 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

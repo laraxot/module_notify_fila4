@@ -308,6 +308,59 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 ## Link Correlati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Filament](../../../project_docs/filament.md)
+- [Documentazione Media Library](../../../project_docs/media-library.md)
+- [Documentazione Traduzioni](../../../project_docs/translations.md) 
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 - [Documentazione Filament](../../../docs/filament.md)
 - [Documentazione Media Library](../../../docs/media-library.md)
 - [Documentazione Traduzioni](../../../docs/translations.md) 

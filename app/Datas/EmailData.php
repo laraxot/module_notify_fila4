@@ -15,6 +15,32 @@ class EmailData extends Data
     public string $to;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 1487fe812 (.)
     public null|string $from = null;
 
     public null|string $from_email = null;
@@ -505,6 +531,7 @@ class EmailData extends Data
 
     public null|string $from_email = null;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -819,6 +846,8 @@ class EmailData extends Data
     public null|string $from_email = null;
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     public string $subject;
 
@@ -904,6 +933,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1112,6 +1142,7 @@ class EmailData extends Data
 =======
     public string $body = '';
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1302,6 +1333,8 @@ class EmailData extends Data
     public string $body = '';
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     public array $attachments = [];
 
@@ -1396,6 +1429,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1470,6 +1504,7 @@ class EmailData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1605,6 +1640,8 @@ class EmailData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         null|string $from = null,
         null|string $from_email = null,
         null|string $body = null,
@@ -1618,6 +1655,7 @@ class EmailData extends Data
         if (!is_string($from_email)) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2288,6 +2326,7 @@ class EmailData extends Data
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 =======
@@ -2321,6 +2360,9 @@ class EmailData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
         }
         $this->from_email = $from_email;
@@ -2328,6 +2370,32 @@ class EmailData extends Data
         Assert::email($this->from_email, 'Invalid "from" email format');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 1487fe812 (.)
         $this->subject = strip_tags($subject); // Sanitize the subject
         $this->body_html = $body_html;
         $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
@@ -2826,6 +2894,7 @@ class EmailData extends Data
         $this->body_html = $body_html;
         $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3046,6 +3115,8 @@ class EmailData extends Data
         $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         $this->attachments = $attachments;
     }
 
@@ -3214,6 +3285,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3292,6 +3364,7 @@ class EmailData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3402,10 +3475,13 @@ class EmailData extends Data
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> 1487fe812 (.)
         if ($this->body === '') {
             $this->body = strip_tags($this->body_html);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3506,6 +3582,8 @@ class EmailData extends Data
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 1487fe812 (.)
         $email = new MimeEmail()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3967,6 +4045,7 @@ class EmailData extends Data
 =======
 >>>>>>> 08fd62df (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
         $email = new MimeEmail()
 =======
@@ -4253,6 +4332,9 @@ class EmailData extends Data
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
         $email = new MimeEmail()
             ->from($this->getFrom())
             ->to($this->to)
@@ -4625,6 +4707,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Assert::string($attachment, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 >>>>>>> 58816034 (.)
@@ -4636,6 +4719,8 @@ class EmailData extends Data
 =======
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4833,6 +4918,7 @@ class EmailData extends Data
 =======
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5083,6 +5169,8 @@ class EmailData extends Data
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             $email->attachFromPath($attachment); // string $path, ?string $name = null, ?string $contentType = null
         }
 

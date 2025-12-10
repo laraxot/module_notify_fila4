@@ -149,6 +149,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -219,6 +220,8 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -623,6 +626,7 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -685,6 +689,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 1487fe812 (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -889,6 +895,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -904,6 +911,8 @@ private static function processArray(array $data): array
 =======
 >>>>>>> a404ea71 (.)
 =======
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -946,6 +955,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> a404ea71 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> d284d65 (.)
@@ -2092,3 +2102,6 @@ private static function processArray(array $data): array
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)

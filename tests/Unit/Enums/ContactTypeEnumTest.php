@@ -183,10 +183,13 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 1487fe812 (.)
         $form = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($form);
@@ -205,6 +208,7 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -218,12 +222,15 @@ class ContactTypeEnumTest extends TestCase
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         $schema = ContactTypeEnum::getFormSchema();
 
         $this->assertIsArray($schema);
         $this->assertCount(6, $schema);
 
         foreach ($schema as $component) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -233,6 +240,11 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -337,6 +349,7 @@ class ContactTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $values = array_map(fn ($case) => $case->value, ContactTypeEnum::cases());
 >>>>>>> 888799d0 (.)
@@ -364,6 +377,8 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -482,6 +497,7 @@ class ContactTypeEnumTest extends TestCase
 =======
         $values = array_map(fn($case) => $case->value, ContactTypeEnum::cases());
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -722,6 +738,8 @@ class ContactTypeEnumTest extends TestCase
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

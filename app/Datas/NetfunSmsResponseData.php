@@ -2,6 +2,32 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 1487fe812 (.)
 declare(strict_types=1);
 
 
@@ -570,6 +596,7 @@ declare(strict_types=1);
 
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 =======
@@ -714,10 +741,13 @@ declare(strict_types=1);
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
 =======
+=======
+>>>>>>> 1487fe812 (.)
 declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -829,6 +859,8 @@ declare(strict_types=1);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -844,7 +876,10 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     /**
      * @param string $status
      * @param string|null $batchId
@@ -852,6 +887,15 @@ class NetfunSmsResponseData extends Data
      * @param string|null $error
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
     public function __construct(
         public string $status,
         public null|string $batchId = null,
@@ -868,6 +912,7 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 75179b85 (.)
     public function __construct(
         public string $status,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1123,6 +1168,8 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     /**
      * @param array{status: string, batchId?: string, messages?: array<int, array<string, mixed>>, error?: string} $data
      * @return self
@@ -1418,6 +1465,9 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
             error: $data['error'] ?? null,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1552,6 +1602,7 @@ class NetfunSmsResponseData extends Data
 =======
             error: $data['error'] ?? null,
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
             error: $data['error'] ?? null,
 =======
@@ -2173,6 +2224,8 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         );
     }
 }

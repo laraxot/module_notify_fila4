@@ -87,6 +87,7 @@ namespace Modules\Notify\Enums;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -295,6 +296,7 @@ namespace Modules\Notify\Enums;
 =======
  *
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -485,6 +487,8 @@ namespace Modules\Notify\Enums;
  *
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
  * Questo enum centralizza la gestione dei tipi di media disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -496,6 +500,7 @@ enum MediaTypeEnum: string
     case AUDIO = 'audio';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,6 +652,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -798,6 +804,8 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     /**
      * Restituisce le opzioni per il componente Select di Filament
@@ -880,6 +888,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -904,6 +913,8 @@ enum MediaTypeEnum: string
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1149,6 +1160,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -1312,6 +1324,8 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
      * @return array<string, string>
      */
     public static function options(): array
@@ -1402,6 +1416,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1476,6 +1491,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1627,6 +1643,8 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
@@ -1709,6 +1727,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1733,6 +1752,8 @@ enum MediaTypeEnum: string
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1978,6 +1999,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2141,6 +2163,8 @@ enum MediaTypeEnum: string
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
      * @return array<string, string>
      */
     public static function labels(): array
@@ -2231,6 +2255,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2305,6 +2330,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2369,6 +2395,8 @@ enum MediaTypeEnum: string
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
 
     /**
      * Verifica se un tipo di media è supportato
@@ -2413,6 +2441,7 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -2425,6 +2454,8 @@ enum MediaTypeEnum: string
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2628,6 +2659,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2654,6 +2686,8 @@ enum MediaTypeEnum: string
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
      * @param string $type
      * @return bool
 =======
@@ -2732,6 +2766,9 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2785,6 +2822,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2864,12 +2902,17 @@ enum MediaTypeEnum: string
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+        return in_array($type, array_column(self::cases(), 'value'), strict: true);
+    }
+>>>>>>> 1487fe812 (.)
 
     /**
      * Verifica se un tipo di media è supportato
 <<<<<<< HEAD
 =======
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3382,6 +3425,8 @@ enum MediaTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 1487fe812 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3503,6 +3548,7 @@ enum MediaTypeEnum: string
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -3533,6 +3579,8 @@ enum MediaTypeEnum: string
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
      * @return self
 =======
 <<<<<<< HEAD

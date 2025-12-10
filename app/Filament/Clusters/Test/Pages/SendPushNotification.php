@@ -34,6 +34,7 @@ use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -64,6 +65,7 @@ use BackedEnum;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -99,6 +101,8 @@ use BackedEnum;
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -412,6 +416,7 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -425,7 +430,10 @@ class SendPushNotification extends Page implements HasForms
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     protected string $view = 'notify::filament.pages.send-push-notification';
 

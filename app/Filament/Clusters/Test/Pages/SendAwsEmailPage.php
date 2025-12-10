@@ -672,6 +672,9 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
         return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -716,12 +719,15 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 1487fe812 (.)
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -774,6 +780,9 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -818,6 +827,7 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -873,6 +883,8 @@ class SendAwsEmailPage extends XotBasePage
             TextInput::make('to')
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 ->label(__('notify::email.form.to.label'))
                 ->email()
                 ->required()
@@ -909,7 +921,10 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             'subject' => TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
@@ -945,6 +960,7 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -979,6 +995,8 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 1487fe812 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
@@ -1004,6 +1022,9 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1051,6 +1072,7 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1137,6 +1159,8 @@ class SendAwsEmailPage extends XotBasePage
             RichEditor::make('body_html')
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 ->label(__('notify::email.form.body_html.label'))
                 ->required()
                 ->fileAttachmentsDisk('public')
@@ -1145,6 +1169,7 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
             'template' => Select::make('template')
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1235,6 +1260,7 @@ class SendAwsEmailPage extends XotBasePage
 =======
             Select::make('template')
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1292,6 +1318,8 @@ class SendAwsEmailPage extends XotBasePage
             Select::make('template')
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 ->label(__('notify::email.form.template.label'))
                 ->options([
                     'aws-default' => 'AWS Default',
@@ -1305,6 +1333,7 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
             'add_attachments' => Toggle::make('add_attachments')
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1395,6 +1424,7 @@ class SendAwsEmailPage extends XotBasePage
 =======
             Toggle::make('add_attachments')
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1452,6 +1482,8 @@ class SendAwsEmailPage extends XotBasePage
             Toggle::make('add_attachments')
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 ->label(__('notify::email.form.add_attachments.label'))
                 ->default(false)
                 ->helperText(__('notify::email.form.add_attachments.helper')),

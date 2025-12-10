@@ -93,6 +93,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -205,6 +206,7 @@ use Override;
 =======
 use Override;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 use Override;
 =======
@@ -532,6 +534,8 @@ use Override;
 >>>>>>> 2941b0bd (.)
 >>>>>>> laraxot/develop
 use Override;
+=======
+>>>>>>> 1487fe812 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1505,6 +1509,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1605,6 +1610,7 @@ class NotifyTheme extends BaseModel
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2118,6 +2124,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -2139,6 +2147,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2390,6 +2399,7 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     #[Override]
 =======
@@ -2653,6 +2663,8 @@ class NotifyTheme extends BaseModel
     #[Override]
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     protected function casts(): array
     {
         return [
@@ -2663,6 +2675,7 @@ class NotifyTheme extends BaseModel
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3009,6 +3022,7 @@ class NotifyTheme extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -3074,6 +3088,8 @@ class NotifyTheme extends BaseModel
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 1487fe812 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 =======
 =======

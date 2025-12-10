@@ -11,6 +11,13 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 {
 <<<<<<< HEAD
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
      * The module name.
      */
     public string $name = 'Notify';
@@ -48,6 +55,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 =======
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
     /**
 >>>>>>> 75179b85 (.)
 =======
@@ -57,6 +65,9 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
     /**
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
      * The module namespace to assume when generating URLs to actions.
      */
     protected string $moduleNamespace = 'Modules\Notify\Http\Controllers';
@@ -75,6 +86,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    public string $name = 'Notify';
+>>>>>>> 75179b85 (.)
 =======
 
     public string $name = 'Notify';

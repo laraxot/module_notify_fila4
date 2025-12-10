@@ -224,6 +224,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -370,6 +371,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -849,6 +851,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
  *
  * Utilizza ViewColumn + Blade view per separare completamente
  * logica e presentazione seguendo i principi DRY/KISS
@@ -1066,6 +1070,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -1148,6 +1153,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1754,6 +1761,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2274,6 +2282,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
  * PATTERN CORRETTO:
  * - ViewColumn per layout complessi
  * - Blade view separata per HTML
@@ -2283,6 +2293,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
  * @author Laraxot Team
  * @version 2.0 - REFACTOR COMPLETO
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2942,6 +2953,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
  *
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3520,6 +3532,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 2941b0bd (.)
  *
+=======
+>>>>>>> 1487fe812 (.)
  * @author Laraxot Team
  * @version 2.0 - REFACTOR COMPLETO
 >>>>>>> 75179b85 (.)
@@ -3553,6 +3567,7 @@ class ContactColumn extends ViewColumn
     protected string $view = 'notify::filament.tables.columns.contact';
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3911,6 +3926,7 @@ class ContactColumn extends ViewColumn
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4390,6 +4406,8 @@ class ContactColumn extends ViewColumn
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     protected function setUp(): void
     {
@@ -4403,6 +4421,7 @@ class ContactColumn extends ViewColumn
         $searchableArray = ContactTypeEnum::getSearchable();
         
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4679,6 +4698,27 @@ class ContactColumn extends ViewColumn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+}
+>>>>>>> b19cd40 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+        $this->view(static::getView(), [
+            'contact_types' => $contact_types,
+        ])
+            ->label(__('notify::columns.contact.label'))
+            ->searchable(ContactTypeEnum::getSearchable())
+            ->sortable(false)
+            ->toggleable(isToggledHiddenByDefault: false);
+    }
+}
+>>>>>>> 1487fe812 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4868,6 +4908,7 @@ class ContactColumn extends ViewColumn
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 }
@@ -5488,3 +5529,5 @@ class ContactColumn extends ViewColumn
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

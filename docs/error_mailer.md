@@ -345,6 +345,7 @@ class ErrorLogResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -361,6 +362,7 @@ class ErrorLogResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
@@ -488,6 +490,8 @@ class ErrorLogResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -951,6 +955,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1270,6 +1275,7 @@ return [
 - [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
@@ -2137,3 +2143,5 @@ return [
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

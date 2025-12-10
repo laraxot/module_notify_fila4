@@ -47,6 +47,7 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 75179b85 (.)
@@ -54,6 +55,7 @@ use Filament\Schemas\Schema;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 use Filament\Schemas\Schema;
 >>>>>>> 75179b85 (.)
@@ -64,6 +66,8 @@ use Filament\Schemas\Schema;
 use Filament\Schemas\Schema;
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -196,6 +200,7 @@ class SendEmail extends Page implements HasForms, HasActions
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * 
  */
 =======
@@ -239,6 +244,7 @@ class SendEmail extends Page implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -270,6 +276,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 1487fe812 (.)
  * @property \Filament\Schemas\Schema $emailForm
  */
 class SendEmail extends Page implements HasForms
@@ -281,6 +289,11 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -697,10 +710,13 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 1487fe812 (.)
     public function sendEmail(): void
     {
         $data = $this->data;
@@ -719,6 +735,7 @@ class SendEmail extends Page implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -746,6 +763,8 @@ class SendEmail extends Page implements HasForms
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     public function emailForm(Schema $schema): Schema
     {
         return $schema
@@ -769,6 +788,7 @@ class SendEmail extends Page implements HasForms
     {
         $data = $this->emailForm->getState();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -777,6 +797,11 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1017,6 +1042,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Form data filled;
 =======
         $this->emailForm->fill();
@@ -1027,6 +1053,7 @@ class SendEmail extends Page implements HasForms
 =======
         $this->emailForm->fill();
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
         // Form data filled;
 =======
@@ -1049,6 +1076,8 @@ class SendEmail extends Page implements HasForms
         $this->emailForm->fill();
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 }
 =======

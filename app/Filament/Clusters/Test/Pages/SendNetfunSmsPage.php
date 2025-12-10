@@ -30,6 +30,7 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 use Filament\Facades\Filament\Schemas\Schema;
@@ -54,6 +55,7 @@ use Filament\Facades\Filament\Schemas\Schema;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -82,6 +84,8 @@ use Filament\Facades\Filament\Schemas\Schema;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 1487fe812 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 =======
@@ -184,6 +188,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 =======
  * @property \Filament\Schemas\Schema $smsForm
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
  */
 class SendNetfunSmsPage extends XotBasePage
 {
@@ -206,6 +211,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
  * @property \Filament\Schemas\Schema $smsForm
+=======
+>>>>>>> 1487fe812 (.)
  */
 class SendNetfunSmsPage extends XotBasePage
 {
@@ -546,7 +553,10 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
@@ -599,6 +609,7 @@ class SendNetfunSmsPage extends XotBasePage
     }
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -653,6 +664,8 @@ class SendNetfunSmsPage extends XotBasePage
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     public function getSmsFormSchema(): array
     {
         return [

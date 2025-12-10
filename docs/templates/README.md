@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 # Template Email
 
 ## Panoramica
@@ -49,6 +52,7 @@ Grazie,<br>
 // app/Filament/Resources/EmailTemplateResource.php
 use Filament\Forms\Components\Builder;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 public static function form(Form $form): Form
 =======
@@ -181,6 +185,9 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+public static function form(Form $form): Form
+>>>>>>> 1487fe812 (.)
 {
     return $form->schema([
         Builder::make('content')
@@ -273,5 +280,8 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../../docs/l
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../../docs/README_links.md). 
+<<<<<<< HEAD
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

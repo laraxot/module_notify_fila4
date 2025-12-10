@@ -176,6 +176,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -503,6 +504,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
@@ -542,6 +544,9 @@ declare(strict_types=1);
 >>>>>>> e11621f (.)
 >>>>>>> 888799d0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -916,6 +921,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1124,6 +1130,7 @@ class TelegramChannel
 =======
             'message' => $message,
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1314,6 +1321,8 @@ class TelegramChannel
             'message' => $message,
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         ]);
     }
 }

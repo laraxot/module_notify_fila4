@@ -40,6 +40,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Eseguiamo l'action - restituisce sempre un array
         /** @var array<string, mixed> $data */
         $data = $netfunSendAction->execute($smsData);
@@ -57,6 +58,7 @@ class NetfunChannel
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
         // Eseguiamo l'action e verifichiamo che il risultato sia un array
         $data = $netfunSendAction->execute($smsData);
 
@@ -735,6 +737,8 @@ class NetfunChannel
 =======
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 1487fe812 (.)
         // Eseguiamo l'action e verifichiamo che il risultato sia un array
         $data = $netfunSendAction->execute($smsData);
         Assert::isArray($data, 'Il risultato di NetfunSendAction deve essere un array');
@@ -785,6 +789,9 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -841,6 +848,7 @@ class NetfunChannel
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 =======
@@ -921,6 +929,9 @@ class NetfunChannel
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 
         /*
          * $data['sms_sent_at'] = now();
@@ -1140,6 +1151,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -1222,6 +1234,8 @@ class NetfunChannel
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1831,6 +1845,7 @@ class NetfunChannel
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2351,6 +2366,8 @@ class NetfunChannel
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 }
 =======

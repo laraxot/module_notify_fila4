@@ -85,6 +85,9 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -159,6 +162,7 @@ use Illuminate\Support\Arr;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -292,6 +296,8 @@ use Illuminate\Support\Arr;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 1487fe812 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -322,6 +328,7 @@ class PlivoData extends Data
              */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -943,6 +950,7 @@ class PlivoData extends Data
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 =======
@@ -1058,6 +1066,9 @@ class PlivoData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
             $data = Config::array('sms.drivers.plivo');
             self::$instance = self::from($data);
         }
@@ -1136,6 +1147,9 @@ class PlivoData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1547,6 +1561,7 @@ class PlivoData extends Data
                     'Content-Type' => 'application/json',
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 =======
@@ -1697,6 +1712,10 @@ class PlivoData extends Data
                     'Content-Type' => 'application/json',
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+                    'Content-Type' => 'application/json',
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
                 ];
         }
     }

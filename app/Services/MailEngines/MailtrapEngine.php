@@ -265,6 +265,30 @@ use Webmozart\Assert\Assert;
 class MailtrapEngine
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> 1487fe812 (.)
     public null|string $from = null;
 =======
 <<<<<<< HEAD
@@ -713,6 +737,7 @@ class MailtrapEngine
     public null|string $from = null;
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35 (.)
     public null|string $from = null;
@@ -937,6 +962,10 @@ class MailtrapEngine
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+    public null|string $from = null;
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 
     public string $to;
 
@@ -944,6 +973,7 @@ class MailtrapEngine
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,6 +1083,7 @@ class MailtrapEngine
 =======
 >>>>>>> 2fc60436 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
@@ -1088,6 +1119,12 @@ class MailtrapEngine
 =======
 >>>>>>> 98d837b9 (.)
     public ?string $body = null;
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+    public null|string $body = null;
+>>>>>>> 1487fe812 (.)
 
     private static ?self $instance = null;
 
@@ -1104,6 +1141,28 @@ class MailtrapEngine
 <<<<<<< HEAD
         if (!(self::$instance instanceof self)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 1487fe812 (.)
 =======
 =======
     public ?string $body = null;
@@ -1387,6 +1446,7 @@ class MailtrapEngine
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -1417,6 +1477,8 @@ class MailtrapEngine
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
             self::$instance = new self();
 =======
         if (! (self::$instance instanceof self)) {
@@ -1772,6 +1834,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
 >>>>>>> 98d837b9 (.)
@@ -1808,6 +1871,8 @@ class MailtrapEngine
 =======
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1975,6 +2040,7 @@ class MailtrapEngine
 =======
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2345,6 +2411,8 @@ class MailtrapEngine
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
@@ -2597,6 +2665,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2762,6 +2831,7 @@ class MailtrapEngine
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 
 =======
@@ -2964,6 +3034,8 @@ class MailtrapEngine
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

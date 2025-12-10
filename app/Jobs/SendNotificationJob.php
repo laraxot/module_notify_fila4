@@ -320,6 +320,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $data I dati per compilare il template
      * @param array<int, string> $channels I canali da utilizzare
      * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
@@ -343,6 +344,7 @@ class SendNotificationJob implements ShouldQueue
      * @param array $channels I canali da utilizzare
      * @param array $options Opzioni aggiuntive per l'invio
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -413,6 +415,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
      */
     public function __construct(
         protected Model $recipient,
@@ -421,6 +425,7 @@ class SendNotificationJob implements ShouldQueue
         protected array $channels = [],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,6 +634,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -932,6 +938,8 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -942,6 +950,7 @@ class SendNotificationJob implements ShouldQueue
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1418,6 +1427,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -1776,6 +1786,8 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -1788,6 +1800,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2315,6 +2328,7 @@ class SendNotificationJob implements ShouldQueue
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2876,6 +2890,8 @@ class SendNotificationJob implements ShouldQueue
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 
     /**
@@ -3003,6 +3019,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3459,6 +3476,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 }
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3841,3 +3859,5 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

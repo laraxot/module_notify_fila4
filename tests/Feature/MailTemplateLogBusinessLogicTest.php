@@ -63,6 +63,7 @@ use Modules\Notify\Models\MailTemplateLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -837,6 +838,7 @@ use Carbon\Carbon;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1074,6 +1076,8 @@ use Modules\Notify\Models\MailTemplateLog;
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 describe('Mail Template Log Business Logic', function () {
     it('can create mail template log with basic information', function () {
@@ -1222,6 +1226,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1355,6 +1360,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1574,6 +1580,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->status)
             ->toBe('sent')
             ->and($log->status_message)
@@ -1696,6 +1704,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1720,6 +1729,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2116,6 +2127,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2347,6 +2359,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can manage mail template log relationships', function () {
@@ -2358,6 +2372,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2765,6 +2780,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3040,6 +3056,8 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->template)->toBeInstanceOf(MailTemplate::class)->and($log->template->id)->toBe($template->id);
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can track email lifecycle events', function () {
@@ -3184,6 +3202,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3317,6 +3336,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3536,6 +3556,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->status)
             ->toBe('clicked')
             ->and($log->sent_at)
@@ -3655,6 +3677,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -3679,6 +3702,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4075,6 +4100,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -4306,6 +4332,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can handle email failure scenarios', function () {
@@ -4438,6 +4466,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4571,6 +4600,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4790,6 +4820,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -4910,6 +4942,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -4934,6 +4967,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5330,6 +5365,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -5561,6 +5597,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can manage mailable polymorphic relationships', function () {
@@ -5682,6 +5720,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5815,6 +5854,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6034,6 +6074,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->mailable_type)
             ->toBe('App\Models\Appointment')
             ->and($log->mailable_id)
@@ -6042,6 +6084,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBeInstanceOf(MorphTo::class);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6526,6 +6569,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -6757,6 +6801,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can handle complex data structures', function () {
@@ -6959,6 +7005,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -7092,6 +7139,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7311,6 +7359,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->data['recipient']['email'])
             ->toBe('patient@example.com')
             ->and($log->data['recipient']['name'])
@@ -7435,6 +7485,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -7459,6 +7510,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -7856,6 +7909,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -8087,6 +8141,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can manage metadata for analytics', function () {
@@ -8233,6 +8289,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -8366,6 +8423,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8585,6 +8643,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->metadata['campaign_id'])
             ->toBe('appointment_confirmation_q4_2024')
             ->and($log->metadata['segment'])
@@ -8709,6 +8769,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -8733,6 +8794,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -9130,6 +9193,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -9361,6 +9425,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can handle delivery status transitions', function () {
@@ -9492,6 +9558,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -9788,6 +9855,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
         expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -10063,6 +10131,8 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('sent')->and($log->sent_at)->not->toBeNull();
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
         // Transizione: sent -> delivered
         $log->update([
@@ -10185,6 +10255,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -10481,6 +10552,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
         expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -10756,6 +10828,8 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('delivered')->and($log->delivered_at)->not->toBeNull();
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
         // Transizione: delivered -> opened
         $log->update([
@@ -10878,6 +10952,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -11174,6 +11249,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
         expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -11449,6 +11525,8 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('opened')->and($log->opened_at)->not->toBeNull();
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can handle bounce and complaint scenarios', function () {
@@ -11582,6 +11660,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -11715,6 +11794,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -11934,6 +12014,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->status)
             ->toBe('bounced')
             ->and($log->status_message)
@@ -12054,6 +12136,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -12078,6 +12161,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -12473,6 +12558,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -12704,6 +12790,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
         // Simula complaint
         $log->update([
@@ -12827,6 +12915,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -12960,6 +13049,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -13179,6 +13269,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->status)
             ->toBe('complained')
             ->and($log->status_message)
@@ -13187,6 +13279,7 @@ describe('Mail Template Log Business Logic', function () {
             ->toBe('abuse');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13671,6 +13764,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -13902,6 +13996,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can manage retry logic', function () {
@@ -14042,6 +14138,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -14338,6 +14435,7 @@ describe('Mail Template Log Business Logic', function () {
 =======
         expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -14613,6 +14711,8 @@ describe('Mail Template Log Business Logic', function () {
         expect($log->status)->toBe('retrying')->and($log->metadata['retry_count'])->toBe(1);
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
         // Secondo retry
         $log->update([
@@ -14749,6 +14849,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -14882,6 +14983,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -15101,6 +15203,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->status)
             ->toBe('failed')
             ->and($log->status_message)
@@ -15221,6 +15325,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -15245,6 +15350,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -15640,6 +15747,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -15871,6 +15979,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can handle empty or null values gracefully', function () {
@@ -15998,6 +16108,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -16131,6 +16242,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -16350,6 +16462,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->status_message)
             ->toBeNull()
             ->and($log->data)
@@ -16478,6 +16592,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -16502,6 +16617,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -16901,6 +17018,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -17132,6 +17250,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 
     it('can validate timestamp consistency', function () {
@@ -17257,6 +17377,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -17390,6 +17511,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -17609,6 +17731,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         expect($log->sent_at->lt($log->delivered_at))
             ->toBeTrue()
             ->and($log->delivered_at->lt($log->opened_at))
@@ -17737,6 +17861,7 @@ describe('Mail Template Log Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -17761,6 +17886,8 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -18170,6 +18297,7 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -18401,6 +18529,8 @@ describe('Mail Template Log Business Logic', function () {
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     });
 });
 =======

@@ -91,6 +91,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class MailTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 98d837b9 (.)
@@ -105,6 +106,8 @@ class MailTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 3f39ac8b (.)
 class MailTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -693,6 +696,7 @@ class MailTemplatePolicy extends NotifyBasePolicy
 }
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 class MailTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
@@ -787,10 +791,13 @@ class MailTemplatePolicy extends NotifyBasePolicy {}
 =======
 >>>>>>> 58816034 (.)
 =======
+=======
+>>>>>>> 1487fe812 (.)
 class MailTemplatePolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 class MailTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
@@ -903,3 +910,5 @@ class MailTemplatePolicy extends NotifyBasePolicy
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

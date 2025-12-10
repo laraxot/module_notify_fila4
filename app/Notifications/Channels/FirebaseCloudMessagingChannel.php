@@ -439,6 +439,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -521,6 +522,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -904,6 +906,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 self::$logger->debug(sprintf(
                     "FCM notification debug:\n%s",
                     json_encode($notificationDebugData, JSON_PRETTY_PRINT),
@@ -1082,6 +1086,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -1164,6 +1169,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1574,6 +1581,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -1998,6 +2006,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             self::$logger->error(json_encode($exception->getTrace(), JSON_PRETTY_PRINT));
         }
     }
@@ -2023,6 +2033,7 @@ final class FirebaseCloudMessagingChannel
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2262,6 +2273,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2645,6 +2657,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         return $this->firebaseCloudMessaging->sendMulticast(
             message: $notification->toCloudMessage(),
             registrationTokens: $registrationTokens,
@@ -2814,6 +2828,7 @@ final class FirebaseCloudMessagingChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -2896,6 +2911,8 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3288,6 +3305,7 @@ final class FirebaseCloudMessagingChannel
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -3712,6 +3730,8 @@ final class FirebaseCloudMessagingChannel
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 
     /**

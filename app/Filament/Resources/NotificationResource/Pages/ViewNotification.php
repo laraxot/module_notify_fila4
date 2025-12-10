@@ -65,6 +65,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -139,6 +140,9 @@ use Filament\Schemas\Components\Component;
 >>>>>>> 207ac35 (.)
 =======
 >>>>>>> 9777d1b (.)
+use Filament\Schemas\Components\Component;
+>>>>>>> 75179b85 (.)
+=======
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
 =======
@@ -260,6 +264,7 @@ class ViewNotification extends XotBaseViewRecord
 <<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +449,7 @@ class ViewNotification extends XotBaseViewRecord
 =======
      * @return array<Component>
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
      * @return array<Component>
 >>>>>>> 75179b85 (.)
@@ -454,6 +460,8 @@ class ViewNotification extends XotBaseViewRecord
      * @return array<Component>
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
      */
     #[Override]
     protected function getInfolistSchema(): array

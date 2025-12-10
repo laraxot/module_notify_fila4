@@ -37,6 +37,7 @@ use Filament\Forms\Contracts\HasForms;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -67,6 +68,7 @@ use BackedEnum;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -95,6 +97,8 @@ use BackedEnum;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 1487fe812 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 =======
@@ -236,6 +240,7 @@ class SendSmsPage extends XotBasePage
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     public ?array $smsData = [];
 
@@ -273,6 +278,8 @@ class SendSmsPage extends XotBasePage implements HasForms, HasActions
     use InteractsWithActions;
     public null|array $smsData = [];
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+=======
+>>>>>>> 1487fe812 (.)
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
 =======
@@ -568,7 +575,10 @@ class SendSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
@@ -621,6 +631,7 @@ class SendSmsPage extends XotBasePage
     }
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -675,6 +686,8 @@ class SendSmsPage extends XotBasePage
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     public function getSmsFormSchema(): array
     {
         return [
@@ -719,7 +732,10 @@ class SendSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             $template_slug = $data['template_slug'];
             Assert::string($template_slug, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
             $recordNotification = new RecordNotification($user, $template_slug);
@@ -787,6 +803,7 @@ class SendSmsPage extends XotBasePage
             $notify = new RecordNotification($user, $template_slug);
             $notify->mergeData($data);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -794,6 +811,8 @@ class SendSmsPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 1487fe812 (.)
 
             Notification::route('sms', $data['to'])
 <<<<<<< HEAD

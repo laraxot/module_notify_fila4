@@ -93,6 +93,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -262,6 +263,7 @@ use Override;
 =======
 use Override;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 use Override;
 =======
@@ -471,6 +473,8 @@ use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> laraxot/develop
 use Override;
+=======
+>>>>>>> 1487fe812 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -567,6 +571,9 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -732,6 +739,7 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 
 =======
@@ -940,6 +948,8 @@ use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 use function Safe\preg_replace;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -1395,6 +1405,19 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> 1487fe812 (.)
     protected null|string $defaultSender = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1520,6 +1543,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 =======
     protected ?string $defaultSender = null;
 >>>>>>> b19cd40 (.)
@@ -1549,6 +1573,10 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    protected null|string $defaultSender = null;
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 
 =======
 =======
@@ -1764,6 +1792,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
 >>>>>>> 58816034 (.)
@@ -1775,6 +1804,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1972,6 +2003,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2208,6 +2240,8 @@ final class SendNetfunSMSAction implements SmsActionContract
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 
     /**
@@ -2252,6 +2286,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2412,6 +2447,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     #[Override]
 =======
@@ -2776,6 +2812,8 @@ final class SendNetfunSMSAction implements SmsActionContract
     #[Override]
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -2973,6 +3011,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3125,6 +3164,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
                 $clientException,
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3421,6 +3461,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             );
         }
 
@@ -3625,6 +3667,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3751,6 +3794,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3821,6 +3865,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 1487fe812 (.)
         // Se preg_replace restituisce null (non dovrebbe succedere con input string)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3874,6 +3920,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3963,6 +4012,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3986,6 +4036,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 1487fe812 (.)
         // Se il numero non inizia con '+'
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4029,6 +4081,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4917,6 +4970,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 3f537838 (.)
 =======
 
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
@@ -5072,6 +5126,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
         return $cleaned;
     }
 }

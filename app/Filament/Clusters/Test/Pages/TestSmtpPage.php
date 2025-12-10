@@ -494,6 +494,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+ * @property \Filament\Schemas\Schema $emailForm
+>>>>>>> 75179b85 (.)
  */
 =======
 =======
@@ -1026,10 +1029,13 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 1487fe812 (.)
     public function sendEmail(): void
     {
         $data = $this->data;
@@ -1048,6 +1054,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1075,6 +1082,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     public function emailForm(Schema $schema): Schema
     {
         Assert::isArray($mail_config = config('mail'));
@@ -1124,6 +1133,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
     {
         $data = $this->emailForm->getState();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1132,6 +1142,11 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1186,10 +1201,13 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 1487fe812 (.)
     public function emailForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
@@ -1225,6 +1243,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1238,6 +1257,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
@@ -1455,6 +1476,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->fill($typedConfig);
 =======
 =======
@@ -1597,6 +1619,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
         $this->emailForm->fill($typedConfig);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -1653,6 +1676,8 @@ class TestSmtpPage extends XotBasePage implements HasForms
         $this->emailForm->fill($typedConfig);
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 }
 =======

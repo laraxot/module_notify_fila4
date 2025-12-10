@@ -367,6 +367,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
 =======
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
@@ -416,6 +417,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 =======
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
 >>>>>>> f963d2c0 (.)
@@ -873,6 +875,8 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](./contact-column-icon-issue-analysis.md)
 - 🛠️ **Soluzione**: Sostituire `@svg()` con `<x-filament::icon>`
 - ⚡ **Priorità**: ALTA (Funzionalità core non funzionante)
@@ -1014,6 +1018,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
@@ -1063,6 +1068,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
 >>>>>>> f963d2c0 (.)
@@ -1520,6 +1526,8 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 ## 🏗️ Architettura della Soluzione
 

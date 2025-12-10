@@ -53,6 +53,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -270,6 +271,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 3f537838 (.)
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> origin/develop
@@ -299,6 +301,9 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -319,6 +324,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> 75179b85 (.)
@@ -326,6 +332,7 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
@@ -358,12 +365,15 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_decode;
 use function Safe\json_encode;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -775,6 +785,7 @@ use function Safe\json_decode;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -914,6 +925,8 @@ use function Safe\json_decode;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 final class SendBotmanTelegramAction
 {
@@ -929,6 +942,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -937,6 +951,9 @@ final class SendBotmanTelegramAction
 
     private string $apiUrl;
 
+=======
+    /** @var array<string, mixed> */
+>>>>>>> 1487fe812 (.)
     private array $vars = [];
 
 >>>>>>> f1c9518b (.)
@@ -954,8 +971,14 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
     private string $apiUrl;
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
@@ -1167,6 +1190,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1280,6 +1304,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
     protected ?string $parseMode;
@@ -1528,6 +1553,8 @@ final class SendBotmanTelegramAction
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     /**
      * Create a new action instance.
@@ -1595,6 +1622,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1880,6 +1908,7 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2070,6 +2099,8 @@ final class SendBotmanTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         // Parametri a livello di root
         /** @var string|null $parseMode */
         $parseMode = config('telegram.parse_mode');
@@ -2079,6 +2110,7 @@ final class SendBotmanTelegramAction
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('telegram.timeout'), 30);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2425,6 +2457,7 @@ final class SendBotmanTelegramAction
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('telegram.timeout'), 30);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2606,6 +2639,8 @@ final class SendBotmanTelegramAction
             ->execute(config('telegram.timeout'), 30);
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 
     /**
@@ -2628,6 +2663,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<string, mixed> Risultato dell'operazione
 =======
      * @return array Risultato dell'operazione
@@ -2641,6 +2677,7 @@ final class SendBotmanTelegramAction
 =======
      * @return array Risultato dell'operazione
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2688,6 +2725,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(TelegramData $telegramData): array
@@ -2780,6 +2819,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2918,6 +2958,7 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3012,6 +3053,8 @@ final class SendBotmanTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'base_uri' => $this->apiUrl,
@@ -3081,6 +3124,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3503,6 +3547,7 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3657,6 +3702,8 @@ final class SendBotmanTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
             'photo' => "/bot{$this->token}/sendPhoto",
@@ -3746,6 +3793,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3954,6 +4002,7 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4144,6 +4193,8 @@ final class SendBotmanTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         // Prepara il payload in base al tipo di messaggio
         $payload = [
             'chat_id' => $telegramData->chatId,
@@ -4228,6 +4279,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4302,6 +4354,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4453,6 +4506,8 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -4464,6 +4519,7 @@ final class SendBotmanTelegramAction
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4770,6 +4826,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -4957,6 +5014,8 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         // Aggiungi parametri specifici per il tipo di messaggio
         if ($telegramData->type === 'text') {
             $payload['text'] = $telegramData->text;
@@ -4968,6 +5027,7 @@ final class SendBotmanTelegramAction
             !empty($telegramData->media)
         ) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5281,6 +5341,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5369,6 +5430,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
                 !empty($telegramData->media)
@@ -5419,6 +5482,9 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -5506,6 +5572,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
         } elseif (in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation']) && !empty($telegramData->media)) {
@@ -5709,6 +5776,8 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
             $payload['caption'] = $telegramData->text;
@@ -5794,6 +5863,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6002,6 +6072,7 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6192,11 +6263,29 @@ final class SendBotmanTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -6366,6 +6455,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6402,6 +6492,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 1487fe812 (.)
 
 =======
             
@@ -6447,6 +6539,9 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -6519,6 +6614,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
             
@@ -7107,6 +7203,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 1487fe812 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
@@ -7130,9 +7228,12 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7707,6 +7808,7 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 3f39ac8b (.)
@@ -7727,6 +7829,11 @@ final class SendBotmanTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 
             Log::info('Telegram BotMan inviato con successo', [
                 'chat_id' => $telegramData->chatId,
@@ -7737,7 +7844,14 @@ final class SendBotmanTelegramAction
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
@@ -7759,6 +7873,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
 =======
@@ -8414,6 +8529,7 @@ final class SendBotmanTelegramAction
             $responseBody = json_decode($response->getBody()->getContents(), true);
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -8510,6 +8626,8 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> 1487fe812 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
@@ -8539,6 +8657,9 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
@@ -8657,6 +8778,7 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8811,6 +8933,8 @@ final class SendBotmanTelegramAction
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             Log::warning('Errore invio Telegram BotMan', [
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
@@ -8821,6 +8945,7 @@ final class SendBotmanTelegramAction
             return [
                 'success' => false,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8943,6 +9068,7 @@ final class SendBotmanTelegramAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -9069,6 +9195,8 @@ final class SendBotmanTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 1487fe812 (.)
 
             return [
                 'success' => false,
@@ -9079,6 +9207,11 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)

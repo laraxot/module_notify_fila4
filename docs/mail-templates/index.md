@@ -305,6 +305,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
@@ -343,6 +344,7 @@
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> f963d2c0 (.)
@@ -605,6 +607,8 @@
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura

@@ -168,6 +168,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -306,6 +307,7 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 
 =======
@@ -714,6 +716,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
 
+=======
+>>>>>>> 1487fe812 (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;

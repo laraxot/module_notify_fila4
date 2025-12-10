@@ -101,6 +101,7 @@ use Filament\Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -278,6 +279,7 @@ use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -887,6 +889,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 // use Squire\Models\Country;
 
@@ -895,6 +899,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
     //protected string $view = 'filament-forms::components.group';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1090,6 +1095,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -1178,6 +1184,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
     //protected string $view = 'filament-forms::components.group';
 =======
 =======
@@ -1467,6 +1475,12 @@ class ContactSection extends Forms\Components\Section
     {
         parent::setUp();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
         $schema = $this->getFormSchema();
         $this->schema($schema);
         $this->columns(2);
@@ -1491,12 +1505,18 @@ class ContactSection extends Forms\Components\Section
         $schema = $this->getFormSchema();
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
         /** @var array<Htmlable|string> $schema */
         $schema = array_values($this->getFormSchema());
 >>>>>>> c8b1c8bf (.)
         $this->schema($schema);
 =======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
         $this->schema($this->getFormSchema());
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
@@ -1531,6 +1551,7 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
         return ContactTypeEnum::getFormSchema();
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
@@ -1640,6 +1661,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1668,6 +1690,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 1487fe812 (.)
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
@@ -1681,6 +1705,11 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1768,6 +1797,7 @@ class ContactSection extends Forms\Components\Section
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2363,6 +2393,7 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2526,6 +2557,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

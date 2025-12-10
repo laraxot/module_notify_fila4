@@ -553,6 +553,7 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -639,6 +640,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1066,6 +1068,8 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
 
@@ -1262,6 +1266,7 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -1344,6 +1349,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1775,6 +1782,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2243,6 +2251,8 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -2441,6 +2451,7 @@ test('sunny template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2535,6 +2546,7 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2962,6 +2974,8 @@ test('sunny template contains optional function', function (): void {
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     expect($content)
         ->toContain(
             'optional($_theme)->cssInLine',
@@ -2969,6 +2983,7 @@ test('sunny template contains optional function', function (): void {
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3382,6 +3397,7 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
     expect($content)->toContain('optional($_theme)->cssInLine', 'Il template sunny.blade.php non utilizza optional() per cssInLine');
@@ -3891,6 +3907,8 @@ test('sunny template contains optional function', function (): void {
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 });
 
 test('ark template contains optional function', function (): void {
@@ -4094,6 +4112,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4648,6 +4667,7 @@ test('ark template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5141,6 +5161,8 @@ test('ark template contains optional function', function (): void {
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 });
 =======
 >>>>>>> 301ad8b44 (.)

@@ -50,6 +50,9 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -411,6 +414,7 @@ use function Safe\preg_match;
 use function Safe\preg_replace;
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 use function Safe\preg_replace;
 use function Safe\preg_match;
 >>>>>>> b19cd40 (.)
@@ -712,6 +716,12 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+
+use function Safe\preg_match;
+use function Safe\preg_replace;
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -723,6 +733,7 @@ class NormalizePhoneNumberAction
     {
         // Rimuove parentesi e il loro contenuto
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,6 +966,8 @@ class NormalizePhoneNumberAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 1487fe812 (.)
 class NormalizePhoneNumberAction
 =======
 class NormalizePhoneNumberAction 
@@ -1575,6 +1588,7 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 =======
@@ -1599,6 +1613,14 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+class NormalizePhoneNumberAction
+{
+    public function execute(string $phoneNumber): string
+    {
+        // Rimuove parentesi e il loro contenuto
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 
         // Rimuove spazi e caratteri non numerici
@@ -1608,6 +1630,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
         $phoneNumber = ltrim($phoneNumber, '0');
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1649,6 +1672,7 @@ class NormalizePhoneNumberAction
 =======
         $phoneNumber = ltrim($phoneNumber, '0');
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
         $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
 >>>>>>> 3f537838 (.)
@@ -1701,12 +1725,15 @@ class NormalizePhoneNumberAction
         $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
 >>>>>>> ca10d6ad (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
         // Prefisso italiano
         $prefix = '39';
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2061,6 +2088,7 @@ class NormalizePhoneNumberAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2206,6 +2234,8 @@ class NormalizePhoneNumberAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 1487fe812 (.)
         // Verifica se il numero non inizia già con il prefisso corretto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2312,6 +2342,9 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2542,6 +2575,7 @@ class NormalizePhoneNumberAction
 
         return "+{$phoneNumber}";
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2873,6 +2907,8 @@ class NormalizePhoneNumberAction
         return "+{$phoneNumber}";
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 }
 =======

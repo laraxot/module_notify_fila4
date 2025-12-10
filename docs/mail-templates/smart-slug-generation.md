@@ -232,6 +232,7 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
 =======
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di , in particolare per la gestione dei template email.
@@ -410,6 +411,7 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di , in particolare per la gestione dei template email.
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> f963d2c0 (.)
@@ -685,6 +687,8 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> 1442e291 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 ## Concetto Base
 
@@ -979,6 +983,7 @@ Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilib
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 =======
 Per il modulo Notify di , questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
@@ -1157,6 +1162,7 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 Per il modulo Notify di , questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> f963d2c0 (.)
@@ -1432,6 +1438,8 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> 1442e291 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 ## Riferimenti
 

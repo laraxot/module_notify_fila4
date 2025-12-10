@@ -2,6 +2,32 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 1487fe812 (.)
 declare(strict_types=1);
 
 
@@ -568,6 +594,7 @@ declare(strict_types=1);
 
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 =======
@@ -714,10 +741,13 @@ declare(strict_types=1);
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
 =======
+=======
+>>>>>>> 1487fe812 (.)
 declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -829,6 +859,8 @@ declare(strict_types=1);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -844,7 +876,10 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     /**
      * @param string $token
      * @param array<int, array<string, mixed>> $messages
@@ -859,6 +894,7 @@ class NetfunSmsRequestData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -866,6 +902,8 @@ class NetfunSmsRequestData extends Data
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     public function __construct(
         public string $token,
         public array $messages,
@@ -882,11 +920,14 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     /**
      * @param array{token: string, messages: array<int, array<string, mixed>>} $data
      * @return self
@@ -925,6 +966,7 @@ class NetfunSmsRequestData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -937,6 +979,8 @@ class NetfunSmsRequestData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 1487fe812 (.)
     public static function fromArray(array $data): self
     {
         return new self(
@@ -1016,6 +1060,9 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
             messages: $data['messages'],
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1203,6 +1250,7 @@ class NetfunSmsRequestData extends Data
 =======
             messages: $data['messages'],
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
             messages: $data['messages'],
 =======
@@ -1519,6 +1567,8 @@ class NetfunSmsRequestData extends Data
             messages: $data['messages'],
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         );
     }
 }

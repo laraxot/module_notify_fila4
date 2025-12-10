@@ -217,6 +217,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e790eb33 (.)
@@ -366,6 +367,8 @@ declare(strict_types=1);
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 1487fe812 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -811,6 +814,7 @@ declare(strict_types=1);
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -999,6 +1003,8 @@ declare(strict_types=1);
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 1487fe812 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1100,6 +1106,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> e0d9c9be (.)
@@ -1557,6 +1566,7 @@ declare(strict_types=1);
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -2191,6 +2201,8 @@ declare(strict_types=1);
  * |
  */
 <<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 
 // Filament will handle all routes for this module
 =======

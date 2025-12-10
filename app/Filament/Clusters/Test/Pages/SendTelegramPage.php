@@ -39,6 +39,7 @@ use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -69,6 +70,7 @@ use BackedEnum;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -151,6 +153,8 @@ use Modules\Notify\Datas\TelegramMessageData;
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -394,6 +398,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -407,7 +412,10 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
     protected string $view = 'notify::filament.pages.send-telegram';
 
@@ -819,6 +827,21 @@ class SendTelegramPage extends XotBasePage implements HasForms
     public function telegramForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
         return $schema->schema($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
@@ -1002,6 +1025,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1026,6 +1050,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 1487fe812 (.)
         return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
     }
 
@@ -1086,6 +1112,9 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1136,6 +1165,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1181,6 +1211,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
             Select::make('driver')
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
@@ -1190,6 +1222,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
             'parse_mode' => Select::make('parse_mode')
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1280,6 +1313,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             Select::make('parse_mode')
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1337,6 +1371,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
             Select::make('parse_mode')
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
@@ -1402,7 +1438,10 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             'disable_web_page_preview' => Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             'disable_notification' => Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
             'reply_to_message_id' => TextInput::make('reply_to_message_id')
@@ -1478,6 +1517,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1548,6 +1588,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 1487fe812 (.)
             Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
             TextInput::make('reply_to_message_id')
@@ -1575,6 +1617,9 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1648,6 +1693,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1752,6 +1798,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
             Select::make('media_type')
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 ->options([
                     'photo' => 'Foto',
                     'video' => 'Video',
@@ -1762,6 +1810,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
             'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2019,6 +2068,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2136,6 +2186,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         ];
     }
 

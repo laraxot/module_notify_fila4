@@ -72,6 +72,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -313,6 +314,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 98d837b9 (.)
@@ -721,3 +723,5 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -74,11 +75,7 @@
 # Notify Module Documentation Index
 >>>>>>> 36ac4fc1 (.)
 =======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 31f5d28f (.)
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -87,6 +84,13 @@
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -241,6 +245,8 @@
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -1566,6 +1572,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -1610,6 +1617,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1779,6 +1787,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> bf479cc (.)
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1487fe812 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -1815,6 +1825,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -1883,6 +1896,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 31f5d28f (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
+<<<<<<< HEAD
 >>>>>>> ee18dd92 (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -1927,6 +1941,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -1950,6 +1967,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
 =======
@@ -1958,6 +1976,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 
 >>>>>>> bf479cc (.)
@@ -1990,6 +2010,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ee18dd92 (.)
 =======
 =======
@@ -2039,6 +2060,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> bf479cc (.)
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -2092,6 +2116,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 - [PHPStan Level 10](./phpstan-level10-analysis.md) - Analisi e correzioni per PHPStan Level 10
 - [Quality Improvements](./quality-improvements-2025-01-06.md) - Riepilogo miglioramenti qualità codice
 - [Migration Fixes Summary](./migration-fixes-summary.md) - Correzioni migrazioni e server
@@ -2117,6 +2144,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
 >>>>>>> f963d2c0 (.)
@@ -2126,6 +2154,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 1487fe812 (.)
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
 
 ## Linee Guida per l'Implementazione
@@ -2173,6 +2203,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2290,6 +2323,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2915,6 +2949,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 10b3b08 (.)
 >>>>>>> bd804d67 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 ## Sottocartelle
 
@@ -2930,6 +2966,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3338,6 +3375,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 ## Note sulla Manutenzione
@@ -3416,10 +3454,13 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
 =======
+=======
+>>>>>>> 1487fe812 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4138,6 +4179,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 1487fe812 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -4157,6 +4200,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4165,6 +4209,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> 1487fe812 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -4932,6 +4978,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 =======
@@ -5085,3 +5132,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)

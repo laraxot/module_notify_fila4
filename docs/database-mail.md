@@ -352,6 +352,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -362,6 +363,7 @@ class EmailTemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
@@ -486,6 +488,8 @@ class EmailTemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1057,6 +1061,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1224,6 +1229,7 @@ Cordiali saluti,<br>
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
@@ -1927,3 +1933,5 @@ Cordiali saluti,<br>
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

@@ -17,6 +17,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> 75179b85 (.)
@@ -26,6 +27,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -33,6 +35,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 class AnalyzeTranslationFiles extends Command
 {
@@ -81,7 +85,10 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
@@ -104,6 +111,7 @@ class AnalyzeTranslationFiles extends Command
             $lang = basename($langDir);
             $files = File::files($langDir);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
             $lang = basename($langDir);
             $files = File::files($langDir);
@@ -150,6 +158,8 @@ class AnalyzeTranslationFiles extends Command
             $files = File::files($langDir);
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
@@ -352,6 +362,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
@@ -363,6 +374,7 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
             $topLevelKeys = [];
 
 <<<<<<< HEAD
@@ -401,6 +413,8 @@ class AnalyzeTranslationFiles extends Command
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
             $topLevelKeys = [];
 
             foreach (array_keys($keys) as $key) {
@@ -513,6 +527,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Assert::string($key);
             $row = [$key];
 
@@ -532,6 +547,7 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
             $row = [$key];
 =======
 <<<<<<< HEAD
@@ -575,10 +591,13 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 1487fe812 (.)
             $row = [$key];
 
             foreach (array_keys($allFiles) as $file) {
                 $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +615,11 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -756,6 +780,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1063,6 +1088,7 @@ class AnalyzeTranslationFiles extends Command
 =======
             if (str_contains($file, '/send_')) {
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1388,6 +1414,8 @@ class AnalyzeTranslationFiles extends Command
             if (str_contains($file, '/send_')) {
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
@@ -1520,6 +1548,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
@@ -1577,6 +1606,9 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
                 if (strpos((string) $key, 'navigation.') === 0) {
 >>>>>>> b19cd40 (.)
@@ -1704,6 +1736,7 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 =======
                 if (strpos((string) $key, 'navigation.') === 0) {
@@ -1848,6 +1881,8 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> laraxot/develop
             foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
+=======
+>>>>>>> 1487fe812 (.)
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                 }
             }

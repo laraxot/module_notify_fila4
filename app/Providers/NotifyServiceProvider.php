@@ -14,6 +14,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // use Illuminate\Support\Facades\Notification;
 <<<<<<< HEAD
@@ -64,6 +65,7 @@ use Override;
 use Override;
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -239,6 +241,11 @@ use Override;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+// use Illuminate\Support\Facades\Notification;
+use Override;
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
@@ -247,6 +254,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 use Override;
 use Webmozart\Assert\Assert;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -595,6 +603,7 @@ use Webmozart\Assert\Assert;
 =======
 use Webmozart\Assert\Assert;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -790,6 +799,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -882,6 +893,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1008,6 +1020,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
     #[Override]
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     #[Override]
 =======
@@ -1078,6 +1091,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
     #[Override]
 >>>>>>> 888799d0 (.)
+=======
+>>>>>>> 1487fe812 (.)
     public function boot(): void
     {
         parent::boot();
@@ -1107,6 +1122,9 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1162,6 +1180,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1495,6 +1514,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         parent::boot();
         //if (! app()->environment('production')) {
 <<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
         $fallback_to = Arr::get($mail, 'fallback_to', null);
@@ -1576,6 +1597,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1586,6 +1608,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1733,6 +1757,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2244,6 +2269,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
     }
 }
 =======

@@ -125,6 +125,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -1144,6 +1145,7 @@ declare(strict_types=1);
 
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 =======
@@ -1225,6 +1227,12 @@ declare(strict_types=1);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1259,6 +1267,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
@@ -1280,6 +1289,7 @@ $finder = PhpCsFixer\Finder::create()
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     ->ignoreVCS(true)
 >>>>>>> d09cb759 (.)
@@ -1341,6 +1351,8 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
 >>>>>>> 7325acf3 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -1437,6 +1449,7 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1466,15 +1479,7 @@ return $config;
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
-    ->setFinder($finder)
-
-return $config;
->>>>>>> 75179b85 (.)
-=======
-    ->setFinder($finder)
-
-return $config;
->>>>>>> d09cb759 (.)
+>>>>>>> 1487fe812 (.)
 =======
     ->setFinder($finder)
 
@@ -1499,6 +1504,17 @@ return $config;
     ->setFinder($finder)
 
 return $config;
+>>>>>>> 75179b85 (.)
+=======
+    ->setFinder($finder)
+
+return $config;
+>>>>>>> d09cb759 (.)
+=======
+    ->setFinder($finder)
+
+return $config;
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
     ->setFinder($finder)
@@ -1568,3 +1584,6 @@ return $config;
 return $config;
 >>>>>>> 7325acf3 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)

@@ -104,6 +104,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -215,6 +216,7 @@ use Modules\Notify\Datas\SmsData;
 =======
  *
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -245,6 +247,8 @@ use Modules\Notify\Datas\SmsData;
 =======
  *
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
  * @package Modules\Notify\Notifications
 =======
 =======
@@ -594,6 +598,30 @@ class SmsNotification extends Notification implements ShouldQueue
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+>>>>>>> 1487fe812 (.)
 
             $this->smsData = new SmsData();
 =======
@@ -802,6 +830,7 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -832,6 +861,8 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
             $this->smsData = new SmsData();
 =======
 =======
@@ -1248,6 +1279,7 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1456,6 +1488,7 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1646,6 +1679,8 @@ class SmsNotification extends Notification implements ShouldQueue
 
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         $this->config = $config;
     }
 
@@ -1738,6 +1773,7 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1797,6 +1833,7 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1845,6 +1882,8 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 1487fe812 (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
 =======
 =======
@@ -2062,6 +2101,7 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -2084,6 +2124,8 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2546,6 +2588,7 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> b19cd40 (.)
@@ -2587,6 +2630,9 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
     {
         // TODO: Implementare SmsChannel quando disponibile
         return ['sms'];
@@ -2737,6 +2783,9 @@ class SmsNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2850,6 +2899,7 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
     public function getProvider(): null|string
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2904,6 +2954,8 @@ class SmsNotification extends Notification implements ShouldQueue
     public function getProvider(): null|string
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 1487fe812 (.)
     {
         $provider = $this->config['provider'] ?? null;
 <<<<<<< HEAD

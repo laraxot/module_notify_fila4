@@ -2,16 +2,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 1487fe812 (.)
 # Regola Critica: Mai Hardcodare Nomi di Progetto nei Moduli Riutilizzabili
 
 ## Problema Identificato
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +80,9 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
+>>>>>>> 1487fe812 (.)
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 
 ## Impatto del Problema
@@ -110,13 +117,17 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1487fe812 (.)
 'subject' => 'Benvenuto su ',
 'content' => 'Grazie per esserti registrato su ',
 'clinic_name' => 'Studio Dentistico ',
 'webhook' => 'https://api.<nome progetto>.com/webhooks',
 'author' => 'Team PTVX',
 'path' => '/var/www/html/_bases/base_ptvx_fila3_mono/public_html/images/',
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -158,12 +169,15 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 1487fe812 (.)
 'subject' => 'Benvenuto su SaluteOra',
 'content' => 'Grazie per esserti registrato su SaluteOra',
 'clinic_name' => 'Studio Dentistico SaluteOra',
 'webhook' => 'https://api.saluteora.com/webhooks',
 'author' => 'Team SaluteOra',
 'path' => '/var/www/html/saluteora/public_html/images/',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +275,9 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/',
+>>>>>>> 1487fe812 (.)
 ```
 
 ## Soluzioni Implementate
@@ -336,6 +353,7 @@ $notificationData = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - ****: Solo per progetto 
 >>>>>>> 75179b855 (.)
@@ -379,6 +397,9 @@ $notificationData = [
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+- ****: Solo per progetto 
+>>>>>>> 1487fe812 (.)
 - **SaluteOra**: Solo per progetto SaluteOra
 - **SaluteMo**: Solo per progetto SaluteMo
 - **Patient**: Solo per progetti sanitari specifici
@@ -420,11 +441,15 @@ Eseguire regolarmente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1487fe812 (.)
 grep -r "<nome progetto>\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/UI/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -466,6 +491,8 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 1487fe812 (.)
 grep -r "saluteora\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/UI/ --include="*.php"
@@ -497,12 +524,16 @@ grep -r "saluteora\|salutemo" laravel/Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1487fe812 (.)
 COMPANY_NAME=
 COMPANY_TEAM=Team 
 WEBHOOK_BASE_URL=https://api.<nome progetto>.com
 CLINIC_NAME=Studio Dentistico 
 REPOSITORY_URL=https://github.com/<nome progetto>/notify
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -544,6 +575,8 @@ REPOSITORY_URL=https://github.com/<nome progetto>/notify
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 1487fe812 (.)
 COMPANY_NAME=SaluteOra
 COMPANY_TEAM=Team SaluteOra
 WEBHOOK_BASE_URL=https://api.saluteora.com
@@ -582,6 +615,7 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -590,3 +624,5 @@ Ogni progetto può personalizzare i valori tramite variabili d'ambiente senza mo
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 1487fe812 (.)

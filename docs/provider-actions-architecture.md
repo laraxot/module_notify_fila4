@@ -250,6 +250,7 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
 =======
 - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/`
@@ -433,6 +434,7 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> f963d2c0 (.)
@@ -715,6 +717,8 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> 1442e291 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 ### 3. Convenzioni di Nomenclatura
 

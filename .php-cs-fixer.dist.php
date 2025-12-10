@@ -216,6 +216,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -1286,6 +1287,7 @@ declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -1882,6 +1884,8 @@ declare(strict_types=1);
 
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1902,6 +1906,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->ignoreVCS(true);
 =======
     ->ignoreVCS(true)
@@ -1915,6 +1920,7 @@ $finder = PhpCsFixer\Finder::create()
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     ->ignoreVCS(true);
 =======
@@ -1937,6 +1943,8 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true)
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -1958,6 +1966,7 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // 'binary_operator_spaces' => ['align_double_arrow' => false],
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
@@ -1971,6 +1980,7 @@ $config
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 75179b85 (.)
@@ -1981,6 +1991,8 @@ $config
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -1996,6 +2008,12 @@ $config
         'elseif' => true,
     ])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1487fe812 (.)
     ->setFinder($finder);
 
 return $config;
@@ -2044,6 +2062,7 @@ return $config;
 
 return $config;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
     ->setFinder($finder)
 
@@ -2055,3 +2074,5 @@ return $config;
 return $config;
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)

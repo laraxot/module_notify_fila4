@@ -221,6 +221,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -856,6 +857,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -868,6 +870,8 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 1487fe812 (.)
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
@@ -878,6 +882,9 @@ use Filament\Actions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1487fe812 (.)
 >>>>>>> 75179b85 (.)
 =======
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
@@ -1670,6 +1677,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2268,6 +2276,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
@@ -2486,6 +2496,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2904,6 +2915,7 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3383,6 +3395,8 @@ class EditMailTemplate extends LangBaseEditRecord
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 1487fe812 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

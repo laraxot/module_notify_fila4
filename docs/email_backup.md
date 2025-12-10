@@ -958,6 +958,7 @@ class MailBackupDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1266,6 +1267,7 @@ class MailBackupDebugger
 - [Laravel Encryption](https://laravel.com/project_docs/encryption)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 - [Laravel Storage](https://laravel.com/docs/storage)
 - [Laravel Encryption](https://laravel.com/docs/encryption)
@@ -2023,3 +2025,5 @@ class MailBackupDebugger
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 1487fe812 (.)

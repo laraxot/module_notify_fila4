@@ -118,6 +118,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -136,6 +137,8 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 >>>>>>> 7d903672 (.)
+=======
+>>>>>>> 1487fe812 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -271,6 +274,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+=======
+>>>>>>> 75179b85 (.)
 
 =======
 >>>>>>> 161887a2 (.)
@@ -1748,6 +1753,7 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1756,6 +1762,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2513,6 +2521,7 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 08fd62df (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2522,6 +2531,8 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 1487fe812 (.)
 });
 test('sunny template contains optional function', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/templates/sunny.blade.php');
@@ -2635,6 +2646,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
 =======
@@ -2669,6 +2681,7 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> 08fd62df (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 161887a2 (.)
 =======
 =======
@@ -5218,3 +5231,6 @@ test('ark template contains optional function', function (): void {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 1487fe812 (.)
