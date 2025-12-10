@@ -146,6 +146,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -220,6 +221,8 @@ declare(strict_types=1);
 >>>>>>> 8ffdc1974 (.)
 =======
 >>>>>>> 2bc960928 (.)
+=======
+>>>>>>> d13d18db0 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -442,6 +445,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> cca10a64 (.)
 =======
 >>>>>>> bce3ff15 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 998e6866b (.)
 =======
@@ -484,6 +488,8 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> b1f2dd4c (.)
 >>>>>>> 2bc960928 (.)
+=======
+>>>>>>> d13d18db0 (.)
 
 =======
 >>>>>>> c8b1c8bf (.)
@@ -2158,6 +2164,10 @@ test('html template contains optional function', function (): void {
 >>>>>>> f15c41e60 (.)
 use Illuminate\Support\Facades\File;
 >>>>>>> 82c6772 (.)
+=======
+=======
+
+>>>>>>> 4cb1607 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 
@@ -2178,6 +2188,9 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bce3ff15 (.)
 =======
 >>>>>>> 4e2ebfb (.)
     expect($content)
@@ -2188,6 +2201,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> 0db165c (.)
 >>>>>>> 03b8d18d8 (.)
 =======
+<<<<<<< HEAD
     expect($content)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2231,16 +2245,32 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> 15d84ee (.)
+=======
+>>>>>>> 08fd62d (.)
+>>>>>>> 4cb1607 (.)
+>>>>>>> d13d18db0 (.)
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
 
     // Verifico che contiene la funzione optional per body_html
     expect($content)
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 7bac387 (.)
 >>>>>>> fea359347 (.)
 =======
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> cca10a64 (.)
+=======
+>>>>>>> bce3ff15 (.)
+>>>>>>> d13d18db0 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -2255,8 +2285,18 @@ test('html template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
     // Verifico che contiene la funzione optional per body_html
+<<<<<<< HEAD
 >>>>>>> bf479cc (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bf479cc (.)
+=======
+=======
+>>>>>>> 08fd62d (.)
+>>>>>>> bce3ff15 (.)
+>>>>>>> d13d18db0 (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
@@ -2796,8 +2836,11 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a700966d (.)
+=======
+>>>>>>> d13d18db0 (.)
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -3606,6 +3649,7 @@ test('ark template contains optional function', function (): void {
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> bce3ff15 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -3628,6 +3672,8 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> d13d18db0 (.)
     expect($content)->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
     expect($content)->toContain('optional($email_data)->body_html', 'Il template html.blade.php non utilizza optional() per body_html');
 });
@@ -3665,6 +3711,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -3673,6 +3720,8 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> d13d18db0 (.)
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
 =======
@@ -6590,6 +6639,7 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> 08fd62d (.)
 >>>>>>> bce3ff15 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -7695,3 +7745,5 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> b1f2dd4c (.)
 >>>>>>> 2bc960928 (.)
+=======
+>>>>>>> d13d18db0 (.)
