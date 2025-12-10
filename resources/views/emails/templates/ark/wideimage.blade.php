@@ -534,6 +534,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1038,6 +1039,7 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2014,6 +2016,11 @@
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+=======
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
 <?php
 
 declare(strict_types=1);
@@ -2022,6 +2029,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4085,6 +4093,7 @@ declare(strict_types=1);
 =======
 >>>>>>> c3de2f6c (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <tr>
 <<<<<<< HEAD
@@ -4571,6 +4580,12 @@ declare(strict_types=1);
 >>>>>>> 2a700966d (.)
 =======
 >>>>>>> c09685b0c (.)
+=======
+=======
+<tr>
+>>>>>>> 518c702 (.)
+>>>>>>> 8c8937e7 (rebase 210)
+>>>>>>> c31e900eb (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -5166,6 +5181,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5479,6 +5495,7 @@ declare(strict_types=1);
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -5509,6 +5526,8 @@ declare(strict_types=1);
 =======
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
 </tr>
 =======
 =======
@@ -5516,6 +5535,7 @@ declare(strict_types=1);
 </tr>
 <<<<<<< HEAD
 >>>>>>> 518c702 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5558,6 +5578,8 @@ declare(strict_types=1);
 >>>>>>> ce1853afd (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> c31e900eb (.)
 >>>>>>> f963d2c0 (.)
 =======
 </tr>
@@ -6306,6 +6328,7 @@ declare(strict_types=1);
 >>>>>>> c3de2f6c (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
 =======
 </tr>
 >>>>>>> 5511bf02 (rebase 210)
@@ -8004,3 +8027,5 @@ declare(strict_types=1);
 </tr>
 >>>>>>> c3de2f6c (rebase 210)
 >>>>>>> c09685b0c (.)
+=======
+>>>>>>> c31e900eb (.)
