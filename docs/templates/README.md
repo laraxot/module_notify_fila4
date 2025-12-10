@@ -76,6 +76,7 @@ use Filament\Forms\Components\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -168,6 +169,9 @@ public static function form(Form $form): Form
 =======
 public static function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
 {
     return $form->schema([
         Builder::make('content')
