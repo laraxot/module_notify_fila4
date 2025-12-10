@@ -65,6 +65,7 @@ namespace Modules\Notify\Notifications;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -411,6 +412,11 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Stringable;
@@ -1035,6 +1041,7 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1609,7 +1616,12 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
      * @param  object  $_notifiable  The entity to be notified (l'entità da notificare)
+=======
+     * @param object $_notifiable The entity to be notified (l'entità da notificare)
+>>>>>>> f5f1cb1 (.)
      * @return array<int, class-string>
      */
     public function via(object $_notifiable): array
@@ -3394,7 +3406,11 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> b94a5f6 (.)
     public function toArray(?object $notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -3423,6 +3439,11 @@ class FirebaseAndroidNotification extends Notification implements MobilePushNoti
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+    public function toArray(null|object $notifiable): array
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     {
         // return $this->data->toArray();
         return [];

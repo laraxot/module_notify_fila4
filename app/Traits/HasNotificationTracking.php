@@ -348,6 +348,7 @@ trait HasNotificationTracking
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         !Str::startsWith($url, ['http://', 'https://'])
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,6 +810,12 @@ trait HasNotificationTracking
 =======
                         ! Str::startsWith($url, ['http://', 'https://'])
 >>>>>>> 985c7bda (.)
+=======
+                        ! Str::startsWith($url, ['http://', 'https://'])
+=======
+                        !Str::startsWith($url, ['http://', 'https://'])
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                 ) {
                     return $matches[0];
                 }

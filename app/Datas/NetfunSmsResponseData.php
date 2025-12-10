@@ -91,6 +91,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -550,6 +551,11 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 985c7bda (.)
+=======
+=======
+
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -597,6 +603,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -622,10 +629,13 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
         public ?string $batchId = null,
         public ?array $messages = null,
         public ?string $error = null,
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,10 +710,13 @@ class NetfunSmsResponseData extends Data
         public ?string $error = null,
 >>>>>>> 985c7bda (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
         public null|string $batchId = null,
         public null|array $messages = null,
         public null|string $error = null,
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> f813254 (.)
@@ -713,6 +726,8 @@ class NetfunSmsResponseData extends Data
         public ?array $messages = null,
         public ?string $error = null,
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
     ) {}
 
 <<<<<<< HEAD
@@ -735,10 +750,12 @@ class NetfunSmsResponseData extends Data
         /** @var string|null $error */
         $error = $data['error'] ?? null;
         return new self(
+<<<<<<< HEAD
             status: $status,
             batchId: $batchId,
             messages: $messages,
             error: $error,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1319,11 +1336,14 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 985c7bda (.)
 =======
 =======
+>>>>>>> d45a0226 (.)
+=======
             status: $data['status'],
             batchId: $data['batchId'] ?? null,
             messages: $data['messages'] ?? null,
             error: $data['error'] ?? null,
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 75179b8 (.)
@@ -1432,6 +1452,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
         );
     }
 }

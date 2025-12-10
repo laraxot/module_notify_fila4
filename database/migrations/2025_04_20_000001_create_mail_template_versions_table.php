@@ -61,6 +61,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -279,6 +280,13 @@ return new class() extends XotBaseMigration {
 return new class extends XotBaseMigration
 {
 >>>>>>> 985c7bda (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     public function up(): void
     {
         $this->tableCreate(function (Blueprint $table): void {

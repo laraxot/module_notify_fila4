@@ -13,6 +13,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
@@ -68,6 +69,11 @@ use Tests\TestCase;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Tests\TestCase;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 

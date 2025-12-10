@@ -70,6 +70,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -266,9 +267,12 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 985c7bda (.)
 =======
 =======
+>>>>>>> d45a0226 (.)
+=======
  *
  * @package Modules\Notify\Notifications
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
@@ -326,6 +330,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
  */
 class SmsNotification extends Notification implements ShouldQueue
 {
@@ -809,8 +815,15 @@ class SmsNotification extends Notification implements ShouldQueue
 >>>>>>> 2effe245 (.)
 =======
 
+<<<<<<< HEAD
             $this->smsData = new SmsData;
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+            $this->smsData = new SmsData();
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
             $this->smsData->to = (string) $to;
@@ -1146,6 +1159,7 @@ class SmsNotification extends Notification implements ShouldQueue
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1774,7 +1788,12 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
      * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+=======
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+>>>>>>> f5f1cb1 (.)
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
@@ -1857,6 +1876,7 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> f1c9518b (.)
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2047,6 +2067,12 @@ class SmsNotification extends Notification implements ShouldQueue
 =======
     public function getProvider(): ?string
 >>>>>>> 985c7bda (.)
+=======
+    public function getProvider(): ?string
+=======
+    public function getProvider(): null|string
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     {
         $provider = $this->config['provider'] ?? null;
 <<<<<<< HEAD

@@ -104,6 +104,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -459,6 +460,8 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 =======
 >>>>>>> 985c7bda (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -484,6 +487,12 @@ use Override;
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> 92ecc28 (.)
+=======
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 =======
@@ -523,6 +532,11 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,13 +685,17 @@ use Filament\SpatieLaravelTranslatablePlugin;
 use Override;
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
 =======
 use Override;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -706,6 +724,8 @@ use Override;
 use Override;
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
@@ -881,6 +901,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         $panel = parent::panel($panel);
 
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -975,6 +996,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
         // ✅ Registrazione plugin per supporto multilingua
         // Richiesto da LangBaseListRecords che usa trait Translatable
 >>>>>>> f1c9518b (.)
@@ -1203,13 +1228,24 @@ class AdminPanelProvider extends XotBasePanelProvider
             FilamentView::registerRenderHook('panels::user-menu.before', static fn (): string => Blade::render(
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Temporaneamente commentato per compatibilità Filament 4.x
+        // $panel->plugins([
+        //     SpatieTranslatablePlugin::make(),
+        // ]);
+>>>>>>> d45a0226 (.)
         if (!XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
             // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
             DatabaseNotifications::pollingInterval('60s');
             FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                 '@livewire(\'database-notifications\')',
             ));
         }

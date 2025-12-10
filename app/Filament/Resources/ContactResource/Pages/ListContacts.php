@@ -74,6 +74,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -197,9 +198,12 @@ use Filament\Tables;
 >>>>>>> 985c7bda (.)
 =======
 =======
+>>>>>>> d45a0226 (.)
+=======
 use Override;
 use Filament\Tables;
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
@@ -495,6 +499,8 @@ use Filament\Tables;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\Filter;

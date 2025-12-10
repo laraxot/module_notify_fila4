@@ -59,6 +59,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -179,6 +180,11 @@ use Modules\Notify\Models\Notification;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Modules\Notify\Models\Notification;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 =======

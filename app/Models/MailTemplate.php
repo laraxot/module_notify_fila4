@@ -60,6 +60,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -217,9 +218,13 @@ use Exception;
 =======
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 =======
+// use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
+>>>>>>> d45a0226 (.)
+=======
 //use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 use Exception;
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 //use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
@@ -229,6 +234,8 @@ use Exception;
 =======
 // use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Contracts\Mail\Mailable;
@@ -646,6 +653,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -668,6 +676,12 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 =======
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+=======
+>>>>>>> b94a5f6 (.)
+>>>>>>> d45a0226 (.)
  * @property int                                  $id
  * @property string                               $mailable
  * @property string|null                          $subject
@@ -778,6 +792,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
  *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * @property-read array $variables
  * @property-read mixed $translations
@@ -790,12 +805,16 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 =======
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
  * @property int $id
  * @property string $mailable
  * @property string|null $subject
  * @property string $html_template
  * @property string|null $text_template
  * @property int $version
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -825,11 +844,19 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+ * @property Carbon $created_at
+ * @property Carbon $updated_at
+ * @property Carbon|null $deleted_at
+ * @property-read Collection<int, MailTemplateVersion> $versions
+ * @property-read Collection<int, MailTemplateLog> $logs
+>>>>>>> d45a0226 (.)
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property string|null $deleted_by
  * @property string $name
  * @property string $slug
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read array $variables
  * @property-read mixed $translations
@@ -889,6 +916,11 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+ * @property-read array $variables
+ * @property-read mixed $translations
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
  * @method static Builder<static>|MailTemplate forMailable(Mailable $mailable)
  * @method static Builder<static>|MailTemplate newModelQuery()
  * @method static Builder<static>|MailTemplate newQuery()
@@ -2068,6 +2100,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2217,12 +2250,15 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
         if (! method_exists($mailable, 'getSlug')) {
             throw new \Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
         }
         $slug = $mailable->getSlug();
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2267,10 +2303,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> d45a0226 (.)
         if (!method_exists($mailable, 'getSlug')) {
             throw new Exception('Il metodo getSlug() non è definito nella classe ' . $mailable::class);
         }
         $slug = $mailable->getSlug();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -2281,6 +2320,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
         return $query->where('mailable', get_class($mailable))->where('slug', $slug);
     }
 

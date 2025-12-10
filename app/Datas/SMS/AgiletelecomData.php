@@ -185,12 +185,15 @@ use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email as MimeEmail;
 use Webmozart\Assert\Assert;
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> d45a0226 (.)
 
 class AgiletelecomData extends Data
 {
@@ -246,8 +249,12 @@ class AgiletelecomData extends Data
     public static function make(): self
     {
         if (!(self::$instance instanceof AgiletelecomData)) {
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
@@ -1247,6 +1254,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Api-Key '.$this->api_key,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1387,6 +1395,12 @@ class AgiletelecomData extends Data
 =======
                     'Authorization' => 'Api-Key '.$this->api_key,
 >>>>>>> 985c7bda (.)
+=======
+                    'Authorization' => 'Api-Key '.$this->api_key,
+=======
+                    'Authorization' => 'Api-Key ' . $this->api_key,
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                     'Content-Type' => 'application/json',
                 ];
 
@@ -1848,6 +1862,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1951,6 +1966,12 @@ class AgiletelecomData extends Data
 =======
                     'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
 >>>>>>> 985c7bda (.)
+=======
+                    'Authorization' => 'Basic '.base64_encode($this->username.':'.$this->password),
+=======
+                    'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                     'Content-Type' => 'application/json',
                 ];
         }

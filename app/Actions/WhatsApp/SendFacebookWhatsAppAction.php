@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -147,6 +148,11 @@ use Illuminate\Support\Str;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+=======
+use Illuminate\Support\Str;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -692,6 +698,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($accessToken)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1197,7 +1204,12 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
         if (! is_string($accessToken)) {
+=======
+        if (!is_string($accessToken)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
             );
@@ -1206,6 +1218,7 @@ final class SendFacebookWhatsAppAction
         $this->accessToken = $accessToken;
 
         $phoneNumberId = config('services.facebook.phone_number_id');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1718,7 +1731,12 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> d45a0226 (.)
         if (! is_string($phoneNumberId)) {
+=======
+        if (!is_string($phoneNumberId)) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception(
                 'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
             );
@@ -4716,6 +4734,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -4732,6 +4751,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4758,6 +4779,7 @@ final class SendFacebookWhatsAppAction
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $messageId,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4905,9 +4927,12 @@ final class SendFacebookWhatsAppAction
 =======
 >>>>>>> d45a0226 (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
@@ -4952,6 +4977,10 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -5752,6 +5781,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed>|null $error */
             $error = $responseBody['error'] ?? null;
             /** @var string $errorMessage */
@@ -5778,6 +5808,8 @@ final class SendFacebookWhatsAppAction
 =======
 
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
             // Extract error message safely
             $errorMessage = 'Errore sconosciuto';
             if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
@@ -5785,6 +5817,8 @@ final class SendFacebookWhatsAppAction
             }
 >>>>>>> 2effe245 (.)
 
+=======
+>>>>>>> f5f1cb1 (.)
             return [
                 'success' => false,
                 'error' => $errorMessage,

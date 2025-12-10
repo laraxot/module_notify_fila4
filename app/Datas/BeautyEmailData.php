@@ -70,6 +70,7 @@ class BeautyEmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public ?array $css = [];
 >>>>>>> 98d837b9 (.)
@@ -453,6 +454,12 @@ class BeautyEmailData extends Data
 =======
     public ?array $css = [];
 >>>>>>> 985c7bda (.)
+=======
+    public ?array $css = [];
+=======
+    public null|array $css = [];
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     public array $colors;
 }

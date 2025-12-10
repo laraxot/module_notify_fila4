@@ -60,6 +60,7 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -372,9 +373,12 @@ use Illuminate\Support\Facades\DB;
 =======
 >>>>>>> 98d837b9 (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
@@ -479,6 +483,8 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -542,6 +548,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -930,6 +937,13 @@ return new class() extends XotBaseMigration {
 return new class extends XotBaseMigration
 {
 >>>>>>> 985c7bda (.)
+=======
+return new class extends XotBaseMigration
+{
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     /**
      * Run the migrations.
      */
@@ -1265,6 +1279,7 @@ return new class extends XotBaseMigration
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1411,11 +1426,14 @@ return new class extends XotBaseMigration
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
             if (! $this->hasColumn('slug')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1480,10 +1498,13 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> d45a0226 (.)
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
             if (!$this->hasColumn('slug')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1498,6 +1519,9 @@ return new class extends XotBaseMigration
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                 $table->string('slug')->unique();
             }
 

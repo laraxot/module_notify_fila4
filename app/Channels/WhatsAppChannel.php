@@ -952,6 +952,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
@@ -962,10 +963,13 @@ class WhatsAppChannel
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d45a0226 (.)
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
 =======
      * @param mixed $notifiable Entità che riceve la notifica
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param Notification $notification Notifica da inviare
 >>>>>>> f5f1cb1 (.)
@@ -981,6 +985,10 @@ class WhatsAppChannel
      * @param  mixed  $notifiable  Entità che riceve la notifica
      * @param  Notification  $notification  Notifica da inviare
 >>>>>>> 985c7bda (.)
+=======
+     * @param Notification $notification Notifica da inviare
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
      * @return array|null Risultato dell'operazione o null in caso di errore
      *
 =======
@@ -1001,6 +1009,7 @@ class WhatsAppChannel
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1450,6 +1459,12 @@ class WhatsAppChannel
 =======
         if (! method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 985c7bda (.)
+=======
+        if (! method_exists($notification, 'toWhatsApp')) {
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 

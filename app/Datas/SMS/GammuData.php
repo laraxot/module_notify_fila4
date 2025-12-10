@@ -584,6 +584,7 @@ class GammuData extends Data
         if (! (self::$instance instanceof GammuData)) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 use Illuminate\Support\Arr;
@@ -592,6 +593,8 @@ use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> d45a0226 (.)
 use Webmozart\Assert\Assert;
 
 class GammuData extends Data
@@ -607,12 +610,16 @@ class GammuData extends Data
         if (!(self::$instance instanceof GammuData)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);

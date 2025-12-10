@@ -61,6 +61,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -612,6 +613,11 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Override;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Exception;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
@@ -1010,6 +1016,7 @@ final class SendGammuSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var string|null */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1191,6 +1198,13 @@ final class SendGammuSMSAction implements SmsActionContract
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+    protected ?string $defaultSender = null;
+=======
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     /** @var string|null */
     protected null|string $defaultSender = null;
@@ -1498,6 +1512,7 @@ final class SendGammuSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> b19cd40 (.)
@@ -1648,7 +1663,12 @@ final class SendGammuSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
         if (! $this->gammuData->path) {
+=======
+        if (!$this->gammuData->path) {
+>>>>>>> f5f1cb1 (.)
             throw new Exception('Path Gammu non configurato in sms.php');
         }
 

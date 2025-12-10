@@ -21,6 +21,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -40,6 +41,9 @@ namespace Modules\Notify\Filament\Forms\Components;
 =======
 =======
 <<<<<<< HEAD
+=======
+use Filament\Forms;
+>>>>>>> d45a0226 (.)
 use Filament\Schemas\Components\Section;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -83,6 +87,7 @@ use Filament\Forms;
 >>>>>>> 207ac35e (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304,11 +309,15 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -598,6 +607,9 @@ use Webmozart\Assert\Assert;
 =======
 use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
 // use Squire\Models\Country;
 
@@ -659,6 +671,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -984,6 +997,12 @@ class ContactSection extends Forms\Components\Section
 =======
     // protected string $view = 'filament-forms::components.group';
 >>>>>>> 985c7bda (.)
+=======
+    // protected string $view = 'filament-forms::components.group';
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     protected bool $disableLiveUpdates = false;
 

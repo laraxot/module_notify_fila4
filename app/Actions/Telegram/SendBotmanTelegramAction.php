@@ -36,6 +36,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -204,6 +205,11 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -646,8 +652,10 @@ final class SendBotmanTelegramAction
     protected bool $debug;
 
     protected int $timeout;
+<<<<<<< HEAD
 
     protected ?string $parseMode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1060,6 +1068,11 @@ final class SendBotmanTelegramAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+    protected null|string $parseMode;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
 
     /**
      * Create a new action instance.
@@ -4970,15 +4983,19 @@ final class SendBotmanTelegramAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
             // Extract message_id safely
             $messageId = null;
             if (isset($responseData['result']) && is_array($responseData['result']) && isset($responseData['result']['message_id'])) {
                 $messageId = is_int($responseData['result']['message_id']) ? $responseData['result']['message_id'] : (int) $responseData['result']['message_id'];
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5027,6 +5044,10 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             return [
                 'success' => $responseData['ok'] ?? false,
 <<<<<<< HEAD

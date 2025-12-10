@@ -410,6 +410,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 98d837b9 (.)
@@ -792,6 +793,12 @@ class NotifyThemeableFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 985c7bda (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
@@ -854,6 +861,7 @@ class NotifyThemeableFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1074,6 +1082,12 @@ class NotifyThemeableFactory extends Factory
 =======
         return $this->state(fn (array $_attributes): array => [
 >>>>>>> 985c7bda (.)
+=======
+        return $this->state(fn (array $_attributes): array => [
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }

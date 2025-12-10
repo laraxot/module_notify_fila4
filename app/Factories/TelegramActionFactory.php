@@ -457,6 +457,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -582,6 +583,12 @@ final class TelegramActionFactory
 =======
     public function create(?string $driver = null): TelegramProviderActionInterface
 >>>>>>> 985c7bda (.)
+=======
+    public function create(?string $driver = null): TelegramProviderActionInterface
+=======
+    public function create(null|string $driver = null): TelegramProviderActionInterface
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     {
         $driver ??= Config::get('telegram.default', 'official');
 
@@ -993,6 +1000,7 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 985c7bda (.)
@@ -1005,6 +1013,8 @@ final class TelegramActionFactory
 =======
 
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
         $instance = app($className);
 
         if (! $instance instanceof TelegramProviderActionInterface) {
@@ -1015,6 +1025,7 @@ final class TelegramActionFactory
         /** @var TelegramProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1179,5 +1190,10 @@ final class TelegramActionFactory
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+        return app($className);
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     }
 }

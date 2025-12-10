@@ -68,6 +68,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -172,6 +173,8 @@ use Carbon\Carbon;
 =======
 >>>>>>> 985c7bda (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 <<<<<<< HEAD
 use Carbon\Carbon;
 =======
@@ -192,6 +195,12 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
 use Carbon\Carbon;
 >>>>>>> 92ecc28 (.)
+=======
+use Carbon\Carbon;
+=======
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+>>>>>>> f5f1cb1 (.)
+>>>>>>> b94a5f6 (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 2effe245 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -2164,6 +2173,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2393,10 +2403,14 @@ final class NotificationLog extends BaseModel
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
     }
 
     /**
      * Marca il log come aperto.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
@@ -2404,6 +2418,9 @@ final class NotificationLog extends BaseModel
      */
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+=======
+     */
+>>>>>>> d45a0226 (.)
     public function markAsOpened(): void
     {
         $this->update([
@@ -2420,6 +2437,7 @@ final class NotificationLog extends BaseModel
         $this->update([
             'status' => NotificationLogStatusEnum::CLICKED,
             'clicked_at' => now(),
+<<<<<<< HEAD
 <<<<<<< HEAD
         ]);
 <<<<<<< HEAD
@@ -2465,6 +2483,10 @@ final class NotificationLog extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+        ]);
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
     }
 
     /**

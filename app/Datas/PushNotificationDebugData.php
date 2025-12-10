@@ -2881,14 +2881,18 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
                     ->filter(static fn(SendReport $report): bool => $report->messageWasSentToUnknownToken())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> d45a0226 (.)
                     ->map(static fn(SendReport $report): array => [
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2899,6 +2903,10 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'results' => $this->sendReport->map(static fn(SendReport $report): array => [
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
                     'target' => $report->target()->value(),
                     'result' => $report->result(),
                 ]),

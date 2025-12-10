@@ -80,6 +80,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -193,7 +194,12 @@ class Pdf
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
+=======
+        $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
+>>>>>>> f5f1cb1 (.)
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
         }

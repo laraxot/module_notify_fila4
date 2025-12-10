@@ -29,6 +29,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -158,10 +159,13 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185,10 +189,13 @@ use Override;
 =======
 >>>>>>> fbed41ac (.)
 =======
+>>>>>>> d45a0226 (.)
+=======
 =======
 >>>>>>> f5f1cb1 (.)
 use Override;
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
@@ -200,6 +207,8 @@ use Override;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> d45a0226 (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1086,8 +1095,15 @@ class NotifyServiceProvider extends XotBaseServiceProvider
     public function boot(): void
     {
         parent::boot();
+<<<<<<< HEAD
         // if (! app()->environment('production')) {
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+        //if (! app()->environment('production')) {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> d45a0226 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 
