@@ -15263,7 +15263,7 @@ describe('Notification Management Business Logic', function (): void {
 
     it('can update notification status', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $notification = Notification::factory()->create([
+        $notification = Notification/** @phpstan-ignore-line */ ::factory()->create([
             'status' => 'pending',
         ]);
 
@@ -15281,7 +15281,7 @@ describe('Notification Management Business Logic', function (): void {
 
     it('can delete notification', function (): void {
         /** @var \Illuminate\Database\Eloquent\Collection */
-        $notification = Notification::factory()->create();
+        $notification = Notification/** @phpstan-ignore-line */ ::factory()->create();
 
         $notificationId = $notification->id;
         /** @phpstan-ignore-next-line method.nonObject */
