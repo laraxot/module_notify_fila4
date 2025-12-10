@@ -195,6 +195,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -543,6 +544,10 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 5b50927d (rebase 210)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
@@ -680,6 +685,9 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
@@ -764,6 +772,7 @@ return static function (RectorConfig $rectorConfig): void {
     );
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1797,6 +1806,10 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
@@ -1955,6 +1968,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2419,6 +2433,10 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
@@ -2586,6 +2604,9 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
@@ -2994,6 +3015,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -3409,6 +3431,8 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
 
     $rectorConfig->importNames();
 >>>>>>> 75179b85 (.)

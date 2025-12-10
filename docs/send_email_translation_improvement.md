@@ -424,6 +424,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -801,12 +802,15 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,10 +1024,13 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
+>>>>>>> eea68ec9 (.)
+=======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1289,6 +1296,8 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -1312,6 +1321,7 @@ php -l Modules/Notify/lang/it/send_email.php
 ## 🔗 Collegamenti
 
 ### Documentazione Correlata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1554,6 +1564,10 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> bb00ab64 (rebase 210)
 =======
 >>>>>>> 77edd94a (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
@@ -1563,9 +1577,12 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> dceba960 (.)
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+<<<<<<< HEAD
 =======
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 =======
 >>>>>>> d284d65 (.)
@@ -2000,6 +2017,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2387,19 +2405,25 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> eea68ec9 (.)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 =======
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
+>>>>>>> eea68ec9 (.)
+=======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+<<<<<<< HEAD
 >>>>>>> c6c33175 (.)
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
@@ -2751,6 +2775,9 @@ php -l Modules/Notify/lang/it/send_email.php
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> b19cd40 (.)
 >>>>>>> 77edd94a (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> eea68ec9 (.)
 
 ## 📝 Note di Implementazione
 
