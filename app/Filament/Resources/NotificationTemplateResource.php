@@ -1361,6 +1361,7 @@ use Filament\Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 =======
@@ -1391,6 +1392,9 @@ use Filament\Schemas\Schema;
 use Filament\Forms\Form;
 >>>>>>> 0db165c (.)
 >>>>>>> 8ffdc1974 (.)
+=======
+use Filament\Schemas\Schema;
+>>>>>>> 2bc960928 (.)
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
