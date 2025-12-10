@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generazione di Slug in Filament
 
 ## Panoramica
@@ -240,3 +241,5 @@ TextInput::make('name')
 - [Laravel News Article](https://laravel-news.com/generating-slugs-from-a-title-in-filament)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Laravel Str Helper](https://laravel.com/docs/helpers#method-str-slug) 
+=======
+>>>>>>> c13e9db (.)
