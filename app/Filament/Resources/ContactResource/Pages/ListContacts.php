@@ -98,6 +98,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -779,10 +780,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 2cbbc069 (.)
 use Modules\Notify\Filament\Resources\ContactResource;
+use Modules\Xot\Filament\Builders\ColumnBuilder;
+use Modules\Xot\Filament\Builders\FilterBuilder;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,6 +907,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+/**
+ * List Contacts page.
+ *
+ * Uses ColumnBuilder and FilterBuilder to reduce code duplication.
+ */
+>>>>>>> 2cbbc069 (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -1254,6 +1267,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableColumns(): array
     {
         return [
+<<<<<<< HEAD
             'id' => TextColumn::make('id')->numeric()->sortable(),
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'email' => TextColumn::make('email')->searchable()->sortable(),
@@ -1463,6 +1477,8 @@ class ListContacts extends XotBaseListRecords
     public function getTableColumns(): array
     {
         return [
+=======
+>>>>>>> 2cbbc069 (.)
             'id' => ColumnBuilder::id(),
             'name' => ColumnBuilder::name(),
             'email' => ColumnBuilder::email(),
@@ -1480,6 +1496,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2435,6 +2452,9 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+            'active' => FilterBuilder::activeToggle(),
+>>>>>>> 2cbbc069 (.)
         ];
     }
 }

@@ -533,12 +533,16 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property-read NotificationTemplate|null $template
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> 2cbbc069 (.)
  * @property string $notifiable_type
  * @property int $notifiable_id
  * @property string $title
  * @property string|null $error
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
@@ -546,12 +550,17 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property-read Model|\Eloquent $notifiable
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
 =======
+=======
+>>>>>>> 2cbbc069 (.)
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
  * @property-read int|null $media_count
  * @property-read Model|\Eloquent $notifiable
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
+<<<<<<< HEAD
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> 2cbbc069 (.)
  * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
  * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
@@ -573,10 +582,13 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
  * @mixin \Eloquent
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> 2cbbc069 (.)
  */
 final class NotificationLog extends BaseModel
 {

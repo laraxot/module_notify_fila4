@@ -1825,6 +1825,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -1857,6 +1858,9 @@ class Get
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> e00d798d (.)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 2cbbc069 (.)
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 <<<<<<< HEAD
@@ -2593,6 +2597,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -2640,10 +2645,14 @@ class Get
         }
 
 >>>>>>> 75179b855 (.)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 2cbbc069 (.)
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3014,6 +3023,10 @@ class Get
         /* @phpstan-ignore-next-line property.notFound */
         if ($theme->body_html === null) {
 >>>>>>> e00d798d (.)
+=======
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+>>>>>>> 2cbbc069 (.)
             $html = trans($trad_mod.'.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
 =======
@@ -5065,6 +5078,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'from_email' => $theme->from_email,
 =======
             /* @phpstan-ignore-next-line property.notFound */
@@ -5214,6 +5228,11 @@ class Get
         return NotifyThemeData::from([
             'from_email' => $theme->from_email,
 >>>>>>> 75179b855 (.)
+=======
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+>>>>>>> 2cbbc069 (.)
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,

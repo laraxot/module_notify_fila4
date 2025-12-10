@@ -3331,6 +3331,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param mixed $notifiable
 =======
 >>>>>>> c8b1c8bf (.)
@@ -3354,6 +3355,10 @@ class GenericNotification extends Notification implements ShouldQueue
      * @return array<int, string>
      */
 >>>>>>> 7c1c276f (rebase 210)
+=======
+     * @return array<int, string>
+     */
+>>>>>>> 2cbbc069 (.)
     /** @phpstan-ignore-next-line return.type */
     public function toTwilio(mixed $notifiable): array
 <<<<<<< HEAD
@@ -4483,6 +4488,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -4644,6 +4650,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 2cbbc069 (.)
         return [
             'content' => $content,
             'to' => $to,
@@ -4653,6 +4661,7 @@ class GenericNotification extends Notification implements ShouldQueue
     /**
      * Ottiene la rappresentazione database della notifica.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4689,6 +4698,10 @@ class GenericNotification extends Notification implements ShouldQueue
      * @return array<int, string>
      */
 >>>>>>> 7c1c276f (rebase 210)
+=======
+     * @return array<int, string>
+     */
+>>>>>>> 2cbbc069 (.)
     /** @phpstan-ignore-next-line return.type */
     public function toDatabase(mixed $notifiable): array
 <<<<<<< HEAD

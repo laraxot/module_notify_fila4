@@ -970,6 +970,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a335025b (rebase 210)
 =======
 /**
@@ -986,10 +987,15 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 /**
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
 >>>>>>> e00d798d (.)
+=======
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 2cbbc069 (.)
  * @property-read Model|\Eloquent $mailable
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
  * @property-read \Modules\Notify\Models\MailTemplate|null $template
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1006,12 +1012,16 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 =======
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
 >>>>>>> e00d798d (.)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 2cbbc069 (.)
  * @method static \Modules\Notify\Database\Factories\MailTemplateLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateLog newModelQuery()
  * @method static Builder<static>|MailTemplateLog newQuery()
  * @method static Builder<static>|MailTemplateLog query()
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1050,6 +1060,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @mixin \Eloquent
  */
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 2cbbc069 (.)
 class MailTemplateLog extends BaseModel
 {
     protected $fillable = [
