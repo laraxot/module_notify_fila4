@@ -293,6 +293,7 @@ use Filament\Forms\Form;
 >>>>>>> 2fc60436 (.)
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+use Override;
 
 
 <<<<<<< HEAD
@@ -919,7 +920,11 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 985c7bda (.)
     protected static ?string $recordTitleAttribute = 'id';
 
+<<<<<<< HEAD
     #[\Override]
+=======
+    #[Override]
+>>>>>>> 6ba141fc (.)
     public function getFormSchema(): array
     {
         return [

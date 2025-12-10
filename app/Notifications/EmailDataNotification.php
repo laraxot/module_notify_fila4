@@ -1471,7 +1471,11 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
+<<<<<<< HEAD
         $mailMessage = (new MailMessage())
+=======
+        $mailMessage = new MailMessage()
+>>>>>>> 6ba141fc (.)
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
 
