@@ -104,6 +104,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -223,10 +224,14 @@ use Override;
 =======
 >>>>>>> de02998b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -255,6 +260,8 @@ use Override;
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -365,6 +372,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -377,6 +385,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 use Override;
 =======
 <<<<<<< HEAD
@@ -396,10 +406,15 @@ use Override;
 >>>>>>> 207ac35e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 =======
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
 use Filament\Tables\Columns\TextColumn;
 =======
 =======
@@ -1073,10 +1088,15 @@ use Filament\Tables\Table;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+>>>>>>> 1619767d8 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1357,6 +1377,7 @@ use Override;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -1432,6 +1453,8 @@ use Override;
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
@@ -1525,6 +1548,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1743,6 +1767,7 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -1778,6 +1803,8 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1853,6 +1880,7 @@ class ListMailTemplates extends LangBaseListRecords
     }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2050,6 +2078,7 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> 011072e4 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 3f39ac8b (.)
@@ -2102,6 +2131,8 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> de02998b (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
     
     public function getTableColumns(): array
     {
@@ -2699,8 +2730,11 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2905,6 +2939,7 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -2948,6 +2983,8 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

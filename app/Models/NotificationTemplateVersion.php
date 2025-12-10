@@ -99,6 +99,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -311,6 +312,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -428,10 +430,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -521,6 +526,8 @@ use Modules\User\Models\Profile;
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -705,6 +712,7 @@ use Modules\User\Models\Profile;
 =======
 >>>>>>> 011072e4 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
@@ -717,6 +725,8 @@ use Modules\User\Models\Profile;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 use RuntimeException;
 use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
@@ -743,7 +753,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 1619767d8 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -790,6 +807,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -898,6 +916,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1453,12 +1473,22 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1470,19 +1500,14 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
@@ -1503,8 +1528,11 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
 >>>>>>> 75179b85 (.)
 =======
     #[Override]
@@ -1853,6 +1881,7 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 161887a2 (.)
@@ -1899,6 +1928,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
     protected function casts(): array
     {
         return [
@@ -1918,6 +1949,7 @@ class NotificationTemplateVersion extends BaseModel
         $template = $this->template;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2103,10 +2135,14 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> de02998b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1619767d8 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -2173,6 +2209,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2248,6 +2286,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2260,6 +2299,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2314,7 +2355,12 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> de02998b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 1619767d8 (.)
         
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
@@ -2347,8 +2393,11 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2625,6 +2674,7 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 161887a2 (.)
 =======
@@ -2841,6 +2891,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -2953,6 +3005,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2966,6 +3019,8 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> b207a9b1a (.)
 =======
+>>>>>>> 1619767d8 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2981,6 +3036,7 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
@@ -3022,6 +3078,10 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+>>>>>>> 1619767d8 (.)
 }
 =======
 } 
@@ -3052,12 +3112,15 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -3397,6 +3460,7 @@ class NotificationTemplateVersion extends BaseModel
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 161887a2 (.)
@@ -3441,3 +3505,5 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 1619767d8 (.)
