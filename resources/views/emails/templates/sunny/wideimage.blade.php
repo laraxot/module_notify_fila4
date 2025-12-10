@@ -327,6 +327,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2566,12 +2567,15 @@ declare(strict_types=1);
 =======
 <tr>
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8eedbbb (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
 </tr>
 <tr>
 	<td class="w640" height="10" width="640" colspan="3"></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4508,3 +4512,6 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+</tr>
+>>>>>>> c8eedbbb (.)
