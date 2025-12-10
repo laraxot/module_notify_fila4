@@ -217,6 +217,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -634,6 +635,8 @@
 >>>>>>> d284d65 (.)
 >>>>>>> cde5a49 (.)
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      fill="none"
@@ -822,6 +825,7 @@
 =======
   <circle cx="18.5" cy="5.5" r="2.5" fill="currentColor"/>
 =======
+<<<<<<< HEAD
 >>>>>>> 7cf73d1 (.)
 =======
 <<<<<<< HEAD
@@ -885,6 +889,11 @@
 >>>>>>> bf479cc (.)
 >>>>>>> 63c322c (.)
 >>>>>>> 3d462363 (rebase 210)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -980,6 +989,7 @@
         <circle cx="12" cy="12" r="8" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 6" />
         <circle cx="12" cy="12" r="12" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 8" />
     </g>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1111,6 +1121,14 @@
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
+=======
+=======
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+>>>>>>> 518c702 (.)
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 </svg>
 <<<<<<< HEAD
 <<<<<<< HEAD

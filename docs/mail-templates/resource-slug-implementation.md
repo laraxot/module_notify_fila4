@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -71,10 +72,13 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Implementazione del Campo `slug` in MailTemplateResource
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +506,9 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> 36ac4fc1 (.)
 
 ## Implementazione nel Form Schema
 
@@ -626,6 +633,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -968,6 +976,9 @@ public static function getFormSchema(): array
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> 9e7ba5b6 (rebase 210)
+=======
+## Conformità con gli Standard SaluteOra
+>>>>>>> 36ac4fc1 (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -985,6 +996,7 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1069,6 +1081,11 @@ public static function getListTableColumns(): array
  */
 public static function getListTableColumns(): array
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+ * Campo slug in getListTableColumns()
+ */
+public static function getListTableColumns(): array
+>>>>>>> 36ac4fc1 (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')
@@ -1197,6 +1214,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1251,3 +1269,5 @@ return [
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)

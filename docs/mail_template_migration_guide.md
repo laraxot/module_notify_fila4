@@ -14,6 +14,7 @@ Il file di migrazione principale per la tabella `mail_templates` è:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
@@ -30,16 +31,23 @@ Il file di migrazione principale per la tabella `mail_templates` è:
 =======
 /var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 =======
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
+=======
+>>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
 /var/www/html/<directory progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
 ```
 
 Questo file è implementato usando `XotBaseMigration`, che utilizza un pattern evolutivo che differisce dalle migrazioni standard di Laravel.

@@ -30,11 +30,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 36ac4fc1 (.)
 # Notify Module Documentation Index
 >>>>>>> fbed41ac (.)
 =======
@@ -99,14 +102,18 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> 36ac4fc1 (.)
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -151,6 +158,8 @@
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -204,6 +213,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487,6 +497,9 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> bf479cc (.)
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -516,6 +529,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -618,6 +632,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 36ac4fc1 (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -636,6 +653,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -721,6 +739,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> bf479cc (.)
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -807,6 +827,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4f042b88 (.)
@@ -842,6 +863,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> 7bac387 (.)
+>>>>>>> 36ac4fc1 (.)
 
 ## ✅ Convenzioni Laraxot
 - [Module Conventions](../../Xot/docs/conventions.md)
@@ -2141,6 +2168,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2178,6 +2206,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -2189,6 +2219,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9f953c6 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2846,9 +2877,14 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 10b3b08 (.)
 =======
 >>>>>>> 9f953c6 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
 ## Risoluzione Conflitti e Standard
@@ -2861,6 +2897,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3408,3 +3445,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)

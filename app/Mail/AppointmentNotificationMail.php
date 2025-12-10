@@ -153,6 +153,16 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// use Modules\<nome progetto>\Models\Appointment;
+=======
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
 // use Modules\SaluteOra\Models\Appointment;
 
 >>>>>>> 82ae73be (.)
@@ -221,6 +231,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340,6 +351,10 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * @param  array<string, mixed>  $notificationData
 >>>>>>> 8d298d6 (.)
 >>>>>>> a29a4728 (.)
+=======
+     * @param array<string, mixed> $notificationData
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -353,6 +368,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     {
         $appointment = $this->notificationData['appointment'];
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -460,6 +476,11 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 
         $subject = match ($type) {
 >>>>>>> 98d837b9 (.)
+=======
+        
+        $subject = match($type) {
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
             'confirmed' => 'Conferma Appuntamento',
             'reminder' => 'Promemoria Appuntamento',
             'cancelled' => 'Cancellazione Appuntamento',
@@ -481,11 +502,15 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
 
 <<<<<<< HEAD
         $appointment = $this->notificationData['appointment'] ?? null;
         $appointmentId = is_object($appointment) && isset($appointment->id) ? $appointment->id : null;
 =======
+<<<<<<< HEAD
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
             $subject .= ' #'.$appointment->id;
         }
@@ -648,6 +673,18 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+        // PHPStan Level 10: isset() invece di property_exists() per Eloquent magic property
+>>>>>>> 6ba141fc (.)
+=======
+        
+>>>>>>> 9ed014c (.)
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #' . $appointment->id;
+        }
+        
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],
@@ -681,6 +718,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     public function content(): Content
     {
         $type = $this->notificationData['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -800,12 +838,19 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         // Determina il template da utilizzare in base al tipo di notifica
         $view = match ($type) {
 >>>>>>> 98d837b9 (.)
+=======
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
             'confirmed' => 'notify::emails.appointments.confirmed',
             'reminder' => 'notify::emails.appointments.reminder',
             'cancelled' => 'notify::emails.appointments.cancelled',
             'rescheduled' => 'notify::emails.appointments.rescheduled',
             default => 'notify::emails.appointments.generic',
         };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -871,6 +916,10 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 98d837b9 (.)
 
+=======
+        
+>>>>>>> 518c702 (.)
+>>>>>>> 36ac4fc1 (.)
         return new Content(
             view: $view,
             with: [

@@ -9,7 +9,54 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 1. Invio Email Semplice
+=======
+# Modulo Notify - Documentazione
+
+> **Versione**: 1.1  
+> **Ultimo aggiornamento**: Novembre 2025  
+> **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+
+## 🔧 Correzioni Recenti
+
+### PSR-4 Namespace Fixes
+- ✅ `SendScheduledPushNotification.php`: `Modules\Notify\App\Jobs` → `Modules\Notify\Jobs`
+- ✅ `PushNotificationService.php`: Namespace verificato
+- Dettagli: [psr4-namespace-fix.md](./psr4-namespace-fix.md)
+
+### Stato Attuale
+- ✅ Autoload Composer (22855 classi) senza warning PSR-4
+- ✅ Script `php artisan serve` avviato con successo
+- ✅ Documentazione aggiornata
+
+---
+
+## 📚 Overview
+
+Il modulo **Notify** fornisce l'infrastruttura centralizzata per email, SMS, notifiche push e comunicazioni multicanale nell'ecosistema Laraxot.
+
+### Funzionalità Chiave
+1. **Template e contenuti dinamici** (Spatie Mail Templates, Mustache placeholders)
+2. **Allegati avanzati** (binary/stream, file system, MIME detection)
+3. **Canali multipli** (SMTP, Mailgun, SES, Twilio, Vonage, Firebase, OneSignal)
+4. **Pannello Filament** per amministrazione, preview e test
+5. **Preferenze utente** (opt-in/out, GDPR compliance)
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Migrare e seedare
+php artisan module:migrate Notify
+php artisan module:seed Notify
+
+# Aprire pannello Filament
+php artisan serve
+# → http://localhost:8000/admin
+```
+>>>>>>> 36ac4fc1 (.)
 
 ```php
 use Modules\Notify\Emails\SpatieEmail;
@@ -210,6 +257,7 @@ php artisan test --filter=RecordNotificationTest
 ---
 
 =======
+<<<<<<< HEAD
 =======
 =======
 # Modulo Notify - Analisi Completa
@@ -966,6 +1014,10 @@ Log::channel('email')->info('Email sent', [
 =======
 >>>>>>> 01afecf (.)
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 6ba141fc (.)
+=======
+>>>>>>> 36ac4fc1 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1267,6 +1319,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> f963d2c (.)
@@ -1319,3 +1372,6 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 =======
 >>>>>>> 01afecf (.)
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)

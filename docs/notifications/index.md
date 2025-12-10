@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
@@ -28,12 +29,17 @@
 >>>>>>> fbed41ac (.)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
+=======
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+=======
+>>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
 - [Documentazione Generale <main module>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -43,6 +49,8 @@
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
@@ -78,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 =======
 - SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
@@ -96,12 +105,17 @@
 >>>>>>> fbed41ac (.)
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 =======
+=======
+- <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+>>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
 - <main module> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 =======
 - SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -111,6 +125,8 @@
 =======
 - SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
 - Il sistema si basa su Queueable Actions (spatie/laravel-queueable-action) e non su Service Pattern
 - Le azioni specifiche per provider devono implementare l'interfaccia comune corrispondente
 - I DTO standardizzati vengono utilizzati come ponte tra il sistema e i provider specifici
