@@ -25,6 +25,7 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -35,7 +36,12 @@ class NotifyThemeData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     public null|string $from_email = null; // from address
 
     public null|string $from = null; // from name
@@ -124,6 +130,11 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -263,6 +274,9 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -523,6 +537,7 @@ class NotifyThemeData extends Data
 
     public null|string $from = null; // from name
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -979,6 +994,10 @@ class NotifyThemeData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
     public string $subject;
 

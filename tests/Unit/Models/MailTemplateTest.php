@@ -189,6 +189,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -201,6 +202,7 @@ use Tests\TestCase;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -332,6 +334,8 @@ use function Safe\json_encode;
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
@@ -402,6 +406,11 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -513,6 +522,9 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1099,6 +1111,7 @@ use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1660,6 +1673,10 @@ use Tests\TestCase;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
 class MailTemplateTest extends TestCase
 {

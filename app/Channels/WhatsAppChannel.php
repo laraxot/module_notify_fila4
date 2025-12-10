@@ -93,6 +93,7 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -101,6 +102,23 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -122,22 +140,6 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -149,6 +151,8 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
  *
 =======
  * 
@@ -181,6 +185,9 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
  *
 >>>>>>> 75179b85 (.)
@@ -301,6 +308,7 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 =======
  *
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -494,6 +502,10 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
  * Questo canale utilizza il driver WhatsApp configurato in config/whatsapp.php
  * per inviare messaggi WhatsApp attraverso il provider selezionato.
  */
@@ -584,6 +596,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -592,6 +605,23 @@ class WhatsAppChannel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -613,22 +643,6 @@ class WhatsAppChannel
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -640,6 +654,8 @@ class WhatsAppChannel
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
 
 =======
     
@@ -672,6 +688,9 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 
 >>>>>>> 75179b85 (.)
@@ -792,6 +811,7 @@ class WhatsAppChannel
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -985,6 +1005,10 @@ class WhatsAppChannel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -1072,6 +1096,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1082,6 +1107,7 @@ class WhatsAppChannel
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1092,6 +1118,8 @@ class WhatsAppChannel
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
 
 =======
     
@@ -1106,6 +1134,9 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 
 >>>>>>> 75179b85 (.)
@@ -1187,6 +1218,7 @@ class WhatsAppChannel
 
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1236,6 +1268,10 @@ class WhatsAppChannel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
@@ -1494,6 +1530,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (! method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 98d837b9 (.)
@@ -1514,14 +1551,17 @@ class WhatsAppChannel
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
@@ -1529,6 +1569,9 @@ class WhatsAppChannel
 =======
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         if (!method_exists($notification, 'toWhatsApp')) {
 =======
         if (! method_exists($notification, 'toWhatsApp')) {
@@ -1542,6 +1585,9 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         if (!method_exists($notification, 'toWhatsApp')) {
 >>>>>>> 75179b85 (.)
@@ -2152,7 +2198,12 @@ class WhatsAppChannel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
@@ -2239,6 +2290,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2313,6 +2365,7 @@ class WhatsAppChannel
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -2487,6 +2540,10 @@ class WhatsAppChannel
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         if (!($whatsAppData instanceof WhatsAppData)) {
 >>>>>>> 75179b85 (.)
@@ -2516,6 +2573,7 @@ class WhatsAppChannel
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2665,6 +2723,7 @@ class WhatsAppChannel
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2735,6 +2794,8 @@ class WhatsAppChannel
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
         
         if (! $whatsAppData instanceof WhatsAppData) {
             throw new Exception('toWhatsApp method must return an instance of WhatsAppData');
@@ -2769,6 +2830,9 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2820,6 +2884,7 @@ class WhatsAppChannel
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -3010,6 +3075,11 @@ class WhatsAppChannel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         return $action->execute($whatsAppData);
     }
 }

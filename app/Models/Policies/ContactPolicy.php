@@ -95,6 +95,7 @@ class ContactPolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> 98d837b9 (.)
@@ -112,6 +113,8 @@ class ContactPolicy extends NotifyBasePolicy {}
 =======
 >>>>>>> 1487fe812 (.)
 =======
+>>>>>>> 10292b60a (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -123,6 +126,7 @@ class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -149,10 +153,13 @@ class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 10292b60a (.)
 class ContactPolicy extends NotifyBasePolicy
 {
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +205,8 @@ class ContactPolicy extends NotifyBasePolicy
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 10292b60a (.)
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -458,10 +467,14 @@ class ContactPolicy extends NotifyBasePolicy
 }
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -907,3 +920,5 @@ class ContactPolicy extends NotifyBasePolicy
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)

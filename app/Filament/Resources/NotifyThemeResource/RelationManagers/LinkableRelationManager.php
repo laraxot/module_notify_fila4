@@ -82,6 +82,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -883,12 +884,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3f537838 (.)
 =======
 <<<<<<< HEAD
@@ -918,7 +922,19 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+=======
+use Filament\Forms\Form;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 class LinkableRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'linkable';
@@ -1003,6 +1019,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1062,6 +1079,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -1143,6 +1161,10 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     protected static null|string $recordTitleAttribute = 'id';
 =======
 =======
@@ -1296,8 +1318,11 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1356,6 +1381,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1865,6 +1891,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> b93ef594b4 (.)
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
     protected static ?string $recordTitleAttribute = 'id';
 
     public function getFormSchema(): array
@@ -1874,6 +1902,12 @@ class LinkableRelationManager extends XotBaseRelationManager
                 ->required()
                 ->maxLength(255),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
@@ -1912,7 +1946,13 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         ];
     }
 }

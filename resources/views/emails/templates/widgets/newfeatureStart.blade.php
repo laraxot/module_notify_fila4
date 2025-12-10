@@ -392,6 +392,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -568,6 +569,7 @@
 >>>>>>> 08fd62df (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -2569,6 +2571,10 @@
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 <?php
 
 declare(strict_types=1);
@@ -2577,6 +2583,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2951,6 +2958,8 @@ declare(strict_types=1);
 >>>>>>> cb5f23b0 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -3508,10 +3517,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3828,6 +3841,8 @@ declare(strict_types=1);
 >>>>>>> e438127e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 =======
@@ -5703,6 +5718,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5761,15 +5777,18 @@ declare(strict_types=1);
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5794,6 +5813,8 @@ declare(strict_types=1);
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 10292b60a (.)
 					<td bgcolor="#ffffff" class="contentblock">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
@@ -5815,6 +5836,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 75179b85 (.)
@@ -7245,6 +7269,7 @@ declare(strict_types=1);
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 					<td bgcolor="#ffffff" class="contentblock">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
@@ -7406,3 +7431,6 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)

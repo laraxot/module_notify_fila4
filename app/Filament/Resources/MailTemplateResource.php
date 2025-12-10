@@ -60,6 +60,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -97,6 +98,8 @@ use Filament\Schemas\Components\Utilities\Set;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
@@ -148,6 +151,7 @@ use Override;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
 use Override;
 >>>>>>> 4e2ebfb (.)
@@ -266,12 +270,20 @@ use Override;
 =======
 use Override;
 >>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+use Override;
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 10292b60a (.)
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Utilities\Set;
 use Filament\Forms\Components\RichEditor;
 use Filament\Schemas\Components\View;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms;
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -428,8 +440,11 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -551,6 +566,7 @@ use Modules\Notify\Models\MailTemplate;
 use Illuminate\Support\Str;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -559,6 +575,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 10292b60a (.)
 use Filament\Forms\Components\TextInput;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 
@@ -575,6 +593,9 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,6 +650,7 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -799,6 +821,11 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
     /**
      * Restituisce lo schema del form per Filament.
@@ -977,6 +1004,14 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 1487fe812 (.)
             'mailable' => TextInput::make('mailable')->required()->maxLength(255),
+=======
+    public static function getFormSchema(): array
+    {
+        return [
+            'mailable' => TextInput::make('mailable')
+                ->required()
+                ->maxLength(255),
+>>>>>>> b19cd40 (.)
             //'name' => Forms\Components\TextInput::make('name'),
             //'slug' => Forms\Components\TextInput::make('slug'),
             Group::make()
@@ -1122,6 +1157,7 @@ class MailTemplateResource extends LangBaseResource
                     TextInput::make('slug')
                         ->label('Slug')
                         ->required()
+<<<<<<< HEAD
                         ->unique(ignoreRecord: true),
                 ])
                 ->columns(2),
@@ -1277,8 +1313,11 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1344,6 +1383,8 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
                         ->unique(ignoreRecord: true)
                 ])
                 ->columns(2),
@@ -1356,6 +1397,9 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1411,6 +1455,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
                 ->visible(fn ($record): bool => !empty($record->params)),
 
            
@@ -1422,6 +1468,9 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -1435,8 +1484,11 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 10292b60a (.)
             'text_template' => Textarea::make('text_template')
                 ->maxLength(65535)
                 ->columnSpanFull(),
@@ -1449,6 +1501,9 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1646,6 +1701,7 @@ class MailTemplateResource extends LangBaseResource
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -1843,6 +1899,11 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         ];
     }
 }

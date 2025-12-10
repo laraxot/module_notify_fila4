@@ -690,6 +690,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1156,6 +1157,7 @@ SMS_FROM_NAME=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -1724,7 +1726,13 @@ SMS_FROM_NAME=<nome progetto>
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
 =======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 SMS_FROM_NAME=<nome progetto>
+=======
+>>>>>>> b19cd40 (.)
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
@@ -2471,6 +2479,7 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 =======
@@ -2510,6 +2519,7 @@ Log::info('SMS inviato', [
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -3006,6 +3016,10 @@ Log::info('SMS inviato', [
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -3208,6 +3222,9 @@ Log::info('SMS inviato', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3263,10 +3280,14 @@ Log::info('SMS inviato', [
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3985,3 +4006,5 @@ Log::info('SMS inviato', [
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)

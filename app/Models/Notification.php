@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -60,7 +61,12 @@
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 declare(strict_types=1);
 
 =======
@@ -420,12 +426,11 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -433,6 +438,11 @@ use Override;
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
@@ -455,6 +465,8 @@ use Override;
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
 namespace Modules\Notify\Models;
 
 >>>>>>> b19cd40 (.)
@@ -474,6 +486,9 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -948,7 +963,12 @@ namespace Modules\Notify\Models;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
@@ -1711,6 +1731,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1883,11 +1904,15 @@ class Notification extends BaseModel
     #[Override]
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
@@ -2150,6 +2175,8 @@ class Notification extends BaseModel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
     protected function casts(): array
     {
         return [

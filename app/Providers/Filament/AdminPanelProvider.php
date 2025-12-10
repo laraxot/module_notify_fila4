@@ -170,6 +170,7 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -373,6 +374,9 @@ use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
@@ -380,6 +384,7 @@ use Override;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -482,6 +487,8 @@ use Override;
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
 =======
@@ -1598,8 +1605,11 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1654,7 +1664,17 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     #[Override]
     public function panel(Panel $panel): Panel
     {
@@ -1783,7 +1803,44 @@ class AdminPanelProvider extends XotBasePanelProvider
         return parent::panel($panel);
     }
 }
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+    #[Override]
+>>>>>>> b93ef594b4 (.)
+    public function panel(Panel $panel): Panel
+    {
+=======
+    #[Override]
+    public function panel(Panel $panel): Panel
+    {
+>>>>>>> 75179b85 (.)
+        // Temporaneamente commentato per compatibilità Filament 4.x
+        // $panel->plugins([
+        //     SpatieTranslatablePlugin::make(),
+        // ]);
+        if (!XotData::make()->disable_database_notifications) {
+            DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
+            // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
+            DatabaseNotifications::pollingInterval('60s');
+            FilamentView::registerRenderHook('panels::user-menu.before', static fn(): string => Blade::render(
+                '@livewire(\'database-notifications\')',
+            ));
+        }
+
+        return parent::panel($panel);
+    }
+}
+>>>>>>> 10292b60a (.)
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
@@ -1812,6 +1869,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
@@ -1834,6 +1892,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> ce89c8bb (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
     public function panel(Panel $panel): Panel
     { 
         $panel->plugins([
@@ -1849,6 +1909,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
             SpatieTranslatablePlugin::make(),
 =======
             SpatieLaravelTranslatablePlugin::make(),
@@ -1862,6 +1925,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
             SpatieTranslatablePlugin::make(),
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
             SpatieLaravelTranslatablePlugin::make(),
 >>>>>>> d09cb759 (.)
@@ -2278,6 +2342,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
             SpatieLaravelTranslatablePlugin::make(),
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
         ]);
         if (! XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
@@ -2310,6 +2376,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2446,4 +2515,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)

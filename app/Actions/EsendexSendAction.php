@@ -128,6 +128,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -186,6 +187,8 @@ class EsendexSendAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 =======
@@ -437,6 +440,7 @@ class EsendexSendAction
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
         if (!is_array($auth)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> de02998b (.)
@@ -461,6 +465,8 @@ class EsendexSendAction
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> de02998b (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 <<<<<<< HEAD
@@ -476,6 +482,9 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> de02998b (.)
 =======
         if (!is_array($auth)) {
@@ -517,6 +526,7 @@ class EsendexSendAction
         if (!is_array($auth)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -886,6 +896,10 @@ class EsendexSendAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         }
 
         $data = [
@@ -903,6 +917,7 @@ class EsendexSendAction
 
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,6 +1169,7 @@ class EsendexSendAction
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1342,12 +1358,21 @@ class EsendexSendAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
 
+=======
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+        
+>>>>>>> b19cd40 (.)
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
         if (!is_string($auth[0])) {
             $auth[0] = '';
         }
+<<<<<<< HEAD
 
         if (!is_string($auth[1])) {
 <<<<<<< HEAD
@@ -1516,6 +1541,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1524,6 +1550,8 @@ class EsendexSendAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1569,6 +1597,7 @@ class EsendexSendAction
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1601,6 +1630,8 @@ class EsendexSendAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
         
         if (!is_string($auth[1])) {
             $auth[1] = '';
@@ -1632,6 +1663,9 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2069,7 +2103,13 @@ class EsendexSendAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -2168,6 +2208,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2237,6 +2278,7 @@ class EsendexSendAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -2332,6 +2374,10 @@ class EsendexSendAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
@@ -2344,6 +2390,7 @@ class EsendexSendAction
 <<<<<<< HEAD
         if (!is_array($res)) {
             throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2382,6 +2429,8 @@ class EsendexSendAction
 =======
 >>>>>>> 1487fe812 (.)
 =======
+>>>>>>> 10292b60a (.)
+=======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2391,15 +2440,19 @@ class EsendexSendAction
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> de02998b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 10292b60a (.)
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
         if (! is_array($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2733,6 +2786,7 @@ class EsendexSendAction
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -3194,6 +3248,11 @@ class EsendexSendAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         }
 
         return $res;
@@ -3297,6 +3356,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -3319,6 +3379,8 @@ class EsendexSendAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
     public function login(): ?array
 =======
     public function login(): null|array
@@ -3805,6 +3867,7 @@ class EsendexSendAction
     public function login(): ?array
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
     public function login(): null|array
@@ -3887,6 +3950,8 @@ class EsendexSendAction
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -3988,6 +4053,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -4010,6 +4076,8 @@ class EsendexSendAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
 =======
         $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
@@ -4496,6 +4564,7 @@ class EsendexSendAction
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
         $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
@@ -4578,6 +4647,8 @@ class EsendexSendAction
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 
@@ -4676,6 +4747,7 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4684,6 +4756,23 @@ class EsendexSendAction
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4705,22 +4794,6 @@ class EsendexSendAction
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -4732,6 +4805,8 @@ class EsendexSendAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
         return explode(';', is_string($response) ? $response : ((string) $response));
 =======
         return explode(';', is_string($response) ? $response : (string) $response);
@@ -4764,6 +4839,9 @@ class EsendexSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         return explode(';', is_string($response) ? $response : ((string) $response));
 >>>>>>> 75179b85 (.)
@@ -4885,6 +4963,7 @@ class EsendexSendAction
         return explode(';', is_string($response) ? $response : ((string) $response));
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5077,6 +5156,10 @@ class EsendexSendAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 }
 =======

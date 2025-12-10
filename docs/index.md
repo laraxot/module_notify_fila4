@@ -1573,6 +1573,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -1617,6 +1618,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -1789,6 +1791,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2261,6 +2267,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2324,10 +2333,14 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2951,6 +2964,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 
 ## Sottocartelle
 
@@ -3177,6 +3192,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3302,6 +3318,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 10292b60a (.)
 ### Miglioramenti Qualità Codice (2025-01-06)
 - **PHPStan Livello 10**: Analisi completa e correzione errori di tipizzazione
   - Corretti 16 errori principali nel modulo Notify
@@ -3643,6 +3661,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4181,6 +4200,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -4228,6 +4249,9 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 909e45af (.)
 =======
@@ -4287,11 +4311,23 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 3f39ac8b (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4331,6 +4367,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 2a97406c (.)
 =======
 =======
+=======
+>>>>>>> 10292b60a (.)
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
@@ -5136,4 +5174,12 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)

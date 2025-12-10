@@ -176,6 +176,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1239,6 +1240,8 @@ use Modules\Notify\Models\NotificationType;
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
 =======
+>>>>>>> 10292b60a (.)
+=======
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1266,8 +1269,11 @@ use Modules\Notify\Models\NotificationType;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
 =======
@@ -1436,6 +1442,7 @@ use Modules\Notify\Models\NotificationType;
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1628,6 +1635,8 @@ use Modules\Notify\Models\NotificationType;
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\NotificationType;
@@ -1713,6 +1722,9 @@ use Modules\Notify\Helpers\ConfigHelper;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1913,6 +1925,7 @@ use Modules\Notify\Models\NotificationType;
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2435,6 +2448,11 @@ use Modules\Notify\Models\NotificationType;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
 describe('Notification Management Business Logic', function () {
     it('can create notification with basic information', function () {
@@ -2655,6 +2673,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2663,6 +2682,71 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2732,70 +2816,6 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2827,6 +2847,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
 
 =======
         
@@ -2917,6 +2939,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 
 >>>>>>> 75179b85 (.)
@@ -3157,6 +3182,7 @@ describe('Notification Management Business Logic', function () {
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -3760,6 +3786,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $notificationData = [
             'type' => 'email',
             'subject' => $testData['default_subject'],
@@ -3982,6 +4012,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4136,6 +4167,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -4618,6 +4650,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->type)
@@ -4840,6 +4876,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -4924,6 +4961,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5057,6 +5096,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -5249,6 +5289,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($notification)->toBeInstanceOf(Notification::class)
             ->and($notification->type)->toBe('email')
             ->and($notification->subject)->toBe($testData['default_subject'])
@@ -5333,6 +5375,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5527,6 +5572,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -6050,6 +6096,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
@@ -6279,6 +6330,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6287,6 +6339,71 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6356,70 +6473,6 @@ describe('Notification Management Business Logic', function () {
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -6451,6 +6504,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
 
 =======
         
@@ -6541,6 +6596,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 
 >>>>>>> 75179b85 (.)
@@ -6781,6 +6839,7 @@ describe('Notification Management Business Logic', function () {
 =======
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -7384,6 +7443,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $templateData = [
             'name' => 'Welcome Email Template',
             'type' => 'email',
@@ -7607,6 +7670,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -7761,6 +7825,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -8243,6 +8308,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($template)
             ->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->name)
@@ -8465,6 +8534,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -8549,6 +8619,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -8682,6 +8754,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -8874,6 +8947,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($template)->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->name)->toBe('Welcome Email Template')
             ->and($template->type)->toBe('email')
@@ -8958,6 +9033,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9152,6 +9230,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -9675,6 +9754,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
@@ -9907,6 +9991,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -10061,6 +10146,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -10543,6 +10629,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($type)
             ->toBeInstanceOf(NotificationType::class)
             ->and($type->name)
@@ -10765,6 +10855,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -10849,6 +10940,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -10982,6 +11075,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -11174,6 +11268,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($type)->toBeInstanceOf(NotificationType::class)
             ->and($type->name)->toBe('welcome_email')
             ->and($type->display_name)->toBe('Email di Benvenuto')
@@ -11258,6 +11354,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11452,6 +11551,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -11975,6 +12075,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
@@ -12212,6 +12317,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -12366,6 +12472,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -12848,6 +12955,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($contact)
             ->toBeInstanceOf(Contact::class)
             ->and($contact->name)
@@ -13070,6 +13181,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -13154,6 +13266,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -13287,6 +13401,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -13479,6 +13594,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($contact)->toBeInstanceOf(Contact::class)
             ->and($contact->name)->toBe('Mario Rossi')
             ->and($contact->email)->toBe('mario.rossi@example.com')
@@ -13563,6 +13680,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13757,6 +13877,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -14280,6 +14401,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
@@ -14546,6 +14672,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -14700,6 +14827,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -15182,6 +15310,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->type)
@@ -15404,6 +15536,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -15488,6 +15621,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -15621,6 +15756,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -15813,6 +15949,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($notification)->toBeInstanceOf(Notification::class)
             ->and($notification->type)->toBe('sms')
             ->and($notification->priority)->toBe('high')
@@ -15897,6 +16035,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16091,6 +16232,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -16614,6 +16756,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
@@ -16847,6 +16994,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -17001,6 +17149,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -17483,6 +17632,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($template)
             ->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->variables)
@@ -17705,6 +17858,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -17789,6 +17943,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -17922,6 +18078,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -18114,6 +18271,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($template)->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->variables)->toContain('appointment_date')
             ->and($template->variables)->toContain('appointment_time')
@@ -18198,6 +18357,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18392,6 +18554,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -18915,6 +19078,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
@@ -19146,6 +19314,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -19300,6 +19469,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -19782,6 +19952,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($type)
             ->toBeInstanceOf(NotificationType::class)
             ->and($type->channels)
@@ -20004,6 +20178,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -20088,6 +20263,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -20221,6 +20398,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -20413,6 +20591,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($type)->toBeInstanceOf(NotificationType::class)
             ->and($type->channels)->toContain('email')
             ->and($type->channels)->toContain('sms')
@@ -20497,6 +20677,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20691,6 +20874,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -21214,6 +21398,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
@@ -21454,6 +21643,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -21608,6 +21798,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -22090,6 +22281,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($contact)
             ->toBeInstanceOf(Contact::class)
             ->and($contact->preferences['email'])
@@ -22314,6 +22509,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -22398,6 +22594,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -22531,6 +22729,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -22723,6 +22922,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($contact)->toBeInstanceOf(Contact::class)
             ->and($contact->preferences['email'])->toBeTrue()
             ->and($contact->preferences['sms'])->toBeTrue()
@@ -22808,6 +23009,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23002,6 +23206,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -23525,6 +23730,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
@@ -23858,6 +24068,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -24012,6 +24223,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -24494,6 +24706,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($template)
             ->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->translations)
@@ -24716,6 +24932,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -24800,6 +25017,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -24933,6 +25152,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -25125,6 +25345,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($template)->toBeInstanceOf(NotificationTemplate::class)
             ->and($template->translations)->toHaveKey('it')
             ->and($template->translations)->toHaveKey('en')
@@ -25209,6 +25431,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25403,6 +25628,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -25926,6 +26152,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notification_templates', [
             'id' => $template->id,
@@ -26168,6 +26399,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -26322,6 +26554,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -26804,6 +27037,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($type)
             ->toBeInstanceOf(NotificationType::class)
             ->and($type->delivery_rules['max_per_day'])
@@ -27026,6 +27263,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -27110,6 +27348,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -27243,6 +27483,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -27435,6 +27676,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($type)->toBeInstanceOf(NotificationType::class)
             ->and($type->delivery_rules['max_per_day'])->toBe(3)
             ->and($type->delivery_rules['max_per_week'])->toBe(10)
@@ -27519,6 +27762,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27713,6 +27959,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -28236,6 +28483,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notification_types', [
             'id' => $type->id,
@@ -28481,6 +28733,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -28635,6 +28888,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -29117,6 +29371,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($contact)
             ->toBeInstanceOf(Contact::class)
             ->and($contact->tags)
@@ -29341,6 +29599,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -29425,6 +29684,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -29558,6 +29819,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -29750,6 +30012,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($contact)->toBeInstanceOf(Contact::class)
             ->and($contact->tags)->toContain('vip')
             ->and($contact->tags)->toContain('premium')
@@ -29835,6 +30099,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30029,6 +30296,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -30552,6 +30820,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('contacts', [
             'id' => $contact->id,
@@ -30792,6 +31065,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -30946,6 +31220,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -31428,6 +31703,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->status)
@@ -31652,6 +31931,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -31736,6 +32016,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -31869,6 +32151,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -32061,6 +32344,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($notification)->toBeInstanceOf(Notification::class)
             ->and($notification->status)->toBe('scheduled')
             ->and($notification->scheduled_at->toDateTimeString())->toBe($scheduledAt->toDateTimeString())
@@ -32146,6 +32431,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32340,6 +32628,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -32863,6 +33152,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
@@ -33142,6 +33436,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -33296,6 +33591,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -33778,6 +34074,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->tracking['opens'])
@@ -34000,6 +34300,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -34084,6 +34385,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -34217,6 +34520,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -34409,6 +34713,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($notification)->toBeInstanceOf(Notification::class)
             ->and($notification->tracking['opens'])->toBeTrue()
             ->and($notification->tracking['clicks'])->toBeTrue()
@@ -34493,6 +34799,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34687,6 +34996,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -35210,6 +35520,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
@@ -35446,6 +35761,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -35600,6 +35916,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -36082,6 +36399,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->custom_headers['X-Campaign-ID'])
@@ -36304,6 +36625,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -36388,6 +36710,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -36521,6 +36845,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -36713,6 +37038,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($notification)->toBeInstanceOf(Notification::class)
             ->and($notification->custom_headers['X-Campaign-ID'])->toBe('summer_2024')
             ->and($notification->custom_headers['X-User-Segment'])->toBe('premium')
@@ -36797,6 +37124,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36991,6 +37321,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -37514,6 +37845,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
@@ -37758,6 +38094,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -37912,6 +38249,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -38394,6 +38732,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->attachments)
@@ -38616,6 +38958,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -38700,6 +39043,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -38833,6 +39178,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -39025,6 +39371,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($notification)->toBeInstanceOf(Notification::class)
             ->and($notification->attachments)->toHaveCount(2)
             ->and($notification->attachments[0]['filename'])->toBe('welcome_guide.pdf')
@@ -39109,6 +39457,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39303,6 +39654,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -39826,6 +40178,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,
@@ -40072,6 +40429,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -40226,6 +40584,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -40708,6 +41067,10 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         expect($notification)
             ->toBeInstanceOf(Notification::class)
             ->and($notification->recipient_groups['all_users'])
@@ -40932,6 +41295,7 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -41016,6 +41380,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -41149,6 +41515,7 @@ describe('Notification Management Business Logic', function () {
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -41341,6 +41708,8 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         expect($notification)->toBeInstanceOf(Notification::class)
             ->and($notification->recipient_groups['all_users'])->toBeTrue()
             ->and($notification->recipient_groups['premium_users'])->toBeTrue()
@@ -41426,6 +41795,9 @@ describe('Notification Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41620,6 +41992,7 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -42143,6 +42516,11 @@ describe('Notification Management Business Logic', function () {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $this->assertDatabaseHas('notifications', [
             'id' => $notification->id,

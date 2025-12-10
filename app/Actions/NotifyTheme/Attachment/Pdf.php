@@ -112,6 +112,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -171,6 +172,7 @@ class Pdf
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -330,6 +332,10 @@ class Pdf
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -591,6 +597,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -673,6 +680,7 @@ class Pdf
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -743,6 +751,8 @@ class Pdf
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -786,6 +796,9 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -837,6 +850,7 @@ class Pdf
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -1027,6 +1041,11 @@ class Pdf
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 }
 =======

@@ -156,6 +156,7 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -164,6 +165,23 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -185,22 +203,6 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -212,6 +214,8 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
  *
 =======
  * 
@@ -244,6 +248,9 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
  *
 >>>>>>> 75179b85 (.)
@@ -364,6 +371,7 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 =======
  *
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -557,6 +565,10 @@ use Modules\Notify\Contracts\TelegramProviderActionInterface;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
  * Questa factory centralizza la logica di selezione del driver Telegram
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -690,8 +702,11 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -737,6 +752,7 @@ final class TelegramActionFactory
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -763,6 +779,10 @@ final class TelegramActionFactory
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     public function create(null|string $driver = null): TelegramProviderActionInterface
 =======
 =======
@@ -958,8 +978,11 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1067,6 +1090,7 @@ final class TelegramActionFactory
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1107,6 +1131,8 @@ final class TelegramActionFactory
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
     public function create(?string $driver = null): TelegramProviderActionInterface
     {
         $driver = $driver ?? Config::get('telegram.default', 'official');
@@ -1139,6 +1165,9 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1185,6 +1214,7 @@ final class TelegramActionFactory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -1293,6 +1323,11 @@ final class TelegramActionFactory
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1353,8 +1388,11 @@ final class TelegramActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,6 +1507,7 @@ final class TelegramActionFactory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1497,7 +1536,12 @@ final class TelegramActionFactory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 10292b60a (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
         return app($className);
 >>>>>>> 75179b85 (.)
 =======

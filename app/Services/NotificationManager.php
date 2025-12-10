@@ -149,7 +149,11 @@ class NotificationManager
      * @param array $data I dati per compilare il template
      * @param array $channels I canali da utilizzare (opzionale)
      * @param array $options Opzioni aggiuntive per l'invio
+<<<<<<< HEAD
      *
+=======
+     * 
+>>>>>>> b19cd40 (.)
      * @return array
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,6 +413,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -419,6 +424,7 @@ class NotificationManager
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -429,6 +435,8 @@ class NotificationManager
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
         array $options = [],
 =======
         array $options = []
@@ -443,6 +451,9 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         array $options = [],
 >>>>>>> 75179b85 (.)
@@ -524,6 +535,7 @@ class NotificationManager
         array $options = [],
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -573,6 +585,10 @@ class NotificationManager
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     ): array {
         $template = $this->getTemplate($templateCode);
 
@@ -1037,18 +1053,11 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
->>>>>>> 3f537838 (.)
-=======
->>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1059,6 +1068,17 @@ class NotificationManager
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1410,7 +1430,12 @@ class NotificationManager
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 10292b60a (.)
      *
+=======
+     * 
+>>>>>>> b19cd40 (.)
      * @return array<array>
 >>>>>>> 75179b85 (.)
 =======
@@ -1452,6 +1477,7 @@ class NotificationManager
         array $options = [],
     ): array {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,6 +1604,7 @@ class NotificationManager
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1706,7 +1733,14 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         array $options = [],
+=======
+        array $options = []
+>>>>>>> b19cd40 (.)
     ): array {
         $logs = [];
 
@@ -1816,14 +1850,11 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> d09cb759 (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1832,6 +1863,13 @@ class NotificationManager
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1842,6 +1880,8 @@ class NotificationManager
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 10292b60a (.)
     public function getTemplate(string $code): null|NotificationTemplate
 =======
 <<<<<<< HEAD
@@ -1898,6 +1938,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -1994,6 +2035,8 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> 10292b60a (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2131,7 +2174,18 @@ class NotificationManager
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     public function getTemplate(string $code): ?NotificationTemplate
     {
         return NotificationTemplate::where('code', $code)
@@ -2164,6 +2218,9 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2373,6 +2430,7 @@ class NotificationManager
         return NotificationTemplate::where('code', $code)->where('is_active', true)->first();
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -2560,6 +2618,11 @@ class NotificationManager
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 
     /**
@@ -2795,18 +2858,22 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2847,6 +2914,8 @@ class NotificationManager
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
 =======
         return NotificationTemplate::where('category', $category)
@@ -2878,6 +2947,9 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
 >>>>>>> 75179b85 (.)
@@ -3005,6 +3077,7 @@ class NotificationManager
 =======
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -3222,6 +3295,10 @@ class NotificationManager
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 
     /**
@@ -3457,18 +3534,22 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3509,6 +3590,8 @@ class NotificationManager
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
 =======
         return NotificationTemplate::forChannel($channel)
@@ -3540,6 +3623,9 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
 >>>>>>> 75179b85 (.)
@@ -3668,6 +3754,7 @@ class NotificationManager
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3884,6 +3971,10 @@ class NotificationManager
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 
     /**
@@ -3977,6 +4068,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4036,6 +4128,7 @@ class NotificationManager
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -4123,6 +4216,10 @@ class NotificationManager
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
      * @param NotificationTemplate $_template Template delle notifiche Il template
 =======
 =======
@@ -4383,9 +4480,12 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
+>>>>>>> 10292b60a (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -4441,6 +4541,7 @@ class NotificationManager
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -4607,6 +4708,8 @@ class NotificationManager
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
      * @param NotificationTemplate $template Il template
      * @return array<string, mixed>
      */
@@ -4614,6 +4717,7 @@ class NotificationManager
     {
         // $logs = $template->logs();
         //
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4888,6 +4992,7 @@ class NotificationManager
         
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -5006,6 +5111,10 @@ class NotificationManager
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -5116,6 +5225,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5175,6 +5285,7 @@ class NotificationManager
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -5262,6 +5373,10 @@ class NotificationManager
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
      * @param Model $_recipient Il destinatario
 =======
 =======
@@ -5522,9 +5637,12 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
+>>>>>>> 10292b60a (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -5580,6 +5698,7 @@ class NotificationManager
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -5746,6 +5865,8 @@ class NotificationManager
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
      * @param Model $recipient Il destinatario
      * @return array<string, mixed>
      */
@@ -5753,6 +5874,7 @@ class NotificationManager
     {
         // $logs = NotificationLog::forNotifiable($recipient)->get();
         //
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6027,6 +6149,7 @@ class NotificationManager
         
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -6145,6 +6268,10 @@ class NotificationManager
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -6244,6 +6371,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6252,6 +6380,23 @@ class NotificationManager
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6273,22 +6418,6 @@ class NotificationManager
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -6300,6 +6429,8 @@ class NotificationManager
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
 }
 =======
 } 
@@ -6332,6 +6463,9 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -6452,6 +6586,7 @@ class NotificationManager
 =======
 }
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -6647,3 +6782,7 @@ class NotificationManager
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)

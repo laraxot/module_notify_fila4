@@ -222,6 +222,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -230,6 +231,71 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -299,70 +365,6 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -394,6 +396,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 =======
@@ -487,6 +491,9 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
@@ -902,6 +909,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -1462,6 +1470,10 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
 class CreateNotificationTemplate extends XotBaseCreateRecord
 {
@@ -1682,6 +1694,7 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1690,6 +1703,71 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1759,70 +1837,6 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -1854,6 +1868,8 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
 }
 =======
 }
@@ -1944,6 +1960,9 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -2184,6 +2203,7 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 =======
 }
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -2789,3 +2809,7 @@ class CreateNotificationTemplate extends XotBaseCreateRecord
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)

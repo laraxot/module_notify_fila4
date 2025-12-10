@@ -275,8 +275,11 @@ use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -411,6 +414,7 @@ use function Safe\preg_replace;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -455,7 +459,11 @@ use function Safe\preg_replace;
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 10292b60a (.)
 
+=======
+>>>>>>> b19cd40 (.)
 use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,9 +614,11 @@ use function Safe\preg_replace;
 
 /**
  * Factory per la creazione di azioni WhatsApp.
+<<<<<<< HEAD
  *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,11 +760,15 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 =======
  * 
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
  *
@@ -951,6 +965,8 @@ use function Safe\preg_replace;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -1050,8 +1066,11 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1097,6 +1116,7 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1123,6 +1143,10 @@ final class WhatsAppActionFactory
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
 =======
     public function create(?string $driver = null): WhatsAppProviderActionInterface
@@ -1843,8 +1867,11 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2210,6 +2237,8 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
     public function create(?string $driver = null): WhatsAppProviderActionInterface
     {
         $driver = $driver ?? Config::get('whatsapp.default', 'twilio');
@@ -2246,6 +2275,9 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2295,6 +2327,7 @@ final class WhatsAppActionFactory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -2433,6 +2466,11 @@ final class WhatsAppActionFactory
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         // Verifica se la classe implementa l'interfaccia richiesta
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2489,8 +2527,11 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2605,6 +2646,7 @@ final class WhatsAppActionFactory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2633,7 +2675,12 @@ final class WhatsAppActionFactory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 10292b60a (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
         return app($className);
 >>>>>>> 75179b85 (.)
 =======

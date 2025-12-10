@@ -4,6 +4,8 @@
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> b19cd40 (.)
 <x-filament-panels::page>
     <div class="space-y-6">
         <div class="p-4 bg-white rounded-lg shadow">
@@ -273,6 +275,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -385,6 +388,7 @@ declare(strict_types=1);
 >>>>>>> 08fd62df (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -640,6 +644,8 @@ declare(strict_types=1);
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+=======
+>>>>>>> 10292b60a (.)
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     @foreach($this->record->variables as $key => $value)
                         <div class="col-span-1">
@@ -660,6 +666,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 =======
 <<<<<<< HEAD
@@ -781,6 +790,7 @@ declare(strict_types=1);
                         <div class="col-span-1">
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -871,6 +881,11 @@ declare(strict_types=1);
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
                             <div class="p-2 bg-gray-50 rounded">
                                 <span class="font-medium">{{ $key }}:</span>
                                 <span class="text-gray-600">{{ $value }}</span>
@@ -1010,6 +1025,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1069,6 +1085,10 @@ declare(strict_types=1);
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 =======
 =======
 <<<<<<< HEAD
@@ -1978,4 +1998,15 @@ declare(strict_types=1);
     </div>
 </x-filament-panels::page>
 =======
+<<<<<<< HEAD
 >>>>>>> 301ad8b44 (.)
+=======
+                        </x-filament::grid.column>
+                    @endforeach
+                </x-filament::grid>
+            </div>
+        </div>
+    </div>
+</x-filament-panels::page> 
+>>>>>>> b19cd40 (.)
+>>>>>>> 10292b60a (.)

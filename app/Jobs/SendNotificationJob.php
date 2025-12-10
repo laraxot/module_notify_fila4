@@ -560,6 +560,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -634,6 +635,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -940,6 +942,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -950,6 +956,7 @@ class SendNotificationJob implements ShouldQueue
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1157,6 +1164,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1303,6 +1311,8 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> e0d9c9be (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
         protected array $options = []
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -1357,6 +1367,9 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1427,6 +1440,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -1788,6 +1802,11 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -1800,6 +1819,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2135,6 +2155,7 @@ class SendNotificationJob implements ShouldQueue
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2195,6 +2216,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
         $action->execute(
             $this->recipient,
             $this->templateCode,
@@ -2227,6 +2250,9 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2328,6 +2354,7 @@ class SendNotificationJob implements ShouldQueue
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -2892,6 +2919,11 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 
     /**
@@ -3154,6 +3186,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3162,6 +3195,51 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3211,50 +3289,6 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3286,6 +3320,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
 }
 =======
 } 
@@ -3356,6 +3392,9 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -3476,6 +3515,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 }
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -3861,3 +3901,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)

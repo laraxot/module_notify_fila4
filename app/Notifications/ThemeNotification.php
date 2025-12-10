@@ -236,6 +236,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -390,6 +391,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -872,6 +874,10 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     public function __construct(
         public string $name,
         public array $view_params,
@@ -1090,6 +1096,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1106,6 +1113,127 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 22baa66d (rebase 210)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1235,126 +1363,6 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 4689a827 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 7325acf3 (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> dceba960 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> bd804d67 (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 22baa66d (rebase 210)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 2effe245 (.)
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> e790eb33 (.)
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 3ee54c5d (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> d09cb759 (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -1415,6 +1423,8 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 >>>>>>> bd804d67 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
     public function __construct(public string $name, public array $view_params)
     {
     }
@@ -1498,6 +1508,9 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1694,6 +1707,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -2217,6 +2231,11 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
     /**
      * Get the notification's delivery channels.
@@ -2439,6 +2458,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2447,6 +2467,71 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2516,70 +2601,6 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2611,6 +2632,8 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
         return $notifiable->getNotificationData($this->name, $this->view_params)->channels;
 =======
         return $notifiable
@@ -2703,6 +2726,9 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         return $notifiable->getNotificationData($this->name, $this->view_params)->channels;
 >>>>>>> 75179b85 (.)
@@ -2947,6 +2973,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
         return $notifiable->getNotificationData($this->name, $this->view_params)->channels;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -3550,6 +3577,10 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 
     /**
@@ -3773,6 +3804,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3781,6 +3813,71 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+=======
+>>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> a9bf0423 (rebase 210)
+=======
+>>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 9fe1b60e (rebase 210)
+=======
+>>>>>>> 8a8a8e2f (rebase 210)
+=======
+>>>>>>> b4f93b3a (rebase 210)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> 77edd94a (.)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+>>>>>>> f81a620f (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3850,70 +3947,6 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> e7a9a2bf (.)
-=======
->>>>>>> 9d67cabd (.)
-=======
->>>>>>> 9cdf6146 (.)
-=======
->>>>>>> 80f054e0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> 3b4c9907 (.)
-=======
->>>>>>> 5fe4f466 (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 51182e3c (rebase 210)
-=======
->>>>>>> cb85c538 (rebase 210)
-=======
->>>>>>> a9bf0423 (rebase 210)
-=======
->>>>>>> 460b8f5b (rebase 210)
-=======
->>>>>>> 9fe1b60e (rebase 210)
-=======
->>>>>>> 8a8a8e2f (rebase 210)
-=======
->>>>>>> b4f93b3a (rebase 210)
-=======
->>>>>>> 1375c94d (rebase 210)
-=======
->>>>>>> c5c038f2 (rebase 210)
-=======
->>>>>>> 030c9674 (rebase 210)
-=======
->>>>>>> 77edd94a (.)
-=======
->>>>>>> eea68ec9 (.)
-=======
->>>>>>> f81a620f (.)
-=======
->>>>>>> 06e3078e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3945,6 +3978,8 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10292b60a (.)
         $attachments = $notifiable->getNotificationData($this->name, $this->view_params)->attachments;
 =======
         $attachments = $notifiable
@@ -4037,6 +4072,9 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         $attachments = $notifiable->getNotificationData($this->name, $this->view_params)->attachments;
 >>>>>>> 75179b85 (.)
@@ -4281,6 +4319,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
         $attachments = $notifiable->getNotificationData($this->name, $this->view_params)->attachments;
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -4884,6 +4923,10 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
         $mail_message = app(BuildMailMessageAction::class)
             ->execute($this->name, $notifiable->getModel(), $this->view_params, $attachments);
@@ -5117,6 +5160,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5263,6 +5307,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -5745,6 +5790,10 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         return $notifiable->getNotificationData($this->name, $this->view_params)->getSmsData();
 
         /*
@@ -5756,6 +5805,7 @@ class ThemeNotification extends Notification implements ShouldQueue
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6053,6 +6103,8 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 1487fe812 (.)
 =======
+>>>>>>> 10292b60a (.)
+=======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -6184,6 +6236,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -6376,6 +6429,8 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 10292b60a (.)
         return $notifiable
             ->getNotificationData($this->name, $this->view_params)
             ->getSmsData();
@@ -6467,6 +6522,9 @@ class ThemeNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6671,6 +6729,7 @@ class ThemeNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -7193,6 +7252,11 @@ class ThemeNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         // $notifiable->sendSmsCallback()
     }
 

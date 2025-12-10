@@ -94,6 +94,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -153,6 +154,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -240,6 +242,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 return new class() extends XotBaseMigration {
 =======
 =======
@@ -539,6 +545,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -618,6 +625,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -688,6 +696,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
 return new class () extends XotBaseMigration {
     public function up(): void
     {
@@ -739,6 +749,9 @@ return new class () extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
@@ -749,6 +762,7 @@ return new class () extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
@@ -807,6 +821,8 @@ return new class () extends XotBaseMigration {
 =======
 >>>>>>> origin/develop
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
         $this->tableUpdate(
             function (Blueprint $table): void {
                 $this->updateTimestamps($table, true);
@@ -839,6 +855,9 @@ return new class () extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,6 +955,7 @@ return new class () extends XotBaseMigration {
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -1101,6 +1121,11 @@ return new class () extends XotBaseMigration {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 };
 =======

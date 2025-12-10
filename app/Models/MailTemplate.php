@@ -93,6 +93,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -152,6 +153,7 @@ namespace Modules\Notify\Models;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -452,6 +454,10 @@ use Modules\Xot\Models\Traits\HasXotFactory;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 //use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
 use Exception;
 use Carbon\Carbon;
@@ -533,12 +539,11 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -546,6 +551,11 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
@@ -572,6 +582,8 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
 use Exception;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
@@ -583,6 +595,9 @@ use Illuminate\Database\Eloquent\Collection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -671,6 +686,7 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -697,6 +713,8 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
 use Illuminate\Support\Str;
 use Spatie\Sluggable\HasSlug;
 //use Spatie\LaravelPackageTools\Concerns\Package\HasTranslations;
@@ -725,6 +743,9 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,6 +792,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -877,6 +899,11 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
 /**
 <<<<<<< HEAD
@@ -1659,6 +1686,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1669,6 +1697,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1679,6 +1708,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
     public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
 =======
     public array $translatable = ['subject', 'html_template', 'text_template','sms_template'];
@@ -1693,6 +1724,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
     public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
 >>>>>>> 75179b85 (.)
@@ -1774,6 +1808,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     public array $translatable = ['subject', 'html_template', 'text_template', 'sms_template'];
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1826,6 +1861,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
     /** @var list<string> */
 =======
@@ -2153,14 +2192,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> d09cb759 (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2169,6 +2205,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2187,6 +2230,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 10292b60a (.)
     public function getSlugOptions(): SlugOptions
     {
         return SlugOptions::create()->generateSlugsFrom('name')->saveSlugsTo('slug');
@@ -2201,6 +2246,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2233,6 +2281,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2245,6 +2294,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 10292b60a (.)
     public function getSlugOptions() : SlugOptions
     {
         return SlugOptions::create()
@@ -2260,6 +2311,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2376,6 +2430,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
     {
         return SlugOptions::create()->generateSlugsFrom('name')->saveSlugsTo('slug');
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -2798,12 +2853,18 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     }
 
     public function scopeForMailable(Builder $query, Mailable $mailable): Builder
     {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2949,6 +3010,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3062,6 +3124,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         if (!method_exists($mailable, 'getSlug')) {
             throw new Exception('Il metodo getSlug() non è definito nella classe ' . $mailable::class);
         }
@@ -3273,10 +3339,13 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3429,6 +3498,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
         if(!method_exists($mailable, 'getSlug')){
             throw new Exception('Il metodo getSlug() non è definito nella classe '.$mailable::class);
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -3463,6 +3533,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
         }
         $slug=$mailable->getSlug();
         return $query
@@ -3489,6 +3561,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3531,6 +3606,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -3820,6 +3896,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
     /*
      * Versioni del template email.
      *
@@ -3901,6 +3982,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3983,6 +4065,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -4137,6 +4220,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
      *
      * public function versions(): HasMany
      * {
@@ -4228,6 +4315,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -4254,6 +4342,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4315,6 +4405,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -4372,6 +4463,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
 
     public function versions(): HasMany
     {
@@ -4411,6 +4504,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4505,6 +4601,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -4670,6 +4767,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
      * Create a new version of the template.
      *
      * @param string $createdBy The user who created the version
@@ -4752,6 +4854,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4834,6 +4937,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -4988,6 +5092,10 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
      * public function createNewVersion(string $createdBy, ?string $notes = null): self
      * {
      * $this->versions()->create([
@@ -5083,6 +5191,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -5109,6 +5218,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5170,6 +5281,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -5227,6 +5339,8 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
     public function createNewVersion(string $createdBy, ?string $notes = null): self
     {
         $this->versions()->create([
@@ -5272,6 +5386,9 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5365,6 +5482,7 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
@@ -5531,6 +5649,11 @@ class MailTemplate extends SpatieMailTemplate implements MailTemplateInterface
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

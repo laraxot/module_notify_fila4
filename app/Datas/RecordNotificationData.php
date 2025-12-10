@@ -82,6 +82,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -489,6 +490,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
 =======
+>>>>>>> 10292b60a (.)
+=======
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -517,8 +520,11 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
 =======
@@ -616,6 +622,7 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -673,6 +680,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 10292b60a (.)
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
@@ -705,6 +714,9 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -804,6 +816,7 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
@@ -969,6 +982,11 @@ use Webmozart\Assert\Assert;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 
 class RecordNotificationData extends Data
 {
@@ -1107,6 +1125,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1181,6 +1200,7 @@ class RecordNotificationData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -1328,6 +1348,10 @@ class RecordNotificationData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1402,8 +1426,11 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1479,6 +1506,7 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1501,6 +1529,8 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 011072e4 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
         switch($this->channel){
             case 'mail':
                 Assert::string($email=$this->record->email);
@@ -1518,6 +1548,11 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1918,6 +1953,29 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+        throw new \Exception('Channel ['.$this->channel.'] not supported');
+    }
+
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 10292b60a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1992,6 +2050,7 @@ class RecordNotificationData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2044,6 +2103,8 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

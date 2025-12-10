@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -124,6 +125,7 @@
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -270,6 +272,10 @@
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 <?php
 
 declare(strict_types=1);
@@ -2229,8 +2235,39 @@ declare(strict_types=1);
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+=======
+<x-filament-panels::page>
+    <x-filament::section>
+        <x-slot name="heading">
+            Test Invio Notifiche Push
+        </x-slot>
+
+        <x-slot name="description">
+            Utilizza questo form per testare l'invio di notifiche push ai dispositivi mobili tramite diversi servizi.
+        </x-slot>
+
+        {{ $this->notificationForm }}
+
+        <x-slot name="footer">
+            <div class="flex items-center justify-between gap-x-3">
+                <div>
+                    <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification()" />
+                </div>
+                <div>
+                    <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
+                </div>
+            </div>
+        </x-slot>
+    </x-filament::section>
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 </x-filament-panels::page>
 =======
 >>>>>>> 301ad8b44 (.)

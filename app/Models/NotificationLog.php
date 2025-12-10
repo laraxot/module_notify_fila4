@@ -102,6 +102,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -913,6 +914,7 @@ class NotificationLog extends Model
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -958,6 +960,10 @@ class NotificationLog extends Model
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -1110,6 +1116,9 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
@@ -1127,6 +1136,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1140,6 +1150,8 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 2effe245 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
 use Illuminate\Support\Carbon;
 use Modules\Predict\Models\Profile;
 use Illuminate\Database\Eloquent\Builder;
@@ -1155,10 +1167,15 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\User\Models\Traits\HasTenants;
 use Modules\Xot\Traits\Updater;
@@ -1301,6 +1318,9 @@ class NotificationLog extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -1733,6 +1753,8 @@ final class NotificationLog extends BaseModel
 =======
      * Ottiene il notifiable associato a questo log.
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
      */
     protected $table = 'notification_logs';
 
@@ -1938,8 +1960,11 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1996,6 +2021,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2034,6 +2060,10 @@ final class NotificationLog extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -2090,15 +2120,11 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
-=======
->>>>>>> d09cb759 (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2109,6 +2135,14 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 =======
@@ -2128,6 +2162,8 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
      * Get the notification template.
      *
      * @return BelongsTo<NotificationTemplate, \Modules\Notify\Models\NotificationLog>
@@ -2140,6 +2176,11 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2598,7 +2639,14 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2662,6 +2710,7 @@ final class NotificationLog extends BaseModel
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2714,12 +2763,15 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
         return $query->where('status', $status);
     }
 
     /**
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2874,6 +2926,7 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3031,6 +3084,10 @@ final class NotificationLog extends BaseModel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -3124,6 +3181,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3138,6 +3196,35 @@ final class NotificationLog extends BaseModel
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3174,34 +3261,6 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> d09cb759 (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
-=======
->>>>>>> 4689a827 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
-=======
->>>>>>> f2e64178 (.)
-=======
-=======
->>>>>>> 2effe245 (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
-=======
->>>>>>> d09cb759 (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3223,6 +3282,8 @@ final class NotificationLog extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
      * Scope to filter by channel.
      *
      * @param Builder<static> $query
@@ -3231,6 +3292,7 @@ final class NotificationLog extends BaseModel
     public function scopeForChannel($query, string $channel)
     {
         return $query->where('channel', $channel);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3292,11 +3354,110 @@ final class NotificationLog extends BaseModel
 =======
 =======
 =======
->>>>>>> 3f537838 (.)
-=======
-=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+=======
+>>>>>>> 3f537838 (.)
+=======
+    }
+
+    /**
+     * Scope to filter by notifiable entity.
+     *
+     * @param Builder<static> $query
+     * @return Builder<static>
+     */
+    public function scopeForNotifiable($query, Model $notifiable)
+    {
+        return $query->where('notifiable_type', get_class($notifiable))
+            ->where('notifiable_id', $notifiable->getKey());
+    }
+
+    /**
+     * Mark the notification as sent.
+     */
+    public function markAsSent(): self
+    {
+        $this->update([
+            'status' => self::STATUS_SENT,
+            'sent_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as delivered.
+     */
+    public function markAsDelivered(): self
+    {
+        $this->update([
+            'status' => self::STATUS_DELIVERED,
+            'delivered_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as failed.
+     */
+    public function markAsFailed(?string $message = null): self
+    {
+        $this->update([
+            'status' => self::STATUS_FAILED,
+            'status_message' => $message,
+            'failed_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as opened.
+     */
+    public function markAsOpened(): self
+    {
+        $this->update([
+            'status' => self::STATUS_OPENED,
+            'opened_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Mark the notification as clicked.
+     */
+    public function markAsClicked(): self
+    {
+        $this->update([
+            'status' => self::STATUS_CLICKED,
+            'clicked_at' => now(),
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Get the status label attribute.
+     */
+    public function getStatusLabelAttribute(): string
+    {
+        return (string) __('notify::notification.fields.status.'.$this->status);
+    }
+
+    /**
+     * Get the channel label attribute.
+     */
+    public function getChannelLabelAttribute(): string
+    {
+        return (string) __('notify::notification.fields.channel.options.'.$this->channel.'.label');
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
     }
 
     /**

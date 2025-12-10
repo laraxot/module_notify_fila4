@@ -52,6 +52,9 @@ use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 >>>>>>> 82ae73be (.)
@@ -69,6 +72,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -186,6 +190,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 12f2f7e (.)
 >>>>>>> 4e4a7796 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 10292b60a (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -268,6 +274,7 @@ class CleanupNotificationLogsCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
         $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
 =======
@@ -298,6 +305,7 @@ class CleanupNotificationLogsCommand extends Command
         $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
         $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
         $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
         $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
@@ -351,6 +359,8 @@ class CleanupNotificationLogsCommand extends Command
         $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
 >>>>>>> 3f537838 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 10292b60a (.)
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
@@ -389,6 +399,7 @@ class CleanupNotificationLogsCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $query->where('status', '!=', NotificationLogStatusEnum::FAILED);
 =======
             $query->where('status', '!=', NotificationLog::STATUS_FAILED);
@@ -411,12 +422,15 @@ class CleanupNotificationLogsCommand extends Command
 =======
             $query->where('status', '!=', NotificationLog::STATUS_FAILED);
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
             $query->where('status', '!=', NotificationLog::STATUS_FAILED);
 >>>>>>> d09cb759 (.)
 =======
             $query->where('status', '!=', NotificationLogStatusEnum::FAILED);
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 10292b60a (.)
         }
 
         $totalDeleted = 0;

@@ -400,6 +400,7 @@ class SmsDriverEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -418,6 +419,7 @@ class SmsDriverEnumTest extends TestCase
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -572,10 +574,13 @@ class SmsDriverEnumTest extends TestCase
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 10292b60a (.)
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 =======
         $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -668,6 +673,8 @@ class SmsDriverEnumTest extends TestCase
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> 75179b85 (.)
@@ -851,7 +858,12 @@ class SmsDriverEnumTest extends TestCase
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

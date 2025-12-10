@@ -83,6 +83,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -91,6 +92,23 @@ declare(strict_types=1);
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -112,22 +130,6 @@ declare(strict_types=1);
 =======
 >>>>>>> 207ac35e (.)
 =======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> ce89c8bb (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -140,6 +142,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+>>>>>>> 10292b60a (.)
 namespace Modules\Notify\Tests\Unit;
 
 >>>>>>> b19cd40 (.)
@@ -171,6 +175,9 @@ namespace Modules\Notify\Tests\Unit;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -201,6 +208,7 @@ namespace Modules\Notify\Tests\Unit;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -355,6 +363,10 @@ namespace Modules\Notify\Tests\Unit;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Notifications\GenericNotification;
 
@@ -452,6 +464,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -470,14 +483,17 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
@@ -512,6 +528,9 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $notifiable = new class {
 =======
         $notifiable = new class
@@ -531,6 +550,9 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         $notifiable = new class {
 >>>>>>> 75179b85 (.)
@@ -635,6 +657,7 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
         $notifiable = new class {
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -1061,6 +1084,10 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
             public function getFullName(): string
             {
                 return 'John Doe';
@@ -1165,6 +1192,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -1181,14 +1209,17 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 1487fe812 (.)
 =======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
@@ -1223,6 +1254,9 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $model = new class extends Model {
 =======
         $model = new class extends Model
@@ -1242,6 +1276,9 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10292b60a (.)
 =======
         $model = new class extends Model {
 >>>>>>> 75179b85 (.)
@@ -1349,6 +1386,7 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
         $model = new class extends Model {
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -1783,6 +1821,10 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
             protected $attributes = [
                 'full_name' => 'Jane Roe',
             ];
@@ -1886,6 +1928,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 98d837b9 (.)
@@ -2004,6 +2047,7 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
@@ -2433,6 +2477,10 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
         $model1 = new class extends Model {
             protected $attributes = ['first_name' => 'Alice'];
         };
@@ -2457,6 +2505,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -2466,6 +2515,8 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2496,6 +2547,7 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 82ae73be (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -2516,6 +2568,8 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 10292b60a (.)
         $model1 = new class extends Model
         {
             protected $attributes = ['first_name' => 'Alice'];
@@ -2529,6 +2583,7 @@ describe('GenericNotification getRecipientName', function (): void {
         $model3 = new class extends Model
         {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2651,6 +2706,8 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 10292b60a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2791,7 +2848,12 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 10292b60a (.)
             protected $attributes = [];
         };
 
