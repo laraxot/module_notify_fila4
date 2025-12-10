@@ -15,42 +15,7 @@ interface SmsActionContract
     /**
      * Invia un SMS utilizzando il provider specifico.
      *
-<<<<<<< HEAD
-     * @param  SmsData  $smsData  I dati del messaggio SMS
      * @param SmsData $smsData I dati del messaggio SMS
-     * @param  SmsData  $smsData  I dati del messaggio SMS
-     * @param SmsData $smsData I dati del messaggio SMS
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8b1c8bf (.)
-     * @param  SmsData  $smsData  I dati del messaggio SMS
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 75179b8 (.)
-<<<<<<< HEAD
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 75179b85 (.)
-=======
-     * @param  SmsData  $smsData  I dati del messaggio SMS
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
-=======
->>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
->>>>>>> 7624f916 (.)
-=======
-=======
-     * @param SmsData $smsData I dati del messaggio SMS
->>>>>>> 75179b85 (.)
->>>>>>> c5a0a4b2 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(SmsData $smsData): array;

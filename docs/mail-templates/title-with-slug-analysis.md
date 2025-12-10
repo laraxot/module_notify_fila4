@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 26f580eb (.)
 # Analisi del Pacchetto Filament Title With Slug
 
 ## Panoramica
@@ -139,15 +135,7 @@ TitleWithSlugInput::make()
 ```php
 use Camya\Filament\Forms\Components\TitleWithSlugInput;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public static function form(Form $form): Form
->>>>>>> c5a0a4b2 (.)
-=======
-public static function form(Form $form): Form
->>>>>>> 26f580eb (.)
 {
     return $form
         ->schema([
@@ -214,8 +202,3 @@ TitleWithSlugInput::make()
 - Versioning
 - Testing
 - Documentazione 
-<<<<<<< HEAD
-=======
->>>>>>> d151b9c1 (.)
-=======
->>>>>>> 26f580eb (.)

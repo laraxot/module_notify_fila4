@@ -2,50 +2,7 @@
 
 ## Introduzione
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
-=======
-SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
->>>>>>> f963d2c0 (.)
-=======
-SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
->>>>>>> f963d2c0 (.)
-=======
-SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
->>>>>>> f963d2c0 (.)
-=======
-SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
->>>>>>> f963d2c0 (.)
-=======
-<nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
-=======
-=======
-<nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-<main module> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
-=======
-SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
->>>>>>> f963d2c0 (.)
 
 Questo documento spiega in dettaglio i motivi architetturali, i vantaggi e l'implementazione di questo pattern.
 
@@ -99,73 +56,7 @@ abstract class XotBasePage extends Page implements HasForms
     }
 
     // Form standardizzato
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 2a97406c (.)
-=======
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 2a97406c (.)
-=======
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
-    public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -217,73 +108,7 @@ public static function getNavigationLabel(): string
 Prima (❌):
 ```php
 // In ogni classe Page
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 2a97406c (.)
-=======
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
-=======
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 2a97406c (.)
-=======
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public function form(Form $form): Form
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
-public function form(Form $form): Form
->>>>>>> f963d2c0 (.)
 {
     return $form
         ->schema([
@@ -324,50 +149,7 @@ protected function getFormSchema(): array
 Per verificare che tutte le classi seguano questa regola:
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
->>>>>>> f963d2c0 (.)
-=======
-find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
-=======
-=======
-find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-find /var/www/html/<directory progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
->>>>>>> f963d2c0 (.)
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.

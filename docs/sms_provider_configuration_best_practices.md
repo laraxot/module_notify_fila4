@@ -73,50 +73,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-=======
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', '<main module>'),
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),

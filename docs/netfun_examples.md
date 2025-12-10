@@ -34,45 +34,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
         );
     }
 
@@ -238,45 +200,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: $message,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>'
-=======
-            sender: 'SALUTEORA'
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-            sender: 'SALUTEORA'
->>>>>>> f963d2c0 (.)
         );
     }
 
@@ -517,45 +441,7 @@ public function sendBulkSms(Request $request)
         $results = SendBulkSmsAction::make(
             users: $users,
             message: $request->message,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             sender: '<nome progetto>',
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>',
-=======
-            sender: 'SALUTEORA',
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
-=======
-            sender: '<nome progetto>',
-=======
-            sender: 'SALUTEORA',
->>>>>>> 7bac387 (.)
->>>>>>> 36ac4fc1 (.)
-=======
-            sender: 'SALUTEORA',
->>>>>>> f963d2c0 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();

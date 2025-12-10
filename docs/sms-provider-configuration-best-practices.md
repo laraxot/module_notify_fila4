@@ -73,73 +73,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 
 ```php
 // ❌ ERRATO
-<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fbed41ac (.)
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> fbed41ac (.)
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
-=======
-'sender' => env('NETFUN_SENDER', '<nome progetto>'),
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-'sender' => env('NETFUN_SENDER', '<main module>'),
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-=======
->>>>>>> 5e14ac3 (.)
->>>>>>> fbed41ac (.)
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
->>>>>>> 5e14ac3 (.)
->>>>>>> fbed41ac (.)
-<<<<<<< HEAD
->>>>>>> 7624f916 (.)
-=======
-=======
-'sender' => env('NETFUN_SENDER', 'SaluteOra'),
->>>>>>> f963d2c0 (.)
->>>>>>> 26f580eb (.)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),

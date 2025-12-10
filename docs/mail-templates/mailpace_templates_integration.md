@@ -2,50 +2,7 @@
 
 ## Panoramica
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
-=======
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <main module>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
->>>>>>> f963d2c0 (.)
 
 ## Template Disponibili
 
@@ -71,50 +28,7 @@ MailPace offre i seguenti template transazionali:
 ### Struttura della Directory
 
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
->>>>>>> f963d2c0 (.)
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
-=======
-=======
-/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-/var/www/html/<directory progetto>/laravel/Modules/Notify/resources/mail-layouts/
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
->>>>>>> f963d2c0 (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -175,50 +89,7 @@ $mailTemplate->send($user->email, [
 1. **Mantieni la Struttura Base** - Non modificare la struttura HTML base per garantire compatibilità
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
-=======
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <main module>
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
->>>>>>> f963d2c0 (.)
 
 ## Riferimenti
 

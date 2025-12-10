@@ -2,50 +2,7 @@
 
 ## Panoramica
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
-=======
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <main module>.
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
->>>>>>> f963d2c0 (.)
 
 ## Implementazione nel Form Schema
 
@@ -85,50 +42,7 @@ public static function getFormSchema(): array
 3. **Validazione Unicità**: L'opzione `unique(ignoreRecord: true)` garantisce unicità, escludendo il record corrente durante l'aggiornamento.
 4. **Generazione Automatica**: La callback `afterStateUpdated()` genera automaticamente lo slug dal nome quando si crea un nuovo record.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
-## Conformità con gli Standard <nome progetto>
-=======
-=======
-## Conformità con gli Standard <nome progetto>
-=======
->>>>>>> 36ac4fc1 (.)
-<<<<<<< HEAD
-## Conformità con gli Standard <main module>
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-## Conformità con gli Standard SaluteOra
->>>>>>> f963d2c0 (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -146,45 +60,9 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- * Campo slug in getTableColumns()
- */
-public static function getTableColumns(): array
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 36ac4fc1 (.)
  * Campo slug in getListTableColumns()
  */
 public static function getListTableColumns(): array
-=======
-<<<<<<< HEAD
- * Campo slug in getTableColumns()
- */
-public static function getTableColumns(): array
-=======
- * Campo slug in getListTableColumns()
- */
-public static function getListTableColumns(): array
->>>>>>> 7bac387 (.)
->>>>>>> 9ed014c (.)
-<<<<<<< HEAD
->>>>>>> 36ac4fc1 (.)
-=======
- * Campo slug in getListTableColumns()
- */
-public static function getListTableColumns(): array
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
- * Campo slug in getListTableColumns()
- */
-public static function getListTableColumns(): array
->>>>>>> f963d2c0 (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')

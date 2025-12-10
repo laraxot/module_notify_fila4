@@ -38,35 +38,6 @@
             "Modules\\Notify\\Database\\Seeders\\": "database/seeders/"
         }
     },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8b1c8bf (.)
->>>>>>> 7624f916 (.)
-    "autoload-dev": {
-        "psr-4": {
-            "Modules\\Notify\\Tests\\": "tests/"
-        }
-    },
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 75179b8 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> c8b1c8bf (.)
-<<<<<<< HEAD
->>>>>>> 7624f916 (.)
-=======
-=======
->>>>>>> 75179b85 (.)
->>>>>>> c5a0a4b2 (.)
     "require": {
         "aws/aws-sdk-php": "*",
         "filament/filament": "*",
