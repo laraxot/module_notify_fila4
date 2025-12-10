@@ -112,6 +112,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -453,7 +454,17 @@ declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 1b6ddbbc (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -539,6 +550,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1087,13 +1099,25 @@ class NetfunChannel
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 1b6ddbbc (.)
 
+=======
+    
+>>>>>>> b19cd40 (.)
     public function __construct(SendNetfunSMSAction $sendSMSAction)
     {
         $this->sendSMSAction = $sendSMSAction;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b19cd40 (.)
     /**
      * Invia la notifica tramite Netfun SMS
 <<<<<<< HEAD
@@ -2077,7 +2101,11 @@ class NetfunChannel
 >>>>>>> c5a0a4b2 (.)
             return null;
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         $to = $notifiable->routeNotificationForNetfun($notification);
 <<<<<<< HEAD
         if (!$to) {
@@ -2111,7 +2139,11 @@ class NetfunChannel
 >>>>>>> c5a0a4b2 (.)
             return null;
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b19cd40 (.)
         // Ottieni il messaggio dalla notifica
 <<<<<<< HEAD
         if (!method_exists($notification, 'toNetfun')) {
@@ -2223,8 +2255,15 @@ class NetfunChannel
         if (!method_exists($notification, 'toNetfun')) {
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+>>>>>>> 1b6ddbbc (.)
 
         $message = $notification->toNetfun($notifiable);
 
@@ -2244,6 +2283,7 @@ class NetfunChannel
         
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2439,7 +2479,13 @@ class NetfunChannel
 =======
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+>>>>>>> 1b6ddbbc (.)
         
         $message = $notification->toNetfun($notifiable);
         
@@ -2476,6 +2522,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2650,6 +2697,12 @@ class NetfunChannel
 =======
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+>>>>>>> 1b6ddbbc (.)
     }
 }

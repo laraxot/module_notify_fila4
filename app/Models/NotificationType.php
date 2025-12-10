@@ -189,6 +189,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -673,7 +674,11 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 7624f916 (.)
 =======
 =======
+=======
+>>>>>>> 82ae73be (.)
 
+=======
+>>>>>>> b19cd40 (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
