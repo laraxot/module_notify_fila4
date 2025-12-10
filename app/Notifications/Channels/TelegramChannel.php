@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -394,6 +395,13 @@ declare(strict_types=1);
 
 
 >>>>>>> 75179b85 (.)
+=======
+declare(strict_types=1);
+
+
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -692,6 +700,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -732,10 +741,13 @@ class TelegramChannel
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
             'message' => $message,
 =======
             'message' => $message
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -982,6 +994,8 @@ class TelegramChannel
 =======
             'message' => $message,
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
         ]);
     }
 }

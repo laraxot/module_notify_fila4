@@ -234,6 +234,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $emailData = [];
 =======
 <<<<<<< HEAD
@@ -351,13 +352,20 @@ class SendEmail extends Page implements HasForms
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
     public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +494,11 @@ class SendEmail extends Page implements HasForms
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 
     public function mount(): void
     {
@@ -548,6 +561,7 @@ class SendEmail extends Page implements HasForms
     public function emailForm(Schema $schema): Schema
     {
         return $schema
+<<<<<<< HEAD
             ->components([
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
@@ -560,6 +574,26 @@ class SendEmail extends Page implements HasForms
                         RichEditor::make('body_html')->required(),
                     ]),
             ])
+=======
+            ->components(
+                [
+                    Section::make()
+                        // ->description('Update your account\'s profile information and email address.')
+                        ->schema(
+                            [
+                                TextInput::make('to')
+                                    // ->unique(ignoreRecord: true)
+                                    ->email()
+                                    ->required(),
+                                TextInput::make('subject')
+                                    ->required(),
+                                RichEditor::make('body_html')
+                                    ->required(),
+                            ]
+                        ),
+                ]
+            )
+>>>>>>> b19cd40 (.)
             ->model($this->getUser())
             ->statePath('emailData');
     }
@@ -591,7 +625,14 @@ class SendEmail extends Page implements HasForms
         $email_data = EmailData::from($data);
         // $from_address = config('mail.from.address');
 
+<<<<<<< HEAD
         Mail::to($data['to'])->send(new EmailDataEmail($email_data));
+=======
+        Mail::to($data['to'])
+            ->send(
+                new EmailDataEmail($email_data)
+            );
+>>>>>>> b19cd40 (.)
 
         Notification::make()
             ->success()
@@ -610,7 +651,13 @@ class SendEmail extends Page implements HasForms
     protected function getEmailFormActions(): array
     {
         return [
+<<<<<<< HEAD
             Action::make('emailFormActions')->submit('emailFormActions'),
+=======
+            Action::make('emailFormActions')
+
+                ->submit('emailFormActions'),
+>>>>>>> b19cd40 (.)
         ];
     }
 
@@ -618,6 +665,7 @@ class SendEmail extends Page implements HasForms
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -653,6 +701,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -715,6 +765,10 @@ class SendEmail extends Page implements HasForms
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+=======
+        if (! $user instanceof Model) {
+            throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
+>>>>>>> b19cd40 (.)
         }
 
         return $user;
