@@ -63,6 +63,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -185,6 +186,8 @@
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
 # Spatie Laravel Database Mail Templates
 
 ## Introduzione
@@ -287,6 +290,7 @@ In questo progetto, i layout HTML delle email sono memorizzati in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 =======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
@@ -603,6 +607,11 @@ In questo progetto, i layout HTML delle email sono memorizzati in:
 =======
 /var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 66453ace (.)
+=======
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 23cbbaf5 (.)
 ```
 
 Questi layout forniscono la struttura base per tutte le email, con un placeholder `{{{ body }}}` dove verrà inserito il contenuto specifico del template.
@@ -742,6 +751,7 @@ MailTemplate::create([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
@@ -817,12 +827,15 @@ MailTemplate::create([
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1137,6 +1150,8 @@ MailTemplate::create([
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su SaluteOra. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su SaluteOra. Visita {{ activationUrl }} per attivare il tuo account.'
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
 ]);
 ```
 
@@ -1245,6 +1260,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title><nome progetto></title>
 <<<<<<< HEAD
 =======
@@ -1519,6 +1535,10 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 =======
     <title>SaluteOra</title>
 >>>>>>> 66453ace (.)
+=======
+    <title><nome progetto></title>
+    <title><nome progetto></title>
+>>>>>>> 23cbbaf5 (.)
     <style>
         /* Stili CSS inline */
         body { 
@@ -1624,6 +1644,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h1><nome progetto></h1>
 <<<<<<< HEAD
 =======
@@ -1898,6 +1919,10 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 =======
         <h1>SaluteOra</h1>
 >>>>>>> 66453ace (.)
+=======
+        <h1><nome progetto></h1>
+        <h1><nome progetto></h1>
+>>>>>>> 23cbbaf5 (.)
     </div>
     
     <div class="content">
@@ -1981,6 +2006,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
 <<<<<<< HEAD
 =======
@@ -2255,6 +2281,10 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 =======
         <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
 >>>>>>> 66453ace (.)
+=======
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+>>>>>>> 23cbbaf5 (.)
         <p>Se hai ricevuto questa email per errore, per favore ignorala o contattaci.</p>
     </div>
 </body>
@@ -2342,6 +2372,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
 <<<<<<< HEAD
 =======
@@ -2616,6 +2647,10 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 =======
 <h2>Benvenuto su SaluteOra, {{ name }}!</h2>
 >>>>>>> 66453ace (.)
+=======
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+>>>>>>> 23cbbaf5 (.)
 
 <p>Siamo felici di darti il benvenuto sulla nostra piattaforma.</p>
 
@@ -2706,6 +2741,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p>Grazie,<br>Il team di <nome progetto></p>
 <<<<<<< HEAD
 =======
@@ -2980,6 +3016,10 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 =======
 <p>Grazie,<br>Il team di SaluteOra</p>
 >>>>>>> 66453ace (.)
+=======
+<p>Grazie,<br>Il team di <nome progetto></p>
+<p>Grazie,<br>Il team di <nome progetto></p>
+>>>>>>> 23cbbaf5 (.)
 ```
 
 ## Best Practices
@@ -3050,6 +3090,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -3180,3 +3221,5 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
