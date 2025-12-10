@@ -114,6 +114,7 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -136,6 +137,8 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 >>>>>>> 753ea7aca (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 275b7ad99 (.)
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
 =======
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di , con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
@@ -286,6 +289,7 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 =======
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
 >>>>>>> c7a4727b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -813,6 +817,8 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
 
 ## Confronto tra Pattern Architetturali
 

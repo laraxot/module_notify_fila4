@@ -66,6 +66,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 >>>>>>> 75179b855 (.)
@@ -140,11 +141,9 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
-Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 =======
-Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
-Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
->>>>>>> bf479cc (.)
+>>>>>>> 275b7ad99 (.)
+Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 
 ## Impatto del Problema
 
@@ -157,6 +156,7 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 ### Esempi di Violazioni Trovate
 ```php
 // ❌ ERRORE CRITICO - Stringhe hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,12 +274,15 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
 'subject' => 'Benvenuto su SaluteOra',
 'content' => 'Grazie per esserti registrato su SaluteOra',
 'clinic_name' => 'Studio Dentistico SaluteOra',
 'webhook' => 'https://api.saluteora.com/webhooks',
 'author' => 'Team SaluteOra',
 'path' => '/var/www/html/saluteora/public_html/images/',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -438,6 +441,8 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
 ```
 
 ## Soluzioni Implementate
@@ -528,6 +533,7 @@ $notificationData = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - ****: Solo per progetto 
 >>>>>>> 75179b855 (.)
@@ -602,11 +608,9 @@ $notificationData = [
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
-- **SaluteOra**: Solo per progetto SaluteOra
 =======
-- ****: Solo per progetto 
-- ****: Solo per progetto <nome progetto>
->>>>>>> bf479cc (.)
+>>>>>>> 275b7ad99 (.)
+- **SaluteOra**: Solo per progetto SaluteOra
 - **SaluteMo**: Solo per progetto SaluteMo
 - **Patient**: Solo per progetti sanitari specifici
 
@@ -662,6 +666,7 @@ Eseguire regolarmente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
@@ -741,20 +746,12 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
 grep -r "saluteora\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/UI/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/Xot/ --include="*.php"
-=======
-grep -r "<nome progetto>\|salutemo" laravel/Modules/Notify/ --include="*.php"
-grep -r "<nome progetto>\|salutemo" laravel/Modules/User/ --include="*.php"
-grep -r "<nome progetto>\|salutemo" laravel/Modules/UI/ --include="*.php"
-grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
-grep -r "<nome progetto>\|salutemo" laravel/Modules/Notify/ --include="*.php"
-grep -r "<nome progetto>\|salutemo" laravel/Modules/User/ --include="*.php"
-grep -r "<nome progetto>\|salutemo" laravel/Modules/UI/ --include="*.php"
-grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
->>>>>>> bf479cc (.)
 ```
 
 ## Configurazione per Progetti
@@ -797,6 +794,7 @@ grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
@@ -877,23 +875,13 @@ REPOSITORY_URL=https://github.com/<nome progetto>/notify
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 275b7ad99 (.)
 COMPANY_NAME=SaluteOra
 COMPANY_TEAM=Team SaluteOra
 WEBHOOK_BASE_URL=https://api.saluteora.com
 CLINIC_NAME=Studio Dentistico SaluteOra
 REPOSITORY_URL=https://github.com/saluteora/notify
-=======
-COMPANY_NAME=
-COMPANY_TEAM=Team 
-WEBHOOK_BASE_URL=https://api.<nome progetto>.com
-CLINIC_NAME=Studio Dentistico 
-REPOSITORY_URL=https://github.com/<nome progetto>/notify
-COMPANY_NAME=<nome progetto>
-COMPANY_TEAM=Team <nome progetto>
-WEBHOOK_BASE_URL=https://api.<nome progetto>.com
-CLINIC_NAME=Studio Dentistico <nome progetto>
-REPOSITORY_URL=https://github.com/<nome progetto>/notify
->>>>>>> bf479cc (.)
 ```
 
 ### Override per Progetti Specifici
