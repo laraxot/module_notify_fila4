@@ -95,6 +95,7 @@ class MailTemplateVersionPolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class MailTemplateVersionPolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
@@ -834,4 +835,12 @@ class MailTemplateVersionPolicy extends NotifyBasePolicy
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+class MailTemplateVersionPolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)

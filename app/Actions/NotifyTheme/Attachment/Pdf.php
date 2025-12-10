@@ -94,6 +94,7 @@ class Pdf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -266,7 +267,12 @@ class Pdf
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
         if (isset($view_params[$file_name])) {
             $file_name = $view_params[$file_name];
@@ -448,6 +454,7 @@ class Pdf
         $file_name = Str::slug($notify_theme_data->subject).'.pdf';
         $file_name = Str::slug($notify_theme_data->subject) . '.pdf';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -887,6 +894,11 @@ class Pdf
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
     }
 }

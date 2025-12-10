@@ -94,6 +94,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -185,6 +186,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f537838 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 =======
@@ -420,6 +423,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1497,7 +1501,12 @@ expect()->extend('toBeMailTemplate', function () {
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 
 function createNotification(array $attributes = []): Notification
 {
@@ -1517,28 +1526,4 @@ function createMailTemplate(array $attributes = []): MailTemplate
 function makeMailTemplate(array $attributes = []): MailTemplate
 {
     return MailTemplate::factory()->make($attributes);
-<<<<<<< HEAD
-=======
-=======
-
-function createNotification(array $attributes = []): \Modules\Notify\Models\Notification
-{
-    return \Modules\Notify\Models\Notification::factory()->create($attributes);
-}
-
-function makeNotification(array $attributes = []): \Modules\Notify\Models\Notification
-{
-    return \Modules\Notify\Models\Notification::factory()->make($attributes);
-}
-
-function createMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
-{
-    return \Modules\Notify\Models\MailTemplate::factory()->create($attributes);
-}
-
-function makeMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
-{
-    return \Modules\Notify\Models\MailTemplate::factory()->make($attributes);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 }

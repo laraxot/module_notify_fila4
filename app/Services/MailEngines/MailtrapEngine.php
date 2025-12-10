@@ -39,6 +39,7 @@ use InvalidArgumentException;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use InvalidArgumentException;
 =======
 =======
@@ -170,7 +171,13 @@ use InvalidArgumentException;
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+use InvalidArgumentException;
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
@@ -363,6 +370,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -842,7 +850,13 @@ class MailtrapEngine
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+    public null|string $from = null;
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 
     public string $to;
 
@@ -916,6 +930,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1462,7 +1477,12 @@ class MailtrapEngine
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -1470,34 +1490,6 @@ class MailtrapEngine
     public static function getInstance(): self
     {
         if (!(self::$instance instanceof self)) {
-<<<<<<< HEAD
-=======
-=======
-    public ?string $body = null;
-=======
-    public null|string $body = null;
->>>>>>> b93ef594b4 (.)
-
-    private static null|self $instance = null;
-
-    public static function getInstance(): self
-    {
-<<<<<<< HEAD
-        if (! self::$instance instanceof self) {
->>>>>>> a12f125f4a (.)
-=======
-        if (!(self::$instance instanceof self)) {
->>>>>>> b93ef594b4 (.)
-=======
-    public ?string $body = null;
-
-    private static ?self $instance = null;
-
-    public static function getInstance(): self
-    {
-        if (! self::$instance instanceof self) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             self::$instance = new self();
 <<<<<<< HEAD
         if (! self::$instance instanceof self) {
@@ -1723,6 +1715,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 >>>>>>> 58816034 (.)
@@ -2191,7 +2184,13 @@ class MailtrapEngine
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
             $to = $this->to;
@@ -2230,6 +2229,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!$to) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2341,15 +2341,14 @@ class MailtrapEngine
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
                 throw new InvalidArgumentException('Il destinatario email non è valido');
 =======
-<<<<<<< HEAD
-                throw new InvalidArgumentException('Il destinatario email non è valido');
+>>>>>>> a4383006 (.)
 =======
-                throw new \InvalidArgumentException('Il destinatario email non è valido');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> 3f537838 (.)
+                throw new InvalidArgumentException('Il destinatario email non è valido');
             }
 
             $msg->to($to)->subject('Test Email');
@@ -2463,6 +2462,7 @@ class MailtrapEngine
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2766,7 +2766,13 @@ class MailtrapEngine
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {
         //    throw new Exception('['.__LINE__.']['.class_basename($this).']');

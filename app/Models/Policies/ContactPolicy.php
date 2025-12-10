@@ -95,6 +95,7 @@ class ContactPolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
@@ -837,4 +838,12 @@ class ContactPolicy extends NotifyBasePolicy
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+class ContactPolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)

@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
-<<<<<<< HEAD
 use Exception;
-=======
-<<<<<<< HEAD
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 use Modules\Tenant\Services\TenantService;
@@ -189,6 +182,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public ?string $url = null;
 >>>>>>> 58816034 (.)
@@ -658,7 +652,13 @@ class SmtpData extends Data
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+    public null|string $url = null;
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 
     public string $host = '127.0.0.1';
 
@@ -735,6 +735,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -846,6 +847,8 @@ class SmtpData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 3f537838 (.)
     public null|string $encryption = null; // 'tls';
 >>>>>>> f813254 (.)
 >>>>>>> 7624f916 (.)
@@ -865,6 +868,7 @@ class SmtpData extends Data
     public ?string $local_domain = null;
 =======
     public null|string $local_domain = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1728,7 +1732,12 @@ class SmtpData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 
     private static array $instance = [];
 
@@ -1802,6 +1811,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2026,13 +2036,19 @@ class SmtpData extends Data
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         if (!isset(self::$instance[$name]) || !(self::$instance[$name] instanceof self)) {
             // $data = TenantService::getConfig('mail');
             Assert::isArray($data = config('mail'));
             $data_name = Arr::get($data, 'mailers.' . $name);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2680,7 +2696,12 @@ class SmtpData extends Data
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
             self::$instance[$name] = self::from($data_name);
         }
 
@@ -2717,7 +2738,6 @@ class SmtpData extends Data
         $transport = $this->getTransport();
         try {
             $transport->start();
-<<<<<<< HEAD
         } catch (Exception $e) {
 <<<<<<< HEAD
             throw new Exception('Errore durante la connessione SMTP: ' . $e->getMessage());
@@ -2832,6 +2852,7 @@ class SmtpData extends Data
 =======
 >>>>>>> 207ac35e (.)
             throw new Exception('Errore durante la connessione SMTP: ' . $e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3226,7 +3247,12 @@ class SmtpData extends Data
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         }
         $mailer = new Mailer($transport);
 
@@ -3256,7 +3282,6 @@ class SmtpData extends Data
         $mimeEmail = $emailData->getMimeEmail();
         try {
             $mailer->send($mimeEmail);
-<<<<<<< HEAD
         } catch (Exception $e) {
 <<<<<<< HEAD
             throw new Exception("Errore durante l'invio dell'email: " . $e->getMessage());
@@ -3383,6 +3408,7 @@ class SmtpData extends Data
 =======
 >>>>>>> 207ac35e (.)
             throw new Exception("Errore durante l'invio dell'email: " . $e->getMessage());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3841,7 +3867,12 @@ class SmtpData extends Data
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         }
     }
 }

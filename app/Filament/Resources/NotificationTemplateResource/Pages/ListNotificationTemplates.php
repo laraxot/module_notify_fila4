@@ -84,6 +84,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -884,7 +885,15 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+use Override;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 
 class ListNotificationTemplates extends XotBaseListRecords
 {
@@ -955,6 +964,7 @@ class ListNotificationTemplates extends XotBaseListRecords
     #[Override]
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1415,7 +1425,13 @@ class ListNotificationTemplates extends XotBaseListRecords
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
     public function getTableColumns(): array
     {
         return [];
@@ -1470,6 +1486,7 @@ class ListNotificationTemplates extends XotBaseListRecords
 }
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1858,4 +1875,10 @@ class ListNotificationTemplates extends XotBaseListRecords
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+}
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)

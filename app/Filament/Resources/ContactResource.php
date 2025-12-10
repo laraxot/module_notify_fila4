@@ -78,6 +78,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -909,33 +910,18 @@ class ContactResource extends XotBaseResource
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 use Filament\Schemas\Components\Component;
 use Override;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Filament\Schemas\Components\Component;
-use Override;
-=======
->>>>>>> a12f125f4a (.)
-=======
-use Filament\Schemas\Components\Component;
-use Override;
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
 use Filament\Forms;
-<<<<<<< HEAD
-=======
-=======
-use Filament\Forms;
-use Filament\Forms\Components\Component;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Pages\PageRegistration;
 use Modules\Notify\Filament\Resources\ContactResource\Pages;
@@ -944,7 +930,6 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ContactResource extends XotBaseResource
 {
-<<<<<<< HEAD
     protected static null|string $model = Contact::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,6 +1005,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1081,7 +1067,12 @@ class ContactResource extends XotBaseResource
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
 
     /**
      * Get the form schema for the resource.
@@ -1259,6 +1250,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1836,7 +1828,15 @@ class ContactResource extends XotBaseResource
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+     * @return array<string, Component>
+     */
+    #[Override]
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -1976,6 +1976,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2348,7 +2349,13 @@ class ContactResource extends XotBaseResource
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
     public static function getRelations(): array
     {
         return [];
@@ -2474,6 +2481,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2844,24 +2852,19 @@ class ContactResource extends XotBaseResource
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
     public static function getPages(): array
     {
         return [
             'index' => ListContacts::route('/'),
             'create' => CreateContact::route('/create'),
             'edit' => EditContact::route('/{record}/edit'),
-<<<<<<< HEAD
-=======
-=======
-    public static function getPages(): array
-    {
-        return [
-            'index' => Pages\ListContacts::route('/'),
-            'create' => Pages\CreateContact::route('/create'),
-            'edit' => Pages\EditContact::route('/{record}/edit'),
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ];
     }
 }

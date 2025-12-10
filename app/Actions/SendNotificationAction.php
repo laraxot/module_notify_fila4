@@ -4,14 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Actions;
 
-<<<<<<< HEAD
 use Exception;
-=======
-<<<<<<< HEAD
-use Exception;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 use Illuminate\Support\Facades\Log;
@@ -248,7 +241,6 @@ class SendNotificationAction
      * @param array $data I dati per compilare il template
      * @param array $channels I canali da utilizzare (opzionale, usa quelli del template se non specificati)
      * @param array $options Opzioni aggiuntive per l'invio
-<<<<<<< HEAD
      *
      * @return bool
 <<<<<<< HEAD
@@ -278,17 +270,6 @@ class SendNotificationAction
 >>>>>>> 75179b85 (.)
 >>>>>>> c5a0a4b2 (.)
      * @throws Exception Se il template non esiste o non è attivo
-=======
-<<<<<<< HEAD
-     *
-     * @return bool
-     * @throws Exception Se il template non esiste o non è attivo
-=======
-     * 
-     * @return bool
-     * @throws \Exception Se il template non esiste o non è attivo
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
      */
     public function execute(
         Model $recipient,
@@ -297,6 +278,7 @@ class SendNotificationAction
         array $channels = [],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -613,13 +595,19 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         array $options = [],
     ): bool {
         // Recupera il template
         $template = NotificationTemplate::where('code', $templateCode)->where('is_active', true)->first();
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1015,6 +1003,8 @@ class SendNotificationAction
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
         if (!$template) {
 >>>>>>> 75179b85 (.)
@@ -1051,33 +1041,6 @@ class SendNotificationAction
 >>>>>>> 75179b85 (.)
 >>>>>>> c5a0a4b2 (.)
             throw new Exception("Template {$templateCode} non trovato o non attivo");
-=======
-=======
-=======
->>>>>>> origin/develop
-        array $options = []
-    ): bool {
-        // Recupera il template
-        $template = NotificationTemplate::where('code', $templateCode)
-            ->where('is_active', true)
-            ->first();
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        array $options = [],
-    ): bool {
-        // Recupera il template
-        $template = NotificationTemplate::where('code', $templateCode)->where('is_active', true)->first();
->>>>>>> b93ef594b4 (.)
-
-        if (!$template) {
-            throw new Exception("Template {$templateCode} non trovato o non attivo");
-=======
-
-        if (!$template) {
-            throw new \Exception("Template {$templateCode} non trovato o non attivo");
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         }
 
         // Verifica condizioni di invio
@@ -1455,15 +1418,7 @@ class SendNotificationAction
         foreach ($effectiveChannels as $channel) {
             try {
                 $this->sendViaChannel($recipient, $channel, $compiled, $options);
-<<<<<<< HEAD
             } catch (Exception $e) {
-=======
-<<<<<<< HEAD
-            } catch (Exception $e) {
-=======
-            } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 // Log dell'errore ma continua con altri canali
                 Log::error("Errore invio notifica via {$channel}: " . $e->getMessage());
 <<<<<<< HEAD
@@ -1595,6 +1550,7 @@ class SendNotificationAction
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2392,7 +2348,14 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+    protected function sendViaChannel(Model $recipient, string $channel, array $compiled, array $options): void
+    {
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         switch ($channel) {
             case 'mail':
                 $this->sendMail($recipient, $compiled, $options);
@@ -2404,15 +2367,7 @@ class SendNotificationAction
                 $this->sendSms($recipient, $compiled, $options);
                 break;
             default:
-<<<<<<< HEAD
                 throw new Exception("Canale {$channel} non supportato");
-=======
-<<<<<<< HEAD
-                throw new Exception("Canale {$channel} non supportato");
-=======
-                throw new \Exception("Canale {$channel} non supportato");
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         }
     }
 
@@ -2578,6 +2533,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2639,15 +2595,14 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
             throw new Exception('Il destinatario non supporta le notifiche email');
 =======
-<<<<<<< HEAD
-            throw new Exception('Il destinatario non supporta le notifiche email');
+>>>>>>> a4383006 (.)
 =======
-            throw new \Exception('Il destinatario non supporta le notifiche email');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> 3f537838 (.)
+            throw new Exception('Il destinatario non supporta le notifiche email');
         }
 
         $email = $recipient->routeNotificationForMail();
@@ -2680,6 +2635,7 @@ class SendNotificationAction
         if (! $email) {
 =======
         if (!$email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2825,15 +2781,14 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
             throw new Exception('Email destinatario non disponibile');
 =======
-<<<<<<< HEAD
-            throw new Exception('Email destinatario non disponibile');
+>>>>>>> a4383006 (.)
 =======
-            throw new \Exception('Email destinatario non disponibile');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> 3f537838 (.)
+            throw new Exception('Email destinatario non disponibile');
         }
 
         // Usa il sistema di notifiche di Laravel
@@ -3680,23 +3635,7 @@ class SendNotificationAction
                 ['mail'],
                 array_merge($options, [
                     'text_view' => $compiled['body_text'],
-<<<<<<< HEAD
                 ]),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                ]),
-=======
-                ])
->>>>>>> a12f125f4a (.)
-=======
-                ]),
->>>>>>> b93ef594b4 (.)
-=======
-                ])
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             ));
         } else {
             // Fallback per modelli che non implementano Notifiable
@@ -3706,7 +3645,6 @@ class SendNotificationAction
                 ['mail'],
                 array_merge($options, [
                     'text_view' => $compiled['body_text'],
-<<<<<<< HEAD
                 ]),
 <<<<<<< HEAD
                 ])
@@ -3732,6 +3670,7 @@ class SendNotificationAction
                     'text_view' => $compiled['body_text'],
                 ]),
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3970,7 +3909,12 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
             ));
         }
     }
@@ -4226,6 +4170,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $options,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4686,7 +4631,13 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+            $options,
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
         ));
     }
 
@@ -4852,6 +4803,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
@@ -4913,15 +4865,14 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
             throw new Exception('Il destinatario non supporta le notifiche SMS');
 =======
-<<<<<<< HEAD
-            throw new Exception('Il destinatario non supporta le notifiche SMS');
+>>>>>>> a4383006 (.)
 =======
-            throw new \Exception('Il destinatario non supporta le notifiche SMS');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> 3f537838 (.)
+            throw new Exception('Il destinatario non supporta le notifiche SMS');
         }
 
         $phone = $recipient->routeNotificationForSms();
@@ -4989,6 +4940,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -5118,15 +5070,14 @@ class SendNotificationAction
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
             throw new Exception('Numero di telefono destinatario non disponibile');
 =======
-<<<<<<< HEAD
-            throw new Exception('Numero di telefono destinatario non disponibile');
+>>>>>>> a4383006 (.)
 =======
-            throw new \Exception('Numero di telefono destinatario non disponibile');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> 3f537838 (.)
+            throw new Exception('Numero di telefono destinatario non disponibile');
         }
 
         // Usa il testo plain o una versione senza HTML
@@ -5261,7 +5212,11 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a4383006 (.)
         /** @var string $subject */
         $subject = $compiled['subject'];
         /** @var array<string, mixed> $notificationOptions */
@@ -6069,6 +6024,12 @@ class SendNotificationAction
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 5fae858e (.)
+=======
+=======
+        Notification::send($recipient, new GenericNotification($compiled['subject'], $message, ['sms'], $options));
+>>>>>>> 3f537838 (.)
+>>>>>>> a4383006 (.)
     }
 }
