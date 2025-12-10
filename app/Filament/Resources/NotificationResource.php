@@ -156,6 +156,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -557,6 +558,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1228,6 +1231,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -2035,10 +2039,13 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
             'notifiable_id' => TextInput::make('notifiable_id')
                 ->required()
                 ->numeric()
                 ->label('Notifiable ID'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2657,12 +2664,15 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3787,4 +3797,6 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
 }

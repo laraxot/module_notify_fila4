@@ -188,6 +188,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -692,6 +693,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -786,6 +789,7 @@ return [
         'label' => 'Impostazioni Notifiche',
         'group' => 'Notifiche',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2131,3 +2135,6 @@ return array (
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+];
+>>>>>>> 7c39b1fe (.)

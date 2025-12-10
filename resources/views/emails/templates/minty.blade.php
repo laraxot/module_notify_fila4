@@ -186,6 +186,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -756,11 +757,14 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1675,6 +1679,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 7c39b1fe (.)
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>

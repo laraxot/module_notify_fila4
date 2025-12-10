@@ -293,6 +293,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1233,12 +1234,9 @@ return [
 >>>>>>> 9cdf6146 (.)
 =======
 >>>>>>> 80f054e0 (.)
-    'from' => env('SMS_FROM', '<nome progetto>'),
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 7c39b1fe (.)
     'from' => env('SMS_FROM', '<nome progetto>'),
->>>>>>> 4e2ebfb (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 66453ace (.)
 =======
@@ -1437,6 +1435,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2377,12 +2376,9 @@ return [
 >>>>>>> 9cdf6146 (.)
 =======
 >>>>>>> 80f054e0 (.)
-            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 7c39b1fe (.)
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
->>>>>>> 4e2ebfb (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 66453ace (.)
 =======
@@ -2638,6 +2634,7 @@ Quando configuri il file `.env`, utilizza questi nomi di variabili:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3578,12 +3575,9 @@ SMS_FROM=<nome progetto>
 >>>>>>> 9cdf6146 (.)
 =======
 >>>>>>> 80f054e0 (.)
-SMS_FROM=<nome progetto>
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 7c39b1fe (.)
 SMS_FROM=<nome progetto>
->>>>>>> 4e2ebfb (.)
 SMS_FROM=SaluteOra
 >>>>>>> 66453ace (.)
 =======
@@ -3773,6 +3767,7 @@ NETFUN_API_KEY=your_api_key_here
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4713,12 +4708,9 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> 9cdf6146 (.)
 =======
 >>>>>>> 80f054e0 (.)
-NETFUN_SENDER=<nome progetto>
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 7c39b1fe (.)
 NETFUN_SENDER=<nome progetto>
->>>>>>> 4e2ebfb (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 66453ace (.)
 =======

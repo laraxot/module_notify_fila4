@@ -150,6 +150,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -664,12 +665,9 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 9cdf6146 (.)
 =======
 >>>>>>> 80f054e0 (.)
-
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 7c39b1fe (.)
 
->>>>>>> 4e2ebfb (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
