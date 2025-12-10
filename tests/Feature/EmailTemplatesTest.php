@@ -126,6 +126,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -160,6 +161,8 @@ declare(strict_types=1);
 >>>>>>> 08ae27d78 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> ce64082e3 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -1686,6 +1689,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 08ae27d78 (.)
 =======
 =======
+=======
+>>>>>>> 0f81dc21 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
@@ -1708,14 +1713,18 @@ test('html template contains optional function', function (): void {
 
     // Verifico che contiene la funzione optional per body_html
     expect($content)
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> ce64082e3 (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1971,6 +1980,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> ce64082e3 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3010,6 +3021,7 @@ test('ark template contains optional function', function (): void {
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 0f81dc21 (.)
 =======
@@ -3074,6 +3086,10 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+=======
+>>>>>>> 0f81dc21 (.)
+>>>>>>> ce64082e3 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -5724,6 +5740,12 @@ test('ark template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 });
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 >>>>>>> 4bec160e6 (.)
+=======
+=======
+>>>>>>> 0f81dc21 (.)
+>>>>>>> ce64082e3 (.)

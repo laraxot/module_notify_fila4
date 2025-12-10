@@ -421,6 +421,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -887,6 +888,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -1406,6 +1408,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 0f81dc21 (.)
+>>>>>>> ce64082e3 (.)
 <?php
 
 declare(strict_types=1);
@@ -2528,10 +2534,14 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce64082e3 (.)
 >>>>>>> 518c702 (.)
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 0f81dc21 (.)
+<<<<<<< HEAD
 =======
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -3462,6 +3472,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 518c702 (.)
 >>>>>>> ee18dd92 (.)
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> ce64082e3 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -3898,6 +3910,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -3937,6 +3950,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 60f8c400a (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> ce64082e3 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5198,6 +5213,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 56ae9932 (.)
 =======
 >>>>>>> ee18dd92 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
@@ -6024,3 +6040,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 60f8c400a (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 0f81dc21 (.)
+>>>>>>> ce64082e3 (.)
