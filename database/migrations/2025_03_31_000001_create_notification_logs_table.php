@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1218,3 +1219,5 @@ return new class extends Migration {
         Schema::dropIfExists('notification_logs');
     }
 };
+=======
+>>>>>>> 301ad8b44 (.)

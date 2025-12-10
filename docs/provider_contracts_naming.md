@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per i Contracts 
 
 ## Regola Fondamentale
@@ -112,3 +113,5 @@ interface SmsProviderContract
 
 - [Laravel Contracts Documentation](https://laravel.com/docs/contracts)
 - [PHP-FIG Interface Naming Conventions](https://www.php-fig.org/psr/psr-1/)
+=======
+>>>>>>> 301ad8b44 (.)

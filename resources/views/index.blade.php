@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1872,3 +1873,5 @@ declare(strict_types=1);
         This view is loaded from module: {!! config('notify.name') !!}
     </p>
 @endsection
+=======
+>>>>>>> 301ad8b44 (.)

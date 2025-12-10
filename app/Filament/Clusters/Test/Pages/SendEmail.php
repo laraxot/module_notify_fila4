@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1050,3 +1051,5 @@ class SendEmail extends Page implements HasForms
 >>>>>>> laraxot/develop
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

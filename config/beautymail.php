@@ -5,6 +5,7 @@ declare(strict_types=1);
 return [
     // These CSS rules will be applied after the regular template CSS
 
+<<<<<<< HEAD
     /*
 <<<<<<< HEAD
 =======
@@ -5486,4 +5487,9 @@ return [
         'facebook' => null,
         'flickr' => null,
     ],
+=======
+    'twitter' => null,
+    'facebook' => null,
+    'flickr' => null,
+>>>>>>> 301ad8b44 (.)
 ];

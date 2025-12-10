@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -60,3 +61,5 @@ interface SmsProviderContract
      */
     public function execute(SmsData $smsData): array;
 }
+=======
+>>>>>>> 301ad8b44 (.)

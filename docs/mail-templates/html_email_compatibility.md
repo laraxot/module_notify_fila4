@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Guida alla Compatibilità HTML per Email
 
 ## Introduzione
@@ -183,3 +184,5 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 - [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
 - [Campaign Monitor Guide](https://www.campaignmonitor.com/css/)
 - [Email Client Market Share](https://emailclientmarketshare.com/)
+=======
+>>>>>>> 301ad8b44 (.)

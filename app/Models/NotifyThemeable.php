@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -574,3 +575,5 @@ class NotifyThemeable extends BaseMorphPivot
 {
     // ...
 }
+=======
+>>>>>>> 301ad8b44 (.)

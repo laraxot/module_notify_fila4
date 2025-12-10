@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -3383,3 +3384,5 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
 }
+=======
+>>>>>>> 301ad8b44 (.)

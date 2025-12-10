@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -1075,3 +1076,5 @@ return [
         'label' => 'mail template.model',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

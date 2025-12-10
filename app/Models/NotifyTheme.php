@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -3200,3 +3201,5 @@ class NotifyTheme extends BaseModel
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

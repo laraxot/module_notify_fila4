@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -46,3 +47,5 @@ class TicketStatusChangedNotification extends Notification
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

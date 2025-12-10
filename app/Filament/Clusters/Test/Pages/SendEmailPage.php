@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2039,3 +2040,5 @@ class SendEmailPage extends XotBasePage
         $this->emailForm->fill();
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

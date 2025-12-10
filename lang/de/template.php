@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -932,3 +933,5 @@ return [
         'template_deleted' => 'Il template è stato eliminato con successo',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

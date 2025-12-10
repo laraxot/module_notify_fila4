@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -988,3 +989,5 @@ return [
         'label' => 'Tema Notifica',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -5141,3 +5142,5 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
 });
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8681,3 +8682,5 @@ final class SendFacebookWhatsAppAction
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

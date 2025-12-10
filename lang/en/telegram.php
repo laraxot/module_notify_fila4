@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -882,3 +883,5 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio del messaggio Telegram',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

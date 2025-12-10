@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -847,3 +848,5 @@ class NotificationType extends Model
         'template',
     ];
 }
+=======
+>>>>>>> 301ad8b44 (.)

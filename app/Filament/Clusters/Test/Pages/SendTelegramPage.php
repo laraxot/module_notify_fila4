@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -2285,3 +2286,5 @@ class SendTelegramPage extends XotBasePage implements HasForms
         $this->telegramForm->fill();
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

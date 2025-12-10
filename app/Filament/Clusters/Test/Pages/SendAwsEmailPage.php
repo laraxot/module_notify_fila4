@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1672,3 +1673,5 @@ class SendAwsEmailPage extends XotBasePage
         return $user;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

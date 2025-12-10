@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -19994,3 +19995,5 @@ return [
         'pattern' => env('SMS_VALIDATION_PATTERN', '/^\+[1-9]\d{1,14}$/'),
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

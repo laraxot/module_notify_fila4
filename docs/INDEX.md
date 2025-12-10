@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Notify Module Documentation
 
 ## Overview
@@ -287,3 +288,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> laraxot/develop
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+=======
+>>>>>>> 301ad8b44 (.)

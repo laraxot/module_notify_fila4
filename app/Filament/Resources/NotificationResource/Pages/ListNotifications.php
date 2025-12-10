@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2720,3 +2721,5 @@ class ListNotifications extends XotBaseListRecords
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

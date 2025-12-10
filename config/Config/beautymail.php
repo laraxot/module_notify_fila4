@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -13724,3 +13725,5 @@ return [
         'flickr' => null,
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

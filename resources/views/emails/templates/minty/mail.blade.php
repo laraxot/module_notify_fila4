@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1971,3 +1972,5 @@ declare(strict_types=1);
 >>>>>>> laraxot/develop
 
 @stop
+=======
+>>>>>>> 301ad8b44 (.)

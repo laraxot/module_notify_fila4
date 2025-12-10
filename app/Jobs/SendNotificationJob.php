@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -3838,3 +3839,5 @@ class SendNotificationJob implements ShouldQueue
 }
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)

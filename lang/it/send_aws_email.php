@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -4321,3 +4322,5 @@ return [
         'failed' => 'Invio email fallito',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

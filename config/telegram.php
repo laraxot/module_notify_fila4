@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -9602,3 +9603,5 @@ return [
         'decay_minutes' => env('TELEGRAM_RATE_LIMIT_DECAY_MINUTES', 1),
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -5088,3 +5089,5 @@ class EmailData extends Data
         return $email;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

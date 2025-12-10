@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2238,3 +2239,5 @@ class NotificationTypeTest extends TestCase
         $this->assertEquals('high_priority_email', $highPriorityEmailTypes[0]->template);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

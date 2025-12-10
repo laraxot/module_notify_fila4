@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1710,3 +1711,5 @@ class NexmoData extends Data
         return $this->timeout;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7371,3 +7372,5 @@ class SendWhatsAppPage extends XotBasePage
         return $user;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

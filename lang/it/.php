@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -50,3 +51,5 @@ return [
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
 ];
+=======
+>>>>>>> 301ad8b44 (.)

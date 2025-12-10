@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -549,3 +550,5 @@ describe('Notification Business Logic', function () {
         expect(method_exists(Notification::class, 'factory'))->toBeTrue();
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

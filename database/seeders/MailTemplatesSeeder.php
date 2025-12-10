@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -896,3 +897,5 @@ class MailTemplatesSeeder extends Seeder
         ]);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Integrazione WhatsApp 
 
 ## Panoramica
@@ -690,3 +691,5 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 ---
 
 *Ultimo aggiornamento: 2023-05-12*
+=======
+>>>>>>> 301ad8b44 (.)

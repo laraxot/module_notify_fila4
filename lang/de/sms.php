@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -875,3 +876,5 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio dell\'SMS',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

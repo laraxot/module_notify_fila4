@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -6731,3 +6732,5 @@ class GenericNotification extends Notification implements ShouldQueue
         return 'Utente';
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

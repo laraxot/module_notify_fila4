@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Troubleshooting Notification Issues in Laravel Modules
 
 ## Overview
@@ -260,3 +261,5 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
+=======
+>>>>>>> 301ad8b44 (.)

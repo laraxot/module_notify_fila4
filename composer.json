@@ -39,6 +39,7 @@
         }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,11 +48,14 @@
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 301ad8b44 (.)
     "autoload-dev": {
         "psr-4": {
             "Modules\\Notify\\Tests\\": "tests/"
         }
     },
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
@@ -64,6 +68,8 @@
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)
     "require": {
         "aws/aws-sdk-php": "*",
         "filament/filament": "*",

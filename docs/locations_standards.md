@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali
@@ -179,3 +180,5 @@ final class SendNetfunSMSAction implements SmsActionInterface
 3. **Consistenza**:
    - Tutte le interfacce dello stesso tipo devono essere nello stesso namespace
    - Il pattern di organizzazione deve essere coerente in tutto il modulo
+=======
+>>>>>>> 301ad8b44 (.)

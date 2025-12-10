@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -469,3 +470,5 @@ describe('MailTemplate Business Logic', function () {
         expect($mailTemplate->updated_by)->toBe('user-2');
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

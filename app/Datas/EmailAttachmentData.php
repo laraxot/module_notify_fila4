@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1335,3 +1336,5 @@ class EmailAttachmentData extends Data
         return $this->content;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

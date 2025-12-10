@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -3934,3 +3935,5 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         return is_string($provider) ? $provider : null;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

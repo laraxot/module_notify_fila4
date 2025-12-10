@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3969,3 +3970,5 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)

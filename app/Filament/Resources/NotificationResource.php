@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -4299,3 +4300,5 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
 }
+=======
+>>>>>>> 301ad8b44 (.)

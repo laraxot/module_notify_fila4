@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -52,3 +53,5 @@ class CreateNotifyTheme extends XotBaseCreateRecord
 {
     protected static string $resource = NotifyThemeResource::class;
 }
+=======
+>>>>>>> 301ad8b44 (.)

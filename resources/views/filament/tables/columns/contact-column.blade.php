@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1977,3 +1978,5 @@ declare(strict_types=1);
         </span>
     @endforelse
 </div>
+=======
+>>>>>>> 301ad8b44 (.)

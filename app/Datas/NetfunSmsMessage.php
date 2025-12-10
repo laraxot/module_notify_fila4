@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -1604,3 +1605,5 @@ class NetfunSmsMessage extends Data
 >>>>>>> laraxot/develop
     ) {}
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2022,3 +2023,5 @@ final class SmsActionFactory
         return $this->driverAliases[$normalized] ?? $normalized;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

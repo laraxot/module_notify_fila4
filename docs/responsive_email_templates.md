@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione
@@ -289,3 +290,5 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 - [Email Best Practices](./mail-templates/EMAIL_BEST_PRACTICES.md)
 - [HTML Email Compatibility](./mail-templates/HTML_EMAIL_COMPATIBILITY.md)
 - [MailPace Integration](./mail-templates/MAILPACE_TEMPLATES_INTEGRATION.md)
+=======
+>>>>>>> 301ad8b44 (.)

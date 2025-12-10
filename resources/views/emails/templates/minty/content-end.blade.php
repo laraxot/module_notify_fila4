@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,3 +134,5 @@ declare(strict_types=1);
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)

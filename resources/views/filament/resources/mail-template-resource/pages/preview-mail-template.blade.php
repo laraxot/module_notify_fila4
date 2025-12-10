@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1962,3 +1963,5 @@ declare(strict_types=1);
         </div>
     </div>
 </x-filament-panels::page>
+=======
+>>>>>>> 301ad8b44 (.)

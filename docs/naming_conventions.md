@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming
 
 ## Regole Generali
@@ -230,3 +231,5 @@ $normalizedDriver = str_replace(' ', '', ucwords(str_replace('_', ' ', $driver))
 ```
 
 Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
+=======
+>>>>>>> 301ad8b44 (.)

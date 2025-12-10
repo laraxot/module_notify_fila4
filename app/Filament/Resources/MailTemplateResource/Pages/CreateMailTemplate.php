@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -2272,3 +2273,5 @@ class CreateMailTemplate extends LangBaseCreateRecord
 {
     protected static string $resource = MailTemplateResource::class;
 }
+=======
+>>>>>>> 301ad8b44 (.)

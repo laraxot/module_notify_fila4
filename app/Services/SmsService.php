@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -6784,3 +6785,5 @@ class SmsService
         return $this;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

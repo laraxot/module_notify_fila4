@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1874,3 +1875,5 @@ declare(strict_types=1);
 	</tr>
 	</tbody>
 </table>
+=======
+>>>>>>> 301ad8b44 (.)

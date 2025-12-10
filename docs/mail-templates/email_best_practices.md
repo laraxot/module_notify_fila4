@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices per Email Transazionali
 
 ## Introduzione
@@ -271,3 +272,5 @@ $mailTemplate->send($user->email, [
 - [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
 - [HTML Email Compatibility](./HTML_EMAIL_COMPATIBILITY.md)
 - [Spatie Email Usage Guide](../SPATIE_EMAIL_USAGE_GUIDE.md)
+=======
+>>>>>>> 301ad8b44 (.)

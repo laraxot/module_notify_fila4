@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Indice Documentazione Notifiche
 
 ## Collegamenti Correlati
@@ -179,3 +180,5 @@
 4. Le factory devono gestire la selezione del driver predefinito
 
 Ultimo aggiornamento: 14 Maggio 2025
+=======
+>>>>>>> 301ad8b44 (.)

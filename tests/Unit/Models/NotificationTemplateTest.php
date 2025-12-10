@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -6617,3 +6618,5 @@ class NotificationTemplateTest extends TestCase
         $this->assertEmpty($template->grapesjs_data);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

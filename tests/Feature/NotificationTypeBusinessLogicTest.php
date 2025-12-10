@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -15698,3 +15699,5 @@ describe('Notification Type Business Logic', function () {
 >>>>>>> laraxot/develop
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

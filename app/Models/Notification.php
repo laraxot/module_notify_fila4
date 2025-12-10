@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -2092,3 +2093,5 @@ class Notification extends BaseModel
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -72,3 +73,5 @@ return [
         'no_contacts' => 'No contacts available',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -18402,3 +18403,5 @@ describe('Mail Template Log Business Logic', function () {
 >>>>>>> laraxot/develop
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

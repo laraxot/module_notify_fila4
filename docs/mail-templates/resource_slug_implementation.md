@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Implementazione del Campo `slug` in MailTemplateResource
 
 ## Panoramica
@@ -318,3 +319,5 @@ return [
 - [Guida alla Migrazione](../MAIL_TEMPLATE_MIGRATION_GUIDE.md)
 - [Convenzioni Filament](../../../../docs/FILAMENT_CONVENTIONS.md)
 - [Regole per Filament](../../../../docs/FILAMENT_RULES.md)
+=======
+>>>>>>> 301ad8b44 (.)

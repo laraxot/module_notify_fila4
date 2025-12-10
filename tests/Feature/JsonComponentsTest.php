@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -383,3 +384,5 @@ test('components json is valid and contains expected components', function (): v
     expect($classes)->toContain('SendMailCommand', 'Classe "SendMailCommand" non trovata');
     expect($classes)->toContain('TelegramWebhook', 'Classe "TelegramWebhook" non trovata');
 });
+=======
+>>>>>>> 301ad8b44 (.)

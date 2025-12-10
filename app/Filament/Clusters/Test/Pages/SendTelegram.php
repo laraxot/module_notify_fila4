@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 /**
@@ -1360,3 +1361,5 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> laraxot/develop
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

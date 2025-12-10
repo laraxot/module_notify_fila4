@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -3727,3 +3728,5 @@ final class FirebaseCloudMessagingChannel
         self::$logger->debug(json_encode($validatedTokens, JSON_PRETTY_PRINT));
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

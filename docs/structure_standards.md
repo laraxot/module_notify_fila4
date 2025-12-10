@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Standard di Struttura nel Modulo Notify
 
 ## Directory Principali e Convenzioni di Denominazione
@@ -309,3 +310,5 @@ class MyPage extends \Filament\Pages\Page {}
 // ✅ CORRETTO
 class MyPage extends Modules\Xot\Filament\Pages\XotBasePage {}
 ```
+=======
+>>>>>>> 301ad8b44 (.)

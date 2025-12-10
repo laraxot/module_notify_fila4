@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -2976,3 +2977,5 @@ class NetfunChannel
 >>>>>>> laraxot/develop
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

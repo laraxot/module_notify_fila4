@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Utilizzo Corretto degli Allegati nelle Email Spatie
 
 Questa documentazione descrive come utilizzare correttamente il metodo `addAttachments()` nella classe `SpatieEmail` del modulo Notify.
@@ -815,3 +816,5 @@ Ogni allegato deve contenere i seguenti parametri:
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)

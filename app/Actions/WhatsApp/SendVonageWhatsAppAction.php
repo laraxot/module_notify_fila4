@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8758,3 +8759,5 @@ final class SendVonageWhatsAppAction
         };
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

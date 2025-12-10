@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -592,3 +593,5 @@ class Test extends Cluster
     // protected static ?string $navigationParentItem = 'Notifications';
     // protected static ?string $navigationGroup = 'Settings';
 }
+=======
+>>>>>>> 301ad8b44 (.)

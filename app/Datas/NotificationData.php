@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2707,3 +2708,5 @@ class NotificationData extends Data
 >>>>>>> laraxot/develop
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

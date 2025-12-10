@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -105,3 +106,5 @@ class EventServiceProvider extends BaseEventServiceProvider
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
 }
+=======
+>>>>>>> 301ad8b44 (.)

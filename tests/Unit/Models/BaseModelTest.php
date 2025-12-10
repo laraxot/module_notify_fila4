@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -812,3 +813,5 @@ test('base model has proper inheritance chain', function () {
 test('base model has timestamps enabled', function () {
     expect($this->baseModel->usesTimestamps())->toBeTrue();
 });
+=======
+>>>>>>> 301ad8b44 (.)

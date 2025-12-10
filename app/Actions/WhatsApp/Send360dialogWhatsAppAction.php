@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -9180,3 +9181,5 @@ final class Send360dialogWhatsAppAction
         };
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

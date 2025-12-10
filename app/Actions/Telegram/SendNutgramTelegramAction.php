@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -9439,3 +9440,5 @@ final class SendNutgramTelegramAction
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

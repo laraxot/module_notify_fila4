@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni di Naming per Filament 
 
 <<<<<<< HEAD
@@ -195,3 +196,5 @@ Prima di ogni commit, verificare che:
 2. Tutte le classi nella cartella `app/Filament/Resources` terminino con "Resource"
 3. Tutte le classi nella cartella `app/Filament/Widgets` terminino con "Widget"
 4. Tutte le viste Blade seguano la convenzione di naming
+=======
+>>>>>>> 301ad8b44 (.)

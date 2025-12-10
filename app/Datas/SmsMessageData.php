@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -952,3 +953,5 @@ readonly class SmsMessageData
 >>>>>>> laraxot/develop
     ) {}
 }
+=======
+>>>>>>> 301ad8b44 (.)

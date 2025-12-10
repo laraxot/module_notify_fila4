@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -108,3 +109,5 @@ class SendScheduledPushNotification implements ShouldQueue
         Cache::forget("scheduled_push:{$this->jobId}");
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

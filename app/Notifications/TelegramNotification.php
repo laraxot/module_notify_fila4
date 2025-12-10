@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2570,3 +2571,5 @@ class TelegramNotification extends Notification implements ShouldQueue
         return $this->message;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

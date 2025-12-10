@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2571,3 +2572,5 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         return [];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

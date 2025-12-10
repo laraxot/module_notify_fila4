@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -3609,3 +3610,5 @@ enum MediaTypeEnum: string
         return self::IMAGE;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

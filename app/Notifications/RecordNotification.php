@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -6379,3 +6380,5 @@ class RecordNotification extends Notification
         return $this;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔔 Notify - Il SISTEMA di NOTIFICHE più AVANZATO! 📱
 
 <!-- Dynamic validation badges -->
@@ -1236,3 +1237,5 @@ Questo progetto è distribuito sotto la licenza MIT. Vedi il file [LICENSE](LICE
   <br>
   <em>Costruito con ❤️ per la comunità Laravel</em>
 </div>
+=======
+>>>>>>> 301ad8b44 (.)

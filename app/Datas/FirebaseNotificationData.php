@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -798,3 +799,5 @@ class FirebaseNotificationData extends Data
         return self::from($data);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1873,3 +1874,5 @@ declare(strict_types=1);
 			<table width="100%" cellpadding="20" cellspacing="0" border="0">
 				<tr>
 					<td bgcolor="#ffffff" class="contentblock">
+=======
+>>>>>>> 301ad8b44 (.)

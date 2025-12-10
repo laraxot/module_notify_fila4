@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1408,6 +1409,8 @@
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 301ad8b44 (.)
 /vendor/
 /vendor
 /node_modules/
@@ -1418,6 +1421,7 @@ yarn.lock
 composer.lock
 yarn-error.log
 npm-debug.log
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -8420,3 +8424,5 @@ cache/
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)

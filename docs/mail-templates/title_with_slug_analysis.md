@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Analisi del Pacchetto Filament Title With Slug
 
 ## Panoramica
@@ -283,3 +284,5 @@ TitleWithSlugInput::make()
 - Versioning
 - Testing
 - Documentazione 
+=======
+>>>>>>> 301ad8b44 (.)

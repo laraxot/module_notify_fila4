@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7180,3 +7181,5 @@ class ThemeNotification extends Notification implements ShouldQueue
         return $res;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

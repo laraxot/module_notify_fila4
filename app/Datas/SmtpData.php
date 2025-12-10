@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -4346,3 +4347,5 @@ class SmtpData extends Data
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

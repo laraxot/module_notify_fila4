@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -55,3 +56,5 @@ test('ListMailTemplates renders without plugin registration error', function () 
         ->assertSuccessful()
         ->assertCanSeeTableRecords(MailTemplate::all());
 });
+=======
+>>>>>>> 301ad8b44 (.)

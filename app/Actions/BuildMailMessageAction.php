@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2959,3 +2960,5 @@ class BuildMailMessageAction
         return $email;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

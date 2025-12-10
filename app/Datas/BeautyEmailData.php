@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -678,3 +679,5 @@ class BeautyEmailData extends Data
 
     public array $colors;
 }
+=======
+>>>>>>> 301ad8b44 (.)

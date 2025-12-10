@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2776,3 +2777,5 @@ describe('GenericNotification getRecipientName', function (): void {
         expect($method->invoke($notification, $model3))->toBe('Utente');
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

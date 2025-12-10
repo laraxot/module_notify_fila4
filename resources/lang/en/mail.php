@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -994,3 +995,5 @@ return [
     ],
     'unsubscribe' => 'Unsubscribe from these emails',
 ];
+=======
+>>>>>>> 301ad8b44 (.)

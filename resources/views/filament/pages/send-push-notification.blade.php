@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2153,3 +2154,5 @@ declare(strict_types=1);
 >>>>>>> 4d2eb53e (.)
 >>>>>>> laraxot/develop
 </x-filament-panels::page>
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1892,3 +1893,5 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
 }
+=======
+>>>>>>> 301ad8b44 (.)

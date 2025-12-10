@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2178,3 +2179,5 @@ class EmailDataEmail extends Mailable
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7170,3 +7171,5 @@ describe('Notify Themeable Business Logic', function () {
         }
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

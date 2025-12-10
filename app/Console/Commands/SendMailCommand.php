@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1085,3 +1086,5 @@ class SendMailCommand extends Command
         return Command::SUCCESS;
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7303,3 +7304,5 @@ class ContactManagementBusinessLogicTest extends TestCase
         $this->assertEquals(8.2, $contact->fresh()->conversion_rate);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

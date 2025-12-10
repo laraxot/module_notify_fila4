@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1866,3 +1867,5 @@ declare(strict_types=1);
 <div>
     <h1>Hello</h1>
 </div>
+=======
+>>>>>>> 301ad8b44 (.)

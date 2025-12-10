@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -449,3 +450,5 @@ describe('Contact Business Logic', function () {
         expect($contact->order_column)->toBe(1);
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

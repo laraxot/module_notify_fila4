@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -911,3 +912,5 @@ return [
         'loading' => 'Caricamento dati in corso...',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

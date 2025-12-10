@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2850,3 +2851,5 @@ class ContactResource extends XotBaseResource
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

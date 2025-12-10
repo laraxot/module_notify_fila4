@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -637,3 +638,5 @@ class WhatsAppDriverEnumTest extends TestCase
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

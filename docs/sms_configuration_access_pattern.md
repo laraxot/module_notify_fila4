@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato
@@ -107,3 +108,5 @@ Per ogni azione SMS, verificare che:
 - [Struttura della Configurazione SMS](./SMS_CONFIG_STRUCTURE.md)
 - [Requisiti di Configurazione Netfun](./NETFUN_CONFIG_REQUIREMENTS.md)
 - [Pattern Factory per SMS](./SMS_ACTION_FACTORY_ANALYSIS.md)
+=======
+>>>>>>> 301ad8b44 (.)

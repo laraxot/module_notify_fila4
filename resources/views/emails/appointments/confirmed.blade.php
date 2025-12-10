@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1962,3 +1963,5 @@ declare(strict_types=1);
     </div>
 </body>
 </html>
+=======
+>>>>>>> 301ad8b44 (.)

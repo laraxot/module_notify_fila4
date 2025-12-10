@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -4958,3 +4959,5 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
         return self::from(is_string($default) ? $default : self::SMSFACTOR->value);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8962,3 +8963,5 @@ final class SendOfficialTelegramAction
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

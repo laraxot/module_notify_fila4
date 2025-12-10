@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2305,3 +2306,5 @@ class MailTemplateTest extends TestCase
         $this->assertEquals('test-template-1', $templates[1]->slug);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

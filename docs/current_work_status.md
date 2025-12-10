@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stato Attuale del Lavoro - 12 Maggio 2025
 
 ## Problematiche Identificate
@@ -166,3 +167,5 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 >>>>>>> laraxot/develop
 - La documentazione è stata aggiornata per riflettere queste eccezioni e prevenire confusioni future
 - Le soluzioni implementate mantengono la compatibilità con il codice esistente, garantendo al contempo chiarezza per gli sviluppatori futuri
+=======
+>>>>>>> 301ad8b44 (.)

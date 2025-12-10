@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -433,3 +434,5 @@ describe('NotificationType Business Logic', function () {
         expect($query)->toBeInstanceOf(Builder::class);
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

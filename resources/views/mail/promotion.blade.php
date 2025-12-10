@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1924,3 +1925,5 @@ declare(strict_types=1);
         </p>
     </div>
 @endsection
+=======
+>>>>>>> 301ad8b44 (.)

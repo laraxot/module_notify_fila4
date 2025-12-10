@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1778,3 +1779,5 @@ class MailTemplateResource extends LangBaseResource
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

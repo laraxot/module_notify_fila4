@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7217,3 +7218,5 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         return array_unique($matches[1] ?? []);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -2175,3 +2176,5 @@ class NetfunSmsResponseData extends Data
         );
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

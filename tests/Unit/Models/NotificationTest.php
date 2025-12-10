@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2384,3 +2385,5 @@ class NotificationTest extends TestCase
         $this->assertNull($notification->data);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

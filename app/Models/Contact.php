@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -3617,3 +3618,5 @@ class Contact extends BaseModel
         ];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

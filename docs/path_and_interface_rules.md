@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali
@@ -141,3 +142,5 @@ Questa struttura garantisce:
 3. **Coerenza**: Pattern coerenti in tutto il modulo
 4. **Manutenibilità**: Facile trovare e comprendere il codice
 5. **Estendibilità**: Aggiungere nuovi provider senza modificare l'architettura
+=======
+>>>>>>> 301ad8b44 (.)

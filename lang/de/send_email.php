@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -942,3 +943,5 @@ return [
         'priority_valid' => 'La priorità deve essere una delle opzioni disponibili',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -956,3 +957,5 @@ class NotifyThemeData extends Data
 
     public array $view_params;
 }
+=======
+>>>>>>> 301ad8b44 (.)

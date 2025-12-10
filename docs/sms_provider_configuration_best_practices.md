@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Best Practices per la Configurazione dei Provider SMS
 
 ## Struttura Corretta della Configurazione
@@ -166,3 +167,5 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [SMS Best Practices](./SMS_BEST_PRACTICES.md)
 - [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
+=======
+>>>>>>> 301ad8b44 (.)

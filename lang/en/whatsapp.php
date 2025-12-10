@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -899,3 +900,5 @@ return [
         'error' => 'An error occurred while sending the WhatsApp',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

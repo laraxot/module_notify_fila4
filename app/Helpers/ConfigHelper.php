@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1724,3 +1725,5 @@ class ConfigHelper
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -928,3 +929,5 @@ return [
         'subject_required' => 'Der Betreff ist erforderlich',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

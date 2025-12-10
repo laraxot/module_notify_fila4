@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -5878,3 +5879,5 @@ class NotificationTemplateVersionTest extends TestCase
         $this->assertTrue(method_exists($version, 'media'));
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

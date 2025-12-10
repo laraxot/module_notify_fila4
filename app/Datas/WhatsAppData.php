@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -1701,3 +1702,5 @@ class WhatsAppData extends Data
         public string $type = 'text',
     ) {}
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -4088,3 +4089,5 @@ enum WhatsAppDriverEnum: string
         return self::from(is_string($default) ? $default : self::TWILIO->value);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

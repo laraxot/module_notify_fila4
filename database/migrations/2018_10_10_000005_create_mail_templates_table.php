@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -3025,3 +3026,5 @@ return new class() extends XotBaseMigration {
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
 };
+=======
+>>>>>>> 301ad8b44 (.)

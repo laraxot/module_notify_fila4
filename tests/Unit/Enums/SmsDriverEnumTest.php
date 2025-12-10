@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -875,3 +876,5 @@ class SmsDriverEnumTest extends TestCase
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

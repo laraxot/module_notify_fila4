@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -630,3 +631,5 @@ class MediaTypeEnumTest extends TestCase
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Convenzioni sui Percorsi 
 
 ## Regole Fondamentali
@@ -210,3 +211,5 @@ I moduli  definiscono il proprio mapping PSR-4 nel file `composer.json`:
 ```
 
 Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` del modulo, non alla directory principale. Pertanto, qualsiasi classe all'interno di `app/Actions/` avrà il namespace `Modules\Notify\Actions`, non `Modules\Notify\App\Actions`.
+=======
+>>>>>>> 301ad8b44 (.)

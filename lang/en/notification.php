@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -1026,3 +1027,5 @@ return [
         'error' => 'Si è verificato un errore durante l\'operazione',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

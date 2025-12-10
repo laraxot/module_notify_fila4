@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -888,3 +889,5 @@ return [
         'confirmation' => 'Sei sicuro di voler inviare questo messaggio Telegram?',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

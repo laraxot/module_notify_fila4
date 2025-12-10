@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -5146,3 +5147,5 @@ class NotificationTemplateVersionBusinessLogicTest extends TestCase
         $this->assertNull($version->change_notes);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

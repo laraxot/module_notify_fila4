@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2001,3 +2002,5 @@ declare(strict_types=1);
 	</table>
 	</body>
 </html>
+=======
+>>>>>>> 301ad8b44 (.)

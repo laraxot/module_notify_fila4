@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔧 PHPStan Fixes - Modulo Notify - Gennaio 2025
 
 **Data**: 27 Gennaio 2025  
@@ -283,3 +284,5 @@ public function toMail(object $notifiable): MailMessage
 
 >>>>>>> e11621f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2985,3 +2986,5 @@ class WhatsAppChannel
         return $action->execute($whatsAppData);
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

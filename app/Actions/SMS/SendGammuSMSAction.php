@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -4960,3 +4961,5 @@ final class SendGammuSMSAction implements SmsActionContract
         }
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

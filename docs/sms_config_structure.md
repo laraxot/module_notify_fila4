@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -257,3 +258,5 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
+=======
+>>>>>>> 301ad8b44 (.)

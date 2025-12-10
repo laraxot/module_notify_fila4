@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -726,3 +727,5 @@ class ContactTypeEnumTest extends TestCase
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

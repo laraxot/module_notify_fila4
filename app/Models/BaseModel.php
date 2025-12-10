@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2022,3 +2023,5 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> laraxot/develop
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

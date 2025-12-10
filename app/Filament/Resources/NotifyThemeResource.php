@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -2611,3 +2612,5 @@ class NotifyThemeResource extends XotBaseResource
         };
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

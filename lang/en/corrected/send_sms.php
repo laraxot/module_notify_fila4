@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -866,3 +867,5 @@ return [
         'error' => 'Error sending SMS: :error',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

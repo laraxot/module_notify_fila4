@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔔 NOTIFY MODULE - ROADMAP 2025
 
 **Modulo**: Notify (Notification System & Communication)  
@@ -235,3 +236,5 @@ Notify Module
 ---
 
 *Questa roadmap è specifica per il modulo Notify e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -490,3 +491,5 @@ class NotificationFactory extends Factory
         return [];
     }
 }
+=======
+>>>>>>> 301ad8b44 (.)

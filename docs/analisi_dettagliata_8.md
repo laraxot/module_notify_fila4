@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5761,3 +5762,5 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 >>>>>>> 712617d3 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Standard per le Traduzioni 
 
 <<<<<<< HEAD
@@ -179,3 +180,5 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 1. **Laravel Translation Manager**: Per gestire e sincronizzare le traduzioni
 2. **Laravel Lang**: Per traduzioni comuni di Laravel
 3. **Script Personalizzati**: Per verificare la completezza e consistenza delle traduzioni
+=======
+>>>>>>> 301ad8b44 (.)

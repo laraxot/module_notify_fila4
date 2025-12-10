@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1883,3 +1884,5 @@ declare(strict_types=1);
     @include('notify::emails.templates.widgets.newfeatureEnd') --}}
 
 @stop
+=======
+>>>>>>> 301ad8b44 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -41971,3 +41972,5 @@ describe('Notification Management Business Logic', function () {
         ]);
     });
 });
+=======
+>>>>>>> 301ad8b44 (.)

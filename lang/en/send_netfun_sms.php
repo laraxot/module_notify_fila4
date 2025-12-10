@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
@@ -867,3 +868,5 @@ return [
         'confirmation' => 'Sei sicuro di voler inviare questo messaggio SMS?',
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)

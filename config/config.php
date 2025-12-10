@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -5649,3 +5650,5 @@ return [
         // Add more templates here
     ],
 ];
+=======
+>>>>>>> 301ad8b44 (.)
