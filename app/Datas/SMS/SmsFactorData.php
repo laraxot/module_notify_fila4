@@ -261,6 +261,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -369,6 +370,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -965,6 +968,7 @@ use Illuminate\Support\Arr;
 >>>>>>> cb5f23b0 (.)
 =======
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1197,6 +1201,8 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> cb5f23b0 (.)
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1534,6 +1540,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -1638,6 +1645,8 @@ class SmsFactorData extends Data
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2320,6 +2329,8 @@ class SmsFactorData extends Data
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> f81a620f (.)
 =======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
@@ -2449,6 +2460,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2503,6 +2515,8 @@ class SmsFactorData extends Data
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> e95dfc210 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2857,6 +2871,7 @@ class SmsFactorData extends Data
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3443,6 +3458,8 @@ class SmsFactorData extends Data
 =======
 >>>>>>> cb5f23b0 (.)
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -3747,6 +3764,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d3a8af4d5 (.)
 =======
@@ -3837,6 +3855,8 @@ class SmsFactorData extends Data
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3984,6 +4004,7 @@ class SmsFactorData extends Data
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 06e3078e (.)
 =======
@@ -4107,10 +4128,13 @@ class SmsFactorData extends Data
 =======
 >>>>>>> eea68ec9 (.)
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> e95dfc210 (.)
                     'Cache-Control' => 'no-cache',
 =======
                     'Cache-Control' => 'no-cache'
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4275,6 +4299,8 @@ class SmsFactorData extends Data
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> e95dfc210 (.)
 =======
                     'Cache-Control' => 'no-cache',
 >>>>>>> 75179b85 (.)
@@ -4807,6 +4833,7 @@ class SmsFactorData extends Data
 >>>>>>> cb5f23b0 (.)
 =======
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 =======
 =======
                     'Cache-Control' => 'no-cache',
@@ -5472,6 +5499,8 @@ class SmsFactorData extends Data
                     'Cache-Control' => 'no-cache',
 >>>>>>> cb5f23b0 (.)
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
                 ];
         }
     }

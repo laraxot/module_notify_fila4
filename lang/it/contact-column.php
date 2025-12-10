@@ -222,6 +222,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -714,14 +715,20 @@ declare(strict_types=1);
 =======
 >>>>>>> cb5f23b0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -738,6 +745,8 @@ declare(strict_types=1);
  *
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
 >>>>>>> eea68ec9 (.)
 <<<<<<< HEAD
 =======
@@ -2102,6 +2111,7 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3ee54c5d (.)
 =======
@@ -2248,10 +2258,13 @@ declare(strict_types=1);
 =======
 >>>>>>> e790eb33 (.)
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> e95dfc210 (.)
  * 
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  * 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2413,6 +2426,8 @@ declare(strict_types=1);
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> e95dfc210 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2950,6 +2965,7 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3371,6 +3387,8 @@ declare(strict_types=1);
 =======
 >>>>>>> cb5f23b0 (.)
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
  * @author Laraxot Team
 <<<<<<< HEAD
  *

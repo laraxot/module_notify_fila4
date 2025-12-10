@@ -230,6 +230,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -292,6 +293,7 @@ use Tests\TestCase;
 >>>>>>> 77edd94a (.)
 =======
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f81a620f (.)
@@ -454,10 +456,15 @@ use function Safe\json_encode;
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,6 +591,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 2dab69c8a (.)
 =======
+>>>>>>> e95dfc210 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -611,6 +620,7 @@ use Tests\TestCase;
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 77edd94a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f81a620f (.)
@@ -697,10 +707,15 @@ use Tests\TestCase;
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\MailTemplate;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,6 +786,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 2e1ac1f20 (.)
+=======
+>>>>>>> e95dfc210 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1949,6 +1966,7 @@ use Tests\TestCase;
 >>>>>>> cb5f23b0 (.)
 =======
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
@@ -2474,6 +2492,8 @@ use Tests\TestCase;
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> e95dfc210 (.)
 
 class MailTemplateTest extends TestCase
 {

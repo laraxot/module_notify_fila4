@@ -434,6 +434,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -512,6 +513,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f81a620f (.)
@@ -714,10 +716,15 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -833,6 +840,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> e95dfc210 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,6 +1062,7 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> e790eb33 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f81a620f (.)
 =======
@@ -1203,11 +1213,16 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,6 +1341,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> e95dfc210 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2397,6 +2414,7 @@ abstract class BasePivot extends XotBasePivot
             'deleted_at' => 'datetime',
 >>>>>>> cb5f23b0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> f81a620f (.)
@@ -2686,6 +2704,11 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

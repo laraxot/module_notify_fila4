@@ -2305,9 +2305,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> e95dfc210 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2515,7 +2519,17 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 >>>>>>> 6dad70a87 (.)
+=======
+=======
+>>>>>>> 59916c8f (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -2570,9 +2584,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> e95dfc210 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2780,7 +2798,17 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 >>>>>>> 6dad70a87 (.)
+=======
+=======
+>>>>>>> 59916c8f (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> f81a620f (.)
+>>>>>>> e95dfc210 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
