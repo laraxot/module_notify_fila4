@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +86,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -219,6 +221,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Esempi Pratici: Blade Components Tailwind per <nome progetto>
 
 Questa guida mostra come creare Blade component riutilizzabili, accessibili e responsive usando pattern Tailwind CSS, secondo le best practice Webcrunch e le regole <nome progetto>.
@@ -441,6 +445,7 @@ document.querySelectorAll('.group').forEach(card => {
 - Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 - Integrare test di rendering e validazione accessibilità.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -882,11 +887,15 @@ document.querySelectorAll('.group').forEach(card => {
 - Integrare test di rendering e validazione accessibilità.
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7aae79847 (.)
 =======
 - Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
 - Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 - Integrare test di rendering e validazione accessibilità.
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 - Documentare ogni componente in `/docs` e `/Themes/One/docs/`.
 - Integrare test di rendering e validazione accessibilità.
@@ -914,3 +923,5 @@ document.querySelectorAll('.group').forEach(card => {
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)

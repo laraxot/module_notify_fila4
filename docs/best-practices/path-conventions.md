@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -136,6 +137,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -239,6 +242,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
@@ -267,6 +271,8 @@
 =======
 >>>>>>> 13aa25113 (.)
 =======
+>>>>>>> 7aae79847 (.)
+=======
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -292,6 +298,7 @@
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,6 +376,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 ## Namespace vs Directory
 
@@ -417,6 +426,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -439,11 +449,14 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 =======
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -490,11 +503,14 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -612,6 +628,8 @@
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`

@@ -256,6 +256,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di <n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo errore viola i principi di modularità e coerenza dell'architettura di <nome progetto>, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di , dove ogni modulo gestisce le proprie configurazioni in file dedicati.
@@ -364,6 +365,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> b99af5a8 (.)
 =======
@@ -384,6 +386,8 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 Questo errore viola i principi di modularità e coerenza dell'architettura di , dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 Questo errore viola i principi di modularità e coerenza dell'architettura di <nome progetto>, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> bf479cc (.)
@@ -424,6 +428,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di <n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -432,6 +437,8 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di <n
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
@@ -619,6 +626,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> c7a4727b (.)
@@ -796,6 +804,8 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 ## Pattern Corretto
 

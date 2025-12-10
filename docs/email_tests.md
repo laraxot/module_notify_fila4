@@ -780,6 +780,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -815,6 +816,7 @@ class TestData
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -963,6 +965,8 @@ class TestData
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
@@ -1053,6 +1057,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1071,6 +1076,8 @@ class TestData
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -1906,6 +1913,7 @@ class TestData
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
@@ -2018,3 +2026,8 @@ class TestData
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

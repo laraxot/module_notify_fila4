@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +86,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -219,6 +221,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Template delle Notifiche
 
 ## Architettura
@@ -490,6 +494,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../project_docs/filament.md)
 - [Documentazione Media Library](../../../project_docs/media-library.md)
@@ -578,6 +583,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 =======
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -594,6 +600,8 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Documentazione Filament](../../../project_docs/filament.md)
 - [Documentazione Media Library](../../../project_docs/media-library.md)
 - [Documentazione Traduzioni](../../../project_docs/translations.md) 
@@ -611,6 +619,9 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 909e45af (.)
 =======
 - [Documentazione Filament](../../../docs/filament.md)
@@ -619,6 +630,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../docs/filament.md)
 - [Documentazione Media Library](../../../docs/media-library.md)
@@ -936,3 +948,5 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)

@@ -532,6 +532,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 =======
         'sender' => env('SMSHOSTING_SENDER', ''),
@@ -640,6 +641,7 @@ return [
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> b99af5a8 (.)
 =======
@@ -660,6 +662,8 @@ return [
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
         'sender' => env('SMSHOSTING_SENDER', ''),
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
@@ -700,6 +704,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -708,6 +713,8 @@ return [
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
@@ -896,6 +903,7 @@ return [
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> c7a4727b (.)
@@ -1074,6 +1082,8 @@ return [
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
     ],
 ];
 ```
@@ -1658,6 +1668,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
@@ -1844,6 +1855,7 @@ public function toTwilio($notifiable)
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> b99af5a8 (.)
@@ -1860,6 +1872,8 @@ public function toTwilio($notifiable)
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
         ->content(": Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
@@ -1902,6 +1916,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1910,6 +1925,8 @@ public function toTwilio($notifiable)
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
@@ -2277,6 +2294,7 @@ public function toTwilio($notifiable)
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
@@ -2330,6 +2348,8 @@ public function toTwilio($notifiable)
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 }
 ```
 

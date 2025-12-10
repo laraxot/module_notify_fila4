@@ -265,6 +265,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -294,6 +295,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php`
@@ -482,6 +485,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -617,6 +621,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php`
@@ -746,6 +752,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -774,6 +781,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -821,6 +830,7 @@
 =======
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
@@ -861,6 +871,8 @@
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_aws_email.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/setting.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/edit_mail_template.php`
@@ -909,6 +921,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -917,6 +930,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -1055,6 +1070,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -1193,6 +1209,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - E altri 15 file (elenco completo in appendice)
 
 ### Correzioni Implementate
@@ -1327,6 +1345,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1356,6 +1375,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -1449,6 +1470,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1601,6 +1623,8 @@
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -1695,6 +1719,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1715,6 +1740,8 @@
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -1836,6 +1863,7 @@
 =======
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b99af5a8 (.)
@@ -1858,6 +1886,8 @@
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
    - Creato `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -1913,6 +1943,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1923,6 +1954,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1969,6 +2002,7 @@
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -2009,6 +2043,8 @@
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
 
@@ -2059,6 +2095,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2067,6 +2104,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
@@ -2318,6 +2357,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_NAMING_RULES.md`
    - Creato `/var/www/html/saluteora/laravel/Modules/Notify/docs/TRANSLATION_FILE_STRUCTURE_GUIDE.md`
@@ -2539,6 +2579,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - Rimosso il file con naming errato `send_whats_app.php`
 
 ### Prossime Correzioni da Implementare
@@ -2673,6 +2715,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2702,6 +2745,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -2795,6 +2840,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -2947,6 +2993,8 @@
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -3041,6 +3089,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3061,6 +3110,8 @@
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -3182,6 +3233,7 @@
 =======
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b99af5a8 (.)
@@ -3204,6 +3256,8 @@
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -3259,6 +3313,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3269,6 +3324,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -3315,6 +3372,7 @@
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -3355,6 +3413,8 @@
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_sms.php`
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_telegram.php`
@@ -3405,6 +3465,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3413,6 +3474,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
@@ -3664,6 +3727,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_email.php`
    - `/var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_sms.php`
@@ -3885,6 +3949,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
    - Controllo dei riferimenti nel codice che potrebbero puntare ai vecchi file
 
 ## Documentazione di Riferimento
@@ -4030,6 +4096,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -4059,6 +4126,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -4278,6 +4347,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -4413,6 +4483,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/saluteora/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -4557,6 +4629,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4585,6 +4658,8 @@
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -4632,6 +4707,7 @@
 =======
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
@@ -4672,6 +4748,8 @@
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_aws_email.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/setting.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/edit_mail_template.php
@@ -4750,6 +4828,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -4758,6 +4837,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -4813,6 +4894,7 @@
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -4957,6 +5039,8 @@
 =======
 >>>>>>> a29a4728 (.)
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 7aae79847 (.)
 ```
 =======
 >>>>>>> 5fd545e4 (.)

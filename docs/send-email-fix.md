@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +86,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -219,6 +221,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -374,6 +378,7 @@ class SendEmail extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
@@ -427,6 +432,7 @@ class SendEmail extends XotBasePage
 =======
     public function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public function form(Form $form): Form
@@ -655,6 +661,11 @@ class SendEmail extends XotBasePage
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
     {
         return $form
             ->schema([
@@ -899,6 +910,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -979,6 +991,7 @@ class SmtpData extends Data
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -1244,6 +1257,8 @@ class SmtpData extends Data
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -1263,6 +1278,7 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1444,6 +1460,7 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
    - Verificare configurazione SMTP 
@@ -1568,3 +1585,8 @@ class SmtpData extends Data
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+   - Verificare configurazione SMTP 
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

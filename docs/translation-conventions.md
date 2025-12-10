@@ -463,6 +463,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
 =======
 - [ Translation System](../../../../.cursor/rules/translations.rule)
@@ -571,6 +572,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> b99af5a8 (.)
 =======
@@ -591,6 +593,8 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [ Translation System](../../../../.cursor/rules/translations.rule)
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> bf479cc (.)
@@ -631,6 +635,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -639,6 +644,8 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
@@ -826,6 +833,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> c7a4727b (.)
@@ -1003,6 +1011,8 @@ Per verificare se le traduzioni sono applicate correttamente:
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 

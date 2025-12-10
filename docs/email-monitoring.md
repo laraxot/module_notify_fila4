@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +86,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -219,6 +221,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Sistema Monitoraggio Email 
 
 ## Panoramica
@@ -1136,6 +1140,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1158,6 +1163,8 @@ class MailMonitoringDebugger
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1315,6 +1322,7 @@ class MailMonitoringDebugger
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1351,10 +1359,17 @@ class MailMonitoringDebugger
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Cache](https://laravel.com/project_docs/cache)
+- [Laravel Events](https://laravel.com/project_docs/events)
+- [Laravel Commands](https://laravel.com/project_docs/artisan) 
+- [Laravel Events](https://laravel.com/project_docs/events) 
+>>>>>>> 7aae79847 (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 - [Laravel Events](https://laravel.com/docs/events) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1414,6 +1429,8 @@ class MailMonitoringDebugger
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -1495,6 +1512,7 @@ class MailMonitoringDebugger
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 - [Laravel Events](https://laravel.com/docs/events) 
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
@@ -1778,3 +1796,7 @@ class MailMonitoringDebugger
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

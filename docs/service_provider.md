@@ -403,6 +403,7 @@ Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xotbaseserviceprovider.md`.
 =======
 Per maggiori dettagli sul provider base, consulta `modules/xot/project_docs/providers/xotbaseserviceprovider.md`.
@@ -596,6 +597,7 @@ Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xo
 Per maggiori dettagli sul provider base, consulta `modules/xot/project_docs/providers/xotbaseserviceprovider.md`.
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xotbaseserviceprovider.md`.
 >>>>>>> c7a4727b (.)
@@ -1362,3 +1364,5 @@ Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xo
 Per maggiori dettagli sul provider base, consulta `modules/xot/docs/providers/xotbaseserviceprovider.md`.
 >>>>>>> 4e4a7796 (.)
 >>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)

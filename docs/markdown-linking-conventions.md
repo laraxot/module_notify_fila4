@@ -343,6 +343,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -758,11 +759,15 @@
 >>>>>>> 909e45af (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7aae79847 (.)
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -841,6 +846,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 [Convenzioni di Naming per le Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -888,6 +895,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -896,6 +904,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
@@ -1549,6 +1559,7 @@
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
 =======
@@ -1654,6 +1665,10 @@
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -1806,6 +1821,7 @@ Per collegamenti a documenti in altre directory:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **Standard del progetto**: <nome progetto> segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 =======
 4. **Standard del progetto**:  segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
@@ -1914,6 +1930,7 @@ Per collegamenti a documenti in altre directory:
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> b99af5a8 (.)
 =======
@@ -1934,6 +1951,8 @@ Per collegamenti a documenti in altre directory:
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 4. **Standard del progetto**:  segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 4. **Standard del progetto**: <nome progetto> segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> bf479cc (.)
@@ -1974,6 +1993,7 @@ Per collegamenti a documenti in altre directory:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1982,6 +2002,8 @@ Per collegamenti a documenti in altre directory:
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
@@ -2169,6 +2191,7 @@ Per collegamenti a documenti in altre directory:
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> c7a4727b (.)
@@ -2346,6 +2369,8 @@ Per collegamenti a documenti in altre directory:
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 ## Regole per i Collegamenti Relativi
 

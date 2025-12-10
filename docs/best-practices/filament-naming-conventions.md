@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema , con particolare attenzione alle pagine e alle risorse.
 >>>>>>> 75179b855 (.)
@@ -126,7 +127,13 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 # Convenzioni di Naming per Filament 
 
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
+=======
+Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema , con particolare attenzione alle pagine e alle risorse.
+Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema <nome progetto>, con particolare attenzione alle pagine e alle risorse.
+>>>>>>> bf479cc (.)
 
 ## Convenzioni di Naming per Pagine Filament
 

@@ -983,6 +983,7 @@ class MailQueueManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1018,6 +1019,7 @@ class MailQueueManager
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1166,6 +1168,8 @@ class MailQueueManager
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
@@ -1256,6 +1260,7 @@ class MailQueueManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1274,6 +1279,8 @@ class MailQueueManager
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Queue](https://laravel.com/docs/queues)
@@ -2109,6 +2116,7 @@ class MailQueueManager
 - [Laravel Supervisor](https://laravel.com/docs/queues#supervisor-configuration) 
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
@@ -2221,3 +2229,8 @@ class MailQueueManager
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

@@ -168,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -326,6 +327,7 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
 =======
@@ -433,6 +435,10 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -734,6 +740,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -770,6 +777,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -825,6 +834,7 @@ $decodedData = base64_decode($encodedData);
 =======
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> dceba960 (.)
@@ -891,6 +901,8 @@ $decodedData = base64_decode($encodedData);
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -1103,6 +1115,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1134,6 +1147,8 @@ private static function processArray(array $data): array
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1983,6 +1998,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -2402,3 +2418,5 @@ private static function processArray(array $data): array
 =======
 >>>>>>> 4e4a7796 (.)
 >>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)

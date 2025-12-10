@@ -254,6 +254,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
 =======
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
@@ -362,6 +363,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
 >>>>>>> b99af5a8 (.)
 =======
@@ -382,6 +384,8 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
 >>>>>>> bf479cc (.)
@@ -422,6 +426,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -430,6 +435,8 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
@@ -617,6 +624,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
 >>>>>>> c7a4727b (.)
@@ -794,6 +802,8 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 ## Convenzioni Attuali nel Modulo Notify
 
@@ -964,6 +974,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
@@ -1072,6 +1083,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
 >>>>>>> b99af5a8 (.)
 =======
@@ -1092,6 +1104,8 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 >>>>>>> bf479cc (.)
@@ -1132,6 +1146,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1140,6 +1155,8 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
@@ -1327,6 +1344,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
 >>>>>>> c7a4727b (.)
@@ -1504,6 +1522,8 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 1. **Convenzioni Generali (Modules/Lang/docs/TRANSLATION_KEYS_RULES.md)**:
    - Struttura gerarchica espansa senza chiavi come `.navigation`

@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,6 +88,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -225,6 +227,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Documentazione SpatieEmail
 
 Questa directory contiene la documentazione relativa all'implementazione delle email multilingua utilizzando il pacchetto Spatie nel modulo Notify.
@@ -241,6 +245,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +461,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -470,6 +476,8 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
@@ -514,6 +522,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -522,6 +531,8 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -581,6 +592,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 - [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
@@ -812,3 +824,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

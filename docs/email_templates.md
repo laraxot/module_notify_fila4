@@ -3479,6 +3479,7 @@ MailTemplate::create([
    - ➡️ [Documentazione completa errore](../../../docs/errori/missing-mail-template-spatiemail.md)   - ➡️ [Documentazione completa errore](../../<nome progetto>/project_docs/errori/missing-mail-template-spatiemail.md)
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 =======
    - ➡️ [Documentazione completa errore](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md)
@@ -4776,6 +4777,8 @@ MailTemplate::create([
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 2. **Template non trovato**
    - Verificare che il template esista nel database
@@ -5302,10 +5305,13 @@ php artisan tinker
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [<nome progetto>: Missing Mail Template Error](../../<nome progetto>/docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 =======
 =======
@@ -5468,6 +5474,7 @@ php artisan tinker
 - [<nome progetto>: Missing Mail Template Error](../../../docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bd804d67 (.)
@@ -6087,6 +6094,8 @@ php artisan tinker
 - [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Missing Mail Template Patterns](../../../docs/errori_gravi/missing-mail-template-patterns.md) - Pattern globali
 - [Array to String Conversion](../../../docs/errori_gravi/array-to-string-conversion-patterns.md) - Errore correlato
 
@@ -6098,6 +6107,7 @@ php artisan tinker
 - [<nome progetto>: Missing Mail Template Error](../../<nome progetto>/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 - [Configurazione Email](../../../docs/email-configuration.md)- [<nome progetto>: Missing Mail Template Error](../../<nome progetto>/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6580,10 +6590,14 @@ php artisan tinker
 >>>>>>> 909e45af (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7aae79847 (.)
 - [SaluteOra: Missing Mail Template Error](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 - [Configurazione Email](../../../docs/email-configuration.md)- [SaluteOra: Missing Mail Template Error](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 - [SaluteOra: Missing Mail Template Error](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 - [Configurazione Email](../../../docs/email-configuration.md)- [SaluteOra: Missing Mail Template Error](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> f3086887 (rebase 210)
@@ -6644,9 +6658,12 @@ php artisan tinker
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [<nome progetto>: Missing Mail Template Error](../../<nome progetto>/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 - [Configurazione Email](../../../docs/email-configuration.md)- [<nome progetto>: Missing Mail Template Error](../../<nome progetto>/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6691,6 +6708,8 @@ php artisan tinker
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 =======
@@ -7490,6 +7509,7 @@ php artisan tinker
 - [Configurazione Email](../../../docs/email-configuration.md)- [SaluteOra: Missing Mail Template Error](../../SaluteOra/project_docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
 =======
@@ -7565,6 +7585,10 @@ php artisan tinker
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 - [Missing Mail Template Patterns](../../../project_docs/errori_gravi/missing-mail-template-patterns.md) - Pattern globali
 - [Array to String Conversion](../../../project_docs/errori_gravi/array-to-string-conversion-patterns.md) - Errore correlato
 

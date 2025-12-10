@@ -727,12 +727,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
@@ -765,8 +768,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 9777d1b3 (.)
@@ -998,6 +1004,7 @@ declare(strict_types=1);
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -1044,6 +1051,8 @@ declare(strict_types=1);
 =======
 >>>>>>> d13ead25 (.)
 >>>>>>> bf251cdf0 (.)
+=======
+>>>>>>> 7aae79847 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -1121,6 +1130,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1139,6 +1149,8 @@ declare(strict_types=1);
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> bf251cdf0 (.)
+=======
+>>>>>>> 7aae79847 (.)
 =======
 =======
 >>>>>>> 1fd232c7 (.)
@@ -1186,6 +1198,7 @@ declare(strict_types=1);
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1198,6 +1211,8 @@ declare(strict_types=1);
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 11ae5222 (.)
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -1224,12 +1239,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
                 <div>
@@ -1440,6 +1458,7 @@ declare(strict_types=1);
 >>>>>>> 3d542a31 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
@@ -1654,6 +1673,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 3d542a31 (.)
 >>>>>>> 7aeb7d968 (.)
+=======
+>>>>>>> 7aae79847 (.)
                 </div>
             </div>
         </div>

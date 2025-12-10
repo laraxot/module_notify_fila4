@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +86,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -219,6 +221,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Pagine Filament del Modulo Notify
 
 ## Panoramica
@@ -385,6 +389,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -443,6 +448,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -493,6 +499,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Architettura Filament](../../../../project_docs/architecture/filament.md)
 - [Gestione Pagine](../../../../project_docs/architecture/pages.md)
 
@@ -549,6 +557,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -559,6 +568,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -602,6 +613,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -765,6 +777,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -780,6 +794,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 2. Non si sovrascrivono metodi se non necessario
 3. Si mantiene la coerenza con il resto del sistema
 4. La documentazione va mantenuta aggiornata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,6 +976,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 5. I namespace seguono le convenzioni standard 
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 5. I namespace seguono le convenzioni standard 
@@ -1085,3 +1101,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+5. I namespace seguono le convenzioni standard 
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

@@ -801,9 +801,20 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 =======
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
+<<<<<<< HEAD
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 >>>>>>> 36136dcfa (.)
+=======
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 
 ## Analisi della Situazione Attuale
 
@@ -1002,6 +1013,7 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1031,6 +1043,8 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1154,6 +1168,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1170,6 +1185,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1724,6 +1741,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1752,6 +1770,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -1873,6 +1893,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 =======
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b99af5a8 (.)
@@ -1895,6 +1916,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1951,6 +1974,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1961,6 +1985,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2009,6 +2035,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -2051,6 +2078,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -2105,6 +2134,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2113,6 +2143,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -2171,6 +2203,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -2409,6 +2442,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 ```
 
 ### Template Standard per i File di Traduzione

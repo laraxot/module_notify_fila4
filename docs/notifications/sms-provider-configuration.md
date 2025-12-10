@@ -801,9 +801,20 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 =======
 # Configurazione Provider SMS per le Notifiche 
 
+<<<<<<< HEAD
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 >>>>>>> 36136dcfa (.)
+=======
+=======
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di , con focus sui diversi provider e sulla loro configurazione.
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 
 ## Indice
 
@@ -1039,6 +1050,7 @@ VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 =======
 VONAGE_SMS_FROM=
@@ -1147,6 +1159,7 @@ VONAGE_SMS_FROM=SaluteOra
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> b99af5a8 (.)
 =======
@@ -1167,6 +1180,8 @@ VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 VONAGE_SMS_FROM=
 VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> bf479cc (.)
@@ -1207,6 +1222,7 @@ VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1215,6 +1231,8 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 VONAGE_SMS_FROM=SaluteOra
@@ -1403,6 +1421,7 @@ VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> c7a4727b (.)
@@ -1581,6 +1600,8 @@ VONAGE_SMS_FROM=SaluteOra
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 ```
 
 ### Implementazione Notifica

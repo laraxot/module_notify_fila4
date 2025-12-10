@@ -359,6 +359,7 @@ find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
@@ -429,6 +430,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> 909e45af (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 >>>>>>> bb7e77c2 (.)
 =======
@@ -485,10 +487,16 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 7aae79847 (.)
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,6 +542,8 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
@@ -610,6 +620,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
@@ -910,6 +921,10 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 ```
 
 ## Riferimenti
@@ -919,6 +934,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 - [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1404,7 +1420,13 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> bb7e77c2 (.)
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+=======
+- [ XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+- [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> bf479cc (.)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 >>>>>>> 2a97406c (.)
 =======

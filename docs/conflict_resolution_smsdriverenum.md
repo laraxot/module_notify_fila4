@@ -580,6 +580,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -615,6 +616,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -769,6 +771,8 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Translation Standards](../../Lang/docs/translation-standards.md)
 - [Filament Integration](../../Xot/docs/filament-translations.md)
 =======
@@ -860,6 +864,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -878,6 +883,8 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Translation Standards](../../Lang/docs/translation-standards.md)
@@ -1602,6 +1609,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - [Filament Integration](../../Xot/docs/filament-translations.md)
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
@@ -1714,6 +1722,11 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 
 ## Note per Sviluppatori Futuri
 
@@ -1731,6 +1744,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 <<<<<<< HEAD
 - **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2009,6 +2023,7 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -2463,3 +2478,5 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 4e4a7796 (.)
 >>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)

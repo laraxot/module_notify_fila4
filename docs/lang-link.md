@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Collegamento alle Traduzioni del Modulo Notify
 
 =======
@@ -83,6 +84,8 @@
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Collegamento alle Traduzioni del Modulo Notify
 
 <<<<<<< HEAD
@@ -152,10 +155,14 @@
 
 >>>>>>> 909e45af (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7aae79847 (.)
 =======
 # Collegamento alle Traduzioni del Modulo Notify
 
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 # Collegamento alle Traduzioni del Modulo Notify
 
@@ -302,6 +309,8 @@
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/project_docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -361,6 +370,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -371,6 +381,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -604,6 +616,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 # Collegamento alle Traduzioni del Modulo Notify
 
@@ -643,6 +656,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -753,6 +768,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -811,6 +827,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -861,6 +878,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 * [lang-link.md](../../../Chart/project_docs/lang-link.md)
 * [lang-link.md](../../../Reporting/project_docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/project_docs/lang-link.md)
@@ -924,6 +943,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -934,6 +954,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -977,6 +999,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -1140,6 +1163,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 * [lang-link.md](../../../Chart/docs/lang-link.md)
 * [lang-link.md](../../../Reporting/docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/docs/lang-link.md)
@@ -1155,6 +1180,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Patient/docs/lang-link.md)
 * [lang-link.md](../../../Cms/docs/lang-link.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1295,6 +1321,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 7aae79847 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1302,6 +1330,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
@@ -1388,3 +1417,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

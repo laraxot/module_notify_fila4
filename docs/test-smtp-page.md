@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +86,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -219,6 +221,8 @@
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 # Test smtp page
 
 ![test smtp page](test-smtp-page.jpg)
@@ -235,6 +239,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 ## Collegamenti tra versioni di test-smtp-page.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,6 +402,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 * [test-smtp-page.md](../../../Notify/project_docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/project_docs/test-smtp-page.md)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -629,6 +635,8 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 
@@ -639,6 +647,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,6 +788,8 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 7aae79847 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -786,6 +797,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
@@ -872,3 +884,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)

@@ -277,6 +277,7 @@ Ogni campo ora ha la struttura espansa completa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -292,9 +293,12 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 >>>>>>> 909e45af (.)
 =======
+>>>>>>> bb7e77c2 (.)
+=======
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Regole Helper Text](../project_docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../project_docs/filament_translation_best_practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -656,6 +660,7 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
@@ -834,6 +839,11 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 =======
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)

@@ -254,6 +254,7 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
 =======
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto , mantenendo la coerenza visiva e migliorando l'usabilità.
@@ -362,6 +363,7 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
 >>>>>>> b99af5a8 (.)
 =======
@@ -382,6 +384,8 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto , mantenendo la coerenza visiva e migliorando l'usabilità.
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
 >>>>>>> bf479cc (.)
@@ -422,6 +426,7 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -430,6 +435,8 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
@@ -617,6 +624,7 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
 >>>>>>> c7a4727b (.)
@@ -794,6 +802,8 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto SaluteOra, mantenendo la coerenza visiva e migliorando l'usabilità.
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 ## Componenti per il Campo `name`
 
@@ -1134,6 +1144,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -1242,6 +1253,7 @@ return [
 ## Conformità con gli Standard SaluteOra
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 ## Conformità con gli Standard SaluteOra
 >>>>>>> b99af5a8 (.)
 =======
@@ -1262,6 +1274,8 @@ return [
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 ## Conformità con gli Standard 
 ## Conformità con gli Standard <nome progetto>
 >>>>>>> bf479cc (.)
@@ -1302,6 +1316,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1310,6 +1325,8 @@ return [
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 ## Conformità con gli Standard SaluteOra
@@ -1497,6 +1514,7 @@ return [
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> c7a4727b (.)
@@ -1674,6 +1692,8 @@ return [
 ## Conformità con gli Standard SaluteOra
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 Tutti i componenti proposti:
 1. Non utilizzano il metodo `->label()` sui componenti Filament
@@ -1819,6 +1839,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 =======
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto  mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
@@ -1927,6 +1948,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 >>>>>>> b99af5a8 (.)
 =======
@@ -1947,6 +1969,8 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto  mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 >>>>>>> bf479cc (.)
@@ -1987,6 +2011,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1995,6 +2020,8 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
@@ -2182,6 +2209,7 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 >>>>>>> c7a4727b (.)
@@ -2359,6 +2387,8 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto SaluteOra mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
 
 ## Riferimenti
 

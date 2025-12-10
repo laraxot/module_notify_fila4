@@ -308,6 +308,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
         'sender' => env('NETFUN_SENDER', ''),
@@ -416,6 +417,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> b99af5a8 (.)
 =======
@@ -436,6 +438,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
@@ -476,6 +480,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -484,6 +489,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
@@ -671,6 +678,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> c7a4727b (.)
@@ -848,6 +856,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -1034,6 +1044,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
         'sender' => env('NETFUN_SENDER', ''),
@@ -1142,6 +1153,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> b99af5a8 (.)
 =======
@@ -1162,6 +1174,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
@@ -1202,6 +1216,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1210,6 +1225,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
@@ -1397,6 +1414,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> c7a4727b (.)
@@ -1574,6 +1592,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7aae79847 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun

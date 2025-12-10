@@ -254,6 +254,7 @@ Il modello `MailTemplate` (`/var/www/html/<nome progetto>/laravel/Modules/Notify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modello `MailTemplate` (`/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 =======
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
@@ -327,6 +328,7 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> b99af5a8 (.)
 =======
@@ -383,10 +385,13 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,6 +437,8 @@ Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è s
 >>>>>>> 53eef8d8d (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
@@ -508,6 +515,7 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 =======
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
@@ -808,6 +816,10 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+>>>>>>> 7aae79847 (.)
 
 ## Modifiche Effettuate
 

@@ -1174,6 +1174,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1470,6 +1471,7 @@ class MailMonitoringDebugger
 >>>>>>> 4e4a7796 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -1538,6 +1540,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 4e4a7796 (.)
 >>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1705,6 +1709,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1742,6 +1747,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 09f5337a8 (.)
 =======
+>>>>>>> 7aae79847 (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1891,6 +1898,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> bb7e77c2 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> bd804d67 (.)
@@ -1923,6 +1931,8 @@ class MailMonitoringDebugger
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -2010,6 +2020,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2028,6 +2039,8 @@ class MailMonitoringDebugger
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 7aae79847 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2703,6 +2716,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c7a4727b (.)
 =======
@@ -2798,3 +2812,5 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 4e4a7796 (.)
 >>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> 7aae79847 (.)
