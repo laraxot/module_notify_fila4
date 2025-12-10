@@ -115,6 +115,7 @@ use Illuminate\Queue\SerializesModels;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -123,6 +124,15 @@ use Illuminate\Queue\SerializesModels;
 =======
 >>>>>>> 1fd232c (.)
 // use Modules\SaluteOra\Models\Appointment;
+<<<<<<< HEAD
+=======
+=======
+// use Modules\<main module>\Models\Appointment;
+>>>>>>> e6ac118 (.)
+=======
+// use Modules\SaluteOra\Models\Appointment;
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
 
 >>>>>>> 82ae73b (.)
 =======
@@ -507,6 +517,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 98d837b9 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,6 +526,21 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         if (is_object($appointment) && property_exists($appointment, 'id') && is_scalar($appointment->id)) {
             $subject .= ' #'.(string) $appointment->id;
 >>>>>>> 05bc3ad (.)
+<<<<<<< HEAD
+=======
+=======
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+>>>>>>> ab15d0e (.)
+=======
+        if (is_object($appointment) && property_exists($appointment, 'id') && is_scalar($appointment->id)) {
+            $subject .= ' #'.(string) $appointment->id;
+>>>>>>> e6ac118 (.)
+=======
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
         }
 
 <<<<<<< HEAD

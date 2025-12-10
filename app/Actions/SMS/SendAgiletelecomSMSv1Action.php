@@ -859,6 +859,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ba141fc (.)
 =======
@@ -887,6 +888,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';

@@ -21,6 +21,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
      * @var EmailData
 =======
@@ -38,12 +39,17 @@ class EmailDataNotification extends Notification
      *
      * @var EmailData
 >>>>>>> 5fd545e4 (.)
+=======
+     *
+     * @var EmailData
+>>>>>>> 54220b28 (rebase 210)
      */
     protected EmailData $emailData;
 
     /**
      * Create a new notification instance.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +67,9 @@ class EmailDataNotification extends Notification
 =======
      * @param EmailData $emailData I dati dell'email da inviare
 >>>>>>> 5fd545e4 (.)
+=======
+     * @param EmailData $emailData I dati dell'email da inviare
+>>>>>>> 54220b28 (rebase 210)
      */
     public function __construct(EmailData $emailData)
     {
@@ -70,6 +79,7 @@ class EmailDataNotification extends Notification
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +273,9 @@ class EmailDataNotification extends Notification
 =======
      * @param object $_notifiable The entity to be notified (not used in this method)
 >>>>>>> 5fd545e4 (.)
+=======
+     * @param object $_notifiable The entity to be notified (not used in this method)
+>>>>>>> 54220b28 (rebase 210)
      * @return array<string>
      */
     public function via(object $_notifiable): array
@@ -640,6 +653,7 @@ class EmailDataNotification extends Notification
     /**
      * Get the mail representation of the notification.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1451,6 +1465,18 @@ class EmailDataNotification extends Notification
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+     * @param object $notifiable The entity to be notified
+     * @return MailMessage
+     */
+    public function toMail(object $notifiable): MailMessage
+    {
+        $mailMessage = new MailMessage()
+            ->subject($this->emailData->subject)
+            ->line($this->emailData->body);
+
+        if (!empty($this->emailData->body_html)) {
+>>>>>>> 54220b28 (rebase 210)
             $mailMessage->view('notify::emails.template', [
 =======
 =======
@@ -1518,6 +1544,7 @@ class EmailDataNotification extends Notification
             ]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1745,6 +1772,9 @@ class EmailDataNotification extends Notification
 =======
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
 >>>>>>> 5fd545e4 (.)
+=======
+        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+>>>>>>> 54220b28 (rebase 210)
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 =======
 =======
@@ -1811,6 +1841,7 @@ class EmailDataNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param object $notifiable The entity to be notified
 =======
 <<<<<<< HEAD
@@ -1825,6 +1856,9 @@ class EmailDataNotification extends Notification
 =======
      * @param object $notifiable The entity to be notified
 >>>>>>> 5fd545e4 (.)
+=======
+     * @param object $notifiable The entity to be notified
+>>>>>>> 54220b28 (rebase 210)
      * @return array<string, string|null>
      */
     public function toArray(object $notifiable): array

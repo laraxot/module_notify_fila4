@@ -126,10 +126,13 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
@@ -177,13 +180,24 @@ test('components json is valid and contains expected components', function (): v
 =======
 =======
 >>>>>>> a80c61f (.)
+<<<<<<< HEAD
 >>>>>>> 7c1c276f (rebase 210)
+=======
+=======
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
 
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -191,7 +205,13 @@ test('components json is valid and contains expected components', function (): v
 =======
 =======
 >>>>>>> a80c61f (.)
+<<<<<<< HEAD
 >>>>>>> 7c1c276f (rebase 210)
+=======
+=======
+    /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
     expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
 
     // Verifico i nomi specifici dei componenti

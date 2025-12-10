@@ -14,6 +14,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 abstract class BaseMorphPivot extends MorphPivot
@@ -27,6 +28,9 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> 7c1c276f (rebase 210)
+=======
+abstract class BaseMorphPivot extends MorphPivot
+>>>>>>> 54220b28 (rebase 210)
 {
     use Updater;
 
@@ -166,6 +170,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -764,6 +769,10 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
         'post_id',
         'post_type',
 >>>>>>> 116df547 (.)
+=======
+        'post_id',
+        'post_type',
+>>>>>>> 54220b28 (rebase 210)
         'related_type',
         'user_id',
         'note',
@@ -880,6 +889,7 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1287,6 +1297,8 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

@@ -40,6 +40,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
 =======
     use HasFactory;
@@ -51,11 +52,25 @@ class NotificationLog extends BaseModel
     use \Modules\Xot\Models\Traits\HasXotFactory;
 >>>>>>> 5fd545e4 (.)
 =======
+=======
+>>>>>>> 54220b28 (rebase 210)
     use \Modules\Xot\Models\Traits\HasXotFactory;
 =======
     use HasFactory;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+    use \Modules\Xot\Models\Traits\HasXotFactory;
+>>>>>>> 05bc3ad (.)
+=======
+    use HasFactory;
+>>>>>>> d2c515f (.)
+=======
+    use \Modules\Xot\Models\Traits\HasXotFactory;
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
     use Updater;
 
     public const STATUS_PENDING = 'pending';
@@ -73,6 +88,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var list<string> */
 =======
     /** @var array<int, string> */
@@ -84,11 +100,25 @@ class NotificationLog extends BaseModel
     /** @var list<string> */
 >>>>>>> 5fd545e4 (.)
 =======
+=======
+>>>>>>> 54220b28 (rebase 210)
     /** @var list<string> */
 =======
     /** @var array<int, string> */
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+=======
+    /** @var list<string> */
+>>>>>>> 05bc3ad (.)
+=======
+    /** @var array<int, string> */
+>>>>>>> d2c515f (.)
+=======
+    /** @var list<string> */
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
     protected $fillable = [
         'template_id',
         'notifiable_type',

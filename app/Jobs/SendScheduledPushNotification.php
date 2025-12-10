@@ -3,10 +3,14 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\Notify\Jobs;
 =======
 namespace Modules\Notify\App\Jobs;
 >>>>>>> 05bc3ad (.)
+=======
+namespace Modules\Notify\Jobs;
+>>>>>>> e6c7fb3 (.)
 
 use Exception;
 use Throwable;
@@ -18,10 +22,14 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Services\PushNotificationService;
 =======
 use Modules\Notify\App\Services\PushNotificationService;
 >>>>>>> 05bc3ad (.)
+=======
+use Modules\Notify\Services\PushNotificationService;
+>>>>>>> e6c7fb3 (.)
 use Webmozart\Assert\Assert;
 
 /**

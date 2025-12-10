@@ -1090,6 +1090,7 @@ class LinkableRelationManager extends XotBaseRelationManager
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             TextInput::make('id')
                 ->required()
                 ->maxLength(255),
@@ -1120,6 +1121,9 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> e6ac118 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> 54220b28 (rebase 210)
             TextInput::make('id')->required()->maxLength(255),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1222,7 +1226,21 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+            TextInput::make('id')->required()->maxLength(255),
+>>>>>>> ab15d0e (.)
+=======
+            TextInput::make('id')
+                ->required()
+                ->maxLength(255),
+>>>>>>> e6ac118 (.)
+=======
+            TextInput::make('id')->required()->maxLength(255),
+>>>>>>> e6c7fb3 (.)
+>>>>>>> 54220b28 (rebase 210)
         ];
     }
 }

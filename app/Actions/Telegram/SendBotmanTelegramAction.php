@@ -5011,6 +5011,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 >>>>>>> b19cd40 (.)
@@ -5054,6 +5055,11 @@ final class SendBotmanTelegramAction
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
 >>>>>>> 5fd545e4 (.)
+=======
+            return [
+                'success' => $responseData['ok'] ?? false,
+                'message_id' => $responseData['result']['message_id'] ?? null,
+>>>>>>> 54220b28 (rebase 210)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];

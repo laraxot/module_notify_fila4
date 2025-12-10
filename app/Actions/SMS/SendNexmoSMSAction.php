@@ -1648,6 +1648,7 @@ final class SendNexmoSMSAction implements SmsActionContract
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -1938,6 +1939,8 @@ final class SendNexmoSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
     public function execute(SmsData $smsData): array
     {
         $headers = [

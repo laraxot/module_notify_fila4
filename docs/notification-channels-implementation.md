@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Implementazione dei Canali di Notifica 
 
 <<<<<<< HEAD
@@ -645,3 +646,5 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)

@@ -8,6 +8,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBasePivot;
 =======
 use Illuminate\Database\Eloquent\Relations\Pivot;
@@ -17,22 +18,38 @@ use Modules\Xot\Traits\Updater;
 =======
 use Modules\Xot\Models\XotBasePivot;
 >>>>>>> 7c1c276f (rebase 210)
+=======
+use Illuminate\Database\Eloquent\Relations\Pivot;
+// //use Laravel\Scout\Searchable;
+use Modules\Xot\Traits\Updater;
+>>>>>>> 54220b28 (rebase 210)
 
 /**
- * Base Pivot for Notify module.
- *
- * Extends XotBasePivot which provides all standard properties and casts.
- *
- * @see \Modules\Xot\Models\XotBasePivot
+ * Class BasePivot.
  */
-abstract class BasePivot extends XotBasePivot
+abstract class BasePivot extends Pivot
 {
+    use Updater;
+
     /**
-     * The connection name for the model.
+     * Indicates whether attributes are snake cased on arrays.
      *
-     * @var string
+     * @see https://laravel-news.com/6-eloquent-secrets
+     *
+     * @var bool
      */
+    public static $snakeAttributes = true;
+
+    /** @var bool */
+    public $incrementing = true;
+
+    /** @var int */
+    protected $perPage = 30;
+
+    // use Searchable;
+    /** @var string */
     protected $connection = 'notify';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,6 +89,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
 
     // this will use the specified database connection
 
@@ -93,6 +112,7 @@ abstract class BasePivot extends XotBasePivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,11 +1139,17 @@ abstract class BasePivot extends XotBasePivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 >>>>>>> 116df547 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 54220b28 (rebase 210)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1148,4 +1174,6 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
 }

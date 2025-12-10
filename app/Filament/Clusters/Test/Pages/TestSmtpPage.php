@@ -693,6 +693,7 @@ class TestSmtpPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var Schema $result */
         $result = $schema->components([])->model($this->getUser())->statePath('emailData');
         return $result;
@@ -705,6 +706,9 @@ class TestSmtpPage extends XotBasePage implements HasForms
 =======
         return $schema->components([])->model($this->getUser())->statePath('emailData');
 >>>>>>> 5fd545e4 (.)
+=======
+        return $schema->components([])->model($this->getUser())->statePath('emailData');
+>>>>>>> 54220b28 (rebase 210)
     }
 
 =======

@@ -462,6 +462,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property-read NotificationTemplate|null $template
+<<<<<<< HEAD
  * @property string $notifiable_type
  * @property int $notifiable_id
  * @property string $title
@@ -491,6 +492,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
  * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
  * @mixin \Eloquent
+=======
+>>>>>>> 54220b28 (rebase 210)
  */
 final class NotificationLog extends BaseModel
 {

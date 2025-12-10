@@ -1359,6 +1359,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -1383,6 +1384,8 @@ class Get
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
         if ($theme->subject === null) {
             $subject = trans($trad_mod.'.subject');
 <<<<<<< HEAD
@@ -1875,6 +1878,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 2cbbc069 (.)
@@ -1904,6 +1908,8 @@ class Get
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
@@ -1917,19 +1923,25 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 54220b28 (rebase 210)
 =======
         /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> e6ac118 (.)
 =======
 >>>>>>> e6c7fb3 (.)
+<<<<<<< HEAD
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
         if ($theme->body_html === null) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3672,6 +3684,7 @@ class Get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'from_email' => $theme->from_email,
 =======
             /* @phpstan-ignore-next-line property.notFound */
@@ -3752,6 +3765,9 @@ class Get
             'from_email' => $theme->from_email,
             /* @phpstan-ignore-next-line property.notFound */
 >>>>>>> 7c1c276f (rebase 210)
+=======
+            'from_email' => $theme->from_email,
+>>>>>>> 54220b28 (rebase 210)
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,

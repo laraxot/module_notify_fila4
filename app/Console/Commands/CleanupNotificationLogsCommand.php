@@ -258,6 +258,9 @@ class CleanupNotificationLogsCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54220b28 (rebase 210)
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
 =======
@@ -278,6 +281,7 @@ class CleanupNotificationLogsCommand extends Command
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
 >>>>>>> e6c7fb3 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -303,6 +307,8 @@ class CleanupNotificationLogsCommand extends Command
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
             $logs->each->delete();
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");

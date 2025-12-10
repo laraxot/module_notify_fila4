@@ -77,6 +77,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -369,6 +370,9 @@ class BuildMailMessageAction
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 98d837b9 (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> 54220b28 (rebase 210)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -1284,6 +1288,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $email = new MailMessage()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1744,10 +1749,13 @@ class BuildMailMessageAction
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1839,6 +1847,8 @@ class BuildMailMessageAction
 >>>>>>> d13ead25 (.)
 =======
 >>>>>>> 3d542a31 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {
