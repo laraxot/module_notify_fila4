@@ -120,6 +120,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -142,6 +143,8 @@ declare(strict_types=1);
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 6d2af2b31 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -269,6 +272,7 @@ test('html template contains optional function', function (): void {
 =======
 =======
 >>>>>>> 1fd232c7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1554,6 +1558,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> laraxot/develop
 =======
 =======
+=======
+>>>>>>> 6d2af2b31 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
@@ -1576,14 +1582,18 @@ test('html template contains optional function', function (): void {
 
     // Verifico che contiene la funzione optional per body_html
     expect($content)
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 6d2af2b31 (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1809,6 +1819,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 6d2af2b31 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4799,6 +4811,7 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 9777d1b3 (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -5356,6 +5369,10 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
 =======
+=======
+=======
+>>>>>>> 1fd232c7 (.)
+>>>>>>> 6d2af2b31 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -5390,6 +5407,12 @@ test('ark template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 });
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 >>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 1fd232c7 (.)
+>>>>>>> 6d2af2b31 (.)
