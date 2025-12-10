@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -95,6 +96,8 @@
 >>>>>>> 4f3927d7 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -613,6 +616,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1286,6 +1290,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -1458,6 +1464,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1808,12 +1815,15 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
 ## Vedi Anche
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2743,3 +2753,6 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+- [Pest PHP](https://pestphp.com/docs) 
+>>>>>>> 9cf0dc90 (.)

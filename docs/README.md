@@ -14,8 +14,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 ### 1. Invio Email Semplice
 =======
 =======
@@ -990,6 +993,7 @@ Log::channel('email')->info('Email sent', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c (.)
 =======
@@ -1401,6 +1405,10 @@ php artisan notify:test-push
 
 <<<<<<< HEAD
 =======
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1707,6 +1715,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> f963d2c (.)
@@ -1807,3 +1816,8 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b8 (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)

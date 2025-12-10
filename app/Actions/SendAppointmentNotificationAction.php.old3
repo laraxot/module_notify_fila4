@@ -10,6 +10,9 @@ use Illuminate\Support\Facades\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
 use Modules\<nome progetto>\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\<nome progetto>\Models\Patient;
@@ -18,6 +21,7 @@ use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\SaluteOra\Models\Patient;
 >>>>>>> f963d2c (.)
+<<<<<<< HEAD
 =======
 use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
@@ -33,6 +37,8 @@ use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\SaluteOra\Models\Patient;
 >>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 9cf0dc90 (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction

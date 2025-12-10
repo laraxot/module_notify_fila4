@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -77,6 +78,8 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore
@@ -184,6 +187,7 @@ L'errore si manifesta in due forme principali:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto> utilizza un'architettura a strati per i componenti Filament:
 =======
 Il progetto  utilizza un'architettura a strati per i componenti Filament:
@@ -541,6 +545,9 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 Il progetto  utilizza un'architettura a strati per i componenti Filament:
 Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
 >>>>>>> c8b1c8bf (.)
+=======
+Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> 9cf0dc90 (.)
 
 ```
 Filament Core Classes (vendor)
@@ -643,6 +650,7 @@ Saltare il livello intermedio (XotBase) rompe questa architettura e crea inconsi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome progetto>:
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto :
@@ -1000,6 +1008,9 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 Le classi XotBase contengono personalizzazioni specifiche per il progetto :
 Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
 >>>>>>> c8b1c8bf (.)
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
+>>>>>>> 9cf0dc90 (.)
 - Gestione multilingua
 - Integrazione con il sistema di permessi
 - Logging e auditing
@@ -1150,6 +1161,7 @@ L'adozione coerente del pattern di estensione XotBase offre vantaggi significati
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di <nome progetto>. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
@@ -1515,3 +1527,6 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di . Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> c8b1c8bf (.)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> 9cf0dc90 (.)

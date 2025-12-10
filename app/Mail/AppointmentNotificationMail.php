@@ -203,9 +203,12 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +297,12 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 // use Modules\<nome progetto>\Models\Appointment;
 
 =======
+=======
+=======
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 // use Modules\SaluteOra\Models\Appointment;
 
 >>>>>>> 82ae73b (.)
@@ -334,6 +343,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502,6 +512,12 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
      * @param  array<string, mixed>  $notificationData
 >>>>>>> 2fc60436 (.)
+=======
+     * @param  array<string, mixed>  $notificationData
+=======
+     * @param array<string, mixed> $notificationData
+>>>>>>> 518c702 (.)
+>>>>>>> 9cf0dc90 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -534,12 +550,16 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 
 >>>>>>> 82ae73b (.)
         $subject = match ($type) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 1fd232c (.)
         
@@ -654,6 +674,11 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 
         $subject = match ($type) {
 >>>>>>> 985c7bda (.)
+=======
+        
+        $subject = match($type) {
+>>>>>>> 518c702 (.)
+>>>>>>> 9cf0dc90 (.)
             'confirmed' => 'Conferma Appuntamento',
             'reminder' => 'Promemoria Appuntamento',
             'cancelled' => 'Cancellazione Appuntamento',
@@ -678,12 +703,15 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 
 <<<<<<< HEAD
         $appointment = $this->notificationData['appointment'] ?? null;
@@ -699,6 +727,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 82ae73b (.)
 
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 1fd232c (.)
 =======
@@ -916,6 +945,14 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+        
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #' . $appointment->id;
+        }
+        
+>>>>>>> 518c702 (.)
+>>>>>>> 9cf0dc90 (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],
@@ -980,13 +1017,17 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 
         // Determina il template da utilizzare in base al tipo di notifica
 >>>>>>> 82ae73b (.)
         $view = match ($type) {
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 1fd232c (.)
 =======
@@ -1116,6 +1157,12 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
         // Determina il template da utilizzare in base al tipo di notifica
         $view = match ($type) {
 >>>>>>> 985c7bda (.)
+=======
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+>>>>>>> 518c702 (.)
+>>>>>>> 9cf0dc90 (.)
             'confirmed' => 'notify::emails.appointments.confirmed',
             'reminder' => 'notify::emails.appointments.reminder',
             'cancelled' => 'notify::emails.appointments.cancelled',
@@ -1138,7 +1185,14 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+=======
+        
+>>>>>>> 518c702 (.)
+>>>>>>> 9cf0dc90 (.)
         return new Content(
             view: $view,
             with: [

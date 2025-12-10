@@ -399,6 +399,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -425,6 +426,8 @@ declare(strict_types=1);
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 <<<<<<< HEAD
@@ -582,6 +585,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 9777d1b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 58816034 (.)
 =======
 =======
@@ -630,6 +634,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -646,6 +654,7 @@ declare(strict_types=1);
                             {{ $action }}
                         @endforeach
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1110,6 +1119,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
@@ -1127,6 +1138,7 @@ declare(strict_types=1);
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
 =======
 =======
@@ -1134,6 +1146,8 @@ declare(strict_types=1);
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> 1fd232c (.)
 >>>>>>> d298dd9c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
                 </div>
             </div>
         </div>

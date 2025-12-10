@@ -16,12 +16,15 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 
 #### Formato 1: Allegato da File Esistente (`path`)
@@ -31,6 +34,7 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 =======
 ```php
 // Formato corretto - un array di array di allegati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7bac387 (.)
@@ -55,6 +59,9 @@ $attachments = [
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 $attachments = [
     [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
@@ -147,12 +154,15 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 #### Formato 2: Allegato da Contenuto Binario (`data`)
 
 ```php
@@ -179,6 +189,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -197,6 +208,9 @@ $attachments = [
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 ## Implementazione nella Classe SpatieEmail
 
 La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment` di Laravel per gestire gli allegati in modo robusto:
@@ -221,12 +235,15 @@ public function addAttachments(array $attachments): self
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
         $attachment = null;
         
         // Priorità 1: Se esiste 'path' e il file esiste, usa getAttachmentFromPath()
@@ -246,6 +263,7 @@ public function addAttachments(array $attachments): self
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -260,6 +278,8 @@ public function addAttachments(array $attachments): self
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
         if (!isset($item['path']) || !file_exists($item['path'])) {
             continue;
         }
@@ -275,6 +295,7 @@ public function addAttachments(array $attachments): self
         }
         
         $attachmentObjects[] = $attachment;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +321,9 @@ public function addAttachments(array $attachments): self
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
     }
     
     $this->customAttachments = $attachmentObjects;
@@ -328,12 +352,15 @@ public function attachments(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 ### Esempio 1: Allegato da File Esistente
 
 ```php
@@ -341,6 +368,7 @@ public function attachments(): array
 =======
 ```php
 // Creazione di un array di allegati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +398,9 @@ public function attachments(): array
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
 $attachments = [
     [
         'path' => 'modules/notify/resources/assets/images/logo.png',
@@ -393,12 +424,15 @@ Mail::to($recipient)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 ### Esempio 2: Allegato PDF Generato Dinamicamente
 
 ```php
@@ -578,6 +612,7 @@ foreach ($records as $record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -592,6 +627,8 @@ foreach ($records as $record) {
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 9cf0dc90 (.)
 ## Opzioni Disponibili per gli Allegati
 
 Ogni allegato deve contenere i seguenti parametri:
@@ -618,6 +655,7 @@ Ogni allegato deve contenere i seguenti parametri:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -636,3 +674,6 @@ Ogni allegato deve contenere i seguenti parametri:
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
