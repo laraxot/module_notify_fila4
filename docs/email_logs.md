@@ -855,6 +855,7 @@ class MailLogDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -994,6 +995,7 @@ class MailLogDebugger
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
@@ -1025,6 +1027,10 @@ class MailLogDebugger
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
@@ -1112,6 +1118,7 @@ class MailLogDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1124,6 +1131,8 @@ class MailLogDebugger
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Logging](https://laravel.com/docs/logging)
@@ -1285,6 +1294,7 @@ class MailLogDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -2038,3 +2048,8 @@ class MailLogDebugger
 >>>>>>> 753ea7aca (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)

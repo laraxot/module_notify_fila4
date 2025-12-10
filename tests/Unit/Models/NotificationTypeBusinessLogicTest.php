@@ -4,6 +4,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
@@ -54,6 +55,9 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 <<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 =======
@@ -105,14 +109,18 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -140,11 +148,14 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 <<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,11 +234,22 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 23f115647 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('NotificationType Business Logic', function () {
     test('notification type extends eloquent model', function () {
+<<<<<<< HEAD
         expect(NotificationType::class)->toBeSubclassOf(Model::class);
+=======
+<<<<<<< HEAD
+        expect(NotificationType::class)->toBeSubclassOf(Model::class);
+=======
+        expect(NotificationType::class)->toBeSubclassOf(\Illuminate\Database\Eloquent\Model::class);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     });
 
     test('notification type has expected fillable fields', function () {
@@ -284,7 +306,15 @@ describe('NotificationType Business Logic', function () {
             'description',
             'template',
         ];
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         expect($notificationType->getFillable())->toEqual($expectedFillable);
     });
 
@@ -340,7 +370,15 @@ describe('NotificationType Business Logic', function () {
         $notificationType->name = 'Email Verification';
         $notificationType->description = 'Email verification notification type';
         $notificationType->template = 'email-verification-template';
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         expect($notificationType->name)->toBe('Email Verification');
         expect($notificationType->description)->toBe('Email verification notification type');
         expect($notificationType->template)->toBe('email-verification-template');
@@ -482,19 +520,42 @@ describe('NotificationType Business Logic', function () {
         $notificationType = new NotificationType;
 =======
         $notificationType = new NotificationType();
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
+>>>>>>> 23f115647 (.)
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);
+=======
+<<<<<<< HEAD
+
+        expect($notificationType)->toBeInstanceOf(NotificationType::class);
+        expect($notificationType)->toBeInstanceOf(Model::class);
+=======
+        
+        expect($notificationType)->toBeInstanceOf(NotificationType::class);
+        expect($notificationType)->toBeInstanceOf(\Illuminate\Database\Eloquent\Model::class);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     });
 
     test('notification type can be queried', function () {
         $query = NotificationType::query();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
         expect($query)->toBeInstanceOf(Builder::class);
     });
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,6 +567,8 @@ describe('NotificationType Business Logic', function () {
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 =======
         
         expect($query)->toBeInstanceOf(\Illuminate\Database\Eloquent\Builder::class);
@@ -514,6 +577,7 @@ describe('NotificationType Business Logic', function () {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
@@ -521,3 +585,5 @@ describe('NotificationType Business Logic', function () {
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 23f115647 (.)

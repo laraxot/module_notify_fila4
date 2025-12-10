@@ -332,6 +332,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -548,11 +549,15 @@
 >>>>>>> 7325acf3 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -574,6 +579,8 @@
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/project_docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/project_docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/project_docs/CONTRACTS_ARCHITECTURE.md)
@@ -615,12 +622,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
@@ -988,6 +998,7 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
@@ -1592,6 +1603,10 @@
 >>>>>>> 753ea7aca (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -1605,8 +1620,13 @@
 Per collegamenti a documenti in altre directory:
 
 ```markdown
+<<<<<<< HEAD
 [Regole Generali per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_RULES.md)
 [Best Practices per le Chiavi di Traduzione](../../Lang/docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+=======
+[Regole Generali per le Chiavi di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_RULES.md)
+[Best Practices per le Chiavi di Traduzione](../../Lang/project_docs/TRANSLATION_KEYS_BEST_PRACTICES.md)
+>>>>>>> d284d65 (.)
 ```
 
 ## Motivazione
@@ -2276,8 +2296,10 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 
 ## Collegamenti Correlati
 
+<<<<<<< HEAD
 - [Convenzioni di Documentazione](../../../docs/documentation-conventions.md)
 - [Markdown Best Practices](../../../docs/markdown-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2383,9 +2405,12 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 =======
 >>>>>>> 998e6866b (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2693,3 +2718,11 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+=======
+- [Convenzioni di Documentazione](../../../project_docs/documentation-conventions.md)
+- [Markdown Best Practices](../../../project_docs/markdown-best-practices.md)
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)

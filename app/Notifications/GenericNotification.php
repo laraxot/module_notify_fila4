@@ -10,6 +10,7 @@ namespace Modules\Notify\Notifications;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -49,7 +50,10 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +120,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -210,6 +216,8 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -241,10 +249,13 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -317,6 +328,7 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -353,6 +365,8 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 =======
@@ -449,6 +463,7 @@ use Illuminate\Notifications\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -473,6 +488,8 @@ use Illuminate\Notifications\Notification;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -543,6 +560,10 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 =======
 >>>>>>> 4689a827 (.)
+=======
+use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
@@ -581,8 +602,11 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
@@ -663,6 +687,7 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> 98d837b9 (.)
@@ -989,6 +1014,8 @@ use Modules\Xot\Actions\Cast\SafeAttributeCastAction;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 
 /**
  * Notifica generica configurabile per il sistema il progetto.
@@ -1263,6 +1290,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1280,6 +1308,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -1325,10 +1355,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1427,6 +1460,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2fc60436 (.)
@@ -1492,6 +1526,11 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
      * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1577,6 +1616,9 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1646,6 +1688,7 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 =======
@@ -1900,12 +1943,18 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f2e64178 (.)
 =======
 =======
+>>>>>>> 23f115647 (.)
+=======
 =======
 >>>>>>> origin/develop
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 23f115647 (.)
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -1939,6 +1988,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
      * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
@@ -1950,6 +2000,9 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 23f115647 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2123,12 +2176,15 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> a12f125f4a (.)
 =======
      * @param mixed $_notifiable L'entità da notificare (oggetto che riceverà la notifica)
@@ -2147,7 +2203,10 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2271,6 +2330,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2309,6 +2369,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     {
         return $this->channels;
 >>>>>>> 75179b85 (.)
@@ -2756,6 +2818,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2806,6 +2869,8 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 53d9bada0 (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2846,6 +2911,10 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
         $mail = new MailMessage()
 =======
+=======
+        $mail = new MailMessage()
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2860,8 +2929,14 @@ class GenericNotification extends Notification implements ShouldQueue
         $mail = (new MailMessage())
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
             ->subject($this->title)
             ->greeting('Gentile ' . $this->getRecipientName($notifiable))
             ->line($this->message);
@@ -2873,6 +2948,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3399,6 +3475,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -3490,6 +3567,8 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
             /** @phpstan-ignore-next-line */
 <<<<<<< HEAD
 =======
@@ -4128,6 +4207,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4285,6 +4365,10 @@ class GenericNotification extends Notification implements ShouldQueue
         return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
 =======
 >>>>>>> 4689a827 (.)
+=======
+        return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
         return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
@@ -4363,10 +4447,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
         return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
@@ -4507,6 +4594,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
         return $mail->salutation('Cordiali saluti,')->line('Team il progetto');
 >>>>>>> 98d837b9 (.)
@@ -4627,6 +4715,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     }
 
     /**
@@ -4822,6 +4912,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4846,6 +4937,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4917,6 +5010,10 @@ class GenericNotification extends Notification implements ShouldQueue
 
 =======
 >>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4959,10 +5056,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -4996,6 +5096,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 98d837b9 (.)
@@ -5033,6 +5134,8 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 3f39ac8b (.)
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
         // Limita la lunghezza del messaggio SMS
         if (mb_strlen($content) > 320) {
 <<<<<<< HEAD
@@ -5045,6 +5148,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
         }
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 <<<<<<< HEAD
@@ -5176,6 +5280,11 @@ class GenericNotification extends Notification implements ShouldQueue
 
 =======
 >>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5234,10 +5343,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -5486,6 +5598,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 98d837b9 (.)
@@ -5537,6 +5650,8 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         // TODO: Implementare TwilioSmsMessage quando disponibile
         $to = '';
 <<<<<<< HEAD
@@ -5596,6 +5711,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -5618,6 +5734,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5704,6 +5822,10 @@ class GenericNotification extends Notification implements ShouldQueue
 
 =======
 >>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 
@@ -6119,6 +6241,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6314,6 +6437,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -6451,6 +6575,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         return [
             'content' => $content,
             'to' => $to,
@@ -6660,6 +6786,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -6676,7 +6803,10 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6717,6 +6847,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -6750,6 +6882,8 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -6777,10 +6911,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6884,6 +7021,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -6921,6 +7059,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         if (is_object($notifiable) && $notifiable instanceof Model) {
 =======
         if (\is_object($notifiable) && $notifiable instanceof Model) {
@@ -7057,10 +7197,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -7069,6 +7212,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9777d1b3 (.)
 >>>>>>> 510809c6f (.)
 =======
@@ -7076,9 +7220,12 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 8dc1f2ed6 (.)
 =======
 =======
+>>>>>>> 23f115647 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -7091,11 +7238,15 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'first_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'first_name', 'Utente');
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7414,6 +7565,8 @@ class GenericNotification extends Notification implements ShouldQueue
                 return SafeAttributeCastAction::getString($notifiable, 'first_name', 'Utente');
             }
 
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 4d2eb53e (.)
 <<<<<<< HEAD
 =======
@@ -7591,12 +7744,15 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 =======
         
@@ -7620,10 +7776,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -7667,6 +7826,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -7709,6 +7869,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
             
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'first_name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'first_name', 'Utente');
@@ -7746,6 +7908,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -7756,6 +7919,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7803,6 +7968,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -7827,6 +7993,8 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -7853,10 +8021,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -7918,6 +8089,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -8082,6 +8254,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
             if (SafeAttributeCastAction::hasNonEmpty($notifiable, 'name')) {
                 return SafeAttributeCastAction::getString($notifiable, 'name', 'Utente');
             }
@@ -8177,6 +8351,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8333,6 +8508,10 @@ class GenericNotification extends Notification implements ShouldQueue
 
 =======
 >>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 
@@ -8409,10 +8588,13 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -8555,6 +8737,7 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 98d837b9 (.)
@@ -8673,6 +8856,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         return 'Utente';
     }
 }

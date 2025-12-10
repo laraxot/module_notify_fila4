@@ -161,6 +161,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -300,6 +301,7 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -399,6 +401,8 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 23f115647 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -693,6 +697,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -715,6 +720,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 8c6d84fe6 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -754,6 +761,7 @@ $decodedData = base64_decode($encodedData);
 =======
 =======
 >>>>>>> 6608a1a0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -821,6 +829,11 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -1030,6 +1043,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1055,6 +1069,8 @@ private static function processArray(array $data): array
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 01af324fe (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2208,6 +2224,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> 2a97406c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
@@ -2292,3 +2309,8 @@ private static function processArray(array $data): array
 >>>>>>> 8c6d84fe6 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)

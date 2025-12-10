@@ -37,6 +37,7 @@ readonly class SmsMessageData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -330,10 +331,13 @@ readonly class SmsMessageData
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 23f115647 (.)
         public ?string $sender = null,
         public ?string $reference = null,
         public ?string $scheduledDate = null,
@@ -742,11 +746,14 @@ readonly class SmsMessageData
 =======
 >>>>>>> 0f07e6d (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 =======
 >>>>>>> 0f07e6d (.)
 =======
+=======
+>>>>>>> 23f115647 (.)
         public null|string $sender = null,
         public null|string $reference = null,
         public null|string $scheduledDate = null,
@@ -755,6 +762,7 @@ readonly class SmsMessageData
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
         public null|string $sender = null,
         public null|string $reference = null,
         public null|string $scheduledDate = null,
@@ -767,6 +775,8 @@ readonly class SmsMessageData
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 23f115647 (.)
         public null|string $sender = null,
         public null|string $reference = null,
         public null|string $scheduledDate = null,
@@ -777,8 +787,11 @@ readonly class SmsMessageData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -790,6 +803,9 @@ readonly class SmsMessageData
 =======
 =======
 >>>>>>> f2e64178 (.)
+>>>>>>> a12f125f4a (.)
+>>>>>>> f813254 (.)
+=======
 >>>>>>> a12f125f4a (.)
 >>>>>>> f813254 (.)
 =======
@@ -810,6 +826,7 @@ readonly class SmsMessageData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 =======
@@ -823,6 +840,11 @@ readonly class SmsMessageData
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b93ef594b4 (.)
 =======
         public ?string $sender = null,
@@ -831,6 +853,7 @@ readonly class SmsMessageData
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1214,6 +1237,9 @@ readonly class SmsMessageData
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
     ) {}
 }
 =======

@@ -186,6 +186,7 @@ namespace Modules\Notify\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -224,6 +225,7 @@ namespace Modules\Notify\Tests;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -390,6 +392,8 @@ namespace Modules\Notify\Tests;
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +445,7 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
+<<<<<<< HEAD
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Application;
 >>>>>>> b19cd40 (.)
@@ -448,6 +453,24 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> 4e2ebfb (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+=======
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Application;
+>>>>>>> a12f125f4a (.)
+=======
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 23f115647 (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -995,6 +1018,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1297,6 +1321,10 @@ abstract class TestCase extends BaseTestCase
 
 =======
 >>>>>>> 7325acf3 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 
@@ -1444,12 +1472,15 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -1902,6 +1933,7 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 98d837b9 (.)
@@ -1997,6 +2029,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -2004,6 +2038,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Get package providers.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param Application $app
 <<<<<<< HEAD
@@ -2184,10 +2219,14 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 84082535 (rebase 210)
 =======
 >>>>>>> f2e64178 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
      * @param  Application  $app
 =======
      * @param Application $app
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -2217,11 +2256,18 @@ abstract class TestCase extends BaseTestCase
 =======
 <<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+     * @param Application $app
+=======
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
      * @param Application $app
 =======
      * @param \Illuminate\Foundation\Application $app
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2390,12 +2436,23 @@ abstract class TestCase extends BaseTestCase
      * @param Application $app
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 23f115647 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array
     {
         return [
+<<<<<<< HEAD
             NotifyServiceProvider::class,
+=======
+<<<<<<< HEAD
+            NotifyServiceProvider::class,
+=======
+            \Modules\Notify\Providers\NotifyServiceProvider::class,
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         ];
     }
 }

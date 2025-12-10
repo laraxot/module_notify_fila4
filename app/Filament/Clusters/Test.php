@@ -10,6 +10,7 @@ use Filament\Clusters\Cluster;
 class Test extends Cluster
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
 
 =======
@@ -104,6 +105,8 @@ class Test extends Cluster
 =======
 >>>>>>> 207ac35e (.)
 =======
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
@@ -114,8 +117,11 @@ class Test extends Cluster
 =======
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 23f115647 (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -517,11 +523,13 @@ class Test extends Cluster
 >>>>>>> e11621f (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 888799d0 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
@@ -697,6 +705,24 @@ class Test extends Cluster
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+<<<<<<< HEAD
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-squares-2x2';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
     // protected static ?string $navigationParentItem = 'Notifications';
     // protected static ?string $navigationGroup = 'Settings';
 }

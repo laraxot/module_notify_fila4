@@ -225,6 +225,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -264,6 +265,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -930,6 +933,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -940,6 +944,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
      * @param  string  $message  Il messaggio da inviare tramite Telegram
      * @param  array<string, mixed>  $options  Opzioni aggiuntive per la notifica
 =======
@@ -955,6 +961,9 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 =======
      * @param string $message Il messaggio da inviare tramite Telegram
      * @param array<string, mixed> $options Opzioni aggiuntive per la notifica
@@ -963,6 +972,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -970,6 +980,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
      * @param string $message Il messaggio da inviare tramite Telegram
      * @param array<string, mixed> $options Opzioni aggiuntive per la notifica
 =======
@@ -977,6 +989,9 @@ class TelegramNotification extends Notification implements ShouldQueue
      * @param array $options
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -1011,6 +1026,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -1062,6 +1078,9 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
      */
     public function __construct(string $message, array $options = [])
     {
@@ -1074,6 +1093,7 @@ class TelegramNotification extends Notification implements ShouldQueue
      *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1668,8 +1688,11 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 23f115647 (.)
      * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
 =======
 =======
@@ -1687,6 +1710,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
 =======
@@ -1695,12 +1719,15 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
      * @return array<int, class-string>
      */
     public function via($_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1757,6 +1784,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -2102,9 +2131,12 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2136,11 +2168,17 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
 >>>>>>> f87b41c3b (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
      * @param mixed $notifiable
      * @return array
      */
     public function via($notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2203,7 +2241,12 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 >>>>>>> a12f125f4a (.)
 =======
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
@@ -2219,10 +2262,13 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2273,6 +2319,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
@@ -2327,6 +2374,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     {
         return [TelegramChannel::class];
     }
@@ -2826,6 +2875,9 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -2854,6 +2906,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
@@ -3018,6 +3071,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 =======
 =======
+=======
+>>>>>>> 23f115647 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3033,6 +3088,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -3100,6 +3156,9 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
     {
         // return $this->data->toArray();
         return [];

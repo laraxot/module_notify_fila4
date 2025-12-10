@@ -92,6 +92,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -186,6 +187,7 @@ use Override;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> bf5d31b0f (.)
@@ -213,6 +215,8 @@ use Override;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
@@ -237,7 +241,10 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
@@ -1001,6 +1008,124 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 82ae73be (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+use Override;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+use Filament\Forms\Form;
+=======
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+use Filament\Forms\Form;
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Form;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+<<<<<<< HEAD
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Filament\Forms\Form;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+use Override;
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+use Filament\Forms\Form;
+=======
+=======
+=======
+use Filament\Forms\Form;
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Form;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+<<<<<<< HEAD
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Filament\Forms\Form;
+>>>>>>> d09cb759 (.)
+use Filament\Forms\Components\TextInput;
+use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
+
+
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
@@ -1047,6 +1172,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -1126,6 +1252,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 class LinkableRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'linkable';
@@ -1133,6 +1261,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
     protected static null|string $recordTitleAttribute = 'id';
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1583,6 +1712,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1604,6 +1734,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> 2f135ef98 (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -1619,6 +1751,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1629,6 +1762,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
     protected static ?string $recordTitleAttribute = 'id';
 =======
@@ -1656,8 +1791,11 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2181,6 +2319,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
+<<<<<<< HEAD
 =======
 =======
     protected static ?string $recordTitleAttribute = 'id';
@@ -2222,6 +2361,10 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
     protected static ?string $recordTitleAttribute = 'id';
 
     public function getFormSchema(): array
@@ -2230,6 +2373,7 @@ class LinkableRelationManager extends XotBaseRelationManager
             TextInput::make('id')
                 ->required()
                 ->maxLength(255),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2244,6 +2388,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2267,6 +2413,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 >>>>>>> laraxot/develop
@@ -2348,6 +2495,9 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
         ];
     }
 }

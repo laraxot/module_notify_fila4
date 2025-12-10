@@ -100,6 +100,7 @@ class SlackNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -297,6 +298,11 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> 4689a827 (.)
+=======
+use Modules\Notify\Filament\Clusters\Test;
+use Modules\Xot\Filament\Pages\XotBasePage;
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 use Modules\Notify\Filament\Clusters\Test;
@@ -366,10 +372,13 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Notify\Filament\Clusters\Test;
@@ -493,6 +502,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
@@ -580,6 +590,8 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 
 class SlackNotificationPage extends XotBasePage
 {
@@ -983,6 +995,7 @@ class SlackNotificationPage extends XotBasePage
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
 =======
 <<<<<<< HEAD
@@ -1030,6 +1043,8 @@ class SlackNotificationPage extends XotBasePage
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1037,6 +1052,14 @@ class SlackNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
@@ -1045,12 +1068,7 @@ class SlackNotificationPage extends XotBasePage
 =======
 >>>>>>> f2e64178 (.)
 =======
-    protected static null|string $cluster = Test::class;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 888799d0 (.)
-=======
->>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1316,8 +1334,10 @@ class SlackNotificationPage extends XotBasePage
 =======
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 =======
@@ -1522,6 +1542,34 @@ class SlackNotificationPage extends XotBasePage
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> a12f125f4a (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Notify\Filament\Clusters\Test;
+
+class SlackNotificationPage extends XotBasePage
+{
+    protected static ?string $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected static string $view = 'notify::filament.clusters.test.pages.slack-notification';
+
+    protected static ?string $cluster = Test::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

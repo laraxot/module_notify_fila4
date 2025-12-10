@@ -105,6 +105,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -387,12 +388,15 @@ use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
@@ -424,6 +428,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f1c9518b (.)
@@ -681,12 +686,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,6 +726,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
@@ -736,8 +746,11 @@ use Modules\User\Models\Profile;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
@@ -899,6 +912,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1010,9 +1024,29 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
+=======
+=======
+use RuntimeException;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+>>>>>>> a12f125f4a (.)
+=======
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Modules\User\Models\Profile;
+>>>>>>> b93ef594b4 (.)
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
@@ -1053,6 +1087,10 @@ use Modules\Xot\Traits\Updater;
 
 // BaseModel in same namespace provides common behaviors
 /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
  * @property-read Profile|null $creator
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
@@ -1105,6 +1143,7 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1176,6 +1215,11 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 <<<<<<< HEAD
  *
 =======
@@ -1185,6 +1229,7 @@ use Modules\Xot\Traits\Updater;
 =======
 =======
 =======
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -1234,6 +1279,9 @@ use Modules\Xot\Traits\Updater;
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 23f115647 (.)
  * @property-read \Modules\User\Models\Profile|null $creator
  * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
  * @property-read int|null $media_count
@@ -1253,6 +1301,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1341,6 +1390,10 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
@@ -1598,6 +1651,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1690,6 +1744,10 @@ class NotificationTemplateVersion extends BaseModel
     #[Override]
 =======
 >>>>>>> 4689a827 (.)
+=======
+    #[Override]
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
     #[Override]
@@ -1776,10 +1834,13 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
     #[Override]
@@ -1947,6 +2008,7 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 98d837b9 (.)
@@ -2085,6 +2147,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     protected function casts(): array
     {
         return [
@@ -2194,6 +2258,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2211,6 +2276,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2256,10 +2323,13 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2630,6 +2700,13 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 
 <<<<<<< HEAD
         if (!$template) {
@@ -2673,7 +2750,11 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 8dc1f2ed6 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> f87b41c3b (.)
@@ -2721,11 +2802,15 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+>>>>>>> f2e64178 (.)
+=======
         
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
         }
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2843,6 +2928,7 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4689a827 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -2856,6 +2942,10 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -2909,10 +2999,13 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3090,6 +3183,7 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -3196,6 +3290,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -3313,6 +3409,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3335,6 +3432,8 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3478,6 +3577,10 @@ class NotificationTemplateVersion extends BaseModel
 }
 =======
 >>>>>>> 4689a827 (.)
+=======
+}
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 }
@@ -3554,10 +3657,13 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -3717,6 +3823,7 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 98d837b9 (.)
@@ -3861,3 +3968,5 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)

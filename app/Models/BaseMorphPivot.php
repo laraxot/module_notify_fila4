@@ -278,6 +278,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -654,6 +655,11 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_type',
 =======
 >>>>>>> 4689a827 (.)
+=======
+        'post_id',
+        'post_type',
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
         'post_id',
@@ -845,10 +851,13 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
         'post_id',
@@ -1285,6 +1294,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
         'post_id',
         'post_type',
@@ -1359,6 +1369,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         'related_type',
         'user_id',
         'note',
@@ -1552,6 +1564,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1687,6 +1700,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -1790,10 +1805,13 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2030,6 +2048,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2287,6 +2306,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

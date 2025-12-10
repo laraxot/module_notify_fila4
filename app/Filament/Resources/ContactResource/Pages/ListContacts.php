@@ -120,6 +120,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -698,8 +699,11 @@ use Filament\Tables;
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -708,9 +712,25 @@ use Filament\Tables;
 >>>>>>> e11621f (.)
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Filament\Tables;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -858,6 +878,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
@@ -898,6 +919,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 =======
 
@@ -1073,6 +1096,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1085,6 +1110,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1164,6 +1190,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
@@ -1191,6 +1218,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -1291,6 +1320,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1314,6 +1344,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> 2f135ef98 (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1330,6 +1362,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -1389,10 +1423,13 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1450,6 +1487,7 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1533,6 +1571,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 23f115647 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2272,8 +2312,11 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -2342,6 +2385,7 @@ class ListContacts extends XotBaseListRecords
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -2383,6 +2427,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
             'id' => TextColumn::make('id')->numeric()->sortable(),
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'email' => TextColumn::make('email')->searchable()->sortable(),
@@ -2391,6 +2437,7 @@ class ListContacts extends XotBaseListRecords
             'is_read' => IconColumn::make('is_read')->boolean(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2418,6 +2465,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 23f115647 (.)
         ];
     }
 
@@ -2425,6 +2474,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'active' => Filter::make('active')->query(fn (Builder $query): Builder => $query->where('active', true)),
             'inactive' => Filter::make('inactive')->query(
@@ -2605,6 +2655,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> de02998b (.)
 =======
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> f2e64178 (.)
 =======
     public function getTableColumns(): array
@@ -2643,6 +2695,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/develop
 =======
 >>>>>>> 82ae73be (.)
@@ -2650,6 +2703,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> f2e64178 (.)
@@ -2661,6 +2716,7 @@ class ListContacts extends XotBaseListRecords
                 ->query(function (Builder $query): Builder {
                     return $query->where('active', false);
                 }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3042,6 +3098,8 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 >>>>>>> 3f39ac8b (.)
 =======
@@ -3051,6 +3109,7 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> 888799d0 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -3064,6 +3123,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> a12f125f4a (.)
 =======
             'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
@@ -3074,6 +3135,7 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3209,6 +3271,9 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
         ];
     }
 }

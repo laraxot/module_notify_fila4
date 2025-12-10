@@ -95,6 +95,7 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 =======
 =======
@@ -215,10 +216,15 @@ class SlackNotification extends Page
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 >>>>>>> f1c9518b (.)
 
@@ -234,6 +240,7 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
@@ -277,6 +284,8 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 23f115647 (.)
 <<<<<<< HEAD
     protected static ?string $cluster = Test::class;
 <<<<<<< HEAD
@@ -332,6 +341,7 @@ class SlackNotification extends Page
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -391,10 +401,14 @@ class SlackNotification extends Page
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -430,7 +444,10 @@ class SlackNotification extends Page
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -463,6 +480,8 @@ class SlackNotification extends Page
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -642,6 +661,7 @@ class SlackNotification extends Page
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 99ff506 (.)
@@ -985,6 +1005,8 @@ class SlackNotification extends Page
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
 =======
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -1004,7 +1026,37 @@ class SlackNotification extends Page
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+    protected static ?string $cluster = Test::class;
+>>>>>>> a12f125f4a (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> b93ef594b4 (.)
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected static string $view = 'notify::filament.clusters.test.pages.slack-notification';
+
+    protected static ?string $cluster = Test::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

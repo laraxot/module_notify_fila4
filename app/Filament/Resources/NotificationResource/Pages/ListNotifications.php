@@ -107,6 +107,7 @@ use Filament\Tables;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -452,8 +453,11 @@ use Filament\Tables;
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -462,9 +466,25 @@ use Filament\Tables;
 >>>>>>> e11621f (.)
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Filament\Tables;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -593,6 +613,25 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 23f115647 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -870,6 +909,8 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -879,8 +920,11 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1159,6 +1203,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1307,6 +1352,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -1322,6 +1369,7 @@ class ListNotifications extends XotBaseListRecords
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1403,6 +1451,8 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 2f135ef98 (.)
 =======
+>>>>>>> 23f115647 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -1414,6 +1464,7 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -1542,6 +1593,10 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
+=======
 =======
     #[Override]
 >>>>>>> b93ef594b4 (.)
@@ -1563,6 +1618,7 @@ class ListNotifications extends XotBaseListRecords
 =======
     #[Override]
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1600,6 +1656,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> ce89c8bb (.)
 =======
 =======
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 >>>>>>> 8dc1f2ed6 (.)
 =======
@@ -1843,6 +1901,7 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 =======
@@ -1860,6 +1919,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     public function getTableColumns(): array
     {
         return [
@@ -1886,6 +1947,7 @@ class ListNotifications extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1968,6 +2030,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2113,6 +2176,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
     public function getTableFilters(): array
     {
         return [
@@ -2217,6 +2282,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2679,6 +2745,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2707,6 +2774,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
                 ->query(fn (Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
@@ -2732,6 +2801,7 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2787,12 +2857,15 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 888799d0 (.)
 =======
 =======
+>>>>>>> 23f115647 (.)
+=======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -2826,10 +2899,13 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
                 ->label('Read'),
             'unread' => Filter::make('is_unread')
                 ->query(fn(Builder $query): Builder => $query->whereNull('read_at'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2905,6 +2981,8 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -2977,6 +3055,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2999,11 +3078,14 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 99ff506 (.)
 =======
 =======
 >>>>>>> 0f07e6d (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3074,6 +3156,14 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> f813254 (.)
+>>>>>>> 23f115647 (.)
                 ->query(function (Builder $query): Builder {
                     return $query->where('read_at', '!=', null);
                 })
@@ -3090,6 +3180,9 @@ class ListNotifications extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -3109,6 +3202,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> 888799d0 (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
@@ -3460,6 +3554,8 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> a12f125f4a (.)
 =======
                 ->query(fn(Builder $query): Builder => $query->where('read_at', '!=', null))
@@ -3471,6 +3567,7 @@ class ListNotifications extends XotBaseListRecords
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3559,6 +3656,9 @@ class ListNotifications extends XotBaseListRecords
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
                 ->label('Unread'),
             'type' => SelectFilter::make('type')
                 ->options([

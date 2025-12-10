@@ -183,6 +183,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -304,6 +305,10 @@ declare(strict_types=1);
 
 =======
 >>>>>>> 4689a827 (.)
+=======
+
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
 
@@ -336,10 +341,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -451,6 +459,7 @@ declare(strict_types=1);
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 98d837b9 (.)
@@ -843,6 +852,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
@@ -859,6 +870,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -893,6 +905,25 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+ *
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+=======
+namespace Modules\Notify\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType query()
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 23f115647 (.)
  * @mixin IdeHelperNotificationType
  * @mixin \Eloquent
  */

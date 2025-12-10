@@ -109,6 +109,10 @@ class SmsChannel
      *
 =======
      * @param mixed $notifiable Entità che riceve la notifica
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
      * @param Notification $notification Notifica da inviare
      * @return array|null Risultato dell'operazione o null in caso di errore
 >>>>>>> 99ff506 (.)
@@ -136,6 +140,7 @@ class SmsChannel
 <<<<<<< HEAD
         if (!method_exists($notification, 'toSms')) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +272,8 @@ class SmsChannel
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -741,6 +748,13 @@ class SmsChannel
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
         if (! method_exists($notification, 'toSms')) {
 =======
         if (!method_exists($notification, 'toSms')) {
@@ -951,7 +965,41 @@ class SmsChannel
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+        if (!method_exists($notification, 'toSms')) {
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+        if (!method_exists($notification, 'toSms')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (!method_exists($notification, 'toSms')) {
+=======
+        if (! method_exists($notification, 'toSms')) {
+>>>>>>> a12f125f4a (.)
+=======
+        if (!method_exists($notification, 'toSms')) {
+>>>>>>> b93ef594b4 (.)
+=======
+     * @param \Illuminate\Notifications\Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     * @throws \Exception Se la notifica non ha il metodo toSms o il driver non è supportato
+     */
+    public function send($notifiable, Notification $notification)
+    {
+        if (! method_exists($notification, 'toSms')) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
             throw new Exception('Notification does not have toSms method');
         }
 
@@ -1056,6 +1104,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (! ($smsData instanceof SmsData)) {
 >>>>>>> 98d837b9 (.)
@@ -1097,6 +1146,8 @@ class SmsChannel
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1586,6 +1637,7 @@ class SmsChannel
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 =======
         if (!($smsData instanceof SmsData)) {
@@ -1709,6 +1761,8 @@ class SmsChannel
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         if (! ($smsData instanceof SmsData)) {
 =======
         if (!($smsData instanceof SmsData)) {
@@ -1791,10 +1845,18 @@ class SmsChannel
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+        if (!($smsData instanceof SmsData)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
         if (!($smsData instanceof SmsData)) {
 =======
 
         if (! $smsData instanceof SmsData) {
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -1810,7 +1872,29 @@ class SmsChannel
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+        if (!($smsData instanceof SmsData)) {
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        if (!($smsData instanceof SmsData)) {
+>>>>>>> b93ef594b4 (.)
+=======
+
+        if (! $smsData instanceof SmsData) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
@@ -1905,6 +1989,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2051,6 +2136,8 @@ class SmsChannel
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> f2e64178 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -2105,10 +2192,13 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2222,6 +2312,7 @@ class SmsChannel
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2322,6 +2413,8 @@ class SmsChannel
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 
         return $action->execute($smsData);
     }

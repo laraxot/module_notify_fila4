@@ -5,9 +5,11 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
+<<<<<<< HEAD
 use Exception;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,8 +120,11 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
 =======
+=======
+>>>>>>> 23f115647 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
@@ -136,6 +141,7 @@ use Exception;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
 =======
@@ -151,6 +157,8 @@ use Exception;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -168,6 +176,9 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
 =======
@@ -691,12 +702,15 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -715,10 +729,13 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -762,6 +779,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -804,6 +822,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
@@ -841,6 +861,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -851,6 +872,8 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,6 +921,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -922,6 +946,8 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Illuminate\Database\Eloquent\Model;
@@ -948,10 +974,13 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1013,6 +1042,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1177,6 +1207,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 
 class RecordNotificationData extends Data
 {
@@ -1331,6 +1363,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1348,6 +1381,8 @@ class RecordNotificationData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -1393,10 +1428,13 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1505,6 +1543,7 @@ class RecordNotificationData extends Data
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1603,6 +1642,8 @@ class RecordNotificationData extends Data
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1907,6 +1948,9 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 
 
 >>>>>>> b19cd40 (.)
@@ -2485,6 +2529,30 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+=======
+        switch($this->channel){
+=======
+        switch ($this->channel) {
+>>>>>>> b93ef594b4 (.)
+            case 'mail':
+                Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                return $email;
+            case 'sms':
+                Assert::string($phone = $this->record->phone, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+                $phone = app(NormalizePhoneNumberAction::class)->execute($phone);
+                return $phone;
+        }
+        throw new Exception('Channel [' . $this->channel . '] not supported');
+    }
+<<<<<<< HEAD
+
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> f2e64178 (.)
+=======
         switch($this->channel){
             case 'mail':
                 Assert::string($email=$this->record->email);
@@ -2494,6 +2562,7 @@ class RecordNotificationData extends Data
                 $phone=app(NormalizePhoneNumberAction::class)->execute($phone);
                 return $phone;
         }
+<<<<<<< HEAD
         throw new Exception('Channel ['.$this->channel.'] not supported');
     }
 
@@ -2508,7 +2577,20 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+        throw new \Exception('Channel ['.$this->channel.'] not supported');
+    }
+
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

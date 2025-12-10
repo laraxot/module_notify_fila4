@@ -412,6 +412,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -626,6 +627,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -857,6 +859,8 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 23f115647 (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -1070,6 +1074,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1303,6 +1308,7 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -1350,6 +1356,11 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
@@ -1449,6 +1460,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1463,6 +1475,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1917,6 +1931,7 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2012,6 +2027,8 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 23f115647 (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti

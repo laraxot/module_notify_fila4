@@ -5,6 +5,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
@@ -128,6 +129,13 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> e53a56570 (.)
 =======
 use Modules\Xot\Contracts\ProfileContract;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -171,6 +179,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335,10 +344,16 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 99ff506 (.)
 =======
+ *
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> 23f115647 (.)
+=======
 =======
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -363,6 +378,8 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 23f115647 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -494,15 +511,19 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 23f115647 (.)
  *
 =======
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,6 +543,8 @@ use Illuminate\Support\Carbon;
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -546,6 +569,7 @@ use Illuminate\Support\Carbon;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -585,6 +609,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 23f115647 (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD

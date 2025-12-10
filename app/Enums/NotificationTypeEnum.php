@@ -245,6 +245,7 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -607,6 +608,10 @@ enum NotificationTypeEnum: string
         return match ($this) {
 =======
 >>>>>>> 7325acf3 (.)
+=======
+        return match ($this) {
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
         return match ($this) {
@@ -804,12 +809,15 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
         return match ($this) {
@@ -1412,6 +1420,7 @@ enum NotificationTypeEnum: string
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
         return match ($this) {
 >>>>>>> 98d837b9 (.)
@@ -1507,6 +1516,8 @@ enum NotificationTypeEnum: string
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
             self::EMAIL => __('notify::enums.notification_type.email'),
             self::SMS => __('notify::enums.notification_type.sms'),
             self::PUSH => __('notify::enums.notification_type.push'),
@@ -1747,6 +1758,7 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2109,6 +2121,10 @@ enum NotificationTypeEnum: string
         return match ($this) {
 =======
 >>>>>>> 7325acf3 (.)
+=======
+        return match ($this) {
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
         return match ($this) {
@@ -2306,12 +2322,15 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
         return match ($this) {
@@ -2914,6 +2933,7 @@ enum NotificationTypeEnum: string
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
         return match ($this) {
 >>>>>>> 98d837b9 (.)
@@ -3009,6 +3029,8 @@ enum NotificationTypeEnum: string
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
             self::EMAIL => 'heroicon-o-envelope',
             self::SMS => 'heroicon-o-device-phone-mobile',
             self::PUSH => 'heroicon-o-bell',
@@ -3249,6 +3271,7 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3611,6 +3634,10 @@ enum NotificationTypeEnum: string
         return match ($this) {
 =======
 >>>>>>> 7325acf3 (.)
+=======
+        return match ($this) {
+=======
+>>>>>>> f2e64178 (.)
 <<<<<<< HEAD
 =======
         return match ($this) {
@@ -3808,12 +3835,15 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> d09cb759 (.)
 =======
         return match ($this) {
@@ -4416,6 +4446,7 @@ enum NotificationTypeEnum: string
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
         return match ($this) {
 >>>>>>> 98d837b9 (.)
@@ -4511,6 +4542,8 @@ enum NotificationTypeEnum: string
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
             self::EMAIL => 'success',
             self::SMS => 'warning',
             self::PUSH => 'info',

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +65,8 @@
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 81ed8a35 (rebase 210)
+=======
+>>>>>>> 23f115647 (.)
 <<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 =======
 <<<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
@@ -1435,6 +1438,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 >>>>>>> 510e6e8b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
@@ -1493,6 +1497,11 @@ declare(strict_types=1);
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 510e6e8b (.):.vscode/.php_cs
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1527,6 +1536,7 @@ return PhpCsFixer\Config::create()
         'elseif' => true,
     ))
     ->setFinder($finder)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1567,6 +1577,8 @@ return PhpCsFixer\Config::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 23f115647 (.)
 <<<<<<< HEAD:.php-cs-fixer.dist - Copia.php
 
 <<<<<<< HEAD
@@ -1620,6 +1632,7 @@ return $config;
 =======
 ;
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 ;
 >>>>>>> c4bdacbf (.)
@@ -1729,3 +1742,5 @@ return $config;
 =======
 ;
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 23f115647 (.)

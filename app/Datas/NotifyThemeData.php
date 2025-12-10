@@ -36,6 +36,7 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -329,10 +330,13 @@ class NotifyThemeData extends Data
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+>>>>>>> 23f115647 (.)
     public ?string $from_email = null; // from address
 
     public ?string $from = null; // from name
@@ -741,11 +745,14 @@ class NotifyThemeData extends Data
 =======
 >>>>>>> 0f07e6d (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 =======
 >>>>>>> 0f07e6d (.)
 =======
+=======
+>>>>>>> 23f115647 (.)
     public null|string $from_email = null; // from address
 
     public null|string $from = null; // from name
@@ -754,6 +761,7 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
     public null|string $from_email = null; // from address
 
     public null|string $from = null; // from name
@@ -766,6 +774,8 @@ class NotifyThemeData extends Data
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 23f115647 (.)
     public null|string $from_email = null; // from address
 
     public null|string $from = null; // from name
@@ -776,8 +786,11 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -789,6 +802,9 @@ class NotifyThemeData extends Data
 =======
 =======
 >>>>>>> f2e64178 (.)
+>>>>>>> a12f125f4a (.)
+>>>>>>> f813254 (.)
+=======
 >>>>>>> a12f125f4a (.)
 >>>>>>> f813254 (.)
 =======
@@ -809,6 +825,7 @@ class NotifyThemeData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 =======
@@ -822,6 +839,11 @@ class NotifyThemeData extends Data
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 23f115647 (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public ?string $from_email = null; // from address
@@ -830,6 +852,7 @@ class NotifyThemeData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,6 +1236,9 @@ class NotifyThemeData extends Data
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
 
     public string $subject;
 

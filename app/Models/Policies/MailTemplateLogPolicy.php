@@ -33,6 +33,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -251,6 +252,7 @@ class MailTemplateLogPolicy extends NotifyBasePolicy
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -285,6 +287,8 @@ class MailTemplateLogPolicy extends NotifyBasePolicy
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 23f115647 (.)
 class MailTemplateLogPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -1114,11 +1118,21 @@ class MailTemplateLogPolicy extends NotifyBasePolicy {}
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+class MailTemplateLogPolicy extends NotifyBasePolicy
+{
+}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
 class MailTemplateLogPolicy extends NotifyBasePolicy
 {
 }
 =======
 class MailTemplateLogPolicy extends NotifyBasePolicy {}
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -1130,10 +1144,40 @@ class MailTemplateLogPolicy extends NotifyBasePolicy {}
 =======
 =======
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> f813254 (.)
+=======
 class MailTemplateLogPolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+=======
+class MailTemplateLogPolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Modules\Notify\Models\MailTemplateLog;
+use Modules\Xot\Contracts\UserContract;
+
+class MailTemplateLogPolicy extends NotifyBasePolicy
+{
+    
+}
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+>>>>>>> 23f115647 (.)
