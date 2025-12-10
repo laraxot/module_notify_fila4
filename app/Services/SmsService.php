@@ -7,6 +7,7 @@ namespace Modules\Notify\Services;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,17 +66,11 @@ namespace Modules\Notify\Services;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use RuntimeException;
 use ReflectionClass;
 use ReflectionException;
-=======
-<<<<<<< HEAD
-use RuntimeException;
-use ReflectionClass;
-use ReflectionException;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
@@ -333,6 +328,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -402,6 +398,7 @@ class SmsService
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -622,6 +619,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     public null|string $to = null;
 
     public null|string $from = null;
@@ -629,6 +628,7 @@ class SmsService
     public null|string $body = null;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1442,7 +1442,12 @@ class SmsService
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
     /**
      * Variabili per il template SMS.
      *
@@ -1546,6 +1551,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     private static ?self $instance = null;
 >>>>>>> 98d837b9 (.)
@@ -1589,6 +1595,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2004,6 +2012,7 @@ class SmsService
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     private static null|self $instance = null;
@@ -2161,6 +2170,11 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+    private static null|self $instance = null;
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
     /**
      * Ottiene un'istanza singleton della classe.
@@ -2245,6 +2259,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2528,6 +2543,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
      *
 >>>>>>> 3f537838 (.)
@@ -2556,6 +2572,11 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+     *
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
      * @param array<string, mixed> $vars
 =======
 =======
@@ -2993,6 +3014,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3001,6 +3023,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3143,6 +3167,7 @@ class SmsService
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -3260,6 +3285,11 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         // Verifichiamo che la classe esista
         if (!class_exists($engineClassName)) {
 <<<<<<< HEAD
@@ -3316,6 +3346,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3324,6 +3355,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3498,6 +3531,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3f537838 (.)
@@ -3586,6 +3620,11 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         // Verifichiamo che la classe abbia il metodo make
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3653,6 +3692,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3661,6 +3701,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3975,6 +4017,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -4012,6 +4055,10 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
         // Creiamo l'istanza in modo sicuro
         $instance = $engineClassName::make();
@@ -4020,6 +4067,7 @@ class SmsService
         // Verifichiamo che l'istanza sia un oggetto
         if (!is_object($instance)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4320,6 +4368,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -4404,6 +4453,10 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         // Verifichiamo che l'istanza sia un oggetto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4470,6 +4523,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4478,6 +4532,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4630,6 +4686,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 3f537838 (.)
@@ -4688,6 +4745,11 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         // Verifichiamo che l'istanza abbia i metodi necessari
         foreach (['setLocalVars', 'send', 'getVars'] as $method) {
 <<<<<<< HEAD
@@ -4747,6 +4809,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4755,6 +4818,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5144,6 +5209,7 @@ class SmsService
 =======
 >>>>>>> 161887a2 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
@@ -5170,6 +5236,11 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
         // Utilizziamo reflection per chiamare i metodi in modo sicuro
         try {
@@ -5194,6 +5265,7 @@ class SmsService
             }
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5626,6 +5698,7 @@ class SmsService
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -5729,6 +5802,10 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
             // Verifichiamo che il risultato sia un array
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5814,6 +5891,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -5823,6 +5901,8 @@ class SmsService
 =======
 >>>>>>> 510809c6f (.)
 =======
+>>>>>>> 11b43e822 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -6315,6 +6395,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 3f537838 (.)
 =======
 =======
@@ -6361,6 +6442,10 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
             // Convertiamo l'array in array<string, mixed>
             /** @var array<string, mixed> $typedResult */
             $typedResult = [];
@@ -6452,6 +6537,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6546,6 +6632,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -6612,6 +6699,10 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
             $this->mergeVars($typedResult);
         } catch (ReflectionException $e) {
@@ -6655,6 +6746,7 @@ class SmsService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -6663,6 +6755,8 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7291,6 +7385,7 @@ class SmsService
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -7401,6 +7496,10 @@ class SmsService
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         }
 
         return $this;

@@ -800,6 +800,7 @@ class MailAnalytics
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
@@ -1249,6 +1250,7 @@ class MailAnalytics
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 =======
@@ -1757,3 +1759,5 @@ class MailAnalytics
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)

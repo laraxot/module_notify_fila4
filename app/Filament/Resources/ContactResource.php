@@ -101,6 +101,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -174,6 +175,8 @@ namespace Modules\Notify\Filament\Resources;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
@@ -462,6 +465,7 @@ use Override;
 use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -735,17 +739,12 @@ use Override;
 =======
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Modules\Notify\Filament\Resources\ContactResource\Pages\ListContacts;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\CreateContact;
 use Modules\Notify\Filament\Resources\ContactResource\Pages\EditContact;
 use Filament\Forms;
-<<<<<<< HEAD
-=======
-=======
-use Filament\Forms;
-use Filament\Forms\Components\Component;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Pages\PageRegistration;
 use Modules\Notify\Filament\Resources\ContactResource\Pages;
@@ -757,6 +756,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -786,7 +786,12 @@ class ContactResource extends XotBaseResource
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
     protected static null|string $model = Contact::class;
 =======
 <<<<<<< HEAD
@@ -933,6 +938,7 @@ class ContactResource extends XotBaseResource
 >>>>>>> b93ef594b4 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-rectangle-stack';
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2effe245 (.)
@@ -1175,6 +1181,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
     /**
      * Get the form schema for the resource.
@@ -1265,6 +1273,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1963,11 +1972,15 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
 =======
      * @return array<string, Component>
      */
     #[Override]
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
      * @return array<string, \Filament\Schemas\Components\Component>
      */
@@ -2017,6 +2030,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -2124,6 +2139,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2445,6 +2461,7 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
@@ -2589,6 +2606,11 @@ class ContactResource extends XotBaseResource
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
     public static function getRelations(): array
     {
         return [];
@@ -2682,6 +2704,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3001,6 +3024,7 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
@@ -3145,23 +3169,17 @@ class ContactResource extends XotBaseResource
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+    #[Override]
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
     public static function getPages(): array
     {
         return [
             'index' => ListContacts::route('/'),
             'create' => CreateContact::route('/create'),
             'edit' => EditContact::route('/{record}/edit'),
-<<<<<<< HEAD
-=======
-=======
-    public static function getPages(): array
-    {
-        return [
-            'index' => Pages\ListContacts::route('/'),
-            'create' => Pages\CreateContact::route('/create'),
-            'edit' => Pages\EditContact::route('/{record}/edit'),
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         ];
     }
 }

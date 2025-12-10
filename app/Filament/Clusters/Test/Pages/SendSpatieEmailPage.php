@@ -33,6 +33,7 @@ use BackedEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 >>>>>>> 75179b85 (.)
@@ -72,6 +73,7 @@ use BackedEnum;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
@@ -113,10 +115,15 @@ use BackedEnum;
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\RichEditor;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +268,8 @@ use Filament\Forms\Components\RichEditor;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
@@ -339,6 +348,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Exception;
@@ -395,12 +405,15 @@ use Webmozart\Assert\Assert;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
 class SendSpatieEmailPage extends XotBasePage
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +425,8 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     public null|array $emailData = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -470,6 +485,7 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> 1487fe812 (.)
     protected string $view = 'notify::filament.pages.send-email';
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -720,6 +736,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
     public function mount(): void
     {
@@ -741,6 +759,7 @@ class SendSpatieEmailPage extends XotBasePage
         $this->emailForm->fill();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -815,6 +834,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     public function emailForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
@@ -967,6 +988,7 @@ class SendSpatieEmailPage extends XotBasePage
 =======
 >>>>>>> 1487fe812 (.)
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1011,11 +1033,14 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     }
 
     public function getEmailFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,6 +1053,8 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
             TextInput::make('to')->email()->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1121,6 +1148,7 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1129,6 +1157,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1464,6 +1494,7 @@ class SendSpatieEmailPage extends XotBasePage
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -1523,11 +1554,16 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         ];
     }
 
     public function sendEmail(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1540,6 +1576,8 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         $data = $this->emailForm->getState();
         /*
          * $email_data = EmailData::from($data);
@@ -1550,6 +1588,7 @@ class SendSpatieEmailPage extends XotBasePage
          *
          *
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1592,6 +1631,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         $user = $this->getUser();
         $attachments = [
             [
@@ -1640,6 +1681,7 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1651,6 +1693,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
          * // Create and send the email
          * $email = new SpatieEmail($user, 'uno');
          * $email->addAttachments($attachments);
@@ -1725,12 +1769,15 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -1911,6 +1958,7 @@ class SendSpatieEmailPage extends XotBasePage
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -1942,6 +1990,10 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
         Notification::route('mail', $data['to'])
 <<<<<<< HEAD
@@ -1991,6 +2043,7 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -2000,6 +2053,8 @@ class SendSpatieEmailPage extends XotBasePage
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         FilamentNotification::make()
             ->success()
             // ->title(__('filament-panels::pages/auth/edit-profile.notifications.saved.title'))
@@ -2015,6 +2070,7 @@ class SendSpatieEmailPage extends XotBasePage
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2070,10 +2126,13 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2088,6 +2147,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -2224,6 +2285,7 @@ class SendSpatieEmailPage extends XotBasePage
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         if (! $user instanceof Model) {
@@ -2245,10 +2307,13 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         }
 
         return $user;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2274,6 +2339,8 @@ class SendSpatieEmailPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

@@ -7,6 +7,7 @@ namespace Modules\Notify\Filament\Forms\Components;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +68,8 @@ use Illuminate\Contracts\Support\Htmlable;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Filament\Schemas\Components\Section;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -131,8 +134,11 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -354,6 +360,7 @@ use Webmozart\Assert\Assert;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
@@ -960,6 +967,10 @@ use Webmozart\Assert\Assert;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
 // use Squire\Models\Country;
 
@@ -1056,6 +1067,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1361,9 +1373,15 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 9777d1b3 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1721,10 +1739,13 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1789,6 +1810,7 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -1817,6 +1839,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
     protected function getFormSchema(): array
     {
         $res = ContactTypeEnum::getFormSchema();
@@ -1922,6 +1948,7 @@ class ContactSection extends Forms\Components\Section
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2647,6 +2674,7 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -2756,6 +2784,10 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

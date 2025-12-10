@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -643,6 +644,7 @@ declare(strict_types=1);
 
 
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -931,6 +933,8 @@ declare(strict_types=1);
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -1134,6 +1138,7 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1142,6 +1147,8 @@ class NetfunSmsRequestData extends Data
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
             messages: $data['messages'],
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1491,6 +1498,7 @@ class NetfunSmsRequestData extends Data
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             messages: $data['messages'],
 >>>>>>> 3f537838 (.)
@@ -1675,6 +1683,11 @@ class NetfunSmsRequestData extends Data
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+            messages: $data['messages'],
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         );
     }
 }

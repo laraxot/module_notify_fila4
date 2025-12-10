@@ -4,6 +4,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +69,8 @@ use Tests\TestCase;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 >>>>>>> 75179b8 (.)
@@ -129,6 +132,7 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 4fc21b78 (rebase 210)
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +266,8 @@ uses(Tests\TestCase::class);
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
 test('components json is valid and contains expected components', function (): void {
     // Percorso del file

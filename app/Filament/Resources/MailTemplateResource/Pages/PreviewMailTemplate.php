@@ -92,6 +92,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -464,10 +465,14 @@ use Modules\Notify\Models\MailTemplate;
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
 =======
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -585,6 +590,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
 /**
  * @property MailTemplate $record
@@ -593,15 +600,7 @@ class PreviewMailTemplate extends Page
 {
     protected static string $resource = MailTemplateResource::class;
 
-<<<<<<< HEAD
     protected string $view = 'notify::filament.resources.mail-template-resource.pages.preview-mail-template';
-=======
-<<<<<<< HEAD
-    protected string $view = 'notify::filament.resources.mail-template-resource.pages.preview-mail-template';
-=======
-    protected static string $view = 'notify::filament.resources.mail-template-resource.pages.preview-mail-template';
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     public function getTitle(): string
     {
@@ -705,6 +704,7 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -874,7 +874,39 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1053,12 +1085,15 @@ class PreviewMailTemplate extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1590,6 +1625,7 @@ class PreviewMailTemplate extends Page
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
@@ -1635,3 +1671,7 @@ class PreviewMailTemplate extends Page
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)

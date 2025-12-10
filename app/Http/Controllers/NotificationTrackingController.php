@@ -419,6 +419,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return RedirectResponse
 =======
      * @return \Illuminate\Http\RedirectResponse
@@ -516,6 +517,7 @@ class NotificationTrackingController extends Controller
 =======
      * @return \Illuminate\Http\RedirectResponse
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
      */
     public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {
@@ -614,10 +616,13 @@ class NotificationTrackingController extends Controller
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
      * @return Response
+=======
+>>>>>>> 11b43e822 (.)
      */
-    public function trackClick(Request $request, string $id): Response
+    public function trackClick(Request $request, string $id): \Illuminate\Http\RedirectResponse
     {
         $log = NotificationLog::find($id);
+<<<<<<< HEAD
         $url = $request->get('url');
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
@@ -626,7 +631,13 @@ class NotificationTrackingController extends Controller
 =======
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
+=======
+=======
+        $url = $request->get('url', '');
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
         if ($log) {
             $log->markAsClicked();
@@ -672,6 +683,7 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $metadata = $log->data ?? [];
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,6 +719,7 @@ class NotificationTrackingController extends Controller
 =======
             $metadata = $log->data ?? [];
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -758,6 +771,8 @@ class NotificationTrackingController extends Controller
             $metadata = $log->metadata ?? [];
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
             $metadata['clicked_links'] = array_merge(
                 $metadata['clicked_links'] ?? [],
                 [$url => now()->toIso8601String()]
@@ -786,11 +801,14 @@ class NotificationTrackingController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
             $log->update(['data' => $metadata]);
         }
 
@@ -943,6 +961,13 @@ class NotificationTrackingController extends Controller
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+            $log->update(['data' => $metadata]);
+        }
+
+        // Redirect all'URL originale
+        return redirect()->away((string) $url);
+>>>>>>> 3f537838 (.)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD

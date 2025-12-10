@@ -6,6 +6,41 @@ declare(strict_types=1);
 namespace Modules\Notify\Models\Policies;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 11b43e822 (.)
 class ContactPolicy extends NotifyBasePolicy
 {
 }
@@ -747,11 +782,15 @@ class ContactPolicy extends NotifyBasePolicy
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
 =======
 class ContactPolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
@@ -975,3 +1014,5 @@ class ContactPolicy extends NotifyBasePolicy
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)

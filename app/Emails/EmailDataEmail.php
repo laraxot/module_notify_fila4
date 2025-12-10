@@ -7,6 +7,7 @@ namespace Modules\Notify\Emails;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,13 +70,9 @@ namespace Modules\Notify\Emails;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 510809c6f (.)
-use Illuminate\Mail\Mailables\Attachment;
 =======
-<<<<<<< HEAD
+>>>>>>> 11b43e822 (.)
 use Illuminate\Mail\Mailables\Attachment;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
@@ -243,6 +240,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -897,11 +895,15 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
 =======
     public function __construct(
         public EmailData $email_data,
     ) {}
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -1042,6 +1044,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
     /**
      * Get the message envelope.
@@ -1140,6 +1144,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
@@ -1155,6 +1160,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1259,6 +1266,7 @@ class EmailDataEmail extends Mailable
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
@@ -1793,11 +1801,16 @@ class EmailDataEmail extends Mailable
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1824,6 +1837,8 @@ class EmailDataEmail extends Mailable
 =======
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
@@ -2254,6 +2269,7 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -2317,6 +2333,10 @@ class EmailDataEmail extends Mailable
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }
@@ -2392,15 +2412,7 @@ class EmailDataEmail extends Mailable
     /**
      * Get the attachments for the message.
      *
-<<<<<<< HEAD
      * @return array<int, Attachment>
-=======
-<<<<<<< HEAD
-     * @return array<int, Attachment>
-=======
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
      */
     public function attachments(): array
     {

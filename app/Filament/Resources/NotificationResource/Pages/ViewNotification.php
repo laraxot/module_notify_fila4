@@ -69,6 +69,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -110,6 +111,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
@@ -154,6 +156,10 @@ use Filament\Schemas\Components\Component;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
 =======
@@ -173,6 +179,7 @@ use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 4e2ebfb (.)
 use Filament\Schemas\Components\Section;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +274,8 @@ use Filament\Infolists\Components\Section;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
@@ -356,6 +365,7 @@ class ViewNotification extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
 =======
 =======
@@ -459,6 +469,7 @@ class ViewNotification extends XotBaseViewRecord
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -499,6 +510,10 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -538,6 +553,7 @@ class ViewNotification extends XotBaseViewRecord
                 TextEntry::make('created_at')->dateTime(),
                 TextEntry::make('updated_at')->dateTime(),
             ]),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -602,6 +618,8 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         ];
     }
 }

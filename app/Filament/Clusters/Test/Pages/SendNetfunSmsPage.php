@@ -32,6 +32,7 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Schema;
 =======
 use Filament\Facades\Filament\Schemas\Schema;
@@ -66,6 +67,7 @@ use Filament\Facades\Filament\Schemas\Schema;
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -93,6 +95,10 @@ use Filament\Facades\Filament\Schemas\Schema;
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 =======
@@ -135,6 +141,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -143,6 +150,8 @@ use Exception;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -186,6 +195,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -244,6 +254,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
 /**
 <<<<<<< HEAD
@@ -289,8 +301,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
  */
 class SendNetfunSmsPage extends XotBasePage
 {
-<<<<<<< HEAD
     public null|array $smsData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -495,11 +507,14 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
     protected string $view = 'notify::filament.pages.send-sms';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +526,8 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     protected static null|string $cluster = Test::class;
 =======
 <<<<<<< HEAD
@@ -596,6 +613,7 @@ class SendNetfunSmsPage extends XotBasePage
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     protected static ?string $cluster = Test::class;
     
@@ -607,66 +625,11 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
      * This explicit definition ensures consistent URL generation for acronyms
      */
     public static function getSlug(?Panel $panel = null): string
-=======
-=======
-=======
-use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Modules\Notify\Datas\SmsData;
-use Illuminate\Support\Facades\Log;
-use Filament\Forms\ComponentContainer;
-use Filament\Forms\Contracts\HasForms;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Notify\Filament\Clusters\Test;
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Illuminate\Support\Facades\Notification;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Modules\Notify\Notifications\SmsNotification;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-use Filament\Notifications\Notification as FilamentNotification;
-
-/**
- * @property ComponentContainer $smsForm
- */
-class SendNetfunSmsPage extends XotBasePage
-{
-
-    public ?array $smsData = [];
-
-    protected static ?string $navigationIcon = 'heroicon-o-device-phone-mobile';
-
-    protected static string $view = 'notify::filament.pages.send-sms';
-
->>>>>>> origin/develop
-    protected static ?string $cluster = Test::class;
-    
-    /**
-     * Get the slug of the page
-     * 
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    protected static null|string $cluster = Test::class;
-
-    /**
-     * Get the slug of the page
-     *
->>>>>>> b93ef594b4 (.)
-     * This explicit definition ensures consistent URL generation for acronyms
-     */
-    public static function getSlug(?Panel $panel = null): string
-=======
-     * This explicit definition ensures consistent URL generation for acronyms
-     */
-    public static function getSlug(): string
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     {
         return 'send-netfun-sms-page';
     }
@@ -690,6 +653,7 @@ class SendNetfunSmsPage extends XotBasePage
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function smsForm(Schema $schema): Schema
     {
 =======
@@ -711,6 +675,8 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     public function smsForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
@@ -777,6 +743,7 @@ class SendNetfunSmsPage extends XotBasePage
 =======
 >>>>>>> 207ac35e (.)
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -812,6 +779,8 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     }
 
 >>>>>>> 75179b85 (.)
@@ -890,56 +859,24 @@ class SendNetfunSmsPage extends XotBasePage
     public function getSmsFormSchema(): array
     {
         return [
-<<<<<<< HEAD
             'to' => TextInput::make('to')
-=======
-<<<<<<< HEAD
-            'to' => TextInput::make('to')
-=======
-            'to' => Forms\Components\TextInput::make('to')
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 ->label(__('notify::sms.form.to.label'))
                 ->tel()
                 ->required()
                 ->helperText(__('notify::sms.form.to.helper'))
                 ->placeholder('+393401234567'),
-<<<<<<< HEAD
             'from' => TextInput::make('from')
-=======
-<<<<<<< HEAD
-            'from' => TextInput::make('from')
-=======
-            'from' => Forms\Components\TextInput::make('from')
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 ->label(__('notify::sms.form.from.label'))
                 ->default(config('app.name', 'Our Platform'))
                 ->required()
                 ->maxLength(11)
                 ->helperText(__('notify::sms.form.from.helper')),
-<<<<<<< HEAD
             'body' => Textarea::make('body')
-=======
-<<<<<<< HEAD
-            'body' => Textarea::make('body')
-=======
-            'body' => Forms\Components\Textarea::make('body')
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 ->label(__('notify::sms.form.body.label'))
                 ->required()
                 ->rows(3)
                 ->helperText(__('notify::sms.form.body.helper')),
-<<<<<<< HEAD
             'provider' => Select::make('provider')
-=======
-<<<<<<< HEAD
-            'provider' => Select::make('provider')
-=======
-            'provider' => Forms\Components\Select::make('provider')
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 ->label(__('notify::sms.form.provider.label'))
                 ->options([
                     'netfun' => 'Netfun',
@@ -964,6 +901,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -975,18 +913,17 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
          * $smsData->to = $data['to'];
          * $smsData->from = $data['from'];
          * $smsData->body = $data['body'];
          */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
         $provider = $data['provider'] ?? 'netfun';
 
         try {
             Notification::route('sms', $data['to'])->notify(new SmsNotification($smsData, ['provider' => $provider]));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1021,6 +958,8 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
             FilamentNotification::make()
                 ->success()
@@ -1033,15 +972,7 @@ class SendNetfunSmsPage extends XotBasePage
                 'from' => $data['from'],
                 'provider' => $provider,
             ]);
-<<<<<<< HEAD
         } catch (Exception $e) {
-=======
-<<<<<<< HEAD
-        } catch (Exception $e) {
-=======
-        } catch (\Exception $e) {
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             Log::error('Errore durante l\'invio dell\'SMS', [
                 'error' => $e->getMessage(),
                 'to' => $data['to'],
@@ -1063,6 +994,7 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1072,11 +1004,14 @@ class SendNetfunSmsPage extends XotBasePage
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
             Action::make('sendSms')->label(__('notify::sms.actions.send'))->submit('sendSms'),
         ];
     }
 
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1109,10 +1044,13 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,6 +1065,8 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -1263,6 +1203,7 @@ class SendNetfunSmsPage extends XotBasePage
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         if (! $user instanceof Model) {
@@ -1284,6 +1225,8 @@ class SendNetfunSmsPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         }
 
         return $user;

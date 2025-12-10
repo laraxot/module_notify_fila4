@@ -129,6 +129,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -461,11 +462,15 @@ use function Safe\preg_replace;
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11b43e822 (.)
 =======
 
 use function Safe\preg_match;
 use function Safe\preg_replace;
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use function Safe\preg_replace;
@@ -783,6 +788,8 @@ use function Safe\preg_replace;
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -875,6 +882,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -1038,6 +1046,8 @@ class NormalizePhoneNumberAction
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 class NormalizePhoneNumberAction
 =======
 class NormalizePhoneNumberAction 
@@ -1707,7 +1717,10 @@ class NormalizePhoneNumberAction
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 class NormalizePhoneNumberAction
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1724,9 +1737,16 @@ class NormalizePhoneNumberAction
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 {
-    public function execute(string $phoneNumber): string
+    public function execute(string|array $phoneNumber): string
     {
+        // Convert array to string if needed
+        if (is_array($phoneNumber)) {
+            $phoneNumber = implode('', $phoneNumber);
+        }
+        
         // Rimuove parentesi e il loro contenuto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1734,7 +1754,10 @@ class NormalizePhoneNumberAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
@@ -1762,7 +1785,12 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         $phoneNumber = preg_replace("/\([0-9]+?\)/", '', $phoneNumber);
 
         // Rimuove spazi e caratteri non numerici
@@ -1795,6 +1823,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
 =======
         $phoneNumber = ltrim($phoneNumber, '0');
@@ -1814,6 +1843,7 @@ class NormalizePhoneNumberAction
 =======
         $phoneNumber = ltrim($phoneNumber, '0');
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
@@ -1869,12 +1899,18 @@ class NormalizePhoneNumberAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+        $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
 
         // Prefisso italiano
         $prefix = '39';
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2282,6 +2318,7 @@ class NormalizePhoneNumberAction
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -2425,6 +2462,10 @@ class NormalizePhoneNumberAction
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         // Verifica se il numero non inizia già con il prefisso corretto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2535,6 +2576,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2543,6 +2585,8 @@ class NormalizePhoneNumberAction
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3085,6 +3129,7 @@ class NormalizePhoneNumberAction
 
         return "+{$phoneNumber}";
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 =======
 
         return "+{$phoneNumber}";
@@ -3145,6 +3190,8 @@ class NormalizePhoneNumberAction
 =======
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     }
 }
 =======

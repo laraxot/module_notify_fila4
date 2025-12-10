@@ -7,11 +7,14 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Filament\Schemas\Schema;
 =======
 <<<<<<< HEAD
@@ -160,18 +163,6 @@ use Filament\Forms;
 >>>>>>> laraxot/develop
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
-<<<<<<< HEAD
-=======
-=======
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Filament\Forms;
-use Filament\Forms\ComponentContainer;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Forms\Form;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -203,6 +194,7 @@ class SendEmail extends Page implements HasForms, HasActions
 <<<<<<< HEAD
 <<<<<<< HEAD
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +259,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -304,12 +297,10 @@ class SendEmail extends Page implements HasForms
 >>>>>>> 510809c6f (.)
  * @property \Filament\Schemas\Schema $emailForm
 =======
-<<<<<<< HEAD
- * @property \Filament\Schemas\Schema $emailForm
+>>>>>>> 11b43e822 (.)
 =======
- * @property ComponentContainer $emailForm
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> 3f537838 (.)
+ * @property \Filament\Schemas\Schema $emailForm
  */
 class SendEmail extends Page implements HasForms
 {
@@ -346,6 +337,7 @@ class SendEmail extends Page implements HasForms
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -477,11 +469,15 @@ class SendEmail extends Page implements HasForms
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> 11b43e822 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +759,9 @@ class SendEmail extends Page implements HasForms
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 11b43e822 (.)
 
     public function mount(): void
     {
@@ -793,6 +792,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -801,6 +801,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
     public function sendEmail(): void
     {
         $data = $this->data;
@@ -860,9 +862,12 @@ class SendEmail extends Page implements HasForms
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     public function emailForm(Schema $schema): Schema
     {
         return $schema
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
@@ -874,6 +879,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
             ->components([
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
@@ -886,6 +893,7 @@ class SendEmail extends Page implements HasForms
                         RichEditor::make('body_html')->required(),
                     ]),
             ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -945,6 +953,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
             ->model($this->getUser())
             ->statePath('emailData');
     }
@@ -991,6 +1001,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Mail::to($data['to'])->send(new EmailDataEmail($email_data));
 =======
 =======
@@ -1023,6 +1034,9 @@ class SendEmail extends Page implements HasForms
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
+>>>>>>> 11b43e822 (.)
 
         Notification::make()
             ->success()
@@ -1041,6 +1055,7 @@ class SendEmail extends Page implements HasForms
     protected function getEmailFormActions(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1072,6 +1087,9 @@ class SendEmail extends Page implements HasForms
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+            Action::make('emailFormActions')->submit('emailFormActions'),
+>>>>>>> 11b43e822 (.)
         ];
     }
 
@@ -1105,6 +1123,7 @@ class SendEmail extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1116,6 +1135,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -1271,6 +1292,7 @@ class SendEmail extends Page implements HasForms
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         if (! $user instanceof Model) {
@@ -1292,6 +1314,8 @@ class SendEmail extends Page implements HasForms
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
         }
 
         return $user;

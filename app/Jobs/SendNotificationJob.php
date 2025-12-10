@@ -5,8 +5,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Jobs;
 
-<<<<<<< HEAD
 use Throwable;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,6 +230,8 @@ use Throwable;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 11b43e822 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -569,6 +571,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -769,6 +772,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -966,6 +970,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -976,6 +984,7 @@ class SendNotificationJob implements ShouldQueue
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1624,6 +1633,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -1855,6 +1865,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -1867,6 +1881,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2750,6 +2765,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 3f537838 (.)
@@ -3006,16 +3022,17 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
     }
 
     /**
      * Gestisce un fallimento del job.
 <<<<<<< HEAD
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
      * @param Throwable $exception
      * @return void
 =======
@@ -3124,15 +3141,6 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> laraxot/develop
      */
     public function failed(Throwable $exception): void
-<<<<<<< HEAD
-=======
-=======
-     * @param \Throwable $exception
-     * @return void
-     */
-    public function failed(\Throwable $exception): void
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     {
         // Log dell'errore
         logger()->error('Errore nell\'invio della notifica', [
@@ -3146,6 +3154,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3775,6 +3784,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 3f537838 (.)
@@ -4022,3 +4032,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+}
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)

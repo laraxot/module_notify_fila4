@@ -232,6 +232,7 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1003,6 +1004,7 @@ enum NotificationTypeEnum: string
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return match ($this) {
 >>>>>>> 3f537838 (.)
@@ -1368,6 +1370,11 @@ enum NotificationTypeEnum: string
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+        return match ($this) {
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
             self::EMAIL => __('notify::enums.notification_type.email'),
             self::SMS => __('notify::enums.notification_type.sms'),
             self::PUSH => __('notify::enums.notification_type.push'),
@@ -1595,6 +1602,7 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2366,6 +2374,7 @@ enum NotificationTypeEnum: string
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return match ($this) {
 >>>>>>> 3f537838 (.)
@@ -2731,6 +2740,11 @@ enum NotificationTypeEnum: string
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+        return match ($this) {
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
             self::EMAIL => 'heroicon-o-envelope',
             self::SMS => 'heroicon-o-device-phone-mobile',
             self::PUSH => 'heroicon-o-bell',
@@ -2958,6 +2972,7 @@ enum NotificationTypeEnum: string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3729,6 +3744,7 @@ enum NotificationTypeEnum: string
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return match ($this) {
 >>>>>>> 3f537838 (.)
@@ -4094,6 +4110,11 @@ enum NotificationTypeEnum: string
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+        return match ($this) {
+>>>>>>> 3f537838 (.)
+>>>>>>> 11b43e822 (.)
             self::EMAIL => 'success',
             self::SMS => 'warning',
             self::PUSH => 'info',
