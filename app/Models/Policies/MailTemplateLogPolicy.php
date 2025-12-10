@@ -81,6 +81,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class MailTemplateLogPolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
@@ -790,3 +791,8 @@ class MailTemplateLogPolicy extends NotifyBasePolicy
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+class MailTemplateLogPolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 2941b0bd (.)

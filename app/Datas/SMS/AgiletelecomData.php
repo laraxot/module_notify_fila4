@@ -60,6 +60,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -513,6 +514,8 @@ use Symfony\Component\Mime\Address;
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -548,6 +551,7 @@ class AgiletelecomData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -950,6 +954,8 @@ class AgiletelecomData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
             $data = Config::array('sms.drivers.agiletelecom');
             self::$instance = self::from($data);
         }
@@ -1032,6 +1038,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1510,30 +1517,10 @@ class AgiletelecomData extends Data
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
     public function getAuthHeaders(): array
     {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function getAuthHeaders(): array
-    {
-=======
-=======
->>>>>>> origin/develop
-
-    public function getAuthHeaders(): array
-    {
-                
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-    public function getAuthHeaders(): array
-    {
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         switch ($this->auth_type) {
             case 'api_key':
                 return [
@@ -1577,6 +1564,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
 =======
@@ -1783,6 +1771,8 @@ class AgiletelecomData extends Data
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
                     'Content-Type' => 'application/json',
                 ];
 
@@ -2253,38 +2243,6 @@ class AgiletelecomData extends Data
                     'Content-Type' => 'application/json',
                 ];
 
-<<<<<<< HEAD
-=======
-=======
-                    'Content-Type' => 'application/json'
-=======
-                    'Content-Type' => 'application/json',
->>>>>>> b93ef594b4 (.)
-                ];
-
-            case 'oauth':
-                return [
-                    'Authorization' => 'OAuth ' . $this->oauth_token,
-                    'Content-Type' => 'application/json',
-                ];
-<<<<<<< HEAD
-            
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-                    'Content-Type' => 'application/json'
-                ];
-            
-            case 'oauth':
-                return [
-                    'Authorization' => 'OAuth ' . $this->oauth_token,
-                    'Content-Type' => 'application/json'
-                ];
-            
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
             case 'basic':
             default:
                 return [
@@ -2296,6 +2254,7 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2495,11 +2454,14 @@ class AgiletelecomData extends Data
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
                     'Content-Type' => 'application/json',
                 ];
         }
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2987,3 +2949,5 @@ class AgiletelecomData extends Data
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
