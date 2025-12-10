@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c417ace (.)
 # Miglioramenti UI/UX per MailTemplateResource
 
 ## Componenti Filament Consigliati
@@ -120,9 +123,13 @@ Card::make()
 ### 1. Form Completo
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 7b1ccd1 (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> c417ace (.)
 {
     return $form
         ->schema([
@@ -194,5 +201,8 @@ public static function table(Table $table): Table
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
 - [Componenti Blade Filament](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Best Practices UI/UX](https://filamentphp.com/docs/3.x/panels/resources/getting-started) 
+<<<<<<< HEAD
 =======
 >>>>>>> c13e9db (.)
+=======
+>>>>>>> c417ace (.)
