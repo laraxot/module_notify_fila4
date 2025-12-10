@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 use function Safe\class_uses;
 
 <<<<<<< HEAD
@@ -27,6 +28,8 @@ use function Safe\class_uses;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> 7d765981 (.)
 use Illuminate\Contracts\Mail\Mailable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -87,8 +90,15 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
+=======
+use function Safe\class_uses;
+
+describe('MailTemplate Business Logic', function (): void {
+    test('mail template extends spatie mail template', function (): void {
+>>>>>>> 7d765981 (.)
         expect(MailTemplate::class)->toBeSubclassOf(\Spatie\MailTemplates\Models\MailTemplate::class);
     });
 

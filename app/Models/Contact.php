@@ -35,7 +35,6 @@ use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Modules\Xot\Contracts\ProfileContract;
-use Override;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 <<<<<<< HEAD
@@ -1389,6 +1388,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|Contact whereValue($value)
  * @method static Builder<static>|Contact whereVerifiedAt($value)
  *
+<<<<<<< HEAD
  * @mixin \Eloquent
  */
 >>>>>>> 2cbbc069 (.)
@@ -1397,6 +1397,8 @@ use Illuminate\Support\Carbon;
  */
 >>>>>>> 7c1c276f (rebase 210)
 =======
+=======
+>>>>>>> 7d765981 (.)
  * @mixin \Eloquent
  */
 >>>>>>> 6e550ff (.)

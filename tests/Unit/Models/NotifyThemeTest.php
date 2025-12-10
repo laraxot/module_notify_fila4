@@ -198,6 +198,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 =======
 use function Safe\json_encode;
 
+<<<<<<< HEAD
 >>>>>>> 7d765981 (.)
 =======
 >>>>>>> 2fc60436 (.)
@@ -247,6 +248,8 @@ use function Safe\json_encode;
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 7d765981 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;

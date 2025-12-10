@@ -9821,7 +9821,11 @@ describe('Notification Type Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+                /** @phpstan-ignore-next-line method.nonObject */
+>>>>>>> 7d765981 (.)
             )->and($type->fresh()->replacement_type_id)->toBe(15);
 <<<<<<< HEAD
 <<<<<<< HEAD

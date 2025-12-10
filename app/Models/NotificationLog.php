@@ -1209,6 +1209,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property-read int|null $media_count
  * @property-read Model|\Eloquent $notifiable
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+<<<<<<< HEAD
 =======
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
@@ -1216,6 +1217,9 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @property-read Model|\Eloquent $notifiable
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
 >>>>>>> e00d798d (.)
+=======
+ *
+>>>>>>> 7d765981 (.)
  * @method static \Modules\Notify\Database\Factories\NotificationLogFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationLog forNotifiable(\Illuminate\Database\Eloquent\Model $notifiable)
  * @method static Builder<static>|NotificationLog forTemplate(int $templateId)
@@ -1235,6 +1239,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * @method static Builder<static>|NotificationLog whereTitle($value)
  * @method static Builder<static>|NotificationLog whereUpdatedAt($value)
  * @method static Builder<static>|NotificationLog withStatus(\Modules\Notify\Enums\NotificationLogStatusEnum $status)
+ *
  * @mixin \Eloquent
 <<<<<<< HEAD
 =======
@@ -1268,14 +1273,14 @@ final class NotificationLog extends BaseModel
     protected function casts(): array
     {
         return [
-        'data' => 'array',
-        'channels' => 'array',
-        'sent_at' => 'datetime',
-        'delivered_at' => 'datetime',
-        'opened_at' => 'datetime',
-        'clicked_at' => 'datetime',
-        'status' => NotificationLogStatusEnum::class,
-    ];
+            'data' => 'array',
+            'channels' => 'array',
+            'sent_at' => 'datetime',
+            'delivered_at' => 'datetime',
+            'opened_at' => 'datetime',
+            'clicked_at' => 'datetime',
+            'status' => NotificationLogStatusEnum::class,
+        ];
     }
 
     /**

@@ -574,6 +574,7 @@ use Modules\Notify\Database\Factories\NotificationFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +672,9 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\BaseModel;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+use Modules\Xot\Models\BaseModel;
+>>>>>>> 7d765981 (.)
 
 /**
  * Notification model for the Notify module.
@@ -696,6 +700,7 @@ use Modules\Xot\Models\BaseModel;
  * @property Carbon|null $sent_at
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read Model|null $creator
  * @property-read Model|null $updater
 <<<<<<< HEAD
@@ -703,6 +708,10 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+ * @property Model|null $creator
+ * @property Model|null $updater
+>>>>>>> 7d765981 (.)
 =======
  * @property Model|null $creator
  * @property Model|null $updater
@@ -914,6 +923,7 @@ use Modules\Xot\Models\BaseModel;
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+<<<<<<< HEAD
 =======
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
@@ -922,6 +932,8 @@ use Modules\Xot\Models\BaseModel;
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 7d765981 (.)
  * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -940,6 +952,9 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereUpdatedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7d765981 (.)
  *
  * @mixin \Eloquent
  */

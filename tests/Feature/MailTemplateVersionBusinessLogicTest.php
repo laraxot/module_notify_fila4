@@ -3040,6 +3040,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
             /** @var \Illuminate\Database\Eloquent\Collection */
             $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+<<<<<<< HEAD
+>>>>>>> 7d765981 (.)
+=======
 >>>>>>> 7d765981 (.)
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
@@ -4974,10 +4977,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
             /** @var \Illuminate\Database\Eloquent\Collection */
             $version = MailTemplateVersion/** @phpstan-ignore-line */ ::factory()->create([
+<<<<<<< HEAD
 >>>>>>> 7d765981 (.)
 =======
             $version = MailTemplateVersion::factory()->create([
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 7d765981 (.)
                 'template_id' => $template->id,
                 'version' => $versionNumber,
                 'change_notes' => $description,
