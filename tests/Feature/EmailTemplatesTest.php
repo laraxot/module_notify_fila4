@@ -100,6 +100,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -111,6 +112,8 @@ declare(strict_types=1);
 >>>>>>> 098285fb (rebase 210)
 =======
 >>>>>>> e42e3233 (rebase 210)
+=======
+>>>>>>> 08fd62df (.)
 
 <<<<<<< HEAD
 >>>>>>> 7d903672 (.)
@@ -985,6 +988,7 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -1284,10 +1288,13 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> 367c6ceb (.)
+=======
+>>>>>>> 08fd62df (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1513,6 +1520,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> e42e3233 (rebase 210)
 =======
 >>>>>>> b1f2dd4c (.)
+=======
+>>>>>>> 08fd62df (.)
 });
 test('sunny template contains optional function', function (): void {
     $filePath = base_path('Modules/Notify/resources/views/emails/templates/sunny.blade.php');
@@ -1602,6 +1611,7 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4419,3 +4429,5 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> 367c6ceb (.)
+=======
+>>>>>>> 08fd62df (.)
