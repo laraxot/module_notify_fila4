@@ -135,6 +135,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -187,6 +188,8 @@ declare(strict_types=1);
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> bf251cdf0 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -375,6 +378,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> d13ead25 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3d542a31 (.)
 =======
@@ -411,6 +415,8 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> a29a4728 (.)
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> bf251cdf0 (.)
 
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1903,6 +1909,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 8d298d6 (.)
+=======
+>>>>>>> 4ad63a5 (.)
 
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
@@ -1929,13 +1937,33 @@ test('html template contains optional function', function (): void {
 >>>>>>> 13aa25113 (.)
 =======
     expect($content)
+<<<<<<< HEAD
 >>>>>>> fdad57c30 (.)
+=======
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+uses(TestCase::class);
+test('html template contains optional function', function (): void {
+    // Percorso del file
+    $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
+    // Verifico che il file esiste
+    expect(File::exists($filePath))->toBeTrue('Il file html.blade.php non esiste');
+    // Leggo il contenuto del file
+    $content = File::get($filePath);
+    // Verifico che contiene la funzione optional per subject
+    expect($content)
+        ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
+    // Verifico che contiene la funzione optional per body_html
+>>>>>>> 0db165c (.)
+>>>>>>> bf251cdf0 (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2248,6 +2276,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> bf251cdf0 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3948,6 +3978,7 @@ test('sunny template contains optional function', function (): void {
 =======
 >>>>>>> a29a4728 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d13ead25 (.)
 =======
@@ -3993,6 +4024,10 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+>>>>>>> d13ead25 (.)
+>>>>>>> bf251cdf0 (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -6459,6 +6494,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 2a97406c (.)
 <<<<<<< HEAD
@@ -6470,6 +6506,8 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 53d9bada0 (.)
 =======
 =======
+=======
+>>>>>>> d13ead25 (.)
 =======
     expect($content)->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
     expect($content)->toContain('optional($email_data)->body_html', 'Il template html.blade.php non utilizza optional() per body_html');
@@ -6486,6 +6524,7 @@ test('ark template contains optional function', function (): void {
     expect(File::exists($filePath))->toBeTrue('Il file ark.blade.php non esiste');
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
     expect($content)->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
+<<<<<<< HEAD
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
 <<<<<<< HEAD
@@ -6493,4 +6532,10 @@ test('ark template contains optional function', function (): void {
 =======
 =======
 >>>>>>> a29a4728 (.)
+<<<<<<< HEAD
 >>>>>>> fdad57c30 (.)
+=======
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> d13ead25 (.)
+>>>>>>> bf251cdf0 (.)
