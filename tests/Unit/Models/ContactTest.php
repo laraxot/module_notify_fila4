@@ -231,6 +231,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -379,6 +380,7 @@ use Tests\TestCase;
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7325acf3 (.)
 =======
@@ -411,6 +413,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
@@ -499,6 +503,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -510,11 +515,14 @@ use Tests\TestCase;
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
+>>>>>>> d3a8af4d5 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
@@ -596,6 +604,10 @@ use Tests\TestCase;
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+>>>>>>> d3a8af4d5 (.)
 use Tests\TestCase;
 use Modules\Notify\Models\Contact;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -646,10 +658,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1459,6 +1474,7 @@ use Modules\Notify\Models\Contact;
 use Tests\TestCase;
 >>>>>>> 2941b0bd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
 =======
@@ -2131,6 +2147,10 @@ use Tests\TestCase;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+>>>>>>> d3a8af4d5 (.)
 
 class ContactTest extends TestCase
 {
@@ -2702,6 +2722,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2853,6 +2874,7 @@ class ContactTest extends TestCase
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
@@ -2888,6 +2910,10 @@ class ContactTest extends TestCase
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> e7a9a2bf (.)
+>>>>>>> d3a8af4d5 (.)
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 =======
         $foundContact = Contact::where('model_type', 'App\Models\User')
@@ -2984,6 +3010,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2992,6 +3019,8 @@ class ContactTest extends TestCase
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 =======
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 >>>>>>> 75179b85 (.)
@@ -3284,6 +3313,7 @@ class ContactTest extends TestCase
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 =======
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
@@ -3885,6 +3915,8 @@ class ContactTest extends TestCase
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($foundContact);
@@ -4559,6 +4591,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -4889,6 +4922,7 @@ class ContactTest extends TestCase
 =======
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7325acf3 (.)
 =======
@@ -5011,6 +5045,8 @@ class ContactTest extends TestCase
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 
 
 
@@ -5018,6 +5054,7 @@ class ContactTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5110,6 +5147,8 @@ class ContactTest extends TestCase
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5358,6 +5397,7 @@ class ContactTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -5882,3 +5922,5 @@ class ContactTest extends TestCase
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> d3a8af4d5 (.)

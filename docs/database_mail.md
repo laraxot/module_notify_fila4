@@ -952,6 +952,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1459,6 +1460,7 @@ class ProcessDoctorModerationAction
 
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
@@ -1860,6 +1862,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -2107,6 +2111,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2397,6 +2402,7 @@ Cordiali saluti,<br>
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2449,6 +2455,8 @@ Cordiali saluti,<br>
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
@@ -2580,12 +2588,15 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2722,6 +2733,7 @@ Cordiali saluti,<br>
 =======
 >>>>>>> e7a9a2bf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 9cdf6146 (.)
@@ -2752,6 +2764,8 @@ Cordiali saluti,<br>
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
@@ -2836,12 +2850,15 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2956,6 +2973,7 @@ Cordiali saluti,<br>
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3837,3 +3855,5 @@ Cordiali saluti,<br>
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> d3a8af4d5 (.)

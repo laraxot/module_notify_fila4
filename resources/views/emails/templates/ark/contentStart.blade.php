@@ -204,6 +204,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -326,6 +327,8 @@
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -541,6 +544,7 @@
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1528,6 +1532,8 @@
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 <?php
 
 declare(strict_types=1);
@@ -1536,6 +1542,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2626,7 +2633,14 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 2941b0bd (.)
+<<<<<<< HEAD
 >>>>>>> a070a65a5 (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+>>>>>>> d3a8af4d5 (.)
 <tr>
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
@@ -2726,6 +2740,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3044,6 +3059,8 @@ declare(strict_types=1);
 =======
 >>>>>>> a070a65a5 (.)
 =======
+>>>>>>> d3a8af4d5 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3065,6 +3082,7 @@ declare(strict_types=1);
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d67cabd (.)
 =======
@@ -3093,6 +3111,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 011072e4 (.)
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 					<div class="article-content" align="left">
 =======
 					<div class="article-content" align="left">
@@ -3118,6 +3138,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3126,6 +3147,8 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
 =======
 					<div class="article-content" align="left">
 >>>>>>> 75179b85 (.)
@@ -3256,6 +3279,7 @@ declare(strict_types=1);
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 =======
 =======
 					<div class="article-content" align="left">
@@ -4853,3 +4877,5 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> d3a8af4d5 (.)
