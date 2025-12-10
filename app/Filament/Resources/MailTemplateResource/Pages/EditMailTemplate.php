@@ -240,6 +240,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -467,6 +468,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6d08c01b (.)
@@ -945,6 +947,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
+>>>>>>> 138fcd4b0 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1272,6 +1278,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
 =======
@@ -1308,6 +1315,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1704,6 +1713,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
 =======
 >>>>>>> 6b6b9e41 (.)
@@ -1762,6 +1772,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Modules\Notify\Filament\Resources\MailTemplateResource;
@@ -1856,6 +1870,7 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1874,6 +1889,8 @@ use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2558,6 +2575,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2652,6 +2670,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
@@ -2889,6 +2909,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3062,6 +3083,7 @@ class EditMailTemplate extends LangBaseEditRecord
 =======
 >>>>>>> 6d08c01b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> 3b4c9907 (.)
@@ -3100,6 +3122,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 
     
 >>>>>>> b19cd40 (.)
@@ -3199,6 +3223,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3219,6 +3244,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3460,6 +3487,7 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6d08c01b (.)
@@ -3950,6 +3978,10 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
+>>>>>>> 138fcd4b0 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

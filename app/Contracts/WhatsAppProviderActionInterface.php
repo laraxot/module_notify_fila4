@@ -243,6 +243,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -276,6 +277,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -453,6 +455,8 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
  *
 =======
  * 
@@ -553,6 +557,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -573,6 +578,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 =======
  *
 >>>>>>> 75179b85 (.)
@@ -1424,6 +1431,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 =======
 =======
  *
@@ -1521,6 +1529,8 @@ use Modules\Notify\Datas\WhatsAppData;
  *
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -1665,6 +1675,7 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1703,6 +1714,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1743,6 +1756,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -1815,10 +1829,13 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1885,6 +1902,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -2136,6 +2155,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 =======
 =======
 }
@@ -2977,3 +2997,5 @@ interface WhatsAppProviderActionInterface
 }
 >>>>>>> 98d837b9 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 138fcd4b0 (.)
