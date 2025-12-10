@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -211,6 +212,7 @@
 >>>>>>> eb71492d (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 0ebb7b01 (.)
 =======
@@ -303,6 +305,8 @@
 =======
 >>>>>>> eb71492d (.)
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Documentazione SpatieEmail
 
 Questa directory contiene la documentazione relativa all'implementazione delle email multilingua utilizzando il pacchetto Spatie nel modulo Notify.
@@ -319,6 +323,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -911,6 +916,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 - [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 0ebb7b01 (.)
 =======
@@ -1041,3 +1047,5 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 =======
 >>>>>>> eb71492d (.)
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)

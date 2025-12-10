@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -172,6 +174,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Sistema Monitoraggio Email 
 
 ## Panoramica
@@ -1253,6 +1257,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -3018,6 +3023,7 @@ class MailMonitoringDebugger
 - [Laravel Commands](https://laravel.com/docs/artisan) 
 - [Laravel Events](https://laravel.com/docs/events) 
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
@@ -3361,3 +3367,5 @@ class MailMonitoringDebugger
 =======
 >>>>>>> f9ec4f86 (.)
 >>>>>>> 8134673e1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

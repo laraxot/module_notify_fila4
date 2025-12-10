@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -172,6 +174,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Sistema Notifiche Email - il progetto
 
 ## Panoramica
@@ -407,6 +411,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -524,6 +529,7 @@ class NotificationResource extends XotBaseResource
     public static function form(Form $form): Form
 >>>>>>> fd1fcc4c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
@@ -613,6 +619,11 @@ class NotificationResource extends XotBaseResource
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -811,6 +822,7 @@ class NotificationDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1863,11 +1875,15 @@ class NotificationDebugger
 - [Laravel Mail](https://laravel.com/docs/mail) 
 >>>>>>> f9ec4f86 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 602b8a0a9 (.)
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
@@ -2594,3 +2610,5 @@ class NotificationDebugger
 >>>>>>> a2f3c239e (.)
 =======
 >>>>>>> 8134673e1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

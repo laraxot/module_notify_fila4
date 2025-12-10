@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -87,6 +88,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
@@ -185,6 +187,10 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
 # Implementazione Canale Telegram
 
 ## 1. Struttura Base
@@ -730,6 +736,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -883,6 +890,7 @@ class TelegramTest extends TestCase
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3ee54c5d (.)
 =======
@@ -1009,6 +1017,8 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> e790eb33 (.)
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -1292,6 +1302,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1569,6 +1580,7 @@ class TelegramTest extends TestCase
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -2133,6 +2145,8 @@ class TelegramTest extends TestCase
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -2141,6 +2155,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3262,6 +3277,7 @@ class TelegramTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -3610,3 +3626,5 @@ class TelegramTest extends TestCase
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

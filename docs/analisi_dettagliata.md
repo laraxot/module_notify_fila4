@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -172,6 +174,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Analisi Dettagliata del Modulo Notify
 
 ## 1. Analisi delle Soluzioni di Template Email
@@ -619,6 +623,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -736,6 +741,7 @@ class TemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> fd1fcc4c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
@@ -825,6 +831,11 @@ class TemplateResource extends Resource
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1050,6 +1061,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1707,6 +1719,7 @@ class TemplatePreview extends Component
 =======
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 >>>>>>> f9ec4f86 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
@@ -2452,11 +2465,17 @@ class TemplatePreview extends Component
 >>>>>>> a2f3c239e (.)
 =======
 >>>>>>> 8134673e1 (.)
+=======
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
 - [Stripo Documentation](https://stripo.email/templates/)
 - [Beefree Documentation](https://beefree.io/templates)
 - [Unlayer Documentation](https://unlayer.com/)
 - [Mailersend Documentation](https://www.mailersend.com/)
 - [Mailjet Documentation](https://www.mailjet.com/) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2573,6 +2592,8 @@ class TemplatePreview extends Component
 =======
 >>>>>>> d9e649ac3 (.)
 =======
+>>>>>>> 602b8a0a9 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2602,6 +2623,7 @@ class TemplatePreview extends Component
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2659,3 +2681,5 @@ class TemplatePreview extends Component
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

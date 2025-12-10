@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -172,6 +174,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # GrapesJS per Filament: Analisi e Best Practice
 
 ## Regola sulle rotte
@@ -258,6 +262,7 @@ Grapesjs::make('body_html')
 <<<<<<< HEAD
 - [GrapesJS Docs](https://grapesjs.com/docs/)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +920,7 @@ Grapesjs::make('body_html')
 =======
 - [GrapesJS Docs](https://grapesjs.com/docs/)
 >>>>>>> f9ec4f86 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [GrapesJS Docs](https://grapesjs.com/docs/)
@@ -1660,11 +1666,17 @@ Grapesjs::make('body_html')
 >>>>>>> a2f3c239e (.)
 =======
 >>>>>>> 8134673e1 (.)
+=======
+=======
+- [GrapesJS Docs](https://grapesjs.com/docs/)
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
 - [Filament Plugins](https://filamentphp.com/plugins)
 
 ---
 
 **GrapesJS integrato in Filament rappresenta la soluzione ideale per un editor visuale avanzato di template email e landing page, facilmente estendibile e personalizzabile secondo le esigenze del progetto.**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1781,6 +1793,8 @@ Grapesjs::make('body_html')
 =======
 >>>>>>> d9e649ac3 (.)
 =======
+>>>>>>> 602b8a0a9 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1810,6 +1824,7 @@ Grapesjs::make('body_html')
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1867,3 +1882,5 @@ Grapesjs::make('body_html')
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

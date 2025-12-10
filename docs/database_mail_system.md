@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -87,6 +88,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
@@ -185,6 +187,10 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
 # Sistema di Gestione Email Basato su Database - il progetto
 
 ## Panoramica
@@ -381,6 +387,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -502,6 +509,7 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
@@ -596,6 +604,8 @@ class MailTemplateResource extends XotBaseResource
     public static function form(Form $form): Form
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -997,6 +1007,7 @@ class TreatmentComplete extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1564,6 +1575,7 @@ class TreatmentComplete extends Mailable
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -2208,6 +2220,8 @@ class TreatmentComplete extends Mailable
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create
@@ -2267,6 +2281,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4106,6 +4121,7 @@ php artisan notify:mail-template:test
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Spatie Packages](https://spatie.be/open-source)
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d284d65 (.)
@@ -4450,3 +4466,5 @@ php artisan notify:mail-template:test
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

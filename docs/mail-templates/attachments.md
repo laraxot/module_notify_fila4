@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -211,6 +212,7 @@
 >>>>>>> eb71492d (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 0ebb7b01 (.)
 =======
@@ -303,6 +305,8 @@
 =======
 >>>>>>> eb71492d (.)
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Gestione degli Allegati nelle Email
 
 ## Implementazione Corretta
@@ -424,6 +428,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -585,6 +590,7 @@ $attachments = [
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
@@ -887,6 +893,8 @@ $attachments = [
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ],
@@ -1004,6 +1012,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -1165,6 +1174,7 @@ $attachments = [
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
@@ -1467,6 +1477,8 @@ $attachments = [
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ]
@@ -1602,6 +1614,7 @@ Mail::to($user->email)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1684,6 +1697,8 @@ Mail::to($user->email)
 =======
 >>>>>>> a2f3c239e (.)
 =======
+>>>>>>> 602b8a0a9 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1730,6 +1745,7 @@ Mail::to($user->email)
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
@@ -1933,3 +1949,7 @@ Mail::to($user->email)
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)

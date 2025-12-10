@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -172,6 +174,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -238,6 +242,7 @@ class SendEmail extends XotBasePage
 <<<<<<< HEAD
     public function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,6 +421,7 @@ class SendEmail extends XotBasePage
     public function form(Form $form): Form
 >>>>>>> fd1fcc4c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
@@ -505,6 +511,11 @@ class SendEmail extends XotBasePage
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+    public function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
     {
         return $form
             ->schema([
@@ -924,6 +935,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2084,11 +2096,15 @@ class SmtpData extends Data
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 >>>>>>> f9ec4f86 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 602b8a0a9 (.)
 =======
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 3ee54c5d (.)
@@ -2493,6 +2509,8 @@ class SmtpData extends Data
 >>>>>>> a2f3c239e (.)
 =======
 >>>>>>> 8134673e1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 
 ## ⚠️ Note Importanti
 
@@ -2512,6 +2530,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
    - Verificare configurazione SMTP 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3138,6 +3157,7 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4b544042 (.)
 =======
@@ -3412,3 +3432,5 @@ class SmtpData extends Data
 =======
 >>>>>>> f9ec4f86 (.)
 >>>>>>> 8134673e1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

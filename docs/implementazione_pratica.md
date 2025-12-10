@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,7 @@
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -172,6 +174,8 @@
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -630,6 +634,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -747,6 +752,7 @@ class TemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> fd1fcc4c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
@@ -836,6 +842,11 @@ class TemplateResource extends Resource
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1220,6 +1231,7 @@ class TemplateControllerTest extends TestCase
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2105,10 +2117,13 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> f9ec4f86 (.)
+=======
+>>>>>>> 4f3927d7 (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2152,6 +2167,8 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
@@ -2233,6 +2250,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2366,3 +2384,5 @@ class TemplateControllerTest extends TestCase
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -87,6 +88,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
@@ -185,6 +187,10 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -533,6 +539,7 @@ class MailTemplateSecurityTest extends TestCase
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,6 +1383,7 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -2020,6 +2028,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -2277,6 +2287,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2665,6 +2676,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2893,6 +2905,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -2902,6 +2916,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4322,6 +4337,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 =======
@@ -4649,3 +4665,5 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 602b8a0a9 (.)

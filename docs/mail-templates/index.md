@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -211,6 +212,7 @@
 >>>>>>> eb71492d (.)
 =======
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 0ebb7b01 (.)
 =======
@@ -303,6 +305,8 @@
 =======
 >>>>>>> eb71492d (.)
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
@@ -423,6 +427,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
@@ -564,6 +569,7 @@
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
@@ -840,6 +846,8 @@
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura
@@ -892,6 +900,7 @@
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice dei template email, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 Ultimo aggiornamento: 14 Maggio 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -994,6 +1003,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> a2f3c239e (.)
 =======
+>>>>>>> 602b8a0a9 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1040,6 +1051,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
@@ -1243,3 +1255,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> a2f3c239e (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)

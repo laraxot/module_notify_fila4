@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -38,6 +39,8 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -91,6 +94,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +237,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 
 ## Sottocartelle
 
@@ -243,6 +249,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ### Notifications
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +302,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -303,6 +312,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,3 +560,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d9e649ac3 (.)
+=======
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> 602b8a0a9 (.)

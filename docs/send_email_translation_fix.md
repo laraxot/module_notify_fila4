@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -87,6 +88,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
@@ -185,6 +187,10 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -317,6 +323,7 @@ Ogni campo ora ha la struttura espansa completa:
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1400,6 +1407,7 @@ Ogni campo ora ha la struttura espansa completa:
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3ee54c5d (.)
 =======
@@ -1567,6 +1575,8 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 >>>>>>> e790eb33 (.)
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> 602b8a0a9 (.)
 - [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
 <<<<<<< HEAD
@@ -1859,6 +1869,7 @@ Ogni campo ora ha la struttura espansa completa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2067,6 +2078,7 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
@@ -2215,6 +2227,10 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> d9e649ac3 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+>>>>>>> 4f3927d7 (.)
+>>>>>>> 602b8a0a9 (.)
 
 ## Note Importanti
 
@@ -2237,6 +2253,7 @@ Ogni campo ora ha la struttura espansa completa:
 ],
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2405,6 +2422,7 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 4f3927d7 (.)
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> c8b1c8bf (.)
@@ -2487,3 +2505,5 @@ Ogni campo ora ha la struttura espansa completa:
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> 602b8a0a9 (.)
