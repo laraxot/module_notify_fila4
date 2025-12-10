@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -677,10 +678,15 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 75179b85 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 75179b85 (.)
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Filament\Actions;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1784,6 +1790,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+>>>>>>> 75179b85 (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
@@ -1955,6 +1965,7 @@ class EditMailTemplate extends LangBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2665,4 +2676,6 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
 }

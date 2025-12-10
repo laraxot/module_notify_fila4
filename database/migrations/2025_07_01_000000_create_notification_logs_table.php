@@ -55,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -601,6 +602,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 75179b85 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -668,6 +674,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1130,11 +1137,15 @@ return new class extends Migration {
 return new class extends Migration {
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+return new class extends Migration {
+>>>>>>> 75179b85 (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1183,6 +1194,10 @@ return new class extends Migration {
 =======
             Schema::create('notification_logs', function (Blueprint $table) {
 >>>>>>> 625ad07 (.)
+=======
+        if (!Schema::hasTable('notification_logs')) {
+            Schema::create('notification_logs', function (Blueprint $table) {
+>>>>>>> 75179b85 (.)
 =======
         if (!Schema::hasTable('notification_logs')) {
             Schema::create('notification_logs', function (Blueprint $table) {
@@ -1256,6 +1271,7 @@ return new class extends Migration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1543,6 +1559,9 @@ return new class extends Migration {
 =======
 
 >>>>>>> 58816034 (.)
+=======
+
+>>>>>>> 75179b85 (.)
                 $table->index(['notifiable_type', 'notifiable_id']);
                 $table->index('channel');
                 $table->index('status');

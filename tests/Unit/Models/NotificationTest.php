@@ -143,6 +143,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1281,6 +1282,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 >>>>>>> 58816034 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Notification;
+use Tests\TestCase;
+>>>>>>> 75179b85 (.)
 
 class NotificationTest extends TestCase
 {
@@ -1334,6 +1340,7 @@ class NotificationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $notification = new Notification;
@@ -1352,6 +1359,9 @@ class NotificationTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+        $notification = new Notification();
+>>>>>>> 75179b85 (.)
 
         $expectedFillable = [
             'message',
@@ -1377,6 +1387,7 @@ class NotificationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
         $notification = new Notification;
@@ -1395,6 +1406,9 @@ class NotificationTest extends TestCase
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+        $notification = new Notification();
+>>>>>>> 75179b85 (.)
 
         $expectedCasts = [
             'read_at' => 'datetime',

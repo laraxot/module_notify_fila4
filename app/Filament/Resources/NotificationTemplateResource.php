@@ -129,6 +129,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1502,6 +1503,8 @@ use Override;
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9777d1b (.)
+=======
+>>>>>>> 75179b85 (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
@@ -1510,6 +1513,7 @@ use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1587,6 +1591,9 @@ use Filament\Schemas\Schema;
 =======
 use Filament\Forms\Form;
 >>>>>>> c8b1c8bf (.)
+=======
+use Filament\Forms\Form;
+>>>>>>> 75179b85 (.)
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -1600,6 +1607,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 class NotificationTemplateResource extends XotBaseResource
 {
     protected static null|string $model = NotificationTemplate::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
@@ -2265,6 +2273,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
     protected static null|string $model = NotificationTemplate::class;
 >>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 75179b85 (.)
 
     #[Override]
     public static function getFormSchema(): array
@@ -2319,6 +2329,7 @@ class NotificationTemplateResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -3987,6 +3998,9 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
+=======
+    #[Override]
+>>>>>>> 75179b85 (.)
     public static function getPages(): array
     {
         return [
@@ -4110,6 +4124,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4460,12 +4475,15 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
      * public static function getEloquentQuery(): Builder
      * {
      * return parent::getEloquentQuery()
      * ->orderBy('name');
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5246,4 +5264,6 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
 }
