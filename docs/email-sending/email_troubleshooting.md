@@ -530,7 +530,11 @@ $attachments = [
 >>>>>>> 161887a2 (.)
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+<<<<<<< HEAD
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> bf479cc (.)
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
 >>>>>>> ee18dd92 (.)
 =======
