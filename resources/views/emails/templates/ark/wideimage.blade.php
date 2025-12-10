@@ -533,6 +533,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4083,6 +4084,7 @@ declare(strict_types=1);
 >>>>>>> e42e3233 (rebase 210)
 =======
 >>>>>>> c3de2f6c (rebase 210)
+<<<<<<< HEAD
 =======
 <tr>
 <<<<<<< HEAD
@@ -4567,6 +4569,8 @@ declare(strict_types=1);
 =======
 >>>>>>> e42e3233 (rebase 210)
 >>>>>>> 2a700966d (.)
+=======
+>>>>>>> c09685b0c (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -4639,6 +4643,7 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 </tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7147,6 +7152,7 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 </tr>
 >>>>>>> c3de2f6c (rebase 210)
@@ -7993,3 +7999,8 @@ declare(strict_types=1);
 >>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+=======
+</tr>
+>>>>>>> c3de2f6c (rebase 210)
+>>>>>>> c09685b0c (.)
