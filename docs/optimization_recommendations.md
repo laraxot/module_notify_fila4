@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> 75179b855 (.)
@@ -58,11 +59,9 @@
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bb7e77c2 (.)
-- **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 =======
-- **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
-- **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
->>>>>>> bf479cc (.)
+>>>>>>> c7a4727b (.)
+- **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
 - **Email domains** hardcoded nei test
@@ -91,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> 75179b855 (.)
@@ -122,11 +122,9 @@
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bb7e77c2 (.)
-- Riferimenti diretti a modelli SaluteOra
 =======
-- Riferimenti diretti a modelli <nome progetto>
-- Riferimenti diretti a modelli <nome progetto>
->>>>>>> bf479cc (.)
+>>>>>>> c7a4727b (.)
+- Riferimenti diretti a modelli SaluteOra
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
@@ -146,6 +144,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> 75179b855 (.)
@@ -177,11 +176,9 @@
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bb7e77c2 (.)
-1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 =======
-1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
-1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
->>>>>>> bf479cc (.)
+>>>>>>> c7a4727b (.)
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
 4. **Documentazione base**: Creata guida riusabilità
@@ -210,6 +207,7 @@ $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'database' => '<nome progetto>_test'
 >>>>>>> 75179b855 (.)
@@ -241,11 +239,9 @@ $user = User::factory()->create();
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> bb7e77c2 (.)
-'database' => 'saluteora_test'
 =======
-'database' => '<nome progetto>_test'
-'database' => '<nome progetto>_test'
->>>>>>> bf479cc (.)
+>>>>>>> c7a4727b (.)
+'database' => 'saluteora_test'
 
 // ✅ DOPO
 $userClass = XotData::make()->getUserClass();
