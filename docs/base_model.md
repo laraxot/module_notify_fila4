@@ -373,6 +373,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -735,6 +736,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> dceba960 (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -921,6 +924,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1159,6 +1163,9 @@ class NotificationTemplate extends BaseModel
 =======
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> dceba960 (.)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
@@ -1247,6 +1254,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1703,6 +1711,9 @@ class NotificationTemplate extends BaseModel
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti

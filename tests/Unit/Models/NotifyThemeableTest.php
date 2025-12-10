@@ -209,6 +209,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -367,10 +368,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -736,6 +740,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> dceba960 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
@@ -743,6 +749,7 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Modules\Notify\Models\NotifyThemeable;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1010,9 +1017,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> dceba960 (.)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1173,6 +1184,8 @@ use Tests\TestCase;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Tests\TestCase;
@@ -1180,6 +1193,7 @@ use Modules\Notify\Models\NotifyThemeable;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1901,6 +1915,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
 >>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -2193,6 +2209,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2607,6 +2624,10 @@ class NotifyThemeableTest extends TestCase
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 =======
 >>>>>>> c4bdacbf (.)
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+=======
+>>>>>>> dceba960 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2625,6 +2646,7 @@ class NotifyThemeableTest extends TestCase
             ->first();
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3264,6 +3286,8 @@ class NotifyThemeableTest extends TestCase
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
 
         $this->assertNotNull($found);
         $this->assertEquals($themeable->id, $found->id);
@@ -3748,6 +3772,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -3919,12 +3944,15 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> c4bdacbf (.)
 =======
+>>>>>>> dceba960 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4148,6 +4176,8 @@ class NotifyThemeableTest extends TestCase
 =======
 =======
 >>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
 
 
 
@@ -4155,6 +4185,7 @@ class NotifyThemeableTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4358,12 +4389,15 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4921,3 +4955,5 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 5fe4f466 (.)
 =======
 >>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)

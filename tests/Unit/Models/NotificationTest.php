@@ -176,6 +176,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -310,10 +311,13 @@ namespace Modules\Notify\Tests\Unit\Models;
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> dceba960 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +620,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> dceba960 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
@@ -623,6 +629,7 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Modules\Notify\Models\Notification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -841,9 +848,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> dceba960 (.)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -976,6 +987,8 @@ use Tests\TestCase;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Tests\TestCase;
@@ -983,6 +996,7 @@ use Modules\Notify\Models\Notification;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,6 +1592,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Notification;
 use Tests\TestCase;
 >>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
 
 class NotificationTest extends TestCase
 {
