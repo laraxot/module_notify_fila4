@@ -280,6 +280,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1619767d8 (.)
 =======
@@ -294,6 +295,8 @@
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 011072e4 (.)
 # Principi di Ereditarietà nelle Classi <nome progetto>
@@ -989,6 +992,7 @@
 # Principi di Ereditarietà nelle Classi <nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 22baa66d (rebase 210)
@@ -1570,6 +1574,8 @@
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 
 ## Regola Fondamentale: No Duplicate Declarations
 

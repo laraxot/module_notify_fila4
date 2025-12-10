@@ -298,6 +298,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
@@ -450,11 +451,18 @@
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ad5224fb (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,6 +523,8 @@
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
@@ -764,6 +774,7 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> d38aa9d2 (rebase 210)
@@ -956,6 +967,8 @@
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 ```
 
 Con il namespace corrispondente:

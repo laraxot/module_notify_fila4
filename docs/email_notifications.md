@@ -1024,6 +1024,7 @@ class NotificationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1142,6 +1143,7 @@ class NotificationDebugger
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 22baa66d (rebase 210)
 =======
@@ -1242,6 +1244,8 @@ class NotificationDebugger
 =======
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Mail](https://laravel.com/docs/mail) 
@@ -1341,6 +1345,7 @@ class NotificationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1377,6 +1382,8 @@ class NotificationDebugger
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
@@ -1689,6 +1696,7 @@ class NotificationDebugger
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
@@ -2429,3 +2437,5 @@ class NotificationDebugger
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 1c96b91fe (.)

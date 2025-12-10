@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,6 +266,8 @@ Durante la risoluzione:
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 # ✅ CORREZIONI PHPSTAN COMPLETATE - Modulo Notify
 
 ## 🎯 Obiettivo Raggiunto
@@ -422,6 +425,7 @@ I pattern di type safety implementati possono essere applicati a:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -494,3 +498,5 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 21a6fa9bc (.)
+=======
+>>>>>>> 1c96b91fe (.)

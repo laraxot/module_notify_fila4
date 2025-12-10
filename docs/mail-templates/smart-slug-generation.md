@@ -295,6 +295,7 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
 =======
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di , in particolare per la gestione dei template email.
@@ -346,6 +347,7 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -444,9 +446,12 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di , in particolare per la gestione dei template email.
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,6 +512,8 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
@@ -744,6 +751,7 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 =======
 Questo documento analizza un approccio avanzato per la generazione di slug da titoli nei form Filament, con particolare attenzione alla preservazione degli slug per i contenuti già pubblicati. Questa metodologia è particolarmente rilevante per il modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -934,6 +942,10 @@ Questo documento analizza un approccio avanzato per la generazione di slug da ti
 >>>>>>> 21a6fa9bc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 
 ## Concetto Base
 
@@ -1257,6 +1269,7 @@ Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilib
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 =======
 Per il modulo Notify di , questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
@@ -1308,6 +1321,7 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -1406,9 +1420,12 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 Per il modulo Notify di , questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,6 +1486,8 @@ Per il modulo Notify di <nome progetto>, questa soluzione rappresenta un equilib
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
@@ -1706,6 +1725,7 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 =======
 Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ottimale tra automazione e controllo, con particolare attenzione alla preservazione dei link esistenti.
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -1896,6 +1916,10 @@ Per il modulo Notify di SaluteOra, questa soluzione rappresenta un equilibrio ot
 >>>>>>> 21a6fa9bc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 
 ## Riferimenti
 

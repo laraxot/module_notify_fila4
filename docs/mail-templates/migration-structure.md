@@ -295,6 +295,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 =======
 - **File**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
@@ -447,11 +448,18 @@
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ad5224fb (.)
+=======
+- **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
 - **File**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 - **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 - **File**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,6 +520,8 @@
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
@@ -761,6 +771,7 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> d38aa9d2 (rebase 210)
@@ -953,6 +964,8 @@
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`
 

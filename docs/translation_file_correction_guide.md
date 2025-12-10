@@ -431,6 +431,7 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -443,6 +444,8 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
 =======
 =======
@@ -1138,6 +1141,7 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
 >>>>>>> bf479cc (.)
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 22baa66d (rebase 210)
@@ -1719,6 +1723,8 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di SaluteOra.
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 
 ## Passo 1: Analisi del File Esistente
 
@@ -5007,6 +5013,7 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -5333,6 +5340,7 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -6015,6 +6023,10 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 grep -r "nome_errato" /var/www/html/saluteora/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
@@ -6300,6 +6312,7 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -6400,6 +6413,8 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -6443,6 +6458,7 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 69fa7d37 (.)
@@ -6515,6 +6531,8 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 grep -r "nome_errato" /var/www/html/<nome progetto>/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
@@ -6560,6 +6578,7 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -6576,6 +6595,8 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> de02998b (.)
@@ -6781,6 +6802,7 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -7306,6 +7328,10 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 grep -r "nome_errato" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato

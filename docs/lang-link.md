@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Collegamento alle Traduzioni del Modulo Notify
 
 =======
@@ -209,6 +210,7 @@
 # Collegamento alle Traduzioni del Modulo Notify
 
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 # Collegamento alle Traduzioni del Modulo Notify
 
@@ -362,6 +364,8 @@
 
 >>>>>>> 54ad93c4 (rebase 210)
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/project_docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -372,6 +376,7 @@ Consulta la documentazione delle traduzioni:
 ## Collegamento Bidirezionale
 
 Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in questo modulo e la relativa sezione in [Lang](../../Lang/project_docs/).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -449,6 +454,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -634,6 +641,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 # Collegamento alle Traduzioni del Modulo Notify
 
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -769,6 +777,10 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -890,6 +902,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -930,6 +943,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -1021,6 +1035,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 * [lang-link.md](../../../Chart/project_docs/lang-link.md)
 * [lang-link.md](../../../Reporting/project_docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/project_docs/lang-link.md)
@@ -1035,6 +1051,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Activity/project_docs/lang-link.md)
 * [lang-link.md](../../../Patient/project_docs/lang-link.md)
 * [lang-link.md](../../../Cms/project_docs/lang-link.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1112,6 +1129,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1249,6 +1268,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8c8937e7 (rebase 210)
 =======
@@ -1361,6 +1381,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 * [lang-link.md](../../../Chart/docs/lang-link.md)
 * [lang-link.md](../../../Reporting/docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/docs/lang-link.md)
@@ -1376,6 +1398,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Patient/docs/lang-link.md)
 * [lang-link.md](../../../Cms/docs/lang-link.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1546,6 +1569,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 >>>>>>> 7a142b4f5 (.)
 =======
+>>>>>>> 1c96b91fe (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1585,6 +1610,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8c8937e7 (rebase 210)
 =======
@@ -1685,3 +1711,5 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)

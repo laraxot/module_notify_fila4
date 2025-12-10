@@ -414,6 +414,7 @@ Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Applicazione a <nome progetto>
 
 Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
@@ -540,11 +541,15 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1c96b91fe (.)
 ## Applicazione a SaluteOra
 
 Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 ## Applicazione a SaluteOra
 
 Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
@@ -688,6 +693,8 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 ## Applicazione a 
 
 Nel contesto di , tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
@@ -695,6 +702,7 @@ Nel contesto di , tutte le migrazioni che coinvolgono la conversione di campi es
 
 Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -755,6 +763,8 @@ Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversi
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 ## Applicazione a SaluteOra
@@ -1102,6 +1112,7 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 ## Applicazione a SaluteOra
 
@@ -1306,6 +1317,8 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 >>>>>>> 21a6fa9bc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 
 1. Le migrazioni per `mail_templates` e tabelle simili
 2. Campi multilingua che utilizzano il trait `HasTranslations`
@@ -1461,6 +1474,7 @@ grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
 =======
 grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
@@ -1613,11 +1627,18 @@ grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrat
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ad5224fb (.)
+=======
+grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
 grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
 grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
 grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1678,6 +1699,8 @@ grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
@@ -1927,6 +1950,7 @@ grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrat
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
 >>>>>>> d38aa9d2 (rebase 210)
@@ -2119,6 +2143,8 @@ grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrat
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.

@@ -259,6 +259,7 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -273,6 +274,8 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
 =======
 =======
@@ -1609,7 +1612,16 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 >>>>>>> d284d65 (.)
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+=======
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 
 ## Analisi della Situazione Attuale
 
@@ -2832,6 +2844,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3161,6 +3174,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -3843,6 +3857,10 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -4131,6 +4149,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -4231,6 +4250,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -4274,6 +4295,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 69fa7d37 (.)
@@ -4346,6 +4368,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -4394,6 +4418,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -4410,6 +4435,8 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> de02998b (.)
@@ -4615,6 +4642,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -5140,6 +5168,10 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette

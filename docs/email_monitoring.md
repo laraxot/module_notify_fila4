@@ -1223,6 +1223,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1456,6 +1457,7 @@ class MailMonitoringDebugger
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 =======
@@ -1657,6 +1659,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 1c96b91fe (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1842,6 +1846,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1915,6 +1920,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> e312314fa (.)
 =======
+>>>>>>> 1c96b91fe (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -2027,6 +2034,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 5aedc39c (rebase 210)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -2129,6 +2137,10 @@ class MailMonitoringDebugger
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -2225,6 +2237,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2261,6 +2274,8 @@ class MailMonitoringDebugger
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2509,6 +2524,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 =======
@@ -3125,3 +3141,5 @@ class MailMonitoringDebugger
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 1c96b91fe (.)

@@ -939,9 +939,20 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 =======
 # Configurazione Provider SMS per le Notifiche 
 
+<<<<<<< HEAD
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+<<<<<<< HEAD
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+=======
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di , con focus sui diversi provider e sulla loro configurazione.
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 
 ## Indice
 
@@ -1192,6 +1203,7 @@ VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 =======
 VONAGE_SMS_FROM=
@@ -1243,6 +1255,7 @@ VONAGE_SMS_FROM=SaluteOra
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -1341,9 +1354,12 @@ VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 VONAGE_SMS_FROM=
 VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1404,6 +1420,8 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 VONAGE_SMS_FROM=SaluteOra
@@ -1642,6 +1660,7 @@ VONAGE_SMS_FROM=SaluteOra
 =======
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -1833,6 +1852,10 @@ VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 21a6fa9bc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 ```
 
 ### Implementazione Notifica

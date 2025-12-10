@@ -937,9 +937,20 @@ Questo documento definisce le best practices per l'utilizzo di Enum e file di co
 =======
 # Utilizzo di Enum e Config 
 
+<<<<<<< HEAD
 Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema SaluteOra, con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+<<<<<<< HEAD
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+=======
+Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema , con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+Questo documento definisce le best practices per l'utilizzo di Enum e file di configurazione nel sistema <nome progetto>, con particolare attenzione alla gestione delle opzioni nei componenti Filament.
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 
 ## Problema: Hardcoding delle Opzioni
 
@@ -1230,6 +1241,7 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema <nome progetto> garantirà un codice più robusto e facile da mantenere.
 =======
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema  garantirà un codice più robusto e facile da mantenere.
@@ -1281,6 +1293,7 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -1379,9 +1392,12 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema  garantirà un codice più robusto e facile da mantenere.
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema <nome progetto> garantirà un codice più robusto e facile da mantenere.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1442,6 +1458,8 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
@@ -1567,6 +1585,7 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 L'utilizzo di Enum e file di configurazione migliora significativamente la manutenibilità, la flessibilità e la coerenza del codice. Adottare queste pratiche in tutto il sistema SaluteOra garantirà un codice più robusto e facile da mantenere.
 >>>>>>> d38aa9d2 (rebase 210)
@@ -1881,3 +1900,5 @@ L'utilizzo di Enum e file di configurazione migliora significativamente la manut
 >>>>>>> 21a6fa9bc (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)

@@ -303,6 +303,7 @@ Le interfacce sono organizzate in due livelli:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 =======
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
@@ -455,11 +456,18 @@ Le interfacce sono organizzate in due livelli:
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ad5224fb (.)
+=======
+   /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -520,6 +528,8 @@ Le interfacce sono organizzate in due livelli:
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
@@ -769,6 +779,7 @@ Le interfacce sono organizzate in due livelli:
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 >>>>>>> d38aa9d2 (rebase 210)
@@ -961,6 +972,8 @@ Le interfacce sono organizzate in due livelli:
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
    ```
 
 2. **Interfacce Specifiche per Canale**: Posizionate in sottodirectory dedicate
@@ -1110,6 +1123,7 @@ Le interfacce sono organizzate in due livelli:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 =======
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
@@ -1262,11 +1276,18 @@ Le interfacce sono organizzate in due livelli:
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ad5224fb (.)
+=======
+   /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
    /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1327,6 +1348,8 @@ Le interfacce sono organizzate in due livelli:
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
@@ -1576,6 +1599,7 @@ Le interfacce sono organizzate in due livelli:
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> d38aa9d2 (rebase 210)
@@ -1768,6 +1792,8 @@ Le interfacce sono organizzate in due livelli:
    /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
    ```
 
 ### Convenzioni di Naming

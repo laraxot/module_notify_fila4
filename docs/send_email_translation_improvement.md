@@ -914,7 +914,36 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 75179b85 (.)
 >>>>>>> 7aae79847 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+<<<<<<< HEAD
+cd /var/www/html/_bases/base_saluteora/laravel
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> bf479cc (.)
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 9777d1b3 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 207ac35e (.)
 =======

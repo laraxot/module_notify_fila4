@@ -188,6 +188,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -405,6 +406,7 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 =======
@@ -530,6 +532,8 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 1c96b91fe (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -850,6 +854,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -924,6 +929,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1011,6 +1018,7 @@ $decodedData = base64_decode($encodedData);
 =======
 >>>>>>> 5aedc39c (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -1083,6 +1091,11 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -1304,6 +1317,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1353,6 +1367,8 @@ private static function processArray(array $data): array
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2265,6 +2281,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 =======
@@ -2705,3 +2722,5 @@ private static function processArray(array $data): array
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 1c96b91fe (.)

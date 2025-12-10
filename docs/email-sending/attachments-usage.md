@@ -305,6 +305,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -457,11 +458,18 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ad5224fb (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,6 +530,8 @@ $attachments = [
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
@@ -771,6 +781,7 @@ $attachments = [
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> d38aa9d2 (rebase 210)
@@ -963,6 +974,8 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
@@ -1113,6 +1126,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
@@ -1265,11 +1279,18 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> 54ad93c4 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 6ad5224fb (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 1c96b91fe (.)
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/documents/terms.pdf',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1330,6 +1351,8 @@ $attachments = [
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
@@ -1579,6 +1602,7 @@ $attachments = [
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> d38aa9d2 (rebase 210)
@@ -1771,6 +1795,8 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],

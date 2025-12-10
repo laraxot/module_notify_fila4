@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -182,6 +183,7 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8c8937e7 (rebase 210)
 =======
@@ -275,6 +277,8 @@
 =======
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 # Utilizzo di PHPStan nel Progetto <nome progetto>
 
 ## Esecuzione di PHPStan
@@ -501,6 +505,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 =======
 * [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
@@ -700,6 +705,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 * [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 >>>>>>> 8c8937e7 (rebase 210)
@@ -845,6 +851,8 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 
 
 ### Versione Incoming
@@ -852,6 +860,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1022,6 +1031,8 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 >>>>>>> 7a142b4f5 (.)
 =======
+>>>>>>> 1c96b91fe (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1061,6 +1072,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8c8937e7 (rebase 210)
 =======
@@ -1161,3 +1173,5 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)

@@ -295,6 +295,7 @@ Il modello `MailTemplate` (`/var/www/html/<nome progetto>/laravel/Modules/Notify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modello `MailTemplate` (`/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 =======
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
@@ -347,6 +348,7 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -448,10 +450,13 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -512,6 +517,8 @@ Il modello `MailTemplate` (`../Modules/Notify/app/Models/MailTemplate.php`) è s
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 31f5d28f (.)
 =======
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
@@ -761,6 +768,7 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> d38aa9d2 (rebase 210)
@@ -953,6 +961,8 @@ Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/M
 Il modello `MailTemplate` (`/var/www/html/saluteora/laravel/Modules/Notify/app/Models/MailTemplate.php`) è stato aggiornato per supportare l'identificazione dei template tramite slug. Questa implementazione segue le migliori pratiche di Laravel e migliora l'usabilità del sistema di template email.
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 
 ## Modifiche Effettuate
 

@@ -86,6 +86,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -182,6 +183,7 @@
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 8c8937e7 (rebase 210)
 =======
@@ -275,6 +277,8 @@
 =======
 >>>>>>> eb62d6cf (rebase 210)
 >>>>>>> 7a142b4f5 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 # Template delle Notifiche
 
 ## Architettura
@@ -557,6 +561,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament](../../../project_docs/filament.md)
 - [Documentazione Media Library](../../../project_docs/media-library.md)
@@ -662,6 +667,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -680,6 +686,8 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 1c96b91fe (.)
 - [Documentazione Filament](../../../project_docs/filament.md)
 - [Documentazione Media Library](../../../project_docs/media-library.md)
 - [Documentazione Traduzioni](../../../project_docs/translations.md) 
@@ -688,6 +696,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 - [Documentazione Filament](../../../docs/filament.md)
 - [Documentazione Media Library](../../../docs/media-library.md)
 - [Documentazione Traduzioni](../../../docs/translations.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +882,8 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 1c96b91fe (.)
 >>>>>>> 909e45af (.)
 =======
 - [Documentazione Filament](../../../docs/filament.md)
@@ -924,6 +935,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 - [Documentazione Media Library](../../../docs/media-library.md)
 - [Documentazione Traduzioni](../../../docs/translations.md) 
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6e12a84b (rebase 210)
@@ -1096,3 +1108,7 @@ Il sistema di template delle notifiche è progettato seguendo i principi di:
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> 6e12a84b (rebase 210)
+>>>>>>> 1c96b91fe (.)
