@@ -541,6 +541,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1348,6 +1349,7 @@
 >>>>>>> 4df23e8b (rebase 210)
 =======
 >>>>>>> 43c0079b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 36ac4fc1 (.)
@@ -1887,6 +1889,8 @@
 =======
 >>>>>>> 4df23e8b (rebase 210)
 >>>>>>> 8e64ed49f (.)
+=======
+>>>>>>> 39a0b1e3f (.)
 <?php
 
 declare(strict_types=1);
@@ -3200,6 +3204,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3282,6 +3287,8 @@ declare(strict_types=1);
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> 8e64ed49f (.)
+=======
+>>>>>>> 39a0b1e3f (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -4328,6 +4335,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 4df23e8b (rebase 210)
 =======
 >>>>>>> 43c0079b (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> 7bac387 (.)
@@ -4841,6 +4849,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> 8e64ed49f (.)
+=======
+>>>>>>> 39a0b1e3f (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#ef3101' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
