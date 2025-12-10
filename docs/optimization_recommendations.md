@@ -115,6 +115,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> 75179b855 (.)
@@ -232,14 +233,19 @@
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 =======
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
 - **Email domains** hardcoded nei test
@@ -311,6 +317,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> 75179b855 (.)
@@ -428,14 +435,19 @@
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 - Riferimenti diretti a modelli SaluteOra
 =======
 - Riferimenti diretti a modelli <nome progetto>
 - Riferimenti diretti a modelli <nome progetto>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
 - Riferimenti diretti a modelli SaluteOra
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
@@ -498,6 +510,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> 75179b855 (.)
@@ -615,14 +628,19 @@
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
 4. **Documentazione base**: Creata guida riusabilità
@@ -694,6 +712,7 @@ $user = User::factory()->create();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'database' => '<nome progetto>_test'
 >>>>>>> 75179b855 (.)
@@ -811,14 +830,19 @@ $user = User::factory()->create();
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 'database' => 'saluteora_test'
 =======
 'database' => '<nome progetto>_test'
 'database' => '<nome progetto>_test'
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
 'database' => 'saluteora_test'
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 
 // ✅ DOPO
 $userClass = XotData::make()->getUserClass();

@@ -736,6 +736,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -754,6 +755,8 @@ return [
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 =======
 =======
@@ -1513,6 +1516,7 @@ return [
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cca10a64 (.)
 =======
@@ -2091,6 +2095,8 @@ return [
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
     ],
 ];
 ```
@@ -2849,6 +2855,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2871,6 +2878,8 @@ public function toTwilio($notifiable)
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
@@ -3788,6 +3797,7 @@ public function toTwilio($notifiable)
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> eb71492d (.)
 =======
+<<<<<<< HEAD
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> 31f5d28f (.)
@@ -3849,9 +3859,12 @@ public function toTwilio($notifiable)
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3917,6 +3930,8 @@ public function toTwilio($notifiable)
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 >>>>>>> 31f5d28f (.)
 =======
 =======
@@ -4144,6 +4159,7 @@ public function toTwilio($notifiable)
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> cca10a64 (.)
 =======
@@ -4678,6 +4694,8 @@ public function toTwilio($notifiable)
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
 }
 ```
 

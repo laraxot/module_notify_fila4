@@ -942,6 +942,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1083,6 +1084,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3ee54c5d (.)
 =======
@@ -1193,6 +1195,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 >>>>>>> e790eb33 (.)
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 - [Laravel Telescope](https://laravel.com/docs/telescope)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
@@ -1302,6 +1306,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1352,6 +1357,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Telescope](https://laravel.com/docs/telescope)
@@ -2085,6 +2092,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
 >>>>>>> cb5f23b0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -2496,6 +2504,11 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
 
 #### 8.5.4 Best Practices
 - [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
@@ -2998,6 +3011,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Security](https://laravel.com/docs/security)
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
@@ -3721,6 +3735,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Security](https://laravel.com/project_docs/security)
 >>>>>>> bf479cc (.)
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 - [Laravel Security](https://laravel.com/docs/security)
 >>>>>>> f9ec4f86 (.)
@@ -4125,6 +4140,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Security](https://laravel.com/docs/security)
 >>>>>>> cb5f23b0 (.)
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> a2f3c239e (.)
 - [PHP Security](https://phpsecurity.readthedocs.io)
 
 #### 8.5.6 Testing
@@ -4395,6 +4412,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -4573,6 +4591,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> eb71492d (.)
@@ -5015,6 +5034,10 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
@@ -5273,6 +5296,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -5490,6 +5514,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3ee54c5d (.)
@@ -5644,6 +5669,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 >>>>>>> e790eb33 (.)
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
@@ -5651,6 +5678,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Performance](https://laravel.com/project_docs/performance)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6181,6 +6209,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> cb5f23b0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -6504,6 +6533,11 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
 - [PHP Performance](https://www.php.net/manual/en/performance.php)
 - [Web Performance](https://web.dev/performance)
 
@@ -6824,6 +6858,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7583,8 +7618,16 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 =======
 >>>>>>> cb5f23b0 (.)
+=======
+>>>>>>> eb71492d (.)
 - [Laravel Monitoring](https://laravel.com/docs/monitoring)
+<<<<<<< HEAD
 >>>>>>> 8db6adf75 (.)
+=======
+=======
+- [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
+>>>>>>> bf479cc (.)
+>>>>>>> a2f3c239e (.)
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 >>>>>>> 4f042b88 (.)

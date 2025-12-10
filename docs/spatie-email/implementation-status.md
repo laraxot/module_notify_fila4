@@ -92,6 +92,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -138,6 +139,7 @@
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> eb71492d (.)
@@ -297,6 +299,10 @@
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
 # Stato Implementazione SpatieEmail
 
 Questo documento tiene traccia dello stato di implementazione delle email utilizzando il pacchetto Spatie per le email multilingua nel modulo Notify.
@@ -321,6 +327,7 @@ Questo documento tiene traccia dello stato di implementazione delle email utiliz
 <<<<<<< HEAD
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -723,6 +730,7 @@ Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/F
 Nel file `/var/www/html/base_<nome progetto>/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 Nel file `/var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> 4f3927d7 (.)
@@ -890,6 +898,8 @@ Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clust
 Nel file `/var/www/html/base_saluteora/laravel/Modules/Notify/app/Filament/Clusters/Test/Pages/SendSpatieEmail.php` è stato identificato un errore di sintassi:
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
 
 ```php
 // Errore di sintassi (manca ->)
@@ -1036,6 +1046,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1087,6 +1098,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -1174,6 +1187,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 0ebb7b01 (.)
 =======
@@ -1235,6 +1249,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 1. [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](../Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](../Lang/docs/translatable/implementazione-nel-progetto.md)
@@ -1297,6 +1313,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1323,6 +1340,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1602,6 +1621,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> 69fa7d37 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb71492d (.)
 =======
@@ -1685,10 +1705,15 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
 1. [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 2. [Gestione Traduzioni Mancanti](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/gestione-traduzioni-mancanti.md)
 3. [Implementazione nel Progetto](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/implementazione-nel-progetto.md)
 4. [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1756,6 +1781,8 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1841,6 +1868,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> eb71492d (.)
@@ -2023,6 +2051,10 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
 
 ## Timeline
 
@@ -2037,6 +2069,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2237,6 +2270,7 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 >>>>>>> fd1fcc4c (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4f3927d7 (.)
 =======
@@ -2352,3 +2386,5 @@ Potrebbero esserci altri modelli nel modulo Notify che utilizzano ancora la sint
 =======
 >>>>>>> fd1fcc4c (.)
 >>>>>>> d9e649ac3 (.)
+=======
+>>>>>>> a2f3c239e (.)

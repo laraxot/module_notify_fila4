@@ -357,6 +357,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -414,6 +415,8 @@ declare(strict_types=1);
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> eb71492d (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
@@ -1359,6 +1362,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
@@ -1690,6 +1694,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 677a6ab7 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> eb71492d (.)
@@ -1854,6 +1859,11 @@ declare(strict_types=1);
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 8ffdc1974 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     @foreach($this->record->variables as $key => $value)
                         <div class="p-2 bg-gray-50 rounded">
@@ -1862,6 +1872,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
                         </div>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2016,6 +2027,7 @@ declare(strict_types=1);
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2100,10 +2112,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 >>>>>>> 11ae5222 (.)
 >>>>>>> 62b0c9c (.)
 =======
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2174,6 +2189,8 @@ declare(strict_types=1);
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -2452,6 +2469,7 @@ declare(strict_types=1);
 >>>>>>> b1f2dd4c (.)
 =======
 >>>>>>> eb71492d (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f9ec4f86 (.)
 =======
@@ -2659,6 +2677,8 @@ declare(strict_types=1);
 =======
 >>>>>>> b1f2dd4c (.)
 >>>>>>> 2bc960928 (.)
+=======
+>>>>>>> a2f3c239e (.)
                         </div>
                     @endforeach
                 </div>

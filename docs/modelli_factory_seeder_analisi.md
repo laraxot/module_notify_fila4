@@ -320,6 +320,7 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### <nome progetto> Integration
 >>>>>>> 75179b855 (.)
@@ -437,14 +438,19 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 #### SaluteOra Integration
 =======
 #### <nome progetto> Integration
 #### <nome progetto> Integration
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
 #### SaluteOra Integration
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 - **Appointment Reminders**: Promemoria appuntamenti
 - **Report Notifications**: Notifiche nuovi referti
 - **Emergency Alerts**: Allerte mediche urgenti
@@ -551,6 +557,7 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> 75179b855 (.)
@@ -668,14 +675,19 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 =======
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 - [<nome progetto> Module](../../../docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
 - [User Module](../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
 - [Media Module](../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
 - [Lang Module](../../Lang/docs/modelli_factory_seeder_analisi.md) - Localizzazione

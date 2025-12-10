@@ -123,6 +123,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -591,6 +592,7 @@ Fino ad ora, abbiamo risolto la maggior parte degli errori di livello 10 in entr
 =======
 >>>>>>> 69fa7d37 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb71492d (.)
 =======
@@ -659,6 +661,10 @@ Fino ad ora, abbiamo risolto la maggior parte degli errori di livello 10 in entr
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+=======
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)
 # PHPStan Level 10 Fixes - Notify Module
 
 ## Overview
@@ -763,6 +769,7 @@ COMPOSER_DISABLE_XDEBUG_WARN=1 ./vendor/bin/phpstan analyse Modules/Notify --lev
 - ⚠️ Configuration-related errors remain
 - ⚠️ Configuration-related errors remain
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -934,6 +941,7 @@ COMPOSER_DISABLE_XDEBUG_WARN=1 ./vendor/bin/phpstan analyse Modules/Notify --lev
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fd1fcc4c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - ⚠️ Configuration-related errors remain
@@ -1171,3 +1179,8 @@ COMPOSER_DISABLE_XDEBUG_WARN=1 ./vendor/bin/phpstan analyse Modules/Notify --lev
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> d9e649ac3 (.)
+=======
+=======
+- ⚠️ Configuration-related errors remain
+>>>>>>> eb71492d (.)
+>>>>>>> a2f3c239e (.)

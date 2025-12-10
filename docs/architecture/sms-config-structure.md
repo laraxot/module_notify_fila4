@@ -166,6 +166,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', ''),
 >>>>>>> 75179b855 (.)
@@ -283,14 +284,19 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 =======
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -405,6 +411,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', ''),
 >>>>>>> 75179b855 (.)
@@ -522,14 +529,19 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> a2f3c239e (.)
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 =======
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 2dab69c8a (.)
+=======
+>>>>>>> a2f3c239e (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun
