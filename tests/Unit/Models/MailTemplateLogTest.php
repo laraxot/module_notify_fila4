@@ -1811,6 +1811,8 @@ use Tests\TestCase;
 =======
 >>>>>>> a070a65a5 (.)
 
+use function Safe\json_encode;
+
 class MailTemplateLogTest extends TestCase
 {
     use RefreshDatabase;

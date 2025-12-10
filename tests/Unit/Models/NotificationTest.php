@@ -1809,6 +1809,8 @@ use Tests\TestCase;
 =======
 >>>>>>> a070a65a5 (.)
 
+use function Safe\json_encode;
+
 class NotificationTest extends TestCase
 {
     use RefreshDatabase;
