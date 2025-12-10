@@ -4,13 +4,32 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Panel;
+use Filament\Schemas\Schema;
+use Filament\Forms\Components\TextInput;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Toggle;
@@ -22,6 +41,25 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+use Filament\Panel;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -36,6 +74,18 @@ use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification as FilamentNotification;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -43,6 +93,34 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
+
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendAwsEmailPage extends XotBasePage
+{
+<<<<<<< HEAD
+    public null|array $emailData = [];
+=======
+    public ?array $emailData = [];
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b85 (.)
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+>>>>>>> 7624f916 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
@@ -51,6 +129,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 class SendAwsEmailPage extends XotBasePage
 {
     public null|array $emailData = [];
+<<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
@@ -63,6 +142,35 @@ class SendAwsEmailPage extends XotBasePage
 
     public ?array $emailData = [];
     public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+>>>>>>> 7624f916 (.)
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
@@ -70,15 +178,116 @@ class SendAwsEmailPage extends XotBasePage
 class SendAwsEmailPage extends XotBasePage
 {
     public null|array $emailData = [];
+<<<<<<< HEAD
 
     public ?array $emailData = [];
     public null|array $emailData = [];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+
+    public ?array $emailData = [];
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+    protected static ?string $cluster = Test::class;
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public null|array $emailData = [];
+=======
+
+    public ?array $emailData = [];
+>>>>>>> a12f125f4a (.)
+=======
+    public null|array $emailData = [];
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 7624f916 (.)
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';
 
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
     protected static ?string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
     public null|array $emailData = [];
@@ -92,6 +301,29 @@ class SendAwsEmailPage extends XotBasePage
     protected static null|string $cluster = Test::class;
     protected static ?string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+    protected static ?string $cluster = Test::class;
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+    protected static null|string $cluster = Test::class;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 
     /**
      * Get the slug of the page
@@ -117,17 +349,37 @@ class SendAwsEmailPage extends XotBasePage
 
     protected function fillForms(): void
     {
+<<<<<<< HEAD
         $this->emailForm->fill();
         // $this->emailForm->fill();
         // Form data filled;
         $this->emailForm->fill();
         // $this->emailForm->fill();
         // Form data filled;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->emailForm->fill();
+=======
+<<<<<<< HEAD
+        // $this->emailForm->fill();
+        // Form data filled;
+=======
+=======
+>>>>>>> 75179b85 (.)
+        $this->emailForm->fill();
+=======
+        // $this->emailForm->fill();
+        // Form data filled;
+=======
+>>>>>>> 7624f916 (.)
         $this->emailForm->fill();
     }
 
     public function emailForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
@@ -157,23 +409,155 @@ class SendAwsEmailPage extends XotBasePage
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+        return $schema
+            ->components($this->getEmailFormSchema())
+            ->model($this->getUser())
+            ->statePath('emailData');
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+    }
+
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+<<<<<<< HEAD
+    public function emailForm(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> d09cb759 (.)
+=======
+        return $schema
+            ->components($this->getEmailFormSchema())
+            ->model($this->getUser())
+            ->statePath('emailData');
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 7624f916 (.)
     public function emailForm(Form $form): Form
     {
         return $form
             ->schema($this->getEmailFormSchema())
             ->model($this->getUser())
             ->statePath('emailData');
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 7624f916 (.)
     }
 
     public function emailForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
         return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+<<<<<<< HEAD
+>>>>>>> 7624f916 (.)
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\RichEditor|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle>
      */
     /** @phpstan-ignore-next-line return.type */
+<<<<<<< HEAD
     public function getEmailFormSchema(): array
     {
         return [
@@ -181,93 +565,426 @@ class SendAwsEmailPage extends XotBasePage
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 54220b28 (rebase 210)
+    public function getEmailFormSchema(): array
+    {
+        return [
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'to' => TextInput::make('to')
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+<<<<<<< HEAD
+>>>>>>> 7624f916 (.)
     /**
      * @return array<string, mixed>
      */
     /** @phpstan-ignore-next-line return.type */
+<<<<<<< HEAD
+=======
+=======
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+>>>>>>> 7624f916 (.)
     public function getEmailFormSchema(): array
     {
         return [
             TextInput::make('to')
+<<<<<<< HEAD
             TextInput::make('to')
             TextInput::make('to')
             TextInput::make('to')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+            TextInput::make('to')
+=======
+            Forms\Components\TextInput::make('to')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+            TextInput::make('to')
+>>>>>>> 2cbbc069 (.)
+=======
+            TextInput::make('to')
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 7624f916 (.)
     public function getEmailFormSchema(): array
     {
         return [
             TextInput::make('to')
+<<<<<<< HEAD
 >>>>>>> 5d933abf (.)
     public function getEmailFormSchema(): array
     {
         return [
             'to' => TextInput::make('to')
+=======
+>>>>>>> a335025b (rebase 210)
+=======
+    public function getEmailFormSchema(): array
+    {
+        return [
+            TextInput::make('to')
+>>>>>>> e00d798d (.)
+>>>>>>> 7624f916 (.)
                 ->label(__('notify::email.form.to.label'))
                 ->email()
                 ->required()
                 ->helperText(__('notify::email.form.to.helper')),
+<<<<<<< HEAD
             'subject' => TextInput::make('subject')
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'subject' => TextInput::make('subject')
+>>>>>>> 7624f916 (.)
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             'body_html' => RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 7624f916 (.)
             Forms\Components\TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             Forms\Components\RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+>>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+>>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+>>>>>>> e00d798d (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+>>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
+=======
+>>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 7624f916 (.)
             TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             RichEditor::make('body_html')
+<<<<<<< HEAD
             TextInput::make('subject')
 >>>>>>> 5d933abf (.)
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             'body_html' => RichEditor::make('body_html')
+=======
+>>>>>>> a335025b (rebase 210)
+=======
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+>>>>>>> e00d798d (.)
+>>>>>>> 7624f916 (.)
                 ->label(__('notify::email.form.body_html.label'))
                 ->required()
                 ->fileAttachmentsDisk('public')
                 ->fileAttachmentsDirectory('uploads/mail-attachments')
                 ->helperText(__('notify::email.form.body_html.helper')),
+<<<<<<< HEAD
             'template' => Select::make('template')
 <<<<<<< HEAD
 =======
@@ -295,6 +1012,120 @@ class SendAwsEmailPage extends XotBasePage
             Select::make('template')
             Select::make('template')
 >>>>>>> 5d933abf (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'template' => Select::make('template')
+=======
+            Select::make('template')
+>>>>>>> 75179b85 (.)
+=======
+            Select::make('template')
+=======
+            Select::make('template')
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+            Select::make('template')
+=======
+            Forms\Components\Select::make('template')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> 3f537838 (.)
+=======
+            Select::make('template')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> 3f537838 (.)
+=======
+            Select::make('template')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> 3f537838 (.)
+=======
+            Select::make('template')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> 3f537838 (.)
+=======
+            Select::make('template')
+>>>>>>> 2cbbc069 (.)
+=======
+            Select::make('template')
+>>>>>>> 7c1c276f (rebase 210)
+=======
+            Select::make('template')
+>>>>>>> a335025b (rebase 210)
+=======
+            Select::make('template')
+>>>>>>> e00d798d (.)
+=======
+            Select::make('template')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Select::make('template')
+>>>>>>> 3f537838 (.)
+=======
+            Select::make('template')
+>>>>>>> 2cbbc069 (.)
+=======
+            Select::make('template')
+>>>>>>> 7c1c276f (rebase 210)
+=======
+            Select::make('template')
+>>>>>>> a335025b (rebase 210)
+=======
+            Select::make('template')
+>>>>>>> e00d798d (.)
+>>>>>>> 7624f916 (.)
                 ->label(__('notify::email.form.template.label'))
                 ->options([
                     'aws-default' => 'AWS Default',
@@ -305,6 +1136,7 @@ class SendAwsEmailPage extends XotBasePage
                 ->default('aws-default')
                 ->required()
                 ->helperText(__('notify::email.form.template.helper')),
+<<<<<<< HEAD
             'add_attachments' => Toggle::make('add_attachments')
 <<<<<<< HEAD
 =======
@@ -332,6 +1164,120 @@ class SendAwsEmailPage extends XotBasePage
             Toggle::make('add_attachments')
             Toggle::make('add_attachments')
 >>>>>>> 5d933abf (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'add_attachments' => Toggle::make('add_attachments')
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 75179b85 (.)
+=======
+            Toggle::make('add_attachments')
+=======
+            Toggle::make('add_attachments')
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+            Toggle::make('add_attachments')
+=======
+            Forms\Components\Toggle::make('add_attachments')
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 3f537838 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 3f537838 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 3f537838 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 3f537838 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 2cbbc069 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 7c1c276f (rebase 210)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> a335025b (rebase 210)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> e00d798d (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 3f537838 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 2cbbc069 (.)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> 7c1c276f (rebase 210)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> a335025b (rebase 210)
+=======
+            Toggle::make('add_attachments')
+>>>>>>> e00d798d (.)
+>>>>>>> 7624f916 (.)
                 ->label(__('notify::email.form.add_attachments.label'))
                 ->default(false)
                 ->helperText(__('notify::email.form.add_attachments.helper')),
@@ -340,11 +1286,34 @@ class SendAwsEmailPage extends XotBasePage
 
     public function sendEmail(): void
     {
+<<<<<<< HEAD
         $data = $this->emailForm->getState();
         // $data = $this->emailForm->getState();
         $data = $this->data;
         $data = $this->emailForm->getState();
         $data = $this->emailForm->getState();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $data = $this->emailForm->getState();
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+        // $data = $this->emailForm->getState();
+        $data = $this->data;
+=======
+        $data = $this->emailForm->getState();
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+        $data = $this->emailForm->getState();
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';
@@ -385,12 +1354,92 @@ class SendAwsEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
         if (!($user instanceof Model)) {
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
         if (!($user instanceof Model)) {
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+        if (!($user instanceof Model)) {
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+        if (! ($user instanceof Model)) {
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+        if (! ($user instanceof Model)) {
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );

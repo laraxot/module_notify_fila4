@@ -7,7 +7,26 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Symfony\Component\Console\Helper\Table;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 7624f916 (.)
 
 class AnalyzeTranslationFiles extends Command
 {
@@ -40,10 +59,25 @@ class AnalyzeTranslationFiles extends Command
 
         // Collect all files and their keys
         foreach ($languages as $langDir) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7624f916 (.)
             /** @var string $langDirPath */
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
             $files = File::files($langDirPath);
+<<<<<<< HEAD
             $lang = basename($langDir);
             $files = File::files($langDir);
             $lang = basename($langDir);
@@ -64,21 +98,98 @@ class AnalyzeTranslationFiles extends Command
             $files = File::files($langDir);
             $lang = basename($langDir);
             $files = File::files($langDir);
+=======
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 5fd545e4 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 54220b28 (rebase 210)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+            $lang = basename((string) $langDir);
+            $files = File::files((string) $langDir);
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 75179b85 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 5fd545e4 (.)
+=======
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
                 $filePath = $file->getPathname();
 
                 // Skip non-PHP files
+<<<<<<< HEAD
                 if (! str_ends_with($filename, '.php')) {
                 if (!str_ends_with($filename, '.php')) {
                 if (! str_ends_with($filename, '.php')) {
                 if (!str_ends_with($filename, '.php')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+                if (! str_ends_with($filename, '.php')) {
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 75179b85 (.)
+=======
+                if (! str_ends_with($filename, '.php')) {
+=======
+                if (!str_ends_with($filename, '.php')) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
                     continue;
                 }
 
                 $translations = require $filePath;
 
+<<<<<<< HEAD
                 if (! is_array($translations)) {
                     $this->warn("File {$lang}/{$filename} does not return an array.");
 
@@ -86,17 +197,69 @@ class AnalyzeTranslationFiles extends Command
                     $this->warn("File {$lang}/{$filename} does not return an array.");
                 if (!is_array($translations)) {
                     $this->warn("File {$lang}/{$filename} does not return an array.");
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+                if (! is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+=======
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
                     continue;
                 }
 
                 $allFiles["{$lang}/{$filename}"] = $this->flattenArray($translations);
 
                 // Collect all unique keys
+<<<<<<< HEAD
                 foreach (array_keys($this->flattenArray($translations)) as $key) {
                 $flattenedKeys = $this->flattenArray($translations);
                 foreach (array_keys($flattenedKeys) as $key) {
                 foreach (array_keys($this->flattenArray($translations)) as $key) {
                 foreach (array_keys($this->flattenArray($translations)) as $key) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+                $flattenedKeys = $this->flattenArray($translations);
+                foreach (array_keys($flattenedKeys) as $key) {
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
                     $allKeys[$key] = true;
                 }
             }
@@ -148,16 +311,65 @@ class AnalyzeTranslationFiles extends Command
         $patterns = [];
 
         foreach ($allFiles as $file => $keys) {
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!is_array($keys)) {
+                continue;
+            }
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+            $topLevelKeys = [];
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    $parts = explode('.', (string) $key);
+                    $topLevelKeys[$parts[0]] = true;
+                }
+=======
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 =======
             $topLevelKeys = [];
 
             foreach (array_keys($keys) as $key) {
                 $parts = explode('.', (string) $key);
                 $topLevelKeys[$parts[0]] = true;
+<<<<<<< HEAD
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
                     $parts = explode('.', (string) $key);
@@ -172,16 +384,46 @@ class AnalyzeTranslationFiles extends Command
             foreach (array_keys($keys) as $key) {
                 $parts = explode('.', (string) $key);
                 $topLevelKeys[$parts[0]] = true;
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             }
 
             $pattern = implode(',', array_keys($topLevelKeys));
             $patterns[$pattern][] = $file;
         }
 
+<<<<<<< HEAD
         $this->info('Found '.count($patterns).' different structure patterns:');
         $this->info('Found ' . count($patterns) . ' different structure patterns:');
         $this->info('Found '.count($patterns).' different structure patterns:');
         $this->info('Found ' . count($patterns) . ' different structure patterns:');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+        $this->info('Found '.count($patterns).' different structure patterns:');
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Found '.count($patterns).' different structure patterns:');
+=======
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Pattern', 'Files']);
@@ -213,27 +455,91 @@ class AnalyzeTranslationFiles extends Command
         $table->setHeaders($headers);
 
         foreach ($allKeys as $key) {
+<<<<<<< HEAD
             Assert::string($key);
             $row = [$key];
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::string($key);
+            $row = [$key];
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7624f916 (.)
             foreach (array_keys($allFiles) as $file) {
                 /** @var array<string, mixed>|null $fileData */
                 $fileData = $allFiles[$file] ?? null;
                 $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             $row = [$key];
+=======
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+            $row = [$key];
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             // Type narrowing: assicura che $key sia string|int
             if (! is_string($key) && ! is_int($key)) {
                 continue;
             }
+<<<<<<< HEAD
 
             foreach (array_keys($allFiles) as $file) {
                 $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+=======
+>>>>>>> c8b1c8bf (.)
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+            $row = [$key];
+
+<<<<<<< HEAD
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 5fd545e4 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+>>>>>>> 7624f916 (.)
             $row = [$key];
 
             foreach (array_keys($allFiles) as $file) {
                 $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+<<<<<<< HEAD
             $row = [$key];
 
             foreach (array_keys($allFiles) as $file) {
@@ -244,6 +550,30 @@ class AnalyzeTranslationFiles extends Command
             foreach (array_keys($allFiles) as $file) {
                 $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
 >>>>>>> 5d933abf (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 54220b28 (rebase 210)
+=======
+                    continue;
+                }
+                $row[] = isset($fileData[$key]) ? '✓' : '✗';
+=======
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             }
 
             $table->addRow($row);
@@ -264,6 +594,7 @@ class AnalyzeTranslationFiles extends Command
         $resourceFiles = [];
 
         foreach (array_keys($allFiles) as $file) {
+<<<<<<< HEAD
             if (str_contains($file, '/send_')) {
             if (strpos($file, '/send_') !== false) {
             if (str_contains($file, '/send_')) {
@@ -336,24 +667,604 @@ class AnalyzeTranslationFiles extends Command
             if (str_contains($file, '/send_')) {
             if (str_contains($file, '/send_')) {
             if (str_contains($file, '/send_')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+            if (str_contains($file, '/send_')) {
+=======
+            if (strpos($file, '/send_') !== false) {
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 2effe245 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 2effe245 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (str_contains($file, '/send_')) {
+=======
+            if (strpos($file, '/send_') !== false) {
+>>>>>>> a12f125f4a (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> b93ef594b4 (.)
+=======
+            if (strpos($file, '/send_') !== false) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 58816034 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e4a7796 (.)
+=======
+>>>>>>> 3b4c9907 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 9d84f153 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 116df547 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+=======
+            if (str_contains($file, '/send_')) {
+>>>>>>> 58816034 (.)
+>>>>>>> 7624f916 (.)
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
             }
         }
 
+<<<<<<< HEAD
         $this->info('Files with send_ prefix ('.count($sendFiles).'):');
         $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
         $this->info('Files with send_ prefix ('.count($sendFiles).'):');
         $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+=======
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
         foreach ($sendFiles as $file) {
             $this->line(" - {$file}");
         }
 
+<<<<<<< HEAD
         $this->info('Resource files ('.count($resourceFiles).'):');
         $this->info('Resource files (' . count($resourceFiles) . '):');
         $this->info('Resource files ('.count($resourceFiles).'):');
         $this->info('Resource files (' . count($resourceFiles) . '):');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+        $this->info('Resource files ('.count($resourceFiles).'):');
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Resource files ('.count($resourceFiles).'):');
+=======
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
         foreach ($resourceFiles as $file) {
             $this->line(" - {$file}");
         }
@@ -380,6 +1291,7 @@ class AnalyzeTranslationFiles extends Command
         $navigationStructures = [];
 
         foreach ($allFiles as $file => $keys) {
+<<<<<<< HEAD
             if (!is_array($keys)) {
                 continue;
             }
@@ -393,11 +1305,136 @@ class AnalyzeTranslationFiles extends Command
                 if (str_starts_with((string) $key, 'navigation.')) {
                 if (strpos((string) $key, 'navigation.') === 0) {
                 if (str_starts_with((string) $key, 'navigation.')) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!is_array($keys)) {
+                continue;
+            }
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b85 (.)
+            $navigationKeys = [];
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $navigationKeys = [];
+
+            foreach (array_keys($keys) as $key) {
+<<<<<<< HEAD
+                if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
                     if (str_starts_with((string) $key, 'navigation.')) {
                         $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                     }
+<<<<<<< HEAD
             foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
                 if (str_starts_with((string) $key, 'navigation.')) {
@@ -423,29 +1460,268 @@ class AnalyzeTranslationFiles extends Command
                 if (str_starts_with((string) $key, 'navigation.')) {
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
+=======
+            foreach (array_keys($keys) as $key) {
+<<<<<<< HEAD
+                if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                if (str_starts_with((string) $key, 'navigation.')) {
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> a12f125f4a (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> b93ef594b4 (.)
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2941b0bd (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 4e4a7796 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 503981fd (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9d84f153 (.)
+=======
+=======
+                if (strpos((string) $key, 'navigation.') === 0) {
+>>>>>>> b19cd40 (.)
+>>>>>>> 8e5817bc (.)
+=======
+                if (str_starts_with((string) $key, 'navigation.')) {
+>>>>>>> 4e2ebfb (.)
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 116df547 (.)
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+=======
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> d45a0226 (.)
+=======
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
+>>>>>>> d45a0226 (.)
+=======
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> d45a0226 (.)
+>>>>>>> 7624f916 (.)
                 }
             }
 
             if (! empty($navigationKeys)) {
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+            $navigationKeys = [];
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                 }
             }
 
+<<<<<<< HEAD
             if (!empty($navigationKeys)) {
             if (! empty($navigationKeys)) {
             if (!empty($navigationKeys)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!empty($navigationKeys)) {
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+            if (! empty($navigationKeys)) {
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+            if (!empty($navigationKeys)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
                 sort($navigationKeys);
                 $structure = implode(',', $navigationKeys);
                 $navigationStructures[$structure][] = $file;
             }
         }
 
+<<<<<<< HEAD
         $this->info('Found '.count($navigationStructures).' different navigation structures:');
         $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
         $this->info('Found '.count($navigationStructures).' different navigation structures:');
         $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 75179b85 (.)
+=======
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+=======
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+>>>>>>> 99ff506 (.)
+>>>>>>> f1c9518b (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 
         $table = new Table($this->output);
         $table->setHeaders(['Structure', 'Files']);

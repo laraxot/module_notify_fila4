@@ -3,7 +3,66 @@
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../INDEX.md)
 - [README Modulo Notify](../README.md)
+<<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> fbed41ac (.)
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+=======
+=======
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+- [Documentazione Generale <main module>](../../../../../docs/README.md)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+>>>>>>> 7624f916 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
@@ -32,7 +91,66 @@
 - [Canale Telegram](../TELEGRAM_CHANNEL.md) - Documentazione del canale Telegram
 
 ## Note Importanti
+<<<<<<< HEAD
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+- <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> f963d2c0 (.)
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> f963d2c0 (.)
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> f963d2c0 (.)
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> fbed41ac (.)
+- <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+=======
+- <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+>>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
+- <main module> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> 7bac387 (.)
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+>>>>>>> 7624f916 (.)
 - Il sistema si basa su Queueable Actions (spatie/laravel-queueable-action) e non su Service Pattern
 - Le azioni specifiche per provider devono implementare l'interfaccia comune corrispondente
 - I DTO standardizzati vengono utilizzati come ponte tra il sistema e i provider specifici

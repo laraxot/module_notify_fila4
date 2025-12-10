@@ -1,4 +1,36 @@
+<<<<<<< HEAD
 ### 1. Invio Email Semplice
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+### 1. Invio Email Semplice
+=======
+=======
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 4f3927d7 (.)
+=======
+>>>>>>> 6a44db8a (.)
+>>>>>>> 7624f916 (.)
 # Modulo Notify - Documentazione
 
 > **Versione**: 1.1  
@@ -43,6 +75,10 @@ php artisan module:seed Notify
 php artisan serve
 # → http://localhost:8000/admin
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 7624f916 (.)
 
 ```php
 use Modules\Notify\Emails\SpatieEmail;
@@ -242,6 +278,272 @@ php artisan test --filter=RecordNotificationTest
 
 ---
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+# Modulo Notify - Analisi Completa
+=======
+# 📧 **Notify Module** - Sistema Avanzato di Notifiche
+
+[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+[![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+[![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
+[![Translation Ready](https://img.shields.io/badge/Translation-IT%20%7C%20EN%20%7C%20DE-green.svg)](https://laravel.com/docs/localization)
+[![Email Templates](https://img.shields.io/badge/Email-Templates%20Ready-orange.svg)](https://laravel.com/docs/mail)
+[![SMS Integration](https://img.shields.io/badge/SMS-Netfun%20%7C%20Twilio-yellow.svg)](https://www.netfun.it/)
+[![Push Notifications](https://img.shields.io/badge/Push-Firebase%20%7C%20APNS-purple.svg)](https://firebase.google.com/docs/cloud-messaging)
+[![Quality Score](https://img.shields.io/badge/Quality%20Score-96%25-brightgreen.svg)](https://github.com/laraxot/notify-module)
+
+> **🚀 Modulo Notify**: Sistema completo per gestione notifiche email, SMS e push con template personalizzabili, code asincrone e analytics avanzati.
+
+## 📋 **Panoramica**
+
+Il modulo **Notify** è il motore di comunicazione dell'applicazione, fornendo:
+
+- 📧 **Email Avanzate** - Template personalizzabili con WYSIWYG editor
+- 📱 **SMS Integration** - Supporto Netfun, Twilio e altri provider
+- 🔔 **Push Notifications** - Firebase, APNS e web push
+- 📊 **Analytics Completi** - Tracking apertura, click e conversioni
+- ⚡ **Code Asincrone** - Invio massivo con gestione code
+- 🎨 **Template System** - Sistema template modulare e riutilizzabile
+
+## ⚡ **Funzionalità Core**
+
+### 📧 **Email Management**
+```php
+// Invio email con template personalizzato
+$notification = new AppointmentConfirmationNotification($appointment);
+$user->notify($notification);
+
+// Email con template WYSIWYG
+MailTemplate::create([
+    'slug' => 'appointment-confirmation',
+    'subject' => 'Conferma Appuntamento',
+    'body' => '<h1>Il tuo appuntamento è confermato</h1>',
+    'variables' => ['name', 'date', 'time'],
+]);
+```
+
+### 📱 **SMS Integration**
+```php
+// Invio SMS con provider Netfun
+$smsChannel = new NetfunChannel();
+$smsChannel->send($user->phone, 'Il tuo appuntamento è confermato');
+
+// SMS con template e variabili
+SmsTemplate::create([
+    'name' => 'appointment-reminder',
+    'body' => 'Ricorda: appuntamento domani alle {time}',
+    'variables' => ['time', 'location'],
+]);
+```
+
+### 🔔 **Push Notifications**
+```php
+// Push notification con Firebase
+$pushChannel = new FirebaseChannel();
+$pushChannel->send($user, [
+    'title' => 'Nuovo Appuntamento',
+    'body' => 'Hai un nuovo appuntamento domani',
+    'data' => ['appointment_id' => 123],
+]);
+```
+
+## 🎯 **Stato Qualità - Gennaio 2025**
+
+### ✅ **PHPStan Level 9 Compliance**
+- **File Core Certificati**: 8/8 file core raggiungono Level 9
+- **Type Safety**: 100% sui servizi principali
+- **Runtime Safety**: 100% con error handling robusto
+- **Template Types**: Risolti tutti i problemi Collection generics
+
+### ✅ **Translation Standards Compliance**
+- **Helper Text**: 100% corretti (vuoti quando uguali alla chiave)
+- **Localizzazione**: 100% valori tradotti appropriatamente
+- **Sintassi**: 100% sintassi moderna `[]` e `declare(strict_types=1)`
+- **Struttura**: 100% struttura espansa completa
+
+### 📊 **Metriche Performance**
+- **Email Delivery Rate**: 99.8%
+- **SMS Delivery Rate**: 99.5%
+- **Push Delivery Rate**: 98.9%
+- **Queue Processing**: < 5 secondi per batch
+- **Template Rendering**: < 100ms per template
+
+## 🚀 **Quick Start**
+
+### 📦 **Installazione**
+```bash
+# Abilitare il modulo
+php artisan module:enable Notify
+
+# Eseguire le migrazioni
+php artisan migrate
+
+# Pubblicare le configurazioni
+php artisan vendor:publish --tag=notify-config
+
+# Configurare provider SMS
+php artisan notify:configure-sms
+```
+
+### ⚙️ **Configurazione**
+```php
+// config/notify.php
+return [
+    'providers' => [
+        'email' => [
+            'driver' => 'smtp',
+            'host' => env('MAIL_HOST'),
+            'port' => env('MAIL_PORT'),
+            'username' => env('MAIL_USERNAME'),
+            'password' => env('MAIL_PASSWORD'),
+        ],
+        'sms' => [
+            'driver' => 'netfun',
+            'api_key' => env('NETFUN_API_KEY'),
+            'sender' => env('SMS_SENDER'),
+        ],
+        'push' => [
+            'driver' => 'firebase',
+            'server_key' => env('FIREBASE_SERVER_KEY'),
+        ],
+    ],
+    
+    'queue' => [
+        'connection' => 'redis',
+        'queue' => 'notifications',
+=======
+## 🛠️ Troubleshooting
+
+### Email Non Arriva
+
+**Checklist:**
+- [ ] Configurazione SMTP corretta (`.env`)
+- [ ] Template email esiste nel database
+- [ ] Destinatario valido
+- [ ] Allegati corretti (path esiste o data non vuoto)
+- [ ] Log errori (`storage/logs/laravel.log`)
+
+**Debug:**
+```bash
+php artisan tinker
+>>> Mail::raw('Test', fn($m) => $m->to('test@example.com'));
+>>> Mail::failures();
+```
+
+### Allegato Non Arriva
+
+**Cause comuni:**
+- Array allegati malformato
+- MIME type errato
+- Contenuto binario corrotto
+- File path non esistente
+
+**Test:**
+```php
+// Verifica formato allegato
+$attachments = [
+    [
+        'data' => $content,  // DEVE essere presente
+        'as' => 'file.pdf',  // DEVE essere stringa
+        'mime' => 'application/pdf', // DEVE essere stringa
+    ],
+];
+```
+
+---
+
+## 📊 Performance
+
+### Ottimizzazioni Applicate
+
+1. **Lazy Template Loading** - Template caricati on-demand
+2. **Queue Support** - Notifiche in coda per performance
+3. **Binary Attachments** - No file I/O per allegati dinamici
+4. **Cache Templates** - Template cachati in produzione
+
+### Monitoring
+
+```php
+use Illuminate\Support\Facades\Log;
+
+Log::channel('email')->info('Email sent', [
+    'to' => $recipient,
+    'template' => $slug,
+    'attachments_count' => count($attachments),
+]);
+```
+
+---
+
+## 🔐 Sicurezza
+
+### Controlli Implementati
+
+- ✅ **Email Validation** - Validazione indirizzi email (Webmozart Assert)
+- ✅ **MIME Type Validation** - Validazione tipi file
+- ✅ **File Existence Check** - Controllo esistenza file path
+- ✅ **Input Sanitization** - Sanitizzazione input utente
+- ✅ **Rate Limiting** - Throttle su invii massivi
+
+---
+
+## 📝 Changelog
+
+### v2.1.0 (2025-01-22)
+- ✨ Supporto allegati binari (data field)
+- ✅ PHPStan Level 10 compliance
+- 📚 Documentazione completa aggiornata
+- 🐛 Fix tipizzazione SpatieEmail
+- 🐛 Fix validazione RecordNotification
+
+### v2.0.0
+- Integrazione Spatie Mail Templates
+- Multi-canale support
+- Template database
+
+---
+
+## 👥 Contributors
+
+- **Team Laraxot** - Core implementation
+- **Xot Module** - PDF generation support
+
+---
+
+**Ultimo aggiornamento:** 2025-01-22  
+**Versione:** 2.1.0  
+**Stato:** ✅ Production Ready  
+**PHPStan Level:** 10
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+# Modulo Notify - Analisi Completa
+=======
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> 7624f916 (.)
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -476,6 +778,11 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 
 ---
 
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 7624f916 (.)
 ### 🏆 **Achievements**
 
 - **🏅 PHPStan Level 9**: File core certificati ✅
@@ -501,11 +808,34 @@ Notification::route('mail', 'to@example.com')->notify($notify);
 **🐛 PHPStan Level 9**: File core certificati ✅  
 **🌐 Translation Standards**: File traduzione certificati ✅  
 **🚀 Performance**: 96/100 score
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+>>>>>>> 7624f916 (.)
 **Ultimo aggiornamento**: Novembre 2025 (PSR-4 fixes)  
 **Versione**: 1.1  
 **Stato**: PSR-4 compliant, test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base  
 **Changelog**: [CHANGELOG.md](./CHANGELOG.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7624f916 (.)
 ## 🔗 Collegamenti
 
 ### Moduli Correlati
@@ -678,8 +1008,71 @@ Log::channel('email')->info('Email sent', [
 **Versione:** 2.1.0  
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
+<<<<<<< HEAD
 # Modulo Notify - Analisi Completa
 # 📧 **Notify Module** - Sistema Avanzato di Notifiche
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> a612126 (.)
+<<<<<<< HEAD
+>>>>>>> 36321fcb (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> da89aab (.)
+=======
+>>>>>>> 65a883d (.)
+=======
+>>>>>>> 01afecf (.)
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 6ba141fc (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+>>>>>>> f47ea0f (.)
+<<<<<<< HEAD
+>>>>>>> fd1fcc4c (.)
+=======
+=======
+>>>>>>> fc29e26 (.)
+>>>>>>> 4f3927d7 (.)
+# Modulo Notify - Analisi Completa
+=======
+# 📧 **Notify Module** - Sistema Avanzato di Notifiche
+>>>>>>> 0232891 (.)
+>>>>>>> 7624f916 (.)
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
@@ -1034,6 +1427,15 @@ php artisan notify:test-push
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 7624f916 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1321,10 +1723,102 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 **Ultimo aggiornamento**: Dicembre 2024  
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+=======
+>>>>>>> f963d2c (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 7bac387 (.)
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 7bac387 (.)
+=======
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> fdb24863 (rebase 210)
+>>>>>>> 7bac387 (.)
+=======
+>>>>>>> bd22fd4 (.)
+=======
+>>>>>>> a612126 (.)
+<<<<<<< HEAD
+>>>>>>> 36321fcb (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> 4760417 (.)
+=======
+>>>>>>> da89aab (.)
+=======
+>>>>>>> 61cfa35 (.)
+=======
+>>>>>>> 65a883d (.)
+=======
+>>>>>>> c69af64 (.)
+=======
+>>>>>>> 01afecf (.)
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 9ed014c (.)
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 9ed014c (.)
+=======
+>>>>>>> f47ea0f (.)
+>>>>>>> fd1fcc4c (.)
+=======
+>>>>>>> 9ed014c (.)
+=======
+>>>>>>> f47ea0f (.)
+=======
+>>>>>>> fc29e26 (.)
+<<<<<<< HEAD
+>>>>>>> 4f3927d7 (.)
+=======
+=======
+>>>>>>> 7624f916 (.)
 ### 🏆 **Achievements**
 
 - **🏅 PHPStan Level 9**: File core certificati ✅
@@ -1350,3 +1844,16 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 **🐛 PHPStan Level 9**: File core certificati ✅  
 **🌐 Translation Standards**: File traduzione certificati ✅  
 **🚀 Performance**: 96/100 score
+<<<<<<< HEAD
+=======
+>>>>>>> 0232891 (.)
+>>>>>>> 6a44db8a (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b8 (.)
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 7624f916 (.)

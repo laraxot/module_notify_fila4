@@ -1,8 +1,13 @@
 {
     "name": "Notify",
     "alias": "notify",
+<<<<<<< HEAD
     "description": "Sistema di notifiche multicanale per comunicazioni utente via email, push e messaggi interni",
     "keywords": ["notifications", "email", "push", "messages", "alerts"],
+=======
+    "description": "",
+    "keywords": [],
+>>>>>>> 7624f916 (.)
     "priority": 0,
     "providers": [
         "Modules\\Notify\\Providers\\NotifyServiceProvider",

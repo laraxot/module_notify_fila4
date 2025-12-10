@@ -4,9 +4,78 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 use BackedEnum;
 use Filament\Panel;
 use Filament\Schemas\Schema;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use BackedEnum;
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+use Filament\Panel;
+use Filament\Schemas\Schema;
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
@@ -16,10 +85,24 @@ use Filament\Forms\Components\TextInput;
 use Filament\Notifications\Notification as FilamentNotification;
 use Filament\Panel;
 use Filament\Schemas\Schema;
+<<<<<<< HEAD
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Panel;
 use Filament\Schemas\Schema;
+=======
+=======
+use Filament\Panel;
+use Filament\Schemas\Schema;
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+use Filament\Panel;
+use Filament\Schemas\Schema;
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Exception;
@@ -28,20 +111,67 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
 use Filament\Notifications\Notification as FilamentNotification;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
+<<<<<<< HEAD
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Datas\SmsData;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Notify\Datas\SmsData;
+=======
+<<<<<<< HEAD
+=======
+use Modules\Notify\Datas\SmsData;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+use Modules\Notify\Datas\SmsData;
+>>>>>>> 75179b85 (.)
+=======
+=======
+use Modules\Notify\Datas\SmsData;
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Modules\Notify\Enums\SmsDriverEnum;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Notify\Notifications\SmsNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+=======
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -49,17 +179,53 @@ use Webmozart\Assert\Assert;
  */
 class SendSmsPage extends XotBasePage
 {
+<<<<<<< HEAD
     public null|array $smsData = [];
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+=======
+<<<<<<< HEAD
+    public null|array $smsData = [];
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> 75179b85 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> 75179b85 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> 75179b85 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 7624f916 (.)
     public ?array $smsData = [];
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
+<<<<<<< HEAD
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
+=======
+>>>>>>> 510e6e8b (.)
+    protected string $view = 'notify::filament.pages.send-sms';
+<<<<<<< HEAD
+    protected static null|string $cluster = Test::class;
+=======
+
+    protected static ?string $cluster = Test::class;
+=======
+=======
+>>>>>>> 75179b85 (.)
+>>>>>>> 7624f916 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
@@ -72,14 +238,82 @@ class SendSmsPage extends XotBasePage
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 7624f916 (.)
     public ?array $smsData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected string $view = 'notify::filament.pages.send-sms';
     protected static ?string $cluster = Test::class;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> 7624f916 (.)
     public null|array $smsData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> 7624f916 (.)
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Actions\Action;
@@ -109,6 +343,17 @@ class SendSmsPage extends XotBasePage
     protected static ?string $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected static string $view = 'notify::filament.pages.send-sms';
     protected static ?string $cluster = Test::class;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> 7624f916 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 
@@ -121,10 +366,43 @@ class SendSmsPage extends XotBasePage
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected string $view = 'notify::filament.pages.send-sms';
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+=======
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 7624f916 (.)
     public ?array $smsData = [];
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
     protected string $view = 'notify::filament.pages.send-sms';
     protected static ?string $cluster = Test::class;
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+>>>>>>> 7624f916 (.)
 
     /**
      * Get the slug of the page
@@ -153,16 +431,48 @@ class SendSmsPage extends XotBasePage
         $this->smsForm->fill();
     }
 
+<<<<<<< HEAD
     public function smsForm(Schema $schema): Schema
     {
         return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function smsForm(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+>>>>>>> 7624f916 (.)
     }
 
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select>
      */
+<<<<<<< HEAD
         return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
     }
 
@@ -184,6 +494,85 @@ class SendSmsPage extends XotBasePage
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Select>
      */
+=======
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+    public function smsForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
     public function getSmsFormSchema(): array
     {
         return [
@@ -217,10 +606,21 @@ class SendSmsPage extends XotBasePage
              * 'driver' => $data['driver']
              * ]));
              */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7624f916 (.)
             $template_slug = $data['template_slug'];
             Assert::string($template_slug, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
             $recordNotification = new RecordNotification($user, $template_slug);
             $notify = $recordNotification->mergeData($data);
+<<<<<<< HEAD
             Assert::string($template_slug = $data['template_slug'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
             Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
             $notify = new RecordNotification($user, $template_slug);
@@ -232,29 +632,135 @@ class SendSmsPage extends XotBasePage
             $notify = new RecordNotification($user, $template_slug);
             $notify->mergeData($data);
             Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+            Assert::string($template_slug = $data['template_slug'], __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+            $notify = new RecordNotification($user, $template_slug);
+            $notify->mergeData($data);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            $notify = new RecordNotification($user, $template_slug);
+            $notify->mergeData($data);
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            $notify = new RecordNotification($user, $template_slug);
+            $notify->mergeData($data);
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+            $notify = new RecordNotification($user, $template_slug);
+            $notify->mergeData($data);
+>>>>>>> 75179b85 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+
+            Notification::route('sms', $data['to'])
+<<<<<<< HEAD
+=======
+            Assert::string($template_slug = $data['template_slug'], __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             $notify = new RecordNotification($user, $template_slug);
             $notify->mergeData($data);
 
             Notification::route('sms', $data['to'])
+<<<<<<< HEAD
             $notify = new RecordNotification($user, $template_slug);
             $notify->mergeData($data);
 
             Notification::route('sms', $data['to'])
+=======
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+>>>>>>> 7624f916 (.)
                 //->locale('it')
                 //->notify(new RecordNotification($user,'due'))
                 ->notify($notify);
 
             
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+>>>>>>> 7624f916 (.)
                 // ->locale('it')
                 // ->notify(new RecordNotification($user,'due'))
                 ->notify($notify);
 
+<<<<<<< HEAD
+=======
+=======
+                //->locale('it')
+                //->notify(new RecordNotification($user,'due'))
+                ->notify($notify);
+
+            
+
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             FilamentNotification::make()
                 ->success()
                 ->title('SMS inviato con successo')
                 ->send();
         } catch (Exception $e) {
+<<<<<<< HEAD
         } catch (Exception $e) {
 
         } catch (\Exception $e) {
@@ -262,6 +768,48 @@ class SendSmsPage extends XotBasePage
             // Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
             //Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
             //Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+        } catch (Exception $e) {
+=======
+
+        } catch (\Exception $e) {
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+            //Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+            // Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
+=======
+            //Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+            //Log::error('Errore nell\'invio SMS: ' . $e->getMessage());
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
 
             FilamentNotification::make()
                 ->danger()
@@ -293,12 +841,92 @@ class SendSmsPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
         if (!($user instanceof Model)) {
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
         if (!($user instanceof Model)) {
         if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+        if (!($user instanceof Model)) {
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+        if (! ($user instanceof Model)) {
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+        if (! ($user instanceof Model)) {
+=======
+=======
+>>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
+        if (!($user instanceof Model)) {
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+>>>>>>> 7624f916 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

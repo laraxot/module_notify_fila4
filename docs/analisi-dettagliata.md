@@ -1,3 +1,157 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 7624f916 (.)
 # Analisi Dettagliata del Modulo Notify
 
 ## 1. Analisi delle Soluzioni di Template Email
@@ -381,7 +535,259 @@ namespace Modules\Notify\Filament\Resources;
 
 class TemplateResource extends Resource
 {
+<<<<<<< HEAD
     public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 6608a1a0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 23cbbaf5 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 909e45af (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> bb7e77c2 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> b99af5a8 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f3086887 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 3d462363 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 6e12a84b (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 545977c8 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 69fa7d37 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 31f5d28f (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> ee18dd92 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 6608a1a0 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 66453ace (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 23cbbaf5 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 909e45af (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> bb7e77c2 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36321fcb (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> b99af5a8 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f3086887 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fdb24863 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 3d462363 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> eb62d6cf (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 6e12a84b (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 545977c8 (rebase 210)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 69fa7d37 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> c8b1c8bf (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 7624f916 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -604,9 +1010,439 @@ class TemplatePreview extends Component
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> f963d2c0 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> f963d2c0 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> f963d2c0 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> f963d2c0 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> ee18dd92 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 66453ace (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 2a97406c (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 4f042b88 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 36321fcb (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 712617d3 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 36ac4fc1 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> fbed41ac (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> c8b1c8bf (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 9cf0dc90 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 75179b85 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> f963d2c0 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 31f5d28f (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> ee18dd92 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 66453ace (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 23cbbaf5 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 2a97406c (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 909e45af (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 4f042b88 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> bb7e77c2 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 36321fcb (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> b99af5a8 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 712617d3 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> fdb24863 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 3d462363 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> eb62d6cf (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 6e12a84b (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 545977c8 (rebase 210)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 36ac4fc1 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> fbed41ac (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+>>>>>>> c8b1c8bf (.)
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 7624f916 (.)
 - [Stripo Documentation](https://stripo.email/templates/)
 - [Beefree Documentation](https://beefree.io/templates)
 - [Unlayer Documentation](https://unlayer.com/)
 - [Mailersend Documentation](https://www.mailersend.com/)
 - [Mailjet Documentation](https://www.mailjet.com/) 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 66453ace (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 36321fcb (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> fdb24863 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> eb62d6cf (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 7624f916 (.)
