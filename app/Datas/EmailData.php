@@ -3145,6 +3145,7 @@ class EmailData extends Data
             $this->body = strip_tags($this->body_html);
         }
 
+<<<<<<< HEAD
         $email = new MimeEmail()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3230,6 +3231,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3257,10 +3259,14 @@ class EmailData extends Data
 =======
 =======
 >>>>>>> 31f5d28f (.)
+=======
+=======
+>>>>>>> 367c6ceb (.)
         $email = new MimeEmail();
         $email = $email->from($this->getFrom());
         $email = $email->to($this->to);
         $email = $email->subject(strip_tags($this->subject))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3897,6 +3903,9 @@ class EmailData extends Data
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 0db165c (.)
+>>>>>>> 367c6ceb (.)
             ->html($this->body_html)
             ->text($this->body);
 
