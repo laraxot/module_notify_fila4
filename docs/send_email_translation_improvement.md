@@ -1219,7 +1219,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> eea68ec9 (.)
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
-cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 4e2ebfb (.)
 <<<<<<< HEAD
