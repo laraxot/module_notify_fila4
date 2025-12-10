@@ -474,6 +474,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1199,6 +1200,7 @@
 =======
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 227ade66 (.)
 =======
@@ -1749,6 +1751,8 @@
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 731b801a8 (.)
 <?php
 
 declare(strict_types=1);
@@ -1757,6 +1761,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3797,10 +3802,14 @@ declare(strict_types=1);
 =======
 >>>>>>> 75b03dc9 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 731b801a8 (.)
 =======
 <tr>
 >>>>>>> 518c702 (.)
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 227ade66 (.)
 =======
@@ -3950,6 +3959,8 @@ declare(strict_types=1);
 >>>>>>> 7f1ff51b1 (.)
 =======
 >>>>>>> a553ae8a3 (.)
+=======
+>>>>>>> 731b801a8 (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -3961,6 +3972,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4587,6 +4599,8 @@ declare(strict_types=1);
 =======
 >>>>>>> a553ae8a3 (.)
 =======
+>>>>>>> 731b801a8 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -4928,6 +4942,7 @@ declare(strict_types=1);
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -4954,6 +4969,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 36321fcb (.)
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 731b801a8 (.)
 					<div class="article-content" align="left">
 =======
 =======
@@ -4961,6 +4978,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 <<<<<<< HEAD
 >>>>>>> 518c702 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4992,6 +5010,8 @@ declare(strict_types=1);
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 731b801a8 (.)
 >>>>>>> f963d2c0 (.)
 =======
 					<div class="article-content" align="left">
@@ -6216,6 +6236,7 @@ declare(strict_types=1);
 >>>>>>> 75b03dc9 (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> 227ade66 (.)
@@ -7042,3 +7063,5 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 75b03dc9 (.)
 >>>>>>> a553ae8a3 (.)
+=======
+>>>>>>> 731b801a8 (.)

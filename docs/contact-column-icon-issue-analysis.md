@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +167,7 @@
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
@@ -257,6 +259,10 @@
 >>>>>>> 70175d0c4 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
 # ContactColumn Icon Issue - Analisi e Risoluzione
 
 ## 🚨 PROBLEMA IDENTIFICATO
@@ -419,6 +425,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il sistema di icone di Filament 4.x.
 =======
 La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il sistema di icone di Filament 3.x.
@@ -739,6 +746,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 =======
 La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il sistema di icone di Filament 3.x.
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il sistema di icone di Filament 4.x.
@@ -1009,6 +1017,11 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il sistema di icone di Filament 4.x.
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
 
 ### **Sintassi Attuale (ERRATA)**
 ```blade
@@ -1167,6 +1180,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### **Sintassi Corretta per Filament 4.x**
 =======
 ### **Sintassi Corretta per Filament 3.x**
@@ -1487,6 +1501,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 =======
 ### **Sintassi Corretta per Filament 3.x**
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ### **Sintassi Corretta per Filament 4.x**
@@ -1757,6 +1772,11 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+### **Sintassi Corretta per Filament 4.x**
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
 ```blade
 {{-- ✅ CORRETTO: Sintassi Filament per icone Heroicons --}}
 <x-filament::icon 
@@ -1966,6 +1986,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Nativo Filament 4.x
 =======
 - ✅ Nativo Filament 3.x
@@ -2286,6 +2307,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 =======
 - ✅ Nativo Filament 3.x
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - ✅ Nativo Filament 4.x
@@ -2556,6 +2578,11 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+- ✅ Nativo Filament 4.x
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
 - ✅ Supporto completo Heroicons
 - ✅ Gestione automatica dei path
 - ✅ Caching integrato
@@ -2761,6 +2788,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **Compatibilità** | ❌ Non garantita | ✅ Filament 4.x native |
 =======
 | **Compatibilità** | ❌ Non garantita | ✅ Filament 3.x native |
@@ -3081,6 +3109,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 =======
 | **Compatibilità** | ❌ Non garantita | ✅ Filament 3.x native |
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 | **Compatibilità** | ❌ Non garantita | ✅ Filament 4.x native |
@@ -3351,6 +3380,11 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+| **Compatibilità** | ❌ Non garantita | ✅ Filament 4.x native |
+>>>>>>> 712617d3 (.)
+>>>>>>> 731b801a8 (.)
 
 ---
 
@@ -3358,6 +3392,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 **Priorità**: 🔴 ALTA (Funzionalità core non funzionante)  
 **Tempo Stimato Fix**: 5 minuti  
 **Rischio**: 🟢 BASSO (Modifica isolata)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3597,6 +3632,8 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 =======
 >>>>>>> 47bbf2b1c (.)
 =======
+>>>>>>> 731b801a8 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -3614,6 +3651,7 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
@@ -3637,3 +3675,5 @@ La sintassi `@svg()` utilizzata nella view Blade non è compatibile con il siste
 =======
 >>>>>>> b99af5a8 (.)
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 731b801a8 (.)
