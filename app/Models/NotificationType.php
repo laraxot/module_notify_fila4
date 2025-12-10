@@ -175,6 +175,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -272,6 +273,10 @@ declare(strict_types=1);
 
 =======
 >>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 =======
 
@@ -303,8 +308,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -370,6 +378,7 @@ declare(strict_types=1);
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2941b0bd (.)
@@ -772,6 +781,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
@@ -791,7 +802,10 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 =======
 namespace Modules\Notify\Models;
@@ -804,9 +818,12 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationType query()
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
  * @mixin IdeHelperNotificationType
  * @mixin \Eloquent
  */

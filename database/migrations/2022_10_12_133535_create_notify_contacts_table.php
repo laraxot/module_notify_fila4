@@ -102,6 +102,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -132,6 +133,8 @@ return new class extends XotBaseMigration
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -306,6 +309,11 @@ return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 =======
 >>>>>>> d09cb759 (.)
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 =======
 return new class() extends XotBaseMigration {
@@ -360,8 +368,11 @@ return new class () extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 return new class() extends XotBaseMigration {
@@ -417,6 +428,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
@@ -876,6 +888,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 
     /**
      * Run the migrations.
@@ -966,6 +980,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1003,6 +1018,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -1047,8 +1064,11 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1197,6 +1217,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1231,6 +1252,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -1292,6 +1315,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
                 $table->string('token')->nullable();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
             }
             $this->updateTimestamps(
                 table: $table,
@@ -1300,6 +1327,7 @@ return new class() extends XotBaseMigration {
         });
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1431,6 +1459,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
@@ -1455,6 +1484,10 @@ return new class() extends XotBaseMigration {
 =======
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -1472,8 +1505,11 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1535,6 +1571,7 @@ return new class() extends XotBaseMigration {
 =======
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
@@ -1551,6 +1588,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->increments('id');
@@ -1599,12 +1640,15 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> b207a9b1a (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1644,6 +1688,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
 =======
@@ -1668,6 +1713,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> a12f125f4a (.)
 =======
             }
@@ -1694,8 +1743,11 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1870,6 +1922,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1907,6 +1960,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
     }
 };
 =======

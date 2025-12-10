@@ -8,6 +8,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,7 +178,15 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
+=======
+<<<<<<< HEAD
+use Modules\Xot\Actions\Factory\GetFactoryAction;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -440,6 +449,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -584,11 +594,26 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 8dc1f2ed6 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
+<<<<<<< HEAD
+=======
+=======
+     * @return \Illuminate\Database\Eloquent\Factories\Factory<static>
+     */
+    protected static function newFactory()
+    {
+        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 <<<<<<< HEAD
 =======
@@ -783,6 +808,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -910,6 +936,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -961,8 +989,11 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1017,6 +1048,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1361,6 +1393,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -1502,6 +1536,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1629,6 +1664,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -1680,8 +1717,11 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1736,6 +1776,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -2080,6 +2121,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

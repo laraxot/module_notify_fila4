@@ -1149,6 +1149,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1293,6 +1294,7 @@ class MailMonitoringDebugger
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1457,6 +1459,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> a404ea71 (.)
 >>>>>>> c4282a934 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1610,6 +1614,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1619,6 +1624,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> c4282a934 (.)
 =======
+>>>>>>> 8dc1f2ed6 (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1637,6 +1644,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 7325acf3 (.)
@@ -1773,6 +1781,8 @@ class MailMonitoringDebugger
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -1853,10 +1863,13 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> e2f1a4045 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -1955,6 +1968,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -2558,3 +2572,5 @@ class MailMonitoringDebugger
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 4bec160e6 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)

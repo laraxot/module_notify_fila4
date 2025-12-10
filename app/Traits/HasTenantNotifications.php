@@ -103,6 +103,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -117,6 +118,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -219,6 +222,10 @@ trait HasTenantNotifications
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
 =======
 >>>>>>> d09cb759 (.)
+=======
+        return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 =======
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
@@ -256,8 +263,11 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
@@ -448,6 +458,7 @@ trait HasTenantNotifications
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -626,6 +637,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
     }
 
     /**
@@ -718,6 +731,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -732,6 +746,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -834,6 +850,10 @@ trait HasTenantNotifications
         return $this->notifications()->whereNull('read_at');
 =======
 >>>>>>> d09cb759 (.)
+=======
+        return $this->notifications()->whereNull('read_at');
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 =======
         return $this->notifications()->whereNull('read_at');
@@ -871,8 +891,11 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
         return $this->notifications()->whereNull('read_at');
@@ -1063,6 +1086,7 @@ trait HasTenantNotifications
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1241,6 +1265,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
     }
 
     /**
@@ -1340,6 +1366,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1442,6 +1469,10 @@ trait HasTenantNotifications
         return $this->notifications()->whereNotNull('read_at');
 =======
 >>>>>>> d09cb759 (.)
+=======
+        return $this->notifications()->whereNotNull('read_at');
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 =======
         return $this->notifications()->whereNotNull('read_at');
@@ -1648,6 +1679,7 @@ trait HasTenantNotifications
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1805,6 +1837,7 @@ trait HasTenantNotifications
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1847,6 +1880,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
     }
 
     /**
@@ -2150,6 +2185,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2175,10 +2211,16 @@ trait HasTenantNotifications
 =======
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 >>>>>>> b207a9b1a (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
     public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2258,7 +2300,12 @@ trait HasTenantNotifications
 =======
 =======
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 >>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
     public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
@@ -2311,7 +2358,10 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -2361,9 +2411,13 @@ trait HasTenantNotifications
 =======
 >>>>>>> 011072e4 (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> 4689a827 (.)
+=======
     public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2379,6 +2433,8 @@ trait HasTenantNotifications
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2408,9 +2464,12 @@ trait HasTenantNotifications
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public function scopeForTenant(Builder $query, ?string $tenantId = null): Builder
@@ -2418,6 +2477,7 @@ trait HasTenantNotifications
         $tenantId = $tenantId ?? $this->getTenantId();
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2457,6 +2517,8 @@ trait HasTenantNotifications
 =======
 >>>>>>> d45a0226 (.)
 =======
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
 =======
@@ -2575,6 +2637,7 @@ trait HasTenantNotifications
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -2880,6 +2943,8 @@ trait HasTenantNotifications
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -2939,6 +3004,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2953,6 +3019,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3033,6 +3101,10 @@ trait HasTenantNotifications
     protected function getTenantId(): null|string
 =======
 >>>>>>> d09cb759 (.)
+=======
+    protected function getTenantId(): null|string
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 =======
     protected function getTenantId(): null|string
@@ -3073,8 +3145,11 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
     protected function getTenantId(): null|string
@@ -3137,6 +3212,7 @@ trait HasTenantNotifications
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
     protected function getTenantId(): null|string
 >>>>>>> 2941b0bd (.)
@@ -3243,6 +3319,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
     {
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);
@@ -3478,6 +3556,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3492,6 +3571,8 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3800,6 +3881,10 @@ trait HasTenantNotifications
 }
 =======
 >>>>>>> d09cb759 (.)
+=======
+}
+=======
+>>>>>>> 4689a827 (.)
 <<<<<<< HEAD
 =======
 }
@@ -3855,8 +3940,11 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -3985,6 +4073,7 @@ trait HasTenantNotifications
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 2941b0bd (.)
@@ -4162,3 +4251,5 @@ trait HasTenantNotifications
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)

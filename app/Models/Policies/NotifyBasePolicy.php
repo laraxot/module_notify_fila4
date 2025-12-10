@@ -5,6 +5,31 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models\Policies;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Modules\User\Models\Policies\UserBasePolicy;
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> a12f125f4a (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> b93ef594b4 (.)
+=======
+use Illuminate\Support\Str;
+use Modules\Xot\Datas\XotData;
+use Modules\User\Models\Permission;
+use Modules\Xot\Contracts\UserContract;
+use Illuminate\Auth\Access\HandlesAuthorization;
+>>>>>>> d284d65 (.)
 use Modules\User\Models\Policies\UserBasePolicy;
 
 <<<<<<< HEAD
@@ -83,7 +108,9 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> 207ac35e (.)
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
+<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107,6 +134,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -219,6 +248,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -233,6 +263,10 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 =======
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
     
 }
 >>>>>>> origin/develop
@@ -246,8 +280,11 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -624,6 +661,7 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -794,3 +832,5 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)

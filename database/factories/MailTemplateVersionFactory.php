@@ -147,6 +147,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -175,6 +176,7 @@ declare(strict_types=1);
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
@@ -220,6 +222,10 @@ declare(strict_types=1);
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -546,6 +552,28 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\MailTemplateVersion;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\MailTemplateVersion;
+=======
+namespace Modules\Notify\Database\Factories;
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
 =======
@@ -573,7 +601,15 @@ class MailTemplateVersionFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
+<<<<<<< HEAD
     protected $model = MailTemplateVersion::class;
+=======
+<<<<<<< HEAD
+    protected $model = MailTemplateVersion::class;
+=======
+    protected $model = \Modules\Notify\Models\MailTemplateVersion::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -585,6 +621,7 @@ class MailTemplateVersionFactory extends Factory
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,6 +784,8 @@ class MailTemplateVersionFactory extends Factory
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 4689a827 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -798,8 +837,11 @@ class MailTemplateVersionFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -854,6 +896,7 @@ class MailTemplateVersionFactory extends Factory
 >>>>>>> 161887a2 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2941b0bd (.)
 =======
@@ -1034,3 +1077,5 @@ class MailTemplateVersionFactory extends Factory
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)

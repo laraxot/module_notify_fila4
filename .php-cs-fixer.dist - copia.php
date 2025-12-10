@@ -253,6 +253,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -436,6 +437,11 @@ declare(strict_types=1);
 
 
 >>>>>>> d09cb759 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 4689a827 (.)
 =======
 <<<<<<< HEAD
 declare(strict_types=1);
@@ -661,10 +667,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -673,6 +682,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> f2e64178 (.)
@@ -741,6 +751,8 @@ declare(strict_types=1);
 =======
 >>>>>>> bd804d67 (.)
 =======
+=======
+>>>>>>> 8dc1f2ed6 (.)
 declare(strict_types=1);
 
 
@@ -784,8 +796,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -813,6 +828,7 @@ declare(strict_types=1);
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
 =======
@@ -885,6 +901,10 @@ declare(strict_types=1);
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 4689a827 (.)
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -927,8 +947,11 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 >>>>>>> d09cb759 (.)
 =======
 declare(strict_types=1);
@@ -2847,6 +2870,7 @@ declare(strict_types=1);
 >>>>>>> 0f81dc21 (.)
 =======
 >>>>>>> 4689a827 (.)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -3167,6 +3191,8 @@ declare(strict_types=1);
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> ce64082e3 (.)
+=======
+>>>>>>> 8dc1f2ed6 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
