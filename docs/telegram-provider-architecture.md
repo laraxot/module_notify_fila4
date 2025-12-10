@@ -142,6 +142,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Architettura Telegram Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
@@ -582,11 +583,15 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f957fb24b (.)
 =======
 # Architettura Telegram Provider per SaluteOra
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 # Architettura Telegram Provider per SaluteOra
 
@@ -965,6 +970,8 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -1114,6 +1121,7 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -1646,6 +1654,7 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 1442e291 (rebase 210)
@@ -1714,6 +1723,11 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 ├── app/
 │   ├── Actions/
 │   │   └── Telegram/

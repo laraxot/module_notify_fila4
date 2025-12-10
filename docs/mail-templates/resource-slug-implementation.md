@@ -266,6 +266,7 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
@@ -553,6 +554,7 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
@@ -851,6 +853,11 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ## Implementazione nel Form Schema
 
@@ -1026,6 +1033,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -1313,6 +1321,7 @@ public static function getFormSchema(): array
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ## Conformità con gli Standard SaluteOra
@@ -1611,6 +1620,11 @@ public static function getFormSchema(): array
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+## Conformità con gli Standard SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 

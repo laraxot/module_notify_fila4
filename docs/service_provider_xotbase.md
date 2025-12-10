@@ -465,6 +465,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/service-provider-best-practices.md)
 =======
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/service-provider-best-practices.md)
@@ -701,6 +702,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/service-provider-best-practices.md)
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/service-provider-best-practices.md)
@@ -1457,6 +1459,11 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+- [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/service-provider-best-practices.md)
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ---
 

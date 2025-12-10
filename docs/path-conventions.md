@@ -270,6 +270,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -311,6 +312,8 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -594,6 +597,7 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
 =======
@@ -652,6 +656,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -955,6 +963,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -995,6 +1004,8 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
 >>>>>>> 75179b85 (.)
@@ -1249,6 +1260,7 @@
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -1494,6 +1506,8 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 
 ## Namespace vs Directory
 
@@ -1511,6 +1525,7 @@
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2031,10 +2046,14 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f957fb24b (.)
 =======
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
@@ -2366,6 +2385,8 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`

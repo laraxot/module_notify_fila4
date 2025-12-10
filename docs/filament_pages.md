@@ -445,6 +445,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -553,6 +554,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 116df547 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
@@ -955,6 +957,10 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 - [Architettura Filament](../../../../docs/architecture/filament.md)
 - [Gestione Pagine](../../../../docs/architecture/pages.md)
 
@@ -964,6 +970,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 - [XotBaseEditRecord](../../Xot/docs/filament-pages.md#XotBaseEditRecord)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1961,6 +1968,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
 =======
@@ -2255,6 +2263,10 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 - [NotificationTemplateResource](./filament-resources.md)
 
 ## Note Importanti
@@ -2266,6 +2278,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 5. I namespace seguono le convenzioni standard 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2961,6 +2974,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
 >>>>>>> laraxot/develop
@@ -3034,3 +3048,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)

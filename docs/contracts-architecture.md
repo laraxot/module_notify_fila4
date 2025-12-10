@@ -271,6 +271,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -312,6 +313,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
@@ -1212,6 +1215,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -1552,6 +1556,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 ```
 
 ### 2. Namespace Unificati per le Interfacce
@@ -1728,6 +1734,7 @@ SendSmsInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -2260,6 +2267,7 @@ SendSmsInterface
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 1442e291 (rebase 210)
@@ -2328,6 +2336,11 @@ SendSmsInterface
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 ├── app/
 │   ├── Actions/
 │   │   ├── Email/

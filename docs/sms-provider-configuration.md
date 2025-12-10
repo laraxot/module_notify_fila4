@@ -274,6 +274,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 =======
     'from' => env('SMS_FROM', ''),
@@ -561,6 +562,7 @@ return [
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     'from' => env('SMS_FROM', 'SaluteOra'),
@@ -861,6 +863,11 @@ return [
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+    'from' => env('SMS_FROM', 'SaluteOra'),
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
@@ -1011,6 +1018,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
             'sender' => env('NETFUN_SENDER', ''),
@@ -1298,6 +1306,7 @@ return [
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
@@ -1598,6 +1607,11 @@ return [
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+            'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
         'twilio' => [
@@ -1805,6 +1819,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 =======
 SMS_FROM=
@@ -2092,6 +2107,7 @@ SMS_FROM=SaluteOra
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 SMS_FROM=SaluteOra
@@ -2392,6 +2408,11 @@ SMS_FROM=SaluteOra
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+SMS_FROM=SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 SMS_RETRY_ATTEMPTS=3
 SMS_RETRY_DELAY=60
 
@@ -2533,6 +2554,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 =======
 NETFUN_SENDER=
@@ -2820,6 +2842,7 @@ NETFUN_SENDER=SaluteOra
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 NETFUN_SENDER=SaluteOra
@@ -3120,6 +3143,11 @@ NETFUN_SENDER=SaluteOra
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+NETFUN_SENDER=SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Twilio

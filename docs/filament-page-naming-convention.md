@@ -317,6 +317,7 @@ find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
@@ -849,6 +850,7 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | 
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
 >>>>>>> 1442e291 (rebase 210)
@@ -917,6 +919,11 @@ find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | 
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+find /var/www/html/saluteora/laravel/Modules -path "*/Filament/*/Pages/*.php" | grep -v "Page.php$"
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 ```
 
 ## Riferimenti

@@ -479,6 +479,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -798,6 +799,7 @@
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> f16a5ca4 (rebase 210)
 =======
@@ -1687,6 +1689,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 <?php
 
 declare(strict_types=1);
@@ -2763,6 +2767,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2809,6 +2814,8 @@ declare(strict_types=1);
 >>>>>>> 7f1ff51b1 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -3609,6 +3616,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
 =======
@@ -4162,6 +4170,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 848a30f07 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4656,6 +4668,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4811,6 +4824,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7054,6 +7069,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 1442e291 (rebase 210)
@@ -7295,3 +7311,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)

@@ -251,6 +251,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -313,6 +314,8 @@
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -796,6 +799,7 @@
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 12a7e2462 (.)
@@ -892,6 +896,8 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -904,6 +910,7 @@ Consulta la documentazione delle traduzioni:
 Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in questo modulo e la relativa sezione in [Lang](../../Lang/docs/).
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1920,6 +1927,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -2221,12 +2229,15 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 
 > Aggiorna entrambi i riferimenti se aggiungi nuove chiavi di traduzione o modifichi la struttura.
 
 ## Collegamenti tra versioni di lang-link.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2570,6 +2581,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 116df547 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
@@ -2972,6 +2984,10 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 * [lang-link.md](../../../Chart/docs/lang-link.md)
 * [lang-link.md](../../../Reporting/docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/docs/lang-link.md)
@@ -2989,6 +3005,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3953,6 +3970,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
 =======
@@ -4197,6 +4215,10 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 =======
 >>>>>>> 5fd545e4 (.)

@@ -140,6 +140,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 =======
 # Errori Comuni da Evitare nelle Implementazioni di Moduli 
@@ -427,6 +428,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
@@ -725,6 +727,11 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+# Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ## Errori di Struttura Directory e Namespace
 
@@ -866,6 +873,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
 =======
@@ -1253,10 +1261,14 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f957fb24b (.)
 =======
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
@@ -1588,6 +1600,8 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
    
    > Le directory standard di Laravel sono sempre in lowercase (`app`, `config`, `resources`, ecc.)
 

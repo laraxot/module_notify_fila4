@@ -569,6 +569,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1022,6 +1023,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
@@ -1087,6 +1089,8 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md). 
 =======
 >>>>>>> 5fd545e4 (.)

@@ -516,6 +516,7 @@ cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 =======
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -1052,6 +1053,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 1442e291 (rebase 210)
@@ -1120,6 +1122,11 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -1147,6 +1154,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1691,7 +1699,12 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 =======
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
@@ -2012,6 +2025,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> 75179b85 (.)
@@ -2359,7 +2373,12 @@ php -l Modules/Notify/lang/it/send_email.php
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione

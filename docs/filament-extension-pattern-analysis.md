@@ -280,6 +280,7 @@ Il progetto <nome progetto> utilizza un'architettura a strati per i componenti F
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto> utilizza un'architettura a strati per i componenti Filament:
 =======
 Il progetto  utilizza un'architettura a strati per i componenti Filament:
@@ -567,6 +568,7 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
@@ -865,6 +867,11 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ```
 Filament Core Classes (vendor)
@@ -1014,6 +1021,7 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome progetto>:
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto :
@@ -1301,6 +1309,7 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
@@ -1599,6 +1608,11 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto SaluteOra:
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 - Gestione multilingua
 - Integrazione con il sistema di permessi
 - Logging e auditing
@@ -1663,6 +1677,7 @@ L'adozione coerente del pattern di estensione XotBase offre vantaggi significati
 <<<<<<< HEAD
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di <nome progetto>. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2085,6 +2100,7 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
@@ -2393,3 +2409,8 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)

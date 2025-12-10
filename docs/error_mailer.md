@@ -1034,6 +1034,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2389,11 +2390,15 @@ return [
 >>>>>>> bf479cc (.)
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f957fb24b (.)
 =======
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
@@ -2461,3 +2466,5 @@ return [
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)

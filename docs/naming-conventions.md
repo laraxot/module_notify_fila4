@@ -320,6 +320,7 @@ Questo documento definisce le convenzioni di naming standardizzate per le azioni
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema <nome progetto>, supportando la risoluzione dinamica delle classi implementata nei factory.
 =======
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema , supportando la risoluzione dinamica delle classi implementata nei factory.
@@ -607,6 +608,7 @@ Questo documento definisce le convenzioni di naming standardizzate per le azioni
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
@@ -905,6 +907,11 @@ Questo documento definisce le convenzioni di naming standardizzate per le azioni
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ## Pattern di Naming
 

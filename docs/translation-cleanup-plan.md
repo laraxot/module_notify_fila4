@@ -149,6 +149,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -184,6 +185,8 @@
 >>>>>>> b215d516b (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
@@ -435,6 +438,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
 =======
@@ -604,11 +608,16 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -779,6 +788,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/lara
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 >>>>>>> 75179b85 (.)
 =======
@@ -1015,6 +1026,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1442e291 (rebase 210)
 =======
@@ -1252,6 +1264,10 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

@@ -266,6 +266,7 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
 =======
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di .
@@ -553,6 +554,7 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di SaluteOra.
@@ -853,6 +855,11 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di SaluteOra.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ## Passo 1: Analisi del File Esistente
 
@@ -1004,6 +1011,7 @@ touch /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_corretto
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 touch /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_corretto.php
 =======
 touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
@@ -1540,6 +1548,7 @@ touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 >>>>>>> 1442e291 (rebase 210)
@@ -1608,6 +1617,11 @@ touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 # 2. Copiare e correggere il contenuto
 
@@ -1749,6 +1763,7 @@ touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1790,6 +1805,8 @@ touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 grep -r "nome_errato" /var/www/html/<nome progetto>/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
@@ -2816,6 +2833,7 @@ grep -r "nome_errato" /var/www/html/saluteora/laravel/Modules/Notify
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -3012,6 +3030,8 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 ```
 
 ## Passo 3: Correzione della Struttura del File
@@ -3194,6 +3214,7 @@ ls /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/nome_file.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/nome_file.php
 =======
 ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
@@ -3730,6 +3751,7 @@ ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
 >>>>>>> 1442e291 (rebase 210)
@@ -3798,6 +3820,11 @@ ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 # 2. Se esiste, aggiornarlo con la stessa struttura
 

@@ -309,6 +309,7 @@ class RecordNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->subject('Notifica da <nome progetto>')
 =======
             ->subject('Notifica da ')
@@ -596,6 +597,7 @@ class RecordNotification extends Notification implements ShouldQueue
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             ->subject('Notifica da SaluteOra')
@@ -894,6 +896,11 @@ class RecordNotification extends Notification implements ShouldQueue
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+            ->subject('Notifica da SaluteOra')
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))

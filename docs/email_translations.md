@@ -988,6 +988,7 @@ class TranslationValidator
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1628,10 +1629,14 @@ class TranslationValidator
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f957fb24b (.)
 =======
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
@@ -2132,3 +2137,5 @@ class TranslationValidator
 >>>>>>> ec4cda261 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)

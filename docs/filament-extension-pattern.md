@@ -120,6 +120,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -148,6 +149,8 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> b215d516b (.)
+=======
+>>>>>>> f957fb24b (.)
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
 =======
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema , con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
@@ -332,6 +335,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 =======
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema SaluteOra, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 =======
 # Pattern di Estensione per Componenti Filament 
 
@@ -861,6 +865,8 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 
 ## Regola Fondamentale
 
@@ -1016,6 +1022,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
 =======
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per , mantenendo la coerenza in tutta l'applicazione.
@@ -1303,6 +1310,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
@@ -1601,6 +1609,11 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per SaluteOra, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -1916,6 +1929,7 @@ Le classi XotBase possono implementare comportamenti specifici per <nome progett
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
 =======
 Le classi XotBase possono implementare comportamenti specifici per , come:
@@ -2203,6 +2217,7 @@ Le classi XotBase possono implementare comportamenti specifici per SaluteOra, co
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
@@ -2501,6 +2516,11 @@ Le classi XotBase possono implementare comportamenti specifici per SaluteOra, co
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+Le classi XotBase possono implementare comportamenti specifici per SaluteOra, come:
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici

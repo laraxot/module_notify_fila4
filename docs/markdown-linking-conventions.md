@@ -359,6 +359,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -1663,6 +1664,7 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> 1442e291 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1754,6 +1756,8 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -1779,6 +1783,7 @@ Per collegamenti a documenti in altre directory:
 <<<<<<< HEAD
 4. **Standard del progetto**: <nome progetto> segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2200,6 +2205,7 @@ Per collegamenti a documenti in altre directory:
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> 1442e291 (rebase 210)
@@ -2497,6 +2503,11 @@ Per collegamenti a documenti in altre directory:
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
+>>>>>>> 1442e291 (rebase 210)
+>>>>>>> f957fb24b (.)
 
 ## Regole per i Collegamenti Relativi
 

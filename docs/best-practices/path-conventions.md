@@ -79,6 +79,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -157,6 +158,8 @@
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
@@ -228,6 +231,7 @@
 4. **Struttura Directory Datas**
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/Datas/` (ERRATO)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,6 +424,8 @@
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> f957fb24b (.)
 
 ## Namespace vs Directory
 
@@ -433,6 +439,7 @@
 ## Errori Comuni da Evitare
 
 1. **Mai utilizzare la "A" maiuscola nel percorso fisico della directory app**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,6 +712,10 @@
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+>>>>>>> f957fb24b (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`
