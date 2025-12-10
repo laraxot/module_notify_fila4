@@ -1246,7 +1246,14 @@ final class NotificationLog extends BaseModel
         'clicked_at',
     ];
 
-    protected $casts = [
+    /**
+     * Get the attributes that should be cast.
+     *
+     * @return array<string, string>
+     */
+    protected function casts(): array
+    {
+        return [
         'data' => 'array',
         'channels' => 'array',
         'sent_at' => 'datetime',
@@ -1255,6 +1262,7 @@ final class NotificationLog extends BaseModel
         'clicked_at' => 'datetime',
         'status' => NotificationLogStatusEnum::class,
     ];
+    }
 
     /**
      * Ottiene il template associato a questo log.

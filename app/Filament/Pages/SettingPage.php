@@ -13,6 +13,9 @@ class SettingPage extends XotBasePage
 
     protected string $view = 'notify::filament.pages.setting';
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getHeaderWidgets(): array
     {
         $only = [
