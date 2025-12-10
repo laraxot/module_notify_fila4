@@ -18,6 +18,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -114,11 +115,16 @@ uses(Tests\TestCase::class);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 =======
+=======
+>>>>>>> e00d798d (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> e00d798d (.)
 
 test('components json is valid and contains expected components', function (): void {
     // Percorso del file
@@ -141,6 +147,7 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
 =======
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
@@ -176,6 +183,9 @@ test('components json is valid and contains expected components', function (): v
 =======
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
 >>>>>>> d45a0226 (.)
+=======
+    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
+>>>>>>> e00d798d (.)
 
     // Verifico che ci sono 2 componenti
     expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');
@@ -190,6 +200,7 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -293,13 +304,18 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> c650db4 (.)
 >>>>>>> 4fc21b78 (rebase 210)
 =======
+=======
+>>>>>>> e00d798d (.)
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
     expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
     expect($json[0])->toHaveKey('ns', 'Il primo componente non ha una chiave "ns"');
 
     expect($json[1])->toHaveKey('name', 'Il secondo componente non ha una chiave "name"');
     expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> e00d798d (.)
     expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
 
     // Verifico i nomi specifici dei componenti

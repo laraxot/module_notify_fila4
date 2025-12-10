@@ -10,6 +10,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBasePivot;
 =======
 use Illuminate\Database\Eloquent\Relations\Pivot;
@@ -27,6 +28,9 @@ use Modules\Xot\Traits\Updater;
 =======
 use Modules\Xot\Models\XotBasePivot;
 >>>>>>> a335025b (rebase 210)
+=======
+use Modules\Xot\Models\XotBasePivot;
+>>>>>>> e00d798d (.)
 
 /**
  * Base Pivot for Notify module.
@@ -43,6 +47,7 @@ abstract class BasePivot extends XotBasePivot
      * @var string
      */
     protected $connection = 'notify';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1402,4 +1407,6 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
 }

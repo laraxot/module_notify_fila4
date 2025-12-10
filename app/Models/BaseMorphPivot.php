@@ -16,6 +16,7 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 =======
 abstract class BaseMorphPivot extends MorphPivot
@@ -35,6 +36,9 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 >>>>>>> a335025b (rebase 210)
+=======
+abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
+>>>>>>> e00d798d (.)
 {
     use Updater;
 

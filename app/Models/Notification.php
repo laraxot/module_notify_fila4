@@ -988,12 +988,15 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a335025b (rebase 210)
 =======
 =======
 >>>>>>> 2cbbc069 (.)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
 /**
  * @property string $id
  * @property string $type
@@ -1009,6 +1012,7 @@ use Modules\Xot\Models\BaseModel;
  * @property string|null $deleted_by
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
@@ -1020,6 +1024,10 @@ use Modules\Xot\Models\BaseModel;
  * @property-read \Modules\Fixcity\Models\Profile|null $creator
  * @property-read \Modules\Fixcity\Models\Profile|null $updater
 >>>>>>> a335025b (rebase 210)
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> e00d798d (.)
  * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -1036,6 +1044,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
@@ -1059,6 +1068,10 @@ use Modules\Xot\Models\BaseModel;
  * @mixin \Eloquent
  */
 >>>>>>> a335025b (rebase 210)
+=======
+ * @mixin \Eloquent
+ */
+>>>>>>> e00d798d (.)
 class Notification extends BaseModel
 {
     /** @var list<string> */

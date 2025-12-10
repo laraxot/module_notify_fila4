@@ -76,6 +76,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -514,6 +515,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
 use Modules\Notify\Filament\Resources\ContactResource;
 use Modules\Xot\Filament\Builders\ColumnBuilder;
 use Modules\Xot\Filament\Builders\FilterBuilder;
@@ -528,6 +531,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -642,11 +646,14 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> e00d798d (.)
 /**
  * List Contacts page.
  *
  * Uses ColumnBuilder and FilterBuilder to reduce code duplication.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2cbbc069 (.)
@@ -676,6 +683,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> e00d798d (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -925,6 +934,7 @@ class ListContacts extends XotBaseListRecords
             'message' => ColumnBuilder::description(limit: 100),
             'is_read' => ColumnBuilder::booleanIcon('is_read'),
             ...ColumnBuilder::timestamps(),
+<<<<<<< HEAD
         ];
     }
 
@@ -1332,6 +1342,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> e00d798d (.)
         ];
     }
 
@@ -1486,6 +1498,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1859,6 +1872,9 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+            'active' => FilterBuilder::activeToggle(),
+>>>>>>> e00d798d (.)
         ];
     }
 }
