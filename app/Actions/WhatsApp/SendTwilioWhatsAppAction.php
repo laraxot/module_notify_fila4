@@ -683,7 +683,6 @@ use Spatie\QueueableAction\QueueableAction;
 use Illuminate\Support\Str;
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 use Modules\Notify\Datas\WhatsAppData;
-use Override;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 
@@ -3061,36 +3060,6 @@ final class SendTwilioWhatsAppAction implements WhatsAppProviderActionInterface
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[\Override]
-=======
-    #[Override]
->>>>>>> 6ba141fc (.)
-=======
-    #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> 82c6772 (.)
-=======
-    #[Override]
->>>>>>> 92ecc28 (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public function execute(WhatsAppData $whatsAppData): array
     {
 <<<<<<< HEAD

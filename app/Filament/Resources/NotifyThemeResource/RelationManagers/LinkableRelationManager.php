@@ -952,15 +952,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 985c7bda (.)
     protected static ?string $recordTitleAttribute = 'id';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     #[\Override]
-=======
-    #[Override]
->>>>>>> 6ba141fc (.)
-=======
-    #[\Override]
->>>>>>> 5e14ac3 (.)
     public function getFormSchema(): array
     {
         return [
