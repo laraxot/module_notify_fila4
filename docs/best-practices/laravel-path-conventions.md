@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Convenzioni dei Path in Laravel e 
 
@@ -9,11 +10,25 @@ In Laravel e , i nomi delle cartelle principali (come definite nella struttura s
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
 # Convenzioni dei Path in Laravel e SaluteOra
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+=======
+# Convenzioni dei Path in Laravel e 
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e , i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+# Convenzioni dei Path in Laravel e <nome progetto>
+
+## Regole Fondamentali per i Path di Cartelle
+
+In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+>>>>>>> bf479cc (.)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -37,6 +52,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
@@ -46,6 +62,14 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 >>>>>>> d09cb759 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 ```
 
 **NON** in:
@@ -53,6 +77,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
@@ -62,6 +87,14 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 >>>>>>> d09cb759 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+=======
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 ```
 
 ## Perché è Importante
@@ -82,6 +115,7 @@ protected static string $view = 'notify::filament.pages.send-sms';
 // Il path fisico corrispondente sarà:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 =======
 // /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
@@ -91,6 +125,14 @@ protected static string $view = 'notify::filament.pages.send-sms';
 =======
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 >>>>>>> d09cb759 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+=======
+// /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+// /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 ```
 
 ## Verifica e Correzione

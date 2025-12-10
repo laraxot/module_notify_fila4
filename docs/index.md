@@ -39,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -198,6 +199,8 @@
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
 # Notify Module Documentation
 
 ## Overview
@@ -251,6 +254,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,6 +641,10 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -675,6 +683,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -813,6 +822,12 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> f963d2c0 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -840,6 +855,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -954,6 +970,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -1049,6 +1070,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4f042b88 (.)
@@ -1076,6 +1098,11 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
@@ -2420,6 +2447,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2472,6 +2500,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> e627c3b (.)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 31f5d28f (.)
 =======
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
@@ -2485,6 +2515,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -2497,6 +2528,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 31f5d28f (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -3019,6 +3052,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
 =======
@@ -3179,10 +3213,15 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 6608a1a0 (.)
 =======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 31f5d28f (.)
+=======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4077,3 +4116,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
