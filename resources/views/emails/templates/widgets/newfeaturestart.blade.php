@@ -464,6 +464,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -737,6 +738,7 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 70c6f8bd (.)
@@ -1611,6 +1613,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+=======
+>>>>>>> 70c6f8bd (.)
+>>>>>>> 179065416 (.)
 <?php
 
 declare(strict_types=1);
@@ -3816,8 +3822,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 70175d0c4 (.)
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
+<<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 70c6f8bd (.)
@@ -3977,6 +3985,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 171436612 (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+=======
+>>>>>>> 70c6f8bd (.)
+>>>>>>> 179065416 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4456,6 +4468,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4581,6 +4594,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 171436612 (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 179065416 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5479,6 +5494,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 70c6f8bd (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -6967,3 +6983,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 36321fcb (.)
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 179065416 (.)
