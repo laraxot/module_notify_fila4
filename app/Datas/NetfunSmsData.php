@@ -146,6 +146,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -247,6 +248,8 @@ declare(strict_types=1);
 >>>>>>> 7ceb00286 (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -556,6 +559,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -567,6 +573,7 @@ declare(strict_types=1);
 =======
 >>>>>>> ce89c8bb (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
@@ -587,6 +594,8 @@ declare(strict_types=1);
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 declare(strict_types=1);
 
 
@@ -603,10 +612,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 207ac35e (.)
 =======
 declare(strict_types=1);
@@ -676,6 +688,7 @@ declare(strict_types=1);
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -822,6 +835,8 @@ declare(strict_types=1);
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -1193,6 +1208,7 @@ class NetfunSmsData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1831,6 +1847,7 @@ class NetfunSmsData extends Data
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1840,6 +1857,10 @@ class NetfunSmsData extends Data
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         public ?string $reference = null,
         public ?string $scheduledDate = null,
 =======
@@ -1854,6 +1875,7 @@ class NetfunSmsData extends Data
 =======
 =======
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1890,12 +1912,15 @@ class NetfunSmsData extends Data
         public null|string $scheduledDate = null,
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> cbb586cb0 (.)
         public null|string $reference = null,
         public null|string $scheduledDate = null,
 =======
         public ?string $reference = null,
         public ?string $scheduledDate = null,
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2060,9 +2085,24 @@ class NetfunSmsData extends Data
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
     ) {}
 }
 =======

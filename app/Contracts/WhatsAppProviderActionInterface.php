@@ -283,6 +283,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -439,6 +440,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -582,6 +584,8 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
  *
 =======
  * 
@@ -703,6 +707,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -765,6 +770,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
  *
 >>>>>>> 75179b85 (.)
@@ -1633,11 +1640,15 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 58816034 (.)
@@ -1951,6 +1962,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -1992,6 +2005,7 @@ interface WhatsAppProviderActionInterface
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2260,6 +2274,8 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> be698cf2c (.)
 =======
+>>>>>>> cbb586cb0 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2360,6 +2376,7 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -2454,10 +2471,15 @@ interface WhatsAppProviderActionInterface
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2587,6 +2609,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> ec24613a1 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -3107,11 +3131,15 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 58816034 (.)
@@ -3924,3 +3952,5 @@ interface WhatsAppProviderActionInterface
 >>>>>>> a85ebf6cc (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)

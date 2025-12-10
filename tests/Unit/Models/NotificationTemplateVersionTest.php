@@ -137,6 +137,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -187,6 +188,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -303,10 +305,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +363,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -427,11 +436,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -562,6 +575,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
         $this->assertInstanceOf(BaseModel::class, $version);
 =======
@@ -701,6 +716,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -912,10 +928,14 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -1012,6 +1032,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             'template_id',
             'subject',
             'body_html',
@@ -1108,6 +1130,10 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 >>>>>>> 2d4267d82 (.)
 =======
+<<<<<<< HEAD
+=======
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+>>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 21e1a74cb (.)
@@ -2756,9 +2782,22 @@ class NotificationTemplateVersionTest extends TestCase
 =======
         $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
     }
 
     /** @test */
@@ -2864,6 +2903,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2905,6 +2945,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -2945,6 +2986,10 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -2984,6 +3029,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2998,6 +3044,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -3286,11 +3334,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -3410,6 +3462,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         $casts = $version->getCasts();
 
         $this->assertIsArray($casts);
@@ -3521,6 +3575,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3571,6 +3626,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -3687,10 +3743,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3740,6 +3801,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -3811,11 +3874,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -3946,6 +4013,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
 <<<<<<< HEAD
@@ -4070,6 +4139,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4120,6 +4190,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -4236,10 +4307,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4289,6 +4365,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -4360,11 +4438,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -4495,6 +4577,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
 <<<<<<< HEAD
@@ -4619,6 +4703,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4660,6 +4745,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -4700,6 +4786,10 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
@@ -4739,6 +4829,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -4753,6 +4844,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -5039,11 +5132,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -5159,6 +5256,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
         $this->assertTrue(method_exists($version, 'restore'));
 
@@ -5285,6 +5384,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5335,6 +5435,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -5451,10 +5552,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5504,6 +5610,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -5575,11 +5683,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -5710,6 +5822,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
 <<<<<<< HEAD
@@ -5834,6 +5948,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5884,6 +5999,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -6000,10 +6116,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6053,6 +6174,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -6124,11 +6247,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -6259,6 +6386,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
 <<<<<<< HEAD
@@ -6383,6 +6512,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6433,6 +6563,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -6549,10 +6680,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6602,6 +6738,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -6673,11 +6811,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -6808,6 +6950,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
 <<<<<<< HEAD
@@ -6995,6 +7139,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7045,6 +7190,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -7161,10 +7307,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7214,6 +7365,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -7285,11 +7438,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -7420,6 +7577,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
 <<<<<<< HEAD
@@ -7545,6 +7704,7 @@ class NotificationTemplateVersionTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7595,6 +7755,7 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -7711,10 +7872,15 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
         $version = new NotificationTemplateVersion();
 =======
         $version = new NotificationTemplateVersion;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7764,6 +7930,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 75179b85 (.)
@@ -7835,11 +8003,15 @@ class NotificationTemplateVersionTest extends TestCase
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
         $version = new NotificationTemplateVersion();
 >>>>>>> 58816034 (.)
@@ -7970,6 +8142,8 @@ class NotificationTemplateVersionTest extends TestCase
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
 <<<<<<< HEAD

@@ -233,12 +233,16 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
 =======
 use Override;
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 7ceb00286 (.)
@@ -247,6 +251,8 @@ use Override;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
@@ -257,10 +263,15 @@ use Filament\Notifications\Notification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -363,9 +374,12 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 >>>>>>> a12f125f4a (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
@@ -398,6 +412,7 @@ use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -407,6 +422,8 @@ use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 use function Safe\json_encode;
 
@@ -494,8 +511,11 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     // use NavigationLabelTrait;
 
 <<<<<<< HEAD
@@ -844,9 +864,23 @@ class SendPushNotificationPage extends XotBasePage
 
     public ?array $notificationData = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    // use NavigationLabelTrait;
+
+    public null|array $notificationData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
     // protected static ?string $navigationIcon = 'heroicon-o-envelope';
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
@@ -882,16 +916,21 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     protected static null|string $cluster = Test::class;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
@@ -925,6 +964,7 @@ class SendPushNotificationPage extends XotBasePage
 =======
 =======
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -1048,10 +1088,13 @@ class SendPushNotificationPage extends XotBasePage
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> cbb586cb0 (.)
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -1117,9 +1160,23 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
     public function mount(): void
     {
@@ -1325,12 +1382,16 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
             
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -1340,6 +1401,11 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             // Relations & attributes (Laravel-safe)
             $profile = method_exists($item, 'getRelationValue') ? $item->getRelationValue('profile') : null;
             if (!is_object($profile)) {
@@ -1360,12 +1426,17 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 
             // Creiamo la label con gli ultimi 5 caratteri del token
             $tokenSuffix = mb_substr($token, -5);
@@ -1374,8 +1445,11 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
             
             // Creiamo la label con gli ultimi 5 caratteri del token
@@ -1384,12 +1458,17 @@ class SendPushNotificationPage extends XotBasePage
             
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             return [$token => $label];
         };
 
@@ -1408,8 +1487,11 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
 =======
         $to = $devices
@@ -1417,6 +1499,7 @@ class SendPushNotificationPage extends XotBasePage
             ->mapWithKeys($callback)
             ->toArray();
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
@@ -1426,10 +1509,16 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+        $to = $devices->filter($filterCallback)->mapWithKeys($callback)->toArray();
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 
         Assert::isArray($to);
 
         return $schema
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1472,6 +1561,10 @@ class SendPushNotificationPage extends XotBasePage
 =======
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             ->components([
                 Select::make('deviceToken')->options(fn() => $to),
 >>>>>>> 75179b8 (.)
@@ -1488,6 +1581,9 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -1521,6 +1617,7 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -1557,6 +1654,8 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             // ->model($this->getUser())
             ->statePath('notificationData');
     }
@@ -1679,6 +1778,7 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -1692,6 +1792,10 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 
         // Verifichiamo che jsonData sia una stringa
         $jsonData = $jsonData ?: '{}';
@@ -1702,9 +1806,12 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> cbb586cb0 (.)
 =======
         
 =======
@@ -1738,6 +1845,7 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -1747,6 +1855,8 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         // Aggiungiamo i valori all'array solo se non sono vuoti
         // PHPStan sa che queste stringhe non possono essere vuote a questo punto
         $pushDataTemp['type'] = $type;
@@ -1754,6 +1864,7 @@ class SendPushNotificationPage extends XotBasePage
         $pushDataTemp['body'] = $body;
         // Adding data field (we know jsonData can't be empty due to fallback to '{}' earlier)
         $pushDataTemp['data'] = $jsonData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1796,6 +1907,8 @@ class SendPushNotificationPage extends XotBasePage
         if (count($pushDataTemp) === 0) {
             $pushDataTemp['type'] = 'notification';
         }
+=======
+>>>>>>> cbb586cb0 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1808,6 +1921,7 @@ class SendPushNotificationPage extends XotBasePage
         
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4e2ebfb (.)
@@ -1815,11 +1929,21 @@ class SendPushNotificationPage extends XotBasePage
 
 =======
 <<<<<<< HEAD
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+        // Verifichiamo che l'array contenga almeno un elemento
+        if (count($pushDataTemp) === 0) {
+            $pushDataTemp['type'] = 'notification';
+        }
+>>>>>>> cbb586cb0 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
         
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1834,12 +1958,19 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         // Creiamo un MessageData object
         // Convertiamo tutti i valori in stringa come richiesto da MessageData
         $sanitizedData = [];
         foreach ($pushDataTemp as $key => $value) {
             // All keys are non-empty strings by this point
             if (is_scalar($value) || is_null($value)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1858,6 +1989,10 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
                 $sanitizedData[$key] = is_string($value) ? $value : ((string) $value);
             } else {
                 // Handle non-scalar values (arrays, objects) by converting to JSON
@@ -1865,6 +2000,9 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -1884,6 +2022,7 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
@@ -1900,12 +2039,15 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             }
         }
         $messageData = MessageData::fromArray($sanitizedData);
 
         // Verifichiamo che deviceToken sia una stringa non vuota (per soddisfare il tipo non-empty-string)
         Assert::stringNotEmpty($deviceToken, 'Il token del dispositivo non può essere vuoto');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1923,6 +2065,10 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 
         $message = CloudMessage::withTarget('token', $deviceToken)
             ->withHighestPossiblePriority()
@@ -1931,6 +2077,9 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -1957,6 +2106,7 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
@@ -1976,11 +2126,14 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         try {
             // Otteniamo l'istanza di messaging e verifichiamo che sia valida
             /** @var Messaging $messaging */
             $messaging = app('firebase.messaging');
             Assert::isInstanceOf($messaging, Messaging::class, 'Invalid messaging instance');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1992,16 +2145,24 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
             
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             $messaging->send($message);
         } catch (Exception $e) {
             dddx([
@@ -2034,14 +2195,19 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
                 
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2092,6 +2258,7 @@ class SendPushNotificationPage extends XotBasePage
 =======
 =======
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2279,13 +2446,27 @@ class SendPushNotificationPage extends XotBasePage
 =======
 =======
 =======
+=======
+>>>>>>> cbb586cb0 (.)
                 
 =======
                 //
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -2296,12 +2477,16 @@ class SendPushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
 =======
     #[Override]
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
     #[Override]
 =======
@@ -2326,10 +2511,13 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2354,6 +2542,8 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -2489,6 +2679,7 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
         if (! ($user instanceof Model)) {
@@ -2521,10 +2712,16 @@ class SendPushNotificationPage extends XotBasePage
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         if (! ($user instanceof Model)) {
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -2532,6 +2729,7 @@ class SendPushNotificationPage extends XotBasePage
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2560,10 +2758,17 @@ class SendPushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 =======
+>>>>>>> cbb586cb0 (.)
+=======
         if (! $user instanceof Model) {
             throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         }
 
         return $user;

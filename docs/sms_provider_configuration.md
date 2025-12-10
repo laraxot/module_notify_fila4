@@ -433,6 +433,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1501,6 +1502,7 @@ return [
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -1842,9 +1844,14 @@ return [
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     'from' => env('SMS_FROM', '<nome progetto>'),
 =======
 >>>>>>> b19cd40 (.)
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
@@ -2113,6 +2120,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3181,6 +3189,7 @@ return [
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -3522,9 +3531,14 @@ return [
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 >>>>>>> b19cd40 (.)
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 4e2ebfb (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
@@ -3850,6 +3864,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4918,6 +4933,7 @@ SMS_FROM=<nome progetto>
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -5259,9 +5275,14 @@ SMS_FROM=SaluteOra
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 SMS_FROM=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
+=======
+SMS_FROM=<nome progetto>
+>>>>>>> 4e2ebfb (.)
 SMS_FROM=SaluteOra
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
@@ -5521,6 +5542,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6589,6 +6611,7 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -6930,9 +6953,14 @@ NETFUN_SENDER=SaluteOra
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 NETFUN_SENDER=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 4e2ebfb (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)

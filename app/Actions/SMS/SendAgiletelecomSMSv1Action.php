@@ -109,6 +109,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
@@ -257,11 +258,17 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SmsActionContract;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -284,6 +291,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 use Override;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +332,8 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 
 use GuzzleHttp\Client;
 use Modules\Notify\Datas\SmsData;
@@ -339,6 +349,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +423,10 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -2093,9 +2108,16 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 2fc60436 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> cbb586cb0 (.)
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -2218,6 +2240,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -2748,12 +2773,15 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2921,10 +2949,14 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -3035,6 +3067,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         ];
 
         $client = new Client([
@@ -3185,6 +3219,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3360,6 +3395,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3398,6 +3434,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
         return [];
     }
@@ -3598,6 +3636,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 207ac35e (.)
@@ -3607,6 +3646,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 2f135ef98 (.)
 =======
+>>>>>>> cbb586cb0 (.)
+=======
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3621,6 +3662,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> ce89c8bb (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
@@ -3643,6 +3685,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
         return [];
     }
@@ -3663,12 +3707,15 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -3896,6 +3943,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 
         return [];
@@ -4037,6 +4085,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

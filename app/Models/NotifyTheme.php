@@ -111,6 +111,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -693,6 +694,8 @@ use Eloquent;
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 use Modules\Xot\Models\Traits\HasXotFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -771,9 +774,14 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+>>>>>>> 207ac35 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -2854,6 +2862,7 @@ class NotifyTheme extends BaseModel
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getLogoAttribute(null|array $value): array
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -2867,9 +2876,21 @@ class NotifyTheme extends BaseModel
 =======
     public function getLogoAttribute(?array $value): array
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -2891,6 +2912,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3538,6 +3560,8 @@ class NotifyTheme extends BaseModel
 =======
 =======
 =======
+>>>>>>> ce89c8bb (.)
+=======
     #[Override]
 >>>>>>> 75179b8 (.)
 =======
@@ -3545,8 +3569,22 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+=======
+    #[Override]
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
     protected function casts(): array
     {
         return [
@@ -3557,6 +3595,7 @@ class NotifyTheme extends BaseModel
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3693,6 +3732,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3723,6 +3763,8 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -3942,12 +3984,15 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3985,6 +4030,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> a12f125f4a (.)
@@ -4013,9 +4059,14 @@ class NotifyTheme extends BaseModel
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> cbb586cb0 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4050,6 +4101,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -4231,6 +4284,7 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
             'updated_by' => 'string',
             'created_by' => 'string',
@@ -4276,6 +4330,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 =======
 <<<<<<< HEAD

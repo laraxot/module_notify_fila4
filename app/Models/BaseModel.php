@@ -2359,6 +2359,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e95dfc210 (.)
 =======
 <<<<<<< HEAD
@@ -2366,6 +2367,9 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 <<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2391,9 +2395,12 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 06e3078e (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2602,7 +2609,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -2665,6 +2678,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> e95dfc210 (.)
 =======
 <<<<<<< HEAD
@@ -2672,6 +2686,9 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 <<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2697,9 +2714,12 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 06e3078e (.)
 =======
+>>>>>>> ce89c8bb (.)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2908,7 +2928,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

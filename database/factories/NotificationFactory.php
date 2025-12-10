@@ -153,6 +153,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -205,6 +206,7 @@ declare(strict_types=1);
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -319,6 +321,10 @@ declare(strict_types=1);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -671,6 +677,11 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 =======
 >>>>>>> b19cd40 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 4e2ebfb (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\Notification;

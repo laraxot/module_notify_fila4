@@ -39,6 +39,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -280,6 +281,7 @@ class NotificationTypePolicy extends NotifyBasePolicy
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -302,6 +304,10 @@ class NotificationTypePolicy extends NotifyBasePolicy
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 class NotificationTypePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -1281,12 +1287,28 @@ class NotificationTypePolicy extends NotifyBasePolicy {}
 =======
 =======
 =======
+=======
+>>>>>>> 207ac35 (.)
 class NotificationTypePolicy extends NotifyBasePolicy
 {
 }
 =======
 class NotificationTypePolicy extends NotifyBasePolicy {}
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+class NotificationTypePolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)

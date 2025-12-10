@@ -263,9 +263,13 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> b93ef594b4 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -284,7 +288,12 @@ use Modules\Notify\Datas\TelegramMessageData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\TelegramNotification;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
 =======
 use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
@@ -312,6 +321,7 @@ use Modules\Notify\Notifications\TelegramNotification;
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -321,6 +331,8 @@ use Modules\Notify\Notifications\TelegramNotification;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,6 +510,7 @@ use NotificationChannels\Telegram\TelegramMessage;
 use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Notify\Datas\TelegramMessageData;
 use Illuminate\Support\Facades\Log;
@@ -505,6 +518,8 @@ use Filament\Notifications\Notification as FilamentNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Notify\Datas\TelegramData;
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 
 /**
  * @property \Filament\Schemas\Schema $telegramForm
@@ -518,6 +533,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +571,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     public null|array $telegramData = [];
 =======
 <<<<<<< HEAD
@@ -766,6 +784,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
     public ?array $telegramData = [];
 =======
     public null|array $telegramData = [];
@@ -845,13 +865,27 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 =======
 =======
+=======
+>>>>>>> 207ac35 (.)
     public null|array $telegramData = [];
 =======
     public ?array $telegramData = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    public null|array $telegramData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
@@ -886,16 +920,21 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     protected static null|string $cluster = Test::class;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
@@ -929,6 +968,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 =======
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -1052,10 +1092,13 @@ class SendTelegramPage extends XotBasePage implements HasForms
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> cbb586cb0 (.)
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -1121,9 +1164,23 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
     public function mount(): void
     {
@@ -1206,6 +1263,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->schema($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
 =======
 <<<<<<< HEAD
@@ -1214,6 +1272,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -1230,6 +1289,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         /** @var array<Htmlable|string> $components */
         $components = array_values($this->getTelegramFormSchema());
 
@@ -1249,6 +1310,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35 (.)
 =======
@@ -1262,6 +1324,10 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 207ac35 (.)
+>>>>>>> cbb586cb0 (.)
         return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
 =======
         return $schema
@@ -1269,6 +1335,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
             ->model($this->getUser())
             ->statePath('telegramData');
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1297,9 +1364,13 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 =======
@@ -1313,6 +1384,14 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
     }
 
 <<<<<<< HEAD
@@ -1438,14 +1517,18 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
 =======
             TextInput::make('chat_id')
                 ->required()
                 ->helperText('ID della chat o username del canale'),
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
@@ -1472,6 +1555,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+            TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             TextInput::make('text')
                 ->required()
                 ->maxLength(4096)
@@ -1870,6 +1958,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1883,6 +1972,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             'disable_web_page_preview' => Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             'disable_notification' => Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
             'reply_to_message_id' => TextInput::make('reply_to_message_id')
@@ -1985,6 +2076,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -2057,6 +2149,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
             TextInput::make('reply_to_message_id')
@@ -2067,8 +2161,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 =======
             Toggle::make('disable_web_page_preview')
                 ->helperText('Disabilita l\'anteprima dei link'),
@@ -2082,6 +2179,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->helperText('URL del media (opzionale)'),
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -2090,6 +2188,10 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             Select::make('media_type')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2387,6 +2489,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 =======
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
@@ -2442,6 +2545,7 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2462,6 +2566,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> cbb586cb0 (.)
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 =======
             TextInput::make('caption')
@@ -2486,8 +2592,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -2658,11 +2767,15 @@ class SendTelegramPage extends XotBasePage implements HasForms
 =======
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
             TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
 >>>>>>> 58816034 (.)
@@ -2765,6 +2878,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         ];
     }
 
@@ -2781,8 +2896,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             Notification::route('telegram', $data['chat_id'])->notify(
                 new TelegramNotification($message, [
 =======
@@ -2790,10 +2908,14 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->notify(new TelegramNotification($message, [
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
             Notification::route('telegram', $data['chat_id'])->notify(
                 new TelegramNotification($message, [
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
             Notification::route('telegram', $data['chat_id'])->notify(
                 new TelegramNotification($message, [
@@ -2823,6 +2945,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
                     'driver' => $data['driver'],
                     'parse_mode' => $data['parse_mode'] ?? null,
                     'disable_web_page_preview' => $data['disable_web_page_preview'] ?? false,
@@ -2836,18 +2960,25 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
                 ]),
             );
 =======
                 ]));
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
                 ]),
             );
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
                 ]),
             );
@@ -2875,6 +3006,8 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
             FilamentNotification::make()
                 ->success()
@@ -2885,16 +3018,22 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 =======
 
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         } catch (Exception $e) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3047,13 +3186,17 @@ class SendTelegramPage extends XotBasePage implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
             Action::make('telegramFormActions')->submit('telegramFormActions'),
 =======
             Action::make('telegramFormActions')
                 ->submit('telegramFormActions'),
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             Action::make('telegramFormActions')->submit('telegramFormActions'),
@@ -3083,6 +3226,11 @@ class SendTelegramPage extends XotBasePage implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+            Action::make('telegramFormActions')->submit('telegramFormActions'),
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         ];
     }
 

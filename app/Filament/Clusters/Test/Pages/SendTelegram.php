@@ -377,6 +377,7 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public null|array $emailData = [];
 =======
     public ?array $emailData = [];
@@ -407,6 +408,8 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     public null|array $emailData = [];
 =======
 <<<<<<< HEAD
@@ -618,6 +621,8 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
     public ?array $emailData = [];
 =======
     public null|array $emailData = [];
@@ -697,13 +702,27 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 =======
+=======
+>>>>>>> 207ac35 (.)
     public null|array $emailData = [];
 =======
     public ?array $emailData = [];
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    public null|array $emailData = [];
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
@@ -738,16 +757,21 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     protected static null|string $cluster = Test::class;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
@@ -781,6 +805,7 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -904,10 +929,13 @@ class SendTelegram extends Page implements HasForms
     protected static null|string $cluster = Test::class;
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> cbb586cb0 (.)
     protected static null|string $cluster = Test::class;
 =======
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -973,9 +1001,23 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
     public function mount(): void
     {
@@ -1048,12 +1090,16 @@ class SendTelegram extends Page implements HasForms
     {
         /*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
          * dddx($response = Telegram::getMe());
          * $response = $telegram->sendMessage([
          * 'chat_id' => 'CHAT_ID',
          * 'text' => 'Hello World',
          * ]);
          */
+<<<<<<< HEAD
 =======
         dddx($response = Telegram::getMe());
         $response = $telegram->sendMessage([
@@ -1062,11 +1108,14 @@ class SendTelegram extends Page implements HasForms
         ]);
         */
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
         return $schema
             ->components([
                 Section::make()
                     // ->description('Update your account\'s profile information and email address.')
                     ->schema([
+<<<<<<< HEAD
 <<<<<<< HEAD
                         TextInput::make('to')->required(),
                         RichEditor::make('body')->required(),
@@ -1076,6 +1125,10 @@ class SendTelegram extends Page implements HasForms
                         RichEditor::make('body')
                             ->required(),
 >>>>>>> b19cd40 (.)
+=======
+                        TextInput::make('to')->required(),
+                        RichEditor::make('body')->required(),
+>>>>>>> 4e2ebfb (.)
                     ]),
             ])
             ->model($this->getUser())
@@ -1091,6 +1144,7 @@ class SendTelegram extends Page implements HasForms
     {
         $data = $this->emailForm->getState();
         Assert::string($token = config('services.telegram-bot-api.token'));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1239,6 +1293,10 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         $url = 'https://api.telegram.org/bot' . $token . '/getMe';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1272,6 +1330,9 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -1350,6 +1411,7 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -1359,6 +1421,8 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     }
 
     protected function getForms(): array
@@ -1378,14 +1442,19 @@ class SendTelegram extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
                 
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1436,6 +1505,7 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1623,13 +1693,27 @@ class SendTelegram extends Page implements HasForms
 =======
 =======
 =======
+=======
+>>>>>>> cbb586cb0 (.)
                 
 =======
                 //
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+                
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -1638,6 +1722,7 @@ class SendTelegram extends Page implements HasForms
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1662,6 +1747,8 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -1797,6 +1884,7 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
         if (! ($user instanceof Model)) {
@@ -1829,10 +1917,16 @@ class SendTelegram extends Page implements HasForms
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         if (! ($user instanceof Model)) {
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
         if (!($user instanceof Model)) {
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1840,6 +1934,7 @@ class SendTelegram extends Page implements HasForms
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1868,10 +1963,17 @@ class SendTelegram extends Page implements HasForms
 >>>>>>> 11b43e822 (.)
 =======
 =======
+>>>>>>> cbb586cb0 (.)
+=======
         if (! $user instanceof Model) {
             throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         }
 
         return $user;

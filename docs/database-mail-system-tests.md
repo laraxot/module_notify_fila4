@@ -935,6 +935,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -974,6 +975,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1062,11 +1064,14 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 - [Pest PHP](https://pestphp.com/docs) 
 =======
 >>>>>>> b19cd40 (.)
 =======
 - [Pest PHP](https://pestphp.com/docs) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,6 +1150,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Pest PHP](https://pestphp.com/docs) 
@@ -1790,6 +1797,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2145,3 +2153,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)

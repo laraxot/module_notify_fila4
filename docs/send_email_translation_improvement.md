@@ -599,6 +599,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1183,6 +1184,106 @@ cd /var/www/html/_bases/base_saluteora/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 5fe4f466 (.)
+=======
+>>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> eea68ec9 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 9777d1b3 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> f963d2c0 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> 161887a2 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+>>>>>>> ee18dd92 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+cd /var/www/html/_bases/base_saluteora/laravel
+cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> b19cd40 (.)
+>>>>>>> cbb586cb0 (.)
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> 9d67cabd (.)
@@ -1441,6 +1542,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 >>>>>>> ce89c8bb (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
@@ -1481,6 +1583,8 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+=======
+>>>>>>> cbb586cb0 (.)
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -1510,6 +1614,9 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 06e3078e (.)
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
@@ -1548,6 +1655,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -2293,6 +2401,10 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -2496,6 +2608,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -3320,6 +3433,7 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -3601,13 +3715,18 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+<<<<<<< HEAD
 =======
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
@@ -3793,6 +3912,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4283,10 +4403,13 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> cbb586cb0 (.)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -4301,7 +4424,11 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6d08c01b (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -4311,8 +4438,11 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> ce89c8bb (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 =======
+=======
+>>>>>>> cbb586cb0 (.)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -4322,6 +4452,96 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 161887a2 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> ee18dd92 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+=======
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> ba564870 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> 66453ace (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 7325acf3 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+=======
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> b19cd40 (.)
+>>>>>>> 9cdf6146 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> 7c39b1fe (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+=======
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> 888799d0 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f2e64178 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+=======
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> b19cd40 (.)
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+- `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+>>>>>>> cbb586cb0 (.)
 >>>>>>> c6c33175 (.)
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
@@ -4868,6 +5088,7 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -5291,6 +5512,8 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 ## 📝 Note di Implementazione
 

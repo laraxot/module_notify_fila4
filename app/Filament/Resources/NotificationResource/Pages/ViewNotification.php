@@ -73,6 +73,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -124,6 +125,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 =======
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
@@ -139,6 +141,10 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 use Override;
 >>>>>>> c8b1c8bf (.)
 =======
@@ -301,10 +307,16 @@ use Filament\Infolists\Components\TextEntry;
 =======
 =======
 >>>>>>> 82ae73b (.)
+=======
+>>>>>>> 207ac35 (.)
 use Filament\Schemas\Components\Component;
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 >>>>>>> 75179b8 (.)
@@ -414,6 +426,7 @@ class ViewNotification extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
 =======
 =======
@@ -504,6 +517,7 @@ class ViewNotification extends XotBaseViewRecord
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -566,6 +580,8 @@ class ViewNotification extends XotBaseViewRecord
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -608,10 +624,13 @@ class ViewNotification extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
 =======
+=======
+>>>>>>> cbb586cb0 (.)
 =======
      * @return array<\Filament\Schemas\Components\Component>
 =======
@@ -660,6 +679,7 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
@@ -684,6 +704,8 @@ class ViewNotification extends XotBaseViewRecord
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         ];
     }
 }

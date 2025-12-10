@@ -844,6 +844,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2338,10 +2339,15 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> be698cf2c (.)
 >>>>>>> c8b1c8bf (.)
@@ -2827,6 +2833,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
@@ -2839,6 +2847,7 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -3142,6 +3151,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -3739,6 +3750,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3778,6 +3790,7 @@ php artisan queue:restart
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3866,11 +3879,14 @@ php artisan queue:restart
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 - [Redis Documentation](https://redis.io/documentation)
 =======
 >>>>>>> b19cd40 (.)
 =======
 - [Redis Documentation](https://redis.io/documentation)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3949,6 +3965,8 @@ php artisan queue:restart
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> db6bec044 (.)
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Redis Documentation](https://redis.io/documentation)
@@ -4594,6 +4612,7 @@ php artisan queue:restart
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4949,3 +4968,8 @@ php artisan queue:restart
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)

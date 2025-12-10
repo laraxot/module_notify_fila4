@@ -126,6 +126,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -140,6 +141,10 @@ use Exception;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 use Override;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -273,6 +278,10 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+>>>>>>> cbb586cb0 (.)
+<<<<<<< HEAD
+=======
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> c8b1c8bf (.)
@@ -306,6 +315,7 @@ use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Filament\Notifications\Notification as FilamentNotification;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -343,12 +353,17 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
 
 /**
  * @property \Filament\Schemas\Schema $pushForm
  */
 class SendFirebasePushNotificationPage extends XotBasePage
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +382,10 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
     public null|array $pushData = [];
 <<<<<<< HEAD
 =======
@@ -416,6 +435,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 7ceb00286 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * 
  */
@@ -424,6 +444,8 @@ class SendFirebasePushNotificationPage extends XotBasePage
     public null|array $pushData = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -503,6 +525,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     protected static ?string $cluster = Test::class;
     
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -568,6 +591,10 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
     public function mount(): void
     {
         $this->fillForms();
@@ -731,6 +758,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
     public function pushForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -747,9 +775,21 @@ class SendFirebasePushNotificationPage extends XotBasePage
             ->model($this->getUser())
             ->statePath('pushData');
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+=======
+=======
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
     }
 
     public function pushForm(Schema $schema): Schema
@@ -1575,6 +1615,9 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -1588,6 +1631,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
 <<<<<<< HEAD
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
@@ -1605,10 +1649,14 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> ce89c8bb (.)
+>>>>>>> cbb586cb0 (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 58816034 (.)
@@ -1722,6 +1770,11 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         try {
             // Creare i dati della notifica Firebase
             $notificationData = FirebaseNotificationData::from([
@@ -1730,6 +1783,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 'body' => $data['body'] ?? '',
                 'data' => $data['custom_data'] ?? [],
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1772,6 +1826,8 @@ class SendFirebasePushNotificationPage extends XotBasePage
             // Inviare la notifica push
             // Notification::route('firebase', $data['token'])
             //     ->notify(new PushNotification($notificationData));
+=======
+>>>>>>> cbb586cb0 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1784,6 +1840,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
             
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4e2ebfb (.)
@@ -1791,11 +1848,21 @@ class SendFirebasePushNotificationPage extends XotBasePage
 
 =======
 <<<<<<< HEAD
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+            // TODO: Implementare PushNotification class
+            // Inviare la notifica push
+            // Notification::route('firebase', $data['token'])
+            //     ->notify(new PushNotification($notificationData));
+>>>>>>> cbb586cb0 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
             
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1810,6 +1877,12 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             // Notificare il successo
             FilamentNotification::make()
                 ->success()
@@ -1821,12 +1894,16 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
                 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -1854,6 +1931,11 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             // Loggare l'invio
             Log::info('Notifica push inviata con successo', [
                 'token' => $data['token'],
@@ -1871,12 +1953,16 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 
 =======
             
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -1904,6 +1990,11 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
             // Notificare l'errore
             FilamentNotification::make()
                 ->danger()
@@ -1927,6 +2018,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
     #[Override]
@@ -1957,14 +2049,19 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
     #[\Override]
 =======
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
     #[\Override]
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
 <<<<<<< HEAD
     #[Override]
 =======
@@ -1972,12 +2069,16 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 >>>>>>> 2fc60436 (.)
 =======
 =======
     #[Override]
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 58816034 (.)
@@ -2113,10 +2214,13 @@ class SendFirebasePushNotificationPage extends XotBasePage
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2168,15 +2272,21 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         if (! ($user instanceof Model)) {
 =======
 =======
 >>>>>>> 82ae73b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> cbb586cb0 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9777d1b (.)
 =======
@@ -2230,6 +2340,8 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> cbb586cb0 (.)
         if (!($user instanceof Model)) {
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
@@ -2297,6 +2409,7 @@ class SendFirebasePushNotificationPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         if (! $user instanceof Model) {
@@ -2322,10 +2435,17 @@ class SendFirebasePushNotificationPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 =======
+>>>>>>> cbb586cb0 (.)
+=======
         if (! $user instanceof Model) {
             throw new Exception('L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.');
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> cbb586cb0 (.)
         }
 
         return $user;
