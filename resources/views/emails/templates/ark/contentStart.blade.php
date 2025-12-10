@@ -127,6 +127,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -685,6 +688,7 @@
 >>>>>>> 815468c (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1375c94d (rebase 210)
 =======
 =======
@@ -973,11 +977,16 @@
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
+=======
+=======
+>>>>>>> 7ddfa00 (.)
+>>>>>>> 52cd5f85 (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1538,6 +1547,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
 <tr>
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1823,6 +1834,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 =======
@@ -2116,6 +2128,8 @@ declare(strict_types=1);
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 52cd5f85 (rebase 210)
 =======
 					<div class="article-content" align="left">
 >>>>>>> 99ff506 (.)
@@ -3066,4 +3080,10 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 815468c (.)
+<<<<<<< HEAD
 >>>>>>> 1375c94d (rebase 210)
+=======
+=======
+					<div class="article-content" align="left">
+>>>>>>> 7ddfa00 (.)
+>>>>>>> 52cd5f85 (rebase 210)
