@@ -21,10 +21,3 @@ class NotificationLogFactory extends Factory
         return [];
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> a80c61f (.)
-=======
->>>>>>> d2c515f (.)
