@@ -248,6 +248,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -337,6 +338,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 80f054e0 (.)
@@ -445,6 +447,10 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+=======
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
     ) {}
 =======
     ) {
@@ -543,6 +549,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -557,6 +564,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
 =======
     ) {}
 >>>>>>> 75179b85 (.)
@@ -1114,11 +1123,15 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
 >>>>>>> 9cdf6146 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
 =======
 =======
     ) {}
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
 =======
     ) {}
 >>>>>>> 7c39b1fe (.)
@@ -1476,6 +1489,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
@@ -1485,6 +1500,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
         return new self($notifiable, $notification, $sendReport);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1726,6 +1742,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
 >>>>>>> 9d67cabd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 80f054e0 (.)
 =======
@@ -1810,6 +1827,10 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+=======
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
         return new self($notifiable, $notification, $sendReport);
 =======
 =======
@@ -2452,12 +2473,15 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 8f2456941 (.)
 =======
         return new self($notifiable, $notification, $sendReport);
 >>>>>>> 75179b85 (.)
@@ -2950,11 +2974,15 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> b19cd40 (.)
 >>>>>>> 9cdf6146 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
 =======
 =======
         return new self($notifiable, $notification, $sendReport);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
 =======
         return new self($notifiable, $notification, $sendReport);
 >>>>>>> 7c39b1fe (.)
@@ -3337,6 +3365,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
     }
 
     /**
@@ -3356,6 +3386,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4039,6 +4070,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7c39b1fe (.)
 =======
@@ -4257,6 +4289,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
 <<<<<<< HEAD
@@ -4681,6 +4715,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -4697,6 +4732,10 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+=======
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 9d67cabd (.)
 =======
@@ -5165,12 +5204,15 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5403,6 +5445,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7c39b1fe (.)
 =======
@@ -6222,6 +6265,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
             ],
         ];
     }

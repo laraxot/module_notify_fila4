@@ -236,6 +236,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -776,6 +777,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> 7325acf3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 80f054e0 (.)
 =======
@@ -876,6 +878,10 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+=======
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
@@ -978,8 +984,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 8f2456941 (.)
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> a12f125f4a (.)
@@ -1076,6 +1085,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a12f125f4a (.)
 >>>>>>> 7325acf3 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 80f054e0 (.)
 =======
@@ -1203,6 +1213,10 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 80f054e0 (.)
+=======
+>>>>>>> 8f2456941 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
@@ -1293,6 +1307,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -1305,6 +1320,8 @@ use Tests\TestCase;
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 8f2456941 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1550,6 +1567,7 @@ use Tests\TestCase;
 >>>>>>> 4c323e61 (.)
 =======
 >>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2222,6 +2240,11 @@ use Tests\TestCase;
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -2548,6 +2571,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2637,6 +2661,7 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 9cdf6146 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 80f054e0 (.)
@@ -2745,6 +2770,10 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+=======
+>>>>>>> 80f054e0 (.)
+>>>>>>> 8f2456941 (.)
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')
@@ -2844,6 +2873,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2858,6 +2888,8 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 75179b85 (.)
@@ -3415,11 +3447,15 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> 9cdf6146 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
 =======
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 7c39b1fe (.)
@@ -3779,6 +3815,8 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
 
         /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($found);
@@ -4331,6 +4369,9 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 9d67cabd (.)
 =======
@@ -4957,12 +4998,15 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5607,10 +5651,14 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> b19cd40 (.)
 >>>>>>> 9cdf6146 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8f2456941 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 80f054e0 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7c39b1fe (.)
 =======
@@ -5707,3 +5755,5 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> c22b35d1e (.)
+=======
+>>>>>>> 8f2456941 (.)
