@@ -306,6 +306,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -372,6 +373,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -402,6 +405,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -525,6 +530,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -539,6 +545,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1618,7 +1626,12 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 13655a7ed (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
@@ -1628,6 +1641,7 @@ return static function (RectorConfig $rectorConfig): void {
         '*/docs',
         '*/vendor',
     ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1766,6 +1780,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 13655a7ed (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -1860,6 +1876,7 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> bd804d67 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1880,6 +1897,10 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -1926,6 +1947,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1934,6 +1956,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -2063,6 +2087,7 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 51182e3c (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> a9bf0423 (rebase 210)
@@ -2200,6 +2225,8 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> 51182e3c (rebase 210)
 >>>>>>> 13655a7ed (.)
+=======
+>>>>>>> 3e757cee2 (.)
     $rectorConfig->paths(
         [
             __DIR__,
@@ -2307,6 +2334,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2339,6 +2367,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 13655a7ed (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
@@ -2429,6 +2459,7 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2449,6 +2480,10 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
 >>>>>>> a12f125f4a (.)
 =======
     $rectorConfig->paths([
@@ -2507,6 +2542,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2521,6 +2557,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2650,6 +2688,7 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -3176,6 +3215,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
@@ -3425,6 +3466,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3492,6 +3534,8 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> e0836b102 (.)
 =======
+>>>>>>> 3e757cee2 (.)
+=======
 =======
 >>>>>>> d09cb759 (.)
 <<<<<<< HEAD
@@ -3539,6 +3583,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -3619,6 +3665,7 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3676,6 +3723,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4005,6 +4054,7 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -4295,6 +4345,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
     $rectorConfig->sets([
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         SetList::DEAD_CODE,
@@ -4553,6 +4605,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -4621,6 +4674,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> 460b8f5b (rebase 210)
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
@@ -4744,6 +4799,8 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 229a065a (rebase 210)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -4865,6 +4922,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -4879,6 +4937,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -5144,7 +5204,12 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 13655a7ed (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
     $rectorConfig->sets(
         [
             PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
@@ -5257,6 +5322,7 @@ return static function (RectorConfig $rectorConfig): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -5289,6 +5355,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 13655a7ed (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
@@ -5414,6 +5482,7 @@ return static function (RectorConfig $rectorConfig): void {
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
@@ -5466,12 +5535,17 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5530,6 +5604,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -5646,6 +5722,7 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -6097,6 +6174,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 
     $rectorConfig->importNames();
 >>>>>>> 75179b85 (.)

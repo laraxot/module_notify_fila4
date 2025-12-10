@@ -206,6 +206,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -214,6 +215,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,11 +240,15 @@ declare(strict_types=1);
 >>>>>>> 7a2f131f (.)
 >>>>>>> 848f79b79 (.)
 =======
+>>>>>>> 1c0eb9c7 (rebase 210)
+>>>>>>> 3e757cee2 (.)
+=======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,10 +276,14 @@ declare(strict_types=1);
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1176,6 +1186,8 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> cb85c538 (rebase 210)
 <<<<<<< HEAD
 =======
@@ -1556,6 +1568,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -1638,8 +1651,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 848f79b79 (.)
 =======
+>>>>>>> 3e757cee2 (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1698,6 +1714,8 @@ declare(strict_types=1);
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1963,7 +1981,12 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 13655a7ed (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
  * 
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
@@ -2064,6 +2087,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2096,6 +2120,8 @@ declare(strict_types=1);
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 13655a7ed (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2256,6 +2282,7 @@ declare(strict_types=1);
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2276,6 +2303,10 @@ declare(strict_types=1);
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
 >>>>>>> a12f125f4a (.)
 =======
  *
@@ -2330,6 +2361,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2344,6 +2376,8 @@ declare(strict_types=1);
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2677,6 +2711,7 @@ declare(strict_types=1);
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -2910,6 +2945,8 @@ declare(strict_types=1);
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
  * @author Laraxot Team
 <<<<<<< HEAD
  *

@@ -790,6 +790,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -980,6 +981,7 @@ $this->call('queue:prune-batches', [
 =======
 >>>>>>> fdb24863 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
@@ -1116,11 +1118,16 @@ $this->call('queue:prune-batches', [
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
 # Supervisor config
 <<<<<<< HEAD
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1300,6 +1307,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -2040,10 +2049,14 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 >>>>>>> fdb24863 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2566,6 +2579,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -3131,6 +3146,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3824,11 +3840,15 @@ php artisan queue:restart
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> fdb24863 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 - [Redis Documentation](https://redis.io/documentation)
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 - [Redis Documentation](https://redis.io/documentation)
 =======
@@ -4217,3 +4237,5 @@ php artisan queue:restart
 >>>>>>> e0836b102 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)

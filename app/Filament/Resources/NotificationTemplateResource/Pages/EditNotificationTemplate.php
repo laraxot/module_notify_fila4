@@ -254,6 +254,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -891,6 +892,11 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 >>>>>>> bd804d67 (.)
+=======
+use Modules\Notify\Filament\Resources\NotificationTemplateResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+=======
+>>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
@@ -1133,6 +1139,7 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1147,6 +1154,8 @@ use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
@@ -1309,6 +1318,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
@@ -1868,6 +1878,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 
 class EditNotificationTemplate extends XotBaseEditRecord
 {
@@ -2119,6 +2131,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2146,6 +2159,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 229a065a (rebase 210)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2268,6 +2283,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2282,6 +2298,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2625,6 +2643,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -2914,6 +2933,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 
     /*
      * protected function getRedirectUrl(): string
@@ -2935,6 +2956,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3314,6 +3336,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
@@ -3396,8 +3419,11 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> 848f79b79 (.)
 =======
+>>>>>>> 3e757cee2 (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3456,6 +3482,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -3721,7 +3749,12 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 13655a7ed (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
     /*
     protected function getRedirectUrl(): string
     {
@@ -3836,6 +3869,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3868,6 +3902,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 13655a7ed (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4033,6 +4069,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -4053,6 +4090,10 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+=======
+>>>>>>> 229a065a (rebase 210)
+>>>>>>> 3e757cee2 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -4122,6 +4163,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -4136,6 +4178,8 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4503,6 +4547,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -4814,3 +4859,5 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)

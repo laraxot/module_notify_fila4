@@ -257,6 +257,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -691,6 +692,10 @@ use Modules\Notify\Datas\TelegramData;
  *
 =======
 >>>>>>> bd804d67 (.)
+=======
+ *
+=======
+>>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
 =======
  *
@@ -892,6 +897,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -906,6 +912,8 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
  *
@@ -1074,6 +1082,7 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 84082535 (rebase 210)
@@ -1669,6 +1678,8 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider Telegram devono rispettare.
  */
@@ -1827,6 +1838,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1893,6 +1905,8 @@ interface TelegramProviderActionInterface
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2179,6 +2193,10 @@ interface TelegramProviderActionInterface
 }
 =======
 >>>>>>> bd804d67 (.)
+=======
+}
+=======
+>>>>>>> 229a065a (rebase 210)
 <<<<<<< HEAD
 =======
 }
@@ -2270,6 +2288,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2284,6 +2303,8 @@ interface TelegramProviderActionInterface
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -2960,6 +2981,7 @@ interface TelegramProviderActionInterface
 >>>>>>> 1c0eb9c7 (rebase 210)
 =======
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 84082535 (rebase 210)
 =======
@@ -3307,3 +3329,5 @@ interface TelegramProviderActionInterface
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 3e757cee2 (.)

@@ -447,6 +447,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
@@ -1008,12 +1009,16 @@ module.exports = {
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 >>>>>>> fdb24863 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
 >>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 >>>>>>> 84082535 (rebase 210)
@@ -1448,6 +1453,8 @@ module.exports = {
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 - Usare i plugin per pattern condivisi (bottoni, alert, badge, card, ecc.).
 - Versionare e testare i plugin per evitare regressioni.
 - Integrare plugin solo se realmente riutilizzati da più moduli/temi.
@@ -1704,6 +1711,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
@@ -2265,12 +2273,16 @@ module.exports = {
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 >>>>>>> fdb24863 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3e757cee2 (.)
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
 >>>>>>> d284d65 (.)
 >>>>>>> 229a065a (rebase 210)
+<<<<<<< HEAD
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 >>>>>>> 84082535 (rebase 210)
@@ -2705,6 +2717,8 @@ module.exports = {
 >>>>>>> f957fb24b (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 3e757cee2 (.)
 - [Webcrunch: Creare Plugin Tailwind](https://webcrunch.com/posts/create-a-tailwind-css-plugin-from-scratch)
 
 ---
