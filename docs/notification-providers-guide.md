@@ -574,7 +574,9 @@ Questo documento fornisce una panoramica completa dell'architettura standardizza
 =======
 # Guida Completa ai Provider di Notifiche 
 
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
@@ -596,6 +598,12 @@ Questo documento fornisce una panoramica completa dell'architettura standardizza
 
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di SaluteOra.
 >>>>>>> 2a97406c (.)
+=======
+=======
+Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di .
+Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 
 ## Principi Architetturali per Tutti i Provider
 

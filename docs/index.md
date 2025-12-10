@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -207,6 +208,8 @@
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
 # Notify Module Documentation
 
 ## Overview
@@ -329,12 +332,15 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,12 +537,16 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
+=======
+>>>>>>> 909e45af (.)
 =======
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
@@ -710,6 +720,8 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -752,6 +764,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -908,6 +921,12 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> 3f39ac8b (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -939,6 +958,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -1067,6 +1087,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -1140,6 +1165,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - **Fallimenti di Consegna**: Assicurarsi della corretta configurazione di chiavi API e endpoint per ogni canale di notifica
 - **Errori Template**: Verificare sintassi template e placeholder per evitare problemi di rendering
 - **Colli di Bottiglia Performance**: Utilizzare il queueing per l'invio di notifiche per prevenire ritardi nell'esperienza utente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2524,6 +2550,11 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
 =======
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
@@ -2612,6 +2643,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2668,6 +2700,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
 =======
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
@@ -2683,6 +2717,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -2699,6 +2734,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
@@ -3662,14 +3699,18 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> 909e45af (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3698,6 +3739,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 909e45af (.)
 =======
 >>>>>>> f813254 (.)
 =======
@@ -4433,4 +4476,14 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
+
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
+>>>>>>> 909e45af (.)

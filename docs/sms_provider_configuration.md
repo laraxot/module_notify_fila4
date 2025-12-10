@@ -1265,8 +1265,15 @@ return [
 >>>>>>> 23cbbaf5 (.)
 =======
     'from' => env('SMS_FROM', '<nome progetto>'),
+<<<<<<< HEAD
     'from' => env('SMS_FROM', 'SaluteOra'),
+<<<<<<< HEAD
 >>>>>>> 2a97406c (.)
+=======
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
@@ -2426,8 +2433,15 @@ return [
 >>>>>>> 23cbbaf5 (.)
 =======
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+<<<<<<< HEAD
 >>>>>>> 2a97406c (.)
+=======
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
         'twilio' => [
@@ -3644,8 +3658,15 @@ SMS_FROM=<nome progetto>
 >>>>>>> 23cbbaf5 (.)
 =======
 SMS_FROM=<nome progetto>
+<<<<<<< HEAD
 SMS_FROM=SaluteOra
+<<<<<<< HEAD
 >>>>>>> 2a97406c (.)
+=======
+=======
+SMS_FROM=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 SMS_RETRY_ATTEMPTS=3
 SMS_RETRY_DELAY=60
 
@@ -4796,8 +4817,15 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> 23cbbaf5 (.)
 =======
 NETFUN_SENDER=<nome progetto>
+<<<<<<< HEAD
 NETFUN_SENDER=SaluteOra
+<<<<<<< HEAD
 >>>>>>> 2a97406c (.)
+=======
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Twilio

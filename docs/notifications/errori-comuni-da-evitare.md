@@ -106,6 +106,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 =======
 # Errori Comuni da Evitare nelle Implementazioni di Moduli 
@@ -204,9 +205,13 @@
 # Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
 >>>>>>> 23cbbaf5 (.)
 =======
+# Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
+>>>>>>> 909e45af (.)
+=======
 # Errori Comuni da Evitare nelle Implementazioni di Moduli 
 # Errori Comuni da Evitare nelle Implementazioni di Moduli <nome progetto>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,6 +521,8 @@
 =======
 # Errori Comuni da Evitare nelle Implementazioni di Moduli SaluteOra
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 
 ## Errori di Struttura Directory e Namespace
 
@@ -623,6 +630,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ❌ ERRATO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/`
 =======
@@ -786,6 +794,10 @@
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
 >>>>>>> 23cbbaf5 (.)
+=======
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+>>>>>>> 909e45af (.)
 =======
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
@@ -823,6 +835,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
@@ -1142,6 +1155,8 @@
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
    
    > Le directory standard di Laravel sono sempre in lowercase (`app`, `config`, `resources`, ecc.)
 

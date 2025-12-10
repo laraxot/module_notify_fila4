@@ -222,6 +222,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
 =======
 - **Elementi visuali**: Utilizzare logo, colori e font 
@@ -320,9 +321,13 @@ Questo documento descrive le best practices per la creazione e gestione di email
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> 23cbbaf5 (.)
 =======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> 909e45af (.)
+=======
 - **Elementi visuali**: Utilizzare logo, colori e font 
 - **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -632,6 +637,8 @@ Questo documento descrive le best practices per la creazione e gestione di email
 =======
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
 
@@ -780,6 +787,7 @@ I template di [mailpace/templates](https://github.com/mailpace/templates) integr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 =======
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
@@ -879,10 +887,14 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> 23cbbaf5 (.)
 =======
+La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
+>>>>>>> 909e45af (.)
+=======
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1202,6 +1214,8 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 =======
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
 - **main.html**: Alternativa minimalista
@@ -1313,6 +1327,7 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo le regole di progetto <nome progetto>, ricordare di:
 =======
 Seguendo le regole di progetto , ricordare di:
@@ -1411,9 +1426,13 @@ Seguendo le regole di progetto SaluteOra, ricordare di:
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> 23cbbaf5 (.)
 =======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> 909e45af (.)
+=======
 Seguendo le regole di progetto , ricordare di:
 Seguendo le regole di progetto <nome progetto>, ricordare di:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1723,6 +1742,8 @@ Seguendo le regole di progetto SaluteOra, ricordare di:
 =======
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 
 - NON creare controller personalizzati per gestire l'invio di email
 - Utilizzare il package `spatie/laravel-mail-templates`

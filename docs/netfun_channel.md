@@ -1625,8 +1625,15 @@ SMS_FROM_NAME=<nome progetto>
 >>>>>>> 23cbbaf5 (.)
 =======
 SMS_FROM_NAME=<nome progetto>
+<<<<<<< HEAD
 SMS_FROM_NAME=SaluteOra
+<<<<<<< HEAD
 >>>>>>> 2a97406c (.)
+=======
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 

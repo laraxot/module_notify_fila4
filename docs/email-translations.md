@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -180,6 +181,8 @@
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 909e45af (.)
 # Integrazione Traduzioni Email - il progetto
 
 ## Panoramica
@@ -361,6 +364,7 @@ class TranslatableFooterBlock extends Block
 ```php
 class MailTemplateResource extends XotBaseResource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -650,6 +654,9 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 2a97406c (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 909e45af (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -849,6 +856,7 @@ class TranslationValidator
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1315,3 +1323,9 @@ class TranslationValidator
 - [Laravel Lang](https://github.com/Laravel-Lang/lang)
 - [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
 >>>>>>> 2a97406c (.)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/localization)
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> 909e45af (.)
