@@ -15,6 +15,7 @@ beforeEach(function () {
     $this->user = XotData::make()->getUserClass()::factory()->create();
     $this->user->assignRole('notify::admin');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     actingAs($this->user);
 
@@ -23,6 +24,11 @@ beforeEach(function () {
     actingAs($this->user);
     
 >>>>>>> 8bc2fc9f (first)
+=======
+
+    actingAs($this->user);
+
+>>>>>>> 20a3d3b (.)
     // Set panel corrente
     Filament::setCurrentPanel(
         Filament::getPanel('notify::admin')
@@ -32,6 +38,7 @@ beforeEach(function () {
 test('spatie-translatable plugin is registered in notify::admin panel', function () {
     $panel = Filament::getPanel('notify::admin');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     $plugin = $panel->getPlugin('spatie-translatable');
 
@@ -40,6 +47,11 @@ test('spatie-translatable plugin is registered in notify::admin panel', function
     $plugin = $panel->getPlugin('spatie-translatable');
     
 >>>>>>> 8bc2fc9f (first)
+=======
+
+    $plugin = $panel->getPlugin('spatie-translatable');
+
+>>>>>>> 20a3d3b (.)
     expect($plugin)
         ->toBeInstanceOf(SpatieTranslatablePlugin::class)
         ->and($plugin->getDefaultLocales())
@@ -49,10 +61,14 @@ test('spatie-translatable plugin is registered in notify::admin panel', function
 test('locale switcher action exists in ListMailTemplates', function () {
     MailTemplate::factory()->count(3)->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> 8bc2fc9f (first)
+=======
+
+>>>>>>> 20a3d3b (.)
     Livewire::test(ListMailTemplates::class)
         ->assertActionExists('locale_switcher');
 });
@@ -60,16 +76,23 @@ test('locale switcher action exists in ListMailTemplates', function () {
 test('ListMailTemplates renders without plugin registration error', function () {
     MailTemplate::factory()->count(3)->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> 8bc2fc9f (first)
+=======
+
+>>>>>>> 20a3d3b (.)
     Livewire::test(ListMailTemplates::class)
         ->assertSuccessful()
         ->assertCanSeeTableRecords(MailTemplate::all());
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 8bc2fc9f (first)
+=======
+>>>>>>> 20a3d3b (.)

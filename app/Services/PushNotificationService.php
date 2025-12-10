@@ -433,6 +433,7 @@ class PushNotificationService
         if (strlen($token) === 64 && ctype_xdigit($token)) {
             return 'apns';
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
         if (strlen($token) > 100 && str_contains($token, ':')) {
             return 'fcm';
@@ -446,6 +447,14 @@ class PushNotificationService
             return 'webpush';
         }
 >>>>>>> 8bc2fc9f (first)
+=======
+        }
+        if (strlen($token) > 100 && str_contains($token, ':')) {
+            return 'fcm';
+        }
+
+        return 'webpush';
+>>>>>>> 20a3d3b (.)
     }
 
     /**
