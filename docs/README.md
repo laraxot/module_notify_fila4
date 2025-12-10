@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +566,8 @@ Log::channel('email')->info('Email sent', [
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
 # Modulo Notify - Documentazione
 
 ## 📚 Overview
@@ -1046,6 +1049,7 @@ Log::channel('email')->info('Email sent', [
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
 =======
@@ -1487,6 +1491,10 @@ php artisan notify:test-push
 =======
 >>>>>>> bd22fd4 (.)
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> a612126 (.)
+>>>>>>> 70175d0c4 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -1825,6 +1833,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2009,3 +2018,10 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 =======
 >>>>>>> bd22fd4 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 7bac387 (.)
+=======
+>>>>>>> bd22fd4 (.)
+=======
+>>>>>>> a612126 (.)
+>>>>>>> 70175d0c4 (.)

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -223,6 +225,10 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Test Sistema Email - il progetto
 
 ## Panoramica
@@ -747,6 +753,7 @@ class TestData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
@@ -1228,6 +1235,7 @@ class TestData
 - [PHPUnit](https://phpunit.de/)
 - [Laravel Dusk](https://laravel.com/docs/dusk) 
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1311,3 +1319,5 @@ class TestData
 =======
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)

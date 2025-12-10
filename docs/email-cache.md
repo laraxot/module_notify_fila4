@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -223,6 +225,10 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Sistema Cache Email 
 
 ## Panoramica
@@ -799,6 +805,7 @@ class MailCacheDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
@@ -1280,6 +1287,7 @@ class MailCacheDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1363,3 +1371,5 @@ class MailCacheDebugger
 =======
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)

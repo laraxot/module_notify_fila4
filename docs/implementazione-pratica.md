@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -223,6 +225,10 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -710,6 +716,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -771,6 +778,7 @@ class TemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> b99af5a8 (.)
@@ -997,6 +1005,8 @@ class TemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1476,6 +1486,7 @@ class TemplateControllerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -1567,6 +1578,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -1630,10 +1642,13 @@ class TemplateControllerTest extends TestCase
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1670,6 +1685,8 @@ class TemplateControllerTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
 >>>>>>> 2a97406c (.)
 =======
 <<<<<<< HEAD
@@ -1715,6 +1732,7 @@ class TemplateControllerTest extends TestCase
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1952,3 +1970,5 @@ class TemplateControllerTest extends TestCase
 =======
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)

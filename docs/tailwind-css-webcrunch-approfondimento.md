@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -223,6 +225,10 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Approfondimento Completo: Tailwind CSS su Webcrunch
 
 Fonte: [Webcrunch Tailwind CSS Collection](https://webcrunch.com/collections/tailwind-css)
@@ -403,6 +409,7 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Documentazione**: mantenere esempi e snippet aggiornati in `/docs` e in `/Themes/One/project_docs/`.
 >>>>>>> 75179b85 (.)
@@ -459,6 +466,7 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 =======
 - **Documentazione**: mantenere esempi e snippet aggiornati in `/docs` e in `/Themes/One/project_docs/`.
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -659,6 +667,10 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 - **Documentazione**: mantenere esempi e snippet aggiornati in `/docs` e in `/Themes/One/docs/`.
 
 ---
@@ -679,6 +691,7 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 - Usare plugin custom e componenti Blade per evitare duplicazione classi.
 - Documentare pattern e plugin condivisi.
 - Favorire accessibilità e coerenza tra moduli e temi.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -888,6 +901,8 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 =======
 >>>>>>> 23cbbaf5 (.)
 =======
+>>>>>>> 70175d0c4 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -899,6 +914,7 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -920,3 +936,5 @@ Tailwind CSS è un framework CSS utility-first che permette di costruire interfa
 =======
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)

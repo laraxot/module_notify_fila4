@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -223,6 +225,10 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Analisi Plugin Email per Filament - il progetto
 
 ## Panoramica
@@ -445,6 +451,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -506,6 +513,7 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> b99af5a8 (.)
@@ -732,6 +740,8 @@ class MailTemplateResource extends XotBaseResource
     public static function form(Form $form): Form
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1026,6 +1036,7 @@ class MailAnalytics
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 >>>>>>> 75179b85 (.)
@@ -1392,6 +1403,7 @@ class MailAnalytics
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Packages](https://spatie.be/open-source) 
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Laravel Mail](https://laravel.com/docs/mail)
@@ -1417,3 +1429,5 @@ class MailAnalytics
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)

@@ -463,6 +463,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2745,10 +2746,14 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 70175d0c4 (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
@@ -2779,11 +2784,14 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2812,6 +2820,8 @@ declare(strict_types=1);
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -3009,6 +3019,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 87271fea (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -3802,9 +3813,12 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 87271fea (.)
 =======
+>>>>>>> 70175d0c4 (.)
+=======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 518c702 (.)
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 70c6f8bd (.)
 =======
@@ -3961,6 +3975,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 171436612 (.)
+=======
+>>>>>>> 70175d0c4 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4439,6 +4455,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4562,6 +4579,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 171436612 (.)
+=======
+>>>>>>> 70175d0c4 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4885,6 +4904,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -4911,6 +4931,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 					<td bgcolor="#ffffff" class="contentblock">
 =======
 =======
@@ -4918,6 +4942,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 <<<<<<< HEAD
 >>>>>>> 518c702 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4946,6 +4971,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
 >>>>>>> f963d2c0 (.)
 =======
 					<td bgcolor="#ffffff" class="contentblock">
@@ -5445,6 +5472,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 87271fea (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -6935,3 +6963,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 171436612 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)

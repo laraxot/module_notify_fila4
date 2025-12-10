@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,7 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -141,6 +143,10 @@
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -309,6 +315,7 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1190,6 +1197,7 @@ Log::debug('SMS Debug', [
 - [Laravel Queue](https://laravel.com/docs/queues)
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -1363,6 +1371,8 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 70175d0c4 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
 <<<<<<< HEAD
@@ -1542,6 +1552,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1585,6 +1596,7 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -1830,6 +1842,10 @@ Log::debug('SMS Debug', [
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 
 ## Supporto
 
@@ -1859,6 +1875,7 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1952,6 +1969,8 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> 66453ace (.)
 =======
+>>>>>>> 70175d0c4 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1959,6 +1978,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -2014,3 +2034,5 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)

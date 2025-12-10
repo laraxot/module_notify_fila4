@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +87,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -223,6 +225,10 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Integrazione GrapesJS Editor (Dotswan)
 
 Questo documento analizza il plugin [Dotswan GrapesJS](https://filamentphp.com/plugins/dotswan-grapesjs) per Filament e propone una versione in-house open source migliorata.
@@ -384,6 +390,7 @@ public static function form(Form $form): Form {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema {
 =======
 public static function form(Form $form): Form {
@@ -445,6 +452,7 @@ public static function form(Form $form): Form {
 =======
 public static function form(Form $form): Form {
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 public static function form(Form $form): Form {
 >>>>>>> b99af5a8 (.)
@@ -671,6 +679,8 @@ public static function form(Form $form): Form {
 public static function form(Form $form): Form {
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
     return $form->schema([
         TextInput::make('name')->required(),
         GrapesJsEditor::make('content_json')
@@ -886,6 +896,7 @@ class PublishPageTemplateAction {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 75179b85 (.)
@@ -1183,6 +1194,7 @@ class PublishPageTemplateAction {
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> bb7e77c2 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> 36321fcb (.)
@@ -1208,3 +1220,8 @@ class PublishPageTemplateAction {
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+- GrapesJS Docs: https://grapesjs.com/docs/
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)

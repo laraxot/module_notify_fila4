@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +95,7 @@
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -247,6 +249,10 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Visualizzazione Parametri come Badge - Mail Templates
 
 ## Panoramica
@@ -423,6 +429,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 <<<<<<< HEAD
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1082,6 +1089,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 =======
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -1148,3 +1156,5 @@ Badge: [user_name] [reset_link] [expiry_time]
 **Compatibilità**: Filament 3.x, Laravel 10+ 
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,7 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -141,6 +143,10 @@
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Analisi e Miglioramenti del Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti
@@ -159,6 +165,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +368,7 @@ class TemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
@@ -386,6 +394,8 @@ class TemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
     {
         return $form->schema([
             Builder::make('content')
@@ -622,6 +632,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -770,6 +781,7 @@ class TemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
@@ -795,6 +807,8 @@ class TemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1136,6 +1150,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1255,6 +1270,7 @@ class TemplatePreview extends Component
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -1757,12 +1773,15 @@ class TemplatePreview extends Component
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 70175d0c4 (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2938,6 +2957,7 @@ class TemplatePreview extends Component
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 =======
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
@@ -3031,3 +3051,5 @@ class TemplatePreview extends Component
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 70175d0c4 (.)

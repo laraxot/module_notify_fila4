@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,7 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -141,6 +143,10 @@
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Test del Sistema di Gestione Email - il progetto
 
 ## Panoramica
@@ -732,6 +738,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1655,6 +1662,7 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -1743,6 +1751,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 70175d0c4 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -1975,6 +1985,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2252,6 +2263,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 8e5817bc (.)
 =======
@@ -2496,6 +2508,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 70175d0c4 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -2505,6 +2519,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3567,6 +3582,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 - [Pest PHP](https://pestphp.com/docs) 
 =======
@@ -3938,3 +3954,5 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 70175d0c4 (.)

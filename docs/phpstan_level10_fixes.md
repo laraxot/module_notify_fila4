@@ -107,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -156,6 +157,7 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -207,6 +209,10 @@
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Correzioni PHPStan Livello 10 - Modulo Notify
 
 Questo documento traccia gli errori PHPStan di livello 10 identificati nel modulo Notify e le relative soluzioni implementate.
@@ -405,6 +411,7 @@ Fino ad ora, abbiamo risolto la maggior parte degli errori di livello 10 in entr
 5. Aggiornare le linee guida di sviluppo per prevenire errori simili in futuro 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,6 +794,7 @@ COMPOSER_DISABLE_XDEBUG_WARN=1 ./vendor/bin/phpstan analyse Modules/Notify --lev
 - ⚠️ Configuration-related errors remain
 >>>>>>> bb7e77c2 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -1012,3 +1020,7 @@ COMPOSER_DISABLE_XDEBUG_WARN=1 ./vendor/bin/phpstan analyse Modules/Notify --lev
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)

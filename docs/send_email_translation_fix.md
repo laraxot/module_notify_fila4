@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,7 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -141,6 +143,10 @@
 >>>>>>> 998e6866b (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 # Fix Traduzioni File send_email.php - Modulo Notify
 
 ## Problemi Identificati
@@ -273,6 +279,7 @@ Ogni campo ora ha la struttura espansa completa:
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,6 +1161,7 @@ Ogni campo ora ha la struttura espansa completa:
 - [Regole Helper Text](../docs/translation-helper-text-standards.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -1327,6 +1335,8 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 70175d0c4 (.)
 - [Documentazione Root](../project_docs/translation_standards_links.md)
 - [Best Practices Filament](../docs/filament_translation_best_practices.md)- [Documentazione Root](../project_docs/translation_standards_links.md)
 <<<<<<< HEAD
@@ -1506,6 +1516,7 @@ Ogni campo ora ha la struttura espansa completa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1549,6 +1560,7 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
@@ -1794,6 +1806,10 @@ Ogni campo ora ha la struttura espansa completa:
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+=======
+>>>>>>> 36321fcb (.)
+>>>>>>> 70175d0c4 (.)
 
 ## Note Importanti
 
@@ -1939,6 +1955,7 @@ Ogni campo ora ha la struttura espansa completa:
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 712617d3 (.)
@@ -2016,3 +2033,5 @@ Ogni campo ora ha la struttura espansa completa:
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> 70175d0c4 (.)

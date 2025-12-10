@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Standard <nome progetto>: Componenti Blade Filament
 
 =======
@@ -86,6 +87,8 @@
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
 # Standard <nome progetto>: Componenti Blade Filament
 
 <<<<<<< HEAD
@@ -471,10 +474,14 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
 >>>>>>> bb7e77c2 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 70175d0c4 (.)
 =======
 # Standard <nome progetto>: Componenti Blade Filament
 
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 # Standard <nome progetto>: Componenti Blade Filament
 
@@ -518,6 +525,8 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 
 ## Vantaggi rispetto a componenti custom
@@ -603,6 +612,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 - [README Notify](README.md)
 - [queueable-action.md](queueable-action.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,11 +818,15 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 =======
 >>>>>>> bb7e77c2 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 70175d0c4 (.)
 =======
 - [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 - [README Notify](README.md)
 - [queueable-action.md](queueable-action.md)
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b99af5a8 (.)
 =======
@@ -1123,3 +1137,5 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 70175d0c4 (.)
