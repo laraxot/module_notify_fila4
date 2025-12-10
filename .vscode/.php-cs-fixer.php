@@ -128,6 +128,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -426,6 +427,7 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
 =======
@@ -448,6 +450,8 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 510809c6f (.)
 declare(strict_types=1);
 
 
@@ -918,6 +922,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> d09cb759 (.)
 =======
 declare(strict_types=1);
@@ -1168,6 +1175,7 @@ declare(strict_types=1);
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -1270,6 +1278,8 @@ declare(strict_types=1);
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1305,6 +1315,7 @@ $finder = PhpCsFixer\Finder::create()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
@@ -1326,6 +1337,7 @@ $finder = PhpCsFixer\Finder::create()
 =======
     ->ignoreVCS(true)
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     ->ignoreVCS(true)
@@ -1390,6 +1402,11 @@ $finder = PhpCsFixer\Finder::create()
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+    ->ignoreVCS(true)
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -1487,6 +1504,7 @@ $config
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1517,6 +1535,8 @@ return $config;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)
 =======
     ->setFinder($finder)
 
@@ -1574,6 +1594,7 @@ return $config;
 
 return $config;
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
     ->setFinder($finder)
 
@@ -1624,3 +1645,5 @@ return $config;
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 510809c6f (.)

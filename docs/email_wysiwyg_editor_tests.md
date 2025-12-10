@@ -667,6 +667,7 @@ class FileUploadSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -679,6 +680,61 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -736,60 +792,6 @@ class FileUploadSecurityTest extends TestCase
 =======
 >>>>>>> d09cb759 (.)
 =======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 4689a827 (.)
-=======
->>>>>>> 6608a1a0 (.)
-=======
->>>>>>> 7325acf3 (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> bd804d67 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 2effe245 (.)
-=======
->>>>>>> 69fa7d37 (.)
-=======
->>>>>>> e790eb33 (.)
-=======
->>>>>>> eb71492d (.)
-=======
->>>>>>> 3ee54c5d (.)
-=======
->>>>>>> 0ebb7b01 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -815,6 +817,8 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 510809c6f (.)
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
 =======
@@ -894,6 +898,9 @@ class FileUploadSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
@@ -982,10 +989,14 @@ class FileUploadSecurityTest extends TestCase
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
 >>>>>>> f963d2c0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 =======
 >>>>>>> d284d65 (.)
 - [PHPUnit Documentation](https://phpunit.de/documentation.html) 
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 - [Laravel Testing Documentation](https://laravel.com/docs/testing)
 - [Dusk Documentation](https://laravel.com/docs/dusk)
@@ -1740,3 +1751,5 @@ class FileUploadSecurityTest extends TestCase
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 510809c6f (.)

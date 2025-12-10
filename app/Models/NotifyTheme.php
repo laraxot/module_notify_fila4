@@ -96,6 +96,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -141,6 +142,7 @@ use Override;
 use Override;
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 use Override;
 =======
@@ -170,6 +172,8 @@ use Override;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 510809c6f (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +191,9 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> d09cb759 (.)
 =======
 use Override;
@@ -232,6 +239,7 @@ use Override;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 use Override;
 >>>>>>> 3f537838 (.)
@@ -555,10 +563,17 @@ use Override;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Eloquent;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -648,6 +663,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array $view_params
  * @property array $logo
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
  * @property Model|Eloquent $linkable
 =======
 <<<<<<< HEAD
@@ -1193,6 +1214,44 @@ class NotifyTheme extends BaseModel implements HasMedia
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
+=======
+=======
+ * @property Model|\Eloquent $linkable
+ * @property MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property int|null $media_count
+ * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme query()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereBody($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereBodyHtml($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereFrom($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereFromEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLang($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoHeight($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoSrc($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoWidth($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme wherePostId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme wherePostType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereSubject($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereTheme($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereUpdatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereViewParams($value)
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @mixin \Eloquent
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedBy($value)
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
  * @mixin IdeHelperNotifyTheme
 <<<<<<< HEAD
 =======
@@ -1531,6 +1590,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1599,10 +1659,13 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
     public function getLogoAttribute(null|array $value): array
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 510809c6f (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1620,6 +1683,9 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> d09cb759 (.)
 =======
     public function getLogoAttribute(null|array $value): array
@@ -1660,6 +1726,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 3f537838 (.)
@@ -2169,6 +2236,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -2190,6 +2259,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2343,6 +2413,7 @@ class NotifyTheme extends BaseModel
     #[Override]
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
     #[Override]
 =======
@@ -2398,6 +2469,8 @@ class NotifyTheme extends BaseModel
     #[Override]
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 510809c6f (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2423,6 +2496,9 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> d09cb759 (.)
 =======
     #[Override]
@@ -2586,6 +2662,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
@@ -2727,6 +2804,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
     protected function casts(): array
     {
         return [
@@ -2817,6 +2896,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2837,6 +2917,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -2859,6 +2940,8 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -2898,6 +2981,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2906,6 +2990,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
 =======
@@ -2914,6 +2999,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 510809c6f (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
@@ -2926,6 +3013,9 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2933,6 +3023,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
@@ -2952,6 +3043,10 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
 
             'updated_by' => 'string',
             'created_by' => 'string',
@@ -2970,8 +3065,11 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2998,6 +3096,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 207ac35e (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -3021,9 +3120,15 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 510809c6f (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3040,6 +3145,8 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -3056,6 +3163,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4689a827 (.)
 =======
@@ -3064,6 +3172,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -3076,6 +3186,9 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> d09cb759 (.)
 =======
             'updated_by' => 'string',
@@ -3126,6 +3239,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
             'updated_by' => 'string',
             'created_by' => 'string',
@@ -3187,6 +3301,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 =======
 =======

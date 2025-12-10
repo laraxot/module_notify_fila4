@@ -345,6 +345,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -357,6 +358,63 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 31f5d28f (.)
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 229a065a (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> 9f8e680a (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> 22baa66d (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> e790eb33 (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> 0ebb7b01 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -416,62 +474,6 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 =======
 >>>>>>> d09cb759 (.)
 =======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> 4689a827 (.)
-=======
->>>>>>> 6608a1a0 (.)
-=======
->>>>>>> 7325acf3 (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
->>>>>>> f2e64178 (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> dceba960 (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> bd804d67 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> 229a065a (rebase 210)
-=======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> 9f8e680a (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> 5aedc39c (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> 22baa66d (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 2effe245 (.)
-=======
->>>>>>> 69fa7d37 (.)
-=======
->>>>>>> e790eb33 (.)
-=======
->>>>>>> eb71492d (.)
-=======
->>>>>>> 3ee54c5d (.)
-=======
->>>>>>> 0ebb7b01 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -499,6 +501,8 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 510809c6f (.)
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 =======
@@ -581,6 +585,9 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> 75179b85 (.)
 =======
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
@@ -656,6 +663,7 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 * [test-smtp-page.md](../../../Notify/docs/test-smtp-page.md)
 * [test-smtp-page.md](../../../Cms/docs/test-smtp-page.md)
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -1315,6 +1323,11 @@ Inseriti le varie impostazioni, si potrà verificare il funzionamento di una det
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
 
 
 ### Versione Incoming

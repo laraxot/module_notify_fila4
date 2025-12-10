@@ -40,6 +40,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -47,6 +48,8 @@ declare(strict_types=1);
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
 
 // This file references SaluteOra models that do not exist in this project
 =======
@@ -68,6 +71,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 82ae73be (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -81,6 +85,10 @@ declare(strict_types=1);
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
 namespace Modules\Notify\Actions;
 
 use Exception;
@@ -136,8 +144,11 @@ use Illuminate\Support\Facades\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
 // use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 // use Modules\SaluteOra\Models\Patient;
@@ -177,11 +188,15 @@ use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\SaluteOra\Models\Patient;
 >>>>>>> 82ae73be (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 =======
 use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
 use Modules\SaluteOra\Models\Patient;
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 // use Modules\SaluteOra\Models\Appointment;
 use Modules\Notify\Mail\AppointmentNotificationMail;
@@ -325,6 +340,8 @@ use Modules\Notify\Mail\AppointmentNotificationMail;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
 use Spatie\QueueableAction\QueueableAction;
 
 class SendAppointmentNotificationAction
@@ -436,6 +453,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -445,6 +463,8 @@ class SendAppointmentNotificationAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
      * @param mixed $appointment L'appuntamento a cui si riferisce la notifica
      * @param string $type Il tipo di notifica (confermato, annullato, promemoria, ecc.)
      * @param array<string, mixed> $additionalData Dati aggiuntivi per la notifica
@@ -651,9 +671,14 @@ class SendAppointmentNotificationAction
 >>>>>>> 3f537838 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
 =======
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
      * @param Appointment $appointment L'appuntamento a cui si riferisce la notifica
      * @param string $type Il tipo di notifica (confermato, annullato, promemoria, ecc.)
      * @param array<string, mixed> $additionalData Dati aggiuntivi per la notifica
@@ -662,8 +687,14 @@ class SendAppointmentNotificationAction
      */
     public function execute(
         Appointment $appointment,
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
         string $type,
         array $additionalData = []
     ): bool {
@@ -671,6 +702,7 @@ class SendAppointmentNotificationAction
             // Carica il paziente con le relazioni necessarie
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -766,6 +798,7 @@ class SendAppointmentNotificationAction
 =======
 >>>>>>> 82ae73be (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -789,6 +822,10 @@ class SendAppointmentNotificationAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
             $patient = Patient::with('user')->find($appointment->patient_id);
             
             if (!$patient) {
@@ -818,6 +855,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> laraxot/develop
@@ -974,9 +1012,14 @@ class SendAppointmentNotificationAction
 >>>>>>> 3f537838 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
 =======
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
                 'type' => $type,
                 'additionalData' => $additionalData,
             ];
@@ -1004,8 +1047,14 @@ class SendAppointmentNotificationAction
         } catch (Exception $e) {
             Log::error('Errore nell\'invio della notifica di appuntamento', [
                 'appointment_id' => $appointment->id,
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
                 'type' => $type,
                 'error' => $e->getMessage(),
                 'trace' => $e->getTraceAsString(),
@@ -1050,12 +1099,15 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
 
 =======
             
@@ -1078,6 +1130,7 @@ class SendAppointmentNotificationAction
 =======
             
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             
@@ -1112,6 +1165,11 @@ class SendAppointmentNotificationAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+            
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
             return false;
         }
     }
@@ -1139,6 +1197,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -1146,6 +1205,8 @@ class SendAppointmentNotificationAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
+=======
+>>>>>>> 510809c6f (.)
      * @param mixed $appointment
      * @param mixed $patient
      * @param string $type
@@ -1356,6 +1417,8 @@ class SendAppointmentNotificationAction
 >>>>>>> laraxot/develop
 =======
 =======
+=======
+>>>>>>> d09cb759 (.)
      * @param Appointment $appointment
      * @param Patient $patient
      * @param string $type
@@ -1365,8 +1428,14 @@ class SendAppointmentNotificationAction
         Patient $patient,
         string $type
     ): void {
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
         // Se esiste un modello Notification, lo utilizziamo per registrare la notifica
         if (class_exists('\Modules\Notify\Models\Notification')) {
             $notification = new Notification();
@@ -1402,6 +1471,7 @@ class SendAppointmentNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1441,6 +1511,7 @@ class SendAppointmentNotificationAction
 =======
 >>>>>>> 82ae73be (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1478,6 +1549,10 @@ class SendAppointmentNotificationAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 10292b60a (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 510809c6f (.)
     }
 }
 =======

@@ -68,6 +68,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -109,6 +110,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -150,6 +152,8 @@ use Filament\Schemas\Components\Component;
 =======
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
 =======
@@ -169,6 +173,7 @@ use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 4e2ebfb (.)
 use Filament\Schemas\Components\Section;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Infolists\Components\TextEntry;
@@ -243,6 +248,25 @@ use Override;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Filament\Schemas\Components\Component;
+use Override;
+>>>>>>> b93ef594b4 (.)
+use Filament\Schemas\Components\Section;
+=======
+use Filament\Infolists\Components\Section;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
@@ -331,6 +355,7 @@ class ViewNotification extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
 =======
 =======
@@ -349,12 +374,15 @@ class ViewNotification extends XotBaseViewRecord
 =======
 >>>>>>> d09cb759 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> 510809c6f (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,6 +393,9 @@ class ViewNotification extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 510809c6f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -427,6 +458,7 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -465,6 +497,8 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 510809c6f (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -506,11 +540,31 @@ class ViewNotification extends XotBaseViewRecord
             ]),
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
+=======
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+=======
+     * @return array<Component>
+>>>>>>> b93ef594b4 (.)
+     */
+    #[Override]
+    protected function getInfolistSchema(): array
+    {
+        return [
+<<<<<<< HEAD
+=======
+     * @return array<\Filament\Infolists\Components\Component>
+>>>>>>> 510809c6f (.)
      */
     protected function getInfolistSchema(): array
     {
         return [
+<<<<<<< HEAD
+=======
+>>>>>>> origin/develop
+>>>>>>> 510809c6f (.)
             Section::make()
                 ->schema([
                     TextEntry::make('id'),
@@ -525,9 +579,29 @@ class ViewNotification extends XotBaseViewRecord
                     TextEntry::make('updated_at')
                         ->dateTime(),
                 ])
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a12f125f4a (.)
+=======
+            Section::make()->schema([
+                TextEntry::make('id'),
+                TextEntry::make('type'),
+                TextEntry::make('notifiable_type'),
+                TextEntry::make('notifiable_id'),
+                TextEntry::make('data'),
+                TextEntry::make('read_at')->dateTime(),
+                TextEntry::make('created_at')->dateTime(),
+                TextEntry::make('updated_at')->dateTime(),
+            ]),
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> 510809c6f (.)
         ];
     }
 }
