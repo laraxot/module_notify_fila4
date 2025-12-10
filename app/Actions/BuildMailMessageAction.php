@@ -94,6 +94,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         ?DataCollection $dataCollection = null,
 >>>>>>> 58816034 (.)
@@ -226,6 +227,10 @@ class BuildMailMessageAction
         null|DataCollection $dataCollection = null,
 =======
 >>>>>>> d09cb759 (.)
+=======
+        null|DataCollection $dataCollection = null,
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240,6 +245,7 @@ class BuildMailMessageAction
         ?DataCollection $dataCollection = null
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +492,8 @@ class BuildMailMessageAction
 =======
         null|DataCollection $dataCollection = null,
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -725,7 +733,9 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -798,6 +808,8 @@ class BuildMailMessageAction
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -812,6 +824,7 @@ class BuildMailMessageAction
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,6 +914,8 @@ class BuildMailMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
@@ -972,6 +987,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1104,6 +1120,10 @@ class BuildMailMessageAction
 
 =======
 >>>>>>> d09cb759 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1118,6 +1138,7 @@ class BuildMailMessageAction
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1313,10 +1334,13 @@ class BuildMailMessageAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1420,10 +1444,13 @@ class BuildMailMessageAction
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1815,12 +1842,15 @@ class BuildMailMessageAction
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
         $email = new MailMessage()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1840,19 +1870,25 @@ class BuildMailMessageAction
 =======
 =======
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
         
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
         
         $email = (new MailMessage())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
@@ -1862,6 +1898,8 @@ class BuildMailMessageAction
 >>>>>>> 82ae73be (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1874,10 +1912,13 @@ class BuildMailMessageAction
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);

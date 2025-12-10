@@ -80,6 +80,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -192,6 +193,10 @@ return new class() extends XotBaseMigration {
 return new class() extends XotBaseMigration {
 =======
 >>>>>>> d09cb759 (.)
+=======
+return new class() extends XotBaseMigration {
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +211,7 @@ return new class() extends XotBaseMigration {
 return new class () extends XotBaseMigration {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -560,6 +566,8 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     // use XotBaseMigrationTrait;
     /**
      * Run the migrations.
@@ -629,6 +637,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -682,12 +691,15 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -824,6 +836,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->string('mailable');
@@ -831,6 +845,10 @@ return new class() extends XotBaseMigration {
             $table->longText('html_template');
             $table->longText('text_template')->nullable();
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
@@ -903,6 +921,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -949,6 +968,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -965,6 +986,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1019,6 +1041,8 @@ return new class() extends XotBaseMigration {
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->increments('id');
@@ -1058,6 +1082,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1104,6 +1129,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -1118,6 +1145,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1280,5 +1308,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 };

@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
+<<<<<<< HEAD
 use Exception;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,11 +74,20 @@ use Exception;
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+use Exception;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
@@ -480,6 +491,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
@@ -493,6 +506,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -547,11 +561,14 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -618,6 +635,8 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
@@ -641,6 +660,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -793,6 +813,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
 class RecordNotificationData extends Data
 {
@@ -905,6 +927,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -934,6 +957,8 @@ class RecordNotificationData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -951,6 +976,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1086,6 +1112,8 @@ class RecordNotificationData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1409,6 +1437,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 >>>>>>> a12f125f4a (.)
@@ -1488,6 +1517,8 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
         switch($this->channel){
 =======
@@ -1514,6 +1545,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -1527,6 +1559,8 @@ class RecordNotificationData extends Data
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
         switch($this->channel){
@@ -1544,6 +1578,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1553,12 +1588,15 @@ class RecordNotificationData extends Data
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
         throw new \Exception('Channel ['.$this->channel.'] not supported');
     }
 
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1697,4 +1735,6 @@ class RecordNotificationData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 }

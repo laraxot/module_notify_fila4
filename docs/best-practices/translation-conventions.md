@@ -212,9 +212,12 @@ Per verificare se le traduzioni sono applicate correttamente:
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)

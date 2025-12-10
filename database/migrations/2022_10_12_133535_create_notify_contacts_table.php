@@ -77,6 +77,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -135,9 +136,12 @@ return new class extends XotBaseMigration
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -232,6 +236,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 =======
@@ -247,6 +253,7 @@ return new class () extends XotBaseMigration {
     protected ?string $model_class = Contact::class;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,6 +647,8 @@ return new class () extends XotBaseMigration {
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
     /**
      * Run the migrations.
@@ -709,6 +718,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -762,12 +772,15 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -904,6 +917,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -955,6 +970,10 @@ return new class() extends XotBaseMigration {
             if (!$this->hasColumn('token')) {
 >>>>>>> 75179b855 (.)
                 $table->string('token')->nullable();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
             }
             $this->updateTimestamps(
                 table: $table,
@@ -1025,6 +1044,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1071,6 +1091,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1087,6 +1109,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1141,6 +1164,8 @@ return new class() extends XotBaseMigration {
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->increments('id');
@@ -1159,6 +1184,7 @@ return new class() extends XotBaseMigration {
                 $this->updateTimestamps(table: $table, hasSoftDeletes: true);
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1227,6 +1253,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
             }
@@ -1239,6 +1267,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1401,5 +1430,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 };

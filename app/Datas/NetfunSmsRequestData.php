@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -154,10 +155,13 @@ declare(strict_types=1);
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,11 +374,14 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,9 +396,12 @@ declare(strict_types=1);
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,10 +426,13 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -678,6 +691,8 @@ declare(strict_types=1);
 
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -838,6 +853,7 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             messages: $data['messages'],
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -897,6 +913,9 @@ class NetfunSmsRequestData extends Data
             messages: $data['messages'],
 >>>>>>> d09cb759 (.)
 =======
+            messages: $data['messages'],
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -911,6 +930,7 @@ class NetfunSmsRequestData extends Data
             messages: $data['messages']
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1274,6 +1294,8 @@ class NetfunSmsRequestData extends Data
 =======
             messages: $data['messages'],
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         );
     }
 }

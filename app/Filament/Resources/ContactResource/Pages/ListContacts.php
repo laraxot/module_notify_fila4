@@ -91,6 +91,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -173,7 +174,22 @@ use Filament\Tables;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
 =======
@@ -771,6 +787,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -814,6 +831,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 9777d1b3 (.)
 =======
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -826,6 +845,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -845,6 +865,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -918,6 +940,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -964,10 +987,13 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1162,6 +1188,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -1743,6 +1771,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1918,6 +1947,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 =======
     #[Override]
@@ -1925,6 +1956,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableColumns(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'id' => ColumnBuilder::id(),
             'name' => ColumnBuilder::name(),
@@ -2086,6 +2118,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
             'id' => TextColumn::make('id')->numeric()->sortable(),
             'name' => TextColumn::make('name')->searchable()->sortable(),
             'email' => TextColumn::make('email')->searchable()->sortable(),
@@ -2094,6 +2128,7 @@ class ListContacts extends XotBaseListRecords
             'is_read' => IconColumn::make('is_read')->boolean(),
             'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
             'updated_at' => TextColumn::make('updated_at')->dateTime()->sortable(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2112,6 +2147,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
         ];
     }
 
@@ -2123,9 +2160,12 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2157,11 +2197,14 @@ class ListContacts extends XotBaseListRecords
                 ->sortable(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'active' => FilterBuilder::activeToggle(),
 >>>>>>> a335025b (rebase 210)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
         ];
@@ -2170,6 +2213,7 @@ class ListContacts extends XotBaseListRecords
     public function getTableFilters(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2182,6 +2226,9 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d09cb759 (.)
             'active' => Filter::make('active')
                 ->query(function (Builder $query): Builder {
                     return $query->where('active', true);
@@ -2190,6 +2237,7 @@ class ListContacts extends XotBaseListRecords
                 ->query(function (Builder $query): Builder {
                     return $query->where('active', false);
                 }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2206,6 +2254,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
             'active' => Filter::make('active')->query(fn(Builder $query): Builder => $query->where('active', true)),
@@ -2216,6 +2266,7 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -2267,6 +2318,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         ];
     }
 }

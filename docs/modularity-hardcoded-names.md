@@ -3,9 +3,12 @@
 ## Problema Identificato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "<nome progetto>", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 Durante l'audit del modulo `Notify`, è stato identificato un **errore critico di architettura**: l'utilizzo di stringhe hardcoded con nomi di progetto specifici (es. "saluteora", "salutemo") in un modulo che deve essere riutilizzabile in progetti diversi.
 
 ## Impatto del Problema
@@ -20,6 +23,7 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 ```php
 // ❌ ERRORE CRITICO - Stringhe hardcoded
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'subject' => 'Benvenuto su ',
 'content' => 'Grazie per esserti registrato su ',
@@ -28,6 +32,8 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 'author' => 'Team PTVX',
 'path' => '/var/www/html/_bases/base_ptvx_fila3_mono/public_html/images/',
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 'subject' => 'Benvenuto su SaluteOra',
 'content' => 'Grazie per esserti registrato su SaluteOra',
 'clinic_name' => 'Studio Dentistico SaluteOra',
@@ -35,9 +41,12 @@ Durante l'audit del modulo `Notify`, è stato identificato un **errore critico d
 'author' => 'Team SaluteOra',
 'path' => '/var/www/html/saluteora/public_html/images/',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/',
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 ```
 
 ## Soluzioni Implementate
@@ -93,9 +102,12 @@ $notificationData = [
 
 ### Moduli Specifici del Progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - ****: Solo per progetto 
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 - **SaluteOra**: Solo per progetto SaluteOra
 - **SaluteMo**: Solo per progetto SaluteMo
 - **Patient**: Solo per progetti sanitari specifici
@@ -117,12 +129,15 @@ Eseguire regolarmente:
 ```bash
 # Cerca stringhe hardcoded nei moduli generici
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 grep -r "<nome progetto>\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/UI/ --include="*.php"
 grep -r "<nome progetto>\|salutemo" laravel/Modules/Xot/ --include="*.php"
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 grep -r "saluteora\|salutemo" laravel/Modules/Notify/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/User/ --include="*.php"
 grep -r "saluteora\|salutemo" laravel/Modules/UI/ --include="*.php"
@@ -134,6 +149,7 @@ grep -r "saluteora\|salutemo" laravel/Modules/Xot/ --include="*.php"
 ### Variabili d'Ambiente
 ```env
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 COMPANY_NAME=
 COMPANY_TEAM=Team 
@@ -141,6 +157,8 @@ WEBHOOK_BASE_URL=https://api.<nome progetto>.com
 CLINIC_NAME=Studio Dentistico 
 REPOSITORY_URL=https://github.com/<nome progetto>/notify
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 COMPANY_NAME=SaluteOra
 COMPANY_TEAM=Team SaluteOra
 WEBHOOK_BASE_URL=https://api.saluteora.com

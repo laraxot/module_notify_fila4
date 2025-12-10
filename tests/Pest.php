@@ -75,6 +75,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -107,10 +108,13 @@ declare(strict_types=1);
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -563,6 +567,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Tests\TestCase;
@@ -623,6 +629,7 @@ use Modules\Notify\Tests\TestCase;
  * | global functions to help you to reduce the number of lines of code in your test files.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1032,6 +1039,9 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
 =======
 namespace Modules\Notify\Tests;
 
@@ -1042,6 +1052,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 =======
@@ -1051,6 +1062,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1095,6 +1108,7 @@ use Modules\Notify\Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 use Modules\Notify\Models\Notification;
@@ -1116,6 +1130,8 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 
 /*
 |--------------------------------------------------------------------------
@@ -1136,6 +1152,7 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 uses(TestCase::class)
     ->uses(DatabaseTransactions::class)
 =======
@@ -1165,6 +1182,9 @@ pest()->extend(TestCase::class)
 uses(TestCase::class)
     ->uses(DatabaseTransactions::class)
 >>>>>>> 82ae73be (.)
+=======
+pest()->extend(TestCase::class)
+>>>>>>> d09cb759 (.)
     ->in('Feature', 'Unit');
 
 /*
@@ -1179,6 +1199,7 @@ uses(TestCase::class)
 */
 
 expect()->extend('toBeNotification', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1213,6 +1234,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
     return $this->toBeInstanceOf(\Modules\Notify\Models\Notification::class);
 });
 
@@ -1222,6 +1245,7 @@ expect()->extend('toBeMailTemplate', function () {
 
 /*
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1241,6 +1265,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -1250,6 +1276,7 @@ expect()->extend('toBeMailTemplate', function () {
 | global functions to help you to reduce the number of lines of code in your test files.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1277,6 +1304,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
  * |--------------------------------------------------------------------------
@@ -1290,6 +1319,7 @@ expect()->extend('toBeMailTemplate', function () {
  */
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1362,6 +1392,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
 function createNotification(array $attributes = []): Notification
 {
@@ -1381,4 +1413,28 @@ function createMailTemplate(array $attributes = []): MailTemplate
 function makeMailTemplate(array $attributes = []): MailTemplate
 {
     return MailTemplate::factory()->make($attributes);
+<<<<<<< HEAD
+=======
+=======
+
+function createNotification(array $attributes = []): \Modules\Notify\Models\Notification
+{
+    return \Modules\Notify\Models\Notification::factory()->create($attributes);
+}
+
+function makeNotification(array $attributes = []): \Modules\Notify\Models\Notification
+{
+    return \Modules\Notify\Models\Notification::factory()->make($attributes);
+}
+
+function createMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
+{
+    return \Modules\Notify\Models\MailTemplate::factory()->create($attributes);
+}
+
+function makeMailTemplate(array $attributes = []): \Modules\Notify\Models\MailTemplate
+{
+    return \Modules\Notify\Models\MailTemplate::factory()->make($attributes);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 }

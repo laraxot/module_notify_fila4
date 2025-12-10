@@ -8,12 +8,16 @@
 
 2. **Struttura Directory Principale**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d09cb759 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
 3. **Struttura Directory Actions**
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/` (ERRATO)
+<<<<<<< HEAD
 =======
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/` (ERRATO)
@@ -34,15 +38,20 @@
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/` (ERRATO)
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 
 4. **Struttura Directory Datas**
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/Datas/` (ERRATO)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Datas/` (ERRATO)
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 
 ## Namespace vs Directory
 
@@ -57,6 +66,7 @@
 
 1. **Mai utilizzare la "A" maiuscola nel percorso fisico della directory app**
 <<<<<<< HEAD
+<<<<<<< HEAD
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 =======
@@ -67,6 +77,10 @@
    - ✅ CORRETTO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/App/Actions/`
 >>>>>>> 75179b855 (.)
+=======
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+>>>>>>> d09cb759 (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`

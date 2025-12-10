@@ -57,9 +57,12 @@ public function handleHTTPRequest(): void
 # Convenzioni di Naming per le Azioni di Notifica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema , supportando la risoluzione dinamica delle classi implementata nei factory.
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema SaluteOra, supportando la risoluzione dinamica delle classi implementata nei factory.
 
 ## Pattern di Naming

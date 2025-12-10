@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -97,12 +98,15 @@
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,11 +241,17 @@
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
 <x-filament-panels::page>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -451,6 +461,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -609,10 +620,15 @@ declare(strict_types=1);
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> d09cb759 (.)
 =======
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -706,6 +722,8 @@ declare(strict_types=1);
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -722,6 +740,7 @@ declare(strict_types=1);
                             {{ $action }}
                         @endforeach
                     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1136,10 +1155,15 @@ declare(strict_types=1);
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> 1fd232c7 (.)
+=======
+>>>>>>> 11ae5222 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
                 </div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1378,10 +1402,13 @@ declare(strict_types=1);
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 =======
 >>>>>>> b93ef594b4 (.)
 <x-filament-panels::page>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
@@ -1389,6 +1416,8 @@ declare(strict_types=1);
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
     <div class="space-y-6">
         <div class="bg-white shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
@@ -1405,6 +1434,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1441,6 +1471,9 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 75179b855 (.)
+=======
+=======
+>>>>>>> d09cb759 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -1465,6 +1498,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 11ae5222 (.)
 <<<<<<< HEAD
 =======
@@ -1480,6 +1514,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 11ae5222 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 11ae5222 (.)
+>>>>>>> d09cb759 (.)
                 </div>
             </div>
 <<<<<<< HEAD
@@ -1489,6 +1526,7 @@ declare(strict_types=1);
 =======
         </div>
     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
@@ -1746,6 +1784,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d09cb759 (.)
+=======
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -1769,6 +1810,7 @@ declare(strict_types=1);
             </div>
         </x-slot>
     </x-filament::section>
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1824,4 +1866,8 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 </x-filament-panels::page>

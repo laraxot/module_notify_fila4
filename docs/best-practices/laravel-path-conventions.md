@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Convenzioni dei Path in Laravel e 
 
@@ -6,6 +7,8 @@
 
 In Laravel e , i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> d09cb759 (.)
 # Convenzioni dei Path in Laravel e SaluteOra
 
 ## Regole Fondamentali per i Path di Cartelle
@@ -33,17 +36,22 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
 >>>>>>> 75179b855 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> d09cb759 (.)
 ```
 
 **NON** in:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 =======
@@ -51,6 +59,9 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
 >>>>>>> 75179b855 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> d09cb759 (.)
 ```
 
 ## Perché è Importante
@@ -70,12 +81,16 @@ protected static string $view = 'notify::filament.pages.send-sms';
 
 // Il path fisico corrispondente sarà:
 <<<<<<< HEAD
+<<<<<<< HEAD
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 =======
 // /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 // /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 >>>>>>> 75179b855 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> d09cb759 (.)
 ```
 
 ## Verifica e Correzione

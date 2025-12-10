@@ -870,6 +870,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -990,6 +991,8 @@ return [
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 - [Laravel Exceptions](https://laravel.com/docs/errors)
@@ -999,6 +1002,7 @@ return [
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1865,3 +1869,7 @@ return [
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d284d65 (.)
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> d09cb759 (.)

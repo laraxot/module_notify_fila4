@@ -14,6 +14,7 @@ use Illuminate\Console\Command;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +139,9 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 use Modules\Notify\Models\NotificationLog;
 >>>>>>> 82ae73be (.)
+=======
+use Modules\Notify\Models\NotificationLog;
+>>>>>>> d09cb759 (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -184,6 +188,7 @@ class CleanupNotificationLogsCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
         $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
 =======
@@ -258,6 +263,10 @@ class CleanupNotificationLogsCommand extends Command
         $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
         $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
 >>>>>>> 82ae73be (.)
+=======
+        $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
+        $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
+>>>>>>> d09cb759 (.)
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
@@ -266,6 +275,7 @@ class CleanupNotificationLogsCommand extends Command
 
         // Se configurato, mantiene i log delle notifiche fallite
         if ($keepFailed) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -369,11 +379,15 @@ class CleanupNotificationLogsCommand extends Command
 =======
             $query->where('status', '!=', NotificationLog::STATUS_FAILED);
 >>>>>>> 82ae73be (.)
+=======
+            $query->where('status', '!=', NotificationLog::STATUS_FAILED);
+>>>>>>> d09cb759 (.)
         }
 
         $totalDeleted = 0;
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +413,8 @@ class CleanupNotificationLogsCommand extends Command
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
             $logs->each->delete();
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");

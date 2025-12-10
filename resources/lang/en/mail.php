@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -97,10 +98,13 @@
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,12 +518,15 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
 return [
     'welcome' => [
         'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : ''),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -747,6 +754,8 @@ return [
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 return [
     'welcome' => [
@@ -766,6 +775,7 @@ return [
         'title' => 'Welcome to ' . (is_string(config('app.name')) ? config('app.name') : 'SaluteOra'),
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -812,6 +822,8 @@ return [
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         'greeting' => 'Hello :name,',
         'description' => 'Thank you for joining us. We\'re excited to have you on board!',
         'action' => 'Get Started',

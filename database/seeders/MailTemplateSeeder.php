@@ -22,6 +22,7 @@ namespace Modules\Notify\Database\Seeders;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -69,7 +70,15 @@ use Modules\Notify\Emails\SpatieEmail;
 use Illuminate\Database\Seeder;
 >>>>>>> 75179b8 (.)
 =======
+=======
+>>>>>>> d09cb759 (.)
 use Modules\Notify\Emails\SpatieEmail;
+=======
+<<<<<<< HEAD
+use Modules\Notify\Emails\SpatieEmail;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Database\Seeder;
 >>>>>>> 75179b85 (.)
 =======
@@ -112,6 +121,10 @@ class MailTemplateSeeder extends Seeder
     {
         $templates = [
             [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
                 'mailable' => SpatieEmail::class,
                 'slug' => 'registration_moderated',
                 'subject' => [
@@ -253,6 +266,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -285,9 +299,12 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -631,6 +648,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
                     'en' => 'Registration moderated, {{ first_name }}',
                 ],
                 'html_template' => [
@@ -641,6 +660,7 @@ class MailTemplateSeeder extends Seeder
                     'it' => 'Ciao {{ first_name }}, La tua registrazione è stata moderata.',
                     'en' => 'Hello {{ first_name }}, Your registration has been moderated.',
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1037,6 +1057,8 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
                     'en' => 'Registration moderated, {{ first_name }}'
 =======
@@ -1058,6 +1080,7 @@ class MailTemplateSeeder extends Seeder
                 ],
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1401,6 +1424,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             ],
             [
                 'mailable' => SpatieEmail::class,
@@ -1544,6 +1569,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1576,9 +1602,12 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1922,6 +1951,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
                     'en' => 'Registration completed, {{ first_name }}',
                 ],
                 'html_template' => [
@@ -1932,6 +1963,7 @@ class MailTemplateSeeder extends Seeder
                     'it' => 'Ciao {{ first_name }}, La tua registrazione è stata completata con successo.',
                     'en' => 'Hello {{ first_name }}, Your registration has been completed successfully.',
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2328,6 +2360,8 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
                     'en' => 'Registration completed, {{ first_name }}'
 =======
@@ -2349,6 +2383,7 @@ class MailTemplateSeeder extends Seeder
                 ],
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2692,6 +2727,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             ],
             [
                 'mailable' => SpatieEmail::class,
@@ -2835,6 +2872,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2867,9 +2905,12 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3213,6 +3254,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
                     'en' => 'Registration rejected, {{ first_name }}',
                 ],
                 'html_template' => [
@@ -3360,6 +3403,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3454,6 +3498,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -3526,6 +3572,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -3652,6 +3699,8 @@ class MailTemplateSeeder extends Seeder
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
                     'en' => 'Registration rejected, {{ first_name }}'
                 ],
                 'html_template' => [
@@ -3709,6 +3758,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4148,6 +4198,10 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         ];
 
         foreach ($templates as $template) {
@@ -4290,6 +4344,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4566,6 +4621,10 @@ class MailTemplateSeeder extends Seeder
                 'slug' => $template['slug'],
 =======
 >>>>>>> d09cb759 (.)
+=======
+                'slug' => $template['slug'],
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4580,6 +4639,7 @@ class MailTemplateSeeder extends Seeder
                 'slug' => $template['slug']
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5009,6 +5069,8 @@ class MailTemplateSeeder extends Seeder
 =======
                 'slug' => $template['slug'],
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             ];
 
             $data = [
@@ -5151,6 +5213,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5427,6 +5490,10 @@ class MailTemplateSeeder extends Seeder
                 'text_template' => $template['text_template'],
 =======
 >>>>>>> d09cb759 (.)
+=======
+                'text_template' => $template['text_template'],
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5441,6 +5508,7 @@ class MailTemplateSeeder extends Seeder
                 'text_template' => $template['text_template']
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5870,6 +5938,8 @@ class MailTemplateSeeder extends Seeder
 =======
                 'text_template' => $template['text_template'],
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             ];
 
             MailTemplate::firstOrCreate($uniqueAttributes, $data);

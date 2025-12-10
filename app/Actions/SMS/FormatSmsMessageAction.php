@@ -306,7 +306,9 @@ use Modules\Notify\Datas\SmsData;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,6 +347,8 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +361,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d09cb759 (.)
@@ -510,6 +515,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 use function Safe\preg_split;
 
 /**
@@ -580,6 +587,7 @@ use function Safe\preg_split;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -712,6 +720,10 @@ class FormatSmsMessageAction
 class FormatSmsMessageAction
 =======
 >>>>>>> d09cb759 (.)
+=======
+class FormatSmsMessageAction
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,6 +738,7 @@ class FormatSmsMessageAction
 class FormatSmsMessageAction 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -915,6 +928,8 @@ class FormatSmsMessageAction
 =======
 class FormatSmsMessageAction
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 {
     public function execute(string $message): array
     {
@@ -985,6 +1000,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1017,10 +1033,13 @@ class FormatSmsMessageAction
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1172,6 +1191,8 @@ class FormatSmsMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             ['à', 'è', 'é', 'ì', 'ò', 'ù', 'À', 'È', 'É', 'Ì', 'Ò', 'Ù', '€'],
             ["a'", "e'", "e'", "i'", "o'", "u'", "A'", "E'", "E'", "I'", "O'", "U'", 'EUR'],
             $message,
@@ -1241,6 +1262,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1287,6 +1309,8 @@ class FormatSmsMessageAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1303,6 +1327,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1357,6 +1382,8 @@ class FormatSmsMessageAction
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
             ["à", "è", "é", "ì", "ò", "ù", "À", "È", "É", "Ì", "Ò", "Ù", "€"],
             ["a'", "e'", "e'", "i'", "o'", "u'", "A'", "E'", "E'", "I'", "O'", "U'", "EUR"],
             $message
@@ -1384,6 +1411,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1430,6 +1458,8 @@ class FormatSmsMessageAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
             ['à', 'è', 'é', 'ì', 'ò', 'ù', 'À', 'È', 'É', 'Ì', 'Ò', 'Ù', '€'],
@@ -1441,6 +1471,7 @@ class FormatSmsMessageAction
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1603,6 +1634,8 @@ class FormatSmsMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         // Calcola il numero di caratteri considerando doppi i caratteri speciali
         $characterCount = mb_strlen($formattedMessage);
         $specialChars = ['^', '{', '}', '[', ']', '~', '\\', '|'];
@@ -1672,6 +1705,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1704,10 +1738,13 @@ class FormatSmsMessageAction
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1859,6 +1896,8 @@ class FormatSmsMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
         foreach ($specialChars as $index => $specialChar) {
             $messageParts = preg_split("/{$specialCharsEscaped[$index]}/", $formattedMessage, -1, PREG_SPLIT_NO_EMPTY);
@@ -1867,6 +1906,7 @@ class FormatSmsMessageAction
 
             $specialCharCount = count($messageParts) - 1;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1954,6 +1994,8 @@ class FormatSmsMessageAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1985,6 +2027,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -2050,6 +2093,8 @@ class FormatSmsMessageAction
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
         
         foreach ($specialChars as $index => $specialChar) {
@@ -2060,6 +2105,7 @@ class FormatSmsMessageAction
             $specialCharCount = count($messageParts) - 1;
             
             
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2281,6 +2327,10 @@ class FormatSmsMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
             if (str_starts_with($formattedMessage, $specialChar)) {
                 $specialCharCount++;
             }
@@ -2352,6 +2402,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2384,10 +2435,13 @@ class FormatSmsMessageAction
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2539,6 +2593,8 @@ class FormatSmsMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
             // Ogni carattere speciale conta come 2 caratteri
             $characterCount += $specialCharCount;
@@ -2608,6 +2664,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2654,6 +2711,8 @@ class FormatSmsMessageAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2670,6 +2729,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -2724,6 +2784,8 @@ class FormatSmsMessageAction
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
             
             // Ogni carattere speciale conta come 2 caratteri
             $characterCount += $specialCharCount;
@@ -2751,6 +2813,7 @@ class FormatSmsMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2797,6 +2860,8 @@ class FormatSmsMessageAction
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -2808,6 +2873,7 @@ class FormatSmsMessageAction
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2970,6 +3036,8 @@ class FormatSmsMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         // Calcola il numero di SMS
         if ($characterCount <= 160) {
             $smsCount = 1;
@@ -3232,7 +3300,9 @@ class FormatSmsMessageAction
                 $smsCount++;
             }
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3290,6 +3360,8 @@ class FormatSmsMessageAction
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3304,6 +3376,7 @@ class FormatSmsMessageAction
         
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3399,6 +3472,8 @@ class FormatSmsMessageAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         return [$formattedMessage, $characterCount, $smsCount];
     }
 }
