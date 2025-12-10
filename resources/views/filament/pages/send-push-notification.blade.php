@@ -1651,7 +1651,9 @@ declare(strict_types=1);
                     <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendNotification()" />
                 </div>
                 <div>
-                    <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
+                    @foreach($this->getNotificationFormActions() as $action)
+                        {{ $action }}
+                    @endforeach
                 </div>
             </div>
         </x-slot>
