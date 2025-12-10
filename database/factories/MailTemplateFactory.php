@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -521,6 +522,8 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
 declare(strict_types=1);
 
 
@@ -586,16 +589,20 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 =======
 =======
+>>>>>>> 207ac35e (.)
+=======
 declare(strict_types=1);
 
 
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 >>>>>>> 207ac35 (.)
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
@@ -611,6 +618,8 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -691,6 +700,7 @@ class MailTemplateFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -733,10 +743,13 @@ class MailTemplateFactory extends Factory
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 }
 =======
 }
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -986,3 +999,8 @@ class MailTemplateFactory extends Factory
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)

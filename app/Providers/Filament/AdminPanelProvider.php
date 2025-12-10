@@ -126,6 +126,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -571,11 +572,17 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
 =======
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> 4e2ebfb (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -853,6 +860,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -956,6 +964,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     #[Override]
 =======
 =======
@@ -1714,6 +1726,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
@@ -1744,6 +1757,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 =======
     public function panel(Panel $panel): Panel
     { 
@@ -1806,6 +1821,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1873,3 +1889,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)

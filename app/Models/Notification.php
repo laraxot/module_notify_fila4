@@ -54,6 +54,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -222,6 +223,10 @@
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -268,6 +273,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -293,9 +299,12 @@ use Override;
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
 namespace Modules\Notify\Models;
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -667,6 +676,10 @@ namespace Modules\Notify\Models;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
@@ -1255,6 +1268,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1271,11 +1285,14 @@ class Notification extends BaseModel
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 207ac35e (.)
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
 =======
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1596,6 +1613,9 @@ class Notification extends BaseModel
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     protected function casts(): array
     {
         return [

@@ -48,6 +48,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -206,6 +207,10 @@
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 <?php
 
 declare(strict_types=1);
@@ -1276,6 +1281,7 @@ declare(strict_types=1);
     </div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1540,6 +1546,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -1564,6 +1572,7 @@ declare(strict_types=1);
         </x-slot>
     </x-filament::section>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1651,4 +1660,8 @@ declare(strict_types=1);
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 </x-filament-panels::page>

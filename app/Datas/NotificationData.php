@@ -79,6 +79,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -183,6 +184,10 @@ class NotificationData extends Data
 =======
 >>>>>>> 98d837b9 (.)
 =======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     public null|string $from_email = null;
 >>>>>>> f813254 (.)
 
@@ -207,8 +212,13 @@ class NotificationData extends Data
     public null|string $subject = null;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public ?string $body_html = null;
 >>>>>>> a12f125f4a (.)
+=======
+    public null|string $body_html = null;
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
 =======
     public null|string $body_html = null;
 >>>>>>> b93ef594b4 (.)
@@ -515,6 +525,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -902,6 +913,10 @@ class NotificationData extends Data
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
     public string $body;
 
@@ -973,6 +988,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1308,11 +1324,14 @@ class NotificationData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 207ac35e (.)
     public null|DataCollection $attachments = null;
 
 =======
     public ?DataCollection $attachments = null;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,9 +1345,12 @@ class NotificationData extends Data
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
     public null|DataCollection $attachments = null;
 
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1399,6 +1421,8 @@ class NotificationData extends Data
     public ?DataCollection $attachments = null;
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
     // public ?array $attachment_paths = [];
 
     /**
@@ -1471,6 +1495,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1643,6 +1668,10 @@ class NotificationData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         return SmsData::from([
             'from' => $this->from,
             'to' => $this->to,
@@ -1704,6 +1733,9 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1848,6 +1880,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2024,5 +2057,9 @@ class NotificationData extends Data
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     }
 }

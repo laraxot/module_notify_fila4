@@ -153,6 +153,9 @@ use RuntimeException;
 >>>>>>> 75179b85 (.)
 use RuntimeException;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
@@ -165,9 +168,14 @@ use Modules\Notify\Models\MailTemplateVersion;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+use Tests\TestCase;
+<<<<<<< HEAD
+>>>>>>> 207ac35e (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
@@ -445,6 +453,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,6 +646,10 @@ use Tests\TestCase;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
 class MailTemplateVersionBusinessLogicTest extends TestCase
 {
@@ -703,6 +716,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -745,10 +759,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -998,6 +1015,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $versionData = [
             'template_id' => $template->id,
             'mailable' => 'AppointmentConfirmation',
@@ -1216,6 +1238,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1476,10 +1499,15 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5.2',
@@ -1553,6 +1581,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1852,6 +1881,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
@@ -1912,6 +1945,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1932,10 +1966,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
 =======
         $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2138,6 +2175,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $this->assertNotNull($version->created_at);
         $this->assertNotNull($version->updated_at);
     }
@@ -2203,6 +2243,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2245,10 +2286,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2498,6 +2542,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $complexHtmlTemplate = '
         <!DOCTYPE html>
         <html lang="it">
@@ -2605,6 +2654,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2857,10 +2907,15 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+=======
+
+>>>>>>> 4e2ebfb (.)
         $textTemplate = '
         CONFERMA APPUNTAMENTO
         =====================
@@ -3012,6 +3067,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3054,10 +3110,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3307,6 +3366,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $mailableClasses = [
             'AppointmentConfirmation',
             'AppointmentReminder',
@@ -3459,6 +3523,15 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+
+        // Soft delete
+        $version->delete();
+
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -3841,6 +3914,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4032,6 +4106,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $this->assertTrue($version->trashed());
         $this->assertDatabaseHas('mail_template_versions', [
             'id' => $version->id,
@@ -4117,6 +4195,15 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 58816034 (.)
 =======
@@ -4499,6 +4586,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4690,6 +4778,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'html_template' => $htmlTemplate,
@@ -4757,6 +4849,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4799,10 +4892,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5052,6 +5148,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $this->assertEquals($htmlVariables, $textVariables);
         $this->assertContains('patient_name', $htmlVariables);
         $this->assertContains('appointment_date', $htmlVariables);
@@ -5119,6 +5220,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5161,10 +5263,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 
 =======
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5414,6 +5519,11 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $versionSchemes = [
             '1.0' => 'Versione iniziale',
             '1.1' => 'Correzione bug minori',

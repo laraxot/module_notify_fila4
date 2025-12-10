@@ -69,6 +69,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -230,10 +231,15 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,10 +512,13 @@ use Modules\User\Models\Profile;
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
 use RuntimeException;
 use Modules\User\Models\Profile;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,6 +606,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1001,6 +1014,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1021,11 +1035,14 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
     #[Override]
 =======
 >>>>>>> b19cd40 (.)
 =======
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1311,6 +1328,9 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     protected function casts(): array
     {
         return [
@@ -1328,6 +1348,7 @@ class NotificationTemplateVersion extends BaseModel
     public function restore(): NotificationTemplate
     {
         $template = $this->template;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1697,11 +1718,16 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1859,12 +1885,15 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> 207ac35e (.)
+=======
         
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
         }
         
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1938,6 +1967,10 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -2017,6 +2050,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2051,10 +2085,13 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 207ac35e (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2334,3 +2371,8 @@ class NotificationTemplateVersion extends BaseModel
 } 
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+}
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)

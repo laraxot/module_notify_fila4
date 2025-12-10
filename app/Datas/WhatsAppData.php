@@ -65,6 +65,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -107,10 +108,13 @@ use Spatie\LaravelData\Data;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
  *
 =======
  * 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +364,11 @@ use Spatie\LaravelData\Data;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+ *
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi WhatsApp
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -495,6 +504,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -629,6 +639,10 @@ class WhatsAppData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         public null|string $from = null,
         public null|array $media = null,
         public null|array $buttons = null,
@@ -639,6 +653,9 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
 =======
 <<<<<<< HEAD
 =======
@@ -1168,6 +1185,7 @@ class WhatsAppData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
@@ -1263,6 +1281,10 @@ class WhatsAppData extends Data
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         public string $type = 'text',
     ) {}
 }

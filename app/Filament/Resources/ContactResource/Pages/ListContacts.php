@@ -83,6 +83,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -136,9 +137,14 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
+=======
+use Override;
+>>>>>>> 4e2ebfb (.)
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
 =======
@@ -736,6 +742,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -768,6 +775,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -833,6 +847,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1054,6 +1069,10 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -1120,6 +1139,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 58816034 (.)
@@ -1142,6 +1162,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 207ac35e (.)
 =======
     public function getTableColumns(): array
     {
@@ -1184,6 +1206,7 @@ class ListContacts extends XotBaseListRecords
                     return $query->where('active', false);
                 }),
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2087,6 +2110,10 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         ];
     }
 }

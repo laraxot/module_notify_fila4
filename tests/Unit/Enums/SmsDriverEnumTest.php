@@ -308,6 +308,7 @@ class SmsDriverEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -462,10 +463,13 @@ class SmsDriverEnumTest extends TestCase
 =======
 =======
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> 207ac35e (.)
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
 =======
         $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -649,6 +653,11 @@ class SmsDriverEnumTest extends TestCase
         $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
