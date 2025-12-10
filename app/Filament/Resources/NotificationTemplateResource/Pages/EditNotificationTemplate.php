@@ -152,6 +152,7 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -274,6 +275,8 @@ namespace Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
@@ -281,6 +284,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,9 +412,12 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 use Modules\Notify\Filament\Resources\NotificationTemplateResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1020,10 +1027,13 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
 
 class EditNotificationTemplate extends XotBaseEditRecord
 {
     protected static string $resource = NotificationTemplateResource::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1606,6 +1616,10 @@ class EditNotificationTemplate extends XotBaseEditRecord
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
 
     /*
      * protected function getRedirectUrl(): string
@@ -1772,6 +1786,9 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -2162,6 +2179,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2647,3 +2665,7 @@ class EditNotificationTemplate extends XotBaseEditRecord
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)

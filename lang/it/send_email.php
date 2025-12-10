@@ -145,6 +145,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -561,6 +562,10 @@
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1074,6 +1079,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -1631,6 +1639,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2120,11 +2129,16 @@ return array (
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
         'marketing' => 'Marketing',
         'transactional' => 'Transazionale',
         'notification' => 'Notifica',
         'newsletter' => 'Newsletter',
         'system' => 'Sistema',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2712,6 +2726,10 @@ return array (
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
     ],
     'placeholders' => [
         'email_template' => 'Seleziona un template email predefinito',
@@ -2868,6 +2886,9 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -3440,6 +3461,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3906,3 +3928,7 @@ return array (
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)

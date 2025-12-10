@@ -411,6 +411,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -773,12 +774,15 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 =======
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e7a9a2bf (.)
 =======
@@ -988,10 +992,13 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1227,6 +1234,8 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -1250,6 +1259,7 @@ php -l Modules/Notify/lang/it/send_email.php
 ## 🔗 Collegamenti
 
 ### Documentazione Correlata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1479,6 +1489,10 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
@@ -1488,9 +1502,12 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> dceba960 (.)
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+<<<<<<< HEAD
 =======
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 >>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 =======
 >>>>>>> d284d65 (.)
@@ -1894,6 +1911,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2247,19 +2265,25 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 >>>>>>> 7c39b1fe (.)
 =======
+=======
+>>>>>>> 030c9674 (rebase 210)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 =======
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
@@ -2602,6 +2626,9 @@ php -l Modules/Notify/lang/it/send_email.php
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
 
 ## 📝 Note di Implementazione
 

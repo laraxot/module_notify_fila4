@@ -143,6 +143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -585,11 +586,16 @@
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1299,6 +1305,12 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
 @extends('notify::emails.templates.ark')
 
 @section('content')
@@ -1463,6 +1475,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1958,10 +1971,13 @@ declare(strict_types=1);
 >>>>>>> 8a8a8e2f (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
 @stop
 =======
 @stop
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2251,3 +2267,8 @@ declare(strict_types=1);
 @stop
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+=======
+@stop
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)

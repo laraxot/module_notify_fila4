@@ -158,6 +158,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -219,9 +220,12 @@ return [
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +760,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
@@ -909,6 +916,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -970,9 +978,12 @@ return [
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1507,6 +1518,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -1682,6 +1696,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1743,9 +1758,12 @@ return [
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2280,6 +2298,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -2440,6 +2461,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2501,9 +2523,12 @@ return [
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3038,6 +3063,9 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',

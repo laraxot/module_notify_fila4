@@ -152,6 +152,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -539,6 +540,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
+=======
+>>>>>>> 030c9674 (rebase 210)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationType;
 use Tests\TestCase;
@@ -576,6 +579,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,9 +741,12 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a12f125f4a (.)
 >>>>>>> 5aedc39c (rebase 210)
 =======
+>>>>>>> 030c9674 (rebase 210)
+=======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationType;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1378,6 +1385,9 @@ use Tests\TestCase;
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 030c9674 (rebase 210)
 
 class NotificationTypeTest extends TestCase
 {
