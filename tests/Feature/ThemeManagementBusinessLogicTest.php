@@ -1145,6 +1145,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2167,6 +2168,7 @@ describe('Theme Management Business Logic', function () {
 =======
 >>>>>>> e790eb33 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 });
 >>>>>>> cb5f23b0 (.)
@@ -2759,3 +2761,8 @@ describe('Theme Management Business Logic', function () {
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> 2dab69c8a (.)
+=======
+=======
+});
+>>>>>>> cb5f23b0 (.)
+>>>>>>> 8db6adf75 (.)
