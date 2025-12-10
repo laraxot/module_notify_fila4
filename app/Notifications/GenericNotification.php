@@ -2755,6 +2755,7 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2802,6 +2803,8 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 53d9bada0 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3118,6 +3121,7 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 2a97406c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fd497554 (.)
 =======
@@ -3166,6 +3170,10 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d298dd9c2 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> fd497554 (.)
+>>>>>>> 53d9bada0 (.)
         $mail = new MailMessage()
 =======
         $mail = (new MailMessage())
@@ -3183,8 +3191,11 @@ class GenericNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 53d9bada0 (.)
 >>>>>>> 518c702 (.)
 >>>>>>> f963d2c0 (.)
 =======
@@ -3192,6 +3203,7 @@ class GenericNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 518c702 (.)
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fd497554 (.)
@@ -3202,6 +3214,10 @@ class GenericNotification extends Notification implements ShouldQueue
 >>>>>>> d298dd9c (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> fd497554 (.)
+>>>>>>> 53d9bada0 (.)
 
         // Aggiungi eventuali azioni se specificate nei dati
         if (isset($this->data['action_text'], $this->data['action_url'])) {
