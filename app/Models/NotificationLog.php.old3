@@ -40,6 +40,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
     use \Modules\Xot\Models\Traits\HasXotFactory;
@@ -52,6 +53,9 @@ class NotificationLog extends BaseModel
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+    use HasFactory;
+>>>>>>> f963d2c0 (.)
 =======
     use HasFactory;
 >>>>>>> f963d2c0 (.)
