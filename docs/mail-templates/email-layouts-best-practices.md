@@ -652,6 +652,7 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 # Email Layouts Best Practices 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di SaluteOra.
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
@@ -989,9 +990,21 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 =======
 # Email Layouts Best Practices 
 
+=======
+>>>>>>> c7d5eaf96 (.)
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di SaluteOra.
+<<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 >>>>>>> fea359347 (.)
+=======
+=======
+=======
+Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di .
+Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di <nome progetto>.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 ## Indice
 
@@ -1157,6 +1170,7 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 =======
  utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
@@ -1254,6 +1268,7 @@ SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e ge
 SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 >>>>>>> 69fa7d37 (.)
 =======
+<<<<<<< HEAD
 SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 >>>>>>> 31f5d28f (.)
 =======
@@ -1315,9 +1330,12 @@ SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e ge
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
  utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 <nome progetto> utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1384,6 +1402,8 @@ SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e ge
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
@@ -1643,6 +1663,7 @@ SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e ge
 =======
 SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
@@ -1837,6 +1858,10 @@ SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e ge
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 1. **Layout HTML base**: Struttura generale dell'email (`resources/mail-layouts/*.html`)
 2. **Contenuto dei template**: Contenuto specifico memorizzato nel database (tabella `mail_templates`)

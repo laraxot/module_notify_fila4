@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -198,6 +199,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -295,6 +297,8 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 # Sistema Cache Email 
 
 ## Panoramica
@@ -885,6 +889,7 @@ class MailCacheDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
@@ -938,6 +943,7 @@ class MailCacheDebugger
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -972,6 +978,10 @@ class MailCacheDebugger
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Observers](https://laravel.com/project_docs/eloquent#observers) 
@@ -1010,6 +1020,7 @@ class MailCacheDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -1032,6 +1043,8 @@ class MailCacheDebugger
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -1164,6 +1177,7 @@ class MailCacheDebugger
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Observers](https://laravel.com/docs/eloquent#observers) 
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
@@ -1556,3 +1570,7 @@ class MailCacheDebugger
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)

@@ -309,6 +309,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 =======
 - **File**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
@@ -364,6 +365,7 @@
 >>>>>>> 545977c8 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> 69fa7d37 (.)
 =======
@@ -471,10 +473,16 @@
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+- **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - **File**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 - **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 - **File**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -541,6 +549,8 @@
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
@@ -812,6 +822,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1008,6 +1019,8 @@
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`
 

@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -198,6 +199,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -295,6 +297,8 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 # Utilizzo di PHPStan nel Progetto <nome progetto>
 
 ## Esecuzione di PHPStan
@@ -525,6 +529,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 =======
 * [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
@@ -640,6 +645,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 * [phpstan-usage.md](../../Chart/docs/phpstan-usage.md)
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 * [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
@@ -884,6 +890,11 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+* [phpstan-usage.md](../../Chart/project_docs/phpstan-usage.md)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 
 ### Versione Incoming
@@ -891,6 +902,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -988,6 +1000,8 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 >>>>>>> 0a5473e16 (.)
 =======
+>>>>>>> c7d5eaf96 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1034,6 +1048,7 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1228,3 +1243,5 @@ Il file `phpstan.neon` nella directory Laravel contiene le configurazioni person
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)

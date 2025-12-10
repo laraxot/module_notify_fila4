@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -198,6 +199,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -295,6 +297,8 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 # BaseModel del Modulo Notify
 
 ## Panoramica
@@ -470,6 +474,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -549,6 +554,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -609,6 +615,8 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 545977c8 (rebase 210)
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
@@ -671,6 +679,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -697,6 +706,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -776,6 +787,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
@@ -960,6 +972,10 @@ class NotificationTemplate extends BaseModel
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -974,6 +990,7 @@ class NotificationTemplate extends BaseModel
 3. Il namespace non include il segmento `app`
 4. Le funzionalità comuni vanno implementate qui
 5. La documentazione va mantenuta aggiornata 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1071,6 +1088,8 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 0a5473e16 (.)
 =======
+>>>>>>> c7d5eaf96 (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1117,6 +1136,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1311,3 +1331,5 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)

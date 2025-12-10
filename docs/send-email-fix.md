@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -198,6 +199,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -295,6 +297,8 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 # Guida alla Correzione di SendEmail.php
 
 ## 🔍 Analisi del Problema
@@ -361,6 +365,7 @@ class SendEmail extends XotBasePage
 <<<<<<< HEAD
     public function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -668,6 +673,7 @@ class SendEmail extends XotBasePage
 =======
     public function form(Form $form): Form
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
     public function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
@@ -815,6 +821,8 @@ class SendEmail extends XotBasePage
     public function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
     {
         return $form
             ->schema([
@@ -1074,6 +1082,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -1212,11 +1221,15 @@ class SmtpData extends Data
 =======
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
 =======
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Best Practices SMTP](https://laravel.com/project_docs/mail#smtp-configuration)
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1476,6 +1489,8 @@ class SmtpData extends Data
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -1495,6 +1510,7 @@ class SmtpData extends Data
 3. **Manutenzione**
    - Aggiornare regolarmente le dipendenze
    - Monitorare log errori
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1654,6 +1670,7 @@ class SmtpData extends Data
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1881,3 +1898,5 @@ class SmtpData extends Data
    - Verificare configurazione SMTP 
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)

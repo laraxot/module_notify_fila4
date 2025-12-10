@@ -582,6 +582,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -650,6 +651,7 @@ public function sendEmail(): void
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -825,6 +827,8 @@ public function sendEmail(): void
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 =======
@@ -930,6 +934,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -976,6 +981,8 @@ public function sendEmail(): void
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
@@ -1293,6 +1300,7 @@ public function sendEmail(): void
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -1978,6 +1986,11 @@ public function sendEmail(): void
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 ## 📝 Note
 
@@ -1997,6 +2010,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 - Seguire il principio "meno è più" 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2590,11 +2604,15 @@ public function sendEmail(): void
 =======
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
 =======
 =======
 - Seguire il principio "meno è più" 
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 - Seguire il principio "meno è più" 
 >>>>>>> fd1fcc4c (.)
@@ -2870,3 +2888,5 @@ public function sendEmail(): void
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> c7d5eaf96 (.)

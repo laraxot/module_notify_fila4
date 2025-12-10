@@ -350,6 +350,7 @@ $smsData = new SmsData(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from: '<nome progetto>'
 =======
     from: ''
@@ -447,6 +448,7 @@ $smsData = new SmsData(
     from: 'SaluteOra'
 >>>>>>> 69fa7d37 (.)
 =======
+<<<<<<< HEAD
     from: 'SaluteOra'
 >>>>>>> 31f5d28f (.)
 =======
@@ -508,9 +510,12 @@ $smsData = new SmsData(
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
     from: ''
     from: '<nome progetto>'
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -577,6 +582,8 @@ $smsData = new SmsData(
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
     from: 'SaluteOra'
@@ -836,6 +843,7 @@ $smsData = new SmsData(
 =======
     from: 'SaluteOra'
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
@@ -1030,6 +1038,10 @@ $smsData = new SmsData(
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 );
 
 $action = new SendNetfunSMSAction();

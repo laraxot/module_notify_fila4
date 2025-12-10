@@ -652,6 +652,7 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 # Pattern Architetturali per le Notifiche
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
@@ -989,9 +990,21 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 =======
 # Pattern Architetturali per le Notifiche
 
+=======
+>>>>>>> c7d5eaf96 (.)
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di SaluteOra, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+<<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 >>>>>>> fea359347 (.)
+=======
+=======
+=======
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di , con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 ## Confronto tra Pattern Architetturali
 

@@ -504,6 +504,7 @@ public function __construct()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -572,6 +573,7 @@ public function __construct()
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e790eb33 (.)
 =======
@@ -747,6 +749,8 @@ public function __construct()
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
 =======
@@ -852,6 +856,7 @@ public function __construct()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -898,6 +903,8 @@ public function __construct()
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 75179b85 (.)
 =======
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
@@ -1215,6 +1222,7 @@ public function __construct()
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
 >>>>>>> d45a0226 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -1900,6 +1908,11 @@ public function __construct()
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -2265,6 +2278,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 =======
 - `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
@@ -2624,12 +2638,16 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> d45a0226 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
 =======
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 =======
 - `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> fd1fcc4c (.)
@@ -3374,6 +3392,8 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 
 ## Conclusion
 

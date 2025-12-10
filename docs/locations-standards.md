@@ -324,6 +324,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
@@ -379,6 +380,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 545977c8 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
 >>>>>>> 69fa7d37 (.)
 =======
@@ -486,10 +488,16 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -556,6 +564,8 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
@@ -827,6 +837,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1023,6 +1034,8 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -1182,6 +1195,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
@@ -1237,6 +1251,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 545977c8 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> 69fa7d37 (.)
 =======
@@ -1344,10 +1359,16 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1414,6 +1435,8 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
@@ -1685,6 +1708,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1881,6 +1905,8 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```

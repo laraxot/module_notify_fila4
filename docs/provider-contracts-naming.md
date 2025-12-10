@@ -309,6 +309,7 @@ Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire que
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 =======
 Nel sistema , tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
@@ -406,6 +407,7 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 >>>>>>> 69fa7d37 (.)
 =======
+<<<<<<< HEAD
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 >>>>>>> 31f5d28f (.)
 =======
@@ -467,9 +469,12 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 Nel sistema , tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,6 +541,8 @@ Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire que
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
@@ -795,6 +802,7 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 =======
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
@@ -989,6 +997,10 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`

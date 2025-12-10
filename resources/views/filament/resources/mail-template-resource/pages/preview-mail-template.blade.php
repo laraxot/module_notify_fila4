@@ -354,6 +354,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -409,6 +410,8 @@ declare(strict_types=1);
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
@@ -1343,6 +1346,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
@@ -1553,6 +1557,7 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 4df23e8b (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -1829,6 +1834,11 @@ declare(strict_types=1);
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> 8e64ed49f (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     @foreach($this->record->variables as $key => $value)
                         <div class="p-2 bg-gray-50 rounded">
@@ -1837,6 +1847,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
                         </div>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1984,6 +1995,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -2068,10 +2080,15 @@ declare(strict_types=1);
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 11ae5222 (.)
 >>>>>>> 62b0c9c (.)
 =======
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2139,6 +2156,8 @@ declare(strict_types=1);
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -2614,6 +2633,8 @@ declare(strict_types=1);
 >>>>>>> 4df23e8b (rebase 210)
 =======
 >>>>>>> 43c0079b (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
                         </div>
                     @endforeach
                 </div>

@@ -456,6 +456,7 @@ Per il sistema di notifiche di <nome progetto>, l'approccio dinamico rappresenta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il sistema di notifiche di <nome progetto>, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 =======
 Per il sistema di notifiche di , l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
@@ -553,6 +554,7 @@ Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una s
 Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 >>>>>>> 69fa7d37 (.)
 =======
+<<<<<<< HEAD
 Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 >>>>>>> 31f5d28f (.)
 =======
@@ -614,9 +616,12 @@ Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una s
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 Per il sistema di notifiche di , l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 Per il sistema di notifiche di <nome progetto>, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -683,6 +688,8 @@ Per il sistema di notifiche di <nome progetto>, l'approccio dinamico rappresenta
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
@@ -953,6 +960,7 @@ Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una s
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1148,3 +1156,5 @@ Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una s
 Per il sistema di notifiche di SaluteOra, l'approccio dinamico rappresenta una scelta ottimale, poiché facilita l'aggiunta di nuovi provider senza necessità di modificare il codice esistente, rispettando il principio Open/Closed e promuovendo una struttura di codice coerente e manutenibile.
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)

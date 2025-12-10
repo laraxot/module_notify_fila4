@@ -47,6 +47,7 @@ use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a29a4728 (.)
 =======
@@ -100,11 +101,15 @@ use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
 =======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -122,6 +127,8 @@ use Illuminate\Support\Facades\Config;
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 
 =======
 =======
@@ -141,12 +148,15 @@ use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -248,6 +258,9 @@ use Illuminate\Support\Facades\Config;
 =======
 >>>>>>> 8d298d6 (.)
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 2fdda20 (.)
+>>>>>>> 69fa7d37 (.)
 use Exception;
 use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
@@ -682,6 +695,7 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 909e45af (.)
 =======
@@ -786,7 +800,11 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 69fa7d37 (.)
 =======
+>>>>>>> c7d5eaf96 (.)
+=======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> 69fa7d37 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -795,6 +813,9 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -853,6 +874,7 @@ use function Safe\preg_replace;
 >>>>>>> 8d298d6 (.)
 >>>>>>> a29a4728 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 
@@ -876,6 +898,11 @@ use function Safe\preg_replace;
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+>>>>>>> 2fdda20 (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 
 /**
  * Factory per la creazione di azioni WhatsApp.
@@ -1833,6 +1860,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -1886,6 +1914,8 @@ final class WhatsAppActionFactory
 >>>>>>> bf251cdf0 (.)
 =======
 >>>>>>> 7aeb7d968 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -2382,11 +2412,29 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
+
+        if (! is_string($normalizedDriver)) {
+            $normalizedDriver = '';
+        }
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+>>>>>>> e39a6f9 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 69fa7d37 (.)
+=======
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> 62b0c9c (.)
 =======
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2917,6 +2965,11 @@ final class WhatsAppActionFactory
 >>>>>>> 3d542a31 (.)
 >>>>>>> 7aeb7d968 (.)
 
+=======
+>>>>>>> 2fdda20 (.)
+
+>>>>>>> 31bdf6b (.)
+>>>>>>> 69fa7d37 (.)
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 

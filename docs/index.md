@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -78,6 +79,8 @@
 >>>>>>> fbed41ac (.)
 # Notify Module Documentation Index
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 =======
 # Notify Module Documentation Index
 >>>>>>> 69fa7d37 (.)
@@ -337,8 +340,16 @@
 =======
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
+<<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 >>>>>>> fea359347 (.)
+=======
+=======
+=======
+>>>>>>> 31bdf6b (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -394,6 +405,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,8 +416,18 @@ This document serves as the central index for the Notify module, providing guida
 =======
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
+=======
+=======
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31bdf6b (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -422,12 +444,20 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
 
 ## Collegamenti Correlati
+<<<<<<< HEAD
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
+<<<<<<< HEAD
+=======
+
+>>>>>>> bf479cc (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -501,6 +531,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - **Fallimenti di Consegna**: Assicurarsi della corretta configurazione di chiavi API e endpoint per ogni canale di notifica
 - **Errori Template**: Verificare sintassi template e placeholder per evitare problemi di rendering
 - **Colli di Bottiglia Performance**: Utilizzare il queueing per l'invio di notifiche per prevenire ritardi nell'esperienza utente
+<<<<<<< HEAD
+=======
+
+>>>>>>> bf479cc (.)
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
@@ -3966,6 +4000,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -4048,6 +4083,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 >>>>>>> e627c3b (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 6608a1a0 (.)
 =======
@@ -4064,6 +4100,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> e627c3b (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
@@ -4311,6 +4351,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5898,14 +5939,20 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> f3086887 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7bac387 (.)
@@ -6270,6 +6317,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 7bac387 (.)
 <<<<<<< HEAD
 >>>>>>> 9ed014c (.)
@@ -6295,6 +6344,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
@@ -6310,11 +6360,14 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bf479cc (.)
 >>>>>>> 31bdf6b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
 =======
@@ -6904,3 +6957,6 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)

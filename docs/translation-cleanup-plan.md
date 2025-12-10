@@ -166,6 +166,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -219,6 +220,8 @@
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> ff78f10a5 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
@@ -537,6 +540,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -708,6 +712,10 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
 
 ## Analisi della Situazione Attuale
@@ -858,6 +866,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -928,6 +937,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/lara
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 >>>>>>> 75179b85 (.)
 =======
@@ -966,6 +977,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 =======
 >>>>>>> 69fa7d37 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 6608a1a0 (.)
@@ -1047,6 +1059,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 545977c8 (rebase 210)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di .
 
 ## Analisi della Situazione Attuale
@@ -1103,6 +1117,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1125,6 +1140,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -1330,6 +1347,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1495,6 +1513,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

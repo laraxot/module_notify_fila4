@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -198,6 +199,7 @@
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
 =======
@@ -295,6 +297,8 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 # Error Mailer System
 
 ## Panoramica
@@ -469,6 +473,7 @@ class ErrorLogResource extends Resource
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +781,7 @@ class ErrorLogResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
     public static function form(Form $form): Form
 >>>>>>> c8b1c8bf (.)
@@ -923,6 +929,8 @@ class ErrorLogResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1370,6 +1378,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
@@ -1479,6 +1488,7 @@ return [
 =======
 >>>>>>> 545977c8 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -1561,12 +1571,17 @@ return [
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)
 - [Laravel Exceptions](https://laravel.com/project_docs/errors)
 - [Filament Forms](https://filamentphp.com/project_docs/forms)
 - [Discord Webhooks](https://discord.com/developers/project_docs/resources/webhook)
 - [Laravel Exceptions](https://laravel.com/docs/errors)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1764,6 +1779,8 @@ return [
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> 909e45af (.)
 =======
@@ -1850,6 +1867,7 @@ return [
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
 >>>>>>> 36ac4fc1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
@@ -2012,3 +2030,8 @@ return [
 >>>>>>> ad905ce9c (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> 69fa7d37 (.)
+>>>>>>> c7d5eaf96 (.)

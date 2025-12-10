@@ -817,6 +817,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 01af324fe (.)
 =======
@@ -833,6 +834,8 @@ SMS_FROM_NAME=<nome progetto>
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 SMS_FROM_NAME=<nome progetto>
 =======
 =======
@@ -1804,6 +1807,7 @@ SMS_FROM_NAME=SaluteOra
 SMS_FROM_NAME=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e790eb33 (.)
@@ -2147,6 +2151,8 @@ SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 

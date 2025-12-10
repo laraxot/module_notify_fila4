@@ -157,6 +157,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Architettura Telegram Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
@@ -371,6 +372,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
 >>>>>>> 69fa7d37 (.)
 =======
+<<<<<<< HEAD
 # Architettura Telegram Provider per SaluteOra
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
@@ -443,6 +445,8 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 # Architettura Telegram Provider per 
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di , mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
@@ -450,6 +454,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,6 +521,8 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 # Architettura Telegram Provider per SaluteOra
@@ -905,6 +912,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1097,6 +1105,8 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> ff78f10a5 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -1261,6 +1271,7 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -1316,6 +1327,7 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 >>>>>>> 545977c8 (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 69fa7d37 (.)
 =======
@@ -1423,10 +1435,16 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1493,6 +1511,8 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> ad905ce9c (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
@@ -1764,6 +1784,7 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -1960,6 +1981,8 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> c7d5eaf96 (.)
 ├── app/
 │   ├── Actions/
 │   │   └── Telegram/
