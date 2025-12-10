@@ -72,6 +72,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -207,10 +208,13 @@ return [
 >>>>>>> daf5ed9 (.)
 =======
 >>>>>>> f016534 (.)
+=======
+>>>>>>> 9d7ed71 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3107,6 +3111,7 @@ return [
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> f016534 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6e12a84b (rebase 210)
 =======
@@ -3625,6 +3630,10 @@ return [
 >>>>>>> bf479cc (.)
 >>>>>>> f016534 (.)
 >>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 9d7ed71 (.)
+>>>>>>> d38aa9d2 (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -3902,6 +3911,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d38aa9d2 (rebase 210)
 =======
 
 >>>>>>> 6e12a84b (rebase 210)
@@ -5276,6 +5289,7 @@ return [
 >>>>>>> f016534 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e12a84b (rebase 210)
 =======
 =======
@@ -5792,6 +5806,10 @@ return [
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 9d7ed71 (.)
+>>>>>>> d38aa9d2 (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -6069,6 +6087,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d38aa9d2 (rebase 210)
 =======
 
 >>>>>>> 6e12a84b (rebase 210)
@@ -7443,6 +7465,7 @@ return [
 >>>>>>> f016534 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e12a84b (rebase 210)
 =======
 =======
@@ -7959,6 +7982,10 @@ return [
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 9d7ed71 (.)
+>>>>>>> d38aa9d2 (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -8236,6 +8263,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d38aa9d2 (rebase 210)
 =======
 
 >>>>>>> 6e12a84b (rebase 210)
@@ -9610,6 +9641,7 @@ return [
 >>>>>>> f016534 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6e12a84b (rebase 210)
 =======
 =======
@@ -10126,6 +10158,10 @@ return [
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+=======
+=======
+>>>>>>> 9d7ed71 (.)
+>>>>>>> d38aa9d2 (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
