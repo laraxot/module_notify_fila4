@@ -32,6 +32,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 >>>>>>> 75179b85 (.)
 =======
@@ -167,12 +168,16 @@ use Override;
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> 58816034 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 use Override;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -279,6 +284,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -574,6 +580,8 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -583,6 +591,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1160,6 +1169,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     public function boot(): void
     {
         parent::boot();
@@ -1173,16 +1184,14 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 207ac35 (.)
-    #[Override]
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b (.)
     #[Override]
->>>>>>> 4e2ebfb (.)
     public function boot(): void
     {
         parent::boot();
         //if (! app()->environment('production')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b8 (.)
@@ -1200,7 +1209,12 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 
@@ -1211,6 +1225,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1657,5 +1672,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     }
 }

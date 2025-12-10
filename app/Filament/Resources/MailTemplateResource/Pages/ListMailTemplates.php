@@ -71,6 +71,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -79,6 +80,8 @@ use Override;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 58816034 (.)
 use Filament\Tables\Columns\TextColumn;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
@@ -562,6 +565,7 @@ use Filament\Tables\Table;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 =======
@@ -630,6 +634,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 use Override;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables;
@@ -637,6 +645,7 @@ use Filament\Tables\Table;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,6 +681,8 @@ use Modules\Notify\Models\MailTemplate;
 =======
 >>>>>>> 0f07e6d (.)
 =======
+=======
+>>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -869,6 +880,7 @@ use Filament\Tables\Table;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 =======
@@ -961,11 +973,16 @@ use Override;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
     protected static string $resource = MailTemplateResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1227,12 +1244,16 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> 58816034 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1245,6 +1266,7 @@ class ListMailTemplates extends LangBaseListRecords
             TextColumn::make('counter')->searchable()->sortable(),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1925,4 +1947,6 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 }

@@ -241,6 +241,7 @@ class SlackNotification extends Page
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected static null|string $cluster = Test::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +279,8 @@ class SlackNotification extends Page
 >>>>>>> 888799d0 (.)
 =======
 =======
+=======
+>>>>>>> 58816034 (.)
     protected static ?string $cluster = Test::class;
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -500,6 +503,7 @@ class SlackNotification extends Page
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
 =======
@@ -600,4 +604,9 @@ class SlackNotification extends Page
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 }

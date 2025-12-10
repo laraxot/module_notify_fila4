@@ -66,6 +66,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -377,6 +378,8 @@ return new class extends Migration {
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 return new class extends Migration
 {
 =======
@@ -416,6 +419,7 @@ return new class extends Migration
 return new class extends Migration {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
@@ -508,6 +512,11 @@ return new class extends Migration {
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+=======
+return new class extends Migration {
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
     /**
      * Esegue la migrazione.
      */
@@ -525,6 +534,7 @@ return new class extends Migration {
             $table->string('status'); // sent, failed, pending
             $table->text('error')->nullable();
             $table->timestamps();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,6 +873,9 @@ return new class extends Migration {
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 58816034 (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

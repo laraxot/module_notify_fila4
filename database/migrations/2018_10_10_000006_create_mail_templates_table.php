@@ -65,6 +65,9 @@ use Illuminate\Database\Schema\Blueprint;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58816034 (.)
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -451,12 +454,16 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> 207ac35 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
+=======
+>>>>>>> 58816034 (.)
 =======
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 >>>>>>> 9777d1b (.)
+<<<<<<< HEAD
 >>>>>>> 58816034 (.)
 =======
 use Illuminate\Support\Facades\DB;
@@ -520,6 +527,8 @@ use Illuminate\Support\Facades\Schema;
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
@@ -588,6 +597,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -787,6 +797,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 58816034 (.)
 return new class extends XotBaseMigration
 {
 =======
@@ -910,6 +922,7 @@ return new class () extends XotBaseMigration {
 return new class() extends XotBaseMigration {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
@@ -1016,6 +1029,11 @@ return new class() extends XotBaseMigration {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
     /**
      * Run the migrations.
      */
@@ -1085,6 +1103,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1304,10 +1323,13 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2206,6 +2228,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
             if (! $this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -2226,6 +2250,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -2246,6 +2272,7 @@ return new class() extends XotBaseMigration {
             $this->updateTimestamps(table: $table, hasSoftDeletes: true);
         });
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -2285,4 +2312,6 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 };

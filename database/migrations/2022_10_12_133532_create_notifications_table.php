@@ -66,6 +66,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -261,6 +262,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 58816034 (.)
 return new class extends XotBaseMigration
 {
 =======
@@ -384,6 +387,7 @@ return new class () extends XotBaseMigration {
 return new class() extends XotBaseMigration {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
@@ -490,12 +494,18 @@ return new class() extends XotBaseMigration {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +723,8 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->uuid('id')->primary();
             $table->string('type');
@@ -727,6 +739,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1103,5 +1116,7 @@ return new class() extends XotBaseMigration {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     }
 };

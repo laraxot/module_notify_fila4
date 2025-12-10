@@ -72,6 +72,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -835,6 +836,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -1314,6 +1317,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
@@ -1519,6 +1523,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
      */
 =======
 =======
@@ -1837,6 +1843,7 @@ class NotificationLog extends Model
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1853,6 +1860,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -1872,6 +1881,7 @@ class NotificationLog extends Model
         Builder $query,
         NotificationLogStatusEnum $status,
     ): Builder {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2140,10 +2150,13 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         return $query->where('status', $status);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2361,6 +2374,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -2368,6 +2383,7 @@ class NotificationLog extends Model
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2657,6 +2673,8 @@ class NotificationLog extends Model
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     }
 
     /**

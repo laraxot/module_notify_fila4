@@ -64,6 +64,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -84,6 +85,8 @@ use Override;
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 use GuzzleHttp\Client;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
@@ -133,6 +136,8 @@ use Override;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -733,17 +738,6 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> c8b1c8bf (.)
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
-<<<<<<< HEAD
-=======
-
-use GuzzleHttp\Client;
-use Modules\Notify\Datas\SmsData;
-use Illuminate\Support\Facades\Http;
-use Modules\Notify\Datas\SMS\AgiletelecomData;
-use Modules\Notify\Contracts\SMS\SmsActionContract;
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -765,6 +759,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1031,12 +1026,16 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 2fc60436 (.)
 =======
+>>>>>>> 58816034 (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
     #[Override]
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1061,6 +1060,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'Accept-Encoding' => 'gzip, deflate',
             'Cache-Control' => 'no-cache',
             'Connection' => 'keep-alive',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1532,6 +1532,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
         ];
 
         $client = new Client([
@@ -1542,6 +1544,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ]);
 
         $connection = $client->request('POST', $relative_path);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2045,4 +2048,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+
+        return [];
+    }
+>>>>>>> 58816034 (.)
 }

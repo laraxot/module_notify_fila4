@@ -322,11 +322,10 @@ use Webmozart\Assert\Assert;
 >>>>>>> c8b1c8bf (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,6 +481,8 @@ use Webmozart\Assert\Assert;
 =======
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 58816034 (.)
 >>>>>>> 75179b8 (.)
 =======
 =======
@@ -528,6 +529,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
@@ -644,6 +646,10 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 
 // use Squire\Models\Country;
 
@@ -709,6 +715,7 @@ class ContactSection extends Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1045,6 +1052,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     // protected string $view = 'filament-forms::components.group';
 =======
 =======
@@ -1059,6 +1068,8 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -1287,10 +1298,6 @@ class ContactSection extends Forms\Components\Section
         $this->columns(2);
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4e2ebfb (.)
     protected function getFormSchema(): array
     {
 <<<<<<< HEAD
@@ -1334,6 +1341,7 @@ class ContactSection extends Forms\Components\Section
      * $record->touch();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1890,4 +1898,6 @@ class ContactSection extends Forms\Components\Section
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 }

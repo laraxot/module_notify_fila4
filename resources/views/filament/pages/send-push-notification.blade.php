@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -197,6 +198,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 <?php
 
 declare(strict_types=1);
@@ -395,6 +398,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -419,6 +423,8 @@ declare(strict_types=1);
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 58816034 (.)
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 <<<<<<< HEAD
@@ -570,6 +576,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 =======
@@ -619,6 +626,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
 
                 <div class="mt-6 flex items-center justify-between gap-x-3">
                     <div>
@@ -668,9 +679,12 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1fd232c7 (.)
+=======
+>>>>>>> 58816034 (.)
 =======
 >>>>>>> 58816034 (.)
                 <div>
@@ -963,6 +977,7 @@ declare(strict_types=1);
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 9777d1b (.)
+<<<<<<< HEAD
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> 9777d1b3 (.)
@@ -1013,10 +1028,13 @@ declare(strict_types=1);
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 58816034 (.)
                 </div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1582,4 +1600,6 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 </x-filament-panels::page>

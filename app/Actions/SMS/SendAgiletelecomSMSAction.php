@@ -10,6 +10,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -23,6 +24,8 @@ use GuzzleHttp\Client;
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 use Modules\Notify\Contracts\SmsActionContract;
 =======
 =======
@@ -31,12 +34,15 @@ use Modules\Notify\Contracts\SmsActionContract;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> 9777d1b (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 75179b8 (.)
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
@@ -852,12 +858,15 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
  */
 class SendAgiletelecomSMSAction implements SmsActionContract
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1072,6 +1081,8 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
     public function execute(SmsData $data): array
     {
         return app(SendAgiletelecomSMSv2Action::class)->execute($data);
@@ -1084,6 +1095,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9777d1b (.)
@@ -1131,6 +1143,10 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
     #[Override]
 =======
 >>>>>>> fbed41ac (.)
@@ -1148,6 +1164,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 75179b8 (.)
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1524,4 +1541,6 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
 }
