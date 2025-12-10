@@ -429,6 +429,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3229,6 +3230,7 @@ declare(strict_types=1);
 >>>>>>> 08fd62df (.)
 =======
 >>>>>>> 56ae9932 (.)
+<<<<<<< HEAD
 =======
 <tr>
 <<<<<<< HEAD
@@ -3377,6 +3379,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 08fd62df (.)
 >>>>>>> 08ae27d78 (.)
+=======
+>>>>>>> 60f8c400a (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -3449,6 +3453,7 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 </tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4290,6 +4295,7 @@ declare(strict_types=1);
 </tr>
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 </tr>
@@ -5965,3 +5971,8 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+=======
+</tr>
+>>>>>>> 56ae9932 (.)
+>>>>>>> 60f8c400a (.)

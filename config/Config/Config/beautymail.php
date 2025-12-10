@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ee1815a34 (.)
+=======
+>>>>>>> 60f8c400a (.)
 <?php
 
 declare(strict_types=1);
@@ -10,6 +13,7 @@ return [
     // These CSS rules will be applied after the regular template CSS
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,10 +70,13 @@ return [
 >>>>>>> ee1815a34 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> 60f8c400a (.)
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,6 +294,8 @@ return [
 >>>>>>> 2ba4e5540 (.)
 =======
 >>>>>>> 08ae27d78 (.)
+=======
+>>>>>>> 60f8c400a (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -300,6 +309,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -445,6 +455,9 @@ return [
 >>>>>>> 2ba4e5540 (.)
 =======
 >>>>>>> 08ae27d78 (.)
+=======
+
+>>>>>>> 60f8c400a (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -458,6 +471,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -603,6 +617,9 @@ return [
 >>>>>>> 2ba4e5540 (.)
 =======
 >>>>>>> 08ae27d78 (.)
+=======
+
+>>>>>>> 60f8c400a (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -616,6 +633,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,13 +779,19 @@ return [
 >>>>>>> 2ba4e5540 (.)
 =======
 >>>>>>> 08ae27d78 (.)
+=======
+
+>>>>>>> 60f8c400a (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> ee1815a34 (.)
+=======
+>>>>>>> 60f8c400a (.)
