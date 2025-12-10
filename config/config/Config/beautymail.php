@@ -61,6 +61,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -173,10 +174,13 @@ return [
 >>>>>>> 1c9a755 (.)
 =======
 >>>>>>> fe422c4 (.)
+=======
+>>>>>>> 5e42bb3 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2921,6 +2925,7 @@ return [
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> fe422c4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -3454,6 +3459,10 @@ return [
 >>>>>>> bf479cc (.)
 >>>>>>> fe422c4 (.)
 >>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5e42bb3 (.)
+>>>>>>> 9d3810d0 (rebase 210)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -3720,6 +3729,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d3810d0 (rebase 210)
 =======
 
 >>>>>>> 54ad93c4 (rebase 210)
@@ -4957,6 +4970,7 @@ return [
 >>>>>>> fe422c4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 =======
@@ -5511,6 +5525,10 @@ return [
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5e42bb3 (.)
+>>>>>>> 9d3810d0 (rebase 210)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -5777,6 +5795,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d3810d0 (rebase 210)
 =======
 
 >>>>>>> 54ad93c4 (rebase 210)
@@ -7014,6 +7036,7 @@ return [
 >>>>>>> fe422c4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 =======
@@ -7568,6 +7591,10 @@ return [
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5e42bb3 (.)
+>>>>>>> 9d3810d0 (rebase 210)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -7834,6 +7861,10 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d3810d0 (rebase 210)
 =======
 
 >>>>>>> 54ad93c4 (rebase 210)
@@ -9071,6 +9102,7 @@ return [
 >>>>>>> fe422c4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 =======
@@ -9625,6 +9657,10 @@ return [
 >>>>>>> 7ffa94fc (rebase 210)
 =======
 >>>>>>> 54ad93c4 (rebase 210)
+=======
+=======
+>>>>>>> 5e42bb3 (.)
+>>>>>>> 9d3810d0 (rebase 210)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
