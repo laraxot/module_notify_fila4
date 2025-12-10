@@ -135,6 +135,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b50927d (rebase 210)
 =======
@@ -271,8 +272,11 @@
 =======
 >>>>>>> 4b544042 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -300,12 +304,15 @@
 =======
 >>>>>>> 4ac6c3c (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1048,6 +1055,9 @@
 =======
 >>>>>>> 504d3d9 (.)
 >>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
 <?php
 
 declare(strict_types=1);
@@ -1195,6 +1205,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -1734,6 +1745,10 @@ declare(strict_types=1);
 >>>>>>> 3ee54c5d (.)
 <div class="block">
 =======
+=======
+<div class="block">
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1744,6 +1759,7 @@ declare(strict_types=1);
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4a221df (.)
 =======
@@ -1803,6 +1819,11 @@ declare(strict_types=1);
 <div class="block">
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+<div class="block">
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
 	<!-- start textbox-with-title -->
 	<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="fulltext">
 		<tbody>
@@ -1818,6 +1839,7 @@ declare(strict_types=1);
 					<tr>
 						<td>
 							<table width="540" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2426,11 +2448,16 @@ declare(strict_types=1);
 =======
 								<tbody>
 =======
+=======
+								<tbody>
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 								<tbody>
 =======
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 								<tbody>
@@ -2444,6 +2471,8 @@ declare(strict_types=1);
 								<tbody>
 =======
 >>>>>>> 7325acf3 (.)
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2458,6 +2487,7 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3274,3 +3304,7 @@ declare(strict_types=1);
 								<tbody>
 >>>>>>> 504d3d9 (.)
 >>>>>>> 5b50927d (rebase 210)
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)

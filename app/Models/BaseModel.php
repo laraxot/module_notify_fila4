@@ -22,6 +22,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -32,6 +33,8 @@ use Modules\Xot\Models\XotBaseModel;
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 =======
@@ -41,6 +44,7 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
@@ -59,6 +63,8 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -276,6 +282,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
     /**
@@ -304,11 +311,26 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 2effe245 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
+<<<<<<< HEAD
+=======
+=======
+     * @return \Illuminate\Database\Eloquent\Factories\Factory<static>
+     */
+    protected static function newFactory()
+    {
+        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +447,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -521,6 +544,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +558,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -782,6 +808,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -872,6 +900,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -968,6 +997,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -980,6 +1011,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1229,6 +1261,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 52cd5f85 (rebase 210)
+=======
+>>>>>>> 2effe245 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

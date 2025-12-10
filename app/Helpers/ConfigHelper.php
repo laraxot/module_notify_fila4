@@ -117,8 +117,71 @@ class ConfigHelper
     /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+     * Sostituisce ricorsivamente le variabili template in un array.
+     *
+     * @param  array<string, mixed>  $data
+     * @param  array<string, mixed>  $variables
+     * @return array<string, mixed>
+     */
+    private static function recursiveReplace(array $data, array $variables): array
+    {
+        $result = [];
+
+        foreach ($data as $key => $value) {
+            if (is_string($value)) {
+                $result[$key] = self::replaceStringVariables($value, $variables);
+            } elseif (is_array($value)) {
+                /** @var array<string, mixed> $value */
+                $result[$key] = self::recursiveReplace($value, $variables);
+            } else {
+                $result[$key] = $value;
+            }
+        }
+
+        return $result;
+    }
+
+    /**
+     * Sostituisce le variabili template in una stringa.
+     *
+     * @param  array<string, mixed>  $variables
+     */
+    private static function replaceStringVariables(string $string, array $variables): string
+    {
+        foreach ($variables as $variable => $value) {
+<<<<<<< HEAD
+            $placeholder = '{{'.$variable.'}}';
+=======
+<<<<<<< HEAD
+            $placeholder = '{{' . $variable . '}}';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            $placeholder = '{{' . $variable . '}}';
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> a12f125f4a (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+>>>>>>> b93ef594b4 (.)
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+            $string = str_replace($placeholder, (string) $value, $string);
+        }
+
+        return $string;
+    }
+
+    /**
+>>>>>>> 2effe245 (.)
      * Ottiene un valore di configurazione con sostituzione delle variabili template.
      */
     public static function get(string $key, mixed $default = null): mixed

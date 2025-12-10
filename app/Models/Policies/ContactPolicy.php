@@ -58,6 +58,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -134,12 +135,19 @@ class ContactPolicy extends NotifyBasePolicy {}
 =======
 class ContactPolicy extends NotifyBasePolicy {}
 =======
+class ContactPolicy extends NotifyBasePolicy {}
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 class ContactPolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,12 +171,15 @@ class ContactPolicy extends NotifyBasePolicy
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2effe245 (.)
 class ContactPolicy extends NotifyBasePolicy
 {
 }
 =======
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,9 +209,12 @@ class ContactPolicy extends NotifyBasePolicy {}
 class ContactPolicy extends NotifyBasePolicy {}
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 class ContactPolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +410,8 @@ class ContactPolicy extends NotifyBasePolicy
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Modules\Notify\Models\Contact;
@@ -409,6 +425,7 @@ class ContactPolicy extends NotifyBasePolicy
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -580,3 +597,5 @@ class ContactPolicy extends NotifyBasePolicy
 }
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)

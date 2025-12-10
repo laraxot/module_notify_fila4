@@ -514,6 +514,7 @@ class AnalyzeTranslationFiles extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -680,6 +681,10 @@ class AnalyzeTranslationFiles extends Command
             if (str_contains($file, '/send_')) {
 =======
 >>>>>>> bd804d67 (.)
+=======
+            if (str_contains($file, '/send_')) {
+=======
+>>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -694,6 +699,7 @@ class AnalyzeTranslationFiles extends Command
             if (strpos($file, '/send_') !== false) {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -931,6 +937,8 @@ class AnalyzeTranslationFiles extends Command
 =======
             if (str_contains($file, '/send_')) {
 >>>>>>> 116df547 (.)
+=======
+>>>>>>> 2effe245 (.)
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
@@ -1015,6 +1023,7 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> 75179b85 (.)
             $navigationKeys = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1109,6 +1118,8 @@ class AnalyzeTranslationFiles extends Command
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 2effe245 (.)
             if (is_array($keys)) {
                 foreach (array_keys($keys) as $key) {
                     if (str_starts_with((string) $key, 'navigation.')) {
@@ -1116,10 +1127,16 @@ class AnalyzeTranslationFiles extends Command
                     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2effe245 (.)
 =======
             foreach (array_keys($keys) as $key) {
 <<<<<<< HEAD
                 if (str_starts_with((string) $key, 'navigation.')) {
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
@@ -1136,6 +1153,7 @@ class AnalyzeTranslationFiles extends Command
                 if (strpos((string) $key, 'navigation.') === 0) {
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1270,6 +1288,10 @@ class AnalyzeTranslationFiles extends Command
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
                 }
             }
 

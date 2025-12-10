@@ -4,8 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models\Policies;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 use Modules\User\Models\Policies\UserBasePolicy;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,6 +121,15 @@ abstract class NotifyBasePolicy extends UserBasePolicy {}
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> a12f125f4a (.)
+>>>>>>> 2effe245 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +334,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 =======
 =======
 =======
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Illuminate\Support\Str;
@@ -338,17 +353,22 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 {
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 =======
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 2effe245 (.)
     
 }
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -460,3 +480,5 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)

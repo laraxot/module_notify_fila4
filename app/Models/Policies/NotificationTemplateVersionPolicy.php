@@ -58,6 +58,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -134,12 +135,19 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 =======
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 =======
+class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
+>>>>>>> 2effe245 (.)
+=======
 <<<<<<< HEAD
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,12 +171,15 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 2effe245 (.)
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
 =======
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 >>>>>>> a12f125f4a (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,9 +209,12 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy {}
 >>>>>>> f1c9518b (.)
 =======
+>>>>>>> 2effe245 (.)
+=======
 class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 {
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +409,8 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 2effe245 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Modules\Notify\Models\NotificationTemplateVersion;
@@ -407,6 +423,7 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -577,3 +594,5 @@ class NotificationTemplateVersionPolicy extends NotifyBasePolicy
 }
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)

@@ -12,6 +12,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -20,6 +21,23 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
+=======
+use Modules\Xot\Contracts\ProfileContract;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
 use Illuminate\Support\Carbon;
 use Modules\Xot\Models\BaseMorphPivot;
 =======
@@ -70,6 +88,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
@@ -108,8 +127,19 @@ use Illuminate\Support\Carbon;
 =======
 =======
 <<<<<<< HEAD
+ *
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
@@ -121,6 +151,9 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> a80c61f (.)
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -205,6 +238,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder<static>|NotifyThemeable whereDeletedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -212,6 +246,11 @@ use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
+=======
+ *
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+>>>>>>> 2effe245 (.)
 =======
 =======
 <<<<<<< HEAD
@@ -238,11 +277,15 @@ use Illuminate\Support\Carbon;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 82c6772 (.)
+>>>>>>> 2effe245 (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD
