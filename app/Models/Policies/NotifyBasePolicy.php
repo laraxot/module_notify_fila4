@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models\Policies;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 use Modules\User\Models\Policies\UserBasePolicy;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -482,3 +480,6 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy {}
+>>>>>>> 985c7bda (.)

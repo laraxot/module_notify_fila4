@@ -60,6 +60,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -190,6 +191,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 use Modules\Media\Models\Media;
@@ -199,6 +202,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Blade;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -432,6 +436,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+>>>>>>> 985c7bda (.)
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -603,10 +611,6 @@ use Spatie\Translatable\HasTranslations;
  * @property int $version
  * @property int|null $tenant_id
  * @property array|null $grapesjs_data
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property Carbon $created_at
  * @property Carbon $updated_at
  * @property Carbon|null $deleted_at
@@ -665,12 +669,15 @@ use Spatie\Translatable\HasTranslations;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -689,6 +696,7 @@ use Spatie\Translatable\HasTranslations;
 =======
  *
 >>>>>>> 2effe245 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 =======
@@ -802,7 +810,12 @@ use Spatie\Translatable\HasTranslations;
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
  * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
@@ -940,8 +953,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @return array<string, string>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
+=======
+>>>>>>> 985c7bda (.)
 <<<<<<< HEAD
     #[\Override]
 =======
@@ -961,7 +977,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     protected function casts(): array
     {
         return [
@@ -987,12 +1009,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 3f39ac8b (.)
     public function registerMediaCollections(): void
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
         $this->addMediaCollection('attachments')->singleFile();
     }
 
@@ -1010,62 +1026,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this->hasMany(NotificationLog::class, 'template_id');
      * }
      */
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> origin/develop
-        $this->addMediaCollection('attachments')
-            ->singleFile();
-    }
-/*
-    public function versions(): HasMany
-    {
-        return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
-            ->orderByDesc('version');
-    }
-
-    public function logs(): HasMany
-    {
-        return $this->hasMany(NotificationLog::class, 'template_id');
-    }
-*/
-<<<<<<< HEAD
->>>>>>> a12f125f4a (.)
-=======
-        $this->addMediaCollection('attachments')->singleFile();
-    }
-
-    /*
-     * public function versions(): HasMany
-     * {
-     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
-     * ->orderByDesc('version');
-     * }
-     *
-     * public function logs(): HasMany
-     * {
-     * return $this->hasMany(NotificationLog::class, 'template_id');
-     * }
-     */
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     /*
      * Create a new version of the template.
      *
      * @param string $createdBy The user who created the version
      * @param string|null $notes Optional notes about the changes
      * @return self
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
      *
      * public function createNewVersion(string $createdBy, ?string $notes = null): self
      * {
@@ -1085,6 +1051,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this;
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1116,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     /**
      * Compile the template with the given data.
      *
@@ -1229,27 +1198,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * @param  string|null  $template  The template to compile
      * @param  array<string, mixed>  $data  The data to compile with
      */
-<<<<<<< HEAD
     protected function compileString(?string $template, array $data): ?string
-=======
-<<<<<<< HEAD
-    protected function compileString(null|string $template, array $data): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected function compileString(null|string $template, array $data): null|string
-=======
-    protected function compileString(?string $template, array $data): ?string
->>>>>>> a12f125f4a (.)
-=======
-    protected function compileString(null|string $template, array $data): null|string
->>>>>>> b93ef594b4 (.)
-=======
-    protected function compileString(?string $template, array $data): ?string
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
->>>>>>> f813254 (.)
     {
         if (! $template) {
 =======
@@ -1302,6 +1251,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Builder  $query
 =======
 =======
@@ -1316,12 +1266,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> f1c9518b (.)
 =======
 =======
-     * @param  Builder  $query
 =======
-<<<<<<< HEAD
-     * @param Builder $query
->>>>>>> f813254 (.)
+>>>>>>> 985c7bda (.)
+     * @param  Builder  $query
      * @return Builder
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
@@ -1338,6 +1287,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      */
     public function scopeActive(Builder $query): Builder
     {
@@ -1353,6 +1304,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Builder  $query
 =======
 =======
@@ -1368,13 +1320,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> f1c9518b (.)
 =======
 =======
-     * @param  Builder  $query
 =======
-<<<<<<< HEAD
-     * @param Builder $query
-     * @param string $channel
->>>>>>> f813254 (.)
+>>>>>>> 985c7bda (.)
+     * @param  Builder  $query
      * @return Builder
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
@@ -1393,6 +1343,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      */
     public function scopeForChannel(Builder $query, string $channel): Builder
     {
@@ -1408,6 +1360,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  Builder  $query
 =======
 =======
@@ -1423,13 +1376,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> f1c9518b (.)
 =======
 =======
-     * @param  Builder  $query
 =======
-<<<<<<< HEAD
-     * @param Builder $query
-     * @param string $category
->>>>>>> f813254 (.)
+>>>>>>> 985c7bda (.)
+     * @param  Builder  $query
      * @return Builder
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
@@ -1448,6 +1399,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      */
     public function scopeForCategory(Builder $query, string $category): Builder
     {
@@ -1471,8 +1424,11 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         $channels = $this->getAttribute('channels');
         if (! is_array($channels)) {
             $channels = [];
@@ -1484,6 +1440,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
 =======
 >>>>>>> 82c6772 (.)
+=======
+>>>>>>> 92ecc28 (.)
         return collect($this->channels)
 >>>>>>> 6ba141fc (.)
 >>>>>>> 2effe245 (.)
@@ -1507,29 +1465,6 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
             ->implode(', ');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return collect($this->channels)
-            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
-            ->implode(', ');
-=======
-        return collect($this->channels)->map(function ($channel) {
-            return __('notify::template.fields.channel.options.' . $channel . '.label');
-        })->implode(', ');
->>>>>>> a12f125f4a (.)
-=======
-        return collect($this->channels)
-            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
-            ->implode(', ');
->>>>>>> b93ef594b4 (.)
-=======
-        return collect($this->channels)->map(function ($channel) {
-            return __('notify::template.fields.channel.options.' . $channel . '.label');
-        })->implode(', ');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     }
 
     /**

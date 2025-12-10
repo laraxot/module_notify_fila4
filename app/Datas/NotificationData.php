@@ -71,6 +71,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -206,6 +207,8 @@ class NotificationData extends Data
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     public ?string $from_email = null;
 
     public string $to;
@@ -213,6 +216,7 @@ class NotificationData extends Data
     public ?string $subject = null;
 
     public ?string $body_html = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -796,6 +800,8 @@ class NotificationData extends Data
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 
     public string $body;
 
@@ -859,6 +865,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1050,12 +1057,11 @@ class NotificationData extends Data
 =======
 >>>>>>> f2e64178 (.)
 =======
-    public ?DataCollection $attachments = null;
 =======
-<<<<<<< HEAD
-    public null|DataCollection $attachments = null;
->>>>>>> f813254 (.)
+>>>>>>> 985c7bda (.)
+    public ?DataCollection $attachments = null;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
@@ -1235,6 +1241,8 @@ class NotificationData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     // public ?array $attachment_paths = [];
 
     /**
@@ -1301,6 +1309,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1459,11 +1468,14 @@ class NotificationData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         return SmsData::from([
             'from' => $this->from,
             'to' => $this->to,
             'body' => $this->body,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1807,5 +1819,7 @@ class NotificationData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 }

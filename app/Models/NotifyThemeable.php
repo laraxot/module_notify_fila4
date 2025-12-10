@@ -13,6 +13,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -22,6 +23,8 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
@@ -37,7 +40,13 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
 use Illuminate\Support\Carbon;
 use Modules\Xot\Models\BaseMorphPivot;
 =======
@@ -89,6 +98,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
  *
@@ -127,7 +137,10 @@ use Illuminate\Support\Carbon;
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -153,7 +166,12 @@ use Illuminate\Support\Carbon;
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -239,6 +257,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -247,7 +266,10 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 >>>>>>> 2effe245 (.)
@@ -285,7 +307,12 @@ use Illuminate\Support\Carbon;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD

@@ -7,6 +7,24 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Illuminate\Support\Carbon;
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92ecc28 (.)
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Modules\Xot\Contracts\ProfileContract;
+use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+<<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -667,6 +685,7 @@ use Illuminate\Support\Carbon;
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 =======
@@ -703,6 +722,10 @@ use Illuminate\Support\Carbon;
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -762,6 +785,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -772,6 +796,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -786,6 +812,7 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> d45a0226 (.)
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -814,6 +841,7 @@ use Illuminate\Support\Carbon;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
@@ -852,6 +880,10 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -1022,6 +1054,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -1138,6 +1171,10 @@ use Illuminate\Support\Carbon;
 =======
 >>>>>>> f5f1cb1 (.)
  * @mixin IdeHelperContact
+=======
+ *
+ * @mixin IdeHelperContact
+>>>>>>> 985c7bda (.)
 <<<<<<< HEAD
  *
  * @property string|null $language
@@ -1149,6 +1186,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> 6ba141fc (.)
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
+>>>>>>> 985c7bda (.)
+=======
 >>>>>>> 985c7bda (.)
  * @mixin \Eloquent
  */
@@ -1359,6 +1399,7 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1517,6 +1558,8 @@ class Contact extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         'model_id',
         'model_type',
         'contact_type',
@@ -1528,10 +1571,6 @@ class Contact extends BaseModel
         'created_by',
         'user_id',
         'token',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
     ];
 
 <<<<<<< HEAD
@@ -1614,12 +1653,15 @@ class Contact extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
 =======
 =======
 =======
@@ -1937,7 +1979,12 @@ class Contact extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 92ecc28 (.)
+>>>>>>> 985c7bda (.)
     protected function casts(): array
     {
         return [
@@ -1946,6 +1993,7 @@ class Contact extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2463,6 +2511,11 @@ class Contact extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+>>>>>>> 985c7bda (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',

@@ -270,8 +270,8 @@ trait HasTenantNotifications
      */
     public function notifications(): MorphMany
     {
-<<<<<<< HEAD
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +367,8 @@ trait HasTenantNotifications
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 
     /**
@@ -627,8 +629,8 @@ trait HasTenantNotifications
      */
     public function unreadNotifications(): MorphMany
     {
-<<<<<<< HEAD
         return $this->notifications()->whereNull('read_at');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -724,6 +726,8 @@ trait HasTenantNotifications
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 
     /**
@@ -991,8 +995,8 @@ trait HasTenantNotifications
      */
     public function readNotifications(): MorphMany
     {
-<<<<<<< HEAD
         return $this->notifications()->whereNotNull('read_at');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1083,6 +1087,8 @@ trait HasTenantNotifications
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 
     /**
@@ -1103,6 +1109,7 @@ trait HasTenantNotifications
 =======
 >>>>>>> f1c9518b (.)
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1661,6 +1668,12 @@ trait HasTenantNotifications
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+    public function scopeForTenant(Builder $query, ?string $tenantId = null): Builder
+    {
+        $tenantId ??= $this->getTenantId();
+
+>>>>>>> 985c7bda (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -1675,6 +1688,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1861,6 +1875,9 @@ trait HasTenantNotifications
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
+=======
+    protected function getTenantId(): ?string
+>>>>>>> 985c7bda (.)
     {
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);
@@ -2204,6 +2221,7 @@ trait HasTenantNotifications
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -2466,3 +2484,6 @@ trait HasTenantNotifications
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+}
+>>>>>>> 985c7bda (.)

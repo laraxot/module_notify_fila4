@@ -275,6 +275,7 @@ use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
+use Override;
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -511,6 +512,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -523,6 +525,9 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 58816034 (.)
     #[Override]
 >>>>>>> 2fc60436 (.)
+=======
+    #[Override]
+>>>>>>> 985c7bda (.)
     public static function getFormSchema(): array
     {
         return [
@@ -621,6 +626,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
                         ->afterStateUpdated(function (string $state, Set $set): void {
@@ -646,6 +652,8 @@ class MailTemplateResource extends LangBaseResource
                         ->afterStateUpdated(function (string $state, Set $set) {
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> 985c7bda (.)
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
 =======
                         ->afterStateUpdated(static function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
@@ -653,6 +661,7 @@ class MailTemplateResource extends LangBaseResource
 =======
                         ->afterStateUpdated(function (string $state, \Filament\Schemas\Components\Utilities\Set $set) {
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> 75179b8 (.)
@@ -662,6 +671,8 @@ class MailTemplateResource extends LangBaseResource
                         //->reactive()
                         ->afterStateUpdated(function (string $state, Set $set) {
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> 985c7bda (.)
                             $set('slug', Str::slug($state));
                         }),
                     TextInput::make('slug')
@@ -712,9 +723,12 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(fn($record) => ['params' => $record?->params])
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 985c7bda (.)
                 ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
@@ -749,6 +763,7 @@ class MailTemplateResource extends LangBaseResource
                 ->visible(fn ($record): bool => is_object($record) && property_exists($record, 'params') && ! empty($record->params)),
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -759,6 +774,8 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 985c7bda (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
 <<<<<<< HEAD

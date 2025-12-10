@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -542,6 +543,10 @@ declare(strict_types=1);
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> 985c7bda (.)
 return [
     'fields' => [
         'type' => [
@@ -607,12 +612,4 @@ return [
             'color' => 'danger',
         ],
     ],
-<<<<<<< HEAD
 ];
-=======
-<<<<<<< HEAD
-];
-=======
-]; 
->>>>>>> origin/develop
->>>>>>> d284d65 (.)

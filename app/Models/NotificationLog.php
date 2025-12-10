@@ -67,6 +67,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -169,6 +170,8 @@ use Carbon\Carbon;
 =======
 =======
 =======
+>>>>>>> 985c7bda (.)
+=======
 <<<<<<< HEAD
 use Carbon\Carbon;
 =======
@@ -186,6 +189,9 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f813254 (.)
 >>>>>>> 82c6772 (.)
+=======
+use Carbon\Carbon;
+>>>>>>> 92ecc28 (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 2effe245 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -1163,6 +1169,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
  * Modello per il logging delle notifiche.
  *
  * @property int $id
+=======
+>>>>>>> 92ecc28 (.)
  * @property int|null $template_id
  * @property string $recipient_type
  * @property int $recipient_id
@@ -1248,11 +1256,8 @@ final class NotificationLog extends BaseModel
     }
 
     /**
-<<<<<<< HEAD
-     * Get the notifiable entity.
->>>>>>> a12f125f4a (.)
-=======
      * Ottiene il notifiable associato a questo log.
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
@@ -1306,6 +1311,8 @@ final class NotificationLog extends BaseModel
 =======
 =======
      * Ottiene il notifiable associato a questo log.
+>>>>>>> 985c7bda (.)
+=======
 >>>>>>> 985c7bda (.)
      */
 >>>>>>> 82c6772 (.)
@@ -1611,11 +1618,14 @@ final class NotificationLog extends BaseModel
 =======
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -1635,6 +1645,7 @@ final class NotificationLog extends BaseModel
         Builder $query,
         NotificationLogStatusEnum $status,
     ): Builder {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1880,10 +1891,13 @@ final class NotificationLog extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
         return $query->where('status', $status);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2087,6 +2101,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 985c7bda (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -2094,6 +2110,7 @@ final class NotificationLog extends BaseModel
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2446,6 +2463,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 985c7bda (.)
     }
 
     /**
