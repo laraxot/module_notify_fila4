@@ -402,8 +402,8 @@ trait HasTenantNotifications
      */
     public function notifications(): MorphMany
     {
-<<<<<<< HEAD
         return $this->morphMany(NotificationLog::class, 'notifiable')->where('tenant_id', $this->getTenantId());
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +441,8 @@ trait HasTenantNotifications
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     }
 
     /**
@@ -833,8 +835,8 @@ trait HasTenantNotifications
      */
     public function unreadNotifications(): MorphMany
     {
-<<<<<<< HEAD
         return $this->notifications()->whereNull('read_at');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,6 +874,8 @@ trait HasTenantNotifications
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     }
 
     /**
@@ -1266,8 +1270,8 @@ trait HasTenantNotifications
      */
     public function readNotifications(): MorphMany
     {
-<<<<<<< HEAD
         return $this->notifications()->whereNotNull('read_at');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1305,6 +1309,8 @@ trait HasTenantNotifications
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     }
 
     /**
@@ -1577,10 +1583,10 @@ trait HasTenantNotifications
      * @param string|null $tenantId
      * @return Builder
      */
-<<<<<<< HEAD
     public function scopeForTenant(Builder $query, null|string $tenantId = null): Builder
     {
         $tenantId ??= $this->getTenantId();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1977,6 +1983,8 @@ trait HasTenantNotifications
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         return $query->where('tenant_id', $tenantId);
     }
 
@@ -2239,23 +2247,7 @@ trait HasTenantNotifications
      *
      * @return string|null
      */
-<<<<<<< HEAD
     protected function getTenantId(): null|string
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected function getTenantId(): null|string
-=======
-    protected function getTenantId(): ?string
->>>>>>> a12f125f4a (.)
-=======
-    protected function getTenantId(): null|string
->>>>>>> b93ef594b4 (.)
-=======
-    protected function getTenantId(): ?string
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     {
         /** @var TenantManager */
         $tenantManager = app(TenantManager::class);
@@ -2904,8 +2896,8 @@ trait HasTenantNotifications
             $builder->where($model->getTable() . '.tenant_id', $model->getTenantId());
         });
     }
-<<<<<<< HEAD
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2940,3 +2932,5 @@ trait HasTenantNotifications
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)

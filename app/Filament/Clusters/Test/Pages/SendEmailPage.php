@@ -20,6 +20,7 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c8b1c8bf (.)
@@ -124,15 +125,12 @@ use Filament\Schemas\Schema;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 use Override;
 use Exception;
 use Filament\Actions\Action;
@@ -209,34 +207,6 @@ use Override;
 >>>>>>> c8b1c8bf (.)
 =======
 
-<<<<<<< HEAD
-=======
-=======
-=======
-use Override;
->>>>>>> b93ef594b4 (.)
-use Exception;
-use Filament\Actions\Action;
-use Filament\Facades\Filament;
-use Filament\Forms;
-use Filament\Forms\Concerns\InteractsWithForms;
-use Filament\Forms\Contracts\HasForms;
-use Filament\Notifications\Notification;
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Mail;
-use Modules\Notify\Datas\EmailData;
-use Modules\Notify\Emails\EmailDataEmail;
-use Modules\Notify\Filament\Clusters\Test;
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Traits\NavigationLabelTrait;
-
-<<<<<<< HEAD
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
->>>>>>> d284d65 (.)
 /**
  * @property \Filament\Schemas\Schema $emailForm
 >>>>>>> 75179b85 (.)
@@ -250,7 +220,6 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
  */
 class SendEmailPage extends XotBasePage
 {
-<<<<<<< HEAD
     // use NavigationLabelTrait;
 
 <<<<<<< HEAD
@@ -264,6 +233,7 @@ class SendEmailPage extends XotBasePage
     public ?array $emailData = [];
 =======
     public null|array $emailData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,11 +451,14 @@ class SendEmailPage extends XotBasePage
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 3f537838 (.)
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -819,6 +792,9 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+    protected static null|string $cluster = Test::class;
+>>>>>>> 3f537838 (.)
 
     public function mount(): void
     {
@@ -836,8 +812,11 @@ class SendEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     public function emailForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
@@ -879,6 +858,7 @@ class SendEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1287,6 +1267,8 @@ class SendEmailPage extends XotBasePage
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     public function getEmailFormSchema(): array
     {
         return [
@@ -1297,41 +1279,8 @@ class SendEmailPage extends XotBasePage
                         // ->unique(ignoreRecord: true)
                         ->email()
                         ->required(),
-<<<<<<< HEAD
                     'subject' => TextInput::make('subject')->required(),
                     'body_html' => RichEditor::make('body_html')->required(),
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    'subject' => TextInput::make('subject')->required(),
-                    'body_html' => RichEditor::make('body_html')->required(),
-=======
-                    'subject' => TextInput::make('subject')
-                        ->required(),
-                    'body_html' => RichEditor::make('body_html')
-                        ->required(),
->>>>>>> a12f125f4a (.)
-=======
-                    'subject' => TextInput::make('subject')->required(),
-                    'body_html' => RichEditor::make('body_html')->required(),
->>>>>>> b93ef594b4 (.)
-=======
-    public function getEmailFormSchema(): array
-    {
-        return [
-            'section' => Forms\Components\Section::make()
-                // ->description('Update your account\'s profile information and email address.')
-                ->schema([
-                    'to' => Forms\Components\TextInput::make('to')
-                        // ->unique(ignoreRecord: true)
-                        ->email()
-                        ->required(),
-                    'subject' => Forms\Components\TextInput::make('subject')
-                        ->required(),
-                    'body_html' => Forms\Components\RichEditor::make('body_html')
-                        ->required(),
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 ]),
         ];
     }
@@ -1341,27 +1290,7 @@ class SendEmailPage extends XotBasePage
         $data = $this->emailForm->getState();
         $email_data = EmailData::from($data);
 
-<<<<<<< HEAD
         Mail::to($data['to'])->send(new EmailDataEmail($email_data));
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
-=======
-        Mail::to($data['to'])->send(
-            new EmailDataEmail($email_data)
-        );
->>>>>>> a12f125f4a (.)
-=======
-        Mail::to($data['to'])->send(new EmailDataEmail($email_data));
->>>>>>> b93ef594b4 (.)
-=======
-        Mail::to($data['to'])->send(
-            new EmailDataEmail($email_data)
-        );
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
         Notification::make()
             ->success()
@@ -1418,6 +1347,7 @@ class SendEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1644,30 +1574,20 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+                
+>>>>>>> 3f537838 (.)
 
                 ->submit('emailFormActions'),
         ];
     }
 
-<<<<<<< HEAD
     #[Override]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    #[Override]
-=======
->>>>>>> a12f125f4a (.)
-=======
-    #[Override]
->>>>>>> b93ef594b4 (.)
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1784,6 +1704,8 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         if (!($user instanceof Model)) {
 >>>>>>> 75179b85 (.)
 =======
@@ -1841,20 +1763,6 @@ class SendEmailPage extends XotBasePage
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        if (! $user instanceof Model) {
-            throw new Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-=======
-        if (! $user instanceof Model) {
-            throw new \Exception('The authenticated user object must be an Eloquent model to allow the profile page to update it.');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         }
 
         return $user;

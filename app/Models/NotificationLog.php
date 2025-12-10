@@ -78,6 +78,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -863,6 +864,8 @@ class NotificationLog extends Model
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -1359,6 +1362,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
@@ -1590,6 +1594,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
      */
     protected $table = 'notification_logs';
 
@@ -1735,6 +1741,7 @@ final class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2055,6 +2062,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
      * Scope per filtrare i log per notifiable.
      */
     public function scopeForNotifiable(
@@ -2074,6 +2083,7 @@ final class NotificationLog extends BaseModel
         Builder $query,
         NotificationLogStatusEnum $status,
     ): Builder {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2377,10 +2387,13 @@ final class NotificationLog extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         return $query->where('status', $status);
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2621,6 +2634,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
      * Scope per filtrare i log per template.
      */
     public function scopeForTemplate(
@@ -2628,6 +2643,7 @@ final class NotificationLog extends BaseModel
         int $templateId,
     ): Builder {
         return $query->where('template_id', $templateId);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2833,82 +2849,31 @@ final class NotificationLog extends BaseModel
 =======
 =======
 =======
+=======
+>>>>>>> 3f537838 (.)
     }
 
     /**
-     * Scope to filter by notifiable entity.
-     *
-     * @param Builder<static> $query
-     * @return Builder<static>
+     * Marca il log come aperto.
      */
-    public function scopeForNotifiable($query, Model $notifiable)
-    {
-        return $query->where('notifiable_type', get_class($notifiable))
-            ->where('notifiable_id', $notifiable->getKey());
-    }
-
-    /**
-     * Mark the notification as sent.
-     */
-    public function markAsSent(): self
+    public function markAsOpened(): void
     {
         $this->update([
-            'status' => self::STATUS_SENT,
-            'sent_at' => now(),
-        ]);
-
-        return $this;
-    }
-
-    /**
-     * Mark the notification as delivered.
-     */
-    public function markAsDelivered(): self
-    {
-        $this->update([
-            'status' => self::STATUS_DELIVERED,
-            'delivered_at' => now(),
-        ]);
-
-        return $this;
-    }
-
-    /**
-     * Mark the notification as failed.
-     */
-    public function markAsFailed(?string $message = null): self
-    {
-        $this->update([
-            'status' => self::STATUS_FAILED,
-            'status_message' => $message,
-            'failed_at' => now(),
-        ]);
-
-        return $this;
-    }
-
-    /**
-     * Mark the notification as opened.
-     */
-    public function markAsOpened(): self
-    {
-        $this->update([
-            'status' => self::STATUS_OPENED,
+            'status' => NotificationLogStatusEnum::OPENED,
             'opened_at' => now(),
         ]);
-
-        return $this;
     }
 
     /**
-     * Mark the notification as clicked.
+     * Marca il log come cliccato.
      */
-    public function markAsClicked(): self
+    public function markAsClicked(): void
     {
         $this->update([
-            'status' => self::STATUS_CLICKED,
+            'status' => NotificationLogStatusEnum::CLICKED,
             'clicked_at' => now(),
         ]);
+<<<<<<< HEAD
 
         return $this;
     }
@@ -2939,6 +2904,8 @@ final class NotificationLog extends BaseModel
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
     }
 
     /**

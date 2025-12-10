@@ -34,15 +34,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 /**
  * --
  */
-<<<<<<< HEAD
 class CreateNotifyTheme extends XotBaseCreateRecord
-=======
-<<<<<<< HEAD
-class CreateNotifyTheme extends XotBaseCreateRecord
-=======
-class CreateNotifyTheme extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 {
     protected static string $resource = NotifyThemeResource::class;
 }

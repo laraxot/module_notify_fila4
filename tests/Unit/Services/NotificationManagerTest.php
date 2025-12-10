@@ -4,26 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Services;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 use Exception;
 use Mockery;
 use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Services\NotificationManager;
 use PHPUnit\Framework\TestCase;
-<<<<<<< HEAD
-=======
-=======
-use Modules\Notify\Services\NotificationManager;
-use Modules\Notify\Models\NotificationTemplate;
-use Modules\Notify\Actions\SendNotificationAction;
-use PHPUnit\Framework\TestCase;
-use Mockery;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
 class NotificationManagerTest extends TestCase
 {
@@ -98,6 +84,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> 58816034 (.)
@@ -552,6 +539,9 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        $this->notificationManager = new NotificationManager();
+>>>>>>> 3f537838 (.)
     }
 
     protected function tearDown(): void
@@ -637,6 +627,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -964,6 +955,9 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
+>>>>>>> 3f537838 (.)
 
         app()->instance(SendNotificationAction::class, $action);
 
@@ -1002,15 +996,7 @@ class NotificationManagerTest extends TestCase
     public function it_can_get_template_by_code(): void
     {
         $code = 'test_template';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $template = Mockery::mock(NotificationTemplate::class);
         $template->shouldReceive('getAttribute')->with('code')->andReturn($code);
         $template->shouldReceive('getAttribute')->with('is_active')->andReturn(true);
@@ -1024,15 +1010,7 @@ class NotificationManagerTest extends TestCase
     public function it_can_get_templates_by_category(): void
     {
         $category = 'test_category';
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $result = $this->notificationManager->getTemplatesByCategory($category);
 
         $this->assertIsObject($result); // Collection
@@ -1041,15 +1019,7 @@ class NotificationManagerTest extends TestCase
     /** @test */
     public function it_throws_exception_when_template_not_found(): void
     {
-<<<<<<< HEAD
         $this->expectException(Exception::class);
-=======
-<<<<<<< HEAD
-        $this->expectException(Exception::class);
-=======
-        $this->expectException(\Exception::class);
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         $this->expectExceptionMessage('Template not found: invalid_template');
 
         $recipient = Mockery::mock('Illuminate\Database\Eloquent\Model');

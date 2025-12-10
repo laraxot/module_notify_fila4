@@ -71,6 +71,7 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -384,6 +385,9 @@ use Modules\Notify\Factories\WhatsAppActionFactory;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+ *
+>>>>>>> 3f537838 (.)
  * Questo canale utilizza il driver WhatsApp configurato in config/whatsapp.php
  * per inviare messaggi WhatsApp attraverso il provider selezionato.
  */
@@ -453,6 +457,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -766,6 +771,9 @@ class WhatsAppChannel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -833,6 +841,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1065,22 +1074,9 @@ class WhatsAppChannel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-    
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     /**
      * Invia la notifica attraverso il canale WhatsApp.
      *
@@ -1115,6 +1111,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Notification $notification Notifica da inviare
 >>>>>>> f5f1cb1 (.)
 =======
@@ -1122,6 +1119,8 @@ class WhatsAppChannel
 =======
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> 3f537838 (.)
      * @param Notification $notification Notifica da inviare
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -1153,6 +1152,7 @@ class WhatsAppChannel
      */
     public function send($notifiable, Notification $notification)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1691,6 +1691,9 @@ class WhatsAppChannel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+        if (!method_exists($notification, 'toWhatsApp')) {
+>>>>>>> 3f537838 (.)
             throw new Exception('Notification does not have toWhatsApp method');
         }
 
@@ -1755,6 +1758,7 @@ class WhatsAppChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1949,6 +1953,8 @@ class WhatsAppChannel
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
 
         if (!($whatsAppData instanceof WhatsAppData)) {
 >>>>>>> 75179b85 (.)
@@ -1969,6 +1975,7 @@ class WhatsAppChannel
 
         $action = $this->factory->create();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2356,6 +2363,8 @@ class WhatsAppChannel
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
         return $action->execute($whatsAppData);
     }
 }
