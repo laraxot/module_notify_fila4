@@ -416,6 +416,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -570,6 +571,7 @@
 >>>>>>> 367c6ceb (.)
 =======
 >>>>>>> 08fd62df (.)
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -1390,6 +1392,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> 367c6ceb (.)
 >>>>>>> 2ba4e5540 (.)
+=======
+>>>>>>> 08ae27d78 (.)
 <?php
 
 declare(strict_types=1);
@@ -2286,12 +2290,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 2ba4e5540 (.)
+=======
+>>>>>>> 08ae27d78 (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -3246,6 +3253,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0db165c (.)
 >>>>>>> 367c6ceb (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08fd62df (.)
 =======
@@ -3410,6 +3418,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 2ba4e5540 (.)
+=======
+=======
+>>>>>>> 08fd62df (.)
+>>>>>>> 08ae27d78 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -3841,6 +3853,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -3870,6 +3883,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 2ba4e5540 (.)
+=======
+>>>>>>> 08ae27d78 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4456,6 +4471,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 08fd62df (.)
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
@@ -5915,3 +5931,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 2ba4e5540 (.)
+=======
+>>>>>>> 08ae27d78 (.)

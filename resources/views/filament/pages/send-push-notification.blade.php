@@ -588,6 +588,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
@@ -636,8 +637,11 @@ declare(strict_types=1);
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 2ba4e5540 (.)
+=======
+>>>>>>> 08ae27d78 (.)
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -656,6 +660,8 @@ declare(strict_types=1);
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 2ba4e5540 (.)
+=======
+>>>>>>> 08ae27d78 (.)
                 </div>
             </div>
 <<<<<<< HEAD
@@ -1291,6 +1297,7 @@ declare(strict_types=1);
 >>>>>>> 0db165c (.)
 >>>>>>> 367c6ceb (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08fd62df (.)
 =======
@@ -1509,6 +1516,10 @@ declare(strict_types=1);
 >>>>>>> c4282a934 (.)
 =======
 >>>>>>> 2ba4e5540 (.)
+=======
+=======
+>>>>>>> 08fd62df (.)
+>>>>>>> 08ae27d78 (.)
                 </div>
             </div>
         </div>
