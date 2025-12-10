@@ -645,6 +645,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -801,6 +802,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c6c33175 (.)
 =======
@@ -1110,6 +1112,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -1120,6 +1124,7 @@ class SendNotificationJob implements ShouldQueue
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1514,6 +1519,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 6d08c01b (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> 3b4c9907 (.)
@@ -1564,6 +1570,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> be45a0b8d (.)
         protected array $options = []
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -1685,6 +1695,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -1695,6 +1706,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1810,6 +1823,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> c6c33175 (.)
 =======
@@ -2162,6 +2176,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -2174,6 +2190,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2393,6 +2410,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> 4d2eb53e (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -2413,6 +2431,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+>>>>>>> 6b6b9e41 (.)
+>>>>>>> be45a0b8d (.)
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
 =======
@@ -2742,6 +2764,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -2752,6 +2775,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> be45a0b8d (.)
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 75179b85 (.)
@@ -2946,11 +2971,15 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> b19cd40 (.)
 >>>>>>> 6d08c01b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> be45a0b8d (.)
 =======
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> c6c33175 (.)
@@ -3505,6 +3534,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
     }
 
     /**
@@ -3792,6 +3823,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3825,6 +3857,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 4d2eb53e (.)
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 6b6b9e41 (.)
@@ -3965,6 +3998,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+>>>>>>> 6b6b9e41 (.)
+>>>>>>> be45a0b8d (.)
 }
 =======
 } 
@@ -4046,6 +4083,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -4068,6 +4106,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -4290,6 +4330,7 @@ class SendNotificationJob implements ShouldQueue
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> c6c33175 (.)
@@ -4665,3 +4706,5 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> be45a0b8d (.)
