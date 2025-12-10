@@ -151,6 +151,7 @@ class MediaTypeEnumTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -317,10 +318,13 @@ class MediaTypeEnumTest extends TestCase
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
         $values = array_map(fn($case) => $case->value, MediaTypeEnum::cases());
 =======
         $values = array_map(fn ($case) => $case->value, MediaTypeEnum::cases());
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,6 +541,11 @@ class MediaTypeEnumTest extends TestCase
         $values = array_map(fn ($case) => $case->value, MediaTypeEnum::cases());
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+=======
+        $values = array_map(fn($case) => $case->value, MediaTypeEnum::cases());
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
         $uniqueValues = array_unique($values);
 
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');

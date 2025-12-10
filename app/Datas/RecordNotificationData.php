@@ -73,6 +73,16 @@ use Exception;
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+use Modules\Xot\Contracts\UserContract;
+use Spatie\LaravelData\Data;
+use Webmozart\Assert\Assert;
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 9777d1b3 (.)
 =======
@@ -603,6 +613,7 @@ use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -831,6 +842,10 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
 
 class RecordNotificationData extends Data
 {
@@ -878,6 +893,7 @@ class RecordNotificationData extends Data
 
     public function getRoute(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1136,6 +1152,10 @@ class RecordNotificationData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1255,6 +1275,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 
@@ -1295,6 +1316,8 @@ class RecordNotificationData extends Data
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 011072e4 (.)
 =======
         switch($this->channel){
             case 'mail':
@@ -1685,6 +1708,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
 =======
@@ -1772,4 +1796,8 @@ class RecordNotificationData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
 }
