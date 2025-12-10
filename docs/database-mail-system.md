@@ -478,6 +478,7 @@ class TreatmentComplete extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -526,6 +527,8 @@ class TreatmentComplete extends Mailable
 =======
 
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fbed41ac (.)
 # Gestione template
 php artisan notify:mail-template:list
 php artisan notify:mail-template:create

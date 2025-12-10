@@ -14,6 +14,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -25,6 +26,8 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
 =======
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
@@ -54,6 +57,7 @@ use Illuminate\Database\Eloquent\Builder;
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 use Modules\Xot\Models\BaseMorphPivot;
 =======
 =======
@@ -80,6 +84,11 @@ use Modules\Xot\Contracts\ProfileContract;
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
 /**
  * Modules\Notify\Models\NotifyThemeable.
@@ -92,6 +101,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +158,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
  *
 <<<<<<< HEAD
 <<<<<<< HEAD

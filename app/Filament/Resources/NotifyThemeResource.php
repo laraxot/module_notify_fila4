@@ -61,6 +61,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -390,6 +391,8 @@ use Override;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -420,6 +423,7 @@ use Override;
 
 class NotifyThemeResource extends XotBaseResource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -524,6 +528,8 @@ class NotifyThemeResource extends XotBaseResource
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> fbed41ac (.)
     protected static ?string $model = NotifyTheme::class;
 =======
 <<<<<<< HEAD

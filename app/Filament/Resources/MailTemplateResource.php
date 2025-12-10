@@ -275,7 +275,6 @@ use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Str;
 use Modules\Lang\Filament\Resources\LangBaseResource;
 use Modules\Notify\Models\MailTemplate;
-use Override;
 
 class MailTemplateResource extends LangBaseResource
 {
@@ -513,6 +512,7 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -528,6 +528,9 @@ class MailTemplateResource extends LangBaseResource
 =======
     #[Override]
 >>>>>>> 985c7bda (.)
+=======
+    #[\Override]
+>>>>>>> fbed41ac (.)
     public static function getFormSchema(): array
     {
         return [
@@ -724,11 +727,14 @@ class MailTemplateResource extends LangBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ->viewData(fn($record) => ['params' => $record?->params])
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
                 ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
@@ -764,18 +770,24 @@ class MailTemplateResource extends LangBaseResource
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
+=======
+>>>>>>> fbed41ac (.)
 =======
                 ->viewData(fn ($record) => ['params' => (is_object($record) && isset($record->params) ? $record->params : [])])
                 ->columnSpanFull()
                 ->visible(fn ($record): bool => is_object($record) && isset($record->params) && ! empty($record->params)),
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
             'text_template' => Textarea::make('text_template')->maxLength(65535)->columnSpanFull(),
             'sms_template' => Textarea::make('sms_template')->columnSpanFull(),
 <<<<<<< HEAD

@@ -23,6 +23,7 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -65,6 +66,8 @@ use Illuminate\Mail\Mailables\Attachment;
 =======
 >>>>>>> 2fdda20 (.)
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -150,6 +153,7 @@ use Illuminate\Queue\SerializesModels;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -194,6 +198,8 @@ use Illuminate\Queue\SerializesModels;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
 // use Modules\<nome progetto>\Models\Appointment;
 =======
@@ -262,6 +268,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 2fdda20 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
 =======
@@ -271,6 +278,15 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 2fdda20 (.)
 >>>>>>> 69fa7d37 (.)
+=======
+=======
+// use Modules\<nome progetto>\Models\Appointment;
+
+class AppointmentNotificationMail extends Mailable implements ShouldQueue
+{
+    use Queueable, SerializesModels;
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
     /**
 <<<<<<< HEAD
@@ -374,6 +390,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
      * @param  array<string, mixed>  $notificationData
+<<<<<<< HEAD
 =======
      * @param array<string, mixed> $notificationData
 >>>>>>> e39a6f9 (.)
@@ -452,6 +469,13 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 2fdda20 (.)
 >>>>>>> 31bdf6b (.)
 >>>>>>> 69fa7d37 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 2fdda20 (.)
+>>>>>>> 31bdf6b (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
      */
     public function __construct(array $notificationData)
     {
@@ -809,12 +833,17 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> 92ecc28 (.)
 
-        if (is_object($appointment) && property_exists($appointment, 'id') && $appointment->id) {
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
             $appointmentId = is_int($appointment->id) || is_string($appointment->id) ? $appointment->id : (string) $appointment->id;
             $subject .= ' #'.$appointmentId;
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 82c6772 (.)
@@ -844,7 +873,12 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
         return new Envelope(
             subject: $subject,
             tags: ['appointment', $type],

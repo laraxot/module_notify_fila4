@@ -62,6 +62,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -199,6 +200,8 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 use Modules\Media\Models\Media;
@@ -235,6 +238,12 @@ use Illuminate\Support\Facades\Blade;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -433,6 +442,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 =======
 >>>>>>> f5f1cb1 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
 =======
 =======
@@ -453,6 +463,10 @@ use Modules\Notify\Database\Factories\NotificationTemplateFactory;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -591,6 +605,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\Translatable\HasTranslations;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -804,6 +819,7 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 23161eb (.)
 =======
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 75179b8 (.)
@@ -839,6 +855,8 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
  * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
@@ -977,10 +995,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[Override]
 =======
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
     #[\Override]
 =======
@@ -1006,7 +1027,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     protected function casts(): array
     {
         return [
@@ -1153,6 +1180,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function compile(array $data = []): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
         $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
         $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
 
@@ -1165,6 +1199,17 @@ class NotificationTemplate extends BaseModel implements HasMedia
         $subjectResult = $this->compileString($subject, $data);
         $bodyHtmlResult = $this->compileString($bodyHtml, $data);
         $bodyTextResult = $this->compileString($bodyText, $data);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        $subject = $this->compileString($this->subject, $data);
+        $bodyHtml = $this->compileString($this->body_html, $data);
+        $bodyText = $this->compileString($this->body_text, $data);
+>>>>>>> 6ba141fc (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
         return [
             'subject' => $subjectResult ?? '',
@@ -1181,6 +1226,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function shouldSend(array $data = []): bool
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $conditions = $this->getAttribute('conditions');
         if (! $conditions) {
@@ -1203,6 +1249,28 @@ class NotificationTemplate extends BaseModel implements HasMedia
         }
 
         foreach ($conditions as $path => $value) {
+<<<<<<< HEAD
+=======
+=======
+        if (! $this->conditions) {
+            return true;
+        }
+
+        foreach ($this->conditions as $path => $value) {
+>>>>>>> 6ba141fc (.)
+=======
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
             $actual = data_get($data, $path);
             if ($actual !== $value) {
                 return false;
@@ -1472,10 +1540,15 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
         $channels = $this->getAttribute('channels');
         if (! is_array($channels)) {
             $channels = [];
@@ -1483,7 +1556,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
 
         return collect($channels)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> fbed41ac (.)
 =======
 =======
 >>>>>>> 82c6772 (.)
@@ -1491,7 +1567,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 92ecc28 (.)
         return collect($this->channels)
 >>>>>>> 6ba141fc (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
             ->map(fn ($channel) => __('notify::template.fields.channel.options.'.(is_string($channel) ? $channel : (string) $channel).'.label'))
 =======
 =======
@@ -1533,6 +1614,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Set the GrapesJS data.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param  array<string, mixed>  $data
 =======
@@ -3889,6 +3971,9 @@ class NotificationTemplate extends BaseModel implements HasMedia
         return $this->grapesjs_data ?? [];
 >>>>>>> 75179b85 (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
         $data = $this->getAttribute('grapesjs_data') ?? [];
 =======
         $data = $this->grapesjs_data ?? [];
@@ -3952,11 +4037,16 @@ class NotificationTemplate extends BaseModel implements HasMedia
      */
     public function setGrapesJSData(array $data): self
     {
+<<<<<<< HEAD
         $this->grapesjs_data = $data;
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+        $this->setAttribute('grapesjs_data', $data);
+
+>>>>>>> fbed41ac (.)
         return $this;
     }
 
@@ -3965,10 +4055,13 @@ class NotificationTemplate extends BaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->preview_data ?? [];
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
 =======
 >>>>>>> 5e14ac3 (.)
         $previewData = $this->getAttribute('preview_data') ?? [];
@@ -3983,6 +4076,7 @@ class NotificationTemplate extends BaseModel implements HasMedia
 >>>>>>> 6ba141fc (.)
 =======
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
         return $this->preview_data ?? [];
@@ -3990,6 +4084,8 @@ class NotificationTemplate extends BaseModel implements HasMedia
 =======
         return $this->preview_data ?? [];
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> fbed41ac (.)
     }
 
     public function getPreviewSubject(): string

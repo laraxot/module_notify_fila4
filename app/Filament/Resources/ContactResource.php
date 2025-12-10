@@ -844,12 +844,15 @@ class ContactResource extends XotBaseResource
      * @return array<string, Component>
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 985c7bda (.)
      * @return array<string, Component>
      */
 <<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
     #[\Override]
 =======
@@ -1174,6 +1177,7 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -1280,6 +1284,11 @@ class ContactResource extends XotBaseResource
 =======
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public static function getFormSchema(): array
     {
         return [
@@ -1353,6 +1362,7 @@ class ContactResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1422,6 +1432,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -1548,6 +1560,7 @@ class ContactResource extends XotBaseResource
     #[Override]
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -1649,11 +1662,17 @@ class ContactResource extends XotBaseResource
     #[Override]
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public static function getRelations(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1777,6 +1796,8 @@ class ContactResource extends XotBaseResource
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -1901,6 +1922,7 @@ class ContactResource extends XotBaseResource
     #[Override]
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -2002,6 +2024,11 @@ class ContactResource extends XotBaseResource
     #[Override]
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public static function getPages(): array
     {
         return [

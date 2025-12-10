@@ -62,6 +62,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -119,6 +120,8 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 =======
 <<<<<<< HEAD
 =======
@@ -264,7 +267,12 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> b94a5f6 (.)
 use Eloquent;
 >>>>>>> 82c6772 (.)
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
@@ -458,6 +466,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -493,6 +502,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
  * @property Model $linkable
 =======
 <<<<<<< HEAD
@@ -508,6 +519,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Model|Eloquent $linkable
 >>>>>>> 82c6772 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 =======
@@ -518,6 +530,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Model|Eloquent $linkable
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+=======
+=======
+ * @property Model $linkable
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
 <<<<<<< HEAD
@@ -583,12 +600,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin \Eloquent
  *
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
 =======
  * @mixin Eloquent
+=======
+ * @mixin \Eloquent
+>>>>>>> fbed41ac (.)
  *
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
@@ -596,6 +617,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $deleted_by
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -618,6 +640,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
  */
 class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> 2effe245 (.)
@@ -838,6 +862,9 @@ class NotifyTheme extends BaseModel
  */
 class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
 >>>>>>> fbed41ac (.)
 {
 <<<<<<< HEAD
@@ -1051,6 +1078,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1058,6 +1086,10 @@ class NotifyTheme extends BaseModel
 >>>>>>> 5e14ac3 (.)
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     /**
      * @return array{path: string, width: int, height: int}
      */
@@ -1388,6 +1420,7 @@ class NotifyTheme extends BaseModel
 >>>>>>> 23161eb (.)
 =======
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
 =======
@@ -1552,6 +1585,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -1570,6 +1605,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1693,6 +1729,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
 =======
 <<<<<<< HEAD
     #[Override]
@@ -1818,6 +1856,7 @@ class NotifyTheme extends BaseModel
     #[Override]
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -1918,6 +1957,10 @@ class NotifyTheme extends BaseModel
     #[Override]
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     protected function casts(): array
     {
         return [
@@ -2035,6 +2078,7 @@ class NotifyTheme extends BaseModel
             'deleted_by' => 'string',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -2324,6 +2368,7 @@ class NotifyTheme extends BaseModel
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> 82c6772 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 =======
@@ -2369,6 +2414,10 @@ class NotifyTheme extends BaseModel
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
             'view_params' => 'array',
         ];
     }

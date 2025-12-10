@@ -2626,6 +2626,7 @@ class SpatieEmail extends TemplateMailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -2655,6 +2656,8 @@ class SpatieEmail extends TemplateMailable
 =======
 >>>>>>> d45a0226 (.)
 
+=======
+>>>>>>> fbed41ac (.)
 =======
 >>>>>>> f5f1cb1 (.)
         return $this;
@@ -3809,6 +3812,9 @@ class SpatieEmail extends TemplateMailable
 =======
 >>>>>>> 985c7bda (.)
         return $envelope;
+=======
+        return $this;
+>>>>>>> 5e14ac3 (.)
     }
 
 >>>>>>> 82c6772 (.)
@@ -4473,6 +4479,7 @@ class SpatieEmail extends TemplateMailable
 =======
 >>>>>>> 4689a827 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5721,6 +5728,9 @@ class SpatieEmail extends TemplateMailable
         }
 >>>>>>> 6ba141fc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
 =======
         $mime = isset($attachment['mime']) ? (string) $attachment['mime'] : 'application/octet-stream';
 >>>>>>> 5e14ac3 (.)

@@ -105,6 +105,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -418,6 +419,8 @@ declare(strict_types=1);
 
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -560,6 +563,7 @@ class NetfunSmsData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -583,6 +587,8 @@ class NetfunSmsData extends Data
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> fbed41ac (.)
         public ?string $reference = null,
         public ?string $scheduledDate = null,
 >>>>>>> b19cd40 (.)

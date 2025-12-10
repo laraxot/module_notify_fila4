@@ -286,6 +286,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -334,6 +335,8 @@ $users->each(function ($user) {
 =======
 
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fbed41ac (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -1292,6 +1295,7 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 =======
 >>>>>>> 2effe245 (.)
 # Supervisor config
+<<<<<<< HEAD
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
@@ -1666,6 +1670,8 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fbed41ac (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -1763,6 +1769,7 @@ if ($failedJobs > $threshold) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -1811,6 +1818,8 @@ if ($failedJobs > $threshold) {
 =======
 
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fbed41ac (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24

@@ -109,6 +109,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -128,6 +129,8 @@
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
 # PHPStan Fixes - Notify
 =======
 =======
@@ -140,6 +143,7 @@
 >>>>>>> 31bdf6b (.)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 82c6772 (.)
 =======
 >>>>>>> b94a5f6 (.)
@@ -149,6 +153,8 @@
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> fbed41ac (.)
 >>>>>>> 5e14ac3 (.)
 # PHPStan Fixes - Modulo Notify
 >>>>>>> 6ba141fc (.)
@@ -290,6 +296,9 @@ Implementati pattern di safe casting per la maggior parte dei casi di conversion
 =======
 ## Panoramica
 Documentazione dei fix applicati al modulo Notify per raggiungere PHPStan livello 9.
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
 >>>>>>> fbed41ac (.)
 
 ## Fix Applicati
@@ -300,6 +309,7 @@ Documentazione dei fix applicati al modulo Notify per raggiungere PHPStan livell
 
 **Soluzione**: Aggiunta dei metodi mancanti
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 use \Modules\Xot\Actions\Cast\SafeStringCastAction;
 
@@ -420,6 +430,59 @@ $decodedData = base64_decode($encodedData);
 - [Report Completo PHPStan Fixes](../../../bashscripts/docs/phpstan_fixes_comprehensive_report.md)
 - [Script Risoluzione Conflitti](../../../bashscripts/docs/conflict_resolution_script_improvements.md)
 
+=======
+/**
+ * Marca la notifica come aperta.
+ */
+public function markAsOpened(): void
+{
+    $this->update([
+        'opened_at' => now(),
+        'status' => NotificationLogStatusEnum::OPENED,
+    ]);
+}
+
+/**
+ * Marca la notifica come cliccata.
+ */
+public function markAsClicked(): void
+{
+    $this->update([
+        'clicked_at' => now(),
+        'status' => NotificationLogStatusEnum::CLICKED,
+    ]);
+}
+```
+
+### 2. NotificationTrackingController.php
+**Problema**: Uso di `base64_decode` non sicuro
+
+**Soluzione**: Utilizzo della funzione sicura
+```php
+// PRIMA (non sicuro)
+$decodedData = base64_decode($encodedData);
+
+// DOPO (sicuro)
+use function Safe\base64_decode;
+$decodedData = base64_decode($encodedData);
+```
+
+## Dipendenze
+- `NotificationLogStatusEnum::OPENED` - già presente
+- `NotificationLogStatusEnum::CLICKED` - già presente
+- `Safe\base64_decode` - funzione sicura per decodifica base64
+
+## Risultati
+- ✅ **0 errori** PHPStan livello 9
+- ✅ **Metodi mancanti** implementati correttamente
+- ✅ **Gestione sicura** di base64_decode
+- ✅ **Conformità** agli standard di sicurezza
+
+## Collegamenti
+- [Report Completo PHPStan Fixes](../../../bashscripts/docs/phpstan_fixes_comprehensive_report.md)
+- [Script Risoluzione Conflitti](../../../bashscripts/docs/conflict_resolution_script_improvements.md)
+
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
 ## 📊 Metriche
 >>>>>>> fbed41ac (.)
@@ -1745,4 +1808,10 @@ private static function processArray(array $data): array
 >>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
 >>>>>>> 31bdf6b (.)
+<<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
+=======
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)

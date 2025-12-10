@@ -25,6 +25,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Models\XotBaseModel;
 =======
 =======
@@ -74,6 +75,8 @@ use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -180,6 +183,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
     use \Modules\Xot\Models\Traits\HasXotFactory;
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
     use InteractsWithMedia;
 =======
@@ -199,6 +203,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 abstract class BaseModel extends XotBaseModel implements HasMedia
 {
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> fbed41ac (.)
     use InteractsWithMedia;
 
     /**
@@ -254,6 +260,9 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
    
 =======
 >>>>>>> fbed41ac (.)
@@ -342,6 +351,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
    
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 
 =======
@@ -354,6 +364,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     {
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> fbed41ac (.)
 
     /** @return array<string, string> */
     protected function casts(): array

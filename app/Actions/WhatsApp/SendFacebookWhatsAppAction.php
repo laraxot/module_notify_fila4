@@ -23,6 +23,7 @@ use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Str;
 <<<<<<< HEAD
@@ -544,6 +545,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -699,6 +702,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($accessToken)) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +760,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> fbed41ac (.)
         if (! is_string($accessToken)) {
 =======
         if (!is_string($accessToken)) {
@@ -5782,6 +5788,7 @@ final class SendFacebookWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed>|null $error */
             $error = $responseBody['error'] ?? null;
             /** @var string $errorMessage */
@@ -5810,6 +5817,8 @@ final class SendFacebookWhatsAppAction
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
             // Extract error message safely
             $errorMessage = 'Errore sconosciuto';
             if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
@@ -5817,8 +5826,6 @@ final class SendFacebookWhatsAppAction
             }
 >>>>>>> 2effe245 (.)
 
-=======
->>>>>>> f5f1cb1 (.)
             return [
                 'success' => false,
                 'error' => $errorMessage,

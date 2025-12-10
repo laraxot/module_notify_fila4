@@ -295,6 +295,7 @@ namespace Modules\Notify\Database\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -302,6 +303,8 @@ namespace Modules\Notify\Database\Factories;
 =======
 use Modules\Notify\Models\NotificationTemplateVersion;
 >>>>>>> f5f1cb1 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> d45a0226 (.)
 use Modules\Notify\Models\NotificationTemplateVersion;

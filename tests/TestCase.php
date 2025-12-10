@@ -266,6 +266,7 @@ namespace Modules\Notify\Tests;
 >>>>>>> 4d253d2c (rebase 210)
 use Illuminate\Foundation\Application;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Illuminate\Foundation\Application;
@@ -298,6 +299,8 @@ use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
@@ -1161,6 +1164,9 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
      * @param  Application  $app
 =======
      * @param Application $app

@@ -177,6 +177,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 =======
 >>>>>>> 75179b85 (.)
@@ -191,10 +192,13 @@ use Override;
 =======
 >>>>>>> d45a0226 (.)
 =======
+>>>>>>> fbed41ac (.)
+=======
 =======
 >>>>>>> f5f1cb1 (.)
 use Override;
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d45a0226 (.)
@@ -209,6 +213,10 @@ use Override;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -599,6 +607,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -662,6 +671,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -1103,7 +1114,19 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
         //if (! app()->environment('production')) {
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 >>>>>>> d45a0226 (.)
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+    #[\Override]
+    public function boot(): void
+    {
+        parent::boot();
+        // if (! app()->environment('production')) {
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
 

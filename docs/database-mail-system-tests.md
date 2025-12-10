@@ -442,6 +442,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -490,6 +491,8 @@ class MailTemplateSecurityTest extends TestCase
 =======
 
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fbed41ac (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 

@@ -759,6 +759,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -881,6 +882,9 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+ *
+>>>>>>> fbed41ac (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -1131,6 +1135,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1200,6 +1205,8 @@ class Notification extends BaseModel
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 <<<<<<< HEAD
@@ -1326,6 +1333,7 @@ class Notification extends BaseModel
     #[Override]
 >>>>>>> 92ecc28 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 =======
@@ -1427,6 +1435,11 @@ class Notification extends BaseModel
     #[Override]
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     protected function casts(): array
     {
         return [

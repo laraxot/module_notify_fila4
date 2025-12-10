@@ -882,9 +882,12 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
 =======
 >>>>>>> fbed41ac (.)
      * @param  mixed  $notifiable

@@ -83,6 +83,7 @@ use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -127,6 +128,13 @@ use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 23161eb (.)
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -767,6 +775,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -814,6 +823,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 =======
@@ -946,6 +957,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
     #[\Override]
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
 =======
@@ -971,6 +983,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> fbed41ac (.)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';

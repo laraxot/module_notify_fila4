@@ -491,6 +491,9 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
 =======
 use Override;
 <<<<<<< HEAD
@@ -500,12 +503,15 @@ use Override;
 >>>>>>> 23161eb (.)
 =======
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 =======
 =======
 use Override;
 <<<<<<< HEAD
 >>>>>>> b94a5f6 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 
 class NotificationResource extends XotBaseResource
 {

@@ -62,6 +62,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -618,9 +619,12 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Exception;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Contracts\SmsActionContract;
 =======
@@ -660,7 +664,13 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+use Modules\Notify\Contracts\SmsActionContract;
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 use Modules\Notify\Datas\SMS\GammuData;
 use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
@@ -1017,6 +1027,7 @@ final class SendGammuSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var string|null */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1060,6 +1071,8 @@ final class SendGammuSMSAction implements SmsActionContract
 >>>>>>> 011072e4 (.)
     protected null|string $defaultSender = null;
 =======
+=======
+>>>>>>> fbed41ac (.)
 =======
 >>>>>>> fbed41ac (.)
     protected ?string $defaultSender = null;
@@ -1934,6 +1947,7 @@ final class SendGammuSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1994,6 +2008,8 @@ final class SendGammuSMSAction implements SmsActionContract
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
     #[Override]
@@ -2254,7 +2270,13 @@ final class SendGammuSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono

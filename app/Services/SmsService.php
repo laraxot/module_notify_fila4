@@ -23,6 +23,7 @@ namespace Modules\Notify\Services;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -71,6 +72,8 @@ use ReflectionException;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Support\Str;
 use ReflectionClass;
 use ReflectionException;
@@ -155,6 +158,7 @@ use Webmozart\Assert\Assert;
 class SmsService
 {
     // ---------CSS------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +330,8 @@ class SmsService
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
     public ?string $to = null;
 =======
 <<<<<<< HEAD

@@ -133,8 +133,11 @@ use Filament\Tables\Filters\SelectFilter;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
+=======
+>>>>>>> fbed41ac (.)
 <<<<<<< HEAD
 =======
 use Override;
@@ -773,6 +776,9 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 23161eb (.)
 =======
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
 >>>>>>> fbed41ac (.)
 
 >>>>>>> 985c7bda (.)
@@ -889,6 +895,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -915,6 +922,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 =======
@@ -1042,6 +1051,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
     #[\Override]
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
 =======
@@ -1064,6 +1074,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> fbed41ac (.)
     public function getTableColumns(): array
     {
         return [
@@ -1512,6 +1524,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1538,6 +1551,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
 =======
@@ -1683,6 +1698,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
     #[\Override]
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
 >>>>>>> fbed41ac (.)
 =======
 =======
@@ -1705,6 +1721,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 54220b28 (rebase 210)
+=======
+>>>>>>> fbed41ac (.)
     public function getTableFilters(): array
     {
         return [

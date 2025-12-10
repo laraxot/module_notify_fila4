@@ -399,6 +399,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Telescope](https://laravel.com/docs/telescope)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
@@ -722,6 +723,11 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Horizon](https://laravel.com/project_docs/horizon)
 - [Laravel Dusk](https://laravel.com/project_docs/dusk)
 >>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Telescope](https://laravel.com/docs/telescope)
+- [Laravel Horizon](https://laravel.com/docs/horizon)
+- [Laravel Dusk](https://laravel.com/docs/dusk)
+>>>>>>> fbed41ac (.)
 
 #### 8.5.4 Best Practices
 - [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
@@ -794,6 +800,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Security](https://laravel.com/docs/security)
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
@@ -987,10 +994,14 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
 >>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> fbed41ac (.)
 - [PHP Security](https://phpsecurity.readthedocs.io)
 
 #### 8.5.6 Testing
 - [PHPUnit](https://phpunit.de)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1384,10 +1395,18 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Testing](https://laravel.com/docs/testing)
+- [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+
+#### 8.5.7 Performance
+- [Laravel Performance](https://laravel.com/docs/performance)
+>>>>>>> fbed41ac (.)
 - [PHP Performance](https://www.php.net/manual/en/performance.php)
 - [Web Performance](https://web.dev/performance)
 
 #### 8.5.8 Monitoring
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1525,6 +1544,9 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 4f042b88 (.)
 =======
 - [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+>>>>>>> fbed41ac (.)
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 >>>>>>> bb7e77c2 (.)

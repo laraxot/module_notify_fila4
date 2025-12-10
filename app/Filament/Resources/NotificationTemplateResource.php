@@ -124,6 +124,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -438,12 +439,15 @@ use Filament\Forms\Components\TextInput;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 <<<<<<< HEAD
 use Filament\Forms\Components\Textarea;
 >>>>>>> f1c9518b (.)
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,11 +767,14 @@ use Filament\Tables;
 use Filament\Tables\Table;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -952,6 +959,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 =======
 >>>>>>> d45a0226 (.)
 =======
+>>>>>>> fbed41ac (.)
+=======
 =======
 >>>>>>> 82c6772 (.)
 =======
@@ -974,7 +983,12 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 >>>>>>> 6ba141fc (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
 =======
 =======
 >>>>>>> 5e14ac3 (.)
@@ -1885,6 +1899,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 >>>>>>> a12f125f4a (.)
@@ -3402,6 +3417,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> 460b8f5b (rebase 210)
 =======
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
     #[Override]
@@ -3746,7 +3763,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 =======
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public static function getPages(): array
     {
         return [

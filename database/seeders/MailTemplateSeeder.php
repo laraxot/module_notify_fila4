@@ -16,6 +16,7 @@ namespace Modules\Notify\Database\Seeders;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -35,6 +36,8 @@ use Modules\Notify\Emails\SpatieEmail;
 use Modules\Notify\Emails\SpatieEmail;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Illuminate\Database\Seeder;
 use Modules\Notify\Emails\SpatieEmail;
 =======

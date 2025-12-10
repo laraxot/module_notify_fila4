@@ -62,6 +62,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -222,6 +223,8 @@ use Override;
 use Override;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -696,6 +699,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3f39ac8b (.)
@@ -759,6 +763,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
 =======
 =======
+>>>>>>> fbed41ac (.)
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> 92ecc28 (.)
@@ -769,6 +775,16 @@ use Override;
 >>>>>>> f5f1cb1 (.)
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 82c6772 (.)
+=======
+
+final class SendSmsFactorSMSAction implements SmsActionContract
+{
+    private SmsFactorData $smsFactorData;
+    private ?string $defaultSender = null;
+    
+    /** @var array<string, mixed> */
+    private array $vars = [];
+>>>>>>> 5e14ac3 (.)
 
 final class SendSmsFactorSMSAction implements SmsActionContract
 {
@@ -1708,6 +1724,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1768,6 +1785,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> fbed41ac (.)
     #[\Override]
 =======
     #[Override]
@@ -2028,7 +2047,13 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
     #[Override]
 >>>>>>> 92ecc28 (.)
+<<<<<<< HEAD
 >>>>>>> 985c7bda (.)
+=======
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();

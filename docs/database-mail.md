@@ -603,6 +603,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -651,6 +652,8 @@ class ProcessDoctorModerationAction
 =======
 
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fbed41ac (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},

@@ -930,6 +930,7 @@ class SendNotificationAction
         // Determina i canali da utilizzare
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* @phpstan-ignore-next-line property.notFound */
         $effectiveChannels = $channels ?: $template->channels;
 =======
@@ -937,6 +938,8 @@ class SendNotificationAction
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> fbed41ac (.)
         $templateChannels = $template->getAttribute('channels') ?? [];
         $effectiveChannels = $channels ?: $templateChannels;
 
@@ -968,6 +971,9 @@ class SendNotificationAction
             }
         }
         $effectiveChannels = $filteredChannels;
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
 >>>>>>> fbed41ac (.)
 
         // Processa ogni canale
@@ -977,6 +983,7 @@ class SendNotificationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -985,6 +992,8 @@ class SendNotificationAction
 =======
 >>>>>>> 75179b85 (.)
 =======
+=======
+>>>>>>> fbed41ac (.)
             $stringChannel = $channel;
 =======
             $stringChannel = is_string($channel) ? $channel : (string) $channel;
@@ -992,6 +1001,9 @@ class SendNotificationAction
 =======
             $stringChannel = $channel;
 >>>>>>> 5e14ac3 (.)
+<<<<<<< HEAD
+>>>>>>> fbed41ac (.)
+=======
 >>>>>>> fbed41ac (.)
             try {
 <<<<<<< HEAD
