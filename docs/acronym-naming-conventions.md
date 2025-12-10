@@ -321,6 +321,7 @@ find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*[A-Z][A-Z]*.p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
@@ -783,6 +784,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 >>>>>>> febe79e3 (.)
@@ -845,6 +847,11 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Riferimenti

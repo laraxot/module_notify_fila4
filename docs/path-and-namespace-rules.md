@@ -245,6 +245,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -264,6 +265,8 @@
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers
@@ -520,6 +523,7 @@
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -568,6 +572,8 @@
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS
 /var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers
 /var/www/html/saluteora/laravel/Modules/Notify/app/Providers
@@ -692,6 +698,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -710,6 +717,8 @@
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1053,6 +1062,7 @@
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -1102,6 +1112,8 @@
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 ```
 
 ### ❌ Path Errati
@@ -1234,6 +1246,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/SMS
 /var/www/html/<nome progetto>/laravel/Modules/Notify/App/Http/Controllers
 /var/www/html/<nome progetto>/laravel/Modules/Notify/App/Providers
@@ -1606,6 +1619,7 @@
 /var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
 /var/www/html/saluteora/laravel/Modules/Notify/App/Providers
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/App/Actions/SMS
 /var/www/html/saluteora/laravel/Modules/Notify/App/Http/Controllers
@@ -1983,6 +1997,8 @@
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Struttura Corretta dei Namespace
@@ -2142,6 +2158,7 @@ namespace Modules\Notify\App\Datas;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
@@ -2604,6 +2621,7 @@ namespace Modules\Notify\App\Datas;
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
 >>>>>>> febe79e3 (.)
@@ -2666,6 +2684,11 @@ namespace Modules\Notify\App\Datas;
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 **Namespace corretto:**
@@ -2802,6 +2825,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
@@ -3264,6 +3288,7 @@ namespace Modules\Notify\Actions\SMS;
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
 >>>>>>> febe79e3 (.)
@@ -3326,6 +3351,11 @@ namespace Modules\Notify\Actions\SMS;
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 **Namespace corretto:**
@@ -3462,6 +3492,7 @@ namespace Modules\Notify\Http\Controllers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
@@ -3924,6 +3955,7 @@ namespace Modules\Notify\Http\Controllers;
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
 >>>>>>> febe79e3 (.)
@@ -3986,6 +4018,11 @@ namespace Modules\Notify\Http\Controllers;
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 **Namespace corretto:**
@@ -4122,6 +4159,7 @@ namespace Modules\Notify\Providers;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
@@ -4584,6 +4622,7 @@ namespace Modules\Notify\Providers;
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
 >>>>>>> febe79e3 (.)
@@ -4646,6 +4685,11 @@ namespace Modules\Notify\Providers;
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 **Namespace corretto:**
@@ -4787,6 +4831,7 @@ Questa struttura di namespace mantiene compatibilità con la convenzione di Lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
 =======
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto .
@@ -5240,6 +5285,7 @@ Questa struttura di namespace mantiene compatibilità con la convenzione di Lara
 =======
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto SaluteOra.
 >>>>>>> 2a97406c (.)
@@ -5298,6 +5344,8 @@ Questa struttura di namespace mantiene compatibilità con la convenzione di Lara
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## Esempio per Datas
 
@@ -5454,6 +5502,7 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
@@ -5916,6 +5965,7 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
 >>>>>>> febe79e3 (.)
@@ -5978,6 +6028,11 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 **Namespace corretto:**

@@ -129,6 +129,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 =======
 # Principi di Ereditarietà nelle Classi 
@@ -584,6 +585,7 @@
 =======
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> 2a97406c (.)
@@ -642,6 +644,8 @@
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## Regola Fondamentale: No Duplicate Declarations
 
@@ -842,6 +846,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 =======
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
@@ -1308,6 +1313,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
 >>>>>>> febe79e3 (.)
@@ -1370,6 +1376,11 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Riferimenti

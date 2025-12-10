@@ -515,6 +515,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1474,6 +1475,7 @@ public function sendEmail(): void
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
@@ -1588,6 +1590,8 @@ public function sendEmail(): void
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## 📋 Checklist
 
@@ -1603,6 +1607,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 - [ ] Implementare caching 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2029,6 +2034,7 @@ public function sendEmail(): void
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -2301,3 +2307,5 @@ public function sendEmail(): void
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)

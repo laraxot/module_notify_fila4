@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,3 +432,5 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> 8c6d84fe6 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)

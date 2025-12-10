@@ -346,6 +346,7 @@ find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
@@ -808,6 +809,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
 >>>>>>> febe79e3 (.)
@@ -870,6 +872,11 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Filament/Resources/*/Pages/*" -exec grep -l "extends.*\\\\Filament\\\\Resources\\\\Pages" {} \;
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Riferimenti
@@ -879,6 +886,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 - [<nome progetto> XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1118,6 +1126,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
 >>>>>>> febe79e3 (.)
@@ -1150,6 +1159,11 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -path "*/Fila
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+- [SaluteOra XotBase Architecture](./FILAMENT_XOT_ARCHITECTURE.md)
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 - [Pattern Architetturali in Laravel](https://laravel.com/docs/architecture)
 =======
 >>>>>>> 5fd545e4 (.)

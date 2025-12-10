@@ -241,6 +241,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 =======
 - **File**: `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
@@ -703,6 +704,7 @@
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 >>>>>>> febe79e3 (.)
@@ -765,6 +767,11 @@
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+- **File**: `/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`
 

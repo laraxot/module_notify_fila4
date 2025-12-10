@@ -1163,6 +1163,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -1616,6 +1617,7 @@ class TemplatePreview extends Component
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
@@ -2068,6 +2070,11 @@ class TemplatePreview extends Component
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 - [Stripo Documentation](https://stripo.email/templates/)
 - [Beefree Documentation](https://beefree.io/templates)
 - [Unlayer Documentation](https://unlayer.com/)

@@ -426,6 +426,7 @@ Grapesjs::make('body_html')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [GrapesJS Docs](https://grapesjs.com/docs/)
 =======
 - [GrapesJS Docs](https://grapesjs.com/project_docs/)
@@ -879,6 +880,7 @@ Grapesjs::make('body_html')
 - [GrapesJS Docs](https://grapesjs.com/project_docs/)
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [GrapesJS Docs](https://grapesjs.com/docs/)
@@ -1331,6 +1333,11 @@ Grapesjs::make('body_html')
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+- [GrapesJS Docs](https://grapesjs.com/docs/)
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 - [Filament Plugins](https://filamentphp.com/plugins)
 
 ---

@@ -353,6 +353,7 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Xot Module Documentation](/var/www/html/<nome progetto>/laravel/Modules/Xot/docs/MIGRATIONS.md)
 - [JSON Migration Best Practices](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
 =======
@@ -672,6 +673,7 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 - [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
 - [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1007,3 +1009,5 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)

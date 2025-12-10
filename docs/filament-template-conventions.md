@@ -307,6 +307,7 @@ grep -L "name=\"footer\"" /var/www/html/<nome progetto>/laravel/Modules/*/resour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -L "name=\"description\"" /var/www/html/<nome progetto>/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 grep -L "name=\"footer\"" /var/www/html/<nome progetto>/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 =======
@@ -626,6 +627,7 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 grep -L "name=\"description\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 grep -L "name=\"description\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
@@ -949,6 +951,8 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Riferimenti

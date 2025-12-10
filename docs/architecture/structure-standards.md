@@ -68,6 +68,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
@@ -135,20 +136,12 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SmsData.php
-=======
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
-/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Datas/SmsData.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
-/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/SmsData.php
->>>>>>> bf479cc (.)
 ```
 
 ### ❌ ERRATO: ALTERNATIVE COMUNI MA ERRATE
@@ -202,6 +195,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
@@ -347,10 +341,14 @@ find /var/www/html/<nome progetto>/laravel/Modules/Notify/app -type d -name "Dat
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> bf479cc (.)
 >>>>>>> 53eef8d8d (.)
+=======
+find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
+>>>>>>> 753ea7aca (.)
 ```
 
 Questo restituirà:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -552,6 +550,10 @@ Questo restituirà:
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Esempi di Importazioni Corrette

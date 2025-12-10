@@ -241,6 +241,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 =======
  utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
@@ -694,6 +695,7 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
 =======
 SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 >>>>>>> 2a97406c (.)
@@ -752,6 +754,8 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 Questo documento spiega in dettaglio i motivi architetturali, i vantaggi e l'implementazione di questo pattern.
 
@@ -1434,6 +1438,7 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
@@ -1556,6 +1561,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 >>>>>>> febe79e3 (.)
@@ -1588,6 +1594,11 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.

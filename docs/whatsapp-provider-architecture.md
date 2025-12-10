@@ -131,6 +131,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Architettura WhatsApp Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS ed email.
@@ -494,6 +495,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider WhatsApp nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS ed email.
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 # Architettura WhatsApp Provider per SaluteOra
 
@@ -871,6 +873,8 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -1009,6 +1013,7 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -1471,6 +1476,7 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> febe79e3 (.)
@@ -1533,6 +1539,11 @@ L'architettura dei provider WhatsApp segue gli stessi principi dei provider SMS 
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ├── app/
 │   ├── Actions/
 │   │   └── WhatsApp/

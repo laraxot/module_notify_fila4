@@ -334,6 +334,7 @@ public function __construct()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `/Modules/Notify/project_docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/project_docs/sms_implementation.md`: Updated to include data class information
@@ -726,6 +727,7 @@ public function __construct()
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> febe79e3 (.)
 =======
@@ -777,6 +779,10 @@ public function __construct()
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
 
@@ -1017,6 +1023,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> 75179b85 (.)
@@ -1087,6 +1094,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -1429,6 +1437,8 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 
 ## Conclusion

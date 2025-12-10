@@ -436,6 +436,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -639,6 +640,7 @@
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f4acf543 (.)
 =======
@@ -1482,6 +1484,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 <?php
 
 declare(strict_types=1);
@@ -2436,6 +2440,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2454,6 +2459,8 @@ declare(strict_types=1);
 >>>>>>> 21e1a74cb (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -3104,6 +3111,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> febe79e3 (.)
 =======
@@ -3648,6 +3656,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 172bcc8a9 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4099,6 +4111,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4168,6 +4181,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6093,6 +6108,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> febe79e3 (.)
@@ -6358,3 +6374,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)

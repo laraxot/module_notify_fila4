@@ -106,6 +106,7 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -124,6 +125,8 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
 =======
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema , con particolare attenzione alle classi che estendono `XotBasePage`.
@@ -238,6 +241,7 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 # Best Practices per l'Ereditarietà delle Classi
 
@@ -755,6 +759,8 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## Analisi dell'Ereditarietà di XotBasePage
 

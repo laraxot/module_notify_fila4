@@ -846,6 +846,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1919,6 +1920,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 - [Laravel Telescope](https://laravel.com/docs/telescope)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
@@ -2044,6 +2046,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 #### 8.5.4 Best Practices
 - [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
@@ -2498,6 +2502,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Security](https://laravel.com/docs/security)
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
@@ -2951,6 +2956,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Security](https://laravel.com/project_docs/security)
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Laravel Security](https://laravel.com/docs/security)
@@ -3403,12 +3409,18 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 - [PHP Security](https://phpsecurity.readthedocs.io)
 
 #### 8.5.6 Testing
 - [PHPUnit](https://phpunit.de)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3833,6 +3845,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -4062,6 +4075,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
@@ -4069,6 +4084,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Performance](https://laravel.com/docs/performance)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4918,6 +4934,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -5196,6 +5213,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 - [PHP Performance](https://www.php.net/manual/en/performance.php)
 - [Web Performance](https://web.dev/performance)
 
@@ -5725,6 +5744,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Monitoring](https://laravel.com/docs/monitoring)
 =======
 - [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
@@ -5872,6 +5892,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Monitoring](https://laravel.com/docs/monitoring)
 >>>>>>> febe79e3 (.)
@@ -5900,6 +5921,11 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 =======

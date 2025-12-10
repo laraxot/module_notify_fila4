@@ -241,6 +241,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
@@ -694,6 +695,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 2a97406c (.)
@@ -752,6 +754,8 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## Principi Fondamentali
 
@@ -948,6 +952,7 @@ Per <nome progetto>, si raccomanda un **approccio ibrido**:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 Per , si raccomanda un **approccio ibrido**:
@@ -1401,6 +1406,7 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 2a97406c (.)
@@ -1459,6 +1465,8 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 

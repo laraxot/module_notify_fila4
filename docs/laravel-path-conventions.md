@@ -128,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -147,6 +148,8 @@
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
@@ -403,6 +406,7 @@ In Laravel e , i nomi delle cartelle principali (come definite nella struttura s
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -451,6 +455,8 @@ In Laravel e , i nomi delle cartelle principali (come definite nella struttura s
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 # Convenzioni dei Path in Laravel e SaluteOra
 
 ## Regole Fondamentali per i Path di Cartelle
@@ -575,6 +581,7 @@ In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella st
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -593,6 +600,8 @@ In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella st
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -936,6 +945,7 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -985,6 +995,8 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -1131,6 +1143,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
@@ -1593,6 +1606,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 >>>>>>> febe79e3 (.)
@@ -1655,6 +1669,11 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 **NON** in:
@@ -1785,6 +1804,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
@@ -2247,6 +2267,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 >>>>>>> febe79e3 (.)
@@ -2309,6 +2330,11 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Perché è Importante
@@ -2452,6 +2478,7 @@ protected static string $view = 'notify::filament.pages.send-sms';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 =======
 // /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
@@ -2914,6 +2941,7 @@ protected static string $view = 'notify::filament.pages.send-sms';
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 >>>>>>> febe79e3 (.)
@@ -2976,6 +3004,11 @@ protected static string $view = 'notify::filament.pages.send-sms';
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Verifica e Correzione

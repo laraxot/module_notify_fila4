@@ -226,6 +226,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -256,6 +257,8 @@
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -324,6 +327,7 @@
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 # Collegamento alle Traduzioni del Modulo Notify
 
@@ -756,6 +760,8 @@
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -768,6 +774,7 @@ Consulta la documentazione delle traduzioni:
 Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in questo modulo e la relativa sezione in [Lang](../../Lang/docs/).
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1647,6 +1654,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -1925,12 +1933,15 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 > Aggiorna entrambi i riferimenti se aggiungi nuove chiavi di traduzione o modifichi la struttura.
 
 ## Collegamenti tra versioni di lang-link.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2355,6 +2366,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -2584,6 +2596,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 * [lang-link.md](../../../Chart/docs/lang-link.md)
 * [lang-link.md](../../../Reporting/docs/lang-link.md)
 * [lang-link.md](../../../Gdpr/docs/lang-link.md)
@@ -2601,6 +2615,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3294,6 +3309,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 23cbbaf5 (.)
 =======
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
@@ -3667,6 +3683,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 =======
 >>>>>>> 5fd545e4 (.)

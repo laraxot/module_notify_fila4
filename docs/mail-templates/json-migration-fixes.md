@@ -360,6 +360,7 @@ Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Applicazione a <nome progetto>
 
 Nel contesto di <nome progetto>, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
@@ -723,6 +724,7 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 
 Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 ## Applicazione a SaluteOra
 
@@ -1100,6 +1102,8 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 1. Le migrazioni per `mail_templates` e tabelle simili
 2. Campi multilingua che utilizzano il trait `HasTranslations`
@@ -1235,6 +1239,7 @@ grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r "json.*change" /var/www/html/<nome progetto>/laravel/Modules/*/database/migrations/
 =======
 grep -r "json.*change" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/database/migrations/
@@ -1697,6 +1702,7 @@ grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrat
 =======
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
 >>>>>>> febe79e3 (.)
@@ -1759,6 +1765,11 @@ grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrat
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.

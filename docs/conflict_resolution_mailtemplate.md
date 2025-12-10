@@ -554,6 +554,7 @@ Verificare che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
 =======
 - [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
@@ -701,6 +702,7 @@ Verificare che:
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
 >>>>>>> febe79e3 (.)
@@ -729,6 +731,11 @@ Verificare che:
 >>>>>>> 37beb5238 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+>>>>>>> febe79e3 (.)
+>>>>>>> 753ea7aca (.)
 
 *Ultimo aggiornamento: giugno 2025*
 =======

@@ -119,6 +119,7 @@ Per verificare che tutti i template seguano queste convenzioni:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -290,6 +291,10 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 53eef8d8d (.)
+=======
+grep -L "name=\"description\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
+grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
+>>>>>>> 753ea7aca (.)
 ```
 
 ## Riferimenti

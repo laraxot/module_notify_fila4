@@ -326,6 +326,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Convenzioni di Naming per le Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/<nome progetto>/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
@@ -1468,6 +1469,7 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 [Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
@@ -1580,6 +1582,8 @@
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -1605,6 +1609,7 @@ Per collegamenti a documenti in altre directory:
 <<<<<<< HEAD
 4. **Standard del progetto**: <nome progetto> segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2180,6 +2185,7 @@ Per collegamenti a documenti in altre directory:
 =======
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> febe79e3 (.)
+<<<<<<< HEAD
 =======
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 >>>>>>> 2a97406c (.)
@@ -2238,6 +2244,8 @@ Per collegamenti a documenti in altre directory:
 =======
 >>>>>>> 23cbbaf5 (.)
 >>>>>>> 53eef8d8d (.)
+=======
+>>>>>>> 753ea7aca (.)
 
 ## Regole per i Collegamenti Relativi
 
