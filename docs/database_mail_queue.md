@@ -2514,9 +2514,11 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 =======
 >>>>>>> 5aedc39c (rebase 210)
 # Supervisor config
+<<<<<<< HEAD
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -2528,6 +2530,13 @@ process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
+=======
+=======
+[program:ptv-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis --queue=emails
+>>>>>>> bf479cc (.)
+>>>>>>> 6e12a84b (rebase 210)
 autostart=true
 autorestart=true
 numprocs=4
