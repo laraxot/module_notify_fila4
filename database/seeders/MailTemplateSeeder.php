@@ -415,6 +415,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -845,6 +846,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1064,6 +1066,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
                     'en' => 'Registration moderated, {{ first_name }}',
                 ],
                 'html_template' => [
@@ -1277,6 +1281,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1435,6 +1440,7 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> 06e3078e (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
@@ -1564,6 +1570,10 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> be698cf2c (.)
                     'en' => 'Registration moderated, {{ first_name }}'
                 ],
                 'html_template' => [
@@ -1691,6 +1701,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1751,6 +1762,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2204,6 +2217,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2425,6 +2439,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
             ],
             [
                 'mailable' => SpatieEmail::class,
@@ -2635,6 +2651,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3063,6 +3080,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3284,6 +3302,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
                     'en' => 'Registration completed, {{ first_name }}',
                 ],
                 'html_template' => [
@@ -3497,6 +3517,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3655,6 +3676,7 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> 06e3078e (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
 =======
@@ -3784,6 +3806,10 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> be698cf2c (.)
                     'en' => 'Registration completed, {{ first_name }}'
                 ],
                 'html_template' => [
@@ -3911,6 +3937,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3971,6 +3998,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4424,6 +4453,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4645,6 +4675,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
             ],
             [
                 'mailable' => SpatieEmail::class,
@@ -4653,6 +4685,7 @@ class MailTemplateSeeder extends Seeder
                     'it' => 'Registrazione rifiutata, {{ first_name }}',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5283,6 +5316,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -5504,6 +5538,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
                     'en' => 'Registration rejected, {{ first_name }}',
                 ],
                 'html_template' => [
@@ -5517,6 +5553,7 @@ class MailTemplateSeeder extends Seeder
             ],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6102,6 +6139,7 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> f81a620f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2fc60436 (.)
@@ -6203,6 +6241,11 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
                     'en' => 'Registration rejected, {{ first_name }}'
                 ],
                 'html_template' => [
@@ -6214,6 +6257,7 @@ class MailTemplateSeeder extends Seeder
                     'en' => 'Hello {{ first_name }}, Your registration has been rejected.'
                 ]
             ]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6327,6 +6371,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 2e1ac1f20 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> be698cf2c (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6834,6 +6880,7 @@ class MailTemplateSeeder extends Seeder
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -7077,6 +7124,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
         ];
 
         foreach ($templates as $template) {
@@ -7287,6 +7336,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -7437,6 +7487,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
@@ -7581,6 +7632,10 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
                 'slug' => $template['slug'],
 =======
                 'slug' => $template['slug']
@@ -7701,6 +7756,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -7761,6 +7817,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
 =======
                 'slug' => $template['slug'],
 >>>>>>> 75179b85 (.)
@@ -8315,6 +8373,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
                 'slug' => $template['slug'],
@@ -8568,6 +8627,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
             ];
 
             $data = [
@@ -8778,6 +8839,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8928,6 +8990,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
@@ -9072,6 +9135,10 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
                 'text_template' => $template['text_template'],
 =======
                 'text_template' => $template['text_template']
@@ -9192,6 +9259,7 @@ class MailTemplateSeeder extends Seeder
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -9252,6 +9320,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
 =======
                 'text_template' => $template['text_template'],
 >>>>>>> 75179b85 (.)
@@ -9806,6 +9876,7 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> 70e8274e (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 =======
                 'text_template' => $template['text_template'],
@@ -10059,6 +10130,8 @@ class MailTemplateSeeder extends Seeder
 >>>>>>> e95dfc210 (.)
 =======
 >>>>>>> ec24613a1 (.)
+=======
+>>>>>>> be698cf2c (.)
             ];
 
             MailTemplate::firstOrCreate($uniqueAttributes, $data);

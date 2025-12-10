@@ -145,6 +145,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -787,11 +788,14 @@ declare(strict_types=1);
 =======
 =======
 =======
+=======
+>>>>>>> 2fc60436 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> 2effe245 (.)
 =======
 <<<<<<< HEAD
@@ -858,10 +862,15 @@ declare(strict_types=1);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
 >>>>>>> 75179b8 (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73b (.)
@@ -1134,6 +1143,10 @@ declare(strict_types=1);
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -1273,6 +1286,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -1280,6 +1294,14 @@ class NetfunSmsResponseData extends Data
 >>>>>>> fbed41ac (.)
 =======
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2fc60436 (.)
+        public ?string $batchId = null,
+        public ?array $messages = null,
+        public ?string $error = null,
+>>>>>>> be698cf2c (.)
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -1299,6 +1321,40 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> 2effe245 (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+        public ?string $batchId = null,
+        public ?array $messages = null,
+        public ?string $error = null,
+>>>>>>> a12f125f4a (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
+        public null|string $batchId = null,
+        public null|array $messages = null,
+        public null|string $error = null,
+<<<<<<< HEAD
+>>>>>>> b93ef594b4 (.)
+=======
+        public ?string $batchId = null,
+        public ?array $messages = null,
+        public ?string $error = null,
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+        public ?string $batchId = null,
+        public ?array $messages = null,
+        public ?string $error = null,
+>>>>>>> 985c7bda (.)
+=======
+        public null|string $batchId = null,
+        public null|array $messages = null,
+        public null|string $error = null,
+>>>>>>> f5f1cb1 (.)
+>>>>>>> be698cf2c (.)
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> fbed41ac (.)
@@ -1306,6 +1362,15 @@ class NetfunSmsResponseData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+=======
+        public ?string $batchId = null,
+        public ?array $messages = null,
+        public ?string $error = null,
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -2625,6 +2690,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 5fd545e4 (.)
 =======
 =======
+=======
+>>>>>>> 2fc60436 (.)
     ) {}
 
     public static function fromArray(array $data): self
@@ -2635,6 +2702,7 @@ class NetfunSmsResponseData extends Data
             status: $data['status'],
             batchId: $data['batchId'] ?? null,
             messages: $data['messages'] ?? null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2711,6 +2779,11 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+            error: $data['error'] ?? null,
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> be698cf2c (.)
 >>>>>>> 5fd545e4 (.)
 =======
             error: $data['error'] ?? null,
@@ -2918,6 +2991,7 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 >>>>>>> 2fc60436 (.)
 =======
@@ -3058,6 +3132,15 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 75179b8 (.)
+=======
+=======
+            error: $data['error'] ?? null
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
         );
     }
 }

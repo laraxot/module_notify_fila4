@@ -72,6 +72,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -123,6 +124,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 =======
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -135,6 +137,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> be698cf2c (.)
 use Override;
 >>>>>>> c8b1c8bf (.)
 =======
@@ -295,8 +299,12 @@ use Filament\Infolists\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 =======
 =======
+=======
+>>>>>>> 82ae73b (.)
 use Filament\Schemas\Components\Component;
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 >>>>>>> 75179b8 (.)
@@ -405,6 +413,7 @@ class ViewNotification extends XotBaseViewRecord
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
 =======
 =======
@@ -532,6 +541,7 @@ class ViewNotification extends XotBaseViewRecord
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
 =======
@@ -553,6 +563,9 @@ class ViewNotification extends XotBaseViewRecord
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
      * @return array<Component>
 >>>>>>> 75179b85 (.)
 =======
@@ -594,6 +607,7 @@ class ViewNotification extends XotBaseViewRecord
             ]),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
@@ -612,14 +626,21 @@ class ViewNotification extends XotBaseViewRecord
 =======
      * @return array<\Filament\Infolists\Components\Component>
 >>>>>>> 510809c6f (.)
+=======
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> be698cf2c (.)
      */
     protected function getInfolistSchema(): array
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> be698cf2c (.)
             Section::make()
                 ->schema([
                     TextEntry::make('id'),
@@ -634,6 +655,7 @@ class ViewNotification extends XotBaseViewRecord
                     TextEntry::make('updated_at')
                         ->dateTime(),
                 ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 =======
@@ -659,6 +681,9 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> be698cf2c (.)
         ];
     }
 }

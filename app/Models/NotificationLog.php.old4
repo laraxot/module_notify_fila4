@@ -44,12 +44,16 @@ class NotificationLog extends Model
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> be698cf2c (.)
     use \Modules\Xot\Models\Traits\HasXotFactory;
 =======
     use HasFactory;
 >>>>>>> 82ae73b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     use HasFactory;
@@ -71,6 +75,8 @@ class NotificationLog extends Model
 =======
     use HasFactory;
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> be698cf2c (.)
     use HasTenants;
     use Updater;
 

@@ -39,6 +39,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
 <<<<<<< HEAD
+<<<<<<< HEAD
     use HasFactory;
     use \Modules\Xot\Models\Traits\HasXotFactory;
     use \Modules\Xot\Models\Traits\HasXotFactory;
@@ -122,6 +123,11 @@ class NotificationLog extends BaseModel
     use HasFactory;
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+=======
+    use HasFactory;
+>>>>>>> 82ae73b (.)
+>>>>>>> be698cf2c (.)
     use Updater;
 
     public const STATUS_PENDING = 'pending';
@@ -138,6 +144,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
     /** @var list<string> */
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var array<int, string> */
     /** @var list<string> */
     /** @var list<string> */
@@ -221,6 +228,11 @@ class NotificationLog extends BaseModel
     /** @var array<int, string> */
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+=======
+    /** @var array<int, string> */
+>>>>>>> 82ae73b (.)
+>>>>>>> be698cf2c (.)
     protected $fillable = [
         'template_id',
         'notifiable_type',
@@ -257,6 +269,7 @@ class NotificationLog extends BaseModel
     public function template(): BelongsTo
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266,12 +279,15 @@ class NotificationLog extends BaseModel
 =======
 >>>>>>> 2fc60436 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> be698cf2c (.)
         // Prima cerca il MailTemplate, altrimenti NotificationTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
         return $mailTemplate
             ? $this->belongsTo(MailTemplate::class, 'template_id')
             : $this->belongsTo(NotificationTemplate::class, 'template_id');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -284,6 +300,9 @@ class NotificationLog extends BaseModel
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> laraxot/develop
+=======
+=======
+>>>>>>> be698cf2c (.)
         // Prova prima con MailTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
         if ($mailTemplate) {
@@ -293,6 +312,7 @@ class NotificationLog extends BaseModel
         // Se non trova MailTemplate, prova con NotificationTemplate
         return $this->belongsTo(NotificationTemplate::class, 'template_id');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +329,9 @@ class NotificationLog extends BaseModel
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> be698cf2c (.)
     }
 
     public function scopeWithStatus($query, string $status)

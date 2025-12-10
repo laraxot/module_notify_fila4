@@ -7,6 +7,7 @@ namespace Modules\Notify\Console\Commands;
 use Illuminate\Console\Command;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
@@ -41,6 +42,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 <<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> be698cf2c (.)
 use Modules\Notify\Models\NotificationLog;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +203,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 use Modules\Notify\Models\NotificationLog;
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
 use Modules\Notify\Models\NotificationLog;
 >>>>>>> 82ae73be (.)
@@ -250,6 +254,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> f3c06ccdd (.)
 =======
 >>>>>>> 8db6adf75 (.)
+=======
+>>>>>>> be698cf2c (.)
 
 class CleanupNotificationLogsCommand extends Command
 {
@@ -335,6 +341,7 @@ class CleanupNotificationLogsCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $days = (int) ($this->option('days') ?? config('notify.cleanup.older_than_days', 30));
         $batchSize = (int) ($this->option('batch') ?? config('notify.cleanup.batch_size', 1000));
 =======
@@ -402,6 +409,7 @@ class CleanupNotificationLogsCommand extends Command
         $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
         $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 =======
         $days = $this->option('days') ?? config('notify.cleanup.older_than_days', 30);
         $batchSize = $this->option('batch') ?? config('notify.cleanup.batch_size', 1000);
@@ -433,6 +441,8 @@ class CleanupNotificationLogsCommand extends Command
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> be698cf2c (.)
         $keepFailed = config('notify.cleanup.keep_failed', true);
 
         $this->info("Inizio pulizia dei log delle notifiche più vecchi di {$days} giorni...");
@@ -451,6 +461,7 @@ class CleanupNotificationLogsCommand extends Command
             $query->where('status', '!=', NotificationLog::STATUS_FAILED);
             $query->where('status', '!=', NotificationLogStatusEnum::FAILED);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -541,6 +552,7 @@ class CleanupNotificationLogsCommand extends Command
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
 >>>>>>> e6c7fb3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -579,11 +591,16 @@ class CleanupNotificationLogsCommand extends Command
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+            $query->where('status', '!=', NotificationLog::STATUS_FAILED);
+>>>>>>> be698cf2c (.)
         }
 
         $totalDeleted = 0;
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted) {
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
+<<<<<<< HEAD
 <<<<<<< HEAD
         $query->chunkById($batchSize, function ($logs) use (&$totalDeleted): void {
             $count = $logs->count(); /* @phpstan-ignore method.nonObject */
@@ -640,6 +657,9 @@ class CleanupNotificationLogsCommand extends Command
             $count = $logs->count(); /** @phpstan-ignore method.nonObject */
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 2fc60436 (.)
+>>>>>>> be698cf2c (.)
             $logs->each->delete();
             $totalDeleted += $count;
             $this->info("Eliminati {$count} log...");
