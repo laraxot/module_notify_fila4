@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Configurazione Provider SMS per le Notifiche 
 
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
@@ -47,6 +48,8 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 <<<<<<< HEAD
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
 # Configurazione Provider SMS per le Notifiche 
 
 <<<<<<< HEAD
@@ -265,6 +268,7 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 =======
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
 >>>>>>> a29a4728 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Configurazione Provider SMS per le Notifiche 
@@ -793,6 +797,13 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+# Configurazione Provider SMS per le Notifiche 
+
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
 
 ## Indice
 
@@ -1027,6 +1038,7 @@ VONAGE_SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 =======
 VONAGE_SMS_FROM=
@@ -1273,6 +1285,7 @@ VONAGE_SMS_FROM=SaluteOra
 =======
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> a29a4728 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 VONAGE_SMS_FROM=SaluteOra
@@ -1563,6 +1576,11 @@ VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+VONAGE_SMS_FROM=SaluteOra
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
 ```
 
 ### Implementazione Notifica
@@ -1926,6 +1944,7 @@ Log::info('SMS sent', [
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1965,9 +1984,12 @@ Log::info('SMS sent', [
 =======
 >>>>>>> 998e6866b (.)
 =======
+>>>>>>> 36136dcfa (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
@@ -2050,3 +2072,7 @@ Log::info('SMS sent', [
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)

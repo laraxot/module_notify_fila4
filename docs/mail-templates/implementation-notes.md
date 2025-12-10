@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +47,7 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -116,6 +118,8 @@
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -276,6 +280,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -527,6 +532,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
 =======
@@ -824,6 +830,8 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> a29a4728 (.)
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 36136dcfa (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
@@ -957,6 +965,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -1208,6 +1217,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
 =======
@@ -1505,6 +1515,8 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> a29a4728 (.)
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> 36136dcfa (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -1653,6 +1665,7 @@ Output: [name] [email] [company] [date] (come badge blu)
 ``` 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1692,9 +1705,12 @@ Output: [name] [email] [company] [date] (come badge blu)
 =======
 >>>>>>> 998e6866b (.)
 =======
+>>>>>>> 36136dcfa (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
@@ -1777,3 +1793,7 @@ Output: [name] [email] [company] [date] (come badge blu)
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)

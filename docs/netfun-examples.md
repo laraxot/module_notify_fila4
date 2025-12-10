@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +47,7 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -116,6 +118,8 @@
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -155,6 +159,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 <<<<<<< HEAD
             sender: '<nome progetto>'
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -527,6 +532,7 @@ class OtpSmsNotification extends NetfunSmsNotification
             sender: 'SALUTEORA'
 >>>>>>> a29a4728 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             sender: 'SALUTEORA'
 >>>>>>> 4f042b88 (.)
@@ -814,6 +820,11 @@ class OtpSmsNotification extends NetfunSmsNotification
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
         );
     }
 
@@ -1107,6 +1118,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 <<<<<<< HEAD
 =======
@@ -1353,6 +1365,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 =======
             sender: 'SALUTEORA'
 >>>>>>> a29a4728 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             sender: 'SALUTEORA'
@@ -1641,6 +1654,11 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+            sender: 'SALUTEORA'
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
         );
     }
 
@@ -2009,6 +2027,7 @@ public function sendBulkSms(Request $request)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 <<<<<<< HEAD
 =======
@@ -2255,6 +2274,7 @@ public function sendBulkSms(Request $request)
 =======
             sender: 'SALUTEORA',
 >>>>>>> a29a4728 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             sender: 'SALUTEORA',
@@ -2543,6 +2563,11 @@ public function sendBulkSms(Request $request)
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+            sender: 'SALUTEORA',
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -3027,6 +3052,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 - [Prometheus PHP Client](https://github.com/promphp/prometheus_client_php) 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3066,9 +3092,12 @@ class NetfunNotificationIntegrationTest extends TestCase
 =======
 >>>>>>> 998e6866b (.)
 =======
+>>>>>>> 36136dcfa (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
@@ -3151,3 +3180,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)

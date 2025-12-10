@@ -56,6 +56,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -91,6 +92,8 @@
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -205,6 +208,7 @@
 =======
 >>>>>>> bd22fd4 (.)
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bd22fd4 (.)
@@ -283,6 +287,8 @@
 =======
 >>>>>>> 909e45af (.)
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
 # Notify Module Documentation
 
 ## Overview
@@ -338,6 +344,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Troubleshooting](./TROUBLESHOOTING.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -590,6 +597,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 36136dcfa (.)
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -864,6 +873,27 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36136dcfa (.)
+<<<<<<< HEAD
+=======
 >>>>>>> 4d2eb53e (.)
 =======
 =======
@@ -898,6 +928,7 @@ This document serves as the central index for the Notify module, providing guida
 =======
 =======
 >>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
@@ -1954,6 +1985,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -1997,6 +2031,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2011,6 +2046,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
 - [Documentazione Generale <nome progetto>](../../../../docs/README.md)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -2021,6 +2058,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 712617d3 (.)
@@ -2033,6 +2071,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 36136dcfa (.)
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
 - [Documentazione Generale PTV](../../../../docs/README.md)
@@ -2040,6 +2080,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36136dcfa (.)
 >>>>>>> 31f5d28f (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
@@ -2103,11 +2146,15 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36136dcfa (.)
 =======
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> bd22fd4 (.)
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f3086887 (rebase 210)
@@ -2160,6 +2207,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -2190,6 +2239,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
 =======
@@ -2212,6 +2262,10 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
 =======
 
 >>>>>>> bf479cc (.)
@@ -2268,6 +2322,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 >>>>>>> bf479cc (.)
 >>>>>>> 909e45af (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bd22fd4 (.)
@@ -2328,6 +2383,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -2499,6 +2559,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2516,6 +2577,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 13aa25113 (.)
 =======
+>>>>>>> 36136dcfa (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -2524,6 +2587,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 6608a1a0 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
@@ -2539,6 +2603,10 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 01af324fe (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36136dcfa (.)
 
 >>>>>>> bf479cc (.)
 =======
@@ -2815,6 +2883,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
 >>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
@@ -3384,6 +3453,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
 
 ## Sottocartelle
 
@@ -3452,6 +3524,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -3502,6 +3575,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 909e45af (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
@@ -3533,6 +3607,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 36136dcfa (.)
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
@@ -4672,6 +4750,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 >>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e643df (.)
 =======
@@ -4735,6 +4814,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 2e67a2a (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 36136dcfa (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -4745,6 +4826,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4780,6 +4862,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> 36136dcfa (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -5768,6 +5852,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
 =======
 =======
@@ -6040,3 +6125,6 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)

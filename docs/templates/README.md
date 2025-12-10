@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -14,6 +15,8 @@
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
 # Template Email
 
 ## Panoramica
@@ -64,6 +67,7 @@ Grazie,<br>
 // app/Filament/Resources/EmailTemplateResource.php
 use Filament\Forms\Components\Builder;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +220,9 @@ public static function form(Form $form): Form
 =======
 public static function form(Form $form): Form
 >>>>>>> 998e6866b (.)
+=======
+public static function form(Form $form): Form
+>>>>>>> 36136dcfa (.)
 {
     return $form->schema([
         Builder::make('content')
@@ -313,6 +320,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 301ad8b44 (.)
 =======
@@ -325,3 +333,5 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)

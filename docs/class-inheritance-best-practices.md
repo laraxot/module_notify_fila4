@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per l'Ereditarietà delle Classi
 
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
@@ -47,6 +48,8 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 <<<<<<< HEAD
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
 # Best Practices per l'Ereditarietà delle Classi
 
 <<<<<<< HEAD
@@ -265,6 +268,7 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
 >>>>>>> a29a4728 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # Best Practices per l'Ereditarietà delle Classi
@@ -791,6 +795,13 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+=======
+# Best Practices per l'Ereditarietà delle Classi
+
+Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema SaluteOra, con particolare attenzione alle classi che estendono `XotBasePage`.
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)
 
 ## Analisi dell'Ereditarietà di XotBasePage
 
@@ -870,6 +881,7 @@ Per le classi esistenti, rimuovere le interfacce e i traits ridondanti:
 Seguire queste best practices garantisce un codice più pulito, manutenibile e meno soggetto a errori. La comprensione dell'ereditarietà delle classi è fondamentale per lo sviluppo di un sistema robusto e scalabile.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -909,9 +921,12 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 =======
 >>>>>>> 998e6866b (.)
 =======
+>>>>>>> 36136dcfa (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
@@ -994,3 +1009,7 @@ Seguire queste best practices garantisce un codice più pulito, manutenibile e m
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+>>>>>>> 36136dcfa (.)

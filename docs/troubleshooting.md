@@ -93,6 +93,7 @@ This document provides guidance on diagnosing and resolving common issues encoun
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -104,6 +105,8 @@ This document provides guidance on diagnosing and resolving common issues encoun
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
 ### 5. ParseError durante composer update - Assert::string con assegnazione inline
 - **Symptoms**: Errore `ParseError: syntax error, unexpected token "->"` durante `composer update -W` o `php artisan package:discover`.
 - **Diagnosis**: Il problema si verifica quando si usa `Assert::string()` con un'assegnazione inline seguita immediatamente da una chiamata a metodo con `->`.
@@ -222,6 +225,7 @@ This document provides guidance on diagnosing and resolving common issues encoun
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -281,6 +285,8 @@ This document provides guidance on diagnosing and resolving common issues encoun
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 36136dcfa (.)
 ## Testing and Verification
 - Use sandbox environments or test modes provided by notification services to simulate sends without affecting real users.
 - Verify fixes by sending test notifications after applying changes.
