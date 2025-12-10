@@ -2268,6 +2268,7 @@ process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis --queue=emails
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
@@ -3603,6 +3604,8 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
 autostart=true
 autorestart=true
 numprocs=4

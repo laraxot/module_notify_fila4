@@ -749,6 +749,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -763,6 +764,7 @@ class SmtpData extends Data
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
@@ -906,6 +908,10 @@ class SmtpData extends Data
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -991,8 +997,11 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
@@ -1395,6 +1404,7 @@ class SmtpData extends Data
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -1859,6 +1869,11 @@ class SmtpData extends Data
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
 
 ## ⚠️ Note Importanti
 
@@ -2035,6 +2050,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Verificare configurazione SMTP 
 >>>>>>> 75179b85 (.)
@@ -2076,11 +2092,15 @@ class SmtpData extends Data
 =======
 >>>>>>> 3f537838 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 =======
 =======
    - Verificare configurazione SMTP 
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -2526,3 +2546,5 @@ class SmtpData extends Data
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e2f1a4045 (.)

@@ -313,6 +313,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/best-practices.md)
 =======
@@ -370,6 +371,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6608a1a0 (.)
 =======
@@ -432,6 +434,8 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> e2f1a4045 (.)
 - [Documentazione Laravel Translatable](../Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](../Lang/docs/translatable/best-practices.md)
 - [Documentazione Laravel Translatable](/var/www/html/base_<nome progetto>/laravel/Modules/Lang/docs/translatable/index.md)
@@ -472,6 +476,9 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -499,6 +506,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 - [Documentazione Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/index.md)
 - [Best Practices per Laravel Translatable](/var/www/html/base_saluteora/laravel/Modules/Lang/docs/translatable/best-practices.md)
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
@@ -731,3 +739,7 @@ Questa directory contiene la documentazione relativa all'implementazione delle e
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)

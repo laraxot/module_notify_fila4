@@ -234,6 +234,7 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
 =======
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di , in particolare per la gestione dei template email.
@@ -254,6 +255,7 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> 6608a1a0 (.)
 =======
@@ -344,6 +346,8 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di , in particolare per la gestione dei template email.
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
 >>>>>>> bf479cc (.)
@@ -380,6 +384,9 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
@@ -419,6 +426,7 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> a404ea71 (.)
@@ -696,6 +704,8 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di SaluteOra, in particolare per la gestione dei template email.
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 ## Panoramica del Pacchetto
 
@@ -829,6 +839,7 @@ Il componente è compatibile con l'architettura di <nome progetto> e può essere
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Compatibilità con <nome progetto>
 
 Il componente è compatibile con l'architettura di <nome progetto> e può essere integrato seguendo le convenzioni del progetto:
@@ -901,6 +912,7 @@ Il componente è compatibile con l'architettura di SaluteOra e può essere integ
 Il componente è compatibile con l'architettura di SaluteOra e può essere integrato seguendo le convenzioni del progetto:
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 ### Compatibilità con SaluteOra
 
 Il componente è compatibile con l'architettura di SaluteOra e può essere integrato seguendo le convenzioni del progetto:
@@ -1051,6 +1063,8 @@ Il componente è compatibile con l'architettura di SaluteOra e può essere integ
 Il componente è compatibile con l'architettura di SaluteOra e può essere integrato seguendo le convenzioni del progetto:
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 ### Compatibilità con 
 
 Il componente è compatibile con l'architettura di  e può essere integrato seguendo le convenzioni del progetto:
@@ -1091,6 +1105,9 @@ Il componente è compatibile con l'architettura di <nome progetto> e può essere
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 ### Compatibilità con SaluteOra
@@ -1136,6 +1153,7 @@ Il componente è compatibile con l'architettura di SaluteOra e può essere integ
 
 Il componente è compatibile con l'architettura di SaluteOra e può essere integrato seguendo le convenzioni del progetto:
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
@@ -1517,6 +1535,10 @@ Il componente è compatibile con l'architettura di SaluteOra e può essere integ
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
 
 - Non utilizza componenti UI personalizzati
 - Può essere configurato per restituire array associativi con chiavi stringhe
@@ -1659,6 +1681,7 @@ Ecco come il componente potrebbe essere implementato in `MailTemplateResource` s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di <nome progetto>:
 =======
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di :
@@ -1679,6 +1702,7 @@ Ecco come il componente potrebbe essere implementato in `MailTemplateResource` s
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
 >>>>>>> 6608a1a0 (.)
 =======
@@ -1769,6 +1793,8 @@ Ecco come il componente potrebbe essere implementato in `MailTemplateResource` s
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di :
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di <nome progetto>:
 >>>>>>> bf479cc (.)
@@ -1805,6 +1831,9 @@ Ecco come il componente potrebbe essere implementato in `MailTemplateResource` s
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
@@ -1844,6 +1873,7 @@ Ecco come il componente potrebbe essere implementato in `MailTemplateResource` s
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
 >>>>>>> a404ea71 (.)
@@ -2121,6 +2151,8 @@ Ecco come il componente potrebbe essere implementato in `MailTemplateResource` s
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di SaluteOra:
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 ```php
 use Camya\Filament\Forms\Components\TitleWithSlugInput;
@@ -2270,6 +2302,7 @@ Per adattare il componente alle esigenze specifiche di <nome progetto>:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per adattare il componente alle esigenze specifiche di <nome progetto>:
 =======
 Per adattare il componente alle esigenze specifiche di :
@@ -2290,6 +2323,7 @@ Per adattare il componente alle esigenze specifiche di SaluteOra:
 Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> 6608a1a0 (.)
 =======
@@ -2380,6 +2414,8 @@ Per adattare il componente alle esigenze specifiche di SaluteOra:
 Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 Per adattare il componente alle esigenze specifiche di :
 Per adattare il componente alle esigenze specifiche di <nome progetto>:
 >>>>>>> bf479cc (.)
@@ -2416,6 +2452,9 @@ Per adattare il componente alle esigenze specifiche di <nome progetto>:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Per adattare il componente alle esigenze specifiche di SaluteOra:
@@ -2455,6 +2494,7 @@ Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> a404ea71 (.)
@@ -2732,6 +2772,8 @@ Per adattare il componente alle esigenze specifiche di SaluteOra:
 Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 ```php
 'titleSlug' => TitleWithSlugInput::make(
@@ -2885,6 +2927,7 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->urlHost('https://<nome progetto>.example.com')
 <<<<<<< HEAD
 =======
@@ -2905,6 +2948,7 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 ->urlHost('https://saluteora.example.com')
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 ->urlHost('https://saluteora.example.com')
 >>>>>>> 6608a1a0 (.)
 =======
@@ -2995,6 +3039,8 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 ->urlHost('https://saluteora.example.com')
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 ->urlHost('https://<nome progetto>.example.com')
 ->urlHost('https://<nome progetto>.example.com')
 >>>>>>> bf479cc (.)
@@ -3031,6 +3077,9 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 ->urlHost('https://saluteora.example.com')
@@ -3070,6 +3119,7 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 ->urlHost('https://saluteora.example.com')
 >>>>>>> a404ea71 (.)
@@ -3347,6 +3397,8 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 ->urlHost('https://saluteora.example.com')
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 ->urlHostVisible(true)
 ```
 
@@ -3499,6 +3551,7 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Vantaggi per <nome progetto>
 =======
 ## Vantaggi per 
@@ -3519,6 +3572,7 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 ## Vantaggi per SaluteOra
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 ## Vantaggi per SaluteOra
 >>>>>>> 6608a1a0 (.)
 =======
@@ -3609,6 +3663,8 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 ## Vantaggi per SaluteOra
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 ## Vantaggi per 
 ## Vantaggi per <nome progetto>
 >>>>>>> bf479cc (.)
@@ -3645,6 +3701,9 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 ## Vantaggi per SaluteOra
@@ -3684,6 +3743,7 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 ## Vantaggi per SaluteOra
 >>>>>>> a404ea71 (.)
@@ -3961,6 +4021,8 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 ## Vantaggi per SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 L'integrazione di questo componente nel modulo Notify offrirebbe:
 
@@ -4089,11 +4151,14 @@ L'integrazione di questo componente nel modulo Notify offrirebbe:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 ### Conformità con le Convenzioni di <nome progetto>
 
 Per rispettare le convenzioni del progetto, è necessario:
@@ -4173,6 +4238,7 @@ Per rispettare le convenzioni del progetto, è necessario:
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -4371,6 +4437,8 @@ Per rispettare le convenzioni del progetto, è necessario:
 =======
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 ### Conformità con le Convenzioni di SaluteOra
 
 Per rispettare le convenzioni del progetto, è necessario:
@@ -4488,10 +4556,13 @@ Per rispettare le convenzioni del progetto, è necessario:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -4503,6 +4574,7 @@ Per rispettare le convenzioni del progetto, è necessario:
 =======
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
@@ -4563,6 +4635,8 @@ Per rispettare le convenzioni del progetto, è necessario:
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 ### Conformità con le Convenzioni di 
 
 Per rispettare le convenzioni del progetto, è necessario:
@@ -4607,6 +4681,9 @@ Per rispettare le convenzioni del progetto, è necessario:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -4634,6 +4711,7 @@ Per rispettare le convenzioni del progetto, è necessario:
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -4837,6 +4915,8 @@ Per rispettare le convenzioni del progetto, è necessario:
 =======
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 2. **Array Associativo**: Utilizzare chiavi stringhe nell'array di schema del form
 3. **Nomenclatura**: Seguire le convenzioni di nomenclatura del progetto
 
@@ -4986,6 +5066,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di <nome progetto>
 =======
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di 
@@ -5006,6 +5087,7 @@ public static function getFormSchema(): array
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
 >>>>>>> 6608a1a0 (.)
 =======
@@ -5096,6 +5178,8 @@ public static function getFormSchema(): array
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di 
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di <nome progetto>
 >>>>>>> bf479cc (.)
@@ -5132,6 +5216,9 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
@@ -5171,6 +5258,7 @@ public static function getFormSchema(): array
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
 >>>>>>> a404ea71 (.)
@@ -5448,6 +5536,8 @@ public static function getFormSchema(): array
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 3. **Modifiche Future**: Come ogni dipendenza, è soggetto a cambiamenti nelle versioni future
 
 ### Alternative
@@ -5570,6 +5660,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di <nome progetto>
 =======
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di 
@@ -5590,6 +5681,7 @@ public static function getFormSchema(): array
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
 >>>>>>> 6608a1a0 (.)
 =======
@@ -5680,6 +5772,8 @@ public static function getFormSchema(): array
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di 
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di <nome progetto>
 >>>>>>> bf479cc (.)
@@ -5716,6 +5810,9 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
@@ -5755,6 +5852,7 @@ public static function getFormSchema(): array
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
 >>>>>>> a404ea71 (.)
@@ -6032,6 +6130,8 @@ public static function getFormSchema(): array
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 2. **Approccio Modulare**: Utilizzare i componenti nativi di Filament con logica personalizzata
 3. **Altri Pacchetti**: Valutare pacchetti alternativi con funzionalità simili
 
@@ -6155,6 +6255,7 @@ Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di <nome progetto> potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 =======
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di  potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
@@ -6175,6 +6276,7 @@ Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per l
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 >>>>>>> 6608a1a0 (.)
 =======
@@ -6265,6 +6367,8 @@ Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per l
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di  potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di <nome progetto> potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 >>>>>>> bf479cc (.)
@@ -6301,6 +6405,9 @@ Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
@@ -6340,6 +6447,7 @@ Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per l
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 >>>>>>> a404ea71 (.)
@@ -6617,6 +6725,8 @@ Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per l
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di SaluteOra potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 L'implementazione dovrebbe seguire le convenzioni del progetto, con particolare attenzione alla localizzazione e alla struttura del form schema.
 

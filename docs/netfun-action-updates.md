@@ -234,6 +234,7 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto <nome progetto> e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 =======
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto  e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
@@ -254,6 +255,7 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> 6608a1a0 (.)
 =======
@@ -344,6 +346,8 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto  e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto <nome progetto> e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> bf479cc (.)
@@ -380,6 +384,9 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
@@ -419,6 +426,7 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> a404ea71 (.)
@@ -696,6 +704,8 @@ La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla co
 La classe `SendNetfunSMSAction` è stata completamente rivista per allinearla con le best practice del progetto SaluteOra e con il pattern di configurazione standardizzato per i servizi SMS. Inoltre, è stato creato un nuovo DTO `SmsMessageData` per standardizzare la gestione dei dati SMS.
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 ## 1. Correzioni alla Configurazione
 
@@ -1117,6 +1127,7 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto <nome progetto> e con i pattern di configurazione standardizzati.
 =======
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto  e con i pattern di configurazione standardizzati.
@@ -1137,6 +1148,7 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
 >>>>>>> 6608a1a0 (.)
 =======
@@ -1227,6 +1239,8 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto  e con i pattern di configurazione standardizzati.
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto <nome progetto> e con i pattern di configurazione standardizzati.
 >>>>>>> bf479cc (.)
@@ -1263,6 +1277,9 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
@@ -1302,6 +1319,7 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
 >>>>>>> a404ea71 (.)
@@ -1579,6 +1597,8 @@ Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMe
 Le modifiche apportate a `SendNetfunSMSAction` e l'aggiunta del nuovo DTO `SmsMessageData` hanno migliorato significativamente la qualità e la robustezza del codice, allineandolo con le best practice del progetto SaluteOra e con i pattern di configurazione standardizzati.
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 Questi miglioramenti garantiscono:
 1. Maggiore manutenibilità del codice

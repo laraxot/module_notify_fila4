@@ -106,6 +106,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -216,6 +217,7 @@ use Carbon\Carbon;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -501,6 +503,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> e2f1a4045 (.)
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -527,6 +531,9 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -547,6 +554,7 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -562,6 +570,8 @@ use Modules\Notify\Enums\NotificationLogStatusEnum;
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 /**
  * Modello per il logging delle notifiche.

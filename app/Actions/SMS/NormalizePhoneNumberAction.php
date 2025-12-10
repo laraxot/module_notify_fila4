@@ -1730,6 +1730,121 @@ class NormalizePhoneNumberAction
 class NormalizePhoneNumberAction 
 >>>>>>> a12f125f4a (.)
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+class NormalizePhoneNumberAction
+{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function execute(string|array $phoneNumber): string
+    {
+        // Convert array to string if needed
+        if (is_array($phoneNumber)) {
+            $phoneNumber = implode('', $phoneNumber);
+        }
+        
+=======
+    public function execute(string $phoneNumber): string
+    {
+>>>>>>> 62b0c9c (.)
+=======
+    public function execute(string $phoneNumber): string
+    {
+>>>>>>> bf479cc (.)
+        // Rimuove parentesi e il loro contenuto
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+class NormalizePhoneNumberAction
+{
+    public function execute(string|array $phoneNumber): string
+    {
+        // Convert array to string if needed
+        if (is_array($phoneNumber)) {
+            $phoneNumber = implode('', $phoneNumber);
+        }
+        
+        // Rimuove parentesi e il loro contenuto
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73be (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 3f537838 (.)
+>>>>>>> e2f1a4045 (.)
 class NormalizePhoneNumberAction
 >>>>>>> b93ef594b4 (.)
 =======

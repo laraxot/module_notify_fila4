@@ -8,6 +8,7 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Attachment;
 =======
@@ -112,10 +113,13 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 2fdda20 (.)
 >>>>>>> 909e45af (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> e2f1a4045 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Attachment;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Mail\Mailables\Attachment;
@@ -220,10 +224,14 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> e2f1a4045 (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
@@ -233,6 +241,9 @@ use Illuminate\Queue\SerializesModels;
 // use Modules\SaluteOra\Models\Appointment;
 // use Modules\SaluteOra\Models\Appointment;
 
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> e2f1a4045 (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -241,6 +252,7 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
+<<<<<<< HEAD
     use Queueable, SerializesModels;
     use Queueable, SerializesModels;
     use Queueable, SerializesModels;
@@ -260,6 +272,12 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
+=======
+<<<<<<< HEAD
+=======
+    use Queueable, SerializesModels;
+>>>>>>> bf479cc (.)
+>>>>>>> e2f1a4045 (.)
 
     /**
 =======
@@ -584,6 +602,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -966,6 +985,12 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
      * @param  array<string, mixed>  $notificationData
 >>>>>>> 11b43e822 (.)
+=======
+     * @param array<string, mixed> $notificationData
+=======
+     * @param  array<string, mixed>  $notificationData
+>>>>>>> bf479cc (.)
+>>>>>>> e2f1a4045 (.)
      */
     public function __construct(array $notificationData)
     {
@@ -1353,6 +1378,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 11b43e822 (.)
 
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+<<<<<<< HEAD
             $subject .= ' #'.$appointment->id;
         }
 
@@ -1616,7 +1642,13 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> 510809c6f (.)
         
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+=======
+<<<<<<< HEAD
+>>>>>>> e2f1a4045 (.)
             $subject .= ' #' . $appointment->id;
+=======
+            $subject .= ' #'.$appointment->id;
+>>>>>>> bf479cc (.)
         }
         
 <<<<<<< HEAD

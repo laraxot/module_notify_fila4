@@ -537,6 +537,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 =======
 **Compatibilità**: Filament 3.x, Laravel 10+ 
@@ -705,6 +706,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 **Compatibilità**: Filament 3.x, Laravel 10+ 
@@ -1035,3 +1037,8 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+=======
+**Compatibilità**: Filament 3.x, Laravel 10+ 
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)

@@ -122,6 +122,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 # Struttura di Configurazione nei Moduli 
@@ -142,6 +143,7 @@
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> 6608a1a0 (.)
 =======
@@ -232,6 +234,8 @@
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 # Struttura di Configurazione nei Moduli 
 # Struttura di Configurazione nei Moduli <nome progetto>
 >>>>>>> bf479cc (.)
@@ -268,6 +272,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
@@ -307,6 +314,7 @@
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> a404ea71 (.)
@@ -584,6 +592,8 @@
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 ## Principi di Configurazione
 

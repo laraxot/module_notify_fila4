@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,6 +227,8 @@ Durante la risoluzione:
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 # ✅ CORREZIONI PHPSTAN COMPLETATE - Modulo Notify
 
 ## 🎯 Obiettivo Raggiunto
@@ -373,6 +376,7 @@ I pattern di type safety implementati possono essere applicati a:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -407,3 +411,5 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e2f1a4045 (.)

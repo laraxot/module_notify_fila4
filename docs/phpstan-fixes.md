@@ -153,6 +153,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -231,6 +232,8 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -342,7 +345,12 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 =======
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 >>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -629,6 +637,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -636,6 +645,8 @@ $decodedData = base64_decode($encodedData);
 =======
 >>>>>>> 11b43e822 (.)
 =======
+>>>>>>> e2f1a4045 (.)
+=======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 31f5d28f (.)
@@ -666,6 +677,7 @@ $decodedData = base64_decode($encodedData);
 =======
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4689a827 (.)
@@ -729,6 +741,8 @@ $decodedData = base64_decode($encodedData);
 =======
 >>>>>>> d09cb759 (.)
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -935,6 +949,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -954,6 +969,8 @@ private static function processArray(array $data): array
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2071,6 +2088,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> 3f537838 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b855 (.)
 =======
@@ -2158,3 +2176,8 @@ private static function processArray(array $data): array
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)

@@ -960,6 +960,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
 =======
 <<<<<<< HEAD
@@ -968,6 +969,7 @@
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6608a1a0 (.)
 =======
@@ -1036,6 +1038,8 @@
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> e2f1a4045 (.)
 # Ultimo aggiornamento: 2025-01-31
 =======
 # Ultimo aggiornamento: 2025-01-06
@@ -1079,6 +1083,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 # Ultimo aggiornamento: 2025-01-06
@@ -1094,6 +1101,7 @@
 =======
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
@@ -1282,6 +1290,10 @@
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
 # ==============================================
 
 # ==============================================
@@ -1369,6 +1381,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,6 +1389,7 @@
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6608a1a0 (.)
 =======
@@ -1446,6 +1460,8 @@
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 /vendor/
 /vendor
 /node_modules/
@@ -1496,6 +1512,9 @@ npm-debug.log
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -1507,6 +1526,7 @@ npm-debug.log
 >>>>>>> a404ea71 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
@@ -1657,6 +1677,10 @@ npm-debug.log
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)
 vendor/
 /vendor/
 node_modules/
@@ -1748,6 +1772,7 @@ composer.lock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -1768,11 +1793,15 @@ composer.lock
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 =======
 >>>>>>> 62b0c9c (.)
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -2022,6 +2051,8 @@ composer.lock
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -2126,6 +2157,7 @@ cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.exe
 =======
 <<<<<<< HEAD
@@ -2135,6 +2167,7 @@ cache/
 =======
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
@@ -2203,6 +2236,8 @@ cache/
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 *.exe
 >>>>>>> 62b0c9c (.)
 =======
@@ -2244,6 +2279,9 @@ cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 *.exe
@@ -2253,6 +2291,77 @@ cache/
 =======
 *.exe
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+*.exe
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+*.exe
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+*.exe
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+*.exe
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+*.exe
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+*.exe
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+*.exe
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+*.exe
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+*.exe
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+*.exe
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+*.exe
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+*.exe
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+*.exe
+>>>>>>> f9ec4f86 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+*.exe
+>>>>>>> cccb594f (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2359,75 +2468,7 @@ cache/
 *.exe
 >>>>>>> 1442e291 (rebase 210)
 =======
->>>>>>> 3d462363 (rebase 210)
-=======
-*.exe
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-*.exe
->>>>>>> 9d3810d0 (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-*.exe
->>>>>>> d38aa9d2 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-*.exe
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
->>>>>>> 69fa7d37 (.)
-=======
-*.exe
->>>>>>> fbed41ac (.)
-=======
->>>>>>> eb71492d (.)
-=======
-*.exe
->>>>>>> f9ec4f86 (.)
-=======
->>>>>>> 0ebb7b01 (.)
-=======
-*.exe
->>>>>>> cccb594f (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-*.exe
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 6608a1a0 (.)
-=======
-*.exe
->>>>>>> ca10d6ad (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-*.exe
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 909e45af (.)
-=======
-*.exe
->>>>>>> a29a4728 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-*.exe
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-*.exe
->>>>>>> 9721a5b2 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-*.exe
->>>>>>> 1442e291 (rebase 210)
+>>>>>>> e2f1a4045 (.)
 *:Zone.Identifier
 v8-compile-cache-*
 .php-cs-fixer.cache
@@ -2513,6 +2554,9 @@ npm-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 npm-debug.log
 =======
 <<<<<<< HEAD
@@ -2522,6 +2566,7 @@ npm-debug.log
 =======
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
@@ -2590,6 +2635,8 @@ npm-debug.log
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 npm-debug.log
 >>>>>>> 62b0c9c (.)
 =======
@@ -2631,6 +2678,9 @@ npm-debug.log
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 npm-debug.log
@@ -2640,6 +2690,77 @@ npm-debug.log
 =======
 npm-debug.log
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+npm-debug.log
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+npm-debug.log
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+npm-debug.log
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+npm-debug.log
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+npm-debug.log
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+npm-debug.log
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+npm-debug.log
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+npm-debug.log
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+npm-debug.log
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+npm-debug.log
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+npm-debug.log
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+npm-debug.log
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+npm-debug.log
+>>>>>>> f9ec4f86 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+npm-debug.log
+>>>>>>> cccb594f (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2746,75 +2867,7 @@ npm-debug.log
 npm-debug.log
 >>>>>>> 1442e291 (rebase 210)
 =======
->>>>>>> 3d462363 (rebase 210)
-=======
-npm-debug.log
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-npm-debug.log
->>>>>>> 9d3810d0 (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-npm-debug.log
->>>>>>> d38aa9d2 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-npm-debug.log
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
->>>>>>> 69fa7d37 (.)
-=======
-npm-debug.log
->>>>>>> fbed41ac (.)
-=======
->>>>>>> eb71492d (.)
-=======
-npm-debug.log
->>>>>>> f9ec4f86 (.)
-=======
->>>>>>> 0ebb7b01 (.)
-=======
-npm-debug.log
->>>>>>> cccb594f (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-npm-debug.log
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 6608a1a0 (.)
-=======
-npm-debug.log
->>>>>>> ca10d6ad (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-npm-debug.log
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 909e45af (.)
-=======
-npm-debug.log
->>>>>>> a29a4728 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-npm-debug.log
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-npm-debug.log
->>>>>>> 9721a5b2 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-npm-debug.log
->>>>>>> 1442e291 (rebase 210)
+>>>>>>> e2f1a4045 (.)
 yarn-error.log*
 lerna-debug.log*
 
@@ -5521,6 +5574,7 @@ docs/cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5528,6 +5582,7 @@ docs/cache/
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6608a1a0 (.)
 =======
@@ -5596,6 +5651,8 @@ docs/cache/
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> e2f1a4045 (.)
 # LANGUAGE FILES
 # ==============================================
 lang/lang/
@@ -5648,6 +5705,9 @@ database_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -5655,6 +5715,63 @@ database_old/
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+>>>>>>> f9ec4f86 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+>>>>>>> cccb594f (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -5740,61 +5857,7 @@ database_old/
 =======
 >>>>>>> 1442e291 (rebase 210)
 =======
->>>>>>> 3d462363 (rebase 210)
-=======
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
->>>>>>> 9d3810d0 (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
->>>>>>> d38aa9d2 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
->>>>>>> 69fa7d37 (.)
-=======
->>>>>>> fbed41ac (.)
-=======
->>>>>>> eb71492d (.)
-=======
->>>>>>> f9ec4f86 (.)
-=======
->>>>>>> 0ebb7b01 (.)
-=======
->>>>>>> cccb594f (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 6608a1a0 (.)
-=======
->>>>>>> ca10d6ad (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 909e45af (.)
-=======
->>>>>>> a29a4728 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
->>>>>>> 9721a5b2 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> 1442e291 (rebase 210)
+>>>>>>> e2f1a4045 (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -5882,6 +5945,9 @@ database_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -5902,6 +5968,7 @@ database_old
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -6142,6 +6209,8 @@ database_old
 >>>>>>> f3086887 (rebase 210)
 =======
 >>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> e2f1a4045 (.)
 
 # ==============================================
 # MODULE SPECIFIC - NOTIFY
@@ -6224,6 +6293,9 @@ config/development.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 # Queue e notifiche
 storage/notifications/
 storage/queue/
@@ -6234,6 +6306,7 @@ storage/queue/
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6608a1a0 (.)
 =======
@@ -6302,6 +6375,8 @@ storage/queue/
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> e2f1a4045 (.)
 # Cache notifiche
 storage/notifications/
 storage/templates/
@@ -6352,6 +6427,9 @@ storage/queue/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 # Queue e notifiche
@@ -6365,6 +6443,105 @@ storage/queue/
 storage/notifications/
 storage/queue/
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> f9ec4f86 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+>>>>>>> cccb594f (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -6513,103 +6690,7 @@ storage/notifications/
 storage/queue/
 >>>>>>> 1442e291 (rebase 210)
 =======
->>>>>>> 3d462363 (rebase 210)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> 9d3810d0 (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> d38aa9d2 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
->>>>>>> 69fa7d37 (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> fbed41ac (.)
-=======
->>>>>>> eb71492d (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> f9ec4f86 (.)
-=======
->>>>>>> 0ebb7b01 (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> cccb594f (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 6608a1a0 (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> ca10d6ad (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 909e45af (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> a29a4728 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> 9721a5b2 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-# Queue e notifiche
-storage/notifications/
-storage/queue/
->>>>>>> 1442e291 (rebase 210)
+>>>>>>> e2f1a4045 (.)
 
 # File di test notifiche
 notification_test_data.json
@@ -6693,6 +6774,9 @@ test_notifications.sql
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 # 🚫 File specifici del progetto
 =======
 <<<<<<< HEAD
@@ -6701,6 +6785,7 @@ test_notifications.sql
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6608a1a0 (.)
 =======
@@ -6769,6 +6854,8 @@ test_notifications.sql
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> e2f1a4045 (.)
 # File specifici del progetto
 =======
 # 🚫 File specifici del progetto
@@ -6812,6 +6899,9 @@ test_notifications.sql
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 # 🚫 File specifici del progetto
@@ -6821,6 +6911,77 @@ test_notifications.sql
 =======
 # 🚫 File specifici del progetto
 >>>>>>> a404ea71 (.)
+=======
+>>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
+=======
+# 🚫 File specifici del progetto
+>>>>>>> a404ea71 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> ca10d6ad (.)
+=======
+>>>>>>> 23cbbaf5 (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> febe79e3 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> a29a4728 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> c7a4727b (.)
+=======
+>>>>>>> b99af5a8 (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> 1442e291 (rebase 210)
+=======
+>>>>>>> 3d462363 (rebase 210)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> fcaebc79 (rebase 210)
+=======
+>>>>>>> 54ad93c4 (rebase 210)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> 9d3810d0 (rebase 210)
+=======
+>>>>>>> 6e12a84b (rebase 210)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> d38aa9d2 (rebase 210)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> 9e7ba5b6 (rebase 210)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> eb71492d (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> f9ec4f86 (.)
+=======
+>>>>>>> 0ebb7b01 (.)
+=======
+# 🚫 File specifici del progetto
+>>>>>>> cccb594f (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -6927,75 +7088,7 @@ test_notifications.sql
 # 🚫 File specifici del progetto
 >>>>>>> 1442e291 (rebase 210)
 =======
->>>>>>> 3d462363 (rebase 210)
-=======
-# 🚫 File specifici del progetto
->>>>>>> fcaebc79 (rebase 210)
-=======
->>>>>>> 54ad93c4 (rebase 210)
-=======
-# 🚫 File specifici del progetto
->>>>>>> 9d3810d0 (rebase 210)
-=======
->>>>>>> 6e12a84b (rebase 210)
-=======
-# 🚫 File specifici del progetto
->>>>>>> d38aa9d2 (rebase 210)
-=======
->>>>>>> 545977c8 (rebase 210)
-=======
-# 🚫 File specifici del progetto
->>>>>>> 9e7ba5b6 (rebase 210)
-=======
->>>>>>> 69fa7d37 (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> fbed41ac (.)
-=======
->>>>>>> eb71492d (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> f9ec4f86 (.)
-=======
->>>>>>> 0ebb7b01 (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> cccb594f (.)
-=======
->>>>>>> 31f5d28f (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> a404ea71 (.)
-=======
->>>>>>> 6608a1a0 (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> ca10d6ad (.)
-=======
->>>>>>> 23cbbaf5 (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> febe79e3 (.)
-=======
->>>>>>> 909e45af (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> a29a4728 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> c7a4727b (.)
-=======
->>>>>>> b99af5a8 (.)
-=======
-# 🚫 File specifici del progetto
->>>>>>> 9721a5b2 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-# 🚫 File specifici del progetto
->>>>>>> 1442e291 (rebase 210)
+>>>>>>> e2f1a4045 (.)
 *.fila2
 laravel
 public_html

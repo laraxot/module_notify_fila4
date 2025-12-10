@@ -242,6 +242,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 =======
     'from' => env('SMS_FROM', ''),
@@ -262,6 +263,7 @@ return [
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 6608a1a0 (.)
 =======
@@ -352,6 +354,8 @@ return [
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
     'from' => env('SMS_FROM', ''),
     'from' => env('SMS_FROM', '<nome progetto>'),
 >>>>>>> bf479cc (.)
@@ -388,6 +392,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
     'from' => env('SMS_FROM', 'SaluteOra'),
@@ -427,6 +434,7 @@ return [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> a404ea71 (.)
@@ -706,6 +714,8 @@ return [
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
@@ -838,6 +848,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
             'sender' => env('NETFUN_SENDER', ''),
@@ -858,6 +869,7 @@ return [
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 6608a1a0 (.)
 =======
@@ -948,6 +960,8 @@ return [
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
             'sender' => env('NETFUN_SENDER', ''),
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> bf479cc (.)
@@ -984,6 +998,9 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
@@ -1023,6 +1040,7 @@ return [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> a404ea71 (.)
@@ -1302,6 +1320,8 @@ return [
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
         'twilio' => [
@@ -1491,6 +1511,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 =======
 SMS_FROM=
@@ -1511,6 +1532,7 @@ SMS_FROM=SaluteOra
 SMS_FROM=SaluteOra
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 SMS_FROM=SaluteOra
 >>>>>>> 6608a1a0 (.)
 =======
@@ -1601,6 +1623,8 @@ SMS_FROM=SaluteOra
 SMS_FROM=SaluteOra
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 SMS_FROM=
 SMS_FROM=<nome progetto>
 >>>>>>> bf479cc (.)
@@ -1637,6 +1661,9 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 SMS_FROM=SaluteOra
@@ -1676,6 +1703,7 @@ SMS_FROM=SaluteOra
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 SMS_FROM=SaluteOra
 >>>>>>> a404ea71 (.)
@@ -1955,6 +1983,8 @@ SMS_FROM=SaluteOra
 SMS_FROM=SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 SMS_RETRY_ATTEMPTS=3
 SMS_RETRY_DELAY=60
 
@@ -2078,6 +2108,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 =======
 NETFUN_SENDER=
@@ -2098,6 +2129,7 @@ NETFUN_SENDER=SaluteOra
 NETFUN_SENDER=SaluteOra
 >>>>>>> 31f5d28f (.)
 =======
+<<<<<<< HEAD
 NETFUN_SENDER=SaluteOra
 >>>>>>> 6608a1a0 (.)
 =======
@@ -2188,6 +2220,8 @@ NETFUN_SENDER=SaluteOra
 NETFUN_SENDER=SaluteOra
 >>>>>>> f3086887 (rebase 210)
 =======
+=======
+>>>>>>> e2f1a4045 (.)
 NETFUN_SENDER=
 NETFUN_SENDER=<nome progetto>
 >>>>>>> bf479cc (.)
@@ -2224,6 +2258,9 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 31f5d28f (.)
 =======
 NETFUN_SENDER=SaluteOra
@@ -2263,6 +2300,7 @@ NETFUN_SENDER=SaluteOra
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 NETFUN_SENDER=SaluteOra
 >>>>>>> a404ea71 (.)
@@ -2542,6 +2580,8 @@ NETFUN_SENDER=SaluteOra
 NETFUN_SENDER=SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Twilio

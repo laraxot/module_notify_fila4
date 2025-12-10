@@ -1146,6 +1146,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1178,6 +1179,7 @@ class MailMonitoringDebugger
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> a404ea71 (.)
 =======
@@ -1446,6 +1448,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1597,14 +1601,13 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
 =======
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> d09cb759 (.)
+>>>>>>> e2f1a4045 (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1614,6 +1617,11 @@ class MailMonitoringDebugger
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
@@ -1751,6 +1759,10 @@ class MailMonitoringDebugger
 =======
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> e2f1a4045 (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -1830,8 +1842,11 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> e2f1a4045 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2155,6 +2170,7 @@ class MailMonitoringDebugger
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -2518,3 +2534,8 @@ class MailMonitoringDebugger
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+>>>>>>> e2f1a4045 (.)

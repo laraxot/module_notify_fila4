@@ -1127,6 +1127,7 @@
 =======
 # Principi di Ereditarietà nelle Classi <nome progetto>
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi SaluteOra
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -1142,9 +1143,13 @@
 # Principi di Ereditarietà nelle Classi <nome progetto>
 =======
 >>>>>>> d284d65 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 # Principi di Ereditarietà nelle Classi SaluteOra
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 <<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi SaluteOra
@@ -1166,9 +1171,12 @@
 >>>>>>> f963d2c0 (.)
 =======
 =======
+>>>>>>> e2f1a4045 (.)
+=======
 # Principi di Ereditarietà nelle Classi <nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 31f5d28f (.)
+<<<<<<< HEAD
 =======
 # Principi di Ereditarietà nelle Classi <nome progetto>
 <<<<<<< HEAD
@@ -1265,6 +1273,8 @@
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> 12a7e2462 (.)
+=======
+>>>>>>> e2f1a4045 (.)
 
 ## Regola Fondamentale: No Duplicate Declarations
 
