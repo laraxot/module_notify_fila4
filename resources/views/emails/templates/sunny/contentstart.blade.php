@@ -408,6 +408,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2406,6 +2407,7 @@ declare(strict_types=1);
 <tr>
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c8eedbbb (.)
 =======
@@ -3201,6 +3203,10 @@ declare(strict_types=1);
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> c8eedbbb (.)
+>>>>>>> ee1815a34 (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -3212,6 +3218,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3639,6 +3646,8 @@ declare(strict_types=1);
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> ee1815a34 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4180,6 +4189,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
@@ -5642,3 +5652,8 @@ declare(strict_types=1);
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+=======
+					<div class="article-content" align="left">
+>>>>>>> c8eedbbb (.)
+>>>>>>> ee1815a34 (.)

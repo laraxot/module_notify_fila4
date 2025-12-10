@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ee1815a34 (.)
 <?php
 
 declare(strict_types=1);
@@ -7,6 +10,7 @@ return [
     // These CSS rules will be applied after the regular template CSS
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -52,10 +56,13 @@ return [
 >>>>>>> 8b22272 (.)
 =======
 >>>>>>> 467a2e4 (.)
+=======
+>>>>>>> ee1815a34 (.)
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,12 +236,15 @@ return [
 =======
 >>>>>>> 436af64 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> ee1815a34 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
         'button' => '#004cad',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,12 +366,16 @@ return [
 =======
 >>>>>>> 436af64 (.)
 >>>>>>> laraxot/develop
+=======
+
+>>>>>>> ee1815a34 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
         'unsubscribe' => null,
         'address' => null,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -483,12 +497,16 @@ return [
 =======
 >>>>>>> 436af64 (.)
 >>>>>>> laraxot/develop
+=======
+
+>>>>>>> ee1815a34 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
             'height' => '',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,10 +628,16 @@ return [
 =======
 >>>>>>> 436af64 (.)
 >>>>>>> laraxot/develop
+=======
+
+>>>>>>> ee1815a34 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
     ],
 ];
+<<<<<<< HEAD
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> ee1815a34 (.)
