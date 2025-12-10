@@ -62,6 +62,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -164,6 +165,8 @@
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -396,6 +399,8 @@ declare(strict_types=1);
 
 >>>>>>> 75179b855 (.)
 
+=======
+>>>>>>> b19cd40 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\NotificationTemplate;
@@ -486,6 +491,7 @@ class NotificationTemplateFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -731,3 +737,8 @@ class NotificationTemplateFactory extends Factory
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)

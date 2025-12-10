@@ -65,6 +65,7 @@ use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -82,11 +83,14 @@ use Exception;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,11 +530,15 @@ use Webmozart\Assert\Assert;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -761,6 +769,9 @@ use Webmozart\Assert\Assert;
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
 
 class RecordNotificationData extends Data
 {
@@ -808,6 +819,7 @@ class RecordNotificationData extends Data
 
     public function getRoute(): string
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1043,6 +1055,8 @@ class RecordNotificationData extends Data
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> 82ae73be (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1361,6 +1375,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 >>>>>>> a12f125f4a (.)
@@ -1378,6 +1393,8 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
         switch($this->channel){
             case 'mail':
                 Assert::string($email=$this->record->email);
@@ -1387,6 +1404,7 @@ class RecordNotificationData extends Data
                 $phone=app(NormalizePhoneNumberAction::class)->execute($phone);
                 return $phone;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1545,10 +1563,14 @@ class RecordNotificationData extends Data
 =======
         throw new Exception('Channel ['.$this->channel.'] not supported');
 >>>>>>> 82ae73be (.)
+=======
+        throw new Exception('Channel ['.$this->channel.'] not supported');
+>>>>>>> 82ae73be (.)
     }
 
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1633,4 +1655,6 @@ class RecordNotificationData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
 }

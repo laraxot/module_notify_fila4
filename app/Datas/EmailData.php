@@ -81,6 +81,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 58816034 (.)
@@ -135,10 +136,13 @@ class EmailData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
     public null|string $from = null;
 
     public null|string $from_email = null;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,10 +184,13 @@ class EmailData extends Data
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
     public ?string $from = null;
 
     public ?string $from_email = null;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -665,6 +672,8 @@ class EmailData extends Data
 
     public null|string $from_email = null;
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     public string $subject;
 
@@ -732,6 +741,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -776,10 +786,13 @@ class EmailData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
     public string $body = '';
 =======
     public string $body='';
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1051,6 +1064,8 @@ class EmailData extends Data
 =======
     public string $body = '';
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
 
     public array $attachments = [];
 
@@ -1127,6 +1142,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1290,6 +1306,8 @@ class EmailData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
         null|string $from = null,
         null|string $from_email = null,
         null|string $body = null,
@@ -1301,6 +1319,7 @@ class EmailData extends Data
         }
         $this->from = $from;
         if (!is_string($from_email)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1841,6 +1860,8 @@ class EmailData extends Data
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> 82ae73be (.)
+=======
         ?string $from = null,
         ?string $from_email = null,
         ?string $body = null
@@ -1852,6 +1873,7 @@ class EmailData extends Data
         }
         $this->from = $from;
         if (! is_string($from_email)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -1889,6 +1911,9 @@ class EmailData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
         }
         $this->from_email = $from_email;
@@ -1957,6 +1982,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2003,6 +2029,8 @@ class EmailData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> 82ae73be (.)
         $this->subject = strip_tags($subject); // Sanitize the subject
         $this->body_html = $body_html;
         $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
@@ -2028,6 +2056,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2046,12 +2075,15 @@ class EmailData extends Data
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
         $this->subject = strip_tags($subject);  // Sanitize the subject
         $this->body_html = $body_html;
         $this->body = $body ?? strip_tags($body_html);  // Default to plain-text version of HTML body
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2467,6 +2499,8 @@ class EmailData extends Data
         $this->body_html = $body_html;
         $this->body = $body ?? strip_tags($body_html); // Default to plain-text version of HTML body
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
         $this->attachments = $attachments;
     }
 
@@ -2542,6 +2576,7 @@ class EmailData extends Data
 
     public function getMimeEmail(): MimeEmail
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2937,11 +2972,14 @@ class EmailData extends Data
 >>>>>>> 3f537838 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
         if ($this->body === '') {
             $this->body = strip_tags($this->body_html);
         }
 
         $email = new MimeEmail()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2972,11 +3010,15 @@ class EmailData extends Data
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
         if ( $this->body=='') {
             $this->body = strip_tags($this->body_html);
         }
 
         $email = (new MimeEmail())
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -2998,6 +3040,9 @@ class EmailData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
             ->from($this->getFrom())
             ->to($this->to)
             ->subject(strip_tags($this->subject))
@@ -3701,6 +3746,7 @@ class EmailData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             Assert::string($attachment, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 >>>>>>> 58816034 (.)
@@ -3748,10 +3794,13 @@ class EmailData extends Data
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 82ae73be (.)
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 =======
             Assert::string($attachment);
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4077,6 +4126,8 @@ class EmailData extends Data
 =======
             Assert::string($attachment, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 82ae73be (.)
             $email->attachFromPath($attachment); // string $path, ?string $name = null, ?string $contentType = null
         }
 
