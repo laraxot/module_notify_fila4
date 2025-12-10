@@ -2292,7 +2292,8 @@ class TelegramData extends Data
 =======
 >>>>>>> f15c41e60 (.)
         public string $type = 'text',
-    ) {}
+    ) {
+    }
 }
 =======
 >>>>>>> 301ad8b44 (.)
