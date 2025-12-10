@@ -438,6 +438,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -647,6 +648,7 @@
 >>>>>>> f4acf543 (.)
 =======
 >>>>>>> e438127e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -1492,6 +1494,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> f4acf543 (.)
 >>>>>>> 8e45d5fca (.)
+=======
+>>>>>>> 5ec7f2640 (.)
 <?php
 
 declare(strict_types=1);
@@ -2448,6 +2452,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2470,6 +2475,8 @@ declare(strict_types=1);
 >>>>>>> 753ea7aca (.)
 =======
 >>>>>>> 8e45d5fca (.)
+=======
+>>>>>>> 5ec7f2640 (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -2733,6 +2740,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0db165c (.)
 >>>>>>> f4acf543 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> e438127e (.)
@@ -3672,6 +3680,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 753ea7aca (.)
 =======
 >>>>>>> 8e45d5fca (.)
+=======
+=======
+>>>>>>> e438127e (.)
+>>>>>>> 5ec7f2640 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4125,6 +4137,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4198,6 +4211,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 753ea7aca (.)
 =======
 >>>>>>> 8e45d5fca (.)
+=======
+>>>>>>> 5ec7f2640 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4922,6 +4937,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> e438127e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 510e6e8b (.)
 =======
@@ -6397,3 +6413,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 753ea7aca (.)
 =======
 >>>>>>> 8e45d5fca (.)
+=======
+>>>>>>> 5ec7f2640 (.)
