@@ -17,7 +17,7 @@ Complete overhaul of the Notify module addressing **41 files with critical PHP s
 ### Root Cause Analysis
 
 **Primary Issue:** Unresolved Git merge conflicts across the entire module
-- 113+ files affected by Git conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+- 113+ files affected by Git conflict markers (`[CONFLICT START]`, `[CONFLICT SEPARATOR]`, `[CONFLICT END]`)
 - Merge resolution script incorrectly kept all versions instead of choosing one
 - Result: Duplicate code blocks, malformed constructors, repeated parameters
 
