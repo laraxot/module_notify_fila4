@@ -84,6 +84,7 @@ readonly class SmsMessageData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -832,5 +833,10 @@ readonly class SmsMessageData
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+        public null|string $sender = null,
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 161887a2 (.)
     ) {}
 }

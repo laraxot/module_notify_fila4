@@ -81,6 +81,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -361,12 +362,9 @@ use Override;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
-use Override;
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 161887a2 (.)
 use Override;
->>>>>>> 4e2ebfb (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -382,6 +380,7 @@ use Illuminate\Support\Str;
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -786,16 +785,10 @@ use Modules\Notify\Contracts\SmsActionContract;
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
-use Modules\Notify\Datas\SMS\NexmoData;
-use Modules\Notify\Datas\SmsData;
 =======
-use Modules\Notify\Datas\SmsData;
-use Modules\Notify\Datas\SMS\NexmoData;
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 161887a2 (.)
 use Modules\Notify\Datas\SMS\NexmoData;
 use Modules\Notify\Datas\SmsData;
->>>>>>> 4e2ebfb (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendNexmoSMSAction implements SmsActionContract
@@ -1162,9 +1155,8 @@ final class SendNexmoSMSAction implements SmsActionContract
     protected bool $debug;
 
     /** @var string|null */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1279,6 +1271,8 @@ final class SendNexmoSMSAction implements SmsActionContract
     protected null|string $defaultSender = null;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
 
 <<<<<<< HEAD
     protected ?string $defaultSender = null;
@@ -1519,6 +1513,7 @@ final class SendNexmoSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->nexmoData = NexmoData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1975,6 +1970,9 @@ final class SendNexmoSMSAction implements SmsActionContract
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+
+>>>>>>> 161887a2 (.)
         if (!$this->nexmoData->key) {
             throw new Exception('Key Nexmo non configurata in sms.php');
         }
@@ -2163,6 +2161,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2655,6 +2654,9 @@ final class SendNexmoSMSAction implements SmsActionContract
     #[Override]
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+    #[Override]
+>>>>>>> 161887a2 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -2800,6 +2802,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3084,13 +3087,9 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
-            'headers' => $headers,
 =======
-            'headers' => $headers
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 161887a2 (.)
             'headers' => $headers,
->>>>>>> 4e2ebfb (.)
         ]);
 
         try {
@@ -3194,6 +3193,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3601,6 +3601,10 @@ final class SendNexmoSMSAction implements SmsActionContract
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+                    'type' => 'unicode',
+                ],
+>>>>>>> 161887a2 (.)
             ]);
 
             $this->vars['status_code'] = $response->getStatusCode();
@@ -3692,6 +3696,7 @@ final class SendNexmoSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4099,6 +4104,9 @@ final class SendNexmoSMSAction implements SmsActionContract
                 $clientException,
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+=======
+                $clientException,
+>>>>>>> 161887a2 (.)
             );
         }
     }
