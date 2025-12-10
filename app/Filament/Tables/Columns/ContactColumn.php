@@ -6277,7 +6277,7 @@ class ContactColumn extends ViewColumn
 >>>>>>> b19cd40 (.)
 >>>>>>> 903e3e2cd (.)
             ->label(__('notify::columns.contact.label'))
-            ->searchable(ContactTypeEnum::getSearchable())
+            ->searchable()
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }
