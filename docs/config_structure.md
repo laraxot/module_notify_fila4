@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
@@ -24,6 +25,7 @@
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 =======
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
@@ -51,6 +53,8 @@
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> f963d2c0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
 
 ## Principi di Configurazione
 

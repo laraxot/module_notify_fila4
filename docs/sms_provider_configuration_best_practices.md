@@ -86,6 +86,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 'sender' => env('NETFUN_SENDER', 'SaluteOra'),
@@ -99,6 +100,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 =======
 'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 =======
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
@@ -126,6 +128,8 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> f963d2c0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),

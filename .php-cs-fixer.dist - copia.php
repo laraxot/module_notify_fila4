@@ -1966,6 +1966,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -3041,9 +3042,19 @@ declare(strict_types=1);
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
 =======
+=======
+>>>>>>> 12a7e2462 (.)
 
+<<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
+<<<<<<< HEAD
 >>>>>>> ee1815a34 (.)
+=======
+=======
+=======
+>>>>>>> 518c702 (.)
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

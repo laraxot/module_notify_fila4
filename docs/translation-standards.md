@@ -15,8 +15,11 @@ Questo documento definisce gli standard e le best practices per la gestione dell
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+>>>>>>> 12a7e2462 (.)
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
 =======
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
@@ -30,6 +33,7 @@ Questo documento definisce gli standard e le best practices per la gestione dell
 =======
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fbed41ac (.)
@@ -69,6 +73,8 @@ Questo documento definisce gli standard e le best practices per la gestione dell
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di SaluteOra, con particolare attenzione al modulo Notify.
 >>>>>>> f963d2c0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
 
 ## Struttura delle Cartelle
 

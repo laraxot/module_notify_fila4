@@ -188,6 +188,7 @@ class AppointmentReminder extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 =======
             sender: 'SaluteOra',
@@ -201,6 +202,7 @@ class AppointmentReminder extends Notification
 =======
             sender: 'SaluteOra',
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 =======
             sender: '<nome progetto>',
 =======
@@ -228,6 +230,8 @@ class AppointmentReminder extends Notification
             sender: 'SaluteOra',
 >>>>>>> f963d2c0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
             reference: 'app_' . $this->appointment->id
         );
         

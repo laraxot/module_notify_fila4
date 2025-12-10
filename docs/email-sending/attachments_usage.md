@@ -23,6 +23,7 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -34,6 +35,8 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
 Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 
 #### Formato 1: Allegato da File Esistente (`path`)
@@ -109,6 +112,8 @@ $attachments = [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+=======
+>>>>>>> f963d2c0 (.)
 ```php
 // Formato corretto - un array di array di allegati
 $attachments = [
@@ -116,6 +121,9 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f963d2c0 (.)
+=======
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
@@ -141,6 +149,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
@@ -154,6 +163,7 @@ $attachments = [
 =======
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
@@ -181,6 +191,8 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> f963d2c0 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
@@ -189,6 +201,7 @@ $attachments = [
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +225,8 @@ $attachments = [
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
 #### Formato 2: Allegato da Contenuto Binario (`data`)
 
 ```php
@@ -250,6 +265,7 @@ $attachments = [
 =======
 >>>>>>> f963d2c0 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
 =======
@@ -271,6 +287,9 @@ $attachments = [
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
 ## Implementazione nella Classe SpatieEmail
 
 La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment` di Laravel per gestire gli allegati in modo robusto:
@@ -301,6 +320,7 @@ public function addAttachments(array $attachments): self
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -312,6 +332,8 @@ public function addAttachments(array $attachments): self
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
         $attachment = null;
         
         // Priorità 1: Se esiste 'path' e il file esiste, usa getAttachmentFromPath()
@@ -341,6 +363,7 @@ public function addAttachments(array $attachments): self
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -357,6 +380,8 @@ public function addAttachments(array $attachments): self
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 12a7e2462 (.)
         if (!isset($item['path']) || !file_exists($item['path'])) {
             continue;
         }
@@ -383,6 +408,11 @@ public function addAttachments(array $attachments): self
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 12a7e2462 (.)
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -446,6 +476,7 @@ public function attachments(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -457,6 +488,8 @@ public function attachments(): array
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
 ### Esempio 1: Allegato da File Esistente
 
 ```php
@@ -485,6 +518,7 @@ public function attachments(): array
 // Creazione di un array di allegati
 >>>>>>> f963d2c0 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
 =======
@@ -512,6 +546,11 @@ public function attachments(): array
 >>>>>>> 7bac387 (.)
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
+>>>>>>> 12a7e2462 (.)
 $attachments = [
     [
         'path' => 'modules/notify/resources/assets/images/logo.png',
@@ -541,6 +580,7 @@ Mail::to($recipient)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -552,6 +592,8 @@ Mail::to($recipient)
 =======
 >>>>>>> 2a97406c (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 12a7e2462 (.)
 ### Esempio 2: Allegato PDF Generato Dinamicamente
 
 ```php
@@ -741,6 +783,7 @@ foreach ($records as $record) {
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -757,6 +800,8 @@ foreach ($records as $record) {
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 2a97406c (.)
+=======
+>>>>>>> 12a7e2462 (.)
 ## Opzioni Disponibili per gli Allegati
 
 Ogni allegato deve contenere i seguenti parametri:
@@ -787,6 +832,11 @@ Ogni allegato deve contenere i seguenti parametri:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 12a7e2462 (.)
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
