@@ -106,6 +106,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -404,6 +405,7 @@ use Override;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
@@ -574,6 +576,10 @@ use Override;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Columns;
@@ -704,6 +710,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
 =======
@@ -824,10 +831,18 @@ use Filament\Tables\Filters\SelectFilter;
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+use Override;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Filters\SelectFilter;
+>>>>>>> 8c19c8df2 (.)
 use Filament\Tables\Columns;
 use Filament\Tables\Filters;
 use Modules\Notify\Filament\Resources\NotifyThemeResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -992,6 +1007,8 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -1584,6 +1601,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
@@ -1617,12 +1635,17 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 class ListNotifyThemes extends XotBaseListRecords
 {
     protected static string $resource = NotifyThemeResource::class;
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1968,7 +1991,12 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2101,6 +2129,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -2125,6 +2154,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2453,6 +2484,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -2780,36 +2812,13 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: true),
             'updated_at' => TextColumn::make('updated_at')
-<<<<<<< HEAD
-=======
-=======
-    public function getTableColumns(): array
-    {
-        return [
-            'id' => Columns\TextColumn::make('id')
-                ->sortable(),
-            'lang' => Columns\TextColumn::make('lang')
-                ->sortable(),
-            'type' => Columns\TextColumn::make('type')
-                ->sortable(),
-            'post_id' => Columns\TextColumn::make('post_id')
-                ->sortable(),
-            'post_type' => Columns\TextColumn::make('post_type')
-                ->sortable(),
-            'logo_src' => Columns\TextColumn::make('logo_src')
-                ->sortable(),
-            'created_at' => Columns\TextColumn::make('created_at')
-                ->dateTime()
-                ->sortable()
-                ->toggleable(isToggledHiddenByDefault: true),
-            'updated_at' => Columns\TextColumn::make('updated_at')
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: true),
@@ -2910,6 +2919,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3101,6 +3111,7 @@ class ListNotifyThemes extends XotBaseListRecords
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -3196,6 +3207,10 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3379,6 +3394,7 @@ class ListNotifyThemes extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3403,6 +3419,8 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4172,6 +4190,7 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -4291,6 +4310,10 @@ class ListNotifyThemes extends XotBaseListRecords
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

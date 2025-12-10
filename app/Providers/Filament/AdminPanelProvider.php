@@ -182,6 +182,7 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -608,6 +609,7 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -853,6 +855,10 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 =======
@@ -864,6 +870,7 @@ use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
 >>>>>>> e11621f (.)
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
@@ -916,6 +923,12 @@ use Override;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+use Override;
+// use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+>>>>>>> 8c19c8df2 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -931,6 +944,7 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 <<<<<<< HEAD
 use Override;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1007,6 +1021,8 @@ use Override;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Override;
 =======
 >>>>>>> 75179b85 (.)
@@ -1091,6 +1107,7 @@ use Override;
 >>>>>>> f1c9518b (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 use Override;
@@ -1114,6 +1131,10 @@ use Override;
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Override;
 =======
 >>>>>>> 99ff506 (.)
@@ -1146,11 +1167,15 @@ use Filament\SpatieLaravelTranslatablePlugin;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82c6772 (.)
 <<<<<<< HEAD
@@ -1252,6 +1277,8 @@ use Override;
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
@@ -1264,6 +1291,7 @@ class AdminPanelProvider extends XotBasePanelProvider
         $panel = parent::panel($panel);
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1479,6 +1507,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1543,6 +1572,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     #[Override]
 =======
 =======
@@ -1769,6 +1802,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
 
 >>>>>>> b19cd40 (.)
 =======
@@ -2995,6 +3031,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
@@ -3037,3 +3074,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)

@@ -104,6 +104,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -272,6 +273,7 @@ use RuntimeException;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -284,6 +286,10 @@ use RuntimeException;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 <<<<<<< HEAD
@@ -557,6 +563,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f5f1cb1 (.)
 =======
@@ -698,11 +705,16 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 8c19c8df2 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -751,29 +763,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
-=======
-=======
-use RuntimeException;
-use Carbon\Carbon;
-use Modules\User\Models\Profile;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
->>>>>>> a12f125f4a (.)
-=======
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-use Override;
-use RuntimeException;
-use Carbon\Carbon;
-use Modules\User\Models\Profile;
->>>>>>> b93ef594b4 (.)
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
-use Illuminate\Database\Eloquent\Builder;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Modules\Xot\Traits\Updater;
@@ -821,10 +815,6 @@ use Modules\Xot\Traits\Updater;
  * @property array|null $metadata
  * @property string|null $created_by
  * @property string|null $change_notes
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property Carbon|null $deleted_at
@@ -901,6 +891,15 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,11 +1144,13 @@ use Modules\Xot\Traits\Updater;
 <<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -1194,6 +1195,8 @@ use Modules\Xot\Traits\Updater;
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
  * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
  */
@@ -1541,6 +1544,7 @@ class MailTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1898,6 +1902,7 @@ class MailTemplateVersion extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 98d837b9 (.)
@@ -2038,6 +2043,11 @@ class MailTemplateVersion extends BaseModel
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     protected function casts(): array
     {
         return [
@@ -2058,15 +2068,7 @@ class MailTemplateVersion extends BaseModel
         $template = $this->template;
 
         if ($template === null) {
-<<<<<<< HEAD
             throw new RuntimeException('Template non trovato per questa versione');
-=======
-<<<<<<< HEAD
-            throw new RuntimeException('Template non trovato per questa versione');
-=======
-            throw new \RuntimeException('Template non trovato per questa versione');
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         }
 
         $template->update([

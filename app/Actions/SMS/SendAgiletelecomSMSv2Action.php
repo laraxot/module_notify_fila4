@@ -101,6 +101,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -136,6 +137,8 @@ use GuzzleHttp\Client;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -309,6 +312,7 @@ use GuzzleHttp\Client;
 >>>>>>> 98d837b9 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -342,6 +346,8 @@ use GuzzleHttp\Client;
 =======
 >>>>>>> 98d837b9 (.)
 =======
+=======
+>>>>>>> 8c19c8df2 (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
@@ -359,6 +365,7 @@ use GuzzleHttp\Client;
 >>>>>>> f813254 (.)
 =======
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> e53a56570 (.)
 =======
@@ -376,6 +383,8 @@ use GuzzleHttp\Client;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Override;
 use GuzzleHttp\Client;
 >>>>>>> 99ff506 (.)
@@ -586,6 +595,7 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -612,6 +622,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -674,6 +686,7 @@ use Modules\Notify\Datas\SmsData;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -692,6 +705,10 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Override;
 =======
 >>>>>>> 3f39ac8b (.)
@@ -1126,6 +1143,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
@@ -1308,6 +1326,8 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -1468,6 +1488,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1662,6 +1683,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1754,6 +1776,10 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1828,6 +1854,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 
         $payload = [
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2338,6 +2365,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2451,6 +2479,10 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 
         $payload = [
 <<<<<<< HEAD
@@ -2684,6 +2716,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2755,6 +2788,8 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -3096,8 +3131,16 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
                 ],
             ],
         ];
@@ -3107,6 +3150,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
         $response = Http::withHeaders($agile->getAuthHeaders())->timeout($agile->timeout)->post($url, $payload);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3809,6 +3853,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -3844,6 +3889,8 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 
         //dddx($response->body());
 =======
@@ -3961,8 +4008,11 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -4664,6 +4714,7 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
@@ -4696,6 +4747,10 @@ class SendAgiletelecomSMSv2Action implements SmsActionContract
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

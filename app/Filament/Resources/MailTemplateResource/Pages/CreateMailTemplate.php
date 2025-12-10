@@ -239,6 +239,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -466,6 +467,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 6d08c01b (.)
 =======
@@ -941,6 +943,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1267,6 +1271,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
 =======
@@ -1301,6 +1306,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2545,6 +2552,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2640,6 +2648,10 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 
 class CreateMailTemplate extends LangBaseCreateRecord
 {

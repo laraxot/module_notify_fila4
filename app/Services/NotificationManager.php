@@ -5,16 +5,8 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
-<<<<<<< HEAD
 use Exception;
 use Illuminate\Database\Eloquent\Collection;
-=======
-<<<<<<< HEAD
-use Exception;
-use Illuminate\Database\Eloquent\Collection;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +180,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -229,6 +222,9 @@ class NotificationManager
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> 23f115647 (.)
+=======
+     *
+>>>>>>> 8c19c8df2 (.)
      * @return array
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -528,6 +524,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -764,6 +761,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         array $options = [],
 >>>>>>> 98d837b9 (.)
@@ -801,6 +799,11 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+        array $options = [],
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     ): array {
         $template = $this->getTemplate($templateCode);
 
@@ -1065,6 +1068,7 @@ class NotificationManager
 =======
         if (!$template) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1075,16 +1079,15 @@ class NotificationManager
 =======
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
             throw new Exception("Template not found: {$templateCode}");
 =======
-<<<<<<< HEAD
-            throw new Exception("Template not found: {$templateCode}");
+>>>>>>> 98d837b9 (.)
 =======
-            throw new \Exception("Template not found: {$templateCode}");
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
+>>>>>>> f5f1cb1 (.)
+            throw new Exception("Template not found: {$templateCode}");
         }
 
         $action = app(SendNotificationAction::class);
@@ -1329,6 +1332,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1355,6 +1359,8 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1409,6 +1415,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1421,7 +1428,12 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1451,6 +1463,8 @@ class NotificationManager
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1633,7 +1647,12 @@ class NotificationManager
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
      * @return array<array>
 >>>>>>> 75179b85 (.)
 >>>>>>> 23f115647 (.)
@@ -1771,7 +1790,10 @@ class NotificationManager
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
         array $options = [],
 =======
         array $options = []
@@ -2163,6 +2185,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2342,6 +2365,11 @@ class NotificationManager
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+        array $options = [],
+>>>>>>> 8c19c8df2 (.)
     ): array {
         $logs = [];
 
@@ -2582,8 +2610,11 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
     public function getTemplate(string $code): null|NotificationTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2644,6 +2675,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -2658,6 +2690,8 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -3358,6 +3392,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -3471,6 +3506,10 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     }
 
     /**
@@ -3631,6 +3670,7 @@ class NotificationManager
 =======
      * @param string $category La categoria dei template
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -3641,7 +3681,12 @@ class NotificationManager
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
      * @return Collection<NotificationTemplate>
      */
     public function getTemplatesByCategory(string $category)
@@ -3654,6 +3699,7 @@ class NotificationManager
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3761,6 +3807,8 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4155,6 +4203,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
 >>>>>>> 98d837b9 (.)
@@ -4293,6 +4342,11 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+        return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     }
 
     /**
@@ -4453,6 +4507,7 @@ class NotificationManager
 =======
      * @param string $channel Il canale di notifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -4463,7 +4518,12 @@ class NotificationManager
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
      * @return Collection<NotificationTemplate>
      */
     public function getTemplatesByChannel(string $channel)
@@ -4476,6 +4536,7 @@ class NotificationManager
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4583,6 +4644,8 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4977,6 +5040,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
 >>>>>>> 98d837b9 (.)
@@ -5115,6 +5179,11 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+        return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     }
 
     /**
@@ -5220,6 +5289,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5412,6 +5482,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -5540,6 +5611,8 @@ class NotificationManager
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 98d837b9 (.)
      * @param  NotificationTemplate  $_template  Template delle notifiche Il template
@@ -6374,6 +6447,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -6431,11 +6505,13 @@ class NotificationManager
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -6554,6 +6630,8 @@ class NotificationManager
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -6676,6 +6754,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6868,6 +6947,7 @@ class NotificationManager
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -6996,6 +7076,8 @@ class NotificationManager
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 98d837b9 (.)
      * @param  Model  $_recipient  Il destinatario
@@ -7830,6 +7912,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -7887,11 +7970,13 @@ class NotificationManager
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -8010,6 +8095,8 @@ class NotificationManager
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -8120,6 +8207,7 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8505,6 +8593,7 @@ class NotificationManager
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 }
@@ -8628,3 +8717,8 @@ class NotificationManager
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+}
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)

@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -420,6 +421,7 @@ declare(strict_types=1);
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -436,6 +438,10 @@ declare(strict_types=1);
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -505,6 +511,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -527,6 +534,8 @@ use Override;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1098,6 +1107,7 @@ namespace Modules\Notify\Models;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -1164,10 +1174,13 @@ namespace Modules\Notify\Models;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1196,6 +1209,8 @@ namespace Modules\Notify\Models;
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 =======
@@ -1328,27 +1343,12 @@ use Modules\Xot\Models\BaseModel;
  * @property string $notifiable_type
  * @property int $notifiable_id
  * @property array<string, mixed>|string $data
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property Carbon|null $read_at
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
-<<<<<<< HEAD
-=======
-=======
- * @property \Illuminate\Support\Carbon|null $read_at
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property \Illuminate\Support\Carbon|null $deleted_at
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
  * @property string|null $deleted_by
  * @property int|null $tenant_id
  * @property int|null $user_id
@@ -1356,10 +1356,6 @@ use Modules\Xot\Models\BaseModel;
  * @property int|null $subject_id
  * @property array<string>|string|null $channels
  * @property string|null $status
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
  * @property Carbon|null $sent_at
 <<<<<<< HEAD
  * @property-read Model|null $creator
@@ -1449,6 +1445,15 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereUpdatedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1672,11 +1677,13 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -1724,6 +1731,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
  * @mixin IdeHelperNotification
  * @mixin \Eloquent
  */
@@ -1966,6 +1975,7 @@ class Notification extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2447,6 +2457,7 @@ class Notification extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 98d837b9 (.)
@@ -2587,6 +2598,11 @@ class Notification extends BaseModel
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     protected function casts(): array
     {
         return [

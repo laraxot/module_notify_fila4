@@ -7,6 +7,7 @@ namespace Modules\Notify\Jobs;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Throwable;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,6 +16,8 @@ use Throwable;
 =======
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 98d837b9 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,12 +197,14 @@ use Throwable;
 <<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
 use Throwable;
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f813254 (.)
 >>>>>>> 2effe245 (.)
@@ -266,6 +271,8 @@ use Throwable;
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -636,6 +643,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -898,6 +906,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1093,6 +1102,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -1103,6 +1116,7 @@ class SendNotificationJob implements ShouldQueue
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1909,6 +1923,7 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2129,6 +2144,10 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -2141,6 +2160,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2897,6 +2917,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> 98d837b9 (.)
@@ -3455,6 +3476,11 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     }
 
     /**
@@ -3502,10 +3528,6 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> e53a56570 (.)
 =======
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
      * @param Throwable $exception
      * @return void
 <<<<<<< HEAD
@@ -3581,15 +3603,6 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> e53a56570 (.)
      */
     public function failed(Throwable $exception): void
-<<<<<<< HEAD
-=======
-=======
-     * @param \Throwable $exception
-     * @return void
-     */
-    public function failed(\Throwable $exception): void
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
     {
         // Log dell'errore
         logger()->error('Errore nell\'invio della notifica', [
@@ -3603,6 +3616,7 @@ class SendNotificationJob implements ShouldQueue
 <<<<<<< HEAD
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4376,6 +4390,7 @@ class SendNotificationJob implements ShouldQueue
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 98d837b9 (.)
@@ -4611,3 +4626,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+}
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)

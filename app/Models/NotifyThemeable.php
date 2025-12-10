@@ -5,7 +5,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
 use Modules\Xot\Contracts\ProfileContract;
@@ -129,13 +128,6 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> e53a56570 (.)
 =======
 use Modules\Xot\Contracts\ProfileContract;
-=======
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Builder;
-use Modules\Xot\Contracts\ProfileContract;
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Support\Carbon;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -179,6 +171,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property int|null $notify_theme_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +243,8 @@ use Illuminate\Support\Carbon;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 7c1c276f (rebase 210)
+=======
+>>>>>>> 8c19c8df2 (.)
  *
 =======
 >>>>>>> 99ff506 (.)
@@ -276,6 +271,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -380,6 +376,10 @@ use Illuminate\Support\Carbon;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 8c19c8df2 (.)
  * @method static Builder|NotifyThemeable newModelQuery()
  * @method static Builder|NotifyThemeable newQuery()
  * @method static Builder|NotifyThemeable query()
@@ -512,12 +512,15 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
  *
 =======
  * @method static Builder<static>|NotifyThemeable whereDeletedAt($value)
@@ -574,6 +577,7 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 =======
 =======
@@ -611,6 +615,10 @@ use Illuminate\Support\Carbon;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 8c19c8df2 (.)
  * @mixin IdeHelperNotifyThemeable
 =======
 <<<<<<< HEAD

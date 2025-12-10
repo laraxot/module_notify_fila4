@@ -135,6 +135,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -198,6 +199,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
@@ -257,6 +259,10 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +622,7 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 =======
 >>>>>>> e53a56570 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBasePage;
@@ -641,6 +648,8 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -674,25 +683,13 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> e53a56570 (.)
 
     protected string $view = 'notify::filament.pages.dashboard';
-<<<<<<< HEAD
-=======
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-
-class Dashboard extends XotBaseDashboard
-{
-    protected static ?string $navigationIcon = 'heroicon-o-home';
-
-    protected static string $view = 'notify::filament.pages.dashboard';
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     public function mount(): void
     {
         /*
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -973,6 +970,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
@@ -1074,6 +1072,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
@@ -1081,6 +1083,7 @@ class Dashboard extends XotBaseDashboard
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1575,6 +1578,7 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1741,6 +1745,10 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     }
 }
 =======

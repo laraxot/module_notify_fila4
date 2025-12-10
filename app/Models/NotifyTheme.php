@@ -106,6 +106,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -313,6 +314,7 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -335,6 +337,10 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Eloquent;
 >>>>>>> f1c9518b (.)
 =======
@@ -658,12 +664,10 @@ use Override;
 >>>>>>> e11621f (.)
 =======
 >>>>>>> f813254 (.)
-use Override;
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+>>>>>>> f5f1cb1 (.)
 use Override;
+<<<<<<< HEAD
 =======
 >>>>>>> a12f125f4a (.)
 =======
@@ -671,15 +675,12 @@ use Override;
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Eloquent;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -776,6 +777,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -795,6 +797,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
  * @property Model|Eloquent $linkable
 =======
 <<<<<<< HEAD
@@ -1364,6 +1368,7 @@ class NotifyTheme extends BaseModel implements HasMedia
  * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
  * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1408,7 +1413,12 @@ class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
  * @mixin IdeHelperNotifyTheme
 <<<<<<< HEAD
 =======
@@ -1817,6 +1827,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2006,6 +2017,7 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -2030,6 +2042,10 @@ class NotifyTheme extends BaseModel
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     public function getLogoAttribute(?array $value): array
 =======
     public function getLogoAttribute(null|array $value): array
@@ -2126,12 +2142,16 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
 >>>>>>> f2e64178 (.)
 =======
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82c6772 (.)
 <<<<<<< HEAD
@@ -2550,6 +2570,8 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -2571,6 +2593,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
     #[Override]
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3050,6 +3073,7 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     #[Override]
 >>>>>>> 98d837b9 (.)
@@ -3189,6 +3213,11 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+    #[Override]
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
     protected function casts(): array
     {
         return [
@@ -3199,6 +3228,7 @@ class NotifyTheme extends BaseModel
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3801,11 +3831,15 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 2fc60436 (.)
@@ -3850,6 +3884,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 =======
 =======

@@ -152,6 +152,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -212,6 +213,7 @@ declare(strict_types=1);
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -244,6 +246,10 @@ declare(strict_types=1);
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -429,28 +435,6 @@ namespace Modules\Notify\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 2effe245 (.)
 use Modules\Notify\Models\MailTemplateLog;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-
-=======
->>>>>>> a12f125f4a (.)
-=======
-declare(strict_types=1);
-
-
->>>>>>> b93ef594b4 (.)
-namespace Modules\Notify\Database\Factories;
-
-use Modules\Notify\Models\MailTemplateLog;
-=======
-namespace Modules\Notify\Database\Factories;
-
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
@@ -643,15 +627,7 @@ class MailTemplateLogFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
-<<<<<<< HEAD
     protected $model = MailTemplateLog::class;
-=======
-<<<<<<< HEAD
-    protected $model = MailTemplateLog::class;
-=======
-    protected $model = \Modules\Notify\Models\MailTemplateLog::class;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -663,6 +639,7 @@ class MailTemplateLogFactory extends Factory
 }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1034,6 +1011,7 @@ class MailTemplateLogFactory extends Factory
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1153,3 +1131,7 @@ class MailTemplateLogFactory extends Factory
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)

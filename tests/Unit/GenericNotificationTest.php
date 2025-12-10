@@ -94,6 +94,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -345,6 +346,7 @@ namespace Modules\Notify\Tests\Unit;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -446,25 +448,12 @@ namespace Modules\Notify\Tests\Unit;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Notifications\GenericNotification;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-namespace Modules\Notify\Tests\Unit;
-
->>>>>>> a12f125f4a (.)
-=======
->>>>>>> b93ef594b4 (.)
-use Illuminate\Database\Eloquent\Model;
-use Modules\Notify\Notifications\GenericNotification;
-=======
-use Modules\Notify\Notifications\GenericNotification;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
 // Basic unit tests focusing on business logic of recipient name resolution
 
@@ -572,6 +561,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -613,6 +603,8 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1260,7 +1252,12 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
         $notifiable = new class
         {
 =======
@@ -1298,6 +1295,7 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -1422,17 +1420,18 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+=======
+        $notifiable = new class {
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
             public function getFullName(): string
             {
                 return 'John Doe';
             }
-<<<<<<< HEAD
-=======
-=======
-        $notifiable = new class {
-            public function getFullName(): string { return 'John Doe'; }
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
         };
 
         $ref = new ReflectionClass(GenericNotification::class);
@@ -1545,6 +1544,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -1584,6 +1584,8 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2064,7 +2066,12 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
         $model = new class extends Model
         {
 =======
@@ -2246,6 +2253,7 @@ describe('GenericNotification getRecipientName', function (): void {
         $model = new class extends Model {
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -2330,6 +2338,8 @@ describe('GenericNotification getRecipientName', function (): void {
 >>>>>>> f813254 (.)
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
             protected $attributes = [
                 'full_name' => 'Jane Roe',
             ];
@@ -2445,6 +2455,7 @@ describe('GenericNotification getRecipientName', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 98d837b9 (.)
@@ -2841,6 +2852,7 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -3181,6 +3193,10 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 4d2eb53e (.)
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
         $model1 = new class extends Model
         {
             protected $attributes = ['first_name' => 'Alice'];
@@ -3509,6 +3525,20 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e11621f (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 8c19c8df2 (.)
         $model1 = new class extends Model {
             protected $attributes = ['first_name' => 'Alice'];
         };
@@ -3520,6 +3550,12 @@ describe('GenericNotification getRecipientName', function (): void {
         $model3 = new class extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8c19c8df2 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -3568,6 +3604,7 @@ describe('GenericNotification getRecipientName', function (): void {
 =======
 =======
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
             protected $attributes = [];
@@ -3586,23 +3623,16 @@ describe('GenericNotification getRecipientName', function (): void {
             protected $attributes = ['name' => 'Bob'];
         };
         // none present
-<<<<<<< HEAD
-        $model3 = new class extends Model
-        {
->>>>>>> a12f125f4a (.)
 =======
-        $model3 = new class extends Model {
->>>>>>> b93ef594b4 (.)
+>>>>>>> 8c19c8df2 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> f5f1cb1 (.)
+>>>>>>> 98d837b9 (.)
             protected $attributes = [];
         };
-=======
-        $model1 = new class extends Model { protected $attributes = ['first_name' => 'Alice']; };
-        // name present
-        $model2 = new class extends Model { protected $attributes = ['name' => 'Bob']; };
-        // none present
-        $model3 = new class extends Model { protected $attributes = []; };
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
 
         $ref = new ReflectionClass(GenericNotification::class);
         $method = $ref->getMethod('getRecipientName');

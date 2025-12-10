@@ -5,10 +5,10 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
-<<<<<<< HEAD
 use Exception;
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +377,7 @@ use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
 =======
@@ -399,6 +400,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
 =======
@@ -1043,6 +1046,7 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1209,6 +1213,10 @@ use Webmozart\Assert\Assert;
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 
 class RecordNotificationData extends Data
 {
@@ -1275,6 +1283,7 @@ class RecordNotificationData extends Data
         switch ($this->channel) {
             case 'mail':
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1544,6 +1553,7 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 98d837b9 (.)
 =======
@@ -1644,6 +1654,10 @@ class RecordNotificationData extends Data
 >>>>>>> 2f135ef98 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1949,8 +1963,11 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 8c19c8df2 (.)
 
 
 >>>>>>> b19cd40 (.)
@@ -2590,7 +2607,12 @@ class RecordNotificationData extends Data
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> f2e64178 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> 98d837b9 (.)
+>>>>>>> 8c19c8df2 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)
