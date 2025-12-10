@@ -35,6 +35,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -101,6 +102,8 @@
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 # Sistema di Notifica Appuntamenti - il progetto
 
 ## Panoramica
@@ -372,6 +375,7 @@ app(SendAppointmentNotificationAction::class)->execute(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1062,6 +1066,8 @@ app(SendAppointmentNotificationAction::class)->execute(
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> f963d2c0 (.)
 # Invio promemoria per appuntamenti di domani
 php artisan dental:send-appointment-reminders --days=1
 
@@ -1111,6 +1117,7 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1185,3 +1192,5 @@ php artisan dental:send-appointment-reminders --days=1 --queue
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)

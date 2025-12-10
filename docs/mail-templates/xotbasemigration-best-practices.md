@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,8 @@
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 # XotBaseMigration: Best Practices
 
 ## Introduzione
@@ -198,6 +201,7 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 
 ## Riferimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -758,3 +762,7 @@ Quando si utilizza `Schema::hasColumn()` direttamente, si bypassa tutta questa l
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+- [Xot Module Documentation](/var/www/html/saluteora/laravel/Modules/Xot/docs/MIGRATIONS.md)
+- [JSON Migration Best Practices](/var/www/html/saluteora/laravel/Modules/Notify/docs/mail-templates/JSON_MIGRATION_FIXES.md)
+>>>>>>> f963d2c0 (.)

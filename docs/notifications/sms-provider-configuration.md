@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Configurazione Provider SMS per le Notifiche 
 
 <<<<<<< HEAD
@@ -527,6 +528,11 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+# Configurazione Provider SMS per le Notifiche 
+
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> f963d2c0 (.)
 
 ## Indice
 
@@ -723,6 +729,7 @@ VONAGE_SECRET=xyz789...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 VONAGE_SMS_FROM=<nome progetto>
 =======
 VONAGE_SMS_FROM=
@@ -1089,6 +1096,9 @@ VONAGE_SMS_FROM=SaluteOra
 VONAGE_SMS_FROM=
 VONAGE_SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
+=======
+VONAGE_SMS_FROM=SaluteOra
+>>>>>>> f963d2c0 (.)
 ```
 
 ### Implementazione Notifica
@@ -1477,6 +1487,7 @@ Log::info('SMS sent', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -1539,3 +1550,5 @@ Log::info('SMS sent', [
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)

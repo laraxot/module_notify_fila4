@@ -17,6 +17,7 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -87,19 +88,25 @@ $attachments = [
 <<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
+=======
+>>>>>>> f963d2c0 (.)
 ```php
 // Formato corretto - un array di array di allegati
 $attachments = [
     [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> f963d2c0 (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,12 +147,16 @@ $attachments = [
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+        'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
+>>>>>>> f963d2c0 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
 ];
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +222,8 @@ $attachments = [
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
 ## Implementazione nella Classe SpatieEmail
 
 La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment` di Laravel per gestire gli allegati in modo robusto:
@@ -227,6 +240,7 @@ public function addAttachments(array $attachments): self
     $attachmentObjects = [];
     
     foreach ($attachments as $item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,6 +294,8 @@ public function addAttachments(array $attachments): self
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
         if (!isset($item['path']) || !file_exists($item['path'])) {
             continue;
         }
@@ -303,6 +319,7 @@ public function addAttachments(array $attachments): self
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -324,6 +341,8 @@ public function addAttachments(array $attachments): self
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
     }
     
     $this->customAttachments = $attachmentObjects;
@@ -344,6 +363,7 @@ public function attachments(): array
 
 ## Esempio di Utilizzo Completo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +421,10 @@ public function attachments(): array
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+=======
+```php
+// Creazione di un array di allegati
+>>>>>>> f963d2c0 (.)
 $attachments = [
     [
         'path' => 'modules/notify/resources/assets/images/logo.png',
@@ -416,6 +440,7 @@ Mail::to($recipient)
     ->addAttachments($attachments));
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,6 +654,8 @@ foreach ($records as $record) {
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)
 ## Opzioni Disponibili per gli Allegati
 
 Ogni allegato deve contenere i seguenti parametri:
@@ -656,6 +683,7 @@ Ogni allegato deve contenere i seguenti parametri:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -677,3 +705,5 @@ Ogni allegato deve contenere i seguenti parametri:
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> f963d2c0 (.)

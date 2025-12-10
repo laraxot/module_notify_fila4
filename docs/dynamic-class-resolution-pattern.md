@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
 <<<<<<< HEAD
@@ -525,6 +526,11 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+# Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
+
+Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
+>>>>>>> f963d2c0 (.)
 
 ## Implementazione Attuale con Match
 
@@ -735,6 +741,7 @@ Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -797,3 +804,5 @@ Questa soluzione combina i vantaggi della risoluzione dinamica con la sicurezza 
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)

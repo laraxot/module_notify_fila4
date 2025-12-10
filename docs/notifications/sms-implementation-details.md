@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -83,6 +84,8 @@
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 # Implementazione SMS : Guida Dettagliata
 
 Questa documentazione fornisce una guida dettagliata all'implementazione delle notifiche SMS , con confronto tra diversi provider e best practices specifiche per il contesto italiano.
@@ -365,6 +368,7 @@ return [
     'smshosting' => [
         'username' => env('SMSHOSTING_USERNAME'),
         'password' => env('SMSHOSTING_PASSWORD'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,6 +826,9 @@ return [
         'sender' => env('SMSHOSTING_SENDER', ''),
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
+=======
+        'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
+>>>>>>> f963d2c0 (.)
     ],
 ];
 ```
@@ -1366,6 +1373,7 @@ public function toTwilio($notifiable)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
 =======
@@ -1827,6 +1835,10 @@ public function toTwilio($notifiable)
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+        ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: saluteora.it/privacy");
+>>>>>>> f963d2c0 (.)
 }
 ```
 
@@ -1880,6 +1892,7 @@ class ConsentLog extends Model
 - [SMS_PROVIDER_CONFIGURATION.md](./SMS_PROVIDER_CONFIGURATION.md)
 - [NOTIFICATIONS_IMPLEMENTATION_GUIDE.md](./NOTIFICATIONS_IMPLEMENTATION_GUIDE.md)
 - [TELEGRAM_NOTIFICATIONS_GUIDE.md](./TELEGRAM_NOTIFICATIONS_GUIDE.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1969,3 +1982,5 @@ class ConsentLog extends Model
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)

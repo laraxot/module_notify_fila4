@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -89,6 +90,8 @@
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
 # Database Mail System
 
 ## Regola sulle rotte
@@ -308,6 +311,7 @@ class EmailTemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -414,6 +418,9 @@ class EmailTemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> f963d2c0 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -628,6 +635,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c8b1c8bf (.)
@@ -687,6 +695,9 @@ class ProcessDoctorModerationAction
 =======
 
 >>>>>>> 75179b85 (.)
+=======
+
+>>>>>>> f963d2c0 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -901,6 +912,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1587,3 +1599,6 @@ Cordiali saluti,<br>
 =======
 - [Filament Forms](https://filamentphp.com/docs/forms)
 >>>>>>> 9777d1b3 (.)
+=======
+- [Filament Forms](https://filamentphp.com/docs/forms)
+>>>>>>> f963d2c0 (.)

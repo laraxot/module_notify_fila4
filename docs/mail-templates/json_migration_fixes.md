@@ -126,6 +126,7 @@ if(!$this->hasColumn('subject')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 36ac4fc1 (.)
 =======
@@ -177,6 +178,11 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+## Applicazione a SaluteOra
+
+Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di campi esistenti a JSON devono seguire queste linee guida, in particolare:
+>>>>>>> f963d2c0 (.)
 
 1. Le migrazioni per `mail_templates` e tabelle simili
 2. Campi multilingua che utilizzano il trait `HasTranslations`
@@ -187,6 +193,7 @@ Nel contesto di SaluteOra, tutte le migrazioni che coinvolgono la conversione di
 È necessario esaminare tutte le migrazioni esistenti per identificare pattern simili di conversione diretta a JSON:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +234,9 @@ grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrat
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+grep -r "json.*change" /var/www/html/saluteora/laravel/Modules/*/database/migrations/
+>>>>>>> f963d2c0 (.)
 ```
 
 I problemi più comuni si verificano in migrazioni che coinvolgono campi con traduzioni multilingua o configurazioni serializzate.

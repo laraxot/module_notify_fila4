@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
@@ -59,6 +60,9 @@
 =======
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
@@ -87,6 +91,7 @@
 - [Canale Telegram](../TELEGRAM_CHANNEL.md) - Documentazione del canale Telegram
 
 ## Note Importanti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +148,9 @@
 =======
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
+=======
+- SaluteOra utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> f963d2c0 (.)
 - Il sistema si basa su Queueable Actions (spatie/laravel-queueable-action) e non su Service Pattern
 - Le azioni specifiche per provider devono implementare l'interfaccia comune corrispondente
 - I DTO standardizzati vengono utilizzati come ponte tra il sistema e i provider specifici
