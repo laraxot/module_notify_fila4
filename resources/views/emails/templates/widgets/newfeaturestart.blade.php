@@ -426,6 +426,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -604,6 +605,7 @@
 >>>>>>> 6608a1a0 (.)
 =======
 >>>>>>> ca10d6ad (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ce26f84e (.)
@@ -1436,6 +1438,10 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+=======
+>>>>>>> ce26f84e (.)
+>>>>>>> 2d4267d82 (.)
 <?php
 
 declare(strict_types=1);
@@ -2361,6 +2367,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2373,6 +2380,8 @@ declare(strict_types=1);
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
@@ -2986,11 +2995,15 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> ca10d6ad (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2d4267d82 (.)
 =======
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0db165c (.)
 >>>>>>> ce26f84e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7d903672 (.)
 =======
@@ -3528,6 +3541,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -3969,6 +3984,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4018,6 +4034,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4672,6 +4690,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 0db165c (.)
 >>>>>>> ce26f84e (.)
+<<<<<<< HEAD
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 7d903672 (.)
@@ -6136,3 +6155,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> ca10d6ad (.)
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)

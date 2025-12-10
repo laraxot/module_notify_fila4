@@ -426,6 +426,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1331,6 +1332,7 @@
 =======
 >>>>>>> ca10d6ad (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce26f84e (.)
 =======
@@ -1507,6 +1509,10 @@
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+=======
+>>>>>>> ce26f84e (.)
+>>>>>>> 2d4267d82 (.)
 <?php
 
 declare(strict_types=1);
@@ -2499,6 +2505,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2511,6 +2518,8 @@ declare(strict_types=1);
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -2944,10 +2953,14 @@ declare(strict_types=1);
 =======
 >>>>>>> ca10d6ad (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2d4267d82 (.)
 =======
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> ce26f84e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7d903672 (.)
 =======
@@ -3410,6 +3423,8 @@ declare(strict_types=1);
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -3421,6 +3436,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3902,6 +3918,8 @@ declare(strict_types=1);
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4556,6 +4574,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 0db165c (.)
 >>>>>>> ce26f84e (.)
+<<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
 >>>>>>> 7d903672 (.)
@@ -6026,3 +6045,5 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> ca10d6ad (.)
 >>>>>>> 8c6d84fe6 (.)
+=======
+>>>>>>> 2d4267d82 (.)
