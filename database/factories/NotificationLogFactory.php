@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use Modules\Notify\Models\NotificationLog;
@@ -34,5 +35,21 @@ class NotificationLogFactory extends Factory
             'status' => $status->value,
             'error' => null,
         ];
+=======
+
+class NotificationLogFactory extends Factory
+{
+    /**
+     * The name of the factory's corresponding model.
+     */
+    protected $model = \Modules\Notify\Models\NotificationLog::class;
+
+    /**
+     * Define the model's default state.
+     */
+    public function definition(): array
+    {
+        return [];
+>>>>>>> 8bc2fc9f (first)
     }
 }
