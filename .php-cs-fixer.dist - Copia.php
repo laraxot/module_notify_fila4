@@ -9,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -45,13 +46,9 @@ declare(strict_types=1);
 >>>>>>> f5f1cb1 (.)
 >>>>>>> b94a5f6 (.)
 =======
+=======
+>>>>>>> 23161eb (.)
 
-=======
->>>>>>> f5f1cb1 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
 >>>>>>> 2fdda20 (.)
 >>>>>>> 31bdf6b (.)
 $finder = PhpCsFixer\Finder::create()
