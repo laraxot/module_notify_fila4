@@ -83,6 +83,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -192,6 +193,8 @@ use RuntimeException;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 <<<<<<< HEAD
@@ -379,6 +382,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -506,11 +510,21 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
+=======
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+>>>>>>> b19cd40 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1140,6 +1154,7 @@ class MailTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1520,6 +1535,11 @@ class MailTemplateVersion extends BaseModel
 =======
     #[Override]
 >>>>>>> 2941b0bd (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
     protected function casts(): array
     {
         return [

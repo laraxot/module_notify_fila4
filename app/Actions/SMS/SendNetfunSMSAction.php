@@ -85,6 +85,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -160,6 +161,8 @@ use Override;
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -182,6 +185,7 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 4d2eb53e (.)
 use Override;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 use Override;
@@ -429,7 +433,13 @@ use Override;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -451,6 +461,7 @@ use Modules\Notify\Datas\SmsData;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -865,6 +876,11 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 
 >>>>>>> 2941b0bd (.)
+=======
+
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 use function Safe\preg_replace;
 
 final class SendNetfunSMSAction implements SmsActionContract
@@ -929,8 +945,15 @@ final class SendNetfunSMSAction implements SmsActionContract
     protected int $timeout;
 
     /** @var string|null */
+<<<<<<< HEAD
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
+=======
+=======
+    protected ?string $defaultSender = null;
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
 
     private string $token;
 
@@ -1626,6 +1649,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
 >>>>>>> 58816034 (.)
@@ -1681,10 +1705,13 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? (int) config('sms.timeout', 30) : 30;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2043,6 +2070,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
         $this->timeout = is_numeric(config('sms.timeout', 30)) ? ((int) config('sms.timeout', 30)) : 30;
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
     }
 
     /**
@@ -2461,7 +2490,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> f1c9518b (.)
      * @throws Exception In caso di errore durante l'invio
      */
+<<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2575,6 +2606,10 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
     public function execute(SmsData $smsData): array
     {
         $headers = [
@@ -3077,7 +3112,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 >>>>>>> f1c9518b (.)
                 $clientException->getCode(),
+<<<<<<< HEAD
                 $clientException,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3178,6 +3215,11 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+=======
+                $clientException
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
             );
         }
 
@@ -3367,6 +3409,7 @@ final class SendNetfunSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3927,7 +3970,12 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 2effe245 (.)
 =======
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 3f39ac8b (.)
 
+=======
+        
+>>>>>>> b19cd40 (.)
         // Se preg_replace restituisce null (non dovrebbe succedere con input string)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4018,7 +4066,9 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
         }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4028,6 +4078,8 @@ final class SendNetfunSMSAction implements SmsActionContract
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 58816034 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 =======
         
 >>>>>>> b19cd40 (.)
@@ -4040,6 +4092,7 @@ final class SendNetfunSMSAction implements SmsActionContract
             $cleaned = '+39' . ltrim($cleaned, '0');
 >>>>>>> 99ff506 (.)
         }
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35 (.)
 <<<<<<< HEAD
@@ -4716,6 +4769,13 @@ final class SendNetfunSMSAction implements SmsActionContract
 =======
 
 >>>>>>> 2941b0bd (.)
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
         return $cleaned;
     }
 }

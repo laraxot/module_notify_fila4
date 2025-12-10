@@ -127,6 +127,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1157,8 +1158,14 @@ describe('Notify Themeable Business Logic', function (): void {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 161887a2 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
+=======
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+>>>>>>> b19cd40 (.)
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -2071,6 +2078,7 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $theme3->id,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3317,8 +3325,15 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
             ->toHaveCount(3);
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')
+            ->where('model_id', 123)
+            ->get())->toHaveCount(3);
+>>>>>>> b19cd40 (.)
     });
 
     it('can handle theme switching', function () {
@@ -4551,6 +4566,7 @@ describe('Notify Themeable Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5810,6 +5826,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> bb00ab64 (rebase 210)
+=======
+>>>>>>> 3f39ac8b (.)
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
 <<<<<<< HEAD
@@ -5818,6 +5836,7 @@ describe('Notify Themeable Business Logic', function () {
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
 >>>>>>> 99ff506 (.)
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6291,12 +6310,15 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 80f054e0 (.)
 =======
+>>>>>>> 3f39ac8b (.)
+=======
         NotifyThemeable::where('notify_theme_id', $theme1->id)
             ->update([
                 'notify_theme_id' => $theme2->id,
                 'updated_by' => 'admin@' . config('app.domain', 'example.com'),
             ]);
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9cdf6146 (.)
 =======
@@ -6305,6 +6327,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 3f39ac8b (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);

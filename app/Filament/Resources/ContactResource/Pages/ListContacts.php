@@ -100,6 +100,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -208,7 +209,13 @@ use Override;
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
 =======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
 =======
@@ -312,6 +319,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -927,6 +935,11 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
  * Uses ColumnBuilder and FilterBuilder to reduce code duplication.
  */
 >>>>>>> 2cbbc069 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -1007,6 +1020,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1176,6 +1190,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> 92ecc28 (.)
 >>>>>>> 985c7bda (.)
+=======
+>>>>>>> 3f39ac8b (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1356,6 +1372,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 58816034 (.)
@@ -1384,6 +1401,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 =======
     public function getTableColumns(): array
     {
@@ -1426,6 +1445,7 @@ class ListContacts extends XotBaseListRecords
                     return $query->where('active', false);
                 }),
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2474,6 +2494,8 @@ class ListContacts extends XotBaseListRecords
 =======
             'active' => FilterBuilder::activeToggle(),
 >>>>>>> 2cbbc069 (.)
+=======
+>>>>>>> 3f39ac8b (.)
         ];
     }
 }

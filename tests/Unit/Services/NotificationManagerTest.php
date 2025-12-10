@@ -97,6 +97,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> 58816034 (.)
@@ -325,10 +326,13 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 3f39ac8b (.)
         $this->notificationManager = new NotificationManager;
 =======
         $this->notificationManager = new NotificationManager();
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -339,10 +343,14 @@ class NotificationManagerTest extends TestCase
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
         $this->notificationManager = new NotificationManager();
 =======
         $this->notificationManager = new NotificationManager;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -615,6 +623,9 @@ class NotificationManagerTest extends TestCase
         $this->notificationManager = new NotificationManager();
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
     }
 
     protected function tearDown(): void
@@ -713,6 +724,7 @@ class NotificationManagerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -775,12 +787,15 @@ class NotificationManagerTest extends TestCase
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 =======
         $action->shouldReceive('execute')
             ->with($recipient, $templateCode, $data, $channels, $options)
             ->once();
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1100,6 +1115,8 @@ class NotificationManagerTest extends TestCase
 =======
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
 
         app()->instance(SendNotificationAction::class, $action);
 

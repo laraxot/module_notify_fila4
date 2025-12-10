@@ -324,6 +324,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -673,6 +674,10 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 6608a1a0 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -714,6 +719,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -867,6 +873,9 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Documentazione Generale PTV](../../../../docs/README.md)
 >>>>>>> bf479cc (.)
 >>>>>>> 6608a1a0 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 3f39ac8b (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -897,6 +906,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -1023,6 +1033,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 >>>>>>> bf479cc (.)
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -1096,6 +1108,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - **Fallimenti di Consegna**: Assicurarsi della corretta configurazione di chiavi API e endpoint per ogni canale di notifica
 - **Errori Template**: Verificare sintassi template e placeholder per evitare problemi di rendering
 - **Colli di Bottiglia Performance**: Utilizzare il queueing per l'invio di notifiche per prevenire ritardi nell'esperienza utente
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2478,6 +2491,14 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4689a827 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
 
 ## Sottocartelle
 
@@ -2663,6 +2684,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -2710,6 +2732,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -2718,6 +2742,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9f953c6 (.)
@@ -3114,6 +3139,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> ee18dd92 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -3124,6 +3151,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3594,11 +3622,16 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 3f39ac8b (.)
 =======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 3f39ac8b (.)
+=======
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3952,10 +3985,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 6608a1a0 (.)
 =======
+=======
+>>>>>>> 3f39ac8b (.)
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
 >>>>>>> 95531e1 (.)
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
 =======
@@ -4260,3 +4296,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 3f39ac8b (.)

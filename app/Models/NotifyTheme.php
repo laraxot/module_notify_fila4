@@ -85,6 +85,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -256,6 +257,8 @@ use Modules\Notify\Database\Factories\NotifyThemeFactory;
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Eloquent;
 >>>>>>> f1c9518b (.)
 =======
@@ -354,6 +357,7 @@ use Override;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 95531e1 (.)
 =======
@@ -387,7 +391,13 @@ use Override;
 >>>>>>> f5f1cb1 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1402,6 +1412,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1553,10 +1564,13 @@ class NotifyTheme extends BaseModel
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 3f39ac8b (.)
     public function getLogoAttribute(?array $value): array
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1567,10 +1581,14 @@ class NotifyTheme extends BaseModel
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
     public function getLogoAttribute(null|array $value): array
 =======
     public function getLogoAttribute(?array $value): array
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -1966,6 +1984,9 @@ class NotifyTheme extends BaseModel
     public function getLogoAttribute(null|array $value): array
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -1984,6 +2005,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2468,6 +2490,11 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> 2941b0bd (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
     protected function casts(): array
     {
         return [
@@ -2476,6 +2503,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2972,9 +3000,18 @@ class NotifyTheme extends BaseModel
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+=======
+
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+
+>>>>>>> b19cd40 (.)
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 <<<<<<< HEAD
 <<<<<<< HEAD

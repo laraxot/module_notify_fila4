@@ -83,6 +83,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -201,6 +202,8 @@ use Modules\User\Models\Profile;
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Illuminate\Database\Eloquent\Builder;
 >>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Model;
@@ -364,10 +367,13 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> a12f125f4a (.)
 =======
+=======
+>>>>>>> 95531e1 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use Modules\User\Models\Profile;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
@@ -606,10 +612,13 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 011072e4 (.)
 =======
+>>>>>>> 3f39ac8b (.)
+=======
 use Modules\User\Models\Profile;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -682,6 +691,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateLogFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1210,6 +1221,7 @@ class MailTemplateLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1590,6 +1602,11 @@ class MailTemplateLog extends BaseModel
 =======
     #[Override]
 >>>>>>> 2941b0bd (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
     protected function casts(): array
     {
         return [

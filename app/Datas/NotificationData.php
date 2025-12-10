@@ -95,6 +95,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -280,6 +281,8 @@ class NotificationData extends Data
 >>>>>>> 58816034 (.)
 =======
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> 3f39ac8b (.)
     public ?string $from_email = null;
 
     public string $to;
@@ -293,6 +296,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,6 +422,10 @@ class NotificationData extends Data
 =======
 =======
 >>>>>>> f1c9518b (.)
+=======
+=======
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
     public null|string $from_email = null;
 
     public string $to;
@@ -425,6 +433,7 @@ class NotificationData extends Data
     public null|string $subject = null;
 
     public null|string $body_html = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -789,6 +798,11 @@ class NotificationData extends Data
 =======
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 99ff506 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
     public ?string $from_email = null;
 
     public string $to;
@@ -796,6 +810,7 @@ class NotificationData extends Data
     public ?string $subject = null;
 
     public ?string $body_html = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1076,6 +1091,10 @@ class NotificationData extends Data
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
 
     public string $body;
 
@@ -1163,6 +1182,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1269,12 +1289,17 @@ class NotificationData extends Data
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 3f39ac8b (.)
     public ?DataCollection $attachments = null;
 =======
+=======
+>>>>>>> 95531e1 (.)
     public null|DataCollection $attachments = null;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1685,6 +1710,11 @@ class NotificationData extends Data
     public null|DataCollection $attachments = null;
 
 >>>>>>> 2941b0bd (.)
+=======
+=======
+    public ?DataCollection $attachments = null;
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
     // public ?array $attachment_paths = [];
 
     /**
@@ -1772,6 +1802,7 @@ class NotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1989,11 +2020,14 @@ class NotificationData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
         return SmsData::from([
             'from' => $this->from,
             'to' => $this->to,
             'body' => $this->body,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2197,6 +2231,9 @@ class NotificationData extends Data
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
         return SmsData::from(
             [
                 'from' => $this->from,
@@ -2204,6 +2241,7 @@ class NotificationData extends Data
                 'body' => $this->body,
             ]
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2467,5 +2505,8 @@ class NotificationData extends Data
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
     }
 }

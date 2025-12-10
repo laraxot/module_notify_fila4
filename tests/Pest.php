@@ -83,6 +83,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -329,9 +330,13 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 =======
+=======
+>>>>>>> 3f39ac8b (.)
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 =======
+=======
+>>>>>>> 95531e1 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 99ff506 (.)
@@ -464,6 +469,7 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -521,9 +527,12 @@ expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate:
 =======
 >>>>>>> ce89c8bb (.)
 =======
+>>>>>>> 3f39ac8b (.)
+=======
 namespace Modules\Notify\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -732,6 +741,10 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> 2fc60436 (.)
+=======
+use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> 3f39ac8b (.)
 
 /*
 |--------------------------------------------------------------------------
@@ -744,6 +757,7 @@ use Modules\Notify\Models\MailTemplate;
 |
 */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -805,6 +819,10 @@ uses(TestCase::class)
 uses(TestCase::class)
     ->uses(DatabaseTransactions::class)
 >>>>>>> 2fc60436 (.)
+=======
+uses(TestCase::class)
+    ->uses(DatabaseTransactions::class)
+>>>>>>> 3f39ac8b (.)
     ->in('Feature', 'Unit');
 
 /*
@@ -832,6 +850,7 @@ expect()->extend('toBeNotification', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -846,6 +865,8 @@ expect()->extend('toBeNotification', function () {
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 3f39ac8b (.)
     return $this->toBeInstanceOf(Notification::class);
 });
 
@@ -854,6 +875,7 @@ expect()->extend('toBeMailTemplate', function () {
 });
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -911,6 +933,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 3f39ac8b (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -920,6 +944,7 @@ expect()->extend('toBeMailTemplate', function () {
 | global functions to help you to reduce the number of lines of code in your test files.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1499,6 +1524,9 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
 
 function createNotification(array $attributes = []): Notification
 {

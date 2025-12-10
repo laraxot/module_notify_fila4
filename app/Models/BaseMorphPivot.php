@@ -238,6 +238,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -346,11 +347,14 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
         'post_id',
         'post_type',
 =======
         'post_id', 'post_type',
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1084,6 +1088,8 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_id',
         'post_type',
 >>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
         'related_type',
         'user_id',
         'note',
@@ -1244,6 +1250,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1819,6 +1826,11 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 5fd545e4 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> 3f39ac8b (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
