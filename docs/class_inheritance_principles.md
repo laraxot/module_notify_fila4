@@ -243,6 +243,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +646,7 @@
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 # Principi di Ereditarietà nelle Classi <nome progetto>
 =======
@@ -769,6 +771,8 @@
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> 75179b85 (.)
 =======
@@ -1891,6 +1895,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2883,6 +2888,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -3768,6 +3774,8 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 ```
 
 ## Riferimenti

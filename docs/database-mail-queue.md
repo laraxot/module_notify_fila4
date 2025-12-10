@@ -816,6 +816,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1062,6 +1063,7 @@ $this->call('queue:prune-batches', [
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1192,11 +1194,14 @@ $this->call('queue:prune-batches', [
 =======
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 # Supervisor config
 <<<<<<< HEAD
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1412,6 +1417,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -1706,10 +1713,14 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2741,6 +2752,8 @@ command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan que
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -3074,6 +3087,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 - [Redis Documentation](https://redis.io/documentation)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3818,6 +3832,7 @@ php artisan queue:restart
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -4486,3 +4501,5 @@ php artisan queue:restart
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)

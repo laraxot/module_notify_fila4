@@ -1081,6 +1081,7 @@ php artisan notify:mail-template:test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1581,6 +1582,7 @@ php artisan notify:mail-template:test
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -2249,3 +2251,5 @@ php artisan notify:mail-template:test
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)

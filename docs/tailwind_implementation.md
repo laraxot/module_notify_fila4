@@ -711,6 +711,7 @@ class EmailResponsiveTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1054,6 +1055,7 @@ class EmailResponsiveTest extends TestCase
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -1291,6 +1293,10 @@ class EmailResponsiveTest extends TestCase
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
 ## Collegamenti Completi
@@ -1718,6 +1724,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1619767d8 (.)
 =======
@@ -1833,6 +1840,11 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_d
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+=======
+Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
+>>>>>>> b19cd40 (.)
+>>>>>>> 17f6b8617 (.)
 
 ## Collegamenti Completi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md). 

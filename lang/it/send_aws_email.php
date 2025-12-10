@@ -270,6 +270,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1119,6 +1120,7 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -1449,6 +1451,8 @@ return [
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
@@ -1713,6 +1717,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2562,6 +2567,7 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -2892,6 +2898,8 @@ return [
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -3178,6 +3186,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4027,6 +4036,7 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -4357,6 +4367,8 @@ return [
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -4628,6 +4640,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5477,6 +5490,7 @@ return [
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -5807,6 +5821,8 @@ return [
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',

@@ -783,6 +783,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1571,6 +1572,7 @@ class MailTemplateSecurityTest extends TestCase
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -1920,6 +1922,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -2168,6 +2172,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2511,6 +2516,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> eb62d6cf (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -2748,6 +2754,10 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> 7a142b4f5 (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -3022,6 +3032,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3070,6 +3081,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3213,6 +3226,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> c5c038f2 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 77edd94a (.)
@@ -3335,6 +3349,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 - [Testing Guide](../../../project_docs/testing-guide.md)
 - [CI/CD Pipeline](../../../project_docs/ci-cd.md)
 
@@ -3452,6 +3468,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -3500,6 +3517,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3756,6 +3775,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -4389,3 +4409,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)

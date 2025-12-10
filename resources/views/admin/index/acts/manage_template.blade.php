@@ -255,6 +255,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -838,6 +839,7 @@
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1121,6 +1123,8 @@
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
 <?php
 
 declare(strict_types=1);
@@ -1128,6 +1132,7 @@ declare(strict_types=1);
 ?>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2097,6 +2102,7 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2430,6 +2436,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
     <a class="btn btn-primary">+</a>
@@ -2737,6 +2745,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2814,6 +2823,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 1375c94d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
 =======
@@ -2880,12 +2890,17 @@ declare(strict_types=1);
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
 @endsection
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 @endsection
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2988,6 +3003,8 @@ declare(strict_types=1);
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 @endsection
 >>>>>>> 75179b85 (.)
@@ -3925,6 +3942,7 @@ declare(strict_types=1);
 @endsection
 >>>>>>> 82e5ee2d (rebase 210)
 =======
+<<<<<<< HEAD
 @endsection
 =======
 @endsection
@@ -4316,3 +4334,6 @@ declare(strict_types=1);
 @endsection
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)

@@ -84,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 47a873f13 (.)
 =======
 <<<<<<< HEAD
@@ -110,6 +111,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> e312314fa (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 17f6b8617 (.)
 declare(strict_types=1);
 
 =======
@@ -736,6 +740,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
 =======
@@ -852,6 +857,10 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -944,6 +953,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -952,6 +962,8 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 1375c94d (rebase 210)
 =======
@@ -1082,6 +1094,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 5aedc39c (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -1140,6 +1153,11 @@ declare(strict_types=1);
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -1150,6 +1168,7 @@ declare(strict_types=1);
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1192,6 +1211,8 @@ declare(strict_types=1);
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3444,6 +3465,7 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3532,6 +3554,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
 
 // Filament will handle all routes for this module
 >>>>>>> 954a7fa (.)

@@ -269,6 +269,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -332,6 +333,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -539,6 +541,10 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
  *
 =======
  * 
@@ -653,6 +659,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -701,6 +708,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
  *
 >>>>>>> 75179b85 (.)
@@ -1468,6 +1477,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
  *
@@ -1799,6 +1809,8 @@ use Modules\Notify\Datas\WhatsAppData;
  *
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -1834,6 +1846,7 @@ interface WhatsAppProviderActionInterface
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2060,6 +2073,8 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> e312314fa (.)
 =======
+>>>>>>> 17f6b8617 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2141,6 +2156,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 1375c94d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 030c9674 (rebase 210)
 =======
@@ -2227,10 +2243,13 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> 1375c94d (rebase 210)
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2339,6 +2358,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -2764,6 +2785,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 }
@@ -3588,3 +3610,5 @@ interface WhatsAppProviderActionInterface
 }
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)

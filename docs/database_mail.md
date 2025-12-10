@@ -1078,6 +1078,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1866,6 +1867,7 @@ class ProcessDoctorModerationAction
 
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
@@ -2215,6 +2217,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -2275,6 +2279,7 @@ Cordiali saluti,<br>
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2762,6 +2767,7 @@ Cordiali saluti,<br>
 >>>>>>> 52cd5f85 (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2917,6 +2923,8 @@ Cordiali saluti,<br>
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
@@ -3067,6 +3075,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -3111,6 +3120,8 @@ Cordiali saluti,<br>
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3239,6 +3250,7 @@ Cordiali saluti,<br>
 >>>>>>> 1375c94d (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c5c038f2 (rebase 210)
 =======
 >>>>>>> 030c9674 (rebase 210)
@@ -3350,10 +3362,15 @@ Cordiali saluti,<br>
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> c5c038f2 (rebase 210)
+=======
+>>>>>>> 17f6b8617 (.)
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3497,6 +3514,8 @@ Cordiali saluti,<br>
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4197,6 +4216,7 @@ Cordiali saluti,<br>
 >>>>>>> 5aedc39c (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4733,3 +4753,5 @@ Cordiali saluti,<br>
 >>>>>>> d284d65 (.)
 >>>>>>> 5aedc39c (rebase 210)
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)

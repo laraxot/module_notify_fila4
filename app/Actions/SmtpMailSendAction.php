@@ -297,6 +297,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -387,6 +388,8 @@ class SmtpMailSendAction
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -964,6 +967,7 @@ class SmtpMailSendAction
 >>>>>>> 82e5ee2d (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1251,6 +1255,8 @@ class SmtpMailSendAction
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
     public function execute(string $_to, string $_subject, string $_body): void
     {
         dddx('WIP');
@@ -1292,6 +1298,7 @@ class SmtpMailSendAction
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1837,6 +1844,7 @@ class SmtpMailSendAction
 =======
 >>>>>>> c5c038f2 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 030c9674 (rebase 210)
 =======
 >>>>>>> 22baa66d (rebase 210)
@@ -2121,6 +2129,8 @@ class SmtpMailSendAction
 >>>>>>> 7a9167faf (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
     public function execute(string $to, string $subject, string $body): void
     {
         dddx('WIP');
@@ -2227,6 +2237,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2271,6 +2282,8 @@ class SmtpMailSendAction
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
@@ -2563,7 +2576,12 @@ class SmtpMailSendAction
 =======
 >>>>>>> origin/develop
 >>>>>>> 5aedc39c (rebase 210)
+<<<<<<< HEAD
 >>>>>>> cd5474106 (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
         $smtpData = SmtpData::make();
         $transport = $smtpData->getTransport();
 
@@ -2700,6 +2718,7 @@ class SmtpMailSendAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2744,6 +2763,8 @@ class SmtpMailSendAction
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> cd5474106 (.)
+=======
+>>>>>>> 17f6b8617 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3483,6 +3504,7 @@ class SmtpMailSendAction
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -3783,6 +3805,8 @@ class SmtpMailSendAction
 =======
 >>>>>>> 82e5ee2d (rebase 210)
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
     }
 }
 =======

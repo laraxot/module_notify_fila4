@@ -516,6 +516,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1011,6 +1012,7 @@
 >>>>>>> 098285fb (rebase 210)
 =======
 >>>>>>> e42e3233 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -1973,6 +1975,10 @@
 >>>>>>> 03b8d18d8 (.)
 =======
 >>>>>>> 2a700966d (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
 <?php
 
 declare(strict_types=1);
@@ -1981,6 +1987,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2596,6 +2603,7 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3044,6 +3052,8 @@ declare(strict_types=1);
 >>>>>>> cd5474106 (.)
 =======
 >>>>>>> e312314fa (.)
+=======
+>>>>>>> 17f6b8617 (.)
 <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4980,6 +4990,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5210,6 +5221,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 2a700966d (.)
 =======
+>>>>>>> 17f6b8617 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -5260,6 +5273,7 @@ declare(strict_types=1);
 >>>>>>> b4f93b3a (rebase 210)
 =======
 >>>>>>> 1375c94d (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c5c038f2 (rebase 210)
@@ -5422,10 +5436,15 @@ declare(strict_types=1);
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+=======
+>>>>>>> c5c038f2 (rebase 210)
+>>>>>>> 17f6b8617 (.)
 					<div class="article-content" align="left">
 =======
 					<div class="article-content" align="left">
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5555,6 +5574,8 @@ declare(strict_types=1);
 >>>>>>> 5d49e093a (.)
 =======
 >>>>>>> 7a9167faf (.)
+=======
+>>>>>>> 17f6b8617 (.)
 =======
 					<div class="article-content" align="left">
 >>>>>>> 75179b85 (.)
@@ -6438,6 +6459,7 @@ declare(strict_types=1);
 >>>>>>> e42e3233 (rebase 210)
 =======
 >>>>>>> c5c038f2 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 					<div class="article-content" align="left">
@@ -7952,3 +7974,5 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> e42e3233 (rebase 210)
 >>>>>>> 2a700966d (.)
+=======
+>>>>>>> 17f6b8617 (.)
