@@ -465,6 +465,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3633,6 +3634,7 @@ declare(strict_types=1);
 >>>>>>> 3d542a31 (.)
 =======
 >>>>>>> 7d1fa42f (.)
+<<<<<<< HEAD
 =======
 <tr>
 <<<<<<< HEAD
@@ -3781,6 +3783,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 3d542a31 (.)
 >>>>>>> 7aeb7d968 (.)
+=======
+>>>>>>> da107631b (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -3853,6 +3857,7 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 </tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5774,6 +5779,7 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> 7d1fa42f (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4f042b88 (.)
 =======
@@ -6665,3 +6671,5 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> da107631b (.)
