@@ -155,9 +155,22 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 503981fd (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
@@ -936,6 +949,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5fe4f466 (.)
 <<<<<<< HEAD
 =======
@@ -1188,6 +1202,7 @@ use Tests\TestCase;
 =======
 >>>>>>> dceba960 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 9f8e680a (rebase 210)
@@ -1226,8 +1241,11 @@ use Tests\TestCase;
 =======
 >>>>>>> a115e2aad (.)
 =======
+>>>>>>> 9cb55171f (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1270,6 +1288,8 @@ use Tests\TestCase;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1305,6 +1325,7 @@ use Tests\TestCase;
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8e5817bc (.)
@@ -1458,6 +1479,8 @@ use Tests\TestCase;
 =======
 >>>>>>> 3b4c9907 (.)
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 9cb55171f (.)
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
@@ -1532,6 +1555,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1550,6 +1574,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1648,6 +1674,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -1686,6 +1713,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> a12f125f4a (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -1730,6 +1759,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1738,6 +1768,8 @@ use Tests\TestCase;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1991,6 +2023,7 @@ use function Safe\json_encode;
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -2235,6 +2268,8 @@ use function Safe\json_encode;
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -2631,6 +2666,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2674,6 +2710,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> c4bdacbf (.)
 =======
+>>>>>>> dceba960 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -2772,6 +2810,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2780,6 +2819,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2977,6 +3018,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -3159,6 +3201,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
         $this->assertEquals(
 <<<<<<< HEAD
             'Benvenuto su '.config('app.name', 'Our Platform'),
@@ -3344,6 +3388,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -3384,6 +3429,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3520,6 +3567,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> c4bdacbf (.)
 =======
+>>>>>>> dceba960 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -3607,12 +3656,15 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4222,6 +4274,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -4289,6 +4342,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
@@ -4654,6 +4709,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4675,6 +4731,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -4773,6 +4831,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -4781,6 +4840,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4866,6 +4927,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -5232,6 +5294,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         $smsContact = Contact::factory()->create([
@@ -5241,6 +5305,7 @@ class ContactManagementBusinessLogicTest extends TestCase
             'preferences' => ['email' => true, 'sms' => true],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5465,6 +5530,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> dceba960 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 9f8e680a (rebase 210)
@@ -5503,6 +5569,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 =======
             'preferences' => ['email' => true, 'sms' => false]
 =======
@@ -5553,6 +5621,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -5561,6 +5630,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -5748,6 +5819,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 5fe4f466 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> dceba960 (.)
 =======
@@ -5797,6 +5869,10 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> dceba960 (.)
+=======
+>>>>>>> 9cb55171f (.)
             'preferences' => ['email' => true, 'sms' => false]
         ]);
         $smsContact = Contact::factory()->create([
@@ -5874,6 +5950,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -5892,6 +5969,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6427,6 +6506,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -6496,6 +6576,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
         ]);
 
         // Act
@@ -6702,6 +6784,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6723,6 +6806,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> dceba960 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -6821,6 +6906,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -6829,6 +6915,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -7216,6 +7304,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -7280,6 +7369,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         $newContact = Contact::factory()->create([
@@ -7466,6 +7557,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -7585,6 +7677,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> dceba960 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> 9f8e680a (rebase 210)
@@ -7626,8 +7719,11 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> a115e2aad (.)
 =======
+>>>>>>> 9cb55171f (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7670,6 +7766,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -7705,6 +7803,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 8e5817bc (.)
@@ -7858,6 +7957,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 3b4c9907 (.)
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 9cb55171f (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium']
         ]);
         $newContact = Contact::factory()->create([
@@ -7932,6 +8033,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -7950,6 +8052,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> db0bc148f (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8048,6 +8152,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -8086,6 +8191,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> a12f125f4a (.)
 =======
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
@@ -8130,6 +8237,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -8138,6 +8246,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -8380,6 +8490,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -8615,6 +8726,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
         ]);
 
         // Act

@@ -425,6 +425,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -517,6 +518,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> c7a4727b (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -905,6 +907,8 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> c7a4727b (.)
 >>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 9cb55171f (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -1127,6 +1131,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1189,6 +1194,7 @@ class NotificationTemplate extends BaseModel
 =======
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b99af5a8 (.)
@@ -1425,11 +1431,14 @@ class NotificationTemplate extends BaseModel
 =======
 >>>>>>> bb7e77c2 (.)
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 9cb55171f (.)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1550,6 +1559,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1843,6 +1854,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> bb7e77c2 (.)
 =======
 >>>>>>> c7a4727b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -2136,6 +2148,11 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 275b7ad99 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti

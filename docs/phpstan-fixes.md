@@ -170,6 +170,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -334,6 +335,7 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 >>>>>>> c7a4727b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -443,6 +445,10 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 275b7ad99 (.)
+=======
+=======
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -746,6 +752,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -786,6 +793,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> 9cb55171f (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -841,6 +850,7 @@ $decodedData = base64_decode($encodedData);
 =======
 =======
 >>>>>>> bb7e77c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -910,6 +920,11 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+=======
+=======
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -1123,6 +1138,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1156,6 +1172,8 @@ private static function processArray(array $data): array
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2340,6 +2358,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> c7a4727b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
@@ -2430,3 +2449,8 @@ private static function processArray(array $data): array
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 275b7ad99 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)

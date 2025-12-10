@@ -286,6 +286,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -714,6 +715,11 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_type',
 =======
 >>>>>>> c4bdacbf (.)
+=======
+        'post_id',
+        'post_type',
+=======
+>>>>>>> dceba960 (.)
 <<<<<<< HEAD
 =======
         'post_id',
@@ -907,6 +913,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -915,6 +922,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
         'post_id',
@@ -1200,6 +1209,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
         'post_id',
         'post_type',
@@ -1459,6 +1469,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
         'related_type',
         'user_id',
         'note',
@@ -1660,6 +1672,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1813,6 +1826,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> c4bdacbf (.)
 =======
+>>>>>>> dceba960 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -1918,6 +1933,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1926,6 +1942,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2198,6 +2216,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 9d84f153 (.)
 =======
@@ -2454,6 +2473,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

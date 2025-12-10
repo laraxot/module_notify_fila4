@@ -676,6 +676,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -714,6 +715,7 @@ class TelegramTest extends TestCase
 >>>>>>> 36321fcb (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -893,6 +895,8 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> 36321fcb (.)
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 9cb55171f (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
@@ -900,6 +904,7 @@ class TelegramTest extends TestCase
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1522,10 +1527,14 @@ class TelegramTest extends TestCase
 =======
 >>>>>>> 36321fcb (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cb55171f (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 8e5817bc (.)
 =======
@@ -1851,6 +1860,8 @@ class TelegramTest extends TestCase
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 9cb55171f (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
@@ -1859,6 +1870,7 @@ class TelegramTest extends TestCase
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2678,11 +2690,15 @@ class TelegramTest extends TestCase
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 36321fcb (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cb55171f (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3117,3 +3133,5 @@ class TelegramTest extends TestCase
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 9cb55171f (.)

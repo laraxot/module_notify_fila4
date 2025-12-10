@@ -315,6 +315,7 @@ $attachments = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -367,6 +368,8 @@ $attachments = [
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +399,12 @@ $attachments = [
 =======
 =======
 >>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dceba960 (.)
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
+>>>>>>> 9cb55171f (.)
 <<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
@@ -1718,6 +1727,7 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 75179b85 (.)
@@ -1826,6 +1836,8 @@ $attachments = [
 =======
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],

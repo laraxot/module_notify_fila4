@@ -1005,6 +1005,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1929,11 +1930,15 @@ class ProcessDoctorModerationAction
 =======
 >>>>>>> 36321fcb (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9cb55171f (.)
 =======
 =======
 
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 =======
 
@@ -2019,6 +2024,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 49639b815 (.)
 =======
 >>>>>>> 70175d0c4 (.)
+=======
+>>>>>>> 9cb55171f (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -3359,6 +3366,7 @@ Cordiali saluti,<br>
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Forms](https://filamentphp.com/docs/forms)
 <<<<<<< HEAD
 >>>>>>> 36321fcb (.)
@@ -4248,6 +4256,16 @@ Cordiali saluti,<br>
 =======
 >>>>>>> 49639b815 (.)
 =======
+=======
+>>>>>>> 9cb55171f (.)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 >>>>>>> 36321fcb (.)
+<<<<<<< HEAD
 >>>>>>> 70175d0c4 (.)
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> dceba960 (.)
+>>>>>>> 9cb55171f (.)

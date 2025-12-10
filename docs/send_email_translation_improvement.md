@@ -553,6 +553,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -581,6 +582,12 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 =======
 >>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dceba960 (.)
+cd /var/www/html/_bases/base_<nome progetto>/laravel
+>>>>>>> 9cb55171f (.)
 <<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
@@ -1191,6 +1198,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -2066,6 +2074,8 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> db0bc148f (.)
 =======
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -2628,7 +2638,11 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 =======
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 9cb55171f (.)
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -2756,6 +2770,7 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
@@ -3185,6 +3200,8 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 9cb55171f (.)
 - [Struttura Modulo Notify](./README.md)
 
 ### File Modificati
@@ -4226,6 +4243,7 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> dceba960 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> b4f93b3a (rebase 210)
 =======
@@ -4680,6 +4698,8 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 5fe4f466 (.)
 >>>>>>> 49639b815 (.)
+=======
+>>>>>>> 9cb55171f (.)
 
 ## 📝 Note di Implementazione
 
