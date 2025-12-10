@@ -56,6 +56,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e643df (.)
@@ -577,6 +578,11 @@ return [
         'css' => [
             '.button-content .button { background: red }',
         ],
+=======
+    'css' => [
+        '.button-content .button { background: red }',
+    ],
+>>>>>>> 6a92a74 (.)
     */
 <<<<<<< HEAD
 <<<<<<< HEAD

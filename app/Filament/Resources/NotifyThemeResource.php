@@ -396,7 +396,6 @@ use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes
 >>>>>>> f1c9518b (.)
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
-use Override;
 
 class NotifyThemeResource extends XotBaseResource
 {
@@ -1102,7 +1101,7 @@ class NotifyThemeResource extends XotBaseResource
     protected static null|string $model = NotifyTheme::class;
 >>>>>>> b93ef594b4 (.)
 
-    #[Override]
+    #[\Override]
     public static function getFormSchema(): array
     {
         return [
