@@ -130,6 +130,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 48830c88 (rebase 210)
@@ -172,6 +173,8 @@ declare(strict_types=1);
 >>>>>>> 8c6d84fe6 (.)
 =======
 >>>>>>> 2d4267d82 (.)
+=======
+>>>>>>> 21e1a74cb (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 uses(TestCase::class);
@@ -340,6 +343,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> ca10d6ad (.)
 =======
 >>>>>>> ce26f84e (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 7d903672 (.)
@@ -1265,20 +1269,31 @@ test('html template contains optional function', function (): void {
 >>>>>>> 69fa7d37 (.)
 =======
 =======
+>>>>>>> 21e1a74cb (.)
+=======
+>>>>>>> 7d903672 (.)
+
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
+
 uses(TestCase::class);
+
 test('html template contains optional function', function (): void {
     // Percorso del file
     $filePath = base_path('Modules/Notify/resources/views/emails/html.blade.php');
+
     // Verifico che il file esiste
     expect(File::exists($filePath))->toBeTrue('Il file html.blade.php non esiste');
+
     // Leggo il contenuto del file
     $content = File::get($filePath);
+
     // Verifico che contiene la funzione optional per subject
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
+
     // Verifico che contiene la funzione optional per body_html
+<<<<<<< HEAD
 >>>>>>> 0db165c (.)
 >>>>>>> 677a6ab7 (.)
 =======
@@ -1785,12 +1800,16 @@ test('html template contains optional function', function (): void {
     // Verifico che contiene la funzione optional per body_html
 >>>>>>> 0db165c (.)
 >>>>>>> 2d4267d82 (.)
+=======
+    expect($content)
+>>>>>>> 21e1a74cb (.)
         ->toContain(
             'optional($email_data)->body_html',
             'Il template html.blade.php non utilizza optional() per body_html',
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2064,6 +2083,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 8c6d84fe6 (.)
 =======
 >>>>>>> 2d4267d82 (.)
+=======
+>>>>>>> 21e1a74cb (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3651,6 +3672,7 @@ test('sunny template contains optional function', function (): void {
 =======
 >>>>>>> ce26f84e (.)
 =======
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
 =======
@@ -3701,6 +3723,9 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 7d903672 (.)
+>>>>>>> 21e1a74cb (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -3889,6 +3914,7 @@ test('ark template contains optional function', function (): void {
 >>>>>>> ce26f84e (.)
 =======
 >>>>>>> 7d903672 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -5939,3 +5965,5 @@ test('ark template contains optional function', function (): void {
 >>>>>>> 0db165c (.)
 >>>>>>> ce26f84e (.)
 >>>>>>> 2d4267d82 (.)
+=======
+>>>>>>> 21e1a74cb (.)
