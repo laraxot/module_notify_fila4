@@ -104,6 +104,9 @@ class SettingPage extends XotBasePage
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 
+    /**
+     * @return array<string, mixed>
+     */
     public function getHeaderWidgets(): array
     {
         $only = [
