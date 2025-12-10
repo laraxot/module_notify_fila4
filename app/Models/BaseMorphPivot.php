@@ -282,6 +282,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -685,6 +686,11 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_type',
 =======
 >>>>>>> f2e64178 (.)
+=======
+        'post_id',
+        'post_type',
+=======
+>>>>>>> c4bdacbf (.)
 <<<<<<< HEAD
 =======
         'post_id',
@@ -877,12 +883,15 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
         'post_id',
@@ -974,6 +983,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
         'post_id',
         'post_type',
@@ -1410,6 +1420,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
         'related_type',
         'user_id',
         'note',
@@ -1607,6 +1619,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1752,6 +1765,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -1856,12 +1871,15 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2296,6 +2314,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -2372,6 +2391,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

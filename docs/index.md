@@ -437,6 +437,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -599,6 +600,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -891,7 +894,12 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 4f042b88 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> a115e2aad (.)
 <<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
@@ -930,10 +938,14 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 4f042b88 (.)
 =======
 =======
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
@@ -1988,6 +2000,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2649,6 +2664,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -2665,6 +2681,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2818,6 +2836,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> c4bdacbf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 8e5817bc (.)
 =======
 >>>>>>> e0d9c9be (.)
@@ -2826,6 +2845,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> bd804d67 (.)
 =======
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 95531e1 (.)
@@ -2885,12 +2906,16 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 4f042b88 (.)
 =======
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
@@ -3456,6 +3481,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 
 ## Sottocartelle
 
@@ -3715,6 +3743,20 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### Miglioramenti Qualità Codice (2025-01-06)
+- **PHPStan Livello 10**: Analisi completa e correzione errori di tipizzazione
+  - Corretti 16 errori principali nel modulo Notify
+  - Documentazione completa in [phpstan-level10-analysis.md](./phpstan-level10-analysis.md)
+  - Pattern di correzione documentati per riutilizzo futuro
+- **Risoluzione Problemi Server**: 
+  - Tabella cache creata manualmente
+  - File traduzioni tenant-specifici creati
+  - Migrazione workers corretta (duplicazione colonne)
+  - Documentazione in [migration-fixes-summary.md](./migration-fixes-summary.md)
+
+>>>>>>> a115e2aad (.)
 =======
 <<<<<<< HEAD
 =======
@@ -3750,6 +3792,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 8e5817bc (.)
 =======
@@ -4532,6 +4575,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -4751,6 +4796,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e643df (.)
 =======
@@ -4816,6 +4862,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> a115e2aad (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -4866,6 +4916,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 36136dcfa (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4949,6 +5000,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> be45a0b8d (.)
 =======
+>>>>>>> a115e2aad (.)
+=======
 >>>>>>> f813254 (.)
 =======
 >>>>>>> d5c4b93 (.)
@@ -4959,6 +5012,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 4e643df (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5021,6 +5075,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 2e67a2a (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -5039,8 +5095,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
@@ -5853,6 +5912,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> bd22fd4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 4f042b88 (.)
 =======
 =======
@@ -5860,6 +5922,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
@@ -6128,3 +6191,6 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)

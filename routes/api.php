@@ -237,6 +237,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -258,6 +259,8 @@ declare(strict_types=1);
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -377,6 +380,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -385,6 +389,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -481,6 +487,7 @@ declare(strict_types=1);
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -966,6 +973,8 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 
 /*--work in progress
  * use Modules\Notify\Http\Controllers\TelegramNotificationController;
@@ -980,6 +989,7 @@ declare(strict_types=1);
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1363,6 +1373,7 @@ declare(strict_types=1);
 =======
 >>>>>>> c4bdacbf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
@@ -1412,8 +1423,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 23f115647 (.)
 =======
+>>>>>>> a115e2aad (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1463,6 +1477,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1499,6 +1515,7 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
@@ -1703,6 +1720,10 @@ declare(strict_types=1);
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 /*--work in progress
 use Modules\Notify\Http\Controllers\TelegramNotificationController;
 
@@ -1804,6 +1825,7 @@ Route::middleware('guest')->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1824,6 +1846,8 @@ Route::middleware('guest')->group(function () {
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1943,6 +1967,7 @@ Route::middleware('guest')->group(function () {
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -1989,6 +2014,8 @@ Route::middleware('guest')->group(function () {
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -2048,6 +2075,7 @@ Route::middleware('guest')->group(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2056,6 +2084,8 @@ Route::middleware('guest')->group(function () {
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2154,6 +2184,7 @@ Route::middleware('guest')->group(function () {
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -2683,3 +2714,5 @@ Route::middleware('guest')->group(function () {
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)

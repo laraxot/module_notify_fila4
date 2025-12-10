@@ -1004,7 +1004,11 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
+<<<<<<< HEAD
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
+=======
+- [Laravel Localization](https://laravel.com/project_docs/10.x/localization)
+>>>>>>> d284d65 (.)
 
 ## Nota sui collegamenti
 

@@ -1748,14 +1748,20 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/docs/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 =======
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 =======
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 
 ---
 

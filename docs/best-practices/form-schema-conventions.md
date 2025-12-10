@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 # Convenzioni per i Form Schema 
 
 ## Regola Fondamentale per Array di Schema
@@ -120,6 +123,7 @@ La classe `XotBasePage` è progettata per lavorare con array associativi nei met
 Per verificare che tutti i metodi schema rispettino questa convenzione:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,12 +320,16 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -n
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
 >>>>>>> fdad57c30 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "get.*FormSchema" {} \; | xargs grep -l "return \["
+>>>>>>> a115e2aad (.)
 ```
 
 ## Riferimenti
 
 - [Filament Form Schemas](https://filamentphp.com/docs/forms/defining-a-form)
 - [PHP Array Types](https://www.php.net/manual/en/language.types.array.php)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -348,3 +356,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)

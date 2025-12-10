@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
@@ -109,6 +110,8 @@ In Laravel e , i nomi delle cartelle principali (come definite nella struttura s
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> a115e2aad (.)
 # Convenzioni dei Path in Laravel e SaluteOra
 
 ## Regole Fondamentali per i Path di Cartelle
@@ -169,6 +172,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/
@@ -331,6 +335,9 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/views/
 >>>>>>> fdad57c30 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/resources/views/
+>>>>>>> a115e2aad (.)
 ```
 
 **NON** in:
@@ -370,6 +377,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/Resources/views/
@@ -532,6 +540,9 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
 >>>>>>> fdad57c30 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/Resources/views/
+>>>>>>> a115e2aad (.)
 ```
 
 ## Perché è Importante
@@ -584,6 +595,7 @@ protected static string $view = 'notify::filament.pages.send-sms';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 =======
 // /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
@@ -746,6 +758,9 @@ protected static string $view = 'notify::filament.pages.send-sms';
 =======
 // /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 >>>>>>> fdad57c30 (.)
+=======
+// /var/www/html/saluteora/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> a115e2aad (.)
 ```
 
 ## Verifica e Correzione
@@ -762,6 +777,7 @@ Per verificare che tutti i path siano corretti:
 - [Struttura delle Cartelle in Laravel](https://laravel.com/docs/structure)
 - [Laravel Blade Templates](https://laravel.com/docs/blade)
 - [Laravel Modules](https://docs.laravelmodules.com/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -788,3 +804,5 @@ Per verificare che tutti i path siano corretti:
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)

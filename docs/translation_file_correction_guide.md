@@ -349,6 +349,7 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1168,6 +1169,7 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 >>>>>>> 909e45af (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
@@ -1515,7 +1517,13 @@ Questo documento fornisce una procedura dettagliata per correggere sistematicame
 =======
 >>>>>>> 13aa25113 (.)
 =======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di <nome progetto>.
+=======
+>>>>>>> d284d65 (.)
 Questo documento fornisce una procedura dettagliata per correggere sistematicamente i file di traduzione nel modulo Notify che non rispettano gli standard di SaluteOra.
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
@@ -1754,6 +1762,7 @@ touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 touch /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_corretto.php
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3244,6 +3253,7 @@ touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
 >>>>>>> 4f042b88 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 =======
@@ -3397,6 +3407,15 @@ touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
 touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+touch /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_corretto.php
+touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
+touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_corretto.php
+=======
+touch /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_corretto.php
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 
 # 2. Copiare e correggere il contenuto
 
@@ -3620,6 +3639,7 @@ touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3898,6 +3918,7 @@ touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
@@ -4161,12 +4182,17 @@ touch /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 grep -r "nome_errato" /var/www/html/<nome progetto>/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5239,10 +5265,14 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bb7e77c2 (.)
 =======
@@ -5322,6 +5352,8 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 grep -r "nome_errato" /var/www/html/saluteora/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
@@ -5583,6 +5615,7 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -5635,6 +5668,8 @@ rm /var/www/html/saluteora/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -5904,6 +5939,7 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
 =======
@@ -6416,12 +6452,17 @@ rm /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/nome_errato.php
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 grep -r "nome_errato" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify
 
 # 4. Rimuovere il file con naming errato
 rm /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/nome_errato.php
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6798,10 +6839,14 @@ rm /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -7420,6 +7465,8 @@ rm /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 ```
 
 ## Passo 3: Correzione della Struttura del File
@@ -7686,6 +7733,7 @@ ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ls /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/nome_file.php
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9176,6 +9224,7 @@ ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
 ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
 >>>>>>> 4f042b88 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 =======
@@ -9329,6 +9378,15 @@ ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
 ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+ls /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/en/nome_file.php
+ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
+ls /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/en/nome_file.php
+=======
+ls /var/www/html/saluteora/laravel/Modules/Notify/lang/en/nome_file.php
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 
 # 2. Se esiste, aggiornarlo con la stessa struttura
 

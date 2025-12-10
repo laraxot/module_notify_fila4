@@ -231,6 +231,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -273,6 +274,8 @@
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -353,6 +356,7 @@
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +405,8 @@
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -678,6 +684,7 @@
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -968,6 +975,8 @@
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 <?php
 
 declare(strict_types=1);
@@ -1207,6 +1216,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 =======
@@ -1234,6 +1244,8 @@ declare(strict_types=1);
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -1357,6 +1369,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1365,6 +1378,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1490,6 +1505,7 @@ declare(strict_types=1);
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -2120,6 +2136,8 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 <x-filament-panels::page>
     <x-filament::section>
         <x-slot name="heading">
@@ -2383,6 +2401,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <x-filament-panels::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -2413,6 +2432,8 @@ declare(strict_types=1);
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -2533,6 +2554,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2541,6 +2563,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2848,6 +2872,7 @@ declare(strict_types=1);
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -3137,6 +3162,8 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
         <x-filament-schemas::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -3145,6 +3172,7 @@ declare(strict_types=1);
             <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
     
         </x-filament-schemas::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3425,6 +3453,8 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -3477,6 +3507,7 @@ declare(strict_types=1);
 =======
 >>>>>>> c4bdacbf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
@@ -3523,6 +3554,8 @@ declare(strict_types=1);
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 =======
         <x-filament-panels::form wire:submit="sendEmail()">
 =======
@@ -3582,6 +3615,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -3590,6 +3624,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> de02998b (.)
@@ -3644,6 +3680,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
@@ -3904,6 +3941,10 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> a115e2aad (.)
         <x-filament-panels::form wire:submit="sendEmail()">
             {{ $this->emailForm }}
             {{ $error_message ?? '--' }}
@@ -3912,6 +3953,7 @@ declare(strict_types=1);
             <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="sendEmail()"/>
     
         </x-filament-panels::form>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4025,6 +4067,8 @@ declare(strict_types=1);
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4470,6 +4514,7 @@ declare(strict_types=1);
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -4816,6 +4861,8 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
     </x-filament::section>
 </x-filament-panels::page>
 =======

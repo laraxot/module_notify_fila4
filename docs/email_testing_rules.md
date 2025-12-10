@@ -511,6 +511,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -660,6 +661,7 @@ public function sendEmail(): void
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 909e45af (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
@@ -695,6 +697,10 @@ public function sendEmail(): void
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 =======
@@ -785,6 +791,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -801,6 +808,8 @@ public function sendEmail(): void
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
@@ -1232,6 +1241,7 @@ public function sendEmail(): void
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -1628,6 +1638,11 @@ public function sendEmail(): void
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 
 ## 📝 Note
 

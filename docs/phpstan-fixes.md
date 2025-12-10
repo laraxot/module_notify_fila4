@@ -166,6 +166,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -318,6 +319,7 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
 =======
@@ -423,6 +425,10 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -722,6 +728,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -754,6 +761,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -801,6 +810,7 @@ $decodedData = base64_decode($encodedData);
 =======
 =======
 >>>>>>> 909e45af (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -869,6 +879,11 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -1080,6 +1095,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1109,6 +1125,8 @@ private static function processArray(array $data): array
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1951,6 +1969,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -2369,3 +2388,5 @@ private static function processArray(array $data): array
 =======
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)

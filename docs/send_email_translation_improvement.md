@@ -550,6 +550,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1518,6 +1519,7 @@ cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 4f042b88 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 =======
@@ -1854,6 +1856,8 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> a115e2aad (.)
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
@@ -1861,6 +1865,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
@@ -1970,6 +1975,8 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -2625,6 +2632,7 @@ php -l Modules/Notify/lang/it/send_email.php
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
@@ -3050,11 +3058,21 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
 =======
+=======
+>>>>>>> a115e2aad (.)
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+<<<<<<< HEAD
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 >>>>>>> 36136dcfa (.)
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 - [Struttura Modulo Notify](./README.md)
 
 ### File Modificati
@@ -4369,6 +4387,7 @@ php -l Modules/Notify/lang/it/send_email.php
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> 4f042b88 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 =======
@@ -4518,6 +4537,11 @@ php -l Modules/Notify/lang/it/send_email.php
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione- `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 
 ## 📝 Note di Implementazione
 

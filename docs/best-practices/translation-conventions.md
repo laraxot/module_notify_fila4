@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali
@@ -270,6 +273,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 75179b855 (.)
@@ -340,6 +344,8 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> a115e2aad (.)
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
@@ -370,6 +376,7 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -388,3 +395,5 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)

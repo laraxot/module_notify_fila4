@@ -200,6 +200,7 @@ namespace Modules\Notify\Filament\Resources;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -452,6 +453,7 @@ use Override;
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -549,6 +551,8 @@ use Override;
 >>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> a115e2aad (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
@@ -2302,6 +2306,7 @@ use Override;
 >>>>>>> 2bcb149 (.)
 =======
 >>>>>>> 4e643df (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 12f2f7e (.)
 =======
@@ -2474,11 +2479,26 @@ use Override;
 =======
 use Override;
 >>>>>>> 4e2ebfb (.)
+=======
+use Override;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Override;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Override;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
+>>>>>>> a115e2aad (.)
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
@@ -2487,6 +2507,21 @@ use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 =======
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 >>>>>>> 4e2ebfb (.)
+=======
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+=======
+>>>>>>> a12f125f4a (.)
+=======
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+>>>>>>> b93ef594b4 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> a115e2aad (.)
 use Filament\Forms;
 <<<<<<< HEAD
 use Filament\Forms\Form;
@@ -2677,15 +2712,32 @@ use Modules\Notify\Models\NotificationTemplate;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> b93ef594b4 (.)
+=======
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> a115e2aad (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class NotificationTemplateResource extends XotBaseResource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2715,6 +2767,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 2f135ef98 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> a115e2aad (.)
     protected static null|string $model = NotificationTemplate::class;
 <<<<<<< HEAD
 =======
@@ -3071,6 +3130,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 11b43e822 (.)
 =======
@@ -3106,6 +3166,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> be45a0b8d (.)
 =======
+>>>>>>> a115e2aad (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -3119,6 +3181,7 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
@@ -3311,6 +3374,10 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> 23f115647 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> a115e2aad (.)
+=======
     protected static ?string $model = NotificationTemplate::class;
 
 
@@ -3322,6 +3389,7 @@ class NotificationTemplateResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3528,6 +3596,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -3565,6 +3634,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
             TextInput::make('name')
                 ->required()
                 ->maxLength(255)
@@ -3622,6 +3693,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7325acf3 (.)
 =======
@@ -3632,6 +3704,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 
 
 >>>>>>> a12f125f4a (.)
@@ -3751,12 +3825,15 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
 
 
 >>>>>>> a12f125f4a (.)
 =======
     #[Override]
 >>>>>>> b93ef594b4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3771,6 +3848,9 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 <<<<<<< HEAD
 >>>>>>> 23f115647 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
@@ -3824,6 +3904,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
     protected static ?string $model = NotificationTemplate::class;
 
 
@@ -3831,6 +3913,7 @@ class NotificationTemplateResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3892,6 +3975,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
                     TextInput::make('name')
 =======
                     Forms\Components\TextInput::make('name')
@@ -3945,6 +4030,7 @@ class NotificationTemplateResource extends XotBaseResource
 =======
                     Forms\Components\TextInput::make('name')
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
                     TextInput::make('name')
 >>>>>>> 3b4c9907 (.)
@@ -5516,6 +5602,8 @@ class NotificationTemplateResource extends XotBaseResource
                     TextInput::make('name')
 >>>>>>> 6d08c01b (.)
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
                         ->required()
                         ->maxLength(255)
                         ->unique(ignoreRecord: true)
@@ -5535,6 +5623,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     TextInput::make('subject')
 =======
                     Forms\Components\TextInput::make('subject')
@@ -5591,7 +5680,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
                     TextInput::make('subject')
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+                    Forms\Components\TextInput::make('subject')
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
                         ->required()
                         ->maxLength(255)
                         ->helperText(__('notify::template.form.subject.helper'))
@@ -5611,6 +5706,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Select::make('type')
 =======
                     Forms\Components\Select::make('type')
@@ -5667,7 +5763,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
                     Select::make('type')
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+                    Forms\Components\Select::make('type')
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
                         ->options(collect(NotificationTypeEnum::cases())->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
                         ->required()
                         ->default(NotificationTypeEnum::EMAIL->value)
@@ -5687,6 +5789,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Textarea::make('body_text')
 =======
                     Forms\Components\Textarea::make('body_text')
@@ -5743,7 +5846,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
                     Textarea::make('body_text')
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+                    Forms\Components\Textarea::make('body_text')
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
                         ->required()
                         ->maxLength(65535)
                         ->columnSpan(['lg' => 3])
@@ -5764,6 +5873,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Textarea::make('body_html')
 =======
                     Forms\Components\Textarea::make('body_html')
@@ -5820,7 +5930,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
                     Textarea::make('body_html')
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+                    Forms\Components\Textarea::make('body_html')
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
                         ->required()
                         ->maxLength(65535)
                         ->columnSpan(['lg' => 3])
@@ -5841,6 +5957,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Textarea::make('preview_data')
 =======
                     Forms\Components\Textarea::make('preview_data')
@@ -5897,7 +6014,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
                     Textarea::make('preview_data')
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+                    Forms\Components\Textarea::make('preview_data')
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
                         ->json()
                         ->columnSpan(['lg' => 3])
                         ->helperText(__('notify::template.form.preview_data.helper'))
@@ -5916,6 +6039,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     SpatieMediaLibraryFileUpload::make('attachments')
 =======
                     Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
@@ -5972,7 +6096,13 @@ class NotificationTemplateResource extends XotBaseResource
 =======
                     SpatieMediaLibraryFileUpload::make('attachments')
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
                         ->collection('attachments')
                         ->multiple()
                         ->maxFiles(5)
@@ -5985,6 +6115,7 @@ class NotificationTemplateResource extends XotBaseResource
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6447,6 +6578,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -6559,11 +6691,21 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
     public static function getPages(): array
     {
         return [
             ...parent::getPages(),
+<<<<<<< HEAD
             'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
+=======
+<<<<<<< HEAD
+            'preview' => PreviewNotificationTemplate::route('/{record}/preview'),
+=======
+            'preview' => Pages\PreviewNotificationTemplate::route('/{record}/preview'),
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         ];
     }
 
@@ -6750,6 +6892,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -6793,6 +6936,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -6882,6 +7027,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -6890,6 +7036,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6972,6 +7120,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -7337,6 +7486,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
      * public static function getEloquentQuery(): Builder
      * {
      * return parent::getEloquentQuery()
@@ -7527,6 +7678,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
@@ -7626,6 +7778,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -7714,6 +7868,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -7722,6 +7877,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -7758,6 +7915,7 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
@@ -7912,6 +8070,10 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
     public static function getEloquentQuery(): Builder
     {
         return parent::getEloquentQuery()
@@ -7988,6 +8150,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -8008,6 +8171,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8107,6 +8272,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -8143,6 +8309,8 @@ class NotificationTemplateResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -8180,6 +8348,7 @@ class NotificationTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -8188,6 +8357,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -8286,6 +8457,7 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -8683,6 +8855,8 @@ class NotificationTemplateResource extends XotBaseResource
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

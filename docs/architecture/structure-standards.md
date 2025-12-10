@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -23,6 +24,8 @@
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 # Standard di Struttura nel Modulo Notify
 
 ## Directory Principali e Convenzioni di Denominazione
@@ -41,6 +44,7 @@
 Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +154,8 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> a115e2aad (.)
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsRequestData.php
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/NetfunSmsResponseData.php
@@ -177,6 +183,7 @@ Questo è lo standard stabilito nel modulo Notify per tutti i DTOs:
 ### Verificare Sempre le Directory Esistenti
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,10 +380,14 @@ find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app
 =======
 find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
 >>>>>>> fdad57c30 (.)
+=======
+find /var/www/html/saluteora/laravel/Modules/Notify/app -type d -name "Data*"
+>>>>>>> a115e2aad (.)
 ```
 
 Questo restituirà:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -602,6 +613,10 @@ Questo restituirà:
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas
 /var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
 >>>>>>> fdad57c30 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas
+/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/SMS
+>>>>>>> a115e2aad (.)
 ```
 
 ## Esempi di Importazioni Corrette
@@ -675,6 +690,7 @@ class MyPage extends Modules\Xot\Filament\Pages\XotBasePage {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -693,3 +709,5 @@ class MyPage extends Modules\Xot\Filament\Pages\XotBasePage {}
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)

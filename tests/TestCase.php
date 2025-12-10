@@ -190,6 +190,7 @@ namespace Modules\Notify\Tests;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -370,6 +371,7 @@ namespace Modules\Notify\Tests;
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -406,6 +408,8 @@ namespace Modules\Notify\Tests;
 =======
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 use Illuminate\Foundation\Application;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,6 +468,7 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Application;
 >>>>>>> b19cd40 (.)
@@ -474,6 +479,8 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 <<<<<<< HEAD
 use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
@@ -488,6 +495,7 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
@@ -496,6 +504,8 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 use Illuminate\Foundation\Application;
 >>>>>>> b19cd40 (.)
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -1053,6 +1063,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1373,6 +1384,10 @@ abstract class TestCase extends BaseTestCase
 
 =======
 >>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> c4bdacbf (.)
 <<<<<<< HEAD
 =======
 
@@ -1521,6 +1536,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1529,6 +1545,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 
@@ -1647,6 +1665,7 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4e4a7796 (.)
@@ -2091,6 +2110,8 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -2098,6 +2119,7 @@ abstract class TestCase extends BaseTestCase
     /**
      * Get package providers.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2173,6 +2195,9 @@ abstract class TestCase extends BaseTestCase
 =======
 <<<<<<< HEAD
 >>>>>>> 8c19c8df2 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a115e2aad (.)
      * @param  Application  $app
 =======
      * @param Application $app
@@ -2185,12 +2210,16 @@ abstract class TestCase extends BaseTestCase
      * @param Application $app
 =======
      * @param Application $app
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
      * @param Application $app
 >>>>>>> 7325acf3 (.)
 =======
      * @param  Application  $app
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> a115e2aad (.)
 =======
 <<<<<<< HEAD
      * @param Application $app
@@ -2241,10 +2270,13 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> f813254 (.)
 <<<<<<< HEAD
 >>>>>>> dceba960 (.)
@@ -2349,6 +2381,7 @@ abstract class TestCase extends BaseTestCase
 =======
      * @param Application $app
 >>>>>>> f5f1cb1 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 98d837b9 (.)
@@ -2509,12 +2542,24 @@ abstract class TestCase extends BaseTestCase
      * @param Application $app
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+>>>>>>> a115e2aad (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array
     {
         return [
+<<<<<<< HEAD
             NotifyServiceProvider::class,
+=======
+<<<<<<< HEAD
+            NotifyServiceProvider::class,
+=======
+            \Modules\Notify\Providers\NotifyServiceProvider::class,
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
         ];
     }
 }

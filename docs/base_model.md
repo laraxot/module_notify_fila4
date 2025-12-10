@@ -421,6 +421,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -647,6 +648,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -885,6 +887,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -1103,6 +1107,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1157,6 +1162,7 @@ class NotificationTemplate extends BaseModel
 =======
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bb7e77c2 (.)
@@ -1392,11 +1398,14 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> a115e2aad (.)
 - [Architettura dei Modelli](../../../../project_docs/architecture/models.md)
 - [Gestione Notifiche](../../../../project_docs/architecture/notifications.md)
 
 ### Collegamenti ai Moduli
 - [XotBaseModel](../../Xot/project_docs/XotBaseModel.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1511,6 +1520,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1612,6 +1623,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> 4f042b88 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -2079,6 +2091,11 @@ class NotificationTemplate extends BaseModel
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti

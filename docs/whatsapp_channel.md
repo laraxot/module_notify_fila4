@@ -568,6 +568,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -600,6 +601,7 @@ class WhatsAppTest extends TestCase
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 36321fcb (.)
 =======
@@ -777,6 +779,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/project_docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
@@ -1025,6 +1029,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1632,10 +1637,14 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 3b4c9907 (.)
 =======
@@ -1714,6 +1723,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
@@ -1723,6 +1734,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2165,11 +2177,15 @@ class WhatsAppTest extends TestCase
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 4f042b88 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -2955,3 +2971,5 @@ class WhatsAppTest extends TestCase
 >>>>>>> be45a0b8d (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)

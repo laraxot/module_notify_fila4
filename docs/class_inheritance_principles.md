@@ -223,6 +223,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1045,6 +1046,7 @@
 >>>>>>> 909e45af (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
 # Principi di Ereditarietà nelle Classi <nome progetto>
@@ -1392,7 +1394,13 @@
 =======
 >>>>>>> 13aa25113 (.)
 =======
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 # Principi di Ereditarietà nelle Classi <nome progetto>
+=======
+>>>>>>> d284d65 (.)
 # Principi di Ereditarietà nelle Classi SaluteOra
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
@@ -1691,6 +1699,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3181,6 +3190,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
 >>>>>>> 4f042b88 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
 =======
@@ -3334,6 +3344,15 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
 >>>>>>> 4f042b88 (.)
 >>>>>>> 36136dcfa (.)
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
+=======
+grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
+>>>>>>> d284d65 (.)
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 ```
 
 ## Riferimenti

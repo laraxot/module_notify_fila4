@@ -197,12 +197,14 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,11 +217,15 @@ declare(strict_types=1);
 >>>>>>> 888799d0 (.)
 >>>>>>> 23f115647 (.)
 =======
+>>>>>>> c6c33175 (.)
+>>>>>>> a115e2aad (.)
+=======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -231,10 +237,14 @@ declare(strict_types=1);
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
@@ -769,6 +779,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> be45a0b8d (.)
+=======
+<<<<<<< HEAD
+>>>>>>> a115e2aad (.)
 >>>>>>> 6b6b9e41 (.)
 <<<<<<< HEAD
 =======
@@ -1472,6 +1485,7 @@ declare(strict_types=1);
 =======
 >>>>>>> c4bdacbf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
@@ -1521,8 +1535,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 23f115647 (.)
 =======
+>>>>>>> a115e2aad (.)
+=======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1572,6 +1589,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -1608,6 +1627,7 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
@@ -1812,6 +1832,10 @@ declare(strict_types=1);
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
  * 
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
@@ -1906,6 +1930,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1926,6 +1951,8 @@ declare(strict_types=1);
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2040,6 +2067,7 @@ declare(strict_types=1);
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -2086,6 +2114,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> a12f125f4a (.)
 =======
  *
@@ -2137,6 +2167,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2145,6 +2176,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -2429,6 +2462,7 @@ declare(strict_types=1);
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -2662,6 +2696,8 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
  * @author Laraxot Team
 <<<<<<< HEAD
  *

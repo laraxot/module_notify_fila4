@@ -1172,6 +1172,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1348,6 +1349,7 @@ class MailMonitoringDebugger
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -1528,6 +1530,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> a29a4728 (.)
 >>>>>>> fdad57c30 (.)
+=======
+>>>>>>> a115e2aad (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1693,6 +1697,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1726,6 +1731,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> fdad57c30 (.)
 =======
+>>>>>>> a115e2aad (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1869,6 +1876,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> 909e45af (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
@@ -1902,6 +1910,10 @@ class MailMonitoringDebugger
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> a115e2aad (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -1988,6 +2000,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2004,6 +2017,8 @@ class MailMonitoringDebugger
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 13aa25113 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2409,6 +2424,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -2766,3 +2782,5 @@ class MailMonitoringDebugger
 >>>>>>> fdad57c30 (.)
 =======
 >>>>>>> 36136dcfa (.)
+=======
+>>>>>>> a115e2aad (.)

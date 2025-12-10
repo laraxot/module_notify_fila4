@@ -274,6 +274,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -509,6 +510,11 @@ declare(strict_types=1);
 
 >>>>>>> f2e64178 (.)
 =======
+declare(strict_types=1);
+
+
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 declare(strict_types=1);
 
@@ -736,9 +742,12 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 510809c6f (.)
@@ -819,6 +828,7 @@ declare(strict_types=1);
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> dceba960 (.)
@@ -833,6 +843,10 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> a115e2aad (.)
 declare(strict_types=1);
 
 
@@ -879,6 +893,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -887,6 +902,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -953,6 +970,7 @@ declare(strict_types=1);
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -999,10 +1017,13 @@ declare(strict_types=1);
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1052,6 +1073,8 @@ declare(strict_types=1);
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 declare(strict_types=1);
@@ -2501,6 +2524,7 @@ declare(strict_types=1);
 >>>>>>> d9d9174b (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -3561,6 +3585,8 @@ declare(strict_types=1);
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 8f96e03a1 (.)
+=======
+>>>>>>> a115e2aad (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')

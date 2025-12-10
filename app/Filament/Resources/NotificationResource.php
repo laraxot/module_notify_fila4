@@ -200,6 +200,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -219,6 +220,8 @@ declare(strict_types=1);
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> c4bdacbf (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -316,12 +319,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -412,6 +418,7 @@ declare(strict_types=1);
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -748,6 +755,8 @@ declare(strict_types=1);
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1026,6 +1035,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1059,6 +1069,8 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> be45a0b8d (.)
 =======
+>>>>>>> a115e2aad (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -1075,6 +1087,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> f2e64178 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> dceba960 (.)
@@ -1090,6 +1103,10 @@ class NotificationResource extends XotBaseResource
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> a115e2aad (.)
 =======
 =======
 =======
@@ -1206,6 +1223,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1245,6 +1263,7 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> c4bdacbf (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 3b4c9907 (.)
 =======
 >>>>>>> 5fe4f466 (.)
@@ -1321,6 +1340,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 namespace Modules\Notify\Filament\Resources;
 
 use Filament\Forms\Components\DateTimePicker;
@@ -1369,10 +1390,13 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d09cb759 (.)
@@ -1403,6 +1427,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 6d08c01b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> origin/develop
@@ -1448,6 +1473,11 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
             'type' => TextInput::make('type')
                 ->required()
                 ->label('Notification Type'),
@@ -1485,10 +1515,13 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1532,6 +1565,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> dceba960 (.)
 =======
@@ -1546,6 +1580,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> e790eb33 (.)
 =======
 >>>>>>> 3ee54c5d (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> a12f125f4a (.)
 =======
             'type' => TextInput::make('type')->required()->label('Notification Type'),
@@ -1573,6 +1609,9 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1657,6 +1696,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -2757,6 +2797,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
             'notifiable_id' => TextInput::make('notifiable_id')
                 ->required()
                 ->numeric()
@@ -2954,6 +2996,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2995,6 +3038,8 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -3092,12 +3137,15 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3323,6 +3371,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -3564,14 +3613,18 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
+<<<<<<< HEAD
         ];
     }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3859,6 +3912,8 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 =======
+>>>>>>> c4bdacbf (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -3952,10 +4007,13 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8f2456941 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 =======
 =======
 >>>>>>> origin/develop
@@ -4207,6 +4265,7 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> origin/develop
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 3b4c9907 (.)
@@ -4249,6 +4308,8 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> 6d08c01b (.)
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
             'data' => Textarea::make('data')
                 ->label('Notification Data')
                 ->columnSpanFull(),
@@ -4342,6 +4403,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -4358,6 +4420,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 138fcd4b0 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4434,6 +4498,7 @@ class NotificationResource extends XotBaseResource
 =======
 >>>>>>> f2e64178 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c4bdacbf (.)
 =======
@@ -4494,6 +4559,10 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+=======
+>>>>>>> c4bdacbf (.)
+>>>>>>> a115e2aad (.)
 >>>>>>> a12f125f4a (.)
 =======
         ];
@@ -4535,12 +4604,15 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> a115e2aad (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4793,6 +4865,7 @@ class NotificationResource extends XotBaseResource
 >>>>>>> c6c33175 (.)
 =======
 >>>>>>> c4bdacbf (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e4a7796 (.)
 =======
@@ -5055,6 +5128,8 @@ class NotificationResource extends XotBaseResource
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> a115e2aad (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)
