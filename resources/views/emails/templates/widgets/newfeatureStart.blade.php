@@ -335,6 +335,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -2176,11 +2177,14 @@
 >>>>>>> ce26f84e (.)
 =======
 >>>>>>> 7d903672 (.)
+=======
+>>>>>>> e7a9a2bf (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3259,6 +3263,10 @@ declare(strict_types=1);
 >>>>>>> ce26f84e (.)
 =======
 >>>>>>> 7d903672 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 =======
@@ -4850,6 +4858,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -6307,3 +6316,9 @@ declare(strict_types=1);
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 2941b0bd (.)
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+=======
+					<td bgcolor="#ffffff" class="contentblock">
+>>>>>>> b19cd40 (.)
+>>>>>>> e7a9a2bf (.)
