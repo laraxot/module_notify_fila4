@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176,6 +177,8 @@
 =======
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Implementazione Canale Netfun
 
 ## 1. Struttura Base
@@ -551,6 +554,7 @@ NETFUN_ENDPOINT=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Global SMS configuration
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=<nome progetto>
 =======
@@ -2228,6 +2232,10 @@ SMS_FROM_NAME=<nome progetto>
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+SMS_FROM_NAME=<nome progetto>
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> a55aa5e96 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 
@@ -2529,6 +2537,7 @@ Log::info('SMS inviato', [
 - [Spatie Queueable Action](https://github.com/spatie/laravel-queueable-action)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2902,11 +2911,14 @@ Log::info('SMS inviato', [
 =======
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
 - [Laravel Testing](https://laravel.com/project_docs/testing)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3921,11 +3933,14 @@ Log::info('SMS inviato', [
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Laravel Logging](https://laravel.com/docs/logging)
 - [Laravel Cache](https://laravel.com/docs/cache) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
@@ -5273,3 +5288,6 @@ Log::info('SMS inviato', [
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+- [Laravel Cache](https://laravel.com/docs/cache) 
+>>>>>>> a55aa5e96 (.)

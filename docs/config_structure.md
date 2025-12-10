@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 <<<<<<< HEAD
@@ -66,6 +67,9 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+# Struttura di Configurazione nei Moduli <nome progetto>
+>>>>>>> a55aa5e96 (.)
 
 ## Principi di Configurazione
 

@@ -30,6 +30,7 @@ class NetfunSendAction
         // Prepare the action for execution, leveraging constructor injection.
         $token = config('services.netfun.token');
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!is_string($token)) {
 =======
 <<<<<<< HEAD
@@ -968,6 +969,9 @@ class NetfunSendAction
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        if (!is_string($token)) {
+>>>>>>> a55aa5e96 (.)
             throw new Exception('put [NETFUN_TOKEN] variable to your .env and config [services.netfun.token] ');
         }
         $this->token = $token;
@@ -988,6 +992,7 @@ class NetfunSendAction
 
         $smsData->to .= '';
         if (Str::startsWith($smsData->to, '00')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1365,6 +1370,8 @@ class NetfunSendAction
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $smsData->to = '+39' . mb_substr($smsData->to, 2);
         }
 
@@ -1413,6 +1420,7 @@ class NetfunSendAction
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cbb586cb0 (.)
             $smsData->to = '+39' . $smsData->to;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1519,6 +1527,8 @@ class NetfunSendAction
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         }
 
         $body = [
@@ -1527,6 +1537,7 @@ class NetfunSendAction
             'sender' => $smsData->from,
             'text_template' => $smsData->body, // .'  '.rand(1, 100),
             /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1936,11 +1947,14 @@ class NetfunSendAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
              * 'delivery_callback' => 'https://www.google.com?code={{code}}',
              * 'default_placeholders' => [
              * 'code' => '0000',
              * ],
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2656,6 +2670,8 @@ class NetfunSendAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             'async' => true,
             // 'max_sms_length' => 1,
             'utf8_enabled' => true,
@@ -2663,6 +2679,7 @@ class NetfunSendAction
                 [
                     'number' => $smsData->to,
                     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3072,12 +3089,15 @@ class NetfunSendAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                      * 'placeholders' => [
                      * 'fullName' => 'Santi',
                      * 'body' => 'Ciao, hai vinto il premio',
                      * 'code' => '1234',
                      * ],
                      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3794,6 +3814,8 @@ class NetfunSendAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 ],
             ],
         ];
@@ -3804,6 +3826,7 @@ class NetfunSendAction
         try {
             $response = $client->post($endpoint, ['json' => $body]);
         } catch (ClientException $clientException) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4298,10 +4321,11 @@ class NetfunSendAction
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             throw new Exception(
-<<<<<<< HEAD
-<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
@@ -4341,6 +4365,8 @@ class NetfunSendAction
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 $clientException->getCode(),
                 $clientException,
             );
@@ -4357,6 +4383,7 @@ class NetfunSendAction
          * echo '<pre>'.var_export($response->getStatusCode(), true).'</pre>';
          * echo '<pre>'.var_export($response->getBody()->getContents(), true).'</pre>';
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5092,6 +5119,8 @@ class NetfunSendAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
         $this->vars['status_code'] = $response->getStatusCode();
         $this->vars['status_txt'] = $response->getBody()->getContents();

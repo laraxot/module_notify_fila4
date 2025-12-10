@@ -1,18 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Email Layouts Best Practices 
 
+<<<<<<< HEAD
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di <nome progetto>.
 =======
 <<<<<<< HEAD
@@ -1028,6 +1016,9 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di SaluteOra.
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+Questa documentazione descrive le best practices da seguire per i layout email quando si utilizza `spatie/laravel-database-mail-templates` nel modulo Notify di <nome progetto>.
+>>>>>>> a55aa5e96 (.)
 
 ## Indice
 
@@ -1043,6 +1034,7 @@ Questa documentazione descrive le best practices da seguire per i layout email q
 ## Introduzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
 =======
 <<<<<<< HEAD
@@ -1893,6 +1885,9 @@ SaluteOra utilizza `spatie/laravel-database-mail-templates` per memorizzare e ge
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+<nome progetto> utilizza `spatie/laravel-database-mail-templates` per memorizzare e gestire i template email nel database. Questo approccio separa nettamente:
+>>>>>>> a55aa5e96 (.)
 
 1. **Layout HTML base**: Struttura generale dell'email (`resources/mail-layouts/*.html`)
 2. **Contenuto dei template**: Contenuto specifico memorizzato nel database (tabella `mail_templates`)
@@ -2095,6 +2090,7 @@ Il supporto per la Dark Mode migliora l'esperienza utente e riduce l'affaticamen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2279,3 +2275,5 @@ Il supporto per la Dark Mode migliora l'esperienza utente e riduce l'affaticamen
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

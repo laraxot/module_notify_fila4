@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Regole di Percorso e Interfacce nel Modulo Notify
 
 ## Principi Fondamentali
@@ -182,6 +185,7 @@
 
 ### Directory Fisiche (path su disco)
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
@@ -1056,6 +1060,9 @@
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+>>>>>>> a55aa5e96 (.)
 ├── app/                           # Directory fisica con app minuscolo
 │   ├── Actions/                  
 │   │   ├── Email/                # Azioni per email
@@ -1129,6 +1136,7 @@ Questa struttura garantisce:
 3. **Coerenza**: Pattern coerenti in tutto il modulo
 4. **Manutenibilità**: Facile trovare e comprendere il codice
 5. **Estendibilità**: Aggiungere nuovi provider senza modificare l'architettura
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1325,3 +1333,5 @@ Questa struttura garantisce:
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

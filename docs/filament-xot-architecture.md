@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,10 +165,13 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 =======
@@ -1019,6 +1023,9 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+<nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
+>>>>>>> a55aa5e96 (.)
 
 Questo documento spiega in dettaglio i motivi architetturali, i vantaggi e l'implementazione di questo pattern.
 
@@ -1072,6 +1079,7 @@ abstract class XotBasePage extends Page implements HasForms
     }
 
     // Form standardizzato
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function form(Form $form): Form
 =======
@@ -1339,6 +1347,9 @@ abstract class XotBasePage extends Page implements HasForms
     public function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -1390,6 +1401,7 @@ public static function getNavigationLabel(): string
 Prima (❌):
 ```php
 // In ogni classe Page
+<<<<<<< HEAD
 <<<<<<< HEAD
 public function form(Form $form): Form
 =======
@@ -1657,6 +1669,9 @@ public function form(Form $form): Form
 public function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+public function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
 {
     return $form
         ->schema([
@@ -1697,6 +1712,7 @@ protected function getFormSchema(): array
 Per verificare che tutte le classi seguano questa regola:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 ```
@@ -2483,3 +2499,9 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
+```
+
+Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.
+>>>>>>> a55aa5e96 (.)

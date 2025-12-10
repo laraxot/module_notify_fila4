@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,12 +354,15 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # ContactColumn - Implementazione DRY/KISS Centralizzata
 
 ## 🎯 Obiettivo
 Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utilizza `ContactTypeEnum` per il rendering centralizzato dei contatti seguendo i principi DRY e KISS.
 
 ## 🚨 **PROBLEMA CRITICO IDENTIFICATO** (2025-08-01)
+<<<<<<< HEAD
 <<<<<<< HEAD
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
 =======
@@ -1253,6 +1257,9 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
+>>>>>>> a55aa5e96 (.)
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](./contact-column-icon-issue-analysis.md)
 - 🛠️ **Soluzione**: Sostituire `@svg()` con `<x-filament::icon>`
 - ⚡ **Priorità**: ALTA (Funzionalità core non funzionante)
@@ -1263,6 +1270,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 - [x] Pattern unificato per tutti i tipi di contatto
 - [x] Single source of truth per proprietà UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
 =======
 <<<<<<< HEAD
@@ -2156,6 +2164,9 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
+>>>>>>> a55aa5e96 (.)
 
 ## 🏗️ Architettura della Soluzione
 
@@ -2499,6 +2510,7 @@ public function table(Table $table): Table
 4. **Documentare** l'utilizzo
 5. **Aggiornare** le regole e memorie
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2948,3 +2960,6 @@ public function table(Table $table): Table
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> a55aa5e96 (.)

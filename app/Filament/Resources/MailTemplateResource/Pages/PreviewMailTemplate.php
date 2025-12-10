@@ -8,6 +8,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\Page;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 =======
@@ -731,6 +732,10 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> a55aa5e96 (.)
 
 /**
  * @property MailTemplate $record
@@ -761,6 +766,7 @@ class PreviewMailTemplate extends Page
                 ->label(__('notify::mail.template.preview.actions.back.label'))
                 ->icon(__('notify::mail.template.preview.actions.back.icon'))
                 ->color(__('notify::mail.template.preview.actions.back.color'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1693,10 +1699,13 @@ class PreviewMailTemplate extends Page
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
         ];
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2145,3 +2154,5 @@ class PreviewMailTemplate extends Page
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)

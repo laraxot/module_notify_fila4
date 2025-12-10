@@ -41,6 +41,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     use HasFactory;
 =======
 <<<<<<< HEAD
@@ -71,6 +72,9 @@ class NotificationLog extends BaseModel
 =======
     use HasFactory;
 >>>>>>> be698cf2c (.)
+=======
+    use HasFactory;
+>>>>>>> a55aa5e96 (.)
     use Updater;
 
     public const STATUS_PENDING = 'pending';
@@ -89,6 +93,7 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var array<int, string> */
 =======
 <<<<<<< HEAD
@@ -119,6 +124,9 @@ class NotificationLog extends BaseModel
 =======
     /** @var array<int, string> */
 >>>>>>> be698cf2c (.)
+=======
+    /** @var array<int, string> */
+>>>>>>> a55aa5e96 (.)
     protected $fillable = [
         'template_id',
         'notifiable_type',

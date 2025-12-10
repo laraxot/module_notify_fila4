@@ -19,6 +19,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
 =======
 <<<<<<< HEAD
@@ -85,6 +86,9 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
+>>>>>>> a55aa5e96 (.)
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -93,6 +97,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Errori da Evitare
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
 =======
@@ -160,6 +165,9 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
+>>>>>>> a55aa5e96 (.)
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```

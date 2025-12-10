@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 <<<<<<< HEAD
@@ -41,6 +42,9 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> a55aa5e96 (.)
 
 /**
  * Factory per la creazione di azioni SMS.
@@ -87,6 +91,7 @@ final class SmsActionFactory
      * Utilizza una risoluzione dinamica delle classi basata sulla convenzione di naming
      * per istanziare l'action corretta.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +254,8 @@ final class SmsActionFactory
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * @param string|null $driver Driver SMS da utilizzare (se null, viene utilizzato quello predefinito)
      * @return SmsActionContract Azione SMS corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
@@ -268,6 +275,7 @@ final class SmsActionFactory
 =======
 >>>>>>> cbb586cb0 (.)
     public function create(null|string $driver = null): SmsActionContract
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1148,11 +1156,16 @@ final class SmsActionFactory
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    {
+        $driver ??= Config::get('sms.default', 'netfun');
+>>>>>>> a55aa5e96 (.)
 
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName(is_string($driver) ? $driver : '');
 
         // Avvisa per driver non standard
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
@@ -2134,6 +2147,10 @@ final class SmsActionFactory
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
 >>>>>>> b93ef594b4 (.)
+=======
+        if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
+            Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
+>>>>>>> a55aa5e96 (.)
         }
 
         // Costruisci il nome della classe seguendo la convenzione
@@ -2147,13 +2164,10 @@ final class SmsActionFactory
                 'className' => $className,
             ]);
 
-<<<<<<< HEAD
-            throw new Exception("Unsupported SMS driver: " . (is_string($driver) ? $driver : '') . ". Class {$className} not found.");
->>>>>>> a12f125f4a (.)
-=======
             throw new Exception(
                 'Unsupported SMS driver: ' . (is_string($driver) ? $driver : '') . ". Class {$className} not found.",
             );
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2668,14 +2682,15 @@ final class SmsActionFactory
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         }
 
         $instance = app($className);
 
         // Verifica che l'istanza implementi l'interfaccia corretta
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!($instance instanceof SmsActionContract)) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2735,6 +2750,8 @@ final class SmsActionFactory
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             throw new Exception("Class {$className} does not implement SmsActionContract.");
         }
 
@@ -2745,9 +2762,8 @@ final class SmsActionFactory
      * Normalizza il nome del driver eliminando trattini e underscore
      * e gestendo eventuali casi speciali/alias.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param string $driver Nome del driver da normalizzare
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2807,6 +2823,8 @@ final class SmsActionFactory
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * @return string Nome normalizzato
      */
     private function normalizeDriverName(string $driver): string

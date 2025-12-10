@@ -7,6 +7,7 @@ namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 =======
 <<<<<<< HEAD
@@ -1270,6 +1271,8 @@ class SmsFactorData extends Data
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1316,6 +1319,7 @@ class SmsFactorData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -1340,10 +1344,13 @@ class SmsFactorData extends Data
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             /*
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3568,6 +3575,8 @@ class SmsFactorData extends Data
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -3581,6 +3590,7 @@ class SmsFactorData extends Data
             case 'bearer':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5681,6 +5691,11 @@ class SmsFactorData extends Data
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+                    'Authorization' => 'Bearer ' . $this->token,
+                    'Content-Type' => 'application/json',
+                    'Cache-Control' => 'no-cache',
+>>>>>>> a55aa5e96 (.)
                 ];
         }
     }

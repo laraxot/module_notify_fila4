@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +101,11 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+# Architettura Telegram Provider per <nome progetto>
+
+Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
+>>>>>>> a55aa5e96 (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -113,6 +119,7 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 ## Struttura Directory e Namespace
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
@@ -180,6 +187,9 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+>>>>>>> a55aa5e96 (.)
 ├── app/
 │   ├── Actions/
 │   │   └── Telegram/

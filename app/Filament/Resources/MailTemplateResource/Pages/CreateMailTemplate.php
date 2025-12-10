@@ -2,6 +2,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
@@ -3504,6 +3505,14 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+declare(strict_types=1);
+
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+>>>>>>> a55aa5e96 (.)
 
 class CreateMailTemplate extends LangBaseCreateRecord
 {

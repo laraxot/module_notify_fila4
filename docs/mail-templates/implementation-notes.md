@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -196,6 +199,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    $attachments = [
        [
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -1069,11 +1073,15 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -1947,6 +1955,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -2093,6 +2104,7 @@ L'implementazione corretta dimostra che:
 Input: "name, email, company, date"
 Output: [name] [email] [company] [date] (come badge blu)
 ``` 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2289,3 +2301,5 @@ Output: [name] [email] [company] [date] (come badge blu)
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

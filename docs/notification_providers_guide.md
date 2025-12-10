@@ -2,6 +2,7 @@
 # Guida Completa ai Provider di Notifiche 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
 =======
 <<<<<<< HEAD
@@ -68,6 +69,9 @@ Questo documento fornisce una panoramica completa dell'architettura standardizza
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento fornisce una panoramica completa dell'architettura standardizzata per tutti i provider di notifiche supportati nel modulo Notify di <nome progetto>.
+>>>>>>> a55aa5e96 (.)
 
 ## Principi Architetturali per Tutti i Provider
 

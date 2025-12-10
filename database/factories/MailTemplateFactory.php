@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1143,6 +1144,11 @@ declare(strict_types=1);
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> a55aa5e96 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -1166,6 +1172,7 @@ class MailTemplateFactory extends Factory
             'updated_at' => $this->faker->dateTimeBetween('-1 year'),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -1809,3 +1816,6 @@ class MailTemplateFactory extends Factory
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+}
+>>>>>>> a55aa5e96 (.)

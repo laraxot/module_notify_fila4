@@ -4,6 +4,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
+>>>>>>> a55aa5e96 (.)
 
 ## Convenzioni Attuali nel Modulo Notify
 
@@ -110,6 +114,7 @@ return [
 
 ## Discrepanza con le Convenzioni Generali
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 =======
@@ -177,6 +182,9 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
+>>>>>>> a55aa5e96 (.)
 
 1. **Convenzioni Generali (Modules/Lang/docs/TRANSLATION_KEYS_RULES.md)**:
    - Struttura gerarchica espansa senza chiavi come `.navigation`

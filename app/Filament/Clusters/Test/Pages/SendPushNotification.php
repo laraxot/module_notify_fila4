@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 <<<<<<< HEAD
@@ -118,6 +119,9 @@ use BackedEnum;
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+use BackedEnum;
+>>>>>>> a55aa5e96 (.)
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -127,6 +131,7 @@ use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
 use Filament\Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -227,12 +232,15 @@ use Filament\Forms;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +290,8 @@ use Modules\User\Models\DeviceUser;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
@@ -353,6 +363,7 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\User\Models\DeviceUser;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -391,6 +402,8 @@ use Modules\User\Models\DeviceUser;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
@@ -438,11 +451,10 @@ use Kreait\Firebase\Messaging\Notification as FirebaseNotification;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /**
  * @property \Filament\Schemas\Schema $notificationForm
  */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,12 +527,15 @@ use function Safe\json_encode;
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 class SendPushNotification extends Page implements HasForms
 {
     use InteractsWithForms;
 
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1173,12 +1188,23 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    public null|array $notificationData = [];
+
+    // protected static ?string $navigationIcon = 'heroicon-o-envelope';
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-push-notification';
+
+    protected static null|string $cluster = Test::class;
+>>>>>>> a55aa5e96 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1356,6 +1382,8 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     public function notificationForm(Schema $schema): Schema
     {
         $devices = DeviceUser::with(['profile', 'device'])
@@ -1563,9 +1591,12 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> cbb586cb0 (.)
             ->components([
                 Select::make('deviceToken')->options(fn() => $to),
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 TextInput::make('type')->required(),
                 TextInput::make('title')->required(),
                 TextInput::make('body')->required(),
@@ -1658,8 +1689,8 @@ class SendPushNotification extends Page implements HasForms
 
     public function sendNotification(): void
     {
-<<<<<<< HEAD
         $data = $this->notificationForm->getState();
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1696,6 +1727,8 @@ class SendPushNotification extends Page implements HasForms
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $deviceToken = $data['deviceToken'] ?? '';
 
         // Verifichiamo che deviceToken sia una stringa non vuota
@@ -1705,6 +1738,7 @@ class SendPushNotification extends Page implements HasForms
                 ->title('Errore')
                 ->body('Token del dispositivo non valido')
                 ->send();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1761,6 +1795,8 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             return;
         }
 
@@ -2192,6 +2228,7 @@ class SendPushNotification extends Page implements HasForms
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2463,6 +2500,9 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+                
+>>>>>>> a55aa5e96 (.)
 
                 ->submit('notificationFormActions'),
         ];
@@ -2472,6 +2512,7 @@ class SendPushNotification extends Page implements HasForms
     {
         $user = Filament::auth()->user();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2681,6 +2722,9 @@ class SendPushNotification extends Page implements HasForms
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> a55aa5e96 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -2734,8 +2778,8 @@ class SendPushNotification extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
-<<<<<<< HEAD
         $this->notificationForm->fill();
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2772,6 +2816,8 @@ class SendPushNotification extends Page implements HasForms
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     }
 }
 =======

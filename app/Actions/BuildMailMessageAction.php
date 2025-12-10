@@ -25,6 +25,7 @@ class BuildMailMessageAction
         Model $model,
         array $view_params = [],
 <<<<<<< HEAD
+<<<<<<< HEAD
         null|DataCollection $dataCollection = null,
 =======
 <<<<<<< HEAD
@@ -787,6 +788,9 @@ class BuildMailMessageAction
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        null|DataCollection $dataCollection = null,
+>>>>>>> a55aa5e96 (.)
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
 
@@ -795,6 +799,7 @@ class BuildMailMessageAction
         $theme = app(Get::class)->execute($name, $type, $view_params);
         $view_html = 'notify::email';
         // dddx([$theme, $view_params]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1165,6 +1170,8 @@ class BuildMailMessageAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
@@ -1174,6 +1181,7 @@ class BuildMailMessageAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1228,10 +1236,13 @@ class BuildMailMessageAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> a55aa5e96 (.)
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2179,11 +2190,15 @@ class BuildMailMessageAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
             $fromName = '';
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2550,11 +2565,14 @@ class BuildMailMessageAction
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
         if (!is_string($subject)) {
             $subject = 'Notifica';
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3928,10 +3946,13 @@ class BuildMailMessageAction
 =======
 =======
 >>>>>>> 1fd232c (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)
             ->view($view_html, $theme->view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 518c702 (.)
 >>>>>>> 9cf0dc90 (.)
@@ -4247,6 +4268,8 @@ class BuildMailMessageAction
 =======
 >>>>>>> d298dd9c (.)
 >>>>>>> dab6c3768 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
         if ($dataCollection instanceof DataCollection) {
             foreach ($dataCollection as $attachment) {

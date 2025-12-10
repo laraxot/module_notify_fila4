@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1057,6 +1058,9 @@ use Tests\CreatesApplication;
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
 =======
+=======
+use Illuminate\Foundation\Application;
+>>>>>>> a55aa5e96 (.)
 use Modules\Notify\Providers\NotifyServiceProvider;
 =======
 use Modules\Notify\Providers\NotifyServiceProvider;
@@ -1068,9 +1072,12 @@ use Modules\Notify\Providers\NotifyServiceProvider;
 >>>>>>> 4e2ebfb (.)
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 /**
  * Base test case for Notify module tests.
@@ -1088,6 +1095,7 @@ abstract class TestCase extends BaseTestCase
 
         // Load Notify module specific configurations
         $this->loadLaravelMigrations();
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -2521,6 +2529,9 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -2542,6 +2553,7 @@ abstract class TestCase extends BaseTestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Application $app
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3067,6 +3079,9 @@ abstract class TestCase extends BaseTestCase
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+     * @param Application $app
+>>>>>>> a55aa5e96 (.)
      * @return array<int, class-string>
      */
     protected function getPackageProviders($app): array

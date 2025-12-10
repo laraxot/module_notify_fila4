@@ -2,6 +2,7 @@
 # Implementazione dei Canali di Notifica 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
 =======
 <<<<<<< HEAD
@@ -68,6 +69,9 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
+>>>>>>> a55aa5e96 (.)
 
 ## Architettura Generale
 

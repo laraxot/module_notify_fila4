@@ -2,6 +2,7 @@
 # Standard per le Traduzioni 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
 =======
 <<<<<<< HEAD
@@ -88,6 +89,9 @@ Questo documento definisce gli standard e le best practices per la gestione dell
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+>>>>>>> a55aa5e96 (.)
 
 ## Struttura delle Cartelle
 

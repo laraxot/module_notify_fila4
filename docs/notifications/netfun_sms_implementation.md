@@ -177,6 +177,7 @@ class AppointmentReminder extends Notification
             recipient: $phoneNumber,
             message: "Promemoria: appuntamento il {$this->appointment->date}",
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 =======
 <<<<<<< HEAD
@@ -243,6 +244,9 @@ class AppointmentReminder extends Notification
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+            sender: '<nome progetto>',
+>>>>>>> a55aa5e96 (.)
             reference: 'app_' . $this->appointment->id
         );
         

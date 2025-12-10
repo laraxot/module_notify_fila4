@@ -4,6 +4,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> a55aa5e96 (.)
 
 ## Template Disponibili
 
@@ -95,6 +99,7 @@ MailPace offre i seguenti template transazionali:
 ### Struttura della Directory
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 =======
@@ -162,6 +167,9 @@ MailPace offre i seguenti template transazionali:
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> a55aa5e96 (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -222,6 +230,7 @@ $mailTemplate->send($user->email, [
 1. **Mantieni la Struttura Base** - Non modificare la struttura HTML base per garantire compatibilità
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
+<<<<<<< HEAD
 <<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
 =======
@@ -289,6 +298,9 @@ $mailTemplate->send($user->email, [
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+>>>>>>> a55aa5e96 (.)
 
 ## Riferimenti
 

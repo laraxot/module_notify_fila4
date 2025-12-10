@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1166,12 +1167,18 @@ declare(strict_types=1);
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> a55aa5e96 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
 
 class NetfunSmsRequestData extends Data
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1185,10 +1192,13 @@ class NetfunSmsRequestData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /**
      * @param string $token
      * @param array<int, array<string, mixed>> $messages
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1209,11 +1219,14 @@ class NetfunSmsRequestData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     public function __construct(
         public string $token,
         public array $messages,
     ) {}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1238,12 +1251,15 @@ class NetfunSmsRequestData extends Data
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /**
      * @param array{token: string, messages: array<int, array<string, mixed>>} $data
      * @return self
      */
     public static function fromArray(array $data): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1252,6 +1268,8 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
         /** @var string $token */
         $token = $data['token'];
         /** @var array<int, array<string, mixed>> $messages */
@@ -1263,6 +1281,7 @@ class NetfunSmsRequestData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2085,6 +2104,8 @@ class NetfunSmsRequestData extends Data
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         );
     }
 }

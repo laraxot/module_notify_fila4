@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 <<<<<<< HEAD
@@ -855,6 +856,9 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+# Struttura di Configurazione nei Moduli <nome progetto>
+>>>>>>> a55aa5e96 (.)
 
 ## Principi di Configurazione
 
@@ -931,6 +935,7 @@
 4. **Centralizza Logiche Comuni**
    - Rate limit, retry e circuit breaking dovrebbero essere configurati una volta sola
    - L'implementazione dovrebbe utilizzare queste configurazioni generiche
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,3 +1132,5 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

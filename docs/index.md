@@ -64,7 +64,38 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+<<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> c8b1c8bf (.)
@@ -73,16 +104,18 @@
 =======
 >>>>>>> c8b1c8bf (.)
 =======
->>>>>>> 9cf0dc90 (.)
 =======
->>>>>>> c8b1c8bf (.)
-=======
+>>>>>>> a55aa5e96 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+<<<<<<< HEAD
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 # Notify Module Documentation Index
 >>>>>>> fbed41ac (.)
 =======
@@ -285,11 +318,22 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 50d6b63f (.)
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> 94c68e2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> bb7e77c2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,9 +377,18 @@
 =======
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 3a87c62 (.)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3a87c62 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> e627c3b (.)
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
@@ -345,9 +398,19 @@
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 50d6b63f (.)
+<<<<<<< HEAD
+=======
 >>>>>>> 7bac387 (.)
 >>>>>>> 9ed014c (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> 36ac4fc1 (.)
 <<<<<<< HEAD
 >>>>>>> fea359347 (.)
@@ -363,6 +426,10 @@
 =======
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
@@ -371,7 +438,59 @@
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> bd22fd4 (.)
+=======
+>>>>>>> 94c68e2 (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+>>>>>>> 31bdf6b (.)
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -434,7 +553,56 @@ This document serves as the central index for the Notify module, providing guida
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -458,10 +626,34 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> 26d39e2eb (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> 50d6b63f (.)
 =======
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 31bdf6b (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 >>>>>>> 69fa7d37 (.)
 <<<<<<< HEAD
 >>>>>>> c7d5eaf96 (.)
@@ -472,6 +664,11 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> 5e14ac3 (.)
 >>>>>>> fbed41ac (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 50d6b63f (.)
 =======
 =======
 =======
@@ -494,6 +691,10 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
@@ -502,6 +703,10 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 82ae73b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> 2fc60436 (.)
 <<<<<<< HEAD
 >>>>>>> be698cf2c (.)
@@ -510,6 +715,14 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 >>>>>>> cbb586cb0 (.)
@@ -518,12 +731,243 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 9777d1b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> 58816034 (.)
 =======
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 7bac387 (.)
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 2fdda20 (.)
+<<<<<<< HEAD
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
+>>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+<<<<<<< HEAD
+>>>>>>> 6b6b9e41 (.)
+=======
+=======
+>>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
+>>>>>>> c6c33175 (.)
+=======
+=======
+>>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+<<<<<<< HEAD
+>>>>>>> c4bdacbf (.)
+=======
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> e5b598a (.)
+<<<<<<< HEAD
+>>>>>>> 8e5817bc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
+>>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+<<<<<<< HEAD
+>>>>>>> 7a2f131f (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 10b3b08 (.)
+<<<<<<< HEAD
+>>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73b (.)
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+>>>>>>> 58816034 (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -543,6 +987,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
 - [Documentazione Generale PTV](../../../../docs/README.md)
@@ -551,8 +996,37 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> 379ffe3f3 (.)
 =======
+>>>>>>> a55aa5e96 (.)
+=======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 50d6b63f (.)
 =======
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 =======
@@ -571,6 +1045,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
@@ -580,7 +1059,112 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Documentazione Generale SaluteOra](../../../../docs/README.md)
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 75179b85 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> 94c68e2 (.)
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> 94c68e2 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 31f5d28f (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> ee18dd92 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 3f39ac8b (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> bd22fd4 (.)
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> bd22fd4 (.)
+=======
+>>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 36ac4fc1 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+=======
+- [Documentazione Generale PTV](../../../../docs/README.md)
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 75179b85 (.)
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> f963d2c0 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -588,10 +1172,38 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Modulo UI](../../UI/docs/README.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 50d6b63f (.)
 
 >>>>>>> bf479cc (.)
 =======
@@ -613,6 +1225,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
@@ -621,7 +1238,91 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> ee18dd92 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+=======
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+
+>>>>>>> bf479cc (.)
+=======
+>>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+>>>>>>> 3a87c62 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> f963d2c0 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -699,21 +1400,98 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 
 >>>>>>> bf479cc (.)
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 94c68e2 (.)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> e627c3b (.)
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 31f5d28f (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 6608a1a0 (.)
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> 7bac387 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> f813254 (.)
+<<<<<<< HEAD
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
+>>>>>>> 7bac387 (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+>>>>>>> 50d6b63f (.)
 
 ## ✅ Convenzioni Laraxot
 - [Module Conventions](../../Xot/docs/conventions.md)
@@ -2872,16 +3650,25 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 =======
 =======
 
@@ -3202,11 +3989,20 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 74eb2e964 (.)
 
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fbed41ac (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3273,6 +4069,12 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3407,9 +4209,18 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 13aa25113 (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 50d6b63f (.)
+<<<<<<< HEAD
+>>>>>>> a55aa5e96 (.)
 =======
 =======
 
@@ -3694,6 +4505,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4067,6 +4881,229 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 58816034 (.)
+=======
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> f963d2c (.)
+<<<<<<< HEAD
+>>>>>>> 9cf0dc90 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> ee18dd92 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4689a827 (.)
+=======
+=======
+=======
+
+>>>>>>> bf479cc (.)
+>>>>>>> 909e45af (.)
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+>>>>>>> 95531e1 (.)
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 50d6b63f (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 7bac387 (.)
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
+>>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+<<<<<<< HEAD
+>>>>>>> 6b6b9e41 (.)
+=======
+=======
+>>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
+>>>>>>> c6c33175 (.)
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> 4e643df (.)
+<<<<<<< HEAD
+>>>>>>> c4bdacbf (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> e5b598a (.)
+<<<<<<< HEAD
+>>>>>>> 8e5817bc (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
+>>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+<<<<<<< HEAD
+>>>>>>> 7a2f131f (.)
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> 10b3b08 (.)
+>>>>>>> bd804d67 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
 =======
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
@@ -4131,6 +5168,9 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
+=======
+>>>>>>> 75179b8 (.)
+>>>>>>> 50d6b63f (.)
 >>>>>>> c8b1c8bf (.)
 <<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
@@ -4150,6 +5190,13 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
 >>>>>>> cbb586cb0 (.)
@@ -4158,15 +5205,49 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> 9777d1b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 58816034 (.)
 =======
+=======
+>>>>>>> 58816034 (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+>>>>>>> 50d6b63f (.)
 =======
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+=======
+>>>>>>> 75179b85 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> f963d2c0 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 
 ## Sottocartelle
 
@@ -4242,6 +5323,25 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -4264,10 +5364,16 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 >>>>>>> 9cf0dc90 (.)
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -4283,10 +5389,36 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 379ffe3f3 (.)
 =======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+=======
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 94c68e2 (.)
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> e627c3b (.)
+=======
+>>>>>>> 69fa7d37 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 50d6b63f (.)
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
 =======
@@ -4368,6 +5500,25 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbed41ac (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> 909e45af (.)
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 =======
 >>>>>>> fbed41ac (.)
 =======
@@ -4393,15 +5544,99 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 58816034 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> ce89c8bb (.)
+=======
+>>>>>>> 58816034 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c6c33175 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 2effe245 (.)
+>>>>>>> 50d6b63f (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -4410,7 +5645,14 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 =======
+<<<<<<< HEAD
 >>>>>>> 9f953c6 (.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9f953c6 (.)
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4513,6 +5755,10 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> ce89c8bb (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 >>>>>>> 26d39e2eb (.)
@@ -4617,6 +5863,167 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 4d2eb53e (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+<<<<<<< HEAD
+>>>>>>> 58816034 (.)
+=======
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 7bac387 (.)
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
+>>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+<<<<<<< HEAD
+>>>>>>> 6b6b9e41 (.)
+=======
+=======
+>>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
+>>>>>>> c6c33175 (.)
+=======
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+>>>>>>> 4e643df (.)
+<<<<<<< HEAD
+>>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> e5b598a (.)
+<<<<<<< HEAD
+>>>>>>> 8e5817bc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
+>>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+<<<<<<< HEAD
+>>>>>>> 7a2f131f (.)
+=======
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 10b3b08 (.)
+>>>>>>> bd804d67 (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> 2effe245 (.)
+=======
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+>>>>>>> 50d6b63f (.)
+<<<<<<< HEAD
+=======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
@@ -4634,7 +6041,33 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
+<<<<<<< HEAD
 >>>>>>> 379ffe3f3 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -5263,6 +6696,33 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f042b88 (.)
+=======
+>>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
+=======
+>>>>>>> f3086887 (rebase 210)
+>>>>>>> 50d6b63f (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 =======
@@ -5385,6 +6845,33 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -5517,6 +7004,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 6608a1a0 (.)
 =======
+<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 31f5d28f (.)
@@ -5525,6 +7013,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 6608a1a0 (.)
 =======
+<<<<<<< HEAD
+>>>>>>> a55aa5e96 (.)
+=======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 31f5d28f (.)
@@ -5533,6 +7024,10 @@ Ultimo aggiornamento: 14 Maggio 2025
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 6608a1a0 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
@@ -5545,6 +7040,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 >>>>>>> 31f5d28f (.)
 =======
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
@@ -5679,6 +7181,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 6b6b9e41 (.)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> 50d6b63f (.)
 >>>>>>> f813254 (.)
 =======
 >>>>>>> d5c4b93 (.)
@@ -5689,6 +7198,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 2e67a2a (.)
@@ -5729,15 +7245,29 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 9f953c6 (.)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+>>>>>>> 36ac4fc1 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 <<<<<<< HEAD
 >>>>>>> 6ba141fc (.)
 =======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 >>>>>>> 36ac4fc1 (.)
 =======
 >>>>>>> 36ac4fc1 (.)
@@ -5824,16 +7354,24 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> 909e45af (.)
@@ -5857,8 +7395,14 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 909e45af (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5912,6 +7456,10 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 10292b60a (.)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> a55aa5e96 (.)
+=======
 >>>>>>> 909e45af (.)
 =======
 >>>>>>> c6c33175 (.)
@@ -5925,6 +7473,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 909e45af (.)
 =======
@@ -5954,6 +7503,9 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 848f79b79 (.)
 =======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
+=======
 >>>>>>> f813254 (.)
 =======
 >>>>>>> d5c4b93 (.)
@@ -5970,10 +7522,18 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 >>>>>>> e5b598a (.)
 =======
 >>>>>>> 806a0e3 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5986,10 +7546,19 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 3f39ac8b (.)
 =======
+>>>>>>> 10b3b08 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 10b3b08 (.)
+>>>>>>> a55aa5e96 (.)
+=======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 3f39ac8b (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -6038,11 +7607,15 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6064,6 +7637,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> b19cd40 (.)
@@ -6252,12 +7830,354 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> fbed41ac (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fbed41ac (.)
 =======
 =======
 >>>>>>> 69fa7d37 (.)
 >>>>>>> c7d5eaf96 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> fbed41ac (.)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7bac387 (.)
+<<<<<<< HEAD
+>>>>>>> 9ed014c (.)
+<<<<<<< HEAD
+>>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 9cf0dc90 (.)
+=======
+=======
+=======
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+Ultimo aggiornamento: 14 Maggio 2025
+
+## Risoluzione conflitti e standard
+- Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
+- Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f813254 (.)
+>>>>>>> 82c6772 (.)
+<<<<<<< HEAD
+>>>>>>> 2effe245 (.)
+=======
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+=======
+>>>>>>> 2fc60436 (.)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
+
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> bf479cc (.)
+>>>>>>> 31bdf6b (.)
+<<<<<<< HEAD
+>>>>>>> 69fa7d37 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 5e14ac3 (.)
+>>>>>>> fbed41ac (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 75179b8 (.)
+<<<<<<< HEAD
+>>>>>>> c8b1c8bf (.)
+=======
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> 2a97406c (.)
+=======
+=======
+>>>>>>> f813254 (.)
+>>>>>>> f2e64178 (.)
+=======
+=======
+>>>>>>> 6d08c01b (.)
+=======
+>>>>>>> 2e67a2a (.)
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> c4bdacbf (.)
+=======
+>>>>>>> e5b598a (.)
+=======
+>>>>>>> 8e5817bc (.)
+=======
+>>>>>>> e0d9c9be (.)
+=======
+>>>>>>> 10b3b08 (.)
+=======
+>>>>>>> bd804d67 (.)
+Ultimo aggiornamento: 14 Maggio 2025
+
+## Risoluzione conflitti e standard
+- Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
+- Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 82ae73b (.)
+<<<<<<< HEAD
+>>>>>>> 2fc60436 (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35 (.)
+<<<<<<< HEAD
+>>>>>>> ce89c8bb (.)
+=======
+=======
+>>>>>>> 9777d1b (.)
+<<<<<<< HEAD
+>>>>>>> 58816034 (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> f963d2c (.)
+>>>>>>> 9cf0dc90 (.)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> f963d2c0 (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+>>>>>>> 31f5d28f (.)
+=======
+>>>>>>> de02998b (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 011072e4 (.)
+=======
+>>>>>>> 161887a2 (.)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> ee18dd92 (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+>>>>>>> 6608a1a0 (.)
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> b19cd40 (.)
+>>>>>>> 95531e1 (.)
+>>>>>>> 3f39ac8b (.)
+=======
+=======
+>>>>>>> 6b6b9e41 (.)
+=======
+>>>>>>> e0d9c9be (.)
+>>>>>>> 95531e1 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
+>>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+<<<<<<< HEAD
+>>>>>>> 888799d0 (.)
+=======
+=======
+>>>>>>> 7bac387 (.)
+<<<<<<< HEAD
+>>>>>>> 2a97406c (.)
+=======
+=======
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+>>>>>>> f813254 (.)
+<<<<<<< HEAD
+>>>>>>> f2e64178 (.)
+=======
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 94c68e2 (.)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> e627c3b (.)
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
+
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> bf479cc (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2fdda20 (.)
+<<<<<<< HEAD
+>>>>>>> 909e45af (.)
+=======
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> b19cd40 (.)
+>>>>>>> d5c4b93 (.)
+<<<<<<< HEAD
+>>>>>>> 6d08c01b (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 2e67a2a (.)
+<<<<<<< HEAD
+>>>>>>> 6b6b9e41 (.)
+=======
+=======
+>>>>>>> 2bcb149 (.)
+<<<<<<< HEAD
+>>>>>>> c6c33175 (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> bd22fd4 (.)
+<<<<<<< HEAD
+>>>>>>> 4f042b88 (.)
+=======
+=======
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+>>>>>>> 4e643df (.)
+<<<<<<< HEAD
+>>>>>>> c4bdacbf (.)
+=======
+=======
+>>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
+>>>>>>> bb7e77c2 (.)
+=======
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> b19cd40 (.)
+>>>>>>> e5b598a (.)
+<<<<<<< HEAD
+>>>>>>> 8e5817bc (.)
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 806a0e3 (.)
+<<<<<<< HEAD
+>>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 1f13f40 (.)
+<<<<<<< HEAD
+>>>>>>> 7a2f131f (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
+>>>>>>> 712617d3 (.)
+=======
+=======
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> d284d65 (.)
+>>>>>>> 10b3b08 (.)
+<<<<<<< HEAD
+>>>>>>> bd804d67 (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 3a87c62 (.)
+=======
+>>>>>>> e627c3b (.)
+>>>>>>> f3086887 (rebase 210)
+=======
+=======
+>>>>>>> 69fa7d37 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -6350,10 +8270,16 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> c8b1c8bf (.)
 =======
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
+<<<<<<< HEAD
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
@@ -6386,6 +8312,9 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 10b3b08 (.)
 =======
 >>>>>>> bd804d67 (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
@@ -6408,6 +8337,13 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
 >>>>>>> 82ae73b (.)
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
@@ -6431,6 +8367,10 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 9cf0dc90 (.)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a55aa5e96 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> 75179b85 (.)
@@ -6448,6 +8388,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> f963d2c0 (.)
 =======
 >>>>>>> d09cb759 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -7312,3 +9253,6 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)

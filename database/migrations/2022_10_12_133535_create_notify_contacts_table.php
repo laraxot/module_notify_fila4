@@ -8,6 +8,7 @@ use Modules\Notify\Models\Contact;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 =======
@@ -1108,6 +1109,10 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+>>>>>>> a55aa5e96 (.)
 
     /**
      * Run the migrations.
@@ -1115,6 +1120,7 @@ return new class() extends XotBaseMigration {
     public function up(): void
     {
         // -- CREATE --
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1524,6 +1530,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -1533,9 +1541,8 @@ return new class() extends XotBaseMigration {
             $table->timestamp('verified_at')->nullable();
         });
         $this->tableUpdate(function (Blueprint $table): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (!$this->hasColumn('token')) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1595,6 +1602,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 $table->string('token')->nullable();
 <<<<<<< HEAD
 =======
@@ -1606,6 +1615,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2346,6 +2356,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     }
 };
 =======

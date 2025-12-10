@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,6 +617,10 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
 =======
 declare(strict_types=1);
+=======
+declare(strict_types=1);
+
+>>>>>>> a55aa5e96 (.)
 
 >>>>>>> 75179b85 (.)
 =======
@@ -686,9 +691,12 @@ namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\Notification;
 use Illuminate\Database\Eloquent\Factories\Factory;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 class NotificationFactory extends Factory
 {

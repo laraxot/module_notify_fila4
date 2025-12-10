@@ -9,6 +9,7 @@ return [
         'icon' => 'heroicon-o-phone',
         'color' => 'text-green-600',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#16a34a',
 =======
 <<<<<<< HEAD
@@ -1762,6 +1763,9 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        'hex_color' => '#16a34a',
+>>>>>>> a55aa5e96 (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -1769,6 +1773,7 @@ return [
         'icon' => 'heroicon-o-device-phone-mobile',
         'color' => 'text-purple-600',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#9333ea',
 =======
 <<<<<<< HEAD
@@ -3522,6 +3527,9 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        'hex_color' => '#9333ea',
+>>>>>>> a55aa5e96 (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -3529,6 +3537,7 @@ return [
         'icon' => 'heroicon-o-envelope',
         'color' => 'text-blue-600',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#2563eb',
 =======
 <<<<<<< HEAD
@@ -5282,6 +5291,9 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        'hex_color' => '#2563eb',
+>>>>>>> a55aa5e96 (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -5289,6 +5301,7 @@ return [
         'icon' => 'heroicon-o-shield-check',
         'color' => 'text-orange-600',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#ea580c',
 =======
 <<<<<<< HEAD
@@ -7042,6 +7055,9 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        'hex_color' => '#ea580c',
+>>>>>>> a55aa5e96 (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -7049,6 +7065,7 @@ return [
         'icon' => 'heroicon-o-chat-bubble-bottom-center-text',
         'color' => 'text-green-600',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#25d366',
 =======
 <<<<<<< HEAD
@@ -8802,12 +8819,16 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        'hex_color' => '#25d366',
+>>>>>>> a55aa5e96 (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
         'label' => 'Fax',
         'icon' => 'heroicon-o-printer',
         'color' => 'text-gray-600',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -10025,10 +10046,13 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -12102,3 +12126,5 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)

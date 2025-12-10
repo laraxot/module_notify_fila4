@@ -107,6 +107,7 @@ use Exception;
 use Exception;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -607,11 +608,14 @@ use Exception;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1305,10 +1309,13 @@ use Webmozart\Assert\Assert;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 class RecordNotificationData extends Data
 {
     public UserContract $record;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1365,6 +1372,8 @@ class RecordNotificationData extends Data
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     public string $channel;
 
     public function getChannel(): string
@@ -1375,6 +1384,7 @@ class RecordNotificationData extends Data
     public function getRoute(): string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         switch ($this->channel) {
             case 'mail':
 =======
@@ -1930,6 +1940,10 @@ class RecordNotificationData extends Data
         switch ($this->channel) {
             case 'mail':
 >>>>>>> 75179b855 (.)
+=======
+        switch ($this->channel) {
+            case 'mail':
+>>>>>>> a55aa5e96 (.)
                 Assert::string($email = $this->record->email, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
                 return $email;
             case 'sms':
@@ -1939,6 +1953,7 @@ class RecordNotificationData extends Data
         }
         throw new Exception('Channel [' . $this->channel . '] not supported');
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2819,6 +2834,8 @@ class RecordNotificationData extends Data
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

@@ -12,6 +12,7 @@ Le interfacce sono organizzate in due livelli:
 1. **Interfacce Generiche**: Posizionate direttamente nella directory `app/Contracts/`
    ```
 <<<<<<< HEAD
+<<<<<<< HEAD
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
 =======
 <<<<<<< HEAD
@@ -78,10 +79,14 @@ Le interfacce sono organizzate in due livelli:
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+   /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsActionContract.php
+>>>>>>> a55aa5e96 (.)
    ```
 
 2. **Interfacce Specifiche per Canale**: Posizionate in sottodirectory dedicate
    ```
+<<<<<<< HEAD
 <<<<<<< HEAD
    /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 =======
@@ -149,6 +154,9 @@ Le interfacce sono organizzate in due livelli:
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+   /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> a55aa5e96 (.)
    ```
 
 ### Convenzioni di Naming

@@ -4,6 +4,7 @@
 ## Introduzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
+>>>>>>> a55aa5e96 (.)
 
 ## Principi Fondamentali
 
@@ -142,6 +146,7 @@ Migliore esperienza su client moderni:
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 <<<<<<< HEAD
@@ -208,6 +213,9 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Per <nome progetto>, si raccomanda un **approccio ibrido**:
+>>>>>>> a55aa5e96 (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 

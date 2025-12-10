@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1142,6 +1143,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
@@ -1248,8 +1251,11 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 >>>>>>> be698cf2c (.)
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 =======
 <<<<<<< HEAD
@@ -1464,6 +1470,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var SmsFactorData */
 =======
 <<<<<<< HEAD
@@ -1556,10 +1563,15 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+    /** @var SmsFactorData */
+    private SmsFactorData $smsFactorData;
+>>>>>>> a55aa5e96 (.)
 
     /** @var array<string, mixed> */
     private array $vars = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1851,6 +1863,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /** @var bool */
     protected bool $debug;
 
@@ -1870,6 +1884,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
 >>>>>>> cbb586cb0 (.)
     protected null|string $defaultSender = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
@@ -2433,12 +2448,16 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
     /**
      * Create a new action instance.
      */
     public function __construct()
     {
         $this->smsFactorData = SmsFactorData::make();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3225,14 +3244,18 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+
+        if (!$this->smsFactorData->token) {
+>>>>>>> a55aa5e96 (.)
             throw new Exception('Token SMSFactor non configurato in sms.php');
         }
 
         // Parametri a livello di root
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
-<<<<<<< HEAD
         $this->debug = (bool) config('sms.debug', false);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3267,11 +3290,14 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     }
 
     /**
      * Execute the action.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3664,6 +3690,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
 =======
@@ -3673,6 +3701,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4064,6 +4093,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     public function execute(SmsData $smsData): array
     {
         $headers = $this->smsFactorData->getAuthHeaders();
@@ -4071,6 +4102,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4094,11 +4126,14 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
         }
 
         if (!Str::startsWith($to, '+')) {
             $to = '+39' . $to;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4174,6 +4209,8 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         }
 
         $body = [
@@ -4190,6 +4227,7 @@ final class SendSmsFactorSMSAction implements SmsActionContract
         $client = new Client([
             'timeout' => $this->smsFactorData->getTimeout(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4813,29 +4851,22 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+            'headers' => $headers,
+        ]);
+
+        try {
+            $response = $client->post($this->smsFactorData->getBaseUrl() . '/messages', ['json' => $body]);
+>>>>>>> a55aa5e96 (.)
             $this->vars['status_code'] = $response->getStatusCode();
             $this->vars['status_txt'] = $response->getBody()->getContents();
 
             return $this->vars;
         } catch (ClientException $clientException) {
             throw new Exception(
-<<<<<<< HEAD
-<<<<<<< HEAD
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
-=======
-<<<<<<< HEAD
-                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
-=======
-                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
-=======
-                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
-=======
-                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
->>>>>>> 75179b8 (.)
->>>>>>> c8b1c8bf (.)
                 $clientException->getCode(),
+<<<<<<< HEAD
                 $clientException,
 =======
 <<<<<<< HEAD
@@ -5550,6 +5581,9 @@ final class SendSmsFactorSMSAction implements SmsActionContract
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+                $clientException,
+>>>>>>> a55aa5e96 (.)
             );
         }
     }

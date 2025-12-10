@@ -5,6 +5,7 @@ declare(strict_types=1);
 
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1984,6 +1985,10 @@ use Modules\Notify\Models\NotifyThemeable;
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+>>>>>>> a55aa5e96 (.)
 
 describe('Notify Themeable Business Logic', function () {
     it('can create notify themeable with basic information', function () {
@@ -3601,6 +3606,7 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $theme3->id,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5607,6 +5613,10 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+>>>>>>> a55aa5e96 (.)
     });
 
     it('can handle theme switching', function () {
@@ -7516,6 +7526,7 @@ describe('Notify Themeable Business Logic', function () {
         expect($theme1Assignments)->toHaveCount(5);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8361,10 +8372,13 @@ describe('Notify Themeable Business Logic', function () {
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -10954,6 +10968,8 @@ describe('Notify Themeable Business Logic', function () {
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);

@@ -2,6 +2,7 @@
 # Pattern di Estensione per Componenti Filament 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
 =======
 <<<<<<< HEAD
@@ -68,6 +69,9 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+>>>>>>> a55aa5e96 (.)
 
 ## Regola Fondamentale
 
@@ -87,6 +91,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 
 ## Motivazione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
 =======
@@ -154,6 +159,9 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> a55aa5e96 (.)
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -174,6 +182,7 @@ Quando si estende `XotBaseResource`, è importante seguire queste regole per evi
 
 2. **Non ridefinire metodi standard a meno che non sia necessario**:
    - `public static function table(Table $table): Table`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    - `public static function getListTableColumns(): array`
@@ -219,6 +228,9 @@ Quando si estende `XotBaseResource`, è importante seguire queste regole per evi
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+   - `public static function getListTableColumns(): array`
+>>>>>>> a55aa5e96 (.)
 
 Queste proprietà e metodi sono già configurati in `XotBaseResource` per garantire coerenza e centralizzazione della logica. Ridefinirli può portare a comportamenti imprevisti e aumentare la complessità del codice.
 
@@ -267,6 +279,7 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 
 ### 1. Personalizzazione Centralizzata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
 =======
@@ -334,6 +347,9 @@ Le classi XotBase possono implementare comportamenti specifici per SaluteOra, co
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
+>>>>>>> a55aa5e96 (.)
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici

@@ -9,6 +9,7 @@ namespace Modules\Notify\Jobs;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Throwable;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +292,9 @@ use Throwable;
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+use Throwable;
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -298,6 +302,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Modules\Notify\Actions\SendNotificationAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -354,6 +359,8 @@ use Throwable;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 class SendNotificationJob implements ShouldQueue
 {
@@ -379,10 +386,9 @@ class SendNotificationJob implements ShouldQueue
     /**
      * Crea una nuova istanza del job.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
+<<<<<<< HEAD
      * @param array<string, mixed> $data I dati per compilare il template
      * @param array<int, string> $channels I canali da utilizzare
      * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
@@ -525,12 +531,18 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+     * @param array<string, mixed> $data I dati per compilare il template
+     * @param array<int, string> $channels I canali da utilizzare
+     * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
+>>>>>>> a55aa5e96 (.)
      */
     public function __construct(
         protected Model $recipient,
         protected string $templateCode,
         protected array $data = [],
         protected array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1230,6 +1242,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -1238,6 +1252,7 @@ class SendNotificationJob implements ShouldQueue
         $timeoutConfig = config('notify.queue.retry_after', 60);
         $this->timeout = is_numeric($timeoutConfig) ? ((int) $timeoutConfig) : 60;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2453,6 +2468,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -2462,6 +2479,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 =======
@@ -4023,10 +4041,14 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> a55aa5e96 (.)
     }
 
     /**
      * Gestisce un fallimento del job.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -4173,6 +4195,11 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+     *
+     * @param Throwable $exception
+     * @return void
+>>>>>>> a55aa5e96 (.)
      */
     public function failed(Throwable $exception): void
 <<<<<<< HEAD
@@ -4194,6 +4221,7 @@ class SendNotificationJob implements ShouldQueue
             'trace' => $exception->getTraceAsString(),
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -5390,3 +5418,6 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+}
+>>>>>>> a55aa5e96 (.)

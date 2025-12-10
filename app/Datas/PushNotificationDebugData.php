@@ -20,6 +20,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
         private readonly MobilePushNotification $notification,
         private readonly MulticastSendReport $sendReport,
 <<<<<<< HEAD
+<<<<<<< HEAD
     ) {}
 =======
 <<<<<<< HEAD
@@ -1977,12 +1978,16 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+    ) {}
+>>>>>>> a55aa5e96 (.)
 
     public static function make(
         CanReceivePushNotifications $notifiable,
         MobilePushNotification $notification,
         MulticastSendReport $sendReport,
     ): self {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return new self($notifiable, $notification, $sendReport);
 =======
@@ -4529,6 +4534,9 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+        return new self($notifiable, $notification, $sendReport);
+>>>>>>> a55aa5e96 (.)
     }
 
     public function toArray(): array
@@ -4542,6 +4550,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'total' => $this->sendReport->count(),
                 'successes' => $this->sendReport->successes()->count(),
                 'failures' => $this->sendReport->failures()->count(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5810,6 +5819,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
 >>>>>>> 4f19d70d2 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 'successes_tokens' => $this->sendReport
                     ->successes()
                     ->map(static fn(SendReport $report): array => [
@@ -6233,6 +6244,7 @@ final class PushNotificationDebugData extends Data implements Arrayable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -8438,6 +8450,8 @@ final class PushNotificationDebugData extends Data implements Arrayable
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             ],
         ];
     }

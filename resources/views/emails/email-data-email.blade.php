@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1219,11 +1220,14 @@
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2626,6 +2630,8 @@ declare(strict_types=1);
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 {{--
 <x-mail::message>
 # Introduction
@@ -2640,6 +2646,7 @@ Thanks,<br>
 {{ config('app.name') }}
 </x-mail::message>
 --}}
+<<<<<<< HEAD
 <<<<<<< HEAD
 {!! body_html !!}
 =======
@@ -4597,3 +4604,6 @@ Thanks,<br>
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+{!! body_html !!}
+>>>>>>> a55aa5e96 (.)

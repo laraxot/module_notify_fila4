@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1216,10 +1217,13 @@
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # ==============================================
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
 # Modulo Notify Laraxot - Template standardizzato
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
 =======
@@ -1861,11 +1865,15 @@
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> cccb594f (.)
 >>>>>>> 3808094f6 (.)
+=======
+# Ultimo aggiornamento: 2025-01-06
+>>>>>>> a55aa5e96 (.)
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2466,6 +2474,8 @@ npm-debug.log
 =======
 >>>>>>> cccb594f (.)
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 vendor/
 /vendor/
 node_modules/
@@ -2475,6 +2485,7 @@ package-lock.json
 yarn.lock
 yarn-error.log
 composer.lock
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2977,6 +2988,8 @@ composer.lock
 =======
 >>>>>>> cccb594f (.)
 >>>>>>> 3808094f6 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -2999,6 +3012,7 @@ cache/
 *.swp
 *.swo
 *.stackdump
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4442,6 +4456,8 @@ cache/
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
 *.exe
 *:Zone.Identifier
 v8-compile-cache-*
@@ -4461,6 +4477,7 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -6781,6 +6798,8 @@ build/
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -6789,6 +6808,7 @@ public_html/storage
 public_html/hot
 storage/*.key
 .env
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -8004,6 +8024,8 @@ storage/*.key
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 .env.*
 !.env.example
 
@@ -8060,6 +8082,7 @@ docs/phpstan/
 docs/cache/
 
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -10720,6 +10743,8 @@ cache/
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -10757,6 +10782,7 @@ test_notifications.sql
 *.fila2
 laravel
 public_html
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -12916,3 +12942,5 @@ cache/
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)

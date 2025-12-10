@@ -7,6 +7,7 @@ namespace Modules\Notify\Models\Policies;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1312,3 +1313,8 @@ class MailTemplateVersionPolicy extends NotifyBasePolicy
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+class MailTemplateVersionPolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> a55aa5e96 (.)

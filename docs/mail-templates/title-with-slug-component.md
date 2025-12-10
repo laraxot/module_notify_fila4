@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,10 +165,13 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Analisi del Componente TitleWithSlugInput per Filament
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
 =======
@@ -1019,6 +1023,9 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Il pacchetto `filament-title-with-slug` di Camya fornisce un componente specializzato per la gestione combinata di titoli e slug nei form Filament. Questo documento analizza le funzionalità del componente e la sua potenziale integrazione nel modulo Notify di <nome progetto>, in particolare per la gestione dei template email.
+>>>>>>> a55aa5e96 (.)
 
 ## Panoramica del Pacchetto
 
@@ -1033,6 +1040,7 @@ Il pacchetto `filament-title-with-slug` di Camya fornisce un componente speciali
 - **Validazione Avanzata**: Regole di validazione personalizzabili
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Compatibilità con <nome progetto>
 
 Il componente è compatibile con l'architettura di <nome progetto> e può essere integrato seguendo le convenzioni del progetto:
@@ -2152,6 +2160,11 @@ Il componente è compatibile con l'architettura di SaluteOra e può essere integ
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+### Compatibilità con <nome progetto>
+
+Il componente è compatibile con l'architettura di <nome progetto> e può essere integrato seguendo le convenzioni del progetto:
+>>>>>>> a55aa5e96 (.)
 
 - Non utilizza componenti UI personalizzati
 - Può essere configurato per restituire array associativi con chiavi stringhe
@@ -2177,6 +2190,7 @@ php artisan vendor:publish --tag="filament-title-with-slug-config"
 ### Configurazione Base
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di <nome progetto>:
 =======
 <<<<<<< HEAD
@@ -3027,6 +3041,9 @@ Ecco come il componente potrebbe essere implementato in `MailTemplateResource` s
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Ecco come il componente potrebbe essere implementato in `MailTemplateResource` seguendo le convenzioni di <nome progetto>:
+>>>>>>> a55aa5e96 (.)
 
 ```php
 use Camya\Filament\Forms\Components\TitleWithSlugInput;
@@ -3059,6 +3076,7 @@ public static function getFormSchema(): array
 ### Personalizzazione Avanzata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per adattare il componente alle esigenze specifiche di <nome progetto>:
 =======
 <<<<<<< HEAD
@@ -3909,6 +3927,9 @@ Per adattare il componente alle esigenze specifiche di SaluteOra:
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Per adattare il componente alle esigenze specifiche di <nome progetto>:
+>>>>>>> a55aa5e96 (.)
 
 ```php
 'titleSlug' => TitleWithSlugInput::make(
@@ -3946,6 +3967,7 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 ```php
 ->urlPath('/mail-templates/')
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->urlHost('https://<nome progetto>.example.com')
 =======
 <<<<<<< HEAD
@@ -4795,6 +4817,9 @@ Il componente mostra un'anteprima dell'URL completo, personalizzabile attraverso
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+->urlHost('https://<nome progetto>.example.com')
+>>>>>>> a55aa5e96 (.)
 ->urlHostVisible(true)
 ```
 
@@ -4830,6 +4855,7 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Vantaggi per <nome progetto>
 =======
 <<<<<<< HEAD
@@ -5680,6 +5706,9 @@ Il componente può generare un link per visualizzare direttamente la risorsa:
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+## Vantaggi per <nome progetto>
+>>>>>>> a55aa5e96 (.)
 
 L'integrazione di questo componente nel modulo Notify offrirebbe:
 
@@ -5691,6 +5720,7 @@ L'integrazione di questo componente nel modulo Notify offrirebbe:
 
 ## Considerazioni per l'Implementazione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5921,11 +5951,14 @@ L'integrazione di questo componente nel modulo Notify offrirebbe:
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 ### Conformità con le Convenzioni di <nome progetto>
 
 Per rispettare le convenzioni del progetto, è necessario:
 
 1. **Traduzione**: Configurare le etichette per utilizzare il sistema di traduzione di <nome progetto> anziché testi hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -7150,6 +7183,8 @@ Per rispettare le convenzioni del progetto, è necessario:
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 2. **Array Associativo**: Utilizzare chiavi stringhe nell'array di schema del form
 3. **Nomenclatura**: Seguire le convenzioni di nomenclatura del progetto
 
@@ -7182,6 +7217,7 @@ public static function getFormSchema(): array
 
 1. **Dipendenza Esterna**: Introduce una dipendenza aggiuntiva nel progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di <nome progetto>
 =======
 <<<<<<< HEAD
@@ -8032,11 +8068,15 @@ public static function getFormSchema(): array
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+2. **Personalizzazione Visiva**: Potrebbe richiedere adattamenti per integrarsi perfettamente con il tema di <nome progetto>
+>>>>>>> a55aa5e96 (.)
 3. **Modifiche Future**: Come ogni dipendenza, è soggetto a cambiamenti nelle versioni future
 
 ### Alternative
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di <nome progetto>
 =======
 <<<<<<< HEAD
@@ -8887,12 +8927,16 @@ public static function getFormSchema(): array
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+1. **Soluzione Custom**: Sviluppare un componente su misura basato sulle esigenze specifiche di <nome progetto>
+>>>>>>> a55aa5e96 (.)
 2. **Approccio Modulare**: Utilizzare i componenti nativi di Filament con logica personalizzata
 3. **Altri Pacchetti**: Valutare pacchetti alternativi con funzionalità simili
 
 ## Conclusioni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di <nome progetto> potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
 =======
 <<<<<<< HEAD
@@ -9743,6 +9787,9 @@ Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per l
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Il componente `TitleWithSlugInput` offre una soluzione elegante e completa per la gestione combinata di titoli e slug nei form Filament. La sua integrazione nel modulo Notify di <nome progetto> potrebbe migliorare significativamente l'esperienza utente nella gestione dei template email, semplificando il processo di creazione e modifica.
+>>>>>>> a55aa5e96 (.)
 
 L'implementazione dovrebbe seguire le convenzioni del progetto, con particolare attenzione alla localizzazione e alla struttura del form schema.
 
@@ -9753,6 +9800,7 @@ L'implementazione dovrebbe seguire le convenzioni del progetto, con particolare 
 - [Implementazione Modello con Slug](./MODEL_SLUG_IMPLEMENTATION.md)
 - [Implementazione Risorsa con Slug](./RESOURCE_SLUG_IMPLEMENTATION.md)
 - [Miglioramenti UI/UX](./UI_UX_ENHANCEMENTS.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9949,3 +9997,5 @@ L'implementazione dovrebbe seguire le convenzioni del progetto, con particolare 
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

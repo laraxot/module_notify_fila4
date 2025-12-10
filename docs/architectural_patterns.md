@@ -2,6 +2,7 @@
 # Pattern Architetturali per le Notifiche
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
 =======
 <<<<<<< HEAD
@@ -68,6 +69,9 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> a55aa5e96 (.)
 
 ## Confronto tra Pattern Architetturali
 

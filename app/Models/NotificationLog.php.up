@@ -37,6 +37,7 @@ use Modules\Xot\Traits\Updater;
 class NotificationLog extends BaseModel
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     use \Modules\Xot\Models\Traits\HasXotFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +62,8 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +108,7 @@ class NotificationLog extends BaseModel
 =======
     use HasFactory;
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
     use HasFactory;
 >>>>>>> 82ae73be (.)
@@ -128,6 +132,8 @@ class NotificationLog extends BaseModel
     use HasFactory;
 >>>>>>> 82ae73b (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> a55aa5e96 (.)
     use Updater;
 
     public const STATUS_PENDING = 'pending';
@@ -142,6 +148,7 @@ class NotificationLog extends BaseModel
     protected $table = 'notification_logs';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var list<string> */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +173,8 @@ class NotificationLog extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +219,7 @@ class NotificationLog extends BaseModel
 =======
     /** @var array<int, string> */
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
     /** @var array<int, string> */
 >>>>>>> 82ae73be (.)
@@ -233,6 +243,8 @@ class NotificationLog extends BaseModel
     /** @var array<int, string> */
 >>>>>>> 82ae73b (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> a55aa5e96 (.)
     protected $fillable = [
         'template_id',
         'notifiable_type',
@@ -270,17 +282,23 @@ class NotificationLog extends BaseModel
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> a55aa5e96 (.)
         // Prima cerca il MailTemplate, altrimenti NotificationTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
         return $mailTemplate
@@ -288,7 +306,10 @@ class NotificationLog extends BaseModel
             : $this->belongsTo(NotificationTemplate::class, 'template_id');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a55aa5e96 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -297,12 +318,15 @@ class NotificationLog extends BaseModel
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> laraxot/develop
 =======
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> a55aa5e96 (.)
         // Prova prima con MailTemplate
         $mailTemplate = $this->belongsTo(MailTemplate::class, 'template_id')->first();
         if ($mailTemplate) {
@@ -313,10 +337,13 @@ class NotificationLog extends BaseModel
         return $this->belongsTo(NotificationTemplate::class, 'template_id');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 <<<<<<< HEAD
 >>>>>>> 82ae73b (.)
 =======
@@ -326,12 +353,15 @@ class NotificationLog extends BaseModel
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 82ae73be (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 82ae73b (.)
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> a55aa5e96 (.)
     }
 
     public function scopeWithStatus($query, string $status)

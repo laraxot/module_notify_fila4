@@ -12,6 +12,7 @@ use Modules\Notify\Models\NotifyThemeable;
 /**
  * NotifyThemeable Factory
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -652,6 +653,9 @@ use Modules\Notify\Models\NotifyThemeable;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+ *
+>>>>>>> a55aa5e96 (.)
  * @extends Factory<NotifyThemeable>
  */
 class NotifyThemeableFactory extends Factory
@@ -674,6 +678,7 @@ class NotifyThemeableFactory extends Factory
     public function forUser(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
 =======
 <<<<<<< HEAD
@@ -1614,6 +1619,9 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> a55aa5e96 (.)
             'themeable_type' => 'Modules\\User\\Models\\User',
         ]);
     }
@@ -1621,6 +1629,7 @@ class NotifyThemeableFactory extends Factory
     public function forPatient(): static
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return $this->state(fn(array $_attributes): array => [
 =======
 <<<<<<< HEAD
@@ -2209,10 +2218,14 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+        return $this->state(fn(array $_attributes): array => [
+>>>>>>> a55aa5e96 (.)
             'themeable_type' => 'Modules\\User\\Models\\User', // Generic fallback
         ]);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2892,3 +2905,5 @@ class NotifyThemeableFactory extends Factory
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)

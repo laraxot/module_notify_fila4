@@ -4,6 +4,7 @@
 ## Informazioni Generali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+- **File**: `/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php`
+>>>>>>> a55aa5e96 (.)
 - **Base**: `XotBaseMigration`
 - **Tabella**: `mail_templates`
 

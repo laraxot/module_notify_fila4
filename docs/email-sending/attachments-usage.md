@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Utilizzo Corretto degli Allegati nelle Email Spatie
 
 Questa documentazione descrive come utilizzare correttamente il metodo `addAttachments()` nella classe `SpatieEmail` del modulo Notify.
@@ -179,6 +182,7 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 $attachments = [
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -1052,12 +1056,16 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
 <<<<<<< HEAD
@@ -1931,6 +1939,9 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/documents/terms.pdf',
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+>>>>>>> a55aa5e96 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
@@ -2024,6 +2035,7 @@ Ogni allegato deve contenere i seguenti parametri:
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
 - [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2220,3 +2232,5 @@ Ogni allegato deve contenere i seguenti parametri:
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

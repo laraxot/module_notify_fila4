@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1308,6 +1309,10 @@ declare(strict_types=1);
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> a55aa5e96 (.)
 return [
     /*
      * |--------------------------------------------------------------------------
@@ -1323,6 +1328,7 @@ return [
      * | WhatsApp Drivers
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4047,6 +4053,8 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     'drivers' => [
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
@@ -4054,6 +4062,7 @@ return [
             'from' => env('TWILIO_WHATSAPP_FROM'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5615,12 +5624,15 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'vonage' => [
             'api_key' => env('VONAGE_KEY'),
             'api_secret' => env('VONAGE_SECRET'),
             'from' => env('VONAGE_WHATSAPP_FROM'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7182,6 +7194,8 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'facebook' => [
             'app_id' => env('FACEBOOK_APP_ID'),
             'app_secret' => env('FACEBOOK_APP_SECRET'),
@@ -7189,6 +7203,7 @@ return [
             'phone_number_id' => env('FACEBOOK_PHONE_NUMBER_ID'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8750,11 +8765,14 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         '360dialog' => [
             'api_key' => env('360DIALOG_API_KEY'),
             'phone_number_id' => env('360DIALOG_PHONE_NUMBER_ID'),
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -9970,6 +9988,8 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Global Debug Mode
@@ -9999,6 +10019,7 @@ return [
      * | Retry Configuration
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -12753,10 +12774,13 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     'retry' => [
         'attempts' => env('WHATSAPP_RETRY_ATTEMPTS', 3),
         'delay' => env('WHATSAPP_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -13969,11 +13993,14 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Rate Limiting
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -16203,6 +16230,8 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     'rate_limit' => [
         'enabled' => env('WHATSAPP_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('WHATSAPP_RATE_LIMIT_MAX_ATTEMPTS', 60),

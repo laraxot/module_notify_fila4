@@ -56,6 +56,7 @@ class NotificationTypeEnumTest extends TestCase
     public function each_case_has_unique_value(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
 =======
 <<<<<<< HEAD
@@ -793,6 +794,9 @@ class NotificationTypeEnumTest extends TestCase
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> a55aa5e96 (.)
         $uniqueValues = array_unique($values);
 
 =======

@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Providers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,10 +367,13 @@ use Override;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 use Modules\Tenant\Services\TenantService;
 use Modules\Xot\Providers\XotBaseServiceProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Override;
 use Webmozart\Assert\Assert;
@@ -1153,6 +1157,10 @@ use Webmozart\Assert\Assert;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+use Override;
+use Webmozart\Assert\Assert;
+>>>>>>> a55aa5e96 (.)
 
 class NotifyServiceProvider extends XotBaseServiceProvider
 {
@@ -1162,6 +1170,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1908,6 +1917,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     #[Override]
 =======
 >>>>>>> f87b41c3b (.)
@@ -1936,6 +1947,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
         //if (! app()->environment('production')) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2231,16 +2243,17 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $mail = TenantService::config('mail');
         Assert::isArray($mail);
-
-        $fallbackTo = Arr::get($mail, 'fallback_to');
-
-        if (is_string($fallbackTo)) {
-            Mail::alwaysTo($fallbackTo);
+        $fallback_to = Arr::get($mail, 'fallback_to', null);
+        if (is_string($fallback_to)) {
+            Mail::alwaysTo($fallback_to);
         }
 
         // }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3249,6 +3262,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     }
 }
 =======

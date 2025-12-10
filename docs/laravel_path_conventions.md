@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,11 +24,14 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -117,6 +121,8 @@ In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella st
 >>>>>>> laraxot/develop
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -138,6 +144,7 @@ In Laravel e SaluteOra, i nomi delle cartelle principali (come definite nella st
 Le viste in Laravel devono essere collocate nella cartella `resources/views` (lowercase):
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
 =======
@@ -205,11 +212,15 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+>>>>>>> a55aa5e96 (.)
 ```
 
 **NON** in:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
 =======
@@ -277,6 +288,9 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+>>>>>>> a55aa5e96 (.)
 ```
 
 ## Perché è Importante
@@ -295,6 +309,7 @@ Quando si fa riferimento a viste nei file PHP:
 protected static string $view = 'notify::filament.pages.send-sms';
 
 // Il path fisico corrispondente sarà:
+<<<<<<< HEAD
 <<<<<<< HEAD
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 =======
@@ -362,6 +377,9 @@ protected static string $view = 'notify::filament.pages.send-sms';
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 ## Verifica e Correzione

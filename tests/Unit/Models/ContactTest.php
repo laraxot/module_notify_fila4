@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
@@ -3132,6 +3133,11 @@ use Tests\TestCase;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> a55aa5e96 (.)
 
 class ContactTest extends TestCase
 {
@@ -3494,6 +3500,7 @@ class ContactTest extends TestCase
         ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 =======
 <<<<<<< HEAD
@@ -5456,6 +5463,9 @@ class ContactTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> a55aa5e96 (.)
 
         $this->assertNotNull($foundContact);
         $this->assertEquals($contact->id, $foundContact->id);
@@ -5847,6 +5857,7 @@ class ContactTest extends TestCase
         $this->assertEquals(3, $orderedContacts[2]->order_column);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -8041,3 +8052,5 @@ class ContactTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)

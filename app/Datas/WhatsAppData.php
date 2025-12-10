@@ -10,6 +10,7 @@ use Spatie\LaravelData\Data;
 /**
  * Data Transfer Object per i messaggi WhatsApp.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -650,12 +651,16 @@ use Spatie\LaravelData\Data;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+ *
+>>>>>>> a55aa5e96 (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi WhatsApp
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
 class WhatsAppData extends Data
 {
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -723,6 +728,8 @@ class WhatsAppData extends Data
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * @param string $to Numero di telefono del destinatario in formato E.164 (es. +393401234567)
      * @param string $body Contenuto testuale del messaggio
      * @param string|null $from Numero di telefono del mittente (opzionale, può essere definito nella configurazione)
@@ -732,6 +739,7 @@ class WhatsAppData extends Data
      * @param string $type Tipo di messaggio: 'text', 'media', 'template', ecc.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,11 +779,14 @@ class WhatsAppData extends Data
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      */
     public function __construct(
         public string $to,
         public string $body,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1021,10 +1032,13 @@ class WhatsAppData extends Data
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
+=======
+>>>>>>> a55aa5e96 (.)
         public null|string $from = null,
         public null|array $media = null,
         public null|array $buttons = null,
         public null|array $template = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2364,6 +2378,8 @@ class WhatsAppData extends Data
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         public string $type = 'text',
     ) {}
 }

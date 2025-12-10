@@ -16,6 +16,7 @@ namespace Modules\Notify\Tests\Feature;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,10 +554,14 @@ use RuntimeException;
 =======
 >>>>>>> de02998b (.)
 >>>>>>> b207a9b1a (.)
+=======
+use RuntimeException;
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1251,6 +1256,8 @@ use Tests\TestCase;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 class MailTemplateVersionBusinessLogicTest extends TestCase
 {
@@ -1261,6 +1268,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1901,6 +1909,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         $versionData = [
             'template_id' => $template->id,
             'mailable' => 'AppointmentConfirmation',
@@ -1908,9 +1919,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'html_template' => '<!DOCTYPE html><html><body><h1>Conferma Appuntamento</h1><p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.</p></body></html>',
             'text_template' => 'Conferma Appuntamento\n\nGentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.',
             'version' => '2.0',
-<<<<<<< HEAD
-<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1970,6 +1980,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
 
@@ -1981,9 +1993,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'mailable' => 'AppointmentConfirmation',
             'subject' => 'Conferma Appuntamento - Versione 2.0',
             'version' => '2.0',
-<<<<<<< HEAD
-<<<<<<< HEAD
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2043,6 +2054,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
 
@@ -2121,6 +2134,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2744,16 +2758,19 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+
+        $version = MailTemplateVersion::factory()->create([
+            'template_id' => $template->id,
+            'version' => '1.5.2',
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+>>>>>>> a55aa5e96 (.)
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3383,10 +3400,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3908,6 +3928,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $this->assertNotNull($version->created_at);
         $this->assertNotNull($version->updated_at);
     }
@@ -3917,6 +3939,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -4557,6 +4580,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         $complexHtmlTemplate = '
         <!DOCTYPE html>
         <html lang="it">
@@ -4608,6 +4634,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5012,11 +5039,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         $textTemplate = '
         CONFERMA APPUNTAMENTO
-<<<<<<< HEAD
-=======
         =====================
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 =======
@@ -5160,6 +5189,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         
         Gentile {{patient_name}},
         
@@ -5251,6 +5282,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -5891,6 +5923,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         $mailableClasses = [
             'AppointmentConfirmation',
             'AppointmentReminder',
@@ -5901,8 +5936,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         foreach ($mailableClasses as $index => $mailableClass) {
-<<<<<<< HEAD
             $version = MailTemplateVersion::factory()->create([
+<<<<<<< HEAD
                 'template_id' => $template->id,
                 'mailable' => $mailableClass,
 <<<<<<< HEAD
@@ -5948,6 +5983,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+                'template_id' => $template->id,
+                'mailable' => $mailableClass,
+>>>>>>> a55aa5e96 (.)
                 'version' => '1.' . $index,
                 'subject' => 'Template per ' . $mailableClass,
                 'html_template' => '<p>Template per ' . $mailableClass . '</p>',
@@ -5955,6 +5994,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
             $this->assertEquals($mailableClass, $version->mailable);
             $this->assertEquals('Template per ' . $mailableClass, $version->subject);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6032,6 +6072,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         }
     }
 
@@ -6045,6 +6087,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         // Verifica che il modello supporti soft delete
         $this->assertTrue($version->trashed() === false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -6174,10 +6217,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
         // Soft delete
         $version->delete();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7225,6 +7271,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $this->assertTrue($version->trashed());
         $this->assertDatabaseHas('mail_template_versions', [
             'id' => $version->id,
@@ -7268,6 +7316,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7396,10 +7445,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 =======
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
         $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
         $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8447,6 +8499,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'html_template' => $htmlTemplate,
@@ -8458,6 +8512,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $htmlVariables = $this->extractVariables($htmlTemplate);
         $textVariables = $this->extractVariables($textTemplate);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -9098,6 +9153,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         $this->assertEquals($htmlVariables, $textVariables);
         $this->assertContains('patient_name', $htmlVariables);
         $this->assertContains('appointment_date', $htmlVariables);
@@ -9109,6 +9167,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -9749,6 +9808,9 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         $versionSchemes = [
             '1.0' => 'Versione iniziale',
             '1.1' => 'Correzione bug minori',
@@ -9759,8 +9821,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         foreach ($versionSchemes as $versionNumber => $description) {
-<<<<<<< HEAD
             $version = MailTemplateVersion::factory()->create([
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9784,6 +9846,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             $version = MailTemplateVersion::factory()->create([
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
                 'template_id' => $template->id,
                 'version' => $versionNumber,
                 'change_notes' => $description,
@@ -9800,6 +9864,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     private function extractVariables(string $template): array
     {
         preg_match_all('/\{\{([^}]+)\}\}/', $template, $matches);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -9856,6 +9921,8 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         return array_unique($matches[1] ?? []);
     }
 }

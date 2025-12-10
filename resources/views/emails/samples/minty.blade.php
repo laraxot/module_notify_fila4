@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1219,11 +1220,14 @@
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2626,6 +2630,8 @@ declare(strict_types=1);
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 @extends('beautymail::templates.minty')
 
 @section('content')
@@ -2673,6 +2679,7 @@ declare(strict_types=1);
 		</tr>
 	@include('beautymail::templates.minty.contentEnd')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @stop
 =======
@@ -4630,3 +4637,6 @@ declare(strict_types=1);
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+@stop
+>>>>>>> a55aa5e96 (.)

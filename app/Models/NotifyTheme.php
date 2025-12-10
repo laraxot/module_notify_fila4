@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -776,6 +777,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 >>>>>>> 82ae73b (.)
 =======
 >>>>>>> 207ac35 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
@@ -791,9 +794,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -804,10 +810,10 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property string|null $subject
  * @property string|null $body
  * @property string|null $from
-<<<<<<< HEAD
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -857,6 +863,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
@@ -868,6 +876,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property int|null $logo_height
  * @property array $view_params
  * @property array $logo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1824,6 +1833,9 @@ class NotifyTheme extends BaseModel
     use InteractsWithMedia;
 
 =======
+=======
+ * @property Model|Eloquent $linkable
+>>>>>>> a55aa5e96 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @method static NotifyThemeFactory factory($count = null, $state = [])
@@ -1862,9 +1874,12 @@ class NotifyTheme extends BaseModel
 class NotifyTheme extends BaseModel
 {
     /** @var list<string> */
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     protected $fillable = [
         'id',
         'lang',
@@ -1873,6 +1888,7 @@ class NotifyTheme extends BaseModel
         'body',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1912,12 +1928,15 @@ class NotifyTheme extends BaseModel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'body_html',
         'from',
         'from_email',
         'post_type',
         'post_id',
         'theme',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1941,12 +1960,15 @@ class NotifyTheme extends BaseModel
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'logo_src',
         'logo_width',
         'logo_height',
         'view_params',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1983,11 +2005,14 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
     /** @var list<string> */
     protected $appends = [
         'logo',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function getLogoAttribute(null|array $value): array
 =======
@@ -2891,6 +2916,9 @@ class NotifyTheme extends BaseModel
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> a55aa5e96 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -2909,6 +2937,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 =======
@@ -3585,6 +3614,9 @@ class NotifyTheme extends BaseModel
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    #[Override]
+>>>>>>> a55aa5e96 (.)
     protected function casts(): array
     {
         return [
@@ -3593,6 +3625,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4461,6 +4494,12 @@ class NotifyTheme extends BaseModel
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            // 'published_at' => 'datetime:Y-m-d', // da verificare
+>>>>>>> a55aa5e96 (.)
             'view_params' => 'array',
         ];
     }

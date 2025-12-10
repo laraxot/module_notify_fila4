@@ -58,6 +58,7 @@ public function handleHTTPRequest(): void
 # Convenzioni di Naming per le Azioni di Notifica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema <nome progetto>, supportando la risoluzione dinamica delle classi implementata nei factory.
 =======
 <<<<<<< HEAD
@@ -124,6 +125,9 @@ Questo documento definisce le convenzioni di naming standardizzate per le azioni
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema <nome progetto>, supportando la risoluzione dinamica delle classi implementata nei factory.
+>>>>>>> a55aa5e96 (.)
 
 ## Pattern di Naming
 

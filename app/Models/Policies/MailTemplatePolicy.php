@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models\Policies;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1317,3 +1318,8 @@ class MailTemplatePolicy extends NotifyBasePolicy
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+class MailTemplatePolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> a55aa5e96 (.)

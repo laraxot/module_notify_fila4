@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -223,6 +226,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 <<<<<<< HEAD
@@ -1073,6 +1077,9 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> a55aa5e96 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -1130,6 +1137,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'username' => env('NETFUN_USERNAME'),
         'password' => env('NETFUN_PASSWORD'),
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 <<<<<<< HEAD
@@ -1980,6 +1988,9 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> a55aa5e96 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun
@@ -2021,6 +2032,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2217,3 +2229,5 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

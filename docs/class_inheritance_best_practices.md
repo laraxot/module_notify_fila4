@@ -2,6 +2,7 @@
 # Best Practices per l'Ereditarietà delle Classi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
 =======
 <<<<<<< HEAD
@@ -68,6 +69,9 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
+>>>>>>> a55aa5e96 (.)
 
 ## Analisi dell'Ereditarietà di XotBasePage
 

@@ -47,6 +47,7 @@ return [
         'description' => 'Provider italiano per servizi di telecomunicazioni e SMS',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 <<<<<<< HEAD
@@ -2003,3 +2004,6 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+];
+>>>>>>> a55aa5e96 (.)

@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
@@ -2591,6 +2592,11 @@ use Tests\TestCase;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> a55aa5e96 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -3384,6 +3390,7 @@ class NotifyThemeTest extends TestCase
         $this->assertFalse($theme->view_params['features']['animations']);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5200,3 +5207,5 @@ class NotifyThemeTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)

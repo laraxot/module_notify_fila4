@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use BackedEnum;
 =======
 <<<<<<< HEAD
@@ -35,11 +36,15 @@ use BackedEnum;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+use BackedEnum;
+>>>>>>> a55aa5e96 (.)
 use Filament\Pages\Page;
 use Modules\Notify\Filament\Clusters\Test;
 
 class SlackNotification extends Page
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
@@ -1181,6 +1186,13 @@ class SlackNotification extends Page
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
+
+    protected static null|string $cluster = Test::class;
+>>>>>>> a55aa5e96 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

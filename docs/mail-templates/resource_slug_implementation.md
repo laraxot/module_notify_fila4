@@ -4,6 +4,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
+>>>>>>> a55aa5e96 (.)
 
 ## Implementazione nel Form Schema
 
@@ -109,6 +113,7 @@ public static function getFormSchema(): array
 3. **Validazione Unicità**: L'opzione `unique(ignoreRecord: true)` garantisce unicità, escludendo il record corrente durante l'aggiornamento.
 4. **Generazione Automatica**: La callback `afterStateUpdated()` genera automaticamente lo slug dal nome quando si crea un nuovo record.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
@@ -176,6 +181,9 @@ public static function getFormSchema(): array
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+## Conformità con gli Standard <nome progetto>
+>>>>>>> a55aa5e96 (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 
@@ -193,6 +201,7 @@ Il campo `slug` è anche implementato nelle colonne della tabella di visualizzaz
 
 ```php
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * Campo slug in getListTableColumns()
@@ -254,6 +263,11 @@ public static function getListTableColumns(): array
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+ * Campo slug in getListTableColumns()
+ */
+public static function getListTableColumns(): array
+>>>>>>> a55aa5e96 (.)
 {
     return [
         'id' => Tables\Columns\TextColumn::make('id')

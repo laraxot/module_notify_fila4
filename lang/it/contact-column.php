@@ -6,6 +6,7 @@ declare(strict_types=1);
 /**
  * Traduzioni per ContactColumn - Colonna Filament per contatti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,10 +374,13 @@ declare(strict_types=1);
 =======
 >>>>>>> 3ee54c5d (.)
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3620,6 +3624,8 @@ declare(strict_types=1);
 =======
 >>>>>>> e7a9a2bf (.)
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  * @author Laraxot Team
  * @version 1.0
 >>>>>>> 75179b85 (.)

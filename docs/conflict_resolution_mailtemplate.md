@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +187,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Risoluzione Conflitti MailTemplate.php
 
 ## Contesto del Conflitto
@@ -257,6 +260,7 @@ Verificare che:
 - [SMS Implementation Guide](sms_implementation.md)
 - [Mail Templates Structure](mail_templates_structure.md)
 - [Translation Standards](translation_standards.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
@@ -1519,3 +1523,8 @@ Verificare che:
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+- [Root Conflict Resolution Guidelines](../../../docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> a55aa5e96 (.)

@@ -22,6 +22,7 @@ Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza m
 
 Le azioni specifiche dei provider SMS si trovano nella directory:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
 =======
 <<<<<<< HEAD
@@ -88,6 +89,9 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
+>>>>>>> a55aa5e96 (.)
 
 ### 3. Convenzioni di Nomenclatura
 

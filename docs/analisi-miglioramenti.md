@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201,6 +202,8 @@
 =======
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Analisi e Miglioramenti del Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti
@@ -216,6 +219,7 @@ use Filament\Forms\Components\Builder;
 
 class TemplateResource extends Resource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
@@ -512,6 +516,9 @@ class TemplateResource extends Resource
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
     {
         return $form->schema([
             Builder::make('content')
@@ -692,6 +699,7 @@ namespace Modules\Notify\Filament\Resources;
 class TemplateResource extends Resource
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(Form $form): Form
 =======
 <<<<<<< HEAD
@@ -987,6 +995,9 @@ class TemplateResource extends Resource
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1083,6 +1094,7 @@ class TemplatePreview extends Component
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2145,10 +2157,13 @@ class TemplatePreview extends Component
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3715,3 +3730,5 @@ class TemplatePreview extends Component
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

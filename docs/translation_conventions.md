@@ -213,6 +213,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
 =======
 <<<<<<< HEAD
@@ -279,6 +280,9 @@ Per verificare se le traduzioni sono applicate correttamente:
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+- [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> a55aa5e96 (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 

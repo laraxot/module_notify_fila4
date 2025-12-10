@@ -7,6 +7,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class() extends XotBaseMigration {
 =======
 <<<<<<< HEAD
@@ -950,6 +951,9 @@ return new class() extends XotBaseMigration {
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> a55aa5e96 (.)
     /**
      * Run the migrations.
      */
@@ -957,6 +961,7 @@ return new class() extends XotBaseMigration {
     {
         // -- CREATE --
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1365,6 +1370,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->nullableMorphs('model');
@@ -1375,9 +1382,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> d284d65 (.)
         // -- UPDATE --
         $this->tableUpdate(function (Blueprint $table): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (!$this->hasColumn('notify_theme_id')) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1437,6 +1443,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 $table->integer('notify_theme_id')->nullable();
             }
             $this->updateTimestamps(
@@ -1444,6 +1452,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2353,6 +2362,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     }
 };
 =======

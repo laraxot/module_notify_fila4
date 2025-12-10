@@ -29,6 +29,12 @@ class LogsRelationManager extends RelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 50d6b63f (.)
     public function form(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
 =======
     public function form(Form $form): Form
@@ -59,10 +65,16 @@ class LogsRelationManager extends RelationManager
     public function form(Form $form): Form
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 =======
     public function form(Form $form): Form
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
     public function form(Form $form): Form
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
@@ -70,6 +82,17 @@ class LogsRelationManager extends RelationManager
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+    public function form(\Filament\Schemas\Schema $schema): \Filament\Schemas\Schema
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b8 (.)
+>>>>>>> c8b1c8bf (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 75179b85 (.)
+>>>>>>> 50d6b63f (.)
+>>>>>>> a55aa5e96 (.)
     {
         return $form
             ->schema([

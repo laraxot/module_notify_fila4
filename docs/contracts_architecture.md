@@ -10,6 +10,7 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 ```
 ✅ CORRETTO:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33,11 +34,14 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SmsProviderActionInterface.php
 
 ❌ ERRATO:
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SmsActionInterface.php
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionInterface.php (sottocartella non corretta)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -127,6 +131,8 @@ Le interfacce **DEVONO** essere posizionate nella directory `app/Contracts/`, **
 >>>>>>> laraxot/develop
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 ```
 
 ### 2. Namespace Unificati per le Interfacce
@@ -167,6 +173,7 @@ SendSmsInterface
 ## Struttura di Directory Corretta
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
@@ -234,6 +241,9 @@ SendSmsInterface
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/
+>>>>>>> a55aa5e96 (.)
 ├── app/
 │   ├── Actions/
 │   │   ├── Email/

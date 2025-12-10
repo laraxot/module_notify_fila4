@@ -7,6 +7,7 @@ namespace Modules\Notify\Notifications;
 
 use Illuminate\Bus\Queueable;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Notification;
 use Modules\Notify\Datas\WhatsAppData;
@@ -1028,12 +1029,18 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Notifications\Notification;
+use Modules\Notify\Datas\WhatsAppData;
+>>>>>>> a55aa5e96 (.)
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 
 /**
  * Class WhatsAppNotification
  *
  * Notification class for sending WhatsApp messages through various providers.
+<<<<<<< HEAD
 <<<<<<< HEAD
  *
  * @package Modules\Notify\Notifications
@@ -1463,6 +1470,8 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 =======
 >>>>>>> 0f07e6d (.)
 >>>>>>> 2f135ef98 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  *
 =======
  * 
@@ -1471,6 +1480,7 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
  *
 >>>>>>> 4e2ebfb (.)
  * @package Modules\Notify\Notifications
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 <<<<<<< HEAD
@@ -1655,6 +1665,8 @@ use Modules\Xot\Actions\Cast\SafeStringCastAction;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  */
 class WhatsAppNotification extends Notification implements ShouldQueue
 {
@@ -1662,10 +1674,9 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 
     /**
      * The WhatsApp data.
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
      * @var WhatsAppData
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1732,6 +1743,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      */
     protected WhatsAppData $whatsappData;
 
@@ -1745,10 +1758,9 @@ class WhatsAppNotification extends Notification implements ShouldQueue
     /**
      * Create a new notification instance.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param string|WhatsAppData $content The content of the WhatsApp message or WhatsAppData object
      * @param array<string, mixed> $config Configuration options including provider
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1825,6 +1837,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      */
     public function __construct(string|WhatsAppData $content, array $config = [])
     {
@@ -1833,6 +1847,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
         } else {
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -2474,10 +2489,14 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
             /** @phpstan-ignore-next-line */
             $this->whatsappData = new WhatsAppData(
                 to: SafeStringCastAction::cast($to),
                 body: $content,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2882,10 +2901,13 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 from: $from !== null ? SafeStringCastAction::cast($from) : null,
             );
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3610,6 +3632,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $this->config = $config;
     }
 
@@ -3617,6 +3641,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
      * Get the notification's delivery channels.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4753,10 +4778,13 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> 26d39e2eb (.)
 >>>>>>> a12f125f4a (.)
 =======
+=======
+>>>>>>> a55aa5e96 (.)
      * @param mixed $_notifiable L'entità da notificare
      * @return array<int, string>
      */
     public function via(mixed $_notifiable): array
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
@@ -4981,6 +5009,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     {
         // TODO: Implementare WhatsAppChannel quando disponibile
         return ['whatsapp'];
@@ -4988,11 +5018,10 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 
     /**
      * Get the WhatsApp representation of the notification.
-<<<<<<< HEAD
-<<<<<<< HEAD
      *
      * @param mixed $notifiable
      * @return WhatsAppData
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5069,6 +5098,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      */
     public function toWhatsApp(mixed $notifiable): WhatsAppData
     {
@@ -5105,6 +5136,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5490,6 +5522,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      *
      * @return string|null
      */
@@ -5545,6 +5579,7 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5583,6 +5618,8 @@ class WhatsAppNotification extends Notification implements ShouldQueue
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         return is_string($provider) ? $provider : null;
     }
 }

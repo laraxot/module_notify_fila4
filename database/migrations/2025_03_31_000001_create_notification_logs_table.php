@@ -8,6 +8,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends Migration {
 =======
 <<<<<<< HEAD
@@ -991,6 +992,9 @@ return new class extends Migration {
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+return new class extends Migration {
+>>>>>>> a55aa5e96 (.)
     /**
      * Esegue la migrazione.
      */
@@ -1009,6 +1013,7 @@ return new class extends Migration {
             $table->text('error')->nullable();
             $table->timestamps();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1649,6 +1654,9 @@ return new class extends Migration {
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');

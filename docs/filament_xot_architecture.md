@@ -4,6 +4,7 @@
 ## Introduzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+<nome progetto> utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
+>>>>>>> a55aa5e96 (.)
 
 Questo documento spiega in dettaglio i motivi architetturali, i vantaggi e l'implementazione di questo pattern.
 
@@ -124,6 +128,7 @@ abstract class XotBasePage extends Page implements HasForms
 
     // Form standardizzato
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 <<<<<<< HEAD
@@ -230,6 +235,9 @@ abstract class XotBasePage extends Page implements HasForms
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+    public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> a55aa5e96 (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -282,6 +290,7 @@ Prima (❌):
 ```php
 // In ogni classe Page
 <<<<<<< HEAD
+<<<<<<< HEAD
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 <<<<<<< HEAD
@@ -388,6 +397,9 @@ public function form(Form $form): Form
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> a55aa5e96 (.)
 {
     return $form
         ->schema([
@@ -428,6 +440,7 @@ protected function getFormSchema(): array
 Per verificare che tutte le classi seguano questa regola:
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 =======
@@ -495,6 +508,9 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
+>>>>>>> a55aa5e96 (.)
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.

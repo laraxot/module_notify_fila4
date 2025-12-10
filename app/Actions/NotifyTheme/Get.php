@@ -22,6 +22,7 @@ class Get
     {
         $xotData = XotData::make();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -732,10 +733,14 @@ class Get
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         if (! isset($view_params['post_id'])) {
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1762,6 +1767,8 @@ class Get
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -1773,6 +1780,7 @@ class Get
                 'post_id' => $view_params['post_id'], // in questo caso il tipo come register type 3 in cui la pwd e' solo autogenerata
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             ['view_params' => []],
 =======
 <<<<<<< HEAD
@@ -2413,11 +2421,15 @@ class Get
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+            ['view_params' => []],
+>>>>>>> a55aa5e96 (.)
         );
 
         $module_name_low = Str::lower($xotData->main_module);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3036,10 +3048,13 @@ class Get
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4116,10 +4131,16 @@ class Get
 =======
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+            $theme->update(['subject' => $subject]);
+        }
+
+>>>>>>> a55aa5e96 (.)
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if ($theme->body_html === null) {
             $html = trans($trad_mod . '.body_html');
@@ -5306,6 +5327,11 @@ class Get
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        if ($theme->body_html === null) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+>>>>>>> a55aa5e96 (.)
                 $html = '##body_html##';
             }
 
@@ -5350,6 +5376,7 @@ class Get
                 }
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             $view_params['logo'] =
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
@@ -6389,10 +6416,19 @@ class Get
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
 
+=======
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
+        }
+
+>>>>>>> a55aa5e96 (.)
         // dddx([$theme, $view_params]);
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
@@ -7480,6 +7516,10 @@ class Get
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+>>>>>>> a55aa5e96 (.)
             }
         }
 
@@ -7491,6 +7531,7 @@ class Get
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8037,11 +8078,16 @@ class Get
             'from_email' => $theme->from_email,
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+        return NotifyThemeData::from([
+            'from_email' => $theme->from_email,
+>>>>>>> a55aa5e96 (.)
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,
             'view_params' => $view_params,
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -8761,6 +8807,8 @@ class Get
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     }
 }
 =======

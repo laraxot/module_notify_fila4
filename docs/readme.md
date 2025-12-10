@@ -4,7 +4,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a55aa5e96 (.)
 =======
 =======
 =======
@@ -1020,6 +1023,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 ---
 
 >>>>>>> 54220b28 (rebase 210)
+<<<<<<< HEAD
 =======
 # Modulo Notify - Analisi Completa
 
@@ -1310,10 +1314,13 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
 **Ultimo aggiornamento**: Dicembre 2024  
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1326,3 +1333,8 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 54220b28 (rebase 210)
+>>>>>>> a55aa5e96 (.)

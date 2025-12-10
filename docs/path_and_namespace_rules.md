@@ -9,6 +9,7 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,11 +33,14 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Models
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Filament
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -126,11 +130,14 @@
 >>>>>>> laraxot/develop
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 ```
 
 ### ❌ Path Errati
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -233,6 +240,11 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Actions/SMS
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Http/Controllers
+/var/www/html/<nome progetto>/laravel/Modules/Notify/App/Providers
+>>>>>>> a55aa5e96 (.)
 ```
 
 ## Struttura Corretta dei Namespace
@@ -267,6 +279,7 @@ namespace Modules\Notify\App\Datas;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
 =======
@@ -334,6 +347,9 @@ namespace Modules\Notify\App\Datas;
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/SendNetfunSmsAction.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 **Namespace corretto:**
@@ -345,6 +361,7 @@ namespace Modules\Notify\Actions\SMS;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
 =======
@@ -412,6 +429,9 @@ namespace Modules\Notify\Actions\SMS;
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Http/Controllers/NotificationController.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 **Namespace corretto:**
@@ -423,6 +443,7 @@ namespace Modules\Notify\Http\Controllers;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
 =======
@@ -490,6 +511,9 @@ namespace Modules\Notify\Http\Controllers;
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Providers/NotifyServiceProvider.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 **Namespace corretto:**
@@ -501,6 +525,7 @@ namespace Modules\Notify\Providers;
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
 =======
@@ -568,6 +593,9 @@ namespace Modules\Notify\Providers;
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Datas/NetfunSMSMessage.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 **Namespace corretto:**
@@ -584,6 +612,7 @@ namespace Modules\Notify\App\Datas;
 
 ## Motivo di questa Regola
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
 =======
@@ -651,6 +680,9 @@ Questa struttura di namespace mantiene compatibilità con la convenzione di Lara
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questa struttura di namespace mantiene compatibilità con la convenzione di Laravel e il sistema di moduli Nwidart, anche se i file sono fisicamente organizzati in modo diverso. Questo approccio è stato adottato per standardizzare i namespace in tutto il progetto <nome progetto>.
+>>>>>>> a55aa5e96 (.)
 
 ## Esempio per Datas
 
@@ -682,6 +714,7 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 
 **Path fisico corretto:**
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
 =======
@@ -749,6 +782,9 @@ Per le regole generali e condivise tra tutti i moduli, consulta anche:
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Console/Commands/AnalyzeTranslationFiles.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 **Namespace corretto:**

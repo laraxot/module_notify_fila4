@@ -4,6 +4,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di <nome progetto>, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ Questo documento descrive l'architettura e l'implementazione dell'integrazione W
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento descrive l'architettura e l'implementazione dell'integrazione WhatsApp nel modulo Notify di <nome progetto>, seguendo gli stessi standard e pattern utilizzati per l'invio di email e SMS.
+>>>>>>> a55aa5e96 (.)
 
 ## Architettura
 
@@ -467,6 +471,7 @@ $action = app(SendTwilioWhatsAppAction::class);
 $whatsAppData = new WhatsAppData(
     to: '+393401234567',
 <<<<<<< HEAD
+<<<<<<< HEAD
     body: 'Questo è un messaggio di test da <nome progetto>',
 =======
 <<<<<<< HEAD
@@ -533,6 +538,9 @@ $whatsAppData = new WhatsAppData(
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+    body: 'Questo è un messaggio di test da <nome progetto>',
+>>>>>>> a55aa5e96 (.)
 );
 
 $result = $action->execute($whatsAppData);
@@ -666,6 +674,7 @@ L'integrazione WhatsApp  segue gli stessi pattern e standard utilizzati per l'in
 4. **Testabilità**: Le azioni sono facilmente testabili grazie all'interfaccia comune
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di <nome progetto>, mantenendo la coerenza con le altre modalità di comunicazione.
 =======
 <<<<<<< HEAD
@@ -732,6 +741,9 @@ Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Seguendo questa architettura, l'integrazione WhatsApp si inserisce perfettamente nell'ecosistema di notifiche di <nome progetto>, mantenendo la coerenza con le altre modalità di comunicazione.
+>>>>>>> a55aa5e96 (.)
 
 ---
 

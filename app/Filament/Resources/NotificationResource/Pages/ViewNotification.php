@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Override;
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
@@ -194,6 +195,8 @@ use Filament\Schemas\Components\Component;
 =======
 use Filament\Schemas\Components\Component;
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Override;
 =======
 >>>>>>> b19cd40 (.)
@@ -202,6 +205,7 @@ use Filament\Schemas\Components\Component;
 use Override;
 >>>>>>> 4e2ebfb (.)
 use Filament\Schemas\Components\Section;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,12 +367,18 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+use Filament\Infolists\Components\TextEntry;
+use Modules\Notify\Filament\Resources\NotificationResource;
+use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+>>>>>>> a55aa5e96 (.)
 
 class ViewNotification extends XotBaseViewRecord
 {
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
 =======
@@ -606,6 +616,9 @@ class ViewNotification extends XotBaseViewRecord
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> a55aa5e96 (.)
      */
     #[Override]
     protected function getInfolistSchema(): array

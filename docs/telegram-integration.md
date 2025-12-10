@@ -1,18 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Integrazione Telegram 
 
+<<<<<<< HEAD
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto <nome progetto>, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
 =======
 <<<<<<< HEAD
@@ -1028,6 +1016,9 @@ Questo documento descrive l'architettura e l'implementazione dell'integrazione T
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto SaluteOra, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto <nome progetto>, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
+>>>>>>> a55aa5e96 (.)
 
 ## Architettura
 
@@ -1202,6 +1193,7 @@ TELEGRAM_PARSE_MODE=HTML
 2. **Rate limiting**: Utilizzare il rate limiting per prevenire abusi
 3. **Validazione input**: Validare sempre i dati in ingresso prima dell'invio
 4. **Logging**: Registrare tutte le operazioni critiche nei log, ma evitare di loggare dati sensibili
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1398,3 +1390,5 @@ TELEGRAM_PARSE_MODE=HTML
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

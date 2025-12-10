@@ -2,6 +2,7 @@
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
 =======
 <<<<<<< HEAD
@@ -68,6 +69,9 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
+>>>>>>> a55aa5e96 (.)
 
 ## Implementazione Attuale con Match
 

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 declare(strict_types=1);
 
@@ -2732,6 +2733,11 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+
+declare(strict_types=1);
+
+>>>>>>> a55aa5e96 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',

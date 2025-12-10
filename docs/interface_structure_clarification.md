@@ -7,6 +7,7 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
 =======
 <<<<<<< HEAD
@@ -73,6 +74,9 @@
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/SMS/SmsActionContract.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 Con il namespace corrispondente:

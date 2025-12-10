@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1143,6 +1144,11 @@ declare(strict_types=1);
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> a55aa5e96 (.)
 return [
     'navigation' => [
         'label' => 'Send SMS',

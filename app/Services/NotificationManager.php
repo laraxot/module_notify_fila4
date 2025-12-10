@@ -19,6 +19,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,13 +102,18 @@ use Modules\Notify\Models\NotificationLog;
 =======
 use Modules\Notify\Actions\SendNotificationAction;
 =======
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Actions\SendNotificationAction;
 use Modules\Notify\Models\NotificationLog;
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Modules\Notify\Models\NotificationTemplate;
 
 class NotificationManager
@@ -115,13 +121,9 @@ class NotificationManager
     /**
      * Invia una notifica a un destinatario.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param Model $recipient Il destinatario della notifica
      * @param string $templateCode Il codice del template da utilizzare
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151,11 +153,14 @@ class NotificationManager
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * @param array<string, mixed> $data I dati per compilare il template
      * @param array<int, string> $channels I canali da utilizzare (opzionale)
      * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
      *
      * @return array<string, mixed>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -542,12 +547,15 @@ class NotificationManager
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      */
     public function send(
         Model $recipient,
         string $templateCode,
         array $data = [],
         array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1064,6 +1072,8 @@ class NotificationManager
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
         array $options = [],
 =======
 >>>>>>> 26d39e2eb (.)
@@ -1086,6 +1096,7 @@ class NotificationManager
     ): array {
         $template = $this->getTemplate($templateCode);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1282,15 +1293,20 @@ class NotificationManager
 =======
         $action->execute($recipient, $templateCode, $safeData, $safeChannels, $safeOptions);
 =======
+=======
+>>>>>>> a55aa5e96 (.)
         if (!$template) {
             throw new Exception("Template not found: {$templateCode}");
         }
 
         $action = app(SendNotificationAction::class);
         $action->execute($recipient, $templateCode, $data, $channels, $options);
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
         return [];
     }
@@ -1298,6 +1314,7 @@ class NotificationManager
     /**
      * Invia una notifica a più destinatari.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1334,6 +1351,8 @@ class NotificationManager
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * @param array<int, Model> $recipients I destinatari delle notifiche
      * @param string $templateCode Il codice del template da utilizzare
      * @param array<string, mixed> $data I dati per compilare il template
@@ -1341,6 +1360,7 @@ class NotificationManager
      * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
      *
      * @return array<int, array<string, mixed>>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -2049,12 +2069,15 @@ class NotificationManager
      *
      * @return array<array>
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      */
     public function sendMultiple(
         array $recipients,
         string $templateCode,
         array $data = [],
         array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2100,12 +2123,10 @@ class NotificationManager
 =======
 <<<<<<< HEAD
 >>>>>>> cbb586cb0 (.)
-        array $options = [],
 =======
-        array $options = []
->>>>>>> b19cd40 (.)
+>>>>>>> a55aa5e96 (.)
+        array $options = [],
     ): array {
-<<<<<<< HEAD
         /** @var array<int, array<string, mixed>> $logs */
         $logs = [];
 
@@ -2113,6 +2134,7 @@ class NotificationManager
             if (!($recipient instanceof Model)) {
                 continue;
             }
+<<<<<<< HEAD
 =======
         $logs = [];
 
@@ -2774,6 +2796,9 @@ class NotificationManager
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+            $logs[] = $this->send($recipient, $templateCode, $data, $channels, $options);
+>>>>>>> a55aa5e96 (.)
         }
 
         return $logs;
@@ -2782,6 +2807,7 @@ class NotificationManager
     /**
      * Recupera un template per codice.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2966,6 +2992,8 @@ class NotificationManager
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * @param string $code Il codice del template
      * @return NotificationTemplate|null
      */
@@ -2984,6 +3012,7 @@ class NotificationManager
 =======
 >>>>>>> cbb586cb0 (.)
     public function getTemplate(string $code): null|NotificationTemplate
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3980,11 +4009,16 @@ class NotificationManager
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    {
+        return NotificationTemplate::where('code', $code)->where('is_active', true)->first();
+>>>>>>> a55aa5e96 (.)
     }
 
     /**
      * Recupera i template per categoria.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4201,10 +4235,13 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> a55aa5e96 (.)
      * @param string $category La categoria dei template
      * @return Collection<NotificationTemplate>
      */
     public function getTemplatesByCategory(string $category)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -4900,11 +4937,16 @@ class NotificationManager
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+    {
+        return NotificationTemplate::where('category', $category)->where('is_active', true)->get();
+>>>>>>> a55aa5e96 (.)
     }
 
     /**
      * Recupera i template per canale.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5121,10 +5163,13 @@ class NotificationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> a55aa5e96 (.)
      * @param string $channel Il canale di notifica
      * @return Collection<NotificationTemplate>
      */
     public function getTemplatesByChannel(string $channel)
+<<<<<<< HEAD
 >>>>>>> 7ceb00286 (.)
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
@@ -5820,11 +5865,16 @@ class NotificationManager
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+    {
+        return NotificationTemplate::forChannel($channel)->where('is_active', true)->get();
+>>>>>>> a55aa5e96 (.)
     }
 
     /**
      * Recupera le statistiche di invio per un template.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param NotificationTemplate $_template Template delle notifiche Il template
 =======
@@ -6414,17 +6464,16 @@ class NotificationManager
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+     * @param NotificationTemplate $_template Template delle notifiche Il template
+>>>>>>> a55aa5e96 (.)
      * @return array<string, mixed>
      */
     public function getTemplateStats(NotificationTemplate $_template): array
     {
         // $logs = $template->logs();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7391,6 +7440,8 @@ class NotificationManager
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -7414,6 +7465,7 @@ class NotificationManager
      * Recupera le statistiche di invio per un destinatario.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param Model $_recipient Il destinatario
 =======
 <<<<<<< HEAD
@@ -8002,17 +8054,16 @@ class NotificationManager
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+     * @param Model $_recipient Il destinatario
+>>>>>>> a55aa5e96 (.)
      * @return array<string, mixed>
      */
     public function getRecipientStats(Model $_recipient): array
     {
         // $logs = NotificationLog::forNotifiable($recipient)->get();
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8979,6 +9030,8 @@ class NotificationManager
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         // return [
         //     'total' => $logs->count(),
         //     'sent' => $logs->where('status', NotificationLog::STATUS_SENT)->count(),
@@ -8997,6 +9050,7 @@ class NotificationManager
             'clicked' => 0,
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 =======
@@ -9640,3 +9694,6 @@ class NotificationManager
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+}
+>>>>>>> a55aa5e96 (.)

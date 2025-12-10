@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -329,6 +332,7 @@ Log::debug('SMS Debug', [
 ### 2. Risorse Utili
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queue](https://laravel.com/docs/queues)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1187,6 +1191,9 @@ Log::debug('SMS Debug', [
 - [Laravel Logging](https://laravel.com/docs/logging)
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+- [Laravel Logging](https://laravel.com/docs/logging)
+>>>>>>> a55aa5e96 (.)
 
 ## Supporto
 
@@ -1216,6 +1223,7 @@ Log::debug('SMS Debug', [
 - Check periodici
 - Alert system
 - Report mensili 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1412,3 +1420,5 @@ Log::debug('SMS Debug', [
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

@@ -4,6 +4,7 @@
 ## Introduzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ Questo documento esplora i componenti Filament che possono migliorare l'esperien
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento esplora i componenti Filament che possono migliorare l'esperienza utente per i campi `name` e `slug` nel form di gestione dei template email. I miglioramenti proposti seguono le convenzioni del progetto <nome progetto>, mantenendo la coerenza visiva e migliorando l'usabilità.
+>>>>>>> a55aa5e96 (.)
 
 ## Componenti per il Campo `name`
 
@@ -281,6 +285,7 @@ return [
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 <<<<<<< HEAD
@@ -347,6 +352,9 @@ return [
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+## Conformità con gli Standard <nome progetto>
+>>>>>>> a55aa5e96 (.)
 
 Tutti i componenti proposti:
 1. Non utilizzano il metodo `->label()` sui componenti Filament
@@ -362,6 +370,7 @@ I miglioramenti UI/UX proposti per i campi `name` e `slug` si concentrano su:
 3. **Azioni contestuali** che facilitano operazioni comuni
 4. **Relazioni intuitive** tra campi correlati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
 =======
@@ -429,6 +438,9 @@ L'implementazione di questi miglioramenti rispetta le convenzioni del progetto S
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+L'implementazione di questi miglioramenti rispetta le convenzioni del progetto <nome progetto> mentre offre un'esperienza utente significativamente migliorata nella gestione dei template email.
+>>>>>>> a55aa5e96 (.)
 
 ## Riferimenti
 

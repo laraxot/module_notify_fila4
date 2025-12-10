@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Guida alla Migrazione di MailTemplate
 
 ## Panoramica
@@ -174,6 +177,7 @@ Questo documento descrive l'implementazione del campo `slug` nella tabella `mail
 
 Il file di migrazione principale per la tabella `mail_templates` è:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 =======
@@ -1048,6 +1052,9 @@ Il file di migrazione principale per la tabella `mail_templates` è:
 /var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
+>>>>>>> a55aa5e96 (.)
 ```
 
 Questo file è implementato usando `XotBaseMigration`, che utilizza un pattern evolutivo che differisce dalle migrazioni standard di Laravel.
@@ -1178,6 +1185,7 @@ Per una comprensione completa, consultare anche:
 ## Conclusione
 
 Seguire il pattern di migrazione `XotBaseMigration` è essenziale per mantenere la coerenza in tutto il progetto. L'implementazione del campo `slug` nella tabella `mail_templates` dimostra l'applicazione corretta di questo pattern e offre numerosi vantaggi per l'usabilità del sistema di template email.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1374,3 +1382,5 @@ Seguire il pattern di migrazione `XotBaseMigration` è essenziale per mantenere 
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

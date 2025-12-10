@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +187,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Guida: Creazione di Plugin Tailwind Custom per <nome progetto>
 
 Questa guida mostra come creare, documentare e integrare plugin custom Tailwind CSS per pattern condivisi (bottoni, alert, badge, ecc.) secondo le best practice Webcrunch e le regole <nome progetto>.
@@ -252,6 +255,7 @@ module.exports = {
 
 ## 4. Best Practice
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 =======
 <<<<<<< HEAD
@@ -1696,6 +1700,9 @@ module.exports = {
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
+>>>>>>> a55aa5e96 (.)
 - Usare i plugin per pattern condivisi (bottoni, alert, badge, card, ecc.).
 - Versionare e testare i plugin per evitare regressioni.
 - Integrare plugin solo se realmente riutilizzati da più moduli/temi.
@@ -1713,6 +1720,7 @@ module.exports = {
 
 ## 6. Collegamenti e Risorse
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 =======
 <<<<<<< HEAD
@@ -3157,6 +3165,9 @@ module.exports = {
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
+>>>>>>> a55aa5e96 (.)
 - [Webcrunch: Creare Plugin Tailwind](https://webcrunch.com/posts/create-a-tailwind-css-plugin-from-scratch)
 
 ---
@@ -3165,6 +3176,7 @@ module.exports = {
 - Centralizzare i plugin condivisi per evitare duplicazione.
 - Documentare pattern e snippet di utilizzo.
 - Integrare plugin custom solo se portano reale valore e riuso.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3387,3 +3399,5 @@ module.exports = {
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

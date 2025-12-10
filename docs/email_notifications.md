@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +187,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Sistema Notifiche Email - il progetto
 
 ## Panoramica
@@ -357,6 +360,7 @@ namespace Modules\Notify\Filament\Resources;
 
 class NotificationResource extends XotBaseResource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
@@ -645,6 +649,9 @@ class NotificationResource extends XotBaseResource
     public static function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -838,6 +845,7 @@ class NotificationDebugger
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
@@ -2680,3 +2688,8 @@ class NotificationDebugger
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+- [Laravel Notifications](https://laravel.com/docs/notifications)
+- [Laravel Events](https://laravel.com/docs/events)
+- [Laravel Mail](https://laravel.com/docs/mail) 
+>>>>>>> a55aa5e96 (.)

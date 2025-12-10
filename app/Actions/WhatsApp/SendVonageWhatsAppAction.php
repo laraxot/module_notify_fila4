@@ -11,6 +11,7 @@ use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29,11 +30,14 @@ use Illuminate\Support\Str;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,25 +611,18 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use function Safe\json_decode;
 
 final class SendVonageWhatsAppAction
 {
     use QueueableAction;
 
-<<<<<<< HEAD
     private string $apiKey;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    protected bool $debug;
->>>>>>> c8b1c8bf (.)
-
->>>>>>> f1c9518b (.)
     private string $apiSecret;
     private string $baseUrl = 'https://api.nexmo.com/v1/messages';
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,14 +657,14 @@ final class SendVonageWhatsAppAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /** @var array<string, mixed> */
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected ?string $defaultSender;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1578,6 +1575,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
     /**
      * Create a new action instance.
@@ -1585,9 +1584,8 @@ final class SendVonageWhatsAppAction
     public function __construct()
     {
         $apiKey = config('services.vonage.api_key');
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!is_string($apiKey)) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1647,14 +1645,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             throw new Exception('put [VONAGE_KEY] variable to your .env and config [services.vonage.api_key]');
         }
         $this->apiKey = $apiKey;
 
         $apiSecret = config('services.vonage.api_secret');
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (!is_string($apiSecret)) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1714,6 +1713,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             throw new Exception('put [VONAGE_SECRET] variable to your .env and config [services.vonage.api_secret]');
         }
         $this->apiSecret = $apiSecret;
@@ -1723,6 +1724,7 @@ final class SendVonageWhatsAppAction
         $defaultSender = config('whatsapp.from');
         $this->defaultSender = $defaultSender;
         $this->debug = (bool) config('whatsapp.debug', false);
+<<<<<<< HEAD
 <<<<<<< HEAD
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
 =======
@@ -2475,14 +2477,16 @@ final class SendVonageWhatsAppAction
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+>>>>>>> a55aa5e96 (.)
     }
 
     /**
      * Execute the action.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+<<<<<<< HEAD
      * @return array<string, mixed> Risultato dell'operazione
 =======
 <<<<<<< HEAD
@@ -2581,11 +2585,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+     * @return array<string, mixed> Risultato dell'operazione
+>>>>>>> a55aa5e96 (.)
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
     {
         $from = $whatsAppData->from ?? $this->defaultSender;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -3227,6 +3235,9 @@ final class SendVonageWhatsAppAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp Vonage', [
@@ -3236,6 +3247,7 @@ final class SendVonageWhatsAppAction
             ]);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -3876,6 +3888,9 @@ final class SendVonageWhatsAppAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
@@ -3883,6 +3898,7 @@ final class SendVonageWhatsAppAction
                 'Accept' => 'application/json',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4944,6 +4960,11 @@ final class SendVonageWhatsAppAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+            ],
+        ]);
+
+>>>>>>> a55aa5e96 (.)
         $payload = [
             'from' => [
                 'type' => 'whatsapp',
@@ -4962,6 +4983,7 @@ final class SendVonageWhatsAppAction
         ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
@@ -5156,6 +5178,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 =======
 <<<<<<< HEAD
@@ -5217,12 +5241,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         if ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
-<<<<<<< HEAD
             /** @var string $mediaUrl */
             $mediaUrl = is_string($whatsAppData->media[0]) ? $whatsAppData->media[0] : (string) $whatsAppData->media[0];
+<<<<<<< HEAD
 =======
             $mediaUrl = $whatsAppData->media[0];
 >>>>>>> 75179b85 (.)
@@ -5240,6 +5267,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $mediaType = $this->determineMediaType($mediaUrl);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5250,6 +5279,7 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> be698cf2c (.)
 
+<<<<<<< HEAD
 >>>>>>> 2f135ef98 (.)
 =======
 <<<<<<< HEAD
@@ -6075,6 +6105,8 @@ final class SendVonageWhatsAppAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $payload['message']['content'] = [
                 'type' => $mediaType,
                 $mediaType => [
@@ -6082,9 +6114,8 @@ final class SendVonageWhatsAppAction
                     'caption' => $whatsAppData->body,
                 ],
             ];
-<<<<<<< HEAD
-<<<<<<< HEAD
         } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6144,12 +6175,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $payload['message']['content'] = [
                 'type' => 'template',
                 'template' => $whatsAppData->template,
             ];
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -6790,12 +6824,16 @@ final class SendVonageWhatsAppAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
         try {
             $response = $client->post($this->baseUrl, [
                 'json' => $payload,
                 'auth' => [$this->apiKey, $this->apiSecret],
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
@@ -6896,29 +6934,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-
 =======
-            
->>>>>>> b19cd40 (.)
+>>>>>>> a55aa5e96 (.)
+
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
-<<<<<<< HEAD
             /** @var array<string, mixed> $responseData */
             $responseData = json_decode($responseContent, true) ?: [];
-=======
-            /** @var array $responseData */
-            $responseData = json_decode($responseContent, true);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
-<<<<<<< HEAD
->>>>>>> 82ae73be (.)
 
+<<<<<<< HEAD
 =======
             
 >>>>>>> b19cd40 (.)
@@ -7780,10 +7804,13 @@ final class SendVonageWhatsAppAction
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+>>>>>>> a55aa5e96 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -8669,11 +8696,15 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
             Log::info('WhatsApp Vonage inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
@@ -8774,18 +8805,15 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'message_id' => isset($responseData['message_uuid']) && is_string($responseData['message_uuid'])
                     ? $responseData['message_uuid']
                     : null,
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9208,6 +9236,8 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -9215,6 +9245,7 @@ final class SendVonageWhatsAppAction
             $response = $e->getResponse();
             $statusCode = $response->getStatusCode();
 <<<<<<< HEAD
+<<<<<<< HEAD
             /** @var array<string, mixed> $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
 
@@ -9661,10 +9692,16 @@ final class SendVonageWhatsAppAction
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> be698cf2c (.)
+=======
+            /** @var array<string, mixed> $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
+
+>>>>>>> a55aa5e96 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
@@ -10645,12 +10682,16 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+
+>>>>>>> a55aa5e96 (.)
             Log::warning('Errore invio WhatsApp Vonage', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             return [
                 'success' => false,
@@ -10759,13 +10800,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
             return [
                 'success' => false,
-<<<<<<< HEAD
                 'error' => isset($responseBody['title']) && is_string($responseBody['title'])
                     ? $responseBody['title']
                     : 'Errore sconosciuto',
+<<<<<<< HEAD
 =======
                 'error' => $responseBody['title'] ?? 'Errore sconosciuto',
 >>>>>>> 75179b85 (.)
@@ -11081,12 +11124,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11710,12 +11756,20 @@ final class SendVonageWhatsAppAction
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+
+    /**
+     * Determina il tipo di media basato sull'URL o sull'estensione del file.
+     *
+     * @param string $url URL del media
+>>>>>>> a55aa5e96 (.)
      * @return string Tipo di media (image, video, audio, file)
      */
     private function determineMediaType(string $url): string
     {
         $extension = strtolower(pathinfo($url, PATHINFO_EXTENSION));
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         return match ($extension) {
 =======
@@ -12439,6 +12493,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+
+        return match ($extension) {
+>>>>>>> a55aa5e96 (.)
             'jpg', 'jpeg', 'png', 'gif', 'webp' => 'image',
             'mp4', 'mov', 'avi', 'webm' => 'video',
             'mp3', 'wav', 'ogg' => 'audio',

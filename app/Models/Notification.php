@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,6 +810,10 @@ use Override;
 =======
 =======
 declare(strict_types=1);
+=======
+declare(strict_types=1);
+
+>>>>>>> a55aa5e96 (.)
 
 >>>>>>> 75179b85 (.)
 
@@ -1004,6 +1009,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1283,10 +1289,13 @@ namespace Modules\Notify\Models;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1465,6 +1474,9 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+use Modules\Xot\Models\BaseModel;
+>>>>>>> a55aa5e96 (.)
 
 /**
  * Notification model for the Notify module.
@@ -1507,9 +1519,9 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
  * @property Carbon|null $sent_at
-<<<<<<< HEAD
  * @property-read Model|null $creator
  * @property-read Model|null $updater
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1584,6 +1596,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -1600,6 +1614,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2127,6 +2142,11 @@ use Modules\Xot\Models\BaseModel;
  */
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+ * @mixin IdeHelperNotification
+ * @mixin \Eloquent
+ */
+>>>>>>> a55aa5e96 (.)
 class Notification extends BaseModel
 {
     /** @var list<string> */
@@ -2149,6 +2169,7 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
 =======
@@ -2829,6 +2850,9 @@ class Notification extends BaseModel
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    #[Override]
+>>>>>>> a55aa5e96 (.)
     protected function casts(): array
     {
         return [

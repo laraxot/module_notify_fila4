@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309,6 +310,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Error Mailer System
 
 ## Panoramica
@@ -480,6 +483,7 @@ class ErrorLogResource extends Resource
 {
     protected static ?string $model = ErrorLog::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
@@ -952,6 +956,9 @@ class ErrorLogResource extends Resource
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -1214,6 +1221,7 @@ return [
 
 ## Vedi Anche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2073,3 +2081,9 @@ return [
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> a55aa5e96 (.)

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +322,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Gestione degli Allegati nelle Email
 
 ## Implementazione Corretta
@@ -330,6 +333,7 @@
 $attachments = [
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -927,11 +931,15 @@ $attachments = [
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ],
     [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -1529,6 +1537,9 @@ $attachments = [
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
         'as' => 'logo.png',
         'mime' => 'image/png'
     ]
@@ -1644,6 +1655,7 @@ Mail::to($user->email)
 - Documentare i tipi supportati
 - Implementare gestione errori
 - Monitorare le performance 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2023,3 +2035,5 @@ Mail::to($user->email)
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

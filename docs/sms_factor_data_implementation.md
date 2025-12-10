@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +187,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # SmsFactorData Implementation Summary
 
 ## Overview
@@ -260,6 +263,7 @@ public function __construct()
 ### 3. Updated Documentation
 
 **Files Created/Updated**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
@@ -2027,6 +2031,10 @@ public function __construct()
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> a55aa5e96 (.)
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -2130,6 +2138,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/app/Actions/SMS/SendSmsFactorSMSAction.php`: Refactored action class
 - `/Modules/Notify/config/sms.php`: SMS configuration file
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 =======
 <<<<<<< HEAD
@@ -3574,10 +3583,14 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> a55aa5e96 (.)
 
 ## Conclusion
 
 The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAction` successfully follows the established pattern and provides a more maintainable, type-safe, and consistent approach to SMS provider configuration management. This change aligns with the project's architecture principles and makes the codebase more robust and easier to extend.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3800,3 +3813,5 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

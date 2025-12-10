@@ -11,6 +11,7 @@ namespace Modules\Notify\Models\Policies;
 use Modules\User\Models\Policies\UserBasePolicy;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
@@ -1004,3 +1005,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> a55aa5e96 (.)

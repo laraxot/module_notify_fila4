@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +195,8 @@ use Filament\Schemas\Schema;
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -218,6 +221,7 @@ use Filament\Actions\Action;
 use Filament\Facades\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,10 +241,13 @@ use Filament\Facades\Filament;
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281,6 +288,8 @@ use Filament\Notifications\Notification;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -289,6 +298,7 @@ use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 /**
@@ -399,6 +409,11 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+>>>>>>> a55aa5e96 (.)
  */
 class SendEmailPage extends XotBasePage
 {
@@ -418,6 +433,7 @@ class SendEmailPage extends XotBasePage
 >>>>>>> cbb586cb0 (.)
     // use NavigationLabelTrait;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public null|array $emailData = [];
 =======
@@ -1271,12 +1287,22 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    public null|array $emailData = [];
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+    protected static null|string $cluster = Test::class;
+>>>>>>> a55aa5e96 (.)
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1342,6 +1368,10 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+    public function emailForm(Schema $schema): Schema
+    {
+>>>>>>> a55aa5e96 (.)
         /** @var array<string, \Filament\Schemas\Components\Component> $formSchema */
         $formSchema = $this->getEmailFormSchema();
         return $schema->components($formSchema)->model($this->getUser())->statePath('emailData');
@@ -1350,6 +1380,7 @@ class SendEmailPage extends XotBasePage
     /**
      * @return array<string, \Filament\Schemas\Components\Component>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1943,6 +1974,8 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     public function getEmailFormSchema(): array
     {
         return [
@@ -2106,6 +2139,7 @@ class SendEmailPage extends XotBasePage
         return [
             Action::make('emailFormActions')
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
 =======
 <<<<<<< HEAD
@@ -2509,6 +2543,9 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+                
+>>>>>>> a55aa5e96 (.)
 
                 ->submit('emailFormActions'),
         ];
@@ -2560,6 +2597,7 @@ class SendEmailPage extends XotBasePage
         $user = Filament::auth()->user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!($user instanceof Model)) {
 =======
 <<<<<<< HEAD
@@ -2810,6 +2848,9 @@ class SendEmailPage extends XotBasePage
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> a55aa5e96 (.)
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );

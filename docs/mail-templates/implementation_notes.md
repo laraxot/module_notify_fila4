@@ -31,6 +31,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
    $attachments = [
        [
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -97,11 +98,15 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -168,6 +173,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> a55aa5e96 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

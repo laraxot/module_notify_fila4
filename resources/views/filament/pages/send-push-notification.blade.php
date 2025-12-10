@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +357,8 @@
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 <?php
 
 declare(strict_types=1);
@@ -363,6 +366,7 @@ declare(strict_types=1);
 ?>
 <x-filament-panels::page>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +381,8 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> a55aa5e96 (.)
     <x-filament::section>
         <x-slot name="heading">
             Test Invio Notifiche Push
@@ -399,6 +405,7 @@ declare(strict_types=1);
             </div>
         </x-slot>
     </x-filament::section>
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -3101,6 +3108,8 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 </x-filament-panels::page>
 =======
 >>>>>>> 301ad8b44 (.)

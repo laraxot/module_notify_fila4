@@ -45,6 +45,7 @@ $smsData = new SmsData(
     to: '+393331234567',
     body: 'Il tuo codice OTP è: 123456',
 <<<<<<< HEAD
+<<<<<<< HEAD
     from: '<nome progetto>'
 =======
 <<<<<<< HEAD
@@ -111,6 +112,9 @@ $smsData = new SmsData(
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+    from: '<nome progetto>'
+>>>>>>> a55aa5e96 (.)
 );
 
 $action = new SendNetfunSMSAction();

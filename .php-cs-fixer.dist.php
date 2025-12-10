@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -2916,6 +2917,10 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> a55aa5e96 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -2924,6 +2929,7 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
 <<<<<<< HEAD
     ->ignoreVCS(true);
 =======
@@ -2982,6 +2988,9 @@ $finder = PhpCsFixer\Finder::create()
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+    ->ignoreVCS(true);
+>>>>>>> a55aa5e96 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -2994,6 +3003,7 @@ $config
         'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
 <<<<<<< HEAD
+<<<<<<< HEAD
         // 'binary_operator_spaces' => ['align_double_arrow' => false],
 =======
 <<<<<<< HEAD
@@ -3030,6 +3040,9 @@ $config
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+        // 'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> a55aa5e96 (.)
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -3046,6 +3059,7 @@ $config
     ])
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3076,12 +3090,12 @@ return $config;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> c8b1c8bf (.)
-    ->setFinder($finder);
 =======
-    ->setFinder($finder)
->>>>>>> 75179b8 (.)
+>>>>>>> a55aa5e96 (.)
+    ->setFinder($finder);
 
 return $config;
+<<<<<<< HEAD
 =======
     ->setFinder($finder)
 
@@ -3121,3 +3135,5 @@ return $config;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)

@@ -2,6 +2,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
@@ -3504,11 +3505,20 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+declare(strict_types=1);
+
+namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
+
+use Modules\Lang\Filament\Resources\Pages\LangBaseEditRecord;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+>>>>>>> a55aa5e96 (.)
 
 class EditMailTemplate extends LangBaseEditRecord
 {
     protected static string $resource = MailTemplateResource::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5213,6 +5223,8 @@ class EditMailTemplate extends LangBaseEditRecord
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

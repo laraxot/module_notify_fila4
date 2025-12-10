@@ -4,6 +4,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -974,6 +975,8 @@ use Modules\Notify\Models\MailTemplate;
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Tests\TestCase;
@@ -1007,6 +1010,7 @@ expect()->extend('toBeNotification', fn() => $this->toBeInstanceOf(Notification:
 expect()->extend('toBeMailTemplate', fn() => $this->toBeInstanceOf(MailTemplate::class));
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1624,6 +1628,8 @@ expect()->extend('toBeMailTemplate', function () {
 =======
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  * |--------------------------------------------------------------------------
  * | Functions
  * |--------------------------------------------------------------------------
@@ -1633,6 +1639,7 @@ expect()->extend('toBeMailTemplate', function () {
  * | global functions to help you to reduce the number of lines of code in your test files.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2277,6 +2284,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 function createNotification(array $attributes = []): Notification
 {

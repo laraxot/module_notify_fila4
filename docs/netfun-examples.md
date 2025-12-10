@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -200,6 +203,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
 <<<<<<< HEAD
             sender: '<nome progetto>'
 =======
@@ -1050,6 +1054,9 @@ class OtpSmsNotification extends NetfunSmsNotification
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+            sender: '<nome progetto>'
+>>>>>>> a55aa5e96 (.)
         );
     }
 
@@ -1216,6 +1223,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
         parent::__construct(
             message: $message,
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 =======
 <<<<<<< HEAD
@@ -2065,6 +2073,9 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+            sender: '<nome progetto>'
+>>>>>>> a55aa5e96 (.)
         );
     }
 
@@ -2306,6 +2317,7 @@ public function sendBulkSms(Request $request)
             users: $users,
             message: $request->message,
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 =======
 <<<<<<< HEAD
@@ -3155,6 +3167,9 @@ public function sendBulkSms(Request $request)
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+            sender: '<nome progetto>',
+>>>>>>> a55aa5e96 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -3649,6 +3664,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3833,3 +3849,5 @@ class NetfunNotificationIntegrationTest extends TestCase
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

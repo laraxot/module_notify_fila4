@@ -12,6 +12,7 @@ use Modules\Xot\Traits\Updater;
  * Class BaseMorphPivot.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 abstract class BaseMorphPivot extends MorphPivot
 =======
 <<<<<<< HEAD
@@ -60,6 +61,9 @@ abstract class BaseMorphPivot extends \Modules\Xot\Models\XotBaseMorphPivot
 abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 5fd545e4 (.)
 >>>>>>> laraxot/develop
+=======
+abstract class BaseMorphPivot extends MorphPivot
+>>>>>>> a55aa5e96 (.)
 {
     use Updater;
 
@@ -97,6 +101,7 @@ abstract class BaseMorphPivot extends MorphPivot
     protected $fillable = [
         'id',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'post_id',
         'post_type',
 =======
@@ -1773,6 +1778,10 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+        'post_id',
+        'post_type',
+>>>>>>> a55aa5e96 (.)
         'related_type',
         'user_id',
         'note',
@@ -1787,6 +1796,7 @@ abstract class BaseMorphPivot extends MorphPivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2973,6 +2983,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

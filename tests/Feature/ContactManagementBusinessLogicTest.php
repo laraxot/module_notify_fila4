@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Feature;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252,10 +253,13 @@ namespace Modules\Notify\Tests\Feature;
 =======
 >>>>>>> 3ee54c5d (.)
 >>>>>>> 763771402 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2777,6 +2781,8 @@ use function Safe\json_encode;
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -2916,6 +2922,7 @@ class ContactManagementBusinessLogicTest extends TestCase
                 'type' => 'email',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
 =======
 <<<<<<< HEAD
@@ -2974,6 +2981,9 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+                'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
+>>>>>>> a55aa5e96 (.)
                 'sent_at' => now()->subDays(5)->toISOString(),
                 'status' => 'delivered',
                 'opened' => true,
@@ -3001,6 +3011,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         $this->assertCount(2, $contact->fresh()->communication_history);
         $this->assertEquals('email', $contact->fresh()->communication_history[0]['type']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3872,11 +3883,11 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
-        $this->assertEquals(
-<<<<<<< HEAD
-            'Benvenuto su '.config('app.name', 'Our Platform'),
 =======
+>>>>>>> a55aa5e96 (.)
+        $this->assertEquals(
             'Benvenuto su ' . config('app.name', 'Our Platform'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5257,6 +5268,10 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+            $contact->fresh()->communication_history[0]['subject'],
+        );
+>>>>>>> a55aa5e96 (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
@@ -5440,6 +5455,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         // Arrange
         $emailContact = Contact::factory()->create([
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6365,6 +6381,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         $smsContact = Contact::factory()->create([
@@ -6372,6 +6390,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         ]);
         $bothContact = Contact::factory()->create([
             'preferences' => ['email' => true, 'sms' => true],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -7929,6 +7948,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         ]);
 
         // Act
@@ -7952,6 +7973,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         $vipContact = Contact::factory()->create([
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -8875,10 +8897,13 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -10568,6 +10593,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         ]);
 
         // Act

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,10 +165,13 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Integrazione MailPace Templates
 
 ## Panoramica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 =======
@@ -1019,6 +1023,9 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> a55aa5e96 (.)
 
 ## Template Disponibili
 
@@ -1045,6 +1052,7 @@ MailPace offre i seguenti template transazionali:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 =======
 <<<<<<< HEAD
@@ -1918,6 +1926,9 @@ MailPace offre i seguenti template transazionali:
 /var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> a55aa5e96 (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -1979,6 +1990,7 @@ $mailTemplate->send($user->email, [
 2. **Usa Variabili** - Utilizza variabili Blade per contenuti dinamici
 3. **Test Cross-Client** - Testa i template su diversi client email
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
 =======
 <<<<<<< HEAD
@@ -2829,6 +2841,9 @@ $mailTemplate->send($user->email, [
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
+>>>>>>> a55aa5e96 (.)
 
 ## Riferimenti
 
@@ -2836,6 +2851,7 @@ $mailTemplate->send($user->email, [
 - [Repository MailPace Templates](https://github.com/mailpace/templates)
 - [Guida Spatie Email](../SPATIE_EMAIL_USAGE_GUIDE.md)
 - [Implementazione Slug Field](./SLUG_FIELD_IMPLEMENTATION.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3032,3 +3048,5 @@ $mailTemplate->send($user->email, [
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

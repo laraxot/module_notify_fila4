@@ -6,6 +6,7 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -630,6 +631,8 @@ use Override;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
@@ -638,6 +641,7 @@ use Modules\Notify\Database\Factories\ContactFactory;
 >>>>>>> f1c9518b (.)
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1522,6 +1526,9 @@ use Illuminate\Support\Carbon;
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> a55aa5e96 (.)
 
 /**
  * Modules\Notify\Models\Contact.
@@ -1565,6 +1572,7 @@ use Illuminate\Support\Carbon;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1986,6 +1994,8 @@ use Illuminate\Support\Carbon;
 =======
 =======
 =======
+=======
+>>>>>>> a55aa5e96 (.)
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -2015,8 +2025,11 @@ use Illuminate\Support\Carbon;
  * @mixin Eloquent
  * @property string|null $email
  * @property string|null $mobile_phone
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
  * @method static Builder|Contact whereAttribute1($value)
  * @method static Builder|Contact whereAttribute10($value)
  * @method static Builder|Contact whereAttribute11($value)
@@ -2035,6 +2048,7 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Contact whereEmail($value)
  * @method static Builder|Contact whereFirstName($value)
  * @method static Builder|Contact whereUsesleft($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2106,10 +2120,15 @@ use Illuminate\Support\Carbon;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+>>>>>>> a55aa5e96 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2581,10 +2600,18 @@ use Illuminate\Support\Carbon;
  */
 >>>>>>> 2cbbc069 (.)
 >>>>>>> laraxot/develop
+=======
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ * @mixin IdeHelperContact
+ * @mixin \Eloquent
+ */
+>>>>>>> a55aa5e96 (.)
 class Contact extends BaseModel
 {
     /** @var list<string> */
     protected $fillable = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2994,6 +3021,8 @@ class Contact extends BaseModel
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'model_id',
         'model_type',
         'contact_type',
@@ -3013,6 +3042,7 @@ class Contact extends BaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @return array<string, string> */
 <<<<<<< HEAD
     #[Override]
@@ -3920,6 +3950,10 @@ class Contact extends BaseModel
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+    /** @return array<string, string> */
+    #[Override]
+>>>>>>> a55aa5e96 (.)
     protected function casts(): array
     {
         return [
@@ -3930,6 +3964,7 @@ class Contact extends BaseModel
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5062,6 +5097,11 @@ class Contact extends BaseModel
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+>>>>>>> a55aa5e96 (.)
             // 'date_start' => 'datetime:Y-m-d\TH:i',
             // 'date_end' => 'datetime:Y-m-d\TH:i',
             'model_id' => 'string',

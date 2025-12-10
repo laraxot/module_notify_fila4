@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1308,6 +1309,10 @@ declare(strict_types=1);
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+declare(strict_types=1);
+
+>>>>>>> a55aa5e96 (.)
 return [
     /*
      * |--------------------------------------------------------------------------
@@ -1323,6 +1328,7 @@ return [
      * | Telegram Drivers
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4047,12 +4053,15 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     'drivers' => [
         'official' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5614,12 +5623,15 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'botman' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
             'webhook_url' => env('TELEGRAM_WEBHOOK_URL'),
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7181,6 +7193,8 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         'nutgram' => [
             'token' => env('TELEGRAM_BOT_TOKEN'),
             'api_url' => env('TELEGRAM_API_URL', 'https://api.telegram.org'),
@@ -7189,6 +7203,7 @@ return [
         ],
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8403,6 +8418,8 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Global Debug Mode
@@ -8435,6 +8452,7 @@ return [
      * | Retry Configuration
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -11195,10 +11213,13 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     'retry' => [
         'attempts' => env('TELEGRAM_RETRY_ATTEMPTS', 3),
         'delay' => env('TELEGRAM_RETRY_DELAY', 60),
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -12411,11 +12432,14 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /*
      * |--------------------------------------------------------------------------
      * | Rate Limiting
      * |--------------------------------------------------------------------------
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -14645,6 +14669,8 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     'rate_limit' => [
         'enabled' => env('TELEGRAM_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('TELEGRAM_RATE_LIMIT_MAX_ATTEMPTS', 30),

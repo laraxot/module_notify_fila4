@@ -2,6 +2,7 @@
 # Integrazione Telegram 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto <nome progetto>, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
 =======
 <<<<<<< HEAD
@@ -68,6 +69,9 @@ Questo documento descrive l'architettura e l'implementazione dell'integrazione T
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento descrive l'architettura e l'implementazione dell'integrazione Telegram nel progetto <nome progetto>, seguendo gli stessi pattern di design utilizzati per SMS, Email e WhatsApp.
+>>>>>>> a55aa5e96 (.)
 
 ## Architettura
 

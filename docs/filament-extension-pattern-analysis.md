@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +165,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Analisi del Pattern di Estensione per Componenti Filament
 
 ## Comprensione dell'Errore
@@ -183,6 +186,7 @@ L'errore si manifesta in due forme principali:
 ### 1. Architettura a Strati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto> utilizza un'architettura a strati per i componenti Filament:
 =======
 <<<<<<< HEAD
@@ -1033,6 +1037,9 @@ Il progetto SaluteOra utilizza un'architettura a strati per i componenti Filamen
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Il progetto <nome progetto> utilizza un'architettura a strati per i componenti Filament:
+>>>>>>> a55aa5e96 (.)
 
 ```
 Filament Core Classes (vendor)
@@ -1047,6 +1054,7 @@ Saltare il livello intermedio (XotBase) rompe questa architettura e crea inconsi
 ### 2. Personalizzazioni Centralizzate
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome progetto>:
 =======
 <<<<<<< HEAD
@@ -1897,6 +1905,9 @@ Le classi XotBase contengono personalizzazioni specifiche per il progetto Salute
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Le classi XotBase contengono personalizzazioni specifiche per il progetto <nome progetto>:
+>>>>>>> a55aa5e96 (.)
 - Gestione multilingua
 - Integrazione con il sistema di permessi
 - Logging e auditing
@@ -1958,6 +1969,7 @@ L'adozione coerente del pattern di estensione XotBase offre vantaggi significati
 
 ## Conclusione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di <nome progetto>. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 =======
@@ -2822,3 +2834,6 @@ Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di
 Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di SaluteOra. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+Il pattern di estensione XotBase è un aspetto fondamentale dell'architettura di <nome progetto>. Seguire questo pattern garantisce coerenza, manutenibilità e estensibilità del codice. È essenziale comprendere non solo come implementare questo pattern, ma anche perché è importante per il successo a lungo termine del progetto.
+>>>>>>> a55aa5e96 (.)

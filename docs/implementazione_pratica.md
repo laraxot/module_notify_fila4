@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +187,8 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Implementazione Pratica del Modulo Notify
 
 ## 1. Setup Iniziale
@@ -581,6 +584,7 @@ class TemplateResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-document-text';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(Form $form): Form
 =======
 <<<<<<< HEAD
@@ -868,6 +872,9 @@ class TemplateResource extends Resource
     public static function form(Form $form): Form
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> a55aa5e96 (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -1250,6 +1257,7 @@ class TemplateControllerTest extends TestCase
 
 ## 8. Collegamenti Utili
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2156,10 +2164,13 @@ class TemplateControllerTest extends TestCase
 >>>>>>> cccb594f (.)
 =======
 >>>>>>> 9cf0dc90 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2440,3 +2451,5 @@ class TemplateControllerTest extends TestCase
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

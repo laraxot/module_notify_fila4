@@ -7,6 +7,7 @@ namespace Modules\Notify\Datas\SMS;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
@@ -1075,10 +1076,13 @@ class TwilioData extends Data
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> a55aa5e96 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
 use Webmozart\Assert\Assert;
 
@@ -1283,6 +1287,8 @@ use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+=======
+>>>>>>> a55aa5e96 (.)
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -1299,15 +1305,10 @@ class TwilioData extends Data
     {
         if (!(self::$instance instanceof TwilioData)) {
             /*
-<<<<<<< HEAD
-            $data = TenantService::getConfig('sms');
-            $data = Arr::get($data, 'drivers.twilio', []);
-            */
->>>>>>> a12f125f4a (.)
-=======
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.twilio', []);
              */
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 <<<<<<< HEAD
 >>>>>>> f2e64178 (.)
@@ -1494,6 +1495,8 @@ class TwilioData extends Data
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -1507,12 +1510,8 @@ class TwilioData extends Data
             case 'basic':
             default:
                 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
+<<<<<<< HEAD
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
 <<<<<<< HEAD
@@ -2386,6 +2385,9 @@ class TwilioData extends Data
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+                    'Content-Type' => 'application/x-www-form-urlencoded',
+>>>>>>> a55aa5e96 (.)
                 ];
         }
     }

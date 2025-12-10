@@ -11,6 +11,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
 <<<<<<< HEAD
 =======
@@ -32,13 +33,12 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 <<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * The module name.
      */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -47,11 +47,12 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     public string $name = 'Notify';
 
-=======
->>>>>>> 75179b8 (.)
     /**
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -74,6 +75,8 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
      * The module namespace to assume when generating URLs to actions.
      */
     protected string $moduleNamespace = 'Modules\Notify\Http\Controllers';
@@ -82,6 +85,7 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +149,8 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 =======
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 }
 =======
 >>>>>>> 301ad8b44 (.)

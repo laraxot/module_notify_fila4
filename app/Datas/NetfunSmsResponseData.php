@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1166,12 +1167,18 @@ declare(strict_types=1);
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> a55aa5e96 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
 
 class NetfunSmsResponseData extends Data
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1185,12 +1192,15 @@ class NetfunSmsResponseData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> a55aa5e96 (.)
     /**
      * @param string $status
      * @param string|null $batchId
      * @param array<int, array<string, mixed>>|null $messages
      * @param string|null $error
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1686,6 +1696,15 @@ class NetfunSmsResponseData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
+=======
+    public function __construct(
+        public string $status,
+        public null|string $batchId = null,
+        public null|array $messages = null,
+        public null|string $error = null,
+    ) {}
+
+>>>>>>> a55aa5e96 (.)
     /**
      * @param array{status: string, batchId?: string, messages?: array<int, array<string, mixed>>, error?: string} $data
      * @return self
@@ -1693,11 +1712,14 @@ class NetfunSmsResponseData extends Data
     public static function fromArray(array $data): self
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> a55aa5e96 (.)
         /** @var string $status */
         $status = $data['status'];
         /** @var string|null $batchId */
@@ -1710,6 +1732,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
@@ -1717,6 +1740,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> a55aa5e96 (.)
             status: $status,
             batchId: $batchId,
             messages: $messages,
@@ -1724,6 +1749,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3192,6 +3218,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 207ac35 (.)
 >>>>>>> ce89c8bb (.)
 >>>>>>> cbb586cb0 (.)
+=======
+>>>>>>> a55aa5e96 (.)
         );
     }
 }

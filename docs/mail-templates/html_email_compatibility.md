@@ -4,6 +4,7 @@
 ## Introduzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di <nome progetto> con i diversi client email.
 =======
 <<<<<<< HEAD
@@ -70,6 +71,9 @@ Questo documento fornisce linee guida dettagliate per garantire la massima compa
 =======
 >>>>>>> 36ac4fc1 (.)
 >>>>>>> fea359347 (.)
+=======
+Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di <nome progetto> con i diversi client email.
+>>>>>>> a55aa5e96 (.)
 
 ## Compatibilità Client Email
 

@@ -1,18 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Implementazione dei Canali di Notifica 
 
+<<<<<<< HEAD
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
 =======
 <<<<<<< HEAD
@@ -1028,6 +1016,9 @@ Questo documento descrive l'architettura e l'implementazione dei canali di notif
 Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto SaluteOra, con particolare attenzione al pattern Factory utilizzato.
 >>>>>>> 9cf0dc90 (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+Questo documento descrive l'architettura e l'implementazione dei canali di notifica nel progetto <nome progetto>, con particolare attenzione al pattern Factory utilizzato.
+>>>>>>> a55aa5e96 (.)
 
 ## Architettura Generale
 
@@ -1181,6 +1172,7 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Risoluzione dei Problemi](./TROUBLESHOOTING.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1377,3 +1369,5 @@ L'implementazione dei canali di notifica  segue un'architettura coerente e ben s
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)

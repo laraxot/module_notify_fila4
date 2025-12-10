@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,10 +165,13 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
 # Guida alla Compatibilità HTML per Email
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di <nome progetto> con i diversi client email.
 =======
@@ -1019,6 +1023,9 @@ Questo documento fornisce linee guida dettagliate per garantire la massima compa
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+Questo documento fornisce linee guida dettagliate per garantire la massima compatibilità dei template email utilizzati nel modulo Notify di <nome progetto> con i diversi client email.
+>>>>>>> a55aa5e96 (.)
 
 ## Compatibilità Client Email
 
@@ -1148,6 +1155,7 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 - [Integrazione MailPace](./MAILPACE_TEMPLATES_INTEGRATION.md)
 - [Campaign Monitor Guide](https://www.campaignmonitor.com/css/)
 - [Email Client Market Share](https://emailclientmarketshare.com/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1344,3 +1352,5 @@ I template nella directory `mail-layouts` seguono queste linee guida di compatib
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> a55aa5e96 (.)
