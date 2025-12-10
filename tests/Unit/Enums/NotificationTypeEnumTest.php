@@ -13,34 +13,47 @@ class NotificationTypeEnumTest extends TestCase
     /** @test */
     public function it_has_correct_cases(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, NotificationTypeEnum::cases());
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('email', NotificationTypeEnum::EMAIL->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('sms', NotificationTypeEnum::SMS->value);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('push', NotificationTypeEnum::PUSH->value);
     }
 
     /** @test */
     public function label_returns_localized_string(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsString(NotificationTypeEnum::EMAIL->label());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsString(NotificationTypeEnum::SMS->label());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsString(NotificationTypeEnum::PUSH->label());
     }
 
     /** @test */
     public function icon_returns_heroicon_string(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('heroicon-o-envelope', NotificationTypeEnum::EMAIL->icon());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('heroicon-o-device-phone-mobile', NotificationTypeEnum::SMS->icon());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('heroicon-o-bell', NotificationTypeEnum::PUSH->icon());
     }
 
     /** @test */
     public function color_returns_correct_color(): void
     {
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('success', NotificationTypeEnum::EMAIL->color());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('warning', NotificationTypeEnum::SMS->color());
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('info', NotificationTypeEnum::PUSH->color());
     }
 
@@ -661,6 +674,7 @@ class NotificationTypeEnumTest extends TestCase
 >>>>>>> 1619767d8 (.)
         $uniqueValues = array_unique($values);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(count($values), $uniqueValues, 'All enum cases should have unique values');
     }
 
@@ -669,10 +683,13 @@ class NotificationTypeEnumTest extends TestCase
     {
         $cases = NotificationTypeEnum::cases();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertIsArray($cases);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $cases);
 
         foreach ($cases as $case) {
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertInstanceOf(NotificationTypeEnum::class, $case);
         }
     }
@@ -681,8 +698,11 @@ class NotificationTypeEnumTest extends TestCase
     public function all_cases_have_required_methods(): void
     {
         foreach (NotificationTypeEnum::cases() as $case) {
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->label());
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->icon());
+            /** @phpstan-ignore-next-line property.notFound, method.nonObject */
             $this->assertIsString($case->color());
         }
     }

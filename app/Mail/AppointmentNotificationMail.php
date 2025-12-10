@@ -1734,8 +1734,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 <<<<<<< HEAD
 >>>>>>> 8dc1f2ed6 (.)
 
-        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
-            $subject .= ' #'.$appointment->id;
+        if (is_object($appointment) && property_exists($appointment, 'id') && is_scalar($appointment->id)) {
+            $subject .= ' #'.(string) $appointment->id;
         }
 
 <<<<<<< HEAD
