@@ -170,26 +170,12 @@ class ConfigHelper
 
         if (is_string($value)) {
             $companyConfig = Config::get('notify.company', []);
-            if (! is_array($companyConfig)) {
-                $companyConfig = [];
-            }
+            $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
-<<<<<<< HEAD
             /** @var array<string, mixed> $safeCompanyConfig */
             $safeCompanyConfig = $companyConfig;
 
             return self::replaceStringVariables($value, $safeCompanyConfig);
-=======
-            /** @var array<string, mixed> $result */
-            $result = [];
-            foreach ($companyConfig as $key => $val) {
-                if (is_string($key)) {
-                    $result[$key] = $val;
-                }
-            }
-
-            return self::replaceStringVariables($value, $result);
->>>>>>> ec9288a (.)
         }
 
         if (is_array($value)) {
@@ -210,26 +196,12 @@ class ConfigHelper
     public static function getTestData(): array
     {
         $testData = Config::get('notify.test_data', []);
-        if (! is_array($testData)) {
-            return [];
-        }
+        $testData = is_array($testData) ? $testData : [];
 
-<<<<<<< HEAD
         /** @var array<string, mixed> $safeTestData */
         $safeTestData = $testData;
 
         return self::replaceTemplateVariables($safeTestData);
-=======
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($testData as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
->>>>>>> ec9288a (.)
     }
 
     /**
@@ -240,26 +212,12 @@ class ConfigHelper
     public static function getCompanyConfig(): array
     {
         $companyConfig = Config::get('notify.company', []);
-        if (! is_array($companyConfig)) {
-            return [];
-        }
+        $companyConfig = is_array($companyConfig) ? $companyConfig : [];
 
-<<<<<<< HEAD
         /** @var array<string, mixed> $safeCompanyConfig */
         $safeCompanyConfig = $companyConfig;
 
         return self::replaceTemplateVariables($safeCompanyConfig);
-=======
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($companyConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
->>>>>>> ec9288a (.)
     }
 
     /**
@@ -270,26 +228,12 @@ class ConfigHelper
     public static function getWebhookConfig(): array
     {
         $webhookConfig = Config::get('notify.webhooks', []);
-        if (! is_array($webhookConfig)) {
-            return [];
-        }
+        $webhookConfig = is_array($webhookConfig) ? $webhookConfig : [];
 
-<<<<<<< HEAD
         /** @var array<string, mixed> $safeWebhookConfig */
         $safeWebhookConfig = $webhookConfig;
 
         return self::replaceTemplateVariables($safeWebhookConfig);
-=======
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($webhookConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
->>>>>>> ec9288a (.)
     }
 
     /**
@@ -300,26 +244,12 @@ class ConfigHelper
     public static function getEmailConfig(): array
     {
         $emailConfig = Config::get('notify.email', []);
-        if (! is_array($emailConfig)) {
-            return [];
-        }
+        $emailConfig = is_array($emailConfig) ? $emailConfig : [];
 
-<<<<<<< HEAD
         /** @var array<string, mixed> $safeEmailConfig */
         $safeEmailConfig = $emailConfig;
 
         return self::replaceTemplateVariables($safeEmailConfig);
-=======
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($emailConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
->>>>>>> ec9288a (.)
     }
 
     /**
@@ -330,26 +260,12 @@ class ConfigHelper
     public static function getPathConfig(): array
     {
         $pathConfig = Config::get('notify.paths', []);
-        if (! is_array($pathConfig)) {
-            return [];
-        }
+        $pathConfig = is_array($pathConfig) ? $pathConfig : [];
 
-<<<<<<< HEAD
         /** @var array<string, mixed> $safePathConfig */
         $safePathConfig = $pathConfig;
 
         return self::replaceTemplateVariables($safePathConfig);
-=======
-        /** @var array<string, mixed> $result */
-        $result = [];
-        foreach ($pathConfig as $key => $value) {
-            if (is_string($key)) {
-                $result[$key] = $value;
-            }
-        }
-
-        return self::replaceTemplateVariables($result);
->>>>>>> ec9288a (.)
     }
 
     /**
