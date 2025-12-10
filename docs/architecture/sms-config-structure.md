@@ -62,6 +62,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', ''),
 >>>>>>> 75179b855 (.)
@@ -75,11 +76,9 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 6608a1a0 (.)
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 =======
-        'sender' => env('NETFUN_SENDER', ''),
-        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
->>>>>>> bf479cc (.)
+>>>>>>> ca10d6ad (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -142,6 +141,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', ''),
 >>>>>>> 75179b855 (.)
@@ -155,11 +155,9 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 6608a1a0 (.)
-        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 =======
-        'sender' => env('NETFUN_SENDER', ''),
-        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
->>>>>>> bf479cc (.)
+>>>>>>> ca10d6ad (.)
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun

@@ -36,6 +36,7 @@ namespace Modules\Notify\Mail;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -162,10 +163,13 @@ use Illuminate\Mail\Mailables\Attachment;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
 use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +399,8 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 6608a1a0 (.)
+=======
+>>>>>>> ca10d6ad (.)
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
@@ -403,6 +409,7 @@ use Illuminate\Queue\SerializesModels;
 
 class AppointmentNotificationMail extends Mailable implements ShouldQueue
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,6 +428,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     use Queueable, SerializesModels;
 >>>>>>> bf479cc (.)
 >>>>>>> 6608a1a0 (.)
+=======
+    use Queueable, SerializesModels;
+>>>>>>> ca10d6ad (.)
 
     /**
 <<<<<<< HEAD
@@ -436,6 +446,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
     /**
      * Crea una nuova istanza del messaggio.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -710,6 +721,9 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
      * @param  array<string, mixed>  $notificationData
 >>>>>>> bf479cc (.)
 >>>>>>> 6608a1a0 (.)
+=======
+     * @param  array<string, mixed>  $notificationData
+>>>>>>> ca10d6ad (.)
      */
     public function __construct(array $notificationData)
     {
@@ -1316,11 +1330,7 @@ class AppointmentNotificationMail extends Mailable implements ShouldQueue
 >>>>>>> d09cb759 (.)
         
         if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
-<<<<<<< HEAD
-            $subject .= ' #' . $appointment->id;
-=======
             $subject .= ' #'.$appointment->id;
->>>>>>> bf479cc (.)
         }
         
 <<<<<<< HEAD
