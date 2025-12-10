@@ -40,6 +40,7 @@ namespace Modules\Notify\Actions\Telegram;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
@@ -62,9 +63,13 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> 2effe245 (.)
 =======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> origin/develop
@@ -223,6 +228,10 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -270,9 +279,11 @@ use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 >>>>>>> 75179b85 (.)
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 
 use function Safe\json_decode;
 use function Safe\json_encode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,10 +426,16 @@ use Spatie\QueueableAction\QueueableAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 
 use function Safe\json_decode;
 use function Safe\json_encode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,6 +474,8 @@ use function Safe\json_decode;
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 use function Safe\json_encode;
 use function Safe\json_decode;
 >>>>>>> a12f125f4a (.)
@@ -469,6 +488,7 @@ use function Safe\json_decode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -508,6 +528,8 @@ use function Safe\json_decode;
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 
 use function Safe\json_decode;
@@ -532,6 +554,7 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 =======
@@ -555,6 +578,8 @@ use function Safe\json_encode;
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use function Safe\json_encode;
@@ -570,6 +595,7 @@ use function Safe\json_decode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -687,6 +713,8 @@ use function Safe\json_decode;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
 final class SendBotmanTelegramAction
 {
@@ -791,7 +819,9 @@ final class SendBotmanTelegramAction
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
+<<<<<<< HEAD
     protected null|string $parseMode;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -929,6 +959,8 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -943,6 +975,7 @@ final class SendBotmanTelegramAction
     protected ?string $parseMode;
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1181,6 +1214,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
     /**
      * Create a new action instance.
@@ -1290,6 +1325,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1412,6 +1448,10 @@ final class SendBotmanTelegramAction
 
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1435,6 +1475,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 
@@ -1596,6 +1637,8 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         // Parametri a livello di root
         /** @var string|null $parseMode */
         $parseMode = config('telegram.parse_mode');
@@ -1660,6 +1703,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1826,6 +1870,11 @@ final class SendBotmanTelegramAction
             ->execute(config('telegram.timeout'), 30);
 =======
 >>>>>>> 2effe245 (.)
+=======
+        $this->timeout = app(SafeIntCastAction::class)
+            ->execute(config('telegram.timeout'), 30);
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1851,6 +1900,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
         $this->timeout = app(SafeIntCastAction::class)
@@ -2006,6 +2056,8 @@ final class SendBotmanTelegramAction
         $this->timeout = app(SafeIntCastAction::class)
             ->execute(config('telegram.timeout'), 30);
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 
     /**
@@ -2142,6 +2194,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2222,258 +2275,10 @@ final class SendBotmanTelegramAction
 
 =======
 >>>>>>> 2effe245 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> a12f125f4a (.)
-=======
-
->>>>>>> b93ef594b4 (.)
-=======
-        
->>>>>>> origin/develop
->>>>>>> d284d65 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d09cb759 (.)
-=======
-
->>>>>>> 3f537838 (.)
-=======
-
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> d09cb759 (.)
-=======
-
->>>>>>> 3f537838 (.)
-=======
->>>>>>> de02998b (.)
-=======
->>>>>>> 4689a827 (.)
-=======
-
->>>>>>> 2941b0bd (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> f2e64178 (.)
-=======
-
->>>>>>> 98d837b9 (.)
-=======
->>>>>>> 2effe245 (.)
-=======
-
->>>>>>> 985c7bda (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
-
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> d09cb759 (.)
-=======
-
->>>>>>> 3f537838 (.)
-=======
->>>>>>> de02998b (.)
-=======
->>>>>>> 4689a827 (.)
-=======
-
->>>>>>> 2941b0bd (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> f2e64178 (.)
-=======
-
->>>>>>> 98d837b9 (.)
-=======
->>>>>>> 2effe245 (.)
-=======
-
->>>>>>> 985c7bda (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
-
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-        $client = new Client([
-            'timeout' => $this->timeout,
-            'base_uri' => $this->apiUrl,
-        ]);
-=======
->>>>>>> 207ac35e (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ce89c8bb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4d2eb53e (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 011072e4 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ce89c8bb (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4d2eb53e (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 011072e4 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 207ac35e (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> de02998b (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> de02998b (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
->>>>>>> 2fc60436 (.)
-=======
->>>>>>> 82ae73be (.)
-
-=======
-        
->>>>>>> b19cd40 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
-
->>>>>>> 4e2ebfb (.)
-=======
-
->>>>>>> 9777d1b3 (.)
-=======
-
-=======
 =======
 
 =======
 >>>>>>> d09cb759 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> d09cb759 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 4689a827 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> f2e64178 (.)
-=======
-
-=======
->>>>>>> 2effe245 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> d09cb759 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 4689a827 (.)
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> f2e64178 (.)
-=======
-
-=======
->>>>>>> 2effe245 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2507,6 +2312,268 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 4689a827 (.)
+=======
+
+>>>>>>> 2941b0bd (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+>>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2effe245 (.)
+=======
+
+>>>>>>> 985c7bda (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
+        $client = new Client([
+            'timeout' => $this->timeout,
+            'base_uri' => $this->apiUrl,
+        ]);
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 011072e4 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 207ac35e (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
+=======
+>>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 82ae73be (.)
+
+=======
+        
+>>>>>>> b19cd40 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
+=======
+
+>>>>>>> 4e2ebfb (.)
+=======
+
+>>>>>>> 9777d1b3 (.)
+=======
+
+=======
+=======
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> d09cb759 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4689a827 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> f2e64178 (.)
+=======
+
+=======
+>>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> d09cb759 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+        
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
+=======
+
+>>>>>>> 3f537838 (.)
+=======
+
+>>>>>>> 75179b85 (.)
+=======
+>>>>>>> 82ae73be (.)
+=======
 =======
 
 >>>>>>> 4e2ebfb (.)
@@ -2816,6 +2883,8 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         // Determina l'endpoint in base al tipo di messaggio
         $endpoint = match ($telegramData->type) {
             'photo' => "/bot{$this->token}/sendPhoto",
@@ -2884,6 +2953,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3006,6 +3076,10 @@ final class SendBotmanTelegramAction
 
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3029,6 +3103,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 
@@ -3190,6 +3265,8 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         // Prepara il payload in base al tipo di messaggio
         $payload = [
             'chat_id' => $telegramData->chatId,
@@ -3254,6 +3331,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3283,6 +3361,8 @@ final class SendBotmanTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3297,6 +3377,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3424,6 +3505,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
         if ($telegramData->replyToMessageId !== null) {
             $payload['reply_to_message_id'] = $telegramData->replyToMessageId;
@@ -3491,6 +3574,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3514,6 +3598,8 @@ final class SendBotmanTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 =======
         
@@ -3542,6 +3628,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -3601,6 +3688,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
         
         if ($telegramData->replyToMessageId !== null) {
@@ -3631,6 +3720,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3812,6 +3902,10 @@ final class SendBotmanTelegramAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
         // Aggiungi parametri specifici per il tipo di messaggio
         if ($telegramData->type === 'text') {
             $payload['text'] = $telegramData->text;
@@ -3870,6 +3964,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> f2e64178 (.)
@@ -3918,12 +4013,15 @@ final class SendBotmanTelegramAction
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4132,6 +4230,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         } elseif (
             in_array($telegramData->type, ['photo', 'video', 'document', 'audio', 'animation'], strict: true) &&
                 !empty($telegramData->media)
@@ -4169,6 +4269,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -4199,6 +4300,8 @@ final class SendBotmanTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -4219,6 +4322,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -4390,6 +4494,8 @@ final class SendBotmanTelegramAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             $mediaType = $telegramData->type;
             $payload[$mediaType] = $telegramData->media[0];
             $payload['caption'] = $telegramData->text;
@@ -4454,6 +4560,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4576,6 +4683,10 @@ final class SendBotmanTelegramAction
 
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4599,6 +4710,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 
@@ -4760,10 +4872,13 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         try {
             $response = $client->post($endpoint, [
                 'json' => $payload,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5404,11 +5519,29 @@ final class SendBotmanTelegramAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
             $responseData = json_decode($responseContent, true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5490,10 +5623,29 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5541,6 +5693,9 @@ final class SendBotmanTelegramAction
 >>>>>>> 58816034 (.)
 =======
 =======
+
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5555,6 +5710,7 @@ final class SendBotmanTelegramAction
             
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 985c7bda (.)
 =======
@@ -5563,10 +5719,13 @@ final class SendBotmanTelegramAction
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> d09cb759 (.)
             Log::info('Telegram BotMan inviato con successo', [
                 'chat_id' => $telegramData->chatId,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
 =======
 =======
 
@@ -5630,6 +5789,11 @@ final class SendBotmanTelegramAction
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5644,6 +5808,7 @@ final class SendBotmanTelegramAction
             
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5973,6 +6138,8 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             return [
                 'success' => $responseData['ok'] ?? false,
                 'message_id' => $responseData['result']['message_id'] ?? null,
@@ -6056,6 +6223,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -6133,6 +6301,10 @@ final class SendBotmanTelegramAction
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+
+=======
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6155,6 +6327,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 
@@ -6247,10 +6420,13 @@ final class SendBotmanTelegramAction
             
 >>>>>>> b19cd40 (.)
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
@@ -6427,10 +6603,18 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d09cb759 (.)
 <<<<<<< HEAD
 
 =======
             
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6472,6 +6656,8 @@ final class SendBotmanTelegramAction
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
 
@@ -6489,6 +6675,7 @@ final class SendBotmanTelegramAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6817,11 +7004,14 @@ final class SendBotmanTelegramAction
 =======
 
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             Log::warning('Errore invio Telegram BotMan', [
                 'chat_id' => $telegramData->chatId,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7013,7 +7203,24 @@ final class SendBotmanTelegramAction
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> a12f125f4a (.)
+=======
+
+>>>>>>> b93ef594b4 (.)
+=======
+            
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
             return [
                 'success' => false,
                 'error' => $responseBody['description'] ?? 'Errore sconosciuto',

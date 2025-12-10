@@ -26,6 +26,7 @@ namespace Modules\Notify\Emails;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -38,7 +39,15 @@ namespace Modules\Notify\Emails;
 >>>>>>> 2941b0bd (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
 use Illuminate\Mail\Mailables\Attachment;
+=======
+<<<<<<< HEAD
+use Illuminate\Mail\Mailables\Attachment;
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
@@ -216,6 +225,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -260,10 +270,13 @@ class EmailDataEmail extends Mailable
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
     public function __construct(
         public EmailData $email_data,
     ) {}
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,6 +378,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> ce89c8bb (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
     public function __construct(
         public EmailData $email_data,
     ) {}
@@ -372,6 +387,7 @@ class EmailDataEmail extends Mailable
     public function __construct(public EmailData $email_data)
     {
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442,9 +458,13 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> a12f125f4a (.)
+>>>>>>> d09cb759 (.)
+=======
     public function __construct(
         public EmailData $email_data,
     ) {}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -496,6 +516,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
     public function __construct(public EmailData $email_data)
@@ -512,6 +534,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
     public function __construct(
@@ -701,6 +724,8 @@ class EmailDataEmail extends Mailable
         public EmailData $email_data,
     ) {}
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 
     /**
      * Get the message envelope.
@@ -774,6 +799,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -796,10 +822,13 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -978,11 +1007,14 @@ class EmailDataEmail extends Mailable
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1068,9 +1100,12 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1103,11 +1138,14 @@ class EmailDataEmail extends Mailable
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
         if (null == $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null == $this->email_data->from_email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1232,6 +1270,10 @@ class EmailDataEmail extends Mailable
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> a12f125f4a (.)
+=======
+>>>>>>> d09cb759 (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
@@ -1249,14 +1291,18 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 4689a827 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1579,6 +1625,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }
@@ -1642,7 +1690,15 @@ class EmailDataEmail extends Mailable
     /**
      * Get the attachments for the message.
      *
+<<<<<<< HEAD
      * @return array<int, Attachment>
+=======
+<<<<<<< HEAD
+     * @return array<int, Attachment>
+=======
+     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
      */
     public function attachments(): array
     {

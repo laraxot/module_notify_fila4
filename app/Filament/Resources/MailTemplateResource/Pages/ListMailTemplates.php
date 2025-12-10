@@ -76,6 +76,7 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -320,10 +321,13 @@ use Filament\Tables\Columns\TextColumn;
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 use Override;
 >>>>>>> f813254 (.)
 =======
@@ -652,6 +656,8 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 use Override;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables;
@@ -659,6 +665,7 @@ use Filament\Tables\Table;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -716,6 +723,8 @@ use Filament\Tables\Columns\TextColumn;
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 =======
 =======
 use Override;
@@ -731,6 +740,7 @@ use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 >>>>>>> b93ef594b4 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f813254 (.)
@@ -759,11 +769,14 @@ use Filament\Tables\Columns\TextColumn;
 =======
 use Filament\Tables\Columns\TextColumn;
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Lang\Filament\Resources\Pages\LangBaseListRecords;
 use Filament\Tables;
 use Filament\Tables\Table;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1014,6 +1027,10 @@ use Override;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
 class ListMailTemplates extends LangBaseListRecords
 {
@@ -1080,6 +1097,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1123,6 +1141,8 @@ class ListMailTemplates extends LangBaseListRecords
 =======
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1137,6 +1157,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1252,6 +1273,8 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,6 +1399,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1399,6 +1423,8 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 =======
     
@@ -1429,6 +1455,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1488,6 +1515,8 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
     
     public function getTableColumns(): array
@@ -1513,6 +1542,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             TextColumn::make('slug')
 =======
             Tables\Columns\TextColumn::make('slug')
@@ -1574,6 +1604,9 @@ class ListMailTemplates extends LangBaseListRecords
 =======
             TextColumn::make('slug')
 >>>>>>> 82ae73be (.)
+=======
+            Tables\Columns\TextColumn::make('slug')
+>>>>>>> d09cb759 (.)
                 ->searchable()
                 ->sortable()
                 ,
@@ -1598,6 +1631,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             TextColumn::make('mailable')
 =======
             Tables\Columns\TextColumn::make('mailable')
@@ -1659,6 +1693,9 @@ class ListMailTemplates extends LangBaseListRecords
 =======
             TextColumn::make('mailable')
 >>>>>>> 82ae73be (.)
+=======
+            Tables\Columns\TextColumn::make('mailable')
+>>>>>>> d09cb759 (.)
                 ->searchable()
                 ->sortable()
                 ,
@@ -1683,6 +1720,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             TextColumn::make('subject')
 =======
             Tables\Columns\TextColumn::make('subject')
@@ -1744,6 +1782,9 @@ class ListMailTemplates extends LangBaseListRecords
 =======
             TextColumn::make('subject')
 >>>>>>> 82ae73be (.)
+=======
+            Tables\Columns\TextColumn::make('subject')
+>>>>>>> d09cb759 (.)
                 ->searchable()
                 ->sortable()
                 ,
@@ -1768,6 +1809,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             TextColumn::make('counter')
 =======
             Tables\Columns\TextColumn::make('counter')
@@ -1829,6 +1871,9 @@ class ListMailTemplates extends LangBaseListRecords
 =======
             TextColumn::make('counter')
 >>>>>>> 82ae73be (.)
+=======
+            Tables\Columns\TextColumn::make('counter')
+>>>>>>> d09cb759 (.)
                 ->searchable()
                 ->sortable()
                 ,
@@ -1857,6 +1902,7 @@ class ListMailTemplates extends LangBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2038,4 +2084,8 @@ class ListMailTemplates extends LangBaseListRecords
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 }

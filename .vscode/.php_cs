@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ee3afc5b (rebase 210)
 =======
@@ -1279,6 +1280,8 @@ declare(strict_types=1);
 >>>>>>> 3ee54c5d (.)
 =======
 >>>>>>> 75179b85 (.)
+=======
+>>>>>>> d09cb759 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1313,6 +1316,7 @@ return PhpCsFixer\Config::create()
         'elseif' => true,
     ))
     ->setFinder($finder)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1459,3 +1463,6 @@ return $config;
 =======
 ;
 >>>>>>> 75179b85 (.)
+=======
+;
+>>>>>>> d09cb759 (.)

@@ -63,6 +63,7 @@ namespace Modules\Notify\Filament\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -137,6 +138,8 @@ namespace Modules\Notify\Filament\Pages;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -400,6 +403,21 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 75179b85 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+>>>>>>> a12f125f4a (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+>>>>>>> b93ef594b4 (.)
+>>>>>>> d284d65 (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -418,6 +436,19 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 75179b85 (.)
 
     protected string $view = 'notify::filament.pages.dashboard';
+<<<<<<< HEAD
+=======
+=======
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+
+class Dashboard extends XotBaseDashboard
+{
+    protected static ?string $navigationIcon = 'heroicon-o-home';
+
+    protected static string $view = 'notify::filament.pages.dashboard';
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     public function mount(): void
     {
@@ -478,6 +509,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -529,12 +561,15 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 2effe245 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -656,6 +691,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
@@ -719,6 +756,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -763,6 +801,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
 =======
@@ -777,6 +817,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -826,6 +867,8 @@ class Dashboard extends XotBaseDashboard
 =======
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> d09cb759 (.)
         $user = auth()->user();
         if (! $user->hasRole('super-admin')) {
             redirect('/admin');
@@ -851,6 +894,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -894,6 +938,8 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -909,6 +955,7 @@ class Dashboard extends XotBaseDashboard
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1046,5 +1093,7 @@ class Dashboard extends XotBaseDashboard
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
     }
 }

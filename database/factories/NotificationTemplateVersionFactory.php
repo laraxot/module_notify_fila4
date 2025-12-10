@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -311,6 +312,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
 declare(strict_types=1);
 
 
@@ -362,6 +365,28 @@ namespace Modules\Notify\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 2effe245 (.)
 use Modules\Notify\Models\NotificationTemplateVersion;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+
+=======
+>>>>>>> a12f125f4a (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> b93ef594b4 (.)
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplateVersion;
+=======
+namespace Modules\Notify\Database\Factories;
+
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -390,7 +415,15 @@ class NotificationTemplateVersionFactory extends Factory
     /**
      * The name of the factory's corresponding model.
      */
+<<<<<<< HEAD
     protected $model = NotificationTemplateVersion::class;
+=======
+<<<<<<< HEAD
+    protected $model = NotificationTemplateVersion::class;
+=======
+    protected $model = \Modules\Notify\Models\NotificationTemplateVersion::class;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 
     /**
      * Define the model's default state.
@@ -461,6 +494,7 @@ class NotificationTemplateVersionFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -528,6 +562,8 @@ class NotificationTemplateVersionFactory extends Factory
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 2effe245 (.)
+=======
+>>>>>>> d09cb759 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -550,6 +586,7 @@ class NotificationTemplateVersionFactory extends Factory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -701,3 +738,5 @@ class NotificationTemplateVersionFactory extends Factory
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)

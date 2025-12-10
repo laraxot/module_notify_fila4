@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +145,19 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 9777d1b3 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
+=======
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\BaseModel;
+=======
+use Modules\Notify\Models\BaseModel;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
 use Tests\TestCase;
 
 uses(TestCase::class, RefreshDatabase::class);
@@ -162,6 +176,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +288,8 @@ beforeEach(function () {
 =======
 >>>>>>> 4689a827 (.)
 =======
+>>>>>>> d09cb759 (.)
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -294,6 +311,7 @@ beforeEach(function () {
 =======
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -620,6 +638,8 @@ beforeEach(function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> d09cb759 (.)
         protected $table = 'test_notify_table';
     };
 });

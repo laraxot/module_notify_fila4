@@ -17,6 +17,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
@@ -102,11 +103,27 @@ uses(Tests\TestCase::class);
 =======
 >>>>>>> 985c7bda (.)
 =======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
+=======
+<<<<<<< HEAD
+=======
+=======
+use Illuminate\Support\Facades\File;
+
+uses(Tests\TestCase::class);
+>>>>>>> origin/develop
+>>>>>>> d284d65 (.)
+>>>>>>> d09cb759 (.)
 
 test('components json is valid and contains expected components', function (): void {
     // Percorso del file
