@@ -296,6 +296,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
@@ -638,6 +639,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 8c8937e7 (rebase 210)
@@ -946,6 +948,8 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 =======
 >>>>>>> 6e12a84b (rebase 210)
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
 
 ## Principi Fondamentali
 
@@ -1163,6 +1167,7 @@ Per <nome progetto>, si raccomanda un **approccio ibrido**:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 Per , si raccomanda un **approccio ibrido**:
@@ -1505,6 +1510,7 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 8c8937e7 (rebase 210)
@@ -1813,6 +1819,8 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 =======
 >>>>>>> 6e12a84b (rebase 210)
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 610b999f1 (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 

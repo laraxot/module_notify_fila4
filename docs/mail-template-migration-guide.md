@@ -302,6 +302,7 @@ Il file di migrazione principale per la tabella `mail_templates` è:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
@@ -778,6 +779,7 @@ Il file di migrazione principale per la tabella `mail_templates` è:
 =======
 >>>>>>> 6e12a84b (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
 >>>>>>> d38aa9d2 (rebase 210)
@@ -972,6 +974,11 @@ Il file di migrazione principale per la tabella `mail_templates` è:
 >>>>>>> 7a142b4f5 (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+=======
+/var/www/html/saluteora/laravel/Modules/Notify/database/migrations/2018_10_10_000002_create_mail_templates_table.php
+>>>>>>> d38aa9d2 (rebase 210)
+>>>>>>> 610b999f1 (.)
 ```
 
 Questo file è implementato usando `XotBaseMigration`, che utilizza un pattern evolutivo che differisce dalle migrazioni standard di Laravel.

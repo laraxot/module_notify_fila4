@@ -205,6 +205,7 @@ protected function getProjectNamespace(): string
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_saluteora/laravel
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
@@ -450,6 +451,9 @@ cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> bf479cc (.)
 >>>>>>> 1c96b91fe (.)
+=======
+cd /var/www/html/_bases/base_saluteora/laravel
+>>>>>>> 610b999f1 (.)
 ./vendor/bin/phpstan analyze Modules/Notify --level=9
 
 # Test funzionalità
