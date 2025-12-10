@@ -25,6 +25,7 @@ namespace Modules\Notify\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a29a4728 (.)
 =======
@@ -57,10 +58,16 @@ namespace Modules\Notify\Factories;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 909e45af (.)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 69fa7d37 (.)
 
 =======
 =======
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +122,9 @@ namespace Modules\Notify\Factories;
 =======
 >>>>>>> 8d298d6 (.)
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 2fdda20 (.)
+>>>>>>> 69fa7d37 (.)
 use Exception;
 use Illuminate\Support\Facades\Config;
 <<<<<<< HEAD
@@ -422,14 +432,18 @@ use function Safe\preg_replace;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 909e45af (.)
+=======
+>>>>>>> 69fa7d37 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
 =======
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 31f5d28f (.)
 =======
@@ -448,6 +462,9 @@ use function Safe\preg_replace;
 =======
 >>>>>>> 8d298d6 (.)
 >>>>>>> a29a4728 (.)
+=======
+>>>>>>> 2fdda20 (.)
+>>>>>>> 69fa7d37 (.)
 
 /**
  * Factory per la creazione di azioni WhatsApp.
@@ -945,6 +962,7 @@ final class WhatsAppActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f537838 (.)
 =======
@@ -1049,10 +1067,15 @@ final class WhatsAppActionFactory
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
 =======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
+
+>>>>>>> 69fa7d37 (.)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower((string) $driver)));
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
@@ -1060,12 +1083,16 @@ final class WhatsAppActionFactory
 =======
         if (!is_string($normalizedDriver)) {
 >>>>>>> 99ff506 (.)
+=======
+        if (! is_string($normalizedDriver)) {
+>>>>>>> 69fa7d37 (.)
             $normalizedDriver = '';
         }
 =======
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> e39a6f9 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
@@ -1076,11 +1103,14 @@ final class WhatsAppActionFactory
 =======
 >>>>>>> 909e45af (.)
 =======
+>>>>>>> 69fa7d37 (.)
+=======
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> 62b0c9c (.)
 =======
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1371,6 +1401,11 @@ final class WhatsAppActionFactory
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 
+=======
+>>>>>>> 2fdda20 (.)
+
+>>>>>>> 31bdf6b (.)
+>>>>>>> 69fa7d37 (.)
         // Costruisci il nome completo della classe
         $className = "\\Modules\\Notify\\Actions\\WhatsApp\\Send{$normalizedDriver}WhatsAppAction";
 

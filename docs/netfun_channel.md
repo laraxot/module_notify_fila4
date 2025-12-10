@@ -619,6 +619,7 @@ SMS_FROM_NAME=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM_NAME=<nome progetto>
 =======
 =======
@@ -1396,6 +1397,12 @@ SMS_FROM_NAME=<nome progetto>
 >>>>>>> d284d65 (.)
 SMS_FROM_NAME=SaluteOra
 >>>>>>> 36ac4fc1 (.)
+=======
+SMS_FROM_NAME=SaluteOra
+=======
+SMS_FROM_NAME=<nome progetto>
+>>>>>>> bf479cc (.)
+>>>>>>> 69fa7d37 (.)
 SMS_FROM_NUMBER=+393331234567
 SMS_DEBUG=false
 

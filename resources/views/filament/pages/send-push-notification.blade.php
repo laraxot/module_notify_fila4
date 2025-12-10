@@ -1224,6 +1224,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1298,6 +1299,8 @@ declare(strict_types=1);
                 <div class="mt-6">
                     {{ $this->notificationForm }}
                 </div>
+=======
+>>>>>>> 69fa7d37 (.)
                 <div>
 <<<<<<< HEAD
                     <x-filament-panels::form.actions :actions="$this->getNotificationFormActions()" />
@@ -1331,6 +1334,7 @@ declare(strict_types=1);
 =======
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 =======
+<<<<<<< HEAD
                 <div>
                     <x-filament::actions :actions="$this->getNotificationFormActions()" />
 >>>>>>> a29a4728 (.)
@@ -1349,6 +1353,39 @@ declare(strict_types=1);
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> 6ba141fc (.)
+=======
+<<<<<<< HEAD
+                <div>
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+=======
+=======
+>>>>>>> bf479cc (.)
+
+                <div class="mt-6 flex items-center justify-between gap-x-3">
+                    <div>
+                        <div class="inline-flex items-center" wire:loading wire:target="sendNotification()">
+                            <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            Invio in corso...
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        @foreach($this->getNotificationFormActions() as $action)
+                            {{ $action }}
+                        @endforeach
+                    </div>
+<<<<<<< HEAD
+>>>>>>> 11ae5222 (.)
+>>>>>>> 62b0c9c (.)
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 31bdf6b (.)
+>>>>>>> 69fa7d37 (.)
                 </div>
             </div>
         </div>
