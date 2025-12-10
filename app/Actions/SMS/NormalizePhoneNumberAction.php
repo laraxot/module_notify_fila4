@@ -1286,9 +1286,6 @@ class NormalizePhoneNumberAction
 >>>>>>> 3f537838 (.)
 class NormalizePhoneNumberAction
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function execute(string|array $phoneNumber): string
     {
         // Convert array to string if needed
@@ -1296,18 +1293,6 @@ class NormalizePhoneNumberAction
             $phoneNumber = implode('', $phoneNumber);
         }
         
-=======
-    public function execute(string $phoneNumber): string
-    {
->>>>>>> 62b0c9c (.)
-=======
-    public function execute(string $phoneNumber): string
-    {
->>>>>>> bf479cc (.)
-=======
-    public function execute(string $phoneNumber): string
-    {
->>>>>>> 372da3e (.)
         // Rimuove parentesi e il loro contenuto
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1406,6 +1391,7 @@ class NormalizePhoneNumberAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
 =======
         $phoneNumber = ltrim($phoneNumber, '0');
@@ -1470,6 +1456,9 @@ class NormalizePhoneNumberAction
 =======
         $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
 >>>>>>> 3f537838 (.)
+=======
+        $phoneNumber = is_string($phoneNumber) ? ltrim($phoneNumber, '0') : '';
+>>>>>>> a404ea71 (.)
 
         // Prefisso italiano
         $prefix = '39';
