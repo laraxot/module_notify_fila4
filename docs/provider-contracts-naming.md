@@ -257,6 +257,7 @@ Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire que
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nel sistema <nome progetto>, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 =======
 Nel sistema , tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
@@ -760,6 +761,7 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
 >>>>>>> 9721a5b2 (.)
@@ -824,6 +826,11 @@ Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste co
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+Nel sistema SaluteOra, tutte le interfacce (interfaces) devono seguire queste convenzioni di naming:
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 
 1. **Suffisso `Contract` e non `Interface`**:
    - ✅ CORRETTO: `SmsProviderContract`

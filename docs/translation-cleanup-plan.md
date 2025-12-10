@@ -144,6 +144,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -175,6 +176,8 @@
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di <nome progetto>.
 
 ## Analisi della Situazione Attuale
@@ -311,6 +314,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 =======
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
@@ -583,11 +587,14 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 =======
 >>>>>>> b99af5a8 (.)
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
 
 ## Analisi della Situazione Attuale
 
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +756,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/lara
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 >>>>>>> 75179b85 (.)
 =======
@@ -1148,6 +1157,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9721a5b2 (.)
 =======
@@ -1205,6 +1215,10 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`

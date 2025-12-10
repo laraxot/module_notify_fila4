@@ -299,6 +299,7 @@ Dopo un'analisi approfondita, è stato determinato che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di <nome progetto>
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di 
@@ -802,6 +803,7 @@ Dopo un'analisi approfondita, è stato determinato che:
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
 >>>>>>> 9721a5b2 (.)
@@ -866,6 +868,11 @@ Dopo un'analisi approfondita, è stato determinato che:
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+   - Il modulo Notify rappresenta un'eccezione alle convenzioni generali di SaluteOra
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
    - Questa eccezione è documentata e intenzionale
 
 ## Convenzioni Corrette per il Modulo Notify
@@ -1035,6 +1042,7 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di <nome progetto>, poiché rappresentano un'eccezione documentata.
 =======
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di , poiché rappresentano un'eccezione documentata.
@@ -1538,6 +1546,7 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
 >>>>>>> 9721a5b2 (.)
@@ -1602,6 +1611,11 @@ Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono corre
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+Il file `send_whats_app.php` e altri file simili nel modulo Notify seguono correttamente le convenzioni specifiche del modulo. Non è necessario modificare questi file per conformarsi alle convenzioni generali di SaluteOra, poiché rappresentano un'eccezione documentata.
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 
 ## Riferimenti
 

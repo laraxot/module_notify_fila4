@@ -116,6 +116,7 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -142,6 +143,8 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
 =======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
@@ -308,6 +311,7 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 =======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 =======
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
@@ -838,6 +842,8 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 =======
 >>>>>>> b99af5a8 (.)
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 
 ## Analisi della Situazione Attuale
 
@@ -1039,6 +1045,7 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1074,6 +1081,8 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1328,11 +1337,15 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
 >>>>>>> c7a4727b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b215d516b (.)
 =======
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 =======
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 
@@ -1653,6 +1666,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 >>>>>>> 36136dcfa (.)
 =======
 >>>>>>> 275b7ad99 (.)
+=======
+>>>>>>> b215d516b (.)
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_s_m_s.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php
@@ -1784,6 +1799,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1818,6 +1834,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 =======
 =======
 >>>>>>> 31f5d28f (.)
@@ -2273,6 +2291,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9721a5b2 (.)
 =======
@@ -2515,6 +2534,10 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 ```
 
 ### Template Standard per i File di Traduzione

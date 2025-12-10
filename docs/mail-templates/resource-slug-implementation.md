@@ -257,6 +257,7 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto <nome progetto>.
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto .
@@ -760,6 +761,7 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
 >>>>>>> 9721a5b2 (.)
@@ -824,6 +826,11 @@ Questo documento descrive l'implementazione del campo `slug` nella risorsa Filam
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+Questo documento descrive l'implementazione del campo `slug` nella risorsa Filament `MailTemplateResource`, rispettando le convenzioni e gli standard del progetto SaluteOra.
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 
 ## Implementazione nel Form Schema
 
@@ -996,6 +1003,7 @@ public static function getFormSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conformità con gli Standard <nome progetto>
 =======
 ## Conformità con gli Standard 
@@ -1499,6 +1507,7 @@ public static function getFormSchema(): array
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## Conformità con gli Standard SaluteOra
 >>>>>>> 9721a5b2 (.)
@@ -1563,6 +1572,11 @@ public static function getFormSchema(): array
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+## Conformità con gli Standard SaluteOra
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 
 Questa implementazione aderisce a diversi standard chiave del progetto:
 

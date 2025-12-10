@@ -868,6 +868,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1400,11 +1401,15 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bf479cc (.)
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b215d516b (.)
 =======
 - [Laravel Telescope](https://laravel.com/docs/telescope)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
 - [Laravel Dusk](https://laravel.com/docs/dusk)
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 =======
 - [Laravel Telescope](https://laravel.com/docs/telescope)
 - [Laravel Horizon](https://laravel.com/docs/horizon)
@@ -2168,6 +2173,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bc2faa05b (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 
 #### 8.5.4 Best Practices
 - [Laravel Best Practices](https://github.com/alexeymezenin/laravel-best-practices)
@@ -2636,6 +2643,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Security](https://laravel.com/docs/security)
 =======
 - [Laravel Security](https://laravel.com/project_docs/security)
@@ -3491,6 +3499,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bf479cc (.)
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Security](https://laravel.com/docs/security)
 >>>>>>> 9721a5b2 (.)
@@ -3604,6 +3613,11 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bc2faa05b (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+- [Laravel Security](https://laravel.com/docs/security)
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 - [PHP Security](https://phpsecurity.readthedocs.io)
 
 #### 8.5.6 Testing
@@ -3840,6 +3854,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -4084,6 +4099,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 9d84f153 (.)
 =======
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9721a5b2 (.)
@@ -4331,6 +4347,10 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bc2faa05b (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 - [Laravel Testing](https://laravel.com/docs/testing)
 - [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
@@ -4338,6 +4358,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Laravel Performance](https://laravel.com/docs/performance)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5466,6 +5487,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -5572,6 +5594,8 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> bf479cc (.)
 >>>>>>> b99af5a8 (.)
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 - [PHP Performance](https://www.php.net/manual/en/performance.php)
 - [Web Performance](https://web.dev/performance)
 
@@ -5892,6 +5916,7 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6784,10 +6809,9 @@ Il modulo è progettato per essere estensibile e personalizzabile, permettendo l
 >>>>>>> 9d84f153 (.)
 =======
 >>>>>>> b99af5a8 (.)
-- [Laravel Monitoring](https://laravel.com/docs/monitoring)
 =======
-- [Laravel Monitoring](https://laravel.com/project_docs/monitoring)
->>>>>>> bf479cc (.)
+>>>>>>> 9721a5b2 (.)
+- [Laravel Monitoring](https://laravel.com/docs/monitoring)
 - [Application Monitoring](https://en.wikipedia.org/wiki/Application_performance_management)
 - [Log Management](https://en.wikipedia.org/wiki/Log_management) 
 >>>>>>> 2a97406c (.)

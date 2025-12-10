@@ -428,6 +428,7 @@ class NotificationTemplate extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -672,6 +673,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> 9d84f153 (.)
 =======
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9721a5b2 (.)
@@ -919,6 +921,10 @@ class NotificationTemplate extends BaseModel
 >>>>>>> bc2faa05b (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 - [Architettura dei Modelli](../../../../docs/architecture/models.md)
 - [Gestione Notifiche](../../../../docs/architecture/notifications.md)
 
@@ -926,6 +932,7 @@ class NotificationTemplate extends BaseModel
 - [XotBaseModel](../../Xot/docs/XotBaseModel.md)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2077,6 +2084,7 @@ class NotificationTemplate extends BaseModel
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -2183,6 +2191,8 @@ class NotificationTemplate extends BaseModel
 >>>>>>> bf479cc (.)
 >>>>>>> b99af5a8 (.)
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 - [Modelli Notify](./models.md)
 
 ## Note Importanti

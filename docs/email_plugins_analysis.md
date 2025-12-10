@@ -854,6 +854,7 @@ class MailAnalytics
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail](https://laravel.com/project_docs/mail)
@@ -1817,6 +1818,7 @@ class MailAnalytics
 >>>>>>> bf479cc (.)
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Laravel Mail](https://laravel.com/docs/mail)
 >>>>>>> 9721a5b2 (.)
@@ -1922,3 +1924,8 @@ class MailAnalytics
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+- [Laravel Mail](https://laravel.com/docs/mail)
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)

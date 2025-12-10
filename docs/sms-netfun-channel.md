@@ -370,6 +370,7 @@ Configurazione attuale con username/password nel modulo Notify:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
     'sender' => env('NETFUN_SENDER', ''),
@@ -873,6 +874,7 @@ Configurazione attuale con username/password nel modulo Notify:
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 9721a5b2 (.)
@@ -937,6 +939,11 @@ Configurazione attuale con username/password nel modulo Notify:
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+    'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
     'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
     // Parametri avanzati...
 ],

@@ -267,6 +267,7 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di <nome progetto>
 =======
 - **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di 
@@ -770,6 +771,7 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di SaluteOra
 >>>>>>> 9721a5b2 (.)
@@ -834,6 +836,11 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+- **Errore**: File di traduzione come `send_whats_app.php` utilizzano convenzioni che differiscono dalle convenzioni generali di SaluteOra
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 - **Causa**: Il modulo Notify utilizza convenzioni specifiche che rappresentano un'eccezione documentata alle convenzioni generali
 - **Dettagli**: I file utilizzano la chiave `navigation` e un pattern di naming con prefisso `send_` in snake_case
 
@@ -1017,6 +1024,7 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di <nome progetto>
 =======
 - È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di 
@@ -1487,11 +1495,9 @@ Durante il lavoro di oggi sono state identificate due problematiche principali n
 >>>>>>> c7a4727b (.)
 =======
 >>>>>>> b99af5a8 (.)
-- È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di SaluteOra
 =======
-- È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di 
-- È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di <nome progetto>
->>>>>>> bf479cc (.)
+>>>>>>> 9721a5b2 (.)
+- È importante rispettare le convenzioni specifiche del modulo Notify, anche se differiscono dalle convenzioni generali di SaluteOra
 - La documentazione è stata aggiornata per riflettere queste eccezioni e prevenire confusioni future
 - Le soluzioni implementate mantengono la compatibilità con il codice esistente, garantendo al contempo chiarezza per gli sviluppatori futuri
 >>>>>>> 2a97406c (.)

@@ -116,6 +116,7 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -142,6 +143,8 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di <nome progetto>.
 =======
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di .
@@ -308,6 +311,7 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 =======
 Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formula di calcolo dinamico per la risoluzione delle classi rispetto all'approccio attuale con match nel factory pattern di SaluteOra.
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 =======
 # Pattern di Risoluzione Dinamica delle Classi vs Pattern Match
 
@@ -836,6 +840,8 @@ Questo documento analizza i vantaggi e gli svantaggi dell'utilizzo di una formul
 =======
 >>>>>>> b99af5a8 (.)
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> b215d516b (.)
 
 ## Implementazione Attuale con Match
 

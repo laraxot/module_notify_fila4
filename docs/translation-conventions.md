@@ -466,6 +466,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
 =======
 - [ Translation System](../../../../.cursor/rules/translations.rule)
@@ -969,6 +970,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 =======
 >>>>>>> b99af5a8 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 9721a5b2 (.)
@@ -1033,6 +1035,11 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> 275b7ad99 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+- [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 9721a5b2 (.)
+>>>>>>> b215d516b (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 
