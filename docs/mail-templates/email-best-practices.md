@@ -46,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -92,6 +93,7 @@
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> eb62d6cf (rebase 210)
 =======
@@ -136,6 +138,8 @@
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
 # Best Practices per Email Transazionali
 
 ## Introduzione
@@ -156,6 +160,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 <<<<<<< HEAD
 - **Elementi visuali**: Utilizzare logo, colori e font <nome progetto>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -720,6 +725,7 @@ Questo documento descrive le best practices per la creazione e gestione di email
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> 4fc21b78 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
 >>>>>>> 9c45d9bd (rebase 210)
@@ -906,6 +912,11 @@ Questo documento descrive le best practices per la creazione e gestione di email
 >>>>>>> 252fa579e (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+- **Elementi visuali**: Utilizzare logo, colori e font SaluteOra
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
 - **Voce e tono**: Mantenere un tono professionale ma amichevole
 - **Firma coerente**: Includere sempre lo stesso formato di firma e disclaimer
 
@@ -1092,6 +1103,7 @@ La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mai
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La directory `/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 =======
 La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/` contiene:
@@ -1535,6 +1547,7 @@ La directory `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/N
 =======
 La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/` contiene:
 >>>>>>> 9c45d9bd (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -1724,6 +1737,8 @@ La directory `/var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layo
 >>>>>>> 252fa579e (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+>>>>>>> ce1853afd (.)
 
 - **default.html**: Template base per la maggior parte delle comunicazioni
 - **main.html**: Alternativa minimalista
@@ -1873,6 +1888,7 @@ Seguendo le regole di progetto <nome progetto>, ricordare di:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo le regole di progetto <nome progetto>, ricordare di:
 =======
 Seguendo le regole di progetto , ricordare di:
@@ -2299,6 +2315,7 @@ Seguendo le regole di progetto , ricordare di:
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> 4fc21b78 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> 9c45d9bd (rebase 210)
@@ -2485,6 +2502,11 @@ Seguendo le regole di progetto SaluteOra, ricordare di:
 >>>>>>> 252fa579e (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+Seguendo le regole di progetto SaluteOra, ricordare di:
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
 
 - NON creare controller personalizzati per gestire l'invio di email
 - Utilizzare il package `spatie/laravel-mail-templates`
@@ -2538,6 +2560,7 @@ $mailTemplate->send($user->email, [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2581,6 +2604,8 @@ $mailTemplate->send($user->email, [
 =======
 >>>>>>> 43dd68f4b (.)
 =======
+>>>>>>> ce1853afd (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2596,6 +2621,7 @@ $mailTemplate->send($user->email, [
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
@@ -2686,3 +2712,7 @@ $mailTemplate->send($user->email, [
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)

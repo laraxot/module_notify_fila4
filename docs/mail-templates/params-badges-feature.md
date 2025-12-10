@@ -91,6 +91,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -117,6 +118,7 @@
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
@@ -283,6 +285,10 @@
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
 # Visualizzazione Parametri come Badge - Mail Templates
 
 ## Panoramica
@@ -459,6 +465,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 <<<<<<< HEAD
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1044,6 +1051,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 **Compatibilità**: Filament 3.x, Laravel 10+ 
 >>>>>>> 4fc21b78 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1256,3 +1264,8 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 43dd68f4b (.)
+=======
+=======
+**Compatibilità**: Filament 4.x, Laravel 10+ 
+>>>>>>> 9c45d9bd (rebase 210)
+>>>>>>> ce1853afd (.)
