@@ -770,6 +770,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -913,6 +914,7 @@ class SmtpData extends Data
 >>>>>>> 7325acf3 (.)
 =======
 >>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -943,6 +945,8 @@ class SmtpData extends Data
 =======
 >>>>>>> 7325acf3 (.)
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 53eef8d8d (.)
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
 - [Documentazione Filament Forms](https://filamentphp.com/docs/forms)
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
@@ -1032,6 +1036,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1042,6 +1047,8 @@ class SmtpData extends Data
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> 2e9bd58c3 (.)
+=======
+>>>>>>> 53eef8d8d (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Documentazione Laravel Mail](https://laravel.com/docs/mail)
@@ -1828,6 +1835,7 @@ class SmtpData extends Data
 - [Best Practices SMTP](https://laravel.com/docs/mail#smtp-configuration)
 >>>>>>> 4c323e61 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
@@ -1956,6 +1964,11 @@ class SmtpData extends Data
 >>>>>>> 2e9bd58c3 (.)
 =======
 >>>>>>> 37beb5238 (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 23cbbaf5 (.)
+>>>>>>> 53eef8d8d (.)
 
 ## ⚠️ Note Importanti
 
@@ -1975,6 +1988,7 @@ class SmtpData extends Data
 <<<<<<< HEAD
    - Verificare configurazione SMTP 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2210,11 +2224,15 @@ class SmtpData extends Data
 =======
 >>>>>>> 4c323e61 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 53eef8d8d (.)
 =======
 =======
    - Verificare configurazione SMTP 
 >>>>>>> bf479cc (.)
 >>>>>>> 23cbbaf5 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> febe79e3 (.)
 =======
@@ -2666,3 +2684,5 @@ class SmtpData extends Data
 >>>>>>> 138485550 (.)
 =======
 >>>>>>> 37beb5238 (.)
+=======
+>>>>>>> 53eef8d8d (.)
