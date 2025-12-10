@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ee1815a34 (.)
 =======
@@ -17,6 +18,8 @@
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 4b0fcdd41 (.)
 <?php
 
 declare(strict_types=1);
@@ -25,6 +28,7 @@ return [
     // These CSS rules will be applied after the regular template CSS
 
     /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,10 +330,13 @@ return [
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> fea359347 (.)
+=======
+>>>>>>> 4b0fcdd41 (.)
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1358,6 +1365,8 @@ return [
 =======
 >>>>>>> 0db165c (.)
 >>>>>>> 8ffdc1974 (.)
+=======
+>>>>>>> 4b0fcdd41 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -1438,6 +1447,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2011,6 +2021,9 @@ return [
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 8ffdc1974 (.)
+=======
+
+>>>>>>> 4b0fcdd41 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -2091,6 +2104,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2666,6 +2680,9 @@ return [
 
 >>>>>>> 0db165c (.)
 >>>>>>> 8ffdc1974 (.)
+=======
+
+>>>>>>> 4b0fcdd41 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -2746,6 +2763,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3321,11 +3339,15 @@ return [
 
 >>>>>>> 0db165c (.)
 >>>>>>> 8ffdc1974 (.)
+=======
+
+>>>>>>> 4b0fcdd41 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3346,3 +3368,5 @@ return [
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 4b0fcdd41 (.)

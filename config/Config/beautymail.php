@@ -130,6 +130,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258,10 +259,13 @@ return [
 <<<<<<< HEAD
 >>>>>>> ce89c8bb (.)
 =======
+=======
+>>>>>>> 9f07b0d4 (.)
         'css' => [
             '.button-content .button { background: red }',
         ],
     */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 2effe245 (.)
@@ -6976,6 +6980,7 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9f07b0d4 (.)
@@ -8140,6 +8145,10 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+=======
+>>>>>>> 9f07b0d4 (.)
+>>>>>>> 4b0fcdd41 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -8637,6 +8646,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -10460,6 +10470,9 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 9f07b0d4 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -10613,7 +10626,11 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be698cf2c (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4b0fcdd41 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> cbb586cb0 (.)
@@ -14814,6 +14831,9 @@ return [
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
+=======
+
+>>>>>>> 9f07b0d4 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -14968,7 +14988,11 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8ffdc1974 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 4b0fcdd41 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> cbb586cb0 (.)
@@ -19586,6 +19610,7 @@ return [
 >>>>>>> 4e2ebfb (.)
 >>>>>>> ce89c8bb (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 9f07b0d4 (.)
@@ -20992,6 +21017,11 @@ return [
 >>>>>>> be698cf2c (.)
 =======
 >>>>>>> cbb586cb0 (.)
+=======
+=======
+
+>>>>>>> 9f07b0d4 (.)
+>>>>>>> 4b0fcdd41 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
