@@ -60,6 +60,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -129,6 +130,7 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -196,6 +198,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
 use Tests\TestCase;
@@ -276,6 +280,7 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 98d837b9 (.)
@@ -292,6 +297,8 @@ beforeEach(function () {
 =======
 >>>>>>> 11b43e822 (.)
 =======
+>>>>>>> b207a9b1a (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -308,6 +315,7 @@ beforeEach(function () {
 =======
 >>>>>>> de02998b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -336,6 +344,8 @@ beforeEach(function () {
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 use Modules\Notify\Models\BaseModel;
 
 beforeEach(function () {
@@ -362,10 +372,13 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -775,6 +788,7 @@ beforeEach(function () {
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
     $this->baseModel = new class extends BaseModel {
 >>>>>>> 75179b855 (.)
 =======
@@ -857,6 +871,9 @@ beforeEach(function () {
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
         protected $table = 'test_notify_table';
     };
 });

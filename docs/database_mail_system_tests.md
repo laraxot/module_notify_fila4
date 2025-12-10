@@ -704,6 +704,7 @@ class MailTemplateSecurityTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1442,6 +1443,7 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 =======
@@ -1462,9 +1464,12 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> d09cb759 (.)
 =======
 =======
+>>>>>>> b207a9b1a (.)
+=======
 
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
@@ -1586,6 +1591,8 @@ class MailTemplateSecurityTest extends TestCase
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> b207a9b1a (.)
 # Esegui tutti i test
 php artisan test --filter=MailTemplate
 
@@ -1802,6 +1809,7 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2005,6 +2013,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> f963d2c0 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
@@ -2261,6 +2270,10 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 12a7e2462 (.)
+=======
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
 - [Testing Guide](../../../docs/testing-guide.md)
 - [CI/CD Pipeline](../../../docs/ci-cd.md)
 
@@ -2494,10 +2507,13 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2515,6 +2531,7 @@ php artisan test --coverage --filter=MailTemplate
 =======
 >>>>>>> de02998b (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> e7a9a2bf (.)
@@ -2679,6 +2696,8 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 - [Testing Guide](../../../project_docs/testing-guide.md)
 - [CI/CD Pipeline](../../../project_docs/ci-cd.md)
 
@@ -2774,10 +2793,13 @@ php artisan test --coverage --filter=MailTemplate
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3353,6 +3375,7 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> d284d65 (.)
 >>>>>>> d09cb759 (.)
 =======
+<<<<<<< HEAD
 - [Pest PHP](https://pestphp.com/docs) 
 >>>>>>> 75179b855 (.)
 =======
@@ -3492,3 +3515,6 @@ php artisan test --coverage --filter=MailTemplate
 >>>>>>> 12a7e2462 (.)
 =======
 >>>>>>> 510809c6f (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)

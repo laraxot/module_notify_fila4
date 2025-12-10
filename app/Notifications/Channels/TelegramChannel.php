@@ -181,6 +181,23 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b207a9b1a (.)
 =======
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
@@ -218,6 +235,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> 2941b0bd (.)
@@ -381,11 +399,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
 declare(strict_types=1);
 
 
 =======
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -403,6 +425,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -546,6 +570,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 
+<<<<<<< HEAD
 >>>>>>> 161887a2 (.)
 =======
 =======
@@ -590,6 +615,11 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 9777d1b3 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -969,6 +999,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -985,6 +1016,7 @@ class TelegramChannel
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -1033,6 +1065,8 @@ class TelegramChannel
 =======
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
             'message' => $message,
 =======
             'message' => $message
@@ -1067,10 +1101,13 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 =======
             'message' => $message,
 >>>>>>> 75179b85 (.)
@@ -1344,6 +1381,7 @@ class TelegramChannel
             'message' => $message,
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
             'message' => $message,
 >>>>>>> 75179b855 (.)
 =======
@@ -1407,6 +1445,9 @@ class TelegramChannel
             'message' => $message,
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
         ]);
     }
 }

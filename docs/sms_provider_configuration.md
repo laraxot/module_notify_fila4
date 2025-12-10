@@ -332,6 +332,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,6 +390,7 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
     'from' => env('SMS_FROM', '<nome progetto>'),
 =======
@@ -736,6 +738,8 @@ return [
 =======
     'from' => env('SMS_FROM', '<nome progetto>'),
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -1619,6 +1623,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1676,6 +1681,7 @@ return [
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
@@ -2023,6 +2029,8 @@ return [
 =======
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 75179b85 (.)
 =======
@@ -2963,6 +2971,7 @@ SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3020,6 +3029,7 @@ SMS_FROM=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
 SMS_FROM=<nome progetto>
 =======
@@ -3367,6 +3377,8 @@ SMS_FROM=<nome progetto>
 =======
 SMS_FROM=<nome progetto>
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
 SMS_FROM=SaluteOra
 >>>>>>> 75179b85 (.)
 =======
@@ -4241,6 +4253,7 @@ NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4298,6 +4311,7 @@ NETFUN_SENDER=<nome progetto>
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
 NETFUN_SENDER=<nome progetto>
 =======
@@ -4645,6 +4659,8 @@ NETFUN_SENDER=<nome progetto>
 =======
 NETFUN_SENDER=<nome progetto>
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> b207a9b1a (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> 75179b85 (.)
 =======

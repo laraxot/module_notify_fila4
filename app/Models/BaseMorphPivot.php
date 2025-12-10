@@ -272,6 +272,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -288,6 +289,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 011072e4 (.)
 =======
@@ -404,6 +406,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 207ac35e (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
         'post_id',
         'post_type',
 =======
@@ -473,10 +477,13 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> b207a9b1a (.)
 =======
         'post_id',
         'post_type',
@@ -1177,6 +1184,7 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_type',
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
         'post_id',
         'post_type',
 >>>>>>> 75179b855 (.)
@@ -1281,6 +1289,9 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 510809c6f (.)
 =======
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> de02998b (.)
+>>>>>>> b207a9b1a (.)
         'related_type',
         'user_id',
         'note',
@@ -1468,6 +1479,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2055,6 +2067,7 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 3f537838 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
 =======
@@ -2072,9 +2085,12 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 3f537838 (.)
 =======
 =======
+>>>>>>> b207a9b1a (.)
+=======
 
 >>>>>>> b19cd40 (.)
 >>>>>>> de02998b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
@@ -2158,6 +2174,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 3f537838 (.)
 >>>>>>> 11b43e822 (.)
+=======
+>>>>>>> b207a9b1a (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
