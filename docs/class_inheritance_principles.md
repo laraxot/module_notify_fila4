@@ -234,6 +234,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Principi di Ereditarietà nelle Classi <nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -931,6 +932,7 @@
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9fe1b60e (rebase 210)
@@ -1502,6 +1504,12 @@
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+# Principi di Ereditarietà nelle Classi <nome progetto>
+# Principi di Ereditarietà nelle Classi SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 
 ## Regola Fondamentale: No Duplicate Declarations
 
@@ -1582,6 +1590,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2699,6 +2708,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/<nome progetto>/laravel/Modules/
 grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/html/saluteora/laravel/Modules/
@@ -3609,6 +3619,8 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 =======
 >>>>>>> 460b8f5b (rebase 210)
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ```
 
 ## Riferimenti
@@ -3617,6 +3629,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 - [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
 - [DRY Principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 - [PHP OOP Best Practices](https://phptherightway.com/#object-oriented-programming)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3665,6 +3678,8 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -3680,6 +3695,7 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -3771,3 +3787,5 @@ grep -r --include="*.php" "extends XotBasePage implements HasForms" /var/www/htm
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

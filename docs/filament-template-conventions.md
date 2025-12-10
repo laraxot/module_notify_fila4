@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Convenzioni per Template Blade di Filament 
 
 ## Struttura Standard dei Template di Pagina
@@ -340,6 +346,7 @@ grep -L "name=\"footer\"" /var/www/html/<nome progetto>/laravel/Modules/*/resour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 grep -L "name=\"description\"" /var/www/html/<nome progetto>/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 grep -L "name=\"footer\"" /var/www/html/<nome progetto>/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 =======
@@ -349,6 +356,7 @@ grep -L "name=\"footer\"" /var/www/html/<nome progetto>/laravel/Modules/*/resour
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -366,6 +374,10 @@ grep -L "name=\"footer\"" /var/www/html/<nome progetto>/laravel/Modules/*/resour
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 grep -L "name=\"description\"" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 grep -L "name=\"footer\"" /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 grep -L "name=\"description\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
@@ -383,8 +395,11 @@ grep -L "name=\"footer\"" /var/www/html/_bases/base_techplanner_fila3_mono/larav
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 >>>>>>> 75179b85 (.)
 =======
 grep -L "name=\"description\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
@@ -902,6 +917,7 @@ grep -L "name=\"description\"" /var/www/html/saluteora/laravel/Modules/*/resourc
 grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/views/filament/pages/*.blade.php
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -1093,6 +1109,10 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 ```
 
 ## Riferimenti
@@ -1100,6 +1120,7 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 - [Filament UI Components](https://filamentphp.com/docs/panels/components)
 - [Laravel Blade Templates](https://laravel.com/docs/blade)
 - [Accessibilità Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1146,6 +1167,8 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1161,6 +1184,7 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1248,3 +1272,5 @@ grep -L "name=\"footer\"" /var/www/html/saluteora/laravel/Modules/*/resources/vi
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

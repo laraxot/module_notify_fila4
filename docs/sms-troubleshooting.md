@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Troubleshooting SMS
 
 ## Errori Comuni e Soluzioni
@@ -298,6 +304,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -754,11 +761,15 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 - [Laravel Logging](https://laravel.com/docs/logging)- [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queue](https://laravel.com/project_docs/queues)
 - [Laravel Logging](https://laravel.com/project_docs/logging)
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -948,6 +959,8 @@ Log::debug('SMS Debug', [
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 - [Laravel Logging](https://laravel.com/docs/logging)
 =======
 - [Laravel Logging](https://laravel.com/docs/logging)
@@ -1089,6 +1102,7 @@ Log::debug('SMS Debug', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1130,6 +1144,8 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1145,6 +1161,7 @@ Log::debug('SMS Debug', [
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1232,3 +1249,5 @@ Log::debug('SMS Debug', [
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

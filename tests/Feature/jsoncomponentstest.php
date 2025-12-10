@@ -10,6 +10,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,6 +143,8 @@ use Illuminate\Support\Facades\File;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
@@ -155,7 +158,18 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 >>>>>>> 99ff506 (.)
+<<<<<<< HEAD
 >>>>>>> e53a56570 (.)
+=======
+=======
+use Illuminate\Support\Facades\File;
+use Tests\TestCase;
+>>>>>>> a80c61f (.)
+=======
+use Tests\TestCase;
+use Illuminate\Support\Facades\File;
+>>>>>>> c650db4 (.)
+>>>>>>> 43dd68f4b (.)
 
 uses(TestCase::class);
 <<<<<<< HEAD
@@ -334,6 +348,7 @@ test('components json is valid and contains expected components', function (): v
     // Verifico che il JSON è valido
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
 =======
 <<<<<<< HEAD
@@ -367,6 +382,9 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 7c1c276f (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+<<<<<<< HEAD
+>>>>>>> 43dd68f4b (.)
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
 =======
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
@@ -377,6 +395,7 @@ test('components json is valid and contains expected components', function (): v
 =======
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: '.json_last_error_msg());
 >>>>>>> a80c61f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7c1c276f (rebase 210)
 =======
@@ -414,6 +433,11 @@ test('components json is valid and contains expected components', function (): v
     expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+=======
+    expect($json)->not->toBeNull('Il file _components.json non contiene JSON valido: ' . json_last_error_msg());
+>>>>>>> c650db4 (.)
+>>>>>>> 43dd68f4b (.)
 
     // Verifico che ci sono 2 componenti
     expect($json)->toHaveCount(2, 'Il file _components.json non contiene i 2 componenti attesi');
@@ -439,6 +463,7 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f1c9518b (.)
 =======
@@ -453,12 +478,17 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> e53a56570 (.)
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
 =======
+=======
+>>>>>>> 43dd68f4b (.)
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
 =======
 >>>>>>> 6a92a74 (.)
 =======
 >>>>>>> c650db4 (.)
+<<<<<<< HEAD
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 43dd68f4b (.)
     expect($json[0])->toHaveKey('name', 'Il primo componente non ha una chiave "name"');
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
     expect($json[0])->toHaveKey('class', 'Il primo componente non ha una chiave "class"');
@@ -497,6 +527,7 @@ test('components json is valid and contains expected components', function (): v
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 =======
 >>>>>>> 75179b85 (.)
@@ -505,6 +536,8 @@ test('components json is valid and contains expected components', function (): v
 =======
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+=======
+>>>>>>> 43dd68f4b (.)
     /** @phpstan-ignore-next-line offsetAccess.nonOffsetAccessible */
 >>>>>>> 5fd545e4 (.)
 =======
@@ -549,6 +582,7 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 6a92a74 (.)
 =======
 >>>>>>> c650db4 (.)
+<<<<<<< HEAD
 >>>>>>> 4fc21b78 (rebase 210)
 =======
 =======
@@ -631,6 +665,8 @@ test('components json is valid and contains expected components', function (): v
     expect($json[1])->toHaveKey('class', 'Il secondo componente non ha una chiave "class"');
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 43dd68f4b (.)
     expect($json[1])->toHaveKey('ns', 'Il secondo componente non ha una chiave "ns"');
 
     // Verifico i nomi specifici dei componenti

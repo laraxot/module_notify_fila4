@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali
@@ -155,6 +161,7 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 <<<<<<< HEAD
 - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,11 +614,15 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/`
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 - `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> 9c45d9bd (rebase 210)
@@ -918,6 +929,8 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 
 ### 3. Convenzioni di Nomenclatura
 
@@ -1012,6 +1025,7 @@ Tutte le azioni devono gestire correttamente gli errori:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1053,6 +1067,8 @@ Tutte le azioni devono gestire correttamente gli errori:
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1068,6 +1084,7 @@ Tutte le azioni devono gestire correttamente gli errori:
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1155,3 +1172,5 @@ Tutte le azioni devono gestire correttamente gli errori:
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

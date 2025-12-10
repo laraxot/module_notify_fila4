@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,6 +60,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -142,6 +144,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # XotBaseServiceProvider: Analisi, Regole e Best Practice
 
 ## 1. Cos'è XotBaseServiceProvider
@@ -234,6 +240,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/service-provider-best-practices.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1071,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/project_docs/service-provider-best-practices.md)
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/service-provider-best-practices.md)
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1497,10 +1505,13 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 - [Best Practices](/var/www/html/base_<nome progetto>/laravel/Modules/Xot/docs/service-provider-best-practices.md)
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 
 ---
 
 > **Questa documentazione è stata aggiornata dopo un errore di override errato del metodo boot. Seguire SEMPRE queste regole per evitare errori futuri.**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1551,6 +1562,8 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1566,6 +1579,7 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1661,3 +1675,5 @@ class NotifyServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

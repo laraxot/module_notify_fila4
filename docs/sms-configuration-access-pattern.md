@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Pattern di Accesso alla Configurazione SMS
 
 ## Problema Identificato
@@ -139,6 +145,7 @@
 <<<<<<< HEAD
 Questo errore viola i principi di modularità e coerenza dell'architettura di <nome progetto>, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,6 +708,7 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 Questo errore viola i principi di modularità e coerenza dell'architettura di , dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> 9c45d9bd (rebase 210)
@@ -885,6 +893,8 @@ Questo errore viola i principi di modularità e coerenza dell'architettura di Sa
 Questo errore viola i principi di modularità e coerenza dell'architettura di SaluteOra, dove ogni modulo gestisce le proprie configurazioni in file dedicati.
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 
 ## Pattern Corretto
 
@@ -941,6 +951,7 @@ Per ogni azione SMS, verificare che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -982,6 +993,8 @@ Per ogni azione SMS, verificare che:
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -997,6 +1010,7 @@ Per ogni azione SMS, verificare che:
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1084,3 +1098,5 @@ Per ogni azione SMS, verificare che:
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

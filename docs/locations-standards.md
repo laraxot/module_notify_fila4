@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali
@@ -289,6 +295,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
@@ -604,11 +611,15 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Contracts/
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Contracts/
 >>>>>>> 9c45d9bd (rebase 210)
@@ -915,6 +926,8 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -1063,6 +1076,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
@@ -1378,11 +1392,15 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1689,6 +1707,8 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```
@@ -1744,6 +1764,7 @@ final class SendNetfunSMSAction implements SmsActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1785,6 +1806,8 @@ final class SendNetfunSMSAction implements SmsActionInterface
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1800,6 +1823,7 @@ final class SendNetfunSMSAction implements SmsActionInterface
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1887,3 +1911,5 @@ final class SendNetfunSMSAction implements SmsActionInterface
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

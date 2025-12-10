@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Guida all'Implementazione delle Notifiche 
 
 Questa documentazione descrive come implementare correttamente le notifiche utilizzando Laravel Notifications nel modulo Notify.
@@ -180,6 +186,7 @@ class RecordNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
             ->subject('Notifica da <nome progetto>')
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -742,6 +749,7 @@ class RecordNotification extends Notification implements ShouldQueue
             ->subject('Notifica da ')
             ->subject('Notifica da SaluteOra')
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
             ->subject('Notifica da SaluteOra')
 >>>>>>> 9c45d9bd (rebase 210)
@@ -926,6 +934,8 @@ class RecordNotification extends Notification implements ShouldQueue
             ->subject('Notifica da SaluteOra')
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
             ->greeting('Ciao ' . $this->record->name)
             ->line('Contenuto della notifica...')
             ->action('Visualizza', url('/'))
@@ -1046,6 +1056,7 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1087,6 +1098,8 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1102,6 +1115,7 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1189,3 +1203,5 @@ public function toMail(object $notifiable): \Illuminate\Mail\Mailable
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Piano di Implementazione per la Standardizzazione delle Traduzioni
 
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di <nome progetto>.
@@ -577,6 +578,7 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 =======
 Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
 >>>>>>> fcaebc79 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -897,6 +899,14 @@ Questo documento descrive il piano di implementazione per standardizzare le trad
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+=======
+# Piano di Implementazione per la Standardizzazione delle Traduzioni
+
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di .
+Questo documento descrive il piano di implementazione per standardizzare le traduzioni nel modulo Notify di SaluteOra.
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 
 ## Analisi della Situazione Attuale
 
@@ -1105,6 +1115,7 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1154,6 +1165,8 @@ Dall'analisi dei file di traduzione esistenti, sono stati identificati i seguent
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1171,6 +1184,7 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -1187,6 +1201,10 @@ rm -f /var/www/html/<nome progetto>/laravel/Modules/Notify/lang/it/send_netfun_s
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -1205,8 +1223,11 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -1770,7 +1791,15 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
 >>>>>>> fcaebc79 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> 252fa579e (.)
+=======
+=======
+rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/.php
+
+# Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_s_m_s.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_whats_app.php
@@ -1909,6 +1938,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1958,6 +1988,8 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 =======
 >>>>>>> 252fa579e (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -1999,6 +2031,7 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 =======
 =======
 >>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -2115,6 +2148,10 @@ rm -f /var/www/html/saluteora/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.p
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/.php
 
 # Rimozione dei file con nomi errati dopo aver verificato che esistano le versioni corrette
@@ -2122,6 +2159,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_a_w_s_email.php
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_whats_app.php
 rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it/send_netfun_s_m_s.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2193,6 +2231,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2458,6 +2498,7 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 >>>>>>> fcaebc79 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -2708,6 +2749,8 @@ rm -f /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/la
 =======
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ```
 
 ### Template Standard per i File di Traduzione
@@ -2758,6 +2801,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2799,6 +2843,8 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2814,6 +2860,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -2901,3 +2948,5 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

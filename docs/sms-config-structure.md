@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -328,6 +334,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
         'sender' => env('NETFUN_SENDER', ''),
@@ -753,6 +760,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 9c45d9bd (rebase 210)
@@ -937,6 +945,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -1133,6 +1143,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
         'sender' => env('NETFUN_SENDER', ''),
@@ -1558,6 +1569,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', ''),
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1742,6 +1754,8 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun
@@ -1788,6 +1802,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1829,6 +1844,8 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1844,6 +1861,7 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1931,3 +1949,5 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

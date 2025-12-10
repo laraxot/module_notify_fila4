@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -105,6 +106,7 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -157,6 +159,8 @@
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Implementazione Canale WhatsApp
 
 ## 1. Struttura Base
@@ -591,6 +595,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -641,6 +646,7 @@ class WhatsAppTest extends TestCase
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -827,6 +833,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/project_docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
@@ -835,6 +843,7 @@ class WhatsAppTest extends TestCase
 - [Laravel Cache](https://laravel.com/project_docs/cache) 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1530,6 +1539,7 @@ class WhatsAppTest extends TestCase
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -1847,6 +1857,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
@@ -1856,6 +1868,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2425,6 +2438,7 @@ class WhatsAppTest extends TestCase
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> b19cd40 (.)
@@ -3188,3 +3202,5 @@ class WhatsAppTest extends TestCase
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)

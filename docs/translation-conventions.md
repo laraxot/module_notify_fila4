@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali
@@ -346,6 +352,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 - [<nome progetto> Translation System](../../../../.cursor/rules/translations.rule)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -908,6 +915,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 - [ Translation System](../../../../.cursor/rules/translations.rule)
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1092,6 +1100,8 @@ Per verificare se le traduzioni sono applicate correttamente:
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
 
@@ -1113,6 +1123,7 @@ Le traduzioni devono essere oneste, non ingannevoli, non manipolatorie e non off
 
 ## Zen
 La traduzione perfetta è quella che non si nota: è naturale, fluida, non distrae e non crea attrito. Ogni parola superflua va eliminata, ogni concetto va reso con la massima semplicità e armonia.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1159,6 +1170,8 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1174,6 +1187,7 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1261,3 +1275,5 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

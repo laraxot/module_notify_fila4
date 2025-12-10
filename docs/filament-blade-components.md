@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Standard <nome progetto>: Componenti Blade Filament
 
 =======
@@ -248,6 +249,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/project_docs/3.x/support/blade-components/overview).
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 # Standard <nome progetto>: Componenti Blade Filament
 
@@ -569,6 +571,8 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [componenti nativi Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview).
 
 ## Vantaggi rispetto a componenti custom
@@ -751,6 +755,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
 >>>>>>> 75179b85 (.)
@@ -830,6 +835,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 =======
@@ -846,6 +852,8 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 - [Documentazione Filament Blade Components](https://filamentphp.com/project_docs/3.x/support/blade-components/overview)
 =======
 >>>>>>> fbed41ac (.)
@@ -864,8 +872,11 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7aae79847 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 >>>>>>> 909e45af (.)
 =======
 - [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
@@ -904,6 +915,7 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Documentazione Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 - [README Notify](README.md)
@@ -1233,3 +1245,5 @@ In <nome progetto>, la **prima scelta per i componenti Blade** sono SEMPRE i [co
 =======
 >>>>>>> 3d462363 (rebase 210)
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)

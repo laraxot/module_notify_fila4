@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -104,6 +105,7 @@
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -249,6 +251,8 @@
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Spatie Laravel Database Mail Templates
 
 ## Introduzione
@@ -277,6 +281,7 @@ In questo progetto, i layout HTML delle email sono memorizzati in:
 <<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -611,11 +616,15 @@ In questo progetto, i layout HTML delle email sono memorizzati in:
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
 /var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
 /var/www/html/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/base_saluteora/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 9c45d9bd (rebase 210)
@@ -788,6 +797,8 @@ In questo progetto, i layout HTML delle email sono memorizzati in:
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ```
 
 Questi layout forniscono la struttura base per tutte le email, con un placeholder `{{{ body }}}` dove verrà inserito il contenuto specifico del template.
@@ -954,6 +965,7 @@ MailTemplate::create([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
@@ -1132,6 +1144,7 @@ MailTemplate::create([
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -1148,6 +1161,10 @@ MailTemplate::create([
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
@@ -1164,8 +1181,11 @@ MailTemplate::create([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 >>>>>>> 75179b85 (.)
 =======
     'subject' => 'Benvenuto su SaluteOra, {{ name }}',
@@ -1246,6 +1266,7 @@ MailTemplate::create([
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -1506,6 +1527,10 @@ MailTemplate::create([
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 ]);
 ```
 
@@ -1639,6 +1664,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title><nome progetto></title>
 <<<<<<< HEAD
 =======
@@ -1844,10 +1870,14 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
     <title><nome progetto></title>
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
     <title><nome progetto></title>
     <title>SaluteOra</title>
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
     <title>SaluteOra</title>
 >>>>>>> 9c45d9bd (rebase 210)
@@ -2005,6 +2035,8 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
     <style>
         /* Stili CSS inline */
         body { 
@@ -2135,6 +2167,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h1><nome progetto></h1>
 <<<<<<< HEAD
 =======
@@ -2340,10 +2373,14 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
         <h1><nome progetto></h1>
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
         <h1><nome progetto></h1>
         <h1>SaluteOra</h1>
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
         <h1>SaluteOra</h1>
 >>>>>>> 9c45d9bd (rebase 210)
@@ -2501,6 +2538,8 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
     </div>
     
     <div class="content">
@@ -2609,6 +2648,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
 <<<<<<< HEAD
 =======
@@ -2814,10 +2854,14 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
         <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
         <p>© 2025 SaluteOra - Tutti i diritti riservati</p>
 >>>>>>> 9c45d9bd (rebase 210)
@@ -2975,6 +3019,8 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
         <p>Se hai ricevuto questa email per errore, per favore ignorala o contattaci.</p>
     </div>
 </body>
@@ -3087,6 +3133,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
 <<<<<<< HEAD
 =======
@@ -3292,10 +3339,14 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
 <h2>Benvenuto su SaluteOra, {{ name }}!</h2>
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 <h2>Benvenuto su SaluteOra, {{ name }}!</h2>
 >>>>>>> 9c45d9bd (rebase 210)
@@ -3453,6 +3504,8 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 
 <p>Siamo felici di darti il benvenuto sulla nostra piattaforma.</p>
 
@@ -3568,6 +3621,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p>Grazie,<br>Il team di <nome progetto></p>
 <<<<<<< HEAD
 =======
@@ -3773,10 +3827,14 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 <p>Grazie,<br>Il team di <nome progetto></p>
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 <p>Grazie,<br>Il team di <nome progetto></p>
 <p>Grazie,<br>Il team di SaluteOra</p>
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 <p>Grazie,<br>Il team di SaluteOra</p>
 >>>>>>> 9c45d9bd (rebase 210)
@@ -3934,6 +3992,8 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ```
 
 ## Best Practices
@@ -3943,6 +4003,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 3. **Testare su più client email**: Verificare la corretta visualizzazione su diversi client
 4. **Mantenere template semplici**: Evitare costrutti complessi in Mustache che potrebbero non funzionare
 5. **Aggiungere versione testuale**: Fornire sempre una versione testuale dell'email per client che non supportano HTML
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4028,6 +4089,8 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 =======
 >>>>>>> 0a5473e16 (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -4052,6 +4115,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -4218,3 +4282,5 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)

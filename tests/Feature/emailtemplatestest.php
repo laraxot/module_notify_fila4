@@ -10,6 +10,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +59,8 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 =======
@@ -93,10 +96,13 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Illuminate\Support\Facades\File;
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 >>>>>>> a335025b (rebase 210)
+=======
+>>>>>>> 43dd68f4b (.)
 
 uses(TestCase::class);
 =======
@@ -650,6 +656,7 @@ test('html template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -866,6 +873,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -1289,6 +1297,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)
     expect($content)
         ->toContain('optional($email_data)->subject', 'Il template html.blade.php non utilizza optional() per subject');
 
@@ -1300,6 +1310,7 @@ test('html template contains optional function', function (): void {
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2542,6 +2553,7 @@ test('html template contains optional function', function (): void {
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 9fe1b60e (rebase 210)
@@ -2805,6 +2817,8 @@ test('html template contains optional function', function (): void {
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 });
 
 test('sunny template contains optional function', function (): void {
@@ -3031,6 +3045,7 @@ test('sunny template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3441,6 +3456,7 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -3685,6 +3701,8 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 903e3e2cd (.)
 =======
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)
     expect($content)
         ->toContain(
             'optional($_theme)->cssInLine',
@@ -3692,6 +3710,7 @@ test('sunny template contains optional function', function (): void {
         );
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4561,6 +4580,7 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 4d253d2c (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
     expect($content)->toContain('optional($_theme)->cssInLine', 'Il template sunny.blade.php non utilizza optional() per cssInLine');
@@ -4844,6 +4864,8 @@ test('sunny template contains optional function', function (): void {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 460b8f5b (rebase 210)
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 });
 
 test('ark template contains optional function', function (): void {
@@ -5075,6 +5097,7 @@ test('ark template contains optional function', function (): void {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6194,6 +6217,7 @@ test('ark template contains optional function', function (): void {
     expect($content)
         ->toContain('optional($_theme)->cssInLine', 'Il template ark.blade.php non utilizza optional() per cssInLine');
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -6463,6 +6487,8 @@ test('ark template contains optional function', function (): void {
 =======
 >>>>>>> 460b8f5b (rebase 210)
 >>>>>>> 47a873f13 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 });
 =======
 >>>>>>> 301ad8b44 (.)

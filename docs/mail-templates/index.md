@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -104,6 +105,7 @@
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -249,6 +251,8 @@
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Indice Documentazione Template Email
 
 ## Collegamenti Correlati
@@ -259,6 +263,7 @@
 <<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -563,10 +568,14 @@
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 - [Documentazione Generale ](../../../../../docs/README.md)
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Documentazione Generale SaluteOra](../../../../../docs/README.md)
 >>>>>>> 9c45d9bd (rebase 210)
@@ -724,6 +733,8 @@
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Struttura e Architettura
@@ -776,6 +787,7 @@
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice dei template email, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 Ultimo aggiornamento: 14 Maggio 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -861,6 +873,8 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> 0a5473e16 (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -885,6 +899,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1051,3 +1066,5 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)

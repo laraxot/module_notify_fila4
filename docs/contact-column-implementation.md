@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -116,6 +117,7 @@
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -279,6 +281,8 @@
 =======
 >>>>>>> 3d462363 (rebase 210)
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # ContactColumn - Implementazione DRY/KISS Centralizzata
 
 ## 🎯 Obiettivo
@@ -288,6 +292,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 <<<<<<< HEAD
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 4.x
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -795,6 +800,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 =======
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
 >>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 **ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
@@ -1059,6 +1065,11 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+**ICONE NON VISIBILI**: La sintassi `@svg()` nel template Blade non è compatibile con Filament 3.x
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 - 📋 **Analisi Completa**: [contact-column-icon-issue-analysis.md](./contact-column-icon-issue-analysis.md)
 - 🛠️ **Soluzione**: Sostituire `@svg()` con `<x-filament::icon>`
 - ⚡ **Priorità**: ALTA (Funzionalità core non funzionante)
@@ -1225,6 +1236,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] **PENDING**: Fix icone non visibili (Filament 4.x compatibility)
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
@@ -1578,6 +1590,7 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
 >>>>>>> 3d462363 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
@@ -1842,6 +1855,11 @@ Implementare `ContactColumn.php` come colonna Filament riutilizzabile che utiliz
 >>>>>>> 3e757cee2 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+- [ ] **PENDING**: Fix icone non visibili (Filament 3.x compatibility)
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 
 ## 🏗️ Architettura della Soluzione
 
@@ -2195,6 +2213,7 @@ public function table(Table $table): Table
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 <<<<<<< HEAD
@@ -2420,6 +2439,7 @@ public function table(Table $table): Table
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> 9c45d9bd (rebase 210)
@@ -2553,3 +2573,5 @@ public function table(Table $table): Table
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)

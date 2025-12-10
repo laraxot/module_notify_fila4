@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,6 +60,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -142,6 +144,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Risoluzione Conflitti SmsChannel.php
 
 ## Contesto del Conflitto
@@ -346,6 +352,7 @@ return $action->execute($smsData);
 
 *Ultimo aggiornamento: giugno 2025*
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1302,4 +1309,14 @@ return $action->execute($smsData);
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 54220b28 (rebase 210)
+=======
+- [Root Conflict Resolution Guidelines](../../../project_docs/conflict-resolution-guidelines.md)
+
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)

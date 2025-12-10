@@ -49,6 +49,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -59,6 +60,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -142,6 +144,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Sistema Notifiche Email - il progetto
 
 ## Panoramica
@@ -316,6 +322,7 @@ class NotificationResource extends XotBaseResource
 <<<<<<< HEAD
     public static function form(Form $form): Form
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -549,7 +556,13 @@ class NotificationResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> b85076e48 (.)
+=======
+=======
+    public static function form(Form $form): Form
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -981,6 +994,7 @@ class NotificationDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1912,6 +1926,7 @@ class NotificationDebugger
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Mail](https://laravel.com/project_docs/mail) 
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Events](https://laravel.com/docs/events)
@@ -2325,3 +2340,5 @@ class NotificationDebugger
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)

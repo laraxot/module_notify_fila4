@@ -53,6 +53,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -105,6 +106,7 @@
 >>>>>>> fdb24863 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -157,6 +159,8 @@
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Traduzioni SmsDriverEnum - Modulo Notify
 
 ## Panoramica
@@ -347,6 +351,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 - [Documentazione Traduzioni](../../Lang/project_docs/)
 - [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1908,6 +1913,7 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 =======
 >>>>>>> 54220b28 (rebase 210)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -2150,3 +2156,12 @@ php -l laravel/Modules/Notify/lang/de/sms_driver_enum.php
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+- [Documentazione Traduzioni](../../Lang/docs/)
+- [Documentazione Traduzioni](../../Lang/project_docs/)
+- [Documentazione Traduzioni](../../Lang/docs/)- [Documentazione Traduzioni](../../Lang/project_docs/)
+
+---
+
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)

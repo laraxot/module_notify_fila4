@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Implementazione Netfun SMS 
 
 ## Introduzione
@@ -310,6 +316,7 @@ class AppointmentReminder extends Notification
 <<<<<<< HEAD
             sender: '<nome progetto>',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -872,6 +879,7 @@ class AppointmentReminder extends Notification
             sender: '',
             sender: 'SaluteOra',
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
             sender: 'SaluteOra',
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1056,6 +1064,8 @@ class AppointmentReminder extends Notification
             sender: 'SaluteOra',
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
             reference: 'app_' . $this->appointment->id
         );
         
@@ -1080,6 +1090,7 @@ class AppointmentReminder extends Notification
 - [Documentazione Netfun API](https://www.netfun.it/docs/api)
 - [Spatie Laravel Data](https://github.com/spatie/laravel-data)
 - [Spatie Queueable Actions](https://github.com/spatie/laravel-queueable-action)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1126,6 +1137,8 @@ class AppointmentReminder extends Notification
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1141,6 +1154,7 @@ class AppointmentReminder extends Notification
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1228,3 +1242,5 @@ class AppointmentReminder extends Notification
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

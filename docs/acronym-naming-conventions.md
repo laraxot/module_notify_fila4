@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Convenzioni di Naming per Acronimi 
 
 ## Regola Fondamentale
@@ -217,6 +223,7 @@ Per identificare i file che non rispettano questa convenzione, è possibile util
 <<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -669,11 +676,15 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | grep -v "Test\\.php$" | grep -v "HTML\\.php$"
 >>>>>>> 9c45d9bd (rebase 210)
@@ -980,6 +991,8 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ```
 
 ## Riferimenti
@@ -987,6 +1000,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
 - [Laravel Documentation - Coding Style](https://laravel.com/docs/10.x/contributions#coding-style)
 - [PHP-FIG Naming Conventions](https://www.php-fig.org/bylaws/psr-naming-conventions/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1033,6 +1047,8 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1048,6 +1064,7 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1135,3 +1152,5 @@ find /var/www/html/saluteora/laravel/Modules -type f -name "*[A-Z][A-Z]*.php" | 
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -32,6 +33,8 @@
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Convenzioni per le Traduzioni del Modulo Notify
 
 ## Regole Fondamentali
@@ -290,6 +293,7 @@ Per verificare se le traduzioni sono applicate correttamente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ Translation System](../../../../.cursor/rules/translations.rule)
 >>>>>>> 75179b855 (.)
@@ -382,6 +386,9 @@ Per verificare se le traduzioni sono applicate correttamente:
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+- [ Translation System](../../../../.cursor/rules/translations.rule)
+>>>>>>> 43dd68f4b (.)
 - [SaluteOra Translation System](../../../../.cursor/rules/translations.rule)
 - [Filament Translations](../../../../.cursor/rules/filament-translations.rule)
 - [Laravel Localization](https://laravel.com/docs/10.x/localization)
@@ -404,6 +411,7 @@ Le traduzioni devono essere oneste, non ingannevoli, non manipolatorie e non off
 
 ## Zen
 La traduzione perfetta è quella che non si nota: è naturale, fluida, non distrae e non crea attrito. Ogni parola superflua va eliminata, ogni concetto va reso con la massima semplicità e armonia.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -439,3 +447,5 @@ La traduzione perfetta è quella che non si nota: è naturale, fluida, non distr
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)

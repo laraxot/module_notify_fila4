@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -301,6 +307,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -616,11 +623,15 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 9c45d9bd (rebase 210)
@@ -927,6 +938,8 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
@@ -1071,6 +1084,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -1386,11 +1400,15 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1697,6 +1715,8 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -1848,6 +1868,7 @@ Output: [name] [email] [company] [date] (come badge blu)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1889,6 +1910,8 @@ Output: [name] [email] [company] [date] (come badge blu)
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1904,6 +1927,7 @@ Output: [name] [email] [company] [date] (come badge blu)
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1991,3 +2015,5 @@ Output: [name] [email] [company] [date] (come badge blu)
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

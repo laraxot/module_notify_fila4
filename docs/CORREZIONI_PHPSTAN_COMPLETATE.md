@@ -65,6 +65,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
 
 ## Data
@@ -289,6 +290,7 @@ Durante la risoluzione:
 >>>>>>> 229a065a (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9f8e680a (rebase 210)
 =======
@@ -391,6 +393,8 @@ Durante la risoluzione:
 =======
 >>>>>>> 229a065a (rebase 210)
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # ✅ CORREZIONI PHPSTAN COMPLETATE - Modulo Notify
 
 ## 🎯 Obiettivo Raggiunto
@@ -590,6 +594,7 @@ I pattern di type safety implementati possono essere applicati a:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -629,6 +634,7 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9f8e680a (rebase 210)
 =======
@@ -733,3 +739,5 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)

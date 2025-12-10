@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Responsive Email Templates - Guida Completa
 
 ## Introduzione
@@ -137,6 +143,7 @@
 <<<<<<< HEAD
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di <nome progetto>, con focus su compatibilità, engagement e best practices di settore. 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -699,6 +706,7 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di , con focus su compatibilità, engagement e best practices di settore. 
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> 9c45d9bd (rebase 210)
@@ -883,6 +891,8 @@ Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di te
 Questa guida fornisce una panoramica completa sulla creazione e l'utilizzo di template email HTML responsive nel contesto di SaluteOra, con focus su compatibilità, engagement e best practices di settore. 
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 
 ## Principi Fondamentali
 
@@ -1094,6 +1104,7 @@ Per <nome progetto>, si raccomanda un **approccio ibrido**:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per <nome progetto>, si raccomanda un **approccio ibrido**:
 =======
 Per , si raccomanda un **approccio ibrido**:
@@ -1519,6 +1530,7 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 Per , si raccomanda un **approccio ibrido**:
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1703,6 +1715,8 @@ Per SaluteOra, si raccomanda un **approccio ibrido**:
 Per SaluteOra, si raccomanda un **approccio ibrido**:
 >>>>>>> fcaebc79 (rebase 210)
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 - Struttura base con tabelle per massima compatibilità
 - CSS moderno con fallback per funzionalità avanzate
 
@@ -1820,6 +1834,7 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1861,6 +1876,8 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1876,6 +1893,7 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1963,3 +1981,5 @@ I template nella directory `mail-layouts` supportano variabili Blade:
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

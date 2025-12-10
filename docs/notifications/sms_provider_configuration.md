@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Configurazione Provider SMS per le Notifiche 
 
 Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
@@ -832,6 +833,7 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 # Configurazione Provider SMS per le Notifiche 
@@ -1535,6 +1537,13 @@ Questa documentazione descrive le opzioni disponibili per l'integrazione di serv
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 >>>>>>> 0a5473e16 (.)
+=======
+# Configurazione Provider SMS per le Notifiche 
+
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di <nome progetto>, con focus sui diversi provider e sulla loro configurazione.
+Questa documentazione descrive le opzioni disponibili per l'integrazione di servizi SMS nei sistemi di notifica di SaluteOra, con focus sui diversi provider e sulla loro configurazione.
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 
 ## Indice
 
@@ -1644,6 +1653,7 @@ VONAGE_SECRET=xyz789...
 VONAGE_SMS_FROM=<nome progetto>
 VONAGE_SMS_FROM=<nome progetto>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2564,6 +2574,7 @@ VONAGE_SMS_FROM=<nome progetto>
 >>>>>>> bf479cc (.)
 >>>>>>> 3d462363 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9fe1b60e (rebase 210)
@@ -3135,6 +3146,12 @@ VONAGE_SMS_FROM=SaluteOra
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+=======
+VONAGE_SMS_FROM=<nome progetto>
+VONAGE_SMS_FROM=SaluteOra
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 ```
 
 ### Implementazione Notifica
@@ -3501,6 +3518,7 @@ Log::info('SMS sent', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3544,6 +3562,8 @@ Log::info('SMS sent', [
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -3559,6 +3579,7 @@ Log::info('SMS sent', [
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -3650,3 +3671,5 @@ Log::info('SMS sent', [
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 =======
@@ -211,10 +212,14 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/<nome progetto
 =======
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 # Piano di Pulizia e Standardizzazione delle Traduzioni
 
@@ -241,6 +246,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/<nome progetto
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di .
 
 ## Analisi della Situazione Attuale
@@ -257,8 +264,11 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -460,6 +470,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> fcaebc79 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -632,6 +643,10 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 Questo documento descrive il piano di pulizia e standardizzazione delle traduzioni italiane nel modulo Notify di SaluteOra.
 
 ## Analisi della Situazione Attuale
@@ -771,6 +786,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/lara
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -819,6 +835,8 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/saluteora/lara
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 >>>>>>> 75179b85 (.)
 =======
@@ -1161,6 +1179,7 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 =======
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
 >>>>>>> 4fc21b78 (rebase 210)
@@ -1316,6 +1335,11 @@ Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_te
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+=======
+Dall'analisi dei file di traduzione nella cartella `/var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/lang/it`, sono stati identificati i seguenti problemi:
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 
 ### 1. File con Nomi Errati
 - `send_s_m_s.php` invece di `send_sms.php`
@@ -1412,6 +1436,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1453,6 +1478,8 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1468,6 +1495,7 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1555,3 +1583,5 @@ L'implementazione di questo piano garantirà che le traduzioni nel modulo Notify
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

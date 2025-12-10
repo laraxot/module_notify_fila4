@@ -146,6 +146,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Architettura Telegram Provider per <nome progetto>
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di <nome progetto>, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
@@ -156,6 +157,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b85 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -173,6 +175,10 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> 1487fe812 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Architettura Telegram Provider per 
 
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di , mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
@@ -190,8 +196,11 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 >>>>>>> 75179b85 (.)
 =======
 # Architettura Telegram Provider per SaluteOra
@@ -788,6 +797,7 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 Questo documento definisce l'architettura e gli standard per l'implementazione dei provider Telegram nel modulo Notify di SaluteOra, mantenendo coerenza con le architetture esistenti per SMS, email e WhatsApp.
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -1001,6 +1011,10 @@ Questo documento definisce l'architettura e gli standard per l'implementazione d
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 
 ## Principi Architetturali Fondamentali
 
@@ -1154,6 +1168,7 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
@@ -1469,11 +1484,15 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 /var/www/html/saluteora/laravel/Modules/Notify/
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1780,6 +1799,8 @@ L'architettura dei provider Telegram segue gli stessi principi dei provider SMS,
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 ├── app/
 │   ├── Actions/
 │   │   └── Telegram/
@@ -2474,6 +2495,7 @@ In fase di installazione:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2515,6 +2537,8 @@ In fase di installazione:
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -2530,6 +2554,7 @@ In fase di installazione:
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -2617,3 +2642,5 @@ In fase di installazione:
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

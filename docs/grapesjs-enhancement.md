@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -108,6 +109,7 @@
 >>>>>>> 3d462363 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -255,6 +257,8 @@
 =======
 >>>>>>> 3d462363 (rebase 210)
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Integrazione GrapesJS Editor (Dotswan)
 
 Questo documento analizza il plugin [Dotswan GrapesJS](https://filamentphp.com/plugins/dotswan-grapesjs) per Filament e propone una versione in-house open source migliorata.
@@ -326,6 +330,7 @@ class PageTemplate extends Model {
 <<<<<<< HEAD
 public static function form(Form $form): Form {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +598,7 @@ public static function form(Form $form): Form {
 =======
 public static function form(Form $form): Form {
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 public static function form(Form $form): Form {
 >>>>>>> 9c45d9bd (rebase 210)
@@ -736,6 +742,8 @@ public static function form(Form $form): Form {
 public static function form(Form $form): Form {
 >>>>>>> 3d462363 (rebase 210)
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)
     return $form->schema([
         TextInput::make('name')->required(),
         GrapesJsEditor::make('content_json')
@@ -957,6 +965,7 @@ class PublishPageTemplateAction {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 >>>>>>> 75179b85 (.)
@@ -1061,6 +1070,7 @@ class PublishPageTemplateAction {
 - GrapesJS Docs: https://grapesjs.com/project_docs/
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 - GrapesJS Docs: https://grapesjs.com/docs/
 >>>>>>> 9c45d9bd (rebase 210)
@@ -1306,3 +1316,5 @@ class PublishPageTemplateAction {
 >>>>>>> b85076e48 (.)
 =======
 >>>>>>> 0a5473e16 (.)
+=======
+>>>>>>> 43dd68f4b (.)

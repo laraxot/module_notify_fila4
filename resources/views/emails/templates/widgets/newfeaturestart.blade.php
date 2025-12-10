@@ -493,6 +493,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -849,6 +850,7 @@
 >>>>>>> d7824f6f (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -1752,6 +1754,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0dca0b341 (.)
 =======
 >>>>>>> 885fba235 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 <?php
 
 declare(strict_types=1);
@@ -1760,6 +1764,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3778,6 +3783,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0ab3206e (.)
@@ -4332,6 +4338,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> d7824f6f (rebase 210)
 >>>>>>> 885fba235 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#85bdad' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">
@@ -4840,6 +4848,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -5023,6 +5032,8 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 >>>>>>> 0dca0b341 (.)
 =======
 >>>>>>> 885fba235 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -6782,6 +6793,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9fe1b60e (rebase 210)
 =======
@@ -7602,3 +7614,5 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 					<td bgcolor="#ffffff" class="contentblock">
 >>>>>>> d7824f6f (rebase 210)
 >>>>>>> 885fba235 (.)
+=======
+>>>>>>> 43dd68f4b (.)

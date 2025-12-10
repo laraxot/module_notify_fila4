@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -55,6 +56,7 @@
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> fdb24863 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
@@ -130,6 +132,10 @@
 >>>>>>> 731b801a8 (.)
 =======
 >>>>>>> b85076e48 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Risoluzione dei Problemi nelle Email 
 
 Questa documentazione fornisce soluzioni per i problemi comuni che possono verificarsi durante l'invio di email nel modulo Notify.
@@ -149,6 +155,7 @@ $attachments = [
 <<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default.svg',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -601,11 +608,15 @@ $attachments = [
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
 >>>>>>> fcaebc79 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43dd68f4b (.)
 =======
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
         'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default.svg',
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
         'path' => '/var/www/html/saluteora/public_html/images/avatars/default.svg',
 >>>>>>> 9c45d9bd (rebase 210)
@@ -916,6 +927,8 @@ $attachments = [
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
         'as' => 'logo.svg',
         'mime' => 'image/svg+xml',
     ],
@@ -1111,6 +1124,7 @@ public function test_can_send_email_with_attachments()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1152,6 +1166,8 @@ public function test_can_send_email_with_attachments()
 =======
 >>>>>>> 36136dcfa (.)
 =======
+>>>>>>> 43dd68f4b (.)
+=======
 >>>>>>> 5fd545e4 (.)
 =======
 >>>>>>> 2a97406c (.)
@@ -1167,6 +1183,7 @@ public function test_can_send_email_with_attachments()
 >>>>>>> 54220b28 (rebase 210)
 =======
 >>>>>>> 4fc21b78 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 =======
@@ -1254,3 +1271,5 @@ public function test_can_send_email_with_attachments()
 =======
 >>>>>>> fdb24863 (rebase 210)
 >>>>>>> b85076e48 (.)
+=======
+>>>>>>> 43dd68f4b (.)

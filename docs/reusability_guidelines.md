@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -32,6 +33,8 @@
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Linee Guida per la Riusabilità del Modulo Notify
 
 ## Principio Fondamentale
@@ -43,6 +46,7 @@ Il modulo Notify è progettato per essere **completamente riutilizzabile** tra d
 ❌ **MAI usare stringhe hardcoded di progetti specifici:**
 ```php
 // ERRORE: Hardcoding del nome progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +188,11 @@ $this->app['config']->set('database.connections.<nome progetto>_test', [
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+$user = \Modules\<nome progetto>\Models\User::factory()->create();
+'database' => '<nome progetto>_test',
+$this->app['config']->set('database.connections.<nome progetto>_test', [
+>>>>>>> 43dd68f4b (.)
 $user = \Modules\SaluteOra\Models\User::factory()->create();
 'database' => 'saluteora_test',
 $this->app['config']->set('database.connections.saluteora_test', [
@@ -248,6 +257,7 @@ use Modules\Xot\Datas\XotData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Invece di: \Modules\<nome progetto>\Models\User::class
 >>>>>>> 75179b855 (.)
@@ -340,6 +350,9 @@ use Modules\Xot\Datas\XotData;
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+// Invece di: \Modules\<nome progetto>\Models\User::class
+>>>>>>> 43dd68f4b (.)
 // Invece di: \Modules\SaluteOra\Models\User::class
 $userClass = XotData::make()->getUserClass();
 $user = $userClass::factory()->create();
@@ -394,6 +407,7 @@ Per i test che richiedono configurazioni database specifiche:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Invece di: '<nome progetto>_test'
 >>>>>>> 75179b855 (.)
@@ -486,6 +500,9 @@ Per i test che richiedono configurazioni database specifiche:
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+// Invece di: '<nome progetto>_test'
+>>>>>>> 43dd68f4b (.)
 // Invece di: 'saluteora_test'
 $testDatabase = config('database.default') . '_test';
 $this->app['config']->set("database.connections.{$testDatabase}", [
@@ -552,13 +569,17 @@ $userModel = "{$projectNamespace}\\Models\\User";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 use Modules\<nome progetto>\Models\User;
 use Modules\<nome progetto>\Models\Patient;
 'database' => '<nome progetto>_test'
 $this->artisan('migrate', ['--database' => '<nome progetto>_test']);
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 75179b855 (.)
 =======
@@ -649,6 +670,8 @@ $this->artisan('migrate', ['--database' => '<nome progetto>_test']);
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+>>>>>>> 43dd68f4b (.)
 use Modules\SaluteOra\Models\User;
 use Modules\SaluteOra\Models\Patient;
 'database' => 'saluteora_test'
@@ -703,6 +726,7 @@ $this->artisan('migrate', ['--database' => 'saluteora_test']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'app_name' => '<nome progetto>',
 'tenant_model' => \Modules\<nome progetto>\Models\Studio::class,
@@ -797,6 +821,10 @@ $this->artisan('migrate', ['--database' => 'saluteora_test']);
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+'app_name' => '<nome progetto>',
+'tenant_model' => \Modules\<nome progetto>\Models\Studio::class,
+>>>>>>> 43dd68f4b (.)
 'app_name' => 'SaluteOra',
 'tenant_model' => \Modules\SaluteOra\Models\Studio::class,
 ```
@@ -891,6 +919,7 @@ Prima di committare modifiche al modulo Notify:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ ] Nessun riferimento hardcoded a "<nome progetto>" o altri nomi di progetti
 >>>>>>> 75179b855 (.)
@@ -983,6 +1012,9 @@ Prima di committare modifiche al modulo Notify:
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+- [ ] Nessun riferimento hardcoded a "<nome progetto>" o altri nomi di progetti
+>>>>>>> 43dd68f4b (.)
 - [ ] Nessun riferimento hardcoded a "saluteora" o altri nomi di progetti
 - [ ] Utilizzo di `XotData::make()->getUserClass()` per la classe User
 - [ ] Configurazioni database dinamiche nei test
@@ -1042,6 +1074,7 @@ Per verificare che il modulo sia veramente riutilizzabile:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 grep -r -i "<nome progetto>\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
 >>>>>>> 75179b855 (.)
@@ -1134,6 +1167,9 @@ grep -r -i "<nome progetto>\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+grep -r -i "<nome progetto>\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
+>>>>>>> 43dd68f4b (.)
 grep -r -i "saluteora\|salutemo\|dentalpro" Modules/Notify/ --exclude-dir=vendor
 
 # Cerca import diretti da altri moduli
@@ -1185,6 +1221,7 @@ grep -r "use Modules\\\\[^N][^o][^t][^i][^f][^y]" Modules/Notify/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 grep -r "database.*<nome progetto>\|app.*<nome progetto>" Modules/Notify/
 >>>>>>> 75179b855 (.)
@@ -1277,6 +1314,9 @@ grep -r "database.*<nome progetto>\|app.*<nome progetto>" Modules/Notify/
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+grep -r "database.*<nome progetto>\|app.*<nome progetto>" Modules/Notify/
+>>>>>>> 43dd68f4b (.)
 grep -r "database.*saluteora\|app.*saluteora" Modules/Notify/
 ```
 
@@ -1295,6 +1335,7 @@ grep -r "database.*saluteora\|app.*saluteora" Modules/Notify/
 - [testing_best_practices.md](testing_best_practices.md)
 
 *Ultimo aggiornamento: gennaio 2025*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1330,3 +1371,5 @@ grep -r "database.*saluteora\|app.*saluteora" Modules/Notify/
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)

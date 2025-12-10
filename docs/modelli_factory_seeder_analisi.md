@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -32,6 +33,8 @@
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 # Analisi Modelli, Factory e Seeder - Modulo Notify
 
 ## Panoramica
@@ -289,6 +292,7 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### <nome progetto> Integration
 >>>>>>> 75179b855 (.)
@@ -381,6 +385,9 @@ Tutti i modelli attivi hanno le factory corrispondenti.
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+#### <nome progetto> Integration
+>>>>>>> 43dd68f4b (.)
 #### SaluteOra Integration
 - **Appointment Reminders**: Promemoria appuntamenti
 - **Report Notifications**: Notifiche nuovi referti
@@ -475,6 +482,7 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 >>>>>>> 75179b855 (.)
@@ -567,6 +575,9 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 >>>>>>> 0a5473e16 (.)
 =======
 >>>>>>> 252fa579e (.)
+=======
+- [<nome progetto> Module](../../<nome progetto>/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
+>>>>>>> 43dd68f4b (.)
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md) - Notifiche mediche
 - [User Module](../../User/docs/modelli_factory_seeder_analisi.md) - Notifiche utente
 - [Media Module](../../Media/docs/modelli_factory_seeder_analisi.md) - Allegati notifiche
@@ -581,6 +592,7 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 *Ultimo aggiornamento: Gennaio 2025*
 *Analisi completa di 10 modelli attivi, 4 file backup da rimuovere*
 *Sistema notifiche multi-canale completo*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,3 +628,5 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 3e757cee2 (.)
+=======
+>>>>>>> 43dd68f4b (.)

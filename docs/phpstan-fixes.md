@@ -179,6 +179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -931,6 +932,7 @@ $decodedData = base64_decode($encodedData);
 =======
 >>>>>>> f3086887 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -1001,6 +1003,10 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -1218,6 +1224,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1259,6 +1266,8 @@ private static function processArray(array $data): array
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 74eb2e964 (.)
+=======
+>>>>>>> 43dd68f4b (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -2138,6 +2147,7 @@ private static function processArray(array $data): array
 =======
 >>>>>>> 1442e291 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -2572,3 +2582,7 @@ private static function processArray(array $data): array
 >>>>>>> 74eb2e964 (.)
 =======
 >>>>>>> f957fb24b (.)
+=======
+=======
+>>>>>>> 4fc21b78 (rebase 210)
+>>>>>>> 43dd68f4b (.)
