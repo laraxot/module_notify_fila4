@@ -287,6 +287,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di <nome progetto> e le azioni necessarie per garantire la coerenza.
 =======
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di  e le azioni necessarie per garantire la coerenza.
@@ -729,6 +730,7 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
 >>>>>>> 9d3810d0 (rebase 210)
@@ -917,6 +919,11 @@ Questo documento fornisce una panoramica completa dello stato attuale dell'imple
 >>>>>>> ce1853afd (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+=======
+Questo documento fornisce una panoramica completa dello stato attuale dell'implementazione delle traduzioni nel modulo Notify, identificando le convenzioni in uso, le discrepanze con le convenzioni generali di SaluteOra e le azioni necessarie per garantire la coerenza.
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
 
 ## Convenzioni Attuali nel Modulo Notify
 
@@ -1100,6 +1107,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di <nome progetto>:
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di :
@@ -1542,6 +1550,7 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
 >>>>>>> 9d3810d0 (rebase 210)
@@ -1730,6 +1739,11 @@ Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le conv
 >>>>>>> ce1853afd (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+=======
+Esiste una discrepanza tra le convenzioni utilizzate nel modulo Notify e le convenzioni generali di SaluteOra:
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
 
 1. **Convenzioni Generali (Modules/Lang/docs/TRANSLATION_KEYS_RULES.md)**:
    - Struttura gerarchica espansa senza chiavi come `.navigation`

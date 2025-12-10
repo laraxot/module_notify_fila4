@@ -517,6 +517,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1357,6 +1358,7 @@
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 9d3810d0 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 59182545 (rebase 210)
 =======
@@ -1932,6 +1934,8 @@
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
 <?php
 
 declare(strict_types=1);
@@ -3246,6 +3250,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3308,6 +3313,8 @@ declare(strict_types=1);
 >>>>>>> 885fba235 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
 =======
 <<<<<<< HEAD
 >>>>>>> c8eedbbb (.)
@@ -3905,6 +3912,7 @@ declare(strict_types=1);
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9d3810d0 (rebase 210)
 =======
@@ -4384,6 +4392,10 @@ declare(strict_types=1);
 >>>>>>> 1e641aeb2 (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+=======
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="toppbild" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -4456,6 +4468,7 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 </tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6817,6 +6830,7 @@ declare(strict_types=1);
 </tr>
 >>>>>>> bf479cc (.)
 >>>>>>> 54ad93c4 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 </tr>
@@ -7680,3 +7694,8 @@ declare(strict_types=1);
 >>>>>>> f3c06ccdd (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+=======
+</tr>
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)

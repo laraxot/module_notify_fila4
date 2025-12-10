@@ -287,6 +287,7 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di <nome progetto>. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 =======
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di . Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
@@ -729,6 +730,7 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
 >>>>>>> 9d3810d0 (rebase 210)
@@ -917,6 +919,11 @@ Questo documento descrive l'integrazione dei template email [mailpace/templates]
 >>>>>>> ce1853afd (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+=======
+Questo documento descrive l'integrazione dei template email [mailpace/templates](https://github.com/mailpace/templates) nel modulo Notify di SaluteOra. Questi template offrono un design moderno basato su TailwindCSS con supporto nativo per la modalità scura.
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
 
 ## Template Disponibili
 
@@ -1085,6 +1092,7 @@ MailPace offre i seguenti template transazionali:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 =======
 /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules/Notify/resources/mail-layouts/
@@ -1544,6 +1552,7 @@ MailPace offre i seguenti template transazionali:
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> 9d3810d0 (rebase 210)
+<<<<<<< HEAD
 =======
 /var/www/html/saluteora/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> eb62d6cf (rebase 210)
@@ -1734,6 +1743,8 @@ MailPace offre i seguenti template transazionali:
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 >>>>>>> 6ad5224fb (.)
+=======
+>>>>>>> 21a6fa9bc (.)
 ├── default.html       # Layout base per la maggior parte delle email
 ├── main.html          # Alternativa semplificata
 ├── marketing.html     # Layout ottimizzato per email marketing
@@ -1937,6 +1948,7 @@ $mailTemplate->send($user->email, [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per <nome progetto>
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per 
@@ -2379,6 +2391,7 @@ $mailTemplate->send($user->email, [
 =======
 >>>>>>> 54ad93c4 (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
 >>>>>>> 9d3810d0 (rebase 210)
@@ -2567,6 +2580,11 @@ $mailTemplate->send($user->email, [
 >>>>>>> ce1853afd (.)
 =======
 >>>>>>> 6ad5224fb (.)
+=======
+=======
+4. **Segui le Convenzioni di Branding** - Usa i colori e font definiti per SaluteOra
+>>>>>>> 9d3810d0 (rebase 210)
+>>>>>>> 21a6fa9bc (.)
 
 ## Riferimenti
 

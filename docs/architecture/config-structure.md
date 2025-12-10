@@ -47,6 +47,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Struttura di Configurazione nei Moduli 
 >>>>>>> 75179b855 (.)
@@ -146,11 +147,9 @@
 >>>>>>> c188e2a18 (.)
 =======
 >>>>>>> 6ad5224fb (.)
-# Struttura di Configurazione nei Moduli SaluteOra
 =======
-# Struttura di Configurazione nei Moduli 
-# Struttura di Configurazione nei Moduli <nome progetto>
->>>>>>> bf479cc (.)
+>>>>>>> 21a6fa9bc (.)
+# Struttura di Configurazione nei Moduli SaluteOra
 
 ## Principi di Configurazione
 
