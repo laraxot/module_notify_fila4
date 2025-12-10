@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Datas;
 
-use function Safe\json_encode;
-
-
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\XotData;
 use Spatie\LaravelData\Data;
