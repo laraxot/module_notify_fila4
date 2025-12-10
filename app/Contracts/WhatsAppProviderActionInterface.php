@@ -239,6 +239,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -334,6 +335,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -441,6 +443,8 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
 >>>>>>> 80f054e0 (.)
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
  *
 =======
  * 
@@ -539,6 +543,7 @@ use Modules\Notify\Datas\WhatsAppData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -555,6 +560,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
 =======
  *
 >>>>>>> 75179b85 (.)
@@ -1377,6 +1384,7 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> 7c39b1fe (.)
 =======
 >>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
 =======
 =======
  *
@@ -1478,6 +1486,8 @@ use Modules\Notify\Datas\WhatsAppData;
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -1618,6 +1628,7 @@ interface WhatsAppProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1648,6 +1659,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1682,6 +1695,7 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1752,10 +1766,13 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> 80f054e0 (.)
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1816,6 +1833,8 @@ interface WhatsAppProviderActionInterface
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> f87b41c3b (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -2510,6 +2529,7 @@ interface WhatsAppProviderActionInterface
 =======
 >>>>>>> 7c39b1fe (.)
 =======
+<<<<<<< HEAD
 =======
 } 
 >>>>>>> b19cd40 (.)
@@ -2885,3 +2905,6 @@ interface WhatsAppProviderActionInterface
 >>>>>>> c22b35d1e (.)
 =======
 >>>>>>> 8f2456941 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)

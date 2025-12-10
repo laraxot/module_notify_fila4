@@ -72,6 +72,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -279,6 +280,7 @@
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3f39ac8b (.)
 =======
@@ -305,6 +307,10 @@
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
 <?php
 
 declare(strict_types=1);
@@ -1837,6 +1843,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -2253,6 +2260,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 011072e4 (.)
 =======
+>>>>>>> 3f39ac8b (.)
+=======
 <x-filament-panels::page>
 >>>>>>> laraxot/develop
     <x-filament::section>
@@ -2504,6 +2513,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 <<<<<<< HEAD
 >>>>>>> 10292b60a (.)
@@ -2538,7 +2548,19 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 011072e4 (.)
+<<<<<<< HEAD
 >>>>>>> 1619767d8 (.)
+=======
+=======
+                    <x-filament::actions :actions="$this->getNotificationFormActions()" />
+                </div>
+            </div>
+        </div>
+    </div>
+>>>>>>> 5fd545e4 (.)
+=======
+>>>>>>> 3f39ac8b (.)
+>>>>>>> f87b41c3b (.)
 </x-filament-panels::page>
 =======
 >>>>>>> 301ad8b44 (.)
