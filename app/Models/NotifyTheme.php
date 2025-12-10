@@ -1574,7 +1574,10 @@ class NotifyTheme extends BaseModel
  * @mixin Eloquent
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 7c1c276f (rebase 210)
 /**
  * @property string $id
  * @property string|null $lang
@@ -1597,13 +1600,21 @@ class NotifyTheme extends BaseModel
  * @property string|null $created_by
  * @property Carbon|null $deleted_at
  * @property string|null $deleted_by
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+>>>>>>> 7c1c276f (rebase 210)
  * @property-read array<string, mixed> $logo
  * @property-read Model|\Eloquent|null $linkable
  * @property-read MediaCollection<int, Media> $media
  * @property-read int|null $media_count
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  *
+=======
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7c1c276f (rebase 210)
  * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotifyTheme newModelQuery()
  * @method static Builder<static>|NotifyTheme newQuery()
@@ -1629,10 +1640,15 @@ class NotifyTheme extends BaseModel
  * @method static Builder<static>|NotifyTheme whereUpdatedAt($value)
  * @method static Builder<static>|NotifyTheme whereUpdatedBy($value)
  * @method static Builder<static>|NotifyTheme whereViewParams($value)
+<<<<<<< HEAD
  *
  * @mixin Eloquent
  */
 >>>>>>> 2cbbc069 (.)
+=======
+ * @mixin Eloquent
+ */
+>>>>>>> 7c1c276f (rebase 210)
 class NotifyTheme extends BaseModel
 {
     /** @var list<string> */
