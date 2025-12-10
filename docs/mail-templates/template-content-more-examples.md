@@ -438,6 +438,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 =======
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? ' Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -490,6 +491,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 6e12a84b (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -590,9 +592,15 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+                <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> ad905ce9c (.)
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? ' Centro Medico, Via Roma 123, 00100 Roma' }}</p>
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -656,6 +664,8 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -787,6 +797,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -1097,6 +1108,8 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
                 <p style="margin: 0; font-size: 16px; color: #334155;">{{ $location ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 8c8937e7 (rebase 210)
 >>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
             </div>
         </div>
         
@@ -1278,6 +1291,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 =======
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? ' Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -1330,6 +1344,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 6e12a84b (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -1430,9 +1445,15 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+        <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> ad905ce9c (.)
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? ' Centro Medico, Via Roma 123, 00100 Roma' }}</p>
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? '<nome progetto> Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1496,6 +1517,8 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
@@ -1627,6 +1650,7 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -1937,6 +1961,8 @@ Questo documento contiene esempi aggiuntivi di contenuto HTML per template email
         <p style="margin: 10px 0 0; font-size: 14px; color: #64748b;">{{ $map_caption ?? 'SaluteOra Centro Medico, Via Roma 123, 00100 Roma' }}</p>
 >>>>>>> 8c8937e7 (rebase 210)
 >>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
     </div>
     
     <div style="border-top: 1px solid #e2e8f0; margin: 30px 0; padding-top: 30px;">

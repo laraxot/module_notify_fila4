@@ -314,6 +314,7 @@ I template email responsive di <nome progetto> sono progettati per offrire una c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 =======
 I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
@@ -366,6 +367,7 @@ I template email responsive di SaluteOra sono progettati per offrire una comunic
 >>>>>>> 6e12a84b (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -466,9 +468,15 @@ I template email responsive di SaluteOra sono progettati per offrire una comunic
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> ad905ce9c (.)
 I template email responsive di  sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 I template email responsive di <nome progetto> sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -532,6 +540,8 @@ I template email responsive di <nome progetto> sono progettati per offrire una c
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
@@ -663,6 +673,7 @@ I template email responsive di SaluteOra sono progettati per offrire una comunic
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -973,6 +984,8 @@ I template email responsive di SaluteOra sono progettati per offrire una comunic
 I template email responsive di SaluteOra sono progettati per offrire una comunicazione professionale e coinvolgente con gli utenti. Tutti i template sono:
 >>>>>>> 8c8937e7 (rebase 210)
 >>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
 
 - **Responsive**: ottimizzati per qualsiasi dispositivo (desktop, tablet, mobile)
 - **Accessibili**: strutturati per garantire accessibilità secondo gli standard WCAG
@@ -1226,6 +1239,7 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
 <<<<<<< HEAD
 =======
@@ -1278,6 +1292,7 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 >>>>>>> 6e12a84b (rebase 210)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 | `$contact_email` | Email di contatto | "supporto@saluteora.it" |
 >>>>>>> 545977c8 (rebase 210)
 =======
@@ -1378,9 +1393,15 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+| `$contact_email` | Email di contatto | "supporto@saluteora.it" |
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> ad905ce9c (.)
 | `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
 | `$contact_email` | Email di contatto | "supporto@<nome progetto>.it" |
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1444,6 +1465,8 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 | `$contact_email` | Email di contatto | "supporto@saluteora.it" |
@@ -1575,6 +1598,7 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 | `$contact_email` | Email di contatto | "supporto@saluteora.it" |
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -1885,6 +1909,8 @@ Tutti i template utilizzano il motore di templating Blade di Laravel. Le variabi
 | `$contact_email` | Email di contatto | "supporto@saluteora.it" |
 >>>>>>> 8c8937e7 (rebase 210)
 >>>>>>> c31e900eb (.)
+=======
+>>>>>>> ad905ce9c (.)
 | `$contact_phone` | Telefono di contatto | "+39 06 1234567" |
 | `$office_hours` | Orari ufficio | "Lun-Ven: 9:00-19:00, Sab: 9:00-13:00" |
 

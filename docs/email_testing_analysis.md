@@ -592,6 +592,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -654,6 +655,7 @@ public function sendEmail(): void
 >>>>>>> 22baa66d (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 2effe245 (.)
 =======
@@ -827,6 +829,8 @@ public function sendEmail(): void
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> ad905ce9c (.)
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 =======
@@ -930,6 +934,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -972,6 +977,8 @@ public function sendEmail(): void
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 01750b107 (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
@@ -1269,6 +1276,7 @@ public function sendEmail(): void
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 >>>>>>> 5b50927d (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bf479cc (.)
@@ -1950,6 +1958,11 @@ public function sendEmail(): void
 >>>>>>> 01750b107 (.)
 =======
 >>>>>>> 5e028c03d (.)
+=======
+=======
+>>>>>>> bf479cc (.)
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
 
 ## 📋 Checklist
 
@@ -1965,6 +1978,7 @@ public function sendEmail(): void
 <<<<<<< HEAD
 - [ ] Implementare caching 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2540,11 +2554,15 @@ public function sendEmail(): void
 =======
 >>>>>>> 5b50927d (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad905ce9c (.)
 =======
 =======
 - [ ] Implementare caching 
 >>>>>>> bf479cc (.)
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
@@ -2823,3 +2841,5 @@ public function sendEmail(): void
 >>>>>>> c31e900eb (.)
 =======
 >>>>>>> 5e028c03d (.)
+=======
+>>>>>>> ad905ce9c (.)

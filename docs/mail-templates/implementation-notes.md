@@ -329,6 +329,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -383,6 +384,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 545977c8 (rebase 210)
 =======
+<<<<<<< HEAD
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 69fa7d37 (.)
 =======
@@ -488,10 +490,13 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +560,8 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
@@ -812,6 +819,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 545977c8 (rebase 210)
@@ -1008,6 +1016,10 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 610b999f1 (.)
 =======
 >>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
@@ -1160,6 +1172,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
@@ -1214,6 +1227,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 545977c8 (rebase 210)
 =======
+<<<<<<< HEAD
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 69fa7d37 (.)
 =======
@@ -1319,10 +1333,13 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
            'path' => '/var/www/html/_bases/base_techplanner_fila3_mono/public_html/images/avatars/default-3.svg',
 >>>>>>> bf479cc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1386,6 +1403,8 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
@@ -1643,6 +1662,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/saluteora/public_html/images/avatars/default-3.svg',
 >>>>>>> 8c8937e7 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 545977c8 (rebase 210)
@@ -1839,6 +1859,10 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 >>>>>>> 610b999f1 (.)
 =======
 >>>>>>> c31e900eb (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]

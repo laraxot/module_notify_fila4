@@ -1251,6 +1251,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ultimo aggiornamento: 2025-01-06
 =======
 <<<<<<< HEAD
@@ -1281,6 +1282,7 @@
 >>>>>>> 54ad93c4 (rebase 210)
 =======
 >>>>>>> 6e12a84b (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 545977c8 (rebase 210)
@@ -1367,6 +1369,10 @@
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
 # Ultimo aggiornamento: 2025-01-31
 =======
 # Ultimo aggiornamento: 2025-01-06
@@ -1420,6 +1426,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -1440,6 +1447,8 @@
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 # Ultimo aggiornamento: 2025-01-06
@@ -1598,6 +1607,7 @@
 >>>>>>> d38aa9d2 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -1724,6 +1734,8 @@
 # Ultimo aggiornamento: 2025-01-06
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 # ==============================================
 
 # ==============================================
@@ -1831,6 +1843,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1894,6 +1907,7 @@
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -1948,6 +1962,8 @@
 =======
 >>>>>>> 6e12a84b (rebase 210)
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 /vendor/
 /vendor
 /node_modules/
@@ -2008,6 +2024,7 @@ npm-debug.log
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -2028,6 +2045,8 @@ npm-debug.log
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -2157,6 +2176,7 @@ npm-debug.log
 >>>>>>> d38aa9d2 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
@@ -2267,6 +2287,8 @@ npm-debug.log
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 vendor/
 /vendor/
 node_modules/
@@ -2378,6 +2400,7 @@ composer.lock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -2597,6 +2620,7 @@ composer.lock
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
@@ -2743,6 +2767,8 @@ composer.lock
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 
 # ==============================================
 # BUILD & COMPILED FILES
@@ -2867,6 +2893,7 @@ cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.exe
 =======
 <<<<<<< HEAD
@@ -2900,6 +2927,7 @@ cache/
 =======
 >>>>>>> 545977c8 (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> eb71492d (.)
@@ -2986,6 +3014,8 @@ cache/
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 *.exe
 >>>>>>> 62b0c9c (.)
 =======
@@ -3037,6 +3067,7 @@ cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3057,6 +3088,8 @@ cache/
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 *.exe
@@ -3204,6 +3237,7 @@ cache/
 >>>>>>> d38aa9d2 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 *.exe
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -3324,6 +3358,8 @@ cache/
 *.exe
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 *:Zone.Identifier
 v8-compile-cache-*
 .php-cs-fixer.cache
@@ -3429,6 +3465,7 @@ npm-debug.log*
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3469,6 +3506,8 @@ npm-debug.log*
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 npm-debug.log
 =======
 <<<<<<< HEAD
@@ -3587,7 +3626,12 @@ npm-debug.log
 =======
 >>>>>>> 6e12a84b (rebase 210)
 =======
+<<<<<<< HEAD
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> 545977c8 (rebase 210)
+=======
+>>>>>>> ad905ce9c (.)
 npm-debug.log
 >>>>>>> 62b0c9c (.)
 =======
@@ -3639,6 +3683,7 @@ npm-debug.log
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -3659,6 +3704,8 @@ npm-debug.log
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 npm-debug.log
@@ -3806,6 +3853,7 @@ npm-debug.log
 >>>>>>> d38aa9d2 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 npm-debug.log
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -3926,6 +3974,8 @@ npm-debug.log
 npm-debug.log
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 yarn-error.log*
 lerna-debug.log*
 
@@ -7553,6 +7603,7 @@ docs/cache/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7616,6 +7667,7 @@ docs/cache/
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -7668,6 +7720,8 @@ docs/cache/
 =======
 >>>>>>> 6e12a84b (rebase 210)
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 # LANGUAGE FILES
 # ==============================================
 lang/lang/
@@ -7730,6 +7784,7 @@ database_old/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -7750,6 +7805,8 @@ database_old/
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> a404ea71 (.)
@@ -7871,6 +7928,7 @@ database_old/
 >>>>>>> d38aa9d2 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
@@ -7975,6 +8033,8 @@ database_old/
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -8082,6 +8142,7 @@ database_old
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -8122,6 +8183,8 @@ database_old
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 62b0c9c (.)
@@ -8328,6 +8391,7 @@ database_old
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9e7ba5b6 (rebase 210)
 =======
@@ -8463,6 +8527,8 @@ database_old
 =======
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 
 # ==============================================
 # MODULE SPECIFIC - NOTIFY
@@ -8565,6 +8631,7 @@ config/development.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -8605,6 +8672,8 @@ config/development.php
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 # Queue e notifiche
 storage/notifications/
 storage/queue/
@@ -8639,6 +8708,7 @@ storage/queue/
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -8725,6 +8795,8 @@ storage/queue/
 =======
 >>>>>>> 6e12a84b (rebase 210)
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 # Cache notifiche
 storage/notifications/
 storage/templates/
@@ -8785,6 +8857,7 @@ storage/queue/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -8805,6 +8878,8 @@ storage/queue/
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 # Queue e notifiche
@@ -8904,6 +8979,7 @@ storage/queue/
 storage/notifications/
 storage/queue/
 >>>>>>> d38aa9d2 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 545977c8 (rebase 210)
@@ -9151,6 +9227,10 @@ storage/queue/
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 610b999f1 (.)
+=======
+=======
+>>>>>>> 545977c8 (rebase 210)
+>>>>>>> ad905ce9c (.)
 
 # File di test notifiche
 notification_test_data.json
@@ -9254,6 +9334,7 @@ test_notifications.sql
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -9294,6 +9375,8 @@ test_notifications.sql
 >>>>>>> 1c96b91fe (.)
 =======
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 # 🚫 File specifici del progetto
 =======
 <<<<<<< HEAD
@@ -9326,6 +9409,7 @@ test_notifications.sql
 >>>>>>> 6e12a84b (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 69fa7d37 (.)
 =======
@@ -9412,6 +9496,8 @@ test_notifications.sql
 =======
 >>>>>>> 6e12a84b (rebase 210)
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 # File specifici del progetto
 =======
 # 🚫 File specifici del progetto
@@ -9465,6 +9551,7 @@ test_notifications.sql
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e2f1a4045 (.)
 =======
@@ -9485,6 +9572,8 @@ test_notifications.sql
 >>>>>>> 6ad5224fb (.)
 =======
 >>>>>>> 1c96b91fe (.)
+=======
+>>>>>>> ad905ce9c (.)
 >>>>>>> 31f5d28f (.)
 =======
 # 🚫 File specifici del progetto
@@ -9632,6 +9721,7 @@ test_notifications.sql
 >>>>>>> d38aa9d2 (rebase 210)
 =======
 >>>>>>> 545977c8 (rebase 210)
+<<<<<<< HEAD
 =======
 # 🚫 File specifici del progetto
 >>>>>>> 9e7ba5b6 (rebase 210)
@@ -9752,6 +9842,8 @@ test_notifications.sql
 # 🚫 File specifici del progetto
 >>>>>>> d38aa9d2 (rebase 210)
 >>>>>>> 610b999f1 (.)
+=======
+>>>>>>> ad905ce9c (.)
 *.fila2
 laravel
 public_html
