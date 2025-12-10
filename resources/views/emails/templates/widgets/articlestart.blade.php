@@ -496,6 +496,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -4152,6 +4153,7 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 <<<<<<< HEAD
 =======
 >>>>>>> f5a88785 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -4306,6 +4308,11 @@ e width="100%" cellpadding="0" cellspacing="0" border="0">
 =======
 >>>>>>> f5a88785 (rebase 210)
 >>>>>>> 84881298a (.)
+=======
+=======
+e width="100%" cellpadding="0" cellspacing="0" border="0">
+>>>>>>> 878ac14d (rebase 210)
+>>>>>>> 9894fc9ef (.)
 	<tr>
 		<td bgcolor="{{ isset($color) ? $color : '#ef3101' }}" nowrap>
 			<img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="5" height="1">

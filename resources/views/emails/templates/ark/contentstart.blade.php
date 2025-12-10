@@ -484,6 +484,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -3924,6 +3925,7 @@ declare(strict_types=1);
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -4077,6 +4079,10 @@ declare(strict_types=1);
 =======
 >>>>>>> f5a88785 (rebase 210)
 >>>>>>> 84881298a (.)
+=======
+=======
+>>>>>>> 878ac14d (rebase 210)
+>>>>>>> 9894fc9ef (.)
 	<td class="w50" width="50"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -4087,6 +4093,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 					<div class="article-content" align="left">
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4742,6 +4749,8 @@ declare(strict_types=1);
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+>>>>>>> 9894fc9ef (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5766,6 +5775,7 @@ declare(strict_types=1);
 					<div class="article-content" align="left">
 >>>>>>> 4e2ebfb (.)
 >>>>>>> cb85c538 (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 					<div class="article-content" align="left">
@@ -7270,3 +7280,8 @@ declare(strict_types=1);
 >>>>>>> 13655a7ed (.)
 =======
 >>>>>>> e0836b102 (.)
+=======
+=======
+					<div class="article-content" align="left">
+>>>>>>> 878ac14d (rebase 210)
+>>>>>>> 9894fc9ef (.)
