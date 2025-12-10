@@ -513,6 +513,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -958,6 +959,7 @@
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 7c957f01 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9f8e680a (rebase 210)
 =======
@@ -1907,6 +1909,8 @@
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 1e641aeb2 (.)
 <?php
 
 declare(strict_types=1);
@@ -3525,10 +3529,14 @@ declare(strict_types=1);
 <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e641aeb2 (.)
 >>>>>>> 518c702 (.)
 >>>>>>> 9c45d9bd (rebase 210)
 =======
 >>>>>>> 7c957f01 (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> bf479cc (.)
@@ -4332,6 +4340,8 @@ declare(strict_types=1);
 >>>>>>> 518c702 (.)
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 1e641aeb2 (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -4404,6 +4414,7 @@ declare(strict_types=1);
 >>>>>>> b207a9b1a (.)
 </tr>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5908,6 +5919,7 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> 7c957f01 (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 9f8e680a (rebase 210)
 =======
@@ -7600,3 +7612,5 @@ declare(strict_types=1);
 =======
 >>>>>>> 9c45d9bd (rebase 210)
 >>>>>>> ce1853afd (.)
+=======
+>>>>>>> 1e641aeb2 (.)
