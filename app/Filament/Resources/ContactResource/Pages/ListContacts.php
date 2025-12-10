@@ -93,6 +93,7 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 82ae73be (.)
@@ -154,7 +155,11 @@ namespace Modules\Notify\Filament\Resources\ContactResource\Pages;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Override;
+=======
+>>>>>>> b19cd40 (.)
 use Filament\Tables;
 >>>>>>> 75179b85 (.)
 =======
@@ -779,6 +784,7 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 >>>>>>> c8b1c8bf (.)
@@ -860,6 +866,11 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+=======
+
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 class ListContacts extends XotBaseListRecords
 {
     protected static string $resource = ContactResource::class;
@@ -935,6 +946,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1186,6 +1198,8 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     #[Override]
     public function getTableColumns(): array
     {
@@ -1769,6 +1783,7 @@ class ListContacts extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1846,6 +1861,8 @@ class ListContacts extends XotBaseListRecords
 =======
 >>>>>>> 82ae73be (.)
 =======
+>>>>>>> de02998b (.)
+=======
     public function getTableColumns(): array
     {
         return [
@@ -1880,11 +1897,14 @@ class ListContacts extends XotBaseListRecords
         return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/develop
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
             'active' => Filter::make('active')
                 ->query(function (Builder $query): Builder {
                     return $query->where('active', true);
@@ -1893,6 +1913,7 @@ class ListContacts extends XotBaseListRecords
                 ->query(function (Builder $query): Builder {
                     return $query->where('active', false);
                 }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2319,6 +2340,9 @@ class ListContacts extends XotBaseListRecords
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
         ];
     }
 }

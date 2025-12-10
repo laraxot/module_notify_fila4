@@ -142,6 +142,7 @@ namespace Modules\Notify\Providers\Filament;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -655,8 +656,13 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 =======
 >>>>>>> f1c9518b (.)
 =======
+=======
+>>>>>>> de02998b (.)
 use Override;
 // use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin; // Temporaneamente commentato per compatibilità Filament 4.x
+=======
+use LaraZeus\SpatieTranslatable\SpatieTranslatablePlugin;
+>>>>>>> b19cd40 (.)
 use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> 75179b85 (.)
 =======
@@ -956,6 +962,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1083,6 +1090,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
     #[Override]
 =======
 =======
@@ -1858,6 +1867,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
 >>>>>>> f2e64178 (.)
@@ -1932,9 +1942,12 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
     public function panel(Panel $panel): Panel
     { 
         $panel->plugins([
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1979,6 +1992,9 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
             SpatieLaravelTranslatablePlugin::make(),
 >>>>>>> d09cb759 (.)
+=======
+            SpatieTranslatablePlugin::make(),
+>>>>>>> de02998b (.)
         ]);
         if (! XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
@@ -1996,6 +2012,7 @@ class AdminPanelProvider extends XotBasePanelProvider
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2106,3 +2123,6 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)

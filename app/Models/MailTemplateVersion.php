@@ -77,6 +77,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -480,11 +481,19 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
+=======
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+>>>>>>> b19cd40 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1068,6 +1077,7 @@ class MailTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1424,6 +1434,11 @@ class MailTemplateVersion extends BaseModel
 =======
     #[Override]
 >>>>>>> 3f537838 (.)
+=======
+    #[Override]
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
     protected function casts(): array
     {
         return [

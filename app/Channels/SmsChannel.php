@@ -166,6 +166,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (! method_exists($notification, 'toSms')) {
 >>>>>>> 98d837b9 (.)
@@ -207,10 +208,13 @@ class SmsChannel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
         if (!method_exists($notification, 'toSms')) {
 =======
         if (! method_exists($notification, 'toSms')) {
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,11 +689,14 @@ class SmsChannel
 =======
         if (!method_exists($notification, 'toSms')) {
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
             throw new Exception('Notification does not have toSms method');
         }
 
         $smsData = $notification->toSms($notifiable);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1274,6 +1281,13 @@ class SmsChannel
 =======
         if (!($smsData instanceof SmsData)) {
 >>>>>>> 3f537838 (.)
+=======
+        if (!($smsData instanceof SmsData)) {
+=======
+
+        if (! $smsData instanceof SmsData) {
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
             throw new Exception('toSms method must return an instance of SmsData');
         }
 
@@ -1345,6 +1359,7 @@ class SmsChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1393,10 +1408,13 @@ class SmsChannel
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> de02998b (.)
 =======
         
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1625,6 +1643,8 @@ class SmsChannel
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 
         return $action->execute($smsData);
     }

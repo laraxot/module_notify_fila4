@@ -77,6 +77,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class MailTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
@@ -114,10 +115,13 @@ class MailTemplatePolicy extends NotifyBasePolicy {}
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 class MailTemplatePolicy extends NotifyBasePolicy
 {
 }
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -752,3 +756,7 @@ class MailTemplatePolicy extends NotifyBasePolicy
 {
 }
 >>>>>>> 3f537838 (.)
+=======
+class MailTemplatePolicy extends NotifyBasePolicy {}
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)

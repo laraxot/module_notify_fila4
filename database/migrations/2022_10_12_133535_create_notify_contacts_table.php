@@ -79,6 +79,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -654,6 +655,14 @@ return new class() extends XotBaseMigration {
 return new class() extends XotBaseMigration {
     protected null|string $model_class = Contact::class;
 >>>>>>> 3f537838 (.)
+=======
+return new class() extends XotBaseMigration {
+    protected null|string $model_class = Contact::class;
+=======
+return new class () extends XotBaseMigration {
+    protected ?string $model_class = Contact::class;
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
     /**
      * Run the migrations.
@@ -725,6 +734,7 @@ return new class() extends XotBaseMigration {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -927,6 +937,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->increments('id');
             $table->uuidMorphs('model');
@@ -984,6 +996,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1171,6 +1184,9 @@ return new class() extends XotBaseMigration {
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+=======
+>>>>>>> de02998b (.)
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->increments('id');
@@ -1189,6 +1205,7 @@ return new class() extends XotBaseMigration {
                 $this->updateTimestamps(table: $table, hasSoftDeletes: true);
             }
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1439,5 +1456,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
     }
 };

@@ -77,6 +77,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -573,6 +574,8 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 9777d1b3 (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Tests\TestCase;
@@ -633,6 +636,7 @@ use Modules\Notify\Tests\TestCase;
  * | global functions to help you to reduce the number of lines of code in your test files.
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1046,6 +1050,8 @@ expect()->extend('toBeMailTemplate', function () {
 =======
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 =======
 namespace Modules\Notify\Tests;
 
@@ -1057,6 +1063,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Models\Notification;
 use Modules\Notify\Models\MailTemplate;
 =======
@@ -1136,6 +1143,10 @@ use Modules\Notify\Models\MailTemplate;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\MailTemplate;
+>>>>>>> de02998b (.)
 
 /*
 |--------------------------------------------------------------------------
@@ -1148,6 +1159,7 @@ use Modules\Notify\Models\MailTemplate;
 |
 */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1189,6 +1201,10 @@ uses(TestCase::class)
 =======
 pest()->extend(TestCase::class)
 >>>>>>> d09cb759 (.)
+=======
+uses(TestCase::class)
+    ->uses(DatabaseTransactions::class)
+>>>>>>> de02998b (.)
     ->in('Feature', 'Unit');
 
 /*
@@ -1212,12 +1228,15 @@ expect()->extend('toBeNotification', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 82ae73be (.)
+=======
+>>>>>>> de02998b (.)
     return $this->toBeInstanceOf(Notification::class);
 });
 
@@ -1226,6 +1245,7 @@ expect()->extend('toBeMailTemplate', function () {
 });
 
 /*
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1271,6 +1291,8 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 |--------------------------------------------------------------------------
 | Functions
 |--------------------------------------------------------------------------
@@ -1280,6 +1302,7 @@ expect()->extend('toBeMailTemplate', function () {
 | global functions to help you to reduce the number of lines of code in your test files.
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1400,6 +1423,9 @@ expect()->extend('toBeMailTemplate', function () {
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
 
 function createNotification(array $attributes = []): Notification
 {

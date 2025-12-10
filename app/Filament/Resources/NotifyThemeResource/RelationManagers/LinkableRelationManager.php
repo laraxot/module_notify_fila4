@@ -69,6 +69,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -457,10 +458,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> d09cb759 (.)
+=======
+>>>>>>> de02998b (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -771,12 +775,15 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 207ac35e (.)
 =======
+>>>>>>> de02998b (.)
+=======
 use Filament\Forms\Form;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 82ae73be (.)
 =======
@@ -796,6 +803,8 @@ use Filament\Schemas\Schema;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
 class LinkableRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'linkable';
@@ -867,6 +876,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -991,6 +1001,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> de02998b (.)
     protected static null|string $recordTitleAttribute = 'id';
 =======
 =======
@@ -1084,6 +1096,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 <<<<<<< HEAD
 >>>>>>> 54220b28 (rebase 210)
             TextInput::make('id')->required()->maxLength(255),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1519,6 +1532,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> d09cb759 (.)
 =======
+>>>>>>> de02998b (.)
+=======
     protected static ?string $recordTitleAttribute = 'id';
 
     public function getFormSchema(): array
@@ -1527,6 +1542,7 @@ class LinkableRelationManager extends XotBaseRelationManager
             TextInput::make('id')
                 ->required()
                 ->maxLength(255),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1615,6 +1631,9 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
         ];
     }
 }

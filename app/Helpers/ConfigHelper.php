@@ -223,6 +223,7 @@ class ConfigHelper
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             $placeholder = '{{'.$variable.'}}';
 =======
             $placeholder = '{{' . $variable . '}}';
@@ -294,6 +295,12 @@ class ConfigHelper
 =======
             $placeholder = '{{' . $variable . '}}';
 >>>>>>> 3f537838 (.)
+=======
+            $placeholder = '{{' . $variable . '}}';
+=======
+            $placeholder = '{{'.$variable.'}}';
+>>>>>>> b19cd40 (.)
+>>>>>>> de02998b (.)
             $string = str_replace($placeholder, (string) $value, $string);
         }
 
