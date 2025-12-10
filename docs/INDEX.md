@@ -450,6 +450,7 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 =======
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
@@ -645,7 +646,12 @@ Ultimo aggiornamento: 14 Maggio 2025
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> 36321fcb (.)
 =======
+=======
+>>>>>>> 22baa66d (rebase 210)
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+>>>>>>> d284d65 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> 712617d3 (.)
 =======
