@@ -2160,6 +2160,8 @@ use Tests\TestCase;
 =======
 >>>>>>> ec4cda261 (.)
 
+use function Safe\json_encode;
+
 class NotificationTest extends TestCase
 {
     use RefreshDatabase;
