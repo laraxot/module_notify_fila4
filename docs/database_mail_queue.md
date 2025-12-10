@@ -496,6 +496,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1243,6 +1244,11 @@ $users->each(function ($user) {
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -1537,6 +1543,7 @@ $this->call('queue:prune-batches', [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3447,11 +3454,23 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 =======
 >>>>>>> 7a2f131f (.)
 =======
+=======
+>>>>>>> bd804d67 (.)
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+<<<<<<< HEAD
 >>>>>>> 712617d3 (.)
+=======
+=======
+
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -3725,6 +3744,7 @@ if ($failedJobs > $threshold) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4472,6 +4492,11 @@ if ($failedJobs > $threshold) {
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> 712617d3 (.)
+=======
+=======
+
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -5060,6 +5085,7 @@ php artisan queue:restart
 ## Vedi Anche
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Horizon Documentation](https://laravel.com/docs/horizon)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6094,3 +6120,8 @@ php artisan queue:restart
 =======
 - [Redis Documentation](https://redis.io/documentation)
 >>>>>>> 712617d3 (.)
+=======
+- [Redis Documentation](https://redis.io/documentation)
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
