@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -86,6 +87,8 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
 # Analisi e Miglioramenti del Modulo Notify
 
 ## Analisi delle Soluzioni Esistenti
@@ -101,6 +104,7 @@ use Filament\Forms\Components\Builder;
 
 class TemplateResource extends Resource
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +242,9 @@ class TemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fd1fcc4c (.)
     {
         return $form->schema([
             Builder::make('content')
@@ -451,6 +458,7 @@ class TemplateResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -554,6 +562,9 @@ class TemplateResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fd1fcc4c (.)
     {
         return $form->schema([
             Forms\Components\Tabs::make('Template')
@@ -811,6 +822,7 @@ class TemplatePreview extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1195,10 +1207,13 @@ class TemplatePreview extends Component
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 59916c8f (.)
+=======
+>>>>>>> fd1fcc4c (.)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1998,3 +2013,5 @@ class TemplatePreview extends Component
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 59916c8f (.)
+=======
+>>>>>>> fd1fcc4c (.)

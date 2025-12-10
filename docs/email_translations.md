@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -80,6 +81,8 @@
 >>>>>>> 8c8937e7 (rebase 210)
 =======
 >>>>>>> 36ac4fc1 (.)
+=======
+>>>>>>> fd1fcc4c (.)
 # Integrazione Traduzioni Email - il progetto
 
 ## Panoramica
@@ -295,6 +298,7 @@ class MailTemplateResource extends XotBaseResource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -398,6 +402,9 @@ class MailTemplateResource extends XotBaseResource
 =======
     public static function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> fd1fcc4c (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -597,6 +604,7 @@ class TranslationValidator
 - [Email Plugins Analysis](email-plugins-analysis.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1439,3 +1447,8 @@ class TranslationValidator
 >>>>>>> d45a0226 (.)
 =======
 >>>>>>> 69fa7d37 (.)
+=======
+- [Laravel Localization](https://laravel.com/docs/localization)
+- [Laravel Lang](https://github.com/Laravel-Lang/lang)
+- [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager) 
+>>>>>>> fd1fcc4c (.)

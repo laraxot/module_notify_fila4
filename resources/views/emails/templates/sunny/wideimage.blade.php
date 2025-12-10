@@ -310,6 +310,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1069,11 +1070,15 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> eea68ec9 (.)
+=======
+=======
+>>>>>>> fd1fcc4c (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2436,6 +2441,10 @@ declare(strict_types=1);
 >>>>>>> b1f2dd4c (.)
 =======
 >>>>>>> b8041b24 (.)
+=======
+<tr>
+>>>>>>> 518c702 (.)
+>>>>>>> fd1fcc4c (.)
 	<td class="w580" width="580" colspan="3">
 		<img width="640" class="w640" id="image" src="{{ $src }}" alt="" height="{{ $height }}" />
 	</td>
@@ -2757,6 +2766,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3684,10 +3694,13 @@ declare(strict_types=1);
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 8c8937e7 (rebase 210)
+=======
+>>>>>>> fd1fcc4c (.)
 </tr>
 =======
 </tr>
 >>>>>>> 518c702 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4282,3 +4295,5 @@ declare(strict_types=1);
 =======
 </tr>
 >>>>>>> b8041b24 (.)
+=======
+>>>>>>> fd1fcc4c (.)
