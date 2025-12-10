@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8,6 +7,7 @@ return [
         'label' => 'Menu Notifiche',
         'group' => 'Sistema',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64,6 +64,6 @@ return [
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
-];
 =======
->>>>>>> 301ad8b44 (.)
+>>>>>>> 02a2ea3c10 (.)
+];

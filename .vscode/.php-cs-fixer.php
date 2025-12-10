@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1818,6 +1819,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -1826,6 +1832,7 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1975,6 +1982,8 @@ $finder = PhpCsFixer\Finder::create()
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -1986,6 +1995,7 @@ $config
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         //'binary_operator_spaces' => ['align_double_arrow' => false],
@@ -2035,6 +2045,9 @@ $config
 =======
         //'binary_operator_spaces' => ['align_double_arrow' => false],
 >>>>>>> a55aa5e96 (.)
+=======
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
+>>>>>>> 02a2ea3c10 (.)
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
         'not_operator_with_successor_space' => true,
@@ -2049,6 +2062,7 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2264,3 +2278,5 @@ return $config;
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

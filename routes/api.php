@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1217,6 +1217,8 @@ declare(strict_types=1);
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 /*--work in progress
  * use Modules\Notify\Http\Controllers\TelegramNotificationController;
@@ -1229,6 +1231,7 @@ declare(strict_types=1);
  * [TelegramNotificationController::class, 'view'])->middleware('api');
  * });
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3475,3 +3478,5 @@ Route::middleware('guest')->group(function () {
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

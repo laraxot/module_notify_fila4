@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -105,6 +104,7 @@ class TelegramDriverEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
@@ -847,6 +847,9 @@ class TelegramDriverEnumTest extends TestCase
 =======
         $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
 >>>>>>> a55aa5e96 (.)
+=======
+        $values = array_map(fn($case) => $case->value, TelegramDriverEnum::cases());
+>>>>>>> 02a2ea3c10 (.)
         $uniqueValues = array_unique($values);
 
 =======
@@ -905,5 +908,3 @@ class TelegramDriverEnumTest extends TestCase
         }
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

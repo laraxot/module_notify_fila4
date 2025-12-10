@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +95,8 @@ use Filament\Panel;
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -124,6 +126,7 @@ use Filament\Notifications\Notification as FilamentNotification;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +144,8 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Mail;
@@ -148,8 +153,8 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Pages\XotBasePage;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -363,6 +368,8 @@ use Filament\Notifications\Notification as FilamentNotification;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> bf5d31b0f (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 /**
  * @property \Filament\Schemas\Schema $emailForm
@@ -372,6 +379,7 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
     public null|array $emailData = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -566,6 +574,10 @@ class SendAwsEmailPage extends XotBasePage
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
+>>>>>>> 02a2ea3c10 (.)
 
     protected string $view = 'notify::filament.pages.send-email';
 
@@ -574,6 +586,7 @@ class SendAwsEmailPage extends XotBasePage
 =======
 >>>>>>> 4e2ebfb (.)
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -636,6 +649,8 @@ class SendAwsEmailPage extends XotBasePage
 
     protected static null|string $cluster = Test::class;
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
     /**
      * Get the slug of the page
@@ -693,6 +708,7 @@ class SendAwsEmailPage extends XotBasePage
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->emailForm->fill();
 =======
 <<<<<<< HEAD
@@ -720,12 +736,14 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 75179b855 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $this->emailForm->fill();
     }
 
-<<<<<<< HEAD
     public function emailForm(Schema $schema): Schema
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
 <<<<<<< HEAD
@@ -840,6 +858,8 @@ class SendAwsEmailPage extends XotBasePage
     public function emailForm(Schema $schema): Schema
     {
 <<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
         return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
     }
 
@@ -850,6 +870,7 @@ class SendAwsEmailPage extends XotBasePage
     {
         return [
             'to' => TextInput::make('to')
+<<<<<<< HEAD
 =======
         return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
 <<<<<<< HEAD
@@ -1278,10 +1299,13 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
                 ->label(__('notify::email.form.to.label'))
                 ->email()
                 ->required()
                 ->helperText(__('notify::email.form.to.helper')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1327,11 +1351,14 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             'subject' => TextInput::make('subject')
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
             'body_html' => RichEditor::make('body_html')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1597,11 +1624,14 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 11b43e822 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
                 ->label(__('notify::email.form.body_html.label'))
                 ->required()
                 ->fileAttachmentsDisk('public')
                 ->fileAttachmentsDirectory('uploads/mail-attachments')
                 ->helperText(__('notify::email.form.body_html.helper')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'template' => Select::make('template')
@@ -1776,6 +1806,9 @@ class SendAwsEmailPage extends XotBasePage
 =======
             'template' => Select::make('template')
 >>>>>>> a55aa5e96 (.)
+=======
+            'template' => Select::make('template')
+>>>>>>> 02a2ea3c10 (.)
                 ->label(__('notify::email.form.template.label'))
                 ->options([
                     'aws-default' => 'AWS Default',
@@ -1786,6 +1819,7 @@ class SendAwsEmailPage extends XotBasePage
                 ->default('aws-default')
                 ->required()
                 ->helperText(__('notify::email.form.template.helper')),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'add_attachments' => Toggle::make('add_attachments')
@@ -1960,6 +1994,9 @@ class SendAwsEmailPage extends XotBasePage
 =======
             'add_attachments' => Toggle::make('add_attachments')
 >>>>>>> a55aa5e96 (.)
+=======
+            'add_attachments' => Toggle::make('add_attachments')
+>>>>>>> 02a2ea3c10 (.)
                 ->label(__('notify::email.form.add_attachments.label'))
                 ->default(false)
                 ->helperText(__('notify::email.form.add_attachments.helper')),
@@ -1969,6 +2006,7 @@ class SendAwsEmailPage extends XotBasePage
     public function sendEmail(): void
     {
         $data = $this->emailForm->getState();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2009,6 +2047,8 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
         try {
             $to = is_string($data['to']) ? $data['to'] : '';
@@ -2232,6 +2272,7 @@ class SendAwsEmailPage extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 =======
@@ -2404,6 +2445,9 @@ class SendAwsEmailPage extends XotBasePage
 =======
         if (!($user instanceof Model)) {
 >>>>>>> a55aa5e96 (.)
+=======
+        if (!($user instanceof Model)) {
+>>>>>>> 02a2ea3c10 (.)
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',
             );
@@ -2452,5 +2496,3 @@ class SendAwsEmailPage extends XotBasePage
         return $user;
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

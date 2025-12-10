@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Convenzioni di Naming
 
 ## Regole Generali
@@ -57,6 +56,7 @@ public function handleHTTPRequest(): void
 
 # Convenzioni di Naming per le Azioni di Notifica
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema <nome progetto>, supportando la risoluzione dinamica delle classi implementata nei factory.
@@ -128,6 +128,9 @@ Questo documento definisce le convenzioni di naming standardizzate per le azioni
 =======
 Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema <nome progetto>, supportando la risoluzione dinamica delle classi implementata nei factory.
 >>>>>>> a55aa5e96 (.)
+=======
+Questo documento definisce le convenzioni di naming standardizzate per le azioni di notifica nel sistema <nome progetto>, supportando la risoluzione dinamica delle classi implementata nei factory.
+>>>>>>> 02a2ea3c10 (.)
 
 ## Pattern di Naming
 
@@ -250,5 +253,3 @@ $normalizedDriver = str_replace(' ', '', ucwords(str_replace('_', ' ', $driver))
 ```
 
 Esempio: 'sms_factor' → 'SendSmsFactorSMSAction'
-=======
->>>>>>> 301ad8b44 (.)

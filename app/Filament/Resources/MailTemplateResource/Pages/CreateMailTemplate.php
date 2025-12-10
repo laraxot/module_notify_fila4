@@ -1,14 +1,17 @@
-<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3513,10 +3516,10 @@ namespace Modules\Notify\Filament\Resources\MailTemplateResource\Pages;
 use Modules\Lang\Filament\Resources\Pages\LangBaseCreateRecord;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 class CreateMailTemplate extends LangBaseCreateRecord
 {
     protected static string $resource = MailTemplateResource::class;
 }
-=======
->>>>>>> 301ad8b44 (.)

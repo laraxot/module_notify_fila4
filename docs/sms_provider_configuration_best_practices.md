@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Best Practices per la Configurazione dei Provider SMS
 
 ## Struttura Corretta della Configurazione
@@ -76,6 +75,7 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 // ❌ ERRATO
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 <<<<<<< HEAD
@@ -145,6 +145,9 @@ Per parametri critici come `sender`, non utilizzare valori predefiniti:
 =======
 'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> a55aa5e96 (.)
+=======
+'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 02a2ea3c10 (.)
 
 // ✅ CORRETTO
 'sender' => env('NETFUN_SENDER'),
@@ -186,5 +189,3 @@ $token = config('services.netfun.token');
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [SMS Best Practices](./SMS_BEST_PRACTICES.md)
 - [Netfun Authentication Methods](./NETFUN_AUTHENTICATION_METHODS.md)
-=======
->>>>>>> 301ad8b44 (.)

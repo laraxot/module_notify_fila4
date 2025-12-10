@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8,6 +7,7 @@ namespace Modules\Notify\Factories;
 use Exception;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,6 +45,9 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 =======
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> a55aa5e96 (.)
+=======
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+>>>>>>> 02a2ea3c10 (.)
 
 /**
  * Factory per la creazione di azioni SMS.
@@ -91,6 +94,7 @@ final class SmsActionFactory
      * Utilizza una risoluzione dinamica delle classi basata sulla convenzione di naming
      * per istanziare l'action corretta.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +260,8 @@ final class SmsActionFactory
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @param string|null $driver Driver SMS da utilizzare (se null, viene utilizzato quello predefinito)
      * @return SmsActionContract Azione SMS corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
@@ -275,6 +281,7 @@ final class SmsActionFactory
 =======
 >>>>>>> cbb586cb0 (.)
     public function create(null|string $driver = null): SmsActionContract
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1160,11 +1167,16 @@ final class SmsActionFactory
     {
         $driver ??= Config::get('sms.default', 'netfun');
 >>>>>>> a55aa5e96 (.)
+=======
+    {
+        $driver ??= Config::get('sms.default', 'netfun');
+>>>>>>> 02a2ea3c10 (.)
 
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName(is_string($driver) ? $driver : '');
 
         // Avvisa per driver non standard
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
@@ -1946,6 +1958,10 @@ final class SmsActionFactory
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
 >>>>>>> e53a56570 (.)
+=======
+        if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
+            Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
+>>>>>>> 02a2ea3c10 (.)
         }
 
         // Costruisci il nome della classe seguendo la convenzione
@@ -1966,10 +1982,10 @@ final class SmsActionFactory
                 'className' => $className,
             ]);
 
-<<<<<<< HEAD
             throw new Exception(
                 'Unsupported SMS driver: ' . (is_string($driver) ? $driver : '') . ". Class {$className} not found.",
             );
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2684,12 +2700,15 @@ final class SmsActionFactory
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         }
 
         $instance = app($className);
 
         // Verifica che l'istanza implementi l'interfaccia corretta
         if (!($instance instanceof SmsActionContract)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2752,6 +2771,8 @@ final class SmsActionFactory
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             throw new Exception("Class {$className} does not implement SmsActionContract.");
         }
 
@@ -2764,6 +2785,7 @@ final class SmsActionFactory
      *
      * @param string $driver Nome del driver da normalizzare
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2825,6 +2847,8 @@ final class SmsActionFactory
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @return string Nome normalizzato
      */
     private function normalizeDriverName(string $driver): string
@@ -2836,5 +2860,3 @@ final class SmsActionFactory
         return $this->driverAliases[$normalized] ?? $normalized;
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

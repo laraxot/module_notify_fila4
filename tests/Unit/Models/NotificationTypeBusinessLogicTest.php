@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -274,6 +274,10 @@ use Illuminate\Database\Eloquent\Builder;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+>>>>>>> 02a2ea3c10 (.)
 use Modules\Notify\Models\NotificationType;
 
 describe('NotificationType Business Logic', function () {
@@ -290,6 +294,7 @@ describe('NotificationType Business Logic', function () {
     });
 
     test('notification type has expected fillable fields', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,6 +349,9 @@ describe('NotificationType Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 02a2ea3c10 (.)
         $expectedFillable = [
             'name',
             'description',
@@ -365,6 +373,7 @@ describe('NotificationType Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notificationType = new NotificationType();
 =======
 <<<<<<< HEAD
@@ -416,6 +425,9 @@ describe('NotificationType Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 02a2ea3c10 (.)
         $notificationType->name = 'Email Verification';
         $notificationType->description = 'Email verification notification type';
         $notificationType->template = 'email-verification-template';
@@ -439,6 +451,7 @@ describe('NotificationType Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notificationType = new NotificationType();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -605,6 +618,9 @@ describe('NotificationType Business Logic', function () {
         $notificationType = new NotificationType();
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 02a2ea3c10 (.)
 
         expect($notificationType)->toBeInstanceOf(NotificationType::class);
         expect($notificationType)->toBeInstanceOf(Model::class);
@@ -631,6 +647,7 @@ describe('NotificationType Business Logic', function () {
         expect($query)->toBeInstanceOf(Builder::class);
     });
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -672,3 +689,5 @@ describe('NotificationType Business Logic', function () {
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

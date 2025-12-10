@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -10,6 +9,7 @@ declare(strict_types=1);
  * die ContactTypeEnum für zentralisiertes Rendering verwendet.
  *
  * @author Laraxot Team
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68,6 +68,9 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+ * @version 1.0
+>>>>>>> 02a2ea3c10 (.)
  * @since 2025-08-01
  */
 return [
@@ -87,5 +90,3 @@ return [
         'no_contacts' => 'Keine Kontakte verfügbar',
     ],
 ];
-=======
->>>>>>> 301ad8b44 (.)

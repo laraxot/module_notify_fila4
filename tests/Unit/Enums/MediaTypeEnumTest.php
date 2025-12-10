@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -110,6 +109,7 @@ class MediaTypeEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, MediaTypeEnum::cases());
@@ -852,6 +852,9 @@ class MediaTypeEnumTest extends TestCase
 =======
         $values = array_map(fn($case) => $case->value, MediaTypeEnum::cases());
 >>>>>>> a55aa5e96 (.)
+=======
+        $values = array_map(fn($case) => $case->value, MediaTypeEnum::cases());
+>>>>>>> 02a2ea3c10 (.)
         $uniqueValues = array_unique($values);
 
 =======
@@ -902,5 +905,3 @@ class MediaTypeEnumTest extends TestCase
         }
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

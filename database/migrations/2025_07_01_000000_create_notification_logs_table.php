@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1172,6 +1172,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -1179,6 +1184,7 @@ use Illuminate\Support\Facades\Schema;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2152,6 +2158,9 @@ return new class extends Migration {
 =======
 return new class extends Migration {
 >>>>>>> a55aa5e96 (.)
+=======
+return new class extends Migration {
+>>>>>>> 02a2ea3c10 (.)
     /**
      * Run the migrations.
      */
@@ -2167,6 +2176,7 @@ return new class extends Migration {
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
             Schema::create('notification_logs', function (Blueprint $table) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2247,6 +2257,8 @@ return new class extends Migration {
 =======
             Schema::create('notification_logs', function (Blueprint $table) {
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
                 $table->id();
                 $table->string('notifiable_type');
                 $table->unsignedBigInteger('notifiable_id');
@@ -2261,6 +2273,7 @@ return new class extends Migration {
                 $table->text('error_message')->nullable();
                 $table->json('metadata')->nullable();
                 $table->timestamps();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -2906,6 +2919,9 @@ return new class extends Migration {
 =======
 
 >>>>>>> a55aa5e96 (.)
+=======
+
+>>>>>>> 02a2ea3c10 (.)
                 $table->index(['notifiable_type', 'notifiable_id']);
                 $table->index('channel');
                 $table->index('status');
@@ -2922,5 +2938,3 @@ return new class extends Migration {
         Schema::dropIfExists('notification_logs');
     }
 };
-=======
->>>>>>> 301ad8b44 (.)

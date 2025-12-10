@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +168,8 @@
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Configurazione Corretta dei Provider SMS 
 
 ## Regola Fondamentale
@@ -179,6 +182,7 @@
 // Struttura CORRETTA in config/sms.php
 return [
     // Configurazioni di base (applicate a tutti i provider)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
@@ -1039,6 +1043,9 @@ return [
 =======
     'from' => env('SMS_FROM', '<nome progetto>'),
 >>>>>>> a55aa5e96 (.)
+=======
+    'from' => env('SMS_FROM', '<nome progetto>'),
+>>>>>>> 02a2ea3c10 (.)
     'retry' => [
         'attempts' => env('SMS_RETRY_ATTEMPTS', 3),
         'delay' => env('SMS_RETRY_DELAY', 60),
@@ -1055,6 +1062,7 @@ return [
             'api_key' => env('NETFUN_API_KEY'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 <<<<<<< HEAD
@@ -1913,6 +1921,9 @@ return [
 =======
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> a55aa5e96 (.)
+=======
+            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 02a2ea3c10 (.)
             'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         ],
         'twilio' => [
@@ -1986,6 +1997,7 @@ Quando configuri il file `.env`, utilizza questi nomi di variabili:
 # Configurazione generale SMS
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 =======
 <<<<<<< HEAD
@@ -2844,6 +2856,9 @@ SMS_FROM=SaluteOra
 =======
 SMS_FROM=<nome progetto>
 >>>>>>> a55aa5e96 (.)
+=======
+SMS_FROM=<nome progetto>
+>>>>>>> 02a2ea3c10 (.)
 SMS_RETRY_ATTEMPTS=3
 SMS_RETRY_DELAY=60
 
@@ -2851,6 +2866,7 @@ SMS_RETRY_DELAY=60
 NETFUN_API_KEY=your_api_key_here
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 =======
 <<<<<<< HEAD
@@ -3709,12 +3725,16 @@ NETFUN_SENDER=SaluteOra
 =======
 NETFUN_SENDER=<nome progetto>
 >>>>>>> a55aa5e96 (.)
+=======
+NETFUN_SENDER=<nome progetto>
+>>>>>>> 02a2ea3c10 (.)
 NETFUN_API_URL=https://v2.smsviainternet.it/api/rest/v1/sms-batch.json
 
 # Twilio
 TWILIO_ACCOUNT_SID=your_account_sid_here
 TWILIO_AUTH_TOKEN=your_auth_token_here
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3914,3 +3934,5 @@ TWILIO_AUTH_TOKEN=your_auth_token_here
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

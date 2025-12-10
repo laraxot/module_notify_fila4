@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3911,6 +3912,8 @@
 =======
 >>>>>>> bf479cc (.)
 >>>>>>> 63c322c (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -4006,6 +4009,7 @@
         <circle cx="12" cy="12" r="8" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 6" />
         <circle cx="12" cy="12" r="12" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 8" />
     </g>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -9937,3 +9941,6 @@
 >>>>>>> 3f537838 (.)
 >>>>>>> 50d6b63f (.)
 >>>>>>> a55aa5e96 (.)
+=======
+</svg>
+>>>>>>> 02a2ea3c10 (.)

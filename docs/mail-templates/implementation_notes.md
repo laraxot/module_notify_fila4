@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Note di Implementazione Email
 
 ## Errori Comuni e Soluzioni
@@ -32,6 +31,7 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
        [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -101,12 +101,16 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 >>>>>>> a55aa5e96 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> 02a2ea3c10 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ],
        [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -176,6 +180,9 @@ L'implementazione corretta degli allegati richiede una struttura specifica. Ecco
 =======
            'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 >>>>>>> a55aa5e96 (.)
+=======
+           'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> 02a2ea3c10 (.)
            'as' => 'logo.png',
            'mime' => 'image/png'
        ]
@@ -322,5 +329,3 @@ L'implementazione corretta dimostra che:
 Input: "name, email, company, date"
 Output: [name] [email] [company] [date] (come badge blu)
 ``` 
-=======
->>>>>>> 301ad8b44 (.)

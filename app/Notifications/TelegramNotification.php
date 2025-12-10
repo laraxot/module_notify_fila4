@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -26,6 +25,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +48,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     /**
      * @var string
      */
@@ -56,6 +58,7 @@ class TelegramNotification extends Notification implements ShouldQueue
     /**
      * @var array
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,11 +144,14 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     protected array $options;
 
     /**
      * Create a new notification instance.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @param string $message Il messaggio da inviare tramite Telegram
@@ -1229,6 +1235,10 @@ class TelegramNotification extends Notification implements ShouldQueue
      * @param string $message Il messaggio da inviare tramite Telegram
      * @param array<string, mixed> $options Opzioni aggiuntive per la notifica
 >>>>>>> a55aa5e96 (.)
+=======
+     * @param string $message Il messaggio da inviare tramite Telegram
+     * @param array<string, mixed> $options Opzioni aggiuntive per la notifica
+>>>>>>> 02a2ea3c10 (.)
      */
     public function __construct(string $message, array $options = [])
     {
@@ -1241,6 +1251,7 @@ class TelegramNotification extends Notification implements ShouldQueue
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2369,10 +2380,13 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
      * @return array<int, class-string>
      */
     public function via($_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2736,6 +2750,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     {
         return [TelegramChannel::class];
     }
@@ -2743,6 +2759,7 @@ class TelegramNotification extends Notification implements ShouldQueue
     /**
      * Get the array representation of the notification.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3429,10 +3446,13 @@ class TelegramNotification extends Notification implements ShouldQueue
 =======
 =======
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @param object|null $notifiable The entity to be notified
      * @return array<string, mixed>
      */
     public function toArray(null|object $notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3610,6 +3630,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     {
         // return $this->data->toArray();
         return [];
@@ -3620,6 +3642,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3671,6 +3694,8 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      *
 <<<<<<< HEAD
      * @param mixed $notifiable
@@ -3685,6 +3710,7 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> f1c9518b (.)
      */
     public function toTelegram($notifiable): string
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3723,9 +3749,9 @@ class TelegramNotification extends Notification implements ShouldQueue
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     {
         return $this->message;
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

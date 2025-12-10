@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # Pattern di Estensione per Componenti Filament 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
@@ -72,6 +72,9 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 =======
 Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
 >>>>>>> a55aa5e96 (.)
+=======
+Questo documento definisce il pattern di estensione standardizzato per i componenti Filament nel sistema <nome progetto>, con particolare attenzione al principio di non estendere mai direttamente le classi Filament.
+>>>>>>> 02a2ea3c10 (.)
 
 ## Regola Fondamentale
 
@@ -91,6 +94,7 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 
 ## Motivazione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
@@ -162,6 +166,9 @@ Questo documento definisce il pattern di estensione standardizzato per i compone
 =======
 1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
 >>>>>>> a55aa5e96 (.)
+=======
+1. **Personalizzazione Centralizzata**: Le classi XotBase forniscono funzionalità e comportamenti personalizzati specifici per <nome progetto>, mantenendo la coerenza in tutta l'applicazione.
+>>>>>>> 02a2ea3c10 (.)
 
 2. **Aggiornamenti Semplificati**: Quando Filament viene aggiornato, è possibile adattare solo le classi XotBase senza dover modificare tutte le implementazioni concrete.
 
@@ -182,6 +189,7 @@ Quando si estende `XotBaseResource`, è importante seguire queste regole per evi
 
 2. **Non ridefinire metodi standard a meno che non sia necessario**:
    - `public static function table(Table $table): Table`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,6 +239,9 @@ Quando si estende `XotBaseResource`, è importante seguire queste regole per evi
 =======
    - `public static function getListTableColumns(): array`
 >>>>>>> a55aa5e96 (.)
+=======
+   - `public static function getListTableColumns(): array`
+>>>>>>> 02a2ea3c10 (.)
 
 Queste proprietà e metodi sono già configurati in `XotBaseResource` per garantire coerenza e centralizzazione della logica. Ridefinirli può portare a comportamenti imprevisti e aumentare la complessità del codice.
 
@@ -279,6 +290,7 @@ class SendSmsPage extends Page implements HasForms // ❌ ERRORE
 
 ### 1. Personalizzazione Centralizzata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
@@ -350,6 +362,9 @@ Le classi XotBase possono implementare comportamenti specifici per SaluteOra, co
 =======
 Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
 >>>>>>> a55aa5e96 (.)
+=======
+Le classi XotBase possono implementare comportamenti specifici per <nome progetto>, come:
+>>>>>>> 02a2ea3c10 (.)
 - Gestione multilingua avanzata
 - Integrazione con il sistema di permessi personalizzato
 - Logging e auditing specifici
@@ -395,5 +410,3 @@ Prima di ogni commit, verificare che:
 ## Conclusione
 
 Il pattern di estensione XotBase è fondamentale per la manutenibilità e la coerenza del codice . Seguire questo pattern garantisce che l'applicazione possa evolversi in modo controllato e che le personalizzazioni siano gestite in modo centralizzato.
-=======
->>>>>>> 301ad8b44 (.)

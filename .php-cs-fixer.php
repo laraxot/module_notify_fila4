@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2848,6 +2849,11 @@ declare(strict_types=1);
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -2856,6 +2862,7 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2915,6 +2922,8 @@ $finder = PhpCsFixer\Finder::create()
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 $config = new PhpCsFixer\Config();
 
@@ -2941,6 +2950,7 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -3022,3 +3032,7 @@ return $config;
 
 return $config;
 >>>>>>> a55aa5e96 (.)
+=======
+
+return $config;
+>>>>>>> 02a2ea3c10 (.)

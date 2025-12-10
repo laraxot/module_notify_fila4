@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Jobs;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +295,9 @@ use Throwable;
 =======
 use Throwable;
 >>>>>>> a55aa5e96 (.)
+=======
+use Throwable;
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
@@ -302,6 +305,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Modules\Notify\Actions\SendNotificationAction;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +365,8 @@ use Throwable;
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 class SendNotificationJob implements ShouldQueue
 {
@@ -392,6 +398,7 @@ class SendNotificationJob implements ShouldQueue
      * @param array<string, mixed> $data I dati per compilare il template
      * @param array<int, string> $channels I canali da utilizzare
      * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -536,12 +543,15 @@ class SendNotificationJob implements ShouldQueue
      * @param array<int, string> $channels I canali da utilizzare
      * @param array<string, mixed> $options Opzioni aggiuntive per l'invio
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      */
     public function __construct(
         protected Model $recipient,
         protected string $templateCode,
         protected array $data = [],
         protected array $channels = [],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1244,6 +1254,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         protected array $options = [],
     ) {
         $triesConfig = config('notify.queue.tries', 3);
@@ -1252,6 +1264,7 @@ class SendNotificationJob implements ShouldQueue
         $timeoutConfig = config('notify.queue.retry_after', 60);
         $this->timeout = is_numeric($timeoutConfig) ? ((int) $timeoutConfig) : 60;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2470,6 +2483,8 @@ class SendNotificationJob implements ShouldQueue
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $queueConfig = config('notify.queue.queue', 'notifications');
         $this->onQueue(is_string($queueConfig) ? $queueConfig : 'notifications');
     }
@@ -2479,6 +2494,7 @@ class SendNotificationJob implements ShouldQueue
      */
     public function handle(SendNotificationAction $action): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
@@ -4044,10 +4060,14 @@ class SendNotificationJob implements ShouldQueue
 =======
         $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
 >>>>>>> a55aa5e96 (.)
+=======
+        $action->execute($this->recipient, $this->templateCode, $this->data, $this->channels, $this->options);
+>>>>>>> 02a2ea3c10 (.)
     }
 
     /**
      * Gestisce un fallimento del job.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4200,6 +4220,11 @@ class SendNotificationJob implements ShouldQueue
      * @param Throwable $exception
      * @return void
 >>>>>>> a55aa5e96 (.)
+=======
+     *
+     * @param Throwable $exception
+     * @return void
+>>>>>>> 02a2ea3c10 (.)
      */
     public function failed(Throwable $exception): void
 <<<<<<< HEAD
@@ -4221,6 +4246,7 @@ class SendNotificationJob implements ShouldQueue
             'trace' => $exception->getTraceAsString(),
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
@@ -5421,3 +5447,6 @@ class SendNotificationJob implements ShouldQueue
 =======
 }
 >>>>>>> a55aa5e96 (.)
+=======
+}
+>>>>>>> 02a2ea3c10 (.)

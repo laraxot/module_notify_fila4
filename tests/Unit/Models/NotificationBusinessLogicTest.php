@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +193,10 @@ use Modules\Xot\Models\BaseModel;
 use Modules\Notify\Models\Notification;
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+use Modules\Xot\Models\BaseModel;
+use Modules\Notify\Models\Notification;
+>>>>>>> 02a2ea3c10 (.)
 
 describe('Notification Business Logic', function () {
     test('notification extends xot base model', function () {
@@ -208,6 +212,7 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store polymorphic notifiable relationships', function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +267,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->notifiable_type = 'App\\Models\\User';
         $notification->notifiable_id = 1;
 <<<<<<< HEAD
@@ -281,6 +289,7 @@ describe('Notification Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -332,6 +341,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->type = 'App\\Notifications\\OrderConfirmation';
 <<<<<<< HEAD
 
@@ -349,6 +361,7 @@ describe('Notification Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -400,6 +413,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->data = ['title' => 'Test', 'message' => 'Hello World'];
 <<<<<<< HEAD
 
@@ -418,6 +434,7 @@ describe('Notification Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -469,6 +486,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->read_at = '2023-01-01 12:00:00';
 <<<<<<< HEAD
 
@@ -486,6 +506,7 @@ describe('Notification Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -537,6 +558,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->tenant_id = 1;
         $notification->user_id = 5;
 <<<<<<< HEAD
@@ -556,6 +580,7 @@ describe('Notification Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -607,6 +632,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->subject_type = 'App\\Models\\Order';
         $notification->subject_id = 123;
 <<<<<<< HEAD
@@ -626,6 +654,7 @@ describe('Notification Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -677,6 +706,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->channels = ['mail', 'sms', 'database'];
 <<<<<<< HEAD
 
@@ -696,6 +728,7 @@ describe('Notification Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $notification = new Notification();
 =======
 <<<<<<< HEAD
@@ -747,6 +780,9 @@ describe('Notification Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notification = new Notification();
+>>>>>>> 02a2ea3c10 (.)
         $notification->status = 'sent';
         $notification->sent_at = '2023-01-01 14:00:00';
 <<<<<<< HEAD
@@ -785,6 +821,7 @@ describe('Notification Business Logic', function () {
 =======
 <<<<<<< HEAD
 });
+<<<<<<< HEAD
 =======
 });
 >>>>>>> origin/develop
@@ -805,3 +842,5 @@ describe('Notification Business Logic', function () {
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Integrazione Netfun SMS Channel in Laravel
 
 ## Introduzione
@@ -118,6 +117,7 @@ Configurazione attuale con username/password nel modulo Notify:
     'password' => env('NETFUN_PASSWORD'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 <<<<<<< HEAD
@@ -187,6 +187,9 @@ Configurazione attuale con username/password nel modulo Notify:
 =======
     'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> a55aa5e96 (.)
+=======
+    'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 02a2ea3c10 (.)
     'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
     // Parametri avanzati...
 ],
@@ -600,5 +603,3 @@ class NetfunSMSTest extends TestCase
 ```
 
 --- 
-=======
->>>>>>> 301ad8b44 (.)

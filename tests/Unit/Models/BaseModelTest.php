@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7,6 +6,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -233,6 +233,8 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
 =======
@@ -290,6 +292,7 @@ use Tests\TestCase;
 uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 26d39e2eb (.)
@@ -1123,6 +1126,9 @@ beforeEach(function () {
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+    $this->baseModel = new class extends BaseModel {
+>>>>>>> 02a2ea3c10 (.)
         protected $table = 'test_notify_table';
     };
 });
@@ -1147,5 +1153,3 @@ test('base model has proper inheritance chain', function () {
 test('base model has timestamps enabled', function () {
     expect($this->baseModel->usesTimestamps())->toBeTrue();
 });
-=======
->>>>>>> 301ad8b44 (.)

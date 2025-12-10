@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,6 +1322,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 return [
     'resource' => [
         'name' => 'Template Email',
@@ -1500,6 +1505,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1572,6 +1578,8 @@ return [
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     ],
     'messages' => [
         'success' => 'Operazione completata con successo',
@@ -1593,6 +1601,7 @@ return [
     'model' => [
         'label' => 'mail template.model',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4215,3 +4224,6 @@ return array (
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+];
+>>>>>>> 02a2ea3c10 (.)

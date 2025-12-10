@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Actions\SMS;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -542,12 +542,15 @@ use Override;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
 use Modules\Notify\Datas\SmsData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -1579,10 +1582,16 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
 >>>>>>> a55aa5e96 (.)
+=======
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+>>>>>>> 02a2ea3c10 (.)
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2133,6 +2142,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 =======
     #[Override]
 >>>>>>> a55aa5e96 (.)
+=======
+    #[Override]
+>>>>>>> 02a2ea3c10 (.)
     public function execute(SmsData $data): array
     {
         $base_uri = 'https://secure.agiletelecom.com/';
@@ -2158,6 +2170,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'Accept-Encoding' => 'gzip, deflate',
             'Cache-Control' => 'no-cache',
             'Connection' => 'keep-alive',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3083,6 +3096,8 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         ];
 
         $client = new Client([
@@ -3093,6 +3108,7 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ]);
 
         $connection = $client->request('POST', $relative_path);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4107,6 +4123,9 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         return [];
     }
 >>>>>>> a55aa5e96 (.)
-}
 =======
->>>>>>> 301ad8b44 (.)
+
+        return [];
+    }
+>>>>>>> 02a2ea3c10 (.)
+}

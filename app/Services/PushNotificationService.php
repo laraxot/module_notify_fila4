@@ -1,25 +1,15 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Services;
 
-<<<<<<< HEAD
 use Exception;
 use DateTime;
 use Modules\Notify\Jobs\SendScheduledPushNotification;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-=======
-use DateTime;
-use Exception;
-use Illuminate\Support\Facades\Cache;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
-use Modules\Notify\Jobs\SendScheduledPushNotification;
->>>>>>> laraxot/develop
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Webmozart\Assert\Assert;
 
@@ -264,6 +254,13 @@ class PushNotificationService
             'Content-Type' => 'application/json',
         ])->post($url, $payload);
 
+        // Ensure we have a Response, not Promise
+        if ($response instanceof \GuzzleHttp\Promise\PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var \Illuminate\Http\Client\Response $response */
+
         if ($response->successful()) {
             $responseData = $response->json();
 
@@ -406,6 +403,13 @@ class PushNotificationService
             'Content-Type' => 'application/json',
         ])->post($url, $payload);
 
+        // Ensure we have a Response, not Promise
+        if ($response instanceof \GuzzleHttp\Promise\PromiseInterface) {
+            $response = $response->wait();
+        }
+
+        /** @var \Illuminate\Http\Client\Response $response */
+
         if ($response->successful()) {
             $responseData = $response->json();
 
@@ -543,5 +547,3 @@ class PushNotificationService
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

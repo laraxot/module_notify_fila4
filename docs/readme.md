@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -447,6 +448,8 @@ Log::channel('email')->info('Email sent', [
 **Stato:** ✅ Production Ready  
 **PHPStan Level:** 10
 =======
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Modulo Notify - Analisi Completa
 
 ## Panoramica del Modulo
@@ -734,6 +737,7 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 
 ---
 
+<<<<<<< HEAD
 =======
 # Modulo Notify - Analisi Completa
 
@@ -1316,10 +1320,13 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 **Ultimo aggiornamento**: Dicembre 2024  
 **Versione**: 1.0  
 **Stato**: Test business logic completati (95% copertura)  
 **Prossimi passi**: Completamento test modelli base (BaseModel, BaseMorphPivot, BasePivot)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1338,3 +1345,5 @@ Il modulo **Notify** gestisce il sistema completo di notifiche per progetti Lara
 =======
 >>>>>>> 54220b28 (rebase 210)
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

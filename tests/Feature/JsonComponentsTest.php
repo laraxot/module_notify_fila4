@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 26d39e2eb (.)
 <?php
@@ -537,3 +538,5 @@ test('components json is valid and contains expected components', function (): v
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

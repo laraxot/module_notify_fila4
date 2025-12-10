@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -88,10 +88,13 @@
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 declare(strict_types=1);
 
 namespace Modules\Notify\Providers\Filament;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Filament\Notifications\Livewire\DatabaseNotifications;
@@ -1274,13 +1277,16 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 >>>>>>> laraxot/develop
 =======
 >>>>>>> e53a56570 (.)
+=======
+use Filament\Notifications\Livewire\DatabaseNotifications;
+>>>>>>> 02a2ea3c10 (.)
 use Filament\Panel;
 use Filament\Support\Facades\FilamentView;
 use Illuminate\Support\Facades\Blade;
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
-<<<<<<< HEAD
 use Override;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1617,17 +1623,19 @@ use Override;
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> 8c19c8df2 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Notify';
 
-<<<<<<< HEAD
     #[Override]
     public function panel(Panel $panel): Panel
     {
         $panel = parent::panel($panel);
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2021,26 +2029,18 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
         // Temporaneamente commentato per compatibilità Filament 4.x
         // $panel->plugins([
         //     SpatieTranslatablePlugin::make(),
         // ]);
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 75179b85 (.)
->>>>>>> laraxot/develop
         if (!XotData::make()->disable_database_notifications) {
             DatabaseNotifications::trigger('notify::livewire.database-notifications-trigger');
             // DatabaseNotifications::databaseNotificationsPollingInterval('30s');
             DatabaseNotifications::pollingInterval('60s');
+<<<<<<< HEAD
 <<<<<<< HEAD
             FilamentView::registerRenderHook('panels::user-menu.before', static fn (): string => Blade::render(
 =======
@@ -2462,10 +2462,14 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
+=======
+            FilamentView::registerRenderHook('panels::user-menu.before', static fn (): string => Blade::render(
+>>>>>>> 02a2ea3c10 (.)
                 '@livewire(\'database-notifications\')',
             ));
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2475,16 +2479,12 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 =======
 >>>>>>> c8b1c8bf (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         return $panel;
-=======
-        return parent::panel($panel);
->>>>>>> 75179b8 (.)
-<<<<<<< HEAD
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> c8b1c8bf (.)
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3569,3 +3569,5 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

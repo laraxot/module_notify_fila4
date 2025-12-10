@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -599,6 +599,10 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> f1c9518b (.)
 =======
 >>>>>>> laraxot/develop
+=======
+declare(strict_types=1);
+
+>>>>>>> 02a2ea3c10 (.)
 
 =======
 >>>>>>> 1487fe812 (.)
@@ -621,6 +625,7 @@ namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\MailTemplateLog;
 use Illuminate\Database\Eloquent\Factories\Factory;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -674,6 +679,8 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 class MailTemplateLogFactory extends Factory
 {
@@ -698,6 +705,7 @@ class MailTemplateLogFactory extends Factory
         return [];
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1239,3 +1247,5 @@ class MailTemplateLogFactory extends Factory
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7,47 +6,12 @@ namespace Modules\Notify\Models;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Database\Eloquent\Relations\Pivot;
 // //use Laravel\Scout\Searchable;
 use Modules\Xot\Traits\Updater;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\Models\XotBasePivot;
-=======
-use Illuminate\Database\Eloquent\Relations\Pivot;
-// //use Laravel\Scout\Searchable;
-use Modules\Xot\Traits\Updater;
->>>>>>> 5fd545e4 (.)
-=======
-use Modules\Xot\Models\XotBasePivot;
->>>>>>> 7c1c276f (rebase 210)
-=======
-use Illuminate\Database\Eloquent\Relations\Pivot;
-// //use Laravel\Scout\Searchable;
-use Modules\Xot\Traits\Updater;
->>>>>>> 54220b28 (rebase 210)
-=======
-use Modules\Xot\Models\XotBasePivot;
->>>>>>> a335025b (rebase 210)
-=======
-use Modules\Xot\Models\XotBasePivot;
->>>>>>> e00d798d (.)
-=======
-use Illuminate\Database\Eloquent\Relations\Pivot;
-// //use Laravel\Scout\Searchable;
-use Modules\Xot\Traits\Updater;
->>>>>>> 5fd545e4 (.)
->>>>>>> laraxot/develop
 
 /**
  * Class BasePivot.
@@ -74,6 +38,7 @@ abstract class BasePivot extends Pivot
     // use Searchable;
     /** @var string */
     protected $connection = 'notify';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -172,6 +137,8 @@ abstract class BasePivot extends Pivot
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
     // this will use the specified database connection
 
@@ -193,6 +160,7 @@ abstract class BasePivot extends Pivot
         return [
             'id' => 'string', // must be string else primary key of related model will be typed as int
             'uuid' => 'string',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2835,11 +2803,17 @@ abstract class BasePivot extends Pivot
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 >>>>>>> a55aa5e96 (.)
+=======
+            'created_at' => 'datetime',
+            'updated_at' => 'datetime',
+            'deleted_at' => 'datetime',
+>>>>>>> 02a2ea3c10 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2888,6 +2862,6 @@ abstract class BasePivot extends Pivot
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
-}
 =======
->>>>>>> 301ad8b44 (.)
+>>>>>>> 02a2ea3c10 (.)
+}

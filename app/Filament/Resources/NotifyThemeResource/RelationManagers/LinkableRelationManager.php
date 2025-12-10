@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1271,11 +1271,14 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 3f537838 (.)
 <<<<<<< HEAD
@@ -1324,10 +1327,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 class LinkableRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'linkable';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected static null|string $recordTitleAttribute = 'id';
@@ -1730,11 +1736,15 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
     protected static null|string $recordTitleAttribute = 'id';
 >>>>>>> a55aa5e96 (.)
+=======
+    protected static null|string $recordTitleAttribute = 'id';
+>>>>>>> 02a2ea3c10 (.)
 
     #[Override]
     public function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             TextInput::make('id')->required()->maxLength(255),
@@ -2677,8 +2687,9 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
             TextInput::make('id')->required()->maxLength(255),
 >>>>>>> a55aa5e96 (.)
+=======
+            TextInput::make('id')->required()->maxLength(255),
+>>>>>>> 02a2ea3c10 (.)
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

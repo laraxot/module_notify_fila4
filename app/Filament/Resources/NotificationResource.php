@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 declare(strict_types=1);
@@ -1512,6 +1512,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 namespace Modules\Notify\Filament\Resources;
 
 use Override;
@@ -1532,6 +1537,7 @@ class NotificationResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'type' => TextInput::make('type')->required()->label('Notification Type'),
@@ -3660,10 +3666,15 @@ class NotificationResource extends XotBaseResource
             'type' => TextInput::make('type')->required()->label('Notification Type'),
             'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
 >>>>>>> a55aa5e96 (.)
+=======
+            'type' => TextInput::make('type')->required()->label('Notification Type'),
+            'notifiable_type' => TextInput::make('notifiable_type')->required()->label('Notifiable Type'),
+>>>>>>> 02a2ea3c10 (.)
             'notifiable_id' => TextInput::make('notifiable_id')
                 ->required()
                 ->numeric()
                 ->label('Notifiable ID'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4669,12 +4680,15 @@ class NotificationResource extends XotBaseResource
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             'data' => Textarea::make('data')->label('Notification Data')->columnSpanFull(),
             'read_at' => DateTimePicker::make('read_at')->label('Read At')->nullable(),
             'created_by' => TextInput::make('created_by')->label('Created By')->disabled(),
             'updated_by' => TextInput::make('updated_by')->label('Updated By')->disabled(),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6588,6 +6602,6 @@ class NotificationResource extends XotBaseResource
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
-}
 =======
->>>>>>> 301ad8b44 (.)
+>>>>>>> 02a2ea3c10 (.)
+}

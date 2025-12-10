@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -9,6 +8,7 @@ use Filament\Clusters\Cluster;
 
 class Test extends Cluster
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -789,8 +789,10 @@ class Test extends Cluster
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
 
 >>>>>>> a55aa5e96 (.)
+=======
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-squares-2x2';
+
+>>>>>>> 02a2ea3c10 (.)
     // protected static ?string $navigationParentItem = 'Notifications';
     // protected static ?string $navigationGroup = 'Settings';
 }
-=======
->>>>>>> 301ad8b44 (.)

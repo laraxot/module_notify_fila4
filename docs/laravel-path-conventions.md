@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,11 +238,14 @@
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Convenzioni dei Path in Laravel e <nome progetto>
 
 ## Regole Fondamentali per i Path di Cartelle
 
 In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite nella struttura standard di Laravel) **DEVONO** rispettare il caso specifico definito dalle convenzioni di Laravel.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1469,6 +1473,8 @@ In Laravel e <nome progetto>, i nomi delle cartelle principali (come definite ne
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 ## Cartelle Standard di Laravel e loro Casing Corretto
 
@@ -1492,6 +1498,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
 =======
 <<<<<<< HEAD
@@ -2368,6 +2375,9 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
 >>>>>>> a55aa5e96 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/
+>>>>>>> 02a2ea3c10 (.)
 ```
 
 **NON** in:
@@ -2375,6 +2385,7 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
 =======
 <<<<<<< HEAD
@@ -3251,6 +3262,9 @@ Le viste in Laravel devono essere collocate nella cartella `resources/views` (lo
 =======
 /var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
 >>>>>>> a55aa5e96 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/Resources/views/
+>>>>>>> 02a2ea3c10 (.)
 ```
 
 ## Perché è Importante
@@ -3271,6 +3285,7 @@ protected static string $view = 'notify::filament.pages.send-sms';
 // Il path fisico corrispondente sarà:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 =======
 <<<<<<< HEAD
@@ -4147,6 +4162,9 @@ protected static string $view = 'notify::filament.pages.send-sms';
 =======
 // /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
 >>>>>>> a55aa5e96 (.)
+=======
+// /var/www/html/<nome progetto>/laravel/Modules/Notify/resources/views/filament/pages/send-sms.blade.php
+>>>>>>> 02a2ea3c10 (.)
 ```
 
 ## Verifica e Correzione
@@ -4163,6 +4181,7 @@ Per verificare che tutti i path siano corretti:
 - [Struttura delle Cartelle in Laravel](https://laravel.com/docs/structure)
 - [Laravel Blade Templates](https://laravel.com/docs/blade)
 - [Laravel Modules](https://docs.laravelmodules.com/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4362,3 +4381,5 @@ Per verificare che tutti i path siano corretti:
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

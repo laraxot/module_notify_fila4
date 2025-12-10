@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -35,6 +34,7 @@ class NotificationManagerTest extends TestCase
         parent::setUp();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->notificationManager = new NotificationManager();
 =======
 <<<<<<< HEAD
@@ -976,6 +976,9 @@ class NotificationManagerTest extends TestCase
 =======
         $this->notificationManager = new NotificationManager();
 >>>>>>> a55aa5e96 (.)
+=======
+        $this->notificationManager = new NotificationManager();
+>>>>>>> 02a2ea3c10 (.)
     }
 
     protected function tearDown(): void
@@ -999,6 +1002,7 @@ class NotificationManagerTest extends TestCase
         $action = Mockery::mock(SendNotificationAction::class);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 =======
 <<<<<<< HEAD
@@ -1661,6 +1665,9 @@ class NotificationManagerTest extends TestCase
 =======
         $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
 >>>>>>> a55aa5e96 (.)
+=======
+        $action->shouldReceive('execute')->with($recipient, $templateCode, $data, $channels, $options)->once();
+>>>>>>> 02a2ea3c10 (.)
 
         app()->instance(SendNotificationAction::class, $action);
 
@@ -1796,5 +1803,3 @@ class NotificationManagerTest extends TestCase
         $this->assertIsArray($result);
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

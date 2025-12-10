@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8,10 +7,14 @@ namespace Modules\Notify\Datas\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -433,6 +436,8 @@ use Spatie\LaravelData\Data;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Webmozart\Assert\Assert;
 
 class TwilioData extends Data
@@ -452,6 +457,7 @@ class TwilioData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.twilio', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1497,6 +1503,8 @@ class TwilioData extends Data
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -1513,6 +1521,7 @@ class TwilioData extends Data
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
 <<<<<<< HEAD
                     'Content-Type' => 'application/x-www-form-urlencoded',
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2388,6 +2397,8 @@ class TwilioData extends Data
 =======
                     'Content-Type' => 'application/x-www-form-urlencoded',
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
                 ];
         }
     }
@@ -2402,5 +2413,3 @@ class TwilioData extends Data
         return $this->timeout;
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

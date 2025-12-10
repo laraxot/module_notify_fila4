@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # Best Practices per l'Ereditarietà delle Classi
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
@@ -72,6 +72,9 @@ Questo documento definisce le best practices per l'ereditarietà delle classi ne
 =======
 Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
 >>>>>>> a55aa5e96 (.)
+=======
+Questo documento definisce le best practices per l'ereditarietà delle classi nel sistema <nome progetto>, con particolare attenzione alle classi che estendono `XotBasePage`.
+>>>>>>> 02a2ea3c10 (.)
 
 ## Analisi dell'Ereditarietà di XotBasePage
 
@@ -149,5 +152,3 @@ Per le classi esistenti, rimuovere le interfacce e i traits ridondanti:
 ## Conclusione
 
 Seguire queste best practices garantisce un codice più pulito, manutenibile e meno soggetto a errori. La comprensione dell'ereditarietà delle classi è fondamentale per lo sviluppo di un sistema robusto e scalabile.
-=======
->>>>>>> 301ad8b44 (.)

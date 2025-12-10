@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -8,6 +7,7 @@ return [
         'name' => 'Notifica',
     ],
     'navigation' => [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         'name' => 'Notifica', // Nome singolare
@@ -2221,6 +2221,10 @@ return [
         'name' => 'Notifica', // Nome singolare
         'plural' => 'Notifiche', // Nome plurale
 >>>>>>> a55aa5e96 (.)
+=======
+        'name' => 'Notifica', // Nome singolare
+        'plural' => 'Notifiche', // Nome plurale
+>>>>>>> 02a2ea3c10 (.)
         'group' => 'Sistema',
         'label' => 'Notifiche',
         'icon' => 'notify-bell-animated',
@@ -2480,5 +2484,3 @@ return [
         ],
     ],
 ];
-=======
->>>>>>> 301ad8b44 (.)

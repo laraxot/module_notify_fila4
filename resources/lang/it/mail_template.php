@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1149,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 return [
     'fields' => [
         'mailable' => [
@@ -1214,6 +1219,7 @@ return [
 =======
 <<<<<<< HEAD
 ];
+<<<<<<< HEAD
 =======
 ]; 
 >>>>>>> origin/develop
@@ -1234,3 +1240,5 @@ return [
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

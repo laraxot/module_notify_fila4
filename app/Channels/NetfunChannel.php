@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 declare(strict_types=1);
@@ -764,6 +764,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -798,6 +803,7 @@ class NetfunChannel
     protected SendNetfunSMSAction $sendSMSAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1742,6 +1748,8 @@ class NetfunChannel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
     public function __construct(SendNetfunSMSAction $sendSMSAction)
     {
@@ -1773,6 +1781,9 @@ class NetfunChannel
      * Invia la notifica tramite Netfun SMS
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
      *
 <<<<<<< HEAD
 =======
@@ -1785,6 +1796,7 @@ class NetfunChannel
 >>>>>>> 26d39e2eb (.)
      * @param mixed $notifiable
      * @param Notification $notification
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2072,6 +2084,8 @@ class NetfunChannel
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> e53a56570 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @return array|null
 =======
 <<<<<<< HEAD
@@ -2080,8 +2094,8 @@ class NetfunChannel
     public function send($notifiable, Notification $notification)
     {
         // Ottieni il numero di telefono dal Notifiable
-<<<<<<< HEAD
         if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForNetfun')) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3396,52 +3410,21 @@ class NetfunChannel
 =======
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
             return null;
         }
 
         $to = $notifiable->routeNotificationForNetfun($notification);
-<<<<<<< HEAD
         if (!$to) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        if (!$to) {
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f1c9518b (.)
-        if (! $to) {
-=======
-        if (!$to) {
->>>>>>> 99ff506 (.)
-<<<<<<< HEAD
->>>>>>> f1c9518b (.)
-=======
-        if (! $to) {
-=======
-        if (!$to) {
->>>>>>> 75179b8 (.)
->>>>>>> c8b1c8bf (.)
-=======
-        if (!$to) {
->>>>>>> 75179b85 (.)
-=======
-        if (!$to) {
->>>>>>> 75179b855 (.)
-=======
->>>>>>> f1c9518b (.)
->>>>>>> laraxot/develop
             return null;
         }
 
         // Ottieni il messaggio dalla notifica
-<<<<<<< HEAD
         if (!method_exists($notification, 'toNetfun')) {
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3702,6 +3685,8 @@ class NetfunChannel
             throw new Exception('Il metodo toNetfun() non è implementato nella notifica');
         }
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
         $message = $notification->toNetfun($notifiable);
 
@@ -3717,6 +3702,7 @@ class NetfunChannel
         // Esegui l'invio tramite la Queueable Action
         // L'esecuzione avverrà in modo asincrono (in background)
         return $this->sendSMSAction->onQueue('sms')->execute($smsData); // Esegui sulla coda 'sms'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4437,7 +4423,7 @@ class NetfunChannel
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

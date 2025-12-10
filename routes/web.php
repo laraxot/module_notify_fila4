@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1018,6 +1018,10 @@ declare(strict_types=1);
 // Filament gestisce le route di questo modulo.
 =======
 >>>>>>> 51182e3c (rebase 210)
+=======
+declare(strict_types=1);
+
+>>>>>>> 02a2ea3c10 (.)
 /*
  * |--------------------------------------------------------------------------
  * | Web Routes
@@ -1028,6 +1032,7 @@ declare(strict_types=1);
  * | contains the "web" middleware group. Now create something great!
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3992,3 +3997,7 @@ declare(strict_types=1);
 
 // Filament will handle all routes for this module
 >>>>>>> a55aa5e96 (.)
+=======
+
+// Filament will handle all routes for this module
+>>>>>>> 02a2ea3c10 (.)

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1222,11 +1223,14 @@
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2632,6 +2636,8 @@ declare(strict_types=1);
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -2651,5 +2657,3 @@ declare(strict_types=1);
         {{-- <script src="{{ mix('js/notify.js') }}"></script> --}}
     </body>
 </html>
-=======
->>>>>>> 301ad8b44 (.)

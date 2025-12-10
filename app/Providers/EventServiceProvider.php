@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -31,6 +30,7 @@ class EventServiceProvider extends BaseEventServiceProvider
 <<<<<<< HEAD
         // Email verification configuration if needed
     }
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +122,6 @@ class EventServiceProvider extends BaseEventServiceProvider
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
-}
 =======
->>>>>>> 301ad8b44 (.)
+>>>>>>> 02a2ea3c10 (.)
+}

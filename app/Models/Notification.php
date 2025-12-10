@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 <?php
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1109,10 +1109,15 @@ namespace Modules\Notify\Models;
 =======
 =======
 >>>>>>> laraxot/develop
+=======
+declare(strict_types=1);
+
+>>>>>>> 02a2ea3c10 (.)
 
 namespace Modules\Notify\Models;
 
 use Override;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1291,10 +1296,13 @@ namespace Modules\Notify\Models;
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1477,6 +1485,9 @@ use Modules\Xot\Models\BaseModel;
 =======
 use Modules\Xot\Models\BaseModel;
 >>>>>>> a55aa5e96 (.)
+=======
+use Modules\Xot\Models\BaseModel;
+>>>>>>> 02a2ea3c10 (.)
 
 /**
  * Notification model for the Notify module.
@@ -1524,6 +1535,7 @@ use Modules\Xot\Models\BaseModel;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1598,6 +1610,8 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -1614,6 +1628,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2147,6 +2162,11 @@ use Modules\Xot\Models\BaseModel;
  * @mixin \Eloquent
  */
 >>>>>>> a55aa5e96 (.)
+=======
+ * @mixin IdeHelperNotification
+ * @mixin \Eloquent
+ */
+>>>>>>> 02a2ea3c10 (.)
 class Notification extends BaseModel
 {
     /** @var list<string> */
@@ -2169,6 +2189,7 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
@@ -2853,6 +2874,9 @@ class Notification extends BaseModel
 =======
     #[Override]
 >>>>>>> a55aa5e96 (.)
+=======
+    #[Override]
+>>>>>>> 02a2ea3c10 (.)
     protected function casts(): array
     {
         return [
@@ -2866,5 +2890,3 @@ class Notification extends BaseModel
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

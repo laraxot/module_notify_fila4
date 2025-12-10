@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -9,6 +8,7 @@ use Modules\Notify\Datas\WhatsAppData;
 
 /**
  * Interfaccia per le azioni dei provider WhatsApp.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  *
@@ -1968,6 +1968,9 @@ use Modules\Notify\Datas\WhatsAppData;
 =======
  *
 >>>>>>> a55aa5e96 (.)
+=======
+ *
+>>>>>>> 02a2ea3c10 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider WhatsApp devono rispettare.
  */
@@ -1976,6 +1979,7 @@ interface WhatsAppProviderActionInterface
     /**
      * Esegue l'invio del messaggio WhatsApp.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3171,10 +3175,14 @@ interface WhatsAppProviderActionInterface
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 >>>>>>> laraxot/develop
+=======
+     * @param WhatsAppData $whatsappData I dati del messaggio WhatsApp
+>>>>>>> 02a2ea3c10 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(WhatsAppData $whatsappData): array;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3962,3 +3970,5 @@ interface WhatsAppProviderActionInterface
 =======
 }
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

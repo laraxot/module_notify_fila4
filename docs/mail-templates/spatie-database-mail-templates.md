@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +325,8 @@
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Spatie Laravel Database Mail Templates
 
 ## Introduzione
@@ -349,6 +352,7 @@ Il pacchetto funziona con i seguenti componenti principali:
 In questo progetto, i layout HTML delle email sono memorizzati in:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
@@ -951,6 +955,9 @@ In questo progetto, i layout HTML delle email sono memorizzati in:
 =======
 /var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
 >>>>>>> a55aa5e96 (.)
+=======
+/var/www/html/base_<nome progetto>/laravel/Modules/Notify/resources/mail-layouts/
+>>>>>>> 02a2ea3c10 (.)
 ```
 
 Questi layout forniscono la struttura base per tutte le email, con un placeholder `{{{ body }}}` dove verrà inserito il contenuto specifico del template.
@@ -1016,6 +1023,7 @@ MailTemplate::create([
     'mailable' => WelcomeMail::class,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
@@ -1808,6 +1816,11 @@ MailTemplate::create([
     'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
     'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
 >>>>>>> a55aa5e96 (.)
+=======
+    'subject' => 'Benvenuto su <nome progetto>, {{ name }}',
+    'html_template' => '<h1>Ciao, {{ name }}!</h1><p>Benvenuto su <nome progetto>. Clicca <a href="{{ activationUrl }}">qui</a> per attivare il tuo account.</p>',
+    'text_template' => 'Ciao, {{ name }}! Benvenuto su <nome progetto>. Visita {{ activationUrl }} per attivare il tuo account.'
+>>>>>>> 02a2ea3c10 (.)
 ]);
 ```
 
@@ -1842,6 +1855,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
     <meta charset="utf-8">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title><nome progetto></title>
 =======
 <<<<<<< HEAD
@@ -2395,6 +2409,9 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 =======
     <title><nome progetto></title>
 >>>>>>> a55aa5e96 (.)
+=======
+    <title><nome progetto></title>
+>>>>>>> 02a2ea3c10 (.)
     <style>
         /* Stili CSS inline */
         body { 
@@ -2426,6 +2443,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
     <div class="header">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h1><nome progetto></h1>
 =======
 <<<<<<< HEAD
@@ -2979,6 +2997,9 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 =======
         <h1><nome progetto></h1>
 >>>>>>> a55aa5e96 (.)
+=======
+        <h1><nome progetto></h1>
+>>>>>>> 02a2ea3c10 (.)
     </div>
     
     <div class="content">
@@ -2988,6 +3009,7 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
     <div class="footer">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
 =======
 <<<<<<< HEAD
@@ -3541,6 +3563,9 @@ Un layout HTML contiene l'intera struttura della mail, con un segnaposto `{{{ bo
 =======
         <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
 >>>>>>> a55aa5e96 (.)
+=======
+        <p>© 2025 <nome progetto> - Tutti i diritti riservati</p>
+>>>>>>> 02a2ea3c10 (.)
         <p>Se hai ricevuto questa email per errore, per favore ignorala o contattaci.</p>
     </div>
 </body>
@@ -3554,6 +3579,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 ```html
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
 =======
 <<<<<<< HEAD
@@ -4107,6 +4133,9 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 =======
 <h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
 >>>>>>> a55aa5e96 (.)
+=======
+<h2>Benvenuto su <nome progetto>, {{ name }}!</h2>
+>>>>>>> 02a2ea3c10 (.)
 
 <p>Siamo felici di darti il benvenuto sulla nostra piattaforma.</p>
 
@@ -4123,6 +4152,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p>Grazie,<br>Il team di <nome progetto></p>
 =======
 <<<<<<< HEAD
@@ -4676,6 +4706,9 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 =======
 <p>Grazie,<br>Il team di <nome progetto></p>
 >>>>>>> a55aa5e96 (.)
+=======
+<p>Grazie,<br>Il team di <nome progetto></p>
+>>>>>>> 02a2ea3c10 (.)
 ```
 
 ## Best Practices
@@ -4685,6 +4718,7 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 3. **Testare su più client email**: Verificare la corretta visualizzazione su diversi client
 4. **Mantenere template semplici**: Evitare costrutti complessi in Mustache che potrebbero non funzionare
 5. **Aggiungere versione testuale**: Fornire sempre una versione testuale dell'email per client che non supportano HTML
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5067,3 +5101,5 @@ Il template specifico dell'email (memorizzato nel campo `html_template` del mode
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

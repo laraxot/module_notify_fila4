@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +339,8 @@ class AgiletelecomData extends Data
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -347,6 +349,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,6 +561,8 @@ use Spatie\LaravelData\Data;
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 75179b855 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email as MimeEmail;
 use Webmozart\Assert\Assert;
@@ -581,18 +586,10 @@ class AgiletelecomData extends Data
     {
         if (!(self::$instance instanceof AgiletelecomData)) {
             /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $data = TenantService::getConfig('sms');
-            $data = Arr::get($data, 'drivers.agiletelecom', []);
-            */
->>>>>>> a12f125f4a (.)
-=======
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.agiletelecom', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1419,6 +1416,8 @@ class AgiletelecomData extends Data
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             $data = Config::array('sms.drivers.agiletelecom');
             self::$instance = self::from($data);
         }
@@ -1426,6 +1425,7 @@ class AgiletelecomData extends Data
         return self::$instance;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2280,11 +2280,14 @@ class AgiletelecomData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     public function getAuthHeaders(): array
     {
         switch ($this->auth_type) {
             case 'api_key':
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     'Authorization' => 'Api-Key ' . $this->api_key,
@@ -2738,6 +2741,9 @@ class AgiletelecomData extends Data
 =======
                     'Authorization' => 'Api-Key ' . $this->api_key,
 >>>>>>> a55aa5e96 (.)
+=======
+                    'Authorization' => 'Api-Key ' . $this->api_key,
+>>>>>>> 02a2ea3c10 (.)
                     'Content-Type' => 'application/json',
                 ];
 
@@ -2746,6 +2752,9 @@ class AgiletelecomData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
                     'Authorization' => 'OAuth ' . $this->oauth_token,
 =======
 <<<<<<< HEAD
@@ -2762,6 +2771,7 @@ class AgiletelecomData extends Data
 >>>>>>> c8b1c8bf (.)
                     'Content-Type' => 'application/json',
                 ];
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3500,6 +3510,8 @@ class AgiletelecomData extends Data
                     'Content-Type' => 'application/json',
                 ];
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 =======
 >>>>>>> b19cd40 (.)
@@ -3508,8 +3520,8 @@ class AgiletelecomData extends Data
             case 'basic':
             default:
                 return [
-<<<<<<< HEAD
                     'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3917,11 +3929,14 @@ class AgiletelecomData extends Data
                 return [
                     'Authorization' => 'Basic ' . base64_encode($this->username . ':' . $this->password),
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
                     'Content-Type' => 'application/json',
                 ];
         }
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4673,3 +4688,5 @@ class AgiletelecomData extends Data
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

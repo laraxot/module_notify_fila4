@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 <?php
 
 declare(strict_types=1);
@@ -19,6 +22,7 @@ interface SmsActionContract
     /**
      * Invia un SMS utilizzando il provider specifico.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,12 +54,18 @@ interface SmsActionContract
 =======
      * @param SmsData $smsData I dati del messaggio SMS
 >>>>>>> 7ceb00286 (.)
+=======
+     * @param SmsData $smsData I dati del messaggio SMS
+>>>>>>> 02a2ea3c10 (.)
      * @return array Risultato dell'operazione
      */
     public function execute(SmsData $smsData): array;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

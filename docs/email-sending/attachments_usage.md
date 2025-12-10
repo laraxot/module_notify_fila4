@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Utilizzo Corretto degli Allegati nelle Email Spatie
 
 Questa documentazione descrive come utilizzare correttamente il metodo `addAttachments()` nella classe `SpatieEmail` del modulo Notify.
@@ -9,6 +8,7 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 
 ### Formato Corretto
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -49,12 +49,15 @@ Il metodo `addAttachments()` accetta un array di array, dove ogni array interno 
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 
 #### Formato 1: Allegato da File Esistente (`path`)
 
 ```php
 // Formato corretto - allegato da file su filesystem
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,10 +68,13 @@ Il metodo `addAttachments()` supporta **due formati** per gli allegati:
 <<<<<<< HEAD
 >>>>>>> 7bac387 (.)
 >>>>>>> 998e6866b (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 $attachments = [
     [
 <<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -173,11 +179,14 @@ $attachments = [
 >>>>>>> fea359347 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
     // Eventualmente altri allegati...
     [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
@@ -249,12 +258,16 @@ $attachments = [
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 >>>>>>> a55aa5e96 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+>>>>>>> 02a2ea3c10 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
 ];
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -295,6 +308,8 @@ $attachments = [
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 #### Formato 2: Allegato da Contenuto Binario (`data`)
 
 ```php
@@ -319,6 +334,7 @@ $attachments = [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -375,6 +391,8 @@ $attachments = [
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 ## Implementazione nella Classe SpatieEmail
 
 La classe `SpatieEmail` utilizza la classe `Illuminate\Mail\Mailables\Attachment` di Laravel per gestire gli allegati in modo robusto:
@@ -393,6 +411,7 @@ public function addAttachments(array $attachments): self
     foreach ($attachments as $item) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -431,6 +450,8 @@ public function addAttachments(array $attachments): self
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $attachment = null;
         
         // Priorità 1: Se esiste 'path' e il file esiste, usa getAttachmentFromPath()
@@ -446,6 +467,7 @@ public function addAttachments(array $attachments): self
         if ($attachment) {
             $attachmentObjects[] = $attachment;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -567,6 +589,8 @@ public function addAttachments(array $attachments): self
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     }
     
     $this->customAttachments = $attachmentObjects;
@@ -589,6 +613,7 @@ public function attachments(): array
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -627,12 +652,15 @@ public function attachments(): array
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 ### Esempio 1: Allegato da File Esistente
 
 ```php
 // Creazione di un array di allegati da file esistenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 ```php
@@ -708,6 +736,8 @@ public function attachments(): array
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 $attachments = [
     [
         'path' => 'modules/notify/resources/assets/images/logo.png',
@@ -725,6 +755,7 @@ Mail::to($recipient)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +794,8 @@ Mail::to($recipient)
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 ### Esempio 2: Allegato PDF Generato Dinamicamente
 
 ```php
@@ -940,6 +973,7 @@ foreach ($records as $record) {
 - `Modules/Xot/app/Actions/Pdf/GetPdfContentByRecordAction.php` - Generazione PDF
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1065,3 +1099,5 @@ Ogni allegato deve contenere i seguenti parametri:
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

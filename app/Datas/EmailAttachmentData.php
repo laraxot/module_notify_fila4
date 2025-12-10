@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -12,6 +11,7 @@ class EmailAttachmentData extends Data
     public function __construct(
         private string $content,
         public string $name,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         public string $contentType = 'application/octet-stream',
@@ -1971,6 +1971,9 @@ class EmailAttachmentData extends Data
 =======
         public string $contentType = 'application/octet-stream',
 >>>>>>> a55aa5e96 (.)
+=======
+        public string $contentType = 'application/octet-stream',
+>>>>>>> 02a2ea3c10 (.)
     ) {}
 
     public function getContent(): string
@@ -1978,5 +1981,3 @@ class EmailAttachmentData extends Data
         return $this->content;
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

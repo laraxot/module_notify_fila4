@@ -5,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -54,3 +55,6 @@ declare(strict_types=1);
 
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+
+>>>>>>> 02a2ea3c10 (.)

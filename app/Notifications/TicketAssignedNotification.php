@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -29,11 +28,7 @@ class TicketAssignedNotification extends Notification
 
     public function toMail(mixed $notifiable): MailMessage
     {
-<<<<<<< HEAD
         return (new MailMessage)
-=======
-        return (new MailMessage())
->>>>>>> laraxot/develop
             ->subject('New Ticket Assigned')
             ->line("A new ticket has been assigned to you by {$this->assignedBy->name}")
             ->action('View Ticket', url('/'));
@@ -49,5 +44,3 @@ class TicketAssignedNotification extends Notification
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

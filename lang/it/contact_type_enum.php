@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -10,6 +9,7 @@ return [
         'color' => 'text-green-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#16a34a',
 =======
 <<<<<<< HEAD
@@ -1766,6 +1766,9 @@ return [
 =======
         'hex_color' => '#16a34a',
 >>>>>>> a55aa5e96 (.)
+=======
+        'hex_color' => '#16a34a',
+>>>>>>> 02a2ea3c10 (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -1774,6 +1777,7 @@ return [
         'color' => 'text-purple-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#9333ea',
 =======
 <<<<<<< HEAD
@@ -3530,6 +3534,9 @@ return [
 =======
         'hex_color' => '#9333ea',
 >>>>>>> a55aa5e96 (.)
+=======
+        'hex_color' => '#9333ea',
+>>>>>>> 02a2ea3c10 (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -3538,6 +3545,7 @@ return [
         'color' => 'text-blue-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#2563eb',
 =======
 <<<<<<< HEAD
@@ -5294,6 +5302,9 @@ return [
 =======
         'hex_color' => '#2563eb',
 >>>>>>> a55aa5e96 (.)
+=======
+        'hex_color' => '#2563eb',
+>>>>>>> 02a2ea3c10 (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -5302,6 +5313,7 @@ return [
         'color' => 'text-orange-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#ea580c',
 =======
 <<<<<<< HEAD
@@ -7058,6 +7070,9 @@ return [
 =======
         'hex_color' => '#ea580c',
 >>>>>>> a55aa5e96 (.)
+=======
+        'hex_color' => '#ea580c',
+>>>>>>> 02a2ea3c10 (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -7066,6 +7081,7 @@ return [
         'color' => 'text-green-600',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'hex_color' => '#25d366',
 =======
 <<<<<<< HEAD
@@ -8822,12 +8838,16 @@ return [
 =======
         'hex_color' => '#25d366',
 >>>>>>> a55aa5e96 (.)
+=======
+        'hex_color' => '#25d366',
+>>>>>>> 02a2ea3c10 (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
         'label' => 'Fax',
         'icon' => 'heroicon-o-printer',
         'color' => 'text-gray-600',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10048,10 +10068,13 @@ return [
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -12128,3 +12151,5 @@ return [
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

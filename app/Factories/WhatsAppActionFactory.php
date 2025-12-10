@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7,6 +6,7 @@ namespace Modules\Notify\Factories;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 use Illuminate\Support\Facades\Config;
 =======
@@ -305,6 +305,10 @@ use Illuminate\Support\Facades\Config;
 use Exception;
 use Illuminate\Support\Facades\Config;
 >>>>>>> a55aa5e96 (.)
+=======
+use Exception;
+use Illuminate\Support\Facades\Config;
+>>>>>>> 02a2ea3c10 (.)
 use Modules\Notify\Actions\WhatsApp\Send360dialogWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendFacebookWhatsAppAction;
 use Modules\Notify\Actions\WhatsApp\SendTwilioWhatsAppAction;
@@ -313,6 +317,7 @@ use Modules\Notify\Actions\WhatsApp\SendVonageWhatsAppAction;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
 
 use function Safe\preg_replace;
@@ -1451,6 +1456,15 @@ use function Safe\preg_replace;
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+use Modules\Notify\Contracts\WhatsAppProviderActionInterface;
+
+use function Safe\preg_replace;
+
+/**
+ * Factory per la creazione di azioni WhatsApp.
+ *
+>>>>>>> 02a2ea3c10 (.)
  * Questa factory centralizza la logica di selezione del driver WhatsApp
  * e la creazione dell'azione corrispondente, seguendo il pattern Factory.
  */
@@ -1462,6 +1476,7 @@ final class WhatsAppActionFactory
      * @param string|null $driver Driver WhatsApp da utilizzare (se null, viene utilizzato quello predefinito)
      * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1783,6 +1798,8 @@ final class WhatsAppActionFactory
      * @return WhatsAppProviderActionInterface Azione WhatsApp corrispondente al driver
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @throws Exception Se il driver specificato non è supportato
      */
     /**
@@ -1794,6 +1811,7 @@ final class WhatsAppActionFactory
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
     public function create(null|string $driver = null): WhatsAppProviderActionInterface
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1886,10 +1904,13 @@ final class WhatsAppActionFactory
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     {
         $driver ??= Config::get('whatsapp.default', 'twilio');
 
         // Gestione speciale per driver con caratteri non alfanumerici (es. 360dialog)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
@@ -3124,6 +3145,9 @@ final class WhatsAppActionFactory
 >>>>>>> 677a6ab7 (.)
 =======
         $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+=======
+        $normalizedDriver = preg_replace('/[^a-zA-Z0-9]/', '', ucfirst(strtolower(is_string($driver) ? $driver : '')));
+>>>>>>> 02a2ea3c10 (.)
 
 >>>>>>> a55aa5e96 (.)
         // Costruisci il nome completo della classe
@@ -3137,6 +3161,7 @@ final class WhatsAppActionFactory
                     ". Class {$className} not found.",
             );
         }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3304,6 +3329,8 @@ final class WhatsAppActionFactory
             );
         }
 <<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
 
         // Verifica se la classe implementa l'interfaccia richiesta
         if (!is_subclass_of($className, WhatsAppProviderActionInterface::class)) {
@@ -3313,6 +3340,7 @@ final class WhatsAppActionFactory
         /** @var WhatsAppProviderActionInterface $instance */
         $instance = app($className);
         return $instance;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4278,7 +4306,7 @@ final class WhatsAppActionFactory
         $instance = app($className);
         return $instance;
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

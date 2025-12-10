@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +168,8 @@
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Architettura delle Azioni dei Provider in Notify
 
 ## Struttura e Principi Fondamentali
@@ -189,6 +192,7 @@ Questo assicura che qualsiasi client possa utilizzare qualsiasi provider senza m
 ### 2. Posizione delle Azioni
 
 Le azioni specifiche dei provider SMS si trovano nella directory:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
@@ -1067,6 +1071,9 @@ Le azioni specifiche dei provider SMS si trovano nella directory:
 =======
 - `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
 >>>>>>> a55aa5e96 (.)
+=======
+- `/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/`
+>>>>>>> 02a2ea3c10 (.)
 
 ### 3. Convenzioni di Nomenclatura
 
@@ -1156,6 +1163,7 @@ Tutte le azioni devono gestire correttamente gli errori:
 1. Log appropriati degli errori
 2. Lancio di eccezioni in caso di errori critici
 3. Restituzione di un array con `'success' => false` in caso di errori non critici
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1355,3 +1363,5 @@ Tutte le azioni devono gestire correttamente gli errori:
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

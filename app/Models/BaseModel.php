@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,10 +239,13 @@ use Modules\Xot\Models\XotBaseModel;
 >>>>>>> c8b1c8bf (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Modules\Xot\Actions\Factory\GetFactoryAction;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,10 +315,14 @@ use Modules\Xot\Traits\Updater;
 =======
 use Modules\Xot\Traits\Updater;
 >>>>>>> a55aa5e96 (.)
+=======
+use Modules\Xot\Traits\Updater;
+>>>>>>> 02a2ea3c10 (.)
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * Class BaseModel.
@@ -391,14 +398,21 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
  * Class BaseModel.
  */
 >>>>>>> a55aa5e96 (.)
+=======
+ * Class BaseModel.
+ */
+>>>>>>> 02a2ea3c10 (.)
 abstract class BaseModel extends Model implements HasMedia
 {
     // use Searchable;
     use HasFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     use InteractsWithMedia;
     use Updater;
 
@@ -409,6 +423,7 @@ abstract class BaseModel extends Model implements HasMedia
      *
      * @var bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -460,6 +475,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     public static $snakeAttributes = true;
 
     /** @var bool */
@@ -470,6 +487,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
     /** @var int */
     protected $perPage = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,10 +517,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 
     /** @var string */
     protected $connection = 'notify';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -520,6 +541,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     /** @var list<string> */
     protected $appends = [];
 
@@ -534,6 +557,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
         // 'password'
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     /**
@@ -703,12 +727,18 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
      * Create a new factory instance for the model.
      *
 >>>>>>> a55aa5e96 (.)
+=======
+    /**
+     * Create a new factory instance for the model.
+     *
+>>>>>>> 02a2ea3c10 (.)
      * @return Factory<static>
      */
     protected static function newFactory()
     {
         return app(GetFactoryAction::class)->execute(static::class);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -749,22 +779,18 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 75179b855 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 
     /** @return array<string, string> */
     protected function casts(): array
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 75179b855 (.)
->>>>>>> laraxot/develop
         return [
             'id' => 'string',
             'uuid' => 'string',
             'published_at' => 'datetime',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1494,11 +1520,14 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             'verified_at' => 'datetime',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2228,10 +2257,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> a070a65a5 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3008,7 +3040,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

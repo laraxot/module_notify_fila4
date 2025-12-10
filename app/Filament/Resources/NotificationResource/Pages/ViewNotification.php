@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7,11 +6,15 @@ namespace Modules\Notify\Filament\Resources\NotificationResource\Pages;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Override;
 use Filament\Schemas\Components\Section;
 use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,12 +375,15 @@ use Filament\Infolists\Components\TextEntry;
 use Modules\Notify\Filament\Resources\NotificationResource;
 use Modules\Xot\Filament\Resources\Pages\XotBaseViewRecord;
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 class ViewNotification extends XotBaseViewRecord
 {
     protected static string $resource = NotificationResource::class;
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<\Filament\Schemas\Components\Component>
@@ -619,6 +625,9 @@ class ViewNotification extends XotBaseViewRecord
 =======
      * @return array<\Filament\Schemas\Components\Component>
 >>>>>>> a55aa5e96 (.)
+=======
+     * @return array<\Filament\Schemas\Components\Component>
+>>>>>>> 02a2ea3c10 (.)
      */
     #[Override]
     protected function getInfolistSchema(): array
@@ -722,5 +731,3 @@ class ViewNotification extends XotBaseViewRecord
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

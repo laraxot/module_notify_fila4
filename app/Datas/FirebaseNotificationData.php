@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -24,6 +23,7 @@ class FirebaseNotificationData extends Data
         $main_module = Str::of(XotData::make()->main_module)->lower()->toString();
         $data = [
             'type' => $type,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'title' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.title'),
@@ -1116,11 +1116,13 @@ class FirebaseNotificationData extends Data
             'title' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.title'),
             'body' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.body'),
 >>>>>>> a55aa5e96 (.)
+=======
+            'title' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.title'),
+            'body' => trans($main_module . '::notifications.' . mb_strtoupper($type) . '.body'),
+>>>>>>> 02a2ea3c10 (.)
             'data' => [],
         ];
 
         return self::from($data);
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

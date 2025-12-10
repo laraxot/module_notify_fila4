@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1149,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 namespace Modules\Notify\Database\Seeders;
 
 use Illuminate\Database\Seeder;
@@ -1220,5 +1225,3 @@ class MailTemplatesSeeder extends Seeder
         ]);
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

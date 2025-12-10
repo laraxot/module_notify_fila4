@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -645,6 +645,8 @@ use Override;
 =======
 >>>>>>> 2941b0bd (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Override;
 =======
 >>>>>>> 1487fe812 (.)
@@ -795,11 +797,14 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Illuminate\Support\Carbon;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b8 (.)
 >>>>>>> c8b1c8bf (.)
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 /**
  * Modules\Notify\Models\NotifyTheme.
@@ -813,6 +818,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -865,6 +871,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
  * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
@@ -876,6 +884,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property int|null $logo_height
  * @property array $view_params
  * @property array $logo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1431,6 +1440,9 @@ class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> 82c6772 (.)
 >>>>>>> 2effe245 (.)
 >>>>>>> 26d39e2eb (.)
+=======
+ * @property Model|Eloquent $linkable
+>>>>>>> 02a2ea3c10 (.)
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
 <<<<<<< HEAD
@@ -1582,157 +1594,6 @@ class NotifyTheme extends BaseModel implements HasMedia
 >>>>>>> d45a0226 (.)
 >>>>>>> f15c41e60 (.)
  * @mixin IdeHelperNotifyTheme
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2cbbc069 (.)
-/**
- * @property string $id
- * @property string|null $lang
- * @property string|null $type
- * @property string|null $subject
- * @property string|null $body
- * @property string|null $from
- * @property string|null $post_type
- * @property int|null $post_id
- * @property string|null $body_html
- * @property string|null $theme
- * @property string|null $from_email
- * @property string|null $logo_src
- * @property int|null $logo_width
- * @property int|null $logo_height
- * @property array<array-key, mixed>|null $view_params
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
-<<<<<<< HEAD
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
-=======
- * @property-read \Modules\Fixcity\Models\Profile|null $creator
->>>>>>> 2cbbc069 (.)
- * @property-read array<string, mixed> $logo
- * @property-read Model|\Eloquent|null $linkable
- * @property-read MediaCollection<int, Media> $media
- * @property-read int|null $media_count
-<<<<<<< HEAD
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
-=======
- * @property-read \Modules\Fixcity\Models\Profile|null $updater
->>>>>>> 2cbbc069 (.)
- * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
- * @method static Builder<static>|NotifyTheme newModelQuery()
- * @method static Builder<static>|NotifyTheme newQuery()
- * @method static Builder<static>|NotifyTheme query()
- * @method static Builder<static>|NotifyTheme whereBody($value)
- * @method static Builder<static>|NotifyTheme whereBodyHtml($value)
- * @method static Builder<static>|NotifyTheme whereCreatedAt($value)
- * @method static Builder<static>|NotifyTheme whereCreatedBy($value)
- * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
- * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
- * @method static Builder<static>|NotifyTheme whereFrom($value)
- * @method static Builder<static>|NotifyTheme whereFromEmail($value)
- * @method static Builder<static>|NotifyTheme whereId($value)
- * @method static Builder<static>|NotifyTheme whereLang($value)
- * @method static Builder<static>|NotifyTheme whereLogoHeight($value)
- * @method static Builder<static>|NotifyTheme whereLogoSrc($value)
- * @method static Builder<static>|NotifyTheme whereLogoWidth($value)
- * @method static Builder<static>|NotifyTheme wherePostId($value)
- * @method static Builder<static>|NotifyTheme wherePostType($value)
- * @method static Builder<static>|NotifyTheme whereSubject($value)
- * @method static Builder<static>|NotifyTheme whereTheme($value)
- * @method static Builder<static>|NotifyTheme whereType($value)
- * @method static Builder<static>|NotifyTheme whereUpdatedAt($value)
- * @method static Builder<static>|NotifyTheme whereUpdatedBy($value)
- * @method static Builder<static>|NotifyTheme whereViewParams($value)
-<<<<<<< HEAD
->>>>>>> 2cbbc069 (.)
- * @mixin Eloquent
- */
-<<<<<<< HEAD
-=======
-/**
- * @property string $id
- * @property string|null $lang
- * @property string|null $type
- * @property string|null $subject
- * @property string|null $body
- * @property string|null $from
- * @property string|null $post_type
- * @property int|null $post_id
- * @property string|null $body_html
- * @property string|null $theme
- * @property string|null $from_email
- * @property string|null $logo_src
- * @property int|null $logo_width
- * @property int|null $logo_height
- * @property array<array-key, mixed>|null $view_params
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property-read array<string, mixed> $logo
- * @property-read Model|\Eloquent|null $linkable
- * @property-read MediaCollection<int, Media> $media
- * @property-read int|null $media_count
- * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
- *
- * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
- * @method static Builder<static>|NotifyTheme newModelQuery()
- * @method static Builder<static>|NotifyTheme newQuery()
- * @method static Builder<static>|NotifyTheme query()
- * @method static Builder<static>|NotifyTheme whereBody($value)
- * @method static Builder<static>|NotifyTheme whereBodyHtml($value)
- * @method static Builder<static>|NotifyTheme whereCreatedAt($value)
- * @method static Builder<static>|NotifyTheme whereCreatedBy($value)
- * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
- * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
- * @method static Builder<static>|NotifyTheme whereFrom($value)
- * @method static Builder<static>|NotifyTheme whereFromEmail($value)
- * @method static Builder<static>|NotifyTheme whereId($value)
- * @method static Builder<static>|NotifyTheme whereLang($value)
- * @method static Builder<static>|NotifyTheme whereLogoHeight($value)
- * @method static Builder<static>|NotifyTheme whereLogoSrc($value)
- * @method static Builder<static>|NotifyTheme whereLogoWidth($value)
- * @method static Builder<static>|NotifyTheme wherePostId($value)
- * @method static Builder<static>|NotifyTheme wherePostType($value)
- * @method static Builder<static>|NotifyTheme whereSubject($value)
- * @method static Builder<static>|NotifyTheme whereTheme($value)
- * @method static Builder<static>|NotifyTheme whereType($value)
- * @method static Builder<static>|NotifyTheme whereUpdatedAt($value)
- * @method static Builder<static>|NotifyTheme whereUpdatedBy($value)
- * @method static Builder<static>|NotifyTheme whereViewParams($value)
- *
- * @mixin Eloquent
- */
->>>>>>> 7c1c276f (rebase 210)
-=======
- * @mixin Eloquent
- */
->>>>>>> 2cbbc069 (.)
-class NotifyTheme extends BaseModel
-{
-    /** @var list<string> */
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 75179b85 (.)
-=======
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 75179b855 (.)
->>>>>>> laraxot/develop
  * @mixin Eloquent
  */
 <<<<<<< HEAD
@@ -1815,6 +1676,7 @@ class NotifyTheme extends BaseModel
 {
 <<<<<<< HEAD
     /** @var list<string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1880,6 +1742,8 @@ class NotifyTheme extends BaseModel
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     protected $fillable = [
         'id',
         'lang',
@@ -1889,6 +1753,7 @@ class NotifyTheme extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1930,12 +1795,15 @@ class NotifyTheme extends BaseModel
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         'body_html',
         'from',
         'from_email',
         'post_type',
         'post_id',
         'theme',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1962,12 +1830,15 @@ class NotifyTheme extends BaseModel
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         'logo_src',
         'logo_width',
         'logo_height',
         'view_params',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2007,11 +1878,14 @@ class NotifyTheme extends BaseModel
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     /** @var list<string> */
     protected $appends = [
         'logo',
     ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function getLogoAttribute(null|array $value): array
@@ -2919,6 +2793,9 @@ class NotifyTheme extends BaseModel
 =======
     public function getLogoAttribute(null|array $value): array
 >>>>>>> a55aa5e96 (.)
+=======
+    public function getLogoAttribute(null|array $value): array
+>>>>>>> 02a2ea3c10 (.)
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -2937,6 +2814,7 @@ class NotifyTheme extends BaseModel
     }
 
     /** @return array<string, string> */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     #[Override]
@@ -3617,6 +3495,9 @@ class NotifyTheme extends BaseModel
 =======
     #[Override]
 >>>>>>> a55aa5e96 (.)
+=======
+    #[Override]
+>>>>>>> 02a2ea3c10 (.)
     protected function casts(): array
     {
         return [
@@ -3625,6 +3506,7 @@ class NotifyTheme extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -4467,10 +4349,13 @@ class NotifyTheme extends BaseModel
 =======
 >>>>>>> 98d837b9 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
             // 'published_at' => 'datetime:Y-m-d', // da verificare
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4500,9 +4385,9 @@ class NotifyTheme extends BaseModel
             'deleted_by' => 'string',
             // 'published_at' => 'datetime:Y-m-d', // da verificare
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             'view_params' => 'array',
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

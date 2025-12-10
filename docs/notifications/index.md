@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 # Indice Documentazione Notifiche
 
 ## Collegamenti Correlati
 - [Indice Documentazione Notify](../INDEX.md)
 - [README Modulo Notify](../README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
@@ -95,6 +95,9 @@
 =======
 - [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
 >>>>>>> a55aa5e96 (.)
+=======
+- [Documentazione Generale <nome progetto>](../../../../../docs/README.md)
+>>>>>>> 02a2ea3c10 (.)
 - [Collegamenti Documentazione](../../../../../docs/collegamenti-documentazione.md)
 
 ## Guida Implementazione
@@ -123,6 +126,7 @@
 - [Canale Telegram](../TELEGRAM_CHANNEL.md) - Documentazione del canale Telegram
 
 ## Note Importanti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
@@ -214,6 +218,9 @@
 =======
 - <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
 >>>>>>> a55aa5e96 (.)
+=======
+- <nome progetto> utilizza il pattern Factory per la creazione delle azioni di invio messaggi
+>>>>>>> 02a2ea3c10 (.)
 - Il sistema si basa su Queueable Actions (spatie/laravel-queueable-action) e non su Service Pattern
 - Le azioni specifiche per provider devono implementare l'interfaccia comune corrispondente
 - I DTO standardizzati vengono utilizzati come ponte tra il sistema e i provider specifici
@@ -226,5 +233,3 @@
 4. Le factory devono gestire la selezione del driver predefinito
 
 Ultimo aggiornamento: 14 Maggio 2025
-=======
->>>>>>> 301ad8b44 (.)

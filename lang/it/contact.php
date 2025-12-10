@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -160,6 +159,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +210,8 @@ return [
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     ],
     'messages' => [
         'created' => [
@@ -239,6 +241,7 @@ return [
         'verification_failed' => [
             'title' => 'Errore Verifica',
             'message' => 'Impossibile verificare il contatto: :error',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         ],
@@ -2452,6 +2455,8 @@ return [
         ],
     ],
 >>>>>>> a55aa5e96 (.)
-];
 =======
->>>>>>> 301ad8b44 (.)
+        ],
+    ],
+>>>>>>> 02a2ea3c10 (.)
+];

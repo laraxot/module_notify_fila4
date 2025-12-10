@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -46,6 +45,7 @@ return [
         'icon' => 'heroicon-o-truck',
         'description' => 'Italienischer Anbieter für Telekommunikationsdienste und SMS',
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ];
@@ -2007,3 +2007,6 @@ return [
 =======
 ];
 >>>>>>> a55aa5e96 (.)
+=======
+];
+>>>>>>> 02a2ea3c10 (.)

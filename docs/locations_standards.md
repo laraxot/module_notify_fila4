@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Standard di Posizionamento dei File in Notify
 
 ## Organizzazione Directory Principali
@@ -18,6 +17,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Corretta Organizzazione delle Interfacce
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
@@ -89,6 +89,9 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 =======
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
 >>>>>>> a55aa5e96 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Contracts/
+>>>>>>> 02a2ea3c10 (.)
 ├── SmsProviderActionInterface.php   ✅ CORRETTO
 ├── NotificationChannelInterface.php ✅ CORRETTO
 └── ...
@@ -97,6 +100,7 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 ### Errori da Evitare
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
@@ -168,6 +172,9 @@ Le interfacce devono sempre essere collocate nella directory `/app/Contracts/`, 
 =======
 /var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
 >>>>>>> a55aa5e96 (.)
+=======
+/var/www/html/<nome progetto>/laravel/Modules/Notify/app/Actions/SMS/
+>>>>>>> 02a2ea3c10 (.)
 ├── SmsActionInterface.php           ❌ ERRATO
 └── ...
 ```
@@ -218,5 +225,3 @@ final class SendNetfunSMSAction implements SmsActionInterface
 3. **Consistenza**:
    - Tutte le interfacce dello stesso tipo devono essere nello stesso namespace
    - Il pattern di organizzazione deve essere coerente in tutto il modulo
-=======
->>>>>>> 301ad8b44 (.)

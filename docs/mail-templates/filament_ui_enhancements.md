@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Miglioramenti UI/UX per MailTemplateResource
 
 ## Componenti Filament Consigliati
@@ -121,6 +120,7 @@ Card::make()
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 <<<<<<< HEAD
@@ -230,6 +230,9 @@ public static function form(Form $form): Form
 =======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> a55aa5e96 (.)
+=======
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+>>>>>>> 02a2ea3c10 (.)
 {
     return $form
         ->schema([
@@ -301,5 +304,3 @@ public static function table(Table $table): Table
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/installation)
 - [Componenti Blade Filament](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Best Practices UI/UX](https://filamentphp.com/docs/3.x/panels/resources/getting-started) 
-=======
->>>>>>> 301ad8b44 (.)

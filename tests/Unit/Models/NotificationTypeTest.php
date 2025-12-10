@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -3138,6 +3138,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotificationType;
 use Tests\TestCase;
 >>>>>>> a55aa5e96 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotificationType;
+use Tests\TestCase;
+>>>>>>> 02a2ea3c10 (.)
 
 class NotificationTypeTest extends TestCase
 {
@@ -3171,6 +3176,7 @@ class NotificationTypeTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3225,6 +3231,9 @@ class NotificationTypeTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $notificationType = new NotificationType();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedFillable = [
             'name',
@@ -3413,5 +3422,3 @@ class NotificationTypeTest extends TestCase
         $this->assertEquals('high_priority_email', $highPriorityEmailTypes[0]->template);
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # Pattern Architetturali per le Notifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
@@ -72,6 +72,9 @@ Questo documento analizza i pattern architetturali utilizzati nel sistema di not
 =======
 Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
 >>>>>>> a55aa5e96 (.)
+=======
+Questo documento analizza i pattern architetturali utilizzati nel sistema di notifiche di <nome progetto>, con particolare attenzione alla selezione del driver e alla gestione delle dipendenze.
+>>>>>>> 02a2ea3c10 (.)
 
 ## Confronto tra Pattern Architetturali
 
@@ -206,5 +209,3 @@ Basandoci sull'analisi dei vantaggi e degli svantaggi:
 Il **Pattern Factory** offre il miglior equilibrio tra separazione delle responsabilità, riutilizzabilità e testabilità. Tuttavia, il **Pattern Attuale** è comunque una soluzione valida, specialmente per progetti di dimensioni ridotte o quando la coerenza con il framework è prioritaria.
 
 Il **Pattern Alternativo** (selezione nel DTO) è sconsigliato in quanto viola il principio di Responsabilità Singola e crea un accoppiamento non necessario tra il DTO e la configurazione del sistema.
-=======
->>>>>>> 301ad8b44 (.)

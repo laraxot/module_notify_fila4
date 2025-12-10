@@ -6,6 +6,7 @@ use Rector\Config\RectorConfig;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20,6 +21,8 @@ use Rector\Config\RectorConfig;
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 
@@ -31,6 +34,7 @@ use Rector\Set\ValueObject\SetList;
  */
 return static function (RectorConfig $rectorConfig): void {
     // Paths to analyze
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1119,10 +1123,13 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     $rectorConfig->paths([
         __DIR__,
     ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1131,6 +1138,8 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     // Paths to skip
     $rectorConfig->skip([
         __DIR__.'/vendor',
@@ -1163,6 +1172,7 @@ return static function (RectorConfig $rectorConfig): void {
 
     // Import short classes
     $rectorConfig->importShortClasses(false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7426,4 +7436,6 @@ return static function (RectorConfig $rectorConfig): void {
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 };

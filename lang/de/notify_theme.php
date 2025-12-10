@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1149,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
@@ -1312,5 +1317,3 @@ return [
         'label' => 'Tema Notifica',
     ],
 ];
-=======
->>>>>>> 301ad8b44 (.)

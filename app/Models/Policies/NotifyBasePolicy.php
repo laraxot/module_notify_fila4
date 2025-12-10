@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -10,6 +9,7 @@ namespace Modules\Notify\Models\Policies;
 <<<<<<< HEAD
 use Modules\User\Models\Policies\UserBasePolicy;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 abstract class NotifyBasePolicy extends UserBasePolicy
@@ -1010,3 +1010,8 @@ abstract class NotifyBasePolicy extends UserBasePolicy
 {
 }
 >>>>>>> a55aa5e96 (.)
+=======
+abstract class NotifyBasePolicy extends UserBasePolicy
+{
+}
+>>>>>>> 02a2ea3c10 (.)

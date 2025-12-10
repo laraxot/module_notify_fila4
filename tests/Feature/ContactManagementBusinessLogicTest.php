@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Feature;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -255,10 +255,13 @@ namespace Modules\Notify\Tests\Feature;
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Modules\Notify\Models\ContactGroup;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2783,6 +2786,8 @@ use function Safe\json_encode;
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 class ContactManagementBusinessLogicTest extends TestCase
 {
@@ -2923,6 +2928,7 @@ class ContactManagementBusinessLogicTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
 =======
 <<<<<<< HEAD
@@ -2984,6 +2990,9 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
                 'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
 >>>>>>> a55aa5e96 (.)
+=======
+                'subject' => 'Benvenuto su ' . config('app.name', 'Our Platform'),
+>>>>>>> 02a2ea3c10 (.)
                 'sent_at' => now()->subDays(5)->toISOString(),
                 'status' => 'delivered',
                 'opened' => true,
@@ -3012,6 +3021,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         $this->assertEquals('email', $contact->fresh()->communication_history[0]['type']);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4750,10 +4760,13 @@ class ContactManagementBusinessLogicTest extends TestCase
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
         $this->assertEquals(
             'Benvenuto su ' . config('app.name', 'Our Platform'),
             $contact->fresh()->communication_history[0]['subject'],
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5272,6 +5285,8 @@ class ContactManagementBusinessLogicTest extends TestCase
             $contact->fresh()->communication_history[0]['subject'],
         );
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $this->assertEquals('sms', $contact->fresh()->communication_history[1]['type']);
         $this->assertTrue($contact->fresh()->communication_history[1]['clicked']);
     }
@@ -5456,6 +5471,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         $emailContact = Contact::factory()->create([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6383,6 +6399,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             'preferences' => ['email' => true, 'sms' => false],
         ]);
         $smsContact = Contact::factory()->create([
@@ -6390,6 +6408,7 @@ class ContactManagementBusinessLogicTest extends TestCase
         ]);
         $bothContact = Contact::factory()->create([
             'preferences' => ['email' => true, 'sms' => true],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7950,6 +7969,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         ]);
 
         // Act
@@ -7973,6 +7994,7 @@ class ContactManagementBusinessLogicTest extends TestCase
     {
         // Arrange
         $vipContact = Contact::factory()->create([
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -8899,10 +8921,13 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             'tags' => ['vip' => 'Cliente VIP', 'premium' => 'Piano premium'],
         ]);
         $newContact = Contact::factory()->create([
             'tags' => ['new' => 'Nuovo cliente', 'active' => 'Cliente attivo'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10595,6 +10620,8 @@ class ContactManagementBusinessLogicTest extends TestCase
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         ]);
 
         // Act
@@ -10718,5 +10745,3 @@ class ContactManagementBusinessLogicTest extends TestCase
         $this->assertEquals(8.2, $contact->fresh()->conversion_rate);
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

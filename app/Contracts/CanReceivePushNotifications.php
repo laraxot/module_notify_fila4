@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Contracts;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
@@ -37,6 +37,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Support\Collection;
 
 /**
@@ -54,6 +57,7 @@ interface CanReceivePushNotifications
      * non si puo usare mixed che cs lo cancella.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,12 +84,15 @@ interface CanReceivePushNotifications
     public function getKey(): string|int|null;
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      *
      * @return string|int|null
      */
     public function getKey();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +112,6 @@ interface CanReceivePushNotifications
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
-}
 =======
->>>>>>> 301ad8b44 (.)
+>>>>>>> 02a2ea3c10 (.)
+}

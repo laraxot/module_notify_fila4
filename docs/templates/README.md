@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -47,6 +48,8 @@
 >>>>>>> 602b8a0a9 (.)
 =======
 >>>>>>> ec82d0f4a (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Template Email
 
 ## Panoramica
@@ -116,142 +119,86 @@ use Filament\Forms\Components\Builder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
 public static function form(Form $form): Form
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 >>>>>>> c8b1c8bf (.)
-=======
 >>>>>>> 9cf0dc90 (.)
 =======
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> 379ffe3f3 (.)
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public static function form(Form $form): Form
 >>>>>>> 75179b8 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 02a2ea3c10 (.)
 public static function form(Form $form): Form
 >>>>>>> f963d2c (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> ee18dd92 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 66453ace (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 2a97406c (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> fdb24863 (rebase 210)
-=======
 public static function form(Form $form): Form
 >>>>>>> 9c45d9bd (rebase 210)
-=======
 public static function form(Form $form): Form
 >>>>>>> eb62d6cf (rebase 210)
-=======
 public static function form(Form $form): Form
 >>>>>>> 8c8937e7 (rebase 210)
-=======
 public static function form(Form $form): Form
 >>>>>>> 36ac4fc1 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> fd1fcc4c (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 4f3927d7 (.)
-=======
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> 6a44db8a (.)
-=======
 >>>>>>> c8b1c8bf (.)
-=======
-=======
 public static function form(Form $form): Form
 >>>>>>> f963d2c (.)
 >>>>>>> 9cf0dc90 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 75179b85 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 75179b855 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> f963d2c0 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> ee18dd92 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 66453ace (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 2a97406c (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 36321fcb (.)
-=======
 public static function form(Form $form): Form
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 public static function form(Form $form): Form
@@ -308,6 +255,8 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 public static function form(Form $form): Form
 >>>>>>> f963d2c (.)
 >>>>>>> 379ffe3f3 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 {
     return $form->schema([
         Builder::make('content')
@@ -416,7 +365,10 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 02a2ea3c10 (.)
 >>>>>>> 301ad8b44 (.)
 =======
 >>>>>>> 1487fe812 (.)

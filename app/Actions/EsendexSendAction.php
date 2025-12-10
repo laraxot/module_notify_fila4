@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -40,6 +39,7 @@ class EsendexSendAction
     {
         $auth = $this->login();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (! is_array($auth)) {
@@ -1238,6 +1238,10 @@ class EsendexSendAction
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
 >>>>>>> a55aa5e96 (.)
+=======
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 02a2ea3c10 (.)
         }
 
         $data = [
@@ -1250,6 +1254,7 @@ class EsendexSendAction
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
@@ -1529,6 +1534,11 @@ class EsendexSendAction
 
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
 >>>>>>> a55aa5e96 (.)
+=======
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+        // Verifichiamo che i valori dell'array di autenticazione siano stringhe
+>>>>>>> 02a2ea3c10 (.)
         if (! is_string($auth[0])) {
             $auth[0] = '';
         }
@@ -1540,6 +1550,7 @@ class EsendexSendAction
 >>>>>>> d284d65 (.)
 
         if (! is_string($auth[1])) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2604,6 +2615,8 @@ class EsendexSendAction
 =======
 >>>>>>> 4689a827 (.)
 >>>>>>> 8dc1f2ed6 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             $auth[1] = '';
         }
 
@@ -2612,6 +2625,7 @@ class EsendexSendAction
             'user_key: ' . $auth[0],
             'Session_key: ' . $auth[1],
         ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3206,6 +3220,8 @@ class EsendexSendAction
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -3220,6 +3236,7 @@ class EsendexSendAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3643,11 +3660,14 @@ class EsendexSendAction
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
         if (! is_array($res)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4734,6 +4754,8 @@ class EsendexSendAction
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         }
 
         return $res;
@@ -4745,6 +4767,7 @@ class EsendexSendAction
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function login(): ?array
 =======
 <<<<<<< HEAD
@@ -5689,6 +5712,9 @@ class EsendexSendAction
 =======
     public function login(): ?array
 >>>>>>> a55aa5e96 (.)
+=======
+    public function login(): ?array
+>>>>>>> 02a2ea3c10 (.)
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -5698,6 +5724,7 @@ class EsendexSendAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
 =======
 <<<<<<< HEAD
@@ -6642,6 +6669,9 @@ class EsendexSendAction
 =======
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
 >>>>>>> a55aa5e96 (.)
+=======
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+>>>>>>> 02a2ea3c10 (.)
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 
@@ -6661,6 +6691,7 @@ class EsendexSendAction
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return explode(';', is_string($response) ? $response : ((string) $response));
 =======
 <<<<<<< HEAD
@@ -7304,7 +7335,8 @@ class EsendexSendAction
 =======
         return explode(';', is_string($response) ? $response : ((string) $response));
 >>>>>>> a55aa5e96 (.)
+=======
+        return explode(';', is_string($response) ? $response : ((string) $response));
+>>>>>>> 02a2ea3c10 (.)
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

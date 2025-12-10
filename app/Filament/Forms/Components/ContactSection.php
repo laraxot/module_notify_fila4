@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -574,6 +574,8 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Filament\Schemas\Components\Section;
 use Filament\Forms;
 <<<<<<< HEAD
@@ -581,6 +583,7 @@ use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Enums\ContactTypeEnum;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1251,11 +1254,14 @@ use Webmozart\Assert\Assert;
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 // use Squire\Models\Country;
 
 class ContactSection extends Section
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     //protected string $view = 'filament-forms::components.group';
@@ -2014,6 +2020,9 @@ class ContactSection extends Forms\Components\Section
 =======
     //protected string $view = 'filament-forms::components.group';
 >>>>>>> a55aa5e96 (.)
+=======
+    //protected string $view = 'filament-forms::components.group';
+>>>>>>> 02a2ea3c10 (.)
 
     protected bool $disableLiveUpdates = false;
 
@@ -2023,11 +2032,14 @@ class ContactSection extends Forms\Components\Section
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $schema = $this->getFormSchema();
         $this->schema($schema);
         $this->columns(2);
@@ -2051,6 +2063,7 @@ class ContactSection extends Forms\Components\Section
     protected function getFormSchema(): array
     {
         return ContactTypeEnum::getFormSchema();
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2473,6 +2486,8 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     }
 
     /*
@@ -2495,6 +2510,7 @@ class ContactSection extends Forms\Components\Section
      * $record->touch();
      * }
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3582,6 +3598,6 @@ class ContactSection extends Forms\Components\Section
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
-}
 =======
->>>>>>> 301ad8b44 (.)
+>>>>>>> 02a2ea3c10 (.)
+}

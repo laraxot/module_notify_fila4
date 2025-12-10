@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 <?php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -2738,6 +2738,11 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> a55aa5e96 (.)
+=======
+
+declare(strict_types=1);
+
+>>>>>>> 02a2ea3c10 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',
@@ -2873,6 +2878,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2924,6 +2930,8 @@ return [
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     ],
     'messages' => [
         'created' => [
@@ -2955,5 +2963,3 @@ return [
         'label' => 'Tema Notifica',
     ],
 ];
-=======
->>>>>>> 301ad8b44 (.)

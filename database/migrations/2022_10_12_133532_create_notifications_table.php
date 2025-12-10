@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 // https://blog.quickadminpanel.com/laravel-notifications-with-database-driver-internal-messages/
@@ -9,6 +8,7 @@ use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class() extends XotBaseMigration {
 =======
 <<<<<<< HEAD
@@ -955,6 +955,9 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> a55aa5e96 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 02a2ea3c10 (.)
     /**
      * Run the migrations.
      */
@@ -963,6 +966,7 @@ return new class() extends XotBaseMigration {
         // -- CREATE --
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1373,6 +1377,8 @@ return new class() extends XotBaseMigration {
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $this->tableCreate(function (Blueprint $table): void {
             $table->uuid('id')->primary();
             $table->string('type');
@@ -1391,6 +1397,7 @@ return new class() extends XotBaseMigration {
                 hasSoftDeletes: true,
             );
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2132,7 +2139,7 @@ return new class() extends XotBaseMigration {
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     }
 };
-=======
->>>>>>> 301ad8b44 (.)

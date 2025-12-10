@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Troubleshooting Notification Issues in Laravel Modules
 
 ## Overview
@@ -34,6 +33,7 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - **Diagnosis**: Check environment variables and configuration files for typos or missing values.
 - **Fix**: Update configurations with correct values and restart application if necessary.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -146,6 +146,8 @@ This document provides guidance on diagnosing and resolving common issues encoun
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 ### 5. ParseError durante composer update - Assert::string con assegnazione inline
 - **Symptoms**: Errore `ParseError: syntax error, unexpected token "->"` durante `composer update -W` o `php artisan package:discover`.
 - **Diagnosis**: Il problema si verifica quando si usa `Assert::string()` con un'assegnazione inline seguita immediatamente da una chiamata a metodo con `->`.
@@ -197,6 +199,7 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - **Prevenzione**: Utilizzare sempre tipizzazione esplicita per array e verificare tipi prima di accedere a offset su valori mixed
 - **Documentazione completa**: Vedi [phpstan-level10-analysis.md](./phpstan-level10-analysis.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -377,6 +380,8 @@ This document provides guidance on diagnosing and resolving common issues encoun
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 ## Testing and Verification
 - Use sandbox environments or test modes provided by notification services to simulate sends without affecting real users.
 - Verify fixes by sending test notifications after applying changes.
@@ -391,5 +396,3 @@ This document provides guidance on diagnosing and resolving common issues encoun
 - [Notification Channels Implementation](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
-=======
->>>>>>> 301ad8b44 (.)

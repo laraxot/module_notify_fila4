@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2146,6 +2146,9 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> b93ef594b4 (.)
 >>>>>>> laraxot/develop
+=======
+use Illuminate\Support\Arr;
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -2163,10 +2166,10 @@ class GammuData extends Data
     {
         if (!(self::$instance instanceof GammuData)) {
             /*
-<<<<<<< HEAD
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);
              */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             $data = TenantService::getConfig('sms');
@@ -3530,6 +3533,8 @@ class GammuData extends Data
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             $data = Config::array('sms.drivers.gammu');
             self::$instance = self::from($data);
         }
@@ -3552,5 +3557,3 @@ class GammuData extends Data
         return $this->timeout;
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

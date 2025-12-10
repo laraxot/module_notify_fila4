@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # Standard per le Traduzioni 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
@@ -72,6 +72,9 @@ Questo documento definisce gli standard e le best practices per la gestione dell
 =======
 Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
 >>>>>>> a55aa5e96 (.)
+=======
+Questo documento definisce gli standard e le best practices per la gestione delle traduzioni all'interno dei moduli di <nome progetto>, con particolare attenzione al modulo Notify.
+>>>>>>> 02a2ea3c10 (.)
 
 ## Struttura delle Cartelle
 
@@ -199,5 +202,3 @@ protected static ?string $navigationLabel = 'Invio SMS'; // Hardcoded
 1. **Laravel Translation Manager**: Per gestire e sincronizzare le traduzioni
 2. **Laravel Lang**: Per traduzioni comuni di Laravel
 3. **Script Personalizzati**: Per verificare la completezza e consistenza delle traduzioni
-=======
->>>>>>> 301ad8b44 (.)

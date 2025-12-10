@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -6,6 +5,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +50,8 @@ use Modules\Notify\Models\Theme;
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\EmailTemplate;
 use Modules\Notify\Models\Theme;
@@ -57,6 +59,7 @@ use Modules\Notify\Helpers\ConfigHelper;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,6 +90,8 @@ use Modules\Notify\Helpers\ConfigHelper;
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 describe('Template Management Business Logic', function () {
     it('can create email template with basic information', function () {
@@ -115,6 +120,7 @@ describe('Template Management Business Logic', function () {
     it('can create theme for templates', function () {
         $testData = ConfigHelper::getTestData();
         $themeData = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +183,10 @@ describe('Template Management Business Logic', function () {
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+            'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Default'),
+            'description' => $testData['theme_description'] ?? ('Tema predefinito per ' . config('app.name', 'Our Platform')),
+>>>>>>> 02a2ea3c10 (.)
             'colors' => [
                 'primary' => '#001F3F',
                 'secondary' => '#3B82F6',
@@ -335,6 +345,7 @@ describe('Template Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'author' => 'Team ' . config('app.name', 'Our Platform'),
 =======
 <<<<<<< HEAD
@@ -386,6 +397,9 @@ describe('Template Management Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+            'author' => 'Team ' . config('app.name', 'Our Platform'),
+>>>>>>> 02a2ea3c10 (.)
             'created_date' => '2024-01-15',
             'last_modified' => '2024-12-01',
             'tags' => ['appointment', 'confirmation', 'patient'],
@@ -398,6 +412,7 @@ describe('Template Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect($template->fresh()->metadata['author'])->toBe('Team ' . config('app.name', 'Our Platform'))
 =======
 <<<<<<< HEAD
@@ -449,6 +464,9 @@ describe('Template Management Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        expect($template->fresh()->metadata['author'])->toBe('Team ' . config('app.name', 'Our Platform'))
+>>>>>>> 02a2ea3c10 (.)
             ->and($template->fresh()->metadata['created_date'])->toBe('2024-01-15')
             ->and($template->fresh()->metadata['priority'])->toBe('high')
             ->and($template->fresh()->metadata['tags'])->toContain('appointment');
@@ -661,6 +679,7 @@ describe('Template Management Business Logic', function () {
             'validation_messages' => json_encode($validationData['validation_messages']),
         ]);
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 });
@@ -2622,3 +2641,6 @@ describe('Template Management Business Logic', function () {
 =======
 });
 >>>>>>> a55aa5e96 (.)
+=======
+});
+>>>>>>> 02a2ea3c10 (.)

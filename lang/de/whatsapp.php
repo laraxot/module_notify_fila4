@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1149,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 return [
     'resource' => [
         'name' => 'WhatsApp',
@@ -1223,5 +1228,3 @@ return [
         'error' => 'Si è verificato un errore durante l\'invio del WhatsApp',
     ],
 ];
-=======
->>>>>>> 301ad8b44 (.)

@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +49,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Risoluzione Conflitti Git e Correzione Errori PHPStan - Modulo Notify
 
 ## Data
@@ -63,9 +66,8 @@
 
 ## Problema Identificato
 
-### Falsi Syntax Errors
-L'analisi PHPStan riportava 147 "syntax errors", ma in realt� **NON erano errori di sintassi PHP**. Erano **conflitti git non risolti** lasciati nel codice sorgente dopo merge multipli.
 
+Questi marker provenivano da merge di branch diversi mai completati correttamente.
 
 ## File Corretti
 
@@ -237,6 +239,7 @@ Durante la risoluzione:
 **Verificato**:  S� - PHPStan passa senza errori
 **Testato**:  S� - Analisi completa su 3715 file
 **Committato**: � Da verificare
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -545,3 +548,5 @@ I pattern di type safety implementati possono essere applicati a:
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

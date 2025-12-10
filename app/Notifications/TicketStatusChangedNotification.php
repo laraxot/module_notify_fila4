@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -26,11 +25,7 @@ class TicketStatusChangedNotification extends Notification
 
     public function toMail(mixed $notifiable): MailMessage
     {
-<<<<<<< HEAD
         return (new MailMessage)
-=======
-        return (new MailMessage())
->>>>>>> laraxot/develop
             ->subject('Ticket Status Changed')
             ->line("Ticket status has changed from {$this->oldStatus} to {$this->newStatus}")
             ->action('View Ticket', url('/'));
@@ -47,5 +42,3 @@ class TicketStatusChangedNotification extends Notification
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

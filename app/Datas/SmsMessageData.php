@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -10,6 +9,7 @@ readonly class SmsMessageData
     public function __construct(
         public string $recipient,
         public string $message,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1369,7 +1369,10 @@ readonly class SmsMessageData
         public null|string $reference = null,
         public null|string $scheduledDate = null,
 >>>>>>> a55aa5e96 (.)
+=======
+        public null|string $sender = null,
+        public null|string $reference = null,
+        public null|string $scheduledDate = null,
+>>>>>>> 02a2ea3c10 (.)
     ) {}
 }
-=======
->>>>>>> 301ad8b44 (.)

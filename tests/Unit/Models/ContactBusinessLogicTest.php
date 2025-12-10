@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -15,6 +14,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -66,6 +66,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->model_type = 'App\\Models\\User';
         $contact->model_id = '1';
 
@@ -77,6 +80,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -128,6 +132,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->contact_type = 'email';
         $contact->value = 'test@example.com';
 
@@ -139,6 +146,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -190,6 +198,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->sms_count = 5;
         $contact->sms_status_code = '200';
         $contact->sms_status_txt = 'Success';
@@ -203,6 +214,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -254,6 +266,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->mail_count = 3;
         $contact->mail_sent_at = '2023-01-01 10:00:00';
 
@@ -265,6 +280,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -316,6 +332,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->first_name = 'Mario';
         $contact->last_name = 'Rossi';
 
@@ -327,6 +346,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -378,6 +398,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->token = 'abc123';
         $contact->verified_at = '2023-01-01 12:00:00';
 
@@ -389,6 +412,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -440,6 +464,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->attribute_1 = 'value1';
         $contact->attribute_2 = 'value2';
 
@@ -451,6 +478,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -502,6 +530,9 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->duplicate_count = 2;
 
         expect($contact->duplicate_count)->toBe(2);
@@ -511,6 +542,7 @@ describe('Contact Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -562,11 +594,15 @@ describe('Contact Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
         $contact->order_column = 1;
 
         expect($contact->order_column)->toBe(1);
     });
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,3 +707,5 @@ describe('Contact Business Logic', function () {
 >>>>>>> 763771402 (.)
 =======
 >>>>>>> a85ebf6cc (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

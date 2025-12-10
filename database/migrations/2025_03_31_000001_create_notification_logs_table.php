@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -7,6 +6,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 return new class extends Migration {
@@ -995,6 +995,9 @@ return new class extends Migration {
 =======
 return new class extends Migration {
 >>>>>>> a55aa5e96 (.)
+=======
+return new class extends Migration {
+>>>>>>> 02a2ea3c10 (.)
     /**
      * Esegue la migrazione.
      */
@@ -1014,6 +1017,7 @@ return new class extends Migration {
             $table->timestamps();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1657,6 +1661,9 @@ return new class extends Migration {
 =======
 
 >>>>>>> a55aa5e96 (.)
+=======
+
+>>>>>>> 02a2ea3c10 (.)
             $table->index(['notifiable_type', 'notifiable_id']);
             $table->index('status');
             $table->index('sent_at');
@@ -1671,5 +1678,3 @@ return new class extends Migration {
         Schema::dropIfExists('notification_logs');
     }
 };
-=======
->>>>>>> 301ad8b44 (.)

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Azioni SMS
 
 ## Interfaccia
@@ -44,6 +43,7 @@ Le azioni SMS sono organizzate secondo questa struttura:
 $smsData = new SmsData(
     to: '+393331234567',
     body: 'Il tuo codice OTP è: 123456',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     from: '<nome progetto>'
@@ -115,6 +115,9 @@ $smsData = new SmsData(
 =======
     from: '<nome progetto>'
 >>>>>>> a55aa5e96 (.)
+=======
+    from: '<nome progetto>'
+>>>>>>> 02a2ea3c10 (.)
 );
 
 $action = new SendNetfunSMSAction();
@@ -142,5 +145,3 @@ $result = $action->execute($smsData);
    - Validare l'input degli utenti
    - Sanitizzare i messaggi
    - Proteggere le chiavi API
-=======
->>>>>>> 301ad8b44 (.)

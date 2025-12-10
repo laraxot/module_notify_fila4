@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ee1815a34 (.)
 =======
@@ -20,6 +21,8 @@
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 4b0fcdd41 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 <?php
 
 declare(strict_types=1);
@@ -106,6 +109,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -693,6 +697,8 @@ return [
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> dab6c3768 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      * 'css' => [
      * '.button-content .button { background: red }',
      * ],
@@ -762,6 +768,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1384,6 +1391,8 @@ return [
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> dab6c3768 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
     'colors' => [
         'highlight' => '#004ca3',
@@ -1467,6 +1476,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2050,6 +2060,8 @@ return [
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> dab6c3768 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     'view' => [
         'senderName' => null,
         'reminder' => null,
@@ -2133,6 +2145,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2718,6 +2731,8 @@ return [
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> dab6c3768 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         'logo' => [
             'path' => '%PUBLIC%/vendor/beautymail/assets/images/sunny/logo.png',
             'width' => '',
@@ -2801,6 +2816,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3386,11 +3402,14 @@ return [
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> dab6c3768 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         'twitter' => null,
         'facebook' => null,
         'flickr' => null,
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3414,3 +3433,5 @@ return [
 >>>>>>> c7d5eaf96 (.)
 =======
 >>>>>>> 4b0fcdd41 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

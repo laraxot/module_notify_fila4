@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use BackedEnum;
@@ -39,6 +39,9 @@ use BackedEnum;
 =======
 use BackedEnum;
 >>>>>>> a55aa5e96 (.)
+=======
+use BackedEnum;
+>>>>>>> 02a2ea3c10 (.)
 use Filament\Pages\Page;
 use Modules\Notify\Filament\Clusters\Test;
 
@@ -46,11 +49,15 @@ class SlackNotification extends Page
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.clusters.test.pages.slack-notification';
 
     protected static null|string $cluster = Test::class;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1193,6 +1200,6 @@ class SlackNotification extends Page
 
     protected static null|string $cluster = Test::class;
 >>>>>>> a55aa5e96 (.)
-}
 =======
->>>>>>> 301ad8b44 (.)
+>>>>>>> 02a2ea3c10 (.)
+}

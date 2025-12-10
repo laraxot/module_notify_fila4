@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -6,6 +5,7 @@ declare(strict_types=1);
 use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 return new class() extends XotBaseMigration {
@@ -590,6 +590,9 @@ return new class() extends XotBaseMigration {
 =======
 return new class() extends XotBaseMigration {
 >>>>>>> a55aa5e96 (.)
+=======
+return new class() extends XotBaseMigration {
+>>>>>>> 02a2ea3c10 (.)
     public function up(): void
     {
         $this->tableCreate(function (Blueprint $table): void {
@@ -611,6 +614,7 @@ return new class() extends XotBaseMigration {
         $this->tableUpdate(function (Blueprint $table): void {
             $this->updateTimestamps($table, true);
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1532,7 +1536,7 @@ return new class () extends XotBaseMigration {
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     }
 };
-=======
->>>>>>> 301ad8b44 (.)

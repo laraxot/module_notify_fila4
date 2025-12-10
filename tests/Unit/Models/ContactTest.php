@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -3138,6 +3138,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
 >>>>>>> a55aa5e96 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\Contact;
+use Tests\TestCase;
+>>>>>>> 02a2ea3c10 (.)
 
 class ContactTest extends TestCase
 {
@@ -3214,6 +3219,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -3265,6 +3271,9 @@ class ContactTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedFillable = [
             'model_id',
@@ -3289,6 +3298,7 @@ class ContactTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $contact = new Contact();
 =======
 <<<<<<< HEAD
@@ -3340,6 +3350,9 @@ class ContactTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $contact = new Contact();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -3501,6 +3514,7 @@ class ContactTest extends TestCase
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 =======
 <<<<<<< HEAD
@@ -5466,6 +5480,9 @@ class ContactTest extends TestCase
 =======
         $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
 >>>>>>> a55aa5e96 (.)
+=======
+        $foundContact = Contact::where('model_type', 'App\Models\User')->where('model_id', '123')->first();
+>>>>>>> 02a2ea3c10 (.)
 
         $this->assertNotNull($foundContact);
         $this->assertEquals($contact->id, $foundContact->id);
@@ -5857,6 +5874,7 @@ class ContactTest extends TestCase
         $this->assertEquals(3, $orderedContacts[2]->order_column);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -8054,3 +8072,5 @@ class ContactTest extends TestCase
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

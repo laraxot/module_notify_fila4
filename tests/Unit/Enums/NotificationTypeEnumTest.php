@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -55,6 +54,7 @@ class NotificationTypeEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
@@ -797,6 +797,9 @@ class NotificationTypeEnumTest extends TestCase
 =======
         $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
 >>>>>>> a55aa5e96 (.)
+=======
+        $values = array_map(fn($case) => $case->value, NotificationTypeEnum::cases());
+>>>>>>> 02a2ea3c10 (.)
         $uniqueValues = array_unique($values);
 
 =======
@@ -857,5 +860,3 @@ class NotificationTypeEnumTest extends TestCase
         }
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

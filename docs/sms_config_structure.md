@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Struttura della Configurazione SMS 
 
 ## Introduzione
@@ -59,6 +58,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'password' => env('NETFUN_PASSWORD'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 <<<<<<< HEAD
@@ -128,6 +128,9 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 =======
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> a55aa5e96 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 02a2ea3c10 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Configurazioni avanzate specifiche per Netfun
@@ -186,6 +189,7 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
         'password' => env('NETFUN_PASSWORD'),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
 <<<<<<< HEAD
@@ -255,6 +259,9 @@ Le configurazioni specifiche per provider sono definite all'interno della sezion
 =======
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 >>>>>>> a55aa5e96 (.)
+=======
+        'sender' => env('NETFUN_SENDER', '<nome progetto>'),
+>>>>>>> 02a2ea3c10 (.)
         'api_url' => env('NETFUN_API_URL', 'https://v2.smsviainternet.it/api/rest/v1/sms-batch.json'),
         
         // Solo configurazioni veramente specifiche per Netfun
@@ -296,5 +303,3 @@ $retryDelay = $config['drivers'][$driver]['retry_delay'] ?? $config['retry']['de
 ---
 
 *Ultimo aggiornamento: 2025-05-12*
-=======
->>>>>>> 301ad8b44 (.)

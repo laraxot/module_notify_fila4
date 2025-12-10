@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +190,8 @@
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Analisi delle Pagine di Test Email
 
 ## 🎯 Panoramica
@@ -360,6 +363,7 @@ public function sendEmail(): void
 ## 🔗 Collegamenti
 
 - [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
@@ -2132,6 +2136,10 @@ public function sendEmail(): void
 - [Best Practices Laravel](https://laravel.com/docs/best-practices)
 - [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
 >>>>>>> a55aa5e96 (.)
+=======
+- [Best Practices Laravel](https://laravel.com/docs/best-practices)
+- [Convenzioni Laraxot](../Xot/docs/laraxot-conventions.md)
+>>>>>>> 02a2ea3c10 (.)
 
 ## 📋 Checklist
 
@@ -2144,6 +2152,7 @@ public function sendEmail(): void
 - [ ] Aggiungere logging
 - [ ] Migliorare la documentazione
 - [ ] Aggiungere test unitari
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [ ] Implementare caching 
@@ -3091,3 +3100,6 @@ public function sendEmail(): void
 =======
 - [ ] Implementare caching 
 >>>>>>> a55aa5e96 (.)
+=======
+- [ ] Implementare caching 
+>>>>>>> 02a2ea3c10 (.)

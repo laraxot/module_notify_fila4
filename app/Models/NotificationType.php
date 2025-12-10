@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -942,6 +942,8 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 7a2f131f (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 =======
 >>>>>>> 1487fe812 (.)
@@ -1081,6 +1083,7 @@ namespace Modules\Notify\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 75179b85 (.)
@@ -1091,11 +1094,14 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 /**
  * @method static Builder<static>|NotificationType newModelQuery()
  * @method static Builder<static>|NotificationType newQuery()
  * @method static Builder<static>|NotificationType query()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1174,12 +1180,15 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> f15c41e60 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
  * @mixin IdeHelperNotificationType
 =======
 >>>>>>> 05bc3ad (.)
  * @mixin \Eloquent
  */
 class NotificationType extends Model
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1293,6 +1302,8 @@ class NotificationType extends Model
 class NotificationType extends Model
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 {
     protected $fillable = [
         'name',
@@ -1300,5 +1311,3 @@ class NotificationType extends Model
         'template',
     ];
 }
-=======
->>>>>>> 301ad8b44 (.)

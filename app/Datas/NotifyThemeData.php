@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -9,6 +8,7 @@ use Spatie\LaravelData\Data;
 
 class NotifyThemeData extends Data
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1368,6 +1368,11 @@ class NotifyThemeData extends Data
 
     public null|string $from = null; // from name
 >>>>>>> a55aa5e96 (.)
+=======
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+>>>>>>> 02a2ea3c10 (.)
 
     public string $subject;
 
@@ -1375,5 +1380,3 @@ class NotifyThemeData extends Data
 
     public array $view_params;
 }
-=======
->>>>>>> 301ad8b44 (.)

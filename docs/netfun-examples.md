@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +168,8 @@
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Esempi Pratici Netfun
 
 ## 1. Invio SMS OTP
@@ -203,6 +206,7 @@ class OtpSmsNotification extends NetfunSmsNotification
 
         parent::__construct(
             message: "Il tuo codice OTP è: {$otp}. Valido fino alle {$this->expiresAt->format('H:i')}.",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             sender: '<nome progetto>'
@@ -1057,6 +1061,9 @@ class OtpSmsNotification extends NetfunSmsNotification
 =======
             sender: '<nome progetto>'
 >>>>>>> a55aa5e96 (.)
+=======
+            sender: '<nome progetto>'
+>>>>>>> 02a2ea3c10 (.)
         );
     }
 
@@ -1224,6 +1231,7 @@ class AppointmentReminderNotification extends NetfunSmsNotification
             message: $message,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>'
 =======
 <<<<<<< HEAD
@@ -2076,6 +2084,9 @@ class AppointmentReminderNotification extends NetfunSmsNotification
 =======
             sender: '<nome progetto>'
 >>>>>>> a55aa5e96 (.)
+=======
+            sender: '<nome progetto>'
+>>>>>>> 02a2ea3c10 (.)
         );
     }
 
@@ -2318,6 +2329,7 @@ public function sendBulkSms(Request $request)
             message: $request->message,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sender: '<nome progetto>',
 =======
 <<<<<<< HEAD
@@ -3170,6 +3182,9 @@ public function sendBulkSms(Request $request)
 =======
             sender: '<nome progetto>',
 >>>>>>> a55aa5e96 (.)
+=======
+            sender: '<nome progetto>',
+>>>>>>> 02a2ea3c10 (.)
             batchSize: 100,
             delayBetweenBatches: 1
         )->onQueue('bulk-sms')->execute();
@@ -3665,6 +3680,7 @@ class NetfunNotificationIntegrationTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3851,3 +3867,5 @@ class NetfunNotificationIntegrationTest extends TestCase
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1222,11 +1223,14 @@
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2632,6 +2636,8 @@ declare(strict_types=1);
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 @extends('beautymail::templates.sunny')
 
 @section('content')
@@ -2641,6 +2647,7 @@ declare(strict_types=1);
         'level' => 'h1',
     ])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2672,11 +2679,14 @@ declare(strict_types=1);
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     @include('beautymail::templates.sunny.contentStart')
 
         <p>Today will be a great day!</p>
 
     @include('beautymail::templates.sunny.contentEnd')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2698,12 +2708,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
     @include('beautymail::templates.sunny.button', [
         	'title' => 'Click me',
         	'link' => 'http://google.com'
     ])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 @stop
@@ -4665,3 +4678,6 @@ declare(strict_types=1);
 =======
 @stop
 >>>>>>> a55aa5e96 (.)
+=======
+@stop
+>>>>>>> 02a2ea3c10 (.)

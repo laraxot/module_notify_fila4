@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -2597,6 +2597,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplateLog;
 use Tests\TestCase;
 >>>>>>> a55aa5e96 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplateLog;
+use Tests\TestCase;
+>>>>>>> 02a2ea3c10 (.)
 
 class MailTemplateLogTest extends TestCase
 {
@@ -2649,6 +2654,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $log = new MailTemplateLog();
 =======
 <<<<<<< HEAD
@@ -2700,6 +2706,9 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedFillable = [
             'template_id',
@@ -2725,6 +2734,7 @@ class MailTemplateLogTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $log = new MailTemplateLog();
 =======
 <<<<<<< HEAD
@@ -2776,6 +2786,9 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $log = new MailTemplateLog();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -3318,6 +3331,7 @@ class MailTemplateLogTest extends TestCase
         $this->assertEmpty($log->metadata);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5137,3 +5151,5 @@ class MailTemplateLogTest extends TestCase
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

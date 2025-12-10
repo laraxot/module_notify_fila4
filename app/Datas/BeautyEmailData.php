@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -15,6 +14,7 @@ class BeautyEmailData extends Data
 
     // css must not be accessed before its inizialization.
     // sulla config beautymail di localhost manca, quindi va gestito se è vuoto
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public null|array $css = [];
@@ -958,8 +958,9 @@ class BeautyEmailData extends Data
 =======
     public null|array $css = [];
 >>>>>>> a55aa5e96 (.)
+=======
+    public null|array $css = [];
+>>>>>>> 02a2ea3c10 (.)
 
     public array $colors;
 }
-=======
->>>>>>> 301ad8b44 (.)

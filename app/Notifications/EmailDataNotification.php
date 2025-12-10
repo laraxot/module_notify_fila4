@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -21,6 +20,7 @@ class EmailDataNotification extends Notification
      * I dati dell'email da inviare.
      *
      * @var EmailData
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -79,6 +79,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      */
     protected EmailData $emailData;
 
@@ -86,6 +88,7 @@ class EmailDataNotification extends Notification
      * Create a new notification instance.
      *
      * @param EmailData $emailData I dati dell'email da inviare
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -137,6 +140,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      */
     public function __construct(EmailData $emailData)
     {
@@ -146,6 +151,7 @@ class EmailDataNotification extends Notification
     /**
      * Get the notification's delivery channels.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -935,10 +941,13 @@ class EmailDataNotification extends Notification
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @param object $_notifiable The entity to be notified (not used in this method)
      * @return array<string>
      */
     public function via(object $_notifiable): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1419,6 +1428,8 @@ class EmailDataNotification extends Notification
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     {
         return ['mail'];
     }
@@ -1428,6 +1439,9 @@ class EmailDataNotification extends Notification
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @param object $notifiable The entity to be notified
      * @return MailMessage
 =======
@@ -1437,6 +1451,7 @@ class EmailDataNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2093,6 +2108,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 26d39e2eb (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         $mailMessage = new MailMessage()
             ->subject($this->emailData->subject)
             ->line($this->emailData->body);
@@ -2103,8 +2120,8 @@ class EmailDataNotification extends Notification
 >>>>>>> bf479cc (.)
 
         if (!empty($this->emailData->body_html)) {
-<<<<<<< HEAD
             $mailMessage->view('notify::emails.template', [
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3437,10 +3454,13 @@ class EmailDataNotification extends Notification
 =======
             $mailMessage->view('notify::emails.template', [
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
                 'content' => $this->emailData->body_html,
             ]);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
@@ -4018,6 +4038,10 @@ class EmailDataNotification extends Notification
         if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
             $mailMessage->from($this->emailData->from_email, $this->emailData->from);
 >>>>>>> a55aa5e96 (.)
+=======
+        if (!empty($this->emailData->from_email) && !empty($this->emailData->from)) {
+            $mailMessage->from($this->emailData->from_email, $this->emailData->from);
+>>>>>>> 02a2ea3c10 (.)
         }
 
         return $mailMessage;
@@ -4027,6 +4051,7 @@ class EmailDataNotification extends Notification
      * Get the array representation of the notification.
      *
      * @param object $notifiable The entity to be notified
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -4078,6 +4103,8 @@ class EmailDataNotification extends Notification
 >>>>>>> 7ceb00286 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
      * @return array<string, string|null>
      */
     public function toArray(object $notifiable): array
@@ -4091,5 +4118,3 @@ class EmailDataNotification extends Notification
         ];
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

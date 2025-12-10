@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -491,6 +492,8 @@
 >>>>>>> f963d2c0 (.)
 >>>>>>> 50d6b63f (.)
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -544,6 +547,7 @@ This document serves as the central index for the Notify module, providing guida
 - [Email Templates](./EMAIL_TEMPLATES.md)
 - [SMS Implementation](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2159,6 +2163,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 >>>>>>> f3086887 (rebase 210)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -2175,442 +2181,13 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - **Configurazione**: Offre opzioni di configurazione flessibili per diversi provider di notifica
 
 ## Collegamenti Correlati
-<<<<<<< HEAD
-- [Documentazione Generale <nome progetto>](../../../../docs/README.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 75179b8 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c8b1c8bf (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 75179b85 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> f963d2c0 (.)
-=======
-=======
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> 94c68e2 (.)
->>>>>>> bb7e77c2 (.)
-=======
-=======
->>>>>>> 94c68e2 (.)
-=======
->>>>>>> e627c3b (.)
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> 94c68e2 (.)
->>>>>>> bb7e77c2 (.)
-=======
-=======
->>>>>>> 94c68e2 (.)
-=======
->>>>>>> e627c3b (.)
->>>>>>> f3086887 (rebase 210)
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31f5d28f (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> ee18dd92 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
->>>>>>> 6608a1a0 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 3f39ac8b (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> bd22fd4 (.)
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> bd22fd4 (.)
-=======
->>>>>>> 94c68e2 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> bb7e77c2 (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 467a2e4 (.)
-<<<<<<< HEAD
->>>>>>> 712617d3 (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 3a87c62 (.)
-=======
->>>>>>> e627c3b (.)
-<<<<<<< HEAD
->>>>>>> f3086887 (rebase 210)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 36ac4fc1 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
->>>>>>> 69fa7d37 (.)
-=======
->>>>>>> fbed41ac (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 75179b85 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> f963d2c0 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 75179b855 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> f963d2c0 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> ee18dd92 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
->>>>>>> 6608a1a0 (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 3f39ac8b (.)
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
-=======
-- [Documentazione Generale PTV](../../../../docs/README.md)
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> bd22fd4 (.)
->>>>>>> 4f042b88 (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> bd22fd4 (.)
-=======
->>>>>>> 94c68e2 (.)
->>>>>>> bb7e77c2 (.)
-=======
-=======
-- [Documentazione Generale SaluteOra](../../../../docs/README.md)
->>>>>>> 467a2e4 (.)
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
->>>>>>> laraxot/develop
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
 - [Modulo Lang](../../Lang/docs/README.md)
 - [Modulo UI](../../UI/docs/README.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 9cf0dc90 (.)
-<<<<<<< HEAD
-=======
->>>>>>> c8b1c8bf (.)
-=======
->>>>>>> 9cf0dc90 (.)
 
-=======
-=======
-=======
 
-=======
-=======
-=======
-=======
-
-=======
-=======
-=======
-
-=======
->>>>>>> 75179b8 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c8b1c8bf (.)
-=======
-=======
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> ee18dd92 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 6608a1a0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> bb7e77c2 (.)
-=======
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
-=======
-
->>>>>>> bf479cc (.)
-=======
->>>>>>> bd22fd4 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4f042b88 (.)
-=======
-=======
->>>>>>> bb7e77c2 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 94c68e2 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> bb7e77c2 (.)
-=======
-=======
->>>>>>> 467a2e4 (.)
-<<<<<<< HEAD
->>>>>>> 712617d3 (.)
-=======
-=======
->>>>>>> 3a87c62 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> e627c3b (.)
-<<<<<<< HEAD
->>>>>>> f3086887 (rebase 210)
-=======
->>>>>>> 36ac4fc1 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 69fa7d37 (.)
-=======
->>>>>>> fbed41ac (.)
-=======
->>>>>>> c8b1c8bf (.)
-=======
-=======
->>>>>>> f963d2c (.)
->>>>>>> 9cf0dc90 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> 75179b855 (.)
-=======
->>>>>>> f963d2c0 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 31f5d28f (.)
-=======
->>>>>>> ee18dd92 (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 6608a1a0 (.)
-=======
->>>>>>> 3f39ac8b (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
->>>>>>> 909e45af (.)
-=======
-=======
-
->>>>>>> bf479cc (.)
-=======
->>>>>>> bd22fd4 (.)
->>>>>>> 4f042b88 (.)
-=======
->>>>>>> bb7e77c2 (.)
-=======
-=======
->>>>>>> 467a2e4 (.)
->>>>>>> 712617d3 (.)
-=======
->>>>>>> f3086887 (rebase 210)
->>>>>>> laraxot/develop
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -2654,14 +2231,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 - [Standard Traduzioni](./TRANSLATION_STANDARDS.md) - Standard per le chiavi di traduzione
 
 ### Testing e Qualità
-<<<<<<< HEAD
-- [PHPStan Level 10](./phpstan-level10-analysis.md) - Analisi e correzioni per PHPStan Level 10
-- [Quality Improvements](./quality-improvements-2025-01-06.md) - Riepilogo miglioramenti qualità codice
-- [Migration Fixes Summary](./migration-fixes-summary.md) - Correzioni migrazioni e server
-- [Troubleshooting](./troubleshooting.md) - Risoluzione problemi comuni (ParseError, PHPStan, etc.)
-=======
 - [PHPStan Level 10](./PHPSTAN_LEVEL10_FIXES.md) - Correzioni per PHPStan Level 10
->>>>>>> laraxot/develop
 - [Testing](./TESTING.md) - Strategie e approcci per il testing
 
 ## Linee Guida per l'Implementazione
@@ -2691,10 +2261,11 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 - **Fallimenti di Consegna**: Assicurarsi della corretta configurazione di chiavi API e endpoint per ogni canale di notifica
 - **Errori Template**: Verificare sintassi template e placeholder per evitare problemi di rendering
 - **Colli di Bottiglia Performance**: Utilizzare il queueing per l'invio di notifiche per prevenire ritardi nell'esperienza utente
-<<<<<<< HEAD
+
 ## Documentazione e Aggiornamenti
 - Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
 - Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5248,6 +4819,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> d09cb759 (.)
 >>>>>>> 50d6b63f (.)
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 ## Sottocartelle
 
@@ -5258,6 +4831,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ### Notifications
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
@@ -5485,6 +5059,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 69fa7d37 (.)
 =======
 >>>>>>> c7d5eaf96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 ## Collegamenti alla Documentazione Correlata
 - [Panoramica Architettura](./ARCHITECTURE.md)
 - [Implementazione Canali Notifica](./NOTIFICATION_CHANNELS_IMPLEMENTATION.md)
@@ -5492,6 +5068,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - [Implementazione SMS](./SMS_IMPLEMENTATION.md)
 - [Troubleshooting](./TROUBLESHOOTING.md)
 
+<<<<<<< HEAD
 >>>>>>> bf479cc (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6155,13 +5732,21 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> bd804d67 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+## Note sulla Manutenzione
+Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
+
+>>>>>>> 02a2ea3c10 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
-- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6263,42 +5848,21 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> de02998b (.)
 =======
+=======
+>>>>>>> 02a2ea3c10 (.)
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
->>>>>>> f963d2c0 (.)
-=======
->>>>>>> d09cb759 (.)
-=======
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 82ae73be (.)
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 207ac35e (.)
-=======
->>>>>>> 9777d1b3 (.)
-=======
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
+<<<<<<< HEAD
 >>>>>>> f963d2c0 (.)
 =======
 <<<<<<< HEAD
@@ -6684,6 +6248,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 10b3b08 (.)
 >>>>>>> bd804d67 (.)
 >>>>>>> laraxot/develop
+=======
+>>>>>>> 02a2ea3c10 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -6694,6 +6260,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7865,13 +7432,17 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 >>>>>>> d09cb759 (.)
 =======
+=======
+>>>>>>> 02a2ea3c10 (.)
 Ultimo aggiornamento: 14 Maggio 2025
 
 ## Risoluzione conflitti e standard
 - Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< HEAD
 >>>>>>> d284d65 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7886,88 +7457,20 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 02a2ea3c10 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
-=======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
-=======
->>>>>>> 2fc60436 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni"
 
 *Ultimo aggiornamento: Gennaio 2025*
->>>>>>> bf479cc (.)
->>>>>>> 31bdf6b (.)
-<<<<<<< HEAD
->>>>>>> 69fa7d37 (.)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 5e14ac3 (.)
->>>>>>> fbed41ac (.)
-=======
-=======
-- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
-*Ultimo aggiornamento: Gennaio 2025*
->>>>>>> 75179b8 (.)
-<<<<<<< HEAD
->>>>>>> c8b1c8bf (.)
-=======
-=======
->>>>>>> 82ae73be (.)
-=======
->>>>>>> 207ac35e (.)
-=======
->>>>>>> de02998b (.)
-=======
->>>>>>> 011072e4 (.)
-=======
->>>>>>> 4d2eb53e (.)
-=======
->>>>>>> 888799d0 (.)
-=======
->>>>>>> 2a97406c (.)
-=======
-=======
->>>>>>> f813254 (.)
->>>>>>> f2e64178 (.)
-=======
-=======
->>>>>>> 6d08c01b (.)
-=======
->>>>>>> 2e67a2a (.)
-=======
->>>>>>> 6b6b9e41 (.)
-=======
->>>>>>> c4bdacbf (.)
-=======
->>>>>>> e5b598a (.)
-=======
->>>>>>> 8e5817bc (.)
-=======
->>>>>>> e0d9c9be (.)
-=======
->>>>>>> 10b3b08 (.)
-=======
->>>>>>> bd804d67 (.)
-Ultimo aggiornamento: 14 Maggio 2025
-
-## Risoluzione conflitti e standard
-- Il file `lang/it/notify_theme.php` è stato risolto manualmente mantenendo PSR-12, strict_types, array short syntax e solo chiavi effettive, come richiesto dagli standard PHPStan livello 10.
-- Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+<<<<<<< HEAD
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8092,74 +7595,24 @@ Ultimo aggiornamento: 14 Maggio 2025
 >>>>>>> 909e45af (.)
 =======
 =======
-- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
-- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
->>>>>>> b19cd40 (.)
->>>>>>> d5c4b93 (.)
-<<<<<<< HEAD
->>>>>>> 6d08c01b (.)
-=======
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 2e67a2a (.)
-<<<<<<< HEAD
->>>>>>> 6b6b9e41 (.)
-=======
-=======
->>>>>>> 2bcb149 (.)
-<<<<<<< HEAD
->>>>>>> c6c33175 (.)
-=======
-=======
-- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
-*Ultimo aggiornamento: Gennaio 2025*
->>>>>>> bd22fd4 (.)
-<<<<<<< HEAD
->>>>>>> 4f042b88 (.)
-=======
 =======
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
-- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
->>>>>>> d284d65 (.)
->>>>>>> 4e643df (.)
-<<<<<<< HEAD
->>>>>>> c4bdacbf (.)
-=======
-=======
->>>>>>> 94c68e2 (.)
-<<<<<<< HEAD
->>>>>>> bb7e77c2 (.)
-=======
-=======
 - Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
->>>>>>> b19cd40 (.)
->>>>>>> e5b598a (.)
-<<<<<<< HEAD
->>>>>>> 8e5817bc (.)
-=======
-=======
-=======
->>>>>>> 4e2ebfb (.)
->>>>>>> 806a0e3 (.)
-<<<<<<< HEAD
->>>>>>> e0d9c9be (.)
-=======
-=======
->>>>>>> 1f13f40 (.)
-<<<<<<< HEAD
->>>>>>> 7a2f131f (.)
-=======
-=======
+>>>>>>> 02a2ea3c10 (.)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
->>>>>>> 467a2e4 (.)
-<<<<<<< HEAD
->>>>>>> 712617d3 (.)
-=======
-=======
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 >>>>>>> d284d65 (.)
 >>>>>>> 10b3b08 (.)
@@ -8963,6 +8416,50 @@ Ultimo aggiornamento: 14 Maggio 2025
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
+=======
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Vedi anche: [../../../../project_docs/README.md](../../../../project_docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+- Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+>>>>>>> 02a2ea3c10 (.)
 >>>>>>> 301ad8b44 (.)
 =======
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -17,6 +16,7 @@ return [
             'email_sent' => 'Email inviate',
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ];
@@ -1978,3 +1978,6 @@ return [
 =======
 ];
 >>>>>>> a55aa5e96 (.)
+=======
+];
+>>>>>>> 02a2ea3c10 (.)

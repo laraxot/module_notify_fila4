@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +168,8 @@
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 # Utilizzo Corretto degli Allegati nelle Email Spatie
 
 Questa documentazione descrive come utilizzare correttamente il metodo `addAttachments()` nella classe `SpatieEmail` del modulo Notify.
@@ -183,6 +186,7 @@ $attachments = [
     [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 =======
 <<<<<<< HEAD
@@ -1059,6 +1063,9 @@ $attachments = [
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
 >>>>>>> a55aa5e96 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/images/avatars/default-3.svg',
+>>>>>>> 02a2ea3c10 (.)
         'as' => 'logo.svg',  // Opzionale: nome del file da mostrare nell'email
         'mime' => 'image/svg+xml',  // Opzionale: MIME type del file
     ],
@@ -1066,6 +1073,7 @@ $attachments = [
     [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 =======
 <<<<<<< HEAD
@@ -1942,6 +1950,9 @@ $attachments = [
 =======
         'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
 >>>>>>> a55aa5e96 (.)
+=======
+        'path' => '/var/www/html/<nome progetto>/public_html/documents/terms.pdf',
+>>>>>>> 02a2ea3c10 (.)
         'as' => 'termini.pdf',
         'mime' => 'application/pdf',
     ],
@@ -2035,6 +2046,7 @@ Ogni allegato deve contenere i seguenti parametri:
 - [EMAIL_LAYOUTS_BEST_PRACTICES.md](../mail-templates/EMAIL_LAYOUTS_BEST_PRACTICES.md)
 - [SPATIE_MAIL_TEMPLATES_STRUCTURE.md](../mail-templates/SPATIE_MAIL_TEMPLATES_STRUCTURE.md)
 - [EMAIL_TROUBLESHOOTING.md](./EMAIL_TROUBLESHOOTING.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2234,3 +2246,5 @@ Ogni allegato deve contenere i seguenti parametri:
 >>>>>>> 379ffe3f3 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

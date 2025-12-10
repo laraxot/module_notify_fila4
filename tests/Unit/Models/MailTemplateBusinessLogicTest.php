@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,6 +227,8 @@ use Spatie\Translatable\HasTranslations;
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -237,55 +238,18 @@ use Modules\Notify\Models\MailTemplate;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
 
 describe('MailTemplate Business Logic', function () {
     test('mail template extends spatie mail template', function () {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 75179b8 (.)
-=======
->>>>>>> 75179b85 (.)
-=======
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
-=======
->>>>>>> 75179b8 (.)
->>>>>>> c8b1c8bf (.)
-
-<<<<<<< HEAD
-describe('MailTemplate Business Logic', function () {
-    test('mail template extends spatie mail template', function () {
-=======
-use function Safe\class_uses;
-
-describe('MailTemplate Business Logic', function (): void {
-    test('mail template extends spatie mail template', function (): void {
->>>>>>> 7d765981 (.)
-=======
-=======
->>>>>>> 99ff506 (.)
->>>>>>> f1c9518b (.)
-
-describe('MailTemplate Business Logic', function () {
-    test('mail template extends spatie mail template', function () {
->>>>>>> 75179b85 (.)
-=======
-
-describe('MailTemplate Business Logic', function () {
-    test('mail template extends spatie mail template', function () {
->>>>>>> 75179b855 (.)
->>>>>>> laraxot/develop
         expect(MailTemplate::class)->toBeSubclassOf(\Spatie\MailTemplates\Models\MailTemplate::class);
     });
 
@@ -341,6 +305,7 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -392,6 +357,9 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 02a2ea3c10 (.)
         $mailTemplate->name = 'Welcome Email';
         $mailTemplate->subject = 'Welcome to our platform';
         $mailTemplate->html_template = '<h1>Welcome!</h1>';
@@ -413,6 +381,7 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -464,6 +433,9 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 02a2ea3c10 (.)
         $mailTemplate->mailable = 'App\\Mail\\WelcomeMail';
 <<<<<<< HEAD
 
@@ -481,6 +453,7 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -532,6 +505,9 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 02a2ea3c10 (.)
         $mailTemplate->version = 2;
 <<<<<<< HEAD
 
@@ -549,6 +525,7 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -600,6 +577,9 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 02a2ea3c10 (.)
         $mailTemplate->text_template = 'Welcome! This is plain text.';
 <<<<<<< HEAD
 
@@ -637,6 +617,7 @@ describe('MailTemplate Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $mailTemplate = new MailTemplate();
 =======
 <<<<<<< HEAD
@@ -688,6 +669,9 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $mailTemplate = new MailTemplate();
+>>>>>>> 02a2ea3c10 (.)
         $mailTemplate->created_by = 'user-1';
         $mailTemplate->updated_by = 'user-2';
 <<<<<<< HEAD
@@ -699,6 +683,7 @@ describe('MailTemplate Business Logic', function () {
         expect($mailTemplate->updated_by)->toBe('user-2');
     });
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -741,3 +726,5 @@ describe('MailTemplate Business Logic', function () {
 >>>>>>> 8c19c8df2 (.)
 =======
 >>>>>>> 26d39e2eb (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

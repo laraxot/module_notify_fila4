@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1172,12 +1172,18 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
 
 class NetfunSmsResponseData extends Data
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1194,12 +1200,15 @@ class NetfunSmsResponseData extends Data
 >>>>>>> 1487fe812 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     /**
      * @param string $status
      * @param string|null $batchId
      * @param array<int, array<string, mixed>>|null $messages
      * @param string|null $error
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1211,6 +1220,8 @@ class NetfunSmsResponseData extends Data
 =======
 >>>>>>> 75179b85 (.)
 >>>>>>> 1487fe812 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     public function __construct(
         public string $status,
         public null|string $batchId = null,
@@ -1218,6 +1229,7 @@ class NetfunSmsResponseData extends Data
         public null|string $error = null,
     ) {}
 
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 75179b85 (.)
@@ -1705,12 +1717,15 @@ class NetfunSmsResponseData extends Data
     ) {}
 
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
     /**
      * @param array{status: string, batchId?: string, messages?: array<int, array<string, mixed>>, error?: string} $data
      * @return self
      */
     public static function fromArray(array $data): self
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1720,6 +1735,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> laraxot/develop
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         /** @var string $status */
         $status = $data['status'];
         /** @var string|null $batchId */
@@ -1733,6 +1750,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/develop
@@ -1742,6 +1760,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> f15c41e60 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             status: $status,
             batchId: $batchId,
             messages: $messages,
@@ -1750,6 +1770,7 @@ class NetfunSmsResponseData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3220,8 +3241,8 @@ class NetfunSmsResponseData extends Data
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
         );
     }
 }
-=======
->>>>>>> 301ad8b44 (.)

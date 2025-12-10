@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -2597,6 +2597,11 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
 >>>>>>> a55aa5e96 (.)
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+>>>>>>> 02a2ea3c10 (.)
 
 class NotifyThemeTest extends TestCase
 {
@@ -2663,6 +2668,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2714,6 +2720,9 @@ class NotifyThemeTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedFillable = [
             'id',
@@ -2742,6 +2751,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2793,6 +2803,9 @@ class NotifyThemeTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedCasts = [
             'id' => 'string',
@@ -2815,6 +2828,7 @@ class NotifyThemeTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $theme = new NotifyTheme();
 =======
 <<<<<<< HEAD
@@ -2866,6 +2880,9 @@ class NotifyThemeTest extends TestCase
 >>>>>>> e53a56570 (.)
 =======
 >>>>>>> 7ceb00286 (.)
+=======
+        $theme = new NotifyTheme();
+>>>>>>> 02a2ea3c10 (.)
 
         $expectedAppends = ['logo'];
 
@@ -3390,6 +3407,7 @@ class NotifyThemeTest extends TestCase
         $this->assertFalse($theme->view_params['features']['animations']);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5209,3 +5227,5 @@ class NotifyThemeTest extends TestCase
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)

@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 <?php
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,6 +1149,11 @@ declare(strict_types=1);
 
 
 >>>>>>> a55aa5e96 (.)
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 02a2ea3c10 (.)
 return [
     'resource' => [
         'name' => 'Template Notifiche',
@@ -1256,5 +1261,3 @@ return [
         'template_deleted' => 'Il template è stato eliminato con successo',
     ],
 ];
-=======
->>>>>>> 301ad8b44 (.)

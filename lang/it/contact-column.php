@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 /**
  * Traduzioni per ContactColumn - Colonna Filament per contatti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -436,10 +436,13 @@ declare(strict_types=1);
 =======
 >>>>>>> f2e64178 (.)
 >>>>>>> 23f115647 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
  *
  * File di traduzione per la colonna riutilizzabile ContactColumn
  * che utilizza ContactTypeEnum per il rendering centralizzato.
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3653,6 +3656,10 @@ declare(strict_types=1);
 =======
 >>>>>>> 75179b8 (.)
 >>>>>>> 7ceb00286 (.)
+=======
+ * @author Laraxot Team
+ * @version 1.0
+>>>>>>> 02a2ea3c10 (.)
  * @since 2025-08-01
  */
 return [
@@ -3672,5 +3679,3 @@ return [
         'no_contacts' => 'Nessun contatto disponibile',
     ],
 ];
-=======
->>>>>>> 301ad8b44 (.)

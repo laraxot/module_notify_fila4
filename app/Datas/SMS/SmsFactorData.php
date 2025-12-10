@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 namespace Modules\Notify\Datas\SMS;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1843,6 +1843,9 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
+=======
+use Illuminate\Support\Arr;
+>>>>>>> 02a2ea3c10 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1861,10 +1864,10 @@ class SmsFactorData extends Data
     {
         if (!(self::$instance instanceof SmsFactorData)) {
             /*
-<<<<<<< HEAD
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3577,6 +3580,8 @@ class SmsFactorData extends Data
 >>>>>>> cbb586cb0 (.)
 =======
 >>>>>>> a55aa5e96 (.)
+=======
+>>>>>>> 02a2ea3c10 (.)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -3590,6 +3595,7 @@ class SmsFactorData extends Data
             case 'bearer':
             default:
                 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5696,6 +5702,11 @@ class SmsFactorData extends Data
                     'Content-Type' => 'application/json',
                     'Cache-Control' => 'no-cache',
 >>>>>>> a55aa5e96 (.)
+=======
+                    'Authorization' => 'Bearer ' . $this->token,
+                    'Content-Type' => 'application/json',
+                    'Cache-Control' => 'no-cache',
+>>>>>>> 02a2ea3c10 (.)
                 ];
         }
     }
@@ -5710,5 +5721,3 @@ class SmsFactorData extends Data
         return $this->timeout;
     }
 }
-=======
->>>>>>> 301ad8b44 (.)
