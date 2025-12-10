@@ -113,6 +113,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura di Configurazione nei Moduli <nome progetto>
 =======
 # Struttura di Configurazione nei Moduli 
@@ -553,6 +554,9 @@
 =======
 # Struttura di Configurazione nei Moduli SaluteOra
 >>>>>>> 9721a5b2 (.)
+=======
+# Struttura di Configurazione nei Moduli SaluteOra
+>>>>>>> 712617d3 (.)
 
 ## Principi di Configurazione
 
@@ -629,6 +633,7 @@
 4. **Centralizza Logiche Comuni**
    - Rate limit, retry e circuit breaking dovrebbero essere configurati una volta sola
    - L'implementazione dovrebbe utilizzare queste configurazioni generiche
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -741,3 +746,5 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

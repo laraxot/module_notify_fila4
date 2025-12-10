@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -105,6 +106,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Sistema di Email Template
 
 ## Introduzione
@@ -227,6 +230,7 @@ Il modulo Notify implementa un sistema avanzato di gestione delle email template
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ➡️ **Documentazione completa**: [<nome progetto>: Missing Mail Template Error](../../<nome progetto>/docs/errori/missing-mail-template-spatiemail.md)  
 =======
 ➡️ **Documentazione completa**: [Modulo Generico: Missing Mail Template Error](../../<nome modulo>/docs/errori/missing-mail-template-spatiemail.md)  
@@ -613,6 +617,10 @@ Il modulo Notify implementa un sistema avanzato di gestione delle email template
 ➡️ **Documentazione completa**: [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)  
 ➡️ **Pattern globali**: [Missing Mail Template Patterns](../../../docs/errori_gravi/missing-mail-template-patterns.md)
 >>>>>>> 4f042b88 (.)
+=======
+➡️ **Documentazione completa**: [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)  
+➡️ **Pattern globali**: [Missing Mail Template Patterns](../../../docs/errori_gravi/missing-mail-template-patterns.md)
+>>>>>>> 712617d3 (.)
 
 ### Fix Immediato
 
@@ -866,6 +874,7 @@ MailTemplate::create([
    - Eseguire `CriticalMailTemplatesSeeder`
    - Verificare esistenza template con `php artisan mail:check-templates`
    - Implementare validazione slug nelle Actions
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1418,6 +1427,9 @@ MailTemplate::create([
 =======
    - ➡️ [Documentazione completa errore](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)
 >>>>>>> 9721a5b2 (.)
+=======
+   - ➡️ [Documentazione completa errore](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md)
+>>>>>>> 712617d3 (.)
 
 2. **Template non trovato**
    - Verificare che il template esista nel database
@@ -1450,6 +1462,7 @@ php artisan tinker
 ## Collegamenti Correlati
 
 ### **Errori Critici e Soluzioni**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2002,6 +2015,9 @@ php artisan tinker
 =======
 - [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
 >>>>>>> 9721a5b2 (.)
+=======
+- [SaluteOra: Missing Mail Template Error](../../SaluteOra/docs/errori/missing-mail-template-spatiemail.md) - **URGENT**
+>>>>>>> 712617d3 (.)
 - [Missing Mail Template Patterns](../../../docs/errori_gravi/missing-mail-template-patterns.md) - Pattern globali
 - [Array to String Conversion](../../../docs/errori_gravi/array-to-string-conversion-patterns.md) - Errore correlato
 
@@ -2118,6 +2134,7 @@ php artisan tinker
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31f5d28f (.)
 =======
@@ -2565,6 +2582,9 @@ php artisan tinker
 =======
 - [Configurazione Email](../../../docs/email-configuration.md)
 >>>>>>> 4f042b88 (.)
+=======
+- [Configurazione Email](../../../docs/email-configuration.md)
+>>>>>>> 712617d3 (.)
 - [Documentazione Traduzioni](./translations.md)
 - [Proposta Slug Template](./EMAIL_TEMPLATE_SLUG_PROPOSAL.md)
 - [Notify Module Index](./INDEX.md)
@@ -2612,6 +2632,7 @@ php artisan tinker
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -2690,3 +2711,5 @@ php artisan tinker
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

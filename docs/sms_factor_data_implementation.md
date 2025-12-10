@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -117,6 +118,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # SmsFactorData Implementation Summary
 
 ## Overview
@@ -387,6 +390,7 @@ public function __construct()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1323,6 +1327,10 @@ public function __construct()
 - `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
 - `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
 >>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms/drivers/smsfactor/data-class.md`: Comprehensive documentation for `SmsFactorData`
+- `/Modules/Notify/docs/sms_implementation.md`: Updated to include data class information
+>>>>>>> 712617d3 (.)
 
 **Documentation Includes**:
 - Complete class structure and properties
@@ -1621,6 +1629,7 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 =======
 - `/Modules/Notify/project_docs/sms_implementation.md`: General SMS implementation documentation
@@ -2435,6 +2444,9 @@ $this->assertEquals('Bearer test_token', $headers['Authorization']);
 =======
 - `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
 >>>>>>> 9721a5b2 (.)
+=======
+- `/Modules/Notify/docs/sms_implementation.md`: General SMS implementation documentation
+>>>>>>> 712617d3 (.)
 
 ## Conclusion
 
@@ -2477,6 +2489,7 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -2563,3 +2576,5 @@ The implementation of `SmsFactorData` and the refactoring of `SendSmsFactorSMSAc
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

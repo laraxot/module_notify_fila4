@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Implementazione di Notifiche Multi-Canale 
 
 <<<<<<< HEAD
@@ -638,6 +639,11 @@ Questa documentazione descrive come implementare correttamente notifiche multi-c
 =======
 Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
 >>>>>>> 9721a5b2 (.)
+=======
+# Implementazione di Notifiche Multi-Canale 
+
+Questa documentazione descrive come implementare correttamente notifiche multi-canale (email, SMS, Telegram) nel modulo Notify di SaluteOra.
+>>>>>>> 712617d3 (.)
 
 ## Indice
 
@@ -762,6 +768,7 @@ Questa documentazione descrive come implementare correttamente notifiche multi-c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
 =======
  utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
@@ -1204,6 +1211,9 @@ SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni 
 =======
 SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
 >>>>>>> 9721a5b2 (.)
+=======
+SaluteOra utilizza il sistema di notifiche di Laravel per inviare comunicazioni attraverso diversi canali. Ogni canale richiede un'implementazione specifica per garantire la corretta consegna dei messaggi.
+>>>>>>> 712617d3 (.)
 
 ## Architettura delle Notifiche
 
@@ -1382,6 +1392,7 @@ public function toMail($notifiable): SpatieEmail
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <nome progetto> supporta diversi provider SMS. La configurazione di base prevede:
 =======
  supporta diversi provider SMS. La configurazione di base prevede:
@@ -1824,6 +1835,9 @@ SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
 =======
 SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
 >>>>>>> 9721a5b2 (.)
+=======
+SaluteOra supporta diversi provider SMS. La configurazione di base prevede:
+>>>>>>> 712617d3 (.)
 
 1. Installazione del provider scelto:
    ```bash
@@ -2089,6 +2103,7 @@ class AppointmentNotification extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di <nome progetto>, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
 =======
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di , implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
@@ -2531,6 +2546,9 @@ Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS.
 =======
 Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
 >>>>>>> 9721a5b2 (.)
+=======
+Netfun è un provider di SMS italiano che offre API per l'invio di messaggi SMS. Seguendo l'architettura di SaluteOra, implementeremo l'integrazione con Netfun utilizzando Spatie Queueable Actions.
+>>>>>>> 712617d3 (.)
 
 ### 1. Configurazione
 
@@ -2654,6 +2672,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
         'sender' => env('NETFUN_SENDER', ''),
@@ -3096,6 +3115,9 @@ return [
 =======
         'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> 9721a5b2 (.)
+=======
+        'sender' => env('NETFUN_SENDER', 'SaluteOra'),
+>>>>>>> 712617d3 (.)
         'api_url' => env('NETFUN_API_URL', 'https://api.netfun.it/sms/v1/'),
     ],
 ];
@@ -3216,6 +3238,7 @@ NETFUN_PASSWORD=your_password
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 =======
 NETFUN_SENDER=
@@ -3658,6 +3681,9 @@ NETFUN_SENDER=SaluteOra
 =======
 NETFUN_SENDER=SaluteOra
 >>>>>>> 9721a5b2 (.)
+=======
+NETFUN_SENDER=SaluteOra
+>>>>>>> 712617d3 (.)
 ```
 
 ### 2. Creazione della Queueable Action
@@ -4098,6 +4124,7 @@ class AppointmentReminder extends Notification
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. <nome progetto>.")
 =======
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. .")
@@ -4540,6 +4567,9 @@ class AppointmentReminder extends Notification
 =======
             ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
 >>>>>>> 9721a5b2 (.)
+=======
+            ->content("Gentile {$notifiable->first_name}, le ricordiamo il suo appuntamento del {$date}. SaluteOra.")
+>>>>>>> 712617d3 (.)
             ->reference('app_' . $this->appointment->id);
     }
     
@@ -4694,6 +4724,7 @@ class NetfunSMSTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->content('Test SMS da <nome progetto>')
 =======
             ->content('Test SMS da ')
@@ -5136,6 +5167,9 @@ class NetfunSMSTest extends TestCase
 =======
             ->content('Test SMS da SaluteOra')
 >>>>>>> 9721a5b2 (.)
+=======
+            ->content('Test SMS da SaluteOra')
+>>>>>>> 712617d3 (.)
             ->reference('test_123');
         
         $result = $action->execute(
@@ -5281,6 +5315,7 @@ class AppointmentReminderController extends Controller
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. <nome progetto>.")
 =======
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. .")
@@ -5723,6 +5758,9 @@ class AppointmentReminderController extends Controller
 =======
             ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
 >>>>>>> 9721a5b2 (.)
+=======
+            ->content("Gentile {$appointment->patient->first_name}, le ricordiamo il suo appuntamento del {$appointment->date->format('d/m/Y H:i')}. SaluteOra.")
+>>>>>>> 712617d3 (.)
             ->reference('app_' . $appointment->id);
         
         // Esecuzione asincrona
@@ -5863,6 +5901,7 @@ TELEGRAM_BOT_TOKEN=12345:ABC...
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -5941,3 +5980,5 @@ TELEGRAM_BOT_TOKEN=12345:ABC...
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

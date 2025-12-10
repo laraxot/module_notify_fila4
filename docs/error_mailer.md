@@ -41,6 +41,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -117,6 +118,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Error Mailer System
 
 ## Panoramica
@@ -334,6 +337,7 @@ class ErrorLogResource extends Resource
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     public static function form(Form $form): Form
@@ -473,6 +477,9 @@ class ErrorLogResource extends Resource
 =======
     public static function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
+=======
+    public static function form(Form $form): Form
+>>>>>>> 712617d3 (.)
     {
         return $form->schema([
             Card::make()->schema([
@@ -925,6 +932,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -2078,3 +2086,9 @@ return [
 - [Filament Forms](https://filamentphp.com/docs/forms)
 - [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
 >>>>>>> 9721a5b2 (.)
+=======
+- [Laravel Exceptions](https://laravel.com/docs/errors)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Discord Webhooks](https://discord.com/developers/docs/resources/webhook)
+- [Slack Webhooks](https://api.slack.com/messaging/webhooks) 
+>>>>>>> 712617d3 (.)

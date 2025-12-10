@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 9cf0dc90 (.)
 =======
@@ -106,9 +107,12 @@
 =======
 >>>>>>> f3086887 (rebase 210)
 =======
+>>>>>>> 712617d3 (.)
+=======
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,6 +226,10 @@
 =======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+>>>>>>> 712617d3 (.)
 # Notify Module Documentation
 
 ## Overview
@@ -354,6 +362,7 @@ This document serves as the central index for the Notify module, providing guida
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -380,6 +389,8 @@ This document serves as the central index for the Notify module, providing guida
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 712617d3 (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,6 +658,7 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 1f13f40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7a2f131f (.)
 =======
 =======
@@ -811,6 +823,10 @@ This document serves as the central index for the Notify module, providing guida
 =======
 >>>>>>> 1f13f40 (.)
 >>>>>>> 7a2f131f (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+>>>>>>> 712617d3 (.)
 # Indice della Documentazione - Modulo Notify
 
 ## Panoramica
@@ -856,6 +872,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -899,6 +916,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> 4f042b88 (.)
 =======
+=======
+>>>>>>> 712617d3 (.)
 =======
 >>>>>>> 712617d3 (.)
 =======
@@ -957,6 +976,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> bd22fd4 (.)
 =======
 >>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bb7e77c2 (.)
 =======
@@ -1038,6 +1058,11 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
+=======
+=======
+- [Documentazione Generale SaluteOra](../../../../docs/README.md)
+>>>>>>> 467a2e4 (.)
+>>>>>>> 712617d3 (.)
 - [Collegamenti Documentazione](../../../../docs/collegamenti-documentazione.md)
 - [Standard di Documentazione](../../../../docs/DOCUMENTATION_STANDARDS.md)
 - [Modulo Xot](../../Xot/docs/README.md)
@@ -1072,6 +1097,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9cf0dc90 (.)
@@ -1137,6 +1163,8 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 =======
 >>>>>>> bb7e77c2 (.)
 =======
+>>>>>>> 712617d3 (.)
+=======
 
 >>>>>>> bf479cc (.)
 =======
@@ -1152,6 +1180,7 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 
 >>>>>>> bf479cc (.)
 >>>>>>> 94c68e2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bb7e77c2 (.)
@@ -1220,6 +1249,10 @@ Questo documento serve come indice centrale per il modulo Notify, fornendo una g
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+=======
+>>>>>>> 467a2e4 (.)
+>>>>>>> 712617d3 (.)
 ## Categorie Principali
 
 ### Architettura e Struttura
@@ -1322,6 +1355,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4f042b88 (.)
@@ -1330,6 +1364,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 712617d3 (.)
 =======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
@@ -2790,7 +2826,15 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 =======
 =======
 >>>>>>> 1f13f40 (.)
+<<<<<<< HEAD
 >>>>>>> 7a2f131f (.)
+=======
+=======
+## Documentazione e Aggiornamenti
+- Documentare qualsiasi implementazione personalizzata o nuovi canali di notifica nella cartella di documentazione pertinente
+- Aggiornare questo indice se vengono introdotte nuove funzionalità o modifiche significative al modulo Notify
+>>>>>>> 467a2e4 (.)
+>>>>>>> 712617d3 (.)
 
 ## Sottocartelle
 
@@ -2801,6 +2845,7 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 ### Notifications
 - [Index](./notifications/INDEX.md) - Indice della documentazione sulle notifiche
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2875,6 +2920,8 @@ Implementare una gestione robusta degli errori per gestire i fallimenti nella co
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
+=======
+>>>>>>> 712617d3 (.)
 =======
 >>>>>>> 94c68e2 (.)
 >>>>>>> bb7e77c2 (.)
@@ -3395,13 +3442,17 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 1f13f40 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7a2f131f (.)
 =======
+=======
+>>>>>>> 712617d3 (.)
 =======
 ## Note sulla Manutenzione
 Questa documentazione viene aggiornata regolarmente. Prima di apportare modifiche al codice, consultare la documentazione pertinente e aggiornare i documenti correlati.
 
 >>>>>>> 467a2e4 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 712617d3 (.)
 =======
@@ -3545,6 +3596,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 =======
 >>>>>>> 1f13f40 (.)
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> 712617d3 (.)
 ## Risoluzione Conflitti e Standard
 - **Gennaio 2025**: Risoluzione sistematica di tutti i conflitti Git nei file di documentazione:
   - `index.md` - Unificato contenuto italiano e inglese mantenendo struttura completa
@@ -3555,6 +3608,7 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 - Il file `NOTIFICATION_CHANNELS_IMPLEMENTATION.md` è stato risolto manualmente mantenendo la versione più aggiornata e coerente con le best practice architetturali del modulo Notify
 - **Filosofia di risoluzione**: Approccio olistico con analisi manuale approfondita, mantenimento integrità architetturale, documentazione bidirezionale aggiornata
 - Vedi anche: [../../../../docs/README.md](../../../../docs/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3607,6 +3661,8 @@ Questa documentazione viene aggiornata regolarmente. Prima di apportare modifich
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> bb7e77c2 (.)
+=======
+>>>>>>> 712617d3 (.)
 - Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
 *Ultimo aggiornamento: Gennaio 2025*
 <<<<<<< HEAD
@@ -4878,4 +4934,11 @@ Ultimo aggiornamento: 14 Maggio 2025
 =======
 =======
 >>>>>>> 1f13f40 (.)
+<<<<<<< HEAD
 >>>>>>> 7a2f131f (.)
+=======
+=======
+- Per dettagli sulle scelte architetturali e funzionali, consultare la doc globale e la sezione "Standard e Traduzioni".
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> 467a2e4 (.)
+>>>>>>> 712617d3 (.)

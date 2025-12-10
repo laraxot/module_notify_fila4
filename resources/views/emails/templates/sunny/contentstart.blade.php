@@ -394,6 +394,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1366,11 +1367,15 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
+=======
+=======
+>>>>>>> 712617d3 (.)
 <?php
 
 declare(strict_types=1);
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3103,6 +3108,10 @@ declare(strict_types=1);
 >>>>>>> 599eea9c (.)
 =======
 >>>>>>> 75b03dc9 (.)
+=======
+<tr>
+>>>>>>> 518c702 (.)
+>>>>>>> 712617d3 (.)
 	<td class="w40" width="40"></td>
 	<td class="w560" width="560">
 		<table class="w560" border="0" cellpadding="0" cellspacing="0" width="560">
@@ -3514,6 +3523,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4537,10 +4547,13 @@ declare(strict_types=1);
 >>>>>>> 4f042b88 (.)
 =======
 >>>>>>> 36321fcb (.)
+=======
+>>>>>>> 712617d3 (.)
 					<div class="article-content" align="left">
 =======
 					<div class="article-content" align="left">
 >>>>>>> 518c702 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5461,3 +5474,5 @@ declare(strict_types=1);
 =======
 					<div class="article-content" align="left">
 >>>>>>> 75b03dc9 (.)
+=======
+>>>>>>> 712617d3 (.)

@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -105,10 +106,13 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Architettura Filament : Pattern XotBase
 
 ## Introduzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -659,6 +663,9 @@ SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con
 =======
 SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
 >>>>>>> 9721a5b2 (.)
+=======
+SaluteOra utilizza un pattern architetturale fondamentale per l'integrazione con Filament: **non estendere mai direttamente** le classi Filament, ma utilizzare sempre le classi wrapper con prefisso `XotBase` fornite dal modulo `Xot`.
+>>>>>>> 712617d3 (.)
 
 Questo documento spiega in dettaglio i motivi architetturali, i vantaggi e l'implementazione di questo pattern.
 
@@ -712,6 +719,7 @@ abstract class XotBasePage extends Page implements HasForms
     }
 
     // Form standardizzato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -887,6 +895,9 @@ abstract class XotBasePage extends Page implements HasForms
 =======
     public function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
+=======
+    public function form(Form $form): Form
+>>>>>>> 712617d3 (.)
     {
         return $form
             ->schema($this->getFormSchema())
@@ -938,6 +949,7 @@ public static function getNavigationLabel(): string
 Prima (❌):
 ```php
 // In ogni classe Page
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1113,6 +1125,9 @@ public function form(Form $form): Form
 =======
 public function form(Form $form): Form
 >>>>>>> 4f042b88 (.)
+=======
+public function form(Form $form): Form
+>>>>>>> 712617d3 (.)
 {
     return $form
         ->schema([
@@ -1263,6 +1278,7 @@ Per verificare che tutte le classi seguano questa regola:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 find /var/www/html/<nome progetto>/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 =======
 find /var/www/html/_bases/base_techplanner_fila3_mono/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
@@ -1636,10 +1652,13 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+=======
+>>>>>>> 712617d3 (.)
 find /var/www/html/saluteora/laravel/Modules -type f -name "*.php" -exec grep -l "extends.*\\\\Filament\\\\Pages\\\\Page" {} \;
 ```
 
 Le pagine che violano questa regola devono essere immediatamente corrette sostituendo l'estensione con la classe XotBase appropriata.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1665,3 +1684,5 @@ Le pagine che violano questa regola devono essere immediatamente corrette sostit
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)

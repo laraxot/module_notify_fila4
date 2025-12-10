@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2a97406c (.)
 =======
@@ -105,6 +106,8 @@
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
 # Azioni SMS
 
 ## Interfaccia
@@ -150,6 +153,7 @@ Le azioni SMS sono organizzate secondo questa struttura:
 $smsData = new SmsData(
     to: '+393331234567',
     body: 'Il tuo codice OTP è: 123456',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,6 +704,9 @@ $smsData = new SmsData(
 =======
     from: 'SaluteOra'
 >>>>>>> 9721a5b2 (.)
+=======
+    from: 'SaluteOra'
+>>>>>>> 712617d3 (.)
 );
 
 $action = new SendNetfunSMSAction();
@@ -727,6 +734,7 @@ $result = $action->execute($smsData);
    - Validare l'input degli utenti
    - Sanitizzare i messaggi
    - Proteggere le chiavi API
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -839,3 +847,5 @@ $result = $action->execute($smsData);
 >>>>>>> 2a97406c (.)
 =======
 >>>>>>> 4f042b88 (.)
+=======
+>>>>>>> 712617d3 (.)
