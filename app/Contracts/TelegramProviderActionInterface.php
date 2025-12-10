@@ -279,6 +279,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -429,6 +430,7 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> f81a620f (.)
 =======
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 2fc60436 (.)
 =======
@@ -570,6 +572,8 @@ use Modules\Notify\Datas\TelegramData;
 =======
 >>>>>>> f81a620f (.)
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
  *
 =======
  * 
@@ -689,6 +693,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -747,6 +752,8 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 =======
  *
 >>>>>>> 75179b85 (.)
@@ -1316,11 +1323,15 @@ use Modules\Notify\Datas\TelegramData;
 =======
 >>>>>>> f81a620f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec24613a1 (.)
 =======
 =======
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 70e8274e (.)
@@ -1908,6 +1919,8 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 8db6adf75 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider Telegram devono rispettare.
  */
@@ -1943,6 +1956,7 @@ interface TelegramProviderActionInterface
      * @return array Risultato dell'operazione
      */
     public function execute(TelegramData $telegramData): array;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2199,6 +2213,8 @@ interface TelegramProviderActionInterface
 =======
 >>>>>>> e95dfc210 (.)
 =======
+>>>>>>> ec24613a1 (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -2293,6 +2309,7 @@ interface TelegramProviderActionInterface
 =======
 >>>>>>> f81a620f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 06e3078e (.)
 =======
@@ -2385,10 +2402,15 @@ interface TelegramProviderActionInterface
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+=======
+>>>>>>> 06e3078e (.)
+>>>>>>> ec24613a1 (.)
 }
 =======
 } 
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2512,6 +2534,8 @@ interface TelegramProviderActionInterface
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 =======
 }
 >>>>>>> 75179b85 (.)
@@ -3005,11 +3029,15 @@ interface TelegramProviderActionInterface
 =======
 >>>>>>> f81a620f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec24613a1 (.)
 =======
 =======
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 70e8274e (.)
@@ -3824,3 +3852,5 @@ interface TelegramProviderActionInterface
 >>>>>>> 8db6adf75 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)

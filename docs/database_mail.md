@@ -1121,6 +1121,7 @@ class ProcessDoctorModerationAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1161,6 +1162,7 @@ class ProcessDoctorModerationAction
 =======
 >>>>>>> eea68ec9 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 06e3078e (.)
 =======
@@ -1261,9 +1263,14 @@ class ProcessDoctorModerationAction
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> ec24613a1 (.)
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1349,6 +1356,8 @@ class ProcessDoctorModerationAction
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> ec24613a1 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -1675,6 +1684,7 @@ class ProcessDoctorModerationAction
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -2321,6 +2331,8 @@ class ProcessDoctorModerationAction
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -2381,6 +2393,7 @@ Cordiali saluti,<br>
 - [TinyMCE](https://www.tiny.cloud)
 - [Filament Forms](https://filamentphp.com/docs/forms)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2756,10 +2769,14 @@ Cordiali saluti,<br>
 =======
 >>>>>>> f81a620f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec24613a1 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -3052,6 +3069,8 @@ Cordiali saluti,<br>
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
@@ -3207,6 +3226,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -3261,6 +3281,8 @@ Cordiali saluti,<br>
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3336,6 +3358,7 @@ Cordiali saluti,<br>
 >>>>>>> f81a620f (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 06e3078e (.)
 =======
 >>>>>>> ce89c8bb (.)
@@ -3519,6 +3542,10 @@ Cordiali saluti,<br>
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> ec24613a1 (.)
 - [Laravel Mail](https://laravel.com/project_docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
@@ -3627,6 +3654,7 @@ Cordiali saluti,<br>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -3681,6 +3709,8 @@ Cordiali saluti,<br>
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -4065,10 +4095,14 @@ Cordiali saluti,<br>
 =======
 >>>>>>> f81a620f (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ec24613a1 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -4986,3 +5020,5 @@ Cordiali saluti,<br>
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)

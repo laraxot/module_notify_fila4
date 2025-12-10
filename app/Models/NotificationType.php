@@ -205,6 +205,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -254,6 +255,7 @@ declare(strict_types=1);
 >>>>>>> eea68ec9 (.)
 =======
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -297,11 +299,14 @@ declare(strict_types=1);
 =======
 >>>>>>> eea68ec9 (.)
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> ec24613a1 (.)
 
 =======
 >>>>>>> b19cd40 (.)
 =======
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -363,6 +368,8 @@ declare(strict_types=1);
 >>>>>>> db6bec044 (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> ec24613a1 (.)
 >>>>>>> 75179b85 (.)
 =======
 
@@ -684,6 +691,7 @@ declare(strict_types=1);
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1039,6 +1047,11 @@ use Illuminate\Database\Eloquent\Model;
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+>>>>>>> ec24613a1 (.)
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;

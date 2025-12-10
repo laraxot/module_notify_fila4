@@ -589,6 +589,7 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1844,13 +1845,17 @@ cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
 =======
+=======
+>>>>>>> 06e3078e (.)
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 =======
 cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 06e3078e (.)
@@ -2119,11 +2124,14 @@ cd /var/www/html/_bases/base_saluteora/laravel
 =======
 >>>>>>> 10292b60a (.)
 =======
+>>>>>>> ec24613a1 (.)
+=======
 =======
 cd /var/www/html/_bases/base_<nome progetto>/laravel
 cd /var/www/html/_bases/base_saluteora/laravel
 cd /var/www/html/_bases/base_techplanner_fila3_mono/laravel
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
 >>>>>>> bf5d31b0f (.)
@@ -2264,6 +2272,9 @@ cd /var/www/html/_bases/base_saluteora/laravel
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> 06e3078e (.)
+>>>>>>> ec24613a1 (.)
 php -l Modules/Notify/lang/it/send_email.php
 
 # Output: No syntax errors detected
@@ -2294,6 +2305,7 @@ php -l Modules/Notify/lang/it/send_email.php
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2554,6 +2566,7 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 06e3078e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 70e8274e (.)
 =======
@@ -2799,11 +2812,14 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 6dad70a87 (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 - [Regole Traduzioni Laraxot](../../../docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 - [Best Practice Filament](../../../docs/FILAMENT-BEST-PRACTICES.md)- [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2835,10 +2851,13 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 >>>>>>> 6dad70a87 (.)
 =======
+>>>>>>> ec24613a1 (.)
+=======
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 >>>>>>> b19cd40 (.)
 =======
 >>>>>>> 4e2ebfb (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2900,6 +2919,8 @@ php -l Modules/Notify/lang/it/send_email.php
 - [Regole Traduzioni Laraxot](../../../project_docs/translation-standards.md)
 >>>>>>> b19cd40 (.)
 >>>>>>> e95dfc210 (.)
+=======
+>>>>>>> ec24613a1 (.)
 - [Best Practice Filament](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3725,6 +3746,7 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3979,6 +4001,7 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 =======
 >>>>>>> eea68ec9 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 06e3078e (.)
@@ -3992,6 +4015,10 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 207ac35e (.)
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+=======
+>>>>>>> 06e3078e (.)
+>>>>>>> ec24613a1 (.)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -4007,14 +4034,18 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> ec24613a1 (.)
 >>>>>>> de02998b (.)
 =======
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> eea68ec9 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 06e3078e (.)
 =======
@@ -4024,6 +4055,10 @@ php -l Modules/Notify/lang/it/send_email.php
 =======
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> 06e3078e (.)
+=======
+>>>>>>> ec24613a1 (.)
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
 <<<<<<< HEAD
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
@@ -4034,8 +4069,11 @@ php -l Modules/Notify/lang/it/send_email.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6dad70a87 (.)
+=======
+>>>>>>> ec24613a1 (.)
 >>>>>>> 161887a2 (.)
 =======
 - `laravel/Modules/Notify/docs/send_email_translation_improvement.md` - Questa documentazione
@@ -4426,6 +4464,7 @@ php -l Modules/Notify/lang/it/send_email.php
 - `laravel/Modules/Notify/project_docs/send_email_translation_improvement.md` - Questa documentazione
 >>>>>>> b19cd40 (.)
 >>>>>>> f81a620f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -5184,6 +5223,11 @@ php -l Modules/Notify/lang/it/send_email.php
 >>>>>>> 2dab69c8a (.)
 =======
 >>>>>>> e95dfc210 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 06e3078e (.)
+>>>>>>> ec24613a1 (.)
 
 ## 📝 Note di Implementazione
 
