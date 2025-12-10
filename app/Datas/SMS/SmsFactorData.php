@@ -142,6 +142,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -543,6 +544,8 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> bb00ab64 (rebase 210)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -599,6 +602,7 @@ class SmsFactorData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.smsfactor', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1583,6 +1587,8 @@ class SmsFactorData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+>>>>>>> bb00ab64 (rebase 210)
             $data = Config::array('sms.drivers.smsfactor');
             self::$instance = self::from($data);
         }
@@ -1613,6 +1619,7 @@ class SmsFactorData extends Data
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
                     'Content-Type' => 'application/json',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2550,6 +2557,9 @@ class SmsFactorData extends Data
                     'Cache-Control' => 'no-cache',
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+                    'Cache-Control' => 'no-cache',
+>>>>>>> bb00ab64 (rebase 210)
                 ];
         }
     }

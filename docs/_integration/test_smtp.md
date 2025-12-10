@@ -427,6 +427,7 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
@@ -1135,3 +1136,6 @@ Mail::raw('Test SMTP', function($m){ $m->to('tuo@email.com')->subject('Test SMTP
 - [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 030c9674 (rebase 210)
+=======
+- [Documentazione Laravel Mail](https://laravel.com/project_docs/mail)
+>>>>>>> bb00ab64 (rebase 210)
