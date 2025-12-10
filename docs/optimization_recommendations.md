@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
 >>>>>>> 75179b855 (.)
@@ -55,7 +56,13 @@
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
 - **336+ occorrenze hardcoded** di "saluteora" in test e documentazione
+=======
+- **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
+- **336+ occorrenze hardcoded** di "<nome progetto>" in test e documentazione
+>>>>>>> bf479cc (.)
 - **Import diretti** da moduli project-specific
 - **Configurazioni database** hardcoded nei test
 - **Email domains** hardcoded nei test
@@ -69,6 +76,7 @@
 #### 3. Testing Non Riutilizzabile
 - Test che utilizzano `User::factory()` invece di `XotData::make()->getUserClass()`
 - Configurazioni database hardcoded
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,11 +120,18 @@
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
 - Riferimenti diretti a modelli SaluteOra
+=======
+- Riferimenti diretti a modelli <nome progetto>
+- Riferimenti diretti a modelli <nome progetto>
+>>>>>>> bf479cc (.)
 
 ## ✅ OTTIMIZZAZIONI IMPLEMENTATE
 
 ### Riusabilità
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,7 +175,13 @@
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
 1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "SaluteOra"
+=======
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
+1. **NotificationManagementBusinessLogicTest.php**: Rimosso hardcoding "<nome progetto>"
+>>>>>>> bf479cc (.)
 2. **NotifyThemeableFactory.php**: Implementato `getProjectNamespace()` dinamico
 3. **File di traduzione**: Aggiornati placeholder con `{{app_name}}`
 4. **Documentazione base**: Creata guida riusabilità
@@ -174,6 +195,7 @@
 // Pattern da applicare a TUTTI i test
 // ❌ PRIMA
 $user = User::factory()->create();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,7 +239,13 @@ $user = User::factory()->create();
 >>>>>>> a29a4728 (.)
 =======
 >>>>>>> c4bdacbf (.)
+=======
+>>>>>>> bb7e77c2 (.)
 'database' => 'saluteora_test'
+=======
+'database' => '<nome progetto>_test'
+'database' => '<nome progetto>_test'
+>>>>>>> bf479cc (.)
 
 // ✅ DOPO
 $userClass = XotData::make()->getUserClass();
