@@ -627,6 +627,7 @@ document.querySelectorAll('.group').forEach(card => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Documentare ogni componente in `/docs` e `/Themes/One/project_docs/`.
 >>>>>>> 75179b85 (.)

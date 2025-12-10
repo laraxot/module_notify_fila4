@@ -1010,7 +1010,6 @@ use Override;
 >>>>>>> 2effe245 (.)
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
-use Override;
 
 <<<<<<< HEAD
 
@@ -1870,10 +1869,14 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> f813254 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     #[\Override]
 =======
     #[Override]
 >>>>>>> 6ba141fc (.)
+=======
+    #[\Override]
+>>>>>>> 5e14ac3 (.)
     public function getFormSchema(): array
     {
         return [

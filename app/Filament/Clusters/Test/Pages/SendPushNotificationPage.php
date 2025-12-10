@@ -295,6 +295,7 @@ use Modules\User\Models\DeviceUser;
 use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Override;
 =======
@@ -325,6 +326,8 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
+=======
+>>>>>>> fbed41ac (.)
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
 use Illuminate\Support\Collection;

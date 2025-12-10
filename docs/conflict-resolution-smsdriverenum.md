@@ -233,4 +233,3 @@ enum SmsDriverEnum: string implements HasLabel, HasIcon, HasColor
 - **Modulo**: Notify
 - **File**: `app/Enums/SmsDriverEnum.php`
 - **Tipo Conflitto**: Implementazione interfacce e trait
-- **Scelta**: Versione HEAD (interfacce Filament + TransTrait) 

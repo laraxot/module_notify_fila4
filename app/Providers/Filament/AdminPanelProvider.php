@@ -184,6 +184,7 @@ use Filament\Notifications\Livewire\DatabaseNotifications;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Override;
@@ -249,6 +250,8 @@ use Override;
 >>>>>>> 985c7bda (.)
 =======
 >>>>>>> d45a0226 (.)
+=======
+>>>>>>> fbed41ac (.)
 =======
 <<<<<<< HEAD
 >>>>>>> fbed41ac (.)
@@ -2469,7 +2472,25 @@ class AdminPanelProvider extends XotBasePanelProvider
             ));
         }
 
+<<<<<<< HEAD
         return parent::panel($panel);
+=======
+=======
+use Filament\Panel;
+use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+
+class AdminPanelProvider extends XotBasePanelProvider
+{
+    protected string $module = 'Notify';
+
+    #[\Override]
+    public function panel(Panel $panel): Panel
+    {
+        $panel = parent::panel($panel);
+
+>>>>>>> 5e14ac3 (.)
+        return $panel;
+>>>>>>> fbed41ac (.)
     }
 }
 <<<<<<< HEAD
