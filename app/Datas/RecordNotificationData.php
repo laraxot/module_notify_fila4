@@ -69,14 +69,18 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
+=======
+>>>>>>> 9777d1b3 (.)
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Actions\SMS\NormalizePhoneNumberAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
 =======
@@ -786,7 +790,12 @@ use Webmozart\Assert\Assert;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
 
 class RecordNotificationData extends Data
 {
@@ -907,6 +916,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1071,6 +1081,8 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
         switch ($this->channel) {
             case 'mail':
 <<<<<<< HEAD
@@ -1419,6 +1431,7 @@ class RecordNotificationData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 >>>>>>> a12f125f4a (.)
@@ -1715,5 +1728,10 @@ class RecordNotificationData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
 }

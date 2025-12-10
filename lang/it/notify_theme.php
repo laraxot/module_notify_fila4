@@ -391,6 +391,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1662,7 +1663,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+
+declare(strict_types=1);
+
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
 return [
     'navigation' => [
         'group' => 'Sistema',

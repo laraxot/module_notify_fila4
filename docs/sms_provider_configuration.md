@@ -470,6 +470,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'from' => env('SMS_FROM', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1326,12 +1327,9 @@ return [
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-    'from' => env('SMS_FROM', '<nome progetto>'),
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
     'from' => env('SMS_FROM', '<nome progetto>'),
->>>>>>> 4e2ebfb (.)
     'from' => env('SMS_FROM', 'SaluteOra'),
 >>>>>>> c8b1c8bf (.)
 =======
@@ -1723,6 +1721,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2579,12 +2578,9 @@ return [
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-            'sender' => env('NETFUN_SENDER', '<nome progetto>'),
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
             'sender' => env('NETFUN_SENDER', '<nome progetto>'),
->>>>>>> 4e2ebfb (.)
             'sender' => env('NETFUN_SENDER', 'SaluteOra'),
 >>>>>>> c8b1c8bf (.)
 =======
@@ -3033,6 +3029,7 @@ SMS_FROM=SaluteOra
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 SMS_FROM=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3889,12 +3886,9 @@ SMS_FROM=<nome progetto>
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-SMS_FROM=<nome progetto>
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
 SMS_FROM=<nome progetto>
->>>>>>> 4e2ebfb (.)
 SMS_FROM=SaluteOra
 >>>>>>> c8b1c8bf (.)
 =======
@@ -4277,6 +4271,7 @@ NETFUN_SENDER=SaluteOra
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 NETFUN_SENDER=<nome progetto>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5133,12 +5128,9 @@ NETFUN_SENDER=<nome progetto>
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
-NETFUN_SENDER=<nome progetto>
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
 NETFUN_SENDER=<nome progetto>
->>>>>>> 4e2ebfb (.)
 NETFUN_SENDER=SaluteOra
 >>>>>>> c8b1c8bf (.)
 =======

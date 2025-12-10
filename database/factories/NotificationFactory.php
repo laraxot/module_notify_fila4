@@ -84,6 +84,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -180,6 +181,8 @@ declare(strict_types=1);
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -409,6 +412,7 @@ declare(strict_types=1);
 >>>>>>> 75179b85 (.)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7624f916 (.)
 =======
 =======
@@ -422,6 +426,8 @@ declare(strict_types=1);
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 6e2169a3 (.)
+=======
+>>>>>>> 99a612a8 (.)
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\Notification;

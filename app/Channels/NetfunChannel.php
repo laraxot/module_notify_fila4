@@ -114,6 +114,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -476,7 +477,15 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+declare(strict_types=1);
+
+
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
 namespace Modules\Notify\Channels;
 
 use Exception;
@@ -564,6 +573,7 @@ class NetfunChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1129,26 +1139,14 @@ class NetfunChannel
 =======
 >>>>>>> 207ac35e (.)
 <<<<<<< HEAD
-
 =======
-    
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
 
->>>>>>> 4e2ebfb (.)
     public function __construct(SendNetfunSMSAction $sendSMSAction)
     {
         $this->sendSMSAction = $sendSMSAction;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
     /**
      * Invia la notifica tramite Netfun SMS
 <<<<<<< HEAD
@@ -2132,15 +2130,7 @@ class NetfunChannel
 >>>>>>> c5a0a4b2 (.)
             return null;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         $to = $notifiable->routeNotificationForNetfun($notification);
 <<<<<<< HEAD
         if (!$to) {
@@ -2174,15 +2164,7 @@ class NetfunChannel
 >>>>>>> c5a0a4b2 (.)
             return null;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> b19cd40 (.)
-=======
-
->>>>>>> 4e2ebfb (.)
         // Ottieni il messaggio dalla notifica
 <<<<<<< HEAD
         if (!method_exists($notification, 'toNetfun')) {
@@ -2296,6 +2278,7 @@ class NetfunChannel
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 <<<<<<< HEAD
 >>>>>>> c5a0a4b2 (.)
@@ -2311,7 +2294,12 @@ class NetfunChannel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
 
         $message = $notification->toNetfun($notifiable);
 
@@ -2331,6 +2319,7 @@ class NetfunChannel
         
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2762,6 +2751,11 @@ class NetfunChannel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
     }
 }

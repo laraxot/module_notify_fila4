@@ -181,6 +181,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -690,13 +691,19 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
  *
  * Utilizza ViewColumn + Blade view per separare completamente
  * logica e presentazione seguendo i principi DRY/KISS
  *
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1855,7 +1862,12 @@ use Modules\Notify\Enums\ContactTypeEnum;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
  * PATTERN CORRETTO:
  * - ViewColumn per layout complessi
  * - Blade view separata per HTML
@@ -2166,6 +2178,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3017,13 +3030,9 @@ use Modules\Notify\Enums\ContactTypeEnum;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
- *
 =======
- * 
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 9777d1b3 (.)
  *
->>>>>>> 4e2ebfb (.)
  * @author Laraxot Team
  * @version 2.0 - REFACTOR COMPLETO
 >>>>>>> 75179b85 (.)
@@ -3222,6 +3231,7 @@ class ContactColumn extends ViewColumn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3731,7 +3741,12 @@ class ContactColumn extends ViewColumn
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
 
     protected function setUp(): void
     {
@@ -3765,22 +3780,6 @@ class ContactColumn extends ViewColumn
         $this->view(static::getView(), [
             'contact_types' => $contact_types,
         ])
-<<<<<<< HEAD
-=======
-    
-    protected function setUp(): void
-    {
-        parent::setUp();
-        
-        // Passa i tipi di contatto alla view
-        $contact_types = ContactTypeEnum::cases();
-        
-        $this->view(static::getView(), [
-                'contact_types' => $contact_types,
-            ])
->>>>>>> b19cd40 (.)
-=======
->>>>>>> 4e2ebfb (.)
             ->label(__('notify::columns.contact.label'))
 <<<<<<< HEAD
             ->searchable($searchableArray)
@@ -3813,14 +3812,13 @@ class ContactColumn extends ViewColumn
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 <<<<<<< HEAD
         $this->view(static::getView(), [
             'contact_types' => $contact_types,
         ])
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4752,4 +4750,9 @@ class ContactColumn extends ViewColumn
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)

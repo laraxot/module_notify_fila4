@@ -93,6 +93,7 @@ class NotificationTypePolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class NotificationTypePolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
@@ -807,4 +808,12 @@ class NotificationTypePolicy extends NotifyBasePolicy {}
 =======
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+class NotificationTypePolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)

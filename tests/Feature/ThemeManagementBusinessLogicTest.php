@@ -1097,6 +1097,7 @@ describe('Theme Management Business Logic', function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1993,4 +1994,10 @@ describe('Theme Management Business Logic', function () {
 });
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+});
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)

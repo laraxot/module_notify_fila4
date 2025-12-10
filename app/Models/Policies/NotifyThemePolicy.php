@@ -93,6 +93,7 @@ class NotifyThemePolicy extends NotifyBasePolicy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 class NotifyThemePolicy extends NotifyBasePolicy {}
 >>>>>>> 58816034 (.)
@@ -807,4 +808,12 @@ class NotifyThemePolicy extends NotifyBasePolicy {}
 =======
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+class NotifyThemePolicy extends NotifyBasePolicy
+{
+}
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)

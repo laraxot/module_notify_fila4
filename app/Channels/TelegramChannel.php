@@ -119,6 +119,7 @@ use Modules\Notify\Factories\TelegramActionFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -431,7 +432,13 @@ use Modules\Notify\Factories\TelegramActionFactory;
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+ *
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
  * Questo canale utilizza il driver Telegram configurato in config/telegram.php
  * per inviare messaggi Telegram attraverso il provider selezionato.
  */
@@ -549,6 +556,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -861,7 +869,13 @@ class TelegramChannel
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
     /**
      * Crea una nuova istanza del canale.
      */
@@ -956,6 +970,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1193,14 +1208,17 @@ class TelegramChannel
 =======
 =======
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
 
 =======
     
 >>>>>>> b19cd40 (.)
 =======
+>>>>>>> 99a612a8 (.)
+=======
+>>>>>>> 9777d1b3 (.)
 
->>>>>>> 4e2ebfb (.)
     /**
      * Invia la notifica attraverso il canale Telegram.
      *
@@ -1653,6 +1671,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!method_exists($notification, 'toTelegram')) {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1915,7 +1934,13 @@ class TelegramChannel
         if (!method_exists($notification, 'toTelegram')) {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+        if (!method_exists($notification, 'toTelegram')) {
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
             throw new Exception('Notification does not have toTelegram method');
         }
 
@@ -1990,6 +2015,7 @@ class TelegramChannel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -2177,6 +2203,8 @@ class TelegramChannel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 
         if (!($telegramData instanceof TelegramData)) {
 >>>>>>> 75179b85 (.)
@@ -2207,6 +2235,7 @@ class TelegramChannel
 
         if (!($telegramData instanceof TelegramData)) {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2603,7 +2632,12 @@ class TelegramChannel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
         return $action->execute($telegramData);
     }
 }

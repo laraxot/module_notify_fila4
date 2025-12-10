@@ -108,6 +108,7 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -180,6 +181,8 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
+=======
+>>>>>>> 9777d1b3 (.)
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457,14 +460,6 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 >>>>>>> 75179b85 (.)
 >>>>>>> c5a0a4b2 (.)
 use Modules\Xot\Filament\Pages\XotBasePage;
-=======
-use Modules\Xot\Filament\Pages\XotBasePage;
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
->>>>>>> b19cd40 (.)
-=======
-use Modules\Xot\Filament\Pages\XotBaseDashboard;
-use Modules\Xot\Filament\Pages\XotBasePage;
->>>>>>> 4e2ebfb (.)
 
 class Dashboard extends XotBaseDashboard
 {
@@ -495,6 +490,7 @@ class Dashboard extends XotBaseDashboard
         /*
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -735,7 +731,12 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
          * $user = auth()->user();
          * if (! $user->hasRole('super-admin')) {
          * redirect('/admin');
@@ -743,6 +744,7 @@ class Dashboard extends XotBaseDashboard
          */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1140,6 +1142,11 @@ class Dashboard extends XotBaseDashboard
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 207ac35e (.)
+<<<<<<< HEAD
 >>>>>>> 6e2169a3 (.)
+=======
+=======
+>>>>>>> 9777d1b3 (.)
+>>>>>>> 99a612a8 (.)
     }
 }
