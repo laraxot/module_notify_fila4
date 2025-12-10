@@ -279,6 +279,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e7a9a2bf (.)
 =======
@@ -715,6 +716,7 @@ declare(strict_types=1);
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -948,6 +950,10 @@ declare(strict_types=1);
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1192,6 +1198,7 @@ return [
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3033,6 +3040,7 @@ return [
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
@@ -3565,6 +3573,8 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> f3c06ccdd (.)
     'drivers' => [
         'twilio' => [
             'account_sid' => env('TWILIO_ACCOUNT_SID'),
@@ -3825,6 +3835,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4402,6 +4413,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -4969,6 +4981,10 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'vonage' => [
             'api_key' => env('VONAGE_KEY'),
             'api_secret' => env('VONAGE_SECRET'),
@@ -5228,6 +5244,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5805,6 +5822,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -6372,6 +6390,10 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'facebook' => [
             'app_id' => env('FACEBOOK_APP_ID'),
             'app_secret' => env('FACEBOOK_APP_SECRET'),
@@ -6632,6 +6654,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -7209,6 +7232,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -7776,6 +7800,10 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         '360dialog' => [
             'api_key' => env('360DIALOG_API_KEY'),
             'phone_number_id' => env('360DIALOG_PHONE_NUMBER_ID'),
@@ -7783,6 +7811,7 @@ return [
     ],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8584,6 +8613,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -8869,6 +8899,10 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
     /*
      * |--------------------------------------------------------------------------
      * | Global Debug Mode
@@ -8900,6 +8934,7 @@ return [
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10771,6 +10806,7 @@ return [
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
@@ -11303,12 +11339,15 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> f3c06ccdd (.)
     'retry' => [
         'attempts' => env('WHATSAPP_RETRY_ATTEMPTS', 3),
         'delay' => env('WHATSAPP_RETRY_DELAY', 60),
     ],
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12109,6 +12148,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
 =======
@@ -12392,6 +12432,10 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
     /*
      * |--------------------------------------------------------------------------
      * | Rate Limiting
@@ -12399,6 +12443,7 @@ return [
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13826,6 +13871,7 @@ return [
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
@@ -14358,6 +14404,8 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> f3c06ccdd (.)
     'rate_limit' => [
         'enabled' => env('WHATSAPP_RATE_LIMIT_ENABLED', true),
         'max_attempts' => env('WHATSAPP_RATE_LIMIT_MAX_ATTEMPTS', 60),

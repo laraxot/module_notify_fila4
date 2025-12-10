@@ -263,6 +263,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1224,6 +1225,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'hex_color' => '#16a34a',
 >>>>>>> 7ffa94fc (rebase 210)
@@ -1589,6 +1591,11 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+        'hex_color' => '#16a34a',
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -1850,6 +1857,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2811,6 +2819,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'hex_color' => '#9333ea',
 >>>>>>> 7ffa94fc (rebase 210)
@@ -3176,6 +3185,11 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+        'hex_color' => '#9333ea',
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -3437,6 +3451,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4398,6 +4413,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'hex_color' => '#2563eb',
 >>>>>>> 7ffa94fc (rebase 210)
@@ -4763,6 +4779,11 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+        'hex_color' => '#2563eb',
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -5024,6 +5045,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -5985,6 +6007,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'hex_color' => '#ea580c',
 >>>>>>> 7ffa94fc (rebase 210)
@@ -6350,6 +6373,11 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+        'hex_color' => '#ea580c',
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -6611,6 +6639,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -7572,6 +7601,7 @@ return [
 =======
 >>>>>>> 9f8e680a (rebase 210)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'hex_color' => '#25d366',
 >>>>>>> 7ffa94fc (rebase 210)
@@ -7937,6 +7967,11 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+        'hex_color' => '#25d366',
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
@@ -8194,6 +8229,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -8749,6 +8785,7 @@ return [
 >>>>>>> efb0f8d9 (rebase 210)
 =======
 >>>>>>> 9f8e680a (rebase 210)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 7ffa94fc (rebase 210)
@@ -9033,12 +9070,17 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+=======
+>>>>>>> 7ffa94fc (rebase 210)
+>>>>>>> f3c06ccdd (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10331,6 +10373,7 @@ return [
 >>>>>>> 9f8e680a (rebase 210)
 =======
 >>>>>>> 7ffa94fc (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> b4f93b3a (rebase 210)
@@ -10865,3 +10908,5 @@ return [
 >>>>>>> 69f695548 (.)
 =======
 >>>>>>> c188e2a18 (.)
+=======
+>>>>>>> f3c06ccdd (.)
