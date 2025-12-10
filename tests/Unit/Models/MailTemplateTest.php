@@ -2365,6 +2365,8 @@ use Tests\TestCase;
 =======
 >>>>>>> e312314fa (.)
 
+use function Safe\json_encode;
+
 class MailTemplateTest extends TestCase
 {
     use RefreshDatabase;
