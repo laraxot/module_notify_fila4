@@ -141,6 +141,7 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 >>>>>>> 75179b855 (.)
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
+<<<<<<< HEAD
 /**
  * @property \Filament\Schemas\Schema $emailForm
  */
@@ -236,6 +237,8 @@ class SendAwsEmailPage extends XotBasePage
 >>>>>>> 9777d1b (.)
 >>>>>>> 58816034 (.)
 
+=======
+>>>>>>> 510e6e8b (.)
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';

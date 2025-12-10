@@ -1615,6 +1615,8 @@ use function Safe\json_encode;
 =======
 >>>>>>> 2941b0bd (.)
 
+use function Safe\json_encode;
+
 class ContactManagementBusinessLogicTest extends TestCase
 {
     use RefreshDatabase;
