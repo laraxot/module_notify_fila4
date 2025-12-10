@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Struttura di Configurazione nei Moduli 
 >>>>>>> 75179b855 (.)
@@ -60,11 +61,9 @@
 >>>>>>> bd804d67 (.)
 =======
 >>>>>>> f3086887 (rebase 210)
-# Struttura di Configurazione nei Moduli SaluteOra
 =======
-# Struttura di Configurazione nei Moduli 
-# Struttura di Configurazione nei Moduli <nome progetto>
->>>>>>> bf479cc (.)
+>>>>>>> 1442e291 (rebase 210)
+# Struttura di Configurazione nei Moduli SaluteOra
 
 ## Principi di Configurazione
 
