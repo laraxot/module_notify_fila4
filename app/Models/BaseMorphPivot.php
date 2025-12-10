@@ -284,6 +284,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -359,6 +360,7 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 6b6b9e41 (.)
 =======
 >>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -438,6 +440,8 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 6b6b9e41 (.)
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> db0bc148f (.)
         'post_id',
         'post_type',
 =======
@@ -513,6 +517,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -529,6 +534,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> be45a0b8d (.)
+=======
+>>>>>>> db0bc148f (.)
 =======
         'post_id',
         'post_type',
@@ -993,6 +1000,7 @@ abstract class BaseMorphPivot extends MorphPivot
         'post_type',
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3b4c9907 (.)
 =======
@@ -1429,6 +1437,10 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+>>>>>>> db0bc148f (.)
         'related_type',
         'user_id',
         'note',
@@ -1628,6 +1640,7 @@ abstract class BaseMorphPivot extends MorphPivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1977,11 +1990,15 @@ abstract class BaseMorphPivot extends MorphPivot
 =======
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> db0bc148f (.)
 =======
 =======
 
 >>>>>>> b19cd40 (.)
 >>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 5fe4f466 (.)
@@ -2404,6 +2421,8 @@ abstract class BaseMorphPivot extends MorphPivot
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+>>>>>>> db0bc148f (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

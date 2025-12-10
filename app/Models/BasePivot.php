@@ -413,6 +413,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -597,6 +598,7 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> 3b4c9907 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 5fe4f466 (.)
 =======
@@ -631,10 +633,13 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> c4bdacbf (.)
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> db0bc148f (.)
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -717,6 +722,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> db0bc148f (.)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -869,6 +876,7 @@ abstract class BasePivot extends XotBasePivot
 =======
 >>>>>>> c4bdacbf (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3b4c9907 (.)
 =======
@@ -996,6 +1004,10 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+=======
+>>>>>>> 3b4c9907 (.)
+>>>>>>> db0bc148f (.)
 
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
@@ -1070,6 +1082,7 @@ abstract class BasePivot extends XotBasePivot
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -1086,6 +1099,8 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> 138fcd4b0 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> db0bc148f (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1667,6 +1682,7 @@ abstract class BasePivot extends XotBasePivot
             'deleted_at' => 'datetime',
 >>>>>>> 4e4a7796 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 3b4c9907 (.)
@@ -2214,6 +2230,11 @@ abstract class BasePivot extends XotBasePivot
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 09f5337a8 (.)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 3b4c9907 (.)
+>>>>>>> db0bc148f (.)
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
