@@ -178,6 +178,7 @@ class SendMailCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -302,10 +303,14 @@ class SendMailCommand extends Command
 =======
 >>>>>>> 3f39ac8b (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f135ef98 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
@@ -396,6 +401,8 @@ class SendMailCommand extends Command
 >>>>>>> a070a65a5 (.)
 =======
 >>>>>>> f87b41c3b (.)
+=======
+>>>>>>> 2f135ef98 (.)
          * Notification::route('mail', $emailData->to)
          * ->notify(new EmailDataNotification($emailData));
          */
@@ -766,6 +773,7 @@ class SendMailCommand extends Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -774,6 +782,8 @@ class SendMailCommand extends Command
 >>>>>>> f2e64178 (.)
 =======
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 2f135ef98 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -782,6 +792,7 @@ class SendMailCommand extends Command
 =======
 >>>>>>> 0f07e6d (.)
 =======
+<<<<<<< HEAD
 =======
 =======
         $this->info('Email sent successfully to '.$emailData->to);
@@ -1299,6 +1310,8 @@ class SendMailCommand extends Command
 =======
 =======
 =======
+=======
+>>>>>>> 2f135ef98 (.)
         Notification::route('mail', $emailData->to)
             ->notify(new EmailDataNotification($emailData));
         */
@@ -1306,9 +1319,20 @@ class SendMailCommand extends Command
 
         $this->info('Email sent successfully to '.$emailData->to);
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 >>>>>>> 95531e1 (.)
+<<<<<<< HEAD
 >>>>>>> 3f39ac8b (.)
+<<<<<<< HEAD
 >>>>>>> f87b41c3b (.)
+=======
+=======
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 0f07e6d (.)
+>>>>>>> 4d2eb53e (.)
+>>>>>>> 2f135ef98 (.)
 
         return Command::SUCCESS;
     }
