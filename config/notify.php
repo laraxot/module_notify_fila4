@@ -12,6 +12,14 @@ return [
      * | per project without modifying the module code.
      * |
      */
+    |--------------------------------------------------------------------------
+    | Company Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Configuration for company-specific information that can be customized
+    | per project without modifying the module code.
+    |
+    */
     'company' => [
         'name' => env('COMPANY_NAME', 'Default Company'),
         'team' => env('COMPANY_TEAM', 'Default Team'),
@@ -19,6 +27,25 @@ return [
         'clinic_name' => env('CLINIC_NAME', 'Default Clinic'),
         'repository_url' => env('REPOSITORY_URL', 'https://github.com/example/repo'),
     ],
+    /*
+     * |--------------------------------------------------------------------------
+     * | Default Test Data
+     * |--------------------------------------------------------------------------
+     * |
+     * | Default values for test data that should be generic and reusable
+     * | across different projects.
+     * |
+     */
+
+    /*
+    |--------------------------------------------------------------------------
+    | Default Test Data
+    |--------------------------------------------------------------------------
+    |
+    | Default values for test data that should be generic and reusable
+    | across different projects.
+    |
+    */
     /*
      * |--------------------------------------------------------------------------
      * | Default Test Data
@@ -47,11 +74,45 @@ return [
      * | Default webhook endpoints that can be customized per project.
      * |
      */
+
+    /*
+    |--------------------------------------------------------------------------
+    | Webhook Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Default webhook endpoints that can be customized per project.
+    |
+    */
+    /*
+     * |--------------------------------------------------------------------------
+     * | Webhook Configuration
+     * |--------------------------------------------------------------------------
+     * |
+     * | Default webhook endpoints that can be customized per project.
+     * |
+     */
     'webhooks' => [
         'notification_delivered' => '{{webhook_base}}/webhooks/notification-delivered',
         'notification_bounced' => '{{webhook_base}}/webhooks/notification-bounced',
         'notification_clicked' => '{{webhook_base}}/webhooks/notification-clicked',
     ],
+    /*
+     * |--------------------------------------------------------------------------
+     * | Email Configuration
+     * |--------------------------------------------------------------------------
+     * |
+     * | Default email settings that can be customized per project.
+     * |
+     */
+
+    /*
+    |--------------------------------------------------------------------------
+    | Email Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Default email settings that can be customized per project.
+    |
+    */
     /*
      * |--------------------------------------------------------------------------
      * | Email Configuration
@@ -74,10 +135,44 @@ return [
      * | Default paths that can be customized per project.
      * |
      */
+
+    /*
+    |--------------------------------------------------------------------------
+    | Path Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Default paths that can be customized per project.
+    |
+    */
+    /*
+     * |--------------------------------------------------------------------------
+     * | Path Configuration
+     * |--------------------------------------------------------------------------
+     * |
+     * | Default paths that can be customized per project.
+     * |
+     */
     'paths' => [
         'default_avatar_path' => env('DEFAULT_AVATAR_PATH', '/images/avatars/default.svg'),
         'default_image_path' => env('DEFAULT_IMAGE_PATH', '/images/default.jpg'),
     ],
+    /*
+     * |--------------------------------------------------------------------------
+     * | Template Variables
+     * |--------------------------------------------------------------------------
+     * |
+     * | Available template variables that can be used in notification templates.
+     * |
+     */
+
+    /*
+    |--------------------------------------------------------------------------
+    | Template Variables
+    |--------------------------------------------------------------------------
+    |
+    | Available template variables that can be used in notification templates.
+    |
+    */
     /*
      * |--------------------------------------------------------------------------
      * | Template Variables
@@ -96,4 +191,139 @@ return [
         'appointment_date' => '{{appointment_date}}',
         'appointment_time' => '{{appointment_time}}',
     ],
+];
+]; 
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+]; 
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
+];
 ];

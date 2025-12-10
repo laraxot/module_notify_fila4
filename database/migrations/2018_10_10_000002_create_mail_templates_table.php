@@ -5,12 +5,167 @@ declare(strict_types=1);
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
 // ----- bases ----
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /*
  * Class CreateMailTemplatesTable.
  */
+return new class extends XotBaseMigration
+{
+return new class() extends XotBaseMigration {
+return new class () extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class () extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class () extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class () extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
+return new class() extends XotBaseMigration {
+return new class () extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
+return new class extends XotBaseMigration
+{
+return new class() extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
+return new class() extends XotBaseMigration {
+return new class() extends XotBaseMigration {
+return new class () extends XotBaseMigration {
+return new class() extends XotBaseMigration {
 return new class() extends XotBaseMigration {
     /**
      * Run the migrations.
@@ -27,10 +182,30 @@ return new class() extends XotBaseMigration {
             $table->json('html_template')->nullable();
             $table->json('text_template')->nullable();
             $table->string('version')->default('1.0.0');
+
+
+
+
+
+
+
+
+
+
+
+
         });
 
         // -- UPDATE -- Aggiornamento della tabella esistente
         $this->tableUpdate(function (Blueprint $table): void {
+            if (!$this->hasColumn('name')) {
+                $table->string('name');
+            }
+            if (!$this->hasColumn('slug')) {
+            if (! $this->hasColumn('name')) {
+                $table->string('name');
+            }
+            if (! $this->hasColumn('slug')) {
             if (!$this->hasColumn('name')) {
                 $table->string('name');
             }
@@ -44,4 +219,30 @@ return new class() extends XotBaseMigration {
             );
         });
     }
+            if (! $this->hasColumn('name')) {
+            if (!$this->hasColumn('name')) {
+                $table->string('name');
+            }
+            if (!$this->hasColumn('slug')) {
+                $table->string('slug')->unique();
+            }
+
+            $this->updateTimestamps(
+                table: $table,
+                hasSoftDeletes: true,
+            );
+        });
+    }
+
+            if (! $this->hasColumn('name')) {
+                $table->string('name');
+            }
+            if (! $this->hasColumn('slug')) {
+                $table->string('slug')->unique();
+            }
+
+            $this->updateTimestamps(table: $table, hasSoftDeletes: true);
+        });
+    }
+
 };

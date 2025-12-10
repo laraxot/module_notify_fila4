@@ -3,6 +3,21 @@
 declare(strict_types=1);
 
 use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Models\BaseModel;
+use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Notify\Models\Notification;
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
 use Modules\Notify\Models\Notification;
 
 describe('Notification Business Logic', function () {
@@ -11,6 +26,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store polymorphic notifiable relationships', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->notifiable_type = 'App\\Models\\User';
         $notification->notifiable_id = 1;
@@ -20,6 +38,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification has notification type', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->type = 'App\\Notifications\\OrderConfirmation';
 
@@ -27,6 +48,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store data payload', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->data = ['title' => 'Test', 'message' => 'Hello World'];
 
@@ -35,6 +59,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track read status', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->read_at = '2023-01-01 12:00:00';
 
@@ -42,6 +69,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track tenant and user', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->tenant_id = 1;
         $notification->user_id = 5;
@@ -51,6 +81,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can store polymorphic subject relationships', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->subject_type = 'App\\Models\\Order';
         $notification->subject_id = 123;
@@ -60,6 +93,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track multiple channels', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->channels = ['mail', 'sms', 'database'];
 
@@ -69,6 +105,9 @@ describe('Notification Business Logic', function () {
     });
 
     test('notification can track status and sent time', function () {
+        $notification = new Notification;
+        $notification = new Notification();
+        $notification = new Notification;
         $notification = new Notification();
         $notification->status = 'sent';
         $notification->sent_at = '2023-01-01 14:00:00';

@@ -34,6 +34,132 @@ class EsendexSendAction
 
         if (! is_array($auth)) {
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($auth)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (!is_array($auth)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         }
 
         $data = [
@@ -47,13 +173,120 @@ class EsendexSendAction
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
 
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+        
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint.'sms');
+        
         // Verifichiamo che i valori dell'array di autenticazione siano stringhe
         if (! is_string($auth[0])) {
             $auth[0] = '';
         }
 
         if (! is_string($auth[1])) {
+        if (!is_string($auth[0])) {
+            $auth[0] = '';
+        }
+
+        if (!is_string($auth[1])) {
+        curl_setopt($ch, CURLOPT_URL, $this->base_endpoint . 'sms');
+
+        // Verifichiamo che i valori dell'array di autenticazione siano stringhe
+        if (!is_string($auth[0])) {
+            $auth[0] = '';
+        }
+
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-type: application/json',
+            'user_key: ' . $auth[0],
+            'Session_key: ' . $auth[1],
+            'user_key: '.$auth[0],
+            'Session_key: '.$auth[1],
+            'user_key: ' . $auth[0],
+            'Session_key: ' . $auth[1],
+        ]);
+        ]);
+        ]);
+        ]);
+        
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+        
+        curl_setopt(
+            $ch,
+            CURLOPT_HTTPHEADER,
+            [
+                'Content-type: application/json',
+                'user_key: '.$auth[0],
+                'Session_key: '.$auth[1],
+            ]
+        );
+
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-type: application/json',
+            'user_key: ' . $auth[0],
+            'Session_key: ' . $auth[1],
+        ]);
+        
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+        
+        curl_setopt(
+            $ch,
+            CURLOPT_HTTPHEADER,
+            [
+                'Content-type: application/json',
+                'user_key: '.$auth[0],
+                'Session_key: '.$auth[1],
+            ]
+        );
+
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-type: application/json',
+            'user_key: ' . $auth[0],
+            'Session_key: ' . $auth[1],
+        ]);
+        
+        if (!is_string($auth[1])) {
+            $auth[1] = '';
+        }
+        
+        curl_setopt(
+            $ch,
+            CURLOPT_HTTPHEADER,
+            [
+                'Content-type: application/json',
+                'user_key: '.$auth[0],
+                'Session_key: '.$auth[1],
+            ]
+        );
+
+        if (!is_string($auth[1])) {
             $auth[1] = '';
         }
 
@@ -74,10 +307,94 @@ class EsendexSendAction
             return [];
         }
 
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
         $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
 
         dddx($res);
         if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        $res = json_decode(is_string($response) ? $response : (string) $response, true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+            throw new \Exception('['.__LINE__.']['.class_basename($this).']');
+        $res = json_decode(is_string($response) ? $response : ((string) $response), true, 512, JSON_THROW_ON_ERROR);
+
+        dddx($res);
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
+        if (! is_array($res)) {
+            throw new Exception('['.__LINE__.']['.class_basename($this).']');
+        if (!is_array($res)) {
+            throw new Exception('[' . __LINE__ . '][' . class_basename($this) . ']');
             throw new Exception('['.__LINE__.']['.class_basename($this).']');
         }
 
@@ -89,6 +406,90 @@ class EsendexSendAction
      * Returns the pair user_key, Session_key.
      */
     public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): ?array
+    public function login(): null|array
+    public function login(): null|array
     {
         $curlHandle = curl_init();
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
@@ -97,6 +498,90 @@ class EsendexSendAction
         Assert::string($password = config('esendex.password'));
 
         $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint.'login?username='.$username.'&password='.$password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
+        $login_string = $this->base_endpoint . 'login?username=' . $username . '&password=' . $password;
 
         curl_setopt($curlHandle, CURLOPT_URL, $login_string);
 
@@ -114,6 +599,53 @@ class EsendexSendAction
             return null;
         }
 
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : (string) $response);
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : (string) $response);
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
+        return explode(';', is_string($response) ? $response : ((string) $response));
         return explode(';', is_string($response) ? $response : ((string) $response));
     }
 }

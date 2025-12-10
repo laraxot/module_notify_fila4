@@ -3,6 +3,76 @@
 declare(strict_types=1);
 
 
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+namespace Modules\Notify\Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Notify\Models\NotificationTemplate;
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplate;
+namespace Modules\Notify\Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Notify\Models\NotificationTemplate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+declare(strict_types=1);
+
+
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+namespace Modules\Notify\Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Notify\Models\NotificationTemplate;
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+namespace Modules\Notify\Database\Factories;
+
+use Modules\Notify\Models\NotificationTemplate;
+namespace Modules\Notify\Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Notify\Models\NotificationTemplate;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
 namespace Modules\Notify\Database\Factories;
 
 use Modules\Notify\Models\NotificationTemplate;
@@ -23,3 +93,15 @@ class NotificationTemplateFactory extends Factory
         return [];
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+

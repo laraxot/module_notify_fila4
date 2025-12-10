@@ -5,6 +5,137 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources;
 
 use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Filament\Forms\Components\TextInput;
+use Override;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Forms;
+use Filament\Forms\Form;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Forms;
+use Filament\Forms\Form;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+    protected static ?string $model = NotificationTemplate::class;
+use Override;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
@@ -12,6 +143,70 @@ use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
 use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
 use Filament\Forms;
+use Filament\Forms\Form;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+
+class NotificationTemplateResource extends XotBaseResource
+{
+    protected static null|string $model = NotificationTemplate::class;
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+            'name' => TextInput::make('name')
+            TextInput::make('name')
+            TextInput::make('name')
+use Override;
+use Override;
+use Override;
+use Override;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Modules\Notify\Filament\Resources\NotificationTemplateResource\Pages\PreviewNotificationTemplate;
+use Dotswan\FilamentGrapesjs\Forms\Components\Grapesjs;
+use Filament\Forms;
+use Filament\Forms;
+use Filament\Forms\Form;
+use Filament\Forms;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Schema;
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -31,26 +226,49 @@ class NotificationTemplateResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
+            TextInput::make('name')
+        return array_values([
             'name' => TextInput::make('name')
+        return [
+            TextInput::make('name')
                 ->required()
                 ->maxLength(255)
                 ->unique(ignoreRecord: true)
                 ->helperText(__('notify::template.form.name.helper'))
                 ->columnSpan(['lg' => 2]),
             'subject' => TextInput::make('subject')
+            TextInput::make('subject')
+            'subject' => TextInput::make('subject')
+            TextInput::make('subject')
+            'subject' => TextInput::make('subject')
+            TextInput::make('subject')
                 ->required()
                 ->maxLength(255)
                 ->helperText(__('notify::template.form.subject.helper'))
                 ->columnSpan(['lg' => 2])
                 ->translateLabel(),
             'type' => Select::make('type')
+            Select::make('type')
+            Select::make('type')
                 ->options(collect(NotificationTypeEnum::cases())
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+                    ->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+            Select::make('type')
+                ->options(collect(NotificationTypeEnum::cases())
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+                    ->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
                     ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
                 ->required()
                 ->default(NotificationTypeEnum::EMAIL->value)
                 ->helperText(__('notify::template.form.type.helper'))
                 ->columnSpan(['lg' => 1]),
             'body_text' => Textarea::make('body_text')
+            Textarea::make('body_text')
+            'body_text' => Textarea::make('body_text')
+            Textarea::make('body_text')
+            'body_text' => Textarea::make('body_text')
+            Textarea::make('body_text')
                 ->required()
                 ->maxLength(65535)
                 ->columnSpan(['lg' => 3])
@@ -58,6 +276,11 @@ class NotificationTemplateResource extends XotBaseResource
                 ->rows(5)
                 ->translateLabel(),
             'body_html' => Textarea::make('body_html')
+            Textarea::make('body_html')
+            'body_html' => Textarea::make('body_html')
+            Textarea::make('body_html')
+            'body_html' => Textarea::make('body_html')
+            Textarea::make('body_html')
                 ->required()
                 ->maxLength(65535)
                 ->columnSpan(['lg' => 3])
@@ -65,11 +288,140 @@ class NotificationTemplateResource extends XotBaseResource
                 ->rows(10)
                 ->translateLabel(),
             'preview_data' => Textarea::make('preview_data')
+            Textarea::make('preview_data')
+            'preview_data' => Textarea::make('preview_data')
+            Textarea::make('preview_data')
+            'preview_data' => Textarea::make('preview_data')
+            Textarea::make('preview_data')
                 ->json()
                 ->columnSpan(['lg' => 3])
                 ->helperText(__('notify::template.form.preview_data.helper'))
                 ->rows(5),
             'attachments' => SpatieMediaLibraryFileUpload::make('attachments')
+            SpatieMediaLibraryFileUpload::make('attachments')
+                ->collection('attachments')
+                ->multiple()
+                ->maxFiles(5)
+                ->maxSize(5120)
+                ->acceptedFileTypes(['application/pdf', 'image/*'])
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.attachments.helper')),
+        ]);}
+
+    #[Override]
+    #[\Override]
+    protected static ?string $model = NotificationTemplate::class;
+
+
+    protected static null|string $model = NotificationTemplate::class;
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+            TextInput::make('name')
+                ->required()
+                ->maxLength(255)
+                ->unique(ignoreRecord: true)
+                ->helperText(__('notify::template.form.name.helper'))
+                ->columnSpan(['lg' => 2]),
+            TextInput::make('subject')
+                ->required()
+                ->maxLength(255)
+                ->helperText(__('notify::template.form.subject.helper'))
+                ->columnSpan(['lg' => 2])
+                ->translateLabel(),
+            Select::make('type')
+                ->options(collect(NotificationTypeEnum::cases())
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+                ->required()
+                ->default(NotificationTypeEnum::EMAIL->value)
+                ->helperText(__('notify::template.form.type.helper'))
+                ->columnSpan(['lg' => 1]),
+            Textarea::make('body_text')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_text.helper'))
+                ->rows(5)
+                ->translateLabel(),
+            Textarea::make('body_html')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_html.helper'))
+                ->rows(10)
+                ->translateLabel(),
+            Textarea::make('preview_data')
+                ->json()
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.preview_data.helper'))
+                ->rows(5),
+            SpatieMediaLibraryFileUpload::make('attachments')
+            'attachments' => SpatieMediaLibraryFileUpload::make('attachments')
+            SpatieMediaLibraryFileUpload::make('attachments')
+                ->collection('attachments')
+                ->multiple()
+                ->maxFiles(5)
+                ->maxSize(5120)
+                ->acceptedFileTypes(['application/pdf', 'image/*'])
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.attachments.helper')),
+        ]);}
+
+
+
+    #[Override]
+    protected static ?string $model = NotificationTemplate::class;
+
+
+    protected static null|string $model = NotificationTemplate::class;
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+            TextInput::make('name')
+                ->required()
+                ->maxLength(255)
+                ->unique(ignoreRecord: true)
+                ->helperText(__('notify::template.form.name.helper'))
+                ->columnSpan(['lg' => 2]),
+            TextInput::make('subject')
+                ->required()
+                ->maxLength(255)
+                ->helperText(__('notify::template.form.subject.helper'))
+                ->columnSpan(['lg' => 2])
+                ->translateLabel(),
+            Select::make('type')
+                ->options(collect(NotificationTypeEnum::cases())
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+                ->required()
+                ->default(NotificationTypeEnum::EMAIL->value)
+                ->helperText(__('notify::template.form.type.helper'))
+                ->columnSpan(['lg' => 1]),
+            Textarea::make('body_text')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_text.helper'))
+                ->rows(5)
+                ->translateLabel(),
+            Textarea::make('body_html')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_html.helper'))
+                ->rows(10)
+                ->translateLabel(),
+            Textarea::make('preview_data')
+                ->json()
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.preview_data.helper'))
+                ->rows(5),
+            SpatieMediaLibraryFileUpload::make('attachments')
+            'attachments' => SpatieMediaLibraryFileUpload::make('attachments')
+            SpatieMediaLibraryFileUpload::make('attachments')
                 ->collection('attachments')
                 ->multiple()
                 ->maxFiles(5)
@@ -80,7 +432,528 @@ class NotificationTemplateResource extends XotBaseResource
         ];
     }
 
+
+
     #[Override]
+    protected static ?string $model = NotificationTemplate::class;
+
+
+    protected static null|string $model = NotificationTemplate::class;
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+            TextInput::make('name')
+                ->required()
+                ->maxLength(255)
+                ->unique(ignoreRecord: true)
+                ->helperText(__('notify::template.form.name.helper'))
+                ->columnSpan(['lg' => 2]),
+            TextInput::make('subject')
+                ->required()
+                ->maxLength(255)
+                ->helperText(__('notify::template.form.subject.helper'))
+                ->columnSpan(['lg' => 2])
+                ->translateLabel(),
+            Select::make('type')
+                ->options(collect(NotificationTypeEnum::cases())
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+                ->required()
+                ->default(NotificationTypeEnum::EMAIL->value)
+                ->helperText(__('notify::template.form.type.helper'))
+                ->columnSpan(['lg' => 1]),
+            Textarea::make('body_text')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_text.helper'))
+                ->rows(5)
+                ->translateLabel(),
+            Textarea::make('body_html')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_html.helper'))
+                ->rows(10)
+                ->translateLabel(),
+            Textarea::make('preview_data')
+                ->json()
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.preview_data.helper'))
+                ->rows(5),
+            SpatieMediaLibraryFileUpload::make('attachments')
+                ->collection('attachments')
+                ->multiple()
+                ->maxFiles(5)
+                ->maxSize(5120)
+                ->acceptedFileTypes(['application/pdf', 'image/*'])
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.attachments.helper')),
+        ];
+    }
+
+
+
+    #[Override]
+    protected static ?string $model = NotificationTemplate::class;
+
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+                    TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                    Forms\Components\TextInput::make('name')
+                        ->required()
+                        ->maxLength(255)
+                        ->unique(ignoreRecord: true)
+                        ->helperText(__('notify::template.form.name.helper'))
+                        ->columnSpan(['lg' => 2]),
+
+                    TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                    Forms\Components\TextInput::make('subject')
+                        ->required()
+                        ->maxLength(255)
+                        ->helperText(__('notify::template.form.subject.helper'))
+                        ->columnSpan(['lg' => 2])
+                        ->translateLabel(),
+
+                    Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                    Forms\Components\Select::make('type')
+                        ->options(collect(NotificationTypeEnum::cases())->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+                        ->required()
+                        ->default(NotificationTypeEnum::EMAIL->value)
+                        ->helperText(__('notify::template.form.type.helper'))
+                        ->columnSpan(['lg' => 1]),
+
+                    Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                    Forms\Components\Textarea::make('body_text')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_text.helper'))
+                        ->rows(5)
+                        ->translateLabel(),
+
+                    Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                    Forms\Components\Textarea::make('body_html')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_html.helper'))
+                        ->rows(10)
+                        ->translateLabel(),
+
+                    Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                    Forms\Components\Textarea::make('preview_data')
+                        ->json()
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.preview_data.helper'))
+                        ->rows(5),
+
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                    Forms\Components\SpatieMediaLibraryFileUpload::make('attachments')
+                        ->collection('attachments')
+                        ->multiple()
+                        ->maxFiles(5)
+                        ->maxSize(5120)
+                        ->acceptedFileTypes(['application/pdf', 'image/*'])
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.attachments.helper')),
+        ];
+    }
+
+
+
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+            TextInput::make('name')
+                ->required()
+                ->maxLength(255)
+                ->unique(ignoreRecord: true)
+                ->helperText(__('notify::template.form.name.helper'))
+                ->columnSpan(['lg' => 2]),
+            TextInput::make('subject')
+                ->required()
+                ->maxLength(255)
+                ->helperText(__('notify::template.form.subject.helper'))
+                ->columnSpan(['lg' => 2])
+                ->translateLabel(),
+            Select::make('type')
+                ->options(collect(NotificationTypeEnum::cases())
+                    ->mapWithKeys(fn($type) => [$type->value => $type->label()]))
+                ->required()
+                ->default(NotificationTypeEnum::EMAIL->value)
+                ->helperText(__('notify::template.form.type.helper'))
+                ->columnSpan(['lg' => 1]),
+            Textarea::make('body_text')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_text.helper'))
+                ->rows(5)
+                ->translateLabel(),
+            Textarea::make('body_html')
+                ->required()
+                ->maxLength(65535)
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.body_html.helper'))
+                ->rows(10)
+                ->translateLabel(),
+            Textarea::make('preview_data')
+                ->json()
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.preview_data.helper'))
+                ->rows(5),
+            SpatieMediaLibraryFileUpload::make('attachments')
+                ->collection('attachments')
+                ->multiple()
+                ->maxFiles(5)
+                ->maxSize(5120)
+                ->acceptedFileTypes(['application/pdf', 'image/*'])
+                ->columnSpan(['lg' => 3])
+                ->helperText(__('notify::template.form.attachments.helper')),
+        ];
+    }
+
+
+
+    #[Override]
+    protected static ?string $model = NotificationTemplate::class;
+
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+                    TextInput::make('name')
+                        ->required()
+                        ->maxLength(255)
+                        ->unique(ignoreRecord: true)
+                        ->helperText(__('notify::template.form.name.helper'))
+                        ->columnSpan(['lg' => 2]),
+
+                    TextInput::make('subject')
+                        ->required()
+                        ->maxLength(255)
+                        ->helperText(__('notify::template.form.subject.helper'))
+                        ->columnSpan(['lg' => 2])
+                        ->translateLabel(),
+
+                    Select::make('type')
+                        ->options(collect(NotificationTypeEnum::cases())->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+                        ->required()
+                        ->default(NotificationTypeEnum::EMAIL->value)
+                        ->helperText(__('notify::template.form.type.helper'))
+                        ->columnSpan(['lg' => 1]),
+
+                    Textarea::make('body_text')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_text.helper'))
+                        ->rows(5)
+                        ->translateLabel(),
+
+                    Textarea::make('body_html')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_html.helper'))
+                        ->rows(10)
+                        ->translateLabel(),
+
+                    Textarea::make('preview_data')
+                        ->json()
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.preview_data.helper'))
+                        ->rows(5),
+
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                        ->collection('attachments')
+                        ->multiple()
+                        ->maxFiles(5)
+                        ->maxSize(5120)
+                        ->acceptedFileTypes(['application/pdf', 'image/*'])
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.attachments.helper')),
+        ];
+    }
+
+
+
+    #[Override]
+    #[\Override]
+    #[Override]
+    protected static ?string $model = NotificationTemplate::class;
+
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+                    TextInput::make('name')
+                        ->required()
+                        ->maxLength(255)
+                        ->unique(ignoreRecord: true)
+                        ->helperText(__('notify::template.form.name.helper'))
+                        ->columnSpan(['lg' => 2]),
+
+                    TextInput::make('subject')
+                        ->required()
+                        ->maxLength(255)
+                        ->helperText(__('notify::template.form.subject.helper'))
+                        ->columnSpan(['lg' => 2])
+                        ->translateLabel(),
+
+                    Select::make('type')
+                        ->options(collect(NotificationTypeEnum::cases())->mapWithKeys(fn ($type) => [$type->value => $type->label()]))
+                        ->required()
+                        ->default(NotificationTypeEnum::EMAIL->value)
+                        ->helperText(__('notify::template.form.type.helper'))
+                        ->columnSpan(['lg' => 1]),
+
+                    Textarea::make('body_text')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_text.helper'))
+                        ->rows(5)
+                        ->translateLabel(),
+
+                    Textarea::make('body_html')
+                        ->required()
+                        ->maxLength(65535)
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.body_html.helper'))
+                        ->rows(10)
+                        ->translateLabel(),
+
+                    Textarea::make('preview_data')
+                        ->json()
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.preview_data.helper'))
+                        ->rows(5),
+
+                    SpatieMediaLibraryFileUpload::make('attachments')
+                        ->collection('attachments')
+                        ->multiple()
+                        ->maxFiles(5)
+                        ->maxSize(5120)
+                        ->acceptedFileTypes(['application/pdf', 'image/*'])
+                        ->columnSpan(['lg' => 3])
+                        ->helperText(__('notify::template.form.attachments.helper')),
+        ];
+    }
+
+
+
     public static function getPages(): array
     {
         return [
@@ -96,4 +969,10 @@ class NotificationTemplateResource extends XotBaseResource
      * ->orderBy('name');
      * }
      */
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->orderBy('name');
+    }
+            */
 }

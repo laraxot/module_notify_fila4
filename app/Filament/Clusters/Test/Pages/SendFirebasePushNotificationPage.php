@@ -4,6 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Override;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
@@ -26,6 +35,14 @@ use Modules\Notify\Datas\FirebaseNotificationData;
 use Modules\Notify\Filament\Clusters\Test;
 use Modules\Notify\Notifications\PushNotification;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Override;
+
+/**
+ * @property \Filament\Schemas\Schema $pushForm
+ */
+class SendFirebasePushNotificationPage extends XotBasePage
+{
+    public ?array $pushData = [];
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
@@ -35,10 +52,28 @@ class SendFirebasePushNotificationPage extends XotBasePage
 {
     public null|array $pushData = [];
 
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-bell-alert';
+
+    protected string $view = 'notify::filament.pages.send-push';
+
+    protected static ?string $cluster = Test::class;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+
+/**
+ * 
+ */
+class SendFirebasePushNotificationPage extends XotBasePage
+{
+    public null|array $pushData = [];
+
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-bell-alert';
 
     protected string $view = 'notify::filament.pages.send-push';
 
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 
     public function mount(): void
@@ -56,6 +91,49 @@ class SendFirebasePushNotificationPage extends XotBasePage
     protected function fillForms(): void
     {
         $this->pushForm->fill();
+        // Form data filled;
+        $this->pushForm->fill();
+        // Form data filled;
+        $this->pushForm->fill();
+    }
+
+    public function pushForm(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+        return $schema->schema($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+    }
+
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Textarea|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle|\Filament\Forms\Components\KeyValue>
+     */
+=======
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+        return $schema
+            ->components($this->getPushFormSchema())
+            ->model($this->getUser())
+            ->statePath('pushData');
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+    }
+
+    public function pushForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+    public function pushForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+        return $schema
+            ->components($this->getPushFormSchema())
+            ->model($this->getUser())
+            ->statePath('pushData');
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+    public function pushForm(Form $form): Form
+    {
+        return $form
+            ->schema($this->getPushFormSchema())
+            ->model($this->getUser())
+            ->statePath('pushData');
     }
 
     public function pushForm(Schema $schema): Schema
@@ -66,6 +144,35 @@ class SendFirebasePushNotificationPage extends XotBasePage
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Textarea|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle|\Filament\Forms\Components\KeyValue>
      */
+    /** @phpstan-ignore-next-line return.type */
+    public function getPushFormSchema(): array
+    {
+        return [
+            TextInput::make('token')
+                ->label(__('notify::push.form.token.label'))
+                ->required()
+                ->helperText(__('notify::push.form.token.helper')),
+            TextInput::make('title')
+                ->label(__('notify::push.form.title.label'))
+                ->required()
+                ->maxLength(100),
+            Textarea::make('body')
+                ->label(__('notify::push.form.body.label'))
+                ->required()
+                ->rows(3),
+            TextInput::make('image_url')
+                ->label(__('notify::push.form.image_url.label'))
+                ->url()
+                ->helperText(__('notify::push.form.image_url.helper')),
+            'notification_type' => Select::make('notification_type')
+        return $schema->components($this->getPushFormSchema())->model($this->getUser())->statePath('pushData');
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    /** @phpstan-ignore-next-line return.type */
+>>>>>>> 5d933abf (.)
     public function getPushFormSchema(): array
     {
         return [
@@ -85,7 +192,32 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->label(__('notify::push.form.image_url.label'))
                 ->url()
                 ->helperText(__('notify::push.form.image_url.helper')),
+<<<<<<< HEAD
             'notification_type' => Select::make('notification_type')
+=======
+            Select::make('notification_type')
+            Forms\Components\TextInput::make('token')
+                ->label(__('notify::push.form.token.label'))
+                ->required()
+                ->helperText(__('notify::push.form.token.helper')),
+            Forms\Components\TextInput::make('title')
+                ->label(__('notify::push.form.title.label'))
+                ->required()
+                ->maxLength(100),
+            Forms\Components\Textarea::make('body')
+                ->label(__('notify::push.form.body.label'))
+                ->required()
+                ->rows(3),
+            Forms\Components\TextInput::make('image_url')
+                ->label(__('notify::push.form.image_url.label'))
+                ->url()
+                ->helperText(__('notify::push.form.image_url.helper')),
+            Forms\Components\Select::make('notification_type')
+            Select::make('notification_type')
+            Select::make('notification_type')
+            Select::make('notification_type')
+            Select::make('notification_type')
+>>>>>>> 5d933abf (.)
                 ->label(__('notify::push.form.notification_type.label'))
                 ->options([
                     'message' => 'Message',
@@ -96,6 +228,59 @@ class SendFirebasePushNotificationPage extends XotBasePage
                 ->default('message')
                 ->required(),
             'high_priority' => Toggle::make('high_priority')
+<<<<<<< HEAD
+=======
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            'custom_data' => KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Forms\Components\Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            Forms\Components\KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+                ->label(__('notify::push.form.high_priority.label'))
+                ->default(false)
+                ->helperText(__('notify::push.form.high_priority.helper')),
+            KeyValue::make('custom_data')
+            Toggle::make('high_priority')
+>>>>>>> 5d933abf (.)
                 ->label(__('notify::push.form.high_priority.label'))
                 ->default(false)
                 ->helperText(__('notify::push.form.high_priority.helper')),
@@ -110,6 +295,14 @@ class SendFirebasePushNotificationPage extends XotBasePage
     public function sendPushNotification(): void
     {
         $data = $this->pushForm->getState();
+        $data = $this->data;
+
+        
+        $data = $this->pushForm->getState();
+        $data = $this->data;
+        $data = $this->pushForm->getState();
+
+        
 
         try {
             // Creare i dati della notifica Firebase
@@ -163,11 +356,33 @@ class SendFirebasePushNotificationPage extends XotBasePage
         ];
     }
 
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',

@@ -6,10 +6,59 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Override;
+namespace Modules\Notify\Models;
+
+
+namespace Modules\Notify\Models;
+
+use Override;
+namespace Modules\Notify\Models;
+
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Notify\Database\Factories\NotificationFactory;
 use Illuminate\Database\Eloquent\Builder;
+use Override;
+declare(strict_types=1);
+
+
+namespace Modules\Notify\Models;
+
+use Override;
+namespace Modules\Notify\Models;
+
+
+namespace Modules\Notify\Models;
+
+use Override;
+namespace Modules\Notify\Models;
+
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Database\Factories\NotificationFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Override;
+use Override;
+
+namespace Modules\Notify\Models;
+
+use Override;
+namespace Modules\Notify\Models;
+
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Notify\Database\Factories\NotificationFactory;
+use Illuminate\Database\Eloquent\Builder;
+namespace Modules\Notify\Models;
+
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
+use Modules\Xot\Models\BaseModel;
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -36,6 +85,14 @@ use Modules\Xot\Models\BaseModel;
  * @property Carbon|null $sent_at
  * @property-read Model|null $creator
  * @property-read Model|null $updater
+ * @property Model|null $creator
+ * @property Model|null $updater
+ *
+ *
+ * @property-read Model|null $creator
+ * @property-read Model|null $updater
+ *
+ *
  * @method static NotificationFactory factory($count = null, $state = [])
  * @method static Builder<static>|Notification newModelQuery()
  * @method static Builder<static>|Notification newQuery()
@@ -52,7 +109,161 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Notification whereType($value)
  * @method static Builder<static>|Notification whereUpdatedAt($value)
  * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
+ *
+ *
+ *
+ * @property \Illuminate\Support\Carbon|null $sent_at
+ * @property-read \Illuminate\Database\Eloquent\Model|null $creator
+ * @property-read \Illuminate\Database\Eloquent\Model|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereData($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereNotifiableId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereNotifiableType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereReadAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Notification whereUpdatedBy($value)
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  * @mixin IdeHelperNotification
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property string $type
+ * @property string $notifiable_type
+ * @property int $notifiable_id
+ * @property array<array-key, mixed> $data
+ * @property Carbon|null $read_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Notification newModelQuery()
+ * @method static Builder<static>|Notification newQuery()
+ * @method static Builder<static>|Notification query()
+ * @method static Builder<static>|Notification whereCreatedAt($value)
+ * @method static Builder<static>|Notification whereCreatedBy($value)
+ * @method static Builder<static>|Notification whereData($value)
+ * @method static Builder<static>|Notification whereDeletedAt($value)
+ * @method static Builder<static>|Notification whereDeletedBy($value)
+ * @method static Builder<static>|Notification whereId($value)
+ * @method static Builder<static>|Notification whereNotifiableId($value)
+ * @method static Builder<static>|Notification whereNotifiableType($value)
+ * @method static Builder<static>|Notification whereReadAt($value)
+ * @method static Builder<static>|Notification whereType($value)
+ * @method static Builder<static>|Notification whereUpdatedAt($value)
+ * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property string $type
+ * @property string $notifiable_type
+ * @property int $notifiable_id
+ * @property array<array-key, mixed> $data
+ * @property Carbon|null $read_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Notification newModelQuery()
+ * @method static Builder<static>|Notification newQuery()
+ * @method static Builder<static>|Notification query()
+ * @method static Builder<static>|Notification whereCreatedAt($value)
+ * @method static Builder<static>|Notification whereCreatedBy($value)
+ * @method static Builder<static>|Notification whereData($value)
+ * @method static Builder<static>|Notification whereDeletedAt($value)
+ * @method static Builder<static>|Notification whereDeletedBy($value)
+ * @method static Builder<static>|Notification whereId($value)
+ * @method static Builder<static>|Notification whereNotifiableId($value)
+ * @method static Builder<static>|Notification whereNotifiableType($value)
+ * @method static Builder<static>|Notification whereReadAt($value)
+ * @method static Builder<static>|Notification whereType($value)
+ * @method static Builder<static>|Notification whereUpdatedAt($value)
+ * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property string $type
+ * @property string $notifiable_type
+ * @property int $notifiable_id
+ * @property array<array-key, mixed> $data
+ * @property Carbon|null $read_at
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Notification newModelQuery()
+ * @method static Builder<static>|Notification newQuery()
+ * @method static Builder<static>|Notification query()
+ * @method static Builder<static>|Notification whereCreatedAt($value)
+ * @method static Builder<static>|Notification whereCreatedBy($value)
+ * @method static Builder<static>|Notification whereData($value)
+ * @method static Builder<static>|Notification whereDeletedAt($value)
+ * @method static Builder<static>|Notification whereDeletedBy($value)
+ * @method static Builder<static>|Notification whereId($value)
+ * @method static Builder<static>|Notification whereNotifiableId($value)
+ * @method static Builder<static>|Notification whereNotifiableType($value)
+ * @method static Builder<static>|Notification whereReadAt($value)
+ * @method static Builder<static>|Notification whereType($value)
+ * @method static Builder<static>|Notification whereUpdatedAt($value)
+ * @method static Builder<static>|Notification whereUpdatedBy($value)
+ *
+ * @mixin \Eloquent
+ */
+ * @mixin IdeHelperNotification
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
  * @mixin \Eloquent
  */
 class Notification extends BaseModel
@@ -77,6 +288,59 @@ class Notification extends BaseModel
      *
      * @return array<string, string>
      */
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
     #[Override]
     protected function casts(): array
     {

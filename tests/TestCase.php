@@ -5,7 +5,29 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests;
 
 use Illuminate\Foundation\Application;
+use Illuminate\Foundation\Application;
+use Illuminate\Foundation\Application;
 use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Modules\Xot\Tests\CreatesApplication;
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Tests\CreatesApplication;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Tests\CreatesApplication;
+use Illuminate\Foundation\Application;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Modules\Notify\Providers\NotifyServiceProvider;
+use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Tests\CreatesApplication;
 
@@ -26,6 +48,101 @@ abstract class TestCase extends BaseTestCase
         // Load Notify module specific configurations
         $this->loadLaravelMigrations();
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // Seed any required data for Notify tests
         $this->artisan('module:seed', ['module' => 'Notify']);
     }
@@ -33,6 +150,32 @@ abstract class TestCase extends BaseTestCase
     /**
      * Get package providers.
      *
+     * @param  Application  $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param  Application  $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param  Application  $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param Application $app
+     * @param  Application  $app
+     * @param  Application  $app
      * @param Application $app
      * @return array<int, class-string>
      */

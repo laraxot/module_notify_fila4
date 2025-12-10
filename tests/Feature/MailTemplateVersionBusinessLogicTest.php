@@ -5,6 +5,46 @@ declare(strict_types=1);
 namespace Modules\Notify\Tests\Feature;
 
 use RuntimeException;
+use RuntimeException;
+use RuntimeException;
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use RuntimeException;
+use RuntimeException;
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Tests\TestCase;
+use Tests\TestCase;
+use Tests\TestCase;
+use Tests\TestCase;
+use Tests\TestCase;
+use RuntimeException;
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Tests\TestCase;
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Tests\TestCase;
+use RuntimeException;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplateVersion;
+use Tests\TestCase;
+use Modules\Notify\Models\MailTemplateVersion;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateVersion;
@@ -19,6 +59,53 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         $versionData = [
             'template_id' => $template->id,
             'mailable' => 'AppointmentConfirmation',
@@ -26,6 +113,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'html_template' => '<!DOCTYPE html><html><body><h1>Conferma Appuntamento</h1><p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.</p></body></html>',
             'text_template' => 'Conferma Appuntamento\n\nGentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}}.',
             'version' => '2.0',
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ];
@@ -38,6 +132,13 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
             'mailable' => 'AppointmentConfirmation',
             'subject' => 'Conferma Appuntamento - Versione 2.0',
             'version' => '2.0',
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'change_notes' => 'Aggiornamento design email e aggiunta variabile appointment_date',
         ]);
@@ -109,19 +210,91 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'version' => '1.5.2',
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+
+        $version = MailTemplateVersion::factory()->create([
+            'template_id' => $template->id,
+            'version' => '1.5.2',
+            'created_by' => 'developer@' . config('app.domain', 'example.com'),
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
             'change_notes' => 'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
         ]);
 
         $this->assertEquals('1.5.2', $version->version);
         $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@'.config('app.domain', 'example.com'), $version->created_by);
+        $this->assertEquals('developer@' . config('app.domain', 'example.com'), $version->created_by);
         $this->assertEquals(
             'Correzione bug nella formattazione HTML e ottimizzazione per mobile',
             $version->change_notes,
         );
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
+        $this->assertEquals('Correzione bug nella formattazione HTML e ottimizzazione per mobile', $version->change_notes);
         $this->assertNotNull($version->created_at);
         $this->assertNotNull($version->updated_at);
     }
@@ -130,6 +303,53 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_complex_html_templates(): void
     {
         $template = MailTemplate::factory()->create();
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         $complexHtmlTemplate = '
         <!DOCTYPE html>
@@ -181,6 +401,41 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     public function it_can_handle_text_template_variants(): void
     {
         $template = MailTemplate::factory()->create();
+
+        
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        $textTemplate = '
+        CONFERMA APPUNTAMENTO
 
         $textTemplate = '
         CONFERMA APPUNTAMENTO
@@ -276,6 +531,53 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         $mailableClasses = [
             'AppointmentConfirmation',
             'AppointmentReminder',
@@ -296,6 +598,20 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
             $this->assertEquals($mailableClass, $version->mailable);
             $this->assertEquals('Template per ' . $mailableClass, $version->subject);
+                'version' => '1.'.$index,
+                'subject' => 'Template per '.$mailableClass,
+                'html_template' => '<p>Template per '.$mailableClass.'</p>',
+            ]);
+
+            $this->assertEquals($mailableClass, $version->mailable);
+            $this->assertEquals('Template per '.$mailableClass, $version->subject);
+                'version' => '1.' . $index,
+                'subject' => 'Template per ' . $mailableClass,
+                'html_template' => '<p>Template per ' . $mailableClass . '</p>',
+            ]);
+
+            $this->assertEquals($mailableClass, $version->mailable);
+            $this->assertEquals('Template per ' . $mailableClass, $version->subject);
         }
     }
 
@@ -309,6 +625,50 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
 
         // Verifica che il modello supporti soft delete
         $this->assertTrue($version->trashed() === false);
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+
+        // Soft delete
+        $version->delete();
+
+        
+        // Soft delete
+        $version->delete();
+        
 
         // Soft delete
         $version->delete();
@@ -351,6 +711,50 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
         $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
 
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
+        
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+        
+
+        $htmlTemplate = '<p>Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.</p>';
+        $textTemplate = 'Gentile {{patient_name}}, il suo appuntamento è confermato per il {{appointment_date}} con il dottore {{doctor_name}}.';
+
         $version = MailTemplateVersion::factory()->create([
             'template_id' => $template->id,
             'html_template' => $htmlTemplate,
@@ -361,6 +765,53 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         // Verifica che le variabili siano consistenti tra HTML e testo
         $htmlVariables = $this->extractVariables($htmlTemplate);
         $textVariables = $this->extractVariables($textTemplate);
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         $this->assertEquals($htmlVariables, $textVariables);
         $this->assertContains('patient_name', $htmlVariables);
@@ -373,6 +824,53 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     {
         $template = MailTemplate::factory()->create();
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         $versionSchemes = [
             '1.0' => 'Versione iniziale',
             '1.1' => 'Correzione bug minori',
@@ -383,6 +881,7 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
         ];
 
         foreach ($versionSchemes as $versionNumber => $description) {
+            $version = MailTemplateVersion::factory()->create([
             $version = MailTemplateVersion::factory()->create([
                 'template_id' => $template->id,
                 'version' => $versionNumber,
@@ -400,6 +899,10 @@ class MailTemplateVersionBusinessLogicTest extends TestCase
     private function extractVariables(string $template): array
     {
         preg_match_all('/\{\{([^}]+)\}\}/', $template, $matches);
+
+
+
+
         return array_unique($matches[1] ?? []);
     }
 }

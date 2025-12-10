@@ -188,6 +188,26 @@ $users->each(function ($user) {
 ### 2. Gestione Worker
 
 ```bash
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 5d933abf (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -293,7 +313,24 @@ $this->call('queue:prune-batches', [
 # Supervisor config
 [program:<nome progetto>-worker]
 process_name=%(program_name)s_%(process_num)02d
+<<<<<<< HEAD
 command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work redis --queue=emails
+=======
+command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/_bases/base_techplanner_fila3_mono/laravel/artisan queue:work redis --queue=emails
+
+# Supervisor config
+[program:<nome progetto>-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=emails
+>>>>>>> 5d933abf (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -375,6 +412,26 @@ if ($failedJobs > $threshold) {
 ### 1. Pulizia
 
 ```bash
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 5d933abf (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -409,4 +466,126 @@ php artisan queue:restart
 ## Vedi Anche
 - [Laravel Queues](https://laravel.com/docs/queues)
 - [Horizon Documentation](https://laravel.com/docs/horizon)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Documentation](https://redis.io/documentation)
 - [Redis Documentation](https://redis.io/documentation)

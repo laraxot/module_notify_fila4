@@ -7,6 +7,24 @@ namespace Modules\Notify\Filament\Clusters\Test\Pages;
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
+use Override;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Toggle;
+use Exception;
+use Override;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification as FilamentNotification;
+use Filament\Panel;
+use Filament\Schemas\Schema;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Toggle;
@@ -33,11 +51,46 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 class SendAwsEmailPage extends XotBasePage
 {
     public null|array $emailData = [];
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-envelope';
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendAwsEmailPage extends XotBasePage
+{
+    public null|array $emailData = [];
+
+    public ?array $emailData = [];
+    public null|array $emailData = [];
+
+/**
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+class SendAwsEmailPage extends XotBasePage
+{
+    public null|array $emailData = [];
+
+    public ?array $emailData = [];
+    public null|array $emailData = [];
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    public null|array $emailData = [];
+    public null|array $emailData = [];
+    public null|array $emailData = [];
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-envelope';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 
     /**
@@ -65,6 +118,51 @@ class SendAwsEmailPage extends XotBasePage
     protected function fillForms(): void
     {
         $this->emailForm->fill();
+        // $this->emailForm->fill();
+        // Form data filled;
+        $this->emailForm->fill();
+        // $this->emailForm->fill();
+        // Form data filled;
+        $this->emailForm->fill();
+    }
+
+    public function emailForm(Schema $schema): Schema
+    {
+<<<<<<< HEAD
+        return $schema->schema($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\RichEditor|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle>
+     */
+=======
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+        return $schema
+            ->components($this->getEmailFormSchema())
+            ->model($this->getUser())
+            ->statePath('emailData');
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    public function emailForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+        return $schema
+            ->components($this->getEmailFormSchema())
+            ->model($this->getUser())
+            ->statePath('emailData');
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    public function emailForm(Form $form): Form
+    {
+        return $form
+            ->schema($this->getEmailFormSchema())
+            ->model($this->getUser())
+            ->statePath('emailData');
     }
 
     public function emailForm(Schema $schema): Schema
@@ -75,6 +173,30 @@ class SendAwsEmailPage extends XotBasePage
     /**
      * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\RichEditor|\Filament\Forms\Components\Select|\Filament\Forms\Components\Toggle>
      */
+    /** @phpstan-ignore-next-line return.type */
+    public function getEmailFormSchema(): array
+    {
+        return [
+            'to' => TextInput::make('to')
+        return $schema->components($this->getEmailFormSchema())->model($this->getUser())->statePath('emailData');
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    /** @phpstan-ignore-next-line return.type */
+    public function getEmailFormSchema(): array
+    {
+        return [
+            TextInput::make('to')
+            TextInput::make('to')
+            TextInput::make('to')
+            TextInput::make('to')
+    public function getEmailFormSchema(): array
+    {
+        return [
+            TextInput::make('to')
+>>>>>>> 5d933abf (.)
     public function getEmailFormSchema(): array
     {
         return [
@@ -84,6 +206,59 @@ class SendAwsEmailPage extends XotBasePage
                 ->required()
                 ->helperText(__('notify::email.form.to.helper')),
             'subject' => TextInput::make('subject')
+<<<<<<< HEAD
+=======
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            'body_html' => RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            Forms\Components\TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            Forms\Components\RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            TextInput::make('subject')
+                ->label(__('notify::email.form.subject.label'))
+                ->required()
+                ->maxLength(150),
+            RichEditor::make('body_html')
+            TextInput::make('subject')
+>>>>>>> 5d933abf (.)
                 ->label(__('notify::email.form.subject.label'))
                 ->required()
                 ->maxLength(150),
@@ -94,6 +269,32 @@ class SendAwsEmailPage extends XotBasePage
                 ->fileAttachmentsDirectory('uploads/mail-attachments')
                 ->helperText(__('notify::email.form.body_html.helper')),
             'template' => Select::make('template')
+<<<<<<< HEAD
+=======
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+            Select::make('template')
+>>>>>>> 5d933abf (.)
                 ->label(__('notify::email.form.template.label'))
                 ->options([
                     'aws-default' => 'AWS Default',
@@ -105,6 +306,32 @@ class SendAwsEmailPage extends XotBasePage
                 ->required()
                 ->helperText(__('notify::email.form.template.helper')),
             'add_attachments' => Toggle::make('add_attachments')
+<<<<<<< HEAD
+=======
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+            Toggle::make('add_attachments')
+>>>>>>> 5d933abf (.)
                 ->label(__('notify::email.form.add_attachments.label'))
                 ->default(false)
                 ->helperText(__('notify::email.form.add_attachments.helper')),
@@ -113,6 +340,10 @@ class SendAwsEmailPage extends XotBasePage
 
     public function sendEmail(): void
     {
+        $data = $this->emailForm->getState();
+        // $data = $this->emailForm->getState();
+        $data = $this->data;
+        $data = $this->emailForm->getState();
         $data = $this->emailForm->getState();
 
         try {
@@ -154,6 +385,11 @@ class SendAwsEmailPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',

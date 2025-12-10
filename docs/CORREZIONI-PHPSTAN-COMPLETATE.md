@@ -13,6 +13,12 @@
 
 ## Problema Identificato
 
+<<<<<<< HEAD:docs/CORREZIONI-PHPSTAN-COMPLETATE.md
+=======
+### Falsi Syntax Errors
+L'analisi PHPStan riportava 147 "syntax errors", ma in realt� **NON erano errori di sintassi PHP**. Erano **conflitti git non risolti** lasciati nel codice sorgente dopo merge multipli.
+
+>>>>>>> 5d933abf (.):docs/CORREZIONI_PHPSTAN_COMPLETATE.md
 
 Questi marker provenivano da merge di branch diversi mai completati correttamente.
 

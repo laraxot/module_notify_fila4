@@ -5,6 +5,64 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotifyThemeFactory;
+use Eloquent;
+use Override;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotifyThemeFactory;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotifyThemeFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Eloquent;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Eloquent;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Eloquent;
+use Modules\Xot\Models\Traits\HasXotFactory;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Carbon;
+use Override;
+use Override;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotifyThemeFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Eloquent;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Carbon;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Override;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotifyThemeFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -27,6 +85,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property Carbon|null $created_at
  * @property string|null $created_by
  * @property Carbon|null $updated_at
+ * @property string|null $created_by
+ * @property Carbon|null $created_at
+ * @property string|null $created_by
+ * @property Carbon|null $updated_at
+ * @property Carbon|null $created_at
+ * @property string|null $created_by
+ * @property Carbon|null $updated_at
  * @property string|null $updated_by
  * @property string|null $post_type
  * @property int|null $post_id
@@ -39,6 +104,166 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
  * @property array $view_params
  * @property array $logo
  * @property Model|Eloquent $linkable
+ * @property Model $linkable
+ * @property Model|Eloquent $linkable
+ * @property Model $linkable
+ * @property Model|Eloquent $linkable
+ * @property Model $linkable
+ * @property MediaCollection<int, Media> $media
+ * @property int|null $media_count
+ *
+ *
+ * @method static NotifyThemeFactory factory($count = null, $state = [])
+ * @method static Builder|NotifyTheme newModelQuery()
+ * @method static Builder|NotifyTheme newQuery()
+ * @method static Builder|NotifyTheme query()
+ * @method static Builder|NotifyTheme whereBody($value)
+ * @method static Builder|NotifyTheme whereBodyHtml($value)
+ * @method static Builder|NotifyTheme whereCreatedAt($value)
+ * @method static Builder|NotifyTheme whereCreatedBy($value)
+ * @method static Builder|NotifyTheme whereFrom($value)
+ * @method static Builder|NotifyTheme whereFromEmail($value)
+ * @method static Builder|NotifyTheme whereId($value)
+ * @method static Builder|NotifyTheme whereLang($value)
+ * @method static Builder|NotifyTheme whereLogoHeight($value)
+ * @method static Builder|NotifyTheme whereLogoSrc($value)
+ * @method static Builder|NotifyTheme whereLogoWidth($value)
+ * @method static Builder|NotifyTheme wherePostId($value)
+ * @method static Builder|NotifyTheme wherePostType($value)
+ * @method static Builder|NotifyTheme whereSubject($value)
+ * @method static Builder|NotifyTheme whereTheme($value)
+ * @method static Builder|NotifyTheme whereType($value)
+ * @method static Builder|NotifyTheme whereUpdatedAt($value)
+ * @method static Builder|NotifyTheme whereUpdatedBy($value)
+ * @method static Builder|NotifyTheme whereViewParams($value)
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @mixin Eloquent
+ *
+ * @mixin \Eloquent
+ *
+ *
+ * @mixin \Eloquent
+ *
+ * @mixin Eloquent
+ * @mixin \Eloquent
+ *
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+ */
+class NotifyTheme extends BaseModel implements HasMedia
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @mixin Eloquent
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+ * @property Model|\Eloquent $linkable
+ * @property MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property int|null $media_count
+ * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme query()
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereBody($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereBodyHtml($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereFrom($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereFromEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLang($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoHeight($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoSrc($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereLogoWidth($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme wherePostId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme wherePostType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereSubject($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereTheme($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereUpdatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|NotifyTheme whereViewParams($value)
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @mixin \Eloquent
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotifyTheme whereDeletedBy($value)
+ *
+ * @mixin IdeHelperNotifyTheme
+ * @mixin Eloquent
+ */
+/**
+ * @property string $id
+ * @property string|null $lang
+ * @property string|null $type
+ * @property string|null $subject
+ * @property string|null $body
+ * @property string|null $from
+ * @property string|null $post_type
+ * @property int|null $post_id
+ * @property string|null $body_html
+ * @property string|null $theme
+ * @property string|null $from_email
+ * @property string|null $logo_src
+ * @property int|null $logo_width
+ * @property int|null $logo_height
+ * @property array<array-key, mixed>|null $view_params
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read array<string, mixed> $logo
+ * @property-read Model|\Eloquent|null $linkable
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Notify\Database\Factories\NotifyThemeFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotifyTheme newModelQuery()
+ * @method static Builder<static>|NotifyTheme newQuery()
+ * @method static Builder<static>|NotifyTheme query()
+ * @method static Builder<static>|NotifyTheme whereBody($value)
+ * @method static Builder<static>|NotifyTheme whereBodyHtml($value)
+ * @method static Builder<static>|NotifyTheme whereCreatedAt($value)
+ * @method static Builder<static>|NotifyTheme whereCreatedBy($value)
+ * @method static Builder<static>|NotifyTheme whereDeletedAt($value)
+ * @method static Builder<static>|NotifyTheme whereDeletedBy($value)
+ * @method static Builder<static>|NotifyTheme whereFrom($value)
+ * @method static Builder<static>|NotifyTheme whereFromEmail($value)
+ * @method static Builder<static>|NotifyTheme whereId($value)
+ * @method static Builder<static>|NotifyTheme whereLang($value)
+ * @method static Builder<static>|NotifyTheme whereLogoHeight($value)
+ * @method static Builder<static>|NotifyTheme whereLogoSrc($value)
+ * @method static Builder<static>|NotifyTheme whereLogoWidth($value)
+ * @method static Builder<static>|NotifyTheme wherePostId($value)
+ * @method static Builder<static>|NotifyTheme wherePostType($value)
+ * @method static Builder<static>|NotifyTheme whereSubject($value)
+ * @method static Builder<static>|NotifyTheme whereTheme($value)
+ * @method static Builder<static>|NotifyTheme whereType($value)
+ * @method static Builder<static>|NotifyTheme whereUpdatedAt($value)
+ * @method static Builder<static>|NotifyTheme whereUpdatedBy($value)
+ * @method static Builder<static>|NotifyTheme whereViewParams($value)
+ *
+ * @mixin Eloquent
+ */
+ * @mixin Eloquent
+ */
+class NotifyTheme extends BaseModel
+ */
+class NotifyTheme extends BaseModel implements HasMedia
+{
+    /** @var list<string> */
  * @property MediaCollection<int, Media> $media
  * @property int|null $media_count
  * @method static NotifyThemeFactory factory($count = null, $state = [])
@@ -77,6 +302,11 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 class NotifyTheme extends BaseModel
 {
     /** @var list<string> */
+ * @mixin Eloquent
+ */
+class NotifyTheme extends BaseModel
+{
+    /** @var list<string> */
     protected $fillable = [
         'id',
         'lang',
@@ -89,17 +319,93 @@ class NotifyTheme extends BaseModel
         'post_type',
         'post_id',
         'theme',
+        'body_html',
+        'from',
+        'from_email',
+        'post_type',
+        'post_id',
+        'theme',
         'logo_src',
         'logo_width',
         'logo_height',
         'view_params',
     ];
 
+    /**
+     * @return array{path: string, width: int, height: int}
+     */
+    public function getLogoAttribute(): array
     /** @var list<string> */
     protected $appends = [
         'logo',
     ];
 
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    /** @var list<string> */
+    protected $appends = [
+        'logo',
+    ];
+
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(null|array $value): array
+    public function getLogoAttribute(?array $value): array
     public function getLogoAttribute(null|array $value): array
     {
         return [
@@ -120,6 +426,56 @@ class NotifyTheme extends BaseModel
 
     /** @return array<string, string> */
     #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
     protected function casts(): array
     {
         return [
@@ -131,6 +487,68 @@ class NotifyTheme extends BaseModel
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            // 'published_at' => 'datetime:Y-m-d', // da verificare
+            // 'published_at' => 'datetime:Y-m-d', // da verificare
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            // 'published_at' => 'datetime:Y-m-d', // da verificare
             // 'published_at' => 'datetime:Y-m-d', // da verificare
             'view_params' => 'array',
         ];

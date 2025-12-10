@@ -3,6 +3,57 @@
 declare(strict_types=1);
 
 
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
 namespace Modules\Notify\Notifications\Channels;
 
 use Exception;
@@ -13,6 +64,37 @@ class TelegramChannel
 {
     /**
      * Invia la notifica tramite Telegram.
+     *
+     * @param mixed $notifiable
+     * @param Notification $notification
+     * @param  mixed  $notifiable
+     * @param mixed $notifiable
+     * @param Notification $notification
+     * @param  mixed  $notifiable
+     * @param mixed $notifiable
+     * @param Notification $notification
+     * @param  mixed  $notifiable
+     * @param mixed $notifiable
+     * @param Notification $notification
+     * @param Notification $notification
+     * @param  mixed  $notifiable
+     * @param  mixed  $notifiable
+     * @return void
+     */
+    public function send($notifiable, Notification $notification)
+    {
+        if (!method_exists($notification, 'toTelegram')) {
+            throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
+        }
+
+        if (!is_object($notifiable) || !method_exists($notifiable, 'routeNotificationForTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+            throw new Exception('Il metodo toTelegram() non è definito nella notifica.');
+        }
+
+        if (! is_object($notifiable) || ! method_exists($notifiable, 'routeNotificationForTelegram')) {
      *
      * @param mixed $notifiable
      * @param Notification $notification
@@ -40,6 +122,53 @@ class TelegramChannel
         // Per ora, logghiamo solo l'intento di invio
         Log::info('Telegram notification would be sent', [
             'chat_id' => $chatId,
+            'message' => $message,
+            'message' => $message
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
+            'message' => $message,
             'message' => $message,
         ]);
     }

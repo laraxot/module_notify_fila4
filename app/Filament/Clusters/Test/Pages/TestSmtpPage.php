@@ -4,6 +4,56 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Filament\Forms\Form;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Override;
+use Override;
+use Override;
+use Override;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification;
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Override;
+use Override;
+use Override;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification;
+use Filament\Schemas\Schema;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\ComponentContainer;
+use Filament\Forms\Components\Section;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Forms\Form;
+use Filament\Notifications\Notification;
+use Modules\Xot\Filament\Pages\XotBasePage;
 use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
@@ -27,12 +77,61 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Webmozart\Assert\Assert;
 
 /**
+ * 
+use Webmozart\Assert\Assert;
+
+/**
+ * @property ComponentContainer $emailForm
+ * @property \Filament\Schemas\Schema $emailForm
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Webmozart\Assert\Assert;
+
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Webmozart\Assert\Assert;
+
+use Modules\Xot\Datas\XotData;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Webmozart\Assert\Assert;
+
+/**
+ * 
+ */
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+ * @property \Filament\Schemas\Schema $emailForm
+ */
+ * 
+ */
  * @property \Filament\Schemas\Schema $emailForm
  */
 class TestSmtpPage extends XotBasePage implements HasForms
 {
     use InteractsWithForms;
 
+    public null|array $emailData = [];
+    public ?array $emailData = [];
+
+    public null|string $error_message = null;
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
+    public ?array $emailData = [];
+
+    public ?string $error_message = null;
+    public ?array $emailData = [];
+
+    public ?string $error_message = null;
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
     public null|array $emailData = [];
 
     public null|string $error_message = null;
@@ -42,12 +141,55 @@ class TestSmtpPage extends XotBasePage implements HasForms
     protected string $view = 'notify::filament.pages.send-email';
 
     protected static null|string $cluster = Test::class;
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    public ?array $emailData = [];
+
+    public ?string $error_message = null;
+
+    protected static ?string $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected static string $view = 'notify::filament.pages.send-email';
+
+    protected static ?string $cluster = Test::class;
+    public null|array $emailData = [];
+
+    public null|string $error_message = null;
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
 
     public function mount(): void
     {
         $this->fillForms();
     }
 
+    public function sendEmail(): void
+    {
+        $data = $this->data;
     public function emailForm(Schema $schema): Schema
     {
         Assert::isArray($mail_config = config('mail'));
@@ -122,11 +264,28 @@ class TestSmtpPage extends XotBasePage implements HasForms
         ];
     }
 
+    public function emailForm(Schema $schema): Schema
+    {
+        /** @var Schema $result */
+        $result = $schema->components([])->model($this->getUser())->statePath('emailData');
+        return $result;
+        return $schema->components([])->model($this->getUser())->statePath('emailData');
+        return $schema->components([])->model($this->getUser())->statePath('emailData');
+        return $schema->components([])->model($this->getUser())->statePath('emailData');
+    }
+
     #[Override]
     protected function getUser(): Authenticatable&Model
     {
         $user = Filament::auth()->user();
 
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento della pagina del profilo.',
@@ -148,6 +307,28 @@ class TestSmtpPage extends XotBasePage implements HasForms
                 $typedConfig[$key] = $value;
             }
         }
+
+        $this->fill($typedConfig);
+
+
+
+        
+        
+
+        
+
+        
+
+        $this->emailForm->fill($typedConfig);
+        $this->emailForm->fill($typedConfig);
+        $this->emailForm->fill($typedConfig);
+        $this->fill($typedConfig);
+        
+
+        $this->emailForm->fill($typedConfig);
+        $this->emailForm->fill($typedConfig);
+        $this->fill($typedConfig);
+        
 
         $this->emailForm->fill($typedConfig);
     }

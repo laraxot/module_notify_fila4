@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+declare(strict_types=1);
+
 
 return [
     'actions' => [
@@ -19,3 +21,24 @@ return [
         ],
     ],
 ];
+return array (
+  'actions' => 
+  array (
+    'delete' => 
+    array (
+      'label' => 'delete',
+    ),
+    'cancel' => 
+    array (
+      'label' => 'cancel',
+    ),
+    'save' => 
+    array (
+      'label' => 'save',
+    ),
+    'activeLocale' => 
+    array (
+      'label' => 'activeLocale',
+    ),
+  ),
+);

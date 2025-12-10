@@ -9,10 +9,26 @@ declare(strict_types=1);
 namespace Modules\Notify\Services\MailEngines;
 
 use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
 use ErrorException;
 use Exception;
 use Illuminate\Mail\Message;
 use Illuminate\Support\Facades\Mail;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use InvalidArgumentException;
+use ErrorException;
+use Exception;
+use Illuminate\Mail\Message;
+use Illuminate\Support\Facades\Mail;
+use InvalidArgumentException;
 use Webmozart\Assert\Assert;
 
 // ---------CSS------------
@@ -23,11 +39,101 @@ use Webmozart\Assert\Assert;
 class MailtrapEngine
 {
     public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public ?string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
+    public null|string $from = null;
 
     public string $to;
 
     public string $driver;
 
+    public ?string $body = null;
+
+    private static ?self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+        if (!(self::$instance instanceof self)) {
+
+    private static null|self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (! self::$instance instanceof self) {
+        if (!(self::$instance instanceof self)) {
+    public ?string $body = null;
     public null|string $body = null;
 
     private static null|self $instance = null;
@@ -35,6 +141,48 @@ class MailtrapEngine
     public static function getInstance(): self
     {
         if (!(self::$instance instanceof self)) {
+    public null|string $body = null;
+    public ?string $body = null;
+
+    private static ?self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+        if (!(self::$instance instanceof self)) {
+    public ?string $body = null;
+    public null|string $body = null;
+    public null|string $body = null;
+
+    private static null|self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (! self::$instance instanceof self) {
+        if (!(self::$instance instanceof self)) {
+    public ?string $body = null;
+
+    private static ?self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (! self::$instance instanceof self) {
+            self::$instance = new self();
+        if (! (self::$instance instanceof self)) {
+            self::$instance = new self;
+    public null|string $body = null;
+
+    private static null|self $instance = null;
+
+    public static function getInstance(): self
+    {
+        if (!(self::$instance instanceof self)) {
+            self::$instance = new self();
+        if (! self::$instance instanceof self) {
+            self::$instance = new self();
+        if (!(self::$instance instanceof self)) {
+            self::$instance = new self();
             self::$instance = new self();
         }
 
@@ -69,6 +217,72 @@ class MailtrapEngine
         // Mail::raw('Hello World!', function($msg) {$msg->to('vair81@gmail.com')->subject('Test Email'); });
 
         // try {
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body);
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body);
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body);
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body);
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body);
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__.':'.__LINE__.' - '.class_basename(__CLASS__));
+        Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         Assert::string($this->body, __FILE__ . ':' . __LINE__ . ' - ' . class_basename(__CLASS__));
         Mail::raw($this->body, function (Message $msg): void {
             // Verifichiamo che $this->to sia valido
@@ -76,11 +290,74 @@ class MailtrapEngine
 
             // Utilizziamo una condizione più appropriata
             if (!$to) {
+            if (! $to) {
+            if (!$to) {
+                throw new InvalidArgumentException('Il destinatario email non è valido');
+            if (! $to) {
+            if (! $to) {
+            if (!$to) {
+            if (! $to) {
+            if (!$to) {
+            if (!$to) {
+            if (! $to) {
+            if (!$to) {
+                throw new InvalidArgumentException('Il destinatario email non è valido');
+            if (! $to) {
+            if (! $to) {
+            if (!$to) {
+            if (! $to) {
+            if (!$to) {
                 throw new InvalidArgumentException('Il destinatario email non è valido');
             }
 
             $msg->to($to)->subject('Test Email');
         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // Dead catch - ErrorException is never thrown in the try block.
         // } catch (ErrorException $e) {

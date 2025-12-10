@@ -13,6 +13,73 @@ uses(TestCase::class, RefreshDatabase::class);
 
 beforeEach(function () {
     $this->baseModel = new class extends BaseModel {
+use Modules\Notify\Models\BaseModel;
+
+beforeEach(function () {
+    $this->baseModel = new class extends BaseModel
+    {
+use Modules\Notify\Models\BaseModel;
+use Tests\TestCase;
+
+uses(TestCase::class, RefreshDatabase::class);
+
+beforeEach(function () {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+    $this->baseModel = new class extends BaseModel
+    {
+use Modules\Notify\Models\BaseModel;
+
+beforeEach(function () {
+    $this->baseModel = new class extends BaseModel
+    {
+use Modules\Notify\Models\BaseModel;
+use Tests\TestCase;
+
+uses(TestCase::class, RefreshDatabase::class);
+
+beforeEach(function () {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+use Modules\Notify\Models\BaseModel;
+
+beforeEach(function () {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+use Modules\Notify\Models\BaseModel;
+
+beforeEach(function () {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+    $this->baseModel = new class extends BaseModel
+    {
+    $this->baseModel = new class extends BaseModel {
+use Modules\Notify\Models\BaseModel;
+
+beforeEach(function () {
+    $this->baseModel = new class extends BaseModel
+    {
         protected $table = 'test_notify_table';
     };
 });

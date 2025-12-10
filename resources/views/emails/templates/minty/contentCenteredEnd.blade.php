@@ -4,6 +4,17 @@ declare(strict_types=1);
 
 ?>
 </tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
 </table>
 </td>
 </tr>

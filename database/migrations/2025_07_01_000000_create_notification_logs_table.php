@@ -3,16 +3,204 @@
 declare(strict_types=1);
 
 
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration
+{
+return new class extends Migration {
+return new class extends Migration {
 return new class extends Migration {
     /**
      * Run the migrations.
      */
     public function up(): void
     {
+        if (!Schema::hasTable('notification_logs')) {
+        if (! Schema::hasTable('notification_logs')) {
+        if (! Schema::hasTable('notification_logs')) {
+        if (!Schema::hasTable('notification_logs')) {
+        if (! Schema::hasTable('notification_logs')) {
+        if (!Schema::hasTable('notification_logs')) {
+        if (! Schema::hasTable('notification_logs')) {
+        if (!Schema::hasTable('notification_logs')) {
+            Schema::create('notification_logs', function (Blueprint $table) {
+            Schema::create('notification_logs', function (Blueprint $table): void {
+            Schema::create('notification_logs', function (Blueprint $table) {
+            Schema::create('notification_logs', function (Blueprint $table): void {
+            Schema::create('notification_logs', function (Blueprint $table) {
         if (!Schema::hasTable('notification_logs')) {
             Schema::create('notification_logs', function (Blueprint $table) {
                 $table->id();
@@ -29,6 +217,53 @@ return new class extends Migration {
                 $table->text('error_message')->nullable();
                 $table->json('metadata')->nullable();
                 $table->timestamps();
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 $table->index(['notifiable_type', 'notifiable_id']);
                 $table->index('channel');

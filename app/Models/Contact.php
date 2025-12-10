@@ -4,12 +4,118 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models;
 
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Builder;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Override;
 use Modules\Notify\Database\Factories\ContactFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Modules\Xot\Contracts\ProfileContract;
+use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Modules\Xot\Contracts\ProfileContract;
+use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Modules\Xot\Contracts\ProfileContract;
+use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Carbon;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Illuminate\Support\Carbon;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Illuminate\Support\Carbon;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Override;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Modules\Notify\Database\Factories\ContactFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Xot\Contracts\ProfileContract;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Carbon;
 
 /**
@@ -54,6 +160,41 @@ use Illuminate\Support\Carbon;
  * @property string|null $sms_status_txt
  * @property int|null $duplicate_count
  * @property int|null $order_column
+ *
+ *
+ * @mixin IdeHelperContact
+ *
+ *
+ * @method static ContactFactory factory($count = null, $state = [])
+ * @method static Builder|Contact newModelQuery()
+ * @method static Builder|Contact newQuery()
+ * @method static Builder|Contact query()
+ * @method static Builder|Contact whereContactType($value)
+ * @method static Builder|Contact whereCreatedAt($value)
+ * @method static Builder|Contact whereCreatedBy($value)
+ * @method static Builder|Contact whereId($value)
+ * @method static Builder|Contact whereModelId($value)
+ * @method static Builder|Contact whereModelType($value)
+ * @method static Builder|Contact whereLastName($value)
+ * @method static Builder|Contact whereMailCount($value)
+ * @method static Builder|Contact whereMailSentAt($value)
+ * @method static Builder|Contact whereMobilePhone($value)
+ * @method static Builder|Contact whereOrderColumn($value)
+ * @method static Builder|Contact whereSmsCount($value)
+ * @method static Builder|Contact whereSmsSentAt($value)
+ * @method static Builder|Contact whereSmsStatusCode($value)
+ * @method static Builder|Contact whereSmsStatusTxt($value)
+ * @method static Builder|Contact whereSurveyPdfId($value)
+ * @method static Builder|Contact whereToken($value)
+ * @method static Builder|Contact whereUpdatedAt($value)
+ * @method static Builder|Contact whereUpdatedBy($value)
+ * @method static Builder|Contact whereUserId($value)
+ * @method static Builder|Contact whereValue($value)
+ * @method static Builder|Contact whereVerifiedAt($value)
+ *
+ * @mixin Eloquent
+ * @property string|null $email
+ * @property string|null $mobile_phone
  * @method static ContactFactory factory($count = null, $state = [])
  * @method static Builder|Contact newModelQuery()
  * @method static Builder|Contact newQuery()
@@ -101,6 +242,14 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Contact whereEmail($value)
  * @method static Builder|Contact whereFirstName($value)
  * @method static Builder|Contact whereUsesleft($value)
+ *
+ *
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property MediaCollection<int, Media> $media
@@ -109,7 +258,130 @@ use Illuminate\Support\Carbon;
  * @property string|null $deleted_by
  * @method static Builder<static>|Contact whereDeletedAt($value)
  * @method static Builder<static>|Contact whereDeletedBy($value)
+ *
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ *
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ *
+ *
+ *
+ *
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
  * @mixin IdeHelperContact
+ *
+ * @mixin IdeHelperContact
+ *
+ * @mixin IdeHelperContact
+ *
+ * @property string|null $language
+ * @property string|null $survey_id
+ *
+ * @method static Builder<static>|Contact whereLanguage($value)
+ * @method static Builder<static>|Contact whereSurveyId($value)
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property string $model_type
+ * @property string $model_id
+ * @property string|null $contact_type
+ * @property string|null $value
+ * @property string|null $user_id
+ * @property string|null $verified_at
+ * @property string|null $token
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\ContactFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Contact newModelQuery()
+ * @method static Builder<static>|Contact newQuery()
+ * @method static Builder<static>|Contact query()
+ * @method static Builder<static>|Contact whereContactType($value)
+ * @method static Builder<static>|Contact whereCreatedAt($value)
+ * @method static Builder<static>|Contact whereCreatedBy($value)
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ * @method static Builder<static>|Contact whereId($value)
+ * @method static Builder<static>|Contact whereModelId($value)
+ * @method static Builder<static>|Contact whereModelType($value)
+ * @method static Builder<static>|Contact whereToken($value)
+ * @method static Builder<static>|Contact whereUpdatedAt($value)
+ * @method static Builder<static>|Contact whereUpdatedBy($value)
+ * @method static Builder<static>|Contact whereUserId($value)
+ * @method static Builder<static>|Contact whereValue($value)
+ * @method static Builder<static>|Contact whereVerifiedAt($value)
+ *
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+ *
+ * @mixin \Eloquent
+ */
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ * @mixin IdeHelperContact
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property string $model_type
+ * @property string $model_id
+ * @property string|null $contact_type
+ * @property string|null $value
+ * @property string|null $user_id
+ * @property string|null $verified_at
+ * @property string|null $token
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Notify\Database\Factories\ContactFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Contact newModelQuery()
+ * @method static Builder<static>|Contact newQuery()
+ * @method static Builder<static>|Contact query()
+ * @method static Builder<static>|Contact whereContactType($value)
+ * @method static Builder<static>|Contact whereCreatedAt($value)
+ * @method static Builder<static>|Contact whereCreatedBy($value)
+ * @method static Builder<static>|Contact whereDeletedAt($value)
+ * @method static Builder<static>|Contact whereDeletedBy($value)
+ * @method static Builder<static>|Contact whereId($value)
+ * @method static Builder<static>|Contact whereModelId($value)
+ * @method static Builder<static>|Contact whereModelType($value)
+ * @method static Builder<static>|Contact whereToken($value)
+ * @method static Builder<static>|Contact whereUpdatedAt($value)
+ * @method static Builder<static>|Contact whereUpdatedBy($value)
+ * @method static Builder<static>|Contact whereUserId($value)
+ * @method static Builder<static>|Contact whereValue($value)
+ * @method static Builder<static>|Contact whereVerifiedAt($value)
+ *
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
  * @mixin \Eloquent
  */
 class Contact extends BaseModel
@@ -131,6 +403,40 @@ class Contact extends BaseModel
 
     /** @return array<string, string> */
     #[Override]
+    #[\Override]
+    #[Override]
+        'model_id', 'model_type', 'contact_type', 'value',
+        'verified_at', 'updated_at', 'created_at',
+        'updated_by', 'created_by', 'user_id', 'token',
+    ];
+
+    /** @return array<string, string> */
+    ];
+
+    /** @return array<string, string> */
+    #[Override]
+    #[\Override]
+        'model_id', 'model_type', 'contact_type', 'value',
+        'verified_at', 'updated_at', 'created_at',
+        'updated_by', 'created_by', 'user_id', 'token',
+    ];
+
+    /** @return array<string, string> */
+    /** @return array<string, string> */
+    #[Override]
+    ];
+
+    /** @return array<string, string> */
+    #[Override]
+    #[\Override]
+    /** @return array<string, string> */
+    #[Override]
+        'model_id', 'model_type', 'contact_type', 'value',
+        'verified_at', 'updated_at', 'created_at',
+        'updated_by', 'created_by', 'user_id', 'token',
+    ];
+
+    /** @return array<string, string> */
     protected function casts(): array
     {
         return [
@@ -139,6 +445,86 @@ class Contact extends BaseModel
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
             'deleted_at' => 'datetime',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
+            'updated_by' => 'string',
+            'created_by' => 'string',
+            'deleted_by' => 'string',
             'updated_by' => 'string',
             'created_by' => 'string',
             'deleted_by' => 'string',

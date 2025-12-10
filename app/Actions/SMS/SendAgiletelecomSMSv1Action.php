@@ -6,6 +6,24 @@ namespace Modules\Notify\Actions\SMS;
 
 use Override;
 use GuzzleHttp\Client;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+
+use GuzzleHttp\Client;
+use Modules\Notify\Datas\SmsData;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Override;
+use Override;
+use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\AgiletelecomData;
@@ -13,10 +31,92 @@ use Modules\Notify\Datas\SmsData;
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
+ *
+use Override;
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use GuzzleHttp\Client;
+use Modules\Notify\Contracts\SmsActionContract;
+use GuzzleHttp\Client;
+use Modules\Notify\Contracts\SmsActionContract;
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+
+use GuzzleHttp\Client;
+use Modules\Notify\Datas\SmsData;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+use Override;
+
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+
+
+
+
+
+use GuzzleHttp\Client;
+use Modules\Notify\Datas\SmsData;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Override;
+use Override;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Http;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+ *
+use Modules\Notify\Datas\SMS\AgiletelecomData;
+use Modules\Notify\Datas\SmsData;
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+
+/**
+ * Azione per l'invio di SMS tramite Agile Telecom.
+ *
  * @see https://account.agiletelecom.com/public/resources/HTTP_POST_IT.pdf
  */
 class SendAgiletelecomSMSv1Action implements SmsActionContract
 {
+    #[\Override]
+    #[\Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
     #[Override]
     public function execute(SmsData $data): array
     {
@@ -39,6 +139,45 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
             'Accept-Encoding' => 'gzip, deflate',
             'Cache-Control' => 'no-cache',
             'Connection' => 'keep-alive',
+    public function execute(SmsData $data): array{
+        
+        $base_uri='https://secure.agiletelecom.com/';
+        $relative_path='securesend_v1.aspx';
+
+        $data = [
+            'smsTEXT' => $data->body,
+            'smsNUMBER' => $phone,
+            'smsSENDER' => $agile->sender,
+            'smsGATEWAY' => 'H', // M = Qualità standard, H = Qualità Alta
+            'smsUSER' => $agile->username,
+            'smsPASSWORD' => $agile->password,
+        ];
+
+        $headers = [
+            "Accept-Encoding" => "gzip, deflate",
+            "Cache-Control" => "no-cache",
+            "Connection" => "keep-alive",
+            'Accept-Encoding' => 'gzip, deflate',
+            'Cache-Control' => 'no-cache',
+            'Connection' => 'keep-alive',
+
+        $agile=AgiletelecomData::make();
+        $phone=app(NormalizePhoneNumberAction::class)->execute($data->to);
+        
+        
+        $data = [
+            "smsTEXT" => $data->body,
+            "smsNUMBER" => $phone,
+            "smsSENDER" => $agile->sender,
+            "smsGATEWAY" => "H", // M = Qualità standard, H = Qualità Alta
+            "smsUSER" =>$agile->username,
+            "smsPASSWORD" => $agile->password
+        ];
+
+        $headers = [
+            "Accept-Encoding" => "gzip, deflate",
+            "Cache-Control" => "no-cache",
+            "Connection" => "keep-alive",
         ];
 
         $client = new Client([
@@ -49,6 +188,92 @@ class SendAgiletelecomSMSv1Action implements SmsActionContract
         ]);
 
         $connection = $client->request('POST', $relative_path);
+
+        return [];
+    }
+
+        return [];
+    }
+        
+        return [];
+
+        return [];
+    }
+    
+        
+        return [];
+
+    }
+    
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
+
+        return [];
+    }
 
         return [];
     }

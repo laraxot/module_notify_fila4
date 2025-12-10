@@ -5,15 +5,177 @@ declare(strict_types=1);
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Notify\Models\NotifyThemeable;
 
-describe('Notify Themeable Business Logic', function () {
-    it('can create notify themeable with basic information', function () {
+describe('Notify Themeable Business Logic', function (): void {
+    it('can create notify themeable with basic information', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
 
         $themeableData = [
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme->id,
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ];
@@ -25,6 +187,10 @@ describe('Notify Themeable Business Logic', function () {
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme->id,
+            'created_by' => 'admin@'.config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+            'created_by' => 'admin@' . config('app.domain', 'example.com'),
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
             'created_by' => 'admin@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
@@ -34,8 +200,11 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->notify_theme_id)->toBe($theme->id);
     });
 
-    it('can manage polymorphic relationships', function () {
+    it('can manage polymorphic relationships', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\EmailTemplate',
@@ -49,7 +218,8 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->morphTo())->toBeInstanceOf(MorphTo::class);
     });
 
-    it('can handle different model types', function () {
+    it('can handle different model types', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
 
         $modelTypes = [
@@ -61,7 +231,8 @@ describe('Notify Themeable Business Logic', function () {
         ];
 
         foreach ($modelTypes as $index => $modelType) {
-            $themeable = NotifyThemeable::factory()->create([
+            /** @var \Illuminate\Database\Eloquent\Collection */
+        $themeable = NotifyThemeable::factory()->create([
                 'model_type' => $modelType,
                 'model_id' => $index + 1,
                 'notify_theme_id' => $theme->id,
@@ -72,11 +243,18 @@ describe('Notify Themeable Business Logic', function () {
         }
     });
 
-    it('can manage theme relationships', function () {
+    it('can manage theme relationships', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create([
+            'name' => config('app.name', 'Platform').' Professional',
+            'description' => 'Tema professionale per '.config('app.name', 'Platform'),
+            'name' => config('app.name', 'Platform') . ' Professional',
+            'description' => 'Tema professionale per ' . config('app.name', 'Platform'),
             'name' => config('app.name', 'Platform') . ' Professional',
             'description' => 'Tema professionale per ' . config('app.name', 'Platform'),
         ]);
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
@@ -84,14 +262,26 @@ describe('Notify Themeable Business Logic', function () {
 
         expect($themeable->theme)->toBeInstanceOf(NotifyTheme::class);
         expect($themeable->theme->id)->toBe($theme->id);
+        expect($themeable->theme->name)->toBe(config('app.name', 'Platform').' Professional');
+        expect($themeable->theme->name)->toBe(config('app.name', 'Platform') . ' Professional');
+        expect($themeable->theme->name)->toBe(config('app.name', 'Platform').' Professional');
         expect($themeable->theme->name)->toBe(config('app.name', 'Platform') . ' Professional');
     });
 
-    it('can handle user tracking', function () {
+    it('can handle user tracking', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+        ]);
+
+        expect($themeable->created_by)->toBe('developer@'.config('app.domain', 'example.com'));
+        expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
@@ -102,10 +292,15 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->updated_at)->not->toBeNull();
     });
 
-    it('can manage multiple theme assignments', function () {
+    it('can manage multiple theme assignments', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme1 = NotifyTheme::factory()->create(['name' => 'Tema 1']);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme2 = NotifyTheme::factory()->create(['name' => 'Tema 2']);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme3 = NotifyTheme::factory()->create(['name' => 'Tema 3']);
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable1 = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
@@ -113,12 +308,14 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $theme1->id,
         ]);
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $themeable2 = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
             'notify_theme_id' => $theme2->id,
         ]);
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $themeable3 = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
@@ -127,11 +324,197 @@ describe('Notify Themeable Business Logic', function () {
 
         expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
             ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')
+            ->where('model_id', 123)
+            ->get())->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')
+            ->where('model_id', 123)
+            ->get())->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
+        expect(NotifyThemeable::where('model_type', 'App\Models\NotificationTemplate')->where('model_id', 123)->get())
+            ->toHaveCount(3);
     });
 
-    it('can handle theme switching', function () {
+    it('can handle theme switching', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $oldTheme = NotifyTheme::factory()->create(['name' => 'Tema Vecchio']);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $newTheme = NotifyTheme::factory()->create(['name' => 'Tema Nuovo']);
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $oldTheme->id,
@@ -140,18 +523,28 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->notify_theme_id)->toBe($oldTheme->id);
         expect($themeable->theme->name)->toBe('Tema Vecchio');
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $themeable->update([
             'notify_theme_id' => $newTheme->id,
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
 
         expect($themeable->notify_theme_id)->toBe($newTheme->id);
         expect($themeable->theme->name)->toBe('Tema Nuovo');
+        expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
+        expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+        expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
     });
 
-    it('can handle empty or null values gracefully', function () {
+    it('can handle empty or null values gracefully', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
@@ -168,7 +561,8 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->notify_theme_id)->not->toBeNull();
     });
 
-    it('can validate model type consistency', function () {
+    it('can validate model type consistency', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
 
         $validModelTypes = [
@@ -181,7 +575,8 @@ describe('Notify Themeable Business Logic', function () {
         ];
 
         foreach ($validModelTypes as $modelType) {
-            $themeable = NotifyThemeable::factory()->create([
+            /** @var \Illuminate\Database\Eloquent\Collection */
+        $themeable = NotifyThemeable::factory()->create([
                 'model_type' => $modelType,
                 'model_id' => rand(1, 1000),
                 'notify_theme_id' => $theme->id,
@@ -192,16 +587,21 @@ describe('Notify Themeable Business Logic', function () {
         }
     });
 
-    it('can manage theme inheritance', function () {
+    it('can manage theme inheritance', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $parentTheme = NotifyTheme::factory()->create([
             'name' => 'Tema Base',
             'description' => 'Tema base per tutte le notifiche',
         ]);
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
+
         $childTheme = NotifyTheme::factory()->create([
             'name' => 'Tema Specializzato',
             'description' => 'Tema specializzato per appuntamenti',
         ]);
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $baseThemeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
@@ -209,6 +609,7 @@ describe('Notify Themeable Business Logic', function () {
             'notify_theme_id' => $parentTheme->id,
         ]);
 
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $specializedThemeable = NotifyThemeable::factory()->create([
             'model_type' => 'App\Models\NotificationTemplate',
             'model_id' => 123,
@@ -222,8 +623,11 @@ describe('Notify Themeable Business Logic', function () {
         expect($baseThemeable->model_id)->toBe($specializedThemeable->model_id);
     });
 
-    it('can handle theme removal', function () {
+    it('can handle theme removal', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
@@ -232,8 +636,14 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->notify_theme_id)->not->toBeNull();
         expect($themeable->notify_theme_id)->toBe($theme->id);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $themeable->update([
             'notify_theme_id' => null,
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+        ]);
+
+        expect($themeable->notify_theme_id)->toBeNull();
+        expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
 
@@ -241,11 +651,26 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
     });
 
-    it('can manage audit trail', function () {
+    it('can manage audit trail', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme = NotifyTheme::factory()->create();
+
+        /** @var \Illuminate\Database\Eloquent\Collection */
 
         $themeable = NotifyThemeable::factory()->create([
             'notify_theme_id' => $theme->id,
+            'created_by' => 'developer@'.config('app.domain', 'example.com'),
+        ]);
+
+        expect($themeable->created_by)->toBe('developer@'.config('app.domain', 'example.com'));
+        expect($themeable->created_at)->not->toBeNull();
+
+        /** @phpstan-ignore-next-line method.nonObject */
+        $themeable->update([
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+        ]);
+
+        expect($themeable->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
             'created_by' => 'developer@' . config('app.domain', 'example.com'),
         ]);
 
@@ -262,9 +687,12 @@ describe('Notify Themeable Business Logic', function () {
         expect($themeable->created_at->lte($themeable->updated_at))->toBeTrue();
     });
 
-    it('can handle bulk theme operations', function () {
+    it('can handle bulk theme operations', function (): void {
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme1 = NotifyTheme::factory()->create(['name' => 'Tema 1']);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme2 = NotifyTheme::factory()->create(['name' => 'Tema 2']);
+        /** @var \Illuminate\Database\Eloquent\Collection */
         $theme3 = NotifyTheme::factory()->create(['name' => 'Tema 3']);
 
         $modelIds = [101, 102, 103, 104, 105];
@@ -282,13 +710,53 @@ describe('Notify Themeable Business Logic', function () {
 
         NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
             'notify_theme_id' => $theme2->id,
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+        NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
+            'notify_theme_id' => $theme2->id,
             'updated_by' => 'admin@' . config('app.domain', 'example.com'),
         ]);
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+        ]);
+        NotifyThemeable::where('notify_theme_id', $theme1->id)
+            ->update([
+                'notify_theme_id' => $theme2->id,
+                'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+            ]);
+        NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
+            'notify_theme_id' => $theme2->id,
+            'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+        ]);
+        NotifyThemeable::where('notify_theme_id', $theme1->id)
+            ->update([
+                'notify_theme_id' => $theme2->id,
+                'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+            ]);
+        NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
+            'notify_theme_id' => $theme2->id,
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+        ]);
+        NotifyThemeable::where('notify_theme_id', $theme1->id)
+            ->update([
+                'notify_theme_id' => $theme2->id,
+                'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+            ]);
+        NotifyThemeable::where('notify_theme_id', $theme1->id)->update([
+            'notify_theme_id' => $theme2->id,
+            'updated_by' => 'admin@'.config('app.domain', 'example.com'),
+        ]);
+        NotifyThemeable::where('notify_theme_id', $theme1->id)
+            ->update([
+                'notify_theme_id' => $theme2->id,
+                'updated_by' => 'admin@' . config('app.domain', 'example.com'),
+            ]);
 
         $theme2Assignments = NotifyThemeable::where('notify_theme_id', $theme2->id)->get();
         expect($theme2Assignments)->toHaveCount(5);
 
         foreach ($theme2Assignments as $assignment) {
+            expect($assignment->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
+            expect($assignment->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
+            expect($assignment->updated_by)->toBe('admin@'.config('app.domain', 'example.com'));
             expect($assignment->updated_by)->toBe('admin@' . config('app.domain', 'example.com'));
         }
     });

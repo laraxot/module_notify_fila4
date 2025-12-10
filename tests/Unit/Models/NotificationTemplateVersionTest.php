@@ -24,6 +24,34 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_extends_base_model(): void
     {
         $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
 
         $this->assertInstanceOf(BaseModel::class, $version);
     }
@@ -54,11 +82,211 @@ class NotificationTemplateVersionTest extends TestCase
         ];
 
         $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        ];
+
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+            'template_id', 'subject', 'body_html', 'body_text', 'channels',
+            'variables', 'conditions', 'version', 'created_by', 'change_notes',
+        ];
+
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        ];
+
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        ];
+
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+            'template_id', 'subject', 'body_html', 'body_text', 'channels',
+            'variables', 'conditions', 'version', 'created_by', 'change_notes',
+        ];
+
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        ];
+
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion())->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
+        $this->assertEquals($expectedFillable, (new NotificationTemplateVersion)->getFillable());
+        $model = new NotificationTemplateVersion();
+        $this->assertEquals($expectedFillable, $model->getFillable());
+        $this->assertEquals($expectedFillable, new NotificationTemplateVersion()->getFillable());
     }
 
     /** @test */
     public function it_has_correct_casts(): void
     {
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
         $version = new NotificationTemplateVersion();
         $casts = $version->getCasts();
 
@@ -72,6 +300,34 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_template_relationship(): void
     {
         $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
 
         $this->assertTrue(method_exists($version, 'template'));
     }
@@ -80,6 +336,34 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_restore_method(): void
     {
         $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
 
         $this->assertTrue(method_exists($version, 'restore'));
     }
@@ -87,6 +371,56 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function restore_method_returns_notification_template(): void
     {
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
         $version = new NotificationTemplateVersion();
 
         $this->assertTrue(method_exists($version, 'restore'));
@@ -102,6 +436,34 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_table_name(): void
     {
         $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
 
         $this->assertEquals('notification_template_versions', $version->getTable());
     }
@@ -110,6 +472,34 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_primary_key(): void
     {
         $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
 
         $this->assertEquals('id', $version->getKeyName());
     }
@@ -117,6 +507,34 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_uses_timestamps(): void
     {
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
         $version = new NotificationTemplateVersion();
 
         $this->assertTrue($version->usesTimestamps());
@@ -153,6 +571,34 @@ class NotificationTemplateVersionTest extends TestCase
     public function it_has_creator_and_updater_relationships(): void
     {
         $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
 
         $this->assertTrue(method_exists($version, 'creator'));
         $this->assertTrue(method_exists($version, 'updater'));
@@ -161,6 +607,34 @@ class NotificationTemplateVersionTest extends TestCase
     /** @test */
     public function it_has_media_relationship(): void
     {
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion;
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
+        $version = new NotificationTemplateVersion();
         $version = new NotificationTemplateVersion();
 
         $this->assertTrue(method_exists($version, 'media'));

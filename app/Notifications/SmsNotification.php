@@ -14,6 +14,43 @@ use Modules\Notify\Datas\SmsData;
  *
  * Notification class for sending SMS messages through various providers.
  *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * @package Modules\Notify\Notifications
+ *
+ * @package Modules\Notify\Notifications
+ * @package Modules\Notify\Notifications
+ *
+ * @package Modules\Notify\Notifications
+ *
+ * @package Modules\Notify\Notifications
+ *
+ * @package Modules\Notify\Notifications
+ *
+ * @package Modules\Notify\Notifications
+ * @package Modules\Notify\Notifications
+ *
  * @package Modules\Notify\Notifications
  */
 class SmsNotification extends Notification implements ShouldQueue
@@ -22,6 +59,12 @@ class SmsNotification extends Notification implements ShouldQueue
 
     /**
      * The SMS data.
+     *
+     * @var SmsData
+     *
+     * @var SmsData
+     *
+     * @var SmsData
      *
      * @var SmsData
      */
@@ -39,6 +82,12 @@ class SmsNotification extends Notification implements ShouldQueue
      *
      * @param string|SmsData $content The content of the SMS or SmsData object
      * @param array<string, mixed> $config Configuration options including provider
+     * @param  string|SmsData  $content  The content of the SMS or SmsData object
+     * @param  array<string, mixed>  $config  Configuration options including provider
+     * @param string|SmsData $content The content of the SMS or SmsData object
+     * @param array<string, mixed> $config Configuration options including provider
+     * @param string|SmsData $content The content of the SMS or SmsData object
+     * @param array<string, mixed> $config Configuration options including provider
      */
     public function __construct(string|SmsData $content, array $config = [])
     {
@@ -48,6 +97,62 @@ class SmsNotification extends Notification implements ShouldQueue
             $to = $config['to'] ?? '';
             $from = $config['from'] ?? '';
 
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+            $this->smsData = new SmsData();
+
+            $this->smsData = new SmsData;
+
+
+            $this->smsData = new SmsData;
+
+
+            
+            $this->smsData = new SmsData();
+            $this->smsData = new SmsData();
+
+            $this->smsData = new SmsData;
+            $this->smsData = new SmsData();
+            
+
+            $this->smsData = new SmsData();
+
+            $this->smsData = new SmsData();
+
+
+            $this->smsData = new SmsData;
+            
+
+
+            $this->smsData = new SmsData;
+
+
+            
+            $this->smsData = new SmsData();
+            $this->smsData = new SmsData();
+
+            $this->smsData = new SmsData;
+            $this->smsData = new SmsData();
+            
             $this->smsData = new SmsData();
             $this->smsData->body = $content;
             /** @phpstan-ignore-next-line */
@@ -56,12 +161,97 @@ class SmsNotification extends Notification implements ShouldQueue
             $this->smsData->from = (string) $from;
         }
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         $this->config = $config;
     }
 
     /**
      * Get the notification's delivery channels.
      *
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @return array<int, string>
+     */
+    public function via(mixed $_notifiable): array
+     * @param mixed $notifiable
+     * @return array<int, string>
+     */
+    public function via(mixed $notifiable): array
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @return array<int, string>
+     */
+    public function via(mixed $_notifiable): array
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @return array<int, string>
+     */
+    public function via(mixed $_notifiable): array
+     * @param mixed $notifiable
+     * @return array<int, string>
+     */
+    public function via(mixed $notifiable): array
+     * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
+     * @return array<int, string>
+     */
+    public function via(mixed $_notifiable): array
+     * @param  mixed  $_notifiable  The entity to be notified (l'entità da notificare)
      * @param mixed $_notifiable The entity to be notified (l'entità da notificare)
      * @return array<int, string>
      */
@@ -73,6 +263,12 @@ class SmsNotification extends Notification implements ShouldQueue
 
     /**
      * Get the SMS representation of the notification.
+     *
+     * @param mixed $notifiable
+     * @return SmsData
+     *
+     * @param mixed $notifiable
+     * @return SmsData
      *
      * @param mixed $notifiable
      * @return SmsData
@@ -101,6 +297,43 @@ class SmsNotification extends Notification implements ShouldQueue
 
     /**
      * Get the provider to use for sending the SMS.
+     *
+     * @return string|null
+     */
+    public function getProvider(): null|string
+    public function getProvider(): ?string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): ?string
+    public function getProvider(): ?string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): ?string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): null|string
+    public function getProvider(): ?string
+    public function getProvider(): ?string
+    public function getProvider(): null|string
+    public function getProvider(): ?string
+    public function getProvider(): ?string
+    public function getProvider(): null|string
+    {
+        $provider = $this->config['provider'] ?? null;
      *
      * @return string|null
      */

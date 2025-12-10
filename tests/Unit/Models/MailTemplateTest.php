@@ -4,6 +4,188 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+use function Safe\json_encode;
+
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Tests\TestCase;
+use Modules\Notify\Models\MailTemplate;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Tests\TestCase;
+use Modules\Notify\Models\MailTemplate;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Tests\TestCase;
+use Modules\Notify\Models\MailTemplate;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\MailTemplate;
+use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
@@ -52,6 +234,9 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+        $template = new MailTemplate;
+        $template = new MailTemplate();
+        $template = new MailTemplate;
         $template = new MailTemplate();
 
         $expectedFillable = [
@@ -72,6 +257,9 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
+        $template = new MailTemplate;
+        $template = new MailTemplate();
+        $template = new MailTemplate;
         $template = new MailTemplate();
 
         $expectedCasts = [
@@ -86,6 +274,9 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_has_translatable_fields(): void
     {
+        $template = new MailTemplate;
+        $template = new MailTemplate();
+        $template = new MailTemplate;
         $template = new MailTemplate();
 
         $expectedTranslatable = [
@@ -101,6 +292,9 @@ class MailTemplateTest extends TestCase
     /** @test */
     public function it_uses_notify_connection(): void
     {
+        $template = new MailTemplate;
+        $template = new MailTemplate();
+        $template = new MailTemplate;
         $template = new MailTemplate();
 
         $this->assertEquals('notify', $template->getConnectionName());

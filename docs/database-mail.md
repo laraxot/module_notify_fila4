@@ -182,6 +182,39 @@ class EmailTemplateResource extends Resource
 {
     protected static ?string $model = EmailTemplate::class;
 
+    public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
+    public static function form(Form $form): Form
     public static function form(Form $form): Form
     {
         return $form->schema([
@@ -377,6 +410,26 @@ class ProcessDoctorModerationAction
 
 ```html
 <x-mail::message>
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 5d933abf (.)
 # Registrazione Approvata
 
 Gentile {{ $doctor->name }},
@@ -434,4 +487,126 @@ Cordiali saluti,<br>
 - [Laravel Mail](https://laravel.com/docs/mail)
 - [Spatie Mail Templates](https://github.com/spatie/laravel-database-mail-templates)
 - [TinyMCE](https://www.tiny.cloud)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
+- [Filament Forms](https://filamentphp.com/docs/forms)
 - [Filament Forms](https://filamentphp.com/docs/forms)

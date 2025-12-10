@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+use Modules\Notify\Helpers\ConfigHelper;
+use Modules\Notify\Models\EmailTemplate;
+use Modules\Notify\Models\Theme;
 use Modules\Notify\Models\NotificationTemplate;
 use Modules\Notify\Models\EmailTemplate;
 use Modules\Notify\Models\Theme;
@@ -34,6 +37,10 @@ describe('Template Management Business Logic', function () {
     it('can create theme for templates', function () {
         $testData = ConfigHelper::getTestData();
         $themeData = [
+            'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform').' Default'),
+            'description' => $testData['theme_description'] ?? ('Tema predefinito per '.config('app.name', 'Our Platform')),
+            'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Default'),
+            'description' => $testData['theme_description'] ?? ('Tema predefinito per ' . config('app.name', 'Our Platform')),
             'name' => $testData['theme_name'] ?? (config('app.name', 'Our Platform') . ' Default'),
             'description' => $testData['theme_description'] ?? ('Tema predefinito per ' . config('app.name', 'Our Platform')),
             'colors' => [
@@ -191,6 +198,9 @@ describe('Template Management Business Logic', function () {
     it('can manage template metadata', function () {
         $template = EmailTemplate::factory()->create();
         $metadata = [
+            'author' => 'Team '.config('app.name', 'Our Platform'),
+            'author' => 'Team ' . config('app.name', 'Our Platform'),
+            'author' => 'Team '.config('app.name', 'Our Platform'),
             'author' => 'Team ' . config('app.name', 'Our Platform'),
             'created_date' => '2024-01-15',
             'last_modified' => '2024-12-01',
@@ -201,6 +211,9 @@ describe('Template Management Business Logic', function () {
 
         $template->update(['metadata' => $metadata]);
 
+        expect($template->fresh()->metadata['author'])->toBe('Team '.config('app.name', 'Our Platform'))
+        expect($template->fresh()->metadata['author'])->toBe('Team ' . config('app.name', 'Our Platform'))
+        expect($template->fresh()->metadata['author'])->toBe('Team '.config('app.name', 'Our Platform'))
         expect($template->fresh()->metadata['author'])->toBe('Team ' . config('app.name', 'Our Platform'))
             ->and($template->fresh()->metadata['created_date'])->toBe('2024-01-15')
             ->and($template->fresh()->metadata['priority'])->toBe('high')
@@ -414,4 +427,139 @@ describe('Template Management Business Logic', function () {
             'validation_messages' => json_encode($validationData['validation_messages']),
         ]);
     });
+});
+}
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+}
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
+});
 });

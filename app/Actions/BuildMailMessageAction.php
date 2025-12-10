@@ -23,6 +23,61 @@ class BuildMailMessageAction
         string $name,
         Model $model,
         array $view_params = [],
+        ?DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        ?DataCollection $dataCollection = null
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        ?DataCollection $dataCollection = null
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        ?DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        ?DataCollection $dataCollection = null
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
+        null|DataCollection $dataCollection = null,
         null|DataCollection $dataCollection = null,
     ): MailMessage {
         $view_params = array_merge($model->toArray(), $view_params);
@@ -35,11 +90,113 @@ class BuildMailMessageAction
         $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
         $fromName = $theme->view_params['from'] ?? $theme->from;
         $subject = $view_params['subject'] ?? $theme->subject;
+        $params = [
+            'from_address' => $theme->view_params['from_email'] ?? $theme->from_email,
+            'from_name' => $theme->view_params['from'] ?? $theme->from,
+            'subject' => $view_params['subject'] ?? $theme->subject,
+        ];
+
+        
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        $email = (new MailMessage)
+            ->from($params['from_address'], $params['from_name'])
+            ->subject($params['subject'])
+        $fromAddress = $theme->view_params['from_email'] ?? $theme->from_email;
+        $fromName = $theme->view_params['from'] ?? $theme->from;
+        $subject = $view_params['subject'] ?? $theme->subject;
+
+        
+
+        
+
+
+
+        
+        
+
+        
+
+        
 
         // Utilizziamo asserzioni per verificare che i valori siano stringhe
         if (!is_string($fromAddress)) {
             $fromAddress = '';
         }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // Il nome del mittente può essere null
         if ($fromName !== null && !is_string($fromName)) {
@@ -50,6 +207,173 @@ class BuildMailMessageAction
             $subject = 'Notifica';
         }
 
+        $email = (new MailMessage())
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+        $email = new MailMessage()
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+        $email = (new MailMessage())
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+
+        $email = new MailMessage()
+        $email = (new MailMessage())
+        $email = (new MailMessage())
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+
+        $email = new MailMessage()
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+        
+        if (!is_string($subject)) {
+            $subject = 'Notifica';
+        }
+        
+        $email = (new MailMessage())
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage()
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = (new MailMessage())
+        $email = (new MailMessage())
+        $email = new MailMessage()
+            ->from($fromAddress, $fromName)
+            ->subject($subject)
+            ->view($view_html, $theme->view_params);
+        $email = new MailMessage();
+        $email = $email->from($fromAddress, $fromName);
+        $email = $email->subject($subject);
+        $email = $email->view($view_html, $theme->view_params);
         $email = new MailMessage()
             ->from($fromAddress, $fromName)
             ->subject($subject)

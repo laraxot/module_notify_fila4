@@ -5,6 +5,58 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Resources;
 
 use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
@@ -13,11 +65,38 @@ use Filament\Forms\Components\TextInput;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
 use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
 use Modules\Notify\Models\NotifyTheme;
 use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
 
 class NotifyThemeResource extends XotBaseResource
 {
+    protected static null|string $model = NotifyTheme::class;
+    protected static ?string $model = NotifyTheme::class;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\CreateNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\EditNotifyTheme;
+use Modules\Notify\Filament\Resources\NotifyThemeResource\Pages\ListNotifyThemes;
+use Modules\Notify\Models\NotifyTheme;
+use Modules\Xot\Filament\Resources\XotBaseResource;
+use Override;
+
+class NotifyThemeResource extends XotBaseResource
+{
+    protected static null|string $model = NotifyTheme::class;
+    protected static ?string $model = NotifyTheme::class;
+    protected static null|string $model = NotifyTheme::class;
+
+class NotifyThemeResource extends XotBaseResource
+{
+    protected static null|string $model = NotifyTheme::class;
+
+class NotifyThemeResource extends XotBaseResource
+{
+    protected static null|string $model = NotifyTheme::class;
+    protected static ?string $model = NotifyTheme::class;
     protected static null|string $model = NotifyTheme::class;
 
     #[Override]
@@ -27,6 +106,150 @@ class NotifyThemeResource extends XotBaseResource
             'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
             'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
             'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+    protected static ?string $model = NotifyTheme::class;
+    protected static null|string $model = NotifyTheme::class;
+
+    protected static null|string $model = NotifyTheme::class;
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+    protected static ?string $model = NotifyTheme::class;
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'lang' => Select::make('lang')
+                ->options(function (): array {
+                    return self::fieldOptions('lang');
+                }),
+            'type' => Select::make('type')
+                ->options(function (): array {
+                    return self::fieldOptions('type');
+                }),
+            'post_type' => Select::make('post_type')
+                ->options(function (): array {
+                    return self::fieldOptions('post_type');
+                }),
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+    protected static ?string $model = NotifyTheme::class;
+
+    protected static null|string $model = NotifyTheme::class;
+    protected static null|string $model = NotifyTheme::class;
+    protected static ?string $model = NotifyTheme::class;
+    protected static null|string $model = NotifyTheme::class;
+
+    #[\Override]
+    public static function getFormSchema(): array
+    {
+        return [
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+    protected static ?string $model = NotifyTheme::class;
+
+    protected static null|string $model = NotifyTheme::class;
+
+    #[Override]
+    public static function getFormSchema(): array
+    {
+        return [
+    protected static ?string $model = NotifyTheme::class;
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'lang' => Select::make('lang')
+                ->options(function (): array {
+                    return self::fieldOptions('lang');
+                }),
+            'type' => Select::make('type')
+                ->options(function (): array {
+                    return self::fieldOptions('type');
+                }),
+            'post_type' => Select::make('post_type')
+                ->options(function (): array {
+                    return self::fieldOptions('post_type');
+                }),
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
+    protected static ?string $model = NotifyTheme::class;
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'lang' => Select::make('lang')
+                ->options(function (): array {
+                    return self::fieldOptions('lang');
+                }),
+            'type' => Select::make('type')
+                ->options(function (): array {
+                    return self::fieldOptions('type');
+                }),
+            'post_type' => Select::make('post_type')
+                ->options(function (): array {
+                    return self::fieldOptions('post_type');
+                }),
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+    protected static ?string $model = NotifyTheme::class;
+
+    protected static null|string $model = NotifyTheme::class;
+
+    #[\Override]
+    public static function getFormSchema(): array
+    {
+        return [
+    protected static ?string $model = NotifyTheme::class;
+
+
+    public static function getFormSchema(): array
+    {
+        return [
+            'lang' => Select::make('lang')
+                ->options(function (): array {
+                    return self::fieldOptions('lang');
+                }),
+            'type' => Select::make('type')
+                ->options(function (): array {
+                    return self::fieldOptions('type');
+                }),
+            'post_type' => Select::make('post_type')
+                ->options(function (): array {
+                    return self::fieldOptions('post_type');
+                }),
+            'lang' => Select::make('lang')->options(fn(): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn(): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn(): array => self::fieldOptions('post_type')),
+            'lang' => Select::make('lang')->options(fn (): array => self::fieldOptions('lang')),
+            'type' => Select::make('type')->options(fn (): array => self::fieldOptions('type')),
+            'post_type' => Select::make('post_type')->options(fn (): array => self::fieldOptions('post_type')),
             'post_id' => TextInput::make('post_id'),
             'subject' => TextInput::make('subject'),
             'from' => TextInput::make('from'),
@@ -49,6 +272,20 @@ class NotifyThemeResource extends XotBaseResource
                     'widgets' => 'widgets',
                 ])
                 ->default('empty'),
+            'body' => Textarea::make('body')->columnSpanFull(),
+            'body_html' => RichEditor::make('body_html')->columnSpanFull(),
+        ];
+    }
+
+            'body' => Textarea::make('body')
+                ->columnSpanFull(),
+            'body_html' => RichEditor::make('body_html')
+                ->columnSpanFull(),
+        ];
+    }
+
+   
+
             'body' => Textarea::make('body')->columnSpanFull(),
             'body_html' => RichEditor::make('body_html')->columnSpanFull(),
         ];

@@ -12,6 +12,11 @@ declare(strict_types=1);
         'level' => 'h1',
     ]) --}}
 
+    @include('notify::emails.templates.sunny.content-start')
+
+    {!! $html !!}
+
+    @include('notify::emails.templates.sunny.content-end')
     @include('notify::emails.templates.sunny.contentStart')
 
     {!! $html !!}

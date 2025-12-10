@@ -19,12 +19,320 @@ final class PushNotificationDebugData extends Data implements Arrayable
         private readonly MobilePushNotification $notification,
         private readonly MulticastSendReport $sendReport,
     ) {}
+    ) {
+    }
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {
+    }
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
+    ) {}
 
     public static function make(
         CanReceivePushNotifications $notifiable,
         MobilePushNotification $notification,
         MulticastSendReport $sendReport,
     ): self {
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self(
+            $notifiable,
+            $notification,
+            $sendReport,
+        );
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
+        return new self($notifiable, $notification, $sendReport);
         return new self($notifiable, $notification, $sendReport);
     }
 
@@ -41,16 +349,109 @@ final class PushNotificationDebugData extends Data implements Arrayable
                 'failures' => $this->sendReport->failures()->count(),
                 'successes_tokens' => $this->sendReport
                     ->successes()
+                    ->map(static fn (SendReport $report): array => [
+                'successes_tokens' => $this->sendReport
+                    ->successes()
                     ->map(static fn(SendReport $report): array => [
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
                 'failure_tokens' => $this->sendReport
                     ->failures()
+                    ->map(static fn (SendReport $report): array => [
+                    ->map(static fn(SendReport $report): array => [
+                    ->map(static fn(SendReport $report): array => [
+                    ->map(static fn (SendReport $report): array => [
                     ->map(static fn(SendReport $report): array => [
                         'type' => $report->target()->type(),
                         'value' => $report->target()->value(),
                     ]),
+                'unknown_tokens' => $this->sendReport
+                    ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
+                    ->map(static fn (SendReport $report): array => [
+                        'type' => $report->target()->type(),
+                        'value' => $report->target()->value(),
+                    ]),
+                'results' => $this->sendReport->map(static fn (SendReport $report): array => [
+                    ->map(static fn(SendReport $report): array => [
+                        'type' => $report->target()->type(),
+                        'value' => $report->target()->value(),
+                    ]),
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+                    'target' => $report->target()->value(),
+                    'result' => $report->result(),
+                ]),
+                'successes_tokens' => $this->sendReport->successes()
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'failure_tokens' => $this->sendReport->failures()
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'unknown_tokens' => $this->sendReport
+                    ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'results' => $this->sendReport
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'target' => $report->target()->value(),
+                            'result' => $report->result(),
+                        ]
+                    ),
+                'unknown_tokens' => $this->sendReport
+                    ->filter(static fn(SendReport $report): bool => $report->messageWasSentToUnknownToken())
+                    ->map(static fn(SendReport $report): array => [
+                        'type' => $report->target()->type(),
+                        'value' => $report->target()->value(),
+                    ]),
+                'results' => $this->sendReport->map(static fn(SendReport $report): array => [
+                    'target' => $report->target()->value(),
+                    'result' => $report->result(),
+                ]),
+                'successes_tokens' => $this->sendReport->successes()
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'failure_tokens' => $this->sendReport->failures()
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'unknown_tokens' => $this->sendReport
+                    ->filter(static fn (SendReport $report): bool => $report->messageWasSentToUnknownToken())
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'type' => $report->target()->type(),
+                            'value' => $report->target()->value(),
+                        ]
+                    ),
+                'results' => $this->sendReport
+                    ->map(
+                        static fn (SendReport $report): array => [
+                            'target' => $report->target()->value(),
+                            'result' => $report->result(),
+                        ]
+                    ),
                 'unknown_tokens' => $this->sendReport
                     ->filter(static fn(SendReport $report): bool => $report->messageWasSentToUnknownToken())
                     ->map(static fn(SendReport $report): array => [

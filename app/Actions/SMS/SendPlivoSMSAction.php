@@ -5,6 +5,43 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use Illuminate\Support\Facades\Log;
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use Override;
+use Override;
+use Override;
 use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
@@ -13,12 +50,118 @@ use Illuminate\Support\Str;
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SMS\PlivoData;
 use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Spatie\QueueableAction\QueueableAction;
+use Override;
+use Spatie\QueueableAction\QueueableAction;
+use Spatie\QueueableAction\QueueableAction;
+
+final class SendPlivoSMSAction implements SmsActionContract
+{
+    private PlivoData $plivoData;
+    private ?string $defaultSender = null;
+    
+    /** @var array<string, mixed> */
+    private array $vars = [];
+use Override;
+use Exception;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\SMS\PlivoData;
+use Modules\Notify\Datas\SmsData;
 use Spatie\QueueableAction\QueueableAction;
 
 final class SendPlivoSMSAction implements SmsActionContract
 {
     use QueueableAction;
 
+    /** @var PlivoData */
+    /** @var PlivoData */
+use Override;
+use Spatie\QueueableAction\QueueableAction;
+
+final class SendPlivoSMSAction implements SmsActionContract
+{
+    private PlivoData $plivoData;
+    private ?string $defaultSender = null;
+    
+    /** @var array<string, mixed> */
+    private array $vars = [];
+
+final class SendPlivoSMSAction implements SmsActionContract
+{
+    private PlivoData $plivoData;
+    /** @var PlivoData */
+    private PlivoData $plivoData;
+    /** @var PlivoData */
+    private PlivoData $plivoData;
     /** @var PlivoData */
     private PlivoData $plivoData;
 
@@ -30,6 +173,72 @@ final class SendPlivoSMSAction implements SmsActionContract
 
     /** @var string|null */
     protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    /** @var bool */
+    protected bool $debug;
+    /** @var bool */
+    protected bool $debug;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected bool $debug;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+
+
+
 
     /**
      * Create a new action instance.
@@ -37,6 +246,70 @@ final class SendPlivoSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->plivoData = PlivoData::make();
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (! $this->plivoData->auth_id) {
+        if (!$this->plivoData->auth_id) {
+            throw new Exception('Auth ID Plivo non configurato in sms.php');
+        }
+
+        if (! $this->plivoData->auth_token) {
+        
+
+
+
+        
+
+
+
+        
+
+
+
+        if (!$this->plivoData->auth_id) {
+            throw new Exception('Auth ID Plivo non configurato in sms.php');
+        }
+
+        if (!$this->plivoData->auth_token) {
+
+        if (! $this->plivoData->auth_id) {
+        if (!$this->plivoData->auth_id) {
+            throw new Exception('Auth ID Plivo non configurato in sms.php');
+        }
+
+        if (! $this->plivoData->auth_token) {
+
+
+
+        
+
 
         if (!$this->plivoData->auth_id) {
             throw new Exception('Auth ID Plivo non configurato in sms.php');
@@ -50,6 +323,8 @@ final class SendPlivoSMSAction implements SmsActionContract
         $sender = config('sms.from');
         $this->defaultSender = is_string($sender) ? $sender : null;
         $this->debug = (bool) config('sms.debug', false);
+        $this->debug = (bool) config('sms.debug', false);
+        $this->debug = (bool) config('sms.debug', false);
     }
 
     /**
@@ -57,14 +332,84 @@ final class SendPlivoSMSAction implements SmsActionContract
      *
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
+     * @param  SmsData  $smsData  I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     *
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     * @throws Exception In caso di errore durante l'invio
+     */
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     * @throws Exception In caso di errore durante l'invio
+     */
+    #[Override]
     #[Override]
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
+            $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
+        }
+
+        if (!Str::startsWith($to, '+')) {
+            $to = '+39' . $to;
+            $to = $to !== '' ? ('+'.substr($to, 2)) : $to;
+            $to = $to !== '' ? '+'.substr($to, 2) : $to;
+        }
+
+        if (! Str::startsWith($to, '+')) {
+            $to = '+39'.$to;
             $to = $to !== '' ? ('+' . substr($to, 2)) : $to;
         }
 
@@ -81,8 +426,54 @@ final class SendPlivoSMSAction implements SmsActionContract
             'headers' => [
                 'Content-Type' => 'application/json',
             ],
+            ]
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ]
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
+            ],
         ]);
 
+        $endpoint = $this->plivoData->getBaseUrl() . '/v1/Account/' . $this->plivoData->auth_id . '/Message/';
+        $endpoint = $this->plivoData->getBaseUrl().'/v1/Account/'.$this->plivoData->auth_id.'/Message/';
+        $endpoint = $this->plivoData->getBaseUrl().'/v1/Account/'.$this->plivoData->auth_id.'/Message/';
+        $endpoint = $this->plivoData->getBaseUrl() . '/v1/Account/' . $this->plivoData->auth_id . '/Message/';
+            ],
+        ]);
+
+        $endpoint = $this->plivoData->getBaseUrl() . '/v1/Account/' . $this->plivoData->auth_id . '/Message/';
+        $endpoint = $this->plivoData->getBaseUrl().'/v1/Account/'.$this->plivoData->auth_id.'/Message/';
+        $endpoint = $this->plivoData->getBaseUrl().'/v1/Account/'.$this->plivoData->auth_id.'/Message/';
         $endpoint = $this->plivoData->getBaseUrl() . '/v1/Account/' . $this->plivoData->auth_id . '/Message/';
 
         try {
@@ -91,6 +482,53 @@ final class SendPlivoSMSAction implements SmsActionContract
                     'src' => $from,
                     'dst' => $to,
                     'text' => $smsData->body,
+                ],
+                ]
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ]
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
+                ],
                 ],
             ]);
 
@@ -101,7 +539,64 @@ final class SendPlivoSMSAction implements SmsActionContract
         } catch (ClientException $clientException) {
             throw new Exception(
                 $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $clientException->getMessage().'['.__LINE__.']['.class_basename($this).']',
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
                 $clientException->getCode(),
+                $clientException,
+                $clientException
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $clientException->getCode(),
+                $clientException,
+                $clientException
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException
+                $clientException
+                $clientException,
+                $clientException,
+                $clientException
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
+                $clientException,
                 $clientException,
             );
         }

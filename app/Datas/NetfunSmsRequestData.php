@@ -3,6 +3,91 @@
 declare(strict_types=1);
 
 
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+
+declare(strict_types=1);
+
+
 namespace Modules\Notify\Datas;
 
 use Spatie\LaravelData\Data;
@@ -31,6 +116,91 @@ class NetfunSmsRequestData extends Data
         return new self(
             token: $token,
             messages: $messages,
+    public static function fromArray(array $data): self
+    {
+        return new self(
+            token: $data['token'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            token: $data['token'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+        return new self(
+            token: $data['token'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+        return new self(
+            token: $data['token'],
+            messages: $data['messages'],
+            token: $data['token'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+        return new self(
+            token: $data['token'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+        return new self(
+            token: $data['token'],
+            messages: $data['messages'],
+            messages: $data['messages'],
+            messages: $data['messages']
+            messages: $data['messages'],
         );
     }
 }

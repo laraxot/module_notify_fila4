@@ -8,6 +8,144 @@ use Spatie\LaravelData\Data;
 
 class NotifyThemeData extends Data
 {
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public null|string $from_email = null; // from address
+
+    public null|string $from = null; // from name
+    public ?string $from_email = null; // from address
+
+    public ?string $from = null; // from name
     public null|string $from_email = null; // from address
 
     public null|string $from = null; // from name

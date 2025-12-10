@@ -10,11 +10,83 @@ return [
         'color' => 'primary',
         'sort' => 10,
     ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     'model' => [
         'label' => 'Email AWS',
         'plural' => 'Email AWS',
         'description' => 'Gestione invio email tramite servizio Amazon SES',
     ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     'fields' => [
         'to' => [
             'label' => 'Destinatario Email',
@@ -42,6 +114,42 @@ return [
             'help' => 'File allegati che verranno inviati insieme all\'email',
         ],
     ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     'actions' => [
         'send_email' => [
             'label' => 'Invia Email',
@@ -54,6 +162,42 @@ return [
             'confirmation' => 'L\'email verrà inviata immediatamente',
         ],
     ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     'messages' => [
         'loading' => 'Preparazione email in corso...',
         'sent' => 'Email inviata correttamente',

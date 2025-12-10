@@ -14,6 +14,25 @@ use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Toggle;
+use Illuminate\Contracts\Support\Htmlable;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Filament\Forms\Concerns\InteractsWithForms;
+use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification as FilamentNotification;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Notification;
+use Modules\Notify\Datas\TelegramData;
+use Modules\Notify\Datas\TelegramMessageData;
+use Filament\Schemas\Schema;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Toggle;
 use Exception;
 use Filament\Actions\Action;
 use Filament\Facades\Filament;
@@ -35,9 +54,32 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 use NotificationChannels\Telegram\TelegramMessage;
 use Telegram\Bot\Laravel\Facades\Telegram;
 use Webmozart\Assert\Assert;
+use NotificationChannels\Telegram\TelegramMessage;
+use Telegram\Bot\Laravel\Facades\Telegram;
+use Webmozart\Assert\Assert;
 
 /**
  * @property \Filament\Schemas\Schema $telegramForm
+
+/**
+ * @property Schema $telegramForm
+use NotificationChannels\Telegram\TelegramMessage;
+use Telegram\Bot\Laravel\Facades\Telegram;
+use Webmozart\Assert\Assert;
+
+/**
+ * @property \Filament\Schemas\Schema $telegramForm
+use Modules\Notify\Datas\TelegramMessageData;
+use Illuminate\Support\Facades\Log;
+use Filament\Notifications\Notification as FilamentNotification;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Notify\Datas\TelegramData;
+
+/**
+ * @property \Filament\Schemas\Schema $telegramForm
+
+/**
+ * @property ComponentContainer $telegramForm
  */
 class SendTelegramPage extends XotBasePage implements HasForms
 {
@@ -46,11 +88,64 @@ class SendTelegramPage extends XotBasePage implements HasForms
     // use NavigationLabelTrait;
 
     public null|array $telegramData = [];
+    public ?array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
 
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-telegram';
 
+    protected static null|string $cluster = Test::class;
+    public ?array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public ?array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public ?array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public ?array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+    public null|array $telegramData = [];
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-telegram';
+
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    public ?array $telegramData = [];
+
+    protected static ?string $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected static string $view = 'notify::filament.pages.send-telegram';
+
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 
     public function mount(): void
@@ -61,11 +156,48 @@ class SendTelegramPage extends XotBasePage implements HasForms
     public function telegramForm(Schema $schema): Schema
     {
         return $schema->schema($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+<<<<<<< HEAD
+=======
+        /** @var array<Htmlable|string> $components */
+        $components = array_values($this->getTelegramFormSchema());
+
+        return $schema
+            ->components($components)
+            ->model($this->getUser())
+            ->statePath('telegramData');
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+        return $schema
+            ->components($this->getTelegramFormSchema())
+            ->model($this->getUser())
+            ->statePath('telegramData');
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+>>>>>>> 5d933abf (.)
     }
 
     /**
      * @return array<string, \Filament\Forms\Components\Select|\Filament\Forms\Components\TextInput|\Filament\Forms\Components\Toggle>
      */
+<<<<<<< HEAD
+=======
+    public function getTelegramFormSchema(): array
+    {
+        return [
+            TextInput::make('chat_id')->required()->helperText('ID della chat o username del canale'),
+            TextInput::make('text')
+                ->required()
+                ->maxLength(4096)
+                ->helperText('Il messaggio non può superare i 4096 caratteri'),
+            'driver' => Select::make('driver')
+        return $schema->components($this->getTelegramFormSchema())->model($this->getUser())->statePath('telegramData');
+    }
+
+    /**
+     * @return array<\Illuminate\Contracts\Support\Htmlable|string>
+     */
+>>>>>>> 5d933abf (.)
     public function getTelegramFormSchema(): array
     {
         return [
@@ -74,7 +206,22 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->required()
                 ->maxLength(4096)
                 ->helperText('Il messaggio non può superare i 4096 caratteri'),
+<<<<<<< HEAD
             'driver' => Select::make('driver')
+=======
+            Select::make('driver')
+            Forms\Components\TextInput::make('chat_id')
+                ->required()
+                ->helperText('ID della chat o username del canale'),
+            Forms\Components\TextInput::make('text')
+                ->required()
+                ->maxLength(4096)
+                ->helperText('Il messaggio non può superare i 4096 caratteri'),
+            Forms\Components\Select::make('driver')
+            Select::make('driver')
+            Select::make('driver')
+            Select::make('driver')
+>>>>>>> 5d933abf (.)
                 ->options([
                     'bot' => 'Bot API',
                     'webhook' => 'Webhook',
@@ -82,6 +229,32 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->default('bot')
                 ->required(),
             'parse_mode' => Select::make('parse_mode')
+<<<<<<< HEAD
+=======
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+            Select::make('parse_mode')
+>>>>>>> 5d933abf (.)
                 ->options([
                     'HTML' => 'HTML',
                     'Markdown' => 'Markdown',
@@ -91,6 +264,100 @@ class SendTelegramPage extends XotBasePage implements HasForms
             'disable_web_page_preview' => Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
             'disable_notification' => Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
             'reply_to_message_id' => TextInput::make('reply_to_message_id')
+<<<<<<< HEAD
+=======
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            'media_url' => TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            'media_type' => Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')
+                ->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')
+                ->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')
+                ->url()
+                ->helperText('URL del media (opzionale)'),
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Forms\Components\Toggle::make('disable_web_page_preview')
+                ->helperText('Disabilita l\'anteprima dei link'),
+            Forms\Components\Toggle::make('disable_notification')
+                ->helperText('Invia il messaggio silenziosamente'),
+            Forms\Components\TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            Forms\Components\TextInput::make('media_url')
+                ->url()
+                ->helperText('URL del media (opzionale)'),
+            Forms\Components\Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+                ->numeric()
+                ->helperText('ID del messaggio a cui rispondere'),
+            TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
+            Select::make('media_type')
+            Toggle::make('disable_web_page_preview')->helperText('Disabilita l\'anteprima dei link'),
+            Toggle::make('disable_notification')->helperText('Invia il messaggio silenziosamente'),
+            TextInput::make('reply_to_message_id')
+>>>>>>> 5d933abf (.)
                 ->numeric()
                 ->helperText('ID del messaggio a cui rispondere'),
             'media_url' => TextInput::make('media_url')->url()->helperText('URL del media (opzionale)'),
@@ -103,6 +370,59 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ])
                 ->helperText('Tipo di media (opzionale)'),
             'caption' => TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+<<<<<<< HEAD
+=======
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')
+                ->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            Forms\Components\TextInput::make('caption')
+                ->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')
+                ->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+            TextInput::make('caption')->helperText('Didascalia per il media (opzionale)'),
+>>>>>>> 5d933abf (.)
         ];
     }
 
@@ -132,6 +452,16 @@ class SendTelegramPage extends XotBasePage implements HasForms
                 ->title('Messaggio Telegram inviato con successo')
                 ->send();
         } catch (Exception $e) {
+        } catch (Exception $e) {
+
+        } catch (\Exception $e) {
+            Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
+            Log::error('Errore nell\'invio Telegram: '.$e->getMessage());
+            Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
+            Log::error('Errore nell\'invio Telegram: '.$e->getMessage());
+            Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
+            Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
+            Log::error('Errore nell\'invio Telegram: '.$e->getMessage());
             Log::error('Errore nell\'invio Telegram: ' . $e->getMessage());
 
             FilamentNotification::make()

@@ -44,18 +44,46 @@ class AnalyzeTranslationFiles extends Command
             $langDirPath = is_string($langDir) ? $langDir : (string) $langDir;
             $lang = basename($langDirPath);
             $files = File::files($langDirPath);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename((string) $langDir);
+            $files = File::files((string) $langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
+            $lang = basename($langDir);
+            $files = File::files($langDir);
 
             foreach ($files as $file) {
                 $filename = $file->getFilename();
                 $filePath = $file->getPathname();
 
                 // Skip non-PHP files
+                if (! str_ends_with($filename, '.php')) {
+                if (!str_ends_with($filename, '.php')) {
+                if (! str_ends_with($filename, '.php')) {
                 if (!str_ends_with($filename, '.php')) {
                     continue;
                 }
 
                 $translations = require $filePath;
 
+                if (! is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
+
+                if (!is_array($translations)) {
+                    $this->warn("File {$lang}/{$filename} does not return an array.");
                 if (!is_array($translations)) {
                     $this->warn("File {$lang}/{$filename} does not return an array.");
                     continue;
@@ -64,6 +92,10 @@ class AnalyzeTranslationFiles extends Command
                 $allFiles["{$lang}/{$filename}"] = $this->flattenArray($translations);
 
                 // Collect all unique keys
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
+                $flattenedKeys = $this->flattenArray($translations);
+                foreach (array_keys($flattenedKeys) as $key) {
+                foreach (array_keys($this->flattenArray($translations)) as $key) {
                 foreach (array_keys($this->flattenArray($translations)) as $key) {
                     $allKeys[$key] = true;
                 }
@@ -119,6 +151,22 @@ class AnalyzeTranslationFiles extends Command
             if (!is_array($keys)) {
                 continue;
             }
+<<<<<<< HEAD
+=======
+            $topLevelKeys = [];
+
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    $parts = explode('.', (string) $key);
+                    $topLevelKeys[$parts[0]] = true;
+                }
+            foreach (array_keys($keys) as $key) {
+                $parts = explode('.', (string) $key);
+                $topLevelKeys[$parts[0]] = true;
+>>>>>>> 5d933abf (.)
             $topLevelKeys = [];
 
             foreach (array_keys($keys) as $key) {
@@ -130,6 +178,9 @@ class AnalyzeTranslationFiles extends Command
             $patterns[$pattern][] = $file;
         }
 
+        $this->info('Found '.count($patterns).' different structure patterns:');
+        $this->info('Found ' . count($patterns) . ' different structure patterns:');
+        $this->info('Found '.count($patterns).' different structure patterns:');
         $this->info('Found ' . count($patterns) . ' different structure patterns:');
 
         $table = new Table($this->output);
@@ -169,6 +220,30 @@ class AnalyzeTranslationFiles extends Command
                 /** @var array<string, mixed>|null $fileData */
                 $fileData = $allFiles[$file] ?? null;
                 $row[] = (is_array($fileData) && isset($fileData[$key])) ? '✓' : '✗';
+<<<<<<< HEAD
+=======
+            $row = [$key];
+            // Type narrowing: assicura che $key sia string|int
+            if (! is_string($key) && ! is_int($key)) {
+                continue;
+            }
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+            $row = [$key];
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+            $row = [$key];
+
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+                    continue;
+                }
+                $row[] = isset($fileData[$key]) ? '✓' : '✗';
+            foreach (array_keys($allFiles) as $file) {
+                $row[] = isset($allFiles[$file][$key]) ? '✓' : '✗';
+>>>>>>> 5d933abf (.)
             }
 
             $table->addRow($row);
@@ -190,17 +265,94 @@ class AnalyzeTranslationFiles extends Command
 
         foreach (array_keys($allFiles) as $file) {
             if (str_contains($file, '/send_')) {
+            if (strpos($file, '/send_') !== false) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (strpos($file, '/send_') !== false) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
+            if (str_contains($file, '/send_')) {
                 $sendFiles[] = $file;
             } else {
                 $resourceFiles[] = $file;
             }
         }
 
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
+        $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
+        $this->info('Files with send_ prefix ('.count($sendFiles).'):');
         $this->info('Files with send_ prefix (' . count($sendFiles) . '):');
         foreach ($sendFiles as $file) {
             $this->line(" - {$file}");
         }
 
+        $this->info('Resource files ('.count($resourceFiles).'):');
+        $this->info('Resource files (' . count($resourceFiles) . '):');
+        $this->info('Resource files ('.count($resourceFiles).'):');
         $this->info('Resource files (' . count($resourceFiles) . '):');
         foreach ($resourceFiles as $file) {
             $this->line(" - {$file}");
@@ -235,10 +387,54 @@ class AnalyzeTranslationFiles extends Command
 
             foreach (array_keys($keys) as $key) {
                 if (str_starts_with((string) $key, 'navigation.')) {
+            $navigationKeys = [];
+
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+            if (is_array($keys)) {
+                foreach (array_keys($keys) as $key) {
+                    if (str_starts_with((string) $key, 'navigation.')) {
+                        $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+                    }
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                if (strpos((string) $key, 'navigation.') === 0) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                     $navigationKeys[] = str_replace('navigation.', '', (string) $key);
                 }
             }
 
+            if (! empty($navigationKeys)) {
+            foreach (array_keys($keys) as $key) {
+                if (str_starts_with((string) $key, 'navigation.')) {
+                    $navigationKeys[] = str_replace('navigation.', '', (string) $key);
+                }
+            }
+
+            if (!empty($navigationKeys)) {
+            if (! empty($navigationKeys)) {
             if (!empty($navigationKeys)) {
                 sort($navigationKeys);
                 $structure = implode(',', $navigationKeys);
@@ -246,6 +442,9 @@ class AnalyzeTranslationFiles extends Command
             }
         }
 
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
+        $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
+        $this->info('Found '.count($navigationStructures).' different navigation structures:');
         $this->info('Found ' . count($navigationStructures) . ' different navigation structures:');
 
         $table = new Table($this->output);

@@ -7,6 +7,53 @@ namespace Modules\Notify\Enums;
 /**
  * Enum per i tipi di media supportati
  *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  * Questo enum centralizza la gestione dei tipi di media disponibili
  * e fornisce metodi helper per ottenere le opzioni e le etichette.
  */
@@ -16,6 +63,14 @@ enum MediaTypeEnum: string
     case VIDEO = 'video';
     case DOCUMENT = 'document';
     case AUDIO = 'audio';
+
+    /**
+     * Restituisce le opzioni per il componente Select di Filament
+     *
+    
+    /**
+     * Restituisce le opzioni per il componente Select di Filament
+     * 
 
     /**
      * Restituisce le opzioni per il componente Select di Filament
@@ -35,6 +90,14 @@ enum MediaTypeEnum: string
     /**
      * Restituisce le etichette localizzate per il componente Select di Filament
      *
+    
+    /**
+     * Restituisce le etichette localizzate per il componente Select di Filament
+     * 
+
+    /**
+     * Restituisce le etichette localizzate per il componente Select di Filament
+     *
      * @return array<string, string>
      */
     public static function labels(): array
@@ -50,8 +113,64 @@ enum MediaTypeEnum: string
     /**
      * Verifica se un tipo di media è supportato
      *
+     *
+     *
+    
+    /**
+     * Verifica se un tipo di media è supportato
+     * 
+
+    /**
+     * Verifica se un tipo di media è supportato
+     *
      * @param string $type
      * @return bool
+     *
+     * @param string $type
+     * @return bool
+     * @param string $type
+     * @return bool
+     * @param string $type
+     * @return bool
+     */
+    public static function isSupported(string $type): bool
+    {
+
+    /**
+     * Verifica se un tipo di media è supportato
+     */
+    public static function isSupported(string $type): bool
+    {
+    
+    /**
+     * Verifica se un tipo di media è supportato
+     * 
+     * @param string $type
+     * @return bool
+     */
+    public static function isSupported(string $type): bool
+    {
+
+    /**
+     * Verifica se un tipo di media è supportato
+     *
+     * @param string $type
+     * @return bool
+     */
+    public static function isSupported(string $type): bool
+    {
+    
+    /**
+     * Verifica se un tipo di media è supportato
+     * 
+     * @param string $type
+     * @return bool
+     */
+    public static function isSupported(string $type): bool
+    {
+
+    /**
+     * Verifica se un tipo di media è supportato
      */
     public static function isSupported(string $type): bool
     {
@@ -61,7 +180,32 @@ enum MediaTypeEnum: string
     /**
      * Restituisce il tipo di media predefinito
      *
+     *
+     *
+        return in_array($type, array_column(self::cases(), 'value'));
+        return in_array($type, array_column(self::cases(), 'value'), strict: true);
+    }
+
+    /**
+     * Restituisce il tipo di media predefinito
+     * 
+     *
+        return in_array($type, array_column(self::cases(), 'value'));
+    }
+    
+    /**
+     * Restituisce il tipo di media predefinito
+     * 
      * @return self
+     *
+     * @return self
+     * @return self
+     *
+     *
+     * @return self
+     *
+     * @return self
+     *
      */
     public static function getDefault(): self
     {

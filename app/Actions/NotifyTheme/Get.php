@@ -25,6 +25,38 @@ class Get
             $view_params['post_id'] = 0;
         }
         if (! isset($view_params['lang'])) {
+        if (!isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (!isset($view_params['lang'])) {
+        if (! isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (! isset($view_params['lang'])) {
+        if (!isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (!isset($view_params['lang'])) {
+        if (! isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (! isset($view_params['lang'])) {
+        if (!isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (!isset($view_params['lang'])) {
+        if (! isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (! isset($view_params['lang'])) {
+        if (!isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (!isset($view_params['lang'])) {
+        if (! isset($view_params['post_id'])) {
+            $view_params['post_id'] = 0;
+        }
+        if (! isset($view_params['lang'])) {
             $view_params['lang'] = app()->getLocale();
         }
 
@@ -36,22 +68,266 @@ class Get
                 'post_id' => $view_params['post_id'], // in questo caso il tipo come register type 3 in cui la pwd e' solo autogenerata
             ],
             ['view_params' => []],
+            ['view_params' => []]
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []]
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
+            ['view_params' => []],
         );
 
         $module_name_low = Str::lower($xotData->main_module);
 
         $trad_mod = $module_name_low . '::' . $type . '.' . $name;
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
 
         if ($theme->subject === null) {
             $subject = trans($trad_mod . '.subject');
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
+
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod.'.subject');
+        $trad_mod = $module_name_low . '::' . $type . '.' . $name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod . '.subject');
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod.'.subject');
+        $trad_mod = $module_name_low . '::' . $type . '.' . $name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod . '.subject');
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod.'.subject');
+        $trad_mod = $module_name_low . '::' . $type . '.' . $name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod . '.subject');
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod.'.subject');
+        $trad_mod = $module_name_low . '::' . $type . '.' . $name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod . '.subject');
+        $trad_mod = $module_name_low.'::'.$type.'.'.$name;
+
+        if ($theme->subject === null) {
+            $subject = trans($trad_mod.'.subject');
             $theme->update(['subject' => $subject]);
         }
 
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+            $theme->update(['subject' => $subject]);
+        }
+
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
+        /* @phpstan-ignore-next-line property.notFound */
         if ($theme->theme === null) {
             $theme->update(['theme' => 'ark']);
         }
 
+        /* @phpstan-ignore-next-line property.notFound */
         if ($theme->body_html === null) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+        $bodyHtml = $theme->attributes['body_html'] ?? null;
+        if ($bodyHtml === null) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+        $bodyHtml = $theme->attributes['body_html'] ?? null;
+        if ($bodyHtml === null) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+        if ($theme->body_html === null) {
+        /* @phpstan-ignore-next-line property.notFound */
+        if ($theme->body_html === null) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+        if ($theme->body_html === null) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+        if ($theme->body_html === null) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === $trad_mod.'.body_html') {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+        if ($theme->body_html === null) {
+            $html = trans($trad_mod.'.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod.'.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
+            $html = trans($trad_mod . '.body_html');
+            if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
             $html = trans($trad_mod . '.body_html');
             if (isset($view_params['body_html']) && $html === ($trad_mod . '.body_html')) {
                 $html = '##body_html##';
@@ -100,7 +376,99 @@ class Get
 
             $view_params['logo'] =
                 '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+                '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+                '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+                '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
 
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] =
+                '<img src="' . $logoPath . '" width="' . $logoWidth . '" height="' . $logoHeight . '" />';
+
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
+            $view_params['logo'] = '<img src="'.$logoPath.'" width="'.$logoWidth.'" height="'.$logoHeight.'" />';
             // $view_params['logo'] = '<img src="'.\Request::getSchemeAndHttpHost().'/uploads/6/logo_VERITAS_piccolo.png" width="' . $theme->logo['width'] . ' "height="' . $theme->logo['height'] . '" />';
         }
 
@@ -108,6 +476,122 @@ class Get
 
         foreach ($view_params as $k => $v) {
             if (is_string($v)) {
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##'.$k.'##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##'.$k.'##', $v, (string) $subject);
+                $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
+                $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
                 $body_html = (string) Str::replace('##' . $k . '##', $v, (string) $body_html);
                 $subject = (string) Str::replace('##' . $k . '##', $v, (string) $subject);
             }
@@ -121,10 +605,46 @@ class Get
 
         return NotifyThemeData::from([
             'from_email' => $theme->from_email,
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+        return NotifyThemeData::from([
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
+            /* @phpstan-ignore-next-line property.notFound */
+            'from_email' => $theme->from_email,
+            /* @phpstan-ignore-next-line property.notFound */
             'from' => $theme->from,
             'subject' => $subject,
             'body_html' => $body_html,
             'view_params' => $view_params,
         ]);
+        return NotifyThemeData::from(
+            [
+                'from_email' => $theme->from_email,
+                'from' => $theme->from,
+                'subject' => $subject,
+                'body_html' => $body_html,
+                'view_params' => $view_params,
+            ]
+        );
     }
 }

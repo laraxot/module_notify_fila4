@@ -4,6 +4,21 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
+use Filament\Schemas\Schema;
+use Filament\Panel;
+use Filament\Schemas\Schema;
+use Override;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+use Filament\Notifications\Notification as FilamentNotification;
+use Filament\Panel;
+use Filament\Schemas\Schema;
+use Filament\Panel;
+use Filament\Schemas\Schema;
 use Filament\Panel;
 use Filament\Schemas\Schema;
 use Filament\Forms\Components\TextInput;
@@ -28,16 +43,45 @@ use Modules\Xot\Filament\Pages\XotBasePage;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
+ * @property Schema $smsForm
+ * @property \Filament\Schemas\Schema $smsForm
+ * @property \Filament\Schemas\Schema $smsForm
+ */
+class SendNetfunSmsPage extends XotBasePage
+{
+    public null|array $smsData = [];
+use Modules\Xot\Filament\Traits\NavigationLabelTrait;
+
+/**
  * @property \Filament\Schemas\Schema $smsForm
  */
 class SendNetfunSmsPage extends XotBasePage
 {
     public null|array $smsData = [];
 
+    public ?array $smsData = [];
+    public null|array $smsData = [];
+
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-device-phone-mobile';
+
+    protected string $view = 'notify::filament.pages.send-sms';
+
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    public null|array $smsData = [];
+    public null|array $smsData = [];
+    public null|array $smsData = [];
+
+    public ?array $smsData = [];
+    public null|array $smsData = [];
+
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-device-phone-mobile';
 
     protected string $view = 'notify::filament.pages.send-sms';
 
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 
     /**
@@ -70,6 +114,29 @@ class SendNetfunSmsPage extends XotBasePage
     public function smsForm(Schema $schema): Schema
     {
         return $schema->schema($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+<<<<<<< HEAD
+=======
+    }
+
+    /**
+     * @return array<string, \Filament\Forms\Components\TextInput|\Filament\Forms\Components\Textarea|\Filament\Forms\Components\Select>
+     */
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+    }
+
+    public function smsForm(Schema $schema): Schema
+    {
+        return $schema->components($this->getSmsFormSchema())->model($this->getUser())->statePath('smsData');
+>>>>>>> 5d933abf (.)
     }
 
     /**
@@ -165,6 +232,11 @@ class SendNetfunSmsPage extends XotBasePage
     {
         $user = Filament::auth()->user();
 
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
         if (!($user instanceof Model)) {
             throw new Exception(
                 'L\'utente autenticato deve essere un modello Eloquent per consentire l\'aggiornamento del profilo.',

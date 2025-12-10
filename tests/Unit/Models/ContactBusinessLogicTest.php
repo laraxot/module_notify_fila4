@@ -11,6 +11,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store polymorphic model relationships', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->model_type = 'App\\Models\\User';
         $contact->model_id = '1';
@@ -20,6 +23,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store contact information with type', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->contact_type = 'email';
         $contact->value = 'test@example.com';
@@ -29,6 +35,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track sms communication', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->sms_count = 5;
         $contact->sms_status_code = '200';
@@ -40,6 +49,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track email communication', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->mail_count = 3;
         $contact->mail_sent_at = '2023-01-01 10:00:00';
@@ -49,6 +61,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can store personal information', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->first_name = 'Mario';
         $contact->last_name = 'Rossi';
@@ -58,6 +73,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact has verification tracking', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->token = 'abc123';
         $contact->verified_at = '2023-01-01 12:00:00';
@@ -67,6 +85,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact has flexible attribute storage', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->attribute_1 = 'value1';
         $contact->attribute_2 = 'value2';
@@ -76,6 +97,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact can track duplicate count', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->duplicate_count = 2;
 
@@ -83,6 +107,9 @@ describe('Contact Business Logic', function () {
     });
 
     test('contact has order column for sorting', function () {
+        $contact = new Contact;
+        $contact = new Contact();
+        $contact = new Contact;
         $contact = new Contact();
         $contact->order_column = 1;
 

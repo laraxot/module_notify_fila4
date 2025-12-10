@@ -13,10 +13,149 @@ use Modules\Notify\Enums\ContactTypeEnum;
  * Utilizza ViewColumn + Blade view per separare completamente
  * logica e presentazione seguendo i principi DRY/KISS
  *
+ * 
+ * Utilizza ViewColumn + Blade view per separare completamente 
+ * logica e presentazione seguendo i principi DRY/KISS
+ * 
+ *
+ * Utilizza ViewColumn + Blade view per separare completamente
+ * logica e presentazione seguendo i principi DRY/KISS
+ *
  * PATTERN CORRETTO:
  * - ViewColumn per layout complessi
  * - Blade view separata per HTML
  * - Accessibilità WCAG 2.1 AA compliant
+ *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * @author Laraxot Team
+ *
+ * @version 2.0 - REFACTOR COMPLETO
+ *
  *
  * @author Laraxot Team
  * @version 2.0 - REFACTOR COMPLETO
@@ -44,7 +183,104 @@ class ContactColumn extends ViewColumn
         ])
             ->label(__('notify::columns.contact.label'))
             ->searchable($searchableArray)
+<<<<<<< HEAD
+=======
+            ->searchable()
+            ->searchable(ContactTypeEnum::getSearchable())
+>>>>>>> 5d933abf (.)
             ->sortable(false)
             ->toggleable(isToggledHiddenByDefault: false);
     }
+}
+        $this->view(static::getView(), [
+            'contact_types' => $contact_types,
+        ])
+    
+    protected function setUp(): void
+    {
+        parent::setUp();
+        
+        // Passa i tipi di contatto alla view
+        $contact_types = ContactTypeEnum::cases();
+        
+        $this->view(static::getView(), [
+                'contact_types' => $contact_types,
+            ])
+            ->label(__('notify::columns.contact.label'))
+            ->searchable()
+            ->searchable(ContactTypeEnum::getSearchable())
+            ->sortable(false)
+            ->toggleable(isToggledHiddenByDefault: false);
+    }
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
 }

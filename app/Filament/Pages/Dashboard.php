@@ -6,6 +6,61 @@ namespace Modules\Notify\Filament\Pages;
 
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBasePage;
+
+class Dashboard extends XotBaseDashboard
+{
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-home';
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+use Modules\Xot\Filament\Pages\XotBasePage;
+
+class Dashboard extends XotBaseDashboard
+{
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-home';
+use Modules\Xot\Filament\Pages\XotBasePage;
 
 class Dashboard extends XotBaseDashboard
 {
@@ -21,5 +76,10 @@ class Dashboard extends XotBaseDashboard
          * redirect('/admin');
          * }
          */
+        $user = auth()->user();
+        if (! $user->hasRole('super-admin')) {
+            redirect('/admin');
+        }
+        */
     }
 }

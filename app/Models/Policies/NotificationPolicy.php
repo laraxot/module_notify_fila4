@@ -7,3 +7,133 @@ namespace Modules\Notify\Models\Policies;
 class NotificationPolicy extends NotifyBasePolicy
 {
 }
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Contracts\UserContract;
+
+class NotificationPolicy extends NotifyBasePolicy
+{
+    
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Contracts\UserContract;
+
+class NotificationPolicy extends NotifyBasePolicy
+{
+    
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+use Modules\Notify\Models\Notification;
+use Modules\Xot\Contracts\UserContract;
+
+class NotificationPolicy extends NotifyBasePolicy
+{
+    
+}
+class NotificationPolicy extends NotifyBasePolicy
+{
+}
+class NotificationPolicy extends NotifyBasePolicy {}

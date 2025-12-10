@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\Notify\Console\Commands;
 
 use Illuminate\Console\Command;
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\SmtpData;
+use Modules\Notify\Datas\EmailData;
+use Modules\Notify\Datas\SmtpData;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Notification;
 use Modules\Notify\Datas\EmailData;
@@ -55,6 +59,71 @@ class SendMailCommand extends Command
         // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
 
         $this->info('Email sent successfully to ' . $emailData->to);
+        Notification::route('mail', $emailData->to)
+            ->notify(new EmailDataNotification($emailData));
+        */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to '.$emailData->to);
+         * Notification::route('mail', $emailData->to)
+         * ->notify(new EmailDataNotification($emailData));
+         */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to ' . $emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to ' . $emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to ' . $emailData->to);
+        Notification::route('mail', $emailData->to)
+            ->notify(new EmailDataNotification($emailData));
+        */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to '.$emailData->to);
+         * Notification::route('mail', $emailData->to)
+         * ->notify(new EmailDataNotification($emailData));
+         */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to ' . $emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to ' . $emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to ' . $emailData->to);
+        Notification::route('mail', $emailData->to)
+            ->notify(new EmailDataNotification($emailData));
+        */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to ' . $emailData->to);
+        Notification::route('mail', $emailData->to)
+            ->notify(new EmailDataNotification($emailData));
+        */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to '.$emailData->to);
+         * Notification::route('mail', $emailData->to)
+         * ->notify(new EmailDataNotification($emailData));
+         */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to ' . $emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to ' . $emailData->to);
+        $this->info('Email sent successfully to '.$emailData->to);
+        $this->info('Email sent successfully to ' . $emailData->to);
+        Notification::route('mail', $emailData->to)
+            ->notify(new EmailDataNotification($emailData));
+        */
+        // Mail::to($emailData->to)->send(new EmailDataEmail($emailData));
+
+        $this->info('Email sent successfully to '.$emailData->to);
 
         return Command::SUCCESS;
     }

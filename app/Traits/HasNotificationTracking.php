@@ -18,10 +18,32 @@ trait HasNotificationTracking
     protected function addTrackingPixel(string $html, string $trackingId): string
     {
         if (!config('notify.tracking.enabled') || !config('notify.tracking.pixel.enabled')) {
+     * @param  string  $html  Il contenuto HTML
+     * @param  string  $trackingId  ID per il tracking
+     */
+    protected function addTrackingPixel(string $html, string $trackingId): string
+    {
+        if (! config('notify.tracking.enabled') || ! config('notify.tracking.pixel.enabled')) {
+     * @param string $html Il contenuto HTML
+     * @param string $trackingId ID per il tracking
+     * @return string
+     */
+    protected function addTrackingPixel(string $html, string $trackingId): string
+    {
+        if (!config('notify.tracking.enabled') || !config('notify.tracking.pixel.enabled')) {
             return $html;
         }
 
         $route = route(config('notify.tracking.pixel.route'), ['id' => $trackingId]);
+        $pixel = '<img src="' . $route . '" alt="" width="1" height="1" style="display:none">';
+
+        return $html . $pixel;
+        $pixel = '<img src="'.$route.'" alt="" width="1" height="1" style="display:none">';
+
+        return $html.$pixel;
+        $pixel = '<img src="' . $route . '" alt="" width="1" height="1" style="display:none">';
+
+        return $html . $pixel;
         $pixel = '<img src="' . $route . '" alt="" width="1" height="1" style="display:none">';
 
         return $html . $pixel;
@@ -30,6 +52,19 @@ trait HasNotificationTracking
     /**
      * Aggiunge il tracking ai link in un contenuto HTML.
      *
+     * @param string $html Il contenuto HTML
+     * @param string $trackingId ID per il tracking
+     * @return string
+     */
+    protected function addLinkTracking(string $html, string $trackingId): string
+    {
+        if (!config('notify.tracking.enabled') || !config('notify.tracking.links.enabled')) {
+     * @param  string  $html  Il contenuto HTML
+     * @param  string  $trackingId  ID per il tracking
+     */
+    protected function addLinkTracking(string $html, string $trackingId): string
+    {
+        if (! config('notify.tracking.enabled') || ! config('notify.tracking.links.enabled')) {
      * @param string $html Il contenuto HTML
      * @param string $trackingId ID per il tracking
      * @return string
@@ -49,6 +84,60 @@ trait HasNotificationTracking
                 if (
                     Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
                         !Str::startsWith($url, ['http://', 'https://'])
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
+
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
+                        !Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        !Str::startsWith($url, ['http://', 'https://'])
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
+
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
+                        !Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        !Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        !Str::startsWith($url, ['http://', 'https://'])
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        !Str::startsWith($url, ['http://', 'https://'])
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
+
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#']) ||
+                        !Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        !Str::startsWith($url, ['http://', 'https://'])
+                        ! Str::startsWith($url, ['http://', 'https://'])
+                        !Str::startsWith($url, ['http://', 'https://'])
+                
+                // Ignora link di unsubscribe, anchor e link relativi
+                if (
+                    Str::contains($url, ['unsubscribe', 'mailto:', 'tel:', '#'])
+                    || !Str::startsWith($url, ['http://', 'https://'])
                 ) {
                     return $matches[0];
                 }
@@ -61,6 +150,53 @@ trait HasNotificationTracking
                 return str_replace($url, $trackingUrl, $matches[0]);
             },
             $html,
+            $html
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
+            $html,
         );
     }
 
@@ -70,16 +206,38 @@ trait HasNotificationTracking
      * @param string $html Il contenuto HTML
      * @param string $trackingId ID per il tracking
      * @return string
+     * @param  string  $html  Il contenuto HTML
+     * @param  string  $trackingId  ID per il tracking
+     * @param string $html Il contenuto HTML
+     * @param string $trackingId ID per il tracking
+     * @return string
+     * @param string $html Il contenuto HTML
+     * @param string $trackingId ID per il tracking
+     * @return string
      */
     protected function addTracking(string $html, string $trackingId): string
     {
         $html = $this->addLinkTracking($html, $trackingId);
+        $html = $this->addTrackingPixel($html, $trackingId);
+
+
+        return $html;
+
+        return $this->addTrackingPixel($html, $trackingId);
+        $html = $this->addTrackingPixel($html, $trackingId);
+        return $html;
         $html = $this->addTrackingPixel($html, $trackingId);
         return $html;
     }
 
     /**
      * Genera un ID univoco per il tracking.
+     *
+     * @return string
+     *
+     * @return string
+     *
+     * @return string
      *
      * @return string
      */
@@ -92,6 +250,12 @@ trait HasNotificationTracking
      * Verifica se il tracking è abilitato.
      *
      * @return bool
+     *
+     * @return bool
+     *
+     * @return bool
+     *
+     * @return bool
      */
     protected function isTrackingEnabled(): bool
     {
@@ -100,6 +264,12 @@ trait HasNotificationTracking
 
     /**
      * Verifica se il tracking dei pixel è abilitato.
+     *
+     * @return bool
+     *
+     * @return bool
+     *
+     * @return bool
      *
      * @return bool
      */
@@ -112,9 +282,62 @@ trait HasNotificationTracking
      * Verifica se il tracking dei link è abilitato.
      *
      * @return bool
+     *
+     * @return bool
+     *
+     * @return bool
+     *
+     * @return bool
      */
     protected function isLinkTrackingEnabled(): bool
     {
         return $this->isTrackingEnabled() && config('notify.tracking.links.enabled', false);
     }
+}
+} 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+} 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
 }

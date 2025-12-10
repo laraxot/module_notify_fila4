@@ -6,6 +6,57 @@ namespace Modules\Notify\Models;
 
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Illuminate\Database\Eloquent\Builder;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateFactory;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Builder;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
 use Modules\Media\Models\Media;
@@ -18,6 +69,9 @@ use Illuminate\Support\Facades\Blade;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\Translatable\HasTranslations;
+
+/**
 use Spatie\Translatable\HasTranslations;
 
 /**
@@ -52,6 +106,8 @@ use Spatie\Translatable\HasTranslations;
  * @property-read mixed $translations
  * @property-read Profile|null $updater
  * @property-read int|null $versions_count
+ *
+ *
  * @method static Builder<static>|NotificationTemplate active()
  * @method static NotificationTemplateFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplate forCategory(string $category)
@@ -63,6 +119,67 @@ use Spatie\Translatable\HasTranslations;
  * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
  * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
  * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+ *
+ *
+ *
+ * @property \Carbon\Carbon $created_at
+ * @property \Carbon\Carbon $updated_at
+ * @property \Carbon\Carbon|null $deleted_at
+ * @property-read string $channels_label
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\User\Models\Profile|null $creator
+ * @property-read int|null $logs_count
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read mixed $translations
+ * @property-read \Modules\User\Models\Profile|null $updater
+ * @property-read int|null $versions_count
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forCategory(string $category)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate forChannel(string $channel)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+ *
+ * @mixin IdeHelperNotificationTemplate
+ * @mixin \Eloquent
+ */
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+/**
+ * @property NotificationTypeEnum $type
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read string $channels_label
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read mixed $translations
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static Builder<static>|NotificationTemplate active()
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationTemplate forCategory(string $category)
+ * @method static Builder<static>|NotificationTemplate forChannel(string $channel)
+ * @method static Builder<static>|NotificationTemplate newModelQuery()
+ * @method static Builder<static>|NotificationTemplate newQuery()
+ * @method static Builder<static>|NotificationTemplate query()
+ * @method static Builder<static>|NotificationTemplate whereJsonContainsLocale(string $column, string $locale, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|NotificationTemplate whereJsonContainsLocales(string $column, array $locales, ?mixed $value, string $operand = '=')
+ * @method static Builder<static>|NotificationTemplate whereLocale(string $column, string $locale)
+ * @method static Builder<static>|NotificationTemplate whereLocales(string $column, array $locales)
+ * @mixin \Eloquent
+ */
  * @mixin IdeHelperNotificationTemplate
  * @mixin \Eloquent
  */
@@ -70,6 +187,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
 {
     use HasTranslations;
     use InteractsWithMedia;
+
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
 
     protected $fillable = [
         'name',
@@ -91,11 +214,350 @@ class NotificationTemplate extends BaseModel implements HasMedia
         'type',
     ];
 
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    protected function casts(): array
+    {
+        return [
+            'type' => NotificationTypeEnum::class,
+            'preview_data' => 'array',
+            'body_html' => 'string',
+            'body_text' => 'string',
+            'channels' => 'array',
+            'variables' => 'array',
+            'conditions' => 'array',
+            'metadata' => 'array',
+            'is_active' => 'boolean',
+            'grapesjs_data' => 'array',
+        ];
+    }
+
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
+
+    public function registerMediaCollections(): void
+    {
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+     
+    public function createNewVersion(string $createdBy, ?string $notes = null): self
+    {
+        $this->versions()->create([
+            'subject' => $this->subject,
+            'body_html' => $this->body_html,
+            'body_text' => $this->body_text,
+            'channels' => $this->channels,
+            'variables' => $this->variables,
+            'conditions' => $this->conditions,
+            'version' => $this->version,
+            'created_by' => $createdBy,
+            'change_notes' => $notes,
+        ]);
+
+        $this->increment('version');
+        return $this;
+    }
+*/
+    /**
+     * Compile the template with the given data.
+     *
+     * @param  array<string, mixed>  $data  The data to compile the template with
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function compile(array $data = []): array
+    {
+        $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
+        $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
+
+        $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
+        $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
+
+        $bodyTextTranslation = $this->getTranslation('body_text', app()->getLocale());
+        $bodyText = is_string($bodyTextTranslation) ? $bodyTextTranslation : null;
+
+        $subjectResult = $this->compileString($subject, $data);
+        $bodyHtmlResult = $this->compileString($bodyHtml, $data);
+        $bodyTextResult = $this->compileString($bodyText, $data);
+
+        return [
+            'subject' => $subjectResult ?? '',
+            'body_html' => $bodyHtmlResult,
+            'body_text' => $bodyTextResult,
+        ];
+    }
+
+    /**
+     * Check if the notification should be sent based on conditions.
+     *
+     * @param  array<string, mixed>  $data  The data to check conditions against
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+            $actual = data_get($data, $path);
+            if ($actual !== $value) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+     */
+    protected function compileString(?string $template, array $data): ?string
+    {
+        if (! $template) {
+     * @param string|null $template The template to compile
+     * @param array<string, mixed> $data The data to compile with
+     * @return string|null
+     */
+    protected function compileString(null|string $template, array $data): null|string
+    {
+        if (!$template) {
+            return null;
+        }
+
+        return Blade::render($template, $data);
+    }
+
+    /**
+     * Preview the template with the given data.
+     *
+     * @param  array<string, mixed>  $data  Additional data to merge with preview data
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function preview(array $data = []): array
+    {
+        $previewData = $this->preview_data ?? [];
+        if (! is_array($previewData)) {
+            $previewData = [];
+        }
+
+        /** @var array<string, mixed> $safePreviewData */
+        $safePreviewData = $previewData;
+        /** @var array<string, mixed> $mergedData */
+        $mergedData = array_merge($safePreviewData, $data);
+
+        return $this->compile($mergedData);
+    }
+
+    /**
+     * Scope a query to only include active templates.
+     * @param  Builder  $query
+     * @param Builder $query
+     * @return Builder
+     * @param  Builder  $query
+     * @param Builder $query
+     * @return Builder
+     * @param Builder $query
+     * @return Builder
+     */
+    public function scopeActive(Builder $query): Builder
+    {
+        return $query->where('is_active', true);
+    }
+
+    /**
+     * Scope a query to only include templates for a specific channel.
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $channel
+     * @return Builder
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $channel
+     * @return Builder
+     * @param Builder $query
+     * @param string $channel
+     * @return Builder
+     */
+    public function scopeForChannel(Builder $query, string $channel): Builder
+    {
+        return $query->whereJsonContains('channels', $channel);
+    }
+
+    /**
+     * Scope a query to only include templates for a specific category.
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $category
+     * @return Builder
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $category
+     * @return Builder
+     * @param Builder $query
+     * @param string $category
+     * @return Builder
+     */
+    public function scopeForCategory(Builder $query, string $category): Builder
+    {
+        return $query->where('category', $category);
+    }
+
+    /**
+     * Get the channels label attribute.
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+        $channels = $this->getAttribute('channels');
+        if (! is_array($channels)) {
+            $channels = [];
+        }
+
+        return collect($channels)
+        return collect($this->channels)
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.(is_string($channel) ? $channel : (string) $channel).'.label'))
+        return collect($this->channels)
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
+            ->implode(', ');
+    }
+
+    /**
+     * Get the GrapesJS data.
+     *
+     * @return array<string, mixed>
+     */
+    public function getGrapesJSData(): array
+    {
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $data */
+        return $data;
+    }
+
+    /**
+     * Set the GrapesJS data.
+     *
+     * @param  array<string, mixed>  $data
+     */
+    public function setGrapesJSData(array $data): self
+    {
+        $this->setAttribute('grapesjs_data', $data);
+
+        return $this;
+    }
+
+    public function getPreviewData(): array
+    {
+        $previewData = $this->getAttribute('preview_data') ?? [];
+        if (! is_array($previewData)) {
+            return [];
+        }
+
+        return $previewData;
+    }
+
+    public function getPreviewSubject(): string
+    {
+        $result = $this->getTranslation('subject', app()->getLocale());
+
+        return is_string($result) ? $result : '';
+    }
+
+    public function getPreviewBodyText(): string
+    {
+        $result = $this->getTranslation('body_text', app()->getLocale());
+
+        return is_string($result) ? $result : '';
+    }
+
+    public function getPreviewBodyHtml(): string
+    {
+        $result = $this->getTranslation('body_html', app()->getLocale());
+
+        return is_string($result) ? $result : '';
+    }
+
     /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>
      */
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
     #[Override]
     protected function casts(): array
     {
@@ -136,6 +598,36 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this->hasMany(NotificationLog::class, 'template_id');
      * }
      */
+        $this->addMediaCollection('attachments')
+            ->singleFile();
+    }
+/*
+    public function versions(): HasMany
+    {
+        return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+            ->orderByDesc('version');
+    }
+
+    public function logs(): HasMany
+    {
+        return $this->hasMany(NotificationLog::class, 'template_id');
+    }
+*/
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
+    /*
+     * public function versions(): HasMany
+     * {
+     * return $this->hasMany(NotificationTemplateVersion::class, 'template_id')
+     * ->orderByDesc('version');
+     * }
+     *
+     * public function logs(): HasMany
+     * {
+     * return $this->hasMany(NotificationLog::class, 'template_id');
+     * }
+     */
     /*
      * Create a new version of the template.
      *
@@ -161,6 +653,160 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * return $this;
      * }
      */
+     
+    public function createNewVersion(string $createdBy, ?string $notes = null): self
+    {
+        $this->versions()->create([
+            'subject' => $this->subject,
+            'body_html' => $this->body_html,
+            'body_text' => $this->body_text,
+            'channels' => $this->channels,
+            'variables' => $this->variables,
+            'conditions' => $this->conditions,
+            'version' => $this->version,
+            'created_by' => $createdBy,
+            'change_notes' => $notes,
+        ]);
+
+        $this->increment('version');
+        return $this;
+    }
+*/
+    /**
+     * Compile the template with the given data.
+     *
+     * @param array<string, mixed> $data The data to compile the template with
+     * @param  array<string, mixed>  $data  The data to compile the template with
+     * @return array{subject: string, body_html: string|null, body_text: string|null}
+     */
+    public function compile(array $data = []): array
+    {
+        $subject = $this->compileString($this->subject, $data);
+        $bodyHtml = $this->compileString($this->body_html, $data);
+        $bodyText = $this->compileString($this->body_text, $data);
+        $subjectTranslation = $this->getTranslation('subject', app()->getLocale());
+        $subject = is_string($subjectTranslation) ? $subjectTranslation : null;
+        
+        $bodyHtmlTranslation = $this->getTranslation('body_html', app()->getLocale());
+        $bodyHtml = is_string($bodyHtmlTranslation) ? $bodyHtmlTranslation : null;
+        
+        $bodyTextTranslation = $this->getTranslation('body_text', app()->getLocale());
+        $bodyText = is_string($bodyTextTranslation) ? $bodyTextTranslation : null;
+
+        $subjectResult = $this->compileString($subject, $data);
+        $bodyHtmlResult = $this->compileString($bodyHtml, $data);
+        $bodyTextResult = $this->compileString($bodyText, $data);
+
+        return [
+            'subject' => $subject ?? '',
+            'body_html' => $bodyHtml,
+            'body_text' => $bodyText,
+        ];
+    }
+
+    /**
+     * Check if the notification should be sent based on conditions.
+     *
+     * @param array<string, mixed> $data The data to check conditions against
+     * @return bool
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        if (!$this->conditions) {
+     * @param  array<string, mixed>  $data  The data to check conditions against
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+        if (! $this->conditions) {
+     * @param array<string, mixed> $data The data to check conditions against
+     * @return bool
+     */
+    public function shouldSend(array $data = []): bool
+    {
+        if (!$this->conditions) {
+            return true;
+        }
+
+        foreach ($this->conditions as $path => $value) {
+        $conditions = $this->getAttribute('conditions');
+        if (! $conditions) {
+            return true;
+        }
+
+        if (! is_array($conditions)) {
+            return true;
+        }
+
+        foreach ($conditions as $path => $value) {
+            $actual = data_get($data, $path);
+            if ($actual !== $value) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * Compile a string template with the given data.
+     *
+     * @param string|null $template The template to compile
+     * @param array<string, mixed> $data The data to compile with
+     * @return string|null
+     * @param  string|null  $template  The template to compile
+     * @param  array<string, mixed>  $data  The data to compile with
+     */
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(?string $template, array $data): ?string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(?string $template, array $data): ?string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(?string $template, array $data): ?string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(null|string $template, array $data): null|string
+    protected function compileString(?string $template, array $data): ?string
+    protected function compileString(?string $template, array $data): ?string
+    protected function compileString(null|string $template, array $data): null|string
+    {
+        if (!$template) {
+    public array $translatable = [
+        'subject',
+        'body_text',
+        'body_html',
+    ];
+
+    public function registerMediaCollections(): void
+    {
+        $this->addMediaCollection('attachments')->singleFile();
+    }
+
     /**
      * Compile the template with the given data.
      *
@@ -222,6 +868,10 @@ class NotificationTemplate extends BaseModel implements HasMedia
      * Preview the template with the given data.
      *
      * @param array<string, mixed> $data Additional data to merge with preview data
+     * @param  array<string, mixed>  $data  Additional data to merge with preview data
+     * @param array<string, mixed> $data Additional data to merge with preview data
+     * @param array<string, mixed> $data Additional data to merge with preview data
+     * @param array<string, mixed> $data Additional data to merge with preview data
      * @return array{subject: string, body_html: string|null, body_text: string|null}
      */
     public function preview(array $data = []): array
@@ -229,6 +879,12 @@ class NotificationTemplate extends BaseModel implements HasMedia
         /** @var array<string, mixed> $previewData */
         $previewData = $this->preview_data ?? [];
         /** @var array<string, mixed> $mergedData */
+        $previewData = $this->preview_data ?? [];
+        $previewData = $this->preview_data ?? [];
+        $previewData = $this->preview_data ?? [];
+        $previewData = $this->preview_data ?? [];
+        $previewData = $this->preview_data ?? [];
+        $previewData = $this->preview_data ?? [];
         $mergedData = array_merge($previewData, $data);
 
         return $this->compile($mergedData);
@@ -237,6 +893,16 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include active templates.
      *
+     * @param Builder $query
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param  Builder  $query
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param Builder $query
+     * @param Builder $query
      * @param Builder $query
      * @return Builder
      */
@@ -250,6 +916,22 @@ class NotificationTemplate extends BaseModel implements HasMedia
      *
      * @param Builder $query
      * @param string $channel
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $channel
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $channel
+     * @param  Builder  $query
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $channel
+     * @param Builder $query
+     * @param string $channel
+     * @param Builder $query
+     * @param string $channel
+     * @param Builder $query
+     * @param string $channel
      * @return Builder
      */
     public function scopeForChannel($query, string $channel)
@@ -260,6 +942,22 @@ class NotificationTemplate extends BaseModel implements HasMedia
     /**
      * Scope a query to only include templates for a specific category.
      *
+     * @param Builder $query
+     * @param string $category
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $category
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $category
+     * @param  Builder  $query
+     * @param  Builder  $query
+     * @param Builder $query
+     * @param string $category
+     * @param Builder $query
+     * @param string $category
+     * @param Builder $query
+     * @param string $category
      * @param Builder $query
      * @param string $category
      * @return Builder
@@ -278,9 +976,104 @@ class NotificationTemplate extends BaseModel implements HasMedia
     {
         /** @var array<int, string> $channels */
         $channels = $this->channels;
+        $channels = $this->getAttribute('channels');
+        if (! is_array($channels)) {
+            $channels = [];
+        }
+
         return collect($channels)
             ->map(fn(string $channel): string => (string) __('notify::template.fields.channel.options.' . $channel . '.label'))
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.$channel.'.label'))
             ->implode(', ');
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->map(fn ($channel) => __('notify::template.fields.channel.options.'.(is_string($channel) ? $channel : (string) $channel).'.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+     *
+     * @return string
+     */
+    public function getChannelsLabelAttribute(): string
+    {
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
+        return collect($this->channels)
+            ->map(fn($channel) => __('notify::template.fields.channel.options.' . $channel . '.label'))
+            ->implode(', ');
+        return collect($this->channels)->map(function ($channel) {
+            return __('notify::template.fields.channel.options.' . $channel . '.label');
+        })->implode(', ');
     }
 
     /**
@@ -293,6 +1086,23 @@ class NotificationTemplate extends BaseModel implements HasMedia
         /** @var array<string, mixed> $data */
         $data = $this->grapesjs_data ?? [];
         return $data;
+        return $this->grapesjs_data ?? [];
+        return $this->grapesjs_data ?? [];
+        return $this->grapesjs_data ?? [];
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+        $data = $this->grapesjs_data ?? [];
+        $data = $this->getAttribute('grapesjs_data') ?? [];
+        if (! is_array($data)) {
+            return [];
+        }
+
+        /** @var array<string, mixed> $safeData */
+        $safeData = $data;
+
+        return $safeData;
+        return $this->grapesjs_data ?? [];
+        return $this->grapesjs_data ?? [];
+        return $this->grapesjs_data ?? [];
     }
 
     /**
@@ -300,9 +1110,20 @@ class NotificationTemplate extends BaseModel implements HasMedia
      *
      * @param array<string, mixed> $data
      * @return self
+     * @param  array<string, mixed>  $data
      */
     public function setGrapesJSData(array $data): self
     {
+        $this->grapesjs_data = $data;
+
+     * @param array<string, mixed> $data
+     * @return self
+     */
+    public function setGrapesJSData(array $data): self
+    {
+        $this->grapesjs_data = $data;
+        $this->setAttribute('grapesjs_data', $data);
+
         $this->grapesjs_data = $data;
         return $this;
     }
@@ -310,23 +1131,41 @@ class NotificationTemplate extends BaseModel implements HasMedia
     public function getPreviewData(): array
     {
         return $this->preview_data ?? [];
+        $previewData = $this->getAttribute('preview_data') ?? [];
+        if (! is_array($previewData)) {
+            return [];
+        }
+
+        return $previewData;
+        return $this->preview_data ?? [];
+        return $this->preview_data ?? [];
+        return $this->preview_data ?? [];
     }
 
     public function getPreviewSubject(): string
     {
         $result = $this->getTranslation('subject', app()->getLocale());
+
         return is_string($result) ? $result : '';
     }
 
     public function getPreviewBodyText(): string
     {
         $result = $this->getTranslation('body_text', app()->getLocale());
+
         return is_string($result) ? $result : '';
     }
 
     public function getPreviewBodyHtml(): string
     {
         $result = $this->getTranslation('body_html', app()->getLocale());
+
+        return is_string($result) ? $result : '';
+    }
+        return is_string($result) ? $result : '';
+    }
+        return is_string($result) ? $result : '';
+    }
         return is_string($result) ? $result : '';
     }
 }

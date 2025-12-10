@@ -3,11 +3,57 @@
 # ==============================================
 # Modulo Notify Laraxot - Template standardizzato
 # Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-31
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
+# Ultimo aggiornamento: 2025-01-06
 # ==============================================
 
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+/vendor/
+/vendor
+/node_modules/
+/node_modules
+/docs/vendor/
+package-lock.json
+yarn.lock
+composer.lock
+yarn-error.log
+npm-debug.log
 vendor/
 /vendor/
 node_modules/
@@ -40,6 +86,121 @@ cache/
 *.swo
 *.stackdump
 *.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*.exe
+*:Zone.Identifier
+v8-compile-cache-*
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# ==============================================
+# LOG FILES
+# ==============================================
+*.log
+error_log
+npm-debug.log*
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+npm-debug.log
+yarn-error.log*
+lerna-debug.log*
+
+# ==============================================
+# LARAVEL SPECIFIC
+# ==============================================
+# Dependencies and packages
+/vendor/
+node_modules/
+/node_modules/
+/docs/vendor/
+package-lock.json
+yarn.lock
+yarn-error.log
+composer.lock
+
+# ==============================================
+# BUILD & COMPILED FILES
+# ==============================================
+/build
+/build/
+build/
+dist/
+docs/cache/
+cache/
+
+# Laravel specific
+# ==============================================
+# CACHE & TEMPORARY FILES
+# ==============================================
+*.cache
+*.lock
+*.phar
+*.jar
+*.tmp
+*.swp
+*.swo
+*.stackdump
+*.exe
 *:Zone.Identifier
 v8-compile-cache-*
 .php-cs-fixer.cache
@@ -58,6 +219,81 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+# Dependencies and packages
+/vendor/
+node_modules/
+/node_modules/
+/docs/vendor/
+package-lock.json
+yarn.lock
+yarn-error.log
+composer.lock
+
+# ==============================================
+# BUILD & COMPILED FILES
+# ==============================================
+/build
+/build/
+build/
+dist/
+docs/cache/
+cache/
+
+# Laravel specific
+# ==============================================
+# CACHE & TEMPORARY FILES
+# ==============================================
+*.cache
+*.lock
+*.phar
+*.jar
+*.tmp
+*.swp
+*.swo
+*.stackdump
+*.exe
+*:Zone.Identifier
+v8-compile-cache-*
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# ==============================================
+# LOG FILES
+# ==============================================
+*.log
+error_log
+npm-debug.log*
+npm-debug.log
+yarn-error.log*
+lerna-debug.log*
+
+# ==============================================
+# LARAVEL SPECIFIC
+# ==============================================
+# Dependencies and packages
+/vendor/
+/node_modules/
+/docs/vendor/
+
+# Lock files and cache
+*.lock
+*.cache
+*.phar
+package-lock.json
+yarn-error.log
+npm-debug.log
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Log files
+*.log
+
+# Build directories
+/build/
+/build
+build/
+
+# Laravel specific
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -122,6 +358,246 @@ docs/phpstan/
 docs/cache/
 
 # ==============================================
+# LANGUAGE FILES
+# ==============================================
+lang/lang/
+resources/lang/
+
+# ==============================================
+# OLD DIRECTORIES (LEGACY CLEANUP)
+# ==============================================
+resources/views/Components_old/
+database/Migrations_old/
+database/Seeders_old/
+database/Factories_old/
+database_old/
+# OLD DIRECTORIES (LEGACY CLEANUP)
+# ==============================================
+resources/views/Components_old/
+resources/views/Components_old
+database/Migrations_old/
+database/Migrations_old
+database/Seeders_old/
+database/Seeders_old
+database/Factories_old/
+database/Factories_old
+database/Factories_
+database_old/
+database_old
+
+# ==============================================
+# MODULE SPECIFIC - NOTIFY
+# ==============================================
+# File di configurazione locale
+config/local.php
+config/development.php
+
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Cache notifiche
+storage/notifications/
+storage/templates/
+storage/mail/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+
+# File di test notifiche
+notification_test_data.json
+test_notifications.sql
+
+# ==============================================
+# END OF NOTIFY .GITIGNORE
+# ==============================================
+
+# 🚫 File specifici del progetto
+# File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+# 🚫 File specifici del progetto
+*.fila2
+laravel
+public_html
+.env.*
+!.env.example
+
+# ==============================================
+# ENVIRONMENT & CONFIGURATION
+# ==============================================
+Homestead.yaml
+Homestead.json
+/.vagrant
+/.idea
+.phpintel
+
+# ==============================================
+# GIT SPECIFIC
+# ==============================================
+.git-rewrite/
+.git-rewrite
+.git-blame-ignore-revs
+
+# ==============================================
+# SYSTEM FILES
+# ==============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==============================================
+# BACKUP FILES
+# ==============================================
+*.old
+*.old1
+*.old2
+*.backup
+*.backup.*
+*.bak
+*.bakcup
+*.new
+
+# ==============================================
+# DEVELOPMENT TOOLS
+# ==============================================
+.windsurf/
+.cursor/
+.phpstorm.meta.php
+
+# ==============================================
+# DOCUMENTATION CACHE
+# ==============================================
+docs/phpstan/
+docs/cache/
+cache/
+
+# ==============================================
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
@@ -159,3 +635,125 @@ test_notifications.sql
 *.fila2
 laravel
 public_html
+.env.*
+!.env.example
+
+# ==============================================
+# ENVIRONMENT & CONFIGURATION
+# ==============================================
+Homestead.yaml
+Homestead.json
+/.vagrant
+/.idea
+.phpintel
+
+# ==============================================
+# GIT SPECIFIC
+# ==============================================
+.git-rewrite/
+.git-rewrite
+.git-blame-ignore-revs
+
+# ==============================================
+# SYSTEM FILES
+# ==============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==============================================
+# BACKUP FILES
+# ==============================================
+*.old
+*.old1
+*.old2
+*.backup
+*.backup.*
+*.bak
+*.bakcup
+*.new
+
+# ==============================================
+# DEVELOPMENT TOOLS
+# ==============================================
+.windsurf/
+.cursor/
+.phpstorm.meta.php
+
+# ==============================================
+# DOCUMENTATION CACHE
+# ==============================================
+docs/phpstan/
+docs/cache/
+cache/
+
+# ==============================================
+# OLD DIRECTORIES (LEGACY CLEANUP)
+# ==============================================
+resources/views/Components_old/
+resources/views/Components_old
+database/Migrations_old/
+database/Migrations_old
+database/Seeders_old/
+database/Seeders_old
+database/Factories_old/
+database/Factories_old
+database/Factories_
+database_old/
+database_old
+
+# ==============================================
+# MODULE SPECIFIC - NOTIFY
+# ==============================================
+# File di configurazione locale
+config/local.php
+config/development.php
+
+# Queue e notifiche
+storage/notifications/
+storage/queue/
+
+# File di test notifiche
+notification_test_data.json
+test_notifications.sql
+
+# ==============================================
+# END OF NOTIFY .GITIGNORE
+# ==============================================
+
+# 🚫 File specifici del progetto
+*.fila2
+laravel
+public_html
+
+# Local configurations
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# Git specific
+.git-blame-ignore-revs
+.git-rewrite/
+.git-rewrite
+
+# Temporary and system files
+*.tmp
+*.swp
+*.swo
+*.stackdump
+*.exe
+*:Zone.Identifier
+.DS_Store
+*.old
+*.old1
+*.backup
+*.bak
+
+# Documentation and cache
+docs/phpstan/
+docs/cache/
+cache/

@@ -4,6 +4,188 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Models;
 
+use function Safe\json_encode;
+
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyTheme;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyTheme;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Tests\TestCase;
+use Modules\Notify\Models\NotifyTheme;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Models\NotifyTheme;
+use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyTheme;
 use Tests\TestCase;
@@ -70,6 +252,9 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+        $theme = new NotifyTheme;
+        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
         $theme = new NotifyTheme();
 
         $expectedFillable = [
@@ -96,6 +281,9 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
+        $theme = new NotifyTheme;
+        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
         $theme = new NotifyTheme();
 
         $expectedCasts = [
@@ -116,6 +304,9 @@ class NotifyThemeTest extends TestCase
     /** @test */
     public function it_has_logo_appended_attribute(): void
     {
+        $theme = new NotifyTheme;
+        $theme = new NotifyTheme();
+        $theme = new NotifyTheme;
         $theme = new NotifyTheme();
 
         $expectedAppends = ['logo'];
@@ -641,3 +832,10 @@ class NotifyThemeTest extends TestCase
         $this->assertFalse($theme->view_params['features']['animations']);
     }
 }
+
+
+
+
+
+
+

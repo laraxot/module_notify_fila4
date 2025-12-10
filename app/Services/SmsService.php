@@ -9,6 +9,31 @@ use ReflectionClass;
 use ReflectionException;
 use Illuminate\Support\Str;
 use Webmozart\Assert\Assert;
+use RuntimeException;
+use ReflectionClass;
+use ReflectionException;
+use Illuminate\Support\Str;
+use ReflectionClass;
+use ReflectionException;
+use RuntimeException;
+use RuntimeException;
+use ReflectionClass;
+use ReflectionException;
+use RuntimeException;
+use ReflectionClass;
+use ReflectionException;
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
+use RuntimeException;
+use ReflectionClass;
+use ReflectionException;
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
+use RuntimeException;
+use ReflectionClass;
+use ReflectionException;
+use Illuminate\Support\Str;
+use Webmozart\Assert\Assert;
 
 /**
  * Classe per l'invio di SMS.
@@ -16,11 +41,78 @@ use Webmozart\Assert\Assert;
 class SmsService
 {
     // ---------CSS------------
+    public ?string $to = null;
+    public null|string $to = null;
+
+    public ?string $from = null;
+
+    public ?string $body = null;
+
     public null|string $to = null;
 
     public null|string $from = null;
 
     public null|string $body = null;
+    public ?string $to = null;
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public ?string $body = null;
+    public null|string $body = null;
+    public ?string $to = null;
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public ?string $body = null;
+    public null|string $body = null;
+    public ?string $to = null;
+    public null|string $to = null;
+
+    public ?string $from = null;
+
+    public ?string $body = null;
+
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public null|string $body = null;
+    public ?string $to = null;
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public ?string $body = null;
+    public null|string $body = null;
+    public ?string $to = null;
+
+    public ?string $from = null;
+
+    public ?string $body = null;
+
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public null|string $body = null;
+    public ?string $to = null;
+
+    public ?string $from = null;
+
+    public ?string $body = null;
+
+    public null|string $to = null;
+
+    public null|string $from = null;
+
+    public null|string $body = null;
+    public ?string $to = null;
+
+    public ?string $from = null;
+
+    public ?string $body = null;
     /**
      * Variabili per il template SMS.
      *
@@ -33,6 +125,75 @@ class SmsService
      */
     public string $driver = 'netfun';
 
+    private static ?self $instance = null;
+    private static ?self $instance = null;
+    private static ?self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
+    private static ?self $instance = null;
+    private static null|self $instance = null;
     private static null|self $instance = null;
 
     /**
@@ -40,6 +201,12 @@ class SmsService
      */
     public static function getInstance(): self
     {
+        if (null === self::$instance) {
+            self::$instance = new self();
+        if (self::$instance === null) {
+            self::$instance = new self;
+        if (null === self::$instance) {
+            self::$instance = new self();
         if (null === self::$instance) {
             self::$instance = new self();
         }
@@ -58,6 +225,62 @@ class SmsService
     /**
      * Sets local variables and merges them with the vars array.
      *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     * 
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     * @param array<string, mixed> $vars
+     *
+     * @param  array<string, mixed>  $vars
+     * 
+     *
+     *
+     * @param  array<string, mixed>  $vars
+     *
+     * @param  array<string, mixed>  $vars
+     *
+     *
+     * 
+     * @param array<string, mixed> $vars
+     * @param array<string, mixed> $vars
+     *
+     * @param  array<string, mixed>  $vars
+     * @param array<string, mixed> $vars
+     *
+     * @param  array<string, mixed>  $vars
+     * 
+     *
+     * 
+     * @param array<string, mixed> $vars
+     *
+     * @param array<string, mixed> $vars
+     *
+     * @param  array<string, mixed>  $vars
+     * 
+     *
+     * @param array<string, mixed> $vars
+     * @param array<string, mixed> $vars
+     *
+     * @param  array<string, mixed>  $vars
+     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
      * @param array<string, mixed> $vars
      */
     public function setLocalVars(array $vars): self
@@ -74,6 +297,13 @@ class SmsService
      * Unisce le variabili con quelle esistenti.
      *
      * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
+     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
+     * @param array<string, mixed> $vars
+     * @param array<string, mixed> $vars
+     * @param  array<string, mixed>  $vars
+     * @param array<string, mixed> $vars
      */
     public function mergeVars(array $vars): self
     {
@@ -88,6 +318,90 @@ class SmsService
     public function send(): self
     {
         $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Verifichiamo che la classe esista
+        if (!class_exists($engineClassName)) {
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\'.Str::studly($this->driver).'Engine';
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
+
+        // Verifichiamo che la classe esista
+        if (!class_exists($engineClassName)) {
+        if (! class_exists($engineClassName)) {
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
+
+        // Verifichiamo che la classe esista
+        if (!class_exists($engineClassName)) {
+            throw new RuntimeException("La classe del motore SMS {$engineClassName} non esiste");
+        }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Verifichiamo che la classe abbia il metodo make
+        if (!method_exists($engineClassName, 'make')) {
+        if (! method_exists($engineClassName, 'make')) {
+        if (! method_exists($engineClassName, 'make')) {
+        if (!method_exists($engineClassName, 'make')) {
+            throw new RuntimeException("La classe {$engineClassName} non implementa il metodo make()");
+        }
+        $engineClassName = '\\Modules\\Notify\\Services\\SmsEngines\\' . Str::studly($this->driver) . 'Engine';
 
         // Verifichiamo che la classe esista
         if (!class_exists($engineClassName)) {
@@ -96,19 +410,96 @@ class SmsService
 
         // Verifichiamo che la classe abbia il metodo make
         if (!method_exists($engineClassName, 'make')) {
+        if (! method_exists($engineClassName, 'make')) {
+        if (! method_exists($engineClassName, 'make')) {
+        if (!method_exists($engineClassName, 'make')) {
             throw new RuntimeException("La classe {$engineClassName} non implementa il metodo make()");
         }
 
         // Creiamo l'istanza in modo sicuro
         $instance = $engineClassName::make();
 
+        
+        // Creiamo l'istanza in modo sicuro
+        $instance = $engineClassName::make();
+        
+        
+        // Verifichiamo che la classe esista
+        if (!class_exists($engineClassName)) {
+            throw new \RuntimeException("La classe del motore SMS {$engineClassName} non esiste");
+        }
+        
+        // Verifichiamo che la classe abbia il metodo make
+        if (!method_exists($engineClassName, 'make')) {
+            throw new \RuntimeException("La classe {$engineClassName} non implementa il metodo make()");
+        }
+        
+        // Creiamo l'istanza in modo sicuro
+        $instance = $engineClassName::make();
+        
+
+        // Creiamo l'istanza in modo sicuro
+        $instance = $engineClassName::make();
+
         // Verifichiamo che l'istanza sia un oggetto
+        if (!is_object($instance)) {
+        if (! is_object($instance)) {
+        if (!is_object($instance)) {
+        if (! is_object($instance)) {
+        if (!is_object($instance)) {
+            throw new RuntimeException("Il metodo make() di {$engineClassName} non ha restituito un oggetto");
+        }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Verifichiamo che l'istanza abbia i metodi necessari
+        foreach (['setLocalVars', 'send', 'getVars'] as $method) {
+            if (!method_exists($instance, $method)) {
+            if (! method_exists($instance, $method)) {
+            if (! method_exists($instance, $method)) {
+            if (!method_exists($instance, $method)) {
+                throw new RuntimeException("L'istanza di {$engineClassName} non implementa il metodo {$method}()");
+            }
+        }
+        // Verifichiamo che l'istanza sia un oggetto
+        if (!is_object($instance)) {
+        if (! is_object($instance)) {
         if (!is_object($instance)) {
             throw new RuntimeException("Il metodo make() di {$engineClassName} non ha restituito un oggetto");
         }
 
         // Verifichiamo che l'istanza abbia i metodi necessari
         foreach (['setLocalVars', 'send', 'getVars'] as $method) {
+            if (!method_exists($instance, $method)) {
+            if (! method_exists($instance, $method)) {
+            if (! method_exists($instance, $method)) {
             if (!method_exists($instance, $method)) {
                 throw new RuntimeException("L'istanza di {$engineClassName} non implementa il metodo {$method}()");
             }
@@ -130,10 +521,118 @@ class SmsService
             $getVarsMethod = $reflectionClass->getMethod('getVars');
             $result = $getVarsMethod->invoke($instance);
 
+        
+        // Utilizziamo reflection per chiamare i metodi in modo sicuro
+        try {
+            $reflectionClass = new ReflectionClass($instance);
+        
+
+        // Utilizziamo reflection per chiamare i metodi in modo sicuro
+        try {
+            $reflectionClass = new ReflectionClass($instance);
+
+            // Chiamiamo setLocalVars
+            $setLocalVarsMethod = $reflectionClass->getMethod('setLocalVars');
+            $setLocalVarsMethod->invoke($instance, $this->vars);
+
+            // Chiamiamo send
+            $sendMethod = $reflectionClass->getMethod('send');
+            $sendMethod->invoke($instance);
+
+            // Chiamiamo getVars
+            $getVarsMethod = $reflectionClass->getMethod('getVars');
+            $result = $getVarsMethod->invoke($instance);
+            
+
+        // Verifichiamo che l'istanza sia un oggetto
+        if (!is_object($instance)) {
+            throw new \RuntimeException("Il metodo make() di {$engineClassName} non ha restituito un oggetto");
+        }
+        
+        // Verifichiamo che l'istanza abbia i metodi necessari
+        foreach (['setLocalVars', 'send', 'getVars'] as $method) {
+            if (!method_exists($instance, $method)) {
+                throw new \RuntimeException("L'istanza di {$engineClassName} non implementa il metodo {$method}()");
+            }
+        }
+        
+        // Utilizziamo reflection per chiamare i metodi in modo sicuro
+        try {
+            $reflectionClass = new \ReflectionClass($instance);
+            
+            // Chiamiamo setLocalVars
+            $setLocalVarsMethod = $reflectionClass->getMethod('setLocalVars');
+            $setLocalVarsMethod->invoke($instance, $this->vars);
+            
+            // Chiamiamo send
+            $sendMethod = $reflectionClass->getMethod('send');
+            $sendMethod->invoke($instance);
+            
+            // Chiamiamo getVars
+            $getVarsMethod = $reflectionClass->getMethod('getVars');
+            $result = $getVarsMethod->invoke($instance);
+            
+            // Verifichiamo che il risultato sia un array
+            if (!is_array($result)) {
+            if (! is_array($result)) {
+            if (!is_array($result)) {
+            if (! is_array($result)) {
+            if (!is_array($result)) {
+            if (! is_array($result)) {
+            if (!is_array($result)) {
+                $result = [];
+            }
+
+            
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             // Verifichiamo che il risultato sia un array
             if (!is_array($result)) {
                 $result = [];
             }
+
+            
+
+
+
+
+            
+            
+
+            
+
+
+
+
+
 
             // Convertiamo l'array in array<string, mixed>
             /** @var array<string, mixed> $typedResult */
@@ -147,6 +646,68 @@ class SmsService
             $this->mergeVars($typedResult);
         } catch (ReflectionException $e) {
             throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
+
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (\ReflectionException $e) {
+            throw new \RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
+
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (\ReflectionException $e) {
+            throw new \RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
+
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
+
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (\ReflectionException $e) {
+            throw new \RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
+
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: '.$e->getMessage());
+            throw new RuntimeException('Errore durante la chiamata dei metodi: ' . $e->getMessage());
+            
+            $this->mergeVars($typedResult);
+        } catch (ReflectionException $e) {
+            throw new RuntimeException("Errore durante la chiamata dei metodi: " . $e->getMessage());
         }
 
         return $this;

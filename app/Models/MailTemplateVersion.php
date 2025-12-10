@@ -9,6 +9,39 @@ use Override;
 use RuntimeException;
 use Carbon\Carbon;
 use Modules\User\Models\Profile;
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Carbon\Carbon;
+use Carbon\Carbon;
+use Carbon\Carbon;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Carbon\Carbon;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Carbon\Carbon;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Modules\Xot\Traits\Updater;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Carbon\Carbon;
+use Modules\User\Models\Profile;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\MailTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -36,6 +69,8 @@ use Modules\Xot\Traits\Updater;
  * @property-read int|null $media_count
  * @property-read MailTemplate|null $template
  * @property-read Profile|null $updater
+ *
+ *
  * @method static MailTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|MailTemplateVersion newModelQuery()
  * @method static Builder<static>|MailTemplateVersion newQuery()
@@ -57,6 +92,169 @@ use Modules\Xot\Traits\Updater;
  * @method static Builder<static>|MailTemplateVersion whereVersion($value)
  * @method static Builder<static>|MailTemplateVersion withTrashed()
  * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+ *
+ *
+ *
+ *
+ * @property \Carbon\Carbon|null $created_at
+ * @property \Carbon\Carbon|null $updated_at
+ * @property \Carbon\Carbon|null $deleted_at
+ * @property string|null $updated_by
+ * @property string|null $deleted_by
+ * @property-read \Modules\User\Models\Profile|null $creator
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\User\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\MailTemplateVersionFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion onlyTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion query()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereChangeNotes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereHtmlTemplate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereMailTemplateId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereMetadata($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereSubject($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereTextTemplate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereUpdatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion whereVersion($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion withTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|MailTemplateVersion withoutTrashed()
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * @mixin IdeHelperMailTemplateVersion
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property int $mail_template_id
+ * @property int $version
+ * @property string|null $subject
+ * @property string $html_template
+ * @property string|null $text_template
+ * @property array<array-key, mixed>|null $metadata
+ * @property string|null $created_by
+ * @property string|null $change_notes
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\MailTemplateVersionFactory factory($count = null, $state = [])
+ * @method static Builder<static>|MailTemplateVersion newModelQuery()
+ * @method static Builder<static>|MailTemplateVersion newQuery()
+ * @method static Builder<static>|MailTemplateVersion onlyTrashed()
+ * @method static Builder<static>|MailTemplateVersion query()
+ * @method static Builder<static>|MailTemplateVersion whereChangeNotes($value)
+ * @method static Builder<static>|MailTemplateVersion whereCreatedAt($value)
+ * @method static Builder<static>|MailTemplateVersion whereCreatedBy($value)
+ * @method static Builder<static>|MailTemplateVersion whereDeletedAt($value)
+ * @method static Builder<static>|MailTemplateVersion whereDeletedBy($value)
+ * @method static Builder<static>|MailTemplateVersion whereHtmlTemplate($value)
+ * @method static Builder<static>|MailTemplateVersion whereId($value)
+ * @method static Builder<static>|MailTemplateVersion whereMailTemplateId($value)
+ * @method static Builder<static>|MailTemplateVersion whereMetadata($value)
+ * @method static Builder<static>|MailTemplateVersion whereSubject($value)
+ * @method static Builder<static>|MailTemplateVersion whereTextTemplate($value)
+ * @method static Builder<static>|MailTemplateVersion whereUpdatedAt($value)
+ * @method static Builder<static>|MailTemplateVersion whereUpdatedBy($value)
+ * @method static Builder<static>|MailTemplateVersion whereVersion($value)
+ * @method static Builder<static>|MailTemplateVersion withTrashed(bool $withTrashed = true)
+ * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+ *
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+/**
+ * @property string $id
+ * @property int $mail_template_id
+ * @property int $version
+ * @property string|null $subject
+ * @property string $html_template
+ * @property string|null $text_template
+ * @property array<array-key, mixed>|null $metadata
+ * @property string|null $created_by
+ * @property string|null $change_notes
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\MailTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\MailTemplateVersionFactory factory($count = null, $state = [])
+ * @method static Builder<static>|MailTemplateVersion newModelQuery()
+ * @method static Builder<static>|MailTemplateVersion newQuery()
+ * @method static Builder<static>|MailTemplateVersion onlyTrashed()
+ * @method static Builder<static>|MailTemplateVersion query()
+ * @method static Builder<static>|MailTemplateVersion whereChangeNotes($value)
+ * @method static Builder<static>|MailTemplateVersion whereCreatedAt($value)
+ * @method static Builder<static>|MailTemplateVersion whereCreatedBy($value)
+ * @method static Builder<static>|MailTemplateVersion whereDeletedAt($value)
+ * @method static Builder<static>|MailTemplateVersion whereDeletedBy($value)
+ * @method static Builder<static>|MailTemplateVersion whereHtmlTemplate($value)
+ * @method static Builder<static>|MailTemplateVersion whereId($value)
+ * @method static Builder<static>|MailTemplateVersion whereMailTemplateId($value)
+ * @method static Builder<static>|MailTemplateVersion whereMetadata($value)
+ * @method static Builder<static>|MailTemplateVersion whereSubject($value)
+ * @method static Builder<static>|MailTemplateVersion whereTextTemplate($value)
+ * @method static Builder<static>|MailTemplateVersion whereUpdatedAt($value)
+ * @method static Builder<static>|MailTemplateVersion whereUpdatedBy($value)
+ * @method static Builder<static>|MailTemplateVersion whereVersion($value)
+ * @method static Builder<static>|MailTemplateVersion withTrashed(bool $withTrashed = true)
+ * @method static Builder<static>|MailTemplateVersion withoutTrashed()
+ *
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+ * @mixin IdeHelperMailTemplateVersion
+ * @mixin \Eloquent
+ */
+ * @mixin IdeHelperMailTemplateVersion
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
  * @mixin IdeHelperMailTemplateVersion
  * @mixin \Eloquent
  */
@@ -85,6 +283,56 @@ class MailTemplateVersion extends BaseModel
      * @return array<string, string>
      */
     #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
     protected function casts(): array
     {
         return [
@@ -109,6 +357,24 @@ class MailTemplateVersion extends BaseModel
         }
 
         $template->update([
+            /* @phpstan-ignore-next-line property.notFound */
+            'subject' => $this->subject,
+            /* @phpstan-ignore-next-line property.notFound */
+            'html_template' => $this->html_template,
+            /* @phpstan-ignore-next-line property.notFound */
+            'text_template' => $this->text_template,
+        ]);
+
+        /** @var MailTemplate */
+            /* @phpstan-ignore-next-line property.notFound */
+            'subject' => $this->subject,
+            /* @phpstan-ignore-next-line property.notFound */
+            'html_template' => $this->html_template,
+            /* @phpstan-ignore-next-line property.notFound */
+            'text_template' => $this->text_template,
+        ]);
+
+        /** @var MailTemplate */
             'subject' => $this->subject,
             'html_template' => $this->html_template,
             'text_template' => $this->text_template,

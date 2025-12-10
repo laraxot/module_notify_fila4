@@ -3,6 +3,133 @@
 declare(strict_types=1);
 
 
+declare(strict_types=1);
+
+declare(strict_types=1);
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
+declare(strict_types=1);
+
+
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -11,6 +138,23 @@ $finder = PhpCsFixer\Finder::create()
     ->name('*.php')
     ->notName('*.blade.php')
     ->ignoreDotFiles(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true);
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
+    ->ignoreVCS(true)
 
 $config = new PhpCsFixer\Config();
 
@@ -22,6 +166,9 @@ $config
         'declare_equal_normalize' => true,
         'declare_strict_types' => true,
         'combine_consecutive_unsets' => true,
+        // 'binary_operator_spaces' => ['align_double_arrow' => false],
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
+        //'binary_operator_spaces' => ['align_double_arrow' => false],
         //'binary_operator_spaces' => ['align_double_arrow' => false],
         'array_syntax' => ['syntax' => 'short'],
         'linebreak_after_opening_tag' => true,
@@ -37,3 +184,51 @@ $config
         'class_definition' => true,
         'elseif' => true,
     ])
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder);
+
+return $config;
+    ->setFinder($finder);
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;
+    ->setFinder($finder)
+
+return $config;

@@ -8,6 +8,110 @@ use Exception;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Illuminate\Support\Str;
+use Illuminate\Support\Str;
+use Illuminate\Support\Str;
+use Illuminate\Support\Str;
+use Illuminate\Support\Str;
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Illuminate\Support\Str;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
+
+
+use Modules\Notify\Datas\WhatsAppData;
+use Spatie\QueueableAction\QueueableAction;
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -18,11 +122,35 @@ final class SendFacebookWhatsAppAction
     use QueueableAction;
 
     private string $accessToken;
+
+    private string $phoneNumberId;
+
+    private string $baseUrl = 'https://graph.facebook.com/v17.0';
+
+    private array $vars = [];
+
+    protected bool $debug;
+
+    private string $phoneNumberId;
+    private string $baseUrl = 'https://graph.facebook.com/v17.0';
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+
+    private string $accessToken;
+
     private string $phoneNumberId;
     private string $baseUrl = 'https://graph.facebook.com/v17.0';
     /** @var array<string, mixed> */
     private array $vars = [];
     protected bool $debug;
+    private string $accessToken;
+    private string $phoneNumberId;
+    private string $baseUrl = 'https://graph.facebook.com/v17.0';
+    private array $vars = [];
+    protected bool $debug;
+    protected int $timeout;
+    protected int $timeout;
     protected int $timeout;
 
     /**
@@ -32,6 +160,113 @@ final class SendFacebookWhatsAppAction
     {
         $accessToken = config('services.facebook.access_token');
         if (!is_string($accessToken)) {
+        if (! is_string($accessToken)) {
+        if (!is_string($accessToken)) {
+        if (! is_string($accessToken)) {
+        if (!is_string($accessToken)) {
+        if (! is_string($accessToken)) {
+        if (!is_string($accessToken)) {
+        if (! is_string($accessToken)) {
+        if (!is_string($accessToken)) {
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+        if (! is_string($accessToken)) {
+        if (!is_string($accessToken)) {
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+        if (!is_string($accessToken)) {
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
+        if (! is_string($accessToken)) {
+        if (!is_string($accessToken)) {
+            throw new Exception(
+                'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
+            );
+            throw new Exception('put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]');
             throw new Exception(
                 'put [FACEBOOK_ACCESS_TOKEN] variable to your .env and config [services.facebook.access_token]',
             );
@@ -40,6 +275,113 @@ final class SendFacebookWhatsAppAction
 
         $phoneNumberId = config('services.facebook.phone_number_id');
         if (!is_string($phoneNumberId)) {
+        if (! is_string($phoneNumberId)) {
+        if (!is_string($phoneNumberId)) {
+        if (! is_string($phoneNumberId)) {
+        if (!is_string($phoneNumberId)) {
+        if (! is_string($phoneNumberId)) {
+        if (!is_string($phoneNumberId)) {
+        if (! is_string($phoneNumberId)) {
+        if (!is_string($phoneNumberId)) {
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+        if (! is_string($phoneNumberId)) {
+        if (!is_string($phoneNumberId)) {
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+        if (!is_string($phoneNumberId)) {
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
+        if (! is_string($phoneNumberId)) {
+        if (!is_string($phoneNumberId)) {
+            throw new Exception(
+                'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
+            );
+            throw new Exception('put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]');
             throw new Exception(
                 'put [FACEBOOK_PHONE_NUMBER_ID] variable to your .env and config [services.facebook.phone_number_id]',
             );
@@ -49,6 +391,83 @@ final class SendFacebookWhatsAppAction
         // Parametri a livello di root
         $this->debug = (bool) config('whatsapp.debug', false);
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? (int) config('whatsapp.timeout', 30) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
     }
 
     /**
@@ -56,6 +475,16 @@ final class SendFacebookWhatsAppAction
      *
      * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
      * @return array<string, mixed> Risultato dell'operazione
+     * @return array Risultato dell'operazione
+     * @return array Risultato dell'operazione
+     * @return array Risultato dell'operazione
+     * @param  WhatsAppData  $whatsAppData  I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+     *
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
+     * @param WhatsAppData $whatsAppData I dati del messaggio WhatsApp
+     * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
     public function execute(WhatsAppData $whatsAppData): array
@@ -69,21 +498,149 @@ final class SendFacebookWhatsAppAction
             ]);
         }
 
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
+                'Authorization' => 'Bearer ' . $this->accessToken,
+                'Authorization' => 'Bearer '.$this->accessToken,
+                'Authorization' => 'Bearer '.$this->accessToken,
                 'Authorization' => 'Bearer ' . $this->accessToken,
                 'Content-Type' => 'application/json',
             ],
         ]);
 
         $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+        $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
+        $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
 
+            ]
+            ],
+        ]);
+
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+        
+
+            ]
+        ]);
+        
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+        
+
+        $client = new Client([
+            'timeout' => $this->timeout,
+            'headers' => [
+                'Authorization' => 'Bearer ' . $this->accessToken,
+                'Authorization' => 'Bearer '.$this->accessToken,
+                'Authorization' => 'Bearer '.$this->accessToken,
+                'Authorization' => 'Bearer ' . $this->accessToken,
+                'Content-Type' => 'application/json',
+            ],
+        ]);
+
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+        $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
+        $endpoint = $this->baseUrl.'/'.$this->phoneNumberId.'/messages';
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+
+            ]
+            ],
+        ]);
+
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+        
+
+            ]
+        ]);
+        
+        $endpoint = $this->baseUrl . '/' . $this->phoneNumberId . '/messages';
+        
         $payload = [
             'messaging_product' => 'whatsapp',
             'recipient_type' => 'individual',
             'to' => $whatsAppData->to,
         ];
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // Gestione diversi tipi di messaggi
         if ($whatsAppData->type === 'text') {
@@ -96,9 +653,29 @@ final class SendFacebookWhatsAppAction
             $payload['type'] = 'template';
             $payload['template'] = $whatsAppData->template;
         } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+        } elseif ($whatsAppData->type === 'template' && ! empty($whatsAppData->template)) {
+            $payload['type'] = 'template';
+            $payload['template'] = $whatsAppData->template;
+        } elseif ($whatsAppData->type === 'media' && ! empty($whatsAppData->media)) {
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+            $payload['type'] = 'template';
+            $payload['template'] = $whatsAppData->template;
+        } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
             $payload['type'] = 'image'; // o video, document, audio
             $payload['image'] = [
                 'link' => $whatsAppData->media[0],
+        } elseif ($whatsAppData->type === 'template' && !empty($whatsAppData->template)) {
+            $payload['type'] = 'template';
+            $payload['template'] = $whatsAppData->template;
+        } elseif ($whatsAppData->type === 'media' && !empty($whatsAppData->media)) {
+            $payload['type'] = 'image'; // o video, document, audio
+            $payload['image'] = [
+                'link' => $whatsAppData->media[0],
+            $payload['type'] = 'image'; // o video, document, audio
+            $payload['image'] = [
+                'link' => $whatsAppData->media[0],
+            ];
+        }
             ];
         }
 
@@ -107,15 +684,126 @@ final class SendFacebookWhatsAppAction
                 'json' => $payload,
             ]);
 
+        
+
+        try {
+            $response = $client->post($endpoint, [
+                'json' => $payload,
+            ]);
+            
+
+        
+        try {
+            $response = $client->post($endpoint, [
+                'json' => $payload
+            ]);
+            
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array<string, mixed> $responseData */
             $responseData = json_decode($responseContent, true) ?: [];
 
+            
+            $statusCode = $response->getStatusCode();
+            $responseContent = $response->getBody()->getContents();
+            /** @var array $responseData */
+            /** @var array{messages?: array<int, array{id?: string}>, errors?: array<int, array{message?: string}>} $responseData */
+            /** @var array $responseData */
+            $responseData = json_decode($responseContent, true);
+
+            
+
+
+            
+            
+            
+            
+            
+            $statusCode = $response->getStatusCode();
+            $responseContent = $response->getBody()->getContents();
+            /** @var array $responseData */
+            $responseData = json_decode($responseContent, true);
+
+            
+
+
+            
+            
+            
+            
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+
+            
+            // Salva i dati della risposta nelle variabili dell'azione
+            $this->vars['status_code'] = $statusCode;
+            $this->vars['status_txt'] = $responseContent;
+            $this->vars['response_data'] = $responseData;
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+            // Salva i dati della risposta nelle variabili dell'azione
+            $this->vars['status_code'] = $statusCode;
+            $this->vars['status_txt'] = $responseContent;
+            $this->vars['response_data'] = $responseData;
+
+
+
+
+
+
+
+
+
+            
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             Log::info('WhatsApp Facebook inviato con successo', [
                 'to' => $whatsAppData->to,
@@ -130,10 +818,50 @@ final class SendFacebookWhatsAppAction
             $messageId = (is_array($firstMessage) && isset($firstMessage['id']) && is_string($firstMessage['id']))
                 ? $firstMessage['id']
                 : null;
+            // Extract message_id safely
+            $messageId = null;
+            if (isset($responseData['messages']) && is_array($responseData['messages']) && isset($responseData['messages'][0]['id'])) {
+                $messageId = is_string($responseData['messages'][0]['id']) ? $responseData['messages'][0]['id'] : (string) ($responseData['messages'][0]['id'] ?? '');
+            }
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
                 'message_id' => $messageId,
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+            
+            return [
+                'success' => ($statusCode >= 200 && $statusCode < 300),
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+            return [
+                'success' => $statusCode >= 200 && $statusCode < 300,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
+                'message_id' => $responseData['messages'][0]['id'] ?? null,
                 'response' => $responseData,
                 'vars' => $this->vars,
             ];
@@ -143,10 +871,118 @@ final class SendFacebookWhatsAppAction
             /** @var array<string, mixed> $responseBody */
             $responseBody = json_decode($response->getBody()->getContents(), true) ?: [];
 
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+            
+
+            
+            
+            
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+            
+            
+            
+            
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+
+            
+            // Salva i dati dell'errore nelle variabili dell'azione
+            $this->vars['error_code'] = $statusCode;
+            $this->vars['error_message'] = $e->getMessage();
+            $this->vars['error_response'] = $responseBody;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+            
+            /** @var array $responseBody */
+            $responseBody = json_decode($response->getBody()->getContents(), true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // Salva i dati dell'errore nelle variabili dell'azione
+            $this->vars['error_code'] = $statusCode;
+            $this->vars['error_message'] = $e->getMessage();
+            $this->vars['error_response'] = $responseBody;
+
+
+
+
+
+
+
+
+
+            
+
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             Log::warning('Errore invio WhatsApp Facebook', [
                 'to' => $whatsAppData->to,
@@ -161,9 +997,46 @@ final class SendFacebookWhatsAppAction
                 ? $error['message']
                 : 'Errore sconosciuto';
 
+
+
+            // Extract error message safely
+            $errorMessage = 'Errore sconosciuto';
+            if (is_array($responseBody) && isset($responseBody['error']) && is_array($responseBody['error']) && isset($responseBody['error']['message'])) {
+                $errorMessage = is_string($responseBody['error']['message']) ? $responseBody['error']['message'] : 'Errore sconosciuto';
+            }
+
             return [
                 'success' => false,
                 'error' => $errorMessage,
+            
+
+
+
+            
+            
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
+            return [
+                'success' => false,
+                'error' => $responseBody['error']['message'] ?? 'Errore sconosciuto',
                 'status_code' => $statusCode,
                 'vars' => $this->vars,
             ];

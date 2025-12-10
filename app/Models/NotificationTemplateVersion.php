@@ -5,9 +5,50 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Modules\User\Models\Profile;
+use Modules\Xot\Traits\Updater;
+use Override;
+use RuntimeException;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Modules\User\Models\Profile;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Media\Models\Media;
+use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
+use Modules\User\Models\Profile;
+use Modules\Xot\Traits\Updater;
+use Override;
+use RuntimeException;
+use Modules\User\Models\Profile;
+use RuntimeException;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
+use Override;
+use RuntimeException;
+use Modules\User\Models\Profile;
+use RuntimeException;
+use Modules\User\Models\Profile;
+use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -21,10 +62,88 @@ use Modules\Xot\Traits\Updater;
  * @property-read int|null $media_count
  * @property-read NotificationTemplate|null $template
  * @property-read Profile|null $updater
+ *
+ *
  * @method static NotificationTemplateVersionFactory factory($count = null, $state = [])
  * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
  * @method static Builder<static>|NotificationTemplateVersion newQuery()
  * @method static Builder<static>|NotificationTemplateVersion query()
+ *
+ *
+ *
+ *
+ * @property-read \Modules\User\Models\Profile|null $creator
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\User\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplateVersion newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplateVersion newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|NotificationTemplateVersion query()
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * @mixin IdeHelperNotificationTemplateVersion
+ * @mixin \Eloquent
+ */
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
+ * @method static Builder<static>|NotificationTemplateVersion newQuery()
+ * @method static Builder<static>|NotificationTemplateVersion query()
+ *
+ * @mixin \Eloquent
+ */
+ * @mixin \Eloquent
+ */
+/**
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
+ * @method static Builder<static>|NotificationTemplateVersion newQuery()
+ * @method static Builder<static>|NotificationTemplateVersion query()
+ *
+ * @mixin \Eloquent
+ */
+/**
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
+/**
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read MediaCollection<int, Media> $media
+ * @property-read int|null $media_count
+ * @property-read \Modules\Notify\Models\NotificationTemplate|null $template
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ * @method static \Modules\Notify\Database\Factories\NotificationTemplateVersionFactory factory($count = null, $state = [])
+ * @method static Builder<static>|NotificationTemplateVersion newModelQuery()
+ * @method static Builder<static>|NotificationTemplateVersion newQuery()
+ * @method static Builder<static>|NotificationTemplateVersion query()
+ * @mixin \Eloquent
+ */
+ * @mixin IdeHelperNotificationTemplateVersion
+ * @mixin \Eloquent
+ */
+ * @mixin IdeHelperNotificationTemplateVersion
+ * @mixin \Eloquent
+ */
  * @mixin IdeHelperNotificationTemplateVersion
  * @mixin \Eloquent
  */
@@ -51,6 +170,56 @@ class NotificationTemplateVersion extends BaseModel
      * @return array<string, string>
      */
     #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
     protected function casts(): array
     {
         return [
@@ -71,8 +240,42 @@ class NotificationTemplateVersion extends BaseModel
 
         if (!$template) {
             throw new RuntimeException('Template not found for version ' . $this->id);
+        if (! $template) {
+            throw new RuntimeException('Template not found for version '.$this->id);
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
         }
 
+        
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+        }
+        
+
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+        }
+
+        
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+        }
+        
+
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+        }
+
+        
+        if (!$template) {
+            throw new \RuntimeException('Template not found for version ' . $this->id);
+        }
+        
+        
+        if (!$template) {
+            throw new RuntimeException('Template not found for version ' . $this->id);
+        }
+        
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -82,6 +285,65 @@ class NotificationTemplateVersion extends BaseModel
             'conditions' => $this->conditions ?? null,
         ]);
 
+        /** @var NotificationTemplate */
         return $template;
     }
+}
+} 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+} 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+        return $template;
+    }
+}
+} 
+}
+}
+        return $template;
+    }
+}
+} 
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+        return $template;
+    }
+}
+} 
+}
 }

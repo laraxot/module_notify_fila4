@@ -1,0 +1,338 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\Notify\Mail;
+
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Mail\Mailables\Content;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
+
+// use Modules\SaluteOra\Models\Appointment;
+// use Modules\SaluteOra\Models\Appointment;
+
+use Illuminate\Mail\Mailables\Content;
+use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Queue\SerializesModels;
+
+// use Modules\<nome progetto>\Models\Appointment;
+
+// use Modules\SaluteOra\Models\Appointment;
+
+class AppointmentNotificationMail extends Mailable implements ShouldQueue
+{
+    use Queueable, SerializesModels;
+    use Queueable, SerializesModels;
+    use Queueable, SerializesModels;
+    use Queueable, SerializesModels;
+    use Queueable, SerializesModels;
+// use Modules\<nome progetto>\Models\Appointment;
+
+// use Modules\SaluteOra\Models\Appointment;
+
+class AppointmentNotificationMail extends Mailable implements ShouldQueue
+{
+    use Queueable, SerializesModels;
+
+    /**
+     * @param  array<string, mixed>  $notificationData
+     */
+    public function __construct(
+        private readonly array $notificationData,
+    ) {}
+
+    public function envelope(): Envelope
+    {
+        $type = (string) ($this->notificationData['type'] ?? 'generic');
+     * Dati della notifica dell'appuntamento.
+     *
+     * @var array<string, mixed>
+     */
+    public array $notificationData;
+
+    /**
+     * Crea una nuova istanza del messaggio.
+     *
+     * @param array<string, mixed> $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param  array<string, mixed>  $notificationData
+     * @param array<string, mixed> $notificationData
+     * @param array<string, mixed> $notificationData
+     */
+    public function __construct(array $notificationData)
+    {
+        $this->notificationData = $notificationData;
+    }
+
+    /**
+     * Get the message envelope.
+     */
+    public function envelope(): Envelope
+    {
+        $appointment = $this->notificationData['appointment'];
+        $type = $this->notificationData['type'];
+
+        $subject = match ($type) {
+        
+        $subject = match($type) {
+
+        $subject = match ($type) {
+        
+        $subject = match($type) {
+        
+        $subject = match($type) {
+        
+        $subject = match($type) {
+
+        $subject = match ($type) {
+        
+        $subject = match($type) {
+        
+        $subject = match($type) {
+
+        $subject = match ($type) {
+
+        $subject = match ($type) {
+
+        $subject = match ($type) {
+        
+        $subject = match($type) {
+        
+        $subject = match($type) {
+
+        $subject = match ($type) {
+        
+        $subject = match($type) {
+
+        $subject = match ($type) {
+        
+        $subject = match($type) {
+
+        $subject = match ($type) {
+
+        $subject = match ($type) {
+        
+        $subject = match($type) {
+        
+        $subject = match($type) {
+            'confirmed' => 'Conferma Appuntamento',
+            'reminder' => 'Promemoria Appuntamento',
+            'cancelled' => 'Cancellazione Appuntamento',
+            'rescheduled' => 'Modifica Appuntamento',
+            default => 'Notifica Appuntamento',
+        };
+
+        $appointment = $this->notificationData['appointment'] ?? null;
+        $appointmentId = is_object($appointment) && isset($appointment->id) ? $appointment->id : null;
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+        }
+
+
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+        if (is_object($appointment) && property_exists($appointment, 'id') && is_scalar($appointment->id)) {
+            $subject .= ' #'.(string) $appointment->id;
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+        }
+
+        
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+        }
+        
+
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+        }
+
+        
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #'.$appointment->id;
+        }
+        
+        
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #' . $appointment->id;
+            $subject .= ' #'.$appointment->id;
+        }
+        
+        // PHPStan Level 10: isset() invece di property_exists() per Eloquent magic property
+
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $appointmentId = is_int($appointment->id) || is_string($appointment->id) ? $appointment->id : (string) $appointment->id;
+            $subject .= ' #'.$appointmentId;
+        }
+
+        
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #' . $appointment->id;
+        }
+        
+        
+        if (is_object($appointment) && isset($appointment->id) && $appointment->id) {
+            $subject .= ' #' . $appointment->id;
+        }
+        
+        return new Envelope(
+            subject: $subject,
+            tags: ['appointment', $type],
+            metadata: [
+                'appointment_id' => $appointmentId,
+                'appointment_id' => is_object($appointment) && isset($appointment->id) ? $appointment->id : null,
+                'type' => $type,
+            ],
+        );
+    }
+
+    public function content(): Content
+    {
+        $type = (string) ($this->notificationData['type'] ?? 'generic');
+
+    /**
+     * Get the message content definition.
+     */
+    public function content(): Content
+    {
+        $type = $this->notificationData['type'];
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match ($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+        
+        // Determina il template da utilizzare in base al tipo di notifica
+        $view = match($type) {
+            'confirmed' => 'notify::emails.appointments.confirmed',
+            'reminder' => 'notify::emails.appointments.reminder',
+            'cancelled' => 'notify::emails.appointments.cancelled',
+            'rescheduled' => 'notify::emails.appointments.rescheduled',
+            default => 'notify::emails.appointments.generic',
+        };
+        
+        
+        return new Content(
+            view: $view,
+            with: [
+                'appointment' => $this->notificationData['appointment'] ?? null,
+                'patient' => $this->notificationData['patient'] ?? null,
+
+        
+
+        
+
+        
+
+        
+
+
+        return new Content(
+            view: $view,
+            with: [
+                'appointment' => $this->notificationData['appointment'],
+                'patient' => $this->notificationData['patient'],
+                'type' => $type,
+                'additionalData' => $this->notificationData['additionalData'] ?? [],
+            ],
+        );
+    }
+
+    /**
+     * Get the attachments for the message.
+     *
+     * Get the attachments for the message.
+     *
+     * @return array<int, Attachment>
+     */
+    public function attachments(): array
+    {
+        return [];
+    }
+}

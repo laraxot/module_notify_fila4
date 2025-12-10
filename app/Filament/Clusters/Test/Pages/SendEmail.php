@@ -5,6 +5,27 @@ declare(strict_types=1);
 namespace Modules\Notify\Filament\Clusters\Test\Pages;
 
 use Filament\Schemas\Schema;
+
+use Filament\Schemas\Schema;
+use Filament\Schemas\Components\Section;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\RichEditor;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Forms;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Schemas\Schema;
+
+use Exception;
+use Filament\Actions\Action;
+use Filament\Facades\Filament;
+use Filament\Schemas\Schema;
 use Filament\Schemas\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\RichEditor;
@@ -25,6 +46,18 @@ use Modules\Notify\Filament\Clusters\Test;
 use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 /**
+ * 
+ */
+/**
+ * 
+ */
+class SendEmail extends Page implements HasForms
+{
+    public array $data = [];
+
+/**
+/**
+/**
  * @property \Filament\Schemas\Schema $emailForm
  */
 class SendEmail extends Page implements HasForms
@@ -34,11 +67,48 @@ class SendEmail extends Page implements HasForms
     // use NavigationLabelTrait;
 
     public null|array $emailData = [];
+    public ?array $emailData = [];
+    public ?array $emailData = [];
+    public null|array $emailData = [];
+    public null|array $emailData = [];
+    public ?array $emailData = [];
+    public null|array $emailData = [];
+    public null|array $emailData = [];
+    public ?array $emailData = [];
+    public null|array $emailData = [];
+    public null|array $emailData = [];
 
     protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
 
     protected string $view = 'notify::filament.pages.send-email';
 
+    protected static null|string $cluster = Test::class;
+    public null|array $emailData = [];
+
+    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected string $view = 'notify::filament.pages.send-email';
+
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
+    public ?array $emailData = [];
+
+    protected static ?string $navigationIcon = 'heroicon-o-paper-airplane';
+
+    protected static string $view = 'notify::filament.pages.send-email';
+
+    protected static ?string $cluster = Test::class;
+    protected static ?string $cluster = Test::class;
+    protected static null|string $cluster = Test::class;
     protected static null|string $cluster = Test::class;
 
     public function mount(): void
@@ -46,6 +116,9 @@ class SendEmail extends Page implements HasForms
         $this->fillForms();
     }
 
+    public function sendEmail(): void
+    {
+        $data = $this->data;
     public function emailForm(Schema $schema): Schema
     {
         return $schema
@@ -99,6 +172,13 @@ class SendEmail extends Page implements HasForms
         $user = Filament::auth()->user();
 
         if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (!($user instanceof Model)) {
+        if (! ($user instanceof Model)) {
+        if (!($user instanceof Model)) {
             throw new Exception(
                 'The authenticated user object must be an Eloquent model to allow the profile page to update it.',
             );
@@ -112,6 +192,13 @@ class SendEmail extends Page implements HasForms
         // $data = $this->getUser()->attributesToArray();
 
         // $this->editProfileForm->fill($data);
+        // Form data filled;
+        $this->emailForm->fill();
+        $this->emailForm->fill();
+        // Form data filled;
+        $this->emailForm->fill();
+        $this->emailForm->fill();
+        // Form data filled;
         $this->emailForm->fill();
     }
 }

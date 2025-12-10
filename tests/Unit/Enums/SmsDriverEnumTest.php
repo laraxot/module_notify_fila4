@@ -4,6 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Tests\Unit\Enums;
 
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasColor;
+use ReflectionClass;
+use Filament\Support\Contracts\HasLabel;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasColor;
+use ReflectionClass;
+use Modules\Notify\Enums\SmsDriverEnum;
+use PHPUnit\Framework\TestCase;
 use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
@@ -66,6 +78,53 @@ class SmsDriverEnumTest extends TestCase
     /** @test */
     public function each_case_has_unique_value(): void
     {
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn ($case) => $case->value, SmsDriverEnum::cases());
+        $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
         $values = array_map(fn($case) => $case->value, SmsDriverEnum::cases());
         $uniqueValues = array_unique($values);
 

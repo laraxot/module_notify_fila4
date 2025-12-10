@@ -8,6 +8,114 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Enums\NotificationTypeEnum;
 use Modules\Notify\Models\NotificationTemplate;
 use Tests\TestCase;
+use function Safe\json_encode;
+
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use function Safe\json_encode;
+
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+use Tests\TestCase;
+use Modules\Notify\Models\NotificationTemplate;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Modules\Notify\Enums\NotificationTypeEnum;
+use Modules\Notify\Models\NotificationTemplate;
+use Tests\TestCase;
+
+use function Safe\json_encode;
+
+use function Safe\json_encode;
 
 class NotificationTemplateTest extends TestCase
 {
@@ -57,6 +165,9 @@ class NotificationTemplateTest extends TestCase
     /** @test */
     public function it_has_correct_fillable_fields(): void
     {
+        $template = new NotificationTemplate;
+        $template = new NotificationTemplate();
+        $template = new NotificationTemplate;
         $template = new NotificationTemplate();
 
         $expectedFillable = [
@@ -85,6 +196,9 @@ class NotificationTemplateTest extends TestCase
     /** @test */
     public function it_has_correct_casts(): void
     {
+        $template = new NotificationTemplate;
+        $template = new NotificationTemplate();
+        $template = new NotificationTemplate;
         $template = new NotificationTemplate();
 
         $expectedCasts = [
@@ -109,6 +223,9 @@ class NotificationTemplateTest extends TestCase
     /** @test */
     public function it_has_translatable_fields(): void
     {
+        $template = new NotificationTemplate;
+        $template = new NotificationTemplate();
+        $template = new NotificationTemplate;
         $template = new NotificationTemplate();
 
         $expectedTranslatable = [
@@ -338,6 +455,32 @@ class NotificationTemplateTest extends TestCase
             '<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>',
             $result['body_html'],
         );
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
+        $this->assertEquals('<h1>Benvenuto Mario Rossi!</h1><p>La tua email è mario@example.com</p>', $result['body_html']);
         $this->assertEquals('Benvenuto Mario Rossi! La tua email è mario@example.com', $result['body_text']);
     }
 
@@ -427,6 +570,32 @@ class NotificationTemplateTest extends TestCase
             '<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>',
             $resultWithAdditional['body_html'],
         );
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
+        $this->assertEquals('<h1>Benvenuto Preview User!</h1><p>Email: preview@example.com</p>', $resultWithAdditional['body_html']);
     }
 
     /** @test */
@@ -503,6 +672,109 @@ class NotificationTemplateTest extends TestCase
         $smsTemplates = NotificationTemplate::forChannel('sms')->get();
 
         $this->assertCount(2, $mailTemplates); // mail_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates);  // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates);  // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
+        $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
         $this->assertCount(2, $smsTemplates); // sms_template + multi_channel_template
     }
 

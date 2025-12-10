@@ -8,6 +8,82 @@ use Filament\Actions\Action;
 use Filament\Resources\Pages\Page;
 use Modules\Notify\Filament\Resources\MailTemplateResource;
 use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
+use Modules\Notify\Filament\Resources\MailTemplateResource;
+use Modules\Notify\Models\MailTemplate;
 
 /**
  * @property MailTemplate $record
@@ -30,6 +106,44 @@ class PreviewMailTemplate extends Page
                 ->label(__('notify::mail.template.preview.actions.back.label'))
                 ->icon(__('notify::mail.template.preview.actions.back.icon'))
                 ->color(__('notify::mail.template.preview.actions.back.color'))
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+}
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+} 
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+}
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+}
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+} 
+                ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
+        ];
+    }
+}
+                ->url(fn () => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
                 ->url(fn() => MailTemplateResource::getUrl('edit', ['record' => $this->record])),
         ];
     }

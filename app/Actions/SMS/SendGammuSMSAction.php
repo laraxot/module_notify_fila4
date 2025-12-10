@@ -5,6 +5,75 @@ declare(strict_types=1);
 namespace Modules\Notify\Actions\SMS;
 
 use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Override;
+use Exception;
+use Illuminate\Support\Facades\Log;
+use Exception;
+use Exception;
+use Override;
+use Override;
+use Exception;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Datas\SMS\GammuData;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use Override;
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\Process\Process;
+
+use function Safe\file_put_contents;
+use function Safe\tempnam;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Contracts\SmsActionContract;
+use Override;
+use Override;
+use Exception;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Override;
+use Exception;
+use Illuminate\Support\Str;
+use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Contracts\SMS\SmsActionContract;
+use Modules\Notify\Contracts\SmsActionContract;
+use Modules\Notify\Datas\SMS\GammuData;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\Process\Process;
+
+use function Safe\file_put_contents;
+use function Safe\tempnam;
+use Modules\Notify\Datas\SmsData;
+use Override;
+use Override;
 use Exception;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
@@ -16,6 +85,13 @@ use Symfony\Component\Process\Process;
 
 use function Safe\file_put_contents;
 use function Safe\tempnam;
+use Modules\Notify\Datas\SmsData;
+use Modules\Notify\Datas\SMS\GammuData;
+use Spatie\QueueableAction\QueueableAction;
+use Symfony\Component\Process\Process;
+use function Safe\tempnam;
+use function Safe\file_put_contents;
+use function Safe\tempnam;
 use function Safe\unlink;
 
 final class SendGammuSMSAction implements SmsActionContract
@@ -23,10 +99,86 @@ final class SendGammuSMSAction implements SmsActionContract
     use QueueableAction;
 
     /** @var GammuData */
+    protected bool $debug;
+
+    protected ?string $defaultSender = null;
+
+    /** @var GammuData */
+    /** @var GammuData */
+    /** @var GammuData */
     private GammuData $gammuData;
 
     /** @var array<string, mixed> */
     private array $vars = [];
+
+    /** @var bool */
+    protected bool $debug;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    /** @var bool */
+    protected bool $debug;
+    /** @var bool */
+    protected bool $debug;
+    protected ?string $defaultSender = null;
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected ?string $defaultSender = null;
+
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    /** @var string|null */
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+
+    protected ?string $defaultSender = null;
+    protected null|string $defaultSender = null;
+
 
     /** @var bool */
     protected bool $debug;
@@ -40,6 +192,70 @@ final class SendGammuSMSAction implements SmsActionContract
     public function __construct()
     {
         $this->gammuData = GammuData::make();
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        if (! $this->gammuData->path) {
+        if (!$this->gammuData->path) {
+            throw new Exception('Path Gammu non configurato in sms.php');
+        }
+
+        if (! $this->gammuData->config) {
+        
+
+
+
+        
+
+
+
+        
+
+
+
+        if (!$this->gammuData->path) {
+            throw new Exception('Path Gammu non configurato in sms.php');
+        }
+
+        if (!$this->gammuData->config) {
+
+        if (! $this->gammuData->path) {
+        if (!$this->gammuData->path) {
+            throw new Exception('Path Gammu non configurato in sms.php');
+        }
+
+        if (! $this->gammuData->config) {
+
+
+
+        
+
 
         if (!$this->gammuData->path) {
             throw new Exception('Path Gammu non configurato in sms.php');
@@ -60,14 +276,83 @@ final class SendGammuSMSAction implements SmsActionContract
      *
      * @param SmsData $smsData I dati del messaggio SMS
      * @return array Risultato dell'operazione
+     * @param  SmsData  $smsData  I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     *
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
      * @throws Exception In caso di errore durante l'invio
      */
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     * @throws Exception In caso di errore durante l'invio
+     */
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[Override]
+    #[\Override]
+     * @param SmsData $smsData I dati del messaggio SMS
+     * @return array Risultato dell'operazione
+     * @throws Exception In caso di errore durante l'invio
+     */
+    #[Override]
     #[Override]
     public function execute(SmsData $smsData): array
     {
         // Normalizza il numero di telefono
         $to = (string) $smsData->to;
         if (Str::startsWith($to, '00')) {
+            $to = '+' . mb_substr($to, 2);
+        }
+
+        if (!Str::startsWith($to, '+')) {
+            $to = '+39' . $to;
+            $to = '+'.mb_substr($to, 2);
+        }
+
+        if (! Str::startsWith($to, '+')) {
+            $to = '+39'.$to;
             $to = '+' . mb_substr($to, 2);
         }
 
@@ -84,10 +369,131 @@ final class SendGammuSMSAction implements SmsActionContract
             $this->gammuData->getPath(),
             '-c',
             $this->gammuData->getConfig(),
+            '-c', $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c', $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
+            '-c',
+            $this->gammuData->getConfig(),
             'sendsms',
             'TEXT',
             $to,
             '-text',
+            $tempFile,
+            $tempFile
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
+            $tempFile,
             $tempFile,
         ]);
 
@@ -99,6 +505,12 @@ final class SendGammuSMSAction implements SmsActionContract
             // Rimuove il file temporaneo
             unlink($tempFile);
 
+            if (!$process->isSuccessful()) {
+                throw new Exception('Gammu error: ' . $process->getErrorOutput());
+            if (! $process->isSuccessful()) {
+                throw new Exception('Gammu error: '.$process->getErrorOutput());
+            if (!$process->isSuccessful()) {
+                throw new Exception('Gammu error: ' . $process->getErrorOutput());
             if (!$process->isSuccessful()) {
                 throw new Exception('Gammu error: ' . $process->getErrorOutput());
             }
@@ -113,7 +525,64 @@ final class SendGammuSMSAction implements SmsActionContract
 
             throw new Exception(
                 $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $exception->getMessage().'['.__LINE__.']['.class_basename($this).']',
+                $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $exception->getMessage().'['.__LINE__.']['.class_basename($this).']',
+                $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $exception->getMessage().'['.__LINE__.']['.class_basename($this).']',
+                $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
                 $exception->getCode(),
+                $exception,
+                $exception
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception->getMessage() . '[' . __LINE__ . '][' . class_basename($this) . ']',
+                $exception->getCode(),
+                $exception,
+                $exception
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception
+                $exception
+                $exception,
+                $exception,
+                $exception
+                $exception,
+                $exception,
+                $exception,
+                $exception,
+                $exception,
                 $exception,
             );
         }

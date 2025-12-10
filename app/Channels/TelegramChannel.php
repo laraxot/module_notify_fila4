@@ -12,6 +12,53 @@ use Modules\Notify\Factories\TelegramActionFactory;
 /**
  * Canale di notifica per l'invio di messaggi Telegram.
  *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  * Questo canale utilizza il driver Telegram configurato in config/telegram.php
  * per inviare messaggi Telegram attraverso il provider selezionato.
  */
@@ -22,6 +69,53 @@ class TelegramChannel
      */
     private TelegramActionFactory $factory;
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
      * Crea una nuova istanza del canale.
      */
@@ -30,8 +124,52 @@ class TelegramChannel
         $this->factory = $factory;
     }
 
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
      * Invia la notifica attraverso il canale Telegram.
+     *
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+
+    /**
+     * Invia la notifica attraverso il canale Telegram.
+     *
+     * @param  mixed  $notifiable  Entità che riceve la notifica
+     * @param  Notification  $notification  Notifica da inviare
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param Notification $notification Notifica da inviare
+     * @param Notification $notification Notifica da inviare
+     * @param  mixed  $notifiable  Entità che riceve la notifica
+     * @param  Notification  $notification  Notifica da inviare
+     * @param Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
      *
      * @param mixed $notifiable Entità che riceve la notifica
      * @param Notification $notification Notifica da inviare
@@ -40,6 +178,95 @@ class TelegramChannel
      */
     public function send($notifiable, Notification $notification)
     {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+     * @param \Illuminate\Notifications\Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     * @throws \Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
+     */
+    public function send($notifiable, Notification $notification)
+    {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+     * @param \Illuminate\Notifications\Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     * @throws \Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
+     */
+    public function send($notifiable, Notification $notification)
+    {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param mixed $notifiable Entità che riceve la notifica
+     * @param Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     * @throws Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
+     */
+    public function send($notifiable, Notification $notification)
+    {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+     * @param \Illuminate\Notifications\Notification $notification Notifica da inviare
+     * @return array|null Risultato dell'operazione o null in caso di errore
+     * @throws \Exception Se la notifica non ha il metodo toTelegram o il driver non è supportato
+     */
+    public function send($notifiable, Notification $notification)
+    {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (!method_exists($notification, 'toTelegram')) {
+        if (! method_exists($notification, 'toTelegram')) {
         if (!method_exists($notification, 'toTelegram')) {
             throw new Exception('Notification does not have toTelegram method');
         }
@@ -47,11 +274,36 @@ class TelegramChannel
         $telegramData = $notification->toTelegram($notifiable);
 
         if (!($telegramData instanceof TelegramData)) {
+        if (! ($telegramData instanceof TelegramData)) {
+        if (!($telegramData instanceof TelegramData)) {
+        if (! ($telegramData instanceof TelegramData)) {
+        if (!($telegramData instanceof TelegramData)) {
+
+        if (!($telegramData instanceof TelegramData)) {
+        if (! ($telegramData instanceof TelegramData)) {
+        if (!($telegramData instanceof TelegramData)) {
             throw new Exception('toTelegram method must return an instance of TelegramData');
         }
 
         $action = $this->factory->create();
 
+        
+        if (! $telegramData instanceof TelegramData) {
+
+        if (!($telegramData instanceof TelegramData)) {
+            throw new Exception('toTelegram method must return an instance of TelegramData');
+        }
+
+        $action = $this->factory->create();
+        
+
+        
+        if (! $telegramData instanceof TelegramData) {
+            throw new Exception('toTelegram method must return an instance of TelegramData');
+        }
+        
+        $action = $this->factory->create();
+        
         return $action->execute($telegramData);
     }
 }
