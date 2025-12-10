@@ -107,6 +107,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -518,12 +519,9 @@ class NotificationType extends BaseModel
 >>>>>>> a9bf0423 (rebase 210)
 =======
 >>>>>>> 460b8f5b (rebase 210)
-
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 4d253d2c (rebase 210)
 
->>>>>>> 4e2ebfb (.)
 namespace Modules\Notify\Models;
 
 >>>>>>> 75179b85 (.)
