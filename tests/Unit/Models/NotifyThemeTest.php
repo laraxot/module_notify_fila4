@@ -1849,8 +1849,6 @@ use Tests\TestCase;
 =======
 >>>>>>> 8f2456941 (.)
 
-use function Safe\json_encode;
-
 class NotifyThemeTest extends TestCase
 {
     use RefreshDatabase;
