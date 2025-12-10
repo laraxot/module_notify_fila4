@@ -513,6 +513,7 @@ $users->each(function ($user) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -585,6 +586,7 @@ $users->each(function ($user) {
 =======
 >>>>>>> 9d67cabd (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 4d2eb53e (.)
@@ -597,9 +599,12 @@ $users->each(function ($user) {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -644,6 +649,8 @@ $users->each(function ($user) {
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -971,6 +978,7 @@ $users->each(function ($user) {
 
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -1324,6 +1332,11 @@ $users->each(function ($user) {
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+>>>>>>> 4f19d70d2 (.)
 # Avvia worker dedicato
 php artisan queue:work --queue=emails
 
@@ -1635,6 +1648,7 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1753,10 +1767,14 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 =======
 >>>>>>> e7a9a2bf (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ba564870 (.)
 =======
@@ -1891,6 +1909,8 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 # Supervisor config
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1994,12 +2014,15 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> b207a9b1a (.)
 =======
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2016,6 +2039,7 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 >>>>>>> e7a9a2bf (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9d67cabd (.)
 =======
 >>>>>>> 9cdf6146 (.)
@@ -2132,6 +2156,10 @@ command=php /var/www/html/_bases/base_<nome progetto>/laravel/artisan queue:work
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 9d67cabd (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 
 # Supervisor config
 [program:<nome progetto>-worker]
@@ -2205,8 +2233,11 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -3486,10 +3517,14 @@ command=php /var/www/_bases/base_ptv_fila3_mono/laravel/artisan queue:work redis
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ba564870 (.)
 =======
@@ -3727,6 +3762,8 @@ command=php /var/www/html/base_<nome progetto>/artisan queue:work redis --queue=
 >>>>>>> 01af324fe (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 autostart=true
 autorestart=true
 numprocs=4
@@ -4013,6 +4050,7 @@ if ($failedJobs > $threshold) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4085,6 +4123,7 @@ if ($failedJobs > $threshold) {
 =======
 >>>>>>> 9d67cabd (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 80f054e0 (.)
 =======
 >>>>>>> 4d2eb53e (.)
@@ -4097,9 +4136,12 @@ if ($failedJobs > $threshold) {
 >>>>>>> 011072e4 (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 
 >>>>>>> b19cd40 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4144,6 +4186,8 @@ if ($failedJobs > $threshold) {
 >>>>>>> bf5d31b0f (.)
 =======
 >>>>>>> 1619767d8 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 >>>>>>> 75179b85 (.)
 =======
 =======
@@ -4471,6 +4515,7 @@ if ($failedJobs > $threshold) {
 
 >>>>>>> b19cd40 (.)
 >>>>>>> e7a9a2bf (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 4e2ebfb (.)
@@ -4824,6 +4869,11 @@ if ($failedJobs > $threshold) {
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+=======
+>>>>>>> 4e2ebfb (.)
+>>>>>>> 9d67cabd (.)
+>>>>>>> 4f19d70d2 (.)
 # Pulizia job vecchi
 php artisan queue:prune-failed --hours=168
 php artisan queue:prune-batches --hours=24
@@ -5023,6 +5073,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -5075,10 +5126,14 @@ php artisan queue:restart
 =======
 >>>>>>> e7a9a2bf (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ba564870 (.)
 =======
@@ -5446,6 +5501,8 @@ php artisan queue:restart
 >>>>>>> 4bec160e6 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 - [Queue Configuration](../../../docs/queue-configuration.md)
 
 ## Vedi Anche
@@ -5658,6 +5715,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -5668,6 +5726,8 @@ php artisan queue:restart
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -5810,6 +5870,7 @@ php artisan queue:restart
 =======
 >>>>>>> 9d67cabd (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 9cdf6146 (.)
 =======
 >>>>>>> 80f054e0 (.)
@@ -5840,6 +5901,8 @@ php artisan queue:restart
 >>>>>>> e7a9a2bf (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 - [Queue Configuration](../../../project_docs/queue-configuration.md)
 
 ## Vedi Anche
@@ -5927,6 +5990,7 @@ php artisan queue:restart
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 10292b60a (.)
 =======
@@ -5937,6 +6001,8 @@ php artisan queue:restart
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -6013,10 +6079,14 @@ php artisan queue:restart
 =======
 >>>>>>> e7a9a2bf (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4f19d70d2 (.)
 =======
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 9d67cabd (.)
+<<<<<<< HEAD
 =======
 >>>>>>> ba564870 (.)
 =======
@@ -6590,3 +6660,5 @@ php artisan queue:restart
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 4f19d70d2 (.)
