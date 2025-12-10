@@ -1117,6 +1117,7 @@ class TemplateControllerTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
 - [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
@@ -1452,10 +1453,9 @@ class TemplateControllerTest extends TestCase
 >>>>>>> eb62d6cf (rebase 210)
 =======
 >>>>>>> 5aedc39c (rebase 210)
-- [Laravel Mail Documentation](https://laravel.com/docs/mail)
 =======
-- [Laravel Mail Documentation](https://laravel.com/project_docs/mail)
->>>>>>> d284d65 (.)
+>>>>>>> 82e5ee2d (rebase 210)
+- [Laravel Mail Documentation](https://laravel.com/docs/mail)
 - [MJML Documentation](https://mjml.io/documentation/)
 - [Mailgun API](https://documentation.mailgun.com/en/latest/api_reference.html)
 - [Filament Documentation](https://filamentphp.com/docs) 
