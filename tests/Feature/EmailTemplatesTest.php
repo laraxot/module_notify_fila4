@@ -1273,8 +1273,8 @@ test('html template contains optional function', function (): void {
 =======
 >>>>>>> 7d903672 (.)
 
-use Tests\TestCase;
 use Illuminate\Support\Facades\File;
+use Tests\TestCase;
 
 uses(TestCase::class);
 
