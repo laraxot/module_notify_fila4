@@ -189,6 +189,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -767,6 +768,8 @@
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 <?php
 
 declare(strict_types=1);
@@ -776,6 +779,7 @@ declare(strict_types=1);
 @section('content')
 <h1>Alert Inviato</h1>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1999,3 +2003,5 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)

@@ -194,6 +194,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e790eb33 (.)
@@ -922,6 +923,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -938,6 +941,7 @@ declare(strict_types=1);
  * | contains the "web" middleware group. Now create something great!
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2244,6 +2248,8 @@ declare(strict_types=1);
 >>>>>>> ba564870 (.)
 =======
 >>>>>>> 7c39b1fe (.)
+=======
+>>>>>>> 888799d0 (.)
 
 // Filament will handle all routes for this module
 >>>>>>> 954a7fa (.)

@@ -172,8 +172,6 @@ final class SmsActionFactory
      * @return SmsActionContract Azione SMS corrispondente al driver
      * @throws Exception Se il driver specificato non è supportato o la classe non esiste
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function create(null|string $driver = null): SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +196,7 @@ final class SmsActionFactory
 >>>>>>> f1c9518b (.)
     {
         $driver ??= Config::get('sms.default', 'netfun');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +762,8 @@ final class SmsActionFactory
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 
         // Normalizza il nome del driver e assicura formato camelCase
         $normalizedDriver = $this->normalizeDriverName(is_string($driver) ? $driver : '');
@@ -849,6 +850,7 @@ final class SmsActionFactory
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1037,6 +1039,8 @@ final class SmsActionFactory
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         if (! in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: '.(is_string($driver) ? $driver : ''));
 >>>>>>> f1c9518b (.)
@@ -1116,6 +1120,7 @@ final class SmsActionFactory
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1199,6 +1204,8 @@ final class SmsActionFactory
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         if (!in_array($normalizedDriver, $this->supportedDrivers, strict: true)) {
             Log::warning('Attempting to use non-standard SMS driver: ' . (is_string($driver) ? $driver : ''));
         }
@@ -1269,6 +1276,7 @@ final class SmsActionFactory
 =======
 >>>>>>> f1c9518b (.)
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1808,6 +1816,8 @@ final class SmsActionFactory
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         }
 
         $instance = app($className);

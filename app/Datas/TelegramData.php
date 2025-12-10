@@ -82,6 +82,7 @@ use Spatie\LaravelData\Data;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -466,6 +467,9 @@ use Spatie\LaravelData\Data;
  *
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+ *
+>>>>>>> 888799d0 (.)
  * Questo DTO standardizza i dati necessari per l'invio di messaggi Telegram
  * attraverso diversi provider, garantendo coerenza e tipo-sicurezza.
  */
@@ -642,6 +646,7 @@ class TelegramData extends Data
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -780,6 +785,8 @@ class TelegramData extends Data
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         public ?string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
@@ -802,6 +809,7 @@ class TelegramData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
@@ -886,12 +894,17 @@ class TelegramData extends Data
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         public null|string $parseMode = null,
         public bool $disableWebPagePreview = false,
         public bool $disableNotification = false,
         public null|int $replyToMessageId = null,
         public null|array $replyMarkup = null,
         public null|array $media = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1262,6 +1275,8 @@ class TelegramData extends Data
 >>>>>>> 98d837b9 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -1626,7 +1641,12 @@ class TelegramData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         public string $type = 'text',
     ) {}
 }

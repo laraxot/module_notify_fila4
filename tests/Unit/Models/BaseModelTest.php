@@ -53,6 +53,7 @@ use Illuminate\Database\Eloquent\Model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -175,6 +176,8 @@ use Illuminate\Database\Eloquent\Model;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\BaseModel;
 use Tests\TestCase;
@@ -424,10 +427,13 @@ beforeEach(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
+=======
+>>>>>>> 888799d0 (.)
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -451,6 +457,7 @@ beforeEach(function () {
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
@@ -750,6 +757,10 @@ beforeEach(function () {
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         protected $table = 'test_notify_table';
     };
 });

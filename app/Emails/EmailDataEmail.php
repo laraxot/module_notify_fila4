@@ -265,6 +265,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -876,6 +877,11 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+    public function __construct(
+        public EmailData $email_data,
+    ) {}
+>>>>>>> 888799d0 (.)
 
     /**
      * Get the message envelope.
@@ -965,6 +971,7 @@ class EmailDataEmail extends Mailable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1105,6 +1112,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         if ($this->email_data->from === null) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
@@ -1127,6 +1136,7 @@ class EmailDataEmail extends Mailable
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1230,11 +1240,16 @@ class EmailDataEmail extends Mailable
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
         if (null === $this->email_data->from) {
             Assert::string($from = config('mail.from.name', 'Default Sender'));
             $this->email_data->from = $from;
         }
         if (null === $this->email_data->from_email) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1640,6 +1655,8 @@ class EmailDataEmail extends Mailable
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 >>>>>>> 99ff506 (.)
 =======
 =======
@@ -1879,6 +1896,7 @@ class EmailDataEmail extends Mailable
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
 =======
@@ -1957,6 +1975,10 @@ class EmailDataEmail extends Mailable
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
             Assert::string($from_email = config('mail.from.address', 'default@example.com'));
             $this->email_data->from_email = $from_email;
         }

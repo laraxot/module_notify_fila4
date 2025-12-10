@@ -567,6 +567,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1511,12 +1512,9 @@ return [
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
-        'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
 =======
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 888799d0 (.)
         'sender' => env('SMSHOSTING_SENDER', '<nome progetto>'),
->>>>>>> 4e2ebfb (.)
         'sender' => env('SMSHOSTING_SENDER', 'SaluteOra'),
 >>>>>>> 66453ace (.)
 =======
@@ -1977,6 +1975,7 @@ Quando si inviano SMS, è necessario rispettare le normative GDPR:
 public function toTwilio($notifiable)
 {
     return (new TwilioSmsMessage())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2686,6 +2685,10 @@ public function toTwilio($notifiable)
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+        ->content("<nome progetto>: Promemoria appuntamento {$this->appointment->formatted_date}. 
+        Per annullare rispondere NO. Per info: <nome progetto>.it/privacy");
+>>>>>>> 888799d0 (.)
         ->content("SaluteOra: Promemoria appuntamento {$this->appointment->formatted_date}. 
         Per annullare rispondere NO. Per info: saluteora.it/privacy");
 >>>>>>> 75179b85 (.)

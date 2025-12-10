@@ -87,6 +87,7 @@ namespace Modules\Notify\Models;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -339,6 +340,8 @@ use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Media\Models\Media;
@@ -548,6 +551,7 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -568,10 +572,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> f5f1cb1 (.)
 >>>>>>> 98d837b9 (.)
+=======
+>>>>>>> 888799d0 (.)
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Override;
 use RuntimeException;
 use Modules\User\Models\Profile;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -763,6 +770,8 @@ use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Modules\Media\Models\Media;
 use Modules\Notify\Database\Factories\NotificationTemplateVersionFactory;
 use Illuminate\Database\Eloquent\Builder;
@@ -1254,6 +1263,7 @@ class NotificationTemplateVersion extends BaseModel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1645,6 +1655,9 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+    #[Override]
+>>>>>>> 888799d0 (.)
     protected function casts(): array
     {
         return [
@@ -1662,6 +1675,7 @@ class NotificationTemplateVersion extends BaseModel
     public function restore(): NotificationTemplate
     {
         $template = $this->template;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1871,6 +1885,8 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1898,6 +1914,7 @@ class NotificationTemplateVersion extends BaseModel
 >>>>>>> f1c9518b (.)
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2444,6 +2461,8 @@ class NotificationTemplateVersion extends BaseModel
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         $template->update([
             'subject' => $this->subject ?? null,
             'body_html' => $this->body_html ?? null,
@@ -2476,6 +2495,7 @@ class NotificationTemplateVersion extends BaseModel
         /** @var NotificationTemplate */
         return $template;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2952,3 +2972,6 @@ class NotificationTemplateVersion extends BaseModel
 }
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+}
+>>>>>>> 888799d0 (.)

@@ -90,6 +90,7 @@ readonly class SmsMessageData
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 888799d0 (.)
@@ -101,6 +102,8 @@ readonly class SmsMessageData
 >>>>>>> 2fc60436 (.)
 =======
 >>>>>>> 3f39ac8b (.)
+=======
+>>>>>>> 888799d0 (.)
         public ?string $sender = null,
         public ?string $reference = null,
         public ?string $scheduledDate = null,
@@ -796,13 +799,17 @@ readonly class SmsMessageData
 =======
 >>>>>>> 0f07e6d (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
+=======
+>>>>>>> 888799d0 (.)
 =======
         public null|string $sender = null,
         public null|string $reference = null,
         public null|string $scheduledDate = null,
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 >>>>>>> 888799d0 (.)
 =======
 >>>>>>> f2e64178 (.)
@@ -901,5 +908,7 @@ readonly class SmsMessageData
 =======
 >>>>>>> 0f07e6d (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     ) {}
 }

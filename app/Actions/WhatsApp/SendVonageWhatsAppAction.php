@@ -45,9 +45,8 @@ use Illuminate\Support\Str;
 >>>>>>> f1c9518b (.)
 use Modules\Notify\Datas\WhatsAppData;
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -416,6 +415,8 @@ use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use function Safe\json_decode;
 
 final class SendVonageWhatsAppAction
@@ -473,9 +474,8 @@ final class SendVonageWhatsAppAction
     private array $vars = [];
     protected bool $debug;
     protected int $timeout;
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected null|string $defaultSender;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,6 +639,8 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> 2941b0bd (.)
 =======
+=======
+>>>>>>> 888799d0 (.)
 >>>>>>> 99ff506 (.)
 >>>>>>> f1c9518b (.)
 =======
@@ -933,6 +935,7 @@ final class SendVonageWhatsAppAction
     protected null|string $defaultSender;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
 =======
 =======
@@ -1073,6 +1076,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
 
     /**
      * Create a new action instance.
@@ -1270,6 +1277,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -1728,6 +1736,9 @@ final class SendVonageWhatsAppAction
         $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+        $this->timeout = is_numeric(config('whatsapp.timeout', 30)) ? ((int) config('whatsapp.timeout', 30)) : 30;
+>>>>>>> 888799d0 (.)
     }
 
     /**
@@ -1884,6 +1895,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2268,6 +2280,9 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
         // Log di debug se abilitato
         if ($this->debug) {
             Log::debug('Invio WhatsApp Vonage', [
@@ -2350,6 +2365,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2734,6 +2750,9 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
         $client = new Client([
             'timeout' => $this->timeout,
             'headers' => [
@@ -2813,6 +2832,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3424,6 +3444,11 @@ final class SendVonageWhatsAppAction
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+            ],
+        ]);
+
+>>>>>>> 888799d0 (.)
         $payload = [
             'from' => [
                 'type' => 'whatsapp',
@@ -3514,6 +3539,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4d2eb53e (.)
 =======
@@ -3556,13 +3582,9 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
-
 =======
-        
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 888799d0 (.)
 
->>>>>>> 4e2ebfb (.)
         // Gestione diversi tipi di messaggi
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3682,9 +3704,8 @@ final class SendVonageWhatsAppAction
             $mediaUrl = is_string($whatsAppData->media[0] ?? null) ? $whatsAppData->media[0] : '';
 >>>>>>> 6a92a74 (.)
             $mediaType = $this->determineMediaType($mediaUrl);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4141,6 +4162,8 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
             $payload['message']['content'] = [
                 'type' => $mediaType,
                 $mediaType => [
@@ -4274,6 +4297,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -4658,11 +4682,15 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
         try {
             $response = $client->post($this->baseUrl, [
                 'json' => $payload,
                 'auth' => [$this->apiKey, $this->apiSecret],
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4908,20 +4936,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
-
 =======
-            
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 888799d0 (.)
 
->>>>>>> 4e2ebfb (.)
             $statusCode = $response->getStatusCode();
             $responseContent = $response->getBody()->getContents();
             /** @var array $responseData */
             $responseData = json_decode($responseContent, true);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5546,10 +5569,13 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
             // Salva i dati della risposta nelle variabili dell'azione
             $this->vars['status_code'] = $statusCode;
             $this->vars['status_txt'] = $responseContent;
             $this->vars['response_data'] = $responseData;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5837,10 +5863,14 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
             Log::info('WhatsApp Vonage inviato con successo', [
                 'to' => $whatsAppData->to,
                 'response_code' => $statusCode,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6123,19 +6153,11 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 
             return [
                 'success' => $statusCode >= 200 && $statusCode < 300,
-=======
-            
-            return [
-                'success' => ($statusCode >= 200 && $statusCode < 300),
->>>>>>> b19cd40 (.)
-=======
-
-            return [
-                'success' => $statusCode >= 200 && $statusCode < 300,
->>>>>>> 4e2ebfb (.)
                 'message_id' => $responseData['message_uuid'] ?? null,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6216,6 +6238,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -6886,10 +6909,14 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
             // Salva i dati dell'errore nelle variabili dell'azione
             $this->vars['error_code'] = $statusCode;
             $this->vars['error_message'] = $e->getMessage();
             $this->vars['error_response'] = $responseBody;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7177,11 +7204,15 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
             Log::warning('Errore invio WhatsApp Vonage', [
                 'to' => $whatsAppData->to,
                 'status' => $statusCode,
                 'response' => $responseBody,
             ]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7407,13 +7438,9 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
-
 =======
-            
->>>>>>> b19cd40 (.)
-=======
+>>>>>>> 888799d0 (.)
 
->>>>>>> 4e2ebfb (.)
             return [
                 'success' => false,
                 'error' => $responseBody['title'] ?? 'Errore sconosciuto',
@@ -7446,6 +7473,7 @@ final class SendVonageWhatsAppAction
             ];
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7739,6 +7767,9 @@ final class SendVonageWhatsAppAction
 
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+
+>>>>>>> 888799d0 (.)
     /**
      * Determina il tipo di media basato sull'URL o sull'estensione del file.
      *
@@ -7937,6 +7968,7 @@ final class SendVonageWhatsAppAction
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -8373,6 +8405,10 @@ final class SendVonageWhatsAppAction
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+
+        return match ($extension) {
+>>>>>>> 888799d0 (.)
             'jpg', 'jpeg', 'png', 'gif', 'webp' => 'image',
             'mp4', 'mov', 'avi', 'webm' => 'video',
             'mp3', 'wav', 'ogg' => 'audio',

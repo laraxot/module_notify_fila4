@@ -76,6 +76,7 @@ namespace Modules\Notify\Filament\Resources\NotifyThemeResource\RelationManagers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -330,6 +331,8 @@ use Override;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 use Override;
@@ -340,11 +343,14 @@ use Override;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
 use Override;
 use Filament\Forms\Components\TextInput;
 use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 >>>>>>> 99ff506 (.)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -876,10 +882,13 @@ use Modules\Xot\Filament\Resources\RelationManagers\XotBaseRelationManager;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 class LinkableRelationManager extends XotBaseRelationManager
 {
     protected static string $relationship = 'linkable';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1638,6 +1647,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     protected static ?string $recordTitleAttribute = 'id';
 =======
 =======
@@ -1646,6 +1657,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+=======
+>>>>>>> e11621f (.)
     protected static null|string $recordTitleAttribute = 'id';
 >>>>>>> 99ff506 (.)
 
@@ -1687,6 +1700,7 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 =======
             TextInput::make('id')->required()->maxLength(255),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> ab15d0e (.)
@@ -1785,6 +1799,8 @@ class LinkableRelationManager extends XotBaseRelationManager
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
         ];
     }
 }

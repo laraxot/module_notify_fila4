@@ -31,6 +31,7 @@ namespace Modules\Notify\Actions\SMS;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d45a0226 (.)
@@ -75,6 +76,8 @@ use Modules\Notify\Contracts\SmsActionContract;
 =======
 >>>>>>> 161887a2 (.)
 =======
+=======
+>>>>>>> 888799d0 (.)
 use Modules\Notify\Contracts\SMS\SmsActionContract;
 use Modules\Notify\Datas\SmsData;
 use Override;
@@ -85,7 +88,12 @@ use Override;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
+=======
+=======
+>>>>>>> e11621f (.)
+>>>>>>> 888799d0 (.)
 use Override;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -102,7 +110,11 @@ use Modules\Notify\Datas\SmsData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Spatie\QueueableAction\QueueableAction;
+=======
+>>>>>>> 99ff506 (.)
+>>>>>>> 888799d0 (.)
 =======
 >>>>>>> 99ff506 (.)
 >>>>>>> 4d2eb53e (.)
@@ -479,6 +491,7 @@ use Modules\Notify\Contracts\SMS\SmsActionContract;
 >>>>>>> 0f07e6d (.)
 =======
 >>>>>>> e11621f (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1083,6 +1096,8 @@ use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 3f39ac8b (.)
 =======
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 
 /**
  * Azione per l'invio di SMS tramite Agile Telecom.
@@ -1164,6 +1179,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1351,6 +1367,8 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
     #[Override]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1460,6 +1478,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
         $res = app(SendAgiletelecomSMSv2Action::class)->execute($data);
 
         return $res;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1987,4 +2006,7 @@ class SendAgiletelecomSMSAction implements SmsActionContract
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+    }
+>>>>>>> 888799d0 (.)
 }

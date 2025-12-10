@@ -75,6 +75,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -273,6 +274,8 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -300,6 +303,7 @@ class TwilioData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.twilio', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1014,6 +1018,8 @@ class TwilioData extends Data
 =======
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
             $data = Config::array('sms.drivers.twilio');
             self::$instance = self::from($data);
         }
@@ -1223,6 +1229,7 @@ class TwilioData extends Data
                     'Authorization' => 'Basic ' . base64_encode($this->account_sid . ':' . $this->auth_token),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 99ff506 (.)
 <<<<<<< HEAD
 >>>>>>> f1c9518b (.)
@@ -1236,6 +1243,7 @@ class TwilioData extends Data
 =======
 <<<<<<< HEAD
 >>>>>>> 0f07e6d (.)
+<<<<<<< HEAD
 >>>>>>> 4d2eb53e (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
 =======
@@ -1433,7 +1441,11 @@ class TwilioData extends Data
 >>>>>>> 3f39ac8b (.)
 =======
 =======
+>>>>>>> 888799d0 (.)
+=======
+>>>>>>> e11621f (.)
                     'Content-Type' => 'application/x-www-form-urlencoded',
+<<<<<<< HEAD
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
 =======
@@ -1625,6 +1637,8 @@ class TwilioData extends Data
                     'Content-Type' => 'application/x-www-form-urlencoded',
 >>>>>>> 4e2ebfb (.)
 >>>>>>> 4d2eb53e (.)
+=======
+>>>>>>> 888799d0 (.)
                 ];
         }
     }
