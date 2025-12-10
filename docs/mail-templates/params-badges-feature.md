@@ -588,6 +588,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 =======
 **Compatibilità**: Filament 3.x, Laravel 10+ 
@@ -646,6 +647,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
@@ -696,10 +698,13 @@ Badge: [user_name] [reset_link] [expiry_time]
 =======
 >>>>>>> dceba960 (.)
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 =======
 **Compatibilità**: Filament 3.x, Laravel 10+ 
 >>>>>>> d284d65 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +761,8 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 **Compatibilità**: Filament 3.x, Laravel 10+ 
@@ -846,6 +853,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 =======
 **Compatibilità**: Filament 4.x, Laravel 10+ 
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
@@ -1190,3 +1198,7 @@ Badge: [user_name] [reset_link] [expiry_time]
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
 # Convenzioni sui Percorsi 
 
 ## Regole Fondamentali
@@ -35,6 +38,7 @@
    - I namespace possono essere in PascalCase ma devono mappare correttamente alle directory lowercase
 
 2. **Struttura Directory Principale**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,12 +152,15 @@
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> b215d516b (.)
+=======
+>>>>>>> 848f79b79 (.)
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/` (ERRATO)
 
 3. **Struttura Directory Actions**
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/` (ERRATO)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,10 +219,13 @@
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
 
 4. **Struttura Directory Datas**
    - `/var/www/html/saluteora/laravel/Modules/Notify/app/Datas/` (CORRETTO)
    - `/var/www/html/saluteora/laravel/Modules/Notify/App/Datas/` (ERRATO)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -399,6 +409,8 @@
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> b215d516b (.)
+=======
+>>>>>>> 848f79b79 (.)
 
 ## Namespace vs Directory
 
@@ -412,6 +424,7 @@
 ## Errori Comuni da Evitare
 
 1. **Mai utilizzare la "A" maiuscola nel percorso fisico della directory app**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -670,6 +683,10 @@
    - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
    - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
 >>>>>>> b215d516b (.)
+=======
+   - ✅ CORRETTO: `/var/www/html/saluteora/laravel/Modules/Notify/app/Actions/`
+   - ❌ ERRATO: `/var/www/html/saluteora/laravel/Modules/Notify/App/Actions/`
+>>>>>>> 848f79b79 (.)
 
 2. **Mai aggiungere "App" nel namespace se non definito nel composer.json del modulo**
    - ✅ CORRETTO: `namespace Modules\Notify\Actions;`
@@ -701,6 +718,7 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -721,3 +739,5 @@ Questo significa che il namespace `Modules\Notify` mappa alla directory `app/` d
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)

@@ -246,6 +246,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e790eb33 (.)
@@ -453,6 +454,8 @@ declare(strict_types=1);
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -485,6 +488,8 @@ declare(strict_types=1);
 >>>>>>> c4bdacbf (.)
 =======
 >>>>>>> dceba960 (.)
+=======
+>>>>>>> bd804d67 (.)
 =======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
@@ -531,6 +536,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -543,6 +549,8 @@ declare(strict_types=1);
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -1165,6 +1173,7 @@ declare(strict_types=1);
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -1239,6 +1248,8 @@ declare(strict_types=1);
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -1255,6 +1266,7 @@ declare(strict_types=1);
  * | contains the "web" middleware group. Now create something great!
  * |
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1460,6 +1472,8 @@ declare(strict_types=1);
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 >>>>>>> e0d9c9be (.)
@@ -2565,9 +2579,12 @@ declare(strict_types=1);
 =======
 >>>>>>> dceba960 (.)
 =======
+>>>>>>> bd804d67 (.)
+=======
 =======
 =======
 >>>>>>> origin/develop
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2611,6 +2628,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 8e5817bc (.)
+=======
+>>>>>>> bd804d67 (.)
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -2621,6 +2640,7 @@ declare(strict_types=1);
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2670,6 +2690,7 @@ declare(strict_types=1);
 =======
 >>>>>>> dceba960 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -2680,6 +2701,10 @@ declare(strict_types=1);
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 >>>>>>> a12f125f4a (.)
 =======
 declare(strict_types=1);
@@ -2771,12 +2796,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -3092,6 +3120,8 @@ declare(strict_types=1);
 >>>>>>> 503981fd (.)
 =======
 >>>>>>> 7a2f131f (.)
+=======
+>>>>>>> bd804d67 (.)
 
 // Filament will handle all routes for this module
 >>>>>>> 954a7fa (.)

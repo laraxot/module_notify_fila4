@@ -582,6 +582,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -693,6 +694,7 @@ class WhatsAppTest extends TestCase
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> fdb24863 (rebase 210)
 =======
@@ -807,6 +809,8 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/project_docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/project_docs/notifications)
 - [Laravel Queues](https://laravel.com/project_docs/queues)
@@ -1063,6 +1067,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1715,10 +1720,14 @@ class WhatsAppTest extends TestCase
 =======
 >>>>>>> 712617d3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 848f79b79 (.)
 =======
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1787,6 +1796,8 @@ class WhatsAppTest extends TestCase
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
 - [Meta WhatsApp Business API](https://developers.facebook.com/docs/whatsapp/cloud-api)
 - [Laravel Notifications](https://laravel.com/docs/notifications)
 - [Laravel Queues](https://laravel.com/docs/queues)
@@ -1896,6 +1907,7 @@ class WhatsAppTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Cache](https://laravel.com/docs/cache) 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3009,11 +3021,15 @@ class WhatsAppTest extends TestCase
 - [Laravel Cache](https://laravel.com/docs/cache) 
 >>>>>>> 712617d3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 848f79b79 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache) 
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
@@ -3080,3 +3096,5 @@ class WhatsAppTest extends TestCase
 >>>>>>> 968ed47cd (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)

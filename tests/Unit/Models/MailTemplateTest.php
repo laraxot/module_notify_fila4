@@ -213,6 +213,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -251,6 +252,7 @@ use Tests\TestCase;
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
@@ -402,10 +404,15 @@ use function Safe\json_encode;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,6 +500,8 @@ use Tests\TestCase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 82ae73be (.)
 >>>>>>> 10292b60a (.)
@@ -815,6 +824,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -849,6 +859,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
@@ -856,6 +868,7 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Modules\Notify\Models\MailTemplate;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -902,6 +915,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -1059,6 +1074,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> e0d9c9be (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a12f125f4a (.)
 >>>>>>> bd804d67 (.)
 =======
@@ -1172,9 +1188,15 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> a12f125f4a (.)
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 848f79b79 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
 use Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1278,6 +1300,8 @@ use Tests\TestCase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1329,6 +1353,7 @@ use Tests\TestCase;
 =======
 >>>>>>> dceba960 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -1369,6 +1394,10 @@ use Tests\TestCase;
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Tests\TestCase;
@@ -1411,6 +1440,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1421,6 +1451,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -1578,6 +1610,7 @@ use Tests\TestCase;
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\MailTemplate;
@@ -2119,6 +2152,8 @@ use Tests\TestCase;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 
 class MailTemplateTest extends TestCase
 {

@@ -770,6 +770,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1184,6 +1185,10 @@ trait HasNotificationRateLimiting
 }
 =======
 >>>>>>> dceba960 (.)
+=======
+}
+=======
+>>>>>>> bd804d67 (.)
 <<<<<<< HEAD
 =======
 }
@@ -1384,6 +1389,7 @@ trait HasNotificationRateLimiting
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1396,6 +1402,8 @@ trait HasNotificationRateLimiting
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -1547,6 +1555,7 @@ trait HasNotificationRateLimiting
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 116df547 (.)
@@ -2143,3 +2152,5 @@ trait HasNotificationRateLimiting
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)

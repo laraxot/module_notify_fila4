@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Convenzioni di Naming per Filament 
 
 <<<<<<< HEAD
@@ -138,6 +139,10 @@ Questo documento definisce le convenzioni di naming standardizzate per i compone
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> b215d516b (.)
+=======
+# Convenzioni di Naming per Filament 
+
+>>>>>>> 848f79b79 (.)
 Questo documento definisce le convenzioni di naming standardizzate per i componenti Filament nel sistema SaluteOra, con particolare attenzione alle pagine e alle risorse.
 
 ## Convenzioni di Naming per Pagine Filament
@@ -291,6 +296,7 @@ Prima di ogni commit, verificare che:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -311,3 +317,5 @@ Prima di ogni commit, verificare che:
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)

@@ -251,6 +251,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -295,6 +296,7 @@ use Tests\TestCase;
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
@@ -469,10 +471,15 @@ use Tests\TestCase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +598,8 @@ use Tests\TestCase;
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> d3a8af4d5 (.)
+=======
+>>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -959,6 +968,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -999,6 +1009,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 =======
 >>>>>>> e0d9c9be (.)
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
@@ -1006,6 +1018,7 @@ use Tests\TestCase;
 use Tests\TestCase;
 use Modules\Notify\Models\NotifyThemeable;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1062,6 +1075,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> a12f125f4a (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -1340,6 +1355,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a12f125f4a (.)
 >>>>>>> bd804d67 (.)
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -1382,6 +1398,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
 use Tests\TestCase;
@@ -1480,6 +1498,7 @@ use Tests\TestCase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bf5d31b0f (.)
 =======
@@ -1508,6 +1527,8 @@ use Tests\TestCase;
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> 82ae73be (.)
@@ -1600,6 +1621,7 @@ use Tests\TestCase;
 >>>>>>> dceba960 (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1618,6 +1640,8 @@ use Tests\TestCase;
 =======
 >>>>>>> dceba960 (.)
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> b93ef594b4 (.)
 =======
 use Tests\TestCase;
@@ -1668,6 +1692,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1680,6 +1705,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -2133,6 +2160,7 @@ use Tests\TestCase;
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Modules\Notify\Models\NotifyThemeable;
@@ -2515,6 +2543,8 @@ use Tests\TestCase;
 >>>>>>> 4e2ebfb (.)
 >>>>>>> e0d9c9be (.)
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 
 class NotifyThemeableTest extends TestCase
 {
@@ -2846,6 +2876,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -3262,6 +3293,10 @@ class NotifyThemeableTest extends TestCase
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 =======
 >>>>>>> dceba960 (.)
+=======
+        $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
+=======
+>>>>>>> bd804d67 (.)
 <<<<<<< HEAD
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
@@ -3466,6 +3501,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -3478,6 +3514,8 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
@@ -3877,6 +3915,7 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 116df547 (.)
@@ -4225,6 +4264,8 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 
         $this->assertNotNull($found);
         $this->assertEquals($themeable->id, $found->id);
@@ -4747,6 +4788,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> e0d9c9be (.)
 =======
@@ -4886,6 +4928,8 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> dceba960 (.)
 =======
+>>>>>>> bd804d67 (.)
+=======
 <<<<<<< HEAD
 >>>>>>> 4689a827 (.)
 =======
@@ -5007,6 +5051,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -5185,6 +5230,8 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 8dc1f2ed6 (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 =======
@@ -5226,6 +5273,7 @@ class NotifyThemeableTest extends TestCase
 =======
 =======
 >>>>>>> 8e5817bc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
@@ -5269,6 +5317,10 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 
 
 
@@ -5276,6 +5328,7 @@ class NotifyThemeableTest extends TestCase
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5398,6 +5451,8 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 2641c2944 (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5557,6 +5612,7 @@ class NotifyThemeableTest extends TestCase
 =======
 >>>>>>> dceba960 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -5575,6 +5631,10 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 >>>>>>> a12f125f4a (.)
 =======
 >>>>>>> b93ef594b4 (.)
@@ -5624,6 +5684,7 @@ class NotifyThemeableTest extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -5636,6 +5697,8 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 >>>>>>> 3f537838 (.)
@@ -6211,6 +6274,7 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> laraxot/develop
@@ -6291,3 +6355,5 @@ class NotifyThemeableTest extends TestCase
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)

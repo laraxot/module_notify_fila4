@@ -253,6 +253,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -667,6 +668,10 @@ use Modules\Notify\Datas\TelegramData;
  *
 =======
 >>>>>>> dceba960 (.)
+=======
+ *
+=======
+>>>>>>> bd804d67 (.)
 <<<<<<< HEAD
 =======
  *
@@ -867,6 +872,7 @@ use Modules\Notify\Datas\TelegramData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -879,6 +885,8 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
  *
@@ -1030,6 +1038,7 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
  *
 >>>>>>> 116df547 (.)
@@ -1624,6 +1633,8 @@ use Modules\Notify\Datas\TelegramData;
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
  * Questa interfaccia definisce il contratto che tutte le implementazioni
  * di provider Telegram devono rispettare.
  */
@@ -1778,6 +1789,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -1836,6 +1848,8 @@ interface TelegramProviderActionInterface
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -2104,6 +2118,10 @@ interface TelegramProviderActionInterface
 }
 =======
 >>>>>>> dceba960 (.)
+=======
+}
+=======
+>>>>>>> bd804d67 (.)
 <<<<<<< HEAD
 =======
 }
@@ -2194,6 +2212,7 @@ interface TelegramProviderActionInterface
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2206,6 +2225,8 @@ interface TelegramProviderActionInterface
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> d09cb759 (.)
 =======
 }
@@ -2859,6 +2880,7 @@ interface TelegramProviderActionInterface
 >>>>>>> 7a2f131f (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -3211,3 +3233,5 @@ interface TelegramProviderActionInterface
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 848f79b79 (.)

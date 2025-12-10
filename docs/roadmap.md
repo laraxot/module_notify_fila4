@@ -985,6 +985,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1023,6 +1024,7 @@ Overall Module Completion: 60%
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -1171,6 +1173,8 @@ Overall Module Completion: 60%
 =======
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)* [roadmap.md](bashscripts/project_docs/roadmap.md)
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 * [roadmap.md](bashscripts/project_docs/roadmap.md)
@@ -2029,6 +2033,7 @@ Overall Module Completion: 60%
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 >>>>>>> d284d65 (.)
@@ -2091,6 +2096,7 @@ Overall Module Completion: 60%
 * [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 4fc21b78 (rebase 210)
 =======
@@ -2301,6 +2307,8 @@ Overall Module Completion: 60%
 =======
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
 
 # Roadmap Implementazione
 
@@ -2948,6 +2956,7 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2958,6 +2967,8 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 =======
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../docs/regole_collegamenti_documentazione.md).
 
@@ -3125,6 +3136,7 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 ## Collegamenti Completi
 >>>>>>> 712617d3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -3260,6 +3272,10 @@ Per contribuire alla documentazione, seguire le [Linee Guida](../../../docs/line
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../docs/README_links.md).
 Per contribuire alla documentazione, seguire le [Linee Guida](../../../project_docs/linee-guida-documentazione.md) e le [Regole dei Collegamenti](../../../project_docs/regole_collegamenti_documentazione.md).
@@ -3885,6 +3901,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -3895,6 +3912,8 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> a115e2aad (.)
 =======
 >>>>>>> 9cb55171f (.)
+=======
+>>>>>>> 848f79b79 (.)
 =======
 
 ## Collegamenti Completi
@@ -4137,6 +4156,7 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 Per una lista completa di tutti i collegamenti tra i README.md, consultare il file [README_links.md](../../../project_docs/README_links.md).
 >>>>>>> 712617d3 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
 =======
@@ -4274,6 +4294,10 @@ Per una lista completa di tutti i collegamenti tra i README.md, consultare il fi
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 
 
 ### Versione Incoming

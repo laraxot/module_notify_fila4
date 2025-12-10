@@ -175,6 +175,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f963d2c0 (.)
 =======
@@ -356,6 +357,7 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 >>>>>>> 712617d3 (.)
 =======
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -469,6 +471,8 @@ Risultato finale: `./vendor/bin/phpstan analyse Modules/Notify --memory-limit=2G
 =======
 >>>>>>> 712617d3 (.)
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
 # Notify Module - PHPStan Level 7 Fixes - Gennaio 2025
 
 ## 🔄 **Stato In Corso**
@@ -777,6 +781,7 @@ $decodedData = base64_decode($encodedData);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 12a7e2462 (.)
 =======
@@ -827,6 +832,8 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> b215d516b (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -890,6 +897,7 @@ $decodedData = base64_decode($encodedData);
 =======
 =======
 >>>>>>> b99af5a8 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -960,6 +968,11 @@ $decodedData = base64_decode($encodedData);
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 # Modulo Notify - Correzioni PHPStan Implementate
 
 ## Contesto
@@ -1175,6 +1188,7 @@ private static function processArray(array $data): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 75179b85 (.)
 =======
 <<<<<<< HEAD
@@ -1212,6 +1226,8 @@ private static function processArray(array $data): array
 >>>>>>> 9cb55171f (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> 75179b85 (.)
 =======
 >>>>>>> f963d2c0 (.)
@@ -1306,6 +1322,7 @@ private static function processArray(array $data): array
 >>>>>>> 9721a5b2 (.)
 =======
 >>>>>>> 712617d3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> d284d65 (.)
@@ -2507,3 +2524,8 @@ private static function processArray(array $data): array
 >>>>>>> b215d516b (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+=======
+>>>>>>> d284d65 (.)
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)

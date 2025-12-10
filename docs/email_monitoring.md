@@ -1185,6 +1185,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d09cb759 (.)
 =======
@@ -1373,6 +1374,7 @@ class MailMonitoringDebugger
 >>>>>>> b99af5a8 (.)
 =======
 >>>>>>> 9721a5b2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> bd804d67 (.)
@@ -1563,6 +1565,10 @@ class MailMonitoringDebugger
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> b215d516b (.)
+=======
+=======
+>>>>>>> bd804d67 (.)
+>>>>>>> 848f79b79 (.)
 - [Laravel Cache](https://laravel.com/docs/cache)
 - [Laravel Events](https://laravel.com/docs/events)
 - [Laravel Commands](https://laravel.com/docs/artisan) 
@@ -1734,6 +1740,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -1779,6 +1786,8 @@ class MailMonitoringDebugger
 =======
 >>>>>>> b215d516b (.)
 =======
+>>>>>>> 848f79b79 (.)
+=======
 >>>>>>> 31f5d28f (.)
 =======
 >>>>>>> d09cb759 (.)
@@ -1814,6 +1823,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> b99af5a8 (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> bd804d67 (.)
 =======
@@ -1966,6 +1976,10 @@ class MailMonitoringDebugger
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> bd804d67 (.)
+=======
+>>>>>>> 848f79b79 (.)
 - [Laravel Cache](https://laravel.com/project_docs/cache)
 - [Laravel Events](https://laravel.com/project_docs/events)
 - [Laravel Commands](https://laravel.com/project_docs/artisan) 
@@ -2055,6 +2069,7 @@ class MailMonitoringDebugger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 510809c6f (.)
 =======
@@ -2077,6 +2092,8 @@ class MailMonitoringDebugger
 >>>>>>> 7aae79847 (.)
 =======
 >>>>>>> 47bbf2b1c (.)
+=======
+>>>>>>> 848f79b79 (.)
 >>>>>>> 75179b85 (.)
 =======
 - [Laravel Cache](https://laravel.com/docs/cache)
@@ -2257,6 +2274,7 @@ class MailMonitoringDebugger
 =======
 >>>>>>> d284d65 (.)
 >>>>>>> bd804d67 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 116df547 (.)
 =======
@@ -2866,3 +2884,5 @@ class MailMonitoringDebugger
 >>>>>>> b215d516b (.)
 =======
 >>>>>>> 731b801a8 (.)
+=======
+>>>>>>> 848f79b79 (.)

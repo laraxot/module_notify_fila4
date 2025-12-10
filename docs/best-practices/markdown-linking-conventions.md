@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f2e64178 (.)
 =======
@@ -26,6 +27,8 @@
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
 # Convenzioni per i Collegamenti nei File Markdown
 
 ## Regola Fondamentale
@@ -37,6 +40,7 @@
 ### ❌ ERRATO: Percorsi Assoluti
 
 ```markdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326,6 +330,11 @@
 [Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
 [Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
 >>>>>>> b215d516b (.)
+=======
+[Convenzioni di Naming per le Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_NAMING_CONVENTION.md)
+[Chiarimento sulla Struttura delle Interfacce](/var/www/html/saluteora/laravel/Modules/Notify/docs/INTERFACE_STRUCTURE_CLARIFICATION.md)
+[Architettura dei Contratti](/var/www/html/saluteora/laravel/Modules/Notify/docs/CONTRACTS_ARCHITECTURE.md)
+>>>>>>> 848f79b79 (.)
 ```
 
 ### ✅ CORRETTO: Percorsi Relativi
@@ -348,6 +357,7 @@ Per collegamenti a documenti in altre directory:
 1. **Portabilità**: I percorsi relativi funzionano indipendentemente dalla posizione di installazione del progetto
 2. **Compatibilità tra ambienti**: I percorsi assoluti potrebbero non funzionare in ambienti diversi
 3. **Manutenibilità**: I percorsi relativi sono più facili da mantenere quando la struttura del progetto cambia
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,6 +477,8 @@ Per collegamenti a documenti in altre directory:
 >>>>>>> 47bbf2b1c (.)
 =======
 >>>>>>> b215d516b (.)
+=======
+>>>>>>> 848f79b79 (.)
 4. **Standard del progetto**: SaluteOra segue lo standard di utilizzare percorsi relativi in tutti i documenti Markdown
 
 ## Regole per i Collegamenti Relativi
@@ -497,6 +509,7 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5fd545e4 (.)
 =======
@@ -517,3 +530,5 @@ grep -r "\[.*\](/var" --include="*.md" /percorso/al/progetto
 >>>>>>> 23f115647 (.)
 =======
 >>>>>>> a115e2aad (.)
+=======
+>>>>>>> 848f79b79 (.)
