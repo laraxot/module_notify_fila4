@@ -238,6 +238,7 @@ use Illuminate\Support\Arr;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1487fe812 (.)
 =======
@@ -300,6 +301,8 @@ use Illuminate\Support\Arr;
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> ec4cda261 (.)
+=======
+>>>>>>> 13655a7ed (.)
 =======
 >>>>>>> 75179b85 (.)
 =======
@@ -1334,6 +1337,7 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 116df547 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 1619767d8 (.)
 =======
 >>>>>>> 8dc1f2ed6 (.)
@@ -1385,6 +1389,9 @@ use Illuminate\Support\Arr;
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> ec4cda261 (.)
+=======
+>>>>>>> 51182e3c (rebase 210)
+>>>>>>> 13655a7ed (.)
 use Illuminate\Support\Facades\Config;
 use Modules\Tenant\Services\TenantService;
 use Spatie\LaravelData\Data;
@@ -1430,6 +1437,7 @@ class GammuData extends Data
              * $data = TenantService::getConfig('sms');
              * $data = Arr::get($data, 'drivers.gammu', []);
              */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1760,6 +1768,8 @@ class GammuData extends Data
 >>>>>>> 848f79b79 (.)
 =======
 >>>>>>> ec4cda261 (.)
+=======
+>>>>>>> 13655a7ed (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -1954,6 +1964,8 @@ class GammuData extends Data
 =======
 >>>>>>> bd804d67 (.)
 =======
+>>>>>>> 51182e3c (rebase 210)
+=======
 use Spatie\LaravelData\Data;
 use Webmozart\Assert\Assert;
 use Illuminate\Support\Facades\Config;
@@ -1974,6 +1986,7 @@ class GammuData extends Data
             $data = TenantService::getConfig('sms');
             $data = Arr::get($data, 'drivers.gammu', []);
             */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2099,6 +2112,8 @@ class GammuData extends Data
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 848f79b79 (.)
+=======
+>>>>>>> 13655a7ed (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2577,6 +2592,7 @@ class GammuData extends Data
 =======
 >>>>>>> b19cd40 (.)
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -2927,6 +2943,8 @@ class GammuData extends Data
 =======
 >>>>>>> 116df547 (.)
 >>>>>>> ec4cda261 (.)
+=======
+>>>>>>> 13655a7ed (.)
             $data = Config::array('sms.drivers.gammu');
             self::$instance = self::from($data);
         }

@@ -482,6 +482,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -1589,6 +1590,7 @@
 >>>>>>> f16a5ca4 (rebase 210)
 =======
 >>>>>>> f5a88785 (rebase 210)
+<<<<<<< HEAD
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 1487fe812 (.)
@@ -1794,6 +1796,10 @@
 =======
 >>>>>>> f5a88785 (rebase 210)
 >>>>>>> 84881298a (.)
+=======
+=======
+>>>>>>> 51182e3c (rebase 210)
+>>>>>>> 13655a7ed (.)
 <?php
 
 declare(strict_types=1);
@@ -1802,6 +1808,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 </td>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2782,7 +2789,14 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 116df547 (.)
+<<<<<<< HEAD
 >>>>>>> ec4cda261 (.)
+=======
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 51182e3c (rebase 210)
+>>>>>>> 13655a7ed (.)
 </td>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4548,6 +4562,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -4710,6 +4725,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 84881298a (.)
 =======
+>>>>>>> 13655a7ed (.)
+=======
 >>>>>>> 82ae73be (.)
 =======
 >>>>>>> 207ac35e (.)
@@ -4800,6 +4817,7 @@ declare(strict_types=1);
 >>>>>>> e0d9c9be (.)
 =======
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> cb85c538 (rebase 210)
 =======
@@ -4900,10 +4918,13 @@ declare(strict_types=1);
 =======
 >>>>>>> e0d9c9be (.)
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> b19cd40 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5015,6 +5036,8 @@ declare(strict_types=1);
 >>>>>>> 2641c2944 (.)
 =======
 >>>>>>> 968ed47cd (.)
+=======
+>>>>>>> 13655a7ed (.)
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> 75179b85 (.)
@@ -5710,6 +5733,7 @@ declare(strict_types=1);
 >>>>>>> f5a88785 (rebase 210)
 =======
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 =======
 =======
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
@@ -7214,3 +7238,5 @@ declare(strict_types=1);
 <img border="0" src="{{ Request::getSchemeAndHttpHost() }}/img/spacer.gif" width="1" height="15" class="divider"><br>
 >>>>>>> f5a88785 (rebase 210)
 >>>>>>> 84881298a (.)
+=======
+>>>>>>> 13655a7ed (.)

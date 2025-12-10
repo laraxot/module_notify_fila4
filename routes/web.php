@@ -55,7 +55,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ec4cda261 (.)
+=======
+>>>>>>> 13655a7ed (.)
 declare(strict_types=1);
 
 =======
@@ -613,6 +616,7 @@ declare(strict_types=1);
 
 >>>>>>> 75179b85 (.)
 =======
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 4e2ebfb (.)
@@ -728,6 +732,8 @@ declare(strict_types=1);
 =======
 >>>>>>> 51182e3c (rebase 210)
 =======
+=======
+>>>>>>> 13655a7ed (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -806,6 +812,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce89c8bb (.)
 =======
@@ -830,6 +837,8 @@ declare(strict_types=1);
 >>>>>>> 460b8f5b (rebase 210)
 =======
 >>>>>>> cb85c538 (rebase 210)
+=======
+>>>>>>> 13655a7ed (.)
 =======
 >>>>>>> 82ae73be (.)
 =======
@@ -868,6 +877,7 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 =======
 >>>>>>> 229a065a (rebase 210)
 =======
@@ -917,6 +927,8 @@ declare(strict_types=1);
 =======
 =======
 >>>>>>> 2fc60436 (.)
+=======
+>>>>>>> 13655a7ed (.)
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -948,6 +960,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 13655a7ed (.)
 >>>>>>> b19cd40 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3188,6 +3203,7 @@ declare(strict_types=1);
 >>>>>>> 116df547 (.)
 
 // Filament will handle all routes for this module
+<<<<<<< HEAD
 >>>>>>> 954a7fa (.)
 >>>>>>> 51182e3c (rebase 210)
 =======
@@ -3200,10 +3216,15 @@ declare(strict_types=1);
 >>>>>>> 4e2ebfb (.)
 =======
 >>>>>>> 1c0eb9c7 (rebase 210)
+=======
+=======
+>>>>>>> b19cd40 (.)
+>>>>>>> 13655a7ed (.)
 
 // Filament will handle all routes for this module
 >>>>>>> 954a7fa (.)
 >>>>>>> 51182e3c (rebase 210)
+<<<<<<< HEAD
 =======
 
 // Filament will handle all routes for this module
@@ -3215,3 +3236,5 @@ declare(strict_types=1);
 >>>>>>> laraxot/develop
 =======
 >>>>>>> 301ad8b44 (.)
+=======
+>>>>>>> 13655a7ed (.)
