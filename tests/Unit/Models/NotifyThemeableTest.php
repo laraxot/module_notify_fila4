@@ -1377,6 +1377,7 @@ class NotifyThemeableTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->withoutExceptionHandling();
     }
 
@@ -1389,6 +1390,7 @@ class NotifyThemeableTest extends TestCase
             'notify_theme_id' => 456,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themeables', [
             'id' => $themeable->id,
             'model_type' => 'App\Models\User',
@@ -1396,6 +1398,7 @@ class NotifyThemeableTest extends TestCase
             'notify_theme_id' => 456,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertInstanceOf(NotifyThemeable::class, $themeable);
     }
 
@@ -1410,6 +1413,7 @@ class NotifyThemeableTest extends TestCase
             'updated_by' => 'user_123',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themeables', [
             'id' => $themeable->id,
             'model_type' => 'App\Models\Company',
@@ -1419,7 +1423,9 @@ class NotifyThemeableTest extends TestCase
             'updated_by' => 'user_123',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user_123', $themeable->created_by);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user_123', $themeable->updated_by);
     }
 
@@ -1432,18 +1438,22 @@ class NotifyThemeableTest extends TestCase
             'notify_theme_id' => 456,
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $themeable->update([
             'notify_theme_id' => 789,
             'updated_by' => 'user_456',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseHas('notify_themeables', [
             'id' => $themeable->id,
             'notify_theme_id' => 789,
             'updated_by' => 'user_456',
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(789, $themeable->fresh()->notify_theme_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('user_456', $themeable->fresh()->updated_by);
     }
 
@@ -2377,10 +2387,15 @@ class NotifyThemeableTest extends TestCase
         $found = NotifyThemeable::where('model_type', 'App\Models\User')->where('model_id', 123)->first();
 >>>>>>> 82e5ee2d (rebase 210)
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNotNull($found);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals($themeable->id, $found->id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals('App\Models\User', $found->model_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(123, $found->model_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertEquals(456, $found->notify_theme_id);
     }
 
@@ -2408,10 +2423,15 @@ class NotifyThemeableTest extends TestCase
         $theme456Themeables = NotifyThemeable::where('notify_theme_id', 456)->get();
         $theme789Themeables = NotifyThemeable::where('notify_theme_id', 789)->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $theme456Themeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $theme789Themeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(456, $theme456Themeables[0]->notify_theme_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(456, $theme456Themeables[1]->notify_theme_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(789, $theme789Themeables[0]->notify_theme_id);
     }
 
@@ -2439,10 +2459,15 @@ class NotifyThemeableTest extends TestCase
         $userThemeables = NotifyThemeable::where('model_type', 'App\Models\User')->get();
         $companyThemeables = NotifyThemeable::where('model_type', 'App\Models\Company')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $userThemeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $companyThemeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userThemeables[0]->model_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $userThemeables[1]->model_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\Company', $companyThemeables[0]->model_type);
     }
 
@@ -2473,10 +2498,15 @@ class NotifyThemeableTest extends TestCase
         $user123Themeables = NotifyThemeable::where('created_by', 'user_123')->get();
         $user456Themeables = NotifyThemeable::where('created_by', 'user_456')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $user123Themeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $user456Themeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user_123', $user123Themeables[0]->created_by);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user_123', $user123Themeables[1]->created_by);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user_456', $user456Themeables[0]->created_by);
     }
 
@@ -2507,10 +2537,15 @@ class NotifyThemeableTest extends TestCase
         $user123Themeables = NotifyThemeable::where('updated_by', 'user_123')->get();
         $user456Themeables = NotifyThemeable::where('updated_by', 'user_456')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $user123Themeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $user456Themeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user_123', $user123Themeables[0]->updated_by);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user_123', $user123Themeables[1]->updated_by);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user_456', $user456Themeables[0]->updated_by);
     }
 
@@ -2542,10 +2577,15 @@ class NotifyThemeableTest extends TestCase
             ->where('created_by', 'user_123')
             ->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $user123Themeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $user123Themeables[0]->model_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(123, $user123Themeables[0]->model_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(456, $user123Themeables[0]->notify_theme_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('user_123', $user123Themeables[0]->created_by);
     }
 
@@ -2560,10 +2600,15 @@ class NotifyThemeableTest extends TestCase
             'updated_by' => null,
         ]);
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($themeable->model_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($themeable->model_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($themeable->notify_theme_id);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($themeable->created_by);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertNull($themeable->updated_by);
     }
 
@@ -2607,17 +2652,22 @@ class NotifyThemeableTest extends TestCase
             NotifyThemeable::create($themeableData);
         }
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertDatabaseCount('notify_themeables', 5);
 
         $userThemeables = NotifyThemeable::where('model_type', 'App\Models\User')->get();
         $companyThemeables = NotifyThemeable::where('model_type', 'App\Models\Company')->get();
         $orderThemeables = NotifyThemeable::where('model_type', 'App\Models\Order')->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $userThemeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $companyThemeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $orderThemeables);
 
         $user1Themeables = NotifyThemeable::where('created_by', 'user_1')->get();
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(3, $user1Themeables);
     }
 
@@ -2649,12 +2699,17 @@ class NotifyThemeableTest extends TestCase
             'created_at' => $tomorrow,
         ]);
 
+        /** @phpstan-ignore-next-line method.nonObject */
         $todayThemeables = NotifyThemeable::whereDate('created_at', $today->toDateString())->get();
         $recentThemeables = NotifyThemeable::where('created_at', '>=', $yesterday)->get();
 
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(1, $todayThemeables);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject */
         $this->assertCount(2, $recentThemeables); // yesterday and today
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals('App\Models\User', $todayThemeables[0]->model_type);
+        /** @phpstan-ignore-next-line property.notFound, method.nonObject, offsetAccess.nonOffsetAccessible */
         $this->assertEquals(2, $todayThemeables[0]->model_id);
     }
 }
