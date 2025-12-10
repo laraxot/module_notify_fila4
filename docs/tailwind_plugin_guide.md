@@ -300,6 +300,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
 =======
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
@@ -934,6 +935,9 @@ module.exports = {
 - Documentare ogni plugin in `/docs` e `/Themes/One/project_docs/`.
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+=======
+- Documentare ogni plugin in `/docs` e `/Themes/One/docs/`.
+>>>>>>> cb5f23b0 (.)
 - Usare i plugin per pattern condivisi (bottoni, alert, badge, card, ecc.).
 - Versionare e testare i plugin per evitare regressioni.
 - Integrare plugin solo se realmente riutilizzati da più moduli/temi.
@@ -1102,6 +1106,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
 =======
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
@@ -1736,6 +1741,9 @@ module.exports = {
 - [Tailwind CSS Plugin Docs](https://tailwindcss.com/project_docs/plugins)
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+=======
+- [Tailwind CSS Plugin Docs](https://tailwindcss.com/docs/plugins)
+>>>>>>> cb5f23b0 (.)
 - [Webcrunch: Creare Plugin Tailwind](https://webcrunch.com/posts/create-a-tailwind-css-plugin-from-scratch)
 
 ---

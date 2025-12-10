@@ -153,6 +153,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -628,6 +629,8 @@
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
 # ==============================================
 # LARAXOT MODULE NOTIFY - .GITIGNORE
 # ==============================================
@@ -1210,10 +1213,6 @@ npm-debug.log
 =======
 >>>>>>> fbed41ac (.)
 vendor/
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d284d65 (.)
 /vendor/
 node_modules/
 /node_modules/
@@ -2098,6 +2097,7 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3340,6 +3340,8 @@ build/
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
 bootstrap/compiled.php
 app/storage/
 public/storage
@@ -3348,6 +3350,7 @@ public_html/storage
 public_html/hot
 storage/*.key
 .env
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3973,6 +3976,8 @@ storage/*.key
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
 .env.*
 !.env.example
 
@@ -5493,6 +5498,7 @@ public_html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b93ef594b4 (.)
 >>>>>>> d09cb759 (.)
 =======
@@ -6448,3 +6454,5 @@ cache/
 >>>>>>> origin/develop
 >>>>>>> d284d65 (.)
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)

@@ -155,6 +155,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -604,6 +605,8 @@
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -717,6 +720,7 @@ return [
         'confirmation' => 'Sei sicuro di voler inviare questo SMS?',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1863,3 +1867,5 @@ return array (
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)

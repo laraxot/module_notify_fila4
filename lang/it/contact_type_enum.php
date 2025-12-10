@@ -165,6 +165,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -924,6 +925,9 @@ return [
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+        'hex_color' => '#16a34a',
+>>>>>>> cb5f23b0 (.)
         'description' => 'Numero di telefono fisso',
     ],
     'mobile' => [
@@ -1088,6 +1092,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -1847,6 +1852,9 @@ return [
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+        'hex_color' => '#9333ea',
+>>>>>>> cb5f23b0 (.)
         'description' => 'Numero di telefono mobile',
     ],
     'email' => [
@@ -2011,6 +2019,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -2770,6 +2779,9 @@ return [
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+        'hex_color' => '#2563eb',
+>>>>>>> cb5f23b0 (.)
         'description' => 'Indirizzo email',
     ],
     'pec' => [
@@ -2934,6 +2946,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -3693,6 +3706,9 @@ return [
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+        'hex_color' => '#ea580c',
+>>>>>>> cb5f23b0 (.)
         'description' => 'Posta Elettronica Certificata',
     ],
     'whatsapp' => [
@@ -3857,6 +3873,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 207ac35e (.)
 =======
@@ -4616,6 +4633,9 @@ return [
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+        'hex_color' => '#25d366',
+>>>>>>> cb5f23b0 (.)
         'description' => 'Numero WhatsApp',
     ],
     'fax' => [
@@ -4777,6 +4797,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> d09cb759 (.)
@@ -5252,10 +5273,13 @@ return [
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
         'hex_color' => '#6b7280',
         'description' => 'Numero fax',
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6257,3 +6281,5 @@ return [
 >>>>>>> 59916c8f (.)
 =======
 >>>>>>> e790eb33 (.)
+=======
+>>>>>>> cb5f23b0 (.)
